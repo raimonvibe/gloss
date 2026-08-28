@@ -42,7 +42,9 @@ void main() {
       (choice) => choice.searchHaystack.contains('nederland'),
     );
     expect(hits, isNotEmpty);
-    expect(hits.first.country.iso2, 'NL');
+    // Every country on nl-NL carries 'Nederlands' in its haystack (AW, BE, NL,
+    // SR), so assert membership rather than ordering.
+    expect(hits.any((choice) => choice.country.iso2 == 'NL'), isTrue);
     expect(
       catalog.choices.where((c) => c.searchHaystack.contains('العربية')),
       isNotEmpty,
