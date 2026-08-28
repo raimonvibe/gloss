@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
-import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../state/settings_controller.dart';
@@ -233,23 +232,29 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
 /// language only when they have switched it on in the study; the engine
 /// drops that segment if the device has no voice for it.
 List<SpeechSegment> _readingOf(BuildContext context, WordEntry live) {
-  final segments = [SpeechSegment(live.spokenEntry)];
+  final englishOnly = [SpeechSegment(live.spokenEntry)];
   final settings = context.read<SettingsController>();
-  if (!settings.readTranslationAloud) return segments;
+  if (!settings.readTranslationAloud) return englishOnly;
 
   final info = settings.catalog.infoFor(
     settings.localeIdFor(View.of(context).platformDispatcher.locales),
   );
-  if (info == null || info.translationKey == 'en') return segments;
+  if (info == null || info.translationKey == 'en') return englishOnly;
 
-  final explanation = live.spokenExplanationWith(
-    SpeechTemplates.fromL10n(AppLocalizations.of(context)),
-  );
-  if (explanation.isEmpty) return segments;
+  final explanation = live.spokenExplanation;
+  if (explanation.isEmpty) return englishOnly;
 
+  // The English half shrinks to what only exists in English, so the two
+  // readings do not say the same thing twice.
   return [
-    ...segments,
-    SpeechSegment(explanation, languageTag: info.flutterLocale.toLanguageTag()),
+    SpeechSegment(live.spokenLemma),
+    SpeechSegment(
+      explanation,
+      languageTag: info.flutterLocale.toLanguageTag(),
+      // If the voice went missing since the switch was turned on, the
+      // reader still hears the explanation, in English.
+      fallback: live.english.spokenExplanationFallback,
+    ),
   ];
 }
 

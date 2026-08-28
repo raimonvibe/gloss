@@ -158,10 +158,14 @@ List<VoiceOption> englishVoiceOptions(Iterable<Map<dynamic, dynamic>> voices) {
 /// A [languageTag] of null means English, the lexicon's own language and the
 /// only one the lemma may be pronounced in.
 class SpeechSegment {
-  const SpeechSegment(this.text, {this.languageTag});
+  const SpeechSegment(this.text, {this.languageTag, this.fallback});
 
   final String text;
   final String? languageTag;
+
+  /// Spoken in English when the device has no voice for [languageTag].
+  /// Without one the segment is simply skipped.
+  final String? fallback;
 
   bool get isEnglish => languageTag == null;
 }
@@ -407,9 +411,18 @@ class TtsSpeechEngine implements SpeechEngine {
           await _speakAndWait(utterance);
         } else {
           final applied = await _useLanguage(segment.languageTag!);
-          // Rather than let the English voice mangle it, skip the segment.
-          if (!applied) continue;
-          await _speakAndWait(segment.text);
+          if (applied) {
+            await _speakAndWait(segment.text);
+          } else {
+            // Never let the English voice loose on translated text. Say the
+            // English version instead, or nothing at all.
+            final fallback = segment.fallback;
+            if (fallback == null || fallback.trim().isEmpty) continue;
+            await _lockToEnglish();
+            await _speakAndWait(
+              _useEnglishSsml ? wrapEnglishSsml(fallback) : fallback,
+            );
+          }
         }
         if (!_inSequence) break;
       }
@@ -500,6 +513,10 @@ class SilentSpeechEngine implements SpeechEngine {
       if (segment.text.trim().isEmpty) continue;
       if (!segment.isEnglish &&
           await voiceForLanguage(segment.languageTag!) == null) {
+        final fallback = segment.fallback;
+        if (fallback == null || fallback.trim().isEmpty) continue;
+        spokenSegments.add('en:$fallback');
+        lastSpoken = fallback;
         continue;
       }
       spokenSegments.add('${segment.languageTag ?? 'en'}:${segment.text}');

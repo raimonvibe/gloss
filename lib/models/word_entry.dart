@@ -175,12 +175,34 @@ class WordEntry {
         '${source.definition} ${templates.asIn(source.example)}';
   }
 
+  /// What the explanation segment says when it has to fall back to English.
+  String get spokenExplanationFallback => '$friendly $definition'.trim();
+
+  /// The half that exists only in English: the lemma, how to say it, what
+  /// kind of word it is, and the sentence it lives in. Spoken when the
+  /// explanation is about to follow in the reader's own language, so the
+  /// two readings do not repeat each other.
+  String get spokenLemma => spokenLemmaWith(SpeechTemplates.english);
+
+  String spokenLemmaWith(SpeechTemplates templates) {
+    final source = english;
+    final also = source.variants.isEmpty
+        ? ''
+        : ' ${templates.also(source.variants.join(', '))}';
+    return '$spokenWord ${source.partOfSpeech}.$also '
+        '${templates.asIn(source.example)}';
+  }
+
   /// The explanation in the reader's language, for a voice that speaks it.
   /// Empty when nothing was translated, so callers can drop the segment.
-  String spokenExplanationWith(SpeechTemplates templates) {
+  ///
+  /// The example gloss is left out on purpose: it keeps the English lemma
+  /// inside a translated sentence, and a French or Thai voice would mangle
+  /// that one word. The English example is read in the English half, and
+  /// the gloss is on the page to be read with the eyes.
+  String get spokenExplanation {
     if (translationSource == null) return '';
-    return '$friendly $definition '
-        '${exampleGloss == null ? '' : templates.asIn(exampleGloss!)}'.trim();
+    return '$friendly $definition'.trim();
   }
 
   String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);

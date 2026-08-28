@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:beautiful_words/data/word_repository.dart';
-import 'package:beautiful_words/l10n/speech_templates.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 
@@ -106,6 +105,7 @@ void main() {
 /// but only through a voice that actually speaks it.
 void _splitNarration() {
   group('split narration', () {
+    final localized = _entry.withOverlay(_dutch);
     const dutchVoices = [VoiceOption(name: 'nl-nl-x-dma-local', locale: 'nl-nl')];
 
     test('picks an exact locale match over a same-language one', () {
@@ -151,7 +151,7 @@ void _splitNarration() {
       ]);
     });
 
-    test('the translated segment is dropped, not mispronounced, with no voice',
+    test('a segment with no voice and no fallback is dropped, not mangled',
         () async {
       // A Burmese reader on a device with only an English voice.
       final engine = SilentSpeechEngine(
@@ -165,6 +165,26 @@ void _splitNarration() {
       expect(engine.spokenSegments, ['en:Edulcorate. verb.']);
     });
 
+    test('a missing voice falls back to English rather than losing the text',
+        () async {
+      final engine = SilentSpeechEngine(
+        voices: const [VoiceOption(name: 'en-us-x-sfg', locale: 'en-us')],
+      );
+      final speech = SpeechController(engine: engine);
+      await speech.speakSegments('entry:edulcorate', const [
+        SpeechSegment('Edulcorate. verb.'),
+        SpeechSegment(
+          'ချိုစေခြင်း',
+          languageTag: 'my-MM',
+          fallback: 'To take the bitterness out.',
+        ),
+      ]);
+      expect(engine.spokenSegments, [
+        'en:Edulcorate. verb.',
+        'en:To take the bitterness out.',
+      ]);
+    });
+
     test('empty segments never reach the engine', () async {
       final engine = SilentSpeechEngine(voices: dutchVoices);
       final speech = SpeechController(engine: engine);
@@ -176,12 +196,31 @@ void _splitNarration() {
     });
 
     test('an untranslated entry offers no explanation segment', () {
-      expect(_entry.spokenExplanationWith(SpeechTemplates.english), isEmpty);
-      final localized = _entry.withOverlay(_dutch);
-      expect(
-        localized.spokenExplanationWith(SpeechTemplates.english),
-        contains('bitterheid'),
-      );
+      expect(_entry.spokenExplanation, isEmpty);
+      expect(localized.spokenExplanation, contains('bitterheid'));
+    });
+
+    test('the two halves do not repeat each other', () {
+      // English half: lemma, how to say it, what kind of word, the sentence.
+      final english = localized.spokenLemma;
+      expect(english, contains('Edulcorate'));
+      expect(english, contains('verb'));
+      expect(english, contains('The editor edulcorated the review.'));
+      // …and none of the explanation, which the translated half carries.
+      expect(english, isNot(contains('To take the bitterness out.')));
+      expect(english, isNot(contains('To sweeten or purify.')));
+
+      final dutch = localized.spokenExplanation;
+      expect(dutch, contains('bitterheid'));
+      expect(dutch, contains('Zoeten'));
+    });
+
+    test('the translated half leaves out the gloss holding the English lemma',
+        () {
+      // 'De redacteur verzachtte…' keeps 'Edulcorate' inside a Dutch
+      // sentence; a Dutch voice would mangle it.
+      expect(localized.exampleGloss, isNotNull);
+      expect(localized.spokenExplanation, isNot(contains('redacteur')));
     });
   });
 }
