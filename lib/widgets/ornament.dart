@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import '../state/settings_controller.dart';
 import '../theme/app_fonts.dart';
 import '../theme/brand_colors.dart';
 
@@ -12,19 +14,25 @@ class PaperBackdrop extends StatelessWidget {
   Widget build(BuildContext context) {
     final brand = context.brand;
     final isDark = Theme.of(context).brightness == Brightness.dark;
+    final calm = context.select<SettingsController, bool>(
+      (settings) => settings.reduceMotion,
+    );
     return Stack(
       fit: StackFit.expand,
       children: [
         DecoratedBox(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: brand.pageGradient,
-            ),
+            color: calm ? brand.background : null,
+            gradient: calm
+                ? null
+                : LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: brand.pageGradient,
+                  ),
           ),
         ),
-        CustomPaint(painter: _GrainPainter(dark: isDark)),
+        if (!calm) CustomPaint(painter: _GrainPainter(dark: isDark)),
         child,
       ],
     );
@@ -57,6 +65,10 @@ class FlourishCorners extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final calm = context.select<SettingsController, bool>(
+      (settings) => settings.reduceMotion,
+    );
+    if (calm) return const SizedBox.shrink();
     final color = context.brand.accentGold.withValues(alpha: 0.55);
     return IgnorePointer(
       child: Stack(

@@ -333,4 +333,111 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get categoryArchaic => 'Lama & arkais';
+
+  @override
+  String get navStudy => 'Study';
+
+  @override
+  String get studyTitle => 'The study';
+
+  @override
+  String get studyCaption => 'reading, voice, and light';
+
+  @override
+  String get readingSection => 'Reading';
+
+  @override
+  String get readingCaption => 'how the page sits';
+
+  @override
+  String get textSize => 'Text size';
+
+  @override
+  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+
+  @override
+  String get smaller => 'Smaller';
+
+  @override
+  String get larger => 'Larger';
+
+  @override
+  String get autoplayPronunciation => 'Read a word aloud when it opens';
+
+  @override
+  String get reduceMotion => 'Calm the ornaments';
+
+  @override
+  String get reduceMotionCaption => 'fewer flourishes and gradients';
+
+  @override
+  String get voiceSection => 'Voice';
+
+  @override
+  String get voiceCaption => 'how Gloss reads aloud';
+
+  @override
+  String get chooseVoice => 'Voice';
+
+  @override
+  String get voiceDefault => 'Chosen for you';
+
+  @override
+  String get noOtherVoices =>
+      'No other English voices are installed on this device.';
+
+  @override
+  String get speechPace => 'Pace';
+
+  @override
+  String get slower => 'Slower';
+
+  @override
+  String get faster => 'Faster';
+
+  @override
+  String get hearIt => 'Hear it';
+
+  @override
+  String get lightSection => 'Light';
+
+  @override
+  String get lightCaption => 'parchment or candlelight';
+
+  @override
+  String get themeSystem => 'Match device';
+
+  @override
+  String get themeLight => 'Parchment';
+
+  @override
+  String get themeDark => 'Candlelight';
+
+  @override
+  String get tongueSection => 'Tongue';
+
+  @override
+  String get aboutSection => 'About';
+
+  @override
+  String get aboutCaption => 'the making of it';
+
+  @override
+  String versionLine(String version) {
+    return 'Gloss $version';
+  }
+
+  @override
+  String get openLicences => 'Open-source licences';
+
+  @override
+  String get shareGloss => 'Share Gloss';
+
+  @override
+  String get followTheMaker => 'Follow the maker';
+
+  @override
+  String couldNotOpenLink(String label) {
+    return 'Could not open $label.';
+  }
 }

@@ -204,5 +204,53 @@
   "categoryPeople": "People & Roles",
   "categoryObjects": "Objects & Things",
   "categoryEmotion": "Emotion",
-  "categoryArchaic": "Old & Archaic"
+  "categoryArchaic": "Old & Archaic",
+  "navStudy": "Study",
+  "studyTitle": "The study",
+  "studyCaption": "reading, voice, and light",
+  "readingSection": "Reading",
+  "readingCaption": "how the page sits",
+  "textSize": "Text size",
+  "textSizeSample": "Edulcorate — to sweeten, to soften.",
+  "smaller": "Smaller",
+  "larger": "Larger",
+  "autoplayPronunciation": "Read a word aloud when it opens",
+  "reduceMotion": "Calm the ornaments",
+  "reduceMotionCaption": "fewer flourishes and gradients",
+  "voiceSection": "Voice",
+  "voiceCaption": "how Gloss reads aloud",
+  "chooseVoice": "Voice",
+  "voiceDefault": "Chosen for you",
+  "noOtherVoices": "No other English voices are installed on this device.",
+  "speechPace": "Pace",
+  "slower": "Slower",
+  "faster": "Faster",
+  "hearIt": "Hear it",
+  "lightSection": "Light",
+  "lightCaption": "parchment or candlelight",
+  "themeSystem": "Match device",
+  "themeLight": "Parchment",
+  "themeDark": "Candlelight",
+  "tongueSection": "Tongue",
+  "aboutSection": "About",
+  "aboutCaption": "the making of it",
+  "versionLine": "Gloss {version}",
+  "@versionLine": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "openLicences": "Open-source licences",
+  "shareGloss": "Share Gloss",
+  "followTheMaker": "Follow the maker",
+  "couldNotOpenLink": "Could not open {label}.",
+  "@couldNotOpenLink": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  }
 }

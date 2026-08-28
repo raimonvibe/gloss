@@ -6,7 +6,7 @@ import 'branding.dart';
 import 'data/word_repository.dart';
 import 'l10n/app_localizations.dart';
 import 'screens/home_screen.dart';
-import 'screens/languages_screen.dart';
+import 'screens/study_screen.dart';
 import 'screens/lexicon_screen.dart';
 import 'screens/quiz_screen.dart';
 import 'state/progress_controller.dart';
@@ -62,6 +62,19 @@ class GlossApp extends StatelessWidget {
             theme: AppTheme.light(),
             darkTheme: AppTheme.dark(),
             themeMode: settings.themeMode,
+            // The reader's choice multiplies the platform's own setting, so
+            // someone who has already enlarged text system-wide keeps it —
+            // capped, because past 2x the parchment cards start to clip.
+            builder: (context, child) {
+              final media = MediaQuery.of(context);
+              final combined = media.textScaler.scale(1) * settings.textScale;
+              return MediaQuery(
+                data: media.copyWith(
+                  textScaler: TextScaler.linear(combined.clamp(1.0, 2.0)),
+                ),
+                child: child ?? const SizedBox.shrink(),
+              );
+            },
             home: const _LocaleBinder(child: AppShell()),
           );
         },
@@ -81,10 +94,21 @@ class _LocaleBinder extends StatefulWidget {
 
 class _LocaleBinderState extends State<_LocaleBinder> {
   String? _applied;
+  var _voiceApplied = false;
 
   @override
   Widget build(BuildContext context) {
     final settings = context.watch<SettingsController>();
+    if (!_voiceApplied) {
+      _voiceApplied = true;
+      final speech = context.read<SpeechController>();
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        speech.applyPreferences(
+          voiceName: settings.voiceName,
+          rate: settings.speechRate,
+        );
+      });
+    }
     final devices = View.of(context).platformDispatcher.locales;
     final key = settings.translationKeyFor(devices);
     if (_applied != key) {
@@ -152,12 +176,12 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
                   HomeScreen(
                     onOpenLexicon: () => _selectTab(1),
                     onOpenQuiz: () => _selectTab(2),
-                    onOpenLanguages: () => _selectTab(4),
+                    onOpenStudy: () => _selectTab(4),
                   ),
                   const LexiconScreen(),
                   const QuizScreen(),
                   const LexiconScreen(favoritesOnly: true),
-                  const LanguagesScreen(),
+                  const StudyScreen(),
                 ],
               ),
             ),
@@ -186,9 +210,9 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
                   label: l10n.navSaved,
                 ),
                 NavigationDestination(
-                  icon: const Icon(Icons.translate_outlined),
-                  selectedIcon: const Icon(Icons.translate),
-                  label: l10n.navLanguages,
+                  icon: const Icon(Icons.auto_stories_outlined),
+                  selectedIcon: const Icon(Icons.auto_stories),
+                  label: l10n.navStudy,
                 ),
               ],
             ),

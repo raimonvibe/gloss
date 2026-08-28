@@ -774,6 +774,210 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Old & Archaic'**
   String get categoryArchaic;
+
+  /// No description provided for @navStudy.
+  ///
+  /// In en, this message translates to:
+  /// **'Study'**
+  String get navStudy;
+
+  /// No description provided for @studyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The study'**
+  String get studyTitle;
+
+  /// No description provided for @studyCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'reading, voice, and light'**
+  String get studyCaption;
+
+  /// No description provided for @readingSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading'**
+  String get readingSection;
+
+  /// No description provided for @readingCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'how the page sits'**
+  String get readingCaption;
+
+  /// No description provided for @textSize.
+  ///
+  /// In en, this message translates to:
+  /// **'Text size'**
+  String get textSize;
+
+  /// No description provided for @textSizeSample.
+  ///
+  /// In en, this message translates to:
+  /// **'Edulcorate — to sweeten, to soften.'**
+  String get textSizeSample;
+
+  /// No description provided for @smaller.
+  ///
+  /// In en, this message translates to:
+  /// **'Smaller'**
+  String get smaller;
+
+  /// No description provided for @larger.
+  ///
+  /// In en, this message translates to:
+  /// **'Larger'**
+  String get larger;
+
+  /// No description provided for @autoplayPronunciation.
+  ///
+  /// In en, this message translates to:
+  /// **'Read a word aloud when it opens'**
+  String get autoplayPronunciation;
+
+  /// No description provided for @reduceMotion.
+  ///
+  /// In en, this message translates to:
+  /// **'Calm the ornaments'**
+  String get reduceMotion;
+
+  /// No description provided for @reduceMotionCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'fewer flourishes and gradients'**
+  String get reduceMotionCaption;
+
+  /// No description provided for @voiceSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice'**
+  String get voiceSection;
+
+  /// No description provided for @voiceCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'how Gloss reads aloud'**
+  String get voiceCaption;
+
+  /// No description provided for @chooseVoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice'**
+  String get chooseVoice;
+
+  /// No description provided for @voiceDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'Chosen for you'**
+  String get voiceDefault;
+
+  /// No description provided for @noOtherVoices.
+  ///
+  /// In en, this message translates to:
+  /// **'No other English voices are installed on this device.'**
+  String get noOtherVoices;
+
+  /// No description provided for @speechPace.
+  ///
+  /// In en, this message translates to:
+  /// **'Pace'**
+  String get speechPace;
+
+  /// No description provided for @slower.
+  ///
+  /// In en, this message translates to:
+  /// **'Slower'**
+  String get slower;
+
+  /// No description provided for @faster.
+  ///
+  /// In en, this message translates to:
+  /// **'Faster'**
+  String get faster;
+
+  /// No description provided for @hearIt.
+  ///
+  /// In en, this message translates to:
+  /// **'Hear it'**
+  String get hearIt;
+
+  /// No description provided for @lightSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get lightSection;
+
+  /// No description provided for @lightCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'parchment or candlelight'**
+  String get lightCaption;
+
+  /// No description provided for @themeSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'Match device'**
+  String get themeSystem;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In en, this message translates to:
+  /// **'Parchment'**
+  String get themeLight;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In en, this message translates to:
+  /// **'Candlelight'**
+  String get themeDark;
+
+  /// No description provided for @tongueSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Tongue'**
+  String get tongueSection;
+
+  /// No description provided for @aboutSection.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get aboutSection;
+
+  /// No description provided for @aboutCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'the making of it'**
+  String get aboutCaption;
+
+  /// No description provided for @versionLine.
+  ///
+  /// In en, this message translates to:
+  /// **'Gloss {version}'**
+  String versionLine(String version);
+
+  /// No description provided for @openLicences.
+  ///
+  /// In en, this message translates to:
+  /// **'Open-source licences'**
+  String get openLicences;
+
+  /// No description provided for @shareGloss.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Gloss'**
+  String get shareGloss;
+
+  /// No description provided for @followTheMaker.
+  ///
+  /// In en, this message translates to:
+  /// **'Follow the maker'**
+  String get followTheMaker;
+
+  /// No description provided for @couldNotOpenLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open {label}.'**
+  String couldNotOpenLink(String label);
 }
 
 class _AppLocalizationsDelegate

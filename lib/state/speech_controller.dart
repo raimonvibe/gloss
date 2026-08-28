@@ -110,12 +110,59 @@ bool get _isAndroid =>
 
 bool get _isIOS => !kIsWeb && defaultTargetPlatform == TargetPlatform.iOS;
 
+/// flutter_tts rates are 0..1 on Android and read as roughly half speed at
+/// 0.5. The shipped default is deliberate — 0.42, for unfamiliar words.
+const kMinSpeechRate = 0.25;
+const kMaxSpeechRate = 0.75;
+const kDefaultSpeechRate = 0.42;
+
+/// One installed English voice the reader may choose between.
+class VoiceOption {
+  const VoiceOption({required this.name, required this.locale});
+
+  final String name;
+  final String locale;
+
+  /// 'en-gb-x-gbb-local' → 'English (United Kingdom)' is beyond us, but the
+  /// raw locale plus a tidied name is enough to tell two voices apart.
+  String get label {
+    final tidy = name.replaceAll('_', ' ').replaceAll('#', ' ').trim();
+    return '$tidy · $locale';
+  }
+}
+
+/// English voices only, sorted so the likeliest pick sits first. The lexicon
+/// is English; offering a Dutch voice here would undo the language lock.
+List<VoiceOption> englishVoiceOptions(Iterable<Map<dynamic, dynamic>> voices) {
+  final seen = <String>{};
+  final options = <VoiceOption>[];
+  for (final voice in voices) {
+    final name = voice['name']?.toString();
+    final locale = voice['locale']?.toString();
+    if (name == null || locale == null) continue;
+    if (!isEnglishTtsLocale(locale)) continue;
+    if (!seen.add(name)) continue;
+    options.add(VoiceOption(name: name, locale: normalizeTtsLocale(locale)));
+  }
+  options.sort((a, b) {
+    final byLocale = a.locale.compareTo(b.locale);
+    return byLocale != 0 ? byLocale : a.name.compareTo(b.name);
+  });
+  return options;
+}
+
 /// Platform TTS. Tests inject [SilentSpeechEngine].
 abstract class SpeechEngine {
   void setCompletionHandler(VoidCallback handler);
   void setErrorHandler(void Function(dynamic message) handler);
   Future<void> speak(String text);
   Future<void> stop();
+
+  /// Installed English voices, or empty where the platform has no TTS.
+  Future<List<VoiceOption>> englishVoices();
+
+  /// [voiceName] of null returns the engine to its own best English pick.
+  Future<void> applyPreferences({String? voiceName, double? rate});
 }
 
 class TtsSpeechEngine implements SpeechEngine {
@@ -126,6 +173,8 @@ class TtsSpeechEngine implements SpeechEngine {
   final FlutterTts _tts = FlutterTts();
   late final Future<void> _ready;
   var _useEnglishSsml = false;
+  String? _preferredVoiceName;
+  double _rate = kDefaultSpeechRate;
 
   Future<void> _configure() async {
     try {
@@ -135,7 +184,7 @@ class TtsSpeechEngine implements SpeechEngine {
       if (_isAndroid) {
         await _preferGoogleEngine();
       }
-      await _tts.setSpeechRate(0.42);
+      await _tts.setSpeechRate(_rate);
       await _tts.setPitch(1.0);
       // flutter_tts Android init applies the *device* default voice (Dutch).
       // Lock English after that callback has finished.
@@ -181,12 +230,51 @@ class TtsSpeechEngine implements SpeechEngine {
 
     try {
       final voices = await _tts.getVoices;
-      if (voices is List) {
-        final voice = pickEnglishVoice(voices.whereType<Map>());
-        if (voice != null) {
-          await _tts.setVoice(voice);
-        }
+      if (voices is! List) return;
+      final english = voices.whereType<Map>();
+      final chosen = _chooseVoice(english);
+      if (chosen != null) {
+        await _tts.setVoice(chosen);
       }
+    } catch (_) {}
+  }
+
+  /// The reader's pick when it is still installed and still English,
+  /// otherwise the engine's own best guess.
+  Map<String, String>? _chooseVoice(Iterable<Map<dynamic, dynamic>> voices) {
+    final wanted = _preferredVoiceName;
+    if (wanted != null) {
+      for (final voice in voices) {
+        final name = voice['name']?.toString();
+        final locale = voice['locale']?.toString();
+        if (name == null || locale == null || name != wanted) continue;
+        if (!isEnglishTtsLocale(locale)) break;
+        return {'name': name, 'locale': locale};
+      }
+    }
+    return pickEnglishVoice(voices);
+  }
+
+  @override
+  Future<List<VoiceOption>> englishVoices() async {
+    await _ready;
+    try {
+      final voices = await _tts.getVoices;
+      if (voices is! List) return const [];
+      return englishVoiceOptions(voices.whereType<Map>());
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  @override
+  Future<void> applyPreferences({String? voiceName, double? rate}) async {
+    await _ready;
+    _preferredVoiceName = voiceName;
+    if (rate != null) _rate = rate;
+    try {
+      await _tts.setSpeechRate(_rate);
+      await _lockToEnglish();
     } catch (_) {}
   }
 
@@ -216,9 +304,24 @@ class TtsSpeechEngine implements SpeechEngine {
 }
 
 class SilentSpeechEngine implements SpeechEngine {
+  SilentSpeechEngine({this.voices = const []});
+
   String? lastSpoken;
   bool stopped = false;
   VoidCallback? onComplete;
+
+  final List<VoiceOption> voices;
+  String? appliedVoiceName;
+  double? appliedRate;
+
+  @override
+  Future<List<VoiceOption>> englishVoices() async => voices;
+
+  @override
+  Future<void> applyPreferences({String? voiceName, double? rate}) async {
+    appliedVoiceName = voiceName;
+    appliedRate = rate;
+  }
 
   @override
   void setCompletionHandler(VoidCallback handler) => onComplete = handler;
@@ -249,11 +352,25 @@ class SpeechController extends ChangeNotifier {
   final SpeechEngine _engine;
   bool _speaking = false;
   String? _activeKey;
+  List<VoiceOption>? _voices;
 
   bool get isSpeaking => _speaking;
   String? get activeKey => _activeKey;
 
+  /// Null until [loadVoices] has run at least once.
+  List<VoiceOption>? get voices => _voices;
+
   bool isSpeakingKey(String key) => _speaking && _activeKey == key;
+
+  Future<List<VoiceOption>> loadVoices() async {
+    final found = await _engine.englishVoices();
+    _voices = found;
+    notifyListeners();
+    return found;
+  }
+
+  Future<void> applyPreferences({String? voiceName, double? rate}) =>
+      _engine.applyPreferences(voiceName: voiceName, rate: rate);
 
   Future<void> toggle(String key, String text) async {
     if (isSpeakingKey(key)) {

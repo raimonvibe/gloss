@@ -9,11 +9,10 @@ import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
-import '../widgets/language_button.dart';
+import '../widgets/study_button.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
 import '../widgets/speak_button.dart';
-import '../widgets/theme_toggle.dart';
 import 'word_detail_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -21,12 +20,12 @@ class HomeScreen extends StatelessWidget {
     super.key,
     required this.onOpenLexicon,
     required this.onOpenQuiz,
-    this.onOpenLanguages,
+    this.onOpenStudy,
   });
 
   final VoidCallback onOpenLexicon;
   final VoidCallback onOpenQuiz;
-  final VoidCallback? onOpenLanguages;
+  final VoidCallback? onOpenStudy;
 
   @override
   Widget build(BuildContext context) {
@@ -46,9 +45,7 @@ class HomeScreen extends StatelessWidget {
                 Row(
                   children: [
                     const Spacer(),
-                    LanguageButton(onOpen: onOpenLanguages),
-                    const SizedBox(width: 8),
-                    const ThemeToggle(),
+                    StudyButton(onOpen: onOpenStudy),
                   ],
                 ),
                 const SizedBox(height: 12),

@@ -7,6 +7,8 @@ import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
+import '../state/settings_controller.dart';
+import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
@@ -15,10 +17,32 @@ import '../widgets/ornament.dart';
 import '../widgets/speak_button.dart';
 import '../widgets/theme_toggle.dart';
 
-class WordDetailScreen extends StatelessWidget {
+class WordDetailScreen extends StatefulWidget {
   const WordDetailScreen({super.key, required this.entry});
 
   final WordEntry entry;
+
+  @override
+  State<WordDetailScreen> createState() => _WordDetailScreenState();
+}
+
+class _WordDetailScreenState extends State<WordDetailScreen> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _autoplay());
+  }
+
+  /// "Read a word aloud when it opens" — the same English narration the
+  /// speak button produces.
+  void _autoplay() {
+    if (!mounted) return;
+    if (!context.read<SettingsController>().autoplayPronunciation) return;
+    final repo = context.read<WordRepository>();
+    final matches = repo.words.where((word) => word.id == widget.entry.id);
+    final live = matches.isEmpty ? widget.entry : matches.first;
+    context.read<SpeechController>().speak('entry:${live.id}', live.spokenEntry);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -26,9 +50,9 @@ class WordDetailScreen extends StatelessWidget {
     final progress = context.watch<ProgressController>();
     final repo = context.watch<WordRepository>();
     final l10n = AppLocalizations.of(context);
-    final saved = progress.favorites.contains(entry.id);
-    final matches = repo.words.where((word) => word.id == entry.id);
-    final live = matches.isEmpty ? entry : matches.first;
+    final saved = progress.favorites.contains(widget.entry.id);
+    final matches = repo.words.where((word) => word.id == widget.entry.id);
+    final live = matches.isEmpty ? widget.entry : matches.first;
 
     return StopSpeechOnExit(
       child: PaperBackdrop(

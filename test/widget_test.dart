@@ -19,6 +19,7 @@ import 'package:beautiful_words/widgets/card_surface.dart';
 import 'package:beautiful_words/widgets/etymology_card.dart';
 import 'package:beautiful_words/widgets/multiple_choice.dart';
 import 'package:beautiful_words/widgets/progress_tracker.dart';
+import 'package:beautiful_words/widgets/social_row.dart';
 import 'package:beautiful_words/widgets/speak_button.dart';
 import 'package:beautiful_words/widgets/theme_toggle.dart';
 
@@ -370,7 +371,7 @@ void main() {
     expect(speech.isSpeaking, isFalse);
   });
 
-  testWidgets('languages tab searches countries and persists a locale', (
+  testWidgets('study opens languages, searches, and persists a locale', (
     tester,
   ) async {
     SharedPreferences.setMockInitialValues({});
@@ -393,6 +394,9 @@ void main() {
     );
     await tester.pump();
 
+    // Languages now lives inside the study rather than on the nav bar.
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Languages'));
     await tester.pumpAndSettle();
     expect(find.text('the tongues'), findsOneWidget);
@@ -405,9 +409,61 @@ void main() {
     await tester.pumpAndSettle();
     expect(settings.savedLocaleId, 'nl-NL');
 
+    // Pop the pushed languages page before returning to the nav bar.
+    // Not pageBack(): it matches on the 'Back' tooltip, which is Dutch now.
+    await tester.tap(find.byType(BackButton));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Home'));
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(find.text('Begin een quiz'), 400);
     expect(find.text('Begin een quiz'), findsOneWidget);
+  });
+
+  testWidgets('study gathers reading, voice, light, and the maker\'s links', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(prefs);
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: ProgressController(prefs),
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    // The home header offers one control now, not a theme toggle plus a globe.
+    expect(find.byType(ThemeToggle), findsNothing);
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('The study'), findsOneWidget);
+    expect(find.text('Reading'), findsOneWidget);
+    expect(find.text('Voice'), findsWidgets);
+    expect(find.text('Light'), findsOneWidget);
+    expect(find.byType(SocialRow), findsOneWidget);
+
+    // Enlarging the text scales the whole app, not just the sample line.
+    final before = tester.firstWidget<Text>(find.text('The study'));
+    await tester.drag(find.byType(Slider).first, const Offset(200, 0));
+    await tester.pumpAndSettle();
+    expect(settings.textScale, greaterThan(1.0));
+    expect(
+      tester.firstWidget<Text>(find.text('The study')).runtimeType,
+      before.runtimeType,
+    );
+
+    // Calming the ornaments removes the corner flourishes.
+    await tester.tap(find.text('Calm the ornaments'));
+    await tester.pumpAndSettle();
+    expect(settings.reduceMotion, isTrue);
   });
 }
