@@ -3,10 +3,14 @@ import 'package:provider/provider.dart';
 
 import '../branding.dart';
 import '../data/word_repository.dart';
+import '../l10n/app_localizations.dart';
+import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
 import '../widgets/card_surface.dart';
+import '../widgets/english_lemma.dart';
+import '../widgets/language_button.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
 import '../widgets/speak_button.dart';
@@ -18,16 +22,19 @@ class HomeScreen extends StatelessWidget {
     super.key,
     required this.onOpenLexicon,
     required this.onOpenQuiz,
+    this.onOpenLanguages,
   });
 
   final VoidCallback onOpenLexicon;
   final VoidCallback onOpenQuiz;
+  final VoidCallback? onOpenLanguages;
 
   @override
   Widget build(BuildContext context) {
     final repo = context.watch<WordRepository>();
     final progress = context.watch<ProgressController>();
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     final today = repo.wordOfTheDay();
 
     return CustomScrollView(
@@ -37,10 +44,12 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(24, 28, 24, 8),
             child: Column(
               children: [
-                const Row(
+                Row(
                   children: [
-                    Spacer(),
-                    ThemeToggle(),
+                    const Spacer(),
+                    LanguageButton(onOpen: onOpenLanguages),
+                    const SizedBox(width: 8),
+                    const ThemeToggle(),
                   ],
                 ),
                 const SizedBox(height: 12),
@@ -52,11 +61,11 @@ class HomeScreen extends StatelessWidget {
                     height: 88,
                     fit: BoxFit.cover,
                     filterQuality: FilterQuality.high,
-                    semanticLabel: '${Branding.displayName} icon',
+                    semanticLabel: l10n.glossIcon,
                   ),
                 ),
                 const SizedBox(height: 14),
-                const ScriptCaption(Branding.tagline),
+                ScriptCaption(l10n.tagline),
                 const SizedBox(height: 8),
                 GradientText(
                   Branding.displayName,
@@ -68,7 +77,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  '${repo.words.length} rare, rich words from the ${Branding.lexiconName} lexicon — explained the way a friend would explain them, not a dictionary.',
+                  l10n.homeBlurb(repo.words.length, Branding.lexiconName),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 17,
@@ -86,8 +95,10 @@ class HomeScreen extends StatelessWidget {
             child: ProgressTracker(
               current: progress.explored.count,
               total: repo.words.length,
-              label:
-                  '${progress.explored.count} of ${repo.words.length} words explored',
+              label: l10n.wordsExplored(
+                progress.explored.count,
+                repo.words.length,
+              ),
             ),
           ),
         ),
@@ -108,13 +119,13 @@ class HomeScreen extends StatelessWidget {
               children: [
                 _ActionButton(
                   icon: Icons.menu_book_outlined,
-                  label: 'Explore the lexicon',
+                  label: l10n.exploreLexicon,
                   onTap: onOpenLexicon,
                 ),
                 const SizedBox(height: 12),
                 _ActionButton(
                   icon: Icons.quiz_outlined,
-                  label: 'Start a quiz',
+                  label: l10n.startQuiz,
                   filled: true,
                   onTap: onOpenQuiz,
                 ),
@@ -143,6 +154,7 @@ class _WordOfTheDay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     return GildedFrame(
       onTap: onOpen,
       child: Padding(
@@ -152,26 +164,35 @@ class _WordOfTheDay extends StatelessWidget {
           children: [
             Row(
               children: [
-                const Expanded(
+                Expanded(
                   child: ScriptCaption(
-                    'word of the day',
+                    l10n.wordOfTheDay,
                     textAlign: TextAlign.start,
                     fontSize: 26,
                   ),
                 ),
                 SpeakButton(
                   speechKey: 'wotd:${entry.id}',
-                  text: entry.spokenGlance,
+                  text: entry.spokenGlanceWith(
+                    SpeechTemplates.fromL10n(l10n),
+                  ),
                 ),
               ],
             ),
             const SizedBox(height: 8),
-            Text(entry.word, style: Theme.of(context).textTheme.headlineMedium),
-            Text(
-              entry.pronunciation,
-              style: TextStyle(
-                fontStyle: FontStyle.italic,
-                color: brand.foregroundMuted,
+            EnglishLemma(
+              child: Text(
+                entry.word,
+                style: Theme.of(context).textTheme.headlineMedium,
+              ),
+            ),
+            EnglishLemma(
+              child: Text(
+                entry.pronunciation,
+                style: TextStyle(
+                  fontStyle: FontStyle.italic,
+                  color: brand.foregroundMuted,
+                ),
               ),
             ),
             const SizedBox(height: 8),
@@ -185,7 +206,7 @@ class _WordOfTheDay extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             Text(
-              'Read the full entry →',
+              l10n.readFullEntry,
               style: TextStyle(color: brand.accentGold, fontSize: 14),
             ),
           ],

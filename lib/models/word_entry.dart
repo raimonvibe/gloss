@@ -1,3 +1,5 @@
+import '../l10n/speech_templates.dart';
+
 class WordRoot {
   const WordRoot({required this.form, required this.meaning});
 
@@ -8,6 +10,39 @@ class WordRoot {
     return WordRoot(
       form: json['form'] as String,
       meaning: json['meaning'] as String,
+    );
+  }
+
+  WordRoot withMeaning(String meaning) => WordRoot(form: form, meaning: meaning);
+}
+
+class WordOverlay {
+  const WordOverlay({
+    this.partOfSpeech,
+    this.definition,
+    this.friendly,
+    this.exampleGloss,
+    this.origin,
+    this.rootMeanings = const [],
+  });
+
+  final String? partOfSpeech;
+  final String? definition;
+  final String? friendly;
+  final String? exampleGloss;
+  final String? origin;
+  final List<String> rootMeanings;
+
+  factory WordOverlay.fromJson(Map<String, dynamic> json) {
+    return WordOverlay(
+      partOfSpeech: json['partOfSpeech'] as String?,
+      definition: json['definition'] as String?,
+      friendly: json['friendly'] as String?,
+      exampleGloss: json['exampleGloss'] as String?,
+      origin: json['origin'] as String?,
+      rootMeanings: (json['rootMeanings'] as List<dynamic>? ?? const [])
+          .map((e) => e.toString())
+          .toList(),
     );
   }
 }
@@ -26,6 +61,7 @@ class WordEntry {
     required this.originWord,
     required this.roots,
     this.variants = const [],
+    this.exampleGloss,
   });
 
   final String id;
@@ -36,6 +72,7 @@ class WordEntry {
   final String definition;
   final String friendly;
   final String example;
+  final String? exampleGloss;
   final List<String> tags;
   final String origin;
   final String originWord;
@@ -62,6 +99,31 @@ class WordEntry {
     );
   }
 
+  WordEntry withOverlay(WordOverlay? overlay) {
+    if (overlay == null) return this;
+    final meanings = overlay.rootMeanings;
+    return WordEntry(
+      id: id,
+      word: word,
+      variants: variants,
+      partOfSpeech: overlay.partOfSpeech ?? partOfSpeech,
+      pronunciation: pronunciation,
+      definition: overlay.definition ?? definition,
+      friendly: overlay.friendly ?? friendly,
+      example: example,
+      exampleGloss: overlay.exampleGloss ?? exampleGloss,
+      tags: tags,
+      origin: overlay.origin ?? origin,
+      originWord: originWord,
+      roots: [
+        for (var i = 0; i < roots.length; i++)
+          roots[i].withMeaning(
+            i < meanings.length ? meanings[i] : roots[i].meaning,
+          ),
+      ],
+    );
+  }
+
   String get searchable {
     return [
       word,
@@ -71,6 +133,7 @@ class WordEntry {
       definition,
       friendly,
       example,
+      if (exampleGloss != null) exampleGloss!,
       origin,
       originWord,
       ...tags,
@@ -83,25 +146,33 @@ class WordEntry {
 
   String get spokenWord => '$word. $spokenPronunciation.';
 
-  String get spokenGlance => '$spokenWord $friendly';
+  String get spokenGlance => spokenGlanceWith(SpeechTemplates.english);
 
-  String get spokenEntry {
-    final also = variants.isEmpty ? '' : ' Also ${variants.join(', ')}.';
-    return '$spokenWord $partOfSpeech.$also $friendly $definition As in: $example';
+  String spokenGlanceWith(SpeechTemplates templates) =>
+      '$spokenWord $friendly';
+
+  String get spokenEntry => spokenEntryWith(SpeechTemplates.english);
+
+  String spokenEntryWith(SpeechTemplates templates) {
+    final also =
+        variants.isEmpty ? '' : ' ${templates.also(variants.join(', '))}';
+    return '$spokenWord $partOfSpeech.$also $friendly $definition ${templates.asIn(example)}';
   }
 
-  /// Quiz prompt: word and roots only — never the definition.
-  String get spokenPrompt {
+  String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);
+
+  String spokenPromptWith(SpeechTemplates templates) {
     final rootLine = roots
-        .map((r) => '${r.form}, meaning ${r.meaning}')
+        .map((r) => templates.rootMeaning(r.form, r.meaning))
         .join('. ');
     final rootsPart = rootLine.isEmpty ? '' : ' $rootLine.';
-    return '$spokenWord From $origin, $originWord.$rootsPart';
+    return '$spokenWord ${templates.fromOrigin(origin, originWord)}$rootsPart';
   }
 
-  String spokenQuiz({required bool revealed}) {
-    if (!revealed) return spokenPrompt;
-    return '$spokenPrompt In plain words: $friendly';
+  String spokenQuiz({required bool revealed, SpeechTemplates? templates}) {
+    final copy = templates ?? SpeechTemplates.english;
+    if (!revealed) return spokenPromptWith(copy);
+    return '${spokenPromptWith(copy)} ${copy.inPlainWords(friendly)}';
   }
 }
 

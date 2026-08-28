@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/word_repository.dart';
+import '../l10n/app_localizations.dart';
+import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
@@ -34,6 +36,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
     final repo = context.watch<WordRepository>();
     final progress = context.watch<ProgressController>();
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     final results = repo.search(
       query: _query.text,
       tags: _selectedTags.toList(),
@@ -51,11 +54,15 @@ class _LexiconScreenState extends State<LexiconScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      widget.favoritesOnly ? 'Saved words' : 'The lexicon',
+                      widget.favoritesOnly
+                          ? l10n.savedTitle
+                          : l10n.lexiconTitle,
                       style: Theme.of(context).textTheme.headlineSmall,
                     ),
                     ScriptCaption(
-                      widget.favoritesOnly ? 'kept close' : 'the gathering',
+                      widget.favoritesOnly
+                          ? l10n.savedCaption
+                          : l10n.lexiconCaption,
                       textAlign: TextAlign.start,
                       fontSize: 24,
                     ),
@@ -79,14 +86,14 @@ class _LexiconScreenState extends State<LexiconScreen> {
                   child: TextField(
                     controller: _query,
                     onChanged: (_) => setState(() {}),
-                    decoration: const InputDecoration(
-                      hintText: 'Search a word, or describe its meaning…',
+                    decoration: InputDecoration(
+                      hintText: l10n.searchHint,
                     ),
                   ),
                 ),
                 if (_query.text.isNotEmpty)
                   IconButton(
-                    tooltip: 'Clear search',
+                    tooltip: l10n.clearSearch,
                     onPressed: () {
                       _query.clear();
                       setState(() {});
@@ -106,7 +113,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               children: [
                 _TagChip(
-                  label: 'All',
+                  label: l10n.filterAll,
                   selected: _selectedTags.isEmpty,
                   onTap: () => setState(_selectedTags.clear),
                 ),
@@ -115,7 +122,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
                   (cat) => Padding(
                     padding: const EdgeInsets.only(right: 8),
                     child: _TagChip(
-                      label: cat.label,
+                      label: localizedCategoryLabel(l10n, cat.id),
                       selected: _selectedTags.contains(cat.id),
                       wine: true,
                       onTap: () => setState(() {
@@ -136,8 +143,8 @@ class _LexiconScreenState extends State<LexiconScreen> {
               alignment: Alignment.centerLeft,
               child: Text(
                 results.isEmpty
-                    ? 'No matches yet — try a different word or feeling.'
-                    : '${results.length} match${results.length == 1 ? '' : 'es'}',
+                    ? l10n.noMatches
+                    : l10n.matchCount(results.length),
                 style: TextStyle(color: brand.foregroundMuted, fontSize: 13),
               ),
             ),
@@ -150,12 +157,12 @@ class _LexiconScreenState extends State<LexiconScreen> {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        const ScriptCaption('nothing here'),
+                        ScriptCaption(l10n.nothingHere),
                         const SizedBox(height: 8),
                         Text(
                           widget.favoritesOnly
-                              ? 'No saved words yet. Tap the heart on any entry.'
-                              : 'Nothing in this corner of the lexicon.',
+                              ? l10n.emptySaved
+                              : l10n.emptyLexicon,
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: brand.foregroundMuted,

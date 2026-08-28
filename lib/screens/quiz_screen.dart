@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/word_repository.dart';
+import '../l10n/app_localizations.dart';
+import '../l10n/speech_templates.dart';
 import '../state/progress_controller.dart';
 import '../state/quiz_controller.dart';
 import '../state/speech_controller.dart';
@@ -43,6 +45,7 @@ class _QuizSetupState extends State<_QuizSetup> {
   Widget build(BuildContext context) {
     final brand = context.brand;
     final repo = context.watch<WordRepository>();
+    final l10n = AppLocalizations.of(context);
     return ListView(
       padding: const EdgeInsets.fromLTRB(24, 20, 24, 40),
       children: [
@@ -50,7 +53,7 @@ class _QuizSetupState extends State<_QuizSetup> {
           children: [
             Expanded(
               child: Text(
-                'A little quiz',
+                l10n.quizTitle,
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
             ),
@@ -58,15 +61,15 @@ class _QuizSetupState extends State<_QuizSetup> {
           ],
         ),
         const SizedBox(height: 8),
-        const ScriptCaption('know the roots, then choose the meaning'),
+        ScriptCaption(l10n.quizCaption),
         const SizedBox(height: 16),
         Text(
-          'Each question shows a word and its etymology. Pick the definition that fits — four choices, one true.',
+          l10n.quizIntro,
           style: TextStyle(fontSize: 16, height: 1.4, color: brand.foregroundMuted),
         ),
         const DividerFlourish(),
-        const ScriptCaption(
-          'how many words',
+        ScriptCaption(
+          l10n.howManyWords,
           textAlign: TextAlign.start,
           fontSize: 26,
         ),
@@ -96,10 +99,10 @@ class _QuizSetupState extends State<_QuizSetup> {
                 borderRadius: BorderRadius.circular(999),
                 gradient: LinearGradient(colors: brand.heroGradient),
               ),
-              child: const Text(
-                'Begin',
+              child: Text(
+                l10n.begin,
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w700,
                   fontSize: 16,
@@ -117,7 +120,7 @@ class _QuizSetupState extends State<_QuizSetup> {
               ),
             );
           },
-          child: const Text('Quiz by theme'),
+          child: Text(l10n.quizByTheme),
         ),
       ],
     );
@@ -169,48 +172,50 @@ class _QuizPlay extends StatelessWidget {
     final quiz = context.watch<QuizController>();
     final question = quiz.current!;
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
 
     return Column(
       children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
-              child: Row(
-                children: [
-                  IconButton(
-                    tooltip: 'End quiz',
-                    onPressed: () {
-                      context.read<SpeechController>().stop();
-                      context.read<QuizController>().reset();
-                    },
-                    icon: Icon(Icons.close, color: brand.foregroundMuted),
-                  ),
-                  Expanded(
-                    child: ProgressTracker(
-                      current: quiz.index + (quiz.hasAnsweredCurrent ? 1 : 0),
-                      total: quiz.length,
-                      label: 'Question ${quiz.index + 1} of ${quiz.length}',
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  SpeakButton(
-                    speechKey: 'quiz:${question.word.id}:${quiz.index}',
-                    text: question.word.spokenQuiz(
-                      revealed: quiz.hasAnsweredCurrent,
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  const ThemeToggle(),
-                ],
+        Padding(
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+          child: Row(
+            children: [
+              IconButton(
+                tooltip: l10n.endQuiz,
+                onPressed: () {
+                  context.read<SpeechController>().stop();
+                  context.read<QuizController>().reset();
+                },
+                icon: Icon(Icons.close, color: brand.foregroundMuted),
               ),
-            ),
+              Expanded(
+                child: ProgressTracker(
+                  current: quiz.index + (quiz.hasAnsweredCurrent ? 1 : 0),
+                  total: quiz.length,
+                  label: l10n.questionOf(quiz.index + 1, quiz.length),
+                ),
+              ),
+              const SizedBox(width: 8),
+              SpeakButton(
+                speechKey: 'quiz:${question.word.id}:${quiz.index}',
+                text: question.word.spokenQuiz(
+                  revealed: quiz.hasAnsweredCurrent,
+                  templates: SpeechTemplates.fromL10n(l10n),
+                ),
+              ),
+              const SizedBox(width: 8),
+              const ThemeToggle(),
+            ],
+          ),
+        ),
         Expanded(
           child: ListView(
             padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
             children: [
               EtymologyCard(entry: question.word, compact: true),
               const SizedBox(height: 18),
-              const ScriptCaption(
-                'which definition fits?',
+              ScriptCaption(
+                l10n.whichDefinitionFits,
                 textAlign: TextAlign.start,
                 fontSize: 26,
               ),
@@ -233,8 +238,8 @@ class _QuizPlay extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const ScriptCaption(
-                        'in plain words',
+                      ScriptCaption(
+                        l10n.inPlainWords,
                         textAlign: TextAlign.start,
                         fontSize: 26,
                       ),
@@ -273,7 +278,7 @@ class _QuizPlay extends StatelessWidget {
                       side: BorderSide(color: brand.cardBorder),
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: const Text('Previous'),
+                    child: Text(l10n.previous),
                   ),
                 ),
                 const SizedBox(width: 12),
@@ -286,7 +291,7 @@ class _QuizPlay extends StatelessWidget {
                       backgroundColor: brand.accentGold,
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: Text(quiz.isLast ? 'See results' : 'Next'),
+                    child: Text(quiz.isLast ? l10n.seeResults : l10n.next),
                   ),
                 ),
               ],

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'branding.dart';
 import 'data/word_repository.dart';
+import 'l10n/app_localizations.dart';
 import 'screens/home_screen.dart';
+import 'screens/languages_screen.dart';
 import 'screens/lexicon_screen.dart';
 import 'screens/quiz_screen.dart';
 import 'state/progress_controller.dart';
@@ -35,25 +38,63 @@ class GlossApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider.value(value: settings),
         ChangeNotifierProvider.value(value: progress),
+        ChangeNotifierProvider.value(value: repository),
         ChangeNotifierProvider(create: (_) => quiz ?? QuizController()),
         ChangeNotifierProvider(
           create: (_) => speech ?? SpeechController(),
         ),
-        Provider.value(value: repository),
       ],
       child: Consumer<SettingsController>(
         builder: (context, settings, _) {
+          final devices = View.maybeOf(context)?.platformDispatcher.locales ??
+              WidgetsBinding.instance.platformDispatcher.locales;
           return MaterialApp(
             title: Branding.displayName,
             debugShowCheckedModeBanner: false,
+            locale: settings.localeFor(devices),
+            supportedLocales: settings.catalog.supportedLocales,
+            localizationsDelegates: const [
+              AppLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
             theme: AppTheme.light(),
             darkTheme: AppTheme.dark(),
             themeMode: settings.themeMode,
-            home: const AppShell(),
+            home: const _LocaleBinder(child: AppShell()),
           );
         },
       ),
     );
+  }
+}
+
+class _LocaleBinder extends StatefulWidget {
+  const _LocaleBinder({required this.child});
+
+  final Widget child;
+
+  @override
+  State<_LocaleBinder> createState() => _LocaleBinderState();
+}
+
+class _LocaleBinderState extends State<_LocaleBinder> {
+  String? _applied;
+
+  @override
+  Widget build(BuildContext context) {
+    final settings = context.watch<SettingsController>();
+    final devices = View.of(context).platformDispatcher.locales;
+    final key = settings.translationKeyFor(devices);
+    if (_applied != key) {
+      _applied = key;
+      final repo = context.read<WordRepository>();
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        repo.applyLocale(key);
+      });
+    }
+    return widget.child;
   }
 }
 
@@ -97,6 +138,7 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return PaperBackdrop(
       child: Stack(
         children: [
@@ -110,36 +152,43 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
                   HomeScreen(
                     onOpenLexicon: () => _selectTab(1),
                     onOpenQuiz: () => _selectTab(2),
+                    onOpenLanguages: () => _selectTab(4),
                   ),
                   const LexiconScreen(),
                   const QuizScreen(),
                   const LexiconScreen(favoritesOnly: true),
+                  const LanguagesScreen(),
                 ],
               ),
             ),
             bottomNavigationBar: NavigationBar(
               selectedIndex: _index,
               onDestinationSelected: _selectTab,
-              destinations: const [
+              destinations: [
                 NavigationDestination(
-                  icon: Icon(Icons.home_outlined),
-                  selectedIcon: Icon(Icons.home),
-                  label: 'Home',
+                  icon: const Icon(Icons.home_outlined),
+                  selectedIcon: const Icon(Icons.home),
+                  label: l10n.navHome,
                 ),
                 NavigationDestination(
-                  icon: Icon(Icons.menu_book_outlined),
-                  selectedIcon: Icon(Icons.menu_book),
-                  label: 'Lexicon',
+                  icon: const Icon(Icons.menu_book_outlined),
+                  selectedIcon: const Icon(Icons.menu_book),
+                  label: l10n.navLexicon,
                 ),
                 NavigationDestination(
-                  icon: Icon(Icons.quiz_outlined),
-                  selectedIcon: Icon(Icons.quiz),
-                  label: 'Quiz',
+                  icon: const Icon(Icons.quiz_outlined),
+                  selectedIcon: const Icon(Icons.quiz),
+                  label: l10n.navQuiz,
                 ),
                 NavigationDestination(
-                  icon: Icon(Icons.favorite_border),
-                  selectedIcon: Icon(Icons.favorite),
-                  label: 'Saved',
+                  icon: const Icon(Icons.favorite_border),
+                  selectedIcon: const Icon(Icons.favorite),
+                  label: l10n.navSaved,
+                ),
+                NavigationDestination(
+                  icon: const Icon(Icons.translate_outlined),
+                  selectedIcon: const Icon(Icons.translate),
+                  label: l10n.navLanguages,
                 ),
               ],
             ),

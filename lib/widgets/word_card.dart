@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
+import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../theme/brand_colors.dart';
 import 'card_surface.dart';
+import 'english_lemma.dart';
 import 'speak_button.dart';
 
 class WordCard extends StatelessWidget {
@@ -22,6 +25,7 @@ class WordCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     return CardSurface(
       onTap: onOpen,
       child: Column(
@@ -34,25 +38,43 @@ class WordCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      entry.word,
-                      style: Theme.of(context).textTheme.titleLarge,
+                    EnglishLemma(
+                      child: Text(
+                        entry.word,
+                        style: Theme.of(context).textTheme.titleLarge,
+                      ),
                     ),
                     const SizedBox(height: 2),
-                    Text(
-                      '${entry.pronunciation}  ·  ${entry.partOfSpeech}',
-                      style: TextStyle(
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12,
-                        color: brand.foregroundMuted,
-                      ),
+                    Wrap(
+                      crossAxisAlignment: WrapCrossAlignment.center,
+                      children: [
+                        EnglishLemma(
+                          child: Text(
+                            entry.pronunciation,
+                            style: TextStyle(
+                              fontStyle: FontStyle.italic,
+                              fontSize: 12,
+                              color: brand.foregroundMuted,
+                            ),
+                          ),
+                        ),
+                        Text(
+                          '  ·  ${entry.partOfSpeech}',
+                          style: TextStyle(
+                            fontStyle: FontStyle.italic,
+                            fontSize: 12,
+                            color: brand.foregroundMuted,
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
               ),
               IconButton(
                 onPressed: onToggleFavorite,
-                tooltip: isFavorite ? 'Remove from favorites' : 'Save word',
+                tooltip:
+                    isFavorite ? l10n.removeFromFavorites : l10n.saveWord,
                 icon: Icon(
                   isFavorite ? Icons.favorite : Icons.favorite_border,
                   color: isFavorite ? brand.accentWine : brand.foregroundMuted,
@@ -61,7 +83,7 @@ class WordCard extends StatelessWidget {
               SpeakButton(
                 compact: true,
                 speechKey: 'card:${entry.id}',
-                text: entry.spokenGlance,
+                text: entry.spokenGlanceWith(SpeechTemplates.fromL10n(l10n)),
               ),
             ],
           ),
@@ -78,7 +100,7 @@ class WordCard extends StatelessWidget {
           ),
           const SizedBox(height: 10),
           Text(
-            'Tap to read more',
+            l10n.tapToReadMore,
             style: TextStyle(fontSize: 13, color: brand.accentGold),
           ),
         ],

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../l10n/app_localizations.dart';
 import '../state/settings_controller.dart';
 import '../theme/brand_colors.dart';
 
@@ -15,8 +16,9 @@ class ThemeToggle extends StatelessWidget {
     final isDark = settings.themeMode == ThemeMode.dark ||
         (settings.themeMode == ThemeMode.system && platform == Brightness.dark);
 
+    final l10n = AppLocalizations.of(context);
     return Tooltip(
-      message: isDark ? 'Switch to light mode' : 'Switch to dark mode',
+      message: isDark ? l10n.switchToLightMode : l10n.switchToDarkMode,
       child: Material(
         color: brand.card,
         shape: CircleBorder(side: BorderSide(color: brand.cardBorder)),

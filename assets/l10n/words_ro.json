@@ -1,0 +1,1076 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "verb",
+      "definition": "A îndulci sau a purifica; a scoate asprimea din ceva.",
+      "friendly": "Să scoți acul sau amărăciunea — să îndulcești la propriu, sau, la figurat, să înmoi o idee aspră ca să treacă mai ușor.",
+      "exampleGloss": "Redactorul edulcorated recenzia aspră înainte să meargă la tipar.",
+      "origin": "latină",
+      "rootMeanings": ["afară, temeinic", "dulce"]
+    },
+    "pietistic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Excesiv sau ostentativ pios.",
+      "friendly": "Despre cineva a cărui evlavie pare spectacol — mai mult poză decât credință vie.",
+      "exampleGloss": "Suspinele lui pietistic în timpul predicii iritau tot rândul de bănci.",
+      "origin": "latină",
+      "rootMeanings": ["evlavie, datorie", "cu caracter de"]
+    },
+    "amphiboly": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ambiguitate născută din structura gramaticală — o frază citibilă în două feluri.",
+      "friendly": "Fraza e gramatical corectă, dar se poate citi în două chipuri cu totul diferite, ca „Visiting relatives can be tiring“.",
+      "exampleGloss": "„Visiting relatives can be tiring“ e o amphiboly clasică — obosesc rudele sau vizita însăși?",
+      "origin": "greacă",
+      "rootMeanings": ["amândouă, din ambele părți", "a arunca"]
+    },
+    "trenchant": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Tăios, pătrunzător, care lovește drept la țintă.",
+      "friendly": "Taie prin vata vorbelor — o observație sau o minte trenchant ajunge iute la miez, fără prisos.",
+      "exampleGloss": "Critica ei trenchant n-a lăsat găurilor de intrigă unde să se ascundă.",
+      "origin": "franceză veche",
+      "rootMeanings": ["a tăia", "faptă, însușire"]
+    },
+    "inchoative": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Abia început; într-un stadiu timpuriu sau rudimentar.",
+      "friendly": "Încă în primele clipe — un plan, un sentiment sau un proces care abia începe să prindă formă.",
+      "exampleGloss": "Stadiile inchoative ale contractului erau promițătoare, dar multe amănunte rămâneau deschise.",
+      "origin": "latină",
+      "rootMeanings": ["a începe", "înclinat spre"]
+    },
+    "panegyric": {
+      "partOfSpeech": "substantiv",
+      "definition": "Discurs sau text solemn care laudă pe cineva cu strălucire.",
+      "friendly": "Laudă deplină, de mare pompă — un panegiric luminos sau o cuvântare care cântă meritele cuiva din toți bojocii.",
+      "exampleGloss": "Profesoara care pleca a fost petrecută cu un panegyric de la cei mai apropiați elevi.",
+      "origin": "greacă",
+      "rootMeanings": ["tot, întreg", "adunare, adunătură"]
+    },
+    "ontic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care privește existența reală sau ființa de fapt, nu teoria abstractă.",
+      "friendly": "Despre lucruri așa cum sunt cu adevărat, nu cum le gândim sau le teoretizăm.",
+      "exampleGloss": "Filozofii se ceartă dacă numerele au vreun statut ontic sau trăiesc doar în minte.",
+      "origin": "greacă",
+      "rootMeanings": ["ființă, ceea ce este", "relativ la"]
+    },
+    "fructify": {
+      "partOfSpeech": "verb",
+      "definition": "A da rod sau a deveni rodnic.",
+      "friendly": "În sfârșit să se plătească — un efort, o idee sau o investiție care a rodit și a crescut din sămânță în ceva folositor.",
+      "exampleGloss": "Ani de muncă tăcută au fructified în cele din urmă într-un vaccin care funcționează.",
+      "origin": "latină",
+      "rootMeanings": ["rod", "a face, a pricinui"]
+    },
+    "proleptical": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care anticipează sau înfățișează ceva ca deja împlinit, înainte să se fi întâmplat.",
+      "friendly": "A o lua înainte literar — a descrie viitorul ca și cum s-ar fi încheiat, ca gândul să lovească mai tare.",
+      "exampleGloss": "Toastul proleptical al generalului pentru „victorie“ a răsunat cu o săptămână înainte de bătălie.",
+      "origin": "greacă",
+      "rootMeanings": ["înainte", "a lua, a cuprinde"]
+    },
+    "pneumatic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care lucrează cu presiunea aerului; și care privește duhul sau suflarea.",
+      "friendly": "De obicei înseamnă „pe aer“ — frâne, pompe, unelte care șuieră; în texte vechi și despre duh sau respirație.",
+      "exampleGloss": "Frânele pneumatic au șuierat când autobuzul s-a oprit la bordură.",
+      "origin": "greacă",
+      "rootMeanings": ["vânt, suflare, duh", "relativ la"]
+    },
+    "cataphatic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care îl descrie pe Dumnezeu sau divinul prin afirmații — opusul apofaticului.",
+      "friendly": "A vorbi despre Dumnezeu spunând cum este: „Dumnezeu e iubire“, „Dumnezeu e drept“ — nu numai ce nu este.",
+      "exampleGloss": "Teologia cataphatic vorbește cu încredere despre Dumnezeu ca iubitor, drept și milostiv.",
+      "origin": "greacă",
+      "rootMeanings": ["în jos, după", "a vorbi, a spune"]
+    },
+    "fiducial": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Întemeiat pe încredere sau credință; și punct de referință nemișcat.",
+      "friendly": "Ceva ce iei pe credință și apoi ții ca o ancoră — un semn fiducial e punctul nemișcat de la care se măsoară tot restul.",
+      "exampleGloss": "Geodezii au pus un marker fiducial în stâncă înainte să cartografieze terenul.",
+      "origin": "latină",
+      "rootMeanings": ["a se încrede", "încredere, siguranță"]
+    },
+    "theodicy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Apărarea bunătății lui Dumnezeu în fața existenței răului.",
+      "friendly": "Încercarea de veacuri de a răspunde: dacă Dumnezeu e bun, de unde vine răul?",
+      "exampleGloss": "Teza ei cerceta theodicy prin Cartea lui Iov.",
+      "origin": "greacă",
+      "rootMeanings": ["dumnezeu", "dreptate"]
+    },
+    "circumincession": {
+      "partOfSpeech": "substantiv",
+      "definition": "Locuire reciprocă — termen teologic despre felul în care persoanele Treimii locuiesc una în alta.",
+      "friendly": "Cuvânt teologic pentru o unitate treimică atât de deplină încât fiecare parte le cuprinde pe celelalte și e cuprinsă în ele.",
+      "exampleGloss": "Învățătura despre circumincession încearcă să explice cum Tatăl, Fiul și Duhul sunt deosebiți și totuși nedespărțiți.",
+      "origin": "latină",
+      "rootMeanings": ["împrejur", "a merge, a umbla"]
+    },
+    "redound": {
+      "partOfSpeech": "verb",
+      "definition": "A avea o urmare care se întoarce spre folos sau se oglindește asupra cuiva.",
+      "friendly": "Când slava (sau vina) se întoarce la cel care a meritat-o — faptele bune care redound numelui tău se întorc ca răsplată.",
+      "exampleGloss": "Succesul echipei redound în cinstea antrenorului ei tăcut și harnic.",
+      "origin": "latină",
+      "rootMeanings": ["înapoi, iarăși", "val"]
+    },
+    "ineluctable": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Inevitabil, de care nu te poți feri.",
+      "friendly": "Se va întâmpla, orice-ai face — dintr-un deznodământ ineluctable nu te strecori.",
+      "exampleGloss": "Bătrânețea vine la toți; e pur și simplu ineluctable.",
+      "origin": "latină",
+      "rootMeanings": ["nu", "a se desprinde, a se smulge"]
+    },
+    "periphrastic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care folosește ocoluri vorbărețe în locul formei drepte.",
+      "friendly": "A ajunge la gând pe ocolite — a zice „a săvârșit plecarea“ în loc de „a plecat“, sau o frază întreagă unde ajunge un cuvânt.",
+      "exampleGloss": "Scrisorile lui periphrastic ar fi putut spune într-un rând ce i-a luat trei paragrafe.",
+      "origin": "greacă",
+      "rootMeanings": ["împrejur", "a vesti, a spune"]
+    },
+    "hebetude": {
+      "partOfSpeech": "substantiv",
+      "definition": "Tâmpenie sau amorțeală a minții.",
+      "friendly": "O ceață somnoroasă a minții, când gândirea e ca o umblare prin sirop.",
+      "exampleGloss": "Un val de hebetude a acoperit clasa imediat după prânz.",
+      "origin": "latină",
+      "rootMeanings": ["tont, tocit", "stare, însușire"]
+    },
+    "unpropitious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Nefavorabil; care vestește rău.",
+      "friendly": "Semn rău — împrejurări sau un ceas care par să lucreze împotriva ta încă înainte de început.",
+      "exampleGloss": "Cerul cenușiu și bateria goală au dat un început unpropitious călătoriei.",
+      "origin": "latină",
+      "rootMeanings": ["nu", "favorabil, milostiv"]
+    },
+    "fricaseed": {
+      "partOfSpeech": "adjectiv / verb",
+      "definition": "Carne înăbușită în sos — se scrie corect fricasseed.",
+      "friendly": "Un cuvânt vechi, cald, de bucătărie pentru carne tăiată și înăbușită încet în sosul ei până se înmoaie.",
+      "exampleGloss": "Puiul fricasseed al bunicii era podoaba fiecărei cine de duminică.",
+      "origin": "franceză",
+      "rootMeanings": ["a prăji", "a rupe (în bucăți)"]
+    },
+    "ersatz": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Înlocuitor artificial sau mai slab.",
+      "friendly": "Fals în locul adevăratului — își face treaba pe hârtie, dar toți văd că nu e ăla.",
+      "exampleGloss": "În război, cumpărătorii se descurcau cu cafea ersatz din cicoare prăjită.",
+      "origin": "germană",
+      "rootMeanings": ["afară, prefix de înlocuire", "a pune, a așeza"]
+    },
+    "reify": {
+      "partOfSpeech": "verb",
+      "definition": "A trata o idee abstractă ca pe un lucru concret.",
+      "friendly": "A face gândul pipăibil și dens — a preface ceva cețos, ca „dreptatea“ sau „piața“, într-un obiect spre care poți arăta.",
+      "exampleGloss": "A numi „spiritul“ națiunii o ființă de sine stătătoare înseamnă a reify ceea ce de fapt sunt milioane de alegeri particulare.",
+      "origin": "latină",
+      "rootMeanings": ["lucru", "a face"]
+    },
+    "eluded": {
+      "partOfSpeech": "verb (timp trecut)",
+      "definition": "A scăpat iscusit sau s-a ferit.",
+      "friendly": "A scăpat curat — s-a ferit, adesea dibaci sau la un fir, fie o prindere, o întrebare sau un răspuns.",
+      "exampleGloss": "Răspunsul a eluded-o ore întregi, până a făcut clic sub duș.",
+      "origin": "latină",
+      "rootMeanings": ["afară, departe", "a se juca"]
+    },
+    "aporetic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care exprimă îndoială, încurcătură sau o contradicție nerezolvată.",
+      "friendly": "A te opri la un fundăt de sac al gândului — nu din lene, ci pentru că întrebarea însăși nu dă un răspuns curat.",
+      "exampleGloss": "Socrate încheia adesea dialogurile pe o notă aporetic: mai multe întrebări decât răspunsuri.",
+      "origin": "greacă",
+      "rootMeanings": ["fără", "trecere, cale"]
+    },
+    "metonymy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Trop care numește lucrul printr-un cuvânt învecinat, de pildă „coroana“ în loc de suveran.",
+      "friendly": "A pune un cuvânt înrudit în locul lucrului însuși — a zice „Casa Albă a anunțat“, când te referi la președinte.",
+      "exampleGloss": "„Wall Street had a rough day“ e o metonymy — de fapt e vorba de bursă.",
+      "origin": "greacă",
+      "rootMeanings": ["schimbare, după", "nume"]
+    },
+    "deracinate": {
+      "partOfSpeech": "verb",
+      "definition": "A smulge cu rădăcină; a rupe de mediul firesc.",
+      "friendly": "A scoate ceva (sau pe cineva) cu tot cu rădăcină, departe de locul sau cultura de care ține.",
+      "exampleGloss": "Războiul a deracinated o generație întreagă, risipind familii peste hotare.",
+      "origin": "franceză / latină",
+      "rootMeanings": ["departe, de la", "rădăcină"]
+    },
+    "euphonious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Plăcut auzului.",
+      "friendly": "Pur și simplu sună frumos — un cuvânt, un nume sau o frază euphonious se rostogolește lin pe ureche, aproape muzical.",
+      "exampleGloss": "„Murmuring brook“ e o mică frază euphonious, moale și ușor de spus.",
+      "origin": "greacă",
+      "rootMeanings": ["bun, bine", "sunet, glas"]
+    },
+    "putative": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Socotit de obicei ca atare, presupus.",
+      "friendly": "Luat pe larg drept adevăr, chiar dacă nu e dovedit — tatăl „presupus“, autorul „așa-zis“.",
+      "exampleGloss": "Autorul putative al scrisorii s-a dovedit mai târziu un străin desăvârșit.",
+      "origin": "latină",
+      "rootMeanings": ["a gândi, a socoti", "cu fire de"]
+    },
+    "neologism": {
+      "partOfSpeech": "substantiv",
+      "definition": "Cuvânt sau expresie nou născocită.",
+      "friendly": "Un cuvânt cu totul nou — abia născocit, încă nu (sau abia) ajuns în dicționar.",
+      "exampleGloss": "„Doomscrolling“ a început ca un neologism și a devenit iute slang de toate zilele.",
+      "origin": "greacă",
+      "rootMeanings": ["nou", "cuvânt, vorbă"]
+    },
+    "splenetic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Mânios sau de fire rea.",
+      "friendly": "Într-o dispoziție urâtă, iritabilă — gata să mârâie, cum se credea odată că splina stăpânește caracterul.",
+      "exampleGloss": "A trimis un răspuns splenetic la mesaj la câteva secunde după ce l-a citit.",
+      "origin": "greacă / latină",
+      "rootMeanings": ["splină (sediul mâniei)", "atins"]
+    },
+    "sententious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Înclinat spre moralizare umflată sau prefăcută.",
+      "friendly": "Îi place să împartă învățături de viață cu solemnitate, ca și cum fiecare frază ar fi o prăjitură cu profeție.",
+      "exampleGloss": "Toastul lui sententious despre „adevăratul înțeles al prieteniei“ i-a făcut pe toți să se uite la ceas.",
+      "origin": "latină",
+      "rootMeanings": ["părere, sentință", "plin"]
+    },
+    "garrulous": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Prea vorbăreț, mai ales despre fleacuri.",
+      "friendly": "Pur și simplu nu se oprește — varsă mărunțișuri mult după ce celorlalți nu le mai rămâne ce spune.",
+      "exampleGloss": "Taximetristul garrulous ne-a povestit toată viața lui înainte să ieșim de pe aeroport.",
+      "origin": "latină",
+      "rootMeanings": ["a trăncăni, a tremura", "înclinat spre"]
+    },
+    "fatuity": {
+      "partOfSpeech": "substantiv",
+      "definition": "Prosteală, deșertăciune a minții.",
+      "friendly": "Prostie goală — o observație sau un plan atât de goale încât abia merită un răspuns serios.",
+      "exampleGloss": "Însăși fatuity planului a devenit vădită în clipa în care l-au încercat.",
+      "origin": "latină",
+      "rootMeanings": ["prost, deșert", "stare"]
+    },
+    "peroration": {
+      "partOfSpeech": "substantiv",
+      "definition": "Partea de încheiere a unui discurs, adesea cu un rezumat.",
+      "friendly": "Marele final al cuvântării — capătul unde oratorul adună totul și lovește punctul.",
+      "exampleGloss": "Până la peroration stătea deja jumătate din sală.",
+      "origin": "latină",
+      "rootMeanings": ["prin, până la capăt", "a vorbi, a apăra"]
+    },
+    "tautology": {
+      "partOfSpeech": "substantiv",
+      "definition": "Repetare de prisos a aceleiași gândiri cu alte cuvinte.",
+      "friendly": "A spune același lucru de două ori fără a adăuga nimic, ca „cadou gratuit“ sau „rezultat final“.",
+      "exampleGloss": "„It is what it is“ e tautologia favorită a celor care evită o lămurire adevărată.",
+      "origin": "greacă",
+      "rootMeanings": ["același", "cuvânt, vorbă"]
+    },
+    "laconism": {
+      "partOfSpeech": "substantiv",
+      "definition": "Folosirea a foarte puține cuvinte; vorbire strânsă.",
+      "friendly": "A spune mult cu puțin — meșteșugul unui răspuns scurt, tăiat ascuțit, numit după spartanii din Laconia.",
+      "exampleGloss": "„Molon labe“ — „veniți și le luați“ — e cel mai vestit laconism din istorie.",
+      "origin": "greacă",
+      "rootMeanings": ["spartan din Laconia", "obicei, chip"]
+    },
+    "pabulum": {
+      "partOfSpeech": "substantiv",
+      "definition": "Gânduri fade, simplificate; la origine hrană fadă sau terci.",
+      "friendly": "Gândire diluată — conținut atât de sigur și de simplificat încât mintea nu are hrană din el.",
+      "exampleGloss": "Discursul politicianului era aproape numai pabulum: o făgăduință cețoasă de care n-ai de ce să te prinzi.",
+      "origin": "latină",
+      "rootMeanings": ["a hrăni", "mijloc, unealtă"]
+    },
+    "soporific": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care aduce somn sau somnolență.",
+      "friendly": "Atât de plicticos — sau adormitor la propriu — încât ți se lipește pleoapele. Lapte cald sau o ședință de buget de trei ore.",
+      "exampleGloss": "Huruitul soporific al prelegerii a silit jumătate din sală să lupte cu pleoapele.",
+      "origin": "latină",
+      "rootMeanings": ["somn adânc", "care face, pricinuiește"]
+    },
+    "unctuous": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Prea lingușitor sau uns la purtare.",
+      "friendly": "Un farmec atât de neted încât alunecă — lingușire unsă atât de gros încât aproape simți grăsimea.",
+      "exampleGloss": "Vânzătorul unctuous îmi lăuda fără sfârșit „gustul excelent“ înainte de fiecare vânzare în plus.",
+      "origin": "latină",
+      "rootMeanings": ["a unge, ulei", "plin"]
+    },
+    "captious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Iute la observații, prea critic cu fleacurile.",
+      "friendly": "Mărunt până la greșeală — omul care găsește cusur în toate, chiar când asta nu schimbă nimic.",
+      "exampleGloss": "Observațiile lui captious la raport se învârteau numai în jurul virgulelor.",
+      "origin": "latină",
+      "rootMeanings": ["a prinde, a lua", "cursă, sofism"]
+    },
+    "torpid": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Amorțit, inactiv la minte sau la trup.",
+      "friendly": "Lent și pe jumătate adormit, ca un urs în somnul de iarnă — abia se mișcă, abia gândește.",
+      "exampleGloss": "Biroul a căzut într-o stare torpid în căldura grea de august.",
+      "origin": "latină",
+      "rootMeanings": ["a fi amorțit, tocit", "în stare"]
+    },
+    "seneschal": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ispravnic sau dregător care conducea o gospodărie medievală.",
+      "friendly": "Șeful de personal medieval — omul de încredere care, zi de zi, conducea casa și moșia stăpânului.",
+      "exampleGloss": "Seneschal-ul castelului conducea totul: de la socotelile recoltei până la lista oaspeților.",
+      "origin": "francică / franceză veche",
+      "rootMeanings": ["bătrân, mai vârstnic", "slujitor"]
+    },
+    "expatiate": {
+      "partOfSpeech": "verb",
+      "definition": "A vorbi sau a scrie pe larg despre un subiect.",
+      "friendly": "A te destinde cu adevărat în vorbă — a vorbi sau a scrie și a scrie, ocolind lucrul din toate părțile.",
+      "exampleGloss": "Întrebați-l de mașini vechi — și o să expatiate o oră întreagă.",
+      "origin": "latină",
+      "rootMeanings": ["afară", "spațiu"]
+    },
+    "nugatory": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Fără valoare, mărunt; și neavenit sau ineficace.",
+      "friendly": "În fond nimic — o clauză nugatory dintr-un contract e cea care nu face nimic.",
+      "exampleGloss": "Instanța a declarat vechiul regulament nugatory, pentru că nu fusese niciodată aplicat.",
+      "origin": "latină",
+      "rootMeanings": ["fleacuri, nonsens", "care ține de"]
+    },
+    "sagacity": {
+      "partOfSpeech": "substantiv",
+      "definition": "Înțelepciune, judecată ascuțită.",
+      "friendly": "O înțelepciune ascuțită, practică — judecata sănătoasă care vine din experiență, nu numai din cărți.",
+      "exampleGloss": "Sagacity bătrânului căpitan a ținut de mai multe ori echipajul departe de necaz.",
+      "origin": "latină",
+      "rootMeanings": ["ager, pătrunzător", "însușire"]
+    },
+    "canaille": {
+      "partOfSpeech": "substantiv",
+      "definition": "Gloata de rând sau mulțimile, peiorativ.",
+      "friendly": "Un cuvânt snob, disprețuitor, pentru „turmă“, pentru oamenii de rând, spus de sus.",
+      "exampleGloss": "Contele a zâmbit către canaille adunată la porțile palatului.",
+      "origin": "italiană / franceză",
+      "rootMeanings": ["câine", "colectiv, haită"]
+    },
+    "contumely": {
+      "partOfSpeech": "substantiv",
+      "definition": "Purtare sau vorbă îndrăzneață, umilitoare.",
+      "friendly": "Un tratament crud, disprețuitor, menit să umilească — o insultă care trebuie să usture.",
+      "exampleGloss": "A îndurat ani de contumely de la critici, până ce lucrarea a fost recunoscută.",
+      "origin": "latină",
+      "rootMeanings": ["cu, temeinic", "a se umfla (de mândrie)"]
+    },
+    "askance": {
+      "partOfSpeech": "adverb",
+      "definition": "Cu bănuială sau dezaprobare; pieziș.",
+      "friendly": "O privire piezișă către ceva în care nu te încrezi deplin — o privire încărcată de îndoială.",
+      "exampleGloss": "Învățătoarea s-a uitat askance la tema suspect de îngrijită.",
+      "origin": "incert / italiană",
+      "rootMeanings": ["spre, pe", "înclinare, pieziș"]
+    },
+    "clodpate": {
+      "partOfSpeech": "substantiv",
+      "definition": "Om prost; nătărău.",
+      "friendly": "O ocărâtură demodată, aproape afectuoasă, pentru ăla care se tâmpeste — un butuc, un stejar.",
+      "exampleGloss": "„You clodpate,“ a râs ea, „ai harta întoarsă tot timpul.“",
+      "origin": "engleză",
+      "rootMeanings": ["bulgăre de pământ", "cap"]
+    },
+    "actuate": {
+      "partOfSpeech": "verb",
+      "definition": "A pune în mișcare sau în faptă; a îndemna.",
+      "friendly": "A fi scânteia care mișcă — fie că se pornește o mașină, fie că un om face, în sfârșit, după gând.",
+      "exampleGloss": "Teama de a pierde contractul a actuated toată echipa spre ore suplimentare de weekend.",
+      "origin": "latină",
+      "rootMeanings": ["faptă, îndemn", "a mâna, a face"]
+    },
+    "peculation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Delapidarea unor fonduri încredințate spre păstrare.",
+      "friendly": "A fura în tăcere bani care ți-au fost dați să-i păzești — delapidare în haină veche.",
+      "exampleGloss": "Peculation casierului a rămas neobservată aproape zece ani.",
+      "origin": "latină",
+      "rootMeanings": ["avere particulară", "vite, bogăție"]
+    },
+    "demi-monde": {
+      "partOfSpeech": "substantiv",
+      "definition": "Un cerc socotit la marginea societății onorabile.",
+      "friendly": "Lumea strălucitoare, dar îndoielnică — oameni care trăiesc puțin în afara regulilor societății „cuviincioase“.",
+      "exampleGloss": "Romanul urmărește o cântăreață în demi-monde-ul cabaretelor anilor douăzeci.",
+      "origin": "franceză",
+      "rootMeanings": ["jumătate", "lume, societate"]
+    },
+    "extant": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Încă existent; nu a dispărut și nu a fost distrus.",
+      "friendly": "Încă aici — despre lucruri vechi (manuscrise, specii, clădiri) care au izbutit să supraviețuiască.",
+      "exampleGloss": "Se cunosc doar trei exemplare extant din prima ediție.",
+      "origin": "latină",
+      "rootMeanings": ["afară", "a sta"]
+    },
+    "perfidy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Trădare a credinței; trădarea încrederii.",
+      "friendly": "O trădare adâncă, voită — ruperea unei încrederi pe care omul avea tot dreptul s-o aștepte.",
+      "exampleGloss": "Generalul n-a iertat niciodată perfidy vechiului prieten la masa de tratative.",
+      "origin": "latină",
+      "rootMeanings": ["prin, împotriva", "credință, încredere"]
+    },
+    "patois": {
+      "partOfSpeech": "substantiv",
+      "definition": "Vorbire locală, mai ales nestandardă.",
+      "friendly": "Un chip de vorbă al locului, al ținutului — plin de cuvinte și ritmuri pe care străinul poate să nu le prindă.",
+      "exampleGloss": "Bunica vorbea încă patois-ul insulei la masa familiei.",
+      "origin": "franceză",
+      "rootMeanings": ["vorbire aspră, dialect", "labă — vorbire stângace"]
+    },
+    "prerogative": {
+      "partOfSpeech": "substantiv",
+      "definition": "Drept deosebit care ține de o persoană sau de un grup.",
+      "friendly": "Privilegiul care e al tău și numai al tău — un drept care vine cu rolul, slujba sau starea.",
+      "exampleGloss": "A alege locul vacanței de familie e prerogative-ul bunicului, și toți o știu.",
+      "origin": "latină",
+      "rootMeanings": ["înainte", "a întreba, a vota"]
+    },
+    "hardihood": {
+      "partOfSpeech": "substantiv",
+      "definition": "Îndrăzneală, curaj; și tărie sau îndurare.",
+      "friendly": "O rezistență tare, încăpățânată — nervul de a porni și puterea de a ține, odată ce ai pornit.",
+      "exampleGloss": "Trebuia o adevărată hardihood ca să treci pasul în viscol fără hartă.",
+      "origin": "franceză veche / engleză",
+      "rootMeanings": ["îndrăzneț, împietrit", "stare"]
+    },
+    "effloresce": {
+      "partOfSpeech": "verb",
+      "definition": "A înflori; și a se dezvolta sau a apărea treptat.",
+      "friendly": "A te deschide la putere deplină — ca o floare, sau ca un gând care, în sfârșit, a devenit el însuși.",
+      "exampleGloss": "Darul ei tăcut pentru pictură a effloresced de îndată ce a avut propriul atelier.",
+      "origin": "latină",
+      "rootMeanings": ["afară", "a începe să înflorească"]
+    },
+    "plumb-line": {
+      "partOfSpeech": "substantiv",
+      "definition": "Fir cu plumb — sfoară cu greutate pentru verificarea verticalei; la figurat, măsură a judecății.",
+      "friendly": "O greutate pe o sfoară care atârnă drept, ca să verifici verticala — și, mai larg, orice standard nemișcat după care măsori tot restul.",
+      "exampleGloss": "Cinstea bunicului o ținea ca pe un fel de plumb line pentru fiecare hotărâre.",
+      "origin": "latină / engleză",
+      "rootMeanings": ["plumb", "sfoară, măsură"]
+    },
+    "fain": {
+      "partOfSpeech": "adverb",
+      "definition": "Cu drag, de bunăvoie (învechit).",
+      "friendly": "Un chip vechi de a zice „cu drag“ sau „aș vrea de bunăvoie“.",
+      "exampleGloss": "„I would fain rest here a while,“ a oftat călătorul.",
+      "origin": "engleză veche",
+      "rootMeanings": ["bucuros, vesel", "cu drag, de bunăvoie"]
+    },
+    "opprobrium": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ocară sau osândă publică ascuțită.",
+      "friendly": "Rusinea publică, grămădită în fața tuturor — ocara osândei largi.",
+      "exampleGloss": "Scandalul a prăvălit un opprobrium public asupra întregii firme.",
+      "origin": "latină",
+      "rootMeanings": ["împotriva", "ocară, mustrare"]
+    },
+    "mordant": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Aspru sarcastic, mușcător în spirit sau în critică.",
+      "friendly": "Un spirit cu dinți adevărați — o observație mordant ustură puțin tocmai pentru că a nimerit.",
+      "exampleGloss": "Recenziile ei de film mordant erau temute de regizori și iubite de cititori.",
+      "origin": "latină / franceză",
+      "rootMeanings": ["a mușca", "care mușcă, face"]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "substantiv",
+      "definition": "Proclamație solemnă, adesea politică sau militară.",
+      "friendly": "O mare înștiințare oficială — de obicei despre un guvern nou, o răscoală sau un decret important.",
+      "exampleGloss": "Pronunciamento-ul generalului în zori a vestit noul guvern.",
+      "origin": "spaniolă",
+      "rootMeanings": ["înainte", "a vesti"]
+    },
+    "sciolist": {
+      "partOfSpeech": "substantiv",
+      "definition": "Om cu cunoștințe de suprafață care se preface specialist.",
+      "friendly": "Ăla care a alunecat pe suprafața temei și vorbește ca și cum el ar fi scris manualul.",
+      "exampleGloss": "Sciolist-ul de la masă l-a corectat cu încredere pe adevăratul astrofizician.",
+      "origin": "latină",
+      "rootMeanings": ["a ști", "diminutiv — mic cunoscător"]
+    },
+    "dotage": {
+      "partOfSpeech": "substantiv",
+      "definition": "Slăbirea puterilor minții la bătrânețe.",
+      "friendly": "Ceața uitucă a bătrâneții adânci, când ascuțimea minții începe să se topească.",
+      "exampleGloss": "În dotage-ul său spunea aceleași trei povești la fiecare vizită, de fiecare dată ca noi.",
+      "origin": "engleză medie",
+      "rootMeanings": ["a se veșteji, a fi prost", "stare sau urmare"]
+    },
+    "lee-side": {
+      "partOfSpeech": "substantiv",
+      "definition": "Partea adăpostită de vânt.",
+      "friendly": "Partea lină, adăpostită — a unui deal, a unei corăbii, a unui zid — unde vântul abia ajunge.",
+      "exampleGloss": "Călătorii au întins cortul pe lee side al crestei, ca să scape de rafale.",
+      "origin": "engleză veche",
+      "rootMeanings": ["adăpost, ocrotire", "latură, față"]
+    },
+    "parry": {
+      "partOfSpeech": "verb",
+      "definition": "A abate sau a abate o lovitură, o întrebare sau un argument.",
+      "friendly": "A respinge lin — o lovitură de sabie, o întrebare neplăcută sau o învinuire — fără să pierzi tactul.",
+      "exampleGloss": "A parried întrebarea șireată a reporterului cu o glumă ușoară.",
+      "origin": "franceză",
+      "rootMeanings": ["a respinge", "a se pregăti, a se apăra"]
+    },
+    "mephitic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Puturos, vătămător.",
+      "friendly": "Un miros atât de urât încât pare aproape otravă — o duhoare cu care e periculos să respiri.",
+      "exampleGloss": "Mirosul mephitic se ridica din mlaștină la apus.",
+      "origin": "latină",
+      "rootMeanings": ["abur vătămător", "cu fire de"]
+    },
+    "sybarite": {
+      "partOfSpeech": "substantiv",
+      "definition": "Om dat desfătării și desfătării de lux.",
+      "friendly": "Ăla care trăiește pentru confort și belșug — mâncăruri alese, paturi moi, viață ușoară — după Sybaris-ul antic, vestit pentru exces.",
+      "exampleGloss": "Un adevărat sybarite, refuza orice cameră fără cadă.",
+      "origin": "greacă",
+      "rootMeanings": ["oraș grecesc vestit pentru lux", "locuitor"]
+    },
+    "prescind": {
+      "partOfSpeech": "verb",
+      "definition": "A lăsa deoparte, cu voie, o parte din ceva.",
+      "friendly": "În minte, a da la o parte o bucată din puzzle ca să vezi curat restul.",
+      "exampleGloss": "Pentru o clipă prescind de preț și să întrebăm dacă planul funcționează deloc.",
+      "origin": "latină",
+      "rootMeanings": ["înainte, deoparte", "a tăia"]
+    },
+    "excoriate": {
+      "partOfSpeech": "verb",
+      "definition": "A critica aspru; și a jupui pielea.",
+      "friendly": "A sfâșia pe cineva cu o critică tare — cu vorbe, ca și cum i-ai jupui pielea.",
+      "exampleGloss": "Criticii au excoriated continuarea pentru că a trădat tot ce iubeau spectatorii la original.",
+      "origin": "latină",
+      "rootMeanings": ["deoparte", "piele, coajă"]
+    },
+    "adduce": {
+      "partOfSpeech": "verb",
+      "definition": "A aduce ca dovadă sau mărturie.",
+      "friendly": "A aduce un fapt sau un exemplu în sprijinul gândului — lucrul spre care arăți când te întreabă: „și unde-i dovada?“",
+      "exampleGloss": "Avocata a adduced trei martori în sprijinul alibiului clientului.",
+      "origin": "latină",
+      "rootMeanings": ["spre, împotriva", "a duce"]
+    },
+    "peregrinations": {
+      "partOfSpeech": "substantiv",
+      "definition": "Călătorii sau rătăciri, mai ales lungi și întinse.",
+      "friendly": "Drumeții lungi, rătăcitoare — o hoinăreală care te duce departe de casă pentru multă vreme.",
+      "exampleGloss": "Peregrinations-urile lui peste trei continente au umplut un raft întreg de jurnale de călătorie.",
+      "origin": "latină",
+      "rootMeanings": ["prin", "câmp, pământ (peregrinus: străin)"]
+    },
+    "mendicant": {
+      "partOfSpeech": "substantiv",
+      "definition": "Cerșetor sau cel care trăiește din milostenie.",
+      "friendly": "Ăla care trăiește cerând milă — istoric, așa erau numiți și călugării care făcuseră jurământ de sărăcie și trăiau din daruri.",
+      "exampleGloss": "Frații mendicant nu stăpâneau nimic și se bizuiau numai pe bunătatea sătenilor.",
+      "origin": "latină",
+      "rootMeanings": ["a cerși", "cerșetor"]
+    },
+    "munificent": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Neobișnuit de darnic.",
+      "friendly": "Darnic la o scară mare, aproape ostentativă — un dar la care oamenii își taie răsuflarea.",
+      "exampleGloss": "Darul munificent a plătit o aripă întreagă nouă a bibliotecii.",
+      "origin": "latină",
+      "rootMeanings": ["dar, slujbă", "care face, dă"]
+    },
+    "inanition": {
+      "partOfSpeech": "substantiv",
+      "definition": "Epuizare din lipsă de hrană; și lipsă de vlagă.",
+      "friendly": "O stare slabă, stoarsă, de pe urma faptului că nu te hrănesc — la propriu de foame, sau la figurat de pe urma faptului că n-ai cu ce să mai mergi înainte.",
+      "exampleGloss": "Până la sfârșitul asediului, soldații erau aproape de inanition.",
+      "origin": "latină",
+      "rootMeanings": ["gol, nimic", "faptă sau urmare"]
+    },
+    "vituperation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Critică amară, ocărâtoare.",
+      "friendly": "O critică care a trecut demult măsura dreaptă și a devenit o tiradă rea, fiereasă.",
+      "exampleGloss": "Comentariile de pe net s-au risipit în câteva minute în vituperation curată.",
+      "origin": "latină",
+      "rootMeanings": ["vină, greșeală", "a pregăti, a înzestra"]
+    },
+    "inimical": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Vrăjmaș, vătămător prin efect.",
+      "friendly": "Care lucrează împotriva ta, fie și în tăcere — împrejurări sau obiceiuri neprietenoase intereselor tale.",
+      "exampleGloss": "Noua politică era inimical micilor firme, chiar dacă nu era cu intenție.",
+      "origin": "latină",
+      "rootMeanings": ["nu", "prieten"]
+    },
+    "invidious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "În stare să trezească ofensă sau nemulțumire, adesea printr-o comparație nedreaptă.",
+      "friendly": "Necesarmente jignește pe cineva — de obicei pentru că pune oameni sau lucruri unii împotriva altora pe nedrept.",
+      "exampleGloss": "A clasa copiii după „pe cine iubește mama mai mult“ e un joc invidious pe care nimeni n-ar trebui să-l joace.",
+      "origin": "latină",
+      "rootMeanings": ["invidie", "a privi (cu rea voință)"]
+    },
+    "subaltern": {
+      "partOfSpeech": "substantiv",
+      "definition": "Om de rang sau de stare mai joasă; subordonat.",
+      "friendly": "Ăla care stă mai jos pe lanțul de comandă sau pe treptele sociale — cel tânăr care lucrează sub cineva mai tare.",
+      "exampleGloss": "Ca tânăr subaltern, a primit multă vreme ordine înainte să înceapă el însuși să le dea.",
+      "origin": "latină",
+      "rootMeanings": ["sub", "altul"]
+    },
+    "execrate": {
+      "partOfSpeech": "verb",
+      "definition": "A simți sau a exprima o ură puternică.",
+      "friendly": "A urî până la a blestema cu glas tare — ură curată, sonoră.",
+      "exampleGloss": "Sătenii îl execrated pe vameș de fiecare dată când căruța lui trecea prin sat.",
+      "origin": "latină",
+      "rootMeanings": ["din", "sfânt (a blestema, a alunga din sfânt)"]
+    },
+    "integument": {
+      "partOfSpeech": "substantiv",
+      "definition": "Înveliș natural din afară, ca pielea sau carapacea.",
+      "friendly": "Învelișul de apărare al naturii însăși — piele, carapace, coajă sau scoarță care acoperă și ocrotește viul.",
+      "exampleGloss": "Carapacea țestoasei e un integument neobișnuit de tare.",
+      "origin": "latină",
+      "rootMeanings": ["pe, peste", "a acoperi"]
+    },
+    "ingenuous": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Simplu, naiv, cu o dreaptă copilărească; opusul lui disingenuous.",
+      "friendly": "Deschis, încrezător și puțin naiv, fără joc ascuns — se amestecă lesne cu ingenious, care înseamnă iscusit.",
+      "exampleGloss": "Întrebarea ei ingenuous — „de ce-ar minți cineva despre asta?“ — arăta cât de puțină șiretenie era în ea.",
+      "origin": "latină",
+      "rootMeanings": ["în, născut", "a naște (născut liber, drept)"]
+    },
+    "pedantry": {
+      "partOfSpeech": "substantiv",
+      "definition": "Grijă excesivă pentru fleacuri sau reguli.",
+      "friendly": "A te rătăci în regulile mărunte și a pierde întregul — a scormoni fleacuri care pe nimeni altcineva nu-l interesează.",
+      "exampleGloss": "Pedantry-ul lui în jurul virgulei oxfordiene a stricat toată ședința.",
+      "origin": "italiană / latină",
+      "rootMeanings": ["învățător de copii", "obicei sau însușire"]
+    },
+    "perscrutation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Cercetare temeinică, atentă.",
+      "friendly": "O privire adâncă, fără goluri — a trece prin fiecare amănunt cu grijă adevărată.",
+      "exampleGloss": "Abia după o perscrutation atentă a registrelor s-a găsit diferența.",
+      "origin": "latină",
+      "rootMeanings": ["prin, temeinic", "a căuta, a cerceta"]
+    },
+    "demur": {
+      "partOfSpeech": "verb",
+      "definition": "A obiecta; a arăta șovăială.",
+      "friendly": "A te da înapoi politicos sau a te opri, în loc să încuviințezi îndată — un „mai degrabă nu“ moale.",
+      "exampleGloss": "Când au rugat-o să semneze fără să citească, ea a demurred.",
+      "origin": "latină / franceză",
+      "rootMeanings": ["de la, deoparte", "a amâna"]
+    },
+    "specious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Convingător la vedere, dar greșit de fapt.",
+      "friendly": "La început sună convingător, dar se năruie de îndată ce începi să verifici.",
+      "exampleGloss": "„Everyone's doing it“ e un argument specious care sub privire nu stă niciodată.",
+      "origin": "latină",
+      "rootMeanings": ["înfățișare, chip", "plin (frumos la vedere)"]
+    },
+    "cant": {
+      "partOfSpeech": "substantiv",
+      "definition": "Vorbire nesinceră, fățarnică, adesea didactă.",
+      "friendly": "O predică ce sună virtuoasă, dar nu stă nimic viu în spatele ei — o poză morală pe automat.",
+      "exampleGloss": "Îl plictisea cant-ul corporatist despre „familie“ într-o firmă care nu dădea concediu nimănui.",
+      "origin": "latină",
+      "rootMeanings": ["a cânta (apoi: jargon cântat)", "scâncet de cerșetori, apoi fățărnicie"]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Fără curaj, laș.",
+      "friendly": "Sperios până la lipsa de șira spinării — se teme prea tare să se ridice, chiar când e vădit important.",
+      "exampleGloss": "Tăcerea pusillanimous a consiliului a lăsat scandalul să se întindă.",
+      "origin": "latină",
+      "rootMeanings": ["foarte mic", "duh, curaj"]
+    },
+    "vulpine": {
+      "partOfSpeech": "adjectiv",
+      "definition": "De vulpe; șiret, viclean.",
+      "friendly": "Deștept și iscusit ca o vulpe — ager, puțin prefăcut, mereu cu un pas înainte.",
+      "exampleGloss": "A zâmbit cu un zâmbet vulpine de îndată ce a zărit golul din reguli.",
+      "origin": "latină",
+      "rootMeanings": ["vulpe", "propriu, asemănător"]
+    },
+    "seriatim": {
+      "partOfSpeech": "adverb",
+      "definition": "Una după alta, pe rând.",
+      "friendly": "A lua strict câte una, pe rând — fără să sari înainte, fără două lucruri deodată.",
+      "exampleGloss": "Judecătorul a examinat fiecare dintre cele douăsprezece cereri seriatim.",
+      "origin": "latină",
+      "rootMeanings": ["șir, succesiune", "câte una"]
+    },
+    "parsimony": {
+      "partOfSpeech": "substantiv",
+      "definition": "Economie extremă; zgârcenie.",
+      "friendly": "A strânge banii (sau vorbele, sau mijloacele) departe dincolo de economia cuminte.",
+      "exampleGloss": "Parsimony-ul lui a intrat în legendă — o pungă de ceai o trecea de trei ori.",
+      "origin": "latină",
+      "rootMeanings": ["a economisi, a fi cumpătat", "stare sau practică"]
+    },
+    "emendation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Îndreptare, mai ales într-un text.",
+      "friendly": "O îndreptare în scris — o corecție învățată care repară o greșeală dintr-un text vechi sau important.",
+      "exampleGloss": "Noua ediție cuprinde zeci de emendations la manuscrisul originar.",
+      "origin": "latină",
+      "rootMeanings": ["din", "vină, greșeală"]
+    },
+    "abstemious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Cumpătat la mâncare și băutură.",
+      "friendly": "Reținut dinadins la masă — nu se îndoapă niciodată, lasă mereu puțin în farfurie.",
+      "exampleGloss": "Obiceiurile lui abstemious l-au ținut ascuțit mult după ce semenii se dăduseră drumul.",
+      "origin": "latină",
+      "rootMeanings": ["departe de", "băutură îmbătătoare"]
+    },
+    "solecism": {
+      "partOfSpeech": "substantiv",
+      "definition": "Greșeală de gramatică sau abatere de la etichetă.",
+      "friendly": "O alunecare în gramatică sau în maniere — o greșeală măruntă de care pedantul tresare.",
+      "exampleGloss": "„Between you and I“ e un solecism obișnuit de care gramaticienii încă tresar.",
+      "origin": "greacă",
+      "rootMeanings": ["oraș cilician vestit pentru greacă „proastă“", "obicei, chip"]
+    },
+    "internecine": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care privește cearta dinlăuntrul unui grup; nimicitor deopotrivă.",
+      "friendly": "O ceartă internă care rupe grupul dinăuntru — o luptă în care toți pierd, pentru că sunt ai lor împotriva ai lor.",
+      "exampleGloss": "Certe internecine din partid au făcut mai mult rău decât orice potrivnic din afară.",
+      "origin": "latină",
+      "rootMeanings": ["între, între ei", "a ucide"]
+    },
+    "pococurante": {
+      "partOfSpeech": "adjectiv / substantiv",
+      "definition": "Atitudine nepăsătoare, indiferentă.",
+      "friendly": "Un ridicat din umeri care a devenit caracter — grija s-a subțiat atât încât nimic nu mai merită osteneala.",
+      "exampleGloss": "Atitudinea lui pococurante față de ceremonia de premii i-a surprins pe toți cei care știau cât muncise.",
+      "origin": "italiană",
+      "rootMeanings": ["puțin", "a-i păsa"]
+    },
+    "imbroglio": {
+      "partOfSpeech": "substantiv",
+      "definition": "O situație sau o ceartă încurcată, încâlcită.",
+      "friendly": "O poveste încâlcită, murdară, în care e greu să te orientezi — parte neînțelegere, parte dramă, încurcătura însăși.",
+      "exampleGloss": "Întregul imbroglio cu așezarea la masă a început cu o carte de vizită schimbată.",
+      "origin": "italiană",
+      "rootMeanings": ["în", "a încurca, a zăpăci"]
+    },
+    "minatory": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Amenințător, care înspăimântă.",
+      "friendly": "Poartă o amenințare limpede — o privire sau o scrisoare minatory spune clar că poate urma rău.",
+      "exampleGloss": "Tonul minatory al scrisorii a neliniștit-o pe chiriașă înainte să deschidă plicul.",
+      "origin": "latină",
+      "rootMeanings": ["a amenința", "care slujește spre"]
+    },
+    "obloquy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Critică publică aspră sau ocărâre cu glas.",
+      "friendly": "O osândă publică sonoră — o critică aspră care se joacă în fața tuturor.",
+      "exampleGloss": "Avertizoarea a îndurat ani de obloquy public, până ce istoria i-a dat dreptate.",
+      "origin": "latină",
+      "rootMeanings": ["împotriva", "a vorbi"]
+    },
+    "paroxysm": {
+      "partOfSpeech": "substantiv",
+      "definition": "Izbucnire bruscă și puternică de simțământ sau faptă.",
+      "friendly": "Un atac brusc, puternic, care te acoperă dintr-o dată — râs, mânie sau tuse ca un val.",
+      "exampleGloss": "A cuprins-o un paroxysm de râs pe care nimeni din odaie nu și l-a putut tâlcui.",
+      "origin": "greacă",
+      "rootMeanings": ["dincolo, deasupra", "ascuțit"]
+    },
+    "adscititious": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Adăugat din afară, nu inerent.",
+      "friendly": "Primit din afară, nu zidit de la început — un adaos, nu miezul.",
+      "exampleGloss": "Comentariul pare adscititious, ca și cum l-ar fi lipit pe un text deja gata.",
+      "origin": "latină",
+      "rootMeanings": ["spre, pe lângă", "a încuviința, a primi"]
+    },
+    "nescience": {
+      "partOfSpeech": "substantiv",
+      "definition": "Lipsă de cunoaștere, neștiință.",
+      "friendly": "Pur și simplu a nu ști — un gol de care nu se lipește mustrarea.",
+      "exampleGloss": "Și-a mărturisit nescience-ul despre vinurile franțuzești și a lăsat alegerea somelierului.",
+      "origin": "latină",
+      "rootMeanings": ["nu", "a ști"]
+    },
+    "prurience": {
+      "partOfSpeech": "substantiv",
+      "definition": "Interes excesiv pentru lucruri trupești.",
+      "friendly": "O curiozitate prea lacomă, iscoditoare, pentru tot ce e picant — un interes care a trecut din sănătos în silnic.",
+      "exampleGloss": "Prurience-ul presei galbene față de viața particulară a cuplului se învecina cu obsesia.",
+      "origin": "latină",
+      "rootMeanings": ["a mâncărima, a râvni", "stare"]
+    },
+    "fuliginous": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Funinginos, întunecat, tulbure.",
+      "friendly": "Întunecat și afumat la vedere, ca și cum totul ar fi acoperit de un strat subțire de funingine.",
+      "exampleGloss": "Ceața fuliginous atârna deasupra orașului de fabrici la amurg.",
+      "origin": "latină",
+      "rootMeanings": ["funingine", "plin"]
+    },
+    "gainsay": {
+      "partOfSpeech": "verb",
+      "definition": "A tăgădui sau a contrazice.",
+      "friendly": "A zice drept împotriva vorbelor altuia — a zice „nu e așa“.",
+      "exampleGloss": "Nimeni n-a îndrăznit să gainsay povestea bătrânului căpitan despre furtună.",
+      "origin": "engleză medie",
+      "rootMeanings": ["împotriva", "a vorbi"]
+    },
+    "ignavia": {
+      "partOfSpeech": "substantiv",
+      "definition": "Lene, trândăvie (din latină).",
+      "friendly": "Un cuvânt latin vechi pentru lenea curată — îndemnul de a nu vrea să faci nimic.",
+      "exampleGloss": "Călugării predică împotriva ignavia ca una dintre primejdiile tăcute ale sufletului.",
+      "origin": "latină",
+      "rootMeanings": ["nu", "ocupat, harnic"]
+    },
+    "escutcheon": {
+      "partOfSpeech": "substantiv",
+      "definition": "Scut cu stemă.",
+      "friendly": "Un semn în formă de scut cu stema familiei — „cartea de vizită“ heraldică.",
+      "exampleGloss": "Escutcheon-ul familiei încă atârnă deasupra ușii de la intrarea vechiului conac.",
+      "origin": "latină / franceză veche",
+      "rootMeanings": ["scut", "diminutiv / obiect"]
+    },
+    "superannuated": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Învechit, scos din uz sau pensionat din pricina vârstei.",
+      "friendly": "A trecut de floarea folosului și a fost trimis la odihnă — prea demodat sau uzat ca să mai facă treaba.",
+      "exampleGloss": "Imprimanta superannuated a fost înlocuită, în sfârșit, după cincisprezece ani de scârțâit.",
+      "origin": "latină",
+      "rootMeanings": ["dincolo, deasupra", "an"]
+    },
+    "succedanea": {
+      "partOfSpeech": "substantiv",
+      "definition": "Înlocuitori, mai ales în medicină.",
+      "friendly": "Mijloace de înlocuire când tratamentul adevărat lipsește — în fond, dubluri de doctor.",
+      "exampleGloss": "Medicii de război se bizuiau adesea pe succedanea când leacurile adevărate se isprăveau.",
+      "origin": "latină",
+      "rootMeanings": ["în locul", "a merge, a se da la o parte"]
+    },
+    "rodomontade": {
+      "partOfSpeech": "substantiv",
+      "definition": "Vorbire lăudăroasă, umflată.",
+      "friendly": "O fanfaronadă mare, sonoră — discursuri gălăgioase despre propria măreție, în care e aproape numai aer cald.",
+      "exampleGloss": "Rodomontade-ul lui despre cum „el singur“ a salvat proiectul n-a păcălit pe nimeni dintre cei care fuseseră acolo.",
+      "origin": "italiană",
+      "rootMeanings": ["cavaler lăudăros din Orlando furioso", "faptă, arătare"]
+    },
+    "chicane": {
+      "partOfSpeech": "verb",
+      "definition": "A obține ceva prin șiretenie sau înșelăciune.",
+      "friendly": "A te strecura spre țintă cu tertipuri mărunte, nu cu joc cinstit.",
+      "exampleGloss": "Și-a chicaned drumul în afacere cu un contract ticsit de literă măruntă.",
+      "origin": "franceză",
+      "rootMeanings": ["a despica firul, a vicleni", "viclenie; mai târziu viraj ascuțit"]
+    },
+    "mathesis": {
+      "partOfSpeech": "substantiv",
+      "definition": "Știință pură sau abstractă a cunoașterii, adesea matematica.",
+      "friendly": "Învățătura în forma ei cea mai curată, depărtată — structura de adâncime a cunoașterii însăși, mai ales a celei matematice.",
+      "exampleGloss": "Filozoful visa o mathesis generală care să lege toate câmpurile cunoașterii.",
+      "origin": "greacă",
+      "rootMeanings": ["a învăța", "fapta învățării"]
+    },
+    "pedantic": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Prea ocupat de reguli formale sau de un amănunt mărunt.",
+      "friendly": "Prea aspru cu fleacurile — îndreaptă mărunțișuri tehnice care nu schimbă nimic de căpătâi.",
+      "exampleGloss": "Era un pic pedantic să te cerți pe „who“ și „whom“ într-un mesaj.",
+      "origin": "italiană / greacă",
+      "rootMeanings": ["călăuză de copii, învățător", "cu chip de"]
+    },
+    "coruscation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Sclipire, lumină scânteietoare.",
+      "friendly": "O sclipire iute, tremurătoare — soare pe apă sau un diamant care a prins lumina.",
+      "exampleGloss": "Coruscation-ul candelabrului a risipit lumina în toate colțurile sălii de dans.",
+      "origin": "latină",
+      "rootMeanings": ["a scânteia, a sclipi", "faptă"]
+    },
+    "tyro": {
+      "partOfSpeech": "substantiv",
+      "definition": "Începător, novice.",
+      "friendly": "Cu totul nou într-o îndeletnicire sau într-un câmp — încă învață temeliile, încă nu e specialist.",
+      "exampleGloss": "Chiar și un tyro la șah vede greșeala aceea grosolană.",
+      "origin": "latină",
+      "rootMeanings": ["rekrut, novice", "soldat tânăr, crud"]
+    },
+    "execrable": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Extrem de rău, scârbos.",
+      "friendly": "Rău până trezește scârbă adevărată — nu doar „slab“, ci de-a dreptul respingător.",
+      "exampleGloss": "Recenzentul a numit continuarea execrable, iar casa de bilete a fost de acord.",
+      "origin": "latină",
+      "rootMeanings": ["a blestema", "vrednic, în stare să fie"]
+    },
+    "incarnadine": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Roșu de sânge.",
+      "friendly": "Un roșu adânc, viu — culoarea sângelui proaspăt, vestită la Macbeth-ul lui Shakespeare.",
+      "exampleGloss": "Apusul a vopsit tot cerul cu o strălucire incarnadine.",
+      "origin": "italiană / latină",
+      "rootMeanings": ["în", "trup (roșu trupesc)"]
+    },
+    "interstice": {
+      "partOfSpeech": "substantiv",
+      "definition": "O crăpătură sau un gol mic între lucruri.",
+      "friendly": "Micul „între“ pe care e lesne să-l treci cu vederea — o crăpătură în podea, o gaură în program.",
+      "exampleGloss": "Prin fiecare interstice al vechii alei de cărămidă se strecura buruiana.",
+      "origin": "latină",
+      "rootMeanings": ["între", "a sta"]
+    },
+    "animadversion": {
+      "partOfSpeech": "substantiv",
+      "definition": "Observații critice sau mustrătoare.",
+      "friendly": "Vorbe aspre, dezaprobatoare — o critică cu o notă de dojană.",
+      "exampleGloss": "Animadversions-urile profesorului la eseu au umplut marginile cu cerneală roșie.",
+      "origin": "latină",
+      "rootMeanings": ["minte", "a întoarce spre"]
+    },
+    "irrefragable": {
+      "partOfSpeech": "adjectiv",
+      "definition": "De necombătut, neîndoielnic.",
+      "friendly": "Atât de temeinic dovedit încât n-are rost să te cerți — treaba e, pur și simplu, închisă.",
+      "exampleGloss": "Dovezile ADN erau irrefragable, iar procesul s-a încheiat într-o oră.",
+      "origin": "latină",
+      "rootMeanings": ["nu", "a se împotrivi, a se deschide"]
+    },
+    "involution": {
+      "partOfSpeech": "substantiv",
+      "definition": "Încâlceală, complicare; și răsucire spre înăuntru.",
+      "friendly": "O încâlceală îndoită în sine — lucruri atât de strâns răsucite încât e greu să le desparți.",
+      "exampleGloss": "Involution-ul intrigii a lăsat jumătate din sală s-o descurce după genericul de final.",
+      "origin": "latină",
+      "rootMeanings": ["înăuntru", "a rostogoli, a întoarce"]
+    },
+    "dint": {
+      "partOfSpeech": "substantiv",
+      "definition": "Putere sau osteneală, ca în „by dint of“.",
+      "friendly": "Forța sau truda goală — azi aproape trăiește numai în formula „by dint of“.",
+      "exampleGloss": "A trecut examenul by dint of unei exersări încăpățânate, stăruitoare.",
+      "origin": "engleză veche",
+      "rootMeanings": ["lovitură, izbire", "cu putere"]
+    },
+    "mortised": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Îmbinat cu cep și scobitură; potrivit strâns.",
+      "friendly": "Îmbinat pe meșteșugul vechi de dulgher — o parte intră într-o deschizătură tăiată tocmai pentru ea.",
+      "exampleGloss": "Grinzile vechii șuri erau mortised laolaltă fără un cui.",
+      "origin": "latină / franceză",
+      "rootMeanings": ["scobitură, deschizătură", "mușcătură, strângere"]
+    },
+    "apposite": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Foarte potrivit, nimerit.",
+      "friendly": "Tocmai la obiect — o observație, un citat sau un exemplu care se așază în punct.",
+      "exampleGloss": "Replica ei apposite a strâns toată discuția într-o singură frază.",
+      "origin": "latină",
+      "rootMeanings": ["spre", "a pune"]
+    },
+    "lambent": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Care luminează moale sau tremură (lumină); și un spirit ușor.",
+      "friendly": "Strălucește blând, nu arde — o lumină moale, tremurătoare, sau un spirit jucăuș, nu ascuțit.",
+      "exampleGloss": "Lumânările aruncau o strălucire lambent prin vechea sufragerie.",
+      "origin": "latină",
+      "rootMeanings": ["a linge", "faptă (lumină care „linge“)"]
+    },
+    "anchorite": {
+      "partOfSpeech": "substantiv",
+      "definition": "Sihastru religios care trăiește în singurătate.",
+      "friendly": "Ăla care se retrage cu totul din lume ca să trăiască singur în rugăciune și cugetare.",
+      "exampleGloss": "Anchorite-ul a petrecut mai bine de treizeci de ani într-o chilie strâmtă lângă biserică.",
+      "origin": "greacă",
+      "rootMeanings": ["înapoi, deoparte", "a se retrage"]
+    },
+    "slake": {
+      "partOfSpeech": "verb",
+      "definition": "A stinge setea; a sătura.",
+      "friendly": "A astâmpăra deplin o poftă — cel mai adesea setea, dar la figurat și orice nevoie adâncă.",
+      "exampleGloss": "Un pahar rece de apă i-a slaked setea după drumul lung.",
+      "origin": "engleză veche",
+      "rootMeanings": ["slăbit, slăbit", "a slăbi, a liniști"]
+    },
+    "acicular": {
+      "partOfSpeech": "adjectiv",
+      "definition": "În formă de ac.",
+      "friendly": "Lung, subțire și ascuțit ca un ac — forma acelor de pin sau a unui cristal ascuțit.",
+      "exampleGloss": "Pinii se recunosc lesne după frunzele acicular.",
+      "origin": "latină",
+      "rootMeanings": ["ac", "mic"]
+    },
+    "effete": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Sleit de vlagă, slab, prea rafinat.",
+      "friendly": "Uzat și moale — a pierdut puterea dintâi de prea mult confort sau rafinament.",
+      "exampleGloss": "Criticii au numit revista odată cutezătoare effete, o umbră a anilor timpurii îndrăzneți.",
+      "origin": "latină",
+      "rootMeanings": ["afară", "rodnic, care a născut deja"]
+    },
+    "appurtenance": {
+      "partOfSpeech": "substantiv",
+      "definition": "Un accesoriu sau un lucru ori un drept mic, alăturat.",
+      "friendly": "Adaosul mic la ceva mai mare — accesorii și adaosuri care merg cu lucrul de căpătâi.",
+      "exampleGloss": "Chiria cuprindea garajul și toate appurtenances-urile lui.",
+      "origin": "latină / franceză",
+      "rootMeanings": ["spre", "a ține de"]
+    },
+    "gloze": {
+      "partOfSpeech": "verb",
+      "definition": "A trece cu vederea sau a micșora o vină.",
+      "friendly": "A înmuia o greșeală cu vorbe moi, ca să pară mai mică decât e.",
+      "exampleGloss": "A încercat să gloze over termenul ratat cu vorbe cețoase despre „greutăți neprevăzute“.",
+      "origin": "franceză veche / latină",
+      "rootMeanings": ["glosă, tâlcuire", "a comenta — apoi a trece cu vederea"]
+    },
+    "incipient": {
+      "partOfSpeech": "adjectiv",
+      "definition": "Într-un stadiu timpuriu, abia început.",
+      "friendly": "Abia începe să se arate — cea dintâi, abia zărită fază a ceva mai mare.",
+      "exampleGloss": "Medicii au prins semnele incipient ale bolii înainte să se poată întinde.",
+      "origin": "latină",
+      "rootMeanings": ["pe, în", "a lua (a se apuca, a începe)"]
+    },
+    "afflatus": {
+      "partOfSpeech": "substantiv",
+      "definition": "Inspirație creatoare, mai ales dumnezeiască.",
+      "friendly": "Un val brusc de inspirație care pare mai mare decât tine — ca și cum ți-ar fi suflat gândul de aiurea.",
+      "exampleGloss": "Poetul a zis că totul a venit dintr-o lovitură de afflatus la trei dimineața.",
+      "origin": "latină",
+      "rootMeanings": ["spre, pe", "a sufla (suflare-pe)"]
+    }
+  }
+}

@@ -1,0 +1,1744 @@
+[
+  {
+    "id": "edulcorate",
+    "lemma": "Edulcorate",
+    "pos": "verb",
+    "def": "To sweeten or purify; to remove harshness from something.",
+    "friendly": "To take the sting or bitterness out of something — literally sweetening it, or figuratively softening a harsh idea so it goes down easier.",
+    "example": "The editor edulcorated the harsh review before it went to print.",
+    "origin": "Latin",
+    "roots": [
+      "out, thoroughly",
+      "sweet"
+    ]
+  },
+  {
+    "id": "pietistic",
+    "lemma": "Pietistic",
+    "pos": "adjective",
+    "def": "Excessively or affectedly religious or pious.",
+    "friendly": "Describes someone whose religious devotion feels put-on for show, more performance than genuine faith.",
+    "example": "His pietistic sighing during the sermon annoyed the rest of the pew.",
+    "origin": "Latin",
+    "roots": [
+      "piety, dutifulness",
+      "having the character of"
+    ]
+  },
+  {
+    "id": "amphiboly",
+    "lemma": "Amphiboly",
+    "pos": "noun",
+    "def": "Ambiguity arising from grammatical structure — a sentence readable two ways.",
+    "friendly": "A sentence that's grammatically fine but can be read in two completely different ways, like \"I saw the man with the telescope.\"",
+    "example": "\"Visiting relatives can be tiring\" is a classic amphiboly — are the relatives tiring, or is visiting them?",
+    "origin": "Greek",
+    "roots": [
+      "both, on both sides",
+      "to throw"
+    ]
+  },
+  {
+    "id": "trenchant",
+    "lemma": "Trenchant",
+    "pos": "adjective",
+    "def": "Sharp, incisive, cutting straight to the point.",
+    "friendly": "Cuts right through the fluff — a trenchant comment or mind gets to the heart of the matter fast, with no wasted words.",
+    "example": "Her trenchant critique left no room for the film's plot holes to hide.",
+    "origin": "Old French",
+    "roots": [
+      "to cut",
+      "doing, having the quality of"
+    ]
+  },
+  {
+    "id": "inchoative",
+    "lemma": "Inchoative",
+    "pos": "adjective",
+    "def": "Just beginning; in an early or rudimentary stage.",
+    "friendly": "Still in its opening moments — a plan, feeling, or process that has only just started to take shape.",
+    "example": "The inchoative stages of the treaty were promising, but many details remained unsettled.",
+    "origin": "Latin",
+    "roots": [
+      "to begin, to start",
+      "tending toward"
+    ]
+  },
+  {
+    "id": "panegyric",
+    "lemma": "Panegyric",
+    "pos": "noun",
+    "def": "A formal speech or piece of writing praising someone highly.",
+    "friendly": "A full-blown, formal tribute of praise — think of a glowing eulogy or a speech that sings someone's achievements from the rooftops.",
+    "example": "The retiring professor was sent off with a panegyric from her closest students.",
+    "origin": "Greek",
+    "roots": [
+      "all",
+      "assembly, gathering"
+    ]
+  },
+  {
+    "id": "ontic",
+    "lemma": "Ontic",
+    "pos": "adjective",
+    "def": "Relating to real existence or factual being, as opposed to abstract theory.",
+    "friendly": "About things as they actually exist in reality, not just as ideas or theories about them.",
+    "example": "Philosophers debate whether numbers have any ontic status or exist only in our minds.",
+    "origin": "Greek",
+    "roots": [
+      "being, that which exists",
+      "relating to"
+    ]
+  },
+  {
+    "id": "fructify",
+    "lemma": "Fructify",
+    "pos": "verb",
+    "def": "To bear fruit, or to become productive.",
+    "friendly": "To finally pay off — an effort, idea, or investment that fructifies has grown from seed into something useful.",
+    "example": "Years of quiet research finally fructified into a working vaccine.",
+    "origin": "Latin",
+    "roots": [
+      "fruit",
+      "to make, to cause"
+    ]
+  },
+  {
+    "id": "proleptical",
+    "lemma": "Proleptical",
+    "pos": "adjective",
+    "def": "Anticipating or representing something as done before it has actually happened.",
+    "friendly": "Jumping the gun in a literary way — describing a future event as if it's already finished, to make a point land harder.",
+    "example": "The general's proleptical toast to \"victory\" was delivered a full week before the battle.",
+    "origin": "Greek",
+    "roots": [
+      "before",
+      "to take, to seize"
+    ]
+  },
+  {
+    "id": "pneumatic",
+    "lemma": "Pneumatic",
+    "pos": "adjective",
+    "def": "Operated by air pressure; also relating to spirit or breath.",
+    "friendly": "Usually means \"powered by compressed air\" — though it can also mean relating to spirit or breath.",
+    "example": "The pneumatic brakes hissed as the bus pulled up to the curb.",
+    "origin": "Greek",
+    "roots": [
+      "wind, breath, spirit",
+      "pertaining to"
+    ]
+  },
+  {
+    "id": "cataphatic",
+    "lemma": "Cataphatic",
+    "pos": "adjective",
+    "def": "Describing God or the divine through positive statements — the opposite of apophatic.",
+    "friendly": "A way of talking about God by saying what God is — \"God is love\" — rather than only what God is not.",
+    "example": "Cataphatic theology speaks confidently of God as loving, just, and merciful.",
+    "origin": "Greek",
+    "roots": [
+      "down, according to",
+      "to speak, to say"
+    ]
+  },
+  {
+    "id": "fiducial",
+    "lemma": "Fiducial",
+    "pos": "adjective",
+    "def": "Based on trust or faith; also used as a fixed reference point.",
+    "friendly": "Something you take on trust and then use as your anchor point — a fiducial mark is the fixed spot everything else gets measured against.",
+    "example": "Surveyors placed a fiducial marker in the bedrock before mapping the site.",
+    "origin": "Latin",
+    "roots": [
+      "to trust",
+      "trust, confidence"
+    ]
+  },
+  {
+    "id": "theodicy",
+    "lemma": "Theodicy",
+    "pos": "noun",
+    "def": "A defense of God's goodness given the existence of evil.",
+    "friendly": "The age-old attempt to answer \"If God is good, why does evil exist?\"",
+    "example": "Her thesis explored theodicy through the lens of the Book of Job.",
+    "origin": "Greek",
+    "roots": [
+      "god",
+      "justice"
+    ]
+  },
+  {
+    "id": "circumincession",
+    "lemma": "Circumincession",
+    "pos": "noun",
+    "def": "Mutual indwelling — a theological term for how the persons of the Trinity exist within one another.",
+    "friendly": "A theology word for three-in-one togetherness so complete that each part fully contains and is contained by the others.",
+    "example": "The doctrine of circumincession tries to explain how Father, Son, and Spirit are distinct yet inseparable.",
+    "origin": "Latin",
+    "roots": [
+      "around",
+      "to go, to walk"
+    ]
+  },
+  {
+    "id": "redound",
+    "lemma": "Redound",
+    "pos": "verb",
+    "def": "To have a consequence that benefits or reflects back on someone.",
+    "friendly": "When credit (or blame) bounces back onto the person responsible — good deeds that redound to your reputation come back around to reward you.",
+    "example": "The team's success will redound to the credit of its quiet, hardworking coach.",
+    "origin": "Latin",
+    "roots": [
+      "back, again",
+      "wave"
+    ]
+  },
+  {
+    "id": "ineluctable",
+    "lemma": "Ineluctable",
+    "pos": "adjective",
+    "def": "Unable to be avoided or escaped.",
+    "friendly": "Bound to happen no matter what you do — there's no wriggling out of an ineluctable outcome.",
+    "example": "Old age comes for everyone; it's simply ineluctable.",
+    "origin": "Latin",
+    "roots": [
+      "not",
+      "to struggle out of"
+    ]
+  },
+  {
+    "id": "periphrastic",
+    "lemma": "Periphrastic",
+    "pos": "adjective",
+    "def": "Using roundabout, wordy phrasing instead of a direct form.",
+    "friendly": "Taking the long way round with words — saying \"make a decision\" instead of \"decide.\"",
+    "example": "His periphrastic emails could have said in one line what took him three paragraphs.",
+    "origin": "Greek",
+    "roots": [
+      "around",
+      "to declare, to tell"
+    ]
+  },
+  {
+    "id": "hebetude",
+    "lemma": "Hebetude",
+    "pos": "noun",
+    "def": "Mental dullness or lethargy.",
+    "friendly": "That foggy, sluggish state of mind where thinking feels like wading through syrup.",
+    "example": "A wave of hebetude hit the class right after lunch.",
+    "origin": "Latin",
+    "roots": [
+      "dull, blunt",
+      "state or quality"
+    ]
+  },
+  {
+    "id": "unpropitious",
+    "lemma": "Unpropitious",
+    "pos": "adjective",
+    "def": "Not favorable; bode ill.",
+    "friendly": "A bad sign — conditions or timing that seem to be working against you before you've even started.",
+    "example": "Grey skies and a dead car battery made for an unpropitious start to the road trip.",
+    "origin": "Latin",
+    "roots": [
+      "not",
+      "favorable, gracious"
+    ]
+  },
+  {
+    "id": "fricaseed",
+    "lemma": "Fricaseed",
+    "pos": "adjective / verb",
+    "def": "Meat stewed or braised in sauce — properly spelled \"fricasseed.\"",
+    "friendly": "A cozy old cooking term for meat that's been cut up and simmered slowly in its own sauce until tender.",
+    "example": "Grandmother's fricasseed chicken was the highlight of every Sunday dinner.",
+    "origin": "French",
+    "roots": [
+      "to fry",
+      "to break (into pieces)"
+    ]
+  },
+  {
+    "id": "ersatz",
+    "lemma": "Ersatz",
+    "pos": "adjective",
+    "def": "An artificial or inferior substitute.",
+    "friendly": "A knockoff standing in for the real thing — technically does the job, but everyone can tell it's not the genuine article.",
+    "example": "Wartime shoppers made do with ersatz coffee brewed from roasted chicory.",
+    "origin": "German",
+    "roots": [
+      "out, replacement prefix",
+      "to set, to place"
+    ]
+  },
+  {
+    "id": "reify",
+    "lemma": "Reify",
+    "pos": "verb",
+    "def": "To treat an abstract idea as if it were a concrete thing.",
+    "friendly": "To make an idea feel real and solid — turning something fuzzy, like \"the economy,\" into a thing you can point at.",
+    "example": "Calling a nation's \"spirit\" its own being reifies something that's really just millions of individual choices.",
+    "origin": "Latin",
+    "roots": [
+      "thing",
+      "to make"
+    ]
+  },
+  {
+    "id": "eluded",
+    "lemma": "Eluded",
+    "pos": "verb (past tense)",
+    "def": "Escaped or avoided skillfully.",
+    "friendly": "Slipped away cleanly — dodged something, often cleverly or narrowly, whether that's capture, a question, or an answer.",
+    "example": "The answer eluded her for hours until it suddenly clicked in the shower.",
+    "origin": "Latin",
+    "roots": [
+      "out, away",
+      "to play"
+    ]
+  },
+  {
+    "id": "aporetic",
+    "lemma": "Aporetic",
+    "pos": "adjective",
+    "def": "Expressing doubt, puzzlement, or an unresolved contradiction.",
+    "friendly": "Stuck at a genuine dead end of thought — not confused out of laziness, but because the question itself resists a tidy answer.",
+    "example": "Socrates often ended his dialogues on an aporetic note, with more questions than answers.",
+    "origin": "Greek",
+    "roots": [
+      "without",
+      "passage, way"
+    ]
+  },
+  {
+    "id": "metonymy",
+    "lemma": "Metonymy",
+    "pos": "noun",
+    "def": "A figure of speech naming something by an associated term, e.g., \"the crown\" for the monarch.",
+    "friendly": "Using a related word to stand in for the real thing — saying \"the White House announced\" when you mean the administration.",
+    "example": "\"Wall Street had a rough day\" is metonymy — it really means the stock market did.",
+    "origin": "Greek",
+    "roots": [
+      "change, after",
+      "name"
+    ]
+  },
+  {
+    "id": "deracinate",
+    "lemma": "Deracinate",
+    "pos": "verb",
+    "def": "To uproot; to tear from a natural environment.",
+    "friendly": "To pull something (or someone) out by the roots, away from the place or culture they belong to.",
+    "example": "War deracinated an entire generation, scattering families across borders.",
+    "origin": "French / Latin",
+    "roots": [
+      "away, off",
+      "root"
+    ]
+  },
+  {
+    "id": "euphonious",
+    "lemma": "Euphonious",
+    "pos": "adjective",
+    "def": "Pleasant-sounding.",
+    "friendly": "Just nice to hear — a euphonious word, name, or sentence rolls off the ear smoothly, almost musically.",
+    "example": "\"Murmuring brook\" is a euphonious little phrase, soft and easy to say.",
+    "origin": "Greek",
+    "roots": [
+      "good, well",
+      "sound, voice"
+    ]
+  },
+  {
+    "id": "putative",
+    "lemma": "Putative",
+    "pos": "adjective",
+    "def": "Generally assumed or supposed to be.",
+    "friendly": "Widely believed to be true, even if it hasn't actually been proven — the \"supposed\" version of something.",
+    "example": "The putative author of the letter later turned out to be a total stranger.",
+    "origin": "Latin",
+    "roots": [
+      "to think, to consider",
+      "having the nature of"
+    ]
+  },
+  {
+    "id": "neologism",
+    "lemma": "Neologism",
+    "pos": "noun",
+    "def": "A newly coined word or phrase.",
+    "friendly": "A brand-new word — freshly invented, not yet (or barely) in the dictionary.",
+    "example": "\"Doomscrolling\" started as a neologism and quickly became everyday slang.",
+    "origin": "Greek",
+    "roots": [
+      "new",
+      "word, speech"
+    ]
+  },
+  {
+    "id": "splenetic",
+    "lemma": "Splenetic",
+    "pos": "adjective",
+    "def": "Angry or bad-tempered.",
+    "friendly": "In a foul, irritable mood — quick to snap, the way people once believed the spleen controlled your temper.",
+    "example": "He fired off a splenetic reply to the email within seconds of reading it.",
+    "origin": "Greek / Latin",
+    "roots": [
+      "spleen (seat of anger)",
+      "affected by"
+    ]
+  },
+  {
+    "id": "sententious",
+    "lemma": "Sententious",
+    "pos": "adjective",
+    "def": "Given to moralizing in a pompous or affected manner.",
+    "friendly": "Loves to deliver little life lessons in a self-important way, like every sentence is a fortune cookie.",
+    "example": "His sententious toast about \"the true meaning of friendship\" made everyone check their watches.",
+    "origin": "Latin",
+    "roots": [
+      "opinion, maxim",
+      "full of"
+    ]
+  },
+  {
+    "id": "garrulous",
+    "lemma": "Garrulous",
+    "pos": "adjective",
+    "def": "Excessively talkative, especially about trivial things.",
+    "friendly": "Just won't stop chatting — rambling on about small stuff long after everyone else has run out of things to say.",
+    "example": "The garrulous cab driver told us his entire life story before we'd left the airport.",
+    "origin": "Latin",
+    "roots": [
+      "to chatter, to prattle",
+      "inclined to"
+    ]
+  },
+  {
+    "id": "fatuity",
+    "lemma": "Fatuity",
+    "pos": "noun",
+    "def": "Foolishness, silliness.",
+    "friendly": "Plain foolishness — a comment or plan so silly it barely deserves a serious response.",
+    "example": "The sheer fatuity of the plan became obvious the moment they tried it.",
+    "origin": "Latin",
+    "roots": [
+      "foolish, silly",
+      "state of being"
+    ]
+  },
+  {
+    "id": "peroration",
+    "lemma": "Peroration",
+    "pos": "noun",
+    "def": "The concluding part of a speech, often summarizing.",
+    "friendly": "The big finish of a speech — the closing section where the speaker pulls everything together and drives the point home.",
+    "example": "By the peroration, half the audience was on its feet.",
+    "origin": "Latin",
+    "roots": [
+      "through, to the end",
+      "to speak, to plead"
+    ]
+  },
+  {
+    "id": "tautology",
+    "lemma": "Tautology",
+    "pos": "noun",
+    "def": "Needless repetition of the same idea in different words.",
+    "friendly": "Saying the same thing twice without adding anything new, like \"free gift\" or \"end result.\"",
+    "example": "\"It is what it is\" is a favorite tautology of people avoiding a real explanation.",
+    "origin": "Greek",
+    "roots": [
+      "the same",
+      "word, speech"
+    ]
+  },
+  {
+    "id": "laconism",
+    "lemma": "Laconism",
+    "pos": "noun",
+    "def": "The use of very few words; terse speech.",
+    "friendly": "Saying a lot with very little — the art of the short, blunt reply, named after the notoriously brief Spartans of Laconia.",
+    "example": "\"Molon labe\" — \"come and take them\" — is history's most famous piece of laconism.",
+    "origin": "Greek",
+    "roots": [
+      "a Spartan of Laconia",
+      "practice, manner"
+    ]
+  },
+  {
+    "id": "pabulum",
+    "lemma": "Pabulum",
+    "pos": "noun",
+    "def": "Bland, oversimplified ideas; originally, bland food or mush.",
+    "friendly": "Thin, watered-down thinking — content so simplified and safe that it has no nutritional value for the mind.",
+    "example": "The politician's speech was mostly pabulum: vague promises with nothing you could pin down.",
+    "origin": "Latin",
+    "roots": [
+      "to feed",
+      "means or instrument"
+    ]
+  },
+  {
+    "id": "soporific",
+    "lemma": "Soporific",
+    "pos": "adjective",
+    "def": "Causing sleep or drowsiness.",
+    "friendly": "So dull — or so literally sedative — that it makes you sleepy. Think warm milk, or a three-hour budget meeting.",
+    "example": "The lecture's soporific drone had half the room fighting to keep their eyes open.",
+    "origin": "Latin",
+    "roots": [
+      "deep sleep",
+      "making, causing"
+    ]
+  },
+  {
+    "id": "unctuous",
+    "lemma": "Unctuous",
+    "pos": "adjective",
+    "def": "Excessively flattering or oily in manner.",
+    "friendly": "So smoothly charming it feels slippery — flattery laid on so thick you can practically feel the grease.",
+    "example": "The unctuous salesman kept complimenting my \"excellent taste\" before every upsell.",
+    "origin": "Latin",
+    "roots": [
+      "to anoint, to oil",
+      "full of"
+    ]
+  },
+  {
+    "id": "captious",
+    "lemma": "Captious",
+    "pos": "adjective",
+    "def": "Quick to find fault, overly critical of trivial things.",
+    "friendly": "Nitpicky to a fault — the type of person who finds a problem with everything, even when it doesn't really matter.",
+    "example": "His captious notes on the report focused entirely on comma placement.",
+    "origin": "Latin",
+    "roots": [
+      "to seize, to take",
+      "a trap, a sophism"
+    ]
+  },
+  {
+    "id": "torpid",
+    "lemma": "Torpid",
+    "pos": "adjective",
+    "def": "Sluggish, mentally or physically inactive.",
+    "friendly": "Slow and half-asleep, like a bear in hibernation — barely moving, barely thinking.",
+    "example": "The office fell torpid in the heavy heat of August.",
+    "origin": "Latin",
+    "roots": [
+      "to be numb, to be sluggish",
+      "in a state of"
+    ]
+  },
+  {
+    "id": "seneschal",
+    "lemma": "Seneschal",
+    "pos": "noun",
+    "def": "A steward or official managing a medieval household.",
+    "friendly": "The medieval version of a head of staff — the trusted official who ran a lord's household and estate day to day.",
+    "example": "The castle's seneschal managed everything from the harvest accounts to the guest list.",
+    "origin": "Frankish / Old French",
+    "roots": [
+      "old, senior",
+      "servant"
+    ]
+  },
+  {
+    "id": "expatiate",
+    "lemma": "Expatiate",
+    "pos": "verb",
+    "def": "To speak or write at length on a topic.",
+    "friendly": "To really get going on a subject — talking or writing on and on, covering it from every angle.",
+    "example": "Ask him about vintage cars and he'll expatiate for a solid hour.",
+    "origin": "Latin",
+    "roots": [
+      "out",
+      "space"
+    ]
+  },
+  {
+    "id": "nugatory",
+    "lemma": "Nugatory",
+    "pos": "adjective",
+    "def": "Of no value, trifling; also invalid or ineffective.",
+    "friendly": "Worth basically nothing — a nugatory clause in a contract is one that doesn't actually do anything.",
+    "example": "The court ruled the old bylaw nugatory, since it had never actually been enforced.",
+    "origin": "Latin",
+    "roots": [
+      "trifles, nonsense",
+      "belonging to"
+    ]
+  },
+  {
+    "id": "sagacity",
+    "lemma": "Sagacity",
+    "pos": "noun",
+    "def": "Wisdom, shrewd judgment.",
+    "friendly": "Sharp, practical wisdom — the kind of good judgment that comes from experience, not just book smarts.",
+    "example": "The old captain's sagacity kept the crew out of trouble more than once.",
+    "origin": "Latin",
+    "roots": [
+      "keen-scented, shrewd",
+      "quality of"
+    ]
+  },
+  {
+    "id": "canaille",
+    "lemma": "Canaille",
+    "pos": "noun",
+    "def": "The common rabble or masses, used contemptuously.",
+    "friendly": "A snobbish, dismissive word for \"the rabble\" or common people, used with contempt.",
+    "example": "The count sneered at the canaille gathering outside the palace gates.",
+    "origin": "Italian / French",
+    "roots": [
+      "dog",
+      "collective, pack"
+    ]
+  },
+  {
+    "id": "contumely",
+    "lemma": "Contumely",
+    "pos": "noun",
+    "def": "Insolent, humiliating treatment or language.",
+    "friendly": "Cruel, scornful treatment meant to humiliate — the kind of insult designed to sting.",
+    "example": "He endured years of contumely from critics before his work was finally recognized.",
+    "origin": "Latin",
+    "roots": [
+      "with, thoroughly",
+      "to swell (with pride)"
+    ]
+  },
+  {
+    "id": "askance",
+    "lemma": "Askance",
+    "pos": "adverb",
+    "def": "With suspicion or disapproval; a sideways look.",
+    "friendly": "The sideways glance you give something you don't quite trust — a look loaded with doubt.",
+    "example": "The teacher looked askance at the suspiciously tidy homework.",
+    "origin": "Uncertain / Italian",
+    "roots": [
+      "at, to",
+      "slant, bias"
+    ]
+  },
+  {
+    "id": "clodpate",
+    "lemma": "Clodpate",
+    "pos": "noun",
+    "def": "A stupid person; a blockhead.",
+    "friendly": "An old-fashioned, almost affectionate insult for someone being dim or dense — a blockhead.",
+    "example": "\"You clodpate,\" she laughed, \"you've had the map upside down the whole time.\"",
+    "origin": "English",
+    "roots": [
+      "lump of earth",
+      "head"
+    ]
+  },
+  {
+    "id": "actuate",
+    "lemma": "Actuate",
+    "pos": "verb",
+    "def": "To put into motion or action; to motivate.",
+    "friendly": "To be the spark that sets something moving — whether that's a machine switching on or a person finally acting on an idea.",
+    "example": "Fear of losing the contract actuated the whole team into a weekend of overtime.",
+    "origin": "Latin",
+    "roots": [
+      "a doing, a driving",
+      "to drive, to do"
+    ]
+  },
+  {
+    "id": "peculation",
+    "lemma": "Peculation",
+    "pos": "noun",
+    "def": "Embezzlement of funds entrusted to one's care.",
+    "friendly": "Quietly stealing money you were trusted to look after — embezzlement, dressed in an old-fashioned coat.",
+    "example": "The treasurer's peculation went unnoticed for nearly a decade.",
+    "origin": "Latin",
+    "roots": [
+      "private property",
+      "cattle, wealth"
+    ]
+  },
+  {
+    "id": "demi-monde",
+    "lemma": "Demi-monde",
+    "pos": "noun",
+    "def": "A group considered on the fringes of respectable society.",
+    "friendly": "The glamorous-but-shady social underworld — people living just outside the rules of \"respectable\" society.",
+    "example": "The novel follows a singer navigating the demi-monde of 1920s cabarets.",
+    "origin": "French",
+    "roots": [
+      "half",
+      "world, society"
+    ]
+  },
+  {
+    "id": "extant",
+    "lemma": "Extant",
+    "pos": "adjective",
+    "def": "Still existing; not extinct or destroyed.",
+    "friendly": "Still around today — used for old things (manuscripts, species, buildings) that have managed to survive.",
+    "example": "Only three extant copies of the first printing are known to exist.",
+    "origin": "Latin",
+    "roots": [
+      "out",
+      "to stand"
+    ]
+  },
+  {
+    "id": "perfidy",
+    "lemma": "Perfidy",
+    "pos": "noun",
+    "def": "Deceitfulness; betrayal of trust.",
+    "friendly": "Deep, deliberate betrayal — breaking a trust that someone was right to expect you'd keep.",
+    "example": "The general never forgave his old friend's perfidy at the negotiating table.",
+    "origin": "Latin",
+    "roots": [
+      "through, against",
+      "faith, trust"
+    ]
+  },
+  {
+    "id": "patois",
+    "lemma": "Patois",
+    "pos": "noun",
+    "def": "A regional dialect, especially a non-standard one.",
+    "friendly": "The distinctive, local way people talk in a particular region — full of words and rhythms an outsider might not catch.",
+    "example": "Her grandmother still spoke the island's patois at family dinners.",
+    "origin": "French",
+    "roots": [
+      "rough speech, dialect",
+      "paw — clumsy talk"
+    ]
+  },
+  {
+    "id": "prerogative",
+    "lemma": "Prerogative",
+    "pos": "noun",
+    "def": "A special right belonging to a person or group.",
+    "friendly": "A privilege that's yours and yours alone — a right that comes with your role, position, or status.",
+    "example": "Choosing the family's holiday destination is Grandpa's prerogative, and everyone knows it.",
+    "origin": "Latin",
+    "roots": [
+      "before",
+      "to ask, to vote"
+    ]
+  },
+  {
+    "id": "hardihood",
+    "lemma": "Hardihood",
+    "pos": "noun",
+    "def": "Boldness, audacity; also toughness or endurance.",
+    "friendly": "Rugged, gutsy resilience — the nerve to push forward and the toughness to keep going once you do.",
+    "example": "It took real hardihood to cross the pass in a snowstorm with no map.",
+    "origin": "Old French / English",
+    "roots": [
+      "bold, hardy",
+      "state, condition"
+    ]
+  },
+  {
+    "id": "effloresce",
+    "lemma": "Effloresce",
+    "pos": "verb",
+    "def": "To burst into bloom; also, to develop or gradually appear.",
+    "friendly": "To blossom out into full expression — like a flower opening, or an idea finally coming into its own.",
+    "example": "Her quiet talent for painting effloresced once she had a studio of her own.",
+    "origin": "Latin",
+    "roots": [
+      "out",
+      "to begin to bloom"
+    ]
+  },
+  {
+    "id": "plumb-line",
+    "lemma": "Plumb line",
+    "pos": "noun",
+    "def": "A weighted string used to determine verticality; figuratively, a standard of judgment.",
+    "friendly": "A weight on a string that hangs perfectly straight down, used to check if something's truly vertical — and, by extension, any fixed standard you measure everything else against.",
+    "example": "He used his own grandfather's honesty as a kind of plumb line for every decision.",
+    "origin": "Latin / English",
+    "roots": [
+      "lead",
+      "cord, measure"
+    ]
+  },
+  {
+    "id": "fain",
+    "lemma": "Fain",
+    "pos": "adverb",
+    "def": "Gladly, willingly (archaic).",
+    "friendly": "An old-fashioned way of saying \"gladly\" or \"with pleasure.\"",
+    "example": "\"I would fain rest here a while,\" the traveler sighed.",
+    "origin": "Old English",
+    "roots": [
+      "glad, joyful",
+      "gladly, willingly"
+    ]
+  },
+  {
+    "id": "opprobrium",
+    "lemma": "Opprobrium",
+    "pos": "noun",
+    "def": "Harsh public criticism or disgrace.",
+    "friendly": "Public shame heaped on someone in a big, visible way — the disgrace that comes from widespread disapproval.",
+    "example": "The scandal brought public opprobrium down on the entire firm.",
+    "origin": "Latin",
+    "roots": [
+      "against",
+      "disgrace, reproach"
+    ]
+  },
+  {
+    "id": "mordant",
+    "lemma": "Mordant",
+    "pos": "adjective",
+    "def": "Sharply sarcastic, biting in wit or criticism.",
+    "friendly": "Wit with real teeth — a mordant comment stings a little precisely because it's so cleverly aimed.",
+    "example": "Her mordant film reviews were feared by directors and loved by readers.",
+    "origin": "Latin / French",
+    "roots": [
+      "to bite",
+      "biting, doing"
+    ]
+  },
+  {
+    "id": "pronunciamento",
+    "lemma": "Pronunciamento",
+    "pos": "noun",
+    "def": "A formal proclamation, often political or military.",
+    "friendly": "A big, official announcement — usually one declaring a new government, uprising, or major decree.",
+    "example": "The general's pronunciamento announced the new government at dawn.",
+    "origin": "Spanish",
+    "roots": [
+      "forth",
+      "to announce"
+    ]
+  },
+  {
+    "id": "sciolist",
+    "lemma": "Sciolist",
+    "pos": "noun",
+    "def": "A person with superficial knowledge who pretends to be an expert.",
+    "friendly": "Someone who's skimmed the surface of a topic and then talks like they wrote the textbook on it.",
+    "example": "The dinner party sciolist confidently corrected the actual astrophysicist at the table.",
+    "origin": "Latin",
+    "roots": [
+      "to know",
+      "diminutive — a little knower"
+    ]
+  },
+  {
+    "id": "dotage",
+    "lemma": "Dotage",
+    "pos": "noun",
+    "def": "A decline of mental faculties in old age.",
+    "friendly": "The foggy, forgetful stretch of very old age when the sharpness of mind starts to fade.",
+    "example": "In his dotage, he'd tell the same three stories every visit, each time as if it were new.",
+    "origin": "Middle English",
+    "roots": [
+      "to dote, to be foolish",
+      "state or result"
+    ]
+  },
+  {
+    "id": "lee-side",
+    "lemma": "Lee side",
+    "pos": "noun",
+    "def": "The side sheltered from the wind.",
+    "friendly": "The calm, sheltered side of something — a hill, a ship, a wall — where the wind can't quite reach you.",
+    "example": "The hikers pitched their tent on the lee side of the ridge to escape the gusts.",
+    "origin": "Old English",
+    "roots": [
+      "shelter, protection",
+      "flank, face"
+    ]
+  },
+  {
+    "id": "parry",
+    "lemma": "Parry",
+    "pos": "verb",
+    "def": "To deflect or ward off a blow, question, or argument.",
+    "friendly": "To smoothly bat something away — a sword strike, an awkward question, or an accusation — without missing a beat.",
+    "example": "She parried the reporter's tricky question with an easy joke.",
+    "origin": "French",
+    "roots": [
+      "to ward off",
+      "to prepare, to defend"
+    ]
+  },
+  {
+    "id": "mephitic",
+    "lemma": "Mephitic",
+    "pos": "adjective",
+    "def": "Foul-smelling, noxious.",
+    "friendly": "Reeking in a way that feels almost toxic — a stench so bad it seems dangerous to breathe.",
+    "example": "A mephitic smell drifted up from the swamp as the sun set.",
+    "origin": "Latin",
+    "roots": [
+      "noxious vapor",
+      "having the nature of"
+    ]
+  },
+  {
+    "id": "sybarite",
+    "lemma": "Sybarite",
+    "pos": "noun",
+    "def": "A person devoted to luxury and pleasure.",
+    "friendly": "Someone who lives for comfort and indulgence — fine food, soft beds, easy living — named after the ancient Greek city of Sybaris, famous for its excess.",
+    "example": "A true sybarite, he refused any hotel room without a bathtub.",
+    "origin": "Greek",
+    "roots": [
+      "ancient Greek city famed for luxury",
+      "inhabitant of"
+    ]
+  },
+  {
+    "id": "prescind",
+    "lemma": "Prescind",
+    "pos": "verb",
+    "def": "To deliberately set aside or ignore a part of something.",
+    "friendly": "To mentally set a piece of the puzzle aside on purpose, so you can focus cleanly on the rest.",
+    "example": "Let's prescind from the cost for a moment and just ask if the plan actually works.",
+    "origin": "Latin",
+    "roots": [
+      "before, away",
+      "to cut"
+    ]
+  },
+  {
+    "id": "excoriate",
+    "lemma": "Excoriate",
+    "pos": "verb",
+    "def": "To criticize severely; also, to strip off skin.",
+    "friendly": "To tear into someone with harsh criticism — verbally, as if you were literally stripping the skin off.",
+    "example": "The critics excoriated the sequel for betraying everything fans loved about the original.",
+    "origin": "Latin",
+    "roots": [
+      "off",
+      "skin, hide"
+    ]
+  },
+  {
+    "id": "adduce",
+    "lemma": "Adduce",
+    "pos": "verb",
+    "def": "To cite as evidence or proof.",
+    "friendly": "To bring forward a fact or example to back up your point — the thing you point to when someone asks \"what's your evidence?\"",
+    "example": "The lawyer adduced three witnesses to support her client's alibi.",
+    "origin": "Latin",
+    "roots": [
+      "to, toward",
+      "to lead"
+    ]
+  },
+  {
+    "id": "peregrinations",
+    "lemma": "Peregrinations",
+    "pos": "noun",
+    "def": "Travels or wanderings, especially long or extensive ones.",
+    "friendly": "Long, roaming journeys — the kind of extensive wandering that takes you far from home for a good long while.",
+    "example": "His peregrinations across three continents filled a whole shelf of travel journals.",
+    "origin": "Latin",
+    "roots": [
+      "through",
+      "field, land (peregrinus: foreigner)"
+    ]
+  },
+  {
+    "id": "mendicant",
+    "lemma": "Mendicant",
+    "pos": "noun",
+    "def": "A beggar, or one living on alms.",
+    "friendly": "Someone who lives by asking for charity — historically, this also described monks who took vows of poverty and lived off donations.",
+    "example": "The mendicant friars owned nothing and relied entirely on the kindness of villagers.",
+    "origin": "Latin",
+    "roots": [
+      "to beg",
+      "beggar"
+    ]
+  },
+  {
+    "id": "munificent",
+    "lemma": "Munificent",
+    "pos": "adjective",
+    "def": "Extremely generous.",
+    "friendly": "Generous on a grand, almost showy scale — the kind of gift that makes people gasp a little.",
+    "example": "The munificent donation funded the entire new wing of the library.",
+    "origin": "Latin",
+    "roots": [
+      "gift, service",
+      "making, giving"
+    ]
+  },
+  {
+    "id": "inanition",
+    "lemma": "Inanition",
+    "pos": "noun",
+    "def": "Exhaustion from lack of nourishment; also a lack of vitality.",
+    "friendly": "A weak, drained state from not being fed or fueled — literally from hunger, or figuratively from having nothing left to run on.",
+    "example": "By the end of the siege, the soldiers were near inanition.",
+    "origin": "Latin",
+    "roots": [
+      "empty, void",
+      "the act or result of"
+    ]
+  },
+  {
+    "id": "vituperation",
+    "lemma": "Vituperation",
+    "pos": "noun",
+    "def": "Bitter, abusive criticism.",
+    "friendly": "Criticism that's gone well past fair and turned into an angry, bitter tirade.",
+    "example": "The online comments dissolved into pure vituperation within minutes.",
+    "origin": "Latin",
+    "roots": [
+      "fault",
+      "to prepare, to furnish"
+    ]
+  },
+  {
+    "id": "inimical",
+    "lemma": "Inimical",
+    "pos": "adjective",
+    "def": "Hostile, harmful in effect.",
+    "friendly": "Working against you, even if quietly — conditions or attitudes that are unfriendly to your interests.",
+    "example": "The new policy was inimical to small businesses, even if that wasn't the intent.",
+    "origin": "Latin",
+    "roots": [
+      "not",
+      "friend"
+    ]
+  },
+  {
+    "id": "invidious",
+    "lemma": "Invidious",
+    "pos": "adjective",
+    "def": "Likely to cause resentment or discontent, often through unfair comparisons.",
+    "friendly": "Bound to make someone feel slighted — usually because it stacks people or things against each other unfairly.",
+    "example": "Ranking the siblings by \"who Mom loves best\" is an invidious game nobody should play.",
+    "origin": "Latin",
+    "roots": [
+      "envy",
+      "to look upon (with ill will)"
+    ]
+  },
+  {
+    "id": "subaltern",
+    "lemma": "Subaltern",
+    "pos": "noun",
+    "def": "A person of lower rank or status; a subordinate.",
+    "friendly": "Someone lower down the chain of command or social ladder — a junior, working under someone with more power.",
+    "example": "As a young subaltern, he took orders long before he ever gave them.",
+    "origin": "Latin",
+    "roots": [
+      "under",
+      "alternate, other"
+    ]
+  },
+  {
+    "id": "execrate",
+    "lemma": "Execrate",
+    "pos": "verb",
+    "def": "To feel or express strong hatred for.",
+    "friendly": "To loathe something so much you curse it out loud — pure, vocal detestation.",
+    "example": "The villagers execrated the tax collector every time his cart rolled through town.",
+    "origin": "Latin",
+    "roots": [
+      "out of",
+      "sacred (to curse out of the sacred)"
+    ]
+  },
+  {
+    "id": "integument",
+    "lemma": "Integument",
+    "pos": "noun",
+    "def": "A natural outer covering, like skin or a shell.",
+    "friendly": "Nature's own protective wrapping — skin, shell, husk, or rind, whatever covers and shields something living.",
+    "example": "A turtle's shell is a remarkably tough integument.",
+    "origin": "Latin",
+    "roots": [
+      "on, over",
+      "to cover"
+    ]
+  },
+  {
+    "id": "ingenuous",
+    "lemma": "Ingenuous",
+    "pos": "adjective",
+    "def": "Innocent, naive, showing childlike simplicity; the opposite of \"disingenuous.\"",
+    "friendly": "Openly trusting and a little naive, without any hidden agenda — easy to mix up with \"ingenious,\" which means clever.",
+    "example": "Her ingenuous question — \"why would anyone lie about that?\" — showed how little guile she had.",
+    "origin": "Latin",
+    "roots": [
+      "in, native",
+      "to beget (free-born, candid)"
+    ]
+  },
+  {
+    "id": "pedantry",
+    "lemma": "Pedantry",
+    "pos": "noun",
+    "def": "Excessive concern with minor details or rules.",
+    "friendly": "Getting lost in the tiny rules while missing the bigger picture — obsessing over the fine print nobody else cares about.",
+    "example": "His pedantry over Oxford commas derailed the whole meeting.",
+    "origin": "Italian / Latin",
+    "roots": [
+      "tutor of children",
+      "practice or quality"
+    ]
+  },
+  {
+    "id": "perscrutation",
+    "lemma": "Perscrutation",
+    "pos": "noun",
+    "def": "A thorough, careful examination.",
+    "friendly": "A deep, no-stone-unturned look at something — going over every detail with real care.",
+    "example": "Only after a careful perscrutation of the ledgers did the discrepancy turn up.",
+    "origin": "Latin",
+    "roots": [
+      "through, thoroughly",
+      "to search, to examine"
+    ]
+  },
+  {
+    "id": "demur",
+    "lemma": "Demur",
+    "pos": "verb",
+    "def": "To raise objections; to show reluctance.",
+    "friendly": "To politely push back or hesitate rather than go along right away — a soft \"I'd rather not.\"",
+    "example": "When asked to sign without reading it, she demurred.",
+    "origin": "Latin / French",
+    "roots": [
+      "from, away",
+      "to delay"
+    ]
+  },
+  {
+    "id": "specious",
+    "lemma": "Specious",
+    "pos": "adjective",
+    "def": "Superficially plausible but actually wrong.",
+    "friendly": "Sounds convincing at first glance but falls apart the moment you actually check it.",
+    "example": "\"Everyone's doing it\" is a specious argument that never quite holds up under scrutiny.",
+    "origin": "Latin",
+    "roots": [
+      "appearance, look",
+      "full of (fair-seeming)"
+    ]
+  },
+  {
+    "id": "cant",
+    "lemma": "Cant",
+    "pos": "noun",
+    "def": "Insincere, hypocritical talk, often moralizing.",
+    "friendly": "Preachy talk that sounds virtuous but isn't backed by any real feeling — moral posturing on autopilot.",
+    "example": "He was tired of the corporate cant about \"family\" from a company that never gave anyone time off.",
+    "origin": "Latin",
+    "roots": [
+      "to sing (later: singsong jargon)",
+      "whining speech of beggars, then hypocrisy"
+    ]
+  },
+  {
+    "id": "pusillanimous",
+    "lemma": "Pusillanimous",
+    "pos": "adjective",
+    "def": "Lacking courage, cowardly.",
+    "friendly": "Timid to the point of spinelessness — too scared to stand up even when it clearly matters.",
+    "example": "The board's pusillanimous silence let the scandal spiral out of control.",
+    "origin": "Latin",
+    "roots": [
+      "very small",
+      "spirit, courage"
+    ]
+  },
+  {
+    "id": "vulpine",
+    "lemma": "Vulpine",
+    "pos": "adjective",
+    "def": "Fox-like; cunning, crafty.",
+    "friendly": "Sly and clever the way a fox is — quick-witted, a little sneaky, always a step ahead.",
+    "example": "He gave a vulpine grin the moment he spotted the loophole.",
+    "origin": "Latin",
+    "roots": [
+      "fox",
+      "of or like"
+    ]
+  },
+  {
+    "id": "seriatim",
+    "lemma": "Seriatim",
+    "pos": "adverb",
+    "def": "One after another, in sequence.",
+    "friendly": "Taken up strictly one at a time, in order — no skipping ahead, no doing two at once.",
+    "example": "The judge addressed each of the twelve claims seriatim.",
+    "origin": "Latin",
+    "roots": [
+      "row, sequence",
+      "one at a time"
+    ]
+  },
+  {
+    "id": "parsimony",
+    "lemma": "Parsimony",
+    "pos": "noun",
+    "def": "Extreme frugality; stinginess.",
+    "friendly": "Being tight with money (or words, or resources) well past the point of reasonable thrift.",
+    "example": "His parsimony was legendary — he reused tea bags three times over.",
+    "origin": "Latin",
+    "roots": [
+      "to spare, to be frugal",
+      "state or practice"
+    ]
+  },
+  {
+    "id": "emendation",
+    "lemma": "Emendation",
+    "pos": "noun",
+    "def": "A correction, especially in a text.",
+    "friendly": "A fix made to a piece of writing — a scholarly tweak that corrects an error in an old or important text.",
+    "example": "The new edition includes dozens of emendations to the original manuscript.",
+    "origin": "Latin",
+    "roots": [
+      "out of",
+      "fault, error"
+    ]
+  },
+  {
+    "id": "abstemious",
+    "lemma": "Abstemious",
+    "pos": "adjective",
+    "def": "Moderate in eating and drinking.",
+    "friendly": "Deliberately restrained around food and drink — never overindulging, always leaving a little on the plate.",
+    "example": "His abstemious habits kept him sharp long after his peers had slowed down.",
+    "origin": "Latin",
+    "roots": [
+      "away from",
+      "intoxicating drink"
+    ]
+  },
+  {
+    "id": "solecism",
+    "lemma": "Solecism",
+    "pos": "noun",
+    "def": "A grammatical mistake or breach of etiquette.",
+    "friendly": "A slip-up in grammar or manners — the kind of small error that makes a stickler wince.",
+    "example": "\"Between you and I\" is a common solecism that still makes grammarians flinch.",
+    "origin": "Greek",
+    "roots": [
+      "Cilician city known for 'bad' Greek",
+      "practice, manner"
+    ]
+  },
+  {
+    "id": "internecine",
+    "lemma": "Internecine",
+    "pos": "adjective",
+    "def": "Relating to conflict within a group; mutually destructive.",
+    "friendly": "Infighting that tears a group apart from the inside — a fight where everyone loses, because it's family against family.",
+    "example": "The party's internecine squabbling did more damage than any outside opponent could.",
+    "origin": "Latin",
+    "roots": [
+      "between, among",
+      "to kill"
+    ]
+  },
+  {
+    "id": "pococurante",
+    "lemma": "Pococurante",
+    "pos": "adjective / noun",
+    "def": "Indifferent, careless attitude.",
+    "friendly": "A shrug turned into a whole personality — caring so little about things that used to matter that nothing seems worth the effort anymore.",
+    "example": "His pococurante attitude toward the awards ceremony surprised everyone who knew how hard he'd worked.",
+    "origin": "Italian",
+    "roots": [
+      "little",
+      "to care"
+    ]
+  },
+  {
+    "id": "imbroglio",
+    "lemma": "Imbroglio",
+    "pos": "noun",
+    "def": "A confused, complicated situation or dispute.",
+    "friendly": "A tangled, messy situation that's hard to make sense of — part misunderstanding, part drama, all confusion.",
+    "example": "The whole seating-chart imbroglio started with one misplaced name card.",
+    "origin": "Italian",
+    "roots": [
+      "in",
+      "to tangle, to confuse"
+    ]
+  },
+  {
+    "id": "minatory",
+    "lemma": "Minatory",
+    "pos": "adjective",
+    "def": "Threatening, menacing.",
+    "friendly": "Carrying an unmistakable air of threat — a minatory look or letter makes it very clear something bad might follow.",
+    "example": "The minatory tone of the letter made the tenant nervous before she'd even opened the envelope.",
+    "origin": "Latin",
+    "roots": [
+      "to threaten",
+      "serving to"
+    ]
+  },
+  {
+    "id": "obloquy",
+    "lemma": "Obloquy",
+    "pos": "noun",
+    "def": "Strong public criticism or verbal abuse.",
+    "friendly": "Loud, public condemnation — the kind of blistering criticism that plays out in front of everyone.",
+    "example": "The whistleblower faced years of public obloquy before history proved her right.",
+    "origin": "Latin",
+    "roots": [
+      "against",
+      "to speak"
+    ]
+  },
+  {
+    "id": "paroxysm",
+    "lemma": "Paroxysm",
+    "pos": "noun",
+    "def": "A sudden violent outburst, of emotion or action.",
+    "friendly": "A sudden, intense burst that overwhelms you all at once — a fit of laughter, rage, or coughing that hits like a wave.",
+    "example": "She was seized by a paroxysm of laughter she couldn't explain to anyone else in the room.",
+    "origin": "Greek",
+    "roots": [
+      "beyond",
+      "sharp, acute"
+    ]
+  },
+  {
+    "id": "adscititious",
+    "lemma": "Adscititious",
+    "pos": "adjective",
+    "def": "Added from an external source, not inherent.",
+    "friendly": "Bolted on from outside rather than built in from the start — an extra, not a core part.",
+    "example": "The commentary feels adscititious, as if it were tacked onto an already finished text.",
+    "origin": "Latin",
+    "roots": [
+      "to, in addition",
+      "to approve, to take on"
+    ]
+  },
+  {
+    "id": "nescience",
+    "lemma": "Nescience",
+    "pos": "noun",
+    "def": "Lack of knowledge, ignorance.",
+    "friendly": "Simple not-knowing — a gap in knowledge, without any judgment attached to it.",
+    "example": "He admitted his nescience of French wine and let the sommelier choose.",
+    "origin": "Latin",
+    "roots": [
+      "not",
+      "to know"
+    ]
+  },
+  {
+    "id": "prurience",
+    "lemma": "Prurience",
+    "pos": "noun",
+    "def": "Excessive interest in sexual matters.",
+    "friendly": "An overeager, leering kind of curiosity about anything racy — interest that's gone past healthy into nosy.",
+    "example": "The tabloid's prurience over the couple's private life bordered on obsessive.",
+    "origin": "Latin",
+    "roots": [
+      "to itch, to long for",
+      "state of"
+    ]
+  },
+  {
+    "id": "fuliginous",
+    "lemma": "Fuliginous",
+    "pos": "adjective",
+    "def": "Sooty, dark, murky.",
+    "friendly": "Dark and smoky-looking, like everything's coated in a thin layer of soot.",
+    "example": "A fuliginous haze hung over the factory town at dusk.",
+    "origin": "Latin",
+    "roots": [
+      "soot",
+      "full of"
+    ]
+  },
+  {
+    "id": "gainsay",
+    "lemma": "Gainsay",
+    "pos": "verb",
+    "def": "To deny or contradict.",
+    "friendly": "To flatly speak against something someone else said — to say \"that's not so.\"",
+    "example": "No one dared gainsay the old captain's account of the storm.",
+    "origin": "Middle English",
+    "roots": [
+      "against",
+      "to speak"
+    ]
+  },
+  {
+    "id": "ignavia",
+    "lemma": "Ignavia",
+    "pos": "noun",
+    "def": "Laziness, sloth (from Latin).",
+    "friendly": "An old Latin word for pure laziness — the drag of not wanting to do anything at all.",
+    "example": "The monks preached against ignavia as one of the soul's quiet dangers.",
+    "origin": "Latin",
+    "roots": [
+      "not",
+      "busy, diligent"
+    ]
+  },
+  {
+    "id": "escutcheon",
+    "lemma": "Escutcheon",
+    "pos": "noun",
+    "def": "A shield displaying a coat of arms.",
+    "friendly": "The shield-shaped emblem showing a family's coat of arms — its heraldic \"nameplate.\"",
+    "example": "The family's escutcheon still hangs above the old manor's front door.",
+    "origin": "Latin / Old French",
+    "roots": [
+      "shield",
+      "diminutive / object"
+    ]
+  },
+  {
+    "id": "superannuated",
+    "lemma": "Superannuated",
+    "pos": "adjective",
+    "def": "Outdated, obsolete, or retired due to age.",
+    "friendly": "Past its useful prime and put out to pasture — too old-fashioned or worn out to keep doing the job.",
+    "example": "The superannuated printer finally got replaced after fifteen years of jamming.",
+    "origin": "Latin",
+    "roots": [
+      "beyond",
+      "year"
+    ]
+  },
+  {
+    "id": "succedanea",
+    "lemma": "Succedanea",
+    "pos": "noun",
+    "def": "Substitutes, especially in medicine.",
+    "friendly": "Stand-in remedies used when the real treatment isn't available — medical understudies, essentially.",
+    "example": "Wartime doctors often relied on succedanea when proper medicines ran out.",
+    "origin": "Latin",
+    "roots": [
+      "in place of",
+      "to go, to yield"
+    ]
+  },
+  {
+    "id": "rodomontade",
+    "lemma": "Rodomontade",
+    "pos": "noun",
+    "def": "Boastful, blustering talk.",
+    "friendly": "Big, blustery bragging — loud talk about your own greatness that's mostly hot air.",
+    "example": "His rodomontade about \"single-handedly\" saving the project fooled no one who'd actually been there.",
+    "origin": "Italian",
+    "roots": [
+      "boastful knight in Orlando Furioso",
+      "action, display"
+    ]
+  },
+  {
+    "id": "chicane",
+    "lemma": "Chicane",
+    "pos": "verb",
+    "def": "To use trickery or deceit to achieve something.",
+    "friendly": "To wriggle your way to a goal through sneaky tricks rather than fair play.",
+    "example": "He chicaned his way into the deal with a contract full of fine print.",
+    "origin": "French",
+    "roots": [
+      "to quibble, to trick",
+      "trickery; later a sharp turn"
+    ]
+  },
+  {
+    "id": "mathesis",
+    "lemma": "Mathesis",
+    "pos": "noun",
+    "def": "The pure or abstract science of learning or knowledge, often mathematics.",
+    "friendly": "Learning in its purest, most abstract form — the deep structure of knowledge itself, especially the mathematical kind.",
+    "example": "The philosopher dreamed of a universal mathesis that could unify every field of knowledge.",
+    "origin": "Greek",
+    "roots": [
+      "to learn",
+      "the act of learning"
+    ]
+  },
+  {
+    "id": "pedantic",
+    "lemma": "Pedantic",
+    "pos": "adjective",
+    "def": "Excessively concerned with formal rules or trivial detail.",
+    "friendly": "Overly strict about the small stuff — correcting minor technicalities that don't really change anything.",
+    "example": "It felt a little pedantic to argue about \"who\" versus \"whom\" in a text message.",
+    "origin": "Italian / Greek",
+    "roots": [
+      "child-guide, tutor",
+      "having the manner of"
+    ]
+  },
+  {
+    "id": "coruscation",
+    "lemma": "Coruscation",
+    "pos": "noun",
+    "def": "A flashing, sparkling light.",
+    "friendly": "A quick, glittering flash of light — think sunlight bouncing off water, or a diamond catching the light.",
+    "example": "The coruscation of the chandelier scattered light across every corner of the ballroom.",
+    "origin": "Latin",
+    "roots": [
+      "to glitter, to flash",
+      "the act of"
+    ]
+  },
+  {
+    "id": "tyro",
+    "lemma": "Tyro",
+    "pos": "noun",
+    "def": "A beginner, novice.",
+    "friendly": "Someone brand new to a skill or field — still learning the ropes, not yet an expert.",
+    "example": "Even a tyro chess player can spot that blunder.",
+    "origin": "Latin",
+    "roots": [
+      "recruit, novice",
+      "a raw young soldier"
+    ]
+  },
+  {
+    "id": "execrable",
+    "lemma": "Execrable",
+    "pos": "adjective",
+    "def": "Extremely bad, detestable.",
+    "friendly": "Bad in a way that deserves real disgust — not just \"mediocre,\" but truly detestable.",
+    "example": "The reviewer called the sequel execrable, and the box office numbers agreed.",
+    "origin": "Latin",
+    "roots": [
+      "to curse",
+      "worthy of, able to be"
+    ]
+  },
+  {
+    "id": "incarnadine",
+    "lemma": "Incarnadine",
+    "pos": "adjective",
+    "def": "Blood-red in color.",
+    "friendly": "A deep, vivid red — the color of fresh blood, famously used by Shakespeare's Macbeth.",
+    "example": "The sunset turned the whole sky an incarnadine glow.",
+    "origin": "Italian / Latin",
+    "roots": [
+      "into",
+      "flesh (flesh-red)"
+    ]
+  },
+  {
+    "id": "interstice",
+    "lemma": "Interstice",
+    "pos": "noun",
+    "def": "A small gap or space between things.",
+    "friendly": "The tiny in-between space that's easy to overlook — the crack between the floorboards, the gap in a schedule.",
+    "example": "Weeds pushed up through every interstice in the old brick path.",
+    "origin": "Latin",
+    "roots": [
+      "between",
+      "to stand"
+    ]
+  },
+  {
+    "id": "animadversion",
+    "lemma": "Animadversion",
+    "pos": "noun",
+    "def": "Critical or censorious remarks.",
+    "friendly": "Pointed, disapproving comments — the kind of critique that carries a bit of a scolding tone.",
+    "example": "The professor's animadversions on the essay filled the margins in red ink.",
+    "origin": "Latin",
+    "roots": [
+      "mind",
+      "to turn toward"
+    ]
+  },
+  {
+    "id": "irrefragable",
+    "lemma": "Irrefragable",
+    "pos": "adjective",
+    "def": "Impossible to refute, undeniable.",
+    "friendly": "So solidly proven there's no arguing with it — the case is simply closed.",
+    "example": "The DNA evidence was irrefragable, and the trial ended within the hour.",
+    "origin": "Latin",
+    "roots": [
+      "not",
+      "to oppose, to resist"
+    ]
+  },
+  {
+    "id": "involution",
+    "lemma": "Involution",
+    "pos": "noun",
+    "def": "Complexity, intricacy; also a curling inward.",
+    "friendly": "A tangled, folded-in-on-itself kind of complexity — things wrapped so tightly together they're hard to pull apart.",
+    "example": "The plot's involution left half the audience trying to untangle it after the credits.",
+    "origin": "Latin",
+    "roots": [
+      "in, inward",
+      "to roll, to turn"
+    ]
+  },
+  {
+    "id": "dint",
+    "lemma": "Dint",
+    "pos": "noun",
+    "def": "Force or effort, as in \"by dint of.\"",
+    "friendly": "Sheer effort or force — mostly survives today in the phrase \"by dint of.\"",
+    "example": "He passed the exam by dint of sheer, stubborn practice.",
+    "origin": "Old English",
+    "roots": [
+      "a blow, a stroke",
+      "by force of"
+    ]
+  },
+  {
+    "id": "mortised",
+    "lemma": "Mortised",
+    "pos": "adjective",
+    "def": "Joined using a mortise-and-tenon joint; fitted securely together.",
+    "friendly": "Locked together the old-fashioned carpenter's way — one piece slotting snugly into a hole cut just for it.",
+    "example": "The old barn's beams were mortised together without a single nail.",
+    "origin": "Latin / French",
+    "roots": [
+      "a socket, a hole",
+      "a bite, a grip"
+    ]
+  },
+  {
+    "id": "apposite",
+    "lemma": "Apposite",
+    "pos": "adjective",
+    "def": "Highly relevant, apt.",
+    "friendly": "Exactly the right fit for the moment — a comment, quote, or example that lands perfectly on point.",
+    "example": "Her apposite remark summed up the whole debate in one sentence.",
+    "origin": "Latin",
+    "roots": [
+      "to",
+      "to place"
+    ]
+  },
+  {
+    "id": "lambent",
+    "lemma": "Lambent",
+    "pos": "adjective",
+    "def": "Softly glowing or flickering (light); also, light wit.",
+    "friendly": "Glowing gently rather than blazing — a soft, flickering light, or a wit that's playful rather than sharp.",
+    "example": "Candlelight cast a lambent glow across the old dining room.",
+    "origin": "Latin",
+    "roots": [
+      "to lick",
+      "doing (light that 'licks')"
+    ]
+  },
+  {
+    "id": "anchorite",
+    "lemma": "Anchorite",
+    "pos": "noun",
+    "def": "A religious recluse living in solitude.",
+    "friendly": "Someone who withdraws from the world entirely to live alone in prayer and reflection.",
+    "example": "The anchorite lived in a small cell attached to the church for over thirty years.",
+    "origin": "Greek",
+    "roots": [
+      "back, away",
+      "to withdraw"
+    ]
+  },
+  {
+    "id": "slake",
+    "lemma": "Slake",
+    "pos": "verb",
+    "def": "To satisfy thirst; to quench.",
+    "friendly": "To fully satisfy a craving — most often thirst, but figuratively any deep want or need.",
+    "example": "One cold glass of water slaked his thirst after the long hike.",
+    "origin": "Old English",
+    "roots": [
+      "slack, loose",
+      "to slacken, to allay"
+    ]
+  },
+  {
+    "id": "acicular",
+    "lemma": "Acicular",
+    "pos": "adjective",
+    "def": "Needle-shaped.",
+    "friendly": "Long, thin, and pointed like a needle — the shape of a pine needle or a sharp little crystal.",
+    "example": "Pine trees are easy to identify by their acicular leaves.",
+    "origin": "Latin",
+    "roots": [
+      "needle",
+      "little"
+    ]
+  },
+  {
+    "id": "effete",
+    "lemma": "Effete",
+    "pos": "adjective",
+    "def": "Exhausted of vitality, weak, overrefined.",
+    "friendly": "Worn out and soft — having lost its original strength or vigor through too much comfort or refinement.",
+    "example": "Critics called the once-daring magazine effete, a shadow of its bold early years.",
+    "origin": "Latin",
+    "roots": [
+      "out",
+      "fruitful, having borne"
+    ]
+  },
+  {
+    "id": "appurtenance",
+    "lemma": "Appurtenance",
+    "pos": "noun",
+    "def": "An accessory or minor attached item or right.",
+    "friendly": "A small extra that comes attached to something bigger — the accessories and add-ons that belong with the main thing.",
+    "example": "The lease included the garage and all its appurtenances.",
+    "origin": "Latin / French",
+    "roots": [
+      "to",
+      "to belong"
+    ]
+  },
+  {
+    "id": "gloze",
+    "lemma": "Gloze",
+    "pos": "verb",
+    "def": "To gloss over or minimize a fault.",
+    "friendly": "To smooth over a mistake with soft words, making it sound smaller than it really is.",
+    "example": "He tried to gloze over the missed deadline with vague talk of \"unforeseen challenges.\"",
+    "origin": "Old French / Latin",
+    "roots": [
+      "a gloss, an explanation",
+      "to comment — then to smooth over"
+    ]
+  },
+  {
+    "id": "incipient",
+    "lemma": "Incipient",
+    "pos": "adjective",
+    "def": "In an early stage, just beginning.",
+    "friendly": "Just starting to show itself — the very first, barely-visible stage of something bigger to come.",
+    "example": "Doctors caught the incipient signs of the illness before it could spread.",
+    "origin": "Latin",
+    "roots": [
+      "on, into",
+      "to take (to take up, to begin)"
+    ]
+  },
+  {
+    "id": "afflatus",
+    "lemma": "Afflatus",
+    "pos": "noun",
+    "def": "Creative inspiration, especially divine.",
+    "friendly": "A sudden rush of inspiration that feels bigger than you — as if the idea were breathed into you from somewhere else.",
+    "example": "The poet described the whole piece arriving in one burst of afflatus at 3 a.m.",
+    "origin": "Latin",
+    "roots": [
+      "to, upon",
+      "to blow (a breathing-upon)"
+    ]
+  }
+]

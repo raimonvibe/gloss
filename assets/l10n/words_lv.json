@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Saldināt vai attīrīt; novērst kaut kā skarbumu.",
+      "friendly": "Izņemt dzēlīgumu vai rūgtumu — burtiski saldinot vai pārnestā nozīmē mīkstinot skarbu ideju, lai to vieglāk pieņemtu.",
+      "exampleGloss": "Redaktors edulcorated skarbo recenziju, pirms tā aizgāja uz druku.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā, rūpīgi",
+        "salds"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Pārmērīgi vai izlikti reliģiozs vai dievbijīgs.",
+      "friendly": "Apraksta kādu, kura reliģiskā uzticība šķiet izlikšanās publikai — vairāk izrāde nekā īsta ticība.",
+      "exampleGloss": "Viņa pietistic nopūtas sludināšanas laikā kaitināja pārējo soliņu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "dievbijība, pienākuma apziņa",
+        "kam piemīt raksturs"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Divdomība, kas rodas no gramatiskās uzbūves — teikums, ko var lasīt divējādi.",
+      "friendly": "Teikums, kas gramatiski ir kārtībā, bet ko var saprast divos pilnīgi atšķirīgos veidos, piemēram, \"I saw the man with the telescope.\"",
+      "exampleGloss": "\"Visiting relatives can be tiring\" ir klasiska amphiboly — vai nogurdina radinieki, vai tas, ka viņus apmeklē?",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "abi, no abām pusēm",
+        "mest"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Ass, trāpīgs, griež taisni pie lietas būtības.",
+      "friendly": "Griež cauri tukšajiem vārdiem — trenchant piezīme vai prāts ātri nonāk pie lietas sirds, bez lieka.",
+      "exampleGloss": "Viņas trenchant kritika neatstāja filmas sižeta caurumiem, kur paslēpties.",
+      "origin": "senfranču",
+      "rootMeanings": [
+        "griezt",
+        "darītājs, kam piemīt īpašība"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Tikko sācies; agrīnā vai pirmatnējā stadijā.",
+      "friendly": "Vēl atklāšanas brīžos — plāns, sajūta vai process, kas tikko sācis iegūt formu.",
+      "exampleGloss": "Līguma inchoative posmi bija daudzsološi, bet daudz kas vēl palika neatrisināts.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "sākt, uzsākt",
+        "kas tiecas uz"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Formāla runa vai raksts, kas kādu augsti slavē.",
+      "friendly": "Pilnīgs, formāls slavinājums — iedomājies spožu piemiņas runu vai uzrunu, kas dzied kāda sasniegumus no jumtiem.",
+      "exampleGloss": "Aizejošo profesori pavadīja panegyric no viņas tuvākajiem studentiem.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "viss",
+        "sapulce, pulcēšanās"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Attiecas uz īstu esamību vai faktisku būtību, pretēji abstraktai teorijai.",
+      "friendly": "Par lietām tā, kā tās patiešām pastāv, ne tikai kā idejas vai teorijas par tām.",
+      "exampleGloss": "Filozofi strīdas, vai skaitļiem ir kāds ontic statuss, vai tie pastāv tikai mūsu prātos.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "būtība, tas, kas ir",
+        "kas attiecas uz"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Nest augļus vai kļūt produktīvam.",
+      "friendly": "Beidzot atmaksāties — pūles, ideja vai ieguldījums, kas fructify, ir izaudzis no sēklas par kaut ko noderīgu.",
+      "exampleGloss": "Gadu klusie pētījumi beidzot fructified darba vakcīnā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "auglis",
+        "darīt, izraisīt"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Kas paredz vai attēlo kaut ko kā jau notikušu, pirms tas patiešām ir noticis.",
+      "friendly": "Pārsteigt notikumus literārā veidā — aprakstīt nākotnes notikumu, it kā tas jau būtu beidzies, lai punkts iesistu stiprāk.",
+      "exampleGloss": "Ģenerāļa proleptical tosts \"victory\" tika teikts veselu nedēļu pirms kaujas.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "pirms",
+        "ņemt, sagrābt"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Darbināts ar gaisa spiedienu; arī saistīts ar garu vai elpu.",
+      "friendly": "Parasti nozīmē \"darbināts ar saspiestu gaisu\" — lai gan var arī nozīmēt saistītu ar garu vai elpu.",
+      "exampleGloss": "Pneumatic bremzes šņāca, kad autobuss piebrauca pie apmales.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "vējš, elpa, gars",
+        "kas attiecas uz"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Dievu vai dievišķo apraksta ar pozitīviem apgalvojumiem — pretstats apofātiskajam.",
+      "friendly": "Veids, kā runāt par Dievu, sakot, kas Dievs ir — \"God is love\" —, nevis tikai, kas Dievs nav.",
+      "exampleGloss": "Cataphatic teoloģija pārliecināti runā par Dievu kā mīlošu, taisnīgu un žēlsirdīgu.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "lejā, saskaņā ar",
+        "runāt, teikt"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Balstīts uz uzticību vai ticību; arī kā fiksēts atskaites punkts.",
+      "friendly": "Kaut kas, ko pieņem uzticībā un tad izmanto kā enkuru — fiducial zīme ir fiksētais punkts, pret ko mēra visu pārējo.",
+      "exampleGloss": "Mērnieki novietoja fiducial marķieri pamatiezī, pirms kartēja vietu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uzticēties",
+        "uzticība, pārliecība"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Dieva labestības aizstāvība, ņemot vērā ļaunuma esamību.",
+      "friendly": "Senais mēģinājums atbildēt: \"If God is good, why does evil exist?\"",
+      "exampleGloss": "Viņas disertācija pētīja theodicy caur Ījaba grāmatas prizmu.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "dievs",
+        "taisnīgums"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Savstarpēja mājvieta — teoloģisks termins tam, kā Trīsvienības personas pastāv viena otrā.",
+      "friendly": "Teoloģijas vārds tik pilnīgai trīs-vienā kopībai, ka katra daļa pilnībā satur un ir saturēta pārējās.",
+      "exampleGloss": "Circumincession doktrīna mēģina izskaidrot, kā Tēvs, Dēls un Gars ir atšķirīgi, tomēr neatdalāmi.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "apkārt",
+        "iet, staigāt"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Radīt sekas, kas nāk par labu vai atspoguļojas uz kādu.",
+      "friendly": "Kad uzslava (vai vaina) atlec atpakaļ pie atbildīgā — labi darbi, kas redound tavai reputācijai, atgriežas ar atlīdzību.",
+      "exampleGloss": "Komandas panākumi redound tās klusā, čaklā trenera godam.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "atpakaļ, atkal",
+        "vilnis"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Tāds, no kā nevar izvairīties vai izbēgt.",
+      "friendly": "Notiks, lai ko tu darītu — no ineluctable iznākuma nav, kur izslīdēt.",
+      "exampleGloss": "Vecums nāk pie visiem; tas ir vienkārši ineluctable.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ne",
+        "izcīnīties ārā"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Kas lieto apkārtēju, vārdiem bagātu izteiksmi, nevis tiešu formu.",
+      "friendly": "Iet ar vārdiem garo ceļu — saka \"make a decision\" tā vietā, lai teiktu \"decide.\"",
+      "exampleGloss": "Viņa periphrastic e-pasti varēja vienā rindā pateikt to, kam viņš tērēja trīs rindkopas.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "apkārt",
+        "paziņot, stāstīt"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Garīgs trulums vai letarģija.",
+      "friendly": "Tā miglainā, gausā prāta stāvoklī, kurā domāšana jūtas kā brīdīšana cauri sīrupam.",
+      "exampleGloss": "Hebetude vilnis pārņēma klasi tūlīt pēc pusdienām.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "truls, strups",
+        "stāvoklis vai īpašība"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Nelabvēlīgs; sliktas zīmes.",
+      "friendly": "Slikta zīme — apstākļi vai laiks, kas šķiet strādā pret tevi, pirms esi pat sācis.",
+      "exampleGloss": "Pelēkas debesis un mirusi automašīnas baterija veidoja unpropitious sākumu ceļojumam.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ne",
+        "labvēlīgs, žēlīgs"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "īpašības vārds / darbības vārds",
+      "definition": "Gaļa, kas sautēta mērcē — pareizi rakstīts \"fricasseed.\"",
+      "friendly": "Mājīgs, vecs ēdiena vārds gaļai, kas sagriezta un lēni sautēta savā mērcē, līdz kļūst maiga.",
+      "exampleGloss": "Vecmāmiņas fricasseed vista bija katras svētdienas vakariņu zvaigzne.",
+      "origin": "franču",
+      "rootMeanings": [
+        "cept",
+        "lauzt (gabalos)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Mākslīgs vai sliktāks aizstājējs.",
+      "friendly": "Viltojums īstā vietā — tehniski dara darbu, bet visiem redzams, ka tas nav īstais.",
+      "exampleGloss": "Kara laika pircēji iztika ar ersatz kafiju no grauzdētas cigoriņu saknes.",
+      "origin": "vācu",
+      "rootMeanings": [
+        "ārā, aizvietošanas priedēklis",
+        "likt, novietot"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Izturēties pret abstraktu ideju tā, it kā tā būtu konkrēta lieta.",
+      "friendly": "Padarīt ideju jūtamies īstu un cietu — pārvērst kaut ko neskaidru, piemēram, \"the economy,\" par lietu, uz ko var norādīt.",
+      "exampleGloss": "Saucot nācijas \"spirit\" par patstāvīgu būtni, reify kaut ko, kas patiesībā ir miljoniem atsevišķu izvēļu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "lieta",
+        "darīt"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "darbības vārds (pagātne)",
+      "definition": "Prasmīgi izbēga vai izvairījās.",
+      "friendly": "Tīri izslīdēja — izvairījās no kaut kā, bieži gudri vai šauri, vai tā būtu sagūstīšana, jautājums vai atbilde.",
+      "exampleGloss": "Atbilde eluded viņu stundām, līdz pēkšņi noklikšķināja dušā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā, projām",
+        "spēlēt"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Kas izsaka šaubas, apjukumu vai neatrisinātu pretrunu.",
+      "friendly": "Iestrēdzis īstā domu strupceļā — ne jau slinkuma dēļ, bet tāpēc, ka pats jautājums pretojas kārtīgai atbildei.",
+      "exampleGloss": "Sokrats bieži beidza dialogus aporetic notī, ar vairāk jautājumiem nekā atbildēm.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "bez",
+        "ceļš, eja"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Stila figūra, kas nosauc kaut ko ar saistītu vārdu, piemēram, \"the crown\" par monarhu.",
+      "friendly": "Izmantot saistītu vārdu īstā vietā — teikt \"the White House announced,\" kad domā administrāciju.",
+      "exampleGloss": "\"Wall Street had a rough day\" ir metonymy — patiesībā tas nozīmē, ka birža tādu piedzīvoja.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "maiņa, pēc",
+        "vārds"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Izraut ar saknēm; atraut no dabiskās vides.",
+      "friendly": "Izraut kaut ko (vai kādu) ar saknēm, prom no vietas vai kultūras, kurai viņš pieder.",
+      "exampleGloss": "Karš deracinate veselu paaudzi, izkaisot ģimenes pāri robežām.",
+      "origin": "franču / latīņu",
+      "rootMeanings": [
+        "prom, nost",
+        "sakne"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Patīkami skanošs.",
+      "friendly": "Vienkārši jauki dzirdēt — euphonious vārds, vārds vai teikums slīd ausij gludi, gandrīz muzikāli.",
+      "exampleGloss": "\"Murmuring brook\" ir euphonious mazs izteiciens — mīksts un viegli izrunājams.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "labs, labi",
+        "skaņa, balss"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Vispārīgi pieņemts vai uzskatīts par tādu.",
+      "friendly": "Plaši ticēts par patiesu, pat ja tas nav pierādīts — \"pieņemamā\" versija par kaut ko.",
+      "exampleGloss": "Vēstules putative autors vēlāk izrādījās pilnīgs svešinieks.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "domāt, uzskatīt",
+        "kam piemīt daba"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Jaunradīts vārds vai frāze.",
+      "friendly": "Pavisam jauns vārds — tikko izgudrots, vēl (vai tikko) nav vārdnīcā.",
+      "exampleGloss": "\"Doomscrolling\" sākās kā neologism un ātri kļuva par ikdienas slengu.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "jauns",
+        "vārds, runa"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Dusmīgs vai ļauns raksturā.",
+      "friendly": "Sliktā, aizkaitināmā noskaņā — ātri uzliesmo, kā kādreiz ticēja, ka liesa kontrolē temperamentu.",
+      "exampleGloss": "Viņš aizsūtīja splenetic atbildi e-pastam dažu sekunžu laikā pēc izlasīšanas.",
+      "origin": "grieķu / latīņu",
+      "rootMeanings": [
+        "liesa (dusmu mājvieta)",
+        "ietekmēts no"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Tāds, kas morālizē uzpūtīgi vai izlikti.",
+      "friendly": "Mīl pasniegt mazas dzīves mācības pašsvarīgā veidā, it kā katrs teikums būtu laimes cepums.",
+      "exampleGloss": "Viņa sententious tosts par \"the true meaning of friendship\" lika visiem skatīties pulksteņos.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "viedoklis, maksima",
+        "pilns ar"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Pārmērīgi runīgs, it īpaši par sīkumiem.",
+      "friendly": "Vienkārši nepārtrauc čalot — mētājas par sīkumiem ilgi pēc tam, kad visiem pārējiem beigušies vārdi.",
+      "exampleGloss": "Garrulous taksists pastāstīja visu savu dzīvesstāstu, pirms bijām atstājuši lidostu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "čalot, pļāpāt",
+        "tiecas uz"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Muļķība, neprāts.",
+      "friendly": "Parasta muļķība — piezīme vai plāns tik stulbs, ka tikko pelna nopietnu atbildi.",
+      "exampleGloss": "Plāna tīrā fatuity kļuva acīmredzama brīdī, kad viņi to izmēģināja.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "muļķīgs, stulbs",
+        "būšanas stāvoklis"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Runas noslēdzošā daļa, bieži kopsavilkums.",
+      "friendly": "Runas lielais fināls — noslēguma daļa, kur runātājs savilks visu kopā un iesit punktu mājās.",
+      "exampleGloss": "Līdz peroration puse publikas jau stāvēja kājās.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "cauri, līdz galam",
+        "runāt, aizstāvēt"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Nevajadzīga tās pašas idejas atkārtošana citiem vārdiem.",
+      "friendly": "Teikt to pašu divreiz, neko jaunu nepievienojot, piemēram, \"free gift\" vai \"end result.\"",
+      "exampleGloss": "\"It is what it is\" ir iecienīta tautology tiem, kas izvairās no īsta skaidrojuma.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "tas pats",
+        "vārds, runa"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Ļoti maz vārdu lietošana; lakoniska runa.",
+      "friendly": "Daudz pateikt ar ļoti maz — īsās, strupās atbildes māksla, nosaukta pēc Lakonijas leģendāri īsiem spartiešiem.",
+      "exampleGloss": "\"Molon labe\" — \"come and take them\" — ir vēstures slavenākais laconism gabals.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "Lakonas spartietis",
+        "prakse, veids"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Plieknas, pārmērīgi vienkāršotas idejas; sākotnēji — plieknas ēdiens vai biezputra.",
+      "friendly": "Plāns, atšķaidīts domāšana — saturs tik vienkāršots un drošs, ka prātam nav nekādas barības vērtības.",
+      "exampleGloss": "Politikas runa bija galvenokārt pabulum: neskaidri solījumi, pie kuriem neko nevarēja piesiet.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "barot",
+        "līdzeklis vai instruments"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Kas izraisa miegu vai miegainību.",
+      "friendly": "Tik garlaicīgs — vai burtiski nomierinošs —, ka tas liek aizmigt. Iedomājies siltu pienu vai trīs stundu budžeta sēdi.",
+      "exampleGloss": "Lekcijas soporific dūkoņa lika pusei telpas cīnīties, lai turētu acis vaļā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "dziļš miegs",
+        "kas rada, izraisa"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Pārmērīgi glaimojošs vai eļļains manierē.",
+      "friendly": "Tik gludi šarmants, ka šķiet slidenš — glaimi uzklāti tik biezi, ka praktiski jūt taukus.",
+      "exampleGloss": "Unctuous pārdevējs turpināja slavēt manu \"excellent taste\" pirms katra papildu pārdošanas.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "svaidīt, eļļot",
+        "pilns ar"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Ātri atrod kļūdas, pārmērīgi kritisks pret sīkumiem.",
+      "friendly": "Nīgrs līdz kļūdai — tāds, kas atrod problēmu visā, pat kad tas īsti nav svarīgi.",
+      "exampleGloss": "Viņa captious piezīmes pie atskaites koncentrējās tikai uz komatu izvietojumu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "sagrābt, ņemt",
+        "slazds, sofisms"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Gausš, garīgi vai fiziski neaktīvs.",
+      "friendly": "Lēns un pusmiegā, kā lācis ziemas miegā — tikko kustas, tikko domā.",
+      "exampleGloss": "Birojs kļuva torpid augusta smagajā karstumā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "būt nejūtīgam, būt gausam",
+        "stāvoklī"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Pārvaldnieks vai amatpersona, kas vadīja viduslaiku saimniecību.",
+      "friendly": "Viduslaiku personāla vadītāja versija — uzticamais ierēdnis, kas vadīja kunga māju un muižu no dienas uz dienu.",
+      "exampleGloss": "Pils seneschal pārvaldīja visu no ražas grāmatvedības līdz viesu sarakstam.",
+      "origin": "franku / senfranču",
+      "rootMeanings": [
+        "vecs, vecākais",
+        "kalps"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Runāt vai rakstīt gari par tēmu.",
+      "friendly": "Patiešām iešūpoties tēmā — runāt vai rakstīt un rakstīt, apskatot to no visām pusēm.",
+      "exampleGloss": "Pajautā viņam par vintage cars, un viņš expatiate veselu stundu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā",
+        "telpa"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Bez vērtības, niecīgs; arī spēkā neesošs vai neefektīvs.",
+      "friendly": "Vērts praktiski neko — nugatory klauzula līgumā ir tāda, kas īsti neko nedara.",
+      "exampleGloss": "Tiesa atzina veco noteikumu par nugatory, jo tas nekad nebija īsti piemērots.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "sīkumi, muļķības",
+        "kas pieder pie"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Gudrība, vērīgs spriedums.",
+      "friendly": "Ass, praktiska gudrība — tāds labs spriedums, kas nāk no pieredzes, ne tikai no grāmatām.",
+      "exampleGloss": "Vecā kapteiņa sagacity ne reizi vien izglāba komandu no nepatikšanām.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ass ožas, vērīgs",
+        "īpašība"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Vienkāršā pūlis vai masas, lietots nicinoši.",
+      "friendly": "Uzpūtīgs, nicinošs vārds \"pūlim\" vai vienkāršajiem ļaudīm, lietots ar nicinājumu.",
+      "exampleGloss": "Grāfs ņirgājās par canaille, kas pulcējās pie pils vārtiem.",
+      "origin": "itāļu / franču",
+      "rootMeanings": [
+        "suns",
+        "kopums, bars"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Neķītrs, pazemojošs izturēšanās vai valoda.",
+      "friendly": "Cietsirdīga, nicinoša izturēšanās, kas paredzēta pazemot — tāds apvainojums, kas ir iecerēts sāpēt.",
+      "exampleGloss": "Viņš izturēja gadus contumely no kritiķiem, pirms viņa darbs beidzot tika atzīts.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ar, rūpīgi",
+        "uzpūsties (ar lepnumu)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "apstākļa vārds",
+      "definition": "Ar aizdomām vai noraidījumu; skatīties sānis.",
+      "friendly": "Tas sānis skatiens, ko dod kaut kam, kam īsti neuzticies — skatiens, pilns šaubu.",
+      "exampleGloss": "Skolotāja paskatījās askance uz aizdomīgi kārtīgo mājasdarbu.",
+      "origin": "nenoteikts / itāļu",
+      "rootMeanings": [
+        "uz, pie",
+        "slīpums, novirze"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Stulbs cilvēks; muļķis.",
+      "friendly": "Vecmodīgs, gandrīz mīļš apvainojums kādam, kas ir blāvs vai blīvs — kluča galva.",
+      "exampleGloss": "\"You clodpate,\" viņa smējās, \"you've had the map upside down the whole time.\"",
+      "origin": "angļu",
+      "rootMeanings": [
+        "zemes pika",
+        "galva"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Iedarbināt vai likt darboties; motivēt.",
+      "friendly": "Būt dzirkstelei, kas kaut ko iedarbina — vai tā būtu mašīna, kas ieslēdzas, vai cilvēks, kas beidzot rīkojas pēc idejas.",
+      "exampleGloss": "Bailes zaudēt līgumu actuated visu komandu nedēļas nogales virsstundās.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "darīšana, dzīšana",
+        "dzīt, darīt"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Uzticētu līdzekļu piesavināšanās.",
+      "friendly": "Klusi zagšana naudas, kas tev uzticēta glabāt — piesavināšanās vecmodīgā mētelī.",
+      "exampleGloss": "Kasiera peculation palika nepamanīta gandrīz desmit gadus.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "privātīpašums",
+        "lopi, bagātība"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Grupa, kas uzskatīta par cienījamas sabiedrības malā.",
+      "friendly": "Tas glamorīgais, bet ēnainais sociālais apakšpasaule — cilvēki, kas dzīvo tieši ārpus \"cienījamās\" sabiedrības noteikumiem.",
+      "exampleGloss": "Romāns seko dziedātājai, kas navigē 1920. gadu kabarē demi-monde.",
+      "origin": "franču",
+      "rootMeanings": [
+        "puse",
+        "pasaule, sabiedrība"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Joprojām pastāvošs; nav izmiris vai iznīcināts.",
+      "friendly": "Joprojām ir šeit šodien — lieto vecām lietām (manuskriptiem, sugām, ēkām), kas ir spējušas izdzīvot.",
+      "exampleGloss": "Ir zināmas tikai trīs extant pirmā iespieduma kopijas.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā",
+        "stāvēt"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Viltība; uzticības nodevība.",
+      "friendly": "Dziļa, tīša nodevība — lauzt uzticību, ko kāds bija tiesīgs sagaidīt, ka tu saglabāsi.",
+      "exampleGloss": "Ģenerālis nekad nepiedeva sava vecā drauga perfidy pie sarunu galda.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "cauri, pret",
+        "ticība, uzticība"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Reģionāls dialekts, īpaši nestandarta.",
+      "friendly": "Īpatnējais, vietējais veids, kā cilvēki runā kādā reģionā — pilns vārdu un ritmu, ko svešinieks varētu nesaprast.",
+      "exampleGloss": "Viņas vecmāmiņa joprojām runāja salas patois ģimenes vakariņās.",
+      "origin": "franču",
+      "rootMeanings": [
+        "rupja runa, dialekts",
+        "ķepa — neveikla runa"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Īpašas tiesības, kas pieder personai vai grupai.",
+      "friendly": "Privilēģija, kas ir tava un tikai tava — tiesības, kas nāk ar tavu lomu, amatu vai statusu.",
+      "exampleGloss": "Ģimenes brīvdienu vietas izvēle ir vectēva prerogative, un to visi zina.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "pirms",
+        "jautāt, balsot"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Drosme, drosmība; arī izturība.",
+      "friendly": "Raupja, drosmīga izturība — nervi iet uz priekšu un cietība turpināt, kad esi sācis.",
+      "exampleGloss": "Bija vajadzīga īsta hardihood, lai šķērsotu pāreju sniegputenī bez kartes.",
+      "origin": "senfranču / angļu",
+      "rootMeanings": [
+        "drosmīgs, izturīgs",
+        "stāvoklis, nosacījums"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Uzziedēt; arī attīstīties vai pakāpeniski parādīties.",
+      "friendly": "Uzziedēt pilnā izteiksmē — kā zieds, kas atveras, vai ideja, kas beidzot nāk pie sevis.",
+      "exampleGloss": "Viņas klusais gleznošanas talants effloresced, kad viņai bija sava studija.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā",
+        "sākt ziedēt"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Atsvars uz auklas, lai noteiktu vertikāli; pārnestā nozīmē — sprieduma mēraukla.",
+      "friendly": "Svars uz auklas, kas karājas pilnīgi taisni lejup, lai pārbaudītu, vai kaut kas ir īsti vertikāls — un, plašāk, jebkurš fiksēts standarts, pret ko mēra visu pārējo.",
+      "exampleGloss": "Viņš izmantoja sava vectēva godīgumu kā sava veida plumb line katram lēmumam.",
+      "origin": "latīņu / angļu",
+      "rootMeanings": [
+        "svins",
+        "aukla, mērs"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "apstākļa vārds",
+      "definition": "Labprāt, ar prieku (arhaisms).",
+      "friendly": "Vecmodīgs veids, kā teikt \"labprāt\" vai \"ar prieku.\"",
+      "exampleGloss": "\"I would fain rest here a while,\" ceļotājs nopūtās.",
+      "origin": "senangļu",
+      "rootMeanings": [
+        "priecīgs, priecīgs",
+        "labprāt, ar prieku"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Skarba publiska kritika vai negods.",
+      "friendly": "Publisks kauns, kas uzkrāts kādam lielā, redzamā veidā — negods, kas nāk no plaša noraidījuma.",
+      "exampleGloss": "Skandāls nesa publisku opprobrium visai firmai.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "pret",
+        "negods, pārmetums"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Asi sarkastisks, kodīgs asprātībā vai kritikā.",
+      "friendly": "Asprātība ar īstiem zobiem — mordant piezīme kniebj tieši tāpēc, ka tā ir tik gudri mērķēta.",
+      "exampleGloss": "Viņas mordant filmu recenzijas baidīja režisorus un mīlēja lasītāji.",
+      "origin": "latīņu / franču",
+      "rootMeanings": [
+        "kost",
+        "kožošs, darītājs"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Formāls paziņojums, bieži politisks vai militārs.",
+      "friendly": "Liels, oficiāls paziņojums — parasti tāds, kas pasludina jaunu valdību, sacelšanos vai svarīgu dekrētu.",
+      "exampleGloss": "Ģenerāļa pronunciamento rītausmā paziņoja jauno valdību.",
+      "origin": "spāņu",
+      "rootMeanings": [
+        "uz priekšu",
+        "paziņot"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Cilvēks ar virspusējām zināšanām, kas izliekas par ekspertu.",
+      "friendly": "Kāds, kas ir pārlidojis tēmas virsmu un tad runā, it kā būtu rakstījis par to mācību grāmatu.",
+      "exampleGloss": "Vakariņu sciolist pārliecināti laboja īsto astrofiziķi pie galda.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "zināt",
+        "mazināmais — mazs zinātājs"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Garīgo spēju vājināšanās vecumā.",
+      "friendly": "Miglainais, aizmāršīgais ļoti veca vecuma posms, kad prāta asums sāk zūd.",
+      "exampleGloss": "Savā dotage viņš katru apmeklējumu stāstīja tās pašas trīs stāstus, katru reizi it kā jaunus.",
+      "origin": "vidusangļu",
+      "rootMeanings": [
+        "muļķoties, būt muļķīgam",
+        "stāvoklis vai rezultāts"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Puse, kas paslēpta no vēja.",
+      "friendly": "Kaut kā mierīgā, pasargātā puse — kalna, kuģa, sienas —, kur vējš tevi īsti nesasniedz.",
+      "exampleGloss": "Pārgājēji uzcēla telti grēdas lee side, lai izbēgtu brāzmām.",
+      "origin": "senangļu",
+      "rootMeanings": [
+        "patvērums, aizsardzība",
+        "sāns, seja"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Atsist vai novērst sitienu, jautājumu vai argumentu.",
+      "friendly": "Gludi atsist kaut ko — zobena sitienu, neveiklu jautājumu vai apsūdzību — nezaudējot ritmu.",
+      "exampleGloss": "Viņa parried žurnālista viltīgo jautājumu ar vieglu joku.",
+      "origin": "franču",
+      "rootMeanings": [
+        "novērst",
+        "sagatavoties, aizstāvēties"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Smirdīgs, kaitīgs.",
+      "friendly": "Smaržo tik slikti, ka šķiet gandrīz toksisks — smaka tik ļauna, ka elpot šķiet bīstami.",
+      "exampleGloss": "Mephitic smaka cēlās no purva, kad saule norietēja.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "kaitīgi tvaiki",
+        "kam piemīt daba"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Cilvēks, kas nodevies greznībai un bauda.",
+      "friendly": "Kāds, kas dzīvo komfortam un izdabāšanai — smalks ēdiens, mīkstas gultas, viegla dzīve — nosaukts pēc sengrieķu pilsētas Sybaris, slavenas ar pārmērībām.",
+      "exampleGloss": "Īsts sybarite, viņš atteicās no jebkuras viesnīcas istabas bez vannas.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "sengrieķu pilsēta, slavenā ar greznību",
+        "iedzīvotājs"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Tīši atlikt malā vai ignorēt kādu daļu.",
+      "friendly": "Apzināti atlikt puzles gabalu malā, lai tīri koncentrētos uz pārējo.",
+      "exampleGloss": "Uz brīdi prescind no izmaksām un vienkārši pajautāsim, vai plāns vispār strādā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "pirms, projām",
+        "griezt"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Smagi kritizēt; arī novilkt ādu.",
+      "friendly": "Ieplēst kādu ar skarbu kritiku — vārdiski, it kā burtiski novilktu ādu.",
+      "exampleGloss": "Kritiķi excoriated turpinājumu par to, ka tas nodeva visu, ko fani mīlēja oriģinālā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "nost",
+        "āda, kažoks"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Minēt kā pierādījumu vai argumentu.",
+      "friendly": "Izvirzīt faktu vai piemēru, lai pamatotu savu punktu — tas, uz ko norādi, kad kāds jautā \"what's your evidence?\"",
+      "exampleGloss": "Advokāte adduced trīs lieciniekus, lai atbalstītu klienta alibi.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uz, pretī",
+        "vest"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Ceļojumi vai klejojumi, īpaši gari vai plaši.",
+      "friendly": "Gari, klejojoši ceļojumi — tāda plaša klejošana, kas ved tālu no mājām uz labu laiku.",
+      "exampleGloss": "Viņa peregrinations pāri trim kontinentiem piepildīja veselu plauktu ceļojumu dienasgrāmatu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "cauri",
+        "lauks, zeme (peregrinus: svešinieks)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Ubagotājs vai tāds, kas dzīvo no žēlastības dāvanām.",
+      "friendly": "Kāds, kas dzīvo, lūdzot žēlastību — vēsturiski tas aprakstīja arī mūkus, kas zvērēja nabadzību un dzīvoja no ziedojumiem.",
+      "exampleGloss": "Mendicant mūki nepiederēja nekas un paļāvās pilnībā uz ciema ļaužu laipnību.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ubagot",
+        "ubagotājs"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Ārkārtīgi dāsns.",
+      "friendly": "Dāsns grandiozā, gandrīz izrādes mērogā — tāda dāvana, kas liek cilvēkiem mazliet ievilkt elpu.",
+      "exampleGloss": "Munificent ziedojums finansēja visu jauno bibliotēkas spārnu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "dāvana, pakalpojums",
+        "darīšana, došana"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Izsīkums no barības trūkuma; arī vitalitātes trūkums.",
+      "friendly": "Vājš, iztukšots stāvoklis no tā, ka nav barots vai uzpildīts — burtiski no bada vai pārnestā nozīmē no tā, ka vairs nav, ar ko darboties.",
+      "exampleGloss": "Līdz aplenkuma beigām karavīri bija tuvu inanition.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "tukšs, tukšums",
+        "darbība vai rezultāts"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Rūgta, apvainojoša kritika.",
+      "friendly": "Kritika, kas sen pārgājusi taisnīguma robežu un kļuvusi par dusmīgu, rūgtu tirādi.",
+      "exampleGloss": "Tiešsaistes komentāri dažu minūšu laikā izjuka tīrā vituperation.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "vainība",
+        "sagatavot, apgādāt"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Naidīgs, kaitīgs iedarbībā.",
+      "friendly": "Strādā pret tevi, pat ja klusi — apstākļi vai attieksme, kas nav draudzīgi tavām interesēm.",
+      "exampleGloss": "Jaunā politika bija inimical mazajiem uzņēmumiem, pat ja tas nebija nolūks.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ne",
+        "draugs"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Tāds, kas var izraisīt īgnumu vai neapmierinātību, bieži caur netaisnīgiem salīdzinājumiem.",
+      "friendly": "Noteikti liks kādam justies aizvainotam — parasti tāpēc, ka tas nesamērīgi salīdzina cilvēkus vai lietas.",
+      "exampleGloss": "Rankēt brāļus un māsas pēc \"who Mom loves best\" ir invidious spēle, ko nevienam nevajadzētu spēlēt.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "skaudība",
+        "skatīties (ar ļaunu gribu)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Zemāka ranga vai statusa persona; padotais.",
+      "friendly": "Kāds zemāk komandķēdē vai sociālajā kāpnēs — jaunākais, kas strādā zem kāda ar lielāku varu.",
+      "exampleGloss": "Kā jauns subaltern viņš ilgi saņēma pavēles, pirms pats tās deva.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "zem",
+        "alternatīvs, cits"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Just vai izteikt stipru naidu pret.",
+      "friendly": "Nīst kaut ko tik ļoti, ka to lādē skaļi — tīrs, balsīgs pretīgums.",
+      "exampleGloss": "Ciema ļaudis execrated nodokļu iekasētāju katru reizi, kad viņa rati iebrauca pilsētā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā no",
+        "svēts (lādēt ārā no svētā)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Dabisks ārējais apvalks, piemēram, āda vai čaula.",
+      "friendly": "Dabas pašu aizsargājošais ietīums — āda, čaula, miza vai miza, kas vien sedz un sargā dzīvo.",
+      "exampleGloss": "Bruņurupuča čaula ir ievērojami izturīgs integument.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uz, pāri",
+        "segt"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Nevainīgs, naivs, ar bērnišķīgu vienkāršību; pretstats \"disingenuous.\"",
+      "friendly": "Atklāti uzticīgs un mazliet naivs, bez slēptas programmas — viegli sajaukt ar \"ingenious,\" kas nozīmē gudrs.",
+      "exampleGloss": "Viņas ingenuous jautājums — \"why would anyone lie about that?\" — parādīja, cik maz viltības viņai bija.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "iekšā, dzimts",
+        "dzemdēt (brīvi dzimis, atklāts)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Pārmērīgas rūpes par sīkām detaļām vai noteikumiem.",
+      "friendly": "Pazust sīkajos noteikumos, palaidot garām lielāko bildi — apsēsties ar sīkajiem burtiem, par kuriem neviens cits nerūpējas.",
+      "exampleGloss": "Viņa pedantry par Oxford commas izjauca visu sapulci.",
+      "origin": "itāļu / latīņu",
+      "rootMeanings": [
+        "bērnu skolotājs",
+        "prakse vai īpašība"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Rūpīga, uzmanīga pārbaude.",
+      "friendly": "Dziļš, neviens-akmens-neapgriezts skatījums uz kaut ko — iet cauri katrai detaļai ar īstu rūpību.",
+      "exampleGloss": "Tikai pēc rūpīgas perscrutation grāmatvedības grāmatām parādījās neatbilstība.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "cauri, rūpīgi",
+        "meklēt, pārbaudīt"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Izteikt iebildumus; parādīt nevēlēšanos.",
+      "friendly": "Pieklājīgi atspiesties vai vilcināties, nevis uzreiz piekrist — maigs \"I'd rather not.\"",
+      "exampleGloss": "Kad lūdza parakstīt, neizlasot, viņa demurred.",
+      "origin": "latīņu / franču",
+      "rootMeanings": [
+        "no, projām",
+        "aizkavēt"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Virspusēji ticams, bet patiesībā nepareizs.",
+      "friendly": "Pirmajā acu uzmetienā izklausās pārliecinoši, bet sabrūk brīdī, kad to īsti pārbaudi.",
+      "exampleGloss": "\"Everyone's doing it\" ir specious arguments, kas nekad īsti neiztur pārbaudi.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "izskats, izskats",
+        "pilns ar (šķietami labs)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Neīsta, liekulīga runa, bieži morālizējoša.",
+      "friendly": "Sprediķojoša runa, kas izklausās tikumīga, bet nav atbalstīta ar īstu sajūtu — morāla poza autopilotā.",
+      "exampleGloss": "Viņš bija noguris no korporatīvā cant par \"family\" no uzņēmuma, kas nekad nedod nevienam brīvdienas.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "dziedāt (vēlāk: vienmuļa žargons)",
+        "ubagu vaidoša runa, tad liekulība"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Bez drosmes, gļēvs.",
+      "friendly": "Bailīgs līdz mugurkaula trūkumam — pārāk nobijies piecelties, pat kad tas acīmredzami ir svarīgi.",
+      "exampleGloss": "Valdes pusillanimous klusums ļāva skandālam izplesties ārpus kontroles.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ļoti mazs",
+        "gars, drosme"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Lapsveidīgs; viltīgs, gudrs.",
+      "friendly": "Viltīgs un gudrs kā lapsa — asprātīgs, mazliet slīdīgs, vienmēr soli priekšā.",
+      "exampleGloss": "Viņš iedeva vulpine smaidu brīdī, kad ieraudzīja robu likumā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "lapsa",
+        "no vai kā"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "apstākļa vārds",
+      "definition": "Viens pēc otra, secībā.",
+      "friendly": "Ņemts strikti pa vienam, kārtībā — bez izlaišanas uz priekšu, bez diviem vienlaikus.",
+      "exampleGloss": "Tiesnesis izskatīja katru no divpadsmit prasībām seriatim.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "rinda, secība",
+        "pa vienam"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Ārkārtīga taupība; skopums.",
+      "friendly": "Būt ciešam ar naudu (vai vārdiem, vai resursiem) tālu pāri saprātīgai taupībai.",
+      "exampleGloss": "Viņa parsimony bija leģendāra — viņš tējas maisiņus izmantoja trīs reizes.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "taupīt, būt taupīgam",
+        "stāvoklis vai prakse"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Labojums, īpaši tekstā.",
+      "friendly": "Labojums rakstā — zinātnisks labojums, kas izlabo kļūdu vecā vai svarīgā tekstā.",
+      "exampleGloss": "Jaunajā izdevumā ir desmitiem emendations oriģinālajam manuskriptam.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā no",
+        "vainība, kļūda"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Mērens ēšanā un dzeršanā.",
+      "friendly": "Apzināti atturīgs ēdiena un dzēriena ziņā — nekad nepārēdas, vienmēr atstāj mazliet uz šķīvja.",
+      "exampleGloss": "Viņa abstemious ieradumi uzturēja viņu asu ilgi pēc tam, kad vienaudži bija palēninājušies.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "prom no",
+        "apreibinošs dzēriens"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Gramatiska kļūda vai etiķetes pārkāpums.",
+      "friendly": "Kļūme gramatikā vai manierēs — tāda maza kļūda, kas liek pedantam saraustīties.",
+      "exampleGloss": "\"Between you and I\" ir izplatīts solecism, kas joprojām liek gramatikiem raustīties.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "Kilikijas pilsēta, pazīstama ar 'slikto' grieķu valodu",
+        "prakse, veids"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Saistīts ar konfliktu grupas iekšienē; savstarpēji postošs.",
+      "friendly": "Iekšējās ķildas, kas saplēš grupu no iekšpuses — cīņa, kurā visi zaudē, jo tā ir ģimene pret ģimeni.",
+      "exampleGloss": "Partijas internecine ķildas nodarīja vairāk ļaunuma nekā jebkurš ārējs pretinieks.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "starp, starpā",
+        "nogalināt"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "īpašības vārds / lietvārds",
+      "definition": "Vienaldzīga, nevērīga attieksme.",
+      "friendly": "Plecu paraustīšana, kas kļuvusi par veselu personību — rūpēties tik maz par lietām, kas kādreiz bija svarīgas, ka nekas vairs neliekas tā vērts.",
+      "exampleGloss": "Viņa pococurante attieksme pret balvu ceremoniju pārsteidza visus, kas zināja, cik smagi viņš bija strādājis.",
+      "origin": "itāļu",
+      "rootMeanings": [
+        "maz",
+        "rūpēties"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Sajaukta, sarežģīta situācija vai strīds.",
+      "friendly": "Sajaukta, nekārtīga situācija, ko grūti saprast — daļa pārpratuma, daļa drāmas, visa juceklis.",
+      "exampleGloss": "Viss sēdvietu imbroglio sākās ar vienu nepareizi novietotu vārda kartīti.",
+      "origin": "itāļu",
+      "rootMeanings": [
+        "iekšā",
+        "sapīt, sajaukt"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Draudīgs, draudošs.",
+      "friendly": "Nes nepārprotamu draudu gaisotni — minatory skatiens vai vēstule padara ļoti skaidru, ka kaut kas slikts var sekot.",
+      "exampleGloss": "Vēstules minatory tonis padarīja īrnieci nervozu, pirms viņa bija pat atvērusi aploksni.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "draudēt",
+        "kas kalpo"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Stipra publiska kritika vai mutisks apvainojums.",
+      "friendly": "Skaļa, publiska nosodīšana — tāda plosoša kritika, kas notiek visiem redzot.",
+      "exampleGloss": "Trauksmes cēlēja saskārās ar gadiem publiska obloquy, pirms vēsture viņu attaisnoja.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "pret",
+        "runāt"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Pēkšņs vardarbīgs emociju vai darbības uzliesmojums.",
+      "friendly": "Pēkšņs, intensīvs uzliesmojums, kas pārņem tevi uzreiz — smieklu, dusmu vai klepus lēkme, kas sit kā vilnis.",
+      "exampleGloss": "Viņu pārņēma smieklu paroxysm, ko viņa nespēja izskaidrot nevienam citam telpā.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "aiz, pāri",
+        "ass, akūts"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Pievienots no ārēja avota, nav piemītošs.",
+      "friendly": "Pieskrūvēts no ārpuses, nevis iebūvēts no sākuma — papildinājums, nevis kodols.",
+      "exampleGloss": "Komentārs jūtas adscititious, it kā tas būtu pielīmēts jau pabeigtam tekstam.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uz, papildus",
+        "apstiprināt, pieņemt"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Zināšanu trūkums, nezināšana.",
+      "friendly": "Vienkārša nezināšana — zināšanu robs, bez jebkāda sprieduma.",
+      "exampleGloss": "Viņš atzina savu nescience par franču vīnu un ļāva someljē izvēlēties.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ne",
+        "zināt"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Pārmērīga interese par seksuālām lietām.",
+      "friendly": "Pārāk dedzīga, lūrējoša ziņkāre par visu pikanto — interese, kas pārgājusi veselīgo robežu uz uzbāzīgo.",
+      "exampleGloss": "Tabloīda prurience par pāra privāto dzīvi robežojās ar apsēstību.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "niezēt, ilgoties",
+        "stāvoklis"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Kvēpains, tumšs, dūmakains.",
+      "friendly": "Tumšs un dūmakains izskatā, it kā viss būtu pārklāts ar plānu kvēpu slāni.",
+      "exampleGloss": "Fuliginous dūmaka karājās pār rūpnīcas pilsētu krēslā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "kvēpi",
+        "pilns ar"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Noliegt vai pretoties.",
+      "friendly": "Plakani runāt pretī tam, ko kāds cits teica — teikt \"that's not so.\"",
+      "exampleGloss": "Neviens neuzdrošinājās gainsay vecā kapteiņa stāstu par vētru.",
+      "origin": "vidusangļu",
+      "rootMeanings": [
+        "pret",
+        "runāt"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Slinkums, kūtrums (no latīņu).",
+      "friendly": "Vecs latīņu vārds tīram slinkumam — vilkšanās, kad negribas darīt neko vispār.",
+      "exampleGloss": "Mūki sludināja pret ignavia kā vienu no dvēseles klusajām briesmām.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ne",
+        "aizņemts, čakls"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Vairogs, uz kura attēlots ģerbonis.",
+      "friendly": "Vairoga formas emblēma, kas rāda ģimenes ģerboni — tās heraldiskā \"vārda plāksnīte.\"",
+      "exampleGloss": "Ģimenes escutcheon joprojām karājas virs vecās muižas priekšējām durvīm.",
+      "origin": "latīņu / senfranču",
+      "rootMeanings": [
+        "vairogs",
+        "mazināmais / priekšmets"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Novecojis, novecojis vai pensionēts vecuma dēļ.",
+      "friendly": "Pār savu noderīgo ziedu un palaists ganībās — pārāk vecmodīgs vai nodilis, lai turpinātu darbu.",
+      "exampleGloss": "Superannuated printeris beidzot tika nomainīts pēc piecpadsmit gadiem, kad tas ķīlējās.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "aiz, pāri",
+        "gads"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Aizstājēji, īpaši medicīnā.",
+      "friendly": "Aizstājējzāles, ko lieto, kad īstā ārstēšana nav pieejama — būtībā medicīniskie dublieri.",
+      "exampleGloss": "Kara ārsti bieži paļāvās uz succedanea, kad īstās zāles beidzās.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "vietā",
+        "iet, piekāpties"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Lielīga, trokšņaina runa.",
+      "friendly": "Liela, trokšņaina lielīšanās — skaļa runa par savu diženumu, kas galvenokārt ir karsts gaiss.",
+      "exampleGloss": "Viņa rodomontade par to, ka \"single-handedly\" izglābis projektu, neapmānīja nevienu, kas tur tiešām bija bijis.",
+      "origin": "itāļu",
+      "rootMeanings": [
+        "lielīgs bruņinieks Orlando Furioso",
+        "darbība, izrāde"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Izmantot viltību vai maldināšanu, lai kaut ko panāktu.",
+      "friendly": "Izslīdēt pie mērķa ar viltīgiem trikiem, nevis godīgu spēli.",
+      "exampleGloss": "Viņš chicaned sev ceļu darījumā ar līgumu, pilnu sīkā teksta.",
+      "origin": "franču",
+      "rootMeanings": [
+        "gudrot, maldināt",
+        "viltība; vēlāk ass pagrieziens"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Tīrā vai abstraktā mācīšanās vai zināšanu zinātne, bieži matemātika.",
+      "friendly": "Mācīšanās visšķīstākajā, visabstraktākajā formā — zināšanu dziļā struktūra pati, it īpaši matemātiskā.",
+      "exampleGloss": "Filozofs sapņoja par universālu mathesis, kas varētu vienot visus zināšanu laukus.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "mācīties",
+        "mācīšanās akts"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Pārmērīgi rūpīgs par formāliem noteikumiem vai sīkām detaļām.",
+      "friendly": "Pārāk strikts par sīkumiem — labo mazas tehniskas nianses, kas īsti neko nemaina.",
+      "exampleGloss": "Šķita mazliet pedantic strīdēties par \"who\" pret \"whom\" īsziņā.",
+      "origin": "itāļu / grieķu",
+      "rootMeanings": [
+        "bērnu vadītājs, skolotājs",
+        "kam piemīt veids"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Mirgojoša, dzirkstoša gaisma.",
+      "friendly": "Ātra, mirdzoša gaismas zibsnīšana — iedomājies saules gaismu uz ūdens vai dimantu, kas tver gaismu.",
+      "exampleGloss": "Lustras coruscation izkaisīja gaismu visos balles zāles stūros.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "mirdzēt, zibsnīt",
+        "darbība"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Iesācējs, novicis.",
+      "friendly": "Kāds pavisam jauns prasmē vai jomā — vēl mācās virves, vēl nav eksperts.",
+      "exampleGloss": "Pat tyro šahists var pamanīt to kļūdu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "iesaucējs, novicis",
+        "jauns, neapstrādāts kareivis"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Ārkārtīgi slikts, pretīgs.",
+      "friendly": "Slikts veidā, kas pelna īstu riebumu — ne tikai \"viduvējs,\" bet patiešām pretīgs.",
+      "exampleGloss": "Recenzents nosauca turpinājumu par execrable, un kases cipari piekrita.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "lādēt",
+        "cienīgs, spējīgs būt"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Asins sarkanā krāsā.",
+      "friendly": "Dziļš, spilgts sarkans — svaigu asiņu krāsa, slaveni lietota Šekspīra Makbetā.",
+      "exampleGloss": "Saulriets pārvērta visas debesis incarnadine mirdzumā.",
+      "origin": "itāļu / latīņu",
+      "rootMeanings": [
+        "iekšā",
+        "miesa (miesas sarkans)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Neliela sprauga vai telpa starp lietām.",
+      "friendly": "Tā mazā starpvieta, ko viegli nepamanīt — plaisa starp grīdas dēļiem, robs grafikā.",
+      "exampleGloss": "Nezāles spiedās cauri katrai interstice vecajā ķieģeļu celiņā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "starp",
+        "stāvēt"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Kritiskas vai nosodošas piezīmes.",
+      "friendly": "Asas, noraidošas piezīmes — tāda kritika, kurā ir mazliet rājiena tonis.",
+      "exampleGloss": "Profesora animadversions par eseju piepildīja malas sarkanā tinte.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "prāts",
+        "griezties pretī"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Neiespējami atspēkot, nenoliedzams.",
+      "friendly": "Tik cieti pierādīts, ka nav, par ko strīdēties — lieta ir vienkārši slēgta.",
+      "exampleGloss": "DNS pierādījumi bija irrefragable, un tiesa beidzās stundas laikā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ne",
+        "pretoties, pretoties"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Sarežģītība, sarežģītība; arī ievirzīšanās iekšā.",
+      "friendly": "Sapīta, sevī ievirzīta sarežģītība — lietas, kas ietītas tik cieši kopā, ka tās grūti atraisīt.",
+      "exampleGloss": "Sižeta involution atstāja pusi publikas mēģinām to atraisīt pēc titriem.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "iekšā, uz iekšu",
+        "ritināt, griezt"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Spēks vai pūles, kā \"by dint of.\"",
+      "friendly": "Tīrs spēks vai pūles — mūsdienās galvenokārt paliek frāzē \"by dint of.\"",
+      "exampleGloss": "Viņš nokārtoja eksāmenu by dint of tīras, stūrgalvīgas prakses.",
+      "origin": "senangļu",
+      "rootMeanings": [
+        "sitiens, trieciens",
+        "ar spēku"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Savienots ar iedobuma un ieliktņa savienojumu; cieši iekļauts kopā.",
+      "friendly": "Saslēgts kopā vecmodīgā galdnieka veidā — viens gabals ieiet cieši caurumā, kas izgriezts tieši tam.",
+      "exampleGloss": "Vecās šķūņa sijas bija mortised kopā bez neviena naglas.",
+      "origin": "latīņu / franču",
+      "rootMeanings": [
+        "ligzda, caurums",
+        "kodums, saķere"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Ļoti atbilstošs, trāpīgs.",
+      "friendly": "Tieši pareizais brīdim — piezīme, citāts vai piemērs, kas nosēžas pilnīgi punktā.",
+      "exampleGloss": "Viņas apposite piezīme savilka visu debates vienā teikumā.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uz",
+        "novietot"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Maigi mirdzošs vai mirgojošs (gaisma); arī viegla asprātība.",
+      "friendly": "Mirdz maigi, nevis liesmo — mīksta, mirgojoša gaisma vai asprātība, kas ir rotaļīga, nevis asa.",
+      "exampleGloss": "Sveču gaisma meta lambent mirdzumu pāri vecajai ēdamistabai.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "laizīt",
+        "darītājs (gaisma, kas 'laiž')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Reliģisks vientuļnieks, kas dzīvo vientulībā.",
+      "friendly": "Kāds, kas pilnībā atkāpjas no pasaules, lai dzīvotu viens lūgšanā un pārdomās.",
+      "exampleGloss": "Anchorite dzīvoja mazā cellē, kas pievienota baznīcai, vairāk nekā trīsdesmit gadus.",
+      "origin": "grieķu",
+      "rootMeanings": [
+        "atpakaļ, projām",
+        "atkāpties"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Dzēst slāpes; apmierināt.",
+      "friendly": "Pilnībā apmierināt alkas — visbiežāk slāpes, bet pārnestā nozīmē jebkuru dziļu vēlmi vai vajadzību.",
+      "exampleGloss": "Viena auksta glāze ūdens slaked viņa slāpes pēc gara pārgājiena.",
+      "origin": "senangļu",
+      "rootMeanings": [
+        "vaļīgs, vaļīgs",
+        "atslābināt, nomierināt"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Adatas formas.",
+      "friendly": "Garš, tievs un smails kā adata — priežu adatas vai asa maza kristāla forma.",
+      "exampleGloss": "Priedes ir viegli atpazīt pēc acicular lapām.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "adata",
+        "mazs"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Izsmelts no vitalitātes, vājš, pārmērīgi noslīpēts.",
+      "friendly": "Nodilis un mīksts — zaudējis sākotnējo spēku vai sparu caur pārāk daudz komforta vai izsmalcinātības.",
+      "exampleGloss": "Kritiķi nosauca kādreiz drosmīgo žurnālu par effete, tā drosmīgo agrīno gadu ēnu.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "ārā",
+        "auglīgs, kas ir nesis"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Piederums vai mazāks pievienots priekšmets vai tiesības.",
+      "friendly": "Mazs papildinājums, kas nāk kopā ar kaut ko lielāku — piederumi un papildinājumi, kas pieder pie galvenās lietas.",
+      "exampleGloss": "Nomas līgums ietvēra garāžu un visus tās appurtenances.",
+      "origin": "latīņu / franču",
+      "rootMeanings": [
+        "uz",
+        "piederēt"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "darbības vārds",
+      "definition": "Nogludināt vai mazināt vainu.",
+      "friendly": "Nogludināt kļūdu ar mīkstiem vārdiem, lai tā izklausītos mazāka, nekā ir.",
+      "exampleGloss": "Viņš mēģināja gloze palaisto termiņu ar neskaidru runu par \"unforeseen challenges.\"",
+      "origin": "senfranču / latīņu",
+      "rootMeanings": [
+        "glosa, skaidrojums",
+        "komentēt — tad nogludināt"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "īpašības vārds",
+      "definition": "Agrīnā stadijā, tikko sācies.",
+      "friendly": "Tikko sāk rādīties — pats pirmais, tikko redzamais posms kaut kam lielākam, kas nāks.",
+      "exampleGloss": "Ārsti noķēra slimības incipient pazīmes, pirms tā varēja izplatīties.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uz, iekšā",
+        "ņemt (uzņemties, sākt)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "lietvārds",
+      "definition": "Radoša iedvesma, īpaši dievišķā.",
+      "friendly": "Pēkšņs iedvesmas vilnis, kas jūtas lielāks par tevi — it kā ideja būtu iepūsta tevī no kaut kur citur.",
+      "exampleGloss": "Dzejnieks aprakstīja, kā viss darbs ieradās vienā afflatus uzliesmojumā pulksten trīs naktī.",
+      "origin": "latīņu",
+      "rootMeanings": [
+        "uz, virsū",
+        "pūst (uzpūšana)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Saldinti arba valyti; pašalinti ko nors aštrumą.",
+      "friendly": "Išimti geluonį ar kartumą — tiesiogine prasme saldinant arba perkeltine švelninant aštrią mintį, kad ji lengviau nuslystų.",
+      "exampleGloss": "Redaktorius edulcorated aštrią recenziją, prieš jai išeinant į spaudą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk, kruopščiai",
+        "saldus"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Per daug arba apsimestinai religingas ar pamaldus.",
+      "friendly": "Apibūdina ką nors, kieno religinis atsidavimas atrodo vaidinamas publikai — daugiau spektaklis nei tikras tikėjimas.",
+      "exampleGloss": "Jo pietistic atodūsiai per pamokslą erzino visą suolą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "pamaldumas, pareigingumas",
+        "turintis pobūdį"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Dviprasmybė, kylanti iš gramatinės sandaros — sakinys, kurį galima skaityti dvejopai.",
+      "friendly": "Sakinys, kuris gramatiškai taisyklingas, bet jį galima suprasti dviem visai skirtingais būdais, kaip \"I saw the man with the telescope.\"",
+      "exampleGloss": "\"Visiting relatives can be tiring\" yra klasikinė amphiboly — ar vargina giminės, ar pats jų lankymas?",
+      "origin": "graikų",
+      "rootMeanings": [
+        "abu, iš abiejų pusių",
+        "mesti"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Aštrus, taiklus, kertantis tiesiai į esmę.",
+      "friendly": "Kerta kiaurai tuščius žodžius — trenchant pastaba ar protas greitai pasiekia dalyko širdį, be pertekliaus.",
+      "exampleGloss": "Jos trenchant kritika nepaliko filmo siužeto spragoms kur slėptis.",
+      "origin": "senosios prancūzų",
+      "rootMeanings": [
+        "pjauti",
+        "veikiantis, turintis savybę"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Tik prasidedantis; ankstyvoje ar užuomazginėje stadijoje.",
+      "friendly": "Dar atidarymo akimirkose — planas, jausmas ar procesas, kuris tik pradėjo įgauti pavidalą.",
+      "exampleGloss": "Sutarties inchoative etapai buvo daug žadantys, bet daug kas dar liko neišspręsta.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "pradėti, imtis",
+        "linkstantis į"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Formali kalba ar rašinys, aukštai giriantis ką nors.",
+      "friendly": "Visapusiškas, formalus pagyrimas — pagalvok apie spindintį nekrologą ar kalbą, kuri gieda kieno nors nuopelnus nuo stogų.",
+      "exampleGloss": "Išeinančią profesorę palydėjo panegyric iš artimiausių studentų.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "viskas",
+        "susirinkimas, sueiga"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Susijęs su tikra būtimi ar faktiniu buvimu, priešingai abstrakčiai teorijai.",
+      "friendly": "Apie daiktus taip, kaip jie iš tikrųjų egzistuoja, ne tik kaip idėjos ar teorijos apie juos.",
+      "exampleGloss": "Filosofai ginčijasi, ar skaičiai turi kokį ontic statusą, ar egzistuoja tik mūsų galvose.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "būtis, tai kas yra",
+        "susijęs su"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Duoti vaisių arba tapti produktyviam.",
+      "friendly": "Pagaliau atsipirkti — pastanga, idėja ar investicija, kuri fructify, išaugo iš sėklos į ką nors naudingo.",
+      "exampleGloss": "Metų ramūs tyrimai pagaliau fructified veikiančia vakcina.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "vaisius",
+        "daryti, sukelti"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Numatantis ar vaizduojantis ką nors kaip jau įvykusį, kol tai dar nėra įvykę.",
+      "friendly": "Literatūriškai užbėgti už akių — aprašyti būsimą įvykį tarsi jis jau būtų pasibaigęs, kad mintis smogtų stipriau.",
+      "exampleGloss": "Generolo proleptical tostas \"victory\" buvo pasakytas visą savaitę prieš mūšį.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "prieš",
+        "imti, nutverti"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Varomas oro slėgiu; taip pat susijęs su dvasia ar kvėpavimu.",
+      "friendly": "Paprastai reiškia \"varomas suslėgtu oru\" — nors gali reikšti ir susijusį su dvasia ar kvėpavimu.",
+      "exampleGloss": "Pneumatic stabdžiai šnypštė, kai autobusas privažiavo prie šaligatvio.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "vėjas, kvėpavimas, dvasia",
+        "susijęs su"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Dievą ar dieviškumą apibūdinantis teigiamais teiginiais — apofatinio priešingybė.",
+      "friendly": "Būdas kalbėti apie Dievą sakant, kas Dievas yra — \"God is love\" —, o ne tik kas Dievas nėra.",
+      "exampleGloss": "Cataphatic teologija drąsiai kalba apie Dievą kaip mylintį, teisingą ir gailestingą.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "žemyn, pagal",
+        "kalbėti, sakyti"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Paremta pasitikėjimu ar tikėjimu; taip pat kaip fiksuotas atskaitos taškas.",
+      "friendly": "Kažkas, ką priimi pasitikėdamas ir tada naudoji kaip inkarą — fiducial žymė yra fiksuotas taškas, pagal kurį matuojama visa kita.",
+      "exampleGloss": "Matininkai padėjo fiducial žymeklį uolienoje prieš kartografuodami vietą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "pasitikėti",
+        "pasitikėjimas, tikrumas"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Dievo gerumo gynimas, atsižvelgiant į blogio egzistavimą.",
+      "friendly": "Senovinis bandymas atsakyti: \"If God is good, why does evil exist?\"",
+      "exampleGloss": "Jos disertacija nagrinėjo theodicy per Jobo knygos prizmę.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "dievas",
+        "teisingumas"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Abipusis gyvenimas vienas kitame — teologinis terminas, kaip Trejybės asmenys egzistuoja vienas kitame.",
+      "friendly": "Teologijos žodis tokiai visapusiškai trijų-viename bendrystei, kad kiekviena dalis visiškai talpina ir yra talpinama kitose.",
+      "exampleGloss": "Circumincession doktrina bando paaiškinti, kaip Tėvas, Sūnus ir Dvasia yra skirtingi, bet neatskiriami.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "aplink",
+        "eiti, vaikščioti"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Turėti pasekmes, kurios naudingos ar atsispindi kam nors.",
+      "friendly": "Kai pagyrimas (ar kaltė) atšoka atgal ant atsakingojo — geri darbai, kurie redound tavo reputacijai, sugrįžta su atlygiu.",
+      "exampleGloss": "Komandos sėkmė redound ramaus, darbštaus trenerio garbei.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "atgal, vėl",
+        "banga"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Tokio, kurio negalima išvengti ar pabėgti.",
+      "friendly": "Įvyks, kad ir ką darytum — iš ineluctable baigties nėra kur išsisukti.",
+      "exampleGloss": "Senatvė ateina visiems; ji tiesiog ineluctable.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ne",
+        "išsikovoti lauk"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Vartojantis aplinkinius, žodingus posakius vietoj tiesioginės formos.",
+      "friendly": "Eiti žodžiais ilguoju keliu — sakyti \"make a decision\" vietoj \"decide.\"",
+      "exampleGloss": "Jo periphrastic laiškai galėjo viena eilute pasakyti tai, kam jis skyrė tris pastraipas.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "aplink",
+        "skelti, pasakoti"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Protinis bukumas ar letargija.",
+      "friendly": "Tas miglotas, vangus proto būvis, kuriame mąstymas jaučiasi kaip bridimą per sirupą.",
+      "exampleGloss": "Hebetude banga užplūdo klasę tuoj po pietų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "bukas, atšipęs",
+        "būsena ar savybė"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Nepatankus; blogos žinios.",
+      "friendly": "Blogas ženklas — sąlygos ar laikas, kurie atrodo veikiantys prieš tave, dar nespėjus pradėti.",
+      "exampleGloss": "Pilki dangūs ir mirusi automobilio baterija sudarė unpropitious kelionės pradžią.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ne",
+        "palankus, maloningas"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "būdvardis / veiksmažodis",
+      "definition": "Mėsa, troškinta padaže — taisyklingai rašoma \"fricasseed.\"",
+      "friendly": "Jaukus senas maisto žodis mėsai, kuri supjaustyta ir lėtai troškinta savo padaže, kol suminkštėja.",
+      "exampleGloss": "Močiutės fricasseed vištiena buvo kiekvienos sekmadienio vakarienės žvaigždė.",
+      "origin": "prancūzų",
+      "rootMeanings": [
+        "kepti",
+        "laužyti (gabalais)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Dirbtinis ar prastesnis pakaitalas.",
+      "friendly": "Padirbinys tikrojo vietoje — techniškai atlieka darbą, bet visiems matyti, kad tai ne originalas.",
+      "exampleGloss": "Karinio meto pirkėjai tenkinosi ersatz kava iš skrudintų cikorijų.",
+      "origin": "vokiečių",
+      "rootMeanings": [
+        "lauk, pakeitimo priešdėlis",
+        "dėti, statyti"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Traktuoti abstrakčią idėją tarsi ji būtų konkretus daiktas.",
+      "friendly": "Padaryti, kad idėja jaustųsi tikra ir kieta — paversti ką nors migloto, kaip \"the economy,\" daiktu, į kurį galima parodyti.",
+      "exampleGloss": "Vadindamas tautos \"spirit\" savarankiška būtybe, reify tai, kas iš tikrųjų yra milijonai atskirų pasirinkimų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "daiktas",
+        "daryti"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "veiksmažodis (būtasis laikas)",
+      "definition": "Sumaniai pabėgo ar išvengė.",
+      "friendly": "Švariai paspruko — išsisuko nuo ko nors, dažnai gudriai ar vos vos, ar tai būtų suėmimas, klausimas, ar atsakymas.",
+      "exampleGloss": "Atsakymas eluded ją valandomis, kol staiga spragtelėjo duše.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk, šalin",
+        "žaisti"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Išreiškiantis abejonę, sumišimą ar neišspręstą prieštaravimą.",
+      "friendly": "Įstrigęs tikrame minties aklavietėje — ne iš tingumo, o todėl, kad pats klausimas priešinasi tvarkingam atsakymui.",
+      "exampleGloss": "Sokratas dažnai baigdavo dialogus aporetic nata, su daugiau klausimų nei atsakymų.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "be",
+        "kelias, perėja"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kalbos figūra, įvardijanti ką nors susijusiu žodžiu, pvz., \"the crown\" monarchui.",
+      "friendly": "Naudoti susijusį žodį tikrojo vietoje — sakyti \"the White House announced,\" kai turi omenyje administraciją.",
+      "exampleGloss": "\"Wall Street had a rough day\" yra metonymy — iš tikrųjų tai reiškia, kad akcijų rinka tokią turėjo.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "kaita, po",
+        "vardas"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Išrauti su šaknimis; atplėšti nuo natūralios aplinkos.",
+      "friendly": "Ištraukti ką nors (ar ką nors) su šaknimis, šalin nuo vietos ar kultūros, kuriai priklauso.",
+      "exampleGloss": "Karas deracinated visą kartą, išblaškydamas šeimas per sienas.",
+      "origin": "prancūzų / lotynų",
+      "rootMeanings": [
+        "šalin, nuo",
+        "šaknis"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Maloniai skambantis.",
+      "friendly": "Tiesiog malonu girdėti — euphonious žodis, vardas ar sakinys rieda ausiai sklandžiai, beveik muzikaliai.",
+      "exampleGloss": "\"Murmuring brook\" yra euphonious mažas posakis — švelnus ir lengvai ištariamas.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "geras, gerai",
+        "garsas, balsas"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Visuotinai laikomas ar manomas esąs.",
+      "friendly": "Plačiai tikima esant tiesa, net jei dar neįrodyta — \"tariama\" versija apie ką nors.",
+      "exampleGloss": "Laiško putative autorius vėliau pasirodė esąs visiškas svetimas.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "galvoti, laikyti",
+        "turintis prigimtį"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Naujai sugalvotas žodis ar frazė.",
+      "friendly": "Visai naujas žodis — ką tik išrastas, dar (ar vos) ne žodyne.",
+      "exampleGloss": "\"Doomscrolling\" prasidėjo kaip neologism ir greitai tapo kasdieniu slengu.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "naujas",
+        "žodis, kalba"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Piktas ar blogo būdo.",
+      "friendly": "Blogoje, irzlioje nuotaikoje — greitai pyksta, kaip kadaise tikėta, kad blužnis valdo temperamentą.",
+      "exampleGloss": "Jis išsiuntė splenetic atsakymą laiškui per kelias sekundes po perskaitymo.",
+      "origin": "graikų / lotynų",
+      "rootMeanings": [
+        "blužnis (pykčio buveinė)",
+        "veikiamas"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Linkęs moralizuoti išdidžiai ar apsimestinai.",
+      "friendly": "Mėgsta teikti mažas gyvenimo pamokas savimylos būdu, tarsi kiekvienas sakinys būtų laimės sausainis.",
+      "exampleGloss": "Jo sententious tostas apie \"the true meaning of friendship\" privertė visus žvilgtelėti į laikrodžius.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "nuomonė, maksima",
+        "pilnas"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Per daug šnekus, ypač apie smulkmenas.",
+      "friendly": "Tiesiog nesiliauja plepėti — plepa apie smulkmenas gerokai po to, kai visiems kitiems baigėsi žodžiai.",
+      "exampleGloss": "Garrulous taksistas papasakojo visą savo gyvenimo istoriją, dar nespėjus palikti oro uosto.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "plepėti, taukšti",
+        "linkęs į"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kvailystė, paikyba.",
+      "friendly": "Paprasta kvailystė — pastaba ar planas toks kvailas, kad vos nusipelno rimto atsakymo.",
+      "exampleGloss": "Gryna plano fatuity tapo akivaizdi tą akimirką, kai jie jį išbandė.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kvailas, paikas",
+        "buvimo būsena"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kalbos baigiamoji dalis, dažnai santrauka.",
+      "friendly": "Kalbos didysis finalas — baigiamoji dalis, kurioje kalbėtojas viską surenka ir įkala mintį namo.",
+      "exampleGloss": "Iki peroration pusė publikos jau stovėjo kojomis.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kiaurai, iki galo",
+        "kalbėti, ginti"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Bereikalingas tos pačios minties kartojimas kitais žodžiais.",
+      "friendly": "Sakyti tą patį du kartus nieko naujo nepridedant, kaip \"free gift\" ar \"end result.\"",
+      "exampleGloss": "\"It is what it is\" yra mėgstama tautology tų, kurie vengia tikro paaiškinimo.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "tas pats",
+        "žodis, kalba"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Labai nedaug žodžių vartojimas; lakoniška kalba.",
+      "friendly": "Daug pasakyti su labai mažai — trumpo, stačiokiško atsakymo menas, pavadintas pagal garsiai trumpareikius Lakonijos spartiečius.",
+      "exampleGloss": "\"Molon labe\" — \"come and take them\" — yra garsiausias istorijos laconism gabalas.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "Lakonijos spartietis",
+        "praktika, būdas"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Blankios, pernelyg supaprastintos idėjos; iš pradžių — blankus maistas ar košė.",
+      "friendly": "Plonas, atskiestas mąstymas — turinys toks supaprastintas ir saugus, kad protui nėra jokios maistinės vertės.",
+      "exampleGloss": "Politiko kalba buvo daugiausia pabulum: migloti pažadai, prie kurių nieko neprikabinsi.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "maitinti",
+        "priemonė ar įrankis"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Sukeliantis miegą ar mieguistumą.",
+      "friendly": "Toks nuobodus — ar tiesiogine prasme raminantis —, kad užmigdo. Pagalvok apie šiltą pieną ar trijų valandų biudžeto posėdį.",
+      "exampleGloss": "Paskaitos soporific dūzgesys privertė pusę salės kovoti, kad palaikytų akis atmerktas.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "gilus miegas",
+        "darantis, keliantis"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Per daug meilikaujantis ar riebus maniera.",
+      "friendly": "Toks glotniai žavus, kad atrodo slidus — meilikavimas užteptas taip storai, kad beveik jauti riebalus.",
+      "exampleGloss": "Unctuous pardavėjas vis girė mano \"excellent taste\" prieš kiekvieną papildomą pardavimą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "tepti, aliejuoti",
+        "pilnas"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Greitai randa klaidų, pernelyg kritiškas smulkmenoms.",
+      "friendly": "Kabus iki klaidos — toks, kuris randa problemą visame, net kai tai iš tikrųjų nesvarbu.",
+      "exampleGloss": "Jo captious pastabos prie ataskaitos telkėsi tik į kablelių išdėstymą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "nutverti, imti",
+        "spąstai, sofizmas"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Vangus, protiškai ar fiziškai neaktyvus.",
+      "friendly": "Lėtas ir pusiau miega, kaip lokys žiemos miege — vos juda, vos galvoja.",
+      "exampleGloss": "Biuras tapo torpid rugpjūčio sunkioje kaitroje.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "būti nutirpusiam, būti vangiam",
+        "būsenoje"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Seniūnas ar pareigūnas, tvarkęs viduramžių ūkį.",
+      "friendly": "Viduramžių personalo vadovo versija — patikimas pareigūnas, kasdien vadovavęs lordo namams ir dvarui.",
+      "exampleGloss": "Pilies seneschal tvarkė viską nuo derliaus apskaitos iki svečių sąrašo.",
+      "origin": "frankų / senosios prancūzų",
+      "rootMeanings": [
+        "senas, vyresnysis",
+        "tarnas"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Kalbėti ar rašyti ilgai apie temą.",
+      "friendly": "Iš tikrųjų įsibėgėti tema — kalbėti ar rašyti ir rašyti, apžvelgiant ją iš visų pusių.",
+      "exampleGloss": "Paklausk jo apie vintage cars, ir jis expatiate visą valandą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk",
+        "erdvė"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Bevertis, menkas; taip pat negaliojantis ar neveiksmingas.",
+      "friendly": "Vertas praktiškai nieko — nugatory sąlyga sutartyje yra tokia, kuri iš tikrųjų nieko nedaro.",
+      "exampleGloss": "Teismas pripažino seną taisyklę nugatory, nes ji niekada nebuvo iš tikrųjų taikoma.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "smulkmenos, nesąmonės",
+        "priklausantis"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Išmintis, įžvalgus sprendimas.",
+      "friendly": "Aštri, praktinė išmintis — toks geras sprendimas, kuris ateina iš patirties, ne tik iš knygų.",
+      "exampleGloss": "Seno kapitono sagacity ne kartą išgelbėjo įgulą nuo bėdų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "aštrios uoslės, įžvalgus",
+        "savybė"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Paprasta minia ar masės, vartojama paniekinamai.",
+      "friendly": "Išdidus, paniekinantis žodis \"miniai\" ar paprastiems žmonėms, vartojamas su panieka.",
+      "exampleGloss": "Grafas šaipėsi iš canaille, susirinkusios prie rūmų vartų.",
+      "origin": "italų / prancūzų",
+      "rootMeanings": [
+        "šuo",
+        "visuma, gauja"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Įžūlus, žeminantis elgesys ar kalba.",
+      "friendly": "Žiaurus, paniekinantis elgesys, skirtas pažeminti — toks įžeidimas, kuris sukurtas gelti.",
+      "exampleGloss": "Jis kentė metų contumely iš kritikų, kol jo darbas pagaliau buvo pripažintas.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "su, kruopščiai",
+        "pūstis (iš puikybės)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "prieveiksmis",
+      "definition": "Su įtarimu ar nepritarimu; žvilgsnis į šoną.",
+      "friendly": "Tas žvilgsnis į šoną, kurį duodi kam nors, kuo visai nepasitiki — žvilgsnis, pilnas abejonių.",
+      "exampleGloss": "Mokytoja pažvelgė askance į įtartinai tvarkingą namų darbą.",
+      "origin": "neaišku / italų",
+      "rootMeanings": [
+        "į, prie",
+        "nuolydis, šališkumas"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kvailas žmogus; mulkis.",
+      "friendly": "Senas, beveik meilus įžeidimas kam nors, kas bukas ar tankus — kelmo galva.",
+      "exampleGloss": "\"You clodpate,\" ji juokėsi, \"you've had the map upside down the whole time.\"",
+      "origin": "anglų",
+      "rootMeanings": [
+        "žemės gniužulas",
+        "galva"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Paleisti į judesį ar veiksmą; motyvuoti.",
+      "friendly": "Būti kibirkštimi, kuri ką nors paleidžia — ar tai mašina, kuri įsijungia, ar žmogus, kuris pagaliau ima veikti pagal idėją.",
+      "exampleGloss": "Baimė prarasti sutartį actuated visą komandą savaitgalio viršvalandžiams.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "darymas, varymas",
+        "varyti, daryti"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Patikėtų lėšų pasisavinimas.",
+      "friendly": "Tylus pinigų, kuriais tau patikėta rūpintis, vagystė — pasisavinimas senu paltu.",
+      "exampleGloss": "Iždininko peculation liko nepastebėta beveik dešimtmetį.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "privati nuosavybė",
+        "galvijai, turtas"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Grupė, laikoma gerbiamos visuomenės paraštėse.",
+      "friendly": "Tas glaistytas, bet šešėlinis socialinis požemis — žmonės, gyvenantys vos už \"gerbiamos\" visuomenės taisyklių.",
+      "exampleGloss": "Romanas seka dainininkę, naršančią 1920-ųjų kabaretų demi-monde.",
+      "origin": "prancūzų",
+      "rootMeanings": [
+        "pusė",
+        "pasaulis, visuomenė"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Vis dar egzistuojantis; neišnykęs ar nesunaikintas.",
+      "friendly": "Vis dar čia šiandien — vartojama seniems daiktams (rankraščiams, rūšims, pastatams), kuriems pavyko išlikti.",
+      "exampleGloss": "Žinomos tik trys extant pirmojo spaudinio kopijos.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk",
+        "stovėti"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Klasta; pasitikėjimo išdavystė.",
+      "friendly": "Gili, sąmoninga išdavystė — sulaužyti pasitikėjimą, kurio kas nors turėjo teisę tikėtis, kad išlaikysi.",
+      "exampleGloss": "Generolas niekada neatleido senojo draugo perfidy prie derybų stalo.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kiaurai, prieš",
+        "tikėjimas, pasitikėjimas"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Regioninė tarmė, ypač nestandartinė.",
+      "friendly": "Savitas, vietinis būdas, kaip žmonės kalba tam tikrame krašte — pilnas žodžių ir ritmų, kurių svetimšalis gali nesuprasti.",
+      "exampleGloss": "Jos močiutė vis dar kalbėjo salos patois per šeimos vakarienes.",
+      "origin": "prancūzų",
+      "rootMeanings": [
+        "šiurkšti kalba, tarmė",
+        "letena — gremėzdiška kalba"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Ypatinga teisė, priklausanti asmeniui ar grupei.",
+      "friendly": "Privilegija, kuri yra tavo ir tik tavo — teisė, ateinanti su tavo vaidmeniu, pareigomis ar statusu.",
+      "exampleGloss": "Šeimos atostogų vietos pasirinkimas yra senelio prerogative, ir visiems tai žinoma.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "prieš",
+        "klausti, balsuoti"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Drąsa, įžūlumas; taip pat ištvermė.",
+      "friendly": "Šiurkšti, drąsi ištvermė — nervai eiti pirmyn ir tvirtumas tęsti, kai jau pradėjai.",
+      "exampleGloss": "Reikėjo tikros hardihood kirsti perėją pūgoje be žemėlapio.",
+      "origin": "senosios prancūzų / anglų",
+      "rootMeanings": [
+        "drąsus, ištvermingas",
+        "būsena, būklė"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Pražysti; taip pat vystytis ar pamažu pasirodyti.",
+      "friendly": "Pražysti pilna išraiška — kaip gėlė atsiverianti, ar idėja, kuri pagaliau ateina į save.",
+      "exampleGloss": "Jos ramus tapybos talentas effloresced, kai ji turėjo savą studiją.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk",
+        "pradėti žydėti"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Svoris ant virvės vertikalumui nustatyti; perkeltine prasme — sprendimo matas.",
+      "friendly": "Svoris ant virvės, kabantis visiškai stačiai žemyn, kad patikrintum, ar kas nors iš tikrųjų vertikalu — ir, plačiau, bet koks fiksuotas standartas, pagal kurį matuoji visa kita.",
+      "exampleGloss": "Jis naudojo savo senelio sąžiningumą kaip savotišką plumb line kiekvienam sprendimui.",
+      "origin": "lotynų / anglų",
+      "rootMeanings": [
+        "švinas",
+        "virvė, matas"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "prieveiksmis",
+      "definition": "Mielai, noriai (archaizmas).",
+      "friendly": "Senas būdas pasakyti \"mielai\" ar \"su malonumu.\"",
+      "exampleGloss": "\"I would fain rest here a while,\" atsiduso keliautojas.",
+      "origin": "senosios anglų",
+      "rootMeanings": [
+        "linksmas, džiaugsmingas",
+        "mielai, noriai"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Aštri vieša kritika ar gėda.",
+      "friendly": "Vieša gėda, užkrauta kam nors dideliu, matomu būdu — negarbė, ateinanti iš plataus nepritarimo.",
+      "exampleGloss": "Skandalas užtraukė viešą opprobrium visai įmonei.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "prieš",
+        "gėda, priekaištas"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Aštriai sarkastiškas, kandus sąmojyje ar kritikoje.",
+      "friendly": "Sąmojis su tikrais dantimis — mordant pastaba gelia būtent todėl, kad taip gudriai taikyta.",
+      "exampleGloss": "Jos mordant filmų recenzijų bijojo režisieriai ir mylėjo skaitytojai.",
+      "origin": "lotynų / prancūzų",
+      "rootMeanings": [
+        "kąsti",
+        "kandantis, veikiantis"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Formalus paskelbimas, dažnai politinis ar karinis.",
+      "friendly": "Didelis, oficialus pranešimas — paprastai toks, kuris skelbia naują vyriausybę, sukilimą ar svarbų dekretą.",
+      "exampleGloss": "Generolo pronunciamento aušroje paskelbė naująją vyriausybę.",
+      "origin": "ispanų",
+      "rootMeanings": [
+        "pirmyn",
+        "skelti"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Žmogus su paviršinėmis žiniomis, apsimetantis ekspertu.",
+      "friendly": "Kažkas, kas vos palietė temos paviršių ir tada kalba tarsi būtų parašęs vadovėlį.",
+      "exampleGloss": "Vakarienės sciolist užtikrintai taisė tikrąjį astrofiziką prie stalo.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "žinoti",
+        "mažybinis — mažas žinovas"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Protinių gebėjimų silpnėjimas senatvėje.",
+      "friendly": "Miglotas, užmaršus labai senos senatvės tarpsnis, kai proto aštrumas ima blėsti.",
+      "exampleGloss": "Savo dotage jis kiekvieno apsilankymo metu pasakodavo tuos pačius tris pasakojimus, kaskart tarsi naujus.",
+      "origin": "vidurio anglų",
+      "rootMeanings": [
+        "kvailioti, būti kvailam",
+        "būsena ar rezultatas"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Pusė, apsaugota nuo vėjo.",
+      "friendly": "Rami, užuovėja pusė ko nors — kalvos, laivo, sienos —, kur vėjas tavęs visai nepasiekia.",
+      "exampleGloss": "Žygeiviai pastatė palapinę keteros lee side, kad pabėgtų nuo gūsių.",
+      "origin": "senosios anglų",
+      "rootMeanings": [
+        "prieglauda, apsauga",
+        "šonas, veidas"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Atmušti ar atmesti smūgį, klausimą ar argumentą.",
+      "friendly": "Sklandžiai atmušti ką nors — kardo kirtį, nepatogų klausimą ar kaltinimą — neprarandant ritmo.",
+      "exampleGloss": "Ji parried žurnalisto klastingą klausimą lengvu pokštu.",
+      "origin": "prancūzų",
+      "rootMeanings": [
+        "atremti",
+        "rengtis, gintis"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Dvokiantis, kenksmingas.",
+      "friendly": "Dvokia taip, kad atrodo beveik nuodinga — smarvė tokia bloga, kad kvėpuoti atrodo pavojinga.",
+      "exampleGloss": "Mephitic kvapas kilo iš pelkės saulei leidžiantis.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kenksmingi garai",
+        "turintis prigimtį"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Žmogus, atsidavęs prabangai ir malonumui.",
+      "friendly": "Kažkas, kas gyvena komfortui ir pasileidimui — geras maistas, minkštos lovos, lengvas gyvenimas — pavadintas pagal senovės graikų miestą Sybaris, garsėjusį pertekliais.",
+      "exampleGloss": "Tikras sybarite, jis atsisakė bet kokio viešbučio kambario be vonios.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "senovės graikų miestas, garsėjęs prabanga",
+        "gyventojas"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Sąmoningai atidėti į šalį ar ignoruoti dalį ko nors.",
+      "friendly": "Sąmoningai atidėti dėlionės gabalą į šalį, kad švariai susitelktum į likusį.",
+      "exampleGloss": "Prescind nuo kainos akimirkai ir tik paklauskime, ar planas iš viso veikia.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "prieš, šalin",
+        "pjauti"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Griežtai kritikuoti; taip pat nuplėšti odą.",
+      "friendly": "Įplėšti ką nors aštria kritika — žodžiais, tarsi tiesiogine prasme nuplėštum odą.",
+      "exampleGloss": "Kritikai excoriated tęsinį už tai, kad išdavė viską, ką gerbėjai mylėjo originale.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "nuo",
+        "oda, kailis"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Cituoti kaip įrodymą ar argumentą.",
+      "friendly": "Iškelti faktą ar pavyzdį savo teiginiui paremti — tai, į ką parodai, kai kas nors klausia \"what's your evidence?\"",
+      "exampleGloss": "Advokatė adduced tris liudytojus kliento alibi paremti.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "į, link",
+        "vesti"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kelionės ar klaidžiojimai, ypač ilgi ar platūs.",
+      "friendly": "Ilgos, klaidžiojančios kelionės — toks platus klaidžiojimas, kuris nuveda toli nuo namų ilgam.",
+      "exampleGloss": "Jo peregrinations per tris žemynus pripildė visą lentyną kelionių dienoraščių.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kiaurai",
+        "laukas, žemė (peregrinus: svetimšalis)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Elgeta arba tas, kuris gyvena iš išmaldos.",
+      "friendly": "Kažkas, kas gyvena prašydamas labdaros — istoriškai tai apibūdino ir vienuolius, davusius skurdo įžadus ir gyvenusius iš aukų.",
+      "exampleGloss": "Mendicant vienuoliai nieko neturėjo ir visiškai rėmėsi kaimiečių gerumu.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "elgetauti",
+        "elgeta"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Ypatingai dosnus.",
+      "friendly": "Dosnus grandioziniu, beveik parodomuoju mastu — tokia dovana, kuri priverčia žmones šiek tiek aiktelėti.",
+      "exampleGloss": "Munificent auka finansavo visą naująjį bibliotekos sparną.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "dovana, paslauga",
+        "darymas, davimas"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Išsekimas dėl maisto stokos; taip pat gyvybingumo stoka.",
+      "friendly": "Silpnas, išsekęs būvis nuo to, kad nesi maitinamas ar papildomas — tiesiogine prasme iš bado arba perkeltine nuo to, kad nebeliko kuo veikti.",
+      "exampleGloss": "Apsiausties pabaigoje kariai buvo arti inanition.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "tuščias, tuštuma",
+        "veiksmas ar rezultatas"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kartus, įžeidžianti kritika.",
+      "friendly": "Kritika, seniai peržengusi teisingumo ribą ir tapusi pikta, kartia tirada.",
+      "exampleGloss": "Internetiniai komentarai per kelias minutes subyrėjo į gryną vituperation.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kaltė",
+        "rengti, aprūpinti"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Priešiškas, žalingas poveikiu.",
+      "friendly": "Veikia prieš tave, net jei tyliai — sąlygos ar požiūris, nedraugiški tavo interesams.",
+      "exampleGloss": "Naujoji politika buvo inimical mažoms įmonėms, net jei toks nebuvo ketinimas.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ne",
+        "draugas"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Galintis sukelti apmaudą ar nepasitenkinimą, dažnai per neteisingus palyginimus.",
+      "friendly": "Būtinai privers ką nors jaustis nuskriaustu — paprastai todėl, kad nesąžiningai gretina žmones ar daiktus.",
+      "exampleGloss": "Rikiuoti brolius ir seseris pagal \"who Mom loves best\" yra invidious žaidimas, kurio niekas neturėtų žaisti.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "pavydas",
+        "žiūrėti (su pikta valia)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Žemesnio rango ar statuso asmuo; pavaldinys.",
+      "friendly": "Kažkas žemiau komandos grandinėje ar socialinėse kopėčiose — jaunesnysis, dirbantis po kuo nors galingesniu.",
+      "exampleGloss": "Kaip jaunas subaltern jis ilgai gavo įsakymus, kol pats ėmė juos duoti.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "po",
+        "kitas, pakaitinis"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Jausti ar reikšti stiprią neapykantą.",
+      "friendly": "Nekęsti ko nors tiek, kad keiktum balsu — grynas, balsingas pasibjaurėjimas.",
+      "exampleGloss": "Kaimiečiai execrated mokesčių rinkėją kaskart, kai jo vežimas riedėjo per miestelį.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk iš",
+        "šventas (keikti lauk iš švento)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Natūralus išorinis dangalas, kaip oda ar kiautas.",
+      "friendly": "Gamtos pačios apsauginė pakuotė — oda, kiautas, lukštas ar žievė, kas dengia ir saugo gyvą.",
+      "exampleGloss": "Vėžlio kiautas yra nepaprastai tvirtas integument.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ant, virš",
+        "dengti"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Nekaltas, naivus, su vaikišku paprastumu; priešingybė \"disingenuous.\"",
+      "friendly": "Atvirai pasitikintis ir šiek tiek naivus, be slaptos darbotvarkės — lengva sumaišyti su \"ingenious,\" reiškiančiu gudrus.",
+      "exampleGloss": "Jos ingenuous klausimas — \"why would anyone lie about that?\" — parodė, kiek mažai klastos ji turėjo.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "viduje, gimtasis",
+        "gimdyti (laisvai gimęs, atviras)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Pernelyg didelis rūpestis smulkiomis detalėmis ar taisyklėmis.",
+      "friendly": "Paskęsti smulkiose taisyklėse, paleidžiant didesnį vaizdą — apsėsti smulkiuoju šriftu, kuriuo niekas kitas nesirūpina.",
+      "exampleGloss": "Jo pedantry dėl Oxford commas sužlugdė visą posėdį.",
+      "origin": "italų / lotynų",
+      "rootMeanings": [
+        "vaikų mokytojas",
+        "praktika ar savybė"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kruopštus, rūpestingas nagrinėjimas.",
+      "friendly": "Gilus, nė-akmens-neapverstas žvilgsnis į ką nors — eiti per kiekvieną detalę su tikru rūpesčiu.",
+      "exampleGloss": "Tik po kruopščios perscrutation apskaitos knygų išlindo neatitikimas.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "kiaurai, kruopščiai",
+        "ieškoti, nagrinėti"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Kelti prieštaravimus; rodyti nenorą.",
+      "friendly": "Mandagiai atsispirti ar dvejojoti, o ne iškart sutikti — švelnus \"I'd rather not.\"",
+      "exampleGloss": "Paprašyta pasirašyti neskaičius, ji demurred.",
+      "origin": "lotynų / prancūzų",
+      "rootMeanings": [
+        "nuo, šalin",
+        "atidėti"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Paviršiumi įtikinamas, bet iš tikrųjų klaidingas.",
+      "friendly": "Iš pirmo žvilgsnio skamba įtikinamai, bet subyra tą akimirką, kai iš tikrųjų patikrini.",
+      "exampleGloss": "\"Everyone's doing it\" yra specious argumentas, kuris niekada visai neišlaiko patikros.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "išvaizda, vaizdas",
+        "pilnas (atrodo geras)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Nenuoširdi, veidmainiška kalba, dažnai moralizuojanti.",
+      "friendly": "Pamokslaujanti kalba, kuri skamba dorybingai, bet nėra paremta tikru jausmu — moralinė poza autopilotu.",
+      "exampleGloss": "Jis buvo pavargęs nuo įmonės cant apie \"family\" iš kompanijos, kuri niekada neduoda niekam atostogų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "dainuoti (vėliau: monotoniškas žargonas)",
+        "elgetų aimanuojanti kalba, tada veidmainystė"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Neturintis drąsos, bailus.",
+      "friendly": "Bailus iki stuburo stokos — pernelyg išsigandęs atsistoti, net kai tai akivaizdžiai svarbu.",
+      "exampleGloss": "Valdybos pusillanimous tyla leido skandalui išplisti nekontroliuojamai.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "labai mažas",
+        "dvasia, drąsa"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Lapės pavidalo; klastingas, gudrus.",
+      "friendly": "Klastingas ir gudrus kaip lapė — sąmojingas, šiek tiek slidus, visada žingsniu priekyje.",
+      "exampleGloss": "Jis davė vulpine šypseną tą akimirką, kai pastebėjo spragą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lapė",
+        "iš ar kaip"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "prieveiksmis",
+      "definition": "Vienas po kito, seka.",
+      "friendly": "Imama griežtai po vieną, tvarka — be šuolių į priekį, be dviejų vienu metu.",
+      "exampleGloss": "Teisėjas išnagrinėjo kiekvieną iš dvylikos pretenzijų seriatim.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "eilė, seka",
+        "po vieną"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Ypatingas taupumas; šykštumas.",
+      "friendly": "Būti kietam su pinigais (ar žodžiais, ar ištekliais) gerokai anapus protingo taupumo.",
+      "exampleGloss": "Jo parsimony buvo legendinė — arbatos maišelius jis naudojo tris kartus.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "taupyti, būti taupiam",
+        "būsena ar praktika"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Pataisa, ypač tekste.",
+      "friendly": "Pataisa rašinyje — mokslinė pataisa, ištaisanti klaidą sename ar svarbiame tekste.",
+      "exampleGloss": "Naujajame leidime yra dešimtys emendations originaliam rankraščiui.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk iš",
+        "kaltė, klaida"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Saikingas valgant ir geriant.",
+      "friendly": "Sąmoningai santūrus maisto ir gėrimo atžvilgiu — niekada nepersivalgo, visada palieka šiek tiek lėkštėje.",
+      "exampleGloss": "Jo abstemious įpročiai palaikė jį aštrų gerokai po to, kai bendraamžiai sulėtėjo.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "šalin nuo",
+        "svaiginantis gėrimas"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Gramatinė klaida ar etiketo pažeidimas.",
+      "friendly": "Klaida gramatikoje ar manierose — tokia maža klaida, kuri priverčia pedantą krūptelėti.",
+      "exampleGloss": "\"Between you and I\" yra dažnas solecism, vis dar verčiantis gramatikus krūpčioti.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "Kilikijos miestas, žinomas dėl 'blogos' graikų kalbos",
+        "praktika, būdas"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Susijęs su konfliktu grupės viduje; abipusiai naikinantis.",
+      "friendly": "Vidinės rietenos, draskančios grupę iš vidaus — kova, kurioje visi pralaimi, nes tai šeima prieš šeimą.",
+      "exampleGloss": "Partijos internecine rietenos padarė daugiau žalos nei bet koks išorinis priešininkas.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "tarp, tarpe",
+        "žudyti"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "būdvardis / daiktavardis",
+      "definition": "Abejingas, nerūpestingas požiūris.",
+      "friendly": "Gūžtelėjimas pečiais, tapęs visa asmenybe — rūpintis taip mažai dalykais, kurie kadaise rūpėjo, kad niekas nebeatrodo to verta.",
+      "exampleGloss": "Jo pococurante požiūris į apdovanojimų ceremoniją nustebino visus, kurie žinojo, kaip sunkiai jis dirbo.",
+      "origin": "italų",
+      "rootMeanings": [
+        "mažai",
+        "rūpintis"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Sumišusi, sudėtinga situacija ar ginčas.",
+      "friendly": "Susipainiojusi, netvarkinga situacija, kurią sunku suprasti — dalis nesusipratimo, dalis dramos, visoks sumaištis.",
+      "exampleGloss": "Visas sėdimų vietų imbroglio prasidėjo nuo vienos neteisingai padėtos vardo kortelės.",
+      "origin": "italų",
+      "rootMeanings": [
+        "viduje",
+        "painioti, painioti"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Grėsmingas, grasinantis.",
+      "friendly": "Neša aiškią grėsmės atmosferą — minatory žvilgsnis ar laiškas padaro labai aišku, kad gali sekti kas nors bloga.",
+      "exampleGloss": "Laiško minatory tonas padarė nuomininkę nervingą, dar nespėjus atplėšti voko.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "grasinti",
+        "tarnaujantis"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Stipri vieša kritika ar žodinis įžeidinėjimas.",
+      "friendly": "Garsus, viešas pasmerkimas — tokia plėšianti kritika, kuri vyksta visiems matant.",
+      "exampleGloss": "Pranešėja susidūrė su metų viešo obloquy, kol istorija ją išteisino.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "prieš",
+        "kalbėti"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Staigus smarkus emocijų ar veiksmo protrūkis.",
+      "friendly": "Staigus, intensyvus protrūkis, užplūstantis tave iš karto — juoko, pykčio ar kosulio priepuolis, smogiantis kaip banga.",
+      "exampleGloss": "Ją užplūdo juoko paroxysm, kurio ji negalėjo paaiškinti niekam kitam kambaryje.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "anapus",
+        "aštrus, ūminis"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Pridėtas iš išorinio šaltinio, neįgimtas.",
+      "friendly": "Prikaltas iš išorės, o ne įmontuotas nuo pradžių — priedas, ne branduolys.",
+      "exampleGloss": "Komentaras jaučiasi adscititious, tarsi būtų priklijuotas prie jau baigto teksto.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "į, papildomai",
+        "pritarti, priimti"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Žinių trūkumas, nežinojimas.",
+      "friendly": "Paprastas nežinojimas — žinių spraga, be jokio teismo.",
+      "exampleGloss": "Jis pripažino savo nescience apie prancūzišką vyną ir leido someljė rinktis.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ne",
+        "žinoti"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Pernelyg didelis susidomėjimas lytiniais dalykais.",
+      "friendly": "Peruoli, žvilgčiojantis smalsumas viskam pikantiškam — susidomėjimas, perėjęs sveiką ribą į įkyrų.",
+      "exampleGloss": "Tabloido prurience dėl poros privataus gyvenimo ribojosi su apsėdimu.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "niežėti, ilgėtis",
+        "būsena"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Suodinas, tamsus, drumstas.",
+      "friendly": "Tamsus ir dūminis išvaizda, tarsi viskas būtų padengta plonu suodžių sluoksniu.",
+      "exampleGloss": "Fuliginous migla kabėjo virš gamyklos miestelio sutemose.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "suodžiai",
+        "pilnas"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Neigti ar prieštarauti.",
+      "friendly": "Plokščiai kalbėti prieš tai, ką kas nors kitas pasakė — sakyti \"that's not so.\"",
+      "exampleGloss": "Niekas nedrįso gainsay seno kapitono pasakojimo apie audrą.",
+      "origin": "vidurio anglų",
+      "rootMeanings": [
+        "prieš",
+        "kalbėti"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Tingumas, tinginystė (iš lotynų).",
+      "friendly": "Senas lotyniškas žodis grynam tingumui — vilkinimas, kai visai nesinori nieko daryti.",
+      "exampleGloss": "Vienuoliai pamokslavo prieš ignavia kaip vieną ramų sielos pavojų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ne",
+        "užsiėmęs, darbštus"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Skydas, rodantis herbą.",
+      "friendly": "Skydo formos emblemą, rodanti šeimos herbą — jos heraldinė \"vardinė lentelė.\"",
+      "exampleGloss": "Šeimos escutcheon vis dar kabo virš senojo dvaro priekinių durų.",
+      "origin": "lotynų / senosios prancūzų",
+      "rootMeanings": [
+        "skydas",
+        "mažybinis / daiktas"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Pasenęs, atgyvenęs ar pensijoje dėl amžiaus.",
+      "friendly": "Per savo naudingą žydėjimą ir paleistas į ganyklą — pernelyg senamadiškas ar nudėvėtas, kad tęstų darbą.",
+      "exampleGloss": "Superannuated spausdintuvas pagaliau buvo pakeistas po penkiolikos metų strigimų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "anapus",
+        "metai"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Pakaitalai, ypač medicinoje.",
+      "friendly": "Pakaitiniai vaistai, naudojami, kai tikrasis gydymas neprieinamas — iš esmės medicininiai dubleriai.",
+      "exampleGloss": "Kariniai gydytojai dažnai rėmėsi succedanea, kai tikrieji vaistai baigdavosi.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "vietoje",
+        "eiti, užleisti"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Girtis, garsiai puikuotis.",
+      "friendly": "Didelis, triukšmingas gyrimasis — garsi kalba apie savo didybę, kuri daugiausia karštas oras.",
+      "exampleGloss": "Jo rodomontade apie tai, kad \"single-handedly\" išgelbėjo projektą, neapgavo nė vieno, kuris ten iš tikrųjų buvo.",
+      "origin": "italų",
+      "rootMeanings": [
+        "besigiriantis riteris Orlando Furioso",
+        "veiksmas, rodymas"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Naudoti klastą ar apgaulę tikslui pasiekti.",
+      "friendly": "Išsisukti prie tikslo klastingais triukais, o ne sąžiningu žaidimu.",
+      "exampleGloss": "Jis chicaned sau kelią į sandorį sutartimi, pilna smulkaus šrifto.",
+      "origin": "prancūzų",
+      "rootMeanings": [
+        "kabučioti, apgauti",
+        "klasta; vėliau aštrus posūkis"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Grynoji ar abstrakti mokymosi ar žinojimo mokslas, dažnai matematika.",
+      "friendly": "Mokymasis tyriausia, abstrakčiausia forma — pati gilioji žinių struktūra, ypač matematinė.",
+      "exampleGloss": "Filosofas svajojo apie visuotinę mathesis, galinčią suvienyti visas žinių sritis.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "mokytis",
+        "mokymosi aktas"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Pernelyg rūpestingas dėl formalių taisyklių ar smulkių detalių.",
+      "friendly": "Per griežtas dėl smulkmenų — taiso mažas technines niuanas, kurios iš tikrųjų nieko nekeičia.",
+      "exampleGloss": "Atrodė šiek tiek pedantic ginčytis dėl \"who\" prieš \"whom\" žinutėje.",
+      "origin": "italų / graikų",
+      "rootMeanings": [
+        "vaikų vedlys, mokytojas",
+        "turintis manierą"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Mirganti, žėrinti šviesa.",
+      "friendly": "Greitas, žėrintis šviesos blyksnis — pagalvok apie saulės šviesą ant vandens ar deimantą, gaudantį šviesą.",
+      "exampleGloss": "Sietyno coruscation išbarstė šviesą po visus balių salės kampus.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "žėrėti, blykčioti",
+        "veiksmas"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Pradedantysis, novicijus.",
+      "friendly": "Kažkas visai naujas įgūdžiui ar sričiai — dar mokosi virvių, dar ne ekspertas.",
+      "exampleGloss": "Net tyro šachmatininkas gali pastebėti tą klaidą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "naujas kareivis, novicijus",
+        "žalias jaunas kareivis"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Ypatingai blogas, bjaurus.",
+      "friendly": "Blogas būdu, kuris nusipelno tikro pasibjaurėjimo — ne tik \"vidutiniškas,\" bet tikrai bjaurus.",
+      "exampleGloss": "Recenzentas pavadino tęsinį execrable, ir kasa sutiko.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "keikti",
+        "vertas, galintis būti"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Kraujo raudonumo.",
+      "friendly": "Gilus, ryškus raudonas — šviežio kraujo spalva, garsiai vartota Šekspyro Makbete.",
+      "exampleGloss": "Saulėlydis pavertė visą dangų incarnadine švytėjimu.",
+      "origin": "italų / lotynų",
+      "rootMeanings": [
+        "į",
+        "kūnas (kūno raudonas)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Mažas tarpas ar erdvė tarp daiktų.",
+      "friendly": "Ta maža tarpinė vieta, kurią lengva nepastebėti — plyšys tarp grindų lentų, spraga tvarkaraštyje.",
+      "exampleGloss": "Piktžolės stūmėsi pro kiekvieną interstice sename plytų take.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "tarp",
+        "stovėti"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kritinės ar smerkiamos pastabos.",
+      "friendly": "Aštrios, nepritariančios pastabos — tokia kritika, kurioje yra šiek tiek barmo tono.",
+      "exampleGloss": "Profesoriaus animadversions apie esė pripildė paraštes raudonu rašalu.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "protas",
+        "gręžtis link"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Neįmanoma paneigti, nenuginčijamas.",
+      "friendly": "Taip tvirtai įrodyta, kad nėra apie ką ginčytis — byla tiesiog uždaryta.",
+      "exampleGloss": "DNR įrodymai buvo irrefragable, ir teismas baigėsi per valandą.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ne",
+        "priešintis, priešintis"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Sudėtingumas, painumas; taip pat įsisukimas vidun.",
+      "friendly": "Susipainiojęs, į save įsisukęs sudėtingumas — daiktai, suvynioti taip glaudžiai, kad sunku juos atskirti.",
+      "exampleGloss": "Siužeto involution paliko pusę publikos bandančią jį išpainioti po titrų.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "vidun, į vidų",
+        "ritinti, sukti"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Jėga ar pastanga, kaip \"by dint of.\"",
+      "friendly": "Gryna jėga ar pastanga — šiandien daugiausia išlikusi frazėje \"by dint of.\"",
+      "exampleGloss": "Jis išlaikė egzaminą by dint of grynos, užsispyrusios praktikos.",
+      "origin": "senosios anglų",
+      "rootMeanings": [
+        "smūgis, kirtis",
+        "jėga"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Sujungtas įlaidine jungtimi; tvirtai suleistas.",
+      "friendly": "Sukabintas senu staliaus būdu — vienas gabalas snūduriuoja į skylę, išpjautą būtent jam.",
+      "exampleGloss": "Seno tvarto sijos buvo mortised kartu be nė vienos vinies.",
+      "origin": "lotynų / prancūzų",
+      "rootMeanings": [
+        "lizdas, skylė",
+        "kandimas, sukibimas"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Labai tinkamas, taiklus.",
+      "friendly": "Tiksliai tinkamas akimirkai — pastaba, citata ar pavyzdys, kuris nusileidžia tobulai į tašką.",
+      "exampleGloss": "Jos apposite pastaba sutraukė visą diskusiją į vieną sakinį.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "į",
+        "dėti"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Švelniai švytintis ar mirgantis (šviesa); taip pat lengvas sąmojis.",
+      "friendly": "Švyti švelniai, o ne liepsnoja — minkšta, mirganti šviesa ar sąmojis, kuris žaismingas, o ne aštrus.",
+      "exampleGloss": "Žvakių šviesa metė lambent švytėjimą per seną valgomąjį.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "laižyti",
+        "veikiantis (šviesa, kuri 'laižo')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Religinis atsiskyrėlis, gyvenantis vienumoje.",
+      "friendly": "Kažkas, kas visiškai pasitraukia iš pasaulio gyventi vienas maldoje ir apmąstyme.",
+      "exampleGloss": "Anchorite gyveno mažoje celėje, prijungtoje prie bažnyčios, daugiau nei trisdešimt metų.",
+      "origin": "graikų",
+      "rootMeanings": [
+        "atgal, šalin",
+        "atsitraukti"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Numalšinti troškulį; užgesinti.",
+      "friendly": "Visiškai patenkinti alkį — dažniausiai troškulį, bet perkeltine bet kokį gilų norą ar poreikį.",
+      "exampleGloss": "Viena šalto vandens stiklinė slaked jo troškulį po ilgo žygio.",
+      "origin": "senosios anglų",
+      "rootMeanings": [
+        "palaidas, palaidas",
+        "atlaisvinti, nuraminti"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Adatos formos.",
+      "friendly": "Ilgas, plonas ir smailus kaip adata — pušies adatos ar aštraus mažo kristalo forma.",
+      "exampleGloss": "Pušis lengva atpažinti pagal acicular lapus.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "adata",
+        "mažas"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Išsekęs gyvybingumo, silpnas, pernelyg ištobulintas.",
+      "friendly": "Sudėvėtas ir minkštas — praradęs pirmykštę jėgą ar žvalumą per pernelyg daug komforto ar rafinuotumo.",
+      "exampleGloss": "Kritikai pavadino kadaise drąsų žurnalą effete, jo drąsių ankstyvųjų metų šešėliu.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "lauk",
+        "vaisingas, kuris nešė"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Priedas ar mažesnis pridėtas daiktas ar teisė.",
+      "friendly": "Mažas priedas, ateinantis su kuo nors didesniu — priedai ir papildymai, priklausantys pagrindiniam daiktui.",
+      "exampleGloss": "Nuomos sutartis apėmė garažą ir visus jo appurtenances.",
+      "origin": "lotynų / prancūzų",
+      "rootMeanings": [
+        "į",
+        "priklausyti"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "veiksmažodis",
+      "definition": "Nutylėti ar sumažinti kaltę.",
+      "friendly": "Išlyginti klaidą švelniais žodžiais, kad ji skambėtų mažesnė, nei yra.",
+      "exampleGloss": "Jis bandė gloze praleistą terminą miglota kalba apie \"unforeseen challenges.\"",
+      "origin": "senosios prancūzų / lotynų",
+      "rootMeanings": [
+        "glosa, paaiškinimas",
+        "komentuoti — tada išlyginti"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "būdvardis",
+      "definition": "Ankstyvoje stadijoje, tik prasidedantis.",
+      "friendly": "Tik pradeda rodytis — pati pirmoji, vos matoma stadija ko nors didesnio, kas ateis.",
+      "exampleGloss": "Gydytojai pagavo ligos incipient ženklus, kol ji nespėjo išplisti.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "ant, į",
+        "imti (imtis, pradėti)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "daiktavardis",
+      "definition": "Kūrybinis įkvėpimas, ypač dieviškasis.",
+      "friendly": "Staigus įkvėpimo pliūpsnis, jaučiantis didesnis už tave — tarsi idėja būtų įpūsta į tave iš kitur.",
+      "exampleGloss": "Poetas aprašė, kaip visas kūrinys atėjo vienu afflatus pliūpsniu trečią nakties.",
+      "origin": "lotynų",
+      "rootMeanings": [
+        "į, ant",
+        "pūsti (užpūtimas)"
+      ]
+    }
+  }
+}

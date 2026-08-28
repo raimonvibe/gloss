@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../l10n/app_localizations.dart';
 import '../theme/app_fonts.dart';
 import '../theme/brand_colors.dart';
 
@@ -18,6 +19,7 @@ class ProgressTracker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     final pct = total == 0 ? 0.0 : (current / total).clamp(0.0, 1.0);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,7 +30,7 @@ class ProgressTracker extends StatelessWidget {
             const SizedBox(width: 8),
             Expanded(
               child: Text(
-                label ?? '$current of $total',
+                label ?? l10n.currentOfTotal(current, total),
                 style: AppFonts.cormorant(
                   color: brand.foregroundMuted,
                   fontSize: 15,

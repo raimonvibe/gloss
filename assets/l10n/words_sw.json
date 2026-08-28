@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kutia tamu au kusafisha; kuondoa ukali kutoka katika kitu.",
+      "friendly": "Kutoa mwiba au uchungu — kwa hakika kutia tamu, au kwa sitiari kulainisha wazo kali ili liingie vizuri.",
+      "exampleGloss": "Mhariri edulcorated tathmini kali kabla haijachapishwa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje, kabisa",
+        "tamu"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kupita kiasi au kwa uwongo kuwa wa dini au mcha Mungu.",
+      "friendly": "Inaelezea mtu ambaye ibada yake inaonekana ni maonyesho, si imani ya kweli.",
+      "exampleGloss": "Kuugua kwake pietistic wakati wa mahubiri kulichukiza wengine wote benchi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "uchamungu, wajibu",
+        "kuwa na tabia ya"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "nomino",
+      "definition": "Utata unaotokana na muundo wa sarufi — sentensi inayosomeka namna mbili.",
+      "friendly": "Sentensi iliyo sawa kisarufi lakini inasomeka maana mbili tofauti kabisa, kama \"I saw the man with the telescope.\"",
+      "exampleGloss": "\"Visiting relatives can be tiring\" ni amphiboly ya kawaida — je, ndugu wanachosha, au kuwatembelea?",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "pande zote mbili",
+        "kutupa"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mkali, unaokatiza, unaokata moja kwa moja kwenye suala.",
+      "friendly": "Inakata porojo — maoni au akili trenchant inafika moyoni mwa jambo haraka, bila maneno ya bure.",
+      "exampleGloss": "Ukosoaji wake trenchant haukuacha pengo la hadithi ya filamu mahali pa kujificha.",
+      "origin": "Kifaransa cha Kale",
+      "rootMeanings": [
+        "kata",
+        "kufanya, kuwa na sifa"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inaanza tu; katika hatua ya mapema au ya msingi.",
+      "friendly": "Bado katika dakika za kwanza — mpango, hisia, au mchakato ulioanza tu kuumbika.",
+      "exampleGloss": "Hatua inchoative za mkataba zilikuwa za matumaini, lakini maelezo mengi yalibaki wazi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuanza, kuanzisha",
+        "kuelemea kuelekea"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "nomino",
+      "definition": "Hotuba rasmi au andiko linalomsifu mtu sana.",
+      "friendly": "Heshima rasmi kamili — fikiria sifa inayong'aa au hotuba inayoimba mafanikio kutoka paa.",
+      "exampleGloss": "Profesa aliyestaafu aliondolewa kwa panegyric kutoka kwa wanafunzi wake wa karibu.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "yote",
+        "mkusanyiko, kusanyiko"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kuhusu uwepo halisi au kuwako kwa ukweli, si nadharia tupu.",
+      "friendly": "Kuhusu vitu kama vilivyo kweli, si kama mawazo au nadharia tu juu yake.",
+      "exampleGloss": "Wanafalsafa wanajadili kama namba zina hadhi ontic au zipo tu akilini mwetu.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "kuwako, kilichopo",
+        "kinachohusiana na"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuzaa matunda, au kuwa na tija.",
+      "friendly": "Hatimaye kutoa matunda — juhudi, wazo, au uwekezaji uliokua kutoka mbegu kuwa kitu chenye faida.",
+      "exampleGloss": "Miaka ya utafiti wa kimya hatimaye fructified kuwa chanjo inayofanya kazi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "tunda",
+        "kufanya, kusababisha"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kutarajia au kuonyesha kitu kama kimekwisha kabla hakijatokea.",
+      "friendly": "Kuruka mbele kwa mtindo wa fasihi — kueleza tukio la baadaye kama limekwisha, ili hoja iume zaidi.",
+      "exampleGloss": "Toast proleptical ya jenerali kwa \"victory\" ilitolewa wiki kamili kabla ya vita.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "kabla",
+        "kuchukua, kunyakua"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayoendeshwa na shinikizo la hewa; pia kuhusu roho au pumzi.",
+      "friendly": "Kwa kawaida humaanisha \"inaendeshwa na hewa iliyoshinikizwa\" — ingawa inaweza pia kumaanisha roho au pumzi.",
+      "exampleGloss": "Breki pneumatic zilifoka basi liliposimama kando ya barabara.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "upepo, pumzi, roho",
+        "kinachohusu"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kueleza Mungu au yaliyo matakatifu kwa kauli chanya — kinyume cha apofatiki.",
+      "friendly": "Njia ya kuzungumza juu ya Mungu kwa kusema yeye ni nini — \"God is love\" — si tu yeye si nini.",
+      "exampleGloss": "Theolojia Cataphatic inazungumza kwa uhakika juu ya Mungu kama mwenye upendo, haki, na huruma.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "chini, kulingana na",
+        "kusema, kutamka"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kulingana na imani au uaminifu; pia hutumika kama alama thabiti ya kurejelea.",
+      "friendly": "Kitu unachokichukua kwa imani kisha kukitumia kama nanga — alama fiducial ndiyo sehemu thabiti ambayo vinginevyo hupimwa.",
+      "exampleGloss": "Wapima ardhi waliweka alama fiducial kwenye mwamba kabla ya kuchora ramani ya eneo.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuamini",
+        "imani, uaminifu"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "nomino",
+      "definition": "Ulinzi wa wema wa Mungu licha ya kuwepo kwa uovu.",
+      "friendly": "Jaribio la kale la kujibu \"Ikiwa Mungu ni mwema, kwa nini uovu upo?\"",
+      "exampleGloss": "Tasnifu yake ilichunguza theodicy kupitia kioo cha Kitabu cha Ayubu.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "mungu",
+        "haki"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "nomino",
+      "definition": "Kukaa ndani kwa pamoja — neno la theolojia kuhusu jinsi nafsi za Utatu zinavyokaa ndani ya kila moja.",
+      "friendly": "Neno la theolojia kwa umoja wa tatu-ndani-ya-moja ulio kamili kiasi kwamba kila sehemu inajumuisha na inajumuishwa na nyingine.",
+      "exampleGloss": "Fundisho la circumincession linajaribu kueleza jinsi Baba, Mwana, na Roho walivyo tofauti lakini hawatenganishwi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuzunguka",
+        "kwenda, kutembea"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuleta matokeo yanayonufaisha au yanayorudi kwa mtu.",
+      "friendly": "Sifa (au lawama) inaporudi kwa anayewajibika — mema ambayo redound kwa sifa yako yanarudi kukulipa.",
+      "exampleGloss": "Mafanikio ya timu yatafanya redound kwa sifa ya kocha wake mtulivu na mchapakazi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nyuma, tena",
+        "wimbi"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Isiyoweza kuepukwa wala kutoroka.",
+      "friendly": "Lazima litokee hata ukifanya nini — hakuna kujikunja nje ya matokeo ineluctable.",
+      "exampleGloss": "Uzee huwafikia wote; ni ineluctable tu.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "si",
+        "kujitahidi kutoka"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kutumia maneno ya kuzunguka, marefu, badala ya umbo la moja kwa moja.",
+      "friendly": "Kuchukua njia ndefu kwa maneno — kusema \"make a decision\" badala ya \"decide\".",
+      "exampleGloss": "Barua pepe periphrastic zake zingeweza kusema kwa mstari mmoja kile kilichochukua aya tatu.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "kuzunguka",
+        "kutangaza, kusimulia"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "nomino",
+      "definition": "Uzembe wa akili au ulegevu.",
+      "friendly": "Hali ya akili yenye ukungu, ya polepole, ambapo kufikiri kunahisi kama kuvuka shira.",
+      "exampleGloss": "Wimbi la hebetude liliwapiga darasa mara baada ya chakula cha mchana.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "butu, si kali",
+        "hali au sifa"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Isiyofaa; ishara mbaya.",
+      "friendly": "Ishara mbaya — hali au wakati unaoonekana kukupinga kabla hujataanza.",
+      "exampleGloss": "Mawingu ya kijivu na betri iliyokufa yalifanya mwanzo unpropitious wa safari.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "si",
+        "unaofaa, mwenye neema"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "kivumishi / kitenzi",
+      "definition": "Nyama iliyochemshwa au kupikwa katika mchuzi — tahajia sahihi ni fricasseed.",
+      "friendly": "Neno la kale la kupikia lenye joto kwa nyama iliyokatwa na kuchemshwa taratibu katika mchuzi wake hadi laini.",
+      "exampleGloss": "Kuku fricasseed wa nyanya alikuwa kilele cha kila chakula cha jioni cha Jumapili.",
+      "origin": "Kifaransa",
+      "rootMeanings": [
+        "kukaanga",
+        "kuvunja (vipande)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mbadala bandia au duni.",
+      "friendly": "Bandia inayosimama mahali pa ya kweli — kitaalamu inafanya kazi, lakini kila mtu anajua si ya asili.",
+      "exampleGloss": "Wanunuzi wa wakati wa vita walitumia kahawa ersatz iliyotokana na chicory iliyochomwa.",
+      "origin": "Kijerumani",
+      "rootMeanings": [
+        "nje, kiambishi cha mbadala",
+        "kuweka, kuweka mahali"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuchukulia wazo dhahania kama kitu halisi.",
+      "friendly": "Kufanya wazo lihisike kuwa thabiti — kugeuza kilicho wazi, kama \"the economy\", kuwa kitu unachoweza kuelekeza kidole.",
+      "exampleGloss": "Kuita \"roho\" ya taifa kama kiumbe chake mwenyewe reifies kitu ambacho kweli ni maamuzi ya mamilioni ya watu.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kitu",
+        "kufanya"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "kitenzi (wakati uliopita)",
+      "definition": "Kutoroka au kuepuka kwa ustadi.",
+      "friendly": "Kuteleza safi — kuepuka kukamatwa, swali, au jibu, mara nyingi kwa ujanja au karibu karibu.",
+      "exampleGloss": "Jibu eluded yeye kwa masaa hadi ghafla likafunguka alipokuwa ananawa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje, mbali",
+        "kucheza"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kueleza shaka, mshangao, au mkanganyiko ambao haujatatuliwa.",
+      "friendly": "Kukwama kwenye mwisho wa mawazo wa kweli — si kuchanganyikiwa kwa uvivu, bali kwa sababu swali lenyewe linakataa jibu safi.",
+      "exampleGloss": "Socrates mara nyingi alimaliza mazungumzo kwa sauti aporetic, maswali zaidi kuliko majibu.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "bila",
+        "njia, njia ya kupita"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "nomino",
+      "definition": "Tamathali inayotaja kitu kwa neno linalohusiana, k.m. \"the crown\" kwa mfalme.",
+      "friendly": "Kutumia neno linalohusiana badala ya kitu chenyewe — kusema \"the White House announced\" ukimaanisha serikali.",
+      "exampleGloss": "\"Wall Street had a rough day\" ni metonymy — kweli inamaanisha soko la hisa lilikumbwa na shida.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "badiliko, baada",
+        "jina"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kung'oa mizizi; kurarua kutoka mazingira asilia.",
+      "friendly": "Kuvuta kitu (au mtu) kutoka mizizi, mbali na mahali au utamaduni wake.",
+      "exampleGloss": "Vita deracinated kizazi kizima, vikitawanya familia kuvuka mipaka.",
+      "origin": "Kifaransa / Kilatini",
+      "rootMeanings": [
+        "mbali, kutoka",
+        "mzizi"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Yenye sauti nzuri.",
+      "friendly": "Tu inayofaa kusikiliza — neno, jina, au sentensi euphonious inatiririka sikioni kama muziki.",
+      "exampleGloss": "\"Murmuring brook\" ni kishazi kidogo euphonious, laini na rahisi kutamka.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "nzuri, vizuri",
+        "sauti, sauti ya mtu"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayodhaniwa au kufikiriwa kwa ujumla.",
+      "friendly": "Inaaminika sana kuwa kweli ingawa haijathibitishwa — toleo la \"supposed\".",
+      "exampleGloss": "Mwandishi putative wa barua baadaye alionekana kuwa mgeni kabisa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kufikiri, kuzingatia",
+        "kuwa na asili ya"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "nomino",
+      "definition": "Neno au kishazi kipya kilichobuniwa.",
+      "friendly": "Neno jipya kabisa — limebuniwa sasa hivi, bado halijaingia (au karibu) kamusi.",
+      "exampleGloss": "\"Doomscrolling\" lilianza kama neologism na haraka likawa lugha ya kila siku.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "mpya",
+        "neno, usemi"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mwenye hasira au hasira mbaya.",
+      "friendly": "Katika hali mbaya, tayari kulipuka — kama watu wa kale walivyoamini wengu unadhibiti hasira.",
+      "exampleGloss": "Alirusha jibu splenetic sekunde chache baada ya kusoma barua pepe.",
+      "origin": "Kigiriki / Kilatini",
+      "rootMeanings": [
+        "wengu (kiti cha hasira)",
+        "aliyeathiriwa na"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Anayependa kuhubiri maadili kwa kiburi au kwa uwongo.",
+      "friendly": "Anapenda kutoa mafunzo madogo ya maisha kwa kujiona, kama kila sentensi ni biskuti ya bahati.",
+      "exampleGloss": "Toast sententious yake kuhusu \"maana ya kweli ya urafiki\" ilifanya kila mtu aangalie saa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "maoni, methali",
+        "imejaa"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Anayezungumza kupita kiasi, hasa kuhusu mambo madogo.",
+      "friendly": "Haisi kuzungumza — anaendelea kuhadithia mambo madogo muda mrefu baada ya wengine kuishiwa maneno.",
+      "exampleGloss": "Dereva wa teksi garrulous alitueleza maisha yake yote kabla hatujaondoka uwanja wa ndege.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kupiga porojo",
+        "mwenye mwelekeo"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "nomino",
+      "definition": "Upumbavu, ujinga.",
+      "friendly": "Upumbavu mtupu — maoni au mpango mjinga kiasi kwamba hauhitaji jibu zito.",
+      "exampleGloss": "Fatuity wazi ya mpango huo ilionekana mara walipojaribu.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mjinga, mjinga",
+        "hali ya kuwa"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "nomino",
+      "definition": "Sehemu ya mwisho ya hotuba, mara nyingi inayofupisha.",
+      "friendly": "Mwisho mkubwa wa hotuba — sehemu ya kufunga ambapo msemaji anakusanya yote na kupigilia hoja.",
+      "exampleGloss": "Kufikia peroration, nusu ya hadhira walikuwa wamesimama.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kupitia, hadi mwisho",
+        "kusema, kutetea"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "nomino",
+      "definition": "Kurudia wazo lile lile kwa maneno tofauti bila haja.",
+      "friendly": "Kusema kitu kile kile mara mbili bila kuongeza chochote, kama \"free gift\" au \"end result\".",
+      "exampleGloss": "\"It is what it is\" ni tautology ipendwayo na wanaoepuka maelezo ya kweli.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "lile lile",
+        "neno, usemi"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "nomino",
+      "definition": "Kutumia maneno machache sana; usemi mfupi.",
+      "friendly": "Kusema mengi kwa machache — sanaa ya jibu fupi, kali, kutoka kwa Wasparta wa Laconia waliojulikana kwa ufupi.",
+      "exampleGloss": "\"Molon labe\" — \"njoo uzichukue\" — ndiyo laconism maarufu zaidi katika historia.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "Msparta wa Laconia",
+        "tabia, namna"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "nomino",
+      "definition": "Mawazo yasiyo na ladha, yaliyorahisishwa kupita kiasi; asili, chakula kisicho na ladha au uji.",
+      "friendly": "Mawazo yaliyopunguzwa maji — maudhui yaliyorahisishwa na salama kiasi kwamba hayana lishe kwa akili.",
+      "exampleGloss": "Hotuba ya mwanasiasa ilikuwa hasa pabulum: ahadi zisizo wazi zisizounganishwa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kulisha",
+        "chombo au njia"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayosababisha usingizi au usingizi mzito.",
+      "friendly": "Ya kuchosha — au kwa hakika yenye dawa ya usingizi — kiasi cha kukulaza. Fikiria maziwa ya joto, au mkutano wa bajeti wa masaa matatu.",
+      "exampleGloss": "Mlio soporific wa somo ulifanya nusu ya chumba wapiganie kufungua macho.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "usingizi mzito",
+        "kufanya, kusababisha"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Anayebembeleza kupita kiasi au mwenye tabia ya mafuta.",
+      "friendly": "Lainifu kiasi cha kuteleza — sifa iliyopakwa nene unahisi mafuta.",
+      "exampleGloss": "Muuzaji unctuous aliendelea kupongeza \"ladha bora\" yangu kabla ya kila uuzaji wa ziada.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kupaka mafuta",
+        "imejaa"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Haraka kupata kosa, mkali kupita kiasi kwa mambo madogo.",
+      "friendly": "Mwenye ubishi wa kila kitu — aina ya mtu anayepata tatizo kila mahali, hata lisilojali.",
+      "exampleGloss": "Maelezo captious yake kwenye ripoti yalilenga tu mahali pa koma.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kukamata, kuchukua",
+        "mtego, uwongo wa hoja"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mzembe, asiyefanya kazi kiakili au kimwili.",
+      "friendly": "Polepole na nusu usingizi, kama dubu katika usingizi wa majira ya baridi — karibu hana mwendo, karibu hana mawazo.",
+      "exampleGloss": "Ofisi ilikuwa torpid katika joto zito la Agosti.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "ganzi, mzembe",
+        "katika hali ya"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "nomino",
+      "definition": "Msimamizi au afisa anayesimamia nyumba ya enzi za kati.",
+      "friendly": "Toleo la enzi za kati la mkuu wa wafanyakazi — afisa anayeaminika aliyesimamia nyumba na shamba la bwana kila siku.",
+      "exampleGloss": "Seneschal wa ngome alisimamia kila kitu kutoka akaunti za mavuno hadi orodha ya wageni.",
+      "origin": "Kifranki / Kifaransa cha Kale",
+      "rootMeanings": [
+        "mzee, mkubwa",
+        "mtumishi"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuzungumza au kuandika kwa urefu juu ya mada.",
+      "friendly": "Kweli kuanza juu ya somo — kuzungumza au kuandika bila kukoma, kufunika kila pembe.",
+      "exampleGloss": "Muulize kuhusu magari ya kale na atafanya expatiate kwa saa kamili.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje",
+        "nafasi"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Isiyo na thamani, ndogo; pia batili au isiyofanya kazi.",
+      "friendly": "Karibu haina thamani — kifungu nugatory katika mkataba ni kile kisichofanya chochote kweli.",
+      "exampleGloss": "Mahakama iliamua sheria ndogo ya kale ilikuwa nugatory, kwa kuwa haikuwahi kutekelezwa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mambo madogo, upuuzi",
+        "ya"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "nomino",
+      "definition": "Hekima, hukumu makini.",
+      "friendly": "Hekima makini ya kivitendo — hukumu nzuri inayotoka katika uzoefu, si vitabu tu.",
+      "exampleGloss": "Sagacity ya nahodha mzee iliwaokoa wafanyakazi wa meli zaidi ya mara moja.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "wenye harufu kali, werevu",
+        "sifa ya"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "nomino",
+      "definition": "Umati wa kawaida au watu wa chini, hutumika kwa dharau.",
+      "friendly": "Neno la kiburi, la kudharau kwa \"umati\" au watu wa kawaida.",
+      "exampleGloss": "Count aliwadhihaki canaille waliokusanyika nje ya milango ya ikulu.",
+      "origin": "Kiitalia / Kifaransa",
+      "rootMeanings": [
+        "mbwa",
+        "kundi, kundi la"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "nomino",
+      "definition": "Matibabu au lugha ya kiburi, ya kufedhehesha.",
+      "friendly": "Matibabu makali, ya dharau yaliyokusudiwa kufedhehesha — tusi lililoundwa kuuma.",
+      "exampleGloss": "Alivumilia miaka ya contumely kutoka kwa wakosoaji kabla kazi yake hatimaye kutambuliwa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "pamoja, kabisa",
+        "kuvimba (kwa kiburi)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "kielezi",
+      "definition": "Kwa shaka au kutokubali; mtazamo wa pembeni.",
+      "friendly": "Mtazamo wa pembeni unaotoa kwa kitu usichoamini kabisa — macho yaliyojaa shaka.",
+      "exampleGloss": "Mwalimu alitazama askance kazi ya nyumbani iliyokuwa safi kwa kutiliwa shaka.",
+      "origin": "si hakika / Kiitalia",
+      "rootMeanings": [
+        "kwa, kuelekea",
+        "upande, upendeleo"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "nomino",
+      "definition": "Mjinga; kichwa kigumu.",
+      "friendly": "Tusi la kale, karibu la upendo, kwa mtu anayekuwa mzito kichwa — kichwa kigumu.",
+      "exampleGloss": "\"Wewe clodpate,\" alicheka, \"ramani imekuwa juu chini muda wote.\"",
+      "origin": "Kiingereza",
+      "rootMeanings": [
+        "donge la udongo",
+        "kichwa"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuweka katika mwendo au hatua; kuhamasisha.",
+      "friendly": "Kuwa cheche inayosukuma kitu kusonga — iwe mashine inawaka au mtu hatimaye kutenda juu ya wazo.",
+      "exampleGloss": "Hofu ya kupoteza mkataba actuated timu yote kwenye kazi ya ziada ya wikendi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kitendo, kusukuma",
+        "kusukuma, kufanya"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "nomino",
+      "definition": "Kuiba pesa zilizoaminiwa.",
+      "friendly": "Kuiba kimya pesa ulizoaminiwa kushika — wizi wa pesa katika vazi la kale.",
+      "exampleGloss": "Peculation ya mweka hazina haikugunduliwa karibu muongo mmoja.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mali binafsi",
+        "ng'ombe, utajiri"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "nomino",
+      "definition": "Kundi linalochukuliwa kuwa pembeni mwa jamii yenye heshima.",
+      "friendly": "Dunia ya chini ya kijamii yenye kung'aa lakini yenye shaka — watu wanaoishi nje kabisa ya sheria za jamii \"yenye heshima\".",
+      "exampleGloss": "Riwaya inafuata mwimbaji anayetembea demi-monde ya mabaa ya miaka ya 1920.",
+      "origin": "Kifaransa",
+      "rootMeanings": [
+        "nusu",
+        "dunia, jamii"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Bado lipo; halijapotea wala kuharibiwa.",
+      "friendly": "Bado lipo leo — hutumika kwa vitu vya kale (hati, spishi, majengo) vilivyofanikiwa kuishi.",
+      "exampleGloss": "Nakala tatu tu extant za chapisho la kwanza zinajulikana kuwepo.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje",
+        "kusimama"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "nomino",
+      "definition": "Udanganyifu; usaliti wa imani.",
+      "friendly": "Usaliti wa kina, wa makusudi — kuvunja imani ambayo mtu alikuwa na haki kutarajia utunze.",
+      "exampleGloss": "Jenerali hakuwahi kusamehe perfidy ya rafiki yake wa zamani mezani mwa mazungumzo.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kupitia, dhidi",
+        "imani, uaminifu"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "nomino",
+      "definition": "Lahaja ya eneo, hasa isiyo ya kawaida.",
+      "friendly": "Njia ya kipekee ya watu kuzungumza katika eneo fulani — imejaa maneno na midundo ambayo mgeni anaweza asije akashikwa.",
+      "exampleGloss": "Bibi yake bado alizungumza patois ya kisiwa kwenye milo ya familia.",
+      "origin": "Kifaransa",
+      "rootMeanings": [
+        "usemi mkali, lahaja",
+        "kiganja — usemi wa kigugumizi"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "nomino",
+      "definition": "Haki maalum inayomilikiwa na mtu au kundi.",
+      "friendly": "Upendeleo ulio wako wewe peke yako — haki inayokuja na jukumu, cheo, au hadhi.",
+      "exampleGloss": "Kuchagua mahali pa likizo ya familia ni prerogative ya babu, na kila mtu anajua.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kabla",
+        "kuuliza, kupiga kura"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "nomino",
+      "definition": "Ujasiri, ujasiri mkubwa; pia ugumu au uvumilivu.",
+      "friendly": "Uvumilivu mkali, wenye moyo — ujasiri wa kusonga mbele na ugumu wa kuendelea ukishaanza.",
+      "exampleGloss": "Ilihitaji hardihood ya kweli kuvuka njia katika dhoruba ya theluji bila ramani.",
+      "origin": "Kifaransa cha Kale / Kiingereza",
+      "rootMeanings": [
+        "jasiri, mgumu",
+        "hali, hali ya"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuchanua; pia kukua au kuonekana taratibu.",
+      "friendly": "Kuchanua katika usemi kamili — kama ua linalofunguka, au wazo linalokuwa lenyewe hatimaye.",
+      "exampleGloss": "Kipaji chake cha kimya cha uchoraji effloresced alipopata studio yake mwenyewe.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje",
+        "kuanza kuchanua"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "nomino",
+      "definition": "Kamba yenye uzito kuthibitisha wima; kwa sitiari, kipimo cha hukumu.",
+      "friendly": "Uzito kwenye kamba unaoning'inia moja kwa moja chini, kuthibitisha kama kitu ni wima kweli — na, kwa upana, kipimo thabiti unachopimia vinginevyo.",
+      "exampleGloss": "Alitumia uaminifu wa babu yake mwenyewe kama aina ya plumb line kwa kila uamuzi.",
+      "origin": "Kilatini / Kiingereza",
+      "rootMeanings": [
+        "risasi",
+        "kamba, kipimo"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "kielezi",
+      "definition": "Kwa furaha, kwa hiari (ya kale).",
+      "friendly": "Njia ya kale ya kusema \"kwa furaha\" au \"kwa raha\".",
+      "exampleGloss": "\"I would fain rest here a while,\" msafiri aliugua.",
+      "origin": "Kiingereza cha Kale",
+      "rootMeanings": [
+        "furaha, shangwe",
+        "kwa furaha, kwa hiari"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "nomino",
+      "definition": "Ukosoaji mkali wa umma au aibu.",
+      "friendly": "Aibu ya umma inayomiminwa juu ya mtu kwa njia kubwa, inayoonekana — aibu inayotoka katika kutokubaliwa kwa wingi.",
+      "exampleGloss": "Kashfa ilileta opprobrium ya umma juu ya kampuni nzima.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "dhidi",
+        "aibu, lawama"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mwenye kejeli kali, inayouma katika akili au ukosoaji.",
+      "friendly": "Akili yenye meno — maoni mordant yanauma kidogo hasa kwa sababu yameelekezwa kwa ustadi.",
+      "exampleGloss": "Tathmini za filamu mordant zake ziliogopwa na waongozaji na kupendwa na wasomaji.",
+      "origin": "Kilatini / Kifaransa",
+      "rootMeanings": [
+        "kuuma",
+        "kuuma, kufanya"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "nomino",
+      "definition": "Tangazo rasmi, mara nyingi la kisiasa au kijeshi.",
+      "friendly": "Tangazo kubwa, rasmi — kwa kawaida linatangaza serikali mpya, uasi, au amri kubwa.",
+      "exampleGloss": "Pronunciamento ya jenerali ilitangaza serikali mpya alfajiri.",
+      "origin": "Kihispania",
+      "rootMeanings": [
+        "mbele",
+        "kutangaza"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "nomino",
+      "definition": "Mtu mwenye maarifa ya juujuu anayejifanya mtaalamu.",
+      "friendly": "Mtu aliyepangusa uso wa mada kisha anazungumza kama aliandika kitabu cha somo hilo.",
+      "exampleGloss": "Sciolist wa karamu ya jioni alirekebisha kwa ujasiri mwanaastrofizikia wa kweli mezani.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kujua",
+        "kidogo — mjuzi mdogo"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "nomino",
+      "definition": "Kupungua kwa uwezo wa akili katika uzee.",
+      "friendly": "Kipindi cha uzee wa kuchelewa, cha kusahau, wakati ukali wa akili unaanza kufifia.",
+      "exampleGloss": "Katika dotage yake, alisimulia hadithi tatu zile zile kila ziara, kila mara kama mpya.",
+      "origin": "Kiingereza cha Kati",
+      "rootMeanings": [
+        "kuwa mjinga, kuwa mzito",
+        "hali au matokeo"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "nomino",
+      "definition": "Upande uliolindwa na upepo.",
+      "friendly": "Upande tulivu, uliolindwa — kilima, meli, ukuta — ambapo upepo hauwezi kukufikia.",
+      "exampleGloss": "Watembezi waliweka hema yao kwenye lee side ya ukingo ili kuepuka pepo.",
+      "origin": "Kiingereza cha Kale",
+      "rootMeanings": [
+        "kivuli, ulinzi",
+        "upande, uso"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuzuia au kuzuia pigo, swali, au hoja.",
+      "friendly": "Kupiga mbali kwa ustadi — pigo la upanga, swali gumu, au shtaka — bila kupoteza mdundo.",
+      "exampleGloss": "Yeye parried swali gumu la mwandishi kwa mzaha mwepesi.",
+      "origin": "Kifaransa",
+      "rootMeanings": [
+        "kuzuia",
+        "kutayarisha, kutetea"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Yenye harufu mbaya, yenye sumu.",
+      "friendly": "Inanuka kiasi cha karibu kuwa sumu — harufu mbaya kiasi inaonekana hatari kuvuta.",
+      "exampleGloss": "Harufu mephitic ilipanda kutoka kwenye bwawa jua lilipozama.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mvuke wenye sumu",
+        "kuwa na asili ya"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "nomino",
+      "definition": "Mtu aliyejitolea kwa anasa na starehe.",
+      "friendly": "Mtu anayeishi kwa starehe na kujifurahisha — chakula kizuri, vitanda laini, maisha mepesi — kutoka mji wa kale wa Kigiriki Sybaris maarufu kwa kuzidi.",
+      "exampleGloss": "Sybarite wa kweli, alikataa chumba chochote cha hoteli bila bafu.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "mji wa kale wa Kigiriki maarufu kwa anasa",
+        "mkaaji wa"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kukusudia kuweka kando au kupuuza sehemu.",
+      "friendly": "Kuweka kipande cha fumbo kando kwa makusudi akilini, ili uzingatie kwa usafi kilichobaki.",
+      "exampleGloss": "Hebu prescind gharama kwa muda na tuulize kama mpango unafanya kazi kweli.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kabla, mbali",
+        "kata"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kukosoa vikali; pia kuvua ngozi.",
+      "friendly": "Kurarua mtu kwa ukosoaji mkali — kwa maneno, kama unavua ngozi kweli.",
+      "exampleGloss": "Wakosoaji excoriated mwendelezo kwa kusaliti kila kitu mashabiki walipenda katika asili.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kutoka",
+        "ngozi, ngozi ya mnyama"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kutaja kama ushahidi au uthibitisho.",
+      "friendly": "Kuleta ukweli au mfano kuunga mkono hoja yako — kitu unachoelekeza mtu anapouliza \"what's your evidence?\".",
+      "exampleGloss": "Wakili adduced mashahidi watatu kuunga mkono alibi ya mteja wake.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kwa, kuelekea",
+        "kuongoza"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "nomino",
+      "definition": "Safari au kutangatanga, hasa ndefu na pana.",
+      "friendly": "Safari ndefu, za kutangatanga — kutangatanga kwa upana kunakokupeleka mbali na nyumbani kwa muda mrefu.",
+      "exampleGloss": "Peregrinations zake katika mabara matatu zilijaza rafu nzima ya shajara za safari.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kupitia",
+        "shamba, nchi (peregrinus: mgeni)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "nomino",
+      "definition": "Mwombaji, au anayeishi kwa sadaka.",
+      "friendly": "Mtu anayeishi kwa kuomba huruma — kihistoria pia watawa walioapa umaskini na kuishi kwa michango.",
+      "exampleGloss": "Watawa mendicant hawakuwa na chochote na walitegemea kabisa wema wa wanakijiji.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuomba",
+        "mwombaji"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mkarimu sana.",
+      "friendly": "Mkarimu kwa kiwango kikubwa, karibu cha kuonyesha — zawadi inayofanya watu washike pumzi kidogo.",
+      "exampleGloss": "Mchango munificent ulifadhili bawa zima jipya la maktaba.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "zawadi, huduma",
+        "kufanya, kutoa"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "nomino",
+      "definition": "Uchovu kutokana na ukosefu wa lishe; pia ukosefu wa nguvu.",
+      "friendly": "Hali dhaifu, iliyokauka kutokana na kutolishwa au kutochajiwa — kwa hakika kutoka njaa, au kwa sitiari kutoka kutokuwa na kitu cha kuendesha.",
+      "exampleGloss": "Mwisho wa kuzingirwa, askari walikuwa karibu inanition.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "tupu, bure",
+        "tendo au matokeo"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "nomino",
+      "definition": "Ukosoaji mchungu, wa matusi.",
+      "friendly": "Ukosoaji uliopita haki na kuwa hasira, mchungu wa maneno.",
+      "exampleGloss": "Maoni mtandaoni yaligeuka vituperation mtupu ndani ya dakika chache.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kosa",
+        "kutayarisha, kutoa"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Adui, yenye madhara katika athari.",
+      "friendly": "Inakufanyia kazi dhidi yako, hata kimya — hali au mitazamo isiyo rafiki kwa masilahi yako.",
+      "exampleGloss": "Sera mpya ilikuwa inimical kwa biashara ndogo, hata kama hiyo haikuwa nia.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "si",
+        "rafiki"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayoweza kusababisha chuki au kutoridhika, mara nyingi kupitia kulinganisha visivyo vya haki.",
+      "friendly": "Lazima ifanye mtu ahisi kudharauliwa — kwa kawaida kwa kuwapanga watu au vitu visivyo vya haki.",
+      "exampleGloss": "Kupanga ndugu kwa \"nani Mama anampenda zaidi\" ni mchezo invidious ambao hakuna anayepaswa kucheza.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "wivu",
+        "kutazama (kwa nia mbaya)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "nomino",
+      "definition": "Mtu wa cheo au hadhi ya chini; msaidizi.",
+      "friendly": "Mtu chini katika mnyororo wa amri au ngazi ya kijamii — mdogo, anayefanya kazi chini ya mwenye nguvu zaidi.",
+      "exampleGloss": "Kama subaltern mchanga, alipokea maagizo muda mrefu kabla hajawahi kuyatoa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "chini",
+        "badala, mwingine"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kuhisi au kueleza chuki kali.",
+      "friendly": "Kuchukia kitu kiasi cha kukilaani kwa sauti — chuki mtupu, yenye sauti.",
+      "exampleGloss": "Wanakijiji execrated mtoza kodi kila gari lake lilipopita mjini.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje ya",
+        "takatifu (kulaani nje ya kitakatifu)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "nomino",
+      "definition": "Kifuniko cha nje asilia, kama ngozi au ganda.",
+      "friendly": "Kifuniko cha kinga cha asili chenyewe — ngozi, ganda, kaka, au ganda la tunda, chochote kinachofunika na kulinda kilicho hai.",
+      "exampleGloss": "Ganda la kobe ni integument imara ajabu.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "juu, juu ya",
+        "kufunika"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Msafi, mjinga, anayeonyesha unyenyekevu wa mtoto; kinyume cha \"disingenuous\".",
+      "friendly": "Anayeamini waziwazi na kidogo mjinga, bila ajenda iliyofichwa — rahisi kuchanganywa na \"ingenious\" inayomaanisha mwerevu.",
+      "exampleGloss": "Swali lake ingenuous — \"kwa nini mtu angesema uwongo kuhusu hilo?\" — lilionyesha jinsi alivyokuwa na hila kidogo.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "ndani, asilia",
+        "kuzaa (aliyezaliwa huru, mwaminifu)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "nomino",
+      "definition": "Kujali kupita kiasi maelezo madogo au sheria.",
+      "friendly": "Kupotea katika sheria ndogo ukikosa picha kubwa — kuzama katika maandishi madogo ambayo hakuna mwingine anayejali.",
+      "exampleGloss": "Pedantry yake juu ya koma za Oxford ilipotosha mkutano mzima.",
+      "origin": "Kiitalia / Kilatini",
+      "rootMeanings": [
+        "mwalimu wa watoto",
+        "tabia au sifa"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "nomino",
+      "definition": "Ukaguzi wa kina, wa makini.",
+      "friendly": "Mtazamo wa kina, usioacha jiwe — kupitia kila undani kwa uangalifu wa kweli.",
+      "exampleGloss": "Baada tu ya perscrutation makini ya vitabu vya hesabu ndipo tofauti ilipotokea.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kupitia, kabisa",
+        "kutafuta, kuchunguza"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kutoa pingamizi; kuonyesha kusita.",
+      "friendly": "Kurudisha kwa adabu au kusita badala ya kukubali mara moja — \"I'd rather not\" laini.",
+      "exampleGloss": "Alipoulizwa kusaini bila kusoma, yeye demurred.",
+      "origin": "Kilatini / Kifaransa",
+      "rootMeanings": [
+        "kutoka, mbali",
+        "kuchelewesha"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayoonekana kuwa na mantiki kwa uso lakini si kweli.",
+      "friendly": "Inasikika kushawishi kwa mtazamo wa kwanza lakini inaporomoka unapoikagua kweli.",
+      "exampleGloss": "\"Everyone's doing it\" ni hoja specious isiyoshika chini ya ukaguzi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "muonekano, sura",
+        "imejaa (inayoonekana nzuri)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "nomino",
+      "definition": "Mazungumzo yasiyo ya kweli, ya unafiki, mara nyingi ya kuhubiri maadili.",
+      "friendly": "Mazungumzo yanayosikika ya wema lakini hayana hisia za kweli — mkao wa maadili wa kiotomatiki.",
+      "exampleGloss": "Alichoka na cant ya kampuni kuhusu \"familia\" kutoka kampuni isiyowahi kutoa likizo kwa yeyote.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuimba (baadaye: jargon ya sauti)",
+        "mlio wa waombaji, kisha unafiki"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mwenye ukosefu wa ujasiri, mwoga.",
+      "friendly": "Mwenye woga kiasi cha kutokuwa na uti wa mgongo — anaogopa sana kusimama hata linapojali wazi.",
+      "exampleGloss": "Ukimya pusillanimous wa bodi uliruhusu kashfa izunguke nje ya udhibiti.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "ndogo sana",
+        "roho, ujasiri"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kama mbweha; mjanja, werevu.",
+      "friendly": "Mjanja na mwerevu kama mbweha — mwenye akili haraka, kidogo wa siri, daima hatua moja mbele.",
+      "exampleGloss": "Alitoa tabasamu vulpine mara tu alipoona pengo la sheria.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mbweha",
+        "ya au kama"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "kielezi",
+      "definition": "Moja baada ya nyingine, kwa mfululizo.",
+      "friendly": "Inachukuliwa kwa ukali moja kwa moja, kwa utaratibu — bila kuruka, bila kufanya mbili kwa pamoja.",
+      "exampleGloss": "Hakimu alishughulikia kila moja ya madai kumi na mawili seriatim.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "safu, mfululizo",
+        "moja kwa moja"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "nomino",
+      "definition": "Uchumi mkali; ubahili.",
+      "friendly": "Kuwa mkali kwa pesa (au maneno, au rasilimali) kupita kiwango cha kuokoa kinachofaa.",
+      "exampleGloss": "Parsimony yake ilikuwa hadithi — alitumia mifuko ya chai tena mara tatu.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuokoa, kuwa mwangalifu",
+        "hali au tabia"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "nomino",
+      "definition": "Marekebisho, hasa katika maandishi.",
+      "friendly": "Marekebisho ya andiko — kugusa kwa kitaaluma kurekebisha kosa katika maandishi ya kale au muhimu.",
+      "exampleGloss": "Toleo jipya linajumuisha emendations kadhaa kwa hati asili.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje ya",
+        "kosa, kosa"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mwenye kiasi katika kula na kunywa.",
+      "friendly": "Anayejizuia kwa makusudi kuhusu chakula na kinywaji — hashindi kamwe, daima anaacha kidogo sahani.",
+      "exampleGloss": "Tabia zake abstemious zilimweka mkali muda mrefu baada ya wenzake kupungua kasi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mbali na",
+        "kinywaji chenye kilevi"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "nomino",
+      "definition": "Kosa la sarufi au uvunjaji wa adabu.",
+      "friendly": "Kuteleza katika sarufi au adabu — aina ya kosa dogo linalomfanya mtu mkali akune.",
+      "exampleGloss": "\"Between you and I\" ni solecism ya kawaida bado inayowafanya wataalamu wa sarufi washtuke.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "mji wa Cilicia maarufu kwa Kigiriki 'kibaya'",
+        "tabia, namna"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Kuhusu mgogoro ndani ya kundi; unaoharibu pande zote.",
+      "friendly": "Vita vya ndani vinavyorarua kundi kutoka ndani — pambano ambapo kila mtu anapoteza, kwa sababu familia inapigana na familia.",
+      "exampleGloss": "Mabishano internecine ya chama yalidhuru zaidi kuliko mpinani yeyote wa nje.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kati, kati ya",
+        "kuua"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "kivumishi / nomino",
+      "definition": "Tabia ya kutojali, ya uzembe.",
+      "friendly": "Kuinua mabega kunakuwa nafsi yote — kujali kidogo kiasi kwamba hakuna kinachoonekana kinafaa juhudi tena.",
+      "exampleGloss": "Tabia yake pococurante kuelekea sherehe ya tuzo ilishangaza kila aliyejua jinsi alivyofanya kazi kwa bidii.",
+      "origin": "Kiitalia",
+      "rootMeanings": [
+        "kidogo",
+        "kujali"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "nomino",
+      "definition": "Hali au mzozo uliochanganyikiwa na mgumu.",
+      "friendly": "Hali iliyochanganyikiwa, chafu, ngumu kuelewa — sehemu kutoelewana, sehemu drama, yote mkanganyiko.",
+      "exampleGloss": "Imbroglio yote ya ramani ya viti ilianza kwa kadi moja ya jina iliyowekwa vibaya.",
+      "origin": "Kiitalia",
+      "rootMeanings": [
+        "ndani",
+        "kuchanganya, kufanya mkanganyiko"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayotishia, inayotisha.",
+      "friendly": "Inayohema tisho lisilokoseka — mtazamo au barua minatory inafanya wazi kabisa kitu kibaya kinaweza kufuata.",
+      "exampleGloss": "Sauti minatory ya barua ilimfanya mpangaji aogope kabla hata hajafungua bahasha.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kutisha",
+        "kutumika kwa"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "nomino",
+      "definition": "Ukosoaji mkali wa umma au matusi.",
+      "friendly": "Hukumu ya umma yenye sauti — aina ya ukosoaji unaowaka unaofanyika mbele ya kila mtu.",
+      "exampleGloss": "Mtoaji taarifa alikabili miaka ya obloquy ya umma kabla historia kumthibitisha kuwa sahihi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "dhidi",
+        "kusema"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "nomino",
+      "definition": "Mlipuko wa ghafla mkali, wa hisia au hatua.",
+      "friendly": "Mlipuko wa ghafla, mkali unaokumeza mara moja — kicheko, hasira, au kikohozi kinachokuja kama wimbi.",
+      "exampleGloss": "Alishikwa na paroxysm ya kicheko ambayo hakuweza kueleza kwa mwingine yeyote chumbani.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "zaidi ya",
+        "kali, mkali"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Imeongezwa kutoka chanzo cha nje, si asilia.",
+      "friendly": "Imeunganishwa kutoka nje badala ya kujengwa tangu mwanzo — nyongeza, si kiini.",
+      "exampleGloss": "Maelezo yanaonekana adscititious, kama yalibandikwa kwenye maandishi yaliyokwisha.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kwa, nyongeza",
+        "kuidhinisha, kuchukua"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "nomino",
+      "definition": "Ukosefu wa maarifa, ujinga.",
+      "friendly": "Kutojua tu — pengo la maarifa, bila hukumu iliyounganishwa.",
+      "exampleGloss": "Alikiri nescience yake ya divai ya Kifaransa na kumwacha sommelier achague.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "si",
+        "kujua"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "nomino",
+      "definition": "Kuvutiwa kupita kiasi na mambo ya ngono.",
+      "friendly": "Udaku wenye hamu, wa kutazama, kuhusu chochote chenye rangi — hamu iliyopita afya kuwa ya kujichungulia.",
+      "exampleGloss": "Prurience ya gazeti la uvumi juu ya maisha ya faragha ya wanandoa ilikaribia kuwa ya kuzama.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kuwasha, kutamani",
+        "hali"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Yenye masizi, nyeusi, yenye ukungu.",
+      "friendly": "Nyeusi na inayoonekana ya moshi, kama kila kitu kimefunikwa na masizi nyembamba.",
+      "exampleGloss": "Ukungu fuliginous ulining'inia juu ya mji wa kiwanda jioni.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "masizi",
+        "imejaa"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kukanusha au kupinga.",
+      "friendly": "Kuzungumza moja kwa moja dhidi ya kile mtu mwingine alisema — kusema \"that's not so\".",
+      "exampleGloss": "Hakuna aliyethubutu gainsay hadithi ya nahodha mzee kuhusu dhoruba.",
+      "origin": "Kiingereza cha Kati",
+      "rootMeanings": [
+        "dhidi",
+        "kusema"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "nomino",
+      "definition": "Uvivu, ulegevu (kutoka Kilatini).",
+      "friendly": "Neno la kale la Kilatini kwa uvivu mtupu — mvuto wa kutotaka kufanya chochote.",
+      "exampleGloss": "Watawa walihubiri dhidi ya ignavia kama moja ya hatari za kimya za roho.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "si",
+        "mwenye shughuli, mchapakazi"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "nomino",
+      "definition": "Ngao inayoonyesha nembo.",
+      "friendly": "Nembo yenye umbo la ngao inayoonyesha nembo ya familia — \"bamba la jina\" la silaha.",
+      "exampleGloss": "Escutcheon ya familia bado inaning'inia juu ya mlango wa mbele wa nyumba kubwa ya kale.",
+      "origin": "Kilatini / Kifaransa cha Kale",
+      "rootMeanings": [
+        "ngao",
+        "kidogo / kitu"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Iliyopitwa na wakati, iliyochakaa, au iliyostaafu kwa sababu ya umri.",
+      "friendly": "Iliyopita kilele chake cha manufaa na kuachwa shambani — ya kale sana au iliyochakaa kuendelea kufanya kazi.",
+      "exampleGloss": "Printa superannuated hatimaye ilibadilishwa baada ya miaka kumi na tano ya kuziba.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "zaidi ya",
+        "mwaka"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "nomino",
+      "definition": "Mbadala, hasa katika dawa.",
+      "friendly": "Tiba za mbadala zinapotumiwa tiba ya kweli haipo — kimsingi wachezaji wa akiba wa tiba.",
+      "exampleGloss": "Madaktari wa wakati wa vita mara nyingi walitegemea succedanea dawa sahihi zilipoisha.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mahali pa",
+        "kwenda, kutoa njia"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "nomino",
+      "definition": "Mazungumzo ya kujisifu, ya kiburi.",
+      "friendly": "Kujisifu kubwa, kwa sauti — kuzungumza kwa sauti juu ya ukuu wako mwenyewe ambayo ni hewa zaidi.",
+      "exampleGloss": "Rodomontade yake kuhusu \"peke yake\" kuokoa mradi haikudanganya yeyote aliyekuwa pale kweli.",
+      "origin": "Kiitalia",
+      "rootMeanings": [
+        "shujaa mwenye kujisifu katika Orlando Furioso",
+        "tendo, kuonyesha"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kutumia hila au udanganyifu kufikia kitu.",
+      "friendly": "Kujikunja kuelekea lengo kupitia hila badala ya mchezo wa haki.",
+      "exampleGloss": "Yeye chicaned kuingia katika mpango kwa mkataba uliojaa maandishi madogo.",
+      "origin": "Kifaransa",
+      "rootMeanings": [
+        "kubishana, kudanganya",
+        "hila; baadaye zamu kali"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "nomino",
+      "definition": "Sayansi safi au dhahania ya kujifunza au maarifa, mara nyingi hisabati.",
+      "friendly": "Kujifunza katika umbo lake safi kabisa, dhahania kabisa — muundo wa kina wa maarifa yenyewe, hasa ya hisabati.",
+      "exampleGloss": "Mwanafalsafa aliota mathesis ya ulimwengu mzima inayoweza kuunganisha kila uwanja wa maarifa.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "kujifunza",
+        "tendo la kujifunza"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Anayejali kupita kiasi sheria rasmi au maelezo madogo.",
+      "friendly": "Mkali kupita kiasi kwa mambo madogo — kurekebisha maelezo madogo ya kiufundi ambayo hayabadilishi chochote.",
+      "exampleGloss": "Ilihisi pedantic kidogo kubishana \"who\" dhidi ya \"whom\" katika ujumbe.",
+      "origin": "Kiitalia / Kigiriki",
+      "rootMeanings": [
+        "mwongoza mtoto, mwalimu",
+        "kuwa na namna ya"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "nomino",
+      "definition": "Mwanga unaomulika, unaong'aa.",
+      "friendly": "Mwanga wa haraka unaong'aa — fikiria jua likiruka juu ya maji, au almasi ikishika mwanga.",
+      "exampleGloss": "Coruscation ya taa ya dari ilitawanya mwanga kila pembe ya ukumbi wa densi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kung'aa, kuwaka",
+        "tendo hilo"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "nomino",
+      "definition": "Mwanzo, mgeni.",
+      "friendly": "Mtu mpya kabisa kwa ujuzi au uwanja — bado anajifunza kamba, si mtaalamu bado.",
+      "exampleGloss": "Hata mchezaji wa sataranji tyro anaweza kuona kosa hilo.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "mwandani, mwanzo",
+        "askari mchanga mbichi"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Mbaya sana, ya kuchukiza.",
+      "friendly": "Mbaya kwa njia inayostahili chuki ya kweli — si tu \"wastani,\" bali ya kuchukiza kweli.",
+      "exampleGloss": "Mkaguzi aliita mwendelezo execrable, na nambari za tiketi zilikubali.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kulaani",
+        "inayostahili, inayoweza"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Rangi nyekundu ya damu.",
+      "friendly": "Nyekundu ya kina, hai — rangi ya damu mbichi, maarufu kutoka Macbeth wa Shakespeare.",
+      "exampleGloss": "Machweo yaligeuza mbingu yote mwanga incarnadine.",
+      "origin": "Kiitalia / Kilatini",
+      "rootMeanings": [
+        "ndani",
+        "nyama (nyekundu ya nyama)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "nomino",
+      "definition": "Pengo dogo au nafasi kati ya vitu.",
+      "friendly": "Nafasi ndogo kati inayopita kwa urahisi — ufa kati ya mbao za sakafu, pengo katika ratiba.",
+      "exampleGloss": "Magugu yalisukuma juu kila interstice katika njia ya matofali ya kale.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kati",
+        "kusimama"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "nomino",
+      "definition": "Maoni makali au ya kukemea.",
+      "friendly": "Maoni makali, yasiyokubali — aina ya ukosoaji wenye sauti ya kukemea.",
+      "exampleGloss": "Animadversions za profesa kwenye insha zilijaza kingo kwa wino mwekundu.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "akili",
+        "kugeukia"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Isiyoweza kukanushwa, isiyopingika.",
+      "friendly": "Imethibitishwa imara kiasi kwamba hakuna kubishana — kesi imefungwa.",
+      "exampleGloss": "Ushahidi wa DNA ulikuwa irrefragable, na kesi iliisha ndani ya saa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "si",
+        "kupinga, kupinga"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "nomino",
+      "definition": "Ugumu, uchanganyiko; pia kujikunja ndani.",
+      "friendly": "Ugumu uliojikunja ndani yake — vitu vilivyofungwa kwa nguvu kiasi ni vigumu kuvitenganisha.",
+      "exampleGloss": "Involution ya hadithi iliacha nusu ya hadhira wakijaribu kufungua baada ya sifa.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "ndani, kuelekea ndani",
+        "kukunja, kugeuza"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "nomino",
+      "definition": "Nguvu au juhudi, kama katika \"by dint of\".",
+      "friendly": "Juhudi au nguvu tu — leo inaishi karibu tu katika kishazi \"by dint of\".",
+      "exampleGloss": "Alipita mtihani by dint of mazoezi magumu, magumu.",
+      "origin": "Kiingereza cha Kale",
+      "rootMeanings": [
+        "pigo, mpigo",
+        "kwa nguvu ya"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Imeunganishwa kwa kiungo cha mortise-na-tenon; imewekwa imara.",
+      "friendly": "Imefungwa kwa njia ya seredani ya kale — kipande kimoja kinaingia vizuri kwenye tundu lililokatwa kwa ajili yake.",
+      "exampleGloss": "Mihimili ya ghalani ya kale ilikuwa mortised pamoja bila msumari mmoja.",
+      "origin": "Kilatini / Kifaransa",
+      "rootMeanings": [
+        "tundu, shimo",
+        "kuuma, kushika"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayofaa sana, inayolingana.",
+      "friendly": "Inayotoshea kabisa wakati — maoni, nukuu, au mfano unaotua kamili kwenye hoja.",
+      "exampleGloss": "Maoni yake apposite yalifupisha mjadala wote katika sentensi moja.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kwa",
+        "kuweka"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Inayong'aa taratibu au kutetemeka (mwanga); pia akili nyepesi.",
+      "friendly": "Inayong'aa taratibu badala ya kuwaka — mwanga laini unaotetemeka, au akili inayocheza badala ya kuwa kali.",
+      "exampleGloss": "Mwanga wa mshumaa ulitupa mwanga lambent katika chumba cha kulia cha kale.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kulamba",
+        "kufanya (mwanga unao'lamba')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "nomino",
+      "definition": "Mkaapweke wa dini anayeishi peke yake.",
+      "friendly": "Mtu anayejiondoa kabisa kutoka ulimwengu kuishi peke yake katika sala na tafakari.",
+      "exampleGloss": "Anchorite aliishi katika seli ndogo iliyounganishwa na kanisa kwa zaidi ya miaka thelathini.",
+      "origin": "Kigiriki",
+      "rootMeanings": [
+        "nyuma, mbali",
+        "kujiondoa"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kutosheleza kiu; kuzima.",
+      "friendly": "Kutosheleza kabisa hamu — mara nyingi kiu, lakini kwa sitiari hamu au hitaji lolote la kina.",
+      "exampleGloss": "Kioo kimoja cha maji baridi slaked kiu yake baada ya matembezi marefu.",
+      "origin": "Kiingereza cha Kale",
+      "rootMeanings": [
+        "legevu, huru",
+        "kulegeza, kutuliza"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Yenye umbo la sindano.",
+      "friendly": "Ndefu, nyembamba, na ncha kama sindano — umbo la sindano ya paini au kioo kidogo chenye ncha.",
+      "exampleGloss": "Miti ya paini ni rahisi kutambua kwa majani yake acicular.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "sindano",
+        "kidogo"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Iliyokauka nguvu, dhaifu, iliyosafishwa kupita kiasi.",
+      "friendly": "Iliyochakaa na laini — imepoteza nguvu au uchangamfu wake asilia kwa starehe au usafi kupita kiasi.",
+      "exampleGloss": "Wakosoaji waliita gazeti lililokuwa jasiri effete, kivuli cha miaka yake ya kwanza ya ujasiri.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "nje",
+        "yenye matunda, iliyozaliwa"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "nomino",
+      "definition": "Kifuasi au haki ndogo iliyounganishwa.",
+      "friendly": "Nyongeza ndogo inayokuja ikiwa imefungwa kwenye kitu kikubwa zaidi — vifaa na nyongeza zinazomilikiwa na kitu kikuu.",
+      "exampleGloss": "Kukodisha kulijumuisha gereji na appurtenances zake zote.",
+      "origin": "Kilatini / Kifaransa",
+      "rootMeanings": [
+        "kwa",
+        "kumiliki"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "kitenzi",
+      "definition": "Kufunika au kupunguza kosa.",
+      "friendly": "Kulainisha kosa kwa maneno laini, kulifanya lisikike dogo kuliko lilivyo.",
+      "exampleGloss": "Alijaribu gloze tarehe ya mwisho iliyokosa kwa mazungumzo yasiyo wazi kuhusu \"unforeseen challenges\".",
+      "origin": "Kifaransa cha Kale / Kilatini",
+      "rootMeanings": [
+        "ufafanuzi, maelezo",
+        "kutoa maoni — kisha kulainisha"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "kivumishi",
+      "definition": "Katika hatua ya mapema, inaanza tu.",
+      "friendly": "Inaanza tu kujionyesha — hatua ya kwanza kabisa, karibu isiyoonekana, ya kitu kikubwa kinachokuja.",
+      "exampleGloss": "Madaktari walishika ishara incipient za ugonjwa kabla haujaenea.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "juu, ndani",
+        "kuchukua (kununua, kuanza)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "nomino",
+      "definition": "Msukumo wa ubunifu, hasa wa kimungu.",
+      "friendly": "Msukumo wa ghafla wa msukumo unaohisi mkubwa kuliko wewe — kama wazo lilipulizwa ndani yako kutoka mahali pengine.",
+      "exampleGloss": "Mshairi alieleza kazi yote ilifika katika mlipuko mmoja wa afflatus saa tatu asubuhi.",
+      "origin": "Kilatini",
+      "rootMeanings": [
+        "kwa, juu",
+        "kuvuma (kupuliza juu)"
+      ]
+    }
+  }
+}

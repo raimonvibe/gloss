@@ -1,0 +1,2369 @@
+{
+  "countries": [
+    {
+      "name": "Albania",
+      "iso2": "AL",
+      "flag": "🇦🇱",
+      "continent": "Europe",
+      "localeIds": [
+        "sq"
+      ]
+    },
+    {
+      "name": "Algeria",
+      "iso2": "DZ",
+      "flag": "🇩🇿",
+      "continent": "Africa",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Angola",
+      "iso2": "AO",
+      "flag": "🇦🇴",
+      "continent": "Africa",
+      "localeIds": [
+        "pt-PT"
+      ]
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "iso2": "AG",
+      "flag": "🇦🇬",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Argentina",
+      "iso2": "AR",
+      "flag": "🇦🇷",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Armenia",
+      "iso2": "AM",
+      "flag": "🇦🇲",
+      "continent": "Asia",
+      "localeIds": [
+        "hy-AM"
+      ]
+    },
+    {
+      "name": "Aruba",
+      "iso2": "AW",
+      "flag": "🇦🇼",
+      "continent": "Americas",
+      "localeIds": [
+        "nl-NL"
+      ]
+    },
+    {
+      "name": "Australia",
+      "iso2": "AU",
+      "flag": "🇦🇺",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-AU"
+      ]
+    },
+    {
+      "name": "Austria",
+      "iso2": "AT",
+      "flag": "🇦🇹",
+      "continent": "Europe",
+      "localeIds": [
+        "de-DE"
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "iso2": "AZ",
+      "flag": "🇦🇿",
+      "continent": "Asia",
+      "localeIds": [
+        "az-AZ"
+      ]
+    },
+    {
+      "name": "Bahamas",
+      "iso2": "BS",
+      "flag": "🇧🇸",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Bahrain",
+      "iso2": "BH",
+      "flag": "🇧🇭",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "iso2": "BD",
+      "flag": "🇧🇩",
+      "continent": "Asia",
+      "localeIds": [
+        "bn-BD"
+      ]
+    },
+    {
+      "name": "Barbados",
+      "iso2": "BB",
+      "flag": "🇧🇧",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Belarus",
+      "iso2": "BY",
+      "flag": "🇧🇾",
+      "continent": "Europe",
+      "localeIds": [
+        "be"
+      ]
+    },
+    {
+      "name": "Belgium",
+      "iso2": "BE",
+      "flag": "🇧🇪",
+      "continent": "Europe",
+      "localeIds": [
+        "nl-NL",
+        "fr-FR",
+        "de-DE"
+      ]
+    },
+    {
+      "name": "Belize",
+      "iso2": "BZ",
+      "flag": "🇧🇿",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Benin",
+      "iso2": "BJ",
+      "flag": "🇧🇯",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Bermuda",
+      "iso2": "BM",
+      "flag": "🇧🇲",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "iso2": "BT",
+      "flag": "🇧🇹",
+      "continent": "Asia",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "iso2": "BO",
+      "flag": "🇧🇴",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "flag": "🇧🇦",
+      "continent": "Europe",
+      "localeIds": [
+        "sr"
+      ]
+    },
+    {
+      "name": "Botswana",
+      "iso2": "BW",
+      "flag": "🇧🇼",
+      "continent": "Africa",
+      "localeIds": [
+        "en-ZA"
+      ]
+    },
+    {
+      "name": "Brazil",
+      "iso2": "BR",
+      "flag": "🇧🇷",
+      "continent": "Americas",
+      "localeIds": [
+        "pt-BR"
+      ]
+    },
+    {
+      "name": "British Virgin Islands",
+      "iso2": "VG",
+      "flag": "🇻🇬",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Brunei",
+      "iso2": "BN",
+      "flag": "🇧🇳",
+      "continent": "Asia",
+      "localeIds": [
+        "ms"
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "iso2": "BG",
+      "flag": "🇧🇬",
+      "continent": "Europe",
+      "localeIds": [
+        "bg"
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "iso2": "BF",
+      "flag": "🇧🇫",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Burundi",
+      "iso2": "BI",
+      "flag": "🇧🇮",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Cambodia",
+      "iso2": "KH",
+      "flag": "🇰🇭",
+      "continent": "Asia",
+      "localeIds": [
+        "km-KH"
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "iso2": "CM",
+      "flag": "🇨🇲",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Canada",
+      "iso2": "CA",
+      "flag": "🇨🇦",
+      "continent": "Americas",
+      "localeIds": [
+        "en-CA",
+        "fr-CA"
+      ]
+    },
+    {
+      "name": "Cape Verde",
+      "iso2": "CV",
+      "flag": "🇨🇻",
+      "continent": "Africa",
+      "localeIds": [
+        "pt-PT"
+      ]
+    },
+    {
+      "name": "Cayman Islands",
+      "iso2": "KY",
+      "flag": "🇰🇾",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "iso2": "CF",
+      "flag": "🇨🇫",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Chad",
+      "iso2": "TD",
+      "flag": "🇹🇩",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR",
+        "ar"
+      ]
+    },
+    {
+      "name": "Chile",
+      "iso2": "CL",
+      "flag": "🇨🇱",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Colombia",
+      "iso2": "CO",
+      "flag": "🇨🇴",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Comoros",
+      "iso2": "KM",
+      "flag": "🇰🇲",
+      "continent": "Africa",
+      "localeIds": [
+        "ar",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "iso2": "CR",
+      "flag": "🇨🇷",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Croatia",
+      "iso2": "HR",
+      "flag": "🇭🇷",
+      "continent": "Europe",
+      "localeIds": [
+        "hr"
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "iso2": "CY",
+      "flag": "🇨🇾",
+      "continent": "Europe",
+      "localeIds": [
+        "el-GR",
+        "tr-TR"
+      ]
+    },
+    {
+      "name": "Czechia",
+      "iso2": "CZ",
+      "flag": "🇨🇿",
+      "continent": "Europe",
+      "localeIds": [
+        "cs-CZ"
+      ]
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "iso2": "CI",
+      "flag": "🇨🇮",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Denmark",
+      "iso2": "DK",
+      "flag": "🇩🇰",
+      "continent": "Europe",
+      "localeIds": [
+        "da-DK"
+      ]
+    },
+    {
+      "name": "Djibouti",
+      "iso2": "DJ",
+      "flag": "🇩🇯",
+      "continent": "Africa",
+      "localeIds": [
+        "ar",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Dominica",
+      "iso2": "DM",
+      "flag": "🇩🇲",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "iso2": "DO",
+      "flag": "🇩🇴",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "DR Congo",
+      "iso2": "CD",
+      "flag": "🇨🇩",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Ecuador",
+      "iso2": "EC",
+      "flag": "🇪🇨",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Egypt",
+      "iso2": "EG",
+      "flag": "🇪🇬",
+      "continent": "Africa",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "iso2": "SV",
+      "flag": "🇸🇻",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "iso2": "GQ",
+      "flag": "🇬🇶",
+      "continent": "Africa",
+      "localeIds": [
+        "es-ES",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "iso2": "ER",
+      "flag": "🇪🇷",
+      "continent": "Africa",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Estonia",
+      "iso2": "EE",
+      "flag": "🇪🇪",
+      "continent": "Europe",
+      "localeIds": [
+        "et"
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "iso2": "SZ",
+      "flag": "🇸🇿",
+      "continent": "Africa",
+      "localeIds": [
+        "en-ZA"
+      ]
+    },
+    {
+      "name": "Fiji",
+      "iso2": "FJ",
+      "flag": "🇫🇯",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Finland",
+      "iso2": "FI",
+      "flag": "🇫🇮",
+      "continent": "Europe",
+      "localeIds": [
+        "fi-FI"
+      ]
+    },
+    {
+      "name": "France",
+      "iso2": "FR",
+      "flag": "🇫🇷",
+      "continent": "Europe",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Gabon",
+      "iso2": "GA",
+      "flag": "🇬🇦",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Gambia",
+      "iso2": "GM",
+      "flag": "🇬🇲",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Georgia",
+      "iso2": "GE",
+      "flag": "🇬🇪",
+      "continent": "Asia",
+      "localeIds": [
+        "ka-GE"
+      ]
+    },
+    {
+      "name": "Germany",
+      "iso2": "DE",
+      "flag": "🇩🇪",
+      "continent": "Europe",
+      "localeIds": [
+        "de-DE"
+      ]
+    },
+    {
+      "name": "Ghana",
+      "iso2": "GH",
+      "flag": "🇬🇭",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Greece",
+      "iso2": "GR",
+      "flag": "🇬🇷",
+      "continent": "Europe",
+      "localeIds": [
+        "el-GR"
+      ]
+    },
+    {
+      "name": "Grenada",
+      "iso2": "GD",
+      "flag": "🇬🇩",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "iso2": "GT",
+      "flag": "🇬🇹",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Guinea",
+      "iso2": "GN",
+      "flag": "🇬🇳",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "iso2": "GW",
+      "flag": "🇬🇼",
+      "continent": "Africa",
+      "localeIds": [
+        "pt-PT"
+      ]
+    },
+    {
+      "name": "Guyana",
+      "iso2": "GY",
+      "flag": "🇬🇾",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Haiti",
+      "iso2": "HT",
+      "flag": "🇭🇹",
+      "continent": "Americas",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Honduras",
+      "iso2": "HN",
+      "flag": "🇭🇳",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Hong Kong",
+      "iso2": "HK",
+      "flag": "🇭🇰",
+      "continent": "Asia",
+      "localeIds": [
+        "zh-HK"
+      ]
+    },
+    {
+      "name": "Hungary",
+      "iso2": "HU",
+      "flag": "🇭🇺",
+      "continent": "Europe",
+      "localeIds": [
+        "hu-HU"
+      ]
+    },
+    {
+      "name": "Iceland",
+      "iso2": "IS",
+      "flag": "🇮🇸",
+      "continent": "Europe",
+      "localeIds": [
+        "is-IS"
+      ]
+    },
+    {
+      "name": "India",
+      "iso2": "IN",
+      "flag": "🇮🇳",
+      "continent": "Asia",
+      "localeIds": [
+        "hi-IN",
+        "en-IN"
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "iso2": "ID",
+      "flag": "🇮🇩",
+      "continent": "Asia",
+      "localeIds": [
+        "id"
+      ]
+    },
+    {
+      "name": "Iraq",
+      "iso2": "IQ",
+      "flag": "🇮🇶",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Ireland",
+      "iso2": "IE",
+      "flag": "🇮🇪",
+      "continent": "Europe",
+      "localeIds": [
+        "en-GB"
+      ]
+    },
+    {
+      "name": "Israel",
+      "iso2": "IL",
+      "flag": "🇮🇱",
+      "continent": "Asia",
+      "localeIds": [
+        "he-IL"
+      ]
+    },
+    {
+      "name": "Italy",
+      "iso2": "IT",
+      "flag": "🇮🇹",
+      "continent": "Europe",
+      "localeIds": [
+        "it-IT"
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "iso2": "JM",
+      "flag": "🇯🇲",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Japan",
+      "iso2": "JP",
+      "flag": "🇯🇵",
+      "continent": "Asia",
+      "localeIds": [
+        "ja-JP"
+      ]
+    },
+    {
+      "name": "Jordan",
+      "iso2": "JO",
+      "flag": "🇯🇴",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Kazakhstan",
+      "iso2": "KZ",
+      "flag": "🇰🇿",
+      "continent": "Asia",
+      "localeIds": [
+        "kk",
+        "ru-RU"
+      ]
+    },
+    {
+      "name": "Kenya",
+      "iso2": "KE",
+      "flag": "🇰🇪",
+      "continent": "Africa",
+      "localeIds": [
+        "sw",
+        "en-US"
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "iso2": "KW",
+      "flag": "🇰🇼",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "iso2": "KG",
+      "flag": "🇰🇬",
+      "continent": "Asia",
+      "localeIds": [
+        "ky-KG"
+      ]
+    },
+    {
+      "name": "Laos",
+      "iso2": "LA",
+      "flag": "🇱🇦",
+      "continent": "Asia",
+      "localeIds": [
+        "lo-LA"
+      ]
+    },
+    {
+      "name": "Latvia",
+      "iso2": "LV",
+      "flag": "🇱🇻",
+      "continent": "Europe",
+      "localeIds": [
+        "lv"
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "iso2": "LB",
+      "flag": "🇱🇧",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Liberia",
+      "iso2": "LR",
+      "flag": "🇱🇷",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Libya",
+      "iso2": "LY",
+      "flag": "🇱🇾",
+      "continent": "Africa",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "iso2": "LI",
+      "flag": "🇱🇮",
+      "continent": "Europe",
+      "localeIds": [
+        "de-DE"
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "iso2": "LT",
+      "flag": "🇱🇹",
+      "continent": "Europe",
+      "localeIds": [
+        "lt"
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "iso2": "LU",
+      "flag": "🇱🇺",
+      "continent": "Europe",
+      "localeIds": [
+        "fr-FR",
+        "de-DE"
+      ]
+    },
+    {
+      "name": "Macao",
+      "iso2": "MO",
+      "flag": "🇲🇴",
+      "continent": "Asia",
+      "localeIds": [
+        "zh-TW"
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "iso2": "MY",
+      "flag": "🇲🇾",
+      "continent": "Asia",
+      "localeIds": [
+        "ms-MY"
+      ]
+    },
+    {
+      "name": "Maldives",
+      "iso2": "MV",
+      "flag": "🇲🇻",
+      "continent": "Asia",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Mali",
+      "iso2": "ML",
+      "flag": "🇲🇱",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Malta",
+      "iso2": "MT",
+      "flag": "🇲🇹",
+      "continent": "Europe",
+      "localeIds": [
+        "en-GB"
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "iso2": "MU",
+      "flag": "🇲🇺",
+      "continent": "Africa",
+      "localeIds": [
+        "en-GB",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Mexico",
+      "iso2": "MX",
+      "flag": "🇲🇽",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Micronesia",
+      "iso2": "FM",
+      "flag": "🇫🇲",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Moldova",
+      "iso2": "MD",
+      "flag": "🇲🇩",
+      "continent": "Europe",
+      "localeIds": [
+        "ro"
+      ]
+    },
+    {
+      "name": "Monaco",
+      "iso2": "MC",
+      "flag": "🇲🇨",
+      "continent": "Europe",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Morocco",
+      "iso2": "MA",
+      "flag": "🇲🇦",
+      "continent": "Africa",
+      "localeIds": [
+        "ar",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "iso2": "MZ",
+      "flag": "🇲🇿",
+      "continent": "Africa",
+      "localeIds": [
+        "pt-PT"
+      ]
+    },
+    {
+      "name": "Myanmar",
+      "iso2": "MM",
+      "flag": "🇲🇲",
+      "continent": "Asia",
+      "localeIds": [
+        "my-MM"
+      ]
+    },
+    {
+      "name": "Namibia",
+      "iso2": "NA",
+      "flag": "🇳🇦",
+      "continent": "Africa",
+      "localeIds": [
+        "en-ZA",
+        "af"
+      ]
+    },
+    {
+      "name": "Nepal",
+      "iso2": "NP",
+      "flag": "🇳🇵",
+      "continent": "Asia",
+      "localeIds": [
+        "ne-NP"
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "iso2": "NL",
+      "flag": "🇳🇱",
+      "continent": "Europe",
+      "localeIds": [
+        "nl-NL"
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "iso2": "NZ",
+      "flag": "🇳🇿",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-AU"
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "iso2": "NI",
+      "flag": "🇳🇮",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Niger",
+      "iso2": "NE",
+      "flag": "🇳🇪",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "iso2": "NG",
+      "flag": "🇳🇬",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "North Macedonia",
+      "iso2": "MK",
+      "flag": "🇲🇰",
+      "continent": "Europe",
+      "localeIds": [
+        "mk-MK"
+      ]
+    },
+    {
+      "name": "Norway",
+      "iso2": "NO",
+      "flag": "🇳🇴",
+      "continent": "Europe",
+      "localeIds": [
+        "nb-NO"
+      ]
+    },
+    {
+      "name": "Oman",
+      "iso2": "OM",
+      "flag": "🇴🇲",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "iso2": "PK",
+      "flag": "🇵🇰",
+      "continent": "Asia",
+      "localeIds": [
+        "ur",
+        "en-US"
+      ]
+    },
+    {
+      "name": "Panama",
+      "iso2": "PA",
+      "flag": "🇵🇦",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "iso2": "PG",
+      "flag": "🇵🇬",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "iso2": "PY",
+      "flag": "🇵🇾",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Peru",
+      "iso2": "PE",
+      "flag": "🇵🇪",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Philippines",
+      "iso2": "PH",
+      "flag": "🇵🇭",
+      "continent": "Asia",
+      "localeIds": [
+        "fil",
+        "en-US"
+      ]
+    },
+    {
+      "name": "Poland",
+      "iso2": "PL",
+      "flag": "🇵🇱",
+      "continent": "Europe",
+      "localeIds": [
+        "pl-PL"
+      ]
+    },
+    {
+      "name": "Portugal",
+      "iso2": "PT",
+      "flag": "🇵🇹",
+      "continent": "Europe",
+      "localeIds": [
+        "pt-PT"
+      ]
+    },
+    {
+      "name": "Qatar",
+      "iso2": "QA",
+      "flag": "🇶🇦",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Republic of the Congo",
+      "iso2": "CG",
+      "flag": "🇨🇬",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Romania",
+      "iso2": "RO",
+      "flag": "🇷🇴",
+      "continent": "Europe",
+      "localeIds": [
+        "ro"
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "iso2": "RW",
+      "flag": "🇷🇼",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US",
+        "fr-FR",
+        "sw"
+      ]
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "iso2": "KN",
+      "flag": "🇰🇳",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Saint Lucia",
+      "iso2": "LC",
+      "flag": "🇱🇨",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Samoa",
+      "iso2": "WS",
+      "flag": "🇼🇸",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "San Marino",
+      "iso2": "SM",
+      "flag": "🇸🇲",
+      "continent": "Europe",
+      "localeIds": [
+        "it-IT"
+      ]
+    },
+    {
+      "name": "Saudi Arabia",
+      "iso2": "SA",
+      "flag": "🇸🇦",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Senegal",
+      "iso2": "SN",
+      "flag": "🇸🇳",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Serbia",
+      "iso2": "RS",
+      "flag": "🇷🇸",
+      "continent": "Europe",
+      "localeIds": [
+        "sr"
+      ]
+    },
+    {
+      "name": "Seychelles",
+      "iso2": "SC",
+      "flag": "🇸🇨",
+      "continent": "Africa",
+      "localeIds": [
+        "en-GB",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "iso2": "SL",
+      "flag": "🇸🇱",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Singapore",
+      "iso2": "SG",
+      "flag": "🇸🇬",
+      "continent": "Asia",
+      "localeIds": [
+        "en-SG"
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "iso2": "SK",
+      "flag": "🇸🇰",
+      "continent": "Europe",
+      "localeIds": [
+        "sk"
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "iso2": "SI",
+      "flag": "🇸🇮",
+      "continent": "Europe",
+      "localeIds": [
+        "sl"
+      ]
+    },
+    {
+      "name": "Solomon Islands",
+      "iso2": "SB",
+      "flag": "🇸🇧",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Somalia",
+      "iso2": "SO",
+      "flag": "🇸🇴",
+      "continent": "Africa",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "South Africa",
+      "iso2": "ZA",
+      "flag": "🇿🇦",
+      "continent": "Africa",
+      "localeIds": [
+        "en-ZA",
+        "af"
+      ]
+    },
+    {
+      "name": "South Korea",
+      "iso2": "KR",
+      "flag": "🇰🇷",
+      "continent": "Asia",
+      "localeIds": [
+        "ko-KR"
+      ]
+    },
+    {
+      "name": "Spain",
+      "iso2": "ES",
+      "flag": "🇪🇸",
+      "continent": "Europe",
+      "localeIds": [
+        "es-ES"
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "iso2": "LK",
+      "flag": "🇱🇰",
+      "continent": "Asia",
+      "localeIds": [
+        "si-LK"
+      ]
+    },
+    {
+      "name": "Suriname",
+      "iso2": "SR",
+      "flag": "🇸🇷",
+      "continent": "Americas",
+      "localeIds": [
+        "nl-NL"
+      ]
+    },
+    {
+      "name": "Sweden",
+      "iso2": "SE",
+      "flag": "🇸🇪",
+      "continent": "Europe",
+      "localeIds": [
+        "sv-SE"
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "iso2": "CH",
+      "flag": "🇨🇭",
+      "continent": "Europe",
+      "localeIds": [
+        "de-DE",
+        "fr-FR",
+        "it-IT"
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "iso2": "TW",
+      "flag": "🇹🇼",
+      "continent": "Asia",
+      "localeIds": [
+        "zh-TW"
+      ]
+    },
+    {
+      "name": "Tajikistan",
+      "iso2": "TJ",
+      "flag": "🇹🇯",
+      "continent": "Asia",
+      "localeIds": [
+        "ru-RU"
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "iso2": "TZ",
+      "flag": "🇹🇿",
+      "continent": "Africa",
+      "localeIds": [
+        "sw"
+      ]
+    },
+    {
+      "name": "Thailand",
+      "iso2": "TH",
+      "flag": "🇹🇭",
+      "continent": "Asia",
+      "localeIds": [
+        "th"
+      ]
+    },
+    {
+      "name": "Togo",
+      "iso2": "TG",
+      "flag": "🇹🇬",
+      "continent": "Africa",
+      "localeIds": [
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Tonga",
+      "iso2": "TO",
+      "flag": "🇹🇴",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "iso2": "TT",
+      "flag": "🇹🇹",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "iso2": "TN",
+      "flag": "🇹🇳",
+      "continent": "Africa",
+      "localeIds": [
+        "ar",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Türkiye",
+      "iso2": "TR",
+      "flag": "🇹🇷",
+      "continent": "Asia",
+      "localeIds": [
+        "tr-TR"
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "iso2": "TM",
+      "flag": "🇹🇲",
+      "continent": "Asia",
+      "localeIds": [
+        "ru-RU"
+      ]
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "iso2": "TC",
+      "flag": "🇹🇨",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Uganda",
+      "iso2": "UG",
+      "flag": "🇺🇬",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US",
+        "sw"
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "iso2": "UA",
+      "flag": "🇺🇦",
+      "continent": "Europe",
+      "localeIds": [
+        "uk"
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "iso2": "AE",
+      "flag": "🇦🇪",
+      "continent": "Asia",
+      "localeIds": [
+        "ar",
+        "en-US"
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "iso2": "GB",
+      "flag": "🇬🇧",
+      "continent": "Europe",
+      "localeIds": [
+        "en-GB"
+      ]
+    },
+    {
+      "name": "United States",
+      "iso2": "US",
+      "flag": "🇺🇸",
+      "continent": "Americas",
+      "localeIds": [
+        "en-US",
+        "es-US"
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "iso2": "UY",
+      "flag": "🇺🇾",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "iso2": "UZ",
+      "flag": "🇺🇿",
+      "continent": "Asia",
+      "localeIds": [
+        "ru-RU"
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "iso2": "VU",
+      "flag": "🇻🇺",
+      "continent": "Oceania",
+      "localeIds": [
+        "en-US",
+        "fr-FR"
+      ]
+    },
+    {
+      "name": "Vatican City",
+      "iso2": "VA",
+      "flag": "🇻🇦",
+      "continent": "Europe",
+      "localeIds": [
+        "it-IT"
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "iso2": "VE",
+      "flag": "🇻🇪",
+      "continent": "Americas",
+      "localeIds": [
+        "es-419"
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "iso2": "VN",
+      "flag": "🇻🇳",
+      "continent": "Asia",
+      "localeIds": [
+        "vi"
+      ]
+    },
+    {
+      "name": "Yemen",
+      "iso2": "YE",
+      "flag": "🇾🇪",
+      "continent": "Asia",
+      "localeIds": [
+        "ar"
+      ]
+    },
+    {
+      "name": "Zambia",
+      "iso2": "ZM",
+      "flag": "🇿🇲",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "iso2": "ZW",
+      "flag": "🇿🇼",
+      "continent": "Africa",
+      "localeIds": [
+        "en-US"
+      ]
+    }
+  ],
+  "locales": [
+    {
+      "id": "sq",
+      "translationKey": "sq",
+      "languageCode": "sq",
+      "countryCode": null,
+      "languageNameEn": "Albanian",
+      "languageNameNative": "Shqip",
+      "rtl": false,
+      "googleCode": "sq"
+    },
+    {
+      "id": "ar",
+      "translationKey": "ar",
+      "languageCode": "ar",
+      "countryCode": null,
+      "languageNameEn": "Arabic",
+      "languageNameNative": "العربية",
+      "rtl": true,
+      "googleCode": "ar"
+    },
+    {
+      "id": "pt-PT",
+      "translationKey": "pt",
+      "languageCode": "pt",
+      "countryCode": "PT",
+      "languageNameEn": "Portuguese",
+      "languageNameNative": "Português",
+      "rtl": false,
+      "googleCode": "pt"
+    },
+    {
+      "id": "en-US",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "US",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "es-419",
+      "translationKey": "es_419",
+      "languageCode": "es",
+      "countryCode": "419",
+      "languageNameEn": "Spanish",
+      "languageNameNative": "Español",
+      "rtl": false,
+      "googleCode": "es"
+    },
+    {
+      "id": "hy-AM",
+      "translationKey": "hy",
+      "languageCode": "hy",
+      "countryCode": "AM",
+      "languageNameEn": "Armenian",
+      "languageNameNative": "Հայերեն",
+      "rtl": false,
+      "googleCode": "hy"
+    },
+    {
+      "id": "nl-NL",
+      "translationKey": "nl",
+      "languageCode": "nl",
+      "countryCode": "NL",
+      "languageNameEn": "Dutch",
+      "languageNameNative": "Nederlands",
+      "rtl": false,
+      "googleCode": "nl"
+    },
+    {
+      "id": "en-AU",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "AU",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "de-DE",
+      "translationKey": "de",
+      "languageCode": "de",
+      "countryCode": "DE",
+      "languageNameEn": "German",
+      "languageNameNative": "Deutsch",
+      "rtl": false,
+      "googleCode": "de"
+    },
+    {
+      "id": "az-AZ",
+      "translationKey": "az",
+      "languageCode": "az",
+      "countryCode": "AZ",
+      "languageNameEn": "Azerbaijani",
+      "languageNameNative": "Azərbaycan",
+      "rtl": false,
+      "googleCode": "az"
+    },
+    {
+      "id": "bn-BD",
+      "translationKey": "bn",
+      "languageCode": "bn",
+      "countryCode": "BD",
+      "languageNameEn": "Bengali",
+      "languageNameNative": "বাংলা",
+      "rtl": false,
+      "googleCode": "bn"
+    },
+    {
+      "id": "be",
+      "translationKey": "be",
+      "languageCode": "be",
+      "countryCode": null,
+      "languageNameEn": "Belarusian",
+      "languageNameNative": "Беларуская",
+      "rtl": false,
+      "googleCode": "be"
+    },
+    {
+      "id": "fr-FR",
+      "translationKey": "fr",
+      "languageCode": "fr",
+      "countryCode": "FR",
+      "languageNameEn": "French",
+      "languageNameNative": "Français",
+      "rtl": false,
+      "googleCode": "fr"
+    },
+    {
+      "id": "sr",
+      "translationKey": "sr",
+      "languageCode": "sr",
+      "countryCode": null,
+      "languageNameEn": "Serbian",
+      "languageNameNative": "Српски",
+      "rtl": false,
+      "googleCode": "sr"
+    },
+    {
+      "id": "en-ZA",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "ZA",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "pt-BR",
+      "translationKey": "pt_BR",
+      "languageCode": "pt",
+      "countryCode": "BR",
+      "languageNameEn": "Portuguese",
+      "languageNameNative": "Português",
+      "rtl": false,
+      "googleCode": "pt"
+    },
+    {
+      "id": "ms",
+      "translationKey": "ms",
+      "languageCode": "ms",
+      "countryCode": null,
+      "languageNameEn": "Malay",
+      "languageNameNative": "Bahasa Melayu",
+      "rtl": false,
+      "googleCode": "ms"
+    },
+    {
+      "id": "bg",
+      "translationKey": "bg",
+      "languageCode": "bg",
+      "countryCode": null,
+      "languageNameEn": "Bulgarian",
+      "languageNameNative": "Български",
+      "rtl": false,
+      "googleCode": "bg"
+    },
+    {
+      "id": "km-KH",
+      "translationKey": "km",
+      "languageCode": "km",
+      "countryCode": "KH",
+      "languageNameEn": "Khmer",
+      "languageNameNative": "ខ្មែរ",
+      "rtl": false,
+      "googleCode": "km"
+    },
+    {
+      "id": "en-CA",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "CA",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "fr-CA",
+      "translationKey": "fr_CA",
+      "languageCode": "fr",
+      "countryCode": "CA",
+      "languageNameEn": "French",
+      "languageNameNative": "Français",
+      "rtl": false,
+      "googleCode": "fr"
+    },
+    {
+      "id": "hr",
+      "translationKey": "hr",
+      "languageCode": "hr",
+      "countryCode": null,
+      "languageNameEn": "Croatian",
+      "languageNameNative": "Hrvatski",
+      "rtl": false,
+      "googleCode": "hr"
+    },
+    {
+      "id": "el-GR",
+      "translationKey": "el",
+      "languageCode": "el",
+      "countryCode": "GR",
+      "languageNameEn": "Greek",
+      "languageNameNative": "Ελληνικά",
+      "rtl": false,
+      "googleCode": "el"
+    },
+    {
+      "id": "tr-TR",
+      "translationKey": "tr",
+      "languageCode": "tr",
+      "countryCode": "TR",
+      "languageNameEn": "Turkish",
+      "languageNameNative": "Türkçe",
+      "rtl": false,
+      "googleCode": "tr"
+    },
+    {
+      "id": "cs-CZ",
+      "translationKey": "cs",
+      "languageCode": "cs",
+      "countryCode": "CZ",
+      "languageNameEn": "Czech",
+      "languageNameNative": "Čeština",
+      "rtl": false,
+      "googleCode": "cs"
+    },
+    {
+      "id": "da-DK",
+      "translationKey": "da",
+      "languageCode": "da",
+      "countryCode": "DK",
+      "languageNameEn": "Danish",
+      "languageNameNative": "Dansk",
+      "rtl": false,
+      "googleCode": "da"
+    },
+    {
+      "id": "es-ES",
+      "translationKey": "es",
+      "languageCode": "es",
+      "countryCode": "ES",
+      "languageNameEn": "Spanish",
+      "languageNameNative": "Español",
+      "rtl": false,
+      "googleCode": "es"
+    },
+    {
+      "id": "et",
+      "translationKey": "et",
+      "languageCode": "et",
+      "countryCode": null,
+      "languageNameEn": "Estonian",
+      "languageNameNative": "Eesti",
+      "rtl": false,
+      "googleCode": "et"
+    },
+    {
+      "id": "fi-FI",
+      "translationKey": "fi",
+      "languageCode": "fi",
+      "countryCode": "FI",
+      "languageNameEn": "Finnish",
+      "languageNameNative": "Suomi",
+      "rtl": false,
+      "googleCode": "fi"
+    },
+    {
+      "id": "ka-GE",
+      "translationKey": "ka",
+      "languageCode": "ka",
+      "countryCode": "GE",
+      "languageNameEn": "Georgian",
+      "languageNameNative": "ქართული",
+      "rtl": false,
+      "googleCode": "ka"
+    },
+    {
+      "id": "zh-HK",
+      "translationKey": "zh_HK",
+      "languageCode": "zh",
+      "countryCode": "HK",
+      "languageNameEn": "Chinese (Hong Kong)",
+      "languageNameNative": "繁體中文",
+      "rtl": false,
+      "googleCode": "zh-TW"
+    },
+    {
+      "id": "hu-HU",
+      "translationKey": "hu",
+      "languageCode": "hu",
+      "countryCode": "HU",
+      "languageNameEn": "Hungarian",
+      "languageNameNative": "Magyar",
+      "rtl": false,
+      "googleCode": "hu"
+    },
+    {
+      "id": "is-IS",
+      "translationKey": "is",
+      "languageCode": "is",
+      "countryCode": "IS",
+      "languageNameEn": "Icelandic",
+      "languageNameNative": "Íslenska",
+      "rtl": false,
+      "googleCode": "is"
+    },
+    {
+      "id": "hi-IN",
+      "translationKey": "hi",
+      "languageCode": "hi",
+      "countryCode": "IN",
+      "languageNameEn": "Hindi",
+      "languageNameNative": "हिन्दी",
+      "rtl": false,
+      "googleCode": "hi"
+    },
+    {
+      "id": "en-IN",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "IN",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "id",
+      "translationKey": "id",
+      "languageCode": "id",
+      "countryCode": null,
+      "languageNameEn": "Indonesian",
+      "languageNameNative": "Bahasa Indonesia",
+      "rtl": false,
+      "googleCode": "id"
+    },
+    {
+      "id": "en-GB",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "GB",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "he-IL",
+      "translationKey": "he",
+      "languageCode": "he",
+      "countryCode": "IL",
+      "languageNameEn": "Hebrew",
+      "languageNameNative": "עברית",
+      "rtl": true,
+      "googleCode": "iw"
+    },
+    {
+      "id": "it-IT",
+      "translationKey": "it",
+      "languageCode": "it",
+      "countryCode": "IT",
+      "languageNameEn": "Italian",
+      "languageNameNative": "Italiano",
+      "rtl": false,
+      "googleCode": "it"
+    },
+    {
+      "id": "ja-JP",
+      "translationKey": "ja",
+      "languageCode": "ja",
+      "countryCode": "JP",
+      "languageNameEn": "Japanese",
+      "languageNameNative": "日本語",
+      "rtl": false,
+      "googleCode": "ja"
+    },
+    {
+      "id": "kk",
+      "translationKey": "kk",
+      "languageCode": "kk",
+      "countryCode": null,
+      "languageNameEn": "Kazakh",
+      "languageNameNative": "Қазақша",
+      "rtl": false,
+      "googleCode": "kk"
+    },
+    {
+      "id": "ru-RU",
+      "translationKey": "ru",
+      "languageCode": "ru",
+      "countryCode": "RU",
+      "languageNameEn": "Russian",
+      "languageNameNative": "Русский",
+      "rtl": false,
+      "googleCode": "ru"
+    },
+    {
+      "id": "sw",
+      "translationKey": "sw",
+      "languageCode": "sw",
+      "countryCode": null,
+      "languageNameEn": "Swahili",
+      "languageNameNative": "Kiswahili",
+      "rtl": false,
+      "googleCode": "sw"
+    },
+    {
+      "id": "ky-KG",
+      "translationKey": "ky",
+      "languageCode": "ky",
+      "countryCode": "KG",
+      "languageNameEn": "Kyrgyz",
+      "languageNameNative": "Кыргызча",
+      "rtl": false,
+      "googleCode": "ky"
+    },
+    {
+      "id": "lo-LA",
+      "translationKey": "lo",
+      "languageCode": "lo",
+      "countryCode": "LA",
+      "languageNameEn": "Lao",
+      "languageNameNative": "ລາວ",
+      "rtl": false,
+      "googleCode": "lo"
+    },
+    {
+      "id": "lv",
+      "translationKey": "lv",
+      "languageCode": "lv",
+      "countryCode": null,
+      "languageNameEn": "Latvian",
+      "languageNameNative": "Latviešu",
+      "rtl": false,
+      "googleCode": "lv"
+    },
+    {
+      "id": "lt",
+      "translationKey": "lt",
+      "languageCode": "lt",
+      "countryCode": null,
+      "languageNameEn": "Lithuanian",
+      "languageNameNative": "Lietuvių",
+      "rtl": false,
+      "googleCode": "lt"
+    },
+    {
+      "id": "zh-TW",
+      "translationKey": "zh_TW",
+      "languageCode": "zh",
+      "countryCode": "TW",
+      "languageNameEn": "Chinese (Traditional)",
+      "languageNameNative": "繁體中文",
+      "rtl": false,
+      "googleCode": "zh-TW"
+    },
+    {
+      "id": "ms-MY",
+      "translationKey": "ms",
+      "languageCode": "ms",
+      "countryCode": "MY",
+      "languageNameEn": "Malay",
+      "languageNameNative": "Bahasa Melayu",
+      "rtl": false,
+      "googleCode": "ms"
+    },
+    {
+      "id": "ro",
+      "translationKey": "ro",
+      "languageCode": "ro",
+      "countryCode": null,
+      "languageNameEn": "Romanian",
+      "languageNameNative": "Română",
+      "rtl": false,
+      "googleCode": "ro"
+    },
+    {
+      "id": "my-MM",
+      "translationKey": "my",
+      "languageCode": "my",
+      "countryCode": "MM",
+      "languageNameEn": "Burmese",
+      "languageNameNative": "မြန်မာ",
+      "rtl": false,
+      "googleCode": "my"
+    },
+    {
+      "id": "af",
+      "translationKey": "af",
+      "languageCode": "af",
+      "countryCode": null,
+      "languageNameEn": "Afrikaans",
+      "languageNameNative": "Afrikaans",
+      "rtl": false,
+      "googleCode": "af"
+    },
+    {
+      "id": "ne-NP",
+      "translationKey": "ne",
+      "languageCode": "ne",
+      "countryCode": "NP",
+      "languageNameEn": "Nepali",
+      "languageNameNative": "नेपाली",
+      "rtl": false,
+      "googleCode": "ne"
+    },
+    {
+      "id": "mk-MK",
+      "translationKey": "mk",
+      "languageCode": "mk",
+      "countryCode": "MK",
+      "languageNameEn": "Macedonian",
+      "languageNameNative": "Македонски",
+      "rtl": false,
+      "googleCode": "mk"
+    },
+    {
+      "id": "nb-NO",
+      "translationKey": "nb",
+      "languageCode": "nb",
+      "countryCode": "NO",
+      "languageNameEn": "Norwegian",
+      "languageNameNative": "Norsk",
+      "rtl": false,
+      "googleCode": "no"
+    },
+    {
+      "id": "ur",
+      "translationKey": "ur",
+      "languageCode": "ur",
+      "countryCode": null,
+      "languageNameEn": "Urdu",
+      "languageNameNative": "اردو",
+      "rtl": true,
+      "googleCode": "ur"
+    },
+    {
+      "id": "fil",
+      "translationKey": "fil",
+      "languageCode": "fil",
+      "countryCode": null,
+      "languageNameEn": "Filipino",
+      "languageNameNative": "Filipino",
+      "rtl": false,
+      "googleCode": "tl"
+    },
+    {
+      "id": "pl-PL",
+      "translationKey": "pl",
+      "languageCode": "pl",
+      "countryCode": "PL",
+      "languageNameEn": "Polish",
+      "languageNameNative": "Polski",
+      "rtl": false,
+      "googleCode": "pl"
+    },
+    {
+      "id": "en-SG",
+      "translationKey": "en",
+      "languageCode": "en",
+      "countryCode": "SG",
+      "languageNameEn": "English",
+      "languageNameNative": "English",
+      "rtl": false,
+      "googleCode": "en"
+    },
+    {
+      "id": "sk",
+      "translationKey": "sk",
+      "languageCode": "sk",
+      "countryCode": null,
+      "languageNameEn": "Slovak",
+      "languageNameNative": "Slovenčina",
+      "rtl": false,
+      "googleCode": "sk"
+    },
+    {
+      "id": "sl",
+      "translationKey": "sl",
+      "languageCode": "sl",
+      "countryCode": null,
+      "languageNameEn": "Slovenian",
+      "languageNameNative": "Slovenščina",
+      "rtl": false,
+      "googleCode": "sl"
+    },
+    {
+      "id": "ko-KR",
+      "translationKey": "ko",
+      "languageCode": "ko",
+      "countryCode": "KR",
+      "languageNameEn": "Korean",
+      "languageNameNative": "한국어",
+      "rtl": false,
+      "googleCode": "ko"
+    },
+    {
+      "id": "si-LK",
+      "translationKey": "si",
+      "languageCode": "si",
+      "countryCode": "LK",
+      "languageNameEn": "Sinhala",
+      "languageNameNative": "සිංහල",
+      "rtl": false,
+      "googleCode": "si"
+    },
+    {
+      "id": "sv-SE",
+      "translationKey": "sv",
+      "languageCode": "sv",
+      "countryCode": "SE",
+      "languageNameEn": "Swedish",
+      "languageNameNative": "Svenska",
+      "rtl": false,
+      "googleCode": "sv"
+    },
+    {
+      "id": "th",
+      "translationKey": "th",
+      "languageCode": "th",
+      "countryCode": null,
+      "languageNameEn": "Thai",
+      "languageNameNative": "ไทย",
+      "rtl": false,
+      "googleCode": "th"
+    },
+    {
+      "id": "uk",
+      "translationKey": "uk",
+      "languageCode": "uk",
+      "countryCode": null,
+      "languageNameEn": "Ukrainian",
+      "languageNameNative": "Українська",
+      "rtl": false,
+      "googleCode": "uk"
+    },
+    {
+      "id": "es-US",
+      "translationKey": "es_419",
+      "languageCode": "es",
+      "countryCode": "US",
+      "languageNameEn": "Spanish",
+      "languageNameNative": "Español",
+      "rtl": false,
+      "googleCode": "es"
+    },
+    {
+      "id": "vi",
+      "translationKey": "vi",
+      "languageCode": "vi",
+      "countryCode": null,
+      "languageNameEn": "Vietnamese",
+      "languageNameNative": "Tiếng Việt",
+      "rtl": false,
+      "googleCode": "vi"
+    }
+  ],
+  "translationKeys": [
+    "af",
+    "ar",
+    "az",
+    "be",
+    "bg",
+    "bn",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "es_419",
+    "et",
+    "fi",
+    "fil",
+    "fr",
+    "fr_CA",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "hy",
+    "id",
+    "is",
+    "it",
+    "ja",
+    "ka",
+    "kk",
+    "km",
+    "ko",
+    "ky",
+    "lo",
+    "lt",
+    "lv",
+    "mk",
+    "ms",
+    "my",
+    "nb",
+    "ne",
+    "nl",
+    "pl",
+    "pt",
+    "pt_BR",
+    "ro",
+    "ru",
+    "si",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "sw",
+    "th",
+    "tr",
+    "uk",
+    "ur",
+    "vi",
+    "zh_HK",
+    "zh_TW"
+  ]
+}

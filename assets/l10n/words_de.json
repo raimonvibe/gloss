@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "Verb",
+      "definition": "Süßen oder reinigen; einem Ding die Schärfe nehmen.",
+      "friendly": "Den Stachel oder die Bitterkeit herausnehmen — wörtlich süßer machen, oder bildlich einen harten Gedanken so weichspülen, dass er leichter eingeht.",
+      "exampleGloss": "Der Redakteur edulcorated die harte Rezension, bevor sie in den Druck ging.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinaus, gründlich",
+        "süß"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Übertrieben oder gekünstelt religiös oder fromm.",
+      "friendly": "Beschreibt jemanden, dessen Frömmigkeit nach Show riecht: mehr Aufführung als echter Glaube.",
+      "exampleGloss": "Sein pietistic Seufzen während der Predigt störte den Rest der Bank.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Frömmigkeit, Pflichtgefühl",
+        "den Charakter habend von"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Mehrdeutigkeit durch den Satzbau — ein Satz, der auf zwei Arten lesbar ist.",
+      "friendly": "Ein Satz, der grammatisch in Ordnung ist, sich aber auf zwei völlig verschiedene Weisen lesen lässt, wie „Visiting relatives can be tiring.“",
+      "exampleGloss": "„Visiting relatives can be tiring“ ist eine klassische amphiboly — sind die Verwandten anstrengend, oder ist es der Besuch?",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "beide, auf beiden Seiten",
+        "werfen"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Scharf, treffend, geradewegs zum Punkt.",
+      "friendly": "Schneidet durch den Ballast — ein trenchant Kommentar oder Geist trifft rasch den Kern, ohne überflüssige Worte.",
+      "exampleGloss": "Ihre trenchant Kritik ließ den Plotlöchern des Films keinen Unterschlupf.",
+      "origin": "Altfranzösisch",
+      "rootMeanings": [
+        "schneiden",
+        "tuend, die Eigenschaft habend"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Eben erst beginnend; in einem frühen oder rudimentären Stadium.",
+      "friendly": "Noch in den ersten Augenblicken — ein Plan, Gefühl oder Prozess, der gerade erst Gestalt annimmt.",
+      "exampleGloss": "Die inchoative Phasen des Vertrags waren vielversprechend, doch viele Einzelheiten blieben offen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "beginnen, anfangen",
+        "neigend zu"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine förmliche Rede oder Schrift, die jemanden hoch preist.",
+      "friendly": "Ein voller, förmlicher Lobpreis — denk an eine leuchtende Grabrede oder eine Ansprache, die jemandes Taten von den Dächern singt.",
+      "exampleGloss": "Die scheidende Professorin wurde mit einem panegyric ihrer nächsten Studierenden verabschiedet.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "all, ganz",
+        "Versammlung, Zusammenkunft"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Das wirkliche Dasein betreffend, im Gegensatz zur abstrakten Theorie.",
+      "friendly": "Über die Dinge, wie sie wirklich sind — nicht nur als Ideen oder Theorien über sie.",
+      "exampleGloss": "Philosophen streiten, ob Zahlen irgendeinen ontic Status haben oder nur in unserem Kopf existieren.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "Sein, das was existiert",
+        "bezüglich"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "Verb",
+      "definition": "Frucht tragen oder ertragreich werden.",
+      "friendly": "Endlich aufgehen — eine Mühe, Idee oder Anlage, die fructifies, ist vom Samen zu etwas Nützlichem geworden.",
+      "exampleGloss": "Jahre stiller Forschung fructified endlich zu einem funktionierenden Impfstoff.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Frucht",
+        "machen, bewirken"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Etwas vorwegnehmen oder so darstellen, als sei es schon geschehen.",
+      "friendly": "Auf literarische Weise voreilen — ein künftiges Ereignis beschreiben, als wäre es schon fertig, damit der Punkt härter trifft.",
+      "exampleGloss": "Des Generals proleptical Toast auf „victory“ wurde eine volle Woche vor der Schlacht ausgebracht.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "vorher",
+        "nehmen, ergreifen"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Mit Luftdruck betrieben; auch Atem oder Geist betreffend.",
+      "friendly": "Meist: mit Druckluft betrieben — ein Bohrer, eine Busbremse — aber dieselbe griechische Wurzel spricht auch von Atem und Geist.",
+      "exampleGloss": "Die pneumatic Bremsen zischten, als der Bus am Bordstein hielt.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "Wind, Atem, Geist",
+        "zugehörig"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Gott oder das Göttliche durch bejahende Aussagen beschreiben — das Gegenteil von apophatisch.",
+      "friendly": "Von Gott sprechen, indem man sagt, was Gott ist — „Gott ist Liebe“, „Gott ist gerecht“ — statt nur, was Gott nicht ist.",
+      "exampleGloss": "Cataphatic Theologie spricht zuversichtlich von Gott als liebend, gerecht und barmherzig.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "hinab, gemäß",
+        "sprechen, sagen"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Auf Vertrauen oder Glauben gegründet; auch: ein fester Bezugspunkt.",
+      "friendly": "Etwas, das man auf Treu und Glauben nimmt und dann als Anker nutzt — eine fiducial Marke ist der feste Punkt, an dem alles andere gemessen wird.",
+      "exampleGloss": "Vermesser setzten eine fiducial Marke ins Gestein, bevor sie den Ort kartierten.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "vertrauen",
+        "Vertrauen, Zuversicht"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine Verteidigung der Güte Gottes angesichts des Bösen.",
+      "friendly": "Der uralte Versuch, zu antworten: Wenn Gott gut ist, warum gibt es dann Böses? — ohne eine der beiden Behauptungen aufzugeben.",
+      "exampleGloss": "Ihre Arbeit untersuchte theodicy durch die Linse des Buches Hiob.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "Gott",
+        "Gerechtigkeit"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Gegenseitiges Innewohnen — ein theologischer Begriff dafür, wie die Personen der Dreifaltigkeit ineinander existieren.",
+      "friendly": "Ein Theologie-Wort für ein Drei-in-einem-Beieinander, so vollständig, dass jeder Teil die anderen enthält und von ihnen enthalten wird.",
+      "exampleGloss": "Die Lehre der circumincession versucht zu erklären, wie Vater, Sohn und Geist unterschieden und doch untrennbar sind.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "ringsum",
+        "gehen, wandeln"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "Verb",
+      "definition": "Eine Folge haben, die jemandem zugutekommt oder auf ihn zurückfällt.",
+      "friendly": "Wenn Ruhm (oder Tadel) zum Verantwortlichen zurückprallt — gute Taten, die redound zu deinem Namen, kehren als Lohn wieder.",
+      "exampleGloss": "Der Erfolg der Mannschaft wird redound zum Verdienst des stillen, fleißigen Trainers.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zurück, wiederum",
+        "Welle"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Nicht zu vermeiden oder zu entkommen.",
+      "friendly": "Es kommt, was du auch tust — aus einem ineluctable Ausgang windest du dich nicht heraus.",
+      "exampleGloss": "Das Alter kommt für alle; es ist schlicht ineluctable.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nicht",
+        "sich herauswinden"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Weitschweifige, wortreiche Formulierung statt einer direkten Form.",
+      "friendly": "Der lange Weg mit Worten — in einem ganzen Satz sagen, was ein Wort decken würde.",
+      "exampleGloss": "Seine periphrastic E-Mails hätten in einer Zeile sagen können, was drei Absätze brauchte.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "herum",
+        "erklären, erzählen"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Geistige Stumpfheit oder Trägheit.",
+      "friendly": "Dieser neblige, schleppende Geisteszustand, in dem Denken sich anfühlt wie Waten durch Sirup.",
+      "exampleGloss": "Eine Welle von hebetude traf die Klasse direkt nach dem Mittagessen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "stumpf, dumpf",
+        "Zustand oder Beschaffenheit"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Ungünstig; von schlechter Vorbedeutung.",
+      "friendly": "Ein schlechtes Zeichen — Umstände oder Timing, die schon gegen dich arbeiten, bevor du angefangen hast.",
+      "exampleGloss": "Grauer Himmel und eine tote Autobatterie waren ein unpropitious Start in die Reise.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nicht",
+        "günstig, gnädig"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "Adjektiv / Verb",
+      "definition": "Fleisch, geschmort oder gedünstet in Sauce — eigentlich „fricasseed“ geschrieben.",
+      "friendly": "Ein gemütlicher, alter Kochbegriff für Fleisch, das klein geschnitten und langsam in der eigenen Sauce zart geschmort wird.",
+      "exampleGloss": "Großmutters fricasseed Huhn war der Höhepunkt jedes Sonntagsessens.",
+      "origin": "Französisch",
+      "rootMeanings": [
+        "braten, backen",
+        "brechen (in Stücke)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Ein künstlicher oder minderwertiger Ersatz.",
+      "friendly": "Eine Imitation, die für das Echte einspringt — sie tut den Job, aber jeder merkt, dass es nicht das Original ist.",
+      "exampleGloss": "In Kriegszeiten begnügten sich Käufer mit ersatz-Kaffee aus gerösteter Zichorie.",
+      "origin": "Deutsch",
+      "rootMeanings": [
+        "aus, Ersatzpräfix",
+        "setzen, stellen"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "Verb",
+      "definition": "Eine abstrakte Idee behandeln, als wäre sie ein greifbares Ding.",
+      "friendly": "Eine Idee fest und wirklich erscheinen lassen — etwas Unscharfes wie „den Markt“ zu einem Ding machen, auf das man zeigen kann.",
+      "exampleGloss": "Den „spirit“ einer Nation zu einem Wesen zu erklären reifies etwas, das in Wahrheit Millionen einzelner Entscheidungen ist.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Ding",
+        "machen"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "Verb (Präteritum)",
+      "definition": "Geschickt entkommen oder ausgewichen.",
+      "friendly": "Sauber entwischt — etwas umgangen, oft klug oder knapp, ob Fang, Frage oder Antwort.",
+      "exampleGloss": "Die Antwort eluded sie stundenlang, bis sie unter der Dusche plötzlich klickte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinaus, weg",
+        "spielen"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Zweifel, Ratlosigkeit oder einen ungelösten Widerspruch ausdrückend.",
+      "friendly": "An einem echten gedanklichen Sackgasse stehend — nicht aus Faulheit, sondern weil die Frage selbst keine nette Antwort zulässt.",
+      "exampleGloss": "Sokrates endete seine Dialoge oft auf einem aporetic Ton, mit mehr Fragen als Antworten.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "ohne",
+        "Durchgang, Weg"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine Stilfigur, die etwas mit einem zugehörigen Wort benennt, etwa „die Krone“ für den Herrscher.",
+      "friendly": "Ein verwandtes Wort für die Sache selbst einsetzen — „Wall Street“ sagen, wenn man die Börse meint.",
+      "exampleGloss": "„Wall Street had a rough day“ ist metonymy — gemeint ist eigentlich der Aktienmarkt.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "Wechsel, danach",
+        "Name"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "Verb",
+      "definition": "Entwurzeln; aus einer natürlichen Umgebung reißen.",
+      "friendly": "Etwas (oder jemanden) mit der Wurzel herausziehen, weg von Ort oder Kultur, zu der es gehört.",
+      "exampleGloss": "Krieg deracinated eine ganze Generation und zerstreute Familien über Grenzen hinweg.",
+      "origin": "Französisch / Latein",
+      "rootMeanings": [
+        "weg, ab",
+        "Wurzel"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Wohlklingend.",
+      "friendly": "Einfach schön zu hören — ein euphonious Wort oder Satz gleitet weich, fast musikalisch, ins Ohr.",
+      "exampleGloss": "„Murmuring brook“ ist eine euphonious kleine Wendung, weich und leicht zu sagen.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "gut, wohl",
+        "Klang, Stimme"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Allgemein angenommen oder vermutet.",
+      "friendly": "Weithin für wahr gehalten, auch wenn es nicht bewiesen ist — die vermeintliche oder mutmaßliche Fassung von etwas.",
+      "exampleGloss": "Der putative Verfasser des Briefes stellte sich später als völliger Fremder heraus.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "denken, erachten",
+        "die Natur habend von"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein neu geprägtes Wort oder eine neue Wendung.",
+      "friendly": "Ein brandneues Wort — frisch erfunden, noch kaum im Wörterbuch.",
+      "exampleGloss": "„Doomscrolling“ begann als neologism und wurde rasch Alltagsslang.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "neu",
+        "Wort, Rede"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Zornig oder schlechtgelaunt.",
+      "friendly": "In übler, reizbarer Stimmung — schnell scharf, wie man früher glaubte, die Milz steuere das Temperament.",
+      "exampleGloss": "Er feuerte binnen Sekunden eine splenetic Antwort auf die E-Mail ab.",
+      "origin": "Griechisch / Latein",
+      "rootMeanings": [
+        "Milz (Sitz des Zorns)",
+        "ergriffen von"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Geneigt, pompös oder gekünstelt zu moralisieren.",
+      "friendly": "Teilt gern kleine Lebenslehren aus, als wäre jeder Satz ein Glückskeks.",
+      "exampleGloss": "Sein sententious Toast über „the true meaning of friendship“ ließ alle auf die Uhr schauen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Meinung, Sinnspruch",
+        "voll von"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Übermäßig redselig, besonders über Belangloses.",
+      "friendly": "Hört einfach nicht auf zu plaudern — redet über Kleinkram, lange nachdem alle anderen nichts mehr zu sagen haben.",
+      "exampleGloss": "Der garrulous Taxifahrer erzählte uns seine ganze Lebensgeschichte, bevor wir den Flughafen verlassen hatten.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "plaudern, schwatzen",
+        "neigend zu"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Torheit, Albernheit.",
+      "friendly": "Schlichte Dummheit — eine Bemerkung oder ein Plan so albern, dass sie kaum eine ernste Antwort verdient.",
+      "exampleGloss": "Die schiere fatuity des Plans wurde klar, sobald sie ihn ausprobierten.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "töricht, albern",
+        "Zustand des Seins"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Der schließende Teil einer Rede, oft zusammenfassend.",
+      "friendly": "Der große Schluss einer Rede — der Abschnitt, in dem der Sprecher alles bündelt und den Punkt nach Hause bringt.",
+      "exampleGloss": "Bei der peroration war die Hälfte des Publikums auf den Beinen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "durch, bis zum Ende",
+        "sprechen, plädieren"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Überflüssige Wiederholung derselben Idee in anderen Worten.",
+      "friendly": "Dasselbe zweimal sagen, ohne etwas Neues hinzuzufügen, wie „kostenloses Geschenk“ oder „it is what it is.“",
+      "exampleGloss": "„It is what it is“ ist eine beliebte tautology von Leuten, die eine echte Erklärung meiden.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "dasselbe",
+        "Wort, Rede"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Der Gebrauch sehr weniger Worte; knappe Rede.",
+      "friendly": "Viel mit sehr wenig sagen — die Kunst der kurzen, barschen Antwort, benannt nach den notorisch knappen Spartanern Lakoniens.",
+      "exampleGloss": "„Molon labe“ — „come and take them“ — ist das berühmteste Stück laconism der Geschichte.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "ein Spartaner Lakoniens",
+        "Übung, Art"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Fade, übervereinfachte Ideen; ursprünglich: fade Speise oder Brei.",
+      "friendly": "Dünnes, verwässertes Denken — Inhalt so vereinfacht und sicher, dass er für den Geist keinen Nährwert hat.",
+      "exampleGloss": "Die Rede des Politikers war vor allem pabulum: vage Versprechen, an denen nichts festzumachen war.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nähren",
+        "Mittel oder Werkzeug"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Schlaf oder Schläfrigkeit erzeugend.",
+      "friendly": "So langweilig — oder so wörtlich beruhigend — dass einen der Schlaf überkommt. Denk an warme Milch oder eine dreistündige Haushaltsdebatte.",
+      "exampleGloss": "Der soporific Singsang der Vorlesung ließ die Hälfte des Saals um offene Augen kämpfen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "tiefer Schlaf",
+        "machend, bewirkend"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Übermäßig schmeichelnd oder ölig im Auftreten.",
+      "friendly": "So glatt charmant, dass es schlüpfrig wirkt — Schmeichelei so dick aufgetragen, dass man das Fett fast spürt.",
+      "exampleGloss": "Der unctuous Verkäufer lobte vor jedem Zusatzverkauf meinen „excellent taste“.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "salben, ölen",
+        "voll von"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Schnell im Tadeln, überkritisch bei Kleinigkeiten.",
+      "friendly": "Beckmesserisch bis zum Exzess — der Typ, der an allem etwas findet, auch wenn es nichts ausmacht.",
+      "exampleGloss": "Seine captious Anmerkungen zum Bericht drehten sich nur um Kommasetzung.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "ergreifen, nehmen",
+        "eine Falle, ein Sophisma"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Träge, geistig oder körperlich untätig.",
+      "friendly": "Langsam und halbbewusst, wie ein Bär im Winterschlaf — kaum Bewegung, kaum Gedanke.",
+      "exampleGloss": "Das Büro fiel in der schweren Augusthitze torpid.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "taub sein, träge sein",
+        "in einem Zustand von"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Verwalter oder Beamter, der einen mittelalterlichen Haushalt führte.",
+      "friendly": "Die mittelalterliche Fassung eines Haushofmeisters — der vertraute Beamte, der Haus und Gut eines Herrn im Alltag führte.",
+      "exampleGloss": "Der seneschal der Burg regelte alles, von den Erntebüchern bis zur Gästeliste.",
+      "origin": "Fränkisch / Altfranzösisch",
+      "rootMeanings": [
+        "alt, senior",
+        "Diener"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "Verb",
+      "definition": "Ausführlich über ein Thema sprechen oder schreiben.",
+      "friendly": "Richtig in Fahrt kommen — endlos reden oder schreiben und das Thema von allen Seiten beleuchten.",
+      "exampleGloss": "Frag ihn nach Oldtimern, und er wird eine volle Stunde expatiate.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinaus",
+        "Raum"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Ohne Wert, geringfügig; auch ungültig oder wirkungslos.",
+      "friendly": "So gut wie nichts wert — eine nugatory Klausel im Vertrag tut in der Praxis nichts.",
+      "exampleGloss": "Das Gericht erklärte die alte Satzung für nugatory, weil sie nie durchgesetzt worden war.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Nichtigkeiten, Unsinn",
+        "zugehörig zu"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Weisheit, kluges Urteil.",
+      "friendly": "Scharfe, praktische Klugheit — das gute Urteil, das aus Erfahrung kommt, nicht nur aus Büchern.",
+      "exampleGloss": "Die sagacity des alten Kapitäns bewahrte die Mannschaft mehr als einmal vor Unheil.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "feinnasig, scharfsinnig",
+        "Beschaffenheit von"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Der gemeine Pöbel oder die Masse, verächtlich gebraucht.",
+      "friendly": "Ein snohaftes, abfälliges Wort für gewöhnliche Leute, als wären sie ein Rudel Hunde.",
+      "exampleGloss": "Der Graf rümpfte die Nase über die canaille vor den Palasttoren.",
+      "origin": "Italienisch / Französisch",
+      "rootMeanings": [
+        "Hund",
+        "Kollektiv, Rudel"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Freche, demütigende Behandlung oder Sprache.",
+      "friendly": "Grausame, höhnische Behandlung, die demütigen soll — die Beleidigung, die treffen will.",
+      "exampleGloss": "Er ertrug Jahre von contumely der Kritiker, bevor sein Werk endlich anerkannt wurde.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "mit, gründlich",
+        "schwellen (vor Stolz)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "Adverb",
+      "definition": "Mit Argwohn oder Missbilligung; ein Seitenblick.",
+      "friendly": "Der schiefe Blick, den du etwas schenkst, dem du nicht ganz traust — ein Blick voll Zweifel.",
+      "exampleGloss": "Die Lehrerin sah askance auf die verdächtig ordentliche Hausaufgabe.",
+      "origin": "Unsicher / Italienisch",
+      "rootMeanings": [
+        "an, zu",
+        "Schräge, Voreingenommenheit"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Dummkopf; ein Holzkopf.",
+      "friendly": "Ein altmodisches, fast zärtliches Schimpfwort für jemanden, der schwer von Begriff ist — ein Holzkopf.",
+      "exampleGloss": "„You clodpate,“ lachte sie, „you've had the map upside down the whole time.“",
+      "origin": "Englisch",
+      "rootMeanings": [
+        "Erdklumpen",
+        "Kopf"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "Verb",
+      "definition": "In Bewegung oder Handlung versetzen; motivieren.",
+      "friendly": "Der Funke sein, der etwas in Gang setzt — ob eine Maschine anspringt oder ein Mensch endlich nach einer Idee handelt.",
+      "exampleGloss": "Die Angst, den Vertrag zu verlieren, actuated das ganze Team in ein Wochenende Überstunden.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "ein Tun, ein Treiben",
+        "treiben, tun"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Unterschlagung anvertrauter Gelder.",
+      "friendly": "Still Geld stehlen, das man hüten sollte — Unterschlagung im alten Gewand.",
+      "exampleGloss": "Die peculation des Schatzmeisters blieb fast ein Jahrzehnt unbemerkt.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Privateigentum",
+        "Vieh, Reichtum"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine Gruppe am Rand der achtbaren Gesellschaft.",
+      "friendly": "Die glamouröse, aber zwielichtige Halbwelt — Leute, die knapp außerhalb der Regeln der Wohlanständigkeit leben.",
+      "exampleGloss": "Der Roman folgt einer Sängerin in der demi-monde der Cabarets der 1920er.",
+      "origin": "Französisch",
+      "rootMeanings": [
+        "halb",
+        "Welt, Gesellschaft"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Noch bestehend; nicht ausgestorben oder zerstört.",
+      "friendly": "Heute noch da — für alte Dinge (Handschriften, Arten, Bauten), die überlebt haben.",
+      "exampleGloss": "Nur drei extant Exemplare des Erstdrucks sind bekannt.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinaus",
+        "stehen"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Hinterlist; Vertrauensbruch.",
+      "friendly": "Tiefer, bewusster Verrat — ein Vertrauen brechen, das jemand zu Recht von dir erwartete.",
+      "exampleGloss": "Der General verzieh die perfidy seines alten Freundes am Verhandlungstisch nie.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "durch, gegen",
+        "Glaube, Vertrauen"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Regionaldialekt, besonders ein nicht standardsprachlicher.",
+      "friendly": "Die eigene, lokale Art, wie man in einer Gegend spricht — voller Wörter und Rhythmen, die ein Außenstehender nicht mitbekommt.",
+      "exampleGloss": "Ihre Großmutter sprach bei Familientreffen noch immer das patois der Insel.",
+      "origin": "Französisch",
+      "rootMeanings": [
+        "derbe Rede, Dialekt",
+        "Pfote — ungelenkes Sprechen"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein besonderes Recht einer Person oder Gruppe.",
+      "friendly": "Ein Vorrecht, das dir allein zusteht — ein Recht, das mit Rolle, Stellung oder Rang kommt.",
+      "exampleGloss": "Das Ferienziel der Familie zu wählen ist Grandpa's prerogative, und jeder weiß das.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "vorher",
+        "fragen, abstimmen"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Kühnheit, Dreistigkeit; auch Zähigkeit oder Ausdauer.",
+      "friendly": "Raue, mutige Widerstandskraft — der Nerv voranzugehen und die Härte, durchzuhalten, sobald man unterwegs ist.",
+      "exampleGloss": "Es brauchte echte hardihood, den Pass im Schneesturm ohne Karte zu überqueren.",
+      "origin": "Altfranzösisch / Englisch",
+      "rootMeanings": [
+        "kühn, zäh",
+        "Zustand, Lage"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "Verb",
+      "definition": "Aufblühen; auch: sich entfalten oder allmählich erscheinen.",
+      "friendly": "Zur vollen Entfaltung aufblühen — wie eine Blüte, die sich öffnet, oder eine Idee, die endlich zu sich kommt.",
+      "exampleGloss": "Ihr stilles Malertalent effloresced, sobald sie ein eigenes Atelier hatte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinaus",
+        "zu blühen beginnen"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine beschwerte Schnur zur Bestimmung der Senkrechten; bildlich: ein Maßstab.",
+      "friendly": "Ein Gewicht an einer Schnur, das senkrecht hängt, um zu prüfen, ob etwas wirklich lotrecht ist — und darüber hinaus jeder feste Maßstab, an dem du alles andere misst.",
+      "exampleGloss": "Er nahm die Ehrlichkeit seines Großvaters als eine Art plumb line für jede Entscheidung.",
+      "origin": "Latein / Englisch",
+      "rootMeanings": [
+        "Blei",
+        "Schnur, Maß"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "Adverb",
+      "definition": "Gerne, willig (archaisch).",
+      "friendly": "Eine altmodische Art, „gerne“ oder „willig“ zu sagen — du would fain etwas tun, wenn du es gern möchtest.",
+      "exampleGloss": "„I would fain rest here a while,“ seufzte der Reisende.",
+      "origin": "Altenglisch",
+      "rootMeanings": [
+        "froh, freudig",
+        "gerne, willig"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Harsche öffentliche Kritik oder Schande.",
+      "friendly": "Öffentliche Schande, die jemandem groß und sichtbar angehängt wird — die Schmach weiter Ablehnung.",
+      "exampleGloss": "Der Skandal brachte öffentliches opprobrium über die ganze Firma.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "gegen",
+        "Schande, Vorwurf"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Scharf sarkastisch, beißend in Witz oder Kritik.",
+      "friendly": "Witz mit echten Zähnen — ein mordant Kommentar sticht gerade, weil er so treffsicher zielt.",
+      "exampleGloss": "Ihre mordant Filmkritiken fürchteten Regisseure und liebten Leser.",
+      "origin": "Latein / Französisch",
+      "rootMeanings": [
+        "beißen",
+        "beißend, tuend"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine förmliche Proklamation, oft politisch oder militärisch.",
+      "friendly": "Eine große, offizielle Ansage — meist eine, die eine neue Regierung, einen Aufstand oder ein großes Dekret verkündet.",
+      "exampleGloss": "Des Generals pronunciamento verkündete bei Tagesanbruch die neue Regierung.",
+      "origin": "Spanisch",
+      "rootMeanings": [
+        "hervor",
+        "ankündigen"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Jemand mit oberflächlichem Wissen, der den Experten spielt.",
+      "friendly": "Jemand, der über die Oberfläche eines Themas gestreift ist und dann redet, als hätte er das Lehrbuch geschrieben.",
+      "exampleGloss": "Der sciolist der Dinnerparty korrigierte selbstbewusst den echten Astrophysiker am Tisch.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "wissen",
+        "Diminutiv — ein Kleinwisser"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Nachlassen der geistigen Kräfte im Alter.",
+      "friendly": "Die neblige, vergessliche späte Altersspanne, in der die Schärfe des Geistes nachlässt.",
+      "exampleGloss": "In seiner dotage erzählte er bei jedem Besuch dieselben drei Geschichten, jedes Mal als wären sie neu.",
+      "origin": "Mittelenglisch",
+      "rootMeanings": [
+        "faseln, töricht sein",
+        "Zustand oder Ergebnis"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Die windabgewandte, geschützte Seite.",
+      "friendly": "Die stille, geschützte Seite von etwas — Hügel, Schiff, Mauer — wo der Wind dich kaum erreicht.",
+      "exampleGloss": "Die Wanderer schlugen ihr Zelt auf der lee side des Kamms auf, um den Böen zu entgehen.",
+      "origin": "Altenglisch",
+      "rootMeanings": [
+        "Schutz, Geborgenheit",
+        "Flanke, Seite"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "Verb",
+      "definition": "Einen Schlag, eine Frage oder ein Argument abwehren.",
+      "friendly": "Etwas geschmeidig wegschlagen — einen Schwerthieb, eine heikle Frage, einen Vorwurf — ohne eine Sekunde zu stocken.",
+      "exampleGloss": "Sie parried die knifflige Frage des Reporters mit einem leichten Scherz.",
+      "origin": "Französisch",
+      "rootMeanings": [
+        "abwehren",
+        "bereiten, verteidigen"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Übelriechend, giftig.",
+      "friendly": "Stinkend auf eine fast giftige Weise — ein Gestank so schlimm, dass Atmen gefährlich scheint.",
+      "exampleGloss": "Ein mephitic Geruch stieg bei Sonnenuntergang aus dem Sumpf.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "schädlicher Dunst",
+        "die Natur habend von"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Mensch, der dem Luxus und dem Vergnügen ergeben ist.",
+      "friendly": "Jemand, der für Komfort und Genuss lebt — feines Essen, weiche Betten, leichtes Leben — benannt nach der griechischen Stadt Sybaris, berühmt für ihr Übermaß.",
+      "exampleGloss": "Ein wahrer sybarite, er lehnte jedes Hotelzimmer ohne Badewanne ab.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "antike griechische Stadt, berühmt für Luxus",
+        "Bewohner von"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "Verb",
+      "definition": "Absichtlich einen Teil von etwas beiseite setzen oder ignorieren.",
+      "friendly": "Im Kopf ein Stück des Puzzles bewusst zur Seite legen, damit du sauber auf den Rest schauen kannst.",
+      "exampleGloss": "Lass uns für einen Moment prescind von den Kosten und nur fragen, ob der Plan überhaupt funktioniert.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "vorher, weg",
+        "schneiden"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "Verb",
+      "definition": "Hart kritisieren; auch: die Haut abziehen.",
+      "friendly": "Jemanden mit scharfer Kritik zerlegen — verbal, als zöge man ihm die Haut ab.",
+      "exampleGloss": "Die Kritiker excoriated die Fortsetzung, weil sie alles verriet, was Fans am Original liebten.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "ab",
+        "Haut, Fell"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "Verb",
+      "definition": "Als Beweis oder Beleg anführen.",
+      "friendly": "Eine Tatsache oder ein Beispiel vorbringen, um den Punkt zu stützen — das, worauf du zeigst, wenn jemand nach Beweis fragt.",
+      "exampleGloss": "Die Anwältin adduced drei Zeugen zur Stützung des Alibis ihrer Mandantin.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zu, hin",
+        "führen"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Reisen oder Wanderungen, besonders lange oder ausgedehnte.",
+      "friendly": "Lange, schweifende Fahrten — das ausgedehnte Umherziehen, das einen lange fern der Heimat hält.",
+      "exampleGloss": "Seine peregrinations über drei Kontinente füllten ein ganzes Regal mit Reisetagebüchern.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "durch",
+        "Feld, Land (peregrinus: Fremder)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Bettler oder jemand, der von Almosen lebt.",
+      "friendly": "Jemand, der von erbetener Wohltätigkeit lebt — historisch auch Mönche, die Armut gelobten und von Gaben lebten.",
+      "exampleGloss": "Die mendicant Brüder besaßen nichts und lebten ganz von der Güte der Dorfbewohner.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "betteln",
+        "Bettler"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Äußerst großzügig.",
+      "friendly": "Großzügig im großen, fast theatralischen Maßstab — das Geschenk, bei dem die Leute kurz die Luft anhalten.",
+      "exampleGloss": "Die munificent Spende finanzierte den ganzen neuen Flügel der Bibliothek.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Gabe, Dienst",
+        "machend, gebend"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Erschöpfung durch Mangel an Nahrung; auch ein Mangel an Lebenskraft.",
+      "friendly": "Ein schwacher, ausgelaugter Zustand, weil nichts nährt — wörtlich vor Hunger, oder bildlich, weil nichts mehr zum Laufen da ist.",
+      "exampleGloss": "Am Ende der Belagerung waren die Soldaten nahe der inanition.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "leer, nichtig",
+        "die Tat oder das Ergebnis von"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Bittere, schmähende Kritik.",
+      "friendly": "Kritik, die das Faire längst hinter sich gelassen hat und zur wütenden, bitteren Tirade geworden ist.",
+      "exampleGloss": "Die Online-Kommentare lösten sich binnen Minuten in pure vituperation auf.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Fehler, Makel",
+        "bereiten, liefern"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Feindselig, schädlich in der Wirkung.",
+      "friendly": "Gegen dich wirkend, auch still — Umstände oder Haltungen, die deinen Interessen nicht freundlich gesinnt sind.",
+      "exampleGloss": "Die neue Politik war inimical für kleine Betriebe, auch wenn das nicht die Absicht war.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nicht",
+        "Freund"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Geeignet, Groll oder Unmut zu wecken, oft durch unfaire Vergleiche.",
+      "friendly": "Garantiert, dass sich jemand gekränkt fühlt — meist weil Menschen oder Dinge ungerecht gegeneinander gestellt werden.",
+      "exampleGloss": "Geschwister nach „who Mom loves best“ zu rangieren ist ein invidious Spiel, das niemand spielen sollte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Neid",
+        "anblicken (mit bösem Willen)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine Person niederen Ranges oder Status; ein Untergebener.",
+      "friendly": "Jemand weiter unten in der Befehlskette oder auf der sozialen Leiter — ein Junior unter jemandem mit mehr Macht.",
+      "exampleGloss": "Als junger subaltern nahm er lange Befehle entgegen, bevor er je welche gab.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "unter",
+        "alternativ, anderer"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "Verb",
+      "definition": "Starken Hass empfinden oder äußern.",
+      "friendly": "Etwas so verabscheuen, dass man es laut verflucht — reine, stimmhafte Abscheu.",
+      "exampleGloss": "Die Dorfbewohner execrated den Steuereintreiber jedes Mal, wenn sein Karren durch den Ort rollte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "heraus",
+        "heilig (aus dem Heiligen verfluchen)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine natürliche äußere Hülle, wie Haut oder Schale.",
+      "friendly": "Die schützende Verpackung der Natur — Haut, Schale, Hülse oder Rinde, was ein Lebewesen bedeckt und schützt.",
+      "exampleGloss": "Der Panzer einer Schildkröte ist ein bemerkenswert zähes integument.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "auf, über",
+        "bedecken"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Unschuldig, naiv, von kindlicher Schlichtheit; das Gegenteil von hinterhältig.",
+      "friendly": "Offen vertrauend und ein wenig naiv, ohne Hintergedanken — leicht zu verwechseln mit „ingenious“, das klug bedeutet.",
+      "exampleGloss": "Ihre ingenuous Frage — „why would anyone lie about that?“ — zeigte, wie wenig Hinterlist sie hatte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "in, einheimisch",
+        "zeugen (freigeboren, aufrichtig)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Übertriebene Sorge um Kleinigkeiten oder Regeln.",
+      "friendly": "In den kleinen Regeln verloren gehen und das große Bild verpassen — am Kleingedruckten kleben, das sonst niemanden kümmert.",
+      "exampleGloss": "Seine pedantry um Oxford-Kommas entgleiste die ganze Sitzung.",
+      "origin": "Italienisch / Latein",
+      "rootMeanings": [
+        "Kinderlehrer",
+        "Übung oder Eigenschaft"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine gründliche, sorgfältige Prüfung.",
+      "friendly": "Ein tiefer Blick, der keinen Stein auf dem anderen lässt — jedes Detail mit echter Sorgfalt durchgehen.",
+      "exampleGloss": "Erst nach einer sorgfältigen perscrutation der Bücher tauchte die Unstimmigkeit auf.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "durch, gründlich",
+        "suchen, prüfen"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "Verb",
+      "definition": "Einwände erheben; Zögern zeigen.",
+      "friendly": "Höflich widersprechen oder zögern, statt sofort mitzugehen — ein leises „warte mal“.",
+      "exampleGloss": "Als man sie bat, ohne zu lesen zu unterschreiben, demurred sie.",
+      "origin": "Latein / Französisch",
+      "rootMeanings": [
+        "von, weg",
+        "zögern"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Oberflächlich plausibel, aber tatsächlich falsch.",
+      "friendly": "Klingt auf den ersten Blick überzeugend, zerfällt aber, sobald man wirklich nachschaut.",
+      "exampleGloss": "„Everyone's doing it“ ist ein specious Argument, das einer Prüfung nie ganz standhält.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Erscheinung, Aussehen",
+        "voll von (schön scheinend)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Unehrliches, heuchlerisches Gerede, oft moralisierend.",
+      "friendly": "Predigerton, der tugendhaft klingt, aber von keinem echten Gefühl getragen wird — moralisches Posieren im Autopilot.",
+      "exampleGloss": "Er hatte das korporative cant über „family“ satt, von einer Firma, die niemandem frei gab.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "singen (später: Singsang-Jargon)",
+        "winselnde Bettlersprache, dann Heuchelei"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Ohne Mut, feige.",
+      "friendly": "Ängstlich bis zur Rückgratlosigkeit — zu ängstlich, aufzustehen, selbst wenn es klar darauf ankommt.",
+      "exampleGloss": "Das pusillanimous Schweigen des Vorstands ließ den Skandal außer Kontrolle geraten.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "sehr klein",
+        "Geist, Mut"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Fuchsgleich; listig, verschlagen.",
+      "friendly": "Schlau und gewitzt wie ein Fuchs — schnell im Kopf, ein wenig hinterlistig, immer einen Schritt voraus.",
+      "exampleGloss": "Er gab ein vulpine Grinsen, sobald er die Lücke entdeckte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Fuchs",
+        "von oder wie"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "Adverb",
+      "definition": "Nacheinander, der Reihe nach.",
+      "friendly": "Strikt eins nach dem anderen, in der Reihenfolge — kein Überspringen, kein Zweierlei auf einmal.",
+      "exampleGloss": "Die Richterin behandelte jede der zwölf Klagen seriatim.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Reihe, Folge",
+        "eins nach dem anderen"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Äußerste Sparsamkeit; Geiz.",
+      "friendly": "Eng mit Geld (oder Worten oder Mitteln) sein, weit über vernünftige Sparsamkeit hinaus.",
+      "exampleGloss": "Seine parsimony war legendär — er verwendete Teebeutel dreimal.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "schonen, sparsam sein",
+        "Zustand oder Praxis"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine Korrektur, besonders in einem Text.",
+      "friendly": "Eine Berichtigung in einem Schriftstück — ein gelehrter Eingriff, der einen Fehler in einem alten oder wichtigen Text behebt.",
+      "exampleGloss": "Die neue Ausgabe enthält Dutzende emendations am ursprünglichen Manuskript.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "heraus",
+        "Fehler, Irrtum"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Mäßig im Essen und Trinken.",
+      "friendly": "Bewusst zurückhaltend bei Speise und Trank — nie zu viel, immer ein wenig auf dem Teller lassen.",
+      "exampleGloss": "Seine abstemious Gewohnheiten hielten ihn scharf, lange nachdem seine Altersgenossen langsamer geworden waren.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "weg von",
+        "berauschendes Getränk"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein grammatischer Fehler oder ein Verstoß gegen die Etikette.",
+      "friendly": "Ein Ausrutscher in Grammatik oder Manieren — der kleine Fehler, bei dem ein Pedant zusammenzuckt.",
+      "exampleGloss": "„Between you and I“ ist ein häufiger solecism, der Grammatiker noch immer zusammenzucken lässt.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "kilikische Stadt, bekannt für ‚schlechtes‘ Griechisch",
+        "Übung, Art"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Einen Konflikt innerhalb einer Gruppe betreffend; gegenseitig zerstörerisch.",
+      "friendly": "Interner Streit, der eine Gruppe von innen zerreißt — ein Kampf, in dem alle verlieren, weil es Familie gegen Familie ist.",
+      "exampleGloss": "Das internecine Gezänk der Partei richtete mehr Schaden an als jeder äußere Gegner.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zwischen, unter",
+        "töten"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "Adjektiv / Substantiv",
+      "definition": "Gleichgültige, nachlässige Haltung.",
+      "friendly": "Ein Schulterzucken zur ganzen Persönlichkeit gemacht — so wenig um das geben, was einmal zählte, dass nichts mehr die Mühe wert scheint.",
+      "exampleGloss": "Seine pococurante Haltung zur Preisverleihung überraschte alle, die wussten, wie hart er gearbeitet hatte.",
+      "origin": "Italienisch",
+      "rootMeanings": [
+        "wenig",
+        "sich kümmern"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine verworrene, verwickelte Lage oder Streitigkeit.",
+      "friendly": "Eine verknotete, unordentliche Lage, die schwer zu entwirren ist — teils Missverständnis, teils Drama, alles Verwirrung.",
+      "exampleGloss": "Das ganze seating-chart-imbroglio begann mit einer falsch gelegten Namenskarte.",
+      "origin": "Italienisch",
+      "rootMeanings": [
+        "in",
+        "verwickeln, verwirren"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Drohend, bedrohlich.",
+      "friendly": "Mit unverkennbarem Hauch von Drohung — ein minatory Blick oder Brief macht sehr klar, dass etwas Unangenehmes folgen könnte.",
+      "exampleGloss": "Der minatory Ton des Briefes machte die Mieterin nervös, noch bevor sie den Umschlag geöffnet hatte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "drohen",
+        "dienend zu"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Starke öffentliche Kritik oder verbale Schmähung.",
+      "friendly": "Laute, öffentliche Verurteilung — die beißende Kritik, die sich vor aller Augen abspielt.",
+      "exampleGloss": "Die Whistleblowerin ertrug Jahre öffentlicher obloquy, bevor die Geschichte ihr Recht gab.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "gegen",
+        "sprechen"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein plötzlicher heftiger Ausbruch von Gefühl oder Handlung.",
+      "friendly": "Ein plötzlicher, intensiver Schub, der einen auf einmal überwältigt — ein Lach-, Wut- oder Hustenanfall wie eine Welle.",
+      "exampleGloss": "Sie wurde von einem paroxysm des Lachens ergriffen, den sie sonst niemandem im Raum erklären konnte.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "jenseits",
+        "scharf, akut"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Von außen hinzugefügt, nicht innewohnend.",
+      "friendly": "Von außen angeschraubt statt von Anfang an eingebaut — ein Extra, kein Kern.",
+      "exampleGloss": "Der Kommentar wirkt adscititious, als wäre er an einen schon fertigen Text angehängt.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zu, zusätzlich",
+        "gutheißen, annehmen"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Mangel an Wissen, Unwissenheit.",
+      "friendly": "Schlichtes Nichtwissen — eine Lücke im Wissen, ohne Urteil darüber.",
+      "exampleGloss": "Er gab seine nescience französischen Weins zu und ließ den Sommelier wählen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nicht",
+        "wissen"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Übermäßiges Interesse an sexuellen Dingen.",
+      "friendly": "Eine übereifrige, lüsterne Neugier auf alles Anzügliche — Interesse, das das Gesunde hinter sich gelassen hat und aufdringlich wird.",
+      "exampleGloss": "Die prurience der Boulevardzeitung über das Privatleben des Paares grenzte an Besessenheit.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "jucken, verlangen",
+        "Zustand von"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Rußig, dunkel, trübe.",
+      "friendly": "Dunkel und rauchig, als wäre alles mit einer dünnen Rußschicht überzogen.",
+      "exampleGloss": "Ein fuliginous Dunst hing in der Dämmerung über der Fabrikstadt.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Ruß",
+        "voll von"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "Verb",
+      "definition": "Leugnen oder widersprechen.",
+      "friendly": "Klar gegen etwas sprechen, das ein anderer gesagt hat — sagen, dass es nicht so ist.",
+      "exampleGloss": "Niemand wagte, den alten Kapitän über seinen Sturmbericht zu gainsay.",
+      "origin": "Mittelenglisch",
+      "rootMeanings": [
+        "gegen",
+        "sprechen"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Faulheit, Trägheit (aus dem Lateinischen).",
+      "friendly": "Ein altes lateinisches Wort für schiere Faulheit — das Ziehen, nichts tun zu wollen.",
+      "exampleGloss": "Die Mönche predigten gegen ignavia als eine der stillen Gefahren der Seele.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nicht",
+        "beschäftigt, fleißig"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Schild, das ein Wappen zeigt.",
+      "friendly": "Das schildförmige Emblem mit dem Familienwappen — das heraldische Zeichen.",
+      "exampleGloss": "Das escutcheon der Familie hängt noch über der Haustür des alten Herrenhauses.",
+      "origin": "Latein / Altfranzösisch",
+      "rootMeanings": [
+        "Schild",
+        "Diminutiv / Gegenstand"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Veraltet, überholt oder altersbedingt ausgeschieden.",
+      "friendly": "Über die nützliche Blüte hinaus und aufs Abstellgleis — zu altmodisch oder verschlissen, um den Job noch zu tun.",
+      "exampleGloss": "Der superannuated Drucker wurde nach fünfzehn Jahren Papierstau endlich ersetzt.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "jenseits",
+        "Jahr"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ersatzmittel, besonders in der Medizin.",
+      "friendly": "Ersatzheilmittel, wenn die eigentliche Behandlung fehlt — medizinische Doubles, im Grunde.",
+      "exampleGloss": "Kriegsärzte stützten sich oft auf succedanea, wenn die richtigen Mittel ausgingen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "anstelle von",
+        "gehen, weichen"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Prahlerisches, polterndes Gerede.",
+      "friendly": "Großes, polterndes Prahlen — lautes Reden über die eigene Größe, das vor allem heiße Luft ist.",
+      "exampleGloss": "Seine rodomontade, das Projekt „single-handedly“ gerettet zu haben, täuschte niemanden, der wirklich dabei gewesen war.",
+      "origin": "Italienisch",
+      "rootMeanings": [
+        "prahlerischer Ritter in Orlando Furioso",
+        "Handlung, Schau"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "Verb",
+      "definition": "Mit List oder Täuschung etwas erreichen.",
+      "friendly": "Sich mit hinterlistigen Tricks zum Ziel winden statt mit fairem Spiel.",
+      "exampleGloss": "Er chicaned sich mit einem Vertrag voller Kleingedrucktem in den Deal.",
+      "origin": "Französisch",
+      "rootMeanings": [
+        "klingeln, betrügen",
+        "List; später eine scharfe Kurve"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Die reine oder abstrakte Wissenschaft des Lernens oder Wissens, oft Mathematik.",
+      "friendly": "Lernen in seiner reinsten, abstraktesten Form — die tiefe Struktur des Wissens selbst, vor allem der mathematischen Art.",
+      "exampleGloss": "Der Philosoph träumte von einer universalen mathesis, die jedes Wissensgebiet einen könnte.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "lernen",
+        "der Akt des Lernens"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Übermäßig befasst mit formellen Regeln oder trivialen Details.",
+      "friendly": "Zu streng bei Kleinigkeiten — kleine technische Punkte korrigieren, die nichts Wesentliches ändern.",
+      "exampleGloss": "Es fühlte sich ein wenig pedantic an, in einer Kurznachricht über „who“ versus „whom“ zu streiten.",
+      "origin": "Italienisch / Griechisch",
+      "rootMeanings": [
+        "Kinderführer, Tutor",
+        "die Art habend von"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein blitzendes, funkelndes Licht.",
+      "friendly": "Ein rascher, glitzernder Lichtblitz — Sonnenlicht auf Wasser, oder ein Diamant, der das Licht fängt.",
+      "exampleGloss": "Die coruscation des Kronleuchters streute Licht in jede Ecke des Ballsaals.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "glitzern, blitzen",
+        "der Akt von"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Anfänger, ein Neuling.",
+      "friendly": "Jemand brandneu in einer Fertigkeit oder einem Feld — noch dabei, die Kniffe zu lernen, noch kein Kenner.",
+      "exampleGloss": "Selbst ein tyro-Schachspieler sieht diesen Patzer.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Rekrut, Neuling",
+        "ein grüner junger Soldat"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Äußerst schlecht, verabscheuungswürdig.",
+      "friendly": "Schlecht auf eine Weise, die echten Ekel verdient — nicht nur mittelmäßig, sondern wirklich scheußlich.",
+      "exampleGloss": "Der Rezensent nannte die Fortsetzung execrable, und die Kassen stimmten zu.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "verfluchen",
+        "würdig, fähig zu"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Blutrot von Farbe.",
+      "friendly": "Ein tiefes, leuchtendes Rot — die Farbe frischen Blutes, berühmt durch Shakespeares Macbeth.",
+      "exampleGloss": "Der Sonnenuntergang tauchte den ganzen Himmel in einen incarnadine Schein.",
+      "origin": "Italienisch / Latein",
+      "rootMeanings": [
+        "hinein",
+        "Fleisch (fleischrot)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Eine kleine Lücke oder Zwischenraum.",
+      "friendly": "Der winzige Zwischenraum, den man leicht übersieht — der Riss zwischen den Dielen, die Lücke im Terminkalender.",
+      "exampleGloss": "Unkraut drängte durch jede interstice im alten Ziegelweg.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zwischen",
+        "stehen"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Kritische oder tadelnde Bemerkungen.",
+      "friendly": "Spitze, missbilligende Kommentare — die Art Kritik, die ein wenig nach Schelte klingt.",
+      "exampleGloss": "Die animadversions des Professors zum Aufsatz füllten die Ränder mit roter Tinte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Geist",
+        "sich zuwenden"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Nicht zu widerlegen, unleugbar.",
+      "friendly": "So solid bewiesen, dass es kein Argument dagegen gibt — der Fall ist einfach geschlossen.",
+      "exampleGloss": "Der DNA-Beweis war irrefragable, und der Prozess endete innerhalb einer Stunde.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "nicht",
+        "sich widersetzen, widerstehen"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Komplexität, Verwickeltheit; auch ein Einwärtskrümmen.",
+      "friendly": "Eine verknotete, in sich gefaltete Komplexität — Dinge so eng ineinander gewickelt, dass sie schwer zu lösen sind.",
+      "exampleGloss": "Die involution der Handlung ließ die Hälfte des Publikums nach dem Abspann noch entwirren.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinein, einwärts",
+        "rollen, wenden"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Kraft oder Mühe, wie in „by dint of“.",
+      "friendly": "Bloße Kraft oder Anstrengung — überlebt vor allem in der Wendung „by dint of“.",
+      "exampleGloss": "Er bestand die Prüfung by dint of schierer, hartnäckiger Übung.",
+      "origin": "Altenglisch",
+      "rootMeanings": [
+        "ein Schlag, ein Stoß",
+        "kraft"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Mit einer Zapfenverbindung gefügt; fest ineinander gepasst.",
+      "friendly": "Auf die alte Zimmermannsart ineinander verriegelt — ein Stück gleitet genau in ein Loch, das eigens dafür geschnitten ist.",
+      "exampleGloss": "Die Balken der alten Scheune waren mortised ineinander, ohne einen einzigen Nagel.",
+      "origin": "Latein / Französisch",
+      "rootMeanings": [
+        "eine Vertiefung, ein Loch",
+        "ein Biss, ein Griff"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Höchst treffend, passend.",
+      "friendly": "Genau der richtige Treffer für den Moment — eine Bemerkung, ein Zitat oder Beispiel, das punktgenau landet.",
+      "exampleGloss": "Ihre apposite Bemerkung fasste die ganze Debatte in einem Satz zusammen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zu",
+        "setzen"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Sanft glühend oder flackernd (Licht); auch: leichter Witz.",
+      "friendly": "Sanft glühend statt lodernd — ein weiches, flackerndes Licht, oder ein Witz, der spielerisch ist statt scharf.",
+      "exampleGloss": "Kerzenlicht warf einen lambent Schein über das alte Esszimmer.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "lecken",
+        "tuend (Licht, das ‚leckt‘)"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein religiöser Einsiedler, der in Einsamkeit lebt.",
+      "friendly": "Jemand, der sich ganz aus der Welt zurückzieht, um allein in Gebet und Betrachtung zu leben.",
+      "exampleGloss": "Der anchorite lebte über dreißig Jahre in einer kleinen Zelle an der Kirche.",
+      "origin": "Griechisch",
+      "rootMeanings": [
+        "zurück, weg",
+        "sich zurückziehen"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "Verb",
+      "definition": "Durst stillen; löschen.",
+      "friendly": "Ein Verlangen ganz stillen — meist Durst, bildlich aber jedes tiefe Bedürfnis.",
+      "exampleGloss": "Ein kaltes Glas Wasser slaked seinen Durst nach der langen Wanderung.",
+      "origin": "Altenglisch",
+      "rootMeanings": [
+        "schlaff, lose",
+        "lockern, lindern"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Nadelförmig.",
+      "friendly": "Lang, dünn und spitz wie eine Nadel — die Form einer Kiefernnadel oder eines scharfen Kriställchens.",
+      "exampleGloss": "Kiefern sind an ihren acicular Blättern leicht zu erkennen.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "Nadel",
+        "klein"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "Der Lebenskraft beraubt, schwach, überfeinert.",
+      "friendly": "Ausgelaugt und weich — die ursprüngliche Kraft durch zu viel Komfort oder Verfeinerung verloren.",
+      "exampleGloss": "Kritiker nannten die einst kühne Zeitschrift effete, ein Schatten ihrer kühnen Frühjahre.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "hinaus",
+        "fruchtbar, getragen habend"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Ein Zubehör oder geringfügig anhängendes Stück oder Recht.",
+      "friendly": "Ein kleines Extra, das an etwas Größerem hängt — die Beigaben und Anhängsel zum Hauptstück.",
+      "exampleGloss": "Der Mietvertrag umfasste die Garage und alle ihre appurtenances.",
+      "origin": "Latein / Französisch",
+      "rootMeanings": [
+        "zu",
+        "gehören"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "Verb",
+      "definition": "Einen Fehler beschönigen oder verkleinern.",
+      "friendly": "Einen Schnitzer mit weichen Worten glätten, sodass er kleiner klingt, als er ist.",
+      "exampleGloss": "Er versuchte, die verpasste Frist zu gloze over mit vagem Gerede von „unforeseen challenges.“",
+      "origin": "Altfranzösisch / Latein",
+      "rootMeanings": [
+        "eine Glosse, eine Erklärung",
+        "kommentieren — dann glätten"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "Adjektiv",
+      "definition": "In einem frühen Stadium, eben beginnend.",
+      "friendly": "Gerade erst sichtbar werdend — das allererste, kaum merkbare Stadium von etwas Größerem.",
+      "exampleGloss": "Ärzte erkannten die incipient Zeichen der Krankheit, bevor sie sich ausbreiten konnte.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "auf, hinein",
+        "nehmen (aufnehmen, beginnen)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "Substantiv",
+      "definition": "Schöpferische Eingebung, besonders göttliche.",
+      "friendly": "Ein plötzlicher Schub von Inspiration, der größer wirkt als du — als wäre die Idee dir von woanders eingehaucht.",
+      "exampleGloss": "Der Dichter beschrieb, wie das ganze Stück in einem burst of afflatus um drei Uhr morgens ankam.",
+      "origin": "Latein",
+      "rootMeanings": [
+        "zu, auf",
+        "blasen (ein Anhauchen)"
+      ]
+    }
+  }
+}

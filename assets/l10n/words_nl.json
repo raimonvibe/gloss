@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Zoeten of zuiveren; de scherpte uit iets halen.",
+      "friendly": "De angel of bitterheid uit iets halen — letterlijk zoeter maken, of figuurlijk een harde gedachte verzachten zodat die makkelijker binnenkomt.",
+      "exampleGloss": "De redacteur edulcorated de harde recensie voordat die naar de druk ging.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit, grondig",
+        "zoet"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Overdreven of geaffecteerd godsdienstig of vroom.",
+      "friendly": "Beschrijft iemand wiens vroomheid naar show ruikt: meer opvoering dan echt geloof.",
+      "exampleGloss": "Zijn pietistic gezucht tijdens de preek irriteerde de rest van de bank.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vroomheid, plichtsbesef",
+        "het karakter hebbend van"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Dubbelzinnigheid door de zinsbouw — een zin die op twee manieren te lezen is.",
+      "friendly": "Een zin die grammatisch klopt, maar op twee heel verschillende manieren te lezen is, zoals „Visiting relatives can be tiring.”",
+      "exampleGloss": "„Visiting relatives can be tiring” is een klassieke amphiboly — zijn de familieleden vermoeiend, of is het bezoek dat?",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "beide, aan beide kanten",
+        "werpen"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Scherp, treffend, recht op de man af.",
+      "friendly": "Snijdt dwars door het rumoer heen — een trenchant opmerking of geest raakt meteen de kern, zonder overbodige woorden.",
+      "exampleGloss": "Haar trenchant kritiek liet geen ruimte voor de gaten in het filmplot.",
+      "origin": "Oudfrans",
+      "rootMeanings": [
+        "snijden",
+        "doend, de hoedanigheid hebbend van"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Net begonnen; in een vroeg of rudimentair stadium.",
+      "friendly": "Nog in de openingsminuten — een plan, gevoel of proces dat pas net vorm begint te krijgen.",
+      "exampleGloss": "De inchoative fasen van het verdrag waren veelbelovend, maar veel details bleven open.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "beginnen, starten",
+        "neigend naar"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een formele toespraak of tekst die iemand hoog prijst.",
+      "friendly": "Een volle, plechtige lofzang — denk aan een stralende lijkrede of een speech die iemands verdiensten van de daken schreeuwt.",
+      "exampleGloss": "De vertrekkende hoogleraar werd uitgezwaaid met een panegyric van haar naaste studenten.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "al, geheel",
+        "bijeenkomst, vergadering"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Betreffende het werkelijke bestaan, in tegenstelling tot abstracte theorie.",
+      "friendly": "Over dingen zoals ze werkelijk zijn, niet alleen als ideeën of theorieën erover.",
+      "exampleGloss": "Filosofen debatteren of getallen enige ontic status hebben of alleen in ons hoofd bestaan.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "zijn, dat wat bestaat",
+        "betrekking hebbend op"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Vrucht dragen, of productief worden.",
+      "friendly": "Eindelijk vrucht afwerpen — een inspanning, idee of investering die fructifies is van zaad tot iets nuttigs uitgegroeid.",
+      "exampleGloss": "Jaren van stil onderzoek fructified uiteindelijk tot een werkend vaccin.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vrucht",
+        "maken, veroorzaken"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Iets voorstellen alsof het al gebeurd is voordat het werkelijk plaatsvindt.",
+      "friendly": "Op een literaire manier op de zaken vooruitlopen — een toekomstig feit beschrijven alsof het al klaar is, zodat de punt harder aankomt.",
+      "exampleGloss": "De proleptical toost van de generaal op „victory” werd een volle week vóór de slag uitgebracht.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "vóór",
+        "nemen, grijpen"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Werkend op luchtdruk; ook betrekking hebbend op geest of adem.",
+      "friendly": "Meestal: aangedreven door perslucht — een boor, een busrem — maar dezelfde Griekse wortel spreekt ook over adem en geest.",
+      "exampleGloss": "De pneumatic remmen siste toen de bus bij de stoeprand stopte.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "wind, adem, geest",
+        "betrekking hebbend op"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "God of het goddelijke beschrijven met bevestigende uitspraken — het tegenovergestelde van apofatisch.",
+      "friendly": "Over God spreken door te zeggen wat God ís — „God is liefde”, „God is rechtvaardig” — in plaats van alleen wat God niet is.",
+      "exampleGloss": "Cataphatic theologie spreekt vol vertrouwen over God als liefdevol, rechtvaardig en barmhartig.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "neer, volgens",
+        "spreken, zeggen"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Gebaseerd op vertrouwen of geloof; ook: een vast ijkpunt.",
+      "friendly": "Iets dat je op vertrouwen neemt en daarna als anker gebruikt — een fiducial merkteken is de vaste plek waartegen al het andere wordt afgemeten.",
+      "exampleGloss": "Landmeters plaatsten een fiducial merkteken in het gesteente voordat ze de plek in kaart brachten.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vertrouwen",
+        "vertrouwen, zekerheid"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een verdediging van Gods goedheid ondanks het bestaan van kwaad.",
+      "friendly": "De eeuwenoude poging om te antwoorden: als God goed is, waarom is er dan kwaad? — zonder een van beide claims op te geven.",
+      "exampleGloss": "Haar scriptie onderzocht theodicy door de lens van het boek Job.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "god",
+        "gerechtigheid"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Wederzijds inwonen — een theologische term voor hoe de personen van de Drie-eenheid in elkaar bestaan.",
+      "friendly": "Een theologisch woord voor een drie-in-een-saamhorigheid zo volledig dat elk deel de anderen bevat én erin bevat is.",
+      "exampleGloss": "De leer van circumincession probeert uit te leggen hoe Vader, Zoon en Geest onderscheiden én onscheidbaar zijn.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "rondom",
+        "gaan, lopen"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Een gevolg hebben dat iemand ten goede komt of op iemand terugvalt.",
+      "friendly": "Wanneer eer (of blaam) terugkaatst naar wie er verantwoordelijk voor is — goede daden die redound tot je naam komen later weer bij je terug.",
+      "exampleGloss": "Het succes van het team zal redound tot eer van de stille, hardwerkende coach.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "terug, opnieuw",
+        "golf"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Niet te vermijden of te ontkomen.",
+      "friendly": "Het gebeurt hoe dan ook — aan een ineluctable uitkomst wring je je niet los.",
+      "exampleGloss": "De ouderdom komt voor iedereen; het is eenvoudigweg ineluctable.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "niet",
+        "zich eruit worstelen"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Omslachtige, woordrijke formulering in plaats van een directe vorm.",
+      "friendly": "De lange weg met woorden: in een hele zin zeggen wat één woord zou dekken.",
+      "exampleGloss": "Zijn periphrastic e-mails hadden in één regel kunnen zeggen wat drie alinea’s kostte.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "rondom",
+        "verklaren, vertellen"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Geestelijke botheid of lethargie.",
+      "friendly": "Die mistige, trage gemoedstoestand waarin denken voelt als waden door siroop.",
+      "exampleGloss": "Een golf van hebetude sloeg vlak na de lunch over de klas.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "bot, stomp",
+        "toestand of hoedanigheid"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Niet gunstig; een slecht voorteken.",
+      "friendly": "Een slecht teken — omstandigheden of timing die al tegen je werken voordat je begonnen bent.",
+      "exampleGloss": "Grijze luchten en een dode accu maakten een unpropitious start van de roadtrip.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "niet",
+        "gunstig, genadig"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "bijvoeglijk naamwoord / werkwoord",
+      "definition": "Vlees gestoofd of gesmoord in saus — eigenlijk gespeld „fricasseed”.",
+      "friendly": "Een knusse, oude kookterm voor vlees dat is klein gesneden en langzaam in de eigen saus gaar gesudderd.",
+      "exampleGloss": "Grootmoeders fricasseed kip was het hoogtepunt van elk zondags diner.",
+      "origin": "Frans",
+      "rootMeanings": [
+        "braden, bakken",
+        "breken (in stukken)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Een kunstmatige of mindere vervanging.",
+      "friendly": "Een namaak die voor het echte moet doorgaan — het doet het werk, maar iedereen ziet dat het niet de echte is.",
+      "exampleGloss": "In oorlogstijd namen winkeliers genoegen met ersatz-koffie van geroosterde cichorei.",
+      "origin": "Duits",
+      "rootMeanings": [
+        "uit, vervangingsvoorvoegsel",
+        "zetten, plaatsen"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Een abstract idee behandelen alsof het een tastbaar ding is.",
+      "friendly": "Een idee vast en echt laten voelen — iets vaags, zoals „de markt”, tot een ding maken waar je naar kunt wijzen.",
+      "exampleGloss": "De „spirit” van een natie tot een wezen uitroepen reifies iets dat in werkelijkheid miljoenen losse keuzes zijn.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "ding",
+        "maken"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "werkwoord (verleden tijd)",
+      "definition": "Behendig ontsnapt of ontweken.",
+      "friendly": "Schoon weggeglipt — iets ontweken, vaak slim of nipt, of het nu een vangst, een vraag of een antwoord is.",
+      "exampleGloss": "Het antwoord eluded haar urenlang tot het ineens klikte onder de douche.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit, weg",
+        "spelen"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Twijfel, verbijstering of een onopgeloste tegenspraak uitdrukkend.",
+      "friendly": "Vastgelopen op een echt doodlopend pad van denken — niet uit luiheid, maar omdat de vraag zelf geen net antwoord toelaat.",
+      "exampleGloss": "Socrates eindigde zijn dialogen vaak op een aporetic toon, met meer vragen dan antwoorden.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "zonder",
+        "doorgang, weg"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een stijlfiguur waarbij iets wordt benoemd met een bijbehorend woord, bijvoorbeeld „de kroon” voor de vorst.",
+      "friendly": "Een verwant woord laten staan voor het echte — „Wall Street” zeggen als je de beurs bedoelt.",
+      "exampleGloss": "„Wall Street had a rough day” is metonymy — het betekent eigenlijk dat de aandelenmarkt het zwaar had.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "verandering, na",
+        "naam"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Ontwortelen; wegrukken uit een natuurlijke omgeving.",
+      "friendly": "Iets (of iemand) met wortel en al uittrekken, weg van de plek of cultuur waar het thuishoort.",
+      "exampleGloss": "Oorlog deracinated een hele generatie en verstrooide families over de grenzen.",
+      "origin": "Frans / Latijn",
+      "rootMeanings": [
+        "weg, af",
+        "wortel"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Aangenaam klinkend.",
+      "friendly": "Gewoon fijn om te horen — een euphonious woord of zin rolt soepel, bijna muzikaal, het oor in.",
+      "exampleGloss": "„Murmuring brook” is een euphonious klein zinnetje, zacht en makkelijk uit te spreken.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "goed, wel",
+        "klank, stem"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Algemeen aangenomen of verondersteld.",
+      "friendly": "Wijd en zijd voor waar gehouden, ook al is het niet bewezen — de vermeende of veronderstelde versie van iets.",
+      "exampleGloss": "De putative auteur van de brief bleek later een volslagen vreemde.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "denken, beschouwen",
+        "het karakter hebbend van"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een nieuw bedacht woord of een nieuwe uitdrukking.",
+      "friendly": "Een splinternieuw woord — net verzonnen, nog (nauwelijks) in het woordenboek.",
+      "exampleGloss": "„Doomscrolling” begon als neologism en werd snel alledaags slang.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "nieuw",
+        "woord, spraak"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Boos of slechtgehumeurd.",
+      "friendly": "In een chagrijnige, prikkelbare bui — snel van de keten, zoals men vroeger dacht dat de milt je humeur bestuurde.",
+      "exampleGloss": "Hij vuurde binnen seconden een splenetic antwoord op de e-mail af.",
+      "origin": "Grieks / Latijn",
+      "rootMeanings": [
+        "milt (zetel van woede)",
+        "aangetast door"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Geneigd tot moraliseren op een pompeuze of geaffecteerde manier.",
+      "friendly": "Deelt graag kleine levenslessen uit alsof elke zin een fortune cookie is.",
+      "exampleGloss": "Zijn sententious toost over „the true meaning of friendship” liet iedereen op de horloge kijken.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "mening, spreuk",
+        "vol van"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Overdreven praatziek, vooral over kleinigheden.",
+      "friendly": "Stopt gewoon niet met kletsen — raaskalt over klein spul lang nadat de rest is uitgesproken.",
+      "exampleGloss": "De garrulous taxichauffeur vertelde zijn hele levensverhaal voordat we het vliegveld uit waren.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "kletsen, babbelen",
+        "geneigd tot"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Dwaasheid, onnozelheid.",
+      "friendly": "Gewone dwaasheid — een opmerking of plan zo onnozel dat het nauwelijks een serieus antwoord verdient.",
+      "exampleGloss": "De pure fatuity van het plan werd duidelijk zodra ze het probeerden.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "dwaas, onnozel",
+        "toestand van zijn"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Het slot van een toespraak, vaak samenvattend.",
+      "friendly": "De grote finale van een speech — het slot waarin de spreker alles samenraapt en de punt thuisbrengt.",
+      "exampleGloss": "Bij de peroration stond de helft van het publiek op de been.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "door, tot het einde",
+        "spreken, bepleiten"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Overbodige herhaling van dezelfde gedachte in andere woorden.",
+      "friendly": "Hetzelfde twee keer zeggen zonder iets nieuws toe te voegen, zoals „gratis cadeau” of „it is what it is.”",
+      "exampleGloss": "„It is what it is” is een favoriete tautology van mensen die een echte uitleg ontwijken.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "hetzelfde",
+        "woord, spraak"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Het gebruik van zeer weinig woorden; korte, bondige spraak.",
+      "friendly": "Veel zeggen met heel weinig — de kunst van het korte, botte antwoord, genoemd naar de notoir korte Spartanen van Laconië.",
+      "exampleGloss": "„Molon labe” — „come and take them” — is het beroemdste stuk laconism uit de geschiedenis.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "een Spartaan uit Laconië",
+        "gewoonte, wijze"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Tamme, overgesimplificeerde ideeën; oorspronkelijk: smakeloos voedsel of brij.",
+      "friendly": "Dun, aangelengd denken — inhoud zo veilig en eenvoudig dat ze geen voedingswaarde voor de geest heeft.",
+      "exampleGloss": "De speech van de politicus was vooral pabulum: vage beloften waar je niets aan vast kon pinnen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "voeden",
+        "middel of werktuig"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Slaap of slaperigheid veroorzakend.",
+      "friendly": "Zo saai — of zo letterlijk verdovend — dat je er slaperig van wordt. Denk aan warme melk, of een begrotingsvergadering van drie uur.",
+      "exampleGloss": "De soporific dreun van de lezing liet de helft van de zaal vechten om de ogen open te houden.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "diepe slaap",
+        "makend, veroorzakend"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Overdreven vleiend of olieachtig in omgang.",
+      "friendly": "Zo glad charmant dat het glibberig voelt — vleierij zo dik aangezet dat je de olie bijna voelt.",
+      "exampleGloss": "De unctuous verkoper bleef mijn „excellent taste” prijzen vóór elke extra verkoop.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "zalven, oliën",
+        "vol van"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Snel in het bekritiseren, overdreven op triviale dingen.",
+      "friendly": "Muggenzifterig tot in het absurde — het type dat overal een probleem in ziet, ook als het er niet toe doet.",
+      "exampleGloss": "Zijn captious aantekeningen bij het rapport gingen alleen over kommagebruik.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "grijpen, nemen",
+        "een valstrik, een drogreden"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Traag, geestelijk of lichamelijk inactief.",
+      "friendly": "Langzaam en half in slaap, als een beer in winterslaap — nauwelijks bewegend, nauwelijks denkend.",
+      "exampleGloss": "Het kantoor viel torpid in de zware augustushitte.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "verdoofd zijn, traag zijn",
+        "in een staat van"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een hofmeester of beambte die een middeleeuws huishouden bestuurde.",
+      "friendly": "De middeleeuwse versie van een hoofd personeel — de vertrouwde beambte die het huis en landgoed van een heer dagelijks runde.",
+      "exampleGloss": "De seneschal van het kasteel regelde alles, van de oogstrekeningen tot de gastenlijst.",
+      "origin": "Frankisch / Oudfrans",
+      "rootMeanings": [
+        "oud, senior",
+        "dienaar"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Uitvoerig over een onderwerp spreken of schrijven.",
+      "friendly": "Echt op gang komen over een onderwerp — er eindeloos over praten of schrijven, van alle kanten.",
+      "exampleGloss": "Vraag hem naar oldtimers en hij zal een vol uur expatiate.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit",
+        "ruimte"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Zonder waarde, futiel; ook ongeldig of zonder effect.",
+      "friendly": "Zo goed als niks waard — een nugatory clausule in een contract doet in de praktijk niets.",
+      "exampleGloss": "De rechter verklaarde de oude verordening nugatory, omdat ze nooit was gehandhaafd.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "kleinigheden, onzin",
+        "behorend tot"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Wijsheid, scherp oordeel.",
+      "friendly": "Scherpe, praktische wijsheid — het soort goed oordeel dat uit ervaring komt, niet alleen uit boeken.",
+      "exampleGloss": "De sagacity van de oude kapitein hield de bemanning meer dan eens uit de problemen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "scherp van reuk, schrander",
+        "hoedanigheid van"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Het gewone grauw of het volk, minachtend gebruikt.",
+      "friendly": "Een snobistisch, denigrerend woord voor gewone mensen, alsof ze een roedel honden zijn.",
+      "exampleGloss": "De graaf grijnsde naar de canaille die zich buiten de paleispoorten verzamelde.",
+      "origin": "Italiaans / Frans",
+      "rootMeanings": [
+        "hond",
+        "collectief, roedel"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Beledigende, vernederende behandeling of taal.",
+      "friendly": "Wrede, spottende behandeling die bedoeld is om te kleineren — de belediging die moet steken.",
+      "exampleGloss": "Hij verdroeg jaren van contumely van critici voordat zijn werk eindelijk erkend werd.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "met, grondig",
+        "zwellen (van trots)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "bijwoord",
+      "definition": "Met argwaan of afkeuring; een zijdelingse blik.",
+      "friendly": "De scheve blik die je iets geeft dat je niet helemaal vertrouwt — een blik vol twijfel.",
+      "exampleGloss": "De leraar keek askance naar het verdacht netjes gemaakte huiswerk.",
+      "origin": "Onzeker / Italiaans",
+      "rootMeanings": [
+        "naar, tot",
+        "scheef, vooringenomen"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een stommerik; een sul.",
+      "friendly": "Een ouderwetse, bijna affectueuze belediging voor iemand die traag of bot is — een sul.",
+      "exampleGloss": "„You clodpate,” lachte ze, „you've had the map upside down the whole time.”",
+      "origin": "Engels",
+      "rootMeanings": [
+        "kluit aarde",
+        "hoofd"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "werkwoord",
+      "definition": "In beweging of tot handelen brengen; motiveren.",
+      "friendly": "De vonk zijn die iets in beweging zet — of het nu een machine is die aangaat of iemand die eindelijk naar een idee handelt.",
+      "exampleGloss": "Angst om het contract te verliezen actuated het hele team tot een weekend overwerk.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "een doen, een drijven",
+        "drijven, doen"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Verduistering van toevertrouwde gelden.",
+      "friendly": "Stilletjes geld stelen dat je moest bewaken — verduistering in een ouderwetse jas.",
+      "exampleGloss": "De peculation van de penningmeester bleef bijna tien jaar onopgemerkt.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "privébezit",
+        "vee, rijkdom"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een groep aan de rand van de fatsoenlijke samenleving.",
+      "friendly": "De glamourachtige maar schimmige onderwereld van de salon — mensen die net buiten de regels van het fatsoen leven.",
+      "exampleGloss": "De roman volgt een zangeres in de demi-monde van de cabarets van de jaren twintig.",
+      "origin": "Frans",
+      "rootMeanings": [
+        "half",
+        "wereld, samenleving"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Nog bestaande; niet uitgestorven of vernietigd.",
+      "friendly": "Vandaag de dag nog in leven — gebruikt voor oude dingen (handschriften, soorten, gebouwen) die het hebben gered.",
+      "exampleGloss": "Er zijn slechts drie extant exemplaren van de eerste druk bekend.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit",
+        "staan"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Bedrieglijkheid; verraad van vertrouwen.",
+      "friendly": "Diep, opzettelijk verraad — een vertrouwen breken dat iemand terecht van je verwachtte.",
+      "exampleGloss": "De generaal vergaf de perfidy van zijn oude vriend aan de onderhandelingstafel nooit.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "door, tegen",
+        "geloof, vertrouwen"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een streektaal, vooral een niet-standaard variant.",
+      "friendly": "De eigen, lokale manier waarop mensen in een streek praten — vol woorden en ritmes die een buitenstaander mist.",
+      "exampleGloss": "Haar grootmoeder sprak bij familiemaaltijden nog altijd het patois van het eiland.",
+      "origin": "Frans",
+      "rootMeanings": [
+        "ruwe spraak, dialect",
+        "poot — stuntelige praat"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een bijzonder recht van een persoon of groep.",
+      "friendly": "Een voorrecht dat van jou alleen is — een recht dat bij je rol, positie of status hoort.",
+      "exampleGloss": "De vakantiebestemming van de familie kiezen is Grandpa's prerogative, en iedereen weet dat.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vóór",
+        "vragen, stemmen"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Durf, stoutmoedigheid; ook taaiheid of uithoudingsvermogen.",
+      "friendly": "Ruige, dappere veerkracht — de durf om door te zetten en de taaiheid om vol te houden als je eenmaal onderweg bent.",
+      "exampleGloss": "Er was echte hardihood voor nodig om de pas in een sneeuwstorm zonder kaart over te steken.",
+      "origin": "Oudfrans / Engels",
+      "rootMeanings": [
+        "stout, taai",
+        "staat, gesteldheid"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "werkwoord",
+      "definition": "In bloei uitbarsten; ook: zich ontwikkelen of geleidelijk verschijnen.",
+      "friendly": "Openbloeien tot volle uitdrukking — als een bloem die opengaat, of een idee dat eindelijk tot zichzelf komt.",
+      "exampleGloss": "Haar stille talent voor schilderen effloresced toen ze een eigen atelier had.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit",
+        "beginnen te bloeien"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een verzwaard snoer om de loodrechte lijn te bepalen; figuurlijk: een maatstaf.",
+      "friendly": "Een gewicht aan een touw dat loodrecht naar beneden hangt, om te checken of iets écht verticaal is — en bij uitbreiding elke vaste maatstaf waartegen je de rest afzet.",
+      "exampleGloss": "Hij gebruikte de eerlijkheid van zijn grootvader als een soort plumb line voor elk besluit.",
+      "origin": "Latijn / Engels",
+      "rootMeanings": [
+        "lood",
+        "koord, maat"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "bijwoord",
+      "definition": "Graag, gewillig (archaïsch).",
+      "friendly": "Een ouderwetse manier om „graag” of „met plezier” te zeggen — je would fain iets doen als je het graag wilt.",
+      "exampleGloss": "„I would fain rest here a while,” zuchtte de reiziger.",
+      "origin": "Oudengels",
+      "rootMeanings": [
+        "blij, vreugdevol",
+        "graag, gewillig"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Harde publieke kritiek of schande.",
+      "friendly": "Openbare schande die iemand groots en zichtbaar wordt nagedragen — de smaad van wijdverbreide afkeuring.",
+      "exampleGloss": "Het schandaal bracht publieke opprobrium over het hele kantoor.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "tegen",
+        "schande, verwijt"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Scherp sarcastisch, bijtend in geest of kritiek.",
+      "friendly": "Humor met echte tanden — een mordant opmerking steekt juist omdat ze zo raak is gericht.",
+      "exampleGloss": "Haar mordant filmrecensies werden gevreesd door regisseurs en geliefd door lezers.",
+      "origin": "Latijn / Frans",
+      "rootMeanings": [
+        "bijten",
+        "bijtend, doend"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een formele proclamatie, vaak politiek of militair.",
+      "friendly": "Een groot, officieel bericht — meestal een die een nieuwe regering, opstand of groot decreet afkondigt.",
+      "exampleGloss": "Het pronunciamento van de generaal kondigde bij dageraad de nieuwe regering aan.",
+      "origin": "Spaans",
+      "rootMeanings": [
+        "voorwaarts",
+        "aankondigen"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Iemand met oppervlakkige kennis die zich als deskundige voordoet.",
+      "friendly": "Iemand die over de oppervlakte van een onderwerp is geschampt en dan praat alsof hij het handboek schreef.",
+      "exampleGloss": "De sciolist op het diner corrigeerde vol vertrouwen de echte astrofysicus aan tafel.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "weten",
+        "verkleinwoord — een klein-weter"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Achteruitgang van de geestelijke vermogens op hoge leeftijd.",
+      "friendly": "De mistige, vergeetachtige late ouderdom waarin de scherpte van de geest begint te tanen.",
+      "exampleGloss": "In zijn dotage vertelde hij bij elk bezoek dezelfde drie verhalen, telkens alsof ze nieuw waren.",
+      "origin": "Middelengels",
+      "rootMeanings": [
+        "dwazen, suf zijn",
+        "toestand of gevolg"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "De zijde die uit de wind ligt.",
+      "friendly": "De luwe, beschutte kant van iets — een heuvel, een schip, een muur — waar de wind je net niet bereikt.",
+      "exampleGloss": "De wandelaars sloegen hun tent op aan de lee side van de rug om de vlagen te ontwijken.",
+      "origin": "Oudengels",
+      "rootMeanings": [
+        "beschutting, bescherming",
+        "flank, zijde"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Een slag, vraag of argument afweren of omleiden.",
+      "friendly": "Iets soepel wegslaan — een zwaardslag, een lastige vraag, een beschuldiging — zonder een tel te missen.",
+      "exampleGloss": "Ze parried de lastige vraag van de verslaggever met een luchtige grap.",
+      "origin": "Frans",
+      "rootMeanings": [
+        "afweren",
+        "voorbereiden, verdedigen"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Stinkend, giftig van geur.",
+      "friendly": "Walgelijk ruikend op een bijna giftige manier — een stank zo erg dat ademen gevaarlijk lijkt.",
+      "exampleGloss": "Een mephitic geur dreef bij zonsondergang op uit het moeras.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "schadelijke damp",
+        "het karakter hebbend van"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Iemand die zich wijdt aan luxe en genot.",
+      "friendly": "Iemand die leeft voor comfort en wellust — fijn eten, zachte bedden, makkelijk leven — genoemd naar de Griekse stad Sybaris, beroemd om haar overdaad.",
+      "exampleGloss": "Een echte sybarite, hij weigerde elke hotelkamer zonder badkuip.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "oude Griekse stad beroemd om luxe",
+        "inwoner van"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Opzettelijk een deel van iets terzijde schuiven of negeren.",
+      "friendly": "In gedachten een stuk van de puzzel bewust apart zetten, zodat je schoon op de rest kunt focussen.",
+      "exampleGloss": "Laten we even prescind van de kosten en alleen vragen of het plan überhaupt werkt.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vóór, weg",
+        "snijden"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Hard bekritiseren; ook: de huid afstropen.",
+      "friendly": "Iemand met harde kritiek villen — alsof je letterlijk de huid eraf haalt.",
+      "exampleGloss": "De critici excoriated het vervolg omdat het alles verraadde waar fans van het origineel van hielden.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "af",
+        "huid, vel"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Aanhalen als bewijs of bewijsgrond.",
+      "friendly": "Een feit of voorbeeld naar voren brengen om je punt te stutten — dat waar je naar wijst als iemand om bewijs vraagt.",
+      "exampleGloss": "De advocate adduced drie getuigen ter ondersteuning van het alibi van haar cliënt.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "naar, richting",
+        "leiden"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Reizen of omzwervingen, vooral lange of uitgebreide.",
+      "friendly": "Lange, zwervende tochten — het soort omzwerving dat je een hele poos ver van huis houdt.",
+      "exampleGloss": "Zijn peregrinations over drie continenten vulden een hele plank met reisdagboeken.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "door",
+        "veld, land (peregrinus: vreemdeling)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een bedelaar, of iemand die van aalmoezen leeft.",
+      "friendly": "Iemand die leeft van gevraagde liefdadigheid — historisch ook monniken die armoede beloofden en van giften leefden.",
+      "exampleGloss": "De mendicant broeders bezaten niets en leefden geheel van de goedheid van dorpelingen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "bedelen",
+        "bedelaar"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Buitengewoon gul.",
+      "friendly": "Gul op een groots, bijna theatraal formaat — het soort gift waarbij mensen even naar adem happen.",
+      "exampleGloss": "De munificent gift financierde de hele nieuwe vleugel van de bibliotheek.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "gift, dienst",
+        "makend, gevend"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Uitputting door gebrek aan voeding; ook een gebrek aan levenskracht.",
+      "friendly": "Een slappe, leeggezogen staat van niet gevoed of gevoed te zijn — letterlijk van honger, of figuurlijk van niets meer over te hebben.",
+      "exampleGloss": "Aan het eind van het beleg waren de soldaten nabij inanition.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "leeg, ijdel",
+        "de daad of het gevolg van"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Bittere, scheldende kritiek.",
+      "friendly": "Kritiek die allang het eerlijke voorbij is en in een boze, bittere tirade is veranderd.",
+      "exampleGloss": "De online reacties losten binnen minuten op in pure vituperation.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "fout, gebrek",
+        "bereiden, verschaffen"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Vijandig, schadelijk van uitwerking.",
+      "friendly": "Tegen je inwerkend, al is het stilletjes — omstandigheden of houdingen die je belangen niet vriendelijk gezind zijn.",
+      "exampleGloss": "Het nieuwe beleid was inimical voor kleine bedrijven, ook al was dat niet de bedoeling.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "niet",
+        "vriend"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Waarschijnlijk wrok of onvrede veroorzakend, vaak door oneerlijke vergelijkingen.",
+      "friendly": "Gegarandeerd dat iemand zich tekortgedaan voelt — meestal omdat mensen of dingen oneerlijk tegenover elkaar worden gezet.",
+      "exampleGloss": "Broers en zussen rangschikken naar „who Mom loves best” is een invidious spel dat niemand moet spelen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "nijd",
+        "aanzien (met kwade wil)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Iemand van lagere rang of status; een ondergeschikte.",
+      "friendly": "Iemand lager in de commando- of sociale ladder — een junior, werkend onder iemand met meer macht.",
+      "exampleGloss": "Als jonge subaltern nam hij lang bevelen aan voordat hij ze ooit gaf.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "onder",
+        "alternatief, ander"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Sterke haat voelen of uiten.",
+      "friendly": "Iets zo verafschuwen dat je het hardop vervloekt — pure, luidruchtige afkeer.",
+      "exampleGloss": "De dorpelingen execrated de belastinginner telkens als zijn kar door het dorp rolde.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit",
+        "heilig (vervloeken, uit het heilige stoten)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een natuurlijke buitenste bedekking, zoals huid of een schelp.",
+      "friendly": "De eigen beschermende verpakking van de natuur — huid, schelp, dop of schil, wat een levend wezen bedekt en beschermt.",
+      "exampleGloss": "Het schild van een schildpad is een opmerkelijk taai integument.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "op, over",
+        "bedekken"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Onschuldig, naïef, van kinderlijke eenvoud; het tegenovergestelde van hinterlistig.",
+      "friendly": "Openlijk vertrouwend en een tikje naïef, zonder verborgen agenda — makkelijk te verwarren met „ingenious”, dat slim betekent.",
+      "exampleGloss": "Haar ingenuous vraag — „why would anyone lie about that?” — liet zien hoe weinig sluwheid ze had.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "in, inheems",
+        "verwekken (vrijgeboren, oprecht)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Overdreven aandacht voor kleine details of regels.",
+      "friendly": "Verdwaald in de kleine regels en het grotere plaatje missen — piekeren over de kleine lettertjes waar niemand anders om geeft.",
+      "exampleGloss": "Zijn pedantry over Oxford-komma’s ontspoorde de hele vergadering.",
+      "origin": "Italiaans / Latijn",
+      "rootMeanings": [
+        "leermeester van kinderen",
+        "praktijk of hoedanigheid"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een grondig, zorgvuldig onderzoek.",
+      "friendly": "Een diepe, geen-steen-onberoerd-latende blik — elk detail met echte zorg nalopen.",
+      "exampleGloss": "Pas na een zorgvuldige perscrutation van de grootboeken kwam de afwijking boven.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "door, grondig",
+        "zoeken, onderzoeken"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Bezwaar maken; aarzeling tonen.",
+      "friendly": "Beleefd tegensputteren of aarzelen in plaats van meteen mee te gaan — een zacht „wacht even”.",
+      "exampleGloss": "Toen haar werd gevraagd te tekenen zonder te lezen, demurred ze.",
+      "origin": "Latijn / Frans",
+      "rootMeanings": [
+        "van, weg",
+        "uitstellen"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Op het oog aannemelijk, maar in werkelijkheid onjuist.",
+      "friendly": "Klinkt in eerste instantie overtuigend, maar valt uit elkaar zodra je het echt nagaat.",
+      "exampleGloss": "„Everyone's doing it” is een specious argument dat onder de loep nooit helemaal standhoudt.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uiterlijk, aanzien",
+        "vol van (schoon-schijnend)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Onechte, hypocriete praat, vaak moraliserend.",
+      "friendly": "Prekerige taal die deugdzaam klinkt maar door geen echt gevoel wordt gedragen — moreel poseren op de automatische piloot.",
+      "exampleGloss": "Hij was het corporate cant over „family” zat van een bedrijf dat niemand vrijaf gaf.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "zingen (later: dreunend jargon)",
+        "jankerige spraak van bedelaars, daarna hypocrisie"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Zonder moed, laf.",
+      "friendly": "Schuchter tot op het ruggengraatloze af — te bang om op te staan, ook als het er duidelijk toe doet.",
+      "exampleGloss": "De pusillanimous stilte van het bestuur liet het schandaal uit de hand lopen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "zeer klein",
+        "geest, moed"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Vosachtig; sluw, listig.",
+      "friendly": "Sluw en slim zoals een vos — bijdehand, een tikje sneaky, altijd een stap voor.",
+      "exampleGloss": "Hij gaf een vulpine grijns zodra hij het achterdeurtje zag.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vos",
+        "van of als"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "bijwoord",
+      "definition": "De een na de ander, in volgorde.",
+      "friendly": "Strikt één voor één, op volgorde — niet vooruit springen, niet twee tegelijk.",
+      "exampleGloss": "De rechter behandelde elk van de twaalf claims seriatim.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "rij, reeks",
+        "één voor één"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Extreme zuinigheid; gierigheid.",
+      "friendly": "Strak zijn met geld (of woorden, of middelen) ver voorbij redelijke spaarzaamheid.",
+      "exampleGloss": "Zijn parsimony was legendarisch — hij gebruikte theezakjes drie keer.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "sparen, zuinig zijn",
+        "staat of praktijk"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een correctie, vooral in een tekst.",
+      "friendly": "Een herstel in een stuk tekst — een geleerde bijstelling die een fout in een oude of belangrijke tekst rechtzet.",
+      "exampleGloss": "De nieuwe uitgave bevat tientallen emendations aan het oorspronkelijke handschrift.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit",
+        "fout, vergissing"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Matig in eten en drinken.",
+      "friendly": "Bewust terughoudend rond eten en drinken — nooit te veel, altijd een beetje op het bord laten liggen.",
+      "exampleGloss": "Zijn abstemious gewoonten hielden hem scherp lang nadat zijn leeftijdgenoten waren vertraagd.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "weg van",
+        "bedwelmende drank"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een grammaticale fout of een inbreuk op de etiquette.",
+      "friendly": "Een uitglijder in grammatica of manieren — het soort kleine fout waar een pietje-precies van ineenkrimpt.",
+      "exampleGloss": "„Between you and I” is een veelvoorkomende solecism waar grammatici nog altijd van huiveren.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "Cilicische stad bekend om ‘slecht’ Grieks",
+        "gewoonte, wijze"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Betreffende conflict binnen een groep; wederzijds vernietigend.",
+      "friendly": "Intern gekibbel dat een groep van binnenuit verscheurt — een gevecht waarin iedereen verliest, omdat het familie tegen familie is.",
+      "exampleGloss": "Het internecine geruzie van de partij deed meer schade dan welke buitenstaander ook kon.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "tussen, onder",
+        "doden"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "bijvoeglijk naamwoord / zelfstandig naamwoord",
+      "definition": "Onverschillige, achteloze houding.",
+      "friendly": "Een schouderophalen tot persoonlijkheid verheven — zo weinig geven om wat ooit telde dat niets de moeite meer lijkt.",
+      "exampleGloss": "Zijn pococurante houding tegenover de prijsuitreiking verraste iedereen die wist hoe hard hij had gewerkt.",
+      "origin": "Italiaans",
+      "rootMeanings": [
+        "weinig",
+        "geven om"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een verwarde, ingewikkelde situatie of ruzie.",
+      "friendly": "Een verknoopte, rommelige situatie die lastig te ontwarren is — deels misverstand, deels drama, allemaal verwarring.",
+      "exampleGloss": "Het hele seating-chart-imbroglio begon met één verkeerd geplaatst naamkaartje.",
+      "origin": "Italiaans",
+      "rootMeanings": [
+        "in",
+        "verwarren, in de knoop brengen"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Dreigend, onheilspellend.",
+      "friendly": "Met een onmiskenbare zweem van dreiging — een minatory blik of brief maakt heel duidelijk dat er iets naars kan volgen.",
+      "exampleGloss": "De minatory toon van de brief maakte de huurder nerveus voordat ze de envelop zelfs maar had geopend.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "dreigen",
+        "dienend tot"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Harde publieke kritiek of verbale smaad.",
+      "friendly": "Luid, openbaar afkeuren — de soort bijtende kritiek die zich voor ieders ogen afspeelt.",
+      "exampleGloss": "De klokkenluider kreeg jaren van publieke obloquy voordat de geschiedenis haar gelijk gaf.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "tegen",
+        "spreken"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een plotselinge hevige uitbarsting, van emotie of handeling.",
+      "friendly": "Een plotselinge, intense golf die je in één klap overspoelt — een lachbui, woede of hoest die als een golf toeslaat.",
+      "exampleGloss": "Ze werd gegrepen door een paroxysm van lachen die ze niemand anders in de kamer kon uitleggen.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "voorbij",
+        "scherp, acuut"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Van buitenaf toegevoegd, niet inherent.",
+      "friendly": "Van buiten vastgeschroefd in plaats van van meet af aan ingebouwd — een extra, geen kern.",
+      "exampleGloss": "Het commentaar voelt adscititious, alsof het aan een al voltooide tekst is vastgeplakt.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "naar, bovendien",
+        "goedkeuren, aannemen"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Gebrek aan kennis, onwetendheid.",
+      "friendly": "Gewoon niet-weten — een gat in kennis, zonder oordeel eroverheen.",
+      "exampleGloss": "Hij gaf zijn nescience van Franse wijn toe en liet de sommelier kiezen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "niet",
+        "weten"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Overdreven belangstelling voor seksuele zaken.",
+      "friendly": "Een te gretige, gluiperige nieuwsgierigheid naar alles wat pikant is — interesse die het gezonde voorbij is en bemoeizuchtig wordt.",
+      "exampleGloss": "De prurience van de boulevardkrant over het privéleven van het stel grensde aan obsessie.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "jeuken, verlangen",
+        "toestand van"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Roetig, donker, troebel.",
+      "friendly": "Donker en rookachtig, alsof alles met een dunne laag roet is overtrokken.",
+      "exampleGloss": "Een fuliginous nevel hing bij schemering over de fabrieksstad.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "roet",
+        "vol van"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Ontkennen of tegenspreken.",
+      "friendly": "Botweg ingaan tegen wat iemand anders zei — zeggen dat het niet zo is.",
+      "exampleGloss": "Niemand durfde de oude kapitein te gainsay over zijn verhaal van de storm.",
+      "origin": "Middelengels",
+      "rootMeanings": [
+        "tegen",
+        "spreken"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Luiheid, traagheid (uit het Latijn).",
+      "friendly": "Een oud Latijns woord voor pure luiheid — de sleep van nergens zin in hebben.",
+      "exampleGloss": "De monniken preekten tegen ignavia als een van de stille gevaren van de ziel.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "niet",
+        "bezig, vlijtig"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een schild dat een wapen toont.",
+      "friendly": "Het schildvormige embleem met het familiewapen — het heraldische kenteken.",
+      "exampleGloss": "Het escutcheon van de familie hangt nog altijd boven de voordeur van het oude landhuis.",
+      "origin": "Latijn / Oudfrans",
+      "rootMeanings": [
+        "schild",
+        "verkleinwoord / voorwerp"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Verouderd, achterhaald, of wegens leeftijd buiten dienst.",
+      "friendly": "Voorbij de nuttige bloei en op non-actief gezet — te ouderwets of versleten om het werk nog te doen.",
+      "exampleGloss": "De superannuated printer werd eindelijk vervangen na vijftien jaar vastlopen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "voorbij",
+        "jaar"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Vervangmiddelen, vooral in de geneeskunde.",
+      "friendly": "Plaatsvervangende middelen als de echte behandeling er niet is — medische understudies, eigenlijk.",
+      "exampleGloss": "Oorlogsartsen steunden vaak op succedanea als de echte medicijnen opraakten.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "in plaats van",
+        "gaan, wijken"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Opschepperig, blufferig gepraat.",
+      "friendly": "Groot, blazerig opscheppen — luide praat over je eigen grootsheid die vooral hete lucht is.",
+      "exampleGloss": "Zijn rodomontade over het project „single-handedly” redden fopte niemand die er echt bij was geweest.",
+      "origin": "Italiaans",
+      "rootMeanings": [
+        "opscheppende ridder in Orlando Furioso",
+        "handeling, vertoon"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Met listen of bedrog iets bereiken.",
+      "friendly": "Je doel bereiken met slinkse trucjes in plaats van eerlijk spel.",
+      "exampleGloss": "Hij chicaned zich in de deal met een contract vol kleine lettertjes.",
+      "origin": "Frans",
+      "rootMeanings": [
+        "harrewarren, bedriegen",
+        "list; later een scherpe bocht"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "De zuivere of abstracte wetenschap van leren of kennis, vaak wiskunde.",
+      "friendly": "Leren in zijn puurste, abstractste vorm — de diepe structuur van kennis zelf, vooral de wiskundige.",
+      "exampleGloss": "De filosoof droomde van een universele mathesis die elk kennisgebied zou verenigen.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "leren",
+        "de daad van leren"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Overdreven begaan met formele regels of triviale details.",
+      "friendly": "Te streng op de kleinigheden — kleine technische punten corrigeren die niets wezenlijks veranderen.",
+      "exampleGloss": "Het voelde een beetje pedantic om in een appbericht te twisten over „who” versus „whom”.",
+      "origin": "Italiaans / Grieks",
+      "rootMeanings": [
+        "kinderbegeleider, tutor",
+        "de manier hebbend van"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een flitsend, sprankelend licht.",
+      "friendly": "Een snelle, glinsterende lichtflits — zonlicht op water, of een diamant die het licht vangt.",
+      "exampleGloss": "De coruscation van de kroonluchter strooide licht over elke hoek van de balzaal.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "glinsteren, flitsen",
+        "de daad van"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een beginner, een nieuweling.",
+      "friendly": "Iemand splinternieuw in een vaardigheid of vak — nog bezig de kneepjes te leren, nog geen kenner.",
+      "exampleGloss": "Zelfs een tyro-schaakspeler ziet die blunder.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "rekruut, nieuweling",
+        "een groene jonge soldaat"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Uiterst slecht, verfoeilijk.",
+      "friendly": "Slecht op een manier die echte afkeer verdient — niet alleen matig, maar werkelijk afschuwelijk.",
+      "exampleGloss": "De recensent noemde het vervolg execrable, en de kassa gaf hem gelijk.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "vervloeken",
+        "waardig om, in staat tot"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Bloedrood van kleur.",
+      "friendly": "Een diep, fel rood — de kleur van vers bloed, beroemd gemaakt door Shakespeares Macbeth.",
+      "exampleGloss": "De zonsondergang zette de hele hemel in een incarnadine gloed.",
+      "origin": "Italiaans / Latijn",
+      "rootMeanings": [
+        "in",
+        "vlees (vleesrood)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een klein gat of tussenruimte.",
+      "friendly": "Het kleine tussenruimte dat je makkelijk over het hoofd ziet — de kier tussen de planken, het gaatje in een agenda.",
+      "exampleGloss": "Onkruid duwde omhoog door elke interstice in het oude bakstenen pad.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "tussen",
+        "staan"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Kritische of afkeurende opmerkingen.",
+      "friendly": "Puntige, afkeurende commentaren — de soort kritiek die een tikje berispend klinkt.",
+      "exampleGloss": "De animadversions van de professor op het essay vulden de kantlijnen met rode inkt.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "geest",
+        "zich toewenden"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Onweerlegbaar, onloochenbaar.",
+      "friendly": "Zo stevig bewezen dat er niet tegenin te gaan valt — de zaak is simpelweg gesloten.",
+      "exampleGloss": "Het DNA-bewijs was irrefragable, en het proces was binnen het uur voorbij.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "niet",
+        "zich verzetten, weerstaan"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Complexiteit, ingewikkeldheid; ook een naar binnen krullen.",
+      "friendly": "Een verknoopte, in-zichzelf-gevouwen complexiteit — dingen zo strak in elkaar gewikkeld dat ze lastig los te trekken zijn.",
+      "exampleGloss": "De involution van het plot liet de helft van het publiek na de aftiteling nog ontwarren.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "in, naar binnen",
+        "rollen, keren"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Kracht of inspanning, zoals in „by dint of”.",
+      "friendly": "Puur krachtvertoon of inzet — overleeft vooral in de uitdrukking „by dint of”.",
+      "exampleGloss": "Hij slaagde voor het examen by dint of pure, koppige oefening.",
+      "origin": "Oudengels",
+      "rootMeanings": [
+        "een slag, een stoot",
+        "krachtens"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Verbonden met een pen-en-gatverbinding; stevig in elkaar gepast.",
+      "friendly": "Op de ouderwetse timmermansmanier in elkaar gezet — het ene stuk glijdt precies in een gat dat er speciaal voor is uitgezaagd.",
+      "exampleGloss": "De balken van de oude schuur waren mortised in elkaar zonder één spijker.",
+      "origin": "Latijn / Frans",
+      "rootMeanings": [
+        "een holte, een gat",
+        "een beet, een greep"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Uiterst treffend, passend.",
+      "friendly": "Precies de juiste vondst voor het moment — een opmerking, citaat of voorbeeld dat keihard raak is.",
+      "exampleGloss": "Haar apposite opmerking vatte het hele debat in één zin samen.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "naar",
+        "plaatsen"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Zacht gloeiend of flikkerend (licht); ook: lichte geestigheid.",
+      "friendly": "Zacht gloeiend in plaats van fel — een flikkerend licht, of een geest die speels is in plaats van scherp.",
+      "exampleGloss": "Kaarslicht wierp een lambent gloed over de oude eetkamer.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "likken",
+        "doend (licht dat ‘likt’)"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een religieuze kluizenaar die in eenzaamheid leeft.",
+      "friendly": "Iemand die zich helemaal uit de wereld terugtrekt om alleen in gebed en overdenking te leven.",
+      "exampleGloss": "De anchorite woonde meer dan dertig jaar in een kleine cel tegen de kerk aan.",
+      "origin": "Grieks",
+      "rootMeanings": [
+        "terug, weg",
+        "zich terugtrekken"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Dorst lessen; blussen.",
+      "friendly": "Een hunkering helemaal stillen — meestal dorst, maar figuurlijk ook elke diepe behoefte.",
+      "exampleGloss": "Één koud glas water slaked zijn dorst na de lange wandeling.",
+      "origin": "Oudengels",
+      "rootMeanings": [
+        "slap, los",
+        "verslappen, stillen"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Naaldvormig.",
+      "friendly": "Lang, dun en puntig als een naald — de vorm van een dennennaald of een scherp kristalletje.",
+      "exampleGloss": "Dennen zijn makkelijk te herkennen aan hun acicular bladeren.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "naald",
+        "klein"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "Uitgeput van levenskracht, zwak, oververfijnd.",
+      "friendly": "Versleten en week — de oorspronkelijke kracht kwijtgeraakt door te veel comfort of verfijning.",
+      "exampleGloss": "Critici noemden het ooit gedurfde tijdschrift effete, een schim van zijn brutale beginjaren.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "uit",
+        "vruchtbaar, gedragen hebbend"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Een bijzaak of klein aangehecht item of recht.",
+      "friendly": "Een klein extraatje dat bij iets groters hoort — de accessoires en aanhangsels bij het hoofdzaken.",
+      "exampleGloss": "De huurovereenkomst omvatte de garage en al haar appurtenances.",
+      "origin": "Latijn / Frans",
+      "rootMeanings": [
+        "naar",
+        "behoren"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "werkwoord",
+      "definition": "Een fout wegmoffelen of kleiner maken.",
+      "friendly": "Een misser met zachte woorden gladstrijken, zodat hij kleiner klinkt dan hij is.",
+      "exampleGloss": "Hij probeerde de gemiste deadline te gloze over met vage praat over „unforeseen challenges.”",
+      "origin": "Oudfrans / Latijn",
+      "rootMeanings": [
+        "een glosse, een uitleg",
+        "commentariëren — daarna gladstrijken"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "bijvoeglijk naamwoord",
+      "definition": "In een vroeg stadium, net beginnend.",
+      "friendly": "Net zichtbaar aan het worden — het allereerste, nauwelijks merkbare begin van iets groters.",
+      "exampleGloss": "Artsen vingen de incipient tekenen van de ziekte voordat die zich kon verspreiden.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "op, in",
+        "nemen (opnemen, beginnen)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "zelfstandig naamwoord",
+      "definition": "Creatieve inspiratie, vooral goddelijke.",
+      "friendly": "Een plotselinge golf van inspiratie die groter voelt dan jij — alsof het idee je van elders is ingeblazen.",
+      "exampleGloss": "De dichter beschreef hoe het hele stuk in één burst of afflatus om drie uur ’s nachts arriveerde.",
+      "origin": "Latijn",
+      "rootMeanings": [
+        "naar, op",
+        "blazen (een aanblazing)"
+      ]
+    }
+  }
+}

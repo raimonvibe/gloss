@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "verba",
+      "definition": "Memaniskan atau memurnikan; menghilangkan kekerasan dari sesuatu.",
+      "friendly": "Mengambil sengat atau kepahitan — secara harfiah memaniskan, atau secara kiasan melembutkan gagasan kasar agar lebih mudah ditelan.",
+      "exampleGloss": "Penyunting edulcorated ulasan keras itu sebelum dicetak.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar, secara tuntas",
+        "manis"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Terlalu atau dibuat-buat religius atau saleh.",
+      "friendly": "Menggambarkan seseorang yang bakti agamanya terasa sandiwara, lebih pertunjukan daripada iman sejati.",
+      "exampleGloss": "Desahan pietistic-nya selama khotbah mengesalkan sisa bangku.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kesalehan, kewajiban",
+        "memiliki watak"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "nomina",
+      "definition": "Ambiguitas dari struktur tata bahasa — kalimat yang bisa dibaca dua cara.",
+      "friendly": "Kalimat yang tata bahasanya benar tetapi bisa dibaca dua makna sama sekali berbeda, seperti \"Visiting relatives can be tiring\".",
+      "exampleGloss": "\"Visiting relatives can be tiring\" adalah amphiboly klasik — apakah kerabatnya yang melelahkan, atau mengunjungi mereka?",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "keduanya, di kedua sisi",
+        "melempar"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Tajam, menusuk, memotong lurus ke inti.",
+      "friendly": "Memotong omong kosong — komentar atau pikiran trenchant sampai ke jantung perkara dengan cepat, tanpa kata sia-sia.",
+      "exampleGloss": "Kritik trenchant-nya tidak menyisakan lubang plot film tempat bersembunyi.",
+      "origin": "Prancis Kuno",
+      "rootMeanings": [
+        "memotong",
+        "melakukan, memiliki mutu"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Baru mulai; pada tahap awal atau sederhana.",
+      "friendly": "Masih di menit pembuka — rencana, perasaan, atau proses yang baru mulai berbentuk.",
+      "exampleGloss": "Tahap inchoative perjanjian itu menjanjikan, tetapi banyak rincian masih terbuka.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "memulai, mengawali",
+        "cenderung ke arah"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "nomina",
+      "definition": "Pidato atau tulisan resmi yang memuji seseorang dengan tinggi.",
+      "friendly": "Penghormatan formal yang penuh — bayangkan eulogi bersinar atau pidato yang menyanyikan prestasi dari atap.",
+      "exampleGloss": "Profesor yang pensiun diantar dengan panegyric dari mahasiswanya yang terdekat.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "semua",
+        "majelis, kumpulan"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berkaitan dengan keberadaan nyata atau ada faktual, bukan teori abstrak.",
+      "friendly": "Tentang hal-hal sebagaimana benar-benar ada, bukan hanya sebagai gagasan atau teori tentangnya.",
+      "exampleGloss": "Para filsuf berdebat apakah bilangan punya status ontic atau hanya ada di pikiran kita.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "ada, yang wujud",
+        "berkaitan dengan"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "verba",
+      "definition": "Berbuah, atau menjadi produktif.",
+      "friendly": "Akhirnya membuahkan hasil — usaha, gagasan, atau investasi yang tumbuh dari benih menjadi sesuatu yang berguna.",
+      "exampleGloss": "Tahun-tahun riset sunyi akhirnya fructified menjadi vaksin yang bekerja.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "buah",
+        "membuat, menyebabkan"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Mengantisipasi atau menampilkan sesuatu seolah sudah selesai sebelum benar-benar terjadi.",
+      "friendly": "Mendahului secara sastra — menggambarkan peristiwa masa depan seolah sudah selesai, agar poin lebih keras.",
+      "exampleGloss": "Toast proleptical jenderal untuk \"victory\" disampaikan seminggu penuh sebelum pertempuran.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "sebelum",
+        "mengambil, merebut"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Digerakkan tekanan udara; juga berkaitan dengan roh atau napas.",
+      "friendly": "Biasanya berarti \"ditenagai udara bertekanan\" — meski juga bisa berarti roh atau napas.",
+      "exampleGloss": "Rem pneumatic mendesis saat bus merapat ke trotoar.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "angin, napas, roh",
+        "berkenaan dengan"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Menggambarkan Tuhan atau yang ilahi lewat pernyataan positif — kebalikan apofatik.",
+      "friendly": "Cara berbicara tentang Tuhan dengan mengatakan apa adanya Tuhan — \"God is love\" — bukan hanya apa yang bukan Tuhan.",
+      "exampleGloss": "Teologi Cataphatic berbicara yakin tentang Tuhan sebagai pengasih, adil, dan murah hati.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "ke bawah, menurut",
+        "berbicara, berkata"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berdasarkan kepercayaan atau iman; juga dipakai sebagai titik acuan tetap.",
+      "friendly": "Sesuatu yang Anda terima dengan percaya lalu jadikan jangkar — tanda fiducial adalah titik tetap tempat segala diukur.",
+      "exampleGloss": "Para juru ukur menempatkan penanda fiducial di batuan dasar sebelum memetakan lokasi.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "percaya",
+        "kepercayaan, keyakinan"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "nomina",
+      "definition": "Pembelaan kebaikan Tuhan mengingat adanya kejahatan.",
+      "friendly": "Upaya kuno menjawab \"Jika Tuhan baik, mengapa kejahatan ada?\"",
+      "exampleGloss": "Tesisnya menelusuri theodicy lewat lensa Kitab Ayub.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "tuhan",
+        "keadilan"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "nomina",
+      "definition": "Saling tinggal di dalam — istilah teologi tentang pribadi Tritunggal yang ada di dalam satu sama lain.",
+      "friendly": "Kata teologi untuk kebersamaan tiga-dalam-satu begitu lengkap hingga tiap bagian berisi dan diisi yang lain.",
+      "exampleGloss": "Doktrin circumincession mencoba menjelaskan bagaimana Bapa, Anak, dan Roh berbeda namun tak terpisahkan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sekitar",
+        "pergi, berjalan"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "verba",
+      "definition": "Menghasilkan akibat yang menguntungkan atau memantul pada seseorang.",
+      "friendly": "Ketika pujian (atau celaan) memantul ke orang yang bertanggung jawab — perbuatan baik yang redound pada nama baik berputar membalas Anda.",
+      "exampleGloss": "Keberhasilan tim akan redound pada jasa pelatihnya yang sunyi dan pekerja keras.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kembali, lagi",
+        "gelombang"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Tidak dapat dihindari atau diloloskan.",
+      "friendly": "Pasti terjadi apa pun yang Anda lakukan — tidak ada celah keluar dari hasil ineluctable.",
+      "exampleGloss": "Usia tua datang pada semua orang; itu semata ineluctable.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidak",
+        "berjuang keluar"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Memakai ungkapan berputar, bertele-tele, bukan bentuk langsung.",
+      "friendly": "Menempuh jalan panjang dengan kata — berkata \"make a decision\" alih-alih \"decide\".",
+      "exampleGloss": "Surel periphrastic-nya bisa mengatakan dalam satu baris apa yang memakan tiga paragraf.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "sekitar",
+        "menyatakan, menceritakan"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "nomina",
+      "definition": "Ketumpulan atau kelesuan mental.",
+      "friendly": "Keadaan pikiran berkabut, lamban, di mana berpikir terasa seperti mengarungi sirup.",
+      "exampleGloss": "Gelombang hebetude menghantam kelas tepat setelah makan siang.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tumpul, tidak tajam",
+        "keadaan atau mutu"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Tidak menguntungkan; pertanda buruk.",
+      "friendly": "Tanda buruk — kondisi atau waktu yang seolah bekerja melawan Anda sebelum mulai.",
+      "exampleGloss": "Langit kelabu dan aki mati membuat awal perjalanan darat yang unpropitious.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidak",
+        "menguntungkan, murah hati"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "adjektiva / verba",
+      "definition": "Daging direbus atau dimasak dalam saus — ejaan yang benar fricasseed.",
+      "friendly": "Istilah masak lama yang nyaman untuk daging yang dipotong dan direbus pelan dalam sausnya sendiri hingga empuk.",
+      "exampleGloss": "Ayam fricasseed nenek adalah bintang setiap makan malam Minggu.",
+      "origin": "Prancis",
+      "rootMeanings": [
+        "menggoreng",
+        "memecah (jadi potongan)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Pengganti buatan atau yang lebih rendah.",
+      "friendly": "Tiruan yang berdiri menggantikan yang asli — secara teknis berfungsi, tetapi semua tahu bukan barang asli.",
+      "exampleGloss": "Pembeli masa perang bertahan dengan kopi ersatz dari chicory sangrai.",
+      "origin": "Jerman",
+      "rootMeanings": [
+        "keluar, awalan pengganti",
+        "meletakkan, menempatkan"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "verba",
+      "definition": "Memperlakukan gagasan abstrak seolah benda konkret.",
+      "friendly": "Membuat gagasan terasa nyata dan padat — mengubah yang kabur, seperti \"the economy\", menjadi benda yang bisa ditunjuk.",
+      "exampleGloss": "Menyebut \"jiwa\" suatu bangsa sebagai wujud sendiri reifies sesuatu yang sebenarnya hanya jutaan pilihan individu.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "benda",
+        "membuat"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "verba (kala lampau)",
+      "definition": "Lolos atau menghindar dengan cakap.",
+      "friendly": "Menyelinap bersih — mengelak tangkapan, pertanyaan, atau jawaban, sering dengan licin atau nyaris.",
+      "exampleGloss": "Jawaban itu eluded dia berjam-jam sampai tiba-tiba nyambung di kamar mandi.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar, pergi",
+        "bermain"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Mengungkapkan keraguan, kebingungan, atau kontradiksi yang belum selesai.",
+      "friendly": "Terjebak di jalan buntu pikiran yang sungguh — bukan bingung karena malas, melainkan karena pertanyaan itu sendiri menolak jawaban rapi.",
+      "exampleGloss": "Sokrates sering mengakhiri dialog dengan nada aporetic, lebih banyak pertanyaan daripada jawaban.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "tanpa",
+        "lorong, jalan"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "nomina",
+      "definition": "Majas yang menamai sesuatu dengan istilah terkait, misalnya \"the crown\" untuk raja.",
+      "friendly": "Memakai kata terkait menggantikan yang sebenarnya — berkata \"the White House announced\" padahal maksudnya pemerintahan.",
+      "exampleGloss": "\"Wall Street had a rough day\" adalah metonymy — artinya pasar saham yang kacau.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "perubahan, setelah",
+        "nama"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "verba",
+      "definition": "Mencabut akar; merenggut dari lingkungan alaminya.",
+      "friendly": "Menarik sesuatu (atau seseorang) sampai ke akar, jauh dari tempat atau budaya tempatnya milik.",
+      "exampleGloss": "Perang deracinated seluruh generasi, menyebarkan keluarga melewati perbatasan.",
+      "origin": "Prancis / Latin",
+      "rootMeanings": [
+        "jauh, lepas",
+        "akar"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Sedap didengar.",
+      "friendly": "Sekadar enak didengar — kata, nama, atau kalimat euphonious mengalir di telinga hampir musikal.",
+      "exampleGloss": "\"Murmuring brook\" adalah frasa euphonious kecil, lembut dan mudah diucapkan.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "baik, bagus",
+        "bunyi, suara"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Umumnya dianggap atau disangka.",
+      "friendly": "Dipercaya luas benar meski belum terbukti — versi \"supposed\".",
+      "exampleGloss": "Penulis putative surat itu kemudian ternyata orang asing total.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "berpikir, menganggap",
+        "memiliki sifat"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "nomina",
+      "definition": "Kata atau frasa yang baru diciptakan.",
+      "friendly": "Kata baru sama sekali — baru saja diciptakan, belum (atau hampir belum) masuk kamus.",
+      "exampleGloss": "\"Doomscrolling\" bermula sebagai neologism dan cepat menjadi slang sehari-hari.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "baru",
+        "kata, ucapan"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Marah atau berperangai buruk.",
+      "friendly": "Dalam suasana jelek, mudah meledak — seperti orang dulu percaya limpa mengatur amarah.",
+      "exampleGloss": "Dia menembakkan balasan splenetic beberapa detik setelah membaca surel.",
+      "origin": "Yunani / Latin",
+      "rootMeanings": [
+        "limpa (tempat amarah)",
+        "dipengaruhi"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Suka bermoral dengan gaya sombong atau dibuat-buat.",
+      "friendly": "Suka menyampaikan pelajaran hidup dengan penting diri, seolah setiap kalimat kue keberuntungan.",
+      "exampleGloss": "Toast sententious-nya tentang \"makna sejati persahabatan\" membuat semua memeriksa jam.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pendapat, pepatah",
+        "penuh"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Terlalu banyak bicara, terutama soal sepele.",
+      "friendly": "Tidak berhenti ngobrol — mengoceh hal kecil lama setelah orang lain kehabisan kata.",
+      "exampleGloss": "Sopir taksi garrulous itu menceritakan seluruh hidupnya sebelum kami meninggalkan bandara.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "cerewet, mengoceh",
+        "cenderung"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "nomina",
+      "definition": "Kebodohan, kekonyolan.",
+      "friendly": "Bodoh belaka — komentar atau rencana begitu konyol hampir tak pantas dijawab serius.",
+      "exampleGloss": "Fatuity murni rencana itu menjadi jelas saat mereka mencobanya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bodoh, konyol",
+        "keadaan"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "nomina",
+      "definition": "Bagian penutup pidato, sering merangkum.",
+      "friendly": "Penutup besar pidato — bagian penutup di mana pembicara merangkum segala dan menancapkan poin.",
+      "exampleGloss": "Menjelang peroration, separuh hadirin sudah berdiri.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melalui, sampai akhir",
+        "berbicara, membela"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "nomina",
+      "definition": "Pengulangan sia-sia gagasan yang sama dengan kata berbeda.",
+      "friendly": "Mengatakan hal yang sama dua kali tanpa menambah apa pun, seperti \"free gift\" atau \"end result\".",
+      "exampleGloss": "\"It is what it is\" adalah tautology kesukaan orang yang menghindari penjelasan sungguhan.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "yang sama",
+        "kata, ucapan"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "nomina",
+      "definition": "Pemakaian sangat sedikit kata; ucapan ringkas.",
+      "friendly": "Mengatakan banyak dengan sangat sedikit — seni jawaban pendek, blak-blakan, dari Sparta Laconia yang terkenal singkat.",
+      "exampleGloss": "\"Molon labe\" — \"datang dan ambillah\" — adalah laconism paling terkenal dalam sejarah.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "seorang Sparta Laconia",
+        "kebiasaan, cara"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "nomina",
+      "definition": "Gagasan hambar, terlalu disederhanakan; aslinya makanan hambar atau bubur.",
+      "friendly": "Pikiran yang diencerkan — isi begitu disederhanakan dan aman hingga tak bernutrisi bagi pikiran.",
+      "exampleGloss": "Pidato politisi itu sebagian besar pabulum: janji kabur yang tak bisa dipaku.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "memberi makan",
+        "sarana atau alat"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Menyebabkan tidur atau kantuk.",
+      "friendly": "Begitu membosankan — atau secara harfiah menenangkan — hingga membuat ngantuk. Pikirkan susu hangat, atau rapat anggaran tiga jam.",
+      "exampleGloss": "Dengung soporific kuliah itu membuat separuh ruangan berjuang membuka mata.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidur nyenyak",
+        "membuat, menyebabkan"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Terlalu menyanjung atau berminyak dalam sikap.",
+      "friendly": "Licin memikat sampai terasa licin — pujian dilumur begitu tebal hampir terasa lemaknya.",
+      "exampleGloss": "Penjual unctuous itu terus memuji \"selera unggul\" saya sebelum setiap penjualan tambahan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mengurapi, mengoles minyak",
+        "penuh"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Cepat mencari salah, terlalu kritis pada hal sepele.",
+      "friendly": "Cerewet sampai berlebihan — tipe yang menemukan masalah di segala hal, meski tak penting.",
+      "exampleGloss": "Catatan captious-nya pada laporan hanya fokus pada letak koma.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "menangkap, mengambil",
+        "perangkap, sofisma"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Lamban, tidak aktif secara mental atau fisik.",
+      "friendly": "Lambat dan setengah tidur, seperti beruang hibernasi — hampir tak bergerak, hampir tak berpikir.",
+      "exampleGloss": "Kantor menjadi torpid dalam panas berat Agustus.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kebas, lamban",
+        "dalam keadaan"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "nomina",
+      "definition": "Pengurus atau pejabat yang mengelola rumah tangga abad pertengahan.",
+      "friendly": "Versi abad pertengahan kepala staf — pejabat tepercaya yang menjalankan rumah dan tanah tuan sehari-hari.",
+      "exampleGloss": "Seneschal kastil mengelola segala dari pembukuan panen sampai daftar tamu.",
+      "origin": "Frankish / Prancis Kuno",
+      "rootMeanings": [
+        "tua, senior",
+        "pelayan"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "verba",
+      "definition": "Berbicara atau menulis panjang lebar tentang suatu topik.",
+      "friendly": "Benar-benar masuk mode — berbicara atau menulis terus, mencakup setiap sudut.",
+      "exampleGloss": "Tanyakan mobil klasik dan dia akan expatiate selama satu jam penuh.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar",
+        "ruang"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Tak bernilai, sepele; juga tidak sah atau tak efektif.",
+      "friendly": "Pada dasarnya tak berharga — klausul nugatory dalam kontrak adalah yang sebenarnya tak melakukan apa pun.",
+      "exampleGloss": "Pengadilan menyatakan peraturan lama itu nugatory, karena tak pernah ditegakkan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hal sepele, omong kosong",
+        "milik"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "nomina",
+      "definition": "Kebijaksanaan, pertimbangan tajam.",
+      "friendly": "Kebijaksanaan praktis yang tajam — pertimbangan baik dari pengalaman, bukan hanya buku.",
+      "exampleGloss": "Sagacity kapten tua itu lebih dari sekali menjaga awak dari kesusahan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "penciuman tajam, cerdik",
+        "mutu dari"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "nomina",
+      "definition": "Rakyat jelata atau massa, dipakai dengan penghinaan.",
+      "friendly": "Kata sombong, merendahkan untuk \"rakyat rendah\" atau orang biasa.",
+      "exampleGloss": "Sang comte menyeringai pada canaille yang berkumpul di luar gerbang istana.",
+      "origin": "Italia / Prancis",
+      "rootMeanings": [
+        "anjing",
+        "kumpulan, kawanan"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "nomina",
+      "definition": "Perlakuan atau bahasa yang lancang, mempermalukan.",
+      "friendly": "Perlakuan kejam, menghina yang dimaksudkan mempermalukan — hinaan yang dirancang menyakitkan.",
+      "exampleGloss": "Dia menahan bertahun-tahun contumely dari kritikus sebelum karyanya diakui.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bersama, secara tuntas",
+        "menggembung (karena sombong)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "adverbia",
+      "definition": "Dengan curiga atau tidak setuju; pandangan menyamping.",
+      "friendly": "Pandangan menyamping yang Anda berikan pada sesuatu yang belum dipercaya — tatapan penuh ragu.",
+      "exampleGloss": "Guru memandang askance pekerjaan rumah yang rapi secara mencurigakan.",
+      "origin": "tidak pasti / Italia",
+      "rootMeanings": [
+        "pada, ke",
+        "miring, bias"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "nomina",
+      "definition": "Orang bodoh; kepala batu.",
+      "friendly": "Hinaan kuno, hampir sayang, untuk orang yang sedang bebal — kepala batu.",
+      "exampleGloss": "\"Kau clodpate,\" dia tertawa, \"peta itu terbalik sepanjang waktu.\"",
+      "origin": "Inggris",
+      "rootMeanings": [
+        "gumpalan tanah",
+        "kepala"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "verba",
+      "definition": "Menggerakkan ke dalam gerak atau tindakan; memotivasi.",
+      "friendly": "Menjadi percikan yang menggerakkan — mesin menyala atau orang akhirnya bertindak atas gagasan.",
+      "exampleGloss": "Takut kehilangan kontrak actuated seluruh tim ke lembur akhir pekan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "perbuatan, dorongan",
+        "mendorong, melakukan"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "nomina",
+      "definition": "Penggelapan dana yang dipercayakan.",
+      "friendly": "Diam-diam mencuri uang yang dipercayakan pada Anda — penggelapan berjas kuno.",
+      "exampleGloss": "Peculation bendahara itu tak terdeteksi hampir satu dekade.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "harta pribadi",
+        "ternak, kekayaan"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "nomina",
+      "definition": "Kelompok yang dianggap di pinggiran masyarakat terhormat.",
+      "friendly": "Dunia bawah sosial yang glamor tapi gelap — orang yang hidup tepat di luar aturan masyarakat \"terhormat\".",
+      "exampleGloss": "Novel itu mengikuti seorang penyanyi menavigasi demi-monde kabaret 1920-an.",
+      "origin": "Prancis",
+      "rootMeanings": [
+        "setengah",
+        "dunia, masyarakat"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Masih ada; tidak punah atau dihancurkan.",
+      "friendly": "Masih ada hari ini — dipakai untuk benda lama (naskah, spesies, bangunan) yang berhasil bertahan.",
+      "exampleGloss": "Hanya tiga salinan extant cetakan pertama yang diketahui ada.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar",
+        "berdiri"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "nomina",
+      "definition": "Kecurangan; pengkhianatan kepercayaan.",
+      "friendly": "Pengkhianatan dalam, disengaja — merusak kepercayaan yang wajar diharapkan Anda jaga.",
+      "exampleGloss": "Jenderal tak pernah memaafkan perfidy teman lamanya di meja perundingan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melalui, melawan",
+        "iman, kepercayaan"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "nomina",
+      "definition": "Dialek daerah, terutama yang nonstandar.",
+      "friendly": "Cara bicara lokal yang khas di suatu daerah — penuh kata dan irama yang orang luar mungkin tak tangkap.",
+      "exampleGloss": "Neneknya masih berbicara patois pulau itu saat makan malam keluarga.",
+      "origin": "Prancis",
+      "rootMeanings": [
+        "ucapan kasar, dialek",
+        "cakar — bicara canggung"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "nomina",
+      "definition": "Hak istimewa milik seseorang atau kelompok.",
+      "friendly": "Hak istimewa yang hanya milik Anda — hak yang datang dengan peran, jabatan, atau status.",
+      "exampleGloss": "Memilih tujuan liburan keluarga adalah prerogative kakek, dan semua mengetahuinya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sebelum",
+        "bertanya, memberi suara"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "nomina",
+      "definition": "Keberanian, kelancangan; juga ketangguhan atau daya tahan.",
+      "friendly": "Ketahanan kasar yang berani — nyali maju dan ketangguhan terus setelah itu.",
+      "exampleGloss": "Butuh hardihood sungguhan untuk menyeberangi celah dalam badai salju tanpa peta.",
+      "origin": "Prancis Kuno / Inggris",
+      "rootMeanings": [
+        "berani, tangguh",
+        "keadaan, kondisi"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "verba",
+      "definition": "Mekar penuh; juga berkembang atau muncul berangsur.",
+      "friendly": "Mekar menjadi ungkapan penuh — seperti bunga membuka, atau gagasan akhirnya menjadi dirinya.",
+      "exampleGloss": "Bakat lukisnya yang sunyi effloresced begitu dia punya studio sendiri.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar",
+        "mulai mekar"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "nomina",
+      "definition": "Tali berbobot untuk menentukan tegak lurus; kiasan, standar penilaian.",
+      "friendly": "Bobot pada tali yang tergantung lurus ke bawah, untuk memeriksa apakah sesuatu benar-benar vertikal — dan, lebih luas, standar tetap yang Anda ukur segala terhadapnya.",
+      "exampleGloss": "Dia memakai kejujuran kakeknya sendiri sebagai semacam plumb line bagi setiap keputusan.",
+      "origin": "Latin / Inggris",
+      "rootMeanings": [
+        "timah",
+        "tali, ukuran"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "adverbia",
+      "definition": "Dengan senang, dengan rela (arkais).",
+      "friendly": "Cara kuno mengatakan \"dengan senang\" atau \"dengan senang hati\".",
+      "exampleGloss": "\"I would fain rest here a while,\" keluh sang musafir.",
+      "origin": "Inggris Kuno",
+      "rootMeanings": [
+        "gembira, riang",
+        "dengan senang, dengan rela"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "nomina",
+      "definition": "Kritik publik yang keras atau aib.",
+      "friendly": "Malu publik yang ditumpuk pada seseorang secara besar, terlihat — aib dari ketidaksetujuan luas.",
+      "exampleGloss": "Skandal itu membawa opprobrium publik ke seluruh firma.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melawan",
+        "aib, celaan"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Sarkastis tajam, pedas dalam kecerdasan atau kritik.",
+      "friendly": "Kecerdasan yang punya gigi — komentar mordant sedikit menusuk justru karena sasarannya begitu cermat.",
+      "exampleGloss": "Ulasan film mordant-nya ditakuti sutradara dan dicintai pembaca.",
+      "origin": "Latin / Prancis",
+      "rootMeanings": [
+        "menggigit",
+        "menggigit, melakukan"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "nomina",
+      "definition": "Maklumat resmi, sering politis atau militer.",
+      "friendly": "Pengumuman besar, resmi — biasanya menyatakan pemerintahan baru, pemberontakan, atau dekret besar.",
+      "exampleGloss": "Pronunciamento jenderal mengumumkan pemerintahan baru saat fajar.",
+      "origin": "Spanyol",
+      "rootMeanings": [
+        "ke depan",
+        "mengumumkan"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "nomina",
+      "definition": "Orang berpengetahuan dangkal yang berpura-pura ahli.",
+      "friendly": "Seseorang yang hanya menyapu permukaan topik lalu bicara seolah menulis buku teksnya.",
+      "exampleGloss": "Sciolist pesta makan malam itu dengan percaya diri mengoreksi astrofisikawan sungguhan di meja.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mengetahui",
+        "diminutif — penahu kecil"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "nomina",
+      "definition": "Kemunduran daya mental di usia tua.",
+      "friendly": "Masa tua sangat lanjut yang berkabut, pelupa, ketika ketajaman pikiran mulai pudar.",
+      "exampleGloss": "Dalam dotage-nya, dia menceritakan tiga kisah yang sama setiap kunjungan, setiap kali seolah baru.",
+      "origin": "Inggris Pertengahan",
+      "rootMeanings": [
+        "pikun, menjadi bodoh",
+        "keadaan atau hasil"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "nomina",
+      "definition": "Sisi terlindung dari angin.",
+      "friendly": "Sisi tenang, terlindung — bukit, kapal, tembok — tempat angin tak cukup menjangkau Anda.",
+      "exampleGloss": "Para pendaki memasang tenda di lee side punggungan untuk lolos dari hembusan.",
+      "origin": "Inggris Kuno",
+      "rootMeanings": [
+        "perlindungan, naungan",
+        "sisi, muka"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "verba",
+      "definition": "Menangkis atau menepis pukulan, pertanyaan, atau argumen.",
+      "friendly": "Menepis dengan licin — tebasan pedang, pertanyaan canggung, atau tuduhan — tanpa kehilangan irama.",
+      "exampleGloss": "Dia parried pertanyaan rumit reporter dengan lelucon ringan.",
+      "origin": "Prancis",
+      "rootMeanings": [
+        "menangkis",
+        "menyiapkan, membela"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berbau busuk, beracun.",
+      "friendly": "Berbau sampai terasa hampir beracun — bau begitu buruk hingga berbahaya dihirup.",
+      "exampleGloss": "Bau mephitic naik dari rawa saat matahari terbenam.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "uap beracun",
+        "memiliki sifat"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "nomina",
+      "definition": "Orang yang berbakti pada kemewahan dan kesenangan.",
+      "friendly": "Seseorang yang hidup untuk kenyamanan dan pemanjaan — makanan enak, ranjang lembut, hidup mudah — dari kota Yunani kuno Sybaris yang terkenal berlebih.",
+      "exampleGloss": "Sybarite sejati, dia menolak kamar hotel tanpa bak mandi.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "kota Yunani kuno terkenal mewah",
+        "penduduk"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "verba",
+      "definition": "Sengaja mengesampingkan atau mengabaikan sebagian.",
+      "friendly": "Sengaja menaruh sepotong teka-teki ke samping di pikiran, agar fokus bersih pada sisanya.",
+      "exampleGloss": "Mari prescind biaya sejenak dan hanya bertanya apakah rencana itu benar-benar jalan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sebelum, jauh",
+        "memotong"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "verba",
+      "definition": "Mengkritik keras; juga menguliti.",
+      "friendly": "Mencerabuti seseorang dengan kritik keras — secara lisan, seolah benar-benar menguliti.",
+      "exampleGloss": "Para kritikus excoriated sekuel itu karena mengkhianati segala yang disukai penggemar dari yang asli.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "lepas",
+        "kulit, kulit binatang"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "verba",
+      "definition": "Mengutip sebagai bukti atau dalil.",
+      "friendly": "Mengajukan fakta atau contoh untuk menopang poin — hal yang Anda tunjuk ketika seseorang bertanya \"what's your evidence?\".",
+      "exampleGloss": "Pengacara adduced tiga saksi mendukung alibi kliennya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "ke, menuju",
+        "memimpin"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "nomina",
+      "definition": "Perjalanan atau pengembaraan, terutama yang panjang dan luas.",
+      "friendly": "Perjalanan panjang, mengembara — pengembaraan luas yang membawa Anda jauh dari rumah cukup lama.",
+      "exampleGloss": "Peregrinations-nya di tiga benua memenuhi satu rak jurnal perjalanan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melalui",
+        "ladang, tanah (peregrinus: orang asing)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "nomina",
+      "definition": "Pengemis, atau orang yang hidup dari sedekah.",
+      "friendly": "Seseorang yang hidup dengan meminta belas kasihan — secara historis juga biarawan yang bersumpah miskin dan hidup dari sumbangan.",
+      "exampleGloss": "Para biarawan mendicant tidak memiliki apa pun dan sepenuhnya mengandalkan kebaikan penduduk desa.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mengemis",
+        "pengemis"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Sangat dermawan.",
+      "friendly": "Dermawan dalam skala besar, hampir pamer — pemberian yang membuat orang sedikit terengah.",
+      "exampleGloss": "Sumbangan munificent itu membiayai seluruh sayap baru perpustakaan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hadiah, jasa",
+        "membuat, memberi"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "nomina",
+      "definition": "Kelelahan karena kurang gizi; juga kurang daya hidup.",
+      "friendly": "Keadaan lemah, terkuras karena tidak diberi makan atau bahan bakar — harfiah dari lapar, atau kiasan dari tak tersisa apa pun untuk berjalan.",
+      "exampleGloss": "Menjelang akhir pengepungan, para prajurit hampir inanition.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kosong, hampa",
+        "tindakan atau hasil"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "nomina",
+      "definition": "Kritik pahit, kasar.",
+      "friendly": "Kritik yang jauh melewati adil dan menjadi omelan marah, pahit.",
+      "exampleGloss": "Komentar daring larut menjadi vituperation murni dalam hitungan menit.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kesalahan",
+        "menyiapkan, menyediakan"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Bermusuhan, merugikan dalam efek.",
+      "friendly": "Bekerja melawan Anda, meski diam-diam — kondisi atau sikap yang tidak ramah pada kepentingan Anda.",
+      "exampleGloss": "Kebijakan baru itu inimical bagi usaha kecil, meski bukan itu niatnya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidak",
+        "teman"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Cenderung menimbulkan dendam atau ketidakpuasan, sering lewat perbandingan tidak adil.",
+      "friendly": "Pasti membuat seseorang merasa diremehkan — biasanya karena menyusun orang atau hal secara tidak adil.",
+      "exampleGloss": "Memeringkat saudara berdasarkan \"siapa yang paling disayang Ibu\" adalah permainan invidious yang tak boleh dimainkan siapa pun.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "iri",
+        "memandang (dengan niat buruk)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "nomina",
+      "definition": "Orang berpangkat atau status lebih rendah; bawahan.",
+      "friendly": "Seseorang lebih rendah di rantai komando atau tangga sosial — yunior, bekerja di bawah yang lebih berkuasa.",
+      "exampleGloss": "Sebagai subaltern muda, dia menerima perintah lama sebelum pernah memberikannya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "di bawah",
+        "pengganti, lain"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "verba",
+      "definition": "Merasa atau menyatakan kebencian kuat.",
+      "friendly": "Membenci sesuatu sampai mengutuknya keras-keras — kebencian murni, bersuara.",
+      "exampleGloss": "Penduduk desa execrated penagih pajak setiap gerobaknya melintas kota.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar dari",
+        "suci (mengutuk keluar dari yang suci)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "nomina",
+      "definition": "Penutup luar alami, seperti kulit atau cangkang.",
+      "friendly": "Bungkus pelindung milik alam — kulit, cangkang, sekam, atau kulit buah, apa pun yang menutupi dan melindungi yang hidup.",
+      "exampleGloss": "Cangkang kura-kura adalah integument yang luar biasa tangguh.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pada, di atas",
+        "menutupi"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Polos, naif, menunjukkan kesederhanaan kekanak-kanakan; kebalikan \"disingenuous\".",
+      "friendly": "Terbuka percaya dan sedikit naif, tanpa agenda tersembunyi — mudah tertukar dengan \"ingenious\" yang berarti cerdik.",
+      "exampleGloss": "Pertanyaan ingenuous-nya — \"mengapa ada orang berbohong tentang itu?\" — menunjukkan betapa sedikit muslihatnya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "di dalam, asli",
+        "memperanakkan (lahir merdeka, jujur)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "nomina",
+      "definition": "Kepedulian berlebihan pada rincian kecil atau aturan.",
+      "friendly": "Tersesat di aturan kecil sambil melewatkan gambar besar — terobsesi pada cetakan halus yang tak peduli orang lain.",
+      "exampleGloss": "Pedantry-nya soal koma Oxford menggagalkan seluruh rapat.",
+      "origin": "Italia / Latin",
+      "rootMeanings": [
+        "guru anak-anak",
+        "kebiasaan atau mutu"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "nomina",
+      "definition": "Pemeriksaan teliti dan hati-hati.",
+      "friendly": "Tinjauan dalam, tak ada batu terlewat — menelusuri setiap rincian dengan sungguh.",
+      "exampleGloss": "Hanya setelah perscrutation saksama atas buku besar, selisih itu muncul.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melalui, secara tuntas",
+        "mencari, memeriksa"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "verba",
+      "definition": "Mengajukan keberatan; menunjukkan keengganan.",
+      "friendly": "Menolak secara sopan atau ragu alih-alih langsung menurut — \"I'd rather not\" yang lembut.",
+      "exampleGloss": "Ketika diminta menandatangani tanpa membaca, dia demurred.",
+      "origin": "Latin / Prancis",
+      "rootMeanings": [
+        "dari, jauh",
+        "menunda"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Secara lahiriah masuk akal tetapi sebenarnya salah.",
+      "friendly": "Terdengar meyakinkan sekilas tetapi runtuh begitu Anda benar-benar memeriksa.",
+      "exampleGloss": "\"Everyone's doing it\" adalah argumen specious yang tak pernah bertahan di bawah pemeriksaan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "penampilan, rupa",
+        "penuh (tampak indah)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "nomina",
+      "definition": "Omongan tidak tulus, munafik, sering bermoral.",
+      "friendly": "Ceramah yang terdengar bajik tetapi tidak ditopang perasaan nyata — pose moral otomatis.",
+      "exampleGloss": "Dia lelah dengan cant perusahaan tentang \"keluarga\" dari perusahaan yang tak pernah memberi cuti siapa pun.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "menyanyi (kemudian: jargon bernada)",
+        "celoteh pengemis, lalu kemunafikan"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Kurang keberanian, pengecut.",
+      "friendly": "Penakut sampai tak bertulang punggung — terlalu takut berdiri meski jelas penting.",
+      "exampleGloss": "Keheningan pusillanimous dewan membiarkan skandal berputar di luar kendali.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sangat kecil",
+        "semangat, keberanian"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Seperti rubah; licik, cerdik.",
+      "friendly": "Licin dan cerdas seperti rubah — cepat berpikir, sedikit licik, selalu selangkah di depan.",
+      "exampleGloss": "Dia memberi senyum vulpine begitu melihat celah hukum.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "rubah",
+        "dari atau seperti"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "adverbia",
+      "definition": "Satu demi satu, berurutan.",
+      "friendly": "Diambil ketat satu per satu, berurutan — tanpa loncat, tanpa dua sekaligus.",
+      "exampleGloss": "Hakim menangani masing-masing dari dua belas tuntutan secara seriatim.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "baris, urutan",
+        "satu per satu"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "nomina",
+      "definition": "Kehematan ekstrem; kekikiran.",
+      "friendly": "Ketat dengan uang (atau kata, atau sumber daya) jauh melewati hemat yang wajar.",
+      "exampleGloss": "Parsimony-nya legendaris — kantong teh dipakai ulang tiga kali.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "menghemat, berhemat",
+        "keadaan atau kebiasaan"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "nomina",
+      "definition": "Koreksi, terutama dalam teks.",
+      "friendly": "Perbaikan pada tulisan — sentuhan ilmiah yang memperbaiki kesalahan dalam teks lama atau penting.",
+      "exampleGloss": "Edisi baru mencakup puluhan emendations pada naskah asli.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar dari",
+        "kesalahan, galat"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Sedang dalam makan dan minum.",
+      "friendly": "Sengaja menahan diri seputar makanan dan minuman — tak pernah berlebih, selalu menyisakan sedikit di piring.",
+      "exampleGloss": "Kebiasaan abstemious-nya menjaganya tajam lama setelah rekan-rekannya melambat.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "jauh dari",
+        "minuman memabukkan"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "nomina",
+      "definition": "Kesalahan tata bahasa atau pelanggaran etiket.",
+      "friendly": "Khilaf tata bahasa atau sopan santun — jenis kesalahan kecil yang membuat orang teliti meringis.",
+      "exampleGloss": "\"Between you and I\" adalah solecism umum yang masih membuat ahli tata bahasa tersentak.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "kota Kilikia terkenal karena Yunani yang 'buruk'",
+        "kebiasaan, cara"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berkaitan dengan konflik dalam kelompok; saling merusak.",
+      "friendly": "Pertikaian internal yang merobek kelompok dari dalam — pertarungan di mana semua kalah, karena keluarga lawan keluarga.",
+      "exampleGloss": "Pertengkaran internecine partai itu lebih merusak daripada lawan luar mana pun.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "antara, di antara",
+        "membunuh"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "adjektiva / nomina",
+      "definition": "Sikap acuh, ceroboh.",
+      "friendly": "Anggukan bahu yang menjadi seluruh kepribadian — peduli begitu sedikit pada hal yang dulu penting hingga tak ada yang tampak layak diupayakan.",
+      "exampleGloss": "Sikap pococurante-nya terhadap upacara penghargaan mengejutkan semua yang tahu betapa kerasnya dia bekerja.",
+      "origin": "Italia",
+      "rootMeanings": [
+        "sedikit",
+        "peduli"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "nomina",
+      "definition": "Situasi atau sengketa yang kacau dan rumit.",
+      "friendly": "Keadaan kusut, berantakan yang sulit dipahami — sebagian salah paham, sebagian drama, seluruhnya kacau.",
+      "exampleGloss": "Seluruh imbroglio bagan tempat duduk dimulai dari satu kartu nama yang salah letak.",
+      "origin": "Italia",
+      "rootMeanings": [
+        "di dalam",
+        "mengusut, mengacaukan"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Mengancam, menakutkan.",
+      "friendly": "Membawa aura ancaman yang tak salah — tatapan atau surat minatory membuat sangat jelas sesuatu yang buruk mungkin menyusul.",
+      "exampleGloss": "Nada minatory surat itu membuat penyewa gelisah bahkan sebelum membuka amplop.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mengancam",
+        "berfungsi untuk"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "nomina",
+      "definition": "Kritik publik kuat atau caci maki.",
+      "friendly": "Kecaman publik yang keras — kritik membakar yang berlangsung di depan semua orang.",
+      "exampleGloss": "Penyingkap itu menghadapi bertahun-tahun obloquy publik sebelum sejarah membuktikan dia benar.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melawan",
+        "berbicara"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "nomina",
+      "definition": "Ledakan tiba-tiba yang keras, emosi atau tindakan.",
+      "friendly": "Semburan tiba-tiba, intens yang menelan Anda sekaligus — tawa, amarah, atau batuk yang datang seperti gelombang.",
+      "exampleGloss": "Dia diserang paroxysm tawa yang tak bisa dijelaskannya pada siapa pun di ruangan.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "melampaui",
+        "tajam, akut"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Ditambahkan dari sumber luar, bukan melekat.",
+      "friendly": "Dibaut dari luar alih-alih dibangun dari awal — tambahan, bukan inti.",
+      "exampleGloss": "Komentar itu terasa adscititious, seolah ditempel pada teks yang sudah selesai.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "ke, tambahan",
+        "menyetujui, menerima"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "nomina",
+      "definition": "Kurang pengetahuan, ketidaktahuan.",
+      "friendly": "Sekadar tidak-tahu — celah pengetahuan, tanpa penilaian melekat.",
+      "exampleGloss": "Dia mengakui nescience-nya tentang anggur Prancis dan membiarkan sommelier memilih.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidak",
+        "mengetahui"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "nomina",
+      "definition": "Minat berlebihan pada hal seksual.",
+      "friendly": "Rasa ingin tahu yang terlalu bersemangat, melirik, tentang apa pun yang cabul — minat yang melewati sehat menjadi mengintip.",
+      "exampleGloss": "Prurience tabloid atas kehidupan pribadi pasangan itu mendekati obsesif.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "gatal, merindukan",
+        "keadaan"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berjelaga, gelap, keruh.",
+      "friendly": "Gelap dan berasap, seolah segala dilapisi jelaga tipis.",
+      "exampleGloss": "Kabut fuliginous menggantung di kota pabrik saat senja.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "jelaga",
+        "penuh"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "verba",
+      "definition": "Menyangkal atau menyanggah.",
+      "friendly": "Berkata menentang secara tegas apa yang dikatakan orang lain — berkata \"that's not so\".",
+      "exampleGloss": "Tak seorang pun berani gainsay kisah kapten tua tentang badai itu.",
+      "origin": "Inggris Pertengahan",
+      "rootMeanings": [
+        "melawan",
+        "berbicara"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "nomina",
+      "definition": "Kemalasan, kelambanan (dari Latin).",
+      "friendly": "Kata Latin kuno untuk kemalasan murni — tarikan tidak ingin melakukan apa pun.",
+      "exampleGloss": "Para biarawan berkhotbah menentang ignavia sebagai salah satu bahaya sunyi jiwa.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidak",
+        "sibuk, rajin"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "nomina",
+      "definition": "Perisai yang menampilkan lambang.",
+      "friendly": "Emblem berbentuk perisai yang menunjukkan lambang keluarga — \"papan nama\" heraldiknya.",
+      "exampleGloss": "Escutcheon keluarga itu masih tergantung di atas pintu depan manor tua.",
+      "origin": "Latin / Prancis Kuno",
+      "rootMeanings": [
+        "perisai",
+        "diminutif / benda"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Ketinggalan zaman, usang, atau pensiun karena usia.",
+      "friendly": "Lewat masa puncak gunanya dan dilepas ke padang — terlalu kuno atau aus untuk terus bekerja.",
+      "exampleGloss": "Printer superannuated itu akhirnya diganti setelah lima belas tahun macet.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "melampaui",
+        "tahun"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "nomina",
+      "definition": "Pengganti, terutama dalam kedokteran.",
+      "friendly": "Obat pengganti dipakai ketika pengobatan sungguhan tak tersedia — pada dasarnya pemain cadangan medis.",
+      "exampleGloss": "Dokter masa perang sering mengandalkan succedanea ketika obat yang pantas habis.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sebagai ganti",
+        "pergi, menyerahkan"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "nomina",
+      "definition": "Omongan sombong, menggertak.",
+      "friendly": "Pamer besar, berangin — bicara keras tentang kehebatan sendiri yang sebagian besar angin.",
+      "exampleGloss": "Rodomontade-nya tentang \"sendirian\" menyelamatkan proyek tak menipu siapa pun yang benar-benar ada di sana.",
+      "origin": "Italia",
+      "rootMeanings": [
+        "ksatria sombong dalam Orlando Furioso",
+        "tindakan, pamer"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "verba",
+      "definition": "Memakai tipu daya atau kecurangan untuk meraih sesuatu.",
+      "friendly": "Menggeliat menuju tujuan lewat trik licik alih-alih permainan adil.",
+      "exampleGloss": "Dia chicaned masuk ke kesepakatan dengan kontrak penuh cetakan halus.",
+      "origin": "Prancis",
+      "rootMeanings": [
+        "mengutik, menipu",
+        "tipu daya; kemudian belokan tajam"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "nomina",
+      "definition": "Ilmu murni atau abstrak tentang belajar atau pengetahuan, sering matematika.",
+      "friendly": "Belajar dalam bentuk paling murni, paling abstrak — struktur dalam pengetahuan itu sendiri, terutama yang matematis.",
+      "exampleGloss": "Filsuf itu bermimpi mathesis universal yang bisa menyatukan setiap bidang pengetahuan.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "belajar",
+        "tindakan belajar"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Terlalu peduli pada aturan formal atau rincian sepele.",
+      "friendly": "Terlalu ketat soal hal kecil — mengoreksi teknis minor yang sebenarnya tak mengubah apa pun.",
+      "exampleGloss": "Terasa agak pedantic berdebat \"who\" versus \"whom\" dalam pesan teks.",
+      "origin": "Italia / Yunani",
+      "rootMeanings": [
+        "pemandu anak, guru",
+        "memiliki cara"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "nomina",
+      "definition": "Cahaya yang berkilat, berkilau.",
+      "friendly": "Kilatan cahaya cepat yang berkilat — pikirkan matahari memantul di air, atau berlian menangkap cahaya.",
+      "exampleGloss": "Coruscation lampu gantung menyebarkan cahaya ke setiap sudut ruang dansa.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "berkilat, berkilau",
+        "tindakan itu"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "nomina",
+      "definition": "Pemula, novis.",
+      "friendly": "Seseorang yang sama sekali baru pada keterampilan atau bidang — masih belajar seluk-beluk, belum ahli.",
+      "exampleGloss": "Bahkan pemain catur tyro bisa melihat blunder itu.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "rekrut, pemula",
+        "prajurit muda mentah"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Sangat buruk, keji.",
+      "friendly": "Buruk dengan cara yang pantas dibenci sungguhan — bukan sekadar \"sedang\", melainkan benar-benar keji.",
+      "exampleGloss": "Pengulas menyebut sekuel itu execrable, dan angka box office setuju.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mengutuk",
+        "pantas, mampu"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berwarna merah darah.",
+      "friendly": "Merah dalam dan cerah — warna darah segar, terkenal lewat Macbeth Shakespeare.",
+      "exampleGloss": "Matahari terbenam mengubah seluruh langit menjadi cahaya incarnadine.",
+      "origin": "Italia / Latin",
+      "rootMeanings": [
+        "ke dalam",
+        "daging (merah daging)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "nomina",
+      "definition": "Celah atau ruang kecil di antara benda.",
+      "friendly": "Ruang kecil di antara yang mudah terlewat — retakan papan lantai, jeda dalam jadwal.",
+      "exampleGloss": "Gulma mendorong naik lewat setiap interstice di jalur bata tua.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "di antara",
+        "berdiri"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "nomina",
+      "definition": "Ucapan kritis atau mencela.",
+      "friendly": "Komentar tajam, tidak setuju — jenis kritik yang membawa nada memarahi.",
+      "exampleGloss": "Animadversions profesor pada esai itu memenuhi pinggir dengan tinta merah.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pikiran",
+        "berpaling ke"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Mustahil disangkal, tak terbantahkan.",
+      "friendly": "Terbukti begitu kokoh hingga tak ada yang bisa dibantah — kasusnya sudah tertutup.",
+      "exampleGloss": "Bukti DNA itu irrefragable, dan sidang berakhir dalam sejam.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tidak",
+        "menentang, menahan"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "nomina",
+      "definition": "Kerumitan, kekusutan; juga pelipatan ke dalam.",
+      "friendly": "Kerumitan yang terlipat ke dalam dirinya — hal-hal terbungkus begitu rapat hingga sulit ditarik terpisah.",
+      "exampleGloss": "Involution plot itu membuat separuh penonton masih mengurai setelah kredit.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "ke dalam",
+        "menggulung, memutar"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "nomina",
+      "definition": "Kekuatan atau usaha, seperti dalam \"by dint of\".",
+      "friendly": "Usaha atau kekuatan belaka — hari ini hampir hanya hidup dalam frasa \"by dint of\".",
+      "exampleGloss": "Dia lulus ujian by dint of latihan keras, keras kepala.",
+      "origin": "Inggris Kuno",
+      "rootMeanings": [
+        "pukulan, hantaman",
+        "dengan kekuatan"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Disambung dengan sambungan mortise-dan-tenon; dipasang rapat.",
+      "friendly": "Terkunci cara tukang kayu lama — satu bagian masuk pas ke lubang yang dipotong tepat untuknya.",
+      "exampleGloss": "Balok lumbung tua itu mortised bersama tanpa satu paku pun.",
+      "origin": "Latin / Prancis",
+      "rootMeanings": [
+        "soket, lubang",
+        "gigitan, cengkeraman"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Sangat relevan, tepat.",
+      "friendly": "Tepat pas untuk momen itu — komentar, kutipan, atau contoh yang mendarat sempurna pada poin.",
+      "exampleGloss": "Ucapan apposite-nya merangkum seluruh debat dalam satu kalimat.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "ke",
+        "menempatkan"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Bersinar lembut atau berkedip (cahaya); juga kecerdasan ringan.",
+      "friendly": "Bersinar lembut alih-alih menyala — cahaya lembut berkedip, atau kecerdasan yang bermain-main alih-alih tajam.",
+      "exampleGloss": "Cahaya lilin melemparkan cahaya lambent di ruang makan tua.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "menjilat",
+        "melakukan (cahaya yang 'menjilat')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "nomina",
+      "definition": "Pertapa religius yang hidup dalam kesendirian.",
+      "friendly": "Seseorang yang menarik diri sepenuhnya dari dunia untuk hidup sendiri dalam doa dan perenungan.",
+      "exampleGloss": "Anchorite itu tinggal di sel kecil yang menempel pada gereja lebih dari tiga puluh tahun.",
+      "origin": "Yunani",
+      "rootMeanings": [
+        "ke belakang, jauh",
+        "menarik diri"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "verba",
+      "definition": "Memuaskan dahaga; memadamkan.",
+      "friendly": "Memenuhi sepenuhnya suatu hasrat — paling sering dahaga, tetapi secara kiasan segala keinginan atau kebutuhan dalam.",
+      "exampleGloss": "Satu gelas air dingin slaked dahaganya setelah pendakian panjang.",
+      "origin": "Inggris Kuno",
+      "rootMeanings": [
+        "kendur, longgar",
+        "melonggarkan, meredakan"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Berbentuk jarum.",
+      "friendly": "Panjang, tipis, dan runcing seperti jarum — bentuk daun pinus atau kristal kecil yang tajam.",
+      "exampleGloss": "Pohon pinus mudah dikenali dari daun acicular-nya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "jarum",
+        "kecil"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Kehabisan daya hidup, lemah, terlalu halus.",
+      "friendly": "Aus dan lembut — kehilangan kekuatan atau semangat aslinya karena terlalu nyaman atau halus.",
+      "exampleGloss": "Para kritikus menyebut majalah yang dulu berani itu effete, bayangan tahun-tahun awalnya yang berani.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "keluar",
+        "berbuah, telah beranak"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "nomina",
+      "definition": "Aksesori atau hak kecil yang melekat.",
+      "friendly": "Tambahan kecil yang datang menempel pada yang lebih besar — aksesori dan tambahan yang milik benda utama.",
+      "exampleGloss": "Sewa itu mencakup garasi dan semua appurtenances-nya.",
+      "origin": "Latin / Prancis",
+      "rootMeanings": [
+        "ke",
+        "milik"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "verba",
+      "definition": "Menyelubungi atau meremehkan kesalahan.",
+      "friendly": "Menghaluskan kesalahan dengan kata lembut, membuatnya terdengar lebih kecil daripada kenyataannya.",
+      "exampleGloss": "Dia mencoba gloze tenggat yang terlewat dengan omongan kabur tentang \"unforeseen challenges\".",
+      "origin": "Prancis Kuno / Latin",
+      "rootMeanings": [
+        "glos, penjelasan",
+        "berkomentar — lalu menghaluskan"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "adjektiva",
+      "definition": "Pada tahap awal, baru mulai.",
+      "friendly": "Baru mulai menampakkan diri — tahap pertama, hampir tak terlihat, dari sesuatu yang lebih besar yang akan datang.",
+      "exampleGloss": "Para dokter menangkap tanda incipient penyakit sebelum sempat menyebar.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pada, ke dalam",
+        "mengambil (mengangkat, memulai)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "nomina",
+      "definition": "Ilham kreatif, terutama yang ilahi.",
+      "friendly": "Hembusan ilham tiba-tiba yang terasa lebih besar dari Anda — seolah gagasan ditiupkan ke dalam Anda dari tempat lain.",
+      "exampleGloss": "Penyair itu menggambarkan seluruh karya datang dalam satu semburan afflatus pukul 3 pagi.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "ke, atas",
+        "meniup (hembusan ke atas)"
+      ]
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import '../models/word_entry.dart';
@@ -27,11 +28,21 @@ const _stopwords = {
   'be',
 };
 
-class WordRepository {
-  WordRepository._(this.categories, this.words);
+class WordRepository extends ChangeNotifier {
+  WordRepository._(this._categories, this._baseWords);
 
-  final List<WordCategory> categories;
-  final List<WordEntry> words;
+  final List<WordCategory> _categories;
+  final List<WordEntry> _baseWords;
+  Map<String, WordOverlay> _overlays = {};
+  String _translationKey = 'en';
+
+  List<WordCategory> get categories => _categories;
+
+  List<WordEntry> get words => [
+        for (final word in _baseWords) word.withOverlay(_overlays[word.id]),
+      ];
+
+  String get translationKey => _translationKey;
 
   static Future<WordRepository> load({
     AssetBundle? bundle,
@@ -50,6 +61,35 @@ class WordRepository {
         .map((e) => WordEntry.fromJson(e as Map<String, dynamic>))
         .toList();
     return WordRepository._(categories, words);
+  }
+
+  Future<void> applyLocale(
+    String translationKey, {
+    AssetBundle? bundle,
+  }) async {
+    if (translationKey == _translationKey &&
+        (translationKey == 'en' || _overlays.isNotEmpty)) {
+      return;
+    }
+    _translationKey = translationKey;
+    if (translationKey == 'en') {
+      _overlays = {};
+      notifyListeners();
+      return;
+    }
+    try {
+      final raw = await (bundle ?? rootBundle)
+          .loadString('assets/l10n/words_$translationKey.json');
+      final decoded = jsonDecode(raw) as Map<String, dynamic>;
+      final words = decoded['words'] as Map<String, dynamic>? ?? decoded;
+      _overlays = {
+        for (final entry in words.entries)
+          entry.key: WordOverlay.fromJson(entry.value as Map<String, dynamic>),
+      };
+    } catch (_) {
+      _overlays = {};
+    }
+    notifyListeners();
   }
 
   String labelForTag(String id) {

@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "fel",
+      "definition": "Şirinləşdirmək və ya təmizləmək; bir şeydən sərtliyi götürmək.",
+      "friendly": "Acını, zəhəri çıxarmaq — hərfən şirinləşdirmək, ya da məcazi olaraq sərt bir fikri yumşaldıb udulası etmək.",
+      "exampleGloss": "Redaktor, sərt rəyi çapdan əvvəl edulcorated etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çölə, köklü",
+        "şirin"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "sifət",
+      "definition": "Həddindən artıq və ya süni dindar.",
+      "friendly": "Dini bağlılığı göstəriş kimi duran, səmimi imandan çox tamaşa olan şəxsi təsvir edir.",
+      "exampleGloss": "Xütbə zamanı pietistic ah çəkmələri sıranın qalanını bezdirdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "təqva, borc",
+        "xarakterinə malik"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "isim",
+      "definition": "Qrammatik quruluşdan doğan qeyri-müəyyənlik — iki cür oxunan cümlə.",
+      "friendly": "Qrammatikası düzgün, amma tamamilə fərqli iki yolla oxuna bilən cümlə, məsələn \"Visiting relatives can be tiring\".",
+      "exampleGloss": "\"Visiting relatives can be tiring\" klassik bir amphiboly — yorucu olan qohumlar, yoxsa onları ziyarət etmək?",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "hər ikisi, iki tərəfdə",
+        "atmaq"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "sifət",
+      "definition": "İti, kəsici, düz nöqtəyə kəsən.",
+      "friendly": "Laf kalabalığını kəsir — trenchant bir irad və ya zəka, boş söz olmadan işin canına tez çatır.",
+      "exampleGloss": "Onun trenchant tənqidi filmin süjet boşluqlarına gizlənməyə yer qoymadı.",
+      "origin": "qədim fransız",
+      "rootMeanings": [
+        "kəsmək",
+        "etmək, keyfiyyətinə malik"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "sifət",
+      "definition": "Yenicə başlayan; erkən və ya ibtidai mərhələdə.",
+      "friendly": "Hələ açılış anlarında — yenicə forma almağa başlamış plan, hiss və ya proses.",
+      "exampleGloss": "Müqavilənin inchoative mərhələləri ümidverici idi, amma çox detallar açıq qalmışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "başlamaq, girişmək",
+        "yönəlmə meyli"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "isim",
+      "definition": "Birini yüksək tərifləyən rəsmi nitq və ya yazı.",
+      "friendly": "Tam, rəsmi bir tərif — parlaq bir mədhiyyə, ya da nailiyyətləri damdan oxuyan nitq düşünün.",
+      "exampleGloss": "Təqaüdə çıxan professoru ən yaxın tələbələri bir panegyric ilə yola saldılar.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "hamısı",
+        "yığıncaq, toplanış"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "sifət",
+      "definition": "Mücərrəd nəzəriyyənin əksi olaraq real varlıq və ya faktiki olmaqla bağlı.",
+      "friendly": "Şeylərin həqiqətən necə mövcud olduğu haqqında, təkcə onlar haqqındakı fikir və ya nəzəriyyələr deyil.",
+      "exampleGloss": "Filosoflar rəqəmlərin ontic statusu olub-olmadığını, yoxsa yalnız zehnimizdə durduğunu müzakirə edir.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "varlıq, mövcud olan",
+        "ilə bağlı"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "fel",
+      "definition": "Meyvə vermək, ya da məhsuldar olmaq.",
+      "friendly": "Nəhayət bəhrəsini vermək — səy, fikir və ya yatırımı toxumdan faydalı bir şeyə böyütmək.",
+      "exampleGloss": "İllərlə sakit tədqiqat nəhayət işlək bir peyvəndə fructified oldu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "meyvə",
+        "etmək, səbəb olmaq"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "sifət",
+      "definition": "Bir şeyi həqiqətən baş verməmişdən əvvəl bitmiş kimi qabaqlamaq və ya göstərmək.",
+      "friendly": "Ədəbi tələsmək — gələcək hadisəni sanki bitmiş kimi təsvir edərək nöqtəni daha bərk vurmaq.",
+      "exampleGloss": "Generalın \"victory\" üçün proleptical badəsi döyüşdən tam bir həftə əvvəl qaldırıldı.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "əvvəl",
+        "almaq, tutmaq"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "sifət",
+      "definition": "Hava təzyiqi ilə işləyən; həm də ruh və ya nəfəslə bağlı.",
+      "friendly": "Adətən \"sıxılmış hava ilə işləyən\" deməkdir — ruh və ya nəfəslə də bağlı ola bilər.",
+      "exampleGloss": "Avtobus səkiyə yaxınlaşanda pneumatic əyləclər fısıldadı.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "külək, nəfəs, ruh",
+        "aid"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "sifət",
+      "definition": "Allahı və ya ilahini müsbət ifadələrlə təsvir etmək — apofatikin əksi.",
+      "friendly": "Allahın nə olmadığını yox, nə olduğunu deyərək danışmaq — \"God is love\" kimi.",
+      "exampleGloss": "Cataphatic ilahiyyat Allahdan sevən, ədalətli və mərhəmətli deyə inamla danışır.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "aşağı, görə",
+        "danışmaq, demək"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "sifət",
+      "definition": "Etibar və ya imana əsaslanan; həm də sabit istinad nöqtəsi kimi işlənir.",
+      "friendly": "Etibar edib sonra lövbər etdiyiniz şey — fiducial nişan, hər şeyin ölçüldüyü sabit nöqtədir.",
+      "exampleGloss": "Ölçüçülər sahəni xəritələməzdən əvvəl ana qayaya fiducial nişan qoydular.",
+      "origin": "latın",
+      "rootMeanings": [
+        "etibar etmək",
+        "etibar, inam"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "isim",
+      "definition": "Şərin varlığı qarşısında Allahın yaxşılığının müdafiəsi.",
+      "friendly": "Qədim sualı cavablamağa cəhd: \"Allah yaxşıdırsa, niyə şər var?\"",
+      "exampleGloss": "Dissertasiyası theodicy mövzusunu Əyyub Kitabı prizmasından araşdırdı.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "tanrı",
+        "ədalət"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "isim",
+      "definition": "Qarşılıqlı içəridə durma — Üçlük şəxslərinin bir-birinin içində var olmasına dair ilahiyyat termini.",
+      "friendly": "Hər hissənin digərlərini tam ehtiva etdiyi və ehtiva olunduğu üç-birdə duruş üçün ilahiyyat sözü.",
+      "exampleGloss": "Circumincession təlimi Ata, Oğul və Ruhun necə ayrı, amma ayrılmaz olduğunu izah etməyə çalışır.",
+      "origin": "latın",
+      "rootMeanings": [
+        "ətrafında",
+        "getmək, gəzmək"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "fel",
+      "definition": "Birinə fayda verən və ya əks olunan nəticə doğurmaq.",
+      "friendly": "Tərif (və ya qınaq) məsula geri sıçrayanda — adınıza redound edən yaxşılıqlar dönüb sizi mükafatlandırır.",
+      "exampleGloss": "Komandanın uğuru sakit və zəhmətkeş məşqçisinin hesabına redound edəcək.",
+      "origin": "latın",
+      "rootMeanings": [
+        "geri, yenə",
+        "dalğa"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "sifət",
+      "definition": "Qaçınılmaz və ya qaçıla bilinməyən.",
+      "friendly": "Nə etsəniz də olacaq — ineluctable bir nəticədən burulub çıxılmaz.",
+      "exampleGloss": "Qocalıq hər kəsə gəlir; bu sadəcə ineluctable.",
+      "origin": "latın",
+      "rootMeanings": [
+        "deyil",
+        "çıxmaq üçün çabalamaq"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "sifət",
+      "definition": "Dolayı, sözü uzadan ifadə işlətmək, birbaşa forma əvəzinə.",
+      "friendly": "Sözlə uzun yol — \"decide\" demək əvəzinə \"make a decision\" demək kimi.",
+      "exampleGloss": "Onun periphrastic e-məktubları üç abzasda dediyini bir sətirdə deyə bilərdi.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "ətrafında",
+        "bildirmək, danışmaq"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "isim",
+      "definition": "Zehin kütlüyü və ya süstlük.",
+      "friendly": "Düşünməyin şirədə yerimək kimi gəldiyi dumanlı, ağır zehin halı.",
+      "exampleGloss": "Nahar dərhal sonra sinfə bir hebetude dalğası dəydi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "küt, kəsərsiz",
+        "hal və ya keyfiyyət"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "sifət",
+      "definition": "Əlverişsiz; uğursuz əlamət.",
+      "friendly": "Pis nişanə — hələ başlamamış şəraitin və ya vaxtın əleyhinizə işləməsi.",
+      "exampleGloss": "Boz səma və ölü akkumulyator səfərə unpropitious bir başlanğıc verdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "deyil",
+        "əlverişli, lütfkar"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "sifət / fel",
+      "definition": "Sousda qaynadılmış və ya bişmiş ət — düzgün yazılışı fricasseed.",
+      "friendly": "Öz sousunda yavaş-yavaş bişib yumşalana qədər kəsilmiş ət üçün isti, köhnə mətbəx sözü.",
+      "exampleGloss": "Nənənin fricasseed toyuq hər bazar axşam yeməyinin ulduzu idi.",
+      "origin": "fransız",
+      "rootMeanings": [
+        "qızartmaq",
+        "sındırmaq (parçalara)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "sifət",
+      "definition": "Süni və ya daha aşağı keyfiyyətli əvəz.",
+      "friendly": "Həqiqətin yerini tutan saxta — işi görür, amma hər kəs əsl olmadığını bilir.",
+      "exampleGloss": "Müharibə dövrü alıcılar qovrulmuş hindibadan ersatz qəhvə ilə kifayətləndi.",
+      "origin": "alman",
+      "rootMeanings": [
+        "çölə, əvəzetmə prefiksi",
+        "qoymaq, yerləşdirmək"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "fel",
+      "definition": "Mücərrəd bir ideyanı konkret bir şeymiş kimi qəbul etmək.",
+      "friendly": "İdeyanı real və bərk hiss etdirmək — \"the economy\" kimi bulanıq şeyi göstərilə bilən cisimə çevirmək.",
+      "exampleGloss": "Bir millətin \"ruhunu\" öz varlığı kimi adlandırmaq, əslində milyonlarla fərdi seçim olan şeyi reifies edir.",
+      "origin": "latın",
+      "rootMeanings": [
+        "şey",
+        "etmək"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "fel (keçmiş zaman)",
+      "definition": "Ustalıqla qaçdı və ya yayındı.",
+      "friendly": "Təmizcə sıyrılmaq — tutulmağı, sualı və ya cavabı hiyləgərcəsinə və ya tük qədər yayındırmaq.",
+      "exampleGloss": "Cavab saatlarla onu eluded etdi, ta duşda birdən yerinə oturana qədər.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çölə, uzağa",
+        "oynamaq"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "sifət",
+      "definition": "Şübhə, çaşqınlıq və ya həll olunmamış ziddiyyət ifadə edən.",
+      "friendly": "Düşüncənin həqiqi çıxılmazında — tənbəllikdən yox, sualın özü səliqəli cavabı rədd etdiyi üçün.",
+      "exampleGloss": "Sokrat dialoqlarını tez-tez aporetic bir tonda bitirər, cavabdan çox sual buraxardı.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "olmadan",
+        "keçid, yol"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "isim",
+      "definition": "Bir şeyi bağlı terminlə adlandıran söz sənəti, məs. hökmdar üçün \"the crown\".",
+      "friendly": "Əsl şeyin yerinə bağlı söz işlətmək — idarəni nəzərdə tutaraq \"the White House announced\" demək.",
+      "exampleGloss": "\"Wall Street had a rough day\" bir metonymy — əslində birja pis gün keçirdi deməkdir.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "dəyişiklik, sonra",
+        "ad"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "fel",
+      "definition": "Kökündən qoparmaq; təbii mühitindən ayırmaq.",
+      "friendly": "Bir şeyi (və ya birini) kökündən çəkib mənsub olduğu yerdən və ya mədəniyyətdən ayırmaq.",
+      "exampleGloss": "Müharibə bütöv bir nəsli deracinated etdi, ailələri sərhədlərin o üzünə səpələdi.",
+      "origin": "fransız / latın",
+      "rootMeanings": [
+        "uzağa, qopuq",
+        "kök"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "sifət",
+      "definition": "Qulağa xoş gələn.",
+      "friendly": "Sadəcə dinləməsi gözəl — euphonious bir söz, ad və ya cümlə qulağa az qala musiqi kimi sürüşür.",
+      "exampleGloss": "\"Murmuring brook\" euphonious kiçik bir ifadədir, yumşaq və deməsi asan.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "yaxşı, gözəl",
+        "səs, ün"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "sifət",
+      "definition": "Adətən fərz edilən və ya belə sanılan.",
+      "friendly": "Sübut olunmasa da genişcə doğru qəbul edilən — \"supposed\" versiyası.",
+      "exampleGloss": "Məktubun putative müəllifi sonradan tamamilə yad çıxdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "düşünmək, saymaq",
+        "təbiətinə malik"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "isim",
+      "definition": "Yenicə uydurulmuş söz və ya ifadə.",
+      "friendly": "Təzə-təzə söz — yenicə icad, hələ (və ya az qala) lüğətdə yox.",
+      "exampleGloss": "\"Doomscrolling\" bir neologism kimi başladı və tez gündəlik jarqon oldu.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "yeni",
+        "söz, nitq"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "sifət",
+      "definition": "Qəzəbli və ya əsəbi.",
+      "friendly": "Pis, əsəbi əhval — bir vaxtlar qəzəbi dalağın idarə etdiyinə inanıldığı kimi tez partlayır.",
+      "exampleGloss": "E-məktubu oxuduqdan saniyələr içində splenetic bir cavab göndərdi.",
+      "origin": "yunanca / latın",
+      "rootMeanings": [
+        "dalaq (qəzəb yeri)",
+        "təsirə məruz"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "sifət",
+      "definition": "Təkəbbürlü və ya süni şəkildə əxlaq dərsi verməyə meyilli.",
+      "friendly": "Hər cümlə fal peçenyesiymiş kimi özündən razı həyat dərsləri paylamağı sevir.",
+      "exampleGloss": "\"Dostluğun həqiqi mənası\" üzərinə sententious badəsi hər kəsin saatına baxmasına səbəb oldu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "rəy, hikmətli söz",
+        "dolu"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "sifət",
+      "definition": "Xüsusən xırda şeylər haqqında həddindən artıq danışqan.",
+      "friendly": "Söhbəti kəsmir — başqaları sözü tükətdikdən çox sonra da xırda şeyləri boşboğazlıq edir.",
+      "exampleGloss": "Garrulous taksi sürücüsü aeroportdan çıxmamış bütün həyatını danışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "boşboğazlıq etmək",
+        "meylli"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "isim",
+      "definition": "Axmaqlıq, cəfəngiyat.",
+      "friendly": "Sadə axmaqlıq — ciddi cavabı haqq etməyəcək qədər gülünc irad və ya plan.",
+      "exampleGloss": "Planın düpedüz fatuity hali sınadıqları anda üzə çıxdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "axmaq, gülünc",
+        "olma halı"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "isim",
+      "definition": "Nitqin bağlanış hissəsi, çox vaxt xülasə edir.",
+      "friendly": "Nitqin böyük finalı — natiqin hər şeyi toplayıb nöqtəni vurduğu bağlanış.",
+      "exampleGloss": "Peroration gələndə dinləyicinin yarısı ayağa qalxmışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "boyunca, sonadək",
+        "danışmaq, müdafiə etmək"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "isim",
+      "definition": "Eyni fikrin fərqli sözlərlə lazımsız təkrarı.",
+      "friendly": "Yeni heç nə qatmadan eyni şeyi iki dəfə demək — \"free gift\" və ya \"end result\" kimi.",
+      "exampleGloss": "\"It is what it is\" həqiqi izahdan qaçanların sevdiyi tautology nümunəsidir.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "eyni",
+        "söz, nitq"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "isim",
+      "definition": "Çox az söz işlətmə; qısa nitq.",
+      "friendly": "Çox azla çox demək — Lakoniya spartalılarının məşhur qısalığından adını alan qısa, sərt cavab sənəti.",
+      "exampleGloss": "\"Molon labe\" — \"gəlin və götürün\" — tarixin ən məşhur laconism parçasıdır.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "Lakoniya spartalısı",
+        "adət, tərz"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "isim",
+      "definition": "Dadsız, həddindən artıq sadələşdirilmiş ideyalar; əslində dadsız yemək və ya sıyıq.",
+      "friendly": "Seyrəldilmiş düşüncə — zehin üçün qida dəyəri qalmayacaq qədər sadələşdirilmiş, təhlükəsiz məzmun.",
+      "exampleGloss": "Siyasətçinin nitqi əsasən pabulum idi: tutula bilməyən qeyri-müəyyən vədlər.",
+      "origin": "latın",
+      "rootMeanings": [
+        "yemləmək",
+        "vasitə və ya alət"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "sifət",
+      "definition": "Yuxu və ya süstlük gətirən.",
+      "friendly": "Darıxdırıcı — və ya hərfən sakitləşdirici — olacaq qədər yuxuya çəkir. İlıq süd, ya da üç saatlıq büdcə iclası düşünün.",
+      "exampleGloss": "Mühazirənin soporific uğultusu otağın yarısını gözünü açıq saxlamağa məcbur etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "dərin yuxu",
+        "etmək, səbəb olmaq"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "sifət",
+      "definition": "Həddindən artıq yaltaq və ya yağlı tərzli.",
+      "friendly": "Sürüşkən gələcək qədər hamar cazibədar — yağlılığı az qala hiss ediləcək qədər qalın yaltaqlıq.",
+      "exampleGloss": "Unctuous satıcı hər əlavə satışdan əvvəl \"mükəmməl zövqümü\" tərifləməyə davam etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "yağ sürmək, məsh etmək",
+        "dolu"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "sifət",
+      "definition": "Qüsur axtarmağa tez, xırda şeylərə həddindən artıq tənqidi.",
+      "friendly": "Tükü tükdən ayırmağa varan — həqiqətən əhəmiyyəti yoxkən hər şeydə problem tapan şəxs.",
+      "exampleGloss": "Hesabatdakı captious qeydləri tamamilə vergül yerinə fokuslanmışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "tutmaq, almaq",
+        "tələ, safsəta"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "sifət",
+      "definition": "Ağır, zehni və ya bədənən hərəkətsiz.",
+      "friendly": "Qış yuxusundakı ayı kimi yavaş və yarıyuxulu — az qala tərpənmir, az qala düşünmür.",
+      "exampleGloss": "Avqustun ağır istisində ofis torpid düşdü.",
+      "origin": "latın",
+      "rootMeanings": [
+        "keyimək, ağırlaşmaq",
+        "halında"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "isim",
+      "definition": "Orta əsr evini idarə edən kətxuda və ya məmur.",
+      "friendly": "Orta əsr versiyası bir heyət rəisi — lordun evini və mülkünü gündəlik idarə edən etibarlı məmur.",
+      "exampleGloss": "Qalanın seneschal şəxsi məhsul dəftərindən qonaq siyahısına hər şeyi idarə edirdi.",
+      "origin": "frank / qədim fransız",
+      "rootMeanings": [
+        "yaşlı, böyük",
+        "xidmətçi"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "fel",
+      "definition": "Bir mövzuda uzun-uzadı danışmaq və ya yazmaq.",
+      "friendly": "Mövzuya həqiqətən dalmaq — hər bucaqdan dayanmadan danışmaq və ya yazmaq.",
+      "exampleGloss": "Ona klassik maşınları soruşun, düz bir saat expatiate edər.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çölə",
+        "fəza"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "sifət",
+      "definition": "Dəyərsiz, xırda; həm də etibarsız və ya təsirsiz.",
+      "friendly": "Əsasən heç bir dəyəri yox — müqavilədəki nugatory maddə əslində heç nə etmir.",
+      "exampleGloss": "Məhkəmə köhnə nizamnaməni nugatory saydı, çünki heç tətbiq olunmamışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "xırda-xuruş, cəfəng",
+        "aid"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "isim",
+      "definition": "Müdriklik, iti mühakimə.",
+      "friendly": "İti, praktik müdriklik — yalnız kitabdan yox, təcrübədən gələn yaxşı mühakimə.",
+      "exampleGloss": "Qoca kapitanın sagacity hali ekipajı bir dəfədən çox beladan qorudu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "iti qoxulu, zirək",
+        "keyfiyyəti"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "isim",
+      "definition": "Aşağılayaraq işlədilən avam və ya kütlə.",
+      "friendly": "\"Ayaq takımı\" və ya adi insanlar üçün təkəbbürlü, xor baxan söz.",
+      "exampleGloss": "Qraf, saray qapısının xaricində toplanan canaille izdihamına xor baxdı.",
+      "origin": "italyan / fransız",
+      "rootMeanings": [
+        "it",
+        "kollektiv, sürü"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "isim",
+      "definition": "Təkəbbürlü, alçaldıcı rəftar və ya dil.",
+      "friendly": "Utandırmaq üçün qurulmuş zalım, xor rəftar — ağrıtsın deyə qurulmuş təhqir.",
+      "exampleGloss": "Əsəri tanınmazdan əvvəl tənqidçilərdən illərlə contumely çəkdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "ilə, köklü",
+        "şişmək (qürurla)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "zərf",
+      "definition": "Şübhə və ya bəyənməmə ilə; yan baxış.",
+      "friendly": "Pek etibar etmədiyiniz şeyə atdığınız yan baxış — şübhə dolu bir baxış.",
+      "exampleGloss": "Müəllim şübhəli dərəcədə təmiz tapşırığa askance baxdı.",
+      "origin": "qeyri-müəyyən / italyan",
+      "rootMeanings": [
+        "ə, doğru",
+        "əyri, yanlı"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "isim",
+      "definition": "Axmaq şəxs; küt kəllə.",
+      "friendly": "Bir az qalın kəlləli biri üçün köhnə üsul, az qala mehriban təhqir — küt kəllə.",
+      "exampleGloss": "\"Səni clodpate,\" güldü, \"xəritə bütün vaxt tərs dururdu.\"",
+      "origin": "ingilis",
+      "rootMeanings": [
+        "torpaq parçası",
+        "baş"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "fel",
+      "definition": "Hərəkətə və ya əmələ keçirmək; həvəsləndirmək.",
+      "friendly": "Bir şeyi hərəkətə gətirən qığılcım olmaq — maşının açılması, ya da şəxsin nəhayət fikir üzərinə əmələ keçməsi.",
+      "exampleGloss": "Müqaviləni itirmək qorxusu bütün komandanı həftəsonu işinə actuated etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "etmə, sürmə",
+        "sürmək, etmək"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "isim",
+      "definition": "Əmanət edilən vəsaitin mənimsənilməsi.",
+      "friendly": "Sizə əmanət edilən pulu sakitcə oğurlamaq — köhnə palto geymiş mənimsəmə.",
+      "exampleGloss": "Xəzinədarın peculation işi az qala on il fərq edilmədi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "şəxsi mülk",
+        "mal-qara, sərvət"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "isim",
+      "definition": "Nüfuzlu cəmiyyətin kənarında görülən qrup.",
+      "friendly": "Parlaq, amma qaranlıq sosial yeraltı — \"nüfuzlu\" cəmiyyət qaydalarının elə kənarında yaşayanlar.",
+      "exampleGloss": "Roman 1920-lər kabarelərinin demi-monde dünyasında yolunu tapan bir müğənnini izləyir.",
+      "origin": "fransız",
+      "rootMeanings": [
+        "yarı",
+        "dünya, cəmiyyət"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "sifət",
+      "definition": "Hələ mövcud olan; nəsli kəsilməmiş və ya məhv edilməmiş.",
+      "friendly": "Bu gün hələ duran — sağ qalmağı bacarmış köhnə şeylər (əlyazma, növ, bina) üçün.",
+      "exampleGloss": "İlk çapın bilinən yalnız üç extant nüsxəsi var.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çölə",
+        "durmaq"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "isim",
+      "definition": "Aldatma; etibar xəyanəti.",
+      "friendly": "Dərin, qəsdən xəyanət — birinin haqlı olaraq gözlədiyi etibarı qırmaq.",
+      "exampleGloss": "General danışıq masasında köhnə dostunun perfidy halını heç bağışlamadı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "içindən, qarşı",
+        "iman, etibar"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "isim",
+      "definition": "Regional ləhcə, xüsusən standart olmayan.",
+      "friendly": "Müəyyən bir yurdda insanların özünəməxsus danışıq tərzi — yadın tuta bilməyəcəyi söz və ritmlərlə dolu.",
+      "exampleGloss": "Nənəsi ailə yeməklərində hələ adanın patois dilini danışırdı.",
+      "origin": "fransız",
+      "rootMeanings": [
+        "qaba nitq, ləhcə",
+        "pəncə — yöndəmsiz danışıq"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "isim",
+      "definition": "Bir şəxsə və ya qrupa məxsus xüsusi hüquq.",
+      "friendly": "Yalnız sizin olan imtiyaz — rol, vəzifə və ya statusla gələn hüquq.",
+      "exampleGloss": "Ailənin tətil yerini seçmək baba üçün prerogative, hər kəs bunu bilir.",
+      "origin": "latın",
+      "rootMeanings": [
+        "əvvəl",
+        "soruşmaq, səs vermək"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "isim",
+      "definition": "Cəsarət, cürət; həm də dözüm və ya dözümlülük.",
+      "friendly": "Kobud, ürəkli müqavimət — irəli getmə cəsarəti və getdikdən sonra davam etmə sərtliyi.",
+      "exampleGloss": "Xəritəsiz qar fırtınasında aşırımı keçmək həqiqi hardihood tələb edirdi.",
+      "origin": "qədim fransız / ingilis",
+      "rootMeanings": [
+        "cəsur, dözümlü",
+        "hal, vəziyyət"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "fel",
+      "definition": "Çiçək açmaq; həm də inkişaf etmək və ya tədricən görünmək.",
+      "friendly": "Tam ifadəyə açılmaq — çiçək kimi, ya da bir fikrin nəhayət özü olması kimi.",
+      "exampleGloss": "Rəsmdəki sakit istedadı öz emalatxanası olanda effloresced oldu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çölə",
+        "çiçək açmağa başlamaq"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "isim",
+      "definition": "Şaquliliyi müəyyən etmək üçün ağırlıqlı ip; məcazi olaraq mühakimə ölçüsü.",
+      "friendly": "Dosdoğru aşağı sallanmış ağırlıqlı ip, həqiqətən şaquli olub-olmadığına baxmaq üçün — və uzantısı ilə hər şeyi ölçdüyünüz sabit ölçü.",
+      "exampleGloss": "Öz babasının dürüstlüyünü hər qərar üçün bir növ plumb line etdi.",
+      "origin": "latın / ingilis",
+      "rootMeanings": [
+        "qurğuşun",
+        "ip, ölçü"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "zərf",
+      "definition": "Sevə-sevə, istəyə-istəyə (köhnə).",
+      "friendly": "\"Sevə-sevə\" və ya \"məmnuniyyətlə\" deməyin köhnə yolu.",
+      "exampleGloss": "\"I would fain rest here a while,\" deyə ah çəkdi yolçu.",
+      "origin": "qədim ingilis",
+      "rootMeanings": [
+        "şən, sevincli",
+        "sevə-sevə, istəyə-istəyə"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "isim",
+      "definition": "Sərt ictimai tənqid və ya rüsvayçılıq.",
+      "friendly": "Birinin üzərinə böyük, görünən şəkildə yığılan ictimai utanc — geniş bəyənməmədən gələn rüsvayçılıq.",
+      "exampleGloss": "Qalmaqal bütün firmaya ictimai opprobrium endirdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "qarşı",
+        "rüsvayçılıq, qınaq"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "sifət",
+      "definition": "İti kinayəli, zəka və ya tənqiddə dişləyici.",
+      "friendly": "Dişi olan zəka — mordant bir irad məhz nişanı yaxşı olduğu üçün bir az ağrıdır.",
+      "exampleGloss": "Onun mordant film rəyləri rejissorlarca qorxulur, oxucularca sevilirdi.",
+      "origin": "latın / fransız",
+      "rootMeanings": [
+        "dişləmək",
+        "dişləyən, edən"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "isim",
+      "definition": "Rəsmi bəyannamə, çox vaxt siyasi və ya hərbi.",
+      "friendly": "Böyük, rəsmi elan — adətən yeni hökumət, üsyan və ya böyük fərman elan edir.",
+      "exampleGloss": "Generalın pronunciamento bəyannaməsi şəfəqdə yeni hökuməti elan etdi.",
+      "origin": "ispan",
+      "rootMeanings": [
+        "irəli",
+        "elan etmək"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "isim",
+      "definition": "Səthi biliyi olub mütəxəssis kimi davranan şəxs.",
+      "friendly": "Mövzunun səthini sürtüb sonra dərslik yazmış kimi danışan şəxs.",
+      "exampleGloss": "Axşam yeməyindəki sciolist, masadakı həqiqi astrofiziki özündən əmin düzəltdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "bilmək",
+        "kiçiltmə — kiçik bilən"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "isim",
+      "definition": "Qocalıqda zehni qabiliyyətlərin geriləməsi.",
+      "friendly": "Zehin itiliyinin solmağa başladığı çox qocalığın dumanlı, unutqan dövrü.",
+      "exampleGloss": "Dotage dövründə hər ziyarətdə eyni üç hekayəni danışardı, hər dəfə yeniymiş kimi.",
+      "origin": "orta ingilis",
+      "rootMeanings": [
+        "kəmağıllıq, axmaqlaşmaq",
+        "hal və ya nəticə"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "isim",
+      "definition": "Küləkdən qorunan yan.",
+      "friendly": "Təpənin, gəminin, divarın küləyin pek çata bilmədiyi sakit, sığınacaqlı yanı.",
+      "exampleGloss": "Gəzintiçilər küləkdən qaçmaq üçün belin lee side yanına çadır qurdular.",
+      "origin": "qədim ingilis",
+      "rootMeanings": [
+        "sığınacaq, qoruma",
+        "yan, üz"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "fel",
+      "definition": "Bir zərbəni, sualı və ya dəlili yayındırmaq.",
+      "friendly": "Ritmi qaçırmadan hamar yayındırmaq — qılınc zərbəsi, çətin sual və ya ittiham.",
+      "exampleGloss": "Müxbirin çətin sualını asan bir zarafatla parried etdi.",
+      "origin": "fransız",
+      "rootMeanings": [
+        "yayındırmaq",
+        "hazırlamaq, müdafiə etmək"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "sifət",
+      "definition": "Pis qoxulu, zərərli.",
+      "friendly": "Az qala zəhərli gələn qoxu — nəfəs almaq təhlükəli gələcək qədər pis qoxu.",
+      "exampleGloss": "Günəş batanda bataqlıqdan mephitic bir qoxu qalxdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "zərərli buxar",
+        "təbiətinə malik"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "isim",
+      "definition": "Lüks və ləzzətə həsr olunmuş şəxs.",
+      "friendly": "Rahatlıq və şıltaqlıq üçün yaşayan — gözəl yemək, yumşaq yataq, asan həyat — ifratı ilə məşhur qədim Yunan şəhəri Sybarisdən.",
+      "exampleGloss": "Həqiqi bir sybarite, vannasız otel otağını rədd etdi.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "lüksü ilə məşhur qədim Yunan şəhəri",
+        "sakini"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "fel",
+      "definition": "Bir hissəni qəsdən kənara qoymaq və ya saymamaq.",
+      "friendly": "Tapmacanın bir parçasını qəsdən zehində kənara qoyub qalanına təmiz fokuslanmaq.",
+      "exampleGloss": "Xərci bir an prescind edək və planın həqiqətən işləyib-işləmədiyini soruşaq.",
+      "origin": "latın",
+      "rootMeanings": [
+        "əvvəl, uzağa",
+        "kəsmək"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "fel",
+      "definition": "Şiddətlə tənqid etmək; həm də dərini soymək.",
+      "friendly": "Sərt tənqidlə birini parçalamaq — sözlə, sanki həqiqətən dərini soyurmuş kimi.",
+      "exampleGloss": "Tənqidçilər davam filmini, əslin pərəstişkarlarının sevdiyi hər şeyə xəyanət etdiyi üçün excoriated etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "qopuq",
+        "dəri, post"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "fel",
+      "definition": "Sübut və ya dəlil kimi göstərmək.",
+      "friendly": "Nöqtənizi dəstəkləyəcək fakt və ya nümunə irəli sürmək — kimsə \"what's your evidence?\" deyə soruşanda işarə etdiyiniz şey.",
+      "exampleGloss": "Vəkil müvekkilinin bəhanəsini dəstəkləmək üçün üç şahid adduced etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "ə, doğru",
+        "yönəltmək"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "isim",
+      "definition": "Səyahətlər və ya dolaşmalar, xüsusən uzun və geniş olanlar.",
+      "friendly": "Uzun, dolaşan səyahətlər — sizi evdən uzun müddət uzağa aparan geniş gəzinti.",
+      "exampleGloss": "Üç qitədəki peregrinations bir rəf dolusu səyahət gündəliyini doldurdu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "içindən",
+        "tarla, torpaq (peregrinus: yad)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "isim",
+      "definition": "Dilənçi, və ya sədəqə ilə yaşayan.",
+      "friendly": "Xeyir dilənərək yaşayan — tarixdə yoxsulluq andı içib ianə ilə yaşayan rahibləri də təsvir edərdi.",
+      "exampleGloss": "Mendicant rahiblər heç nəyə sahib deyildi və tamamilə kəndlilərin yaxşılığına bel bağlayırdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "dilənmək",
+        "dilənçi"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "sifət",
+      "definition": "Son dərəcə səxavətli.",
+      "friendly": "Az qala göstərişli miqyasda səxavətli — insanları bir az nəfəsini saxladan hədiyyə.",
+      "exampleGloss": "Munificent ianə kitabxananın bütün yeni qanadını maliyyələşdirdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "hədiyyə, xidmət",
+        "etmək, vermək"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "isim",
+      "definition": "Qida yoxluğundan tükənmə; həm də canlılıq yoxluğu.",
+      "friendly": "Qidalanmamış və ya yanacaqsız qalmaqdan zəif, tükənmiş hal — hərfən aclıqdan, məcazi olaraq qaçacaq bir şey qalmamasından.",
+      "exampleGloss": "Mühasirənin sonunda əsgərlər inanition astanasında idi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "boş, yox",
+        "hərəkət və ya nəticə"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "isim",
+      "definition": "Acı, söyüşlü tənqid.",
+      "friendly": "Ədalinin çox o üzünə keçib qəzəbli, acı bir nutqa dönmüş tənqid.",
+      "exampleGloss": "Onlayn şərhlər dəqiqələr içində saf vituperation halına əriyib getdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "qüsur",
+        "hazırlamaq, təmin etmək"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "sifət",
+      "definition": "Düşməncəsinə, təsiri zərərli.",
+      "friendly": "Sakitcə belə sizə qarşı işləyən — maraqlarınıza dost olmayan şərait və ya münasibətlər.",
+      "exampleGloss": "Yeni siyasət, niyyət o olmasa da kiçik müəssisələrə inimical idi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "deyil",
+        "dost"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "sifət",
+      "definition": "Çox vaxt ədalətsiz müqayisələrlə kin və ya narazılıq oyatmağa meyilli.",
+      "friendly": "Birini xor görünmüş hiss etdirməyə məhkum — adətən insanları və ya şeyləri ədalətsiz yığdığı üçün.",
+      "exampleGloss": "Qardaş-bacıları \"Ana kimi ən çox sevir\" deyə sıralamaq heç kimin oynamaması gərəkən invidious bir oyundur.",
+      "origin": "latın",
+      "rootMeanings": [
+        "qısqanclıq",
+        "(pis niyyətlə) baxmaq"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "isim",
+      "definition": "Daha aşağı rütbə və ya statusdakı şəxs; tabeli.",
+      "friendly": "Komanda zəncirində və ya ictimai nərdivanda daha aşağıda olan — daha güclü birinin altında çalışan gənc.",
+      "exampleGloss": "Gənc bir subaltern olaraq əmr verməzdən çox əvvəl əmr aldı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "altında",
+        "ehtiyat, digər"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "fel",
+      "definition": "Güclü nifrət duymaq və ya dilə gətirmək.",
+      "friendly": "Ucadan lənətləyəcək qədər iyrənmək — saf, səsli nifrət.",
+      "exampleGloss": "Kəndlilər vergi yığanın arabası hər keçəndə onu execrated etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "xaricə",
+        "müqəddəs (müqəddəsdən çıxarıb lənətləmək)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "isim",
+      "definition": "Dəri və ya qabıq kimi təbii xarici örtük.",
+      "friendly": "Təbiətin öz qoruyucu paketi — dəri, qabıq, qın və ya qabıq, canlıyı örtən və qoruyan nə varsa.",
+      "exampleGloss": "Tısbağa qabığı son dərəcə möhkəm bir integument nümunəsidir.",
+      "origin": "latın",
+      "rootMeanings": [
+        "üzərində, örtən",
+        "örtmək"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "sifət",
+      "definition": "Məsum, sadəlövh, uşaqcasına sadəlik göstərən; \"disingenuous\"in əksi.",
+      "friendly": "Açıqca inanan və bir az sadəlövh, gizli gündəmsiz — \"clever\" mənasına gələn \"ingenious\" ilə qarışdırılması asan.",
+      "exampleGloss": "Onun ingenuous sualı — \"niyə kimsə bunun haqqında yalan desin?\" — nə qədər az hiyləli olduğunu göstərdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "içində, yerli",
+        "törətmək (azad doğulmuş, açıq)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "isim",
+      "definition": "Kiçik detallara və ya qaydalara həddindən artıq düşkünlük.",
+      "friendly": "Böyük mənzərəni qaçırıb kiçik qaydalarda itmək — heç kimin umursamadığı incə yazıya ilişmək.",
+      "exampleGloss": "Oksford vergülü üzərinə pedantry bütün iclası relsdən çıxardı.",
+      "origin": "italyan / latın",
+      "rootMeanings": [
+        "uşaqların müəllimi",
+        "adət və ya keyfiyyət"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "isim",
+      "definition": "İncə, diqqətli yoxlama.",
+      "friendly": "Daş qoymayan dərin baxış — hər detalı həqiqi qayğıyla tarama.",
+      "exampleGloss": "Dəftərlərin diqqətli perscrutation əməliyyatından sonra uyğunsuzluq üzə çıxdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "içindən, köklü",
+        "axtarmaq, yoxlamaq"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "fel",
+      "definition": "Etiraz qaldırmaq; istəksizlik göstərmək.",
+      "friendly": "Dərhal razı olmaq əvəzinə nəzakətlə geri itələmək və ya tərəddüd — yumşaq \"I'd rather not\".",
+      "exampleGloss": "Oxumadan imzalamağı istənəndə demurred etdi.",
+      "origin": "latın / fransız",
+      "rootMeanings": [
+        "dən, uzağa",
+        "gecikdirmək"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "sifət",
+      "definition": "Səthdə inandırıcı görünən, amma əslində yanlış.",
+      "friendly": "İlk baxışda inandırıcı durur, həqiqətən yoxlayanda çökür.",
+      "exampleGloss": "\"Everyone's doing it\" yoxlama altında heç durmayan specious bir dəlildir.",
+      "origin": "latın",
+      "rootMeanings": [
+        "görünüş, baxış",
+        "dolu (gözəl görünən)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "isim",
+      "definition": "Səmimi olmayan, riyakar nitq, çox vaxt əxlaqçı.",
+      "friendly": "Fəzilətli duran, amma həqiqi hisslə dəstəklənməyən vaaz — avtomatik əxlaq pozu.",
+      "exampleGloss": "Heç kəsə məzuniyyət verməyən bir şirkətin \"ailə\" üzərinə korporativ cant dilindən bezmişdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "oxumaq (sonra: monoton jarqon)",
+        "dilənçilərin iniltisi, sonra riyakarlıq"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "sifət",
+      "definition": "Cəsarətdən məhrum, qorxaq.",
+      "friendly": "Onurğasızlığa varan ürkək — açıqca vacibkən belə ayağa qalxa bilməyəcək qədər qorxaq.",
+      "exampleGloss": "İdarə heyətinin pusillanimous sükutu qalmaqalın nəzarətdən çıxmasına yol açdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çox kiçik",
+        "ruh, cəsarət"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "sifət",
+      "definition": "Tülkü kimi; hiyləgər, zirək.",
+      "friendly": "Tülkü kimi hiyləgər və ağıllı — tez zəkalı, bir az gizli, həmişə bir addım öndə.",
+      "exampleGloss": "Boşluğu görən kimi vulpine bir sırıtma verdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "tülkü",
+        "aid və ya kimi"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "zərf",
+      "definition": "Bir-birinin ardınca, sırayla.",
+      "friendly": "Sıx-sıx bir-bir, sırayla ələ almaq — atlama yox, iki birlikdə yox.",
+      "exampleGloss": "Hakim on iki tələbin hər birini seriatim ələ aldı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "sıra, silsilə",
+        "bir-bir"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "isim",
+      "definition": "Həddindən artıq qənaətçilik; xəsislik.",
+      "friendly": "Pulu (və ya sözü, mənbəni) ağlabatan qənaətin o üzündə sıxmaq.",
+      "exampleGloss": "Onun parsimony hali əfsanə idi — çay kisəciyini üç dəfə işlətdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "əsirgəmək, qənaətcil olmaq",
+        "hal və ya adət"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "isim",
+      "definition": "Düzəliş, xüsusən mətndə.",
+      "friendly": "Bir yazıya edilən təmir — köhnə və ya vacib bir mətndəki səhvi düzəldən akademik toxunuş.",
+      "exampleGloss": "Yeni nəşr orijinal əlyazmaya onlarla emendations ehtiva edir.",
+      "origin": "latın",
+      "rootMeanings": [
+        "xaricə",
+        "qüsur, səhv"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "sifət",
+      "definition": "Yemək-içməkdə mülayim.",
+      "friendly": "Yemək və içki ətrafında qəsdən çəkinən — heç vaxt həddi aşmır, boşqabda bir az buraxır.",
+      "exampleGloss": "Abstemious vərdişləri, yaşıdları yavaşladıqdan sonra da onu uzun müddət iti saxladı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "uzağında",
+        "sərxoşedici içki"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "isim",
+      "definition": "Qrammatik səhv və ya ədəb qaydası pozuntusu.",
+      "friendly": "Qrammatika və ya ədəbdə kiçik sürüşmə — tükü tükdən ayıranı ürpədən növ səhv.",
+      "exampleGloss": "\"Between you and I\" qrammatikçiləri hələ ürpədən yaygın bir solecism nümunəsidir.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "pis yunancası ilə tanınan Kilikiya şəhəri",
+        "adət, tərz"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "sifət",
+      "definition": "Qrup daxili münaqişə ilə bağlı; qarşılıqlı dağıdıcı.",
+      "friendly": "Qrupu içəridən parçalayan daxili dava — hər kəsin uduzduğu, çünki ailə ailəyə qarşı.",
+      "exampleGloss": "Partiyanın internecine çəkişməsi xaricdəki hər hansı rəqibin verəcəyindən çox zərər verdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "arasında, içində",
+        "öldürmək"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "sifət / isim",
+      "definition": "Biganə, umursamaz münasibət.",
+      "friendly": "Çiyin silkələmənin bütün bir şəxsiyyətə çevrilməsi — vaxtilə vacib olanlara o qədər az əhəmiyyət verir ki, heç nə səyə dəyməz.",
+      "exampleGloss": "Mükafat mərasiminə pococurante münasibəti, nə qədər çox çalışdığını bilən hər kəsi təəccübləndirdi.",
+      "origin": "italyan",
+      "rootMeanings": [
+        "az",
+        "əhəmiyyət vermək"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "isim",
+      "definition": "Qarışıq, mürəkkəb vəziyyət və ya mübahisə.",
+      "friendly": "Anlaması çətin dolaşıq, dağınıq vəziyyət — bir hissəsi yanlış anlama, bir hissəsi drama, hamısı qarışıqlıq.",
+      "exampleGloss": "Bütün oturma planı imbroglio hali səhv qoyulmuş bir ad kartı ilə başladı.",
+      "origin": "italyan",
+      "rootMeanings": [
+        "içində",
+        "dolaşdırmaq, qarışdırmaq"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "sifət",
+      "definition": "Təhdidedici, qorxuducu.",
+      "friendly": "Yanıltmaz bir təhdid havası daşıyan — minatory baxış və ya məktub ardınca pis bir şey gələ biləcəyini çox açıq edir.",
+      "exampleGloss": "Məktubun minatory tonu kirəçini zərfi açmadan tedirgin etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "hədə etmək",
+        "işinə yarayan"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "isim",
+      "definition": "Güclü ictimai tənqid və ya şifahi söyüş.",
+      "friendly": "Ucadan ictimai qınaq — hər kəsin önündə oynanan yandırıcı tənqid.",
+      "exampleGloss": "İfşaedən, tarix onu haqlı çıxarmazdan əvvəl illərlə ictimai obloquy ilə üzləşdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "qarşı",
+        "danışmaq"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "isim",
+      "definition": "Hiss və ya hərəkətdə ani şiddətli partlayış.",
+      "friendly": "Bir anda sizi udan ani, sıx partlayış — gülmə, qəzəb və ya öskürək tutması dalğa kimi gəlir.",
+      "exampleGloss": "Otaqdakı heç kəsə izah edə bilməyəcəyi bir gülmə paroxysm tutmasına yaxalandı.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "o tərəf",
+        "iti, kəskin"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "sifət",
+      "definition": "Xarici mənbədən əlavə edilən, daxili olmayan.",
+      "friendly": "Başdan tikilmək əvəzinə kənardan vintlənmiş — əlavə, nüvə deyil.",
+      "exampleGloss": "Şərh adscititious gəlir, sanki bitmiş bir mətnə yapışdırılmış.",
+      "origin": "latın",
+      "rootMeanings": [
+        "ə, əlavə",
+        "təsdiqləmək, üzərinə götürmək"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "isim",
+      "definition": "Bilik yoxluğu, cəhalət.",
+      "friendly": "Sadə bilməmə — hökm əlavə edilməmiş bilik boşluğu.",
+      "exampleGloss": "Fransız şərabı barədə nescience halını qəbul etdi və sommelierə buraxdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "deyil",
+        "bilmək"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "isim",
+      "definition": "Cinsi mövzulara həddindən artıq maraq.",
+      "friendly": "Müəyyən hər şeyə həddindən artıq həvəsli, süzən bir maraq — sağlamı keçib burnunu soxmağa dönmüş maraq.",
+      "exampleGloss": "Tabloidin cütlüyün şəxsi həyatına prurience hali saplantıya yaxın idi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "qaşınmaq, həsrət çəkmək",
+        "hal"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "sifət",
+      "definition": "Hissli, qaranlıq, bulanıq.",
+      "friendly": "Qaranlıq və tüstülü görünüşlü, hər şeyin nazik his təbəqəsi ilə örtülü kimi.",
+      "exampleGloss": "Alatoranlıqda fabrika qəsəbəsinin üstündə fuliginous bir duman asılı idi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "his",
+        "dolu"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "fel",
+      "definition": "İnkar etmək və ya zidd çıxmaq.",
+      "friendly": "Başqasının dediyinə qəti qarşı danışmaq — \"that's not so\" demək.",
+      "exampleGloss": "Heç kəs qoca kapitanın fırtına hekayəsini gainsay etməyə cürət etmədi.",
+      "origin": "orta ingilis",
+      "rootMeanings": [
+        "qarşı",
+        "danışmaq"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "isim",
+      "definition": "Tənbəllik, süstlük (latıncadan).",
+      "friendly": "Saf tənbəllik üçün köhnə latınca söz — heç nə etmək istəməmənin çəkisi.",
+      "exampleGloss": "Rahiblər ignavia halını ruhun sakit təhlükələrindən biri deyə vəz etdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "deyil",
+        "məşğul, zəhmətkeş"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "isim",
+      "definition": "Gerb göstərən qalxan.",
+      "friendly": "Ailənin gerbini göstərən qalxan şəkilli emblem — heraldik \"ad lövhəsi\".",
+      "exampleGloss": "Ailənin escutcheon qalxanı hələ köhnə malikanənin ön qapısının üstündə asılıdır.",
+      "origin": "latın / qədim fransız",
+      "rootMeanings": [
+        "qalxan",
+        "kiçiltmə / obyekt"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "sifət",
+      "definition": "Köhnəlmiş, etibarsız və ya yaşdan təqaüdə çıxmış.",
+      "friendly": "Faydalı zirvəsini keçmiş və otlağa çıxarılmış — işi davam etdirmək üçün çox köhnəmoda və ya yıpranmış.",
+      "exampleGloss": "Superannuated printer on beş illik kağız ilişməsindən sonra nəhayət dəyişdirildi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "o tərəf",
+        "il"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "isim",
+      "definition": "Əvəzedicilər, xüsusən tibbdə.",
+      "friendly": "Əsl müalicə yoxkən işlədilən əvəzedici dərmanlar — əslində tibbi ehtiyat oyunçu.",
+      "exampleGloss": "Müharibə həkimləri uyğun dərmanlar bitəndə tez-tez succedanea dərmanlara bel bağlayırdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "yerinə",
+        "getmək, boyun əymək"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "isim",
+      "definition": "Öyünən, lovğa danışıq.",
+      "friendly": "Böyük, lovğa öyünmə — öz böyüklüyü haqqında çoxu hava olan uca səs.",
+      "exampleGloss": "Layihəni \"tək başına\" xilas etdiyinə dair rodomontade hali orada həqiqətən olan heç kəsi aldatmadı.",
+      "origin": "italyan",
+      "rootMeanings": [
+        "Orlando Furioso-dakı öyünən cəngavər",
+        "hərəkət, göstəriş"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "fel",
+      "definition": "Bir şeyə hiylə və ya aldatma ilə çatmaq.",
+      "friendly": "Ədalətli oyun əvəzinə gizli triklərlə hədəfə burulub çatmaq.",
+      "exampleGloss": "İncə yazıyla dolu bir müqavilə ilə razılaşmaya chicaned etdi.",
+      "origin": "fransız",
+      "rootMeanings": [
+        "kılı qırx yarmaq, aldatmaq",
+        "hiylə; sonra kəskin döngə"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "isim",
+      "definition": "Öyrənmə və ya biliyin təmiz və ya mücərrəd elmi, çox vaxt riyaziyyat.",
+      "friendly": "Ən təmiz, ən mücərrəd halında öyrənmə — biliyin özünün dərin quruluşu, xüsusən riyazi növü.",
+      "exampleGloss": "Filosof hər bilik sahəsini birləşdirəcək universal bir mathesis xəyal etdi.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "öyrənmək",
+        "öyrənmə aktı"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "sifət",
+      "definition": "Formal qaydalara və ya xırda detalə həddindən artıq düşkün.",
+      "friendly": "Kiçik şeylərdə həddindən artıq sərt — əslində heç nəyi dəyişdirməyən texniki detalları düzəltmək.",
+      "exampleGloss": "Bir mesajda \"who\" ilə \"whom\" mübahisə etmək bir az pedantic gəldi.",
+      "origin": "italyan / yunanca",
+      "rootMeanings": [
+        "uşaq bələdçisi, müəllim",
+        "tərzinə malik"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "isim",
+      "definition": "Parıldayan, qığılcımlanan işıq.",
+      "friendly": "Tez, parıldayan bir işıq çaxması — suda sıçrayan günəş, ya da işığı tutan almaz düşünün.",
+      "exampleGloss": "Avizenin coruscation parıltısı balo salonunun hər küncünə işıq saçdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "parıldamaq, çaxmaq",
+        "o akt"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "isim",
+      "definition": "Təcrübəsiz, acəmi.",
+      "friendly": "Bir bacarıq və ya sahəyə təzə-təzə biri — hələ ipin ucunu öyrənir, hələ mütəxəssis deyil.",
+      "exampleGloss": "Tyro bir şahmatçı belə o səhvi görər.",
+      "origin": "latın",
+      "rootMeanings": [
+        "təcrübəsiz əsgər, acəmi",
+        "xam gənc əsgər"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "sifət",
+      "definition": "Son dərəcə pis, iyrənc.",
+      "friendly": "Həqiqi iyrənmə haqq edəcək qədər pis — yalnız \"orta\" deyil, həqiqətən iyrənc.",
+      "exampleGloss": "Tənqidçi davamı execrable deyə adlandırdı, kassa rəqəmləri də qoşuldu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "lənətləmək",
+        "layiq, ola bilən"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "sifət",
+      "definition": "Qan qırmızısı rəngdə.",
+      "friendly": "Dərin, canlı qırmızı — təzə qan rəngi, Şekspirin Macbeth-i ilə məşhur.",
+      "exampleGloss": "Qürub bütün səmanı incarnadine bir parıltıya çevirdi.",
+      "origin": "italyan / latın",
+      "rootMeanings": [
+        "içinə",
+        "ət (ət qırmızısı)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "isim",
+      "definition": "Şeylər arasındakı kiçik boşluq.",
+      "friendly": "Gözdən qaçması asan ara boşluq — döşəmə taxtası çatlağı, proqramdakı ara.",
+      "exampleGloss": "Köhnə kərpic yoldakı hər interstice arasından otlar fışqırdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "arasında",
+        "durmaq"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "isim",
+      "definition": "Tənqidi və ya qınayıcı sözlər.",
+      "friendly": "İti, bəyənməyən iradlar — azar tonu daşıyan növ tənqid.",
+      "exampleGloss": "Professorun esse üzərinə animadversions qeydləri kənarları qırmızı mürəkkəblə doldurdu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "zehin",
+        "doğru dönmək"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "sifət",
+      "definition": "Təkzibedilməz, inkar edilə bilinməyən.",
+      "friendly": "O qədər möhkəm sübut olunmuş ki, mübahisə ediləcək bir şey yox — iş bağlanmışdır.",
+      "exampleGloss": "DNT sübutu irrefragable idi və məhkəmə bir saat içində bitdi.",
+      "origin": "latın",
+      "rootMeanings": [
+        "deyil",
+        "qarşı çıxmaq, müqavimət göstərmək"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "isim",
+      "definition": "Mürəkkəblik, dolayılıq; həm də içinə burulma.",
+      "friendly": "Öz içinə qatlanmış, açılması çətin mürəkkəblik — o qədər sıx sarılmış ki, ayırmaq çətindir.",
+      "exampleGloss": "Süjetin involution hali tamaşaçının yarısını titrlərdən sonra açmağa buraxmışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "içə, içeriyə",
+        "sarmaq, döndərmək"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "isim",
+      "definition": "Güc və ya səy, \"by dint of\" deyimində olduğu kimi.",
+      "friendly": "Sadəcə səy və ya güc — bu gün əsasən \"by dint of\" deyimində yaşayır.",
+      "exampleGloss": "İmtahanı sadəcə inadkar məşqin dint gücü ilə keçdi.",
+      "origin": "qədim ingilis",
+      "rootMeanings": [
+        "zərbə, vuruş",
+        "gücü ilə"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "sifət",
+      "definition": "Yuva-diş birləşməsi ilə birləşdirilmiş; sıx oturdulmuş.",
+      "friendly": "Köhnə üsul dülgər yolunda kilidlənmiş — bir parça tam özü üçün kəsilmiş deşiyə sıx oturur.",
+      "exampleGloss": "Köhnə anbarın tirləri tək mismar olmadan mortised şəkildə birləşmişdi.",
+      "origin": "latın / fransız",
+      "rootMeanings": [
+        "yuva, deşik",
+        "dişləmə, tutuş"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "sifət",
+      "definition": "Son dərəcə uyğun, yerində.",
+      "friendly": "O ana tam oturan — nöqtəyə kusursuz düşən irad, sitat və ya nümunə.",
+      "exampleGloss": "Onun apposite sözü bütün mübahisəni bir cümlədə yığdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "ə",
+        "qoymaq"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "sifət",
+      "definition": "Yumşaqca parlayan və ya titrəyən (işıq); həm də yüngül zəka.",
+      "friendly": "Yanmaq əvəzinə nəzakətlə parlamaq — yumşaq titrəyən işıq, ya da iti deyil, oynaq zəka.",
+      "exampleGloss": "Şam işığı köhnə yemək otağına lambent bir parıltı saldı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "yalamaq",
+        "etmək ('yalayan' işıq)"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "isim",
+      "definition": "Tənhalıqda yaşayan dini münzəvi.",
+      "friendly": "Dua və təfəkkürlə tək yaşamaq üçün dünyadan tamamilə çəkilən şəxs.",
+      "exampleGloss": "Anchorite otuz ildən çox kilsəyə bitişik kiçik bir hücrədə yaşadı.",
+      "origin": "yunanca",
+      "rootMeanings": [
+        "geri, uzağa",
+        "çəkilmək"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "fel",
+      "definition": "Susuzluğu yatırtmaq; söndürmək.",
+      "friendly": "Bir həsrəti tamamilə doyurmaq — çox vaxt susuzluq, məcazi olaraq hər dərin istək və ya ehtiyac.",
+      "exampleGloss": "Uzun gəzintidən sonra bir stəkan soyuq su susuzluğunu slaked etdi.",
+      "origin": "qədim ingilis",
+      "rootMeanings": [
+        "boş, boşaldılmış",
+        "boşaltmaq, yatırmaq"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "sifət",
+      "definition": "İynə şəkilli.",
+      "friendly": "Uzun, nazik və iynə kimi sivri — şam iynəsi və ya iti kiçik kristal forması.",
+      "exampleGloss": "Şamlar acicular yarpaqları ilə asan tanınır.",
+      "origin": "latın",
+      "rootMeanings": [
+        "iynə",
+        "kiçik"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "sifət",
+      "definition": "Canlılığı tükənmiş, zəif, həddindən artıq incəlmiş.",
+      "friendly": "Köhnəlmiş və yumşaq — həddindən artıq rahatlıq və ya incəlikdən əsl gücünü və həvəsini itirmiş.",
+      "exampleGloss": "Tənqidçilər bir vaxtlar cəsur jurnalı effete, erkən illərinin kölgəsi deyə adlandırdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "çölə",
+        "məhsuldar, doğurmuş"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "isim",
+      "definition": "Əlavə və ya kiçik bağlı hüquq.",
+      "friendly": "Daha böyüyünə yapışıq gələn kiçik əlavə — əsas şeyə aid aksesuar və əlavələr.",
+      "exampleGloss": "İcarə qarajı və bütün appurtenances əlavələrini əhatə edirdi.",
+      "origin": "latın / fransız",
+      "rootMeanings": [
+        "ə",
+        "aid olmaq"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "fel",
+      "definition": "Bir qüsuru örtmək və ya kiçiltmək.",
+      "friendly": "Yumşaq sözlərlə səhvi hamarlamaq, həqiqətən kiçikmiş kimi göstərmək.",
+      "exampleGloss": "Buraxılmış təslim tarixini \"unforeseen challenges\" üzərinə qeyri-müəyyən sözlərlə gloze etməyə çalışdı.",
+      "origin": "qədim fransız / latın",
+      "rootMeanings": [
+        "şərh, izah",
+        "şərh etmək — sonra örtmək"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "sifət",
+      "definition": "Erkən mərhələdə, yenicə başlayan.",
+      "friendly": "Yenicə görünməyə başlayan — daha böyük bir şeyin ilk, az qala görünməz mərhələsi.",
+      "exampleGloss": "Həkimlər xəstəlik yayılmadan incipient əlamətlərini tutdu.",
+      "origin": "latın",
+      "rootMeanings": [
+        "üzərində, içinə",
+        "almaq (qaldırmaq, başlamaq)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "isim",
+      "definition": "Yaradıcı ilham, xüsusən ilahi.",
+      "friendly": "Sizdən böyük gələn ani ilham — fikir başqa yerdən sizə üfürülmüş kimi.",
+      "exampleGloss": "Şair bütün parçanın gecə 3-də bir afflatus partlayışı ilə gəldiyini danışdı.",
+      "origin": "latın",
+      "rootMeanings": [
+        "ə, üzərinə",
+        "üfürmək (üzərinə üfürmə)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Patamisin o linisin; alisin ang tigas sa isang bagay.",
+      "friendly": "Tanggalin ang kagat o pait — talagang patamisin, o sa talinghaga ay palambutin ang magaspang na kaisipan para madaling lunukin.",
+      "exampleGloss": "Edulcorated ng editor ang malupit na rebyu bago ito ipalimbag.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palabas, lubusan",
+        "matamis"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Sobra o pilit na relihiyoso o deboto.",
+      "friendly": "Parang palabas ang debosyon ng tao — mas teatro kaysa tunay na pananampalataya.",
+      "exampleGloss": "Ang pietistic niyang buntong-hininga sa sermon ay naiinis ang buong upuan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kabanalan, katungkulan",
+        "may katangian ng"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Kalabuan mula sa kayarian ng balarila — pangungusap na mababasa nang dalawang paraan.",
+      "friendly": "Pangungusap na tama ang balarila pero dalawang magkaibang basahin, tulad ng \"I saw the man with the telescope.\"",
+      "exampleGloss": "Klasikong amphiboly ang \"Visiting relatives can be tiring\" — ang mga kamag-anak ba ang nakakapagod, o ang pagdalaw sa kanila?",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "pareho, sa magkabilang panig",
+        "ihagis"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Matulis, tumatagos, tumatama agad sa punto.",
+      "friendly": "Tumatawid sa palamuti — ang trenchant na puna o isip ay mabilis umabot sa puso ng usapin, walang nasayang na salita.",
+      "exampleGloss": "Ang kanyang trenchant na puna ay walang naiwang taguan para sa mga butas ng pelikula.",
+      "origin": "Lumang Pranses",
+      "rootMeanings": [
+        "gupitin",
+        "paggawa, pagkakaroon ng katangian"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Kakasimula pa lang; nasa maaga o payak na yugto.",
+      "friendly": "Nasa mga unang sandali pa — plano, damdamin, o lakad na kasisimula pa lang magkaroon ng hugis.",
+      "exampleGloss": "Ang inchoative na yugto ng kasunduan ay puno ng pangako, pero maraming detalye ang hindi pa tapos.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "magsimula, umpisahan",
+        "humahilig tungo"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pormal na talumpati o sulat na lubos na pumupuri sa isang tao.",
+      "friendly": "Buong-buong pormal na parangal — isipin ang nagniningning na papuri sa patay, o talumpating umaawit ng mga nagawa mula sa bubong.",
+      "exampleGloss": "Pinaalis ang retiradong propesor sa isang panegyric mula sa pinakamalapit niyang mag-aaral.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "lahat",
+        "pagtitipon, pulong"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Tungkol sa tunay na pag-iral o katotohanang pagiging, hindi teoryang walang laman.",
+      "friendly": "Tungkol sa mga bagay kung paano talaga umiiral, hindi lang bilang kaisipan o teorya tungkol sa kanila.",
+      "exampleGloss": "Pinagdedebatehan ng mga pilosopo kung may ontic na katayuan ang mga bilang o nasa isip lang natin.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "pagiging, ang umiiral",
+        "may kinalaman sa"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Magbunga, o maging mabunga.",
+      "friendly": "Sa wakas ay magbunga — pagsisikap, kaisipan, o puhunang lumaki mula sa buto tungo sa may silbi.",
+      "exampleGloss": "Ang mga taon ng tahimik na pananaliksik ay sa wakas ay fructified sa bakunang gumagana.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bunga",
+        "gawin, magdulot"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Inaabangan o inilalarawan ang isang bagay na parang tapos na bago pa talaga mangyari.",
+      "friendly": "Pang-aklatang pagmamadali — ilarawan ang hinaharap na pangyayari na parang tapos na, para mas tumama ang punto.",
+      "exampleGloss": "Ang proleptical na toast ng heneral sa \"victory\" ay naihatid isang buong linggo bago ang laban.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "bago",
+        "kunin, agawin"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Pinapatakbo ng presyon ng hangin; may kinalaman din sa espiritu o hininga.",
+      "friendly": "Karaniwang ibig sabihin ay \"pinapatakbo ng siksik na hangin\" — bagaman maaari ring may kinalaman sa espiritu o hininga.",
+      "exampleGloss": "Humuni ang pneumatic na preno nang huminto ang bus sa bangketa.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "hangin, hininga, espiritu",
+        "may kinalaman sa"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Paglalarawan sa Diyos o sa banal sa pamamagitan ng positibong pahayag — kabaligtaran ng apopatiko.",
+      "friendly": "Paraan ng pag-usap tungkol sa Diyos sa pamamagitan ng sinasabi kung ano Siya — \"God is love\" — hindi lang kung ano ang hindi Niya.",
+      "exampleGloss": "Ang Cataphatic na teolohiya ay nagsasalita nang may tiwala tungkol sa Diyos bilang mapagmahal, makatarungan, at maawain.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "pababa, ayon sa",
+        "magsalita, sabihin"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Nakabatay sa tiwala o pananampalataya; ginagamit din bilang nakapirming pananda.",
+      "friendly": "Isang bagay na tinatanggap mo sa tiwala tapos ginagawang angkla — ang fiducial na marka ang nakapirming pook na sinusukat ang lahat.",
+      "exampleGloss": "Naglagay ang mga tagasukat ng fiducial na pananda sa batong-ugat bago imapa ang lugar.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "magtiwala",
+        "tiwala, pananalig"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagtatanggol sa kabutihan ng Diyos dahil sa pag-iral ng kasamaan.",
+      "friendly": "Ang sinaunang pagtatangka sagutin ang \"Kung mabuti ang Diyos, bakit may kasamaan?\"",
+      "exampleGloss": "Tiningnan ng kanyang tesis ang theodicy sa lente ng Aklat ni Job.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "diyos",
+        "katarungan"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagsasamahang pananahanan — katagang teolohiko kung paano naninirahan ang mga persona ng Trinidad sa isa't isa.",
+      "friendly": "Salitang teolohiya para sa pagiging tatlo-sa-isa na ganap na naglalaman at nilalaman ng bawat isa.",
+      "exampleGloss": "Sinusubukan ng aral ng circumincession ipaliwanag kung paano magkakaiba ngunit hindi mapaghihiwalay ang Ama, Anak, at Espiritu.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa paligid",
+        "lumakad, maglakad"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Magkaroon ng kahihinatnang nakikinabang o bumabalik sa isang tao.",
+      "friendly": "Kapag ang papuri (o sisi) ay tumalbog pabalik sa responsable — ang mabubuting gawang redound sa pangalan ay bumabalik na gantimpala.",
+      "exampleGloss": "Ang tagumpay ng koponan ay redound sa kredito ng tahimik at masipag na tagasanay.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pabalik, muli",
+        "alon"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Hindi maiiwasan o matatakasan.",
+      "friendly": "Tiyak na mangyayari anuman ang gawin mo — walang lusot sa ineluctable na kinalabasan.",
+      "exampleGloss": "Darating ang katandaan sa lahat; simpleng ineluctable ito.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hindi",
+        "makipagbuno palabas"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Gumagamit ng paikot, mahabang pananalita sa halip na tuwirang anyo.",
+      "friendly": "Dumadaan sa malayong daan ng mga salita — sinasabing \"make a decision\" sa halip na \"decide\".",
+      "exampleGloss": "Ang kanyang periphrastic na liham ay maaaring nasabi sa isang linya ang kinailangan ng tatlong talata.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "sa paligid",
+        "ipahayag, sabihin"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagkapurol o pagkahilo ng isip.",
+      "friendly": "Ang maulap, mabagal na kalagayan ng isip kung saan parang nilalakad mo ang malapot na asukal ang pag-iisip.",
+      "exampleGloss": "Isang alon ng hebetude ang tumama sa klase pagkatapos ng tanghalian.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mapurol, hindi matulis",
+        "kalagayan o katangian"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Hindi kanais-nais; masamang palatandaan.",
+      "friendly": "Masamang senyales — kundisyon o oras na parang laban sa iyo bago ka pa magsimula.",
+      "exampleGloss": "Ang kulay-abong langit at patay na baterya ay naging unpropitious na simula ng biyahe.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hindi",
+        "kanais-nais, mapagbiyaya"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "pang-uri / pandiwa",
+      "definition": "Karne na inihaw o inilaga sa sarsa — tamang baybay ay fricasseed.",
+      "friendly": "Komportableng lumang kataga sa pagluluto para sa karne na hiniwa at dahan-dahang inilaga sa sariling sarsa hanggang lumambot.",
+      "exampleGloss": "Ang fricasseed na manok ni Lola ang tampok ng bawat hapunan tuwing Linggo.",
+      "origin": "Pranses",
+      "rootMeanings": [
+        "iprito",
+        "baliin (sa piraso)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Pekeng o mas mababang kapalit.",
+      "friendly": "Peke na pumapalit sa totoo — gumagana naman, pero alam ng lahat na hindi tunay.",
+      "exampleGloss": "Ang mga mamimili noong giyera ay nakibagay sa ersatz na kape mula sa inihaw na chicory.",
+      "origin": "Aleman",
+      "rootMeanings": [
+        "palabas, unlaping kapalit",
+        "ilagay, ipwesto"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Tratuhin ang kaisipang walang laman na parang bagay na nahahawakan.",
+      "friendly": "Gawing totoo at matibay ang kaisipan — gawing bagay na maituturo ang malabo, tulad ng \"the economy\".",
+      "exampleGloss": "Ang pagtawag sa \"espiritu\" ng bansa bilang sariling nilalang ay reifies ang totoo'y milyun-milyong indibidwal na pagpili.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bagay",
+        "gawin"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "pandiwa (pangnagdaan)",
+      "definition": "Nakatakas o naiwasan nang may kasanayan.",
+      "friendly": "Nakatakas nang malinis — umilag sa pagdakip, tanong, o sagot, madalas nang tuso o naiipit.",
+      "exampleGloss": "Eluded siya ng sagot nang ilang oras hanggang biglang pumitik sa paliguan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palabas, palayo",
+        "maglaro"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Nagpapahayag ng pag-aalinlangan, pagkalito, o hindi pa natapos na kontradiksyon.",
+      "friendly": "Nakadikit sa tunay na patay na dulo ng pag-iisip — hindi tamad na pagkalito, kundi dahil mismo ang tanong ay tumatanggi sa malinis na sagot.",
+      "exampleGloss": "Madalas tapusin ni Socrates ang mga diyalogo sa aporetic na tono, mas maraming tanong kaysa sagot.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "wala",
+        "daanan, landas"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Tayutay na tumatawag sa bagay sa kaugnay na kataga, hal. \"the crown\" para sa hari.",
+      "friendly": "Paggamit ng kaugnay na salita kapalit ng totoo — sinasabing \"the White House announced\" kung ang ibig sabihin ay ang pamahalaan.",
+      "exampleGloss": "Ang \"Wall Street had a rough day\" ay metonymy — ang ibig sabihin talaga ay ang palengke ng sapi.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "pagbabago, pagkatapos",
+        "pangalan"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Bunutin sa ugat; punitin mula sa likas na kapaligiran.",
+      "friendly": "Hilahin ang isang bagay (o tao) mula sa ugat, palayo sa lugar o kulturang kinabibilangan.",
+      "exampleGloss": "Ang giyera ay deracinated ang buong henerasyon, ikinalat ang mga pamilya sa kabila ng hangganan.",
+      "origin": "Pranses / Latin",
+      "rootMeanings": [
+        "palayo, tanggal",
+        "ugat"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Kaaya-aya pakinggan.",
+      "friendly": "Masarap lang pakinggan — ang euphonious na salita, pangalan, o pangungusap ay dumudulas sa tenga na parang musika.",
+      "exampleGloss": "Ang \"Murmuring brook\" ay maliit na euphonious na parirala, malambot at madaling bigkasin.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "mabuti, maayos",
+        "tunog, tinig"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Karaniwang ipinapalagay o tinatanggap na.",
+      "friendly": "Malawakang pinaniniwalaang totoo kahit hindi pa napatunayan — ang \"supposed\" na bersyon.",
+      "exampleGloss": "Ang putative na may-akda ng liham ay naging ganap na estranghero pala.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "isipin, ituring",
+        "may katangian ng"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Bagong likhang salita o parirala.",
+      "friendly": "Bagong-bagong salita — kasisilang pa lang, wala pa (o halos wala) sa talahulugan.",
+      "exampleGloss": "Ang \"Doomscrolling\" ay nagsimula bilang neologism at mabilis naging pang-araw-araw na salitang-kalye.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "bago",
+        "salita, pananalita"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Galit o masamang-loob.",
+      "friendly": "Nasa masamang kalooban, madaling sumabog — tulad ng dating paniniwala na ang pali ang kumokontrol sa init ng ulo.",
+      "exampleGloss": "Nagpaputok siya ng splenetic na sagot ilang segundo pagkabasa ng liham.",
+      "origin": "Griyego / Latin",
+      "rootMeanings": [
+        "pali (upuan ng galit)",
+        "naaapektuhan ng"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Mahilig magturo ng aral nang may palalo o pilit na paraan.",
+      "friendly": "Mahilig magbigay ng maliliit na aral sa buhay nang may palalo, parang bawat pangungusap ay biskwit ng kapalaran.",
+      "exampleGloss": "Ang kanyang sententious na toast tungkol sa \"tunay na kahulugan ng pagkakaibigan\" ay nagtulak sa lahat na tumingin sa orasan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "opinyon, kasabihan",
+        "puno ng"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Sobrang madaldal, lalo na sa maliliit na bagay.",
+      "friendly": "Hindi tumitigil sa usapan — nagsasalaysay ng maliliit na bagay matagal pagkatapos maubusan ng sasabihin ang iba.",
+      "exampleGloss": "Ang garrulous na tsuper ng taksi ay ikinuwento ang buong buhay niya bago pa kami umalis sa paliparan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "magsalita nang walang tigil",
+        "hilig"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Kamangmangan, kabobohan.",
+      "friendly": "Payak na kabobohan — puna o planong napakabobo na halos hindi karapat-dapat sagutin nang seryoso.",
+      "exampleGloss": "Ang tahasang fatuity ng plano ay naging malinaw sa sandaling sinubukan nila.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bobo, hangal",
+        "kalagayan ng pagiging"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pangwakas na bahagi ng talumpati, madalas nagbubuod.",
+      "friendly": "Ang malaking tapos ng talumpati — ang pangwakas kung saan tinitipon ng tagapagsalita ang lahat at ipinapako ang punto.",
+      "exampleGloss": "Sa peroration, kalahati na ng madla ang nakatayo.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa pamamagitan, hanggang dulo",
+        "magsalita, ipagtanggol"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Walang-silbing pag-uulit ng parehong kaisipan sa ibang salita.",
+      "friendly": "Sinasabi nang dalawang beses ang pareho nang walang dagdag, tulad ng \"free gift\" o \"end result\".",
+      "exampleGloss": "Ang \"It is what it is\" ay paboritong tautology ng mga umiiwas sa tunay na paliwanag.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "pareho",
+        "salita, pananalita"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Paggamit ng napakakaunting salita; maikling pananalita.",
+      "friendly": "Maraming nasasabi sa kaunti — sining ng maikli, tuwirang sagot, mula sa mga Sparta ng Laconia na kilala sa kaiklian.",
+      "exampleGloss": "Ang \"Molon labe\" — \"halika at kunin ninyo\" — ang pinakatanyag na laconism sa kasaysayan.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "isang Sparta ng Laconia",
+        "gawi, paraan"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Malabnaw, sobrang pinasimpleng kaisipan; orihinal, malabnaw na pagkain o lugaw.",
+      "friendly": "Manipis, diniluang pag-iisip — nilalamang napakapayak at ligtas na walang nutrisyon para sa isip.",
+      "exampleGloss": "Karamihan sa talumpati ng politiko ay pabulum: malabong pangako na walang mahawakan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pakainin",
+        "paraan o kasangkapan"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Nagpapadala ng tulog o antok.",
+      "friendly": "Napakabagot — o talagang pampakalma — na nakaaantok. Isipin ang mainit na gatas, o tatlong oras na pulong sa badyet.",
+      "exampleGloss": "Ang soporific na ugong ng lektura ay kalahati ng silid ang nakikipaglaban para hindi ipikit ang mata.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "malalim na tulog",
+        "paggawa, pagdudulot"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Sobrang pambobola o madulas ang asal.",
+      "friendly": "Makinis hanggang madulas — pambobolang kapal na parang mararamdaman mo ang taba.",
+      "exampleGloss": "Patuloy na pinupuri ng unctuous na tindero ang aking \"napakagandang panlasa\" bago ang bawat dagdag-benta.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pahiran ng langis",
+        "puno ng"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Mabilis makakita ng mali, sobrang mapanuri sa maliliit na bagay.",
+      "friendly": "Sobrang mapili — tipo ng taong may problema sa lahat, kahit hindi naman mahalaga.",
+      "exampleGloss": "Ang kanyang captious na tala sa ulat ay nakatuon lamang sa paglalagay ng kuwit.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "agawin, kunin",
+        "bitag, maling pangangatwiran"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Mabagal, hindi gumagalaw sa isip o katawan.",
+      "friendly": "Mabagal at kalahating tulog, parang oso sa pagtulog-taglamig — halos hindi gumagalaw, halos hindi nag-iisip.",
+      "exampleGloss": "Naging torpid ang tanggapan sa mabigat na init ng Agosto.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "manhid, mabagal",
+        "nasa kalagayan ng"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Katiwala o opisyal na namamahala sa sambahayang medyebal.",
+      "friendly": "Bersiyon medyebal ng pinuno ng tauhan — pinagkakatiwalaang opisyal na nagpapatakbo araw-araw sa tahanan at lupain ng panginoon.",
+      "exampleGloss": "Pinamahalaan ng seneschal ng kastilyo ang lahat mula sa aklat ng ani hanggang sa listahan ng bisita.",
+      "origin": "Frankish / Lumang Pranses",
+      "rootMeanings": [
+        "matanda, nakatatanda",
+        "alipin"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Magsalita o magsulat nang mahaba tungkol sa isang paksa.",
+      "friendly": "Talagang magpatuloy sa paksa — magsalita o magsulat nang walang tigil, saklawin ang bawat anggulo.",
+      "exampleGloss": "Tanungin mo siya tungkol sa lumang kotse at expatiate siya nang isang oras.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palabas",
+        "espasyo"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Walang halaga, walang kabuluhan; hindi rin wasto o epektibo.",
+      "friendly": "Halos walang halaga — ang nugatory na sugnay sa kasunduan ay hindi talaga gumagawa ng anuman.",
+      "exampleGloss": "Idineklara ng hukuman na nugatory ang lumang utos, dahil hindi naman ito naipatupad kailanman.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kalokohan, walang saysay",
+        "nabibilang sa"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Karunungan, matalas na paghatol.",
+      "friendly": "Matalas, praktikal na karunungan — mabuting paghatol mula sa karanasan, hindi lang sa aklat.",
+      "exampleGloss": "Ang sagacity ng matandang kapitan ay higit sa minsan na nagtanggol sa tripulante sa gulo.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "matalas ang pang-amoy, tuso",
+        "katangian ng"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Karaniwang gulo-gulo o masa, ginagamit nang may hamak.",
+      "friendly": "Mapagmataas, mapanghamak na salita para sa \"gulo-gulo\" o karaniwang tao.",
+      "exampleGloss": "Ngilusan ng konde ang canaille na nagtitipon sa labas ng tarangkahan ng palasyo.",
+      "origin": "Italyano / Pranses",
+      "rootMeanings": [
+        "aso",
+        "kolektibo, kawan"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Walang-galang, nakakahiyang trato o wika.",
+      "friendly": "Malupit, mapanghamak na trato na layuning hiyain — insultong dinisenyo para sumakit.",
+      "exampleGloss": "Tiniis niya ang mga taon ng contumely mula sa mga tagapuna bago kilalanin ang kanyang gawa.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kasama, lubusan",
+        "magpalaki (sa pagmamataas)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "pang-abay",
+      "definition": "May hinala o hindi pagsang-ayon; sulyap sa gilid.",
+      "friendly": "Ang sulyap sa gilid na ibinibigay mo sa hindi mo lubos pinagkakatiwalaan — tinging puno ng duda.",
+      "exampleGloss": "Tumingin ang guro nang askance sa kahina-hinalang malinis na takdang-aralin.",
+      "origin": "hindi tiyak / Italyano",
+      "rootMeanings": [
+        "sa, tungo",
+        "tabi, pagkiling"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Hangal na tao; ulo ng kahoy.",
+      "friendly": "Lumang, halos may lambing na insulto para sa taong medyo makapal ang ulo — ulo ng kahoy.",
+      "exampleGloss": "\"Ikaw clodpate,\" tumawa siya, \"baligtad ang mapa mo buong oras.\"",
+      "origin": "Ingles",
+      "rootMeanings": [
+        "bukol ng lupa",
+        "ulo"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Igalaw o isagawa; magbigay ng motibo.",
+      "friendly": "Maging ang kidlat na nagpapagalaw — maging makina o tao na sa wakas ay kumikilos sa kaisipan.",
+      "exampleGloss": "Ang takot mawala ang kasunduan ay actuated ang buong koponan sa dagdag-oras sa Sabado't Linggo.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "paggawa, pagtutulak",
+        "itulak, gawin"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagnanakaw ng salaping ipinagkatiwala.",
+      "friendly": "Tahimik na ninanakaw ang pera na pinagkatiwalaan sa iyo — pagnanakaw sa lumang damit.",
+      "exampleGloss": "Ang peculation ng ingat-yaman ay hindi napansin nang halos isang dekada.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "pribadong ari-arian",
+        "baka, yaman"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Grupong itinuturing nasa gilid ng kagalang-galang na lipunan.",
+      "friendly": "Ang makinang-pero-kaduda-dudang ilalim ng lipunan — mga taong nabubuhay sa labas mismo ng mga patakaran ng \"kagalang-galang\" na lipunan.",
+      "exampleGloss": "Sinusundan ng nobela ang isang mang-aawit sa demi-monde ng mga cabaret noong 1920s.",
+      "origin": "Pranses",
+      "rootMeanings": [
+        "kalahati",
+        "daigdig, lipunan"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Umiiral pa; hindi nalipol o nasira.",
+      "friendly": "Nandito pa ngayon — ginagamit sa lumang bagay (manuskrito, uri, gusali) na nakaligtas.",
+      "exampleGloss": "Tatlo lang ang kilalang extant na kopya ng unang palimbag.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palabas",
+        "tumayo"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Panlilinlang; pagtataksil sa tiwala.",
+      "friendly": "Malalim, sinadyang pagtataksil — paglabag sa tiwalang may karapatan ang isang tao asahan mong pananatilihin.",
+      "exampleGloss": "Hindi kailanman pinatawad ng heneral ang perfidy ng matandang kaibigan sa mesa ng negosasyon.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa pamamagitan, laban",
+        "pananampalataya, tiwala"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Wikang panrehiyon, lalo na ang hindi pamantayan.",
+      "friendly": "Ang natatanging, lokal na paraan ng pagsasalita sa isang lugar — puno ng mga salita at ritmo na maaaring hindi mahuli ng tagalabas.",
+      "exampleGloss": "Nagsasalita pa rin ang kanyang lola ng patois ng isla sa hapunan ng pamilya.",
+      "origin": "Pranses",
+      "rootMeanings": [
+        "magaspang na pananalita, dayalekto",
+        "paa — usapang magaspang"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Natatanging karapatang pag-aari ng isang tao o grupo.",
+      "friendly": "Pribilehiyong sa iyo lang — karapatang kasama ng tungkulin, posisyon, o katayuan.",
+      "exampleGloss": "Ang pagpili ng bakasyon ng pamilya ay prerogative ni Lolo, at alam ito ng lahat.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bago",
+        "magtanong, bumoto"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Katapangan, kapal ng mukha; gayundin katigasan o tibay.",
+      "friendly": "Magaspang, matapang na tibay — lakas ng loob na tumuloy at tibay na magpatuloy kapag nagsimula ka na.",
+      "exampleGloss": "Kailangan ng tunay na hardihood para tumawid sa daanan sa bagyo ng niyebe na walang mapa.",
+      "origin": "Lumang Pranses / Ingles",
+      "rootMeanings": [
+        "matapang, matibay",
+        "kalagayan, kondisyon"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Mamulaklak nang buo; gayundin umunlad o unti-unting lumitaw.",
+      "friendly": "Mamulaklak sa buong pagpapahayag — parang bulaklak na bumubukas, o kaisipang sa wakas ay naging ganap.",
+      "exampleGloss": "Ang tahimik niyang talento sa pagpinta ay effloresced nang magkaroon siya ng sariling studio.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palabas",
+        "magsimulang mamulaklak"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Sinulid na may timbang para malaman ang patayo; sa talinghaga, pamantayan ng paghatol.",
+      "friendly": "Timbang sa sinulid na nakabitin nang tuwid pababa, ginagamit para suriin kung tunay na patayo — at, sa lawak, anumang nakapirming pamantayan na sinusukat mo ang lahat.",
+      "exampleGloss": "Ginamit niya ang katapatan ng sariling lolo bilang uri ng plumb line para sa bawat desisyon.",
+      "origin": "Latin / Ingles",
+      "rootMeanings": [
+        "tingga",
+        "lubid, sukat"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "pang-abay",
+      "definition": "Masaya, kusang-loob (luma).",
+      "friendly": "Lumang paraan ng pagsabi ng \"masaya\" o \"nang may kasiyahan\".",
+      "exampleGloss": "\"I would fain rest here a while,\" buntong-hininga ng manlalakbay.",
+      "origin": "Lumang Ingles",
+      "rootMeanings": [
+        "masaya, maligaya",
+        "masaya, kusang-loob"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Malupit na pampublikong puna o kahihiyan.",
+      "friendly": "Pampublikong kahihiyang ibinunton sa isang tao nang malaki at nakikita — kahihiyan mula sa malawakang hindi pagsang-ayon.",
+      "exampleGloss": "Dinala ng iskandalo ang pampublikong opprobrium sa buong kumpanya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "laban",
+        "kahihiyan, saway"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Matulis na mapanuya, kumakagat sa talas o puna.",
+      "friendly": "Talas na may ngipin — ang mordant na puna ay medyo masakit dahil sa tumpak na pagpuntirya.",
+      "exampleGloss": "Ang kanyang mordant na rebyu ng pelikula ay kinatatakutan ng mga direktor at minamahal ng mga mambabasa.",
+      "origin": "Latin / Pranses",
+      "rootMeanings": [
+        "kagatin",
+        "kumakagat, gumagawa"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pormal na proklamasyon, madalas pampulitika o militar.",
+      "friendly": "Malaking opisyal na anunsyo — karaniwang nagdedeklara ng bagong gobyerno, pag-aalsa, o malaking atas.",
+      "exampleGloss": "Inihayag ng pronunciamento ng heneral ang bagong gobyerno sa madaling-araw.",
+      "origin": "Espanyol",
+      "rootMeanings": [
+        "pasulong",
+        "ianunsyo"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Taong mababaw ang kaalaman ngunit nagpapanggap na dalubhasa.",
+      "friendly": "Taong nagsimot lang sa ibabaw ng paksa tapos nagsasalita na parang siya ang sumulat ng aklat-aralin.",
+      "exampleGloss": "Ang sciolist sa hapunan ay may tiwalang itinama ang tunay na dalubhasa sa bituin sa mesa.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "malaman",
+        "maliit — maliit na nakakaalam"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagbaba ng kakayahan ng isip sa katandaan.",
+      "friendly": "Ang maulap, malilimutin na panahon ng napakatanda kapag nagsisimulang lumabo ang talas ng isip.",
+      "exampleGloss": "Sa kanyang dotage, ikinuwento niya ang parehong tatlong kuwento sa bawat pagdalaw, sa bawat pagkakataon na parang bago.",
+      "origin": "Gitnang Ingles",
+      "rootMeanings": [
+        "mangmang, maging hangal",
+        "kalagayan o resulta"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Panig na kanlungan mula sa hangin.",
+      "friendly": "Ang tahimik, kanlungang panig — burol, barko, pader — kung saan hindi ka abot ng hangin.",
+      "exampleGloss": "Nagkampo ang mga maglalakad ng tolda sa lee side ng tagaytay para makatakas sa hanging malakas.",
+      "origin": "Lumang Ingles",
+      "rootMeanings": [
+        "kanlungan, proteksyon",
+        "tagiliran, mukha"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Iwasan o itaboy ang suntok, tanong, o argumento.",
+      "friendly": "Dahan-dahang itaboy — suntok ng espada, tanong na mahirap sagutin, o paratang — nang hindi nawawala ang ritmo.",
+      "exampleGloss": "Parried niya ang mahirap na tanong ng tagapagbalita sa madaling biro.",
+      "origin": "Pranses",
+      "rootMeanings": [
+        "itaboy",
+        "maghanda, ipagtanggol"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Mabahong amoy, nakalalason.",
+      "friendly": "Bumaho nang parang lason — amoy na napakasama at mukhang delikado langlangin.",
+      "exampleGloss": "Isang mephitic na amoy ang tumaas mula sa latian nang lumubog ang araw.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "nakalalasong singaw",
+        "may katangian ng"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Taong tapat sa luho at kasiyahan.",
+      "friendly": "Taong nabubuhay para sa ginhawa at pagpapasasa — masarap na pagkain, malambot na kama, madaling buhay — mula sa sinaunang lungsod ng Sybaris na tanyag sa sobra.",
+      "exampleGloss": "Tunay na sybarite, tinanggihan niya ang silid ng hotel na walang banyera.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "sinaunang lungsod ng Gresya na tanyag sa luho",
+        "naninirahan ng"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Sadyang isantabi o balewalain ang isang bahagi.",
+      "friendly": "Sadyang ilagay sa isip ang isang piraso ng palaisipan sa tabi, para malinis na magtuon sa natitira.",
+      "exampleGloss": "Prescind tayo sandali sa gastos at tanungin lang kung gumagana ba talaga ang plano.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "bago, palayo",
+        "gupitin"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Kritisahin nang malupit; gayundin balatan.",
+      "friendly": "Punitin ang isang tao sa malupit na puna — sa salita, parang talagang binabalatan.",
+      "exampleGloss": "Excoriated ng mga tagapuna ang sequel dahil nagtaksil sa lahat ng minahal ng mga tagahanga sa orihinal.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tanggal",
+        "balat"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Sipiin bilang ebidensya o patunay.",
+      "friendly": "Ilabas ang katotohanan o halimbawa para suportahan ang punto — ang tinuturo mo kapag nagtanong ang isang tao ng \"what's your evidence?\".",
+      "exampleGloss": "Adduced ang abugado ng tatlong saksi para suportahan ang alibi ng kanyang kliyente.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tungo, papunta",
+        "akayin"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Mga paglalakbay o pagala-gala, lalo na ang mahaba at malawak.",
+      "friendly": "Mahahabang, gumagala na paglalakbay — malawak na pagala-galang naglalayo sa iyo sa tahanan nang mahabang panahon.",
+      "exampleGloss": "Ang kanyang peregrinations sa tatlong kontinente ay pumuno ng buong istante ng mga talaarawan sa paglalakbay.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa pamamagitan",
+        "bukid, lupa (peregrinus: dayuhan)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pulubi, o namumuhay sa limos.",
+      "friendly": "Taong namumuhay sa paghingi ng awa — sa kasaysayan, tumutukoy din sa mga monghe na nanumpa ng kahirapan at nabuhay sa donasyon.",
+      "exampleGloss": "Ang mga mendicant na prayle ay walang pag-aari at umaasa nang lubos sa kabutihan ng mga taganayon.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "magpalimos",
+        "pulubi"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Lubhang mapagbigay.",
+      "friendly": "Mapagbigay sa malaking, halos palabas na sukat — uri ng regalong nakakapagpatigil ng hininga.",
+      "exampleGloss": "Pinondohan ng munificent na donasyon ang buong bagong pakpak ng aklatan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "regalo, paglilingkod",
+        "paggawa, pagbibigay"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagkapagod mula sa kakulangan ng pagkain; gayundin kakulangan ng sigla.",
+      "friendly": "Mahina, nauubos na kalagayan mula sa hindi napakain o napagasolina — literal mula sa gutom, o sa talinghaga mula sa walang natitira para tumakbo.",
+      "exampleGloss": "Sa katapusan ng pagkubkob, malapit na sa inanition ang mga sundalo.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "walang laman, hungkag",
+        "gawa o resulta"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Mapait, mapang-abusong puna.",
+      "friendly": "Kritikang lampas na sa patas at naging galit, mapait na tirada.",
+      "exampleGloss": "Natunaw ang mga komento online sa purong vituperation sa loob ng ilang minuto.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sala",
+        "ihanda, bigyan"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Galit, nakapipinsala sa epekto.",
+      "friendly": "Gumagana laban sa iyo, kahit tahimik — kundisyon o ugaling hindi magiliw sa iyong interes.",
+      "exampleGloss": "Ang bagong patakaran ay inimical sa maliliit na negosyo, kahit hindi iyon ang layunin.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hindi",
+        "kaibigan"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Malamang magdulot ng sama ng loob o hindi kasiyahan, madalas sa hindi patas na paghahambing.",
+      "friendly": "Tiyak na magpaparamdam ng paghamak — karaniwan dahil nagsasalansan ng tao o bagay nang hindi patas.",
+      "exampleGloss": "Ang pagraranggo ng magkakapatid ayon sa \"sino ang pinakamamahal ni Nanay\" ay invidious na laro na hindi dapat laruin ninuman.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "inggit",
+        "tingnan (nang may masamang loob)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Taong mas mababang ranggo o katayuan; nasasakupan.",
+      "friendly": "Taong mas mababa sa tanikala ng utos o hagdanang panlipunan — junior, nagtatrabaho sa ilalim ng mas makapangyarihan.",
+      "exampleGloss": "Bilang batang subaltern, tumanggap siya ng utos matagal bago siya nagbigay nito.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa ilalim",
+        "kahalili, iba"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Damhin o ipahayag ang matinding pagkamuhi.",
+      "friendly": "Suklam hanggang isumpa nang malakas — purong, may tinig na pagkamuhi.",
+      "exampleGloss": "Execrated ng mga taganayon ang maniningil ng buwis tuwing dumaraan ang kanyang kariton sa bayan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mula sa",
+        "sagrado (sumpain palabas sa sagrado)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Likas na panlabas na pabalat, tulad ng balat o talukab.",
+      "friendly": "Sariling proteksiyon ng kalikasan — balat, talukab, balat ng binhi, o balat ng prutas, anumang tumatakip at nagtatanggol sa buhay.",
+      "exampleGloss": "Ang talukab ng pagong ay napakatibay na integument.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa ibabaw, sa ibabaw",
+        "takpan"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Inosente, walang malay, nagpapakita ng pagiging-bata; kabaligtaran ng \"disingenuous\".",
+      "friendly": "Hayagang nagtitiwala at medyo musmos, walang nakatagong balak — madaling ipagkamali sa \"ingenious\" na ang ibig sabihin ay matalino.",
+      "exampleGloss": "Ang kanyang ingenuous na tanong — \"bakit magsisinungaling ang isang tao tungkol diyan?\" — ay nagpakita kung gaano siya kaunti ang daya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa loob, katutubo",
+        "magkaanak (malayang isinilang, tapat)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Sobrang pagmamalasakit sa maliliit na detalye o alituntunin.",
+      "friendly": "Naliligaw sa maliliit na alituntunin habang napapalampas ang mas malaking larawan — nasisiraan sa pinong letra na wala namang inaalala ang iba.",
+      "exampleGloss": "Ang kanyang pedantry sa Oxford comma ang nagtanggal sa buong pulong sa riles.",
+      "origin": "Italyano / Latin",
+      "rootMeanings": [
+        "guro ng mga bata",
+        "gawi o katangian"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Masusing, maingat na pagsusuri.",
+      "friendly": "Malalim, walang-batong-naiwan na pagtingin — sinusuri ang bawat detalye nang may tunay na ingat.",
+      "exampleGloss": "Pagkatapos lang ng maingat na perscrutation ng mga aklat-tungkos lumitaw ang pagkakaiba.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa pamamagitan, lubusan",
+        "hanapin, suriin"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Magtaas ng tutol; magpakita ng pag-aatubili.",
+      "friendly": "Magalang na itulak pabalik o mag-atubili sa halip na sumunod agad — malambot na \"I'd rather not\".",
+      "exampleGloss": "Nang hilinging pumirma nang hindi binabasa, siya ay demurred.",
+      "origin": "Latin / Pranses",
+      "rootMeanings": [
+        "mula, palayo",
+        "antalahin"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Sa ibabaw ay mukhang makatwiran pero mali pala.",
+      "friendly": "Mukhang nakakumbinsi sa unang tingin pero gumuho sa sandaling suriin mo talaga.",
+      "exampleGloss": "Ang \"Everyone's doing it\" ay specious na argumentong hindi kailanman tumatagal sa pagsisiyasat.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hitsura, anyo",
+        "puno ng (mukhang maganda)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Hindi tapat, mapagkunwaring usapan, madalas nagtuturo ng moral.",
+      "friendly": "Makinis na usapang mukhang mabuti pero walang tunay na damdamin — pose ng moral na tumatakbo mag-isa.",
+      "exampleGloss": "Napagod siya sa corporate cant tungkol sa \"pamilya\" mula sa kumpanyang hindi kailanman nagbibigay ng bakasyon kaninuman.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "umawit (kinalaunan: singsong na jargon)",
+        "daing ng pulubi, pagkatapos pagkukunwari"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Walang tapang, duwag.",
+      "friendly": "Mahiyain hanggang walang gulugod — masyadong natatakot tumayo kahit malinaw na mahalaga.",
+      "exampleGloss": "Ang pusillanimous na katahimikan ng lupon ang nagpalawak ng iskandalo palabas sa kontrol.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "napakaliit",
+        "espiritu, tapang"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Parang soro; tuso, mapanlinlang.",
+      "friendly": "Tuso at matalino tulad ng soro — mabilis mag-isip, medyo lihim, palaging isang hakbang sa unahan.",
+      "exampleGloss": "Nagbigay siya ng vulpine na ngiti sa sandaling makita ang butas.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "soro",
+        "ng o tulad ng"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "pang-abay",
+      "definition": "Isa-isa, sunud-sunod.",
+      "friendly": "Tinatanggap nang mahigpit nang isa-isa, ayon sa ayos — walang laktaw, walang dalawa nang sabay.",
+      "exampleGloss": "Tinugunan ng hukom ang bawat isa sa labindalawang usapin nang seriatim.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hanay, pagkakasunod",
+        "isa-isa"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Sobrang pagtitipid; pagiging kuripot.",
+      "friendly": "Mahigpit sa pera (o salita, o yaman) lampas sa makatwirang tipid.",
+      "exampleGloss": "Ang kanyang parsimony ay alamat — ginamit niyang muli ang supot ng tsaa nang tatlong beses.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "magtipid, maging matipid",
+        "kalagayan o gawi"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagwawasto, lalo na sa teksto.",
+      "friendly": "Ayos sa isang sulatin — akademikong pag-aayos na itinatama ang mali sa lumang o mahalagang teksto.",
+      "exampleGloss": "Kasama sa bagong edisyon ang dose-dosenang emendations sa orihinal na manuskrito.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mula sa",
+        "sala, mali"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Katamtaman sa pagkain at inumin.",
+      "friendly": "Sadyang nagtitimpi sa paligid ng pagkain at inumin — hindi kailanman sobra, palaging may natitira sa plato.",
+      "exampleGloss": "Ang kanyang abstemious na gawi ang nagpanatili sa kanya nang matalas matagal pagkatapos bumagal ang kanyang mga kapantay.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palayo sa",
+        "nakalalasing na inumin"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Mali sa gramatika o paglabag sa etiketa.",
+      "friendly": "Maliit na pagkakamali sa gramatika o asal — uri ng maliit na pagkakamaling ikinakabig ng mapili.",
+      "exampleGloss": "Ang \"Between you and I\" ay karaniwang solecism na ikinakabig pa rin ng mga gramarista.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "lungsod sa Cilicia na kilala sa 'masamang' Griyego",
+        "gawi, paraan"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "pang-uri",
+      "definition": "May kinalaman sa hidwaan sa loob ng grupo; magkasamang mapanira.",
+      "friendly": "Awayan sa loob na pumipiraso sa grupo mula sa loob — laban kung saan natalo ang lahat, dahil pamilya laban sa pamilya.",
+      "exampleGloss": "Ang internecine na pagtatalo ng partido ay mas nakasira kaysa anumang kalaban sa labas.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa pagitan, sa gitna",
+        "pumatay"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "pang-uri / pangngalan",
+      "definition": "Walang-pakialam, pabaya na ugali.",
+      "friendly": "Isang balikat na naging buong personalidad — napakakaunting malasakit sa dating mahalaga hanggang walang tila sulit pagsikapan.",
+      "exampleGloss": "Ang kanyang pococurante na ugali sa seremonya ng parangal ay ikinagulat ng lahat na alam kung gaano siya nagsikap.",
+      "origin": "Italyano",
+      "rootMeanings": [
+        "kaunti",
+        "malasakit"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Magulo, kumplikadong sitwasyon o hidwaan.",
+      "friendly": "Nakatali, magulong sitwasyong mahirap unawain — bahaging hindi pagkakaintindihan, bahaging drama, lahat kalituhan.",
+      "exampleGloss": "Ang buong imbroglio ng upuan ay nagsimula sa isang maling lagay na kard ng pangalan.",
+      "origin": "Italyano",
+      "rootMeanings": [
+        "sa loob",
+        "itulak, gulo"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Nanganganib, banta.",
+      "friendly": "May malinaw na hangin ng banta — ang minatory na tingin o liham ay malinaw na may masamang maaaring sumunod.",
+      "exampleGloss": "Ang minatory na tono ng liham ay kinabahan ang nangungupahan bago pa niya buksan ang sobre.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "banta",
+        "nagsisilbing"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Malakas na pampublikong puna o pag-alipusta.",
+      "friendly": "Malakas, pampublikong paghatol — uri ng nakapapasong punang nagaganap sa harap ng lahat.",
+      "exampleGloss": "Hinarap ng magsisiwalat ang mga taon ng pampublikong obloquy bago napatunayan ng kasaysayan na tama siya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "laban",
+        "magsalita"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Biglang marahas na pagsabog, ng damdamin o kilos.",
+      "friendly": "Bigla, matinding pagsabog na lumalamon sa iyo nang sabay — tawa, galit, o ubong dumadating parang alon.",
+      "exampleGloss": "Hinawakan siya ng paroxysm ng tawa na hindi niya maipaliwanag sa iba pang nasa silid.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "lampas",
+        "matulis, matindi"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Idinagdag mula sa panlabas na pinagmulan, hindi likas.",
+      "friendly": "Ikinabit mula sa labas sa halip na itinayo mula sa simula — dagdag, hindi ubod.",
+      "exampleGloss": "Parang adscititious ang komentaryo, na parang idinikit sa natapos nang teksto.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tungo, dagdag",
+        "sang-ayunan, tanggapin"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Kakulangan ng kaalaman, kamangmangan.",
+      "friendly": "Payak na hindi-alam — puwang sa kaalaman, walang hatol na nakakabit.",
+      "exampleGloss": "Inamin niya ang kanyang nescience sa alak na Pranses at hinayaang pumili ang sommelier.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hindi",
+        "malaman"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Sobrang interes sa mga usaping sekswal.",
+      "friendly": "Sobrang sabik, tumitingin nang may pagnanasa sa anumang malaswa — interes na lampas sa malusog tungo sa pakikialam.",
+      "exampleGloss": "Ang prurience ng tabloid sa pribadong buhay ng mag-asawa ay hangganan ng obsessive.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "mangati, maghangad",
+        "kalagayan"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Mauling, madilim, malabo.",
+      "friendly": "Madilim at mausok ang hitsura, parang manipis na uling ang nakapatong sa lahat.",
+      "exampleGloss": "Isang fuliginous na ulap ang nakasabit sa bayan ng pabrika sa takipsilim.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "uling",
+        "puno ng"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Tanggihan o salungatin.",
+      "friendly": "Tuwirang magsalita laban sa sinabi ng iba — sabihin ang \"that's not so\".",
+      "exampleGloss": "Walang nangahas na gainsay ang kuwento ng matandang kapitan tungkol sa bagyo.",
+      "origin": "Gitnang Ingles",
+      "rootMeanings": [
+        "laban",
+        "magsalita"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Katamaran, katamaran (mula sa Latin).",
+      "friendly": "Lumang salitang Latin para sa purong katamaran — ang hila ng ayaw gumawa ng anuman.",
+      "exampleGloss": "Nangaral ang mga monghe laban sa ignavia bilang isa sa tahimik na panganib ng kaluluwa.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hindi",
+        "abala, masipag"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Kalasag na nagpapakita ng eskudo.",
+      "friendly": "Emblemang hugis-kalasag na nagpapakita ng eskudo ng pamilya — ang \"plaka ng pangalan\" ng sagisag.",
+      "exampleGloss": "Nakabitin pa rin ang escutcheon ng pamilya sa itaas ng pintuan ng lumang manor.",
+      "origin": "Latin / Lumang Pranses",
+      "rootMeanings": [
+        "kalasag",
+        "maliit / bagay"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Luma na, lipas, o retirado dahil sa edad.",
+      "friendly": "Lampas na sa kapaki-pakinabang na rurok at inilabas sa pastulan — masyadong luma o gastado para magpatuloy sa trabaho.",
+      "exampleGloss": "Ang superannuated na printer ay pinalitan sa wakas pagkatapos ng labinlimang taon ng pagkakabara.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "lampas",
+        "taon"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Mga kapalit, lalo na sa medisina.",
+      "friendly": "Pampalit na lunas kapag wala ang tunay na gamot — sa esensya, panghalili sa paggagamot.",
+      "exampleGloss": "Madalas umasa ang mga doktor noong giyera sa succedanea kapag naubos ang wastong gamot.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa halip ng",
+        "pumunta, magbigay-daan"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Mayabang, palalong usapan.",
+      "friendly": "Malaking, palalong pagmamayabang — malakas na usapan tungkol sa sariling kadakilaan na karamihan ay mainit na hangin.",
+      "exampleGloss": "Ang kanyang rodomontade tungkol sa \"nag-iisa\" na pagsagip sa proyekto ay walang nalinlang na talagang nandoon.",
+      "origin": "Italyano",
+      "rootMeanings": [
+        "mayabang na kabalyero sa Orlando Furioso",
+        "kilos, palabas"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Gumamit ng daya o panlilinlang para makamit ang isang bagay.",
+      "friendly": "Gumapang patungo sa layunin sa pamamagitan ng tuso sa halip na patas na laro.",
+      "exampleGloss": "Siya ay chicaned papasok sa deal sa kontratang puno ng pinong letra.",
+      "origin": "Pranses",
+      "rootMeanings": [
+        "maghamak, dayain",
+        "daya; kalaunan matinding liko"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Dalisay o abstraktong agham ng pag-aaral o kaalaman, madalas matematika.",
+      "friendly": "Pag-aaral sa pinakadalisay, pinakaabstraktong anyo — ang malalim na kayarian ng kaalaman mismo, lalo na ang matematikal.",
+      "exampleGloss": "Nangarap ang pilosopo ng pangkalahatang mathesis na makapagkakaisa sa bawat larangan ng kaalaman.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "matuto",
+        "gawa ng pagkatuto"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Sobrang nagmamalasakit sa pormal na alituntunin o walang-kabuluhang detalye.",
+      "friendly": "Sobrang mahigpit sa maliliit na bagay — itinatama ang maliliit na teknikalidad na hindi naman nagbabago ng anuman.",
+      "exampleGloss": "Medyo pedantic ang makipagtalo tungkol sa \"who\" kontra \"whom\" sa text message.",
+      "origin": "Italyano / Griyego",
+      "rootMeanings": [
+        "gabay ng bata, guro",
+        "may paraan ng"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Kumikislap, kumikinang na liwanag.",
+      "friendly": "Mabilis, kumikinang na kidlat ng liwanag — isipin ang sikat ng araw na tumatalbog sa tubig, o diamanteng nakakakuha ng liwanag.",
+      "exampleGloss": "Ang coruscation ng ilawang kristal ay nagkalat ng liwanag sa bawat sulok ng bulwagan ng sayaw.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "kumislap, kumidlat",
+        "ang gawa"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Baguhan, nobato.",
+      "friendly": "Taong ganap na bago sa kasanayan o larangan — natututo pa ng lubid, hindi pa dalubhasa.",
+      "exampleGloss": "Kahit tyro na manlalaro ng ahedres ay makikita ang maling hakbang na iyon.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "rekrut, baguhan",
+        "hilaw na batang sundalo"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Lubhang masama, kasuklam-suklam.",
+      "friendly": "Masama sa paraang karapat-dapat sa tunay na suklam — hindi lang \"katamtaman,\" kundi tunay na kasuklam-suklam.",
+      "exampleGloss": "Tinawag ng tagarebyu ang sequel na execrable, at sumang-ayon ang mga numero sa takilya.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sumpain",
+        "karapat-dapat, kayang maging"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Kulay pulang-dugo.",
+      "friendly": "Malalim, matingkad na pula — kulay ng sariwang dugo, tanyag mula sa Macbeth ni Shakespeare.",
+      "exampleGloss": "Ginawang incarnadine na ningning ng paglubog ng araw ang buong langit.",
+      "origin": "Italyano / Latin",
+      "rootMeanings": [
+        "papasok",
+        "laman (pulang-laman)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Maliit na puwang o agwat sa pagitan ng mga bagay.",
+      "friendly": "Ang maliit na puwang sa pagitan na madaling palampasin — bitak sa sahig, puwang sa iskedyul.",
+      "exampleGloss": "Tumubo ang mga damo sa bawat interstice ng lumang landas na ladrilyo.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa pagitan",
+        "tumayo"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Mga mapanuri o mapanghusgang puna.",
+      "friendly": "Matulis, hindi sang-ayong komento — uri ng kritikang may kaunting tono ng pagsaway.",
+      "exampleGloss": "Pinuno ng animadversions ng propesor sa sanaysay ang mga gilid ng pulang tinta.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "isip",
+        "humarap tungo"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Imposibleng pabulaanan, hindi maitatanggi.",
+      "friendly": "Napatunayang napakatibay na walang argumentong maihaharap — sarado na ang kaso.",
+      "exampleGloss": "Ang ebidensyang DNA ay irrefragable, at natapos ang paglilitis sa loob ng oras.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "hindi",
+        "salungatin, labanan"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Pagkakumplikado, pagkakasalimuot; gayundin pagkulot paloob.",
+      "friendly": "Uri ng komplikasyong nakatiklop sa sarili — mga bagay na binalot nang mahigpit na mahirap paghiwalayin.",
+      "exampleGloss": "Ang involution ng plot ay iniwan ang kalahati ng madla na sinusubukang tanggalin ito pagkatapos ng mga pangalan sa dulo.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa loob, paloob",
+        "magulong, mag-ikot"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Lakas o pagsisikap, tulad ng \"by dint of\".",
+      "friendly": "Tahasang pagsisikap o lakas — ngayon ay nabubuhay na lang sa pariralang \"by dint of\".",
+      "exampleGloss": "Nakapasa siya sa pagsusulit by dint of tahasan, matigas na pagsasanay.",
+      "origin": "Lumang Ingles",
+      "rootMeanings": [
+        "suntok, hampas",
+        "sa lakas ng"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Pinagsama gamit ang mortise-at-tenon; mahigpit na nakaangkop.",
+      "friendly": "Naka-lock sa lumang paraan ng karpintero — isang piraso ang pumapasok nang mahigpit sa butas na ginupit para dito.",
+      "exampleGloss": "Ang mga biga ng lumang kamalig ay mortised nang magkasama nang walang isang pako.",
+      "origin": "Latin / Pranses",
+      "rootMeanings": [
+        "saksakan, butas",
+        "kagat, hawak"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Lubhang nauugnay, angkop.",
+      "friendly": "Eksaktong tamang tugma para sa sandali — komento, sipi, o halimbawang tumatama nang perpekto sa punto.",
+      "exampleGloss": "Ang kanyang apposite na puna ay binalot ang buong debate sa isang pangungusap.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tungo",
+        "ilagay"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Malumanay na nagniningning o kumikislap (liwanag); gayundin magaan na talas.",
+      "friendly": "Nagniningning nang malumanay sa halip na magningas — malambot, kumikislap na liwanag, o talas na mapaglaro sa halip na matulis.",
+      "exampleGloss": "Naghagis ang liwanag ng kandila ng lambent na ningning sa lumang silid-kainan.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "dilaan",
+        "gumagawa (liwanag na 'dumidila')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Relihiyosong ermitanyong nabubuhay sa pag-iisa.",
+      "friendly": "Taong umuurong nang ganap mula sa daigdig para mamuhay mag-isa sa dasal at pagninilay.",
+      "exampleGloss": "Nakatira ang anchorite sa maliit na selda na nakakabit sa simbahan nang mahigit tatlumpung taon.",
+      "origin": "Griyego",
+      "rootMeanings": [
+        "pabalik, palayo",
+        "umuwi"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Bigyang-kasiyahan ang uhaw; patayin.",
+      "friendly": "Lubos na bigyang-kasiyahan ang pagnanasa — kadalasan uhaw, pero sa talinghaga anumang malalim na gusto o pangangailangan.",
+      "exampleGloss": "Isang malamig na basong tubig ang slaked ang kanyang uhaw pagkatapos ng mahabang lakad.",
+      "origin": "Lumang Ingles",
+      "rootMeanings": [
+        "maluwag, maluwag",
+        "paluwagin, paliitin"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Hugis-karayom.",
+      "friendly": "Mahaba, manipis, at matulis parang karayom — hugis ng dahon ng pino o matulis na maliit na kristal.",
+      "exampleGloss": "Madaling kilalanin ang mga puno ng pino sa kanilang acicular na dahon.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "karayom",
+        "maliit"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Naubos ang sigla, mahina, sobrang pinong.",
+      "friendly": "Luma at malambot — nawala ang orihinal na lakas o sigla dahil sa sobrang ginhawa o pagiging-pinong.",
+      "exampleGloss": "Tinawag ng mga tagapuna ang dating matapang na magasin na effete, anino ng magagiting na unang taon nito.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "palabas",
+        "mabungang, nanganak na"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Karagdagan o maliit na nakakabit na bagay o karapatan.",
+      "friendly": "Maliit na dagdag na kasama ng mas malaki — mga accessory at dagdag na nabibilang sa pangunahing bagay.",
+      "exampleGloss": "Kasama sa upa ang garahe at lahat ng appurtenances nito.",
+      "origin": "Latin / Pranses",
+      "rootMeanings": [
+        "tungo",
+        "mag-ari"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "pandiwa",
+      "definition": "Takpan o paliitin ang sala.",
+      "friendly": "Pahid ang mali sa malalambot na salita, para mas magmukhang maliit kaysa sa totoo.",
+      "exampleGloss": "Sinubukan niyang gloze ang napalampas na takdang panahon sa malabong usapan tungkol sa \"unforeseen challenges\".",
+      "origin": "Lumang Pranses / Latin",
+      "rootMeanings": [
+        "glosa, paliwanag",
+        "magkomento — pagkatapos ay pahirin"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "pang-uri",
+      "definition": "Nasa maagang yugto, kakasimula pa lang.",
+      "friendly": "Kakasimula pa lang magpakita — ang pinakaunang, halos hindi nakikitang yugto ng mas malaking darating.",
+      "exampleGloss": "Nahuli ng mga doktor ang incipient na palatandaan ng sakit bago ito kumalat.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "sa ibabaw, papasok",
+        "kunin (pulutin, simulan)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "pangngalan",
+      "definition": "Malikhaing inspirasyon, lalo na ang banal.",
+      "friendly": "Biglang bugso ng inspirasyong mas malaki kaysa sa iyo — parang hiningahan ka ng ideya mula sa ibang lugar.",
+      "exampleGloss": "Inilarawan ng makata ang buong piyesa na dumating sa isang bugso ng afflatus nang ikatlo ng umaga.",
+      "origin": "Latin",
+      "rootMeanings": [
+        "tungo, sa ibabaw",
+        "hipan (paghipa sa ibabaw)"
+      ]
+    }
+  }
+}

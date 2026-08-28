@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../l10n/app_localizations.dart';
+import '../l10n/speech_templates.dart';
 import '../state/quiz_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
 import '../widgets/card_surface.dart';
+import '../widgets/english_lemma.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
 import '../widgets/speak_button.dart';
@@ -16,72 +19,73 @@ class QuizResultsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final quiz = context.watch<QuizController>();
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     final score = quiz.score;
     final total = quiz.length;
 
     return StopSpeechOnExit(
       child: PaperBackdrop(
-      child: Scaffold(
-        backgroundColor: Colors.transparent,
-        appBar: AppBar(
-          title: const Text('Results'),
-          actions: [
-            SpeakButton(
-              speechKey: 'results',
-              text: score == 1
-                  ? 'One definition right, of $total.'
-                  : '$score definitions right, of $total.',
-            ),
-            const SizedBox(width: 8),
-          ],
-        ),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(20, 8, 20, 40),
-        children: [
-          ScriptCaption(score == total ? 'a perfect page' : 'well marked'),
-          const SizedBox(height: 8),
-          GradientText(
-            '$score / $total',
-            textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.displayMedium?.copyWith(
-                  fontWeight: FontWeight.w800,
+        child: Scaffold(
+          backgroundColor: Colors.transparent,
+          appBar: AppBar(
+            title: Text(l10n.results),
+            actions: [
+              SpeakButton(
+                speechKey: 'results',
+                text: l10n.definitionsRightSpoken(score, total),
+              ),
+              const SizedBox(width: 8),
+            ],
+          ),
+          body: ListView(
+            padding: const EdgeInsets.fromLTRB(20, 8, 20, 40),
+            children: [
+              ScriptCaption(score == total ? l10n.perfectPage : l10n.wellMarked),
+              const SizedBox(height: 8),
+              GradientText(
+                '$score / $total',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.displayMedium?.copyWith(
+                      fontWeight: FontWeight.w800,
+                    ),
+              ),
+              const SizedBox(height: 16),
+              ProgressTracker(
+                current: score,
+                total: total,
+                label: l10n.definitionsRight(score),
+              ),
+              const DividerFlourish(),
+              for (var i = 0; i < quiz.questions.length; i++) ...[
+                _ResultRow(
+                  index: i,
+                  correct: quiz.questions[i].isCorrect(quiz.answerFor(i) ?? -1),
+                  word: quiz.questions[i].word.word,
+                  definition: quiz.questions[i].word.definition,
+                  speechKey: 'result:${quiz.questions[i].word.id}',
+                  speechText: quiz.questions[i].word.spokenGlanceWith(
+                    SpeechTemplates.fromL10n(l10n),
+                  ),
                 ),
+                const SizedBox(height: 10),
+              ],
+              const SizedBox(height: 16),
+              FilledButton(
+                onPressed: () {
+                  context.read<SpeechController>().stop();
+                  context.read<QuizController>().reset();
+                  Navigator.of(context).pop();
+                },
+                style: FilledButton.styleFrom(
+                  backgroundColor: brand.accentGold,
+                  padding: const EdgeInsets.symmetric(vertical: 14),
+                ),
+                child: Text(l10n.tryAnotherRound),
+              ),
+            ],
           ),
-          const SizedBox(height: 16),
-          ProgressTracker(
-            current: score,
-            total: total,
-            label: score == 1 ? '1 definition right' : '$score definitions right',
-          ),
-          const DividerFlourish(),
-          for (var i = 0; i < quiz.questions.length; i++) ...[
-            _ResultRow(
-              index: i,
-              correct: quiz.questions[i].isCorrect(quiz.answerFor(i) ?? -1),
-              word: quiz.questions[i].word.word,
-              definition: quiz.questions[i].word.definition,
-              speechKey: 'result:${quiz.questions[i].word.id}',
-              speechText: quiz.questions[i].word.spokenGlance,
-            ),
-            const SizedBox(height: 10),
-          ],
-          const SizedBox(height: 16),
-          FilledButton(
-            onPressed: () {
-              context.read<SpeechController>().stop();
-              context.read<QuizController>().reset();
-              Navigator.of(context).pop();
-            },
-            style: FilledButton.styleFrom(
-              backgroundColor: brand.accentGold,
-              padding: const EdgeInsets.symmetric(vertical: 14),
-            ),
-            child: const Text('Try another round'),
-          ),
-        ],
+        ),
       ),
-      ),
-    ),
     );
   }
 }
@@ -122,9 +126,11 @@ class _ResultRow extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  '${index + 1}. $word',
-                  style: Theme.of(context).textTheme.titleMedium,
+                EnglishLemma(
+                  child: Text(
+                    '${index + 1}. $word',
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
                 ),
                 const SizedBox(height: 4),
                 Text(

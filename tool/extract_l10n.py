@@ -1,0 +1,1337 @@
+#!/usr/bin/env python3
+"""Extract Gloss UI + lexicon strings and build the 177-country locale catalog."""
+
+from __future__ import annotations
+
+import json
+import re
+from collections import OrderedDict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+COUNTRIES_FILE = Path(
+    "/home/raimonvibe/Documenten/Mobile Development/Gloss-images/all-countries"
+)
+WORDS_JSON = ROOT / "assets" / "data" / "words.json"
+OUT_DIR = ROOT / "l10n"
+SOURCE_DIR = OUT_DIR / "source"
+
+ISO2 = {
+    "Albania": "AL",
+    "Algeria": "DZ",
+    "Angola": "AO",
+    "Antigua and Barbuda": "AG",
+    "Argentina": "AR",
+    "Armenia": "AM",
+    "Aruba": "AW",
+    "Australia": "AU",
+    "Austria": "AT",
+    "Azerbaijan": "AZ",
+    "Bahamas": "BS",
+    "Bahrain": "BH",
+    "Bangladesh": "BD",
+    "Barbados": "BB",
+    "Belarus": "BY",
+    "Belgium": "BE",
+    "Belize": "BZ",
+    "Benin": "BJ",
+    "Bermuda": "BM",
+    "Bhutan": "BT",
+    "Bolivia": "BO",
+    "Bosnia and Herzegovina": "BA",
+    "Botswana": "BW",
+    "Brazil": "BR",
+    "British Virgin Islands": "VG",
+    "Brunei": "BN",
+    "Bulgaria": "BG",
+    "Burkina Faso": "BF",
+    "Burundi": "BI",
+    "Cambodia": "KH",
+    "Cameroon": "CM",
+    "Canada": "CA",
+    "Cape Verde": "CV",
+    "Cayman Islands": "KY",
+    "Central African Republic": "CF",
+    "Chad": "TD",
+    "Chile": "CL",
+    "Colombia": "CO",
+    "Comoros": "KM",
+    "Costa Rica": "CR",
+    "Croatia": "HR",
+    "Cyprus": "CY",
+    "Czechia": "CZ",
+    "Côte d'Ivoire": "CI",
+    "Denmark": "DK",
+    "Djibouti": "DJ",
+    "Dominica": "DM",
+    "Dominican Republic": "DO",
+    "DR Congo": "CD",
+    "Ecuador": "EC",
+    "Egypt": "EG",
+    "El Salvador": "SV",
+    "Equatorial Guinea": "GQ",
+    "Eritrea": "ER",
+    "Estonia": "EE",
+    "Eswatini": "SZ",
+    "Fiji": "FJ",
+    "Finland": "FI",
+    "France": "FR",
+    "Gabon": "GA",
+    "Gambia": "GM",
+    "Georgia": "GE",
+    "Germany": "DE",
+    "Ghana": "GH",
+    "Greece": "GR",
+    "Grenada": "GD",
+    "Guatemala": "GT",
+    "Guinea": "GN",
+    "Guinea-Bissau": "GW",
+    "Guyana": "GY",
+    "Haiti": "HT",
+    "Honduras": "HN",
+    "Hong Kong": "HK",
+    "Hungary": "HU",
+    "Iceland": "IS",
+    "India": "IN",
+    "Indonesia": "ID",
+    "Iraq": "IQ",
+    "Ireland": "IE",
+    "Israel": "IL",
+    "Italy": "IT",
+    "Jamaica": "JM",
+    "Japan": "JP",
+    "Jordan": "JO",
+    "Kazakhstan": "KZ",
+    "Kenya": "KE",
+    "Kuwait": "KW",
+    "Kyrgyzstan": "KG",
+    "Laos": "LA",
+    "Latvia": "LV",
+    "Lebanon": "LB",
+    "Liberia": "LR",
+    "Libya": "LY",
+    "Liechtenstein": "LI",
+    "Lithuania": "LT",
+    "Luxembourg": "LU",
+    "Macao": "MO",
+    "Malaysia": "MY",
+    "Maldives": "MV",
+    "Mali": "ML",
+    "Malta": "MT",
+    "Mauritius": "MU",
+    "Mexico": "MX",
+    "Micronesia": "FM",
+    "Moldova": "MD",
+    "Monaco": "MC",
+    "Morocco": "MA",
+    "Mozambique": "MZ",
+    "Myanmar": "MM",
+    "Namibia": "NA",
+    "Nepal": "NP",
+    "Netherlands": "NL",
+    "New Zealand": "NZ",
+    "Nicaragua": "NI",
+    "Niger": "NE",
+    "Nigeria": "NG",
+    "North Macedonia": "MK",
+    "Norway": "NO",
+    "Oman": "OM",
+    "Pakistan": "PK",
+    "Panama": "PA",
+    "Papua New Guinea": "PG",
+    "Paraguay": "PY",
+    "Peru": "PE",
+    "Philippines": "PH",
+    "Poland": "PL",
+    "Portugal": "PT",
+    "Qatar": "QA",
+    "Republic of the Congo": "CG",
+    "Romania": "RO",
+    "Rwanda": "RW",
+    "Saint Kitts and Nevis": "KN",
+    "Saint Lucia": "LC",
+    "Samoa": "WS",
+    "San Marino": "SM",
+    "Saudi Arabia": "SA",
+    "Senegal": "SN",
+    "Serbia": "RS",
+    "Seychelles": "SC",
+    "Sierra Leone": "SL",
+    "Singapore": "SG",
+    "Slovakia": "SK",
+    "Slovenia": "SI",
+    "Solomon Islands": "SB",
+    "Somalia": "SO",
+    "South Africa": "ZA",
+    "South Korea": "KR",
+    "Spain": "ES",
+    "Sri Lanka": "LK",
+    "Suriname": "SR",
+    "Sweden": "SE",
+    "Switzerland": "CH",
+    "Taiwan": "TW",
+    "Tajikistan": "TJ",
+    "Tanzania": "TZ",
+    "Thailand": "TH",
+    "Togo": "TG",
+    "Tonga": "TO",
+    "Trinidad and Tobago": "TT",
+    "Tunisia": "TN",
+    "Türkiye": "TR",
+    "Turkmenistan": "TM",
+    "Turks and Caicos Islands": "TC",
+    "Uganda": "UG",
+    "Ukraine": "UA",
+    "United Arab Emirates": "AE",
+    "United Kingdom": "GB",
+    "United States": "US",
+    "Uruguay": "UY",
+    "Uzbekistan": "UZ",
+    "Vanuatu": "VU",
+    "Vatican City": "VA",
+    "Venezuela": "VE",
+    "Vietnam": "VN",
+    "Yemen": "YE",
+    "Zambia": "ZM",
+    "Zimbabwe": "ZW",
+}
+
+CONTINENT = {
+    "AL": "Europe",
+    "DZ": "Africa",
+    "AO": "Africa",
+    "AG": "Americas",
+    "AR": "Americas",
+    "AM": "Asia",
+    "AW": "Americas",
+    "AU": "Oceania",
+    "AT": "Europe",
+    "AZ": "Asia",
+    "BS": "Americas",
+    "BH": "Asia",
+    "BD": "Asia",
+    "BB": "Americas",
+    "BY": "Europe",
+    "BE": "Europe",
+    "BZ": "Americas",
+    "BJ": "Africa",
+    "BM": "Americas",
+    "BT": "Asia",
+    "BO": "Americas",
+    "BA": "Europe",
+    "BW": "Africa",
+    "BR": "Americas",
+    "VG": "Americas",
+    "BN": "Asia",
+    "BG": "Europe",
+    "BF": "Africa",
+    "BI": "Africa",
+    "KH": "Asia",
+    "CM": "Africa",
+    "CA": "Americas",
+    "CV": "Africa",
+    "KY": "Americas",
+    "CF": "Africa",
+    "TD": "Africa",
+    "CL": "Americas",
+    "CO": "Americas",
+    "KM": "Africa",
+    "CR": "Americas",
+    "HR": "Europe",
+    "CY": "Europe",
+    "CZ": "Europe",
+    "CI": "Africa",
+    "DK": "Europe",
+    "DJ": "Africa",
+    "DM": "Americas",
+    "DO": "Americas",
+    "CD": "Africa",
+    "EC": "Americas",
+    "EG": "Africa",
+    "SV": "Americas",
+    "GQ": "Africa",
+    "ER": "Africa",
+    "EE": "Europe",
+    "SZ": "Africa",
+    "FJ": "Oceania",
+    "FI": "Europe",
+    "FR": "Europe",
+    "GA": "Africa",
+    "GM": "Africa",
+    "GE": "Asia",
+    "DE": "Europe",
+    "GH": "Africa",
+    "GR": "Europe",
+    "GD": "Americas",
+    "GT": "Americas",
+    "GN": "Africa",
+    "GW": "Africa",
+    "GY": "Americas",
+    "HT": "Americas",
+    "HN": "Americas",
+    "HK": "Asia",
+    "HU": "Europe",
+    "IS": "Europe",
+    "IN": "Asia",
+    "ID": "Asia",
+    "IQ": "Asia",
+    "IE": "Europe",
+    "IL": "Asia",
+    "IT": "Europe",
+    "JM": "Americas",
+    "JP": "Asia",
+    "JO": "Asia",
+    "KZ": "Asia",
+    "KE": "Africa",
+    "KW": "Asia",
+    "KG": "Asia",
+    "LA": "Asia",
+    "LV": "Europe",
+    "LB": "Asia",
+    "LR": "Africa",
+    "LY": "Africa",
+    "LI": "Europe",
+    "LT": "Europe",
+    "LU": "Europe",
+    "MO": "Asia",
+    "MY": "Asia",
+    "MV": "Asia",
+    "ML": "Africa",
+    "MT": "Europe",
+    "MU": "Africa",
+    "MX": "Americas",
+    "FM": "Oceania",
+    "MD": "Europe",
+    "MC": "Europe",
+    "MA": "Africa",
+    "MZ": "Africa",
+    "MM": "Asia",
+    "NA": "Africa",
+    "NP": "Asia",
+    "NL": "Europe",
+    "NZ": "Oceania",
+    "NI": "Americas",
+    "NE": "Africa",
+    "NG": "Africa",
+    "MK": "Europe",
+    "NO": "Europe",
+    "OM": "Asia",
+    "PK": "Asia",
+    "PA": "Americas",
+    "PG": "Oceania",
+    "PY": "Americas",
+    "PE": "Americas",
+    "PH": "Asia",
+    "PL": "Europe",
+    "PT": "Europe",
+    "QA": "Asia",
+    "CG": "Africa",
+    "RO": "Europe",
+    "RW": "Africa",
+    "KN": "Americas",
+    "LC": "Americas",
+    "WS": "Oceania",
+    "SM": "Europe",
+    "SA": "Asia",
+    "SN": "Africa",
+    "RS": "Europe",
+    "SC": "Africa",
+    "SL": "Africa",
+    "SG": "Asia",
+    "SK": "Europe",
+    "SI": "Europe",
+    "SB": "Oceania",
+    "SO": "Africa",
+    "ZA": "Africa",
+    "KR": "Asia",
+    "ES": "Europe",
+    "LK": "Asia",
+    "SR": "Americas",
+    "SE": "Europe",
+    "CH": "Europe",
+    "TW": "Asia",
+    "TJ": "Asia",
+    "TZ": "Africa",
+    "TH": "Asia",
+    "TG": "Africa",
+    "TO": "Oceania",
+    "TT": "Americas",
+    "TN": "Africa",
+    "TR": "Asia",
+    "TM": "Asia",
+    "TC": "Americas",
+    "UG": "Africa",
+    "UA": "Europe",
+    "AE": "Asia",
+    "GB": "Europe",
+    "US": "Americas",
+    "UY": "Americas",
+    "UZ": "Asia",
+    "VU": "Oceania",
+    "VA": "Europe",
+    "VE": "Americas",
+    "VN": "Asia",
+    "YE": "Asia",
+    "ZM": "Africa",
+    "ZW": "Africa",
+}
+
+# Canonical locale metadata. Keys are Play-listing codes after iw→he, no→nb.
+LOCALES = {
+    "sq": {
+        "en": "Albanian",
+        "native": "Shqip",
+        "rtl": False,
+        "google": "sq",
+        "key": "sq",
+        "lang": "sq",
+        "country": None,
+    },
+    "ar": {
+        "en": "Arabic",
+        "native": "العربية",
+        "rtl": True,
+        "google": "ar",
+        "key": "ar",
+        "lang": "ar",
+        "country": None,
+    },
+    "pt-PT": {
+        "en": "Portuguese",
+        "native": "Português",
+        "rtl": False,
+        "google": "pt",
+        "key": "pt",
+        "lang": "pt",
+        "country": "PT",
+    },
+    "en-US": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "US",
+    },
+    "es-419": {
+        "en": "Spanish",
+        "native": "Español",
+        "rtl": False,
+        "google": "es",
+        "key": "es_419",
+        "lang": "es",
+        "country": "419",
+    },
+    "hy-AM": {
+        "en": "Armenian",
+        "native": "Հայերեն",
+        "rtl": False,
+        "google": "hy",
+        "key": "hy",
+        "lang": "hy",
+        "country": "AM",
+    },
+    "nl-NL": {
+        "en": "Dutch",
+        "native": "Nederlands",
+        "rtl": False,
+        "google": "nl",
+        "key": "nl",
+        "lang": "nl",
+        "country": "NL",
+    },
+    "en-AU": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "AU",
+    },
+    "de-DE": {
+        "en": "German",
+        "native": "Deutsch",
+        "rtl": False,
+        "google": "de",
+        "key": "de",
+        "lang": "de",
+        "country": "DE",
+    },
+    "az-AZ": {
+        "en": "Azerbaijani",
+        "native": "Azərbaycan",
+        "rtl": False,
+        "google": "az",
+        "key": "az",
+        "lang": "az",
+        "country": "AZ",
+    },
+    "bn-BD": {
+        "en": "Bengali",
+        "native": "বাংলা",
+        "rtl": False,
+        "google": "bn",
+        "key": "bn",
+        "lang": "bn",
+        "country": "BD",
+    },
+    "be": {
+        "en": "Belarusian",
+        "native": "Беларуская",
+        "rtl": False,
+        "google": "be",
+        "key": "be",
+        "lang": "be",
+        "country": None,
+    },
+    "fr-FR": {
+        "en": "French",
+        "native": "Français",
+        "rtl": False,
+        "google": "fr",
+        "key": "fr",
+        "lang": "fr",
+        "country": "FR",
+    },
+    "sr": {
+        "en": "Serbian",
+        "native": "Српски",
+        "rtl": False,
+        "google": "sr",
+        "key": "sr",
+        "lang": "sr",
+        "country": None,
+    },
+    "en-ZA": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "ZA",
+    },
+    "pt-BR": {
+        "en": "Portuguese",
+        "native": "Português",
+        "rtl": False,
+        "google": "pt",
+        "key": "pt_BR",
+        "lang": "pt",
+        "country": "BR",
+    },
+    "ms": {
+        "en": "Malay",
+        "native": "Bahasa Melayu",
+        "rtl": False,
+        "google": "ms",
+        "key": "ms",
+        "lang": "ms",
+        "country": None,
+    },
+    "bg": {
+        "en": "Bulgarian",
+        "native": "Български",
+        "rtl": False,
+        "google": "bg",
+        "key": "bg",
+        "lang": "bg",
+        "country": None,
+    },
+    "km-KH": {
+        "en": "Khmer",
+        "native": "ខ្មែរ",
+        "rtl": False,
+        "google": "km",
+        "key": "km",
+        "lang": "km",
+        "country": "KH",
+    },
+    "en-CA": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "CA",
+    },
+    "fr-CA": {
+        "en": "French",
+        "native": "Français",
+        "rtl": False,
+        "google": "fr",
+        "key": "fr_CA",
+        "lang": "fr",
+        "country": "CA",
+    },
+    "hr": {
+        "en": "Croatian",
+        "native": "Hrvatski",
+        "rtl": False,
+        "google": "hr",
+        "key": "hr",
+        "lang": "hr",
+        "country": None,
+    },
+    "el-GR": {
+        "en": "Greek",
+        "native": "Ελληνικά",
+        "rtl": False,
+        "google": "el",
+        "key": "el",
+        "lang": "el",
+        "country": "GR",
+    },
+    "tr-TR": {
+        "en": "Turkish",
+        "native": "Türkçe",
+        "rtl": False,
+        "google": "tr",
+        "key": "tr",
+        "lang": "tr",
+        "country": "TR",
+    },
+    "cs-CZ": {
+        "en": "Czech",
+        "native": "Čeština",
+        "rtl": False,
+        "google": "cs",
+        "key": "cs",
+        "lang": "cs",
+        "country": "CZ",
+    },
+    "da-DK": {
+        "en": "Danish",
+        "native": "Dansk",
+        "rtl": False,
+        "google": "da",
+        "key": "da",
+        "lang": "da",
+        "country": "DK",
+    },
+    "es-ES": {
+        "en": "Spanish",
+        "native": "Español",
+        "rtl": False,
+        "google": "es",
+        "key": "es",
+        "lang": "es",
+        "country": "ES",
+    },
+    "et": {
+        "en": "Estonian",
+        "native": "Eesti",
+        "rtl": False,
+        "google": "et",
+        "key": "et",
+        "lang": "et",
+        "country": None,
+    },
+    "fi-FI": {
+        "en": "Finnish",
+        "native": "Suomi",
+        "rtl": False,
+        "google": "fi",
+        "key": "fi",
+        "lang": "fi",
+        "country": "FI",
+    },
+    "ka-GE": {
+        "en": "Georgian",
+        "native": "ქართული",
+        "rtl": False,
+        "google": "ka",
+        "key": "ka",
+        "lang": "ka",
+        "country": "GE",
+    },
+    "hi-IN": {
+        "en": "Hindi",
+        "native": "हिन्दी",
+        "rtl": False,
+        "google": "hi",
+        "key": "hi",
+        "lang": "hi",
+        "country": "IN",
+    },
+    "en-IN": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "IN",
+    },
+    "id": {
+        "en": "Indonesian",
+        "native": "Bahasa Indonesia",
+        "rtl": False,
+        "google": "id",
+        "key": "id",
+        "lang": "id",
+        "country": None,
+    },
+    "he-IL": {
+        "en": "Hebrew",
+        "native": "עברית",
+        "rtl": True,
+        "google": "iw",
+        "key": "he",
+        "lang": "he",
+        "country": "IL",
+    },
+    "it-IT": {
+        "en": "Italian",
+        "native": "Italiano",
+        "rtl": False,
+        "google": "it",
+        "key": "it",
+        "lang": "it",
+        "country": "IT",
+    },
+    "ja-JP": {
+        "en": "Japanese",
+        "native": "日本語",
+        "rtl": False,
+        "google": "ja",
+        "key": "ja",
+        "lang": "ja",
+        "country": "JP",
+    },
+    "kk": {
+        "en": "Kazakh",
+        "native": "Қазақша",
+        "rtl": False,
+        "google": "kk",
+        "key": "kk",
+        "lang": "kk",
+        "country": None,
+    },
+    "ru-RU": {
+        "en": "Russian",
+        "native": "Русский",
+        "rtl": False,
+        "google": "ru",
+        "key": "ru",
+        "lang": "ru",
+        "country": "RU",
+    },
+    "sw": {
+        "en": "Swahili",
+        "native": "Kiswahili",
+        "rtl": False,
+        "google": "sw",
+        "key": "sw",
+        "lang": "sw",
+        "country": None,
+    },
+    "ky-KG": {
+        "en": "Kyrgyz",
+        "native": "Кыргызча",
+        "rtl": False,
+        "google": "ky",
+        "key": "ky",
+        "lang": "ky",
+        "country": "KG",
+    },
+    "lo-LA": {
+        "en": "Lao",
+        "native": "ລາວ",
+        "rtl": False,
+        "google": "lo",
+        "key": "lo",
+        "lang": "lo",
+        "country": "LA",
+    },
+    "lv": {
+        "en": "Latvian",
+        "native": "Latviešu",
+        "rtl": False,
+        "google": "lv",
+        "key": "lv",
+        "lang": "lv",
+        "country": None,
+    },
+    "zh-HK": {
+        "en": "Chinese (Hong Kong)",
+        "native": "繁體中文",
+        "rtl": False,
+        "google": "zh-TW",
+        "key": "zh_HK",
+        "lang": "zh",
+        "country": "HK",
+    },
+    "hu-HU": {
+        "en": "Hungarian",
+        "native": "Magyar",
+        "rtl": False,
+        "google": "hu",
+        "key": "hu",
+        "lang": "hu",
+        "country": "HU",
+    },
+    "is-IS": {
+        "en": "Icelandic",
+        "native": "Íslenska",
+        "rtl": False,
+        "google": "is",
+        "key": "is",
+        "lang": "is",
+        "country": "IS",
+    },
+    "lt": {
+        "en": "Lithuanian",
+        "native": "Lietuvių",
+        "rtl": False,
+        "google": "lt",
+        "key": "lt",
+        "lang": "lt",
+        "country": None,
+    },
+    "zh-TW": {
+        "en": "Chinese (Traditional)",
+        "native": "繁體中文",
+        "rtl": False,
+        "google": "zh-TW",
+        "key": "zh_TW",
+        "lang": "zh",
+        "country": "TW",
+    },
+    "ms-MY": {
+        "en": "Malay",
+        "native": "Bahasa Melayu",
+        "rtl": False,
+        "google": "ms",
+        "key": "ms",
+        "lang": "ms",
+        "country": "MY",
+    },
+    "my-MM": {
+        "en": "Burmese",
+        "native": "မြန်မာ",
+        "rtl": False,
+        "google": "my",
+        "key": "my",
+        "lang": "my",
+        "country": "MM",
+    },
+    "ne-NP": {
+        "en": "Nepali",
+        "native": "नेपाली",
+        "rtl": False,
+        "google": "ne",
+        "key": "ne",
+        "lang": "ne",
+        "country": "NP",
+    },
+    "af": {
+        "en": "Afrikaans",
+        "native": "Afrikaans",
+        "rtl": False,
+        "google": "af",
+        "key": "af",
+        "lang": "af",
+        "country": None,
+    },
+    "mk-MK": {
+        "en": "Macedonian",
+        "native": "Македонски",
+        "rtl": False,
+        "google": "mk",
+        "key": "mk",
+        "lang": "mk",
+        "country": "MK",
+    },
+    "nb-NO": {
+        "en": "Norwegian",
+        "native": "Norsk",
+        "rtl": False,
+        "google": "no",
+        "key": "nb",
+        "lang": "nb",
+        "country": "NO",
+    },
+    "ur": {
+        "en": "Urdu",
+        "native": "اردو",
+        "rtl": True,
+        "google": "ur",
+        "key": "ur",
+        "lang": "ur",
+        "country": None,
+    },
+    "fil": {
+        "en": "Filipino",
+        "native": "Filipino",
+        "rtl": False,
+        "google": "tl",
+        "key": "fil",
+        "lang": "fil",
+        "country": None,
+    },
+    "pl-PL": {
+        "en": "Polish",
+        "native": "Polski",
+        "rtl": False,
+        "google": "pl",
+        "key": "pl",
+        "lang": "pl",
+        "country": "PL",
+    },
+    "ro": {
+        "en": "Romanian",
+        "native": "Română",
+        "rtl": False,
+        "google": "ro",
+        "key": "ro",
+        "lang": "ro",
+        "country": None,
+    },
+    "en-SG": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "SG",
+    },
+    "sk": {
+        "en": "Slovak",
+        "native": "Slovenčina",
+        "rtl": False,
+        "google": "sk",
+        "key": "sk",
+        "lang": "sk",
+        "country": None,
+    },
+    "sl": {
+        "en": "Slovenian",
+        "native": "Slovenščina",
+        "rtl": False,
+        "google": "sl",
+        "key": "sl",
+        "lang": "sl",
+        "country": None,
+    },
+    "si-LK": {
+        "en": "Sinhala",
+        "native": "සිංහල",
+        "rtl": False,
+        "google": "si",
+        "key": "si",
+        "lang": "si",
+        "country": "LK",
+    },
+    "sv-SE": {
+        "en": "Swedish",
+        "native": "Svenska",
+        "rtl": False,
+        "google": "sv",
+        "key": "sv",
+        "lang": "sv",
+        "country": "SE",
+    },
+    "ko-KR": {
+        "en": "Korean",
+        "native": "한국어",
+        "rtl": False,
+        "google": "ko",
+        "key": "ko",
+        "lang": "ko",
+        "country": "KR",
+    },
+    "th": {
+        "en": "Thai",
+        "native": "ไทย",
+        "rtl": False,
+        "google": "th",
+        "key": "th",
+        "lang": "th",
+        "country": None,
+    },
+    "uk": {
+        "en": "Ukrainian",
+        "native": "Українська",
+        "rtl": False,
+        "google": "uk",
+        "key": "uk",
+        "lang": "uk",
+        "country": None,
+    },
+    "en-GB": {
+        "en": "English",
+        "native": "English",
+        "rtl": False,
+        "google": "en",
+        "key": "en",
+        "lang": "en",
+        "country": "GB",
+    },
+    "es-US": {
+        "en": "Spanish",
+        "native": "Español",
+        "rtl": False,
+        "google": "es",
+        "key": "es_419",
+        "lang": "es",
+        "country": "US",
+    },
+    "vi": {
+        "en": "Vietnamese",
+        "native": "Tiếng Việt",
+        "rtl": False,
+        "google": "vi",
+        "key": "vi",
+        "lang": "vi",
+        "country": None,
+    },
+}
+
+UI_STRINGS = OrderedDict(
+    [
+        ("appTitle", "Gloss"),
+        ("tagline", "a lexicon of lovely language"),
+        ("navHome", "Home"),
+        ("navLexicon", "Lexicon"),
+        ("navQuiz", "Quiz"),
+        ("navSaved", "Saved"),
+        ("navLanguages", "Languages"),
+        (
+            "homeBlurb",
+            "{count} rare, rich words from the {lexicon} lexicon — explained the way a friend would explain them, not a dictionary.",
+        ),
+        ("wordsExplored", "{current} of {total} words explored"),
+        ("exploreLexicon", "Explore the lexicon"),
+        ("startQuiz", "Start a quiz"),
+        ("wordOfTheDay", "word of the day"),
+        ("readFullEntry", "Read the full entry →"),
+        ("lexiconTitle", "The lexicon"),
+        ("lexiconCaption", "the gathering"),
+        ("savedTitle", "Saved words"),
+        ("savedCaption", "kept close"),
+        ("searchHint", "Search a word, or describe its meaning…"),
+        ("clearSearch", "Clear search"),
+        ("filterAll", "All"),
+        ("noMatches", "No matches yet — try a different word or feeling."),
+        (
+            "matchCount",
+            "{n, plural, =1{1 match} other{{n} matches}}",
+        ),
+        ("nothingHere", "nothing here"),
+        ("emptyLexicon", "Nothing in this corner of the lexicon."),
+        ("emptySaved", "No saved words yet. Tap the heart on any entry."),
+        ("tapToReadMore", "Tap to read more"),
+        ("saveWord", "Save word"),
+        ("removeFromFavorites", "Remove from favorites"),
+        ("inPlainWords", "in plain words"),
+        ("theDefinition", "the definition"),
+        ("inASentence", "in a sentence"),
+        ("exampleGlossLabel", "in other words"),
+        ("save", "Save"),
+        ("saved", "Saved"),
+        ("copy", "Copy"),
+        ("copiedToClipboard", "Copied to clipboard"),
+        ("roots", "roots"),
+        ("quizTitle", "A little quiz"),
+        ("quizCaption", "know the roots, then choose the meaning"),
+        (
+            "quizIntro",
+            "Each question shows a word and its etymology. Pick the definition that fits — four choices, one true.",
+        ),
+        ("howManyWords", "how many words"),
+        ("begin", "Begin"),
+        ("quizByTheme", "Quiz by theme"),
+        ("endQuiz", "End quiz"),
+        ("questionOf", "Question {index} of {length}"),
+        ("whichDefinitionFits", "which definition fits?"),
+        ("previous", "Previous"),
+        ("next", "Next"),
+        ("seeResults", "See results"),
+        ("themeTitle", "Theme"),
+        ("chooseASubject", "choose a subject"),
+        ("noThemesYet", "No themes yet."),
+        ("notEnoughWordsInTheme", "Not enough words in this theme yet."),
+        ("results", "Results"),
+        ("perfectPage", "a perfect page"),
+        ("wellMarked", "well marked"),
+        ("tryAnotherRound", "Try another round"),
+        (
+            "definitionsRight",
+            "{score, plural, =1{1 definition right} other{{score} definitions right}}",
+        ),
+        (
+            "definitionsRightSpoken",
+            "{score, plural, =1{One definition right, of {total}.} other{{score} definitions right, of {total}.}}",
+        ),
+        ("switchToLightMode", "Switch to light mode"),
+        ("switchToDarkMode", "Switch to dark mode"),
+        ("listen", "Listen"),
+        ("stop", "Stop"),
+        ("glossIcon", "Gloss icon"),
+        ("languagesTitle", "Languages"),
+        ("languagesCaption", "the tongues"),
+        ("searchLanguages", "Search a country or language…"),
+        ("noMatchingLanguages", "No matching countries or languages."),
+        ("selectedLanguage", "Reading in"),
+        ("continentAfrica", "Africa"),
+        ("continentAsia", "Asia"),
+        ("continentEurope", "Europe"),
+        ("continentAmericas", "Americas"),
+        ("continentOceania", "Oceania"),
+        ("currentOfTotal", "{current} of {total}"),
+        ("speechAlso", "Also {variants}."),
+        ("speechAsIn", "As in: {example}"),
+        ("speechFrom", "From {origin}, {originWord}."),
+        ("speechRoot", "{form}, meaning {meaning}"),
+        ("speechInPlainWords", "In plain words: {friendly}"),
+        ("categorySpeech", "Speech & Rhetoric"),
+        ("categoryCharacter", "Character & Temperament"),
+        ("categoryCriticism", "Criticism & Insult"),
+        ("categoryVirtue", "Virtue"),
+        ("categoryVice", "Vice"),
+        ("categoryKnowledge", "Knowledge & Thought"),
+        ("categoryReligion", "Religion & Spirit"),
+        ("categoryBeginnings", "Beginnings"),
+        ("categoryConflict", "Conflict & Deceit"),
+        ("categoryAppearance", "Appearance & Light"),
+        ("categoryPeople", "People & Roles"),
+        ("categoryObjects", "Objects & Things"),
+        ("categoryEmotion", "Emotion"),
+        ("categoryArchaic", "Old & Archaic"),
+    ]
+)
+
+DO_NOT_TRANSLATE = {
+    "appTitle",
+    "glossIcon",
+}
+
+PLACEHOLDERS = {
+    "homeBlurb": {
+        "count": {"type": "int"},
+        "lexicon": {"type": "String"},
+    },
+    "wordsExplored": {
+        "current": {"type": "int"},
+        "total": {"type": "int"},
+    },
+    "matchCount": {"n": {"type": "int"}},
+    "questionOf": {
+        "index": {"type": "int"},
+        "length": {"type": "int"},
+    },
+    "definitionsRight": {"score": {"type": "int"}},
+    "definitionsRightSpoken": {
+        "score": {"type": "int"},
+        "total": {"type": "int"},
+    },
+    "currentOfTotal": {
+        "current": {"type": "int"},
+        "total": {"type": "int"},
+    },
+    "speechAlso": {"variants": {"type": "String"}},
+    "speechAsIn": {"example": {"type": "String"}},
+    "speechFrom": {
+        "origin": {"type": "String"},
+        "originWord": {"type": "String"},
+    },
+    "speechRoot": {
+        "form": {"type": "String"},
+        "meaning": {"type": "String"},
+    },
+    "speechInPlainWords": {"friendly": {"type": "String"}},
+}
+
+
+def flag_emoji(iso2: str) -> str:
+    return "".join(chr(0x1F1E6 + ord(c) - ord("A")) for c in iso2.upper())
+
+
+def canonicalize_play_locale(raw: str) -> str:
+    code = raw.strip()
+    if code == "iw-IL":
+        return "he-IL"
+    if code == "no-NO":
+        return "nb-NO"
+    return code
+
+
+def parse_countries(text: str) -> list[dict]:
+    countries = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or "→" not in line:
+            continue
+        name, rest = line.split("→", 1)
+        name = name.strip()
+        locales = [canonicalize_play_locale(p.strip()) for p in rest.split("/") if p.strip()]
+        iso2 = ISO2[name]
+        countries.append(
+            {
+                "name": name,
+                "iso2": iso2,
+                "flag": flag_emoji(iso2),
+                "continent": CONTINENT[iso2],
+                "localeIds": locales,
+            }
+        )
+    return countries
+
+
+def main() -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    SOURCE_DIR.mkdir(parents=True, exist_ok=True)
+
+    countries = parse_countries(COUNTRIES_FILE.read_text(encoding="utf-8"))
+    used_ids = []
+    seen = set()
+    for country in countries:
+        for locale_id in country["localeIds"]:
+            if locale_id not in seen:
+                seen.add(locale_id)
+                used_ids.append(locale_id)
+
+    locales = []
+    for locale_id in used_ids:
+        meta = LOCALES[locale_id]
+        locales.append(
+            {
+                "id": locale_id,
+                "translationKey": meta["key"],
+                "languageCode": meta["lang"],
+                "countryCode": meta["country"],
+                "languageNameEn": meta["en"],
+                "languageNameNative": meta["native"],
+                "rtl": meta["rtl"],
+                "googleCode": meta["google"],
+            }
+        )
+
+    catalog = {
+        "countries": countries,
+        "locales": locales,
+        "translationKeys": sorted({loc["translationKey"] for loc in locales}),
+    }
+    (OUT_DIR / "catalog.json").write_text(
+        json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    ui = {
+        "doNotTranslate": sorted(DO_NOT_TRANSLATE),
+        "placeholders": PLACEHOLDERS,
+        "strings": dict(UI_STRINGS),
+    }
+    (SOURCE_DIR / "ui.json").write_text(
+        json.dumps(ui, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    words_data = json.loads(WORDS_JSON.read_text(encoding="utf-8"))
+    content = {
+        "keepUntranslated": [
+            "id",
+            "word",
+            "variants",
+            "pronunciation",
+            "originWord",
+            "root.form",
+        ],
+        "categories": [
+            {"id": c["id"], "label": c["label"]} for c in words_data["categories"]
+        ],
+        "words": [
+            {
+                "id": w["id"],
+                "partOfSpeech": w["partOfSpeech"],
+                "definition": w["definition"],
+                "friendly": w["friendly"],
+                "example": w["example"],
+                "origin": w["origin"],
+                "rootMeanings": [r["meaning"] for r in w["roots"]],
+            }
+            for w in words_data["words"]
+        ],
+    }
+    (SOURCE_DIR / "content.json").write_text(
+        json.dumps(content, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    sample = words_data["words"][0]
+    unique_langs = sorted({loc["languageNameEn"] for loc in locales})
+    translation_keys = catalog["translationKeys"]
+    source_md = f"""# Gloss localization source
+
+Extracted from the Flutter app and the Play country list
+(`Gloss-images/all-countries`).
+
+## Feasibility
+
+- Play countries in the list: **{len(countries)}**
+- Unique locale ids: **{len(locales)}**
+- Unique translation files: **{len(translation_keys)}** (`{'`, `'.join(translation_keys)}`)
+- Unique language names: **{len(unique_langs)}**
+
+The English headword (lemma), pronunciation, etymon, and root *forms* stay
+English / source-language. UI chrome and explanations are translated.
+
+## Do not translate
+
+- `Gloss`
+- `Beautiful Words`
+- Word lemmas (`word`, `variants`)
+- `pronunciation`
+- `originWord`
+- Root `form` strings
+
+## UI chrome
+
+| Key | English |
+| --- | --- |
+"""
+    for key, value in UI_STRINGS.items():
+        flag = " *(keep)*" if key in DO_NOT_TRANSLATE else ""
+        escaped = value.replace("|", "\\|")
+        source_md += f"| `{key}`{flag} | {escaped} |\n"
+
+    source_md += f"""
+## Sample word (Edulcorate)
+
+**Keep**
+
+- word: `{sample['word']}`
+- pronunciation: `{sample['pronunciation']}`
+- originWord: `{sample['originWord']}`
+- root forms: {', '.join(f"`{r['form']}`" for r in sample['roots'])}
+
+**Translate**
+
+- partOfSpeech: {sample['partOfSpeech']}
+- definition: {sample['definition']}
+- friendly: {sample['friendly']}
+- example (keep English sentence, add a gloss): {sample['example']}
+- origin: {sample['origin']}
+- root meanings: {'; '.join(r['meaning'] for r in sample['roots'])}
+
+## Files
+
+- `l10n/catalog.json` — countries, flags, continents, locales
+- `l10n/source/ui.json` — UI strings for the translation script
+- `l10n/source/content.json` — {len(content['words'])} word explanation fields
+"""
+    (OUT_DIR / "SOURCE.md").write_text(source_md, encoding="utf-8")
+    print(
+        f"Wrote catalog ({len(countries)} countries, {len(locales)} locales, "
+        f"{len(translation_keys)} translation keys), UI ({len(UI_STRINGS)} keys), "
+        f"content ({len(content['words'])} words)."
+    )
+
+
+if __name__ == "__main__":
+    main()

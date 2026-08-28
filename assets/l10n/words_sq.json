@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "folje",
+      "definition": "Të ëmbëlosh ose të pastrosh; të heqësh ashpërsinë nga diçka.",
+      "friendly": "Të heqësh thumbin ose hidhësinë — fjalë për fjalë duke e ëmbëlsuar, ose figurativisht duke zbutur një ide të ashpër që të shkojë më lehtë.",
+      "exampleGloss": "Redaktori edulcorated recensionin e ashpër para se të shkonte në shtyp.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë, tërësisht",
+        "i ëmbël"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Tejet ose me prekje fetar ose i devotshëm.",
+      "friendly": "Përshkruan dikë, përkushtimi fetar i të cilit duket i vënë për shfaqje — më shumë spektakël se besim i vërtetë.",
+      "exampleGloss": "Psherëtimat e tij pietistic gjatë predikimit bezdisën pjesën tjetër të stolës.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "devotshmëri, ndjenjë detyre",
+        "që ka karakterin e"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "emër",
+      "definition": "Paqartësi që lind nga struktura gramatikore — fjali që lexohet në dy mënyra.",
+      "friendly": "Fjali që është gramatikisht në rregull, por mund të lexohet në dy mënyra krejt të ndryshme, si \"I saw the man with the telescope.\"",
+      "exampleGloss": "\"Visiting relatives can be tiring\" është një amphiboly klasike — a janë të lodhshëm të afërmit, apo është lodhëse t'i vizitosh?",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "të dyja, nga të dyja anët",
+        "të hedhësh"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I mprehtë, i prerë, që pret drejt në thelb.",
+      "friendly": "Pret drejt përmes fjalëve të kota — një vërejtje ose mendje trenchant arrin shpejt te zemra e çështjes, pa fjalë të tepërta.",
+      "exampleGloss": "Kritika e saj trenchant nuk la vend që boshllëqet e filmit të fshiheshin.",
+      "origin": "frëngjishtja e vjetër",
+      "rootMeanings": [
+        "të presësh",
+        "që bën, që ka cilësinë"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Sapo ka filluar; në fazë të hershme ose fillestare.",
+      "friendly": "Ende në çastet e hapjes — një plan, ndjenjë ose proces që sapo ka filluar të marrë formë.",
+      "exampleGloss": "Fazat inchoative të traktatit ishin premtuese, por shumë hollësi mbetën të pazgjidhura.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të fillosh, të nisesh",
+        "që priret drejt"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "emër",
+      "definition": "Fjalim ose shkrim formal që lëvdon dikë lart.",
+      "friendly": "Një lavdërim i plotë, formal — mendo një fjalim funerali të ndritshëm ose një fjalim që këndon arritjet e dikujt nga çatitë.",
+      "exampleGloss": "Profesoresha që po dilte në pension u përcoll me një panegyric nga studentët e saj më të afërt.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "të gjitha",
+        "kuvend, mbledhje"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që lidhet me ekzistencën e vërtetë ose qenien faktike, në kundërshtim me teorinë abstrakte.",
+      "friendly": "Për gjërat ashtu siç ekzistojnë vërtet, jo vetëm si ide apo teori rreth tyre.",
+      "exampleGloss": "Filozofët debatojnë nëse numrat kanë ndonjë status ontic apo ekzistojnë vetëm në mendjet tona.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "qenie, ajo që është",
+        "që lidhet me"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "folje",
+      "definition": "Të japësh fryt, ose të bëhesh produktiv.",
+      "friendly": "Të paguajë më në fund — një përpjekje, ide ose investim që fructify është rritur nga fara në diçka të dobishme.",
+      "exampleGloss": "Vitet e kërkimit të qetë më në fund fructified në një vaksinë që funksiononte.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "frut",
+        "të bësh, të shkaktoosh"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që parashikon ose paraqet diçka si të kryer para se të ketë ndodhur vërtet.",
+      "friendly": "Të nxitosh në mënyrë letrare — të përshkruash një ngjarje të ardhshme sikur tashmë ka mbaruar, që pika të bjerë më fort.",
+      "exampleGloss": "Tosti proleptical i gjeneralit për \"victory\" u mbajt një javë të tërë para betejës.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "para",
+        "të marrësh, të kapësh"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I vepruar nga presioni i ajrit; gjithashtu i lidhur me shpirtin ose frymën.",
+      "friendly": "Zakonisht do të thotë \"i fuqizuar nga ajri i kompresuar\" — megjithëse mund të nënkuptojë edhe lidhjen me shpirtin ose frymën.",
+      "exampleGloss": "Frenat pneumatic fëshfëritën kur autobusi u ndal te trotuari.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "erë, frymë, shpirt",
+        "që i përket"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që përshkruan Zotin ose hyjnoren me pohime pozitive — e kundërta e apofatikes.",
+      "friendly": "Një mënyrë për të folur për Zotin duke thënë se çfarë është Zoti — \"God is love\" — e jo vetëm se çfarë nuk është.",
+      "exampleGloss": "Teologjia cataphatic flet me besim për Zotin si dashamirës, i drejtë dhe i mëshirshëm.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "poshtë, sipas",
+        "të flasësh, të thuash"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I bazuar në besim ose besnikëri; gjithashtu pikë e fiksuar referimi.",
+      "friendly": "Diçka që e merr me besim dhe pastaj e përdor si spirancë — një shenjë fiducial është pika e fiksuar kundrejt së cilës matet gjithçka tjetër.",
+      "exampleGloss": "Matësit vendosën një shënues fiducial në shkëmb para se të hartonin vendin.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të besosh",
+        "besim, siguri"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "emër",
+      "definition": "Mbrojtje e mirësisë së Zotit duke pasur parasysh ekzistencën e së keqes.",
+      "friendly": "Përpjekja e lashtë për t'iu përgjigjur: \"If God is good, why does evil exist?\"",
+      "exampleGloss": "Teza e saj eksploroi theodicy përmes lenteve të Librit të Jobit.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "zot",
+        "drejtësi"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "emër",
+      "definition": "Banim i ndërsjellë — term teologjik për mënyrën se si personat e Trinisë ekzistojnë brenda njëri-tjetrit.",
+      "friendly": "Fjalë teologjie për një bashkësi tre-në-një kaq të plotë sa çdo pjesë përmban dhe përmbahet plotësisht nga të tjerat.",
+      "exampleGloss": "Doktrina e circumincession përpiqet të shpjegojë se si Ati, Biri dhe Shpirti janë të dallueshëm, por të pandashëm.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "përqark",
+        "të shkosh, të ecësh"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "folje",
+      "definition": "Të kesh pasojë që i sjell dobi ose i kthehet dikujt.",
+      "friendly": "Kur lavdërimi (ose faji) kthehet te personi përgjegjës — veprat e mira që redound reputacionit tënd kthehen për të të shpërblyer.",
+      "exampleGloss": "Suksesi i ekipit do të redound në nder të trajnerit të tij të qetë e punëtor.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "mbrapa, përsëri",
+        "valë"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I pashmangshëm; që nuk mund t'i shpëtosh.",
+      "friendly": "Do të ndodhë, çfarëdo që të bësh — nuk ka ku të shkëputesh nga një përfundim ineluctable.",
+      "exampleGloss": "Pleqëria vjen për të gjithë; është thjesht ineluctable.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jo",
+        "të luftosh për t'u shkëputur"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që përdor shprehje të tërthorta, me shumë fjalë, në vend të formës së drejtpërdrejtë.",
+      "friendly": "Të shkosh rrugën e gjatë me fjalë — të thuash \"make a decision\" në vend të \"decide.\"",
+      "exampleGloss": "Email-et e tij periphrastic mund të kishin thënë në një rresht atë që i mori tre paragrafë.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "përqark",
+        "të shpallësh, të tregosh"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "emër",
+      "definition": "Mpirje mendore ose letargji.",
+      "friendly": "Ajo gjendje e mjegullt, e ngadaltë e mendjes ku të menduarit ndihet si ecje nëpër shurup.",
+      "exampleGloss": "Një valë hebetude e goditi klasën menjëherë pas drekës.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "i shurdhër, i mpirë",
+        "gjendje ose cilësi"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I pafavorshëm; shenjë e keqe.",
+      "friendly": "Shenjë e keqe — kushte ose kohë që duket se punojnë kundër teje para se të kesh filluar fare.",
+      "exampleGloss": "Qielli gri dhe bateria e vdekur e makinës bënë një fillim unpropitious për udhëtimin.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jo",
+        "i favorshëm, i hirshëm"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "mbiemër / folje",
+      "definition": "Mish i zier ngadalë në salcë — shkruhet saktë \"fricasseed.\"",
+      "friendly": "Term i vjetër, i ngrohtë gatimi për mishin e prerë dhe të zier ngadalë në salcën e vet derisa të bëhet i butë.",
+      "exampleGloss": "Pula fricasseed e gjyshes ishte ylli i çdo darke të dielë.",
+      "origin": "frëngjisht",
+      "rootMeanings": [
+        "të skuqësh",
+        "të thërmosh (në copa)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Zëvendësues artificial ose i dobët.",
+      "friendly": "Një kopje që zë vendin e së vërtetës — teknikisht e bën punën, por të gjithë e shohin se nuk është origjinali.",
+      "exampleGloss": "Blerësit e kohës së luftës u kënaqën me kafe ersatz nga çikore e pjekur.",
+      "origin": "gjermanisht",
+      "rootMeanings": [
+        "jashtë, parashtesë zëvendësimi",
+        "të vësh, të vendosësh"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "folje",
+      "definition": "Të trajtosh një ide abstrakte sikur të ishte gjë konkrete.",
+      "friendly": "Të bësh që një ide të ndihet e vërtetë dhe e ngurtë — ta kthesh diçka të mjegullt, si \"the economy,\" në një gjë që mund ta tregosh me gisht.",
+      "exampleGloss": "Duke e quajtur \"spirit\" e një kombi qenie më vete, reify diçka që në të vërtetë është miliona zgjedhje individuale.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "gjë",
+        "të bësh"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "folje (e shkuar)",
+      "definition": "I shpëtoi ose iu shmang me mjeshtëri.",
+      "friendly": "Iu shkëput pastër — iu shmang diçkaje, shpesh me zgjuarsi ose ngushtë, qoftë kapja, një pyetje, apo një përgjigje.",
+      "exampleGloss": "Përgjigja e eluded për orë të tëra derisa papritmas i klikoi në dush.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë, larg",
+        "të luash"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që shpreh dyshim, hutim ose një kundërthënie të pazgjidhur.",
+      "friendly": "I bllokuar në një rrugë të vërtetë pa krye të mendimit — jo nga përtacia, por sepse vetë pyetja i reziston një përgjigjeje të pastër.",
+      "exampleGloss": "Sokrati shpesh i mbyllte dialogët me një notë aporetic, me më shumë pyetje se përgjigje.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "pa",
+        "kalim, rrugë"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "emër",
+      "definition": "Figurë e të folurit që emërton diçka me një term të lidhur, p.sh. \"the crown\" për monarkun.",
+      "friendly": "Të përdorësh një fjalë të lidhur në vend të së vërtetës — të thuash \"the White House announced\" kur ke parasysh administratën.",
+      "exampleGloss": "\"Wall Street had a rough day\" është metonymy — në të vërtetë do të thotë se tregu i aksioneve e pati.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "ndryshim, pas",
+        "emër"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "folje",
+      "definition": "Të shkulësh nga rrënjët; të shqitësh nga mjedisi natyror.",
+      "friendly": "Të nxjerrësh diçka (ose dikë) me rrënjë, larg vendit ose kulturës ku i përket.",
+      "exampleGloss": "Lufta deracinated një brez të tërë, duke shpërndarë familjet përtej kufijve.",
+      "origin": "frëngjisht / latinisht",
+      "rootMeanings": [
+        "larg, poshtë",
+        "rrënjë"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Me tingull të këndshëm.",
+      "friendly": "Thjesht e këndshme për t'u dëgjuar — një fjalë, emër ose fjali euphonious rrëshqet në vesh pa pengesë, pothuajse muzikalisht.",
+      "exampleGloss": "\"Murmuring brook\" është një frazë e vogël euphonious — e butë dhe e lehtë për t'u thënë.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "i mirë, mirë",
+        "tingull, zë"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I supozuar ose i marrë përgjithësisht si i tillë.",
+      "friendly": "I besuar gjerësisht si i vërtetë, edhe nëse nuk është vërtetuar — versione \"e supozuar\" e diçkaje.",
+      "exampleGloss": "Autori putative i letrës më vonë doli të ishte një i huaj i plotë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të mendosh, të gjykosh",
+        "që ka natyrën e"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "emër",
+      "definition": "Fjalë ose frazë e sapo krijuar.",
+      "friendly": "Një fjalë krejt e re — sapo e shpikur, ende (ose gati) jo në fjalor.",
+      "exampleGloss": "\"Doomscrolling\" nisi si neologism dhe shpejt u bë slang i përditshëm.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "i ri",
+        "fjalë, ligjëratë"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I zemëruar ose me temperament të keq.",
+      "friendly": "Në humor të keq, të acaruar — i shpejtë për t'u ndezur, siç besohej dikur se shpretka kontrollonte temperamentin.",
+      "exampleGloss": "Ai dërgoi një përgjigje splenetic të email-it brenda sekondave pasi e lexoi.",
+      "origin": "greqisht / latinisht",
+      "rootMeanings": [
+        "shpretkë (vendi i zemërimit)",
+        "i prekur nga"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I prirur të moralizojë në mënyrë pompoze ose të prekur.",
+      "friendly": "I pëlqen të japë mësime të vogla jete me rëndësi të tepruar, sikur çdo fjali të ishte biskotë fati.",
+      "exampleGloss": "Tosti i tij sententious për \"the true meaning of friendship\" i bëri të gjithë të shikonin orët.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "mendim, maksimë",
+        "i mbushur me"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Tejet bisedues, veçanërisht për gjëra të vogla.",
+      "friendly": "Thjesht nuk ndalet së foluri — llafazan për gjëra të vogla shumë pasi të tjerëve u kanë mbaruar fjalët.",
+      "exampleGloss": "Shoferi garrulous i taksisë na tregoi gjithë historinë e jetës së tij para se të dilnim nga aeroporti.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të llafazanësh, të pëshpëritësh",
+        "i prirur drejt"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "emër",
+      "definition": "Marrëzi, budallallëk.",
+      "friendly": "Marrëzi e thjeshtë — një vërejtje ose plan kaq budalla sa mezi meriton përgjigje serioze.",
+      "exampleGloss": "Fatuity e pastër e planit u bë e qartë në çastin që e provuan.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "i marrë, budalla",
+        "gjendja e të qenit"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "emër",
+      "definition": "Pjesa përmbyllëse e një fjalimi, shpesh përmbledhëse.",
+      "friendly": "Mbarimi i madh i një fjalimi — seksioni mbyllës ku folësi i lidh të gjitha dhe e çon pikën në shtëpi.",
+      "exampleGloss": "Deri te peroration, gjysma e publikut ishte në këmbë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "përmes, deri në fund",
+        "të flasësh, të mbrosh"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "emër",
+      "definition": "Përsëritje e panevojshme e së njëjtës ide me fjalë të ndryshme.",
+      "friendly": "Të thuash të njëjtën gjë dy herë pa shtuar asgjë të re, si \"free gift\" ose \"end result.\"",
+      "exampleGloss": "\"It is what it is\" është tautology e preferuar e njerëzve që i shmangen një shpjegimi të vërtetë.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "i njëjti",
+        "fjalë, ligjëratë"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "emër",
+      "definition": "Përdorimi i shumë pak fjalëve; fjalim i shkurtër.",
+      "friendly": "Të thuash shumë me shumë pak — arti i përgjigjes së shkurtër e të prerë, emërtuar nga spartanët famëkeq të shkurtër të Lakonisë.",
+      "exampleGloss": "\"Molon labe\" — \"come and take them\" — është copa më e famshme e laconism në histori.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "një spartan i Lakonisë",
+        "praktikë, mënyrë"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "emër",
+      "definition": "Ide të zbehta, të thjeshtuara tepër; fillimisht, ushqim i zbehtë ose qull.",
+      "friendly": "Mendim i hollë, i holluar — përmbajtje kaq e thjeshtuar e e sigurt sa nuk ka asnjë vlerë ushqyese për mendjen.",
+      "exampleGloss": "Fjalimi i politikanit ishte kryesisht pabulum: premtime të mjegullta që nuk mund t'i kapje.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të ushqesh",
+        "mjet ose instrument"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që shkakton gjumë ose përgjumje.",
+      "friendly": "Ka aq e mërzitshme — ose fjalë për fjalë qetësuese — sa të bën të flesh. Mendo qumështin e ngrohtë, ose një mbledhje buxheti treorëshe.",
+      "exampleGloss": "Zhurma soporific e leksionit e kishte gjysmën e sallës duke luftuar për t'i mbajtur sytë hapur.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "gjumë i thellë",
+        "që bën, që shkakton"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Tejet lajkatar ose i yndyrshëm në sjellje.",
+      "friendly": "Ka aq i butë e tërheqës sa ndihet i rrëshqitshëm — lajka e vënë kaq trashë sa pothuajse e ndjen yndyrën.",
+      "exampleGloss": "Shitësi unctuous vazhdonte të lavdëronte \"excellent taste\" tim para çdo shitjeje shtesë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të vajosësh, të vajisësh",
+        "i mbushur me"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I shpejtë për të gjetur faj, tepër kritik ndaj gjërave të vogla.",
+      "friendly": "I imët deri në gabim — lloji i personit që gjen problem në gjithçka, edhe kur nuk ka rëndësi vërtet.",
+      "exampleGloss": "Shënimet e tij captious mbi raportin u përqendruan tërësisht te vendosja e presjeve.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të kapësh, të marrësh",
+        "grackë, sofizëm"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I ngadalshëm, mendërisht ose fizikisht joaktiv.",
+      "friendly": "I ngadalshëm e gjysmë i fjetur, si ari në dimërim — mezi lëviz, mezi mendon.",
+      "exampleGloss": "Zyra ra torpid në nxehtësinë e rëndë të gushtit.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të jesh i mpirë, i ngadalshëm",
+        "në gjendje të"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "emër",
+      "definition": "Kujdestar ose nëpunës që menaxhonte një shtëpi mesjetare.",
+      "friendly": "Versioni mesjetar i shefit të stafit — nëpunësi i besuar që drejtonte shtëpinë dhe pasurinë e zotërisë nga dita në ditë.",
+      "exampleGloss": "Seneschal i kështjellës menaxhonte gjithçka, nga llogaritë e korrjes deri te lista e të ftuarve.",
+      "origin": "frankisht / frëngjishtja e vjetër",
+      "rootMeanings": [
+        "i vjetër, i moshuar",
+        "shërbëtor"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "folje",
+      "definition": "Të flasësh ose të shkruash gjatë për një temë.",
+      "friendly": "Të nisesh vërtet në një temë — të flasësh ose të shkruash e të shkruash, duke e mbuluar nga çdo kënd.",
+      "exampleGloss": "Pyete për makinat vintage dhe ai do të expatiate për një orë të tërë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë",
+        "hapësirë"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Pa vlerë, i parëndësishëm; gjithashtu i pavlefshëm ose i paefektshëm.",
+      "friendly": "I vlefshëm praktikisht për asgjë — një klauzolë nugatory në një kontratë është ajo që në të vërtetë nuk bën asgjë.",
+      "exampleGloss": "Gjykata e shpalli rregulloren e vjetër nugatory, sepse kurrë nuk ishte zbatuar vërtet.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "gjëra të vogla, marrëzi",
+        "që i përket"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "emër",
+      "definition": "Urtësi, gjykim i mprehtë.",
+      "friendly": "Urtësi e mprehtë, praktike — lloji i gjykimit të mirë që vjen nga përvoja, jo vetëm nga librat.",
+      "exampleGloss": "Sagacity e kapitenit të vjetër e mbajti ekuipazhin jashtë telasheve më shumë se një herë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "me nuhatje të mprehtë, i zgjuar",
+        "cilësi e"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "emër",
+      "definition": "Turma e zakonshme ose masat, e përdorur me përbuzje.",
+      "friendly": "Fjalë snobiste, përbuzëse për \"turmën\" ose njerëzit e thjeshtë, e përdorur me përbuzje.",
+      "exampleGloss": "Konti qeshi me përçmim ndaj canaille që mblidhej para portave të pallatit.",
+      "origin": "italisht / frëngjisht",
+      "rootMeanings": [
+        "qen",
+        "kolektiv, tufë"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "emër",
+      "definition": "Trajtim ose gjuhë e pasjellshme, poshtëruese.",
+      "friendly": "Trajtim i egër, përbuzës i destinuar të poshtërojë — lloji i fyerjes i krijuar për të djegur.",
+      "exampleGloss": "Ai duroi vite contumely nga kritikët para se vepra e tij të njihej më në fund.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "me, tërësisht",
+        "të fryhesh (nga krenaria)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "ndajfolje",
+      "definition": "Me dyshim ose mosmiratim; vështrim anash.",
+      "friendly": "Vështrimi anash që i jep diçkaje që nuk e beson plotësisht — një vështrim i ngarkuar me dyshim.",
+      "exampleGloss": "Mësuesja shikoi askance detyrën e shtëpisë dyshimisht të rregullt.",
+      "origin": "e pasigurt / italisht",
+      "rootMeanings": [
+        "te, drejt",
+        "pjerrësi, anësi"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "emër",
+      "definition": "Një person budalla; kokëdruri.",
+      "friendly": "Fyerje e vjetër, pothuajse e dashur për dikë që është i shurdhër ose i dendur — kokëdruri.",
+      "exampleGloss": "\"You clodpate,\" qeshi ajo, \"you've had the map upside down the whole time.\"",
+      "origin": "anglisht",
+      "rootMeanings": [
+        "copë dheu",
+        "kokë"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "folje",
+      "definition": "Të vësh në lëvizje ose në veprim; të motivosh.",
+      "friendly": "Të jesh shkëndija që vë diçka në lëvizje — qoftë një makinë që ndizet, qoftë një person që më në fund vepron sipas një ideje.",
+      "exampleGloss": "Frika e humbjes së kontratës actuated gjithë ekipin në një fundjavë me orë shtesë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "një bërje, një shtytje",
+        "të shtysh, të bësh"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "emër",
+      "definition": "Përvetësim i fondeve të besuara në kujdesin tënd.",
+      "friendly": "Vjedhje e qetë e parave që të janë besuar t'i ruash — përvetësim i veshur me pallto të vjetër.",
+      "exampleGloss": "Peculation e thesararit mbeti e papërfillur gati një dekadë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "pronë private",
+        "bagëti, pasuri"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "emër",
+      "definition": "Grup i konsideruar në skajet e shoqërisë së respektueshme.",
+      "friendly": "Nënbota sociale e shkëlqyer por e hijshme — njerëz që jetojnë sapo jashtë rregullave të shoqërisë \"të respektueshme.\"",
+      "exampleGloss": "Romani ndjek një këngëtare që lundron në demi-monde të kabareve të viteve 1920.",
+      "origin": "frëngjisht",
+      "rootMeanings": [
+        "gjysmë",
+        "botë, shoqëri"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që ekziston ende; jo i zhdukur ose i shkatërruar.",
+      "friendly": "Ende këtu sot — përdoret për gjëra të vjetra (dorëshkrime, specie, ndërtesa) që kanë arritur të mbijetojnë.",
+      "exampleGloss": "Njihen vetëm tre kopje extant të shtypjes së parë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë",
+        "të qëndrosh"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "emër",
+      "definition": "Mashtrim; tradhti e besimit.",
+      "friendly": "Tradhti e thellë, e qëllimshme — të thye sh një besim që dikush kishte të drejtë të priste se do ta ruje.",
+      "exampleGloss": "Gjenerali kurrë nuk ia fali mikut të vjetër perfidy në tryezën e bisedimeve.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "përmes, kundër",
+        "besim, besnikëri"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "emër",
+      "definition": "Dialekt krahinor, veçanërisht jo-standard.",
+      "friendly": "Mënyra e veçantë, vendase se si flasin njerëzit në një krahinë — plot fjalë e ritme që një i huaj mund të mos i kapë.",
+      "exampleGloss": "Gjyshja e saj ende fliste patois e ishullit në darkat familjare.",
+      "origin": "frëngjisht",
+      "rootMeanings": [
+        "ligjëratë e ashpër, dialekt",
+        "puthër — fjalë e ngathët"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "emër",
+      "definition": "E drejtë e veçantë që i takon një personi ose grupi.",
+      "friendly": "Privilegji që është i yti dhe vetëm i yti — e drejtë që vjen me rolin, pozitën ose statusin tënd.",
+      "exampleGloss": "Zgjedhja e destinacionit të pushimeve të familjes është prerogative e gjyshit, dhe të gjithë e dinë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "para",
+        "të pyesësh, të votosh"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "emër",
+      "definition": "Guxim, guxim i trashë; gjithashtu qëndrueshmëri.",
+      "friendly": "Qëndrueshmëri e ashpër, e guximshme — nervi për të ecur përpara dhe fortësia për të vazhduar sapo të kesh filluar.",
+      "exampleGloss": "Duhej hardihood e vërtetë për të kaluar qafën në furtunë bore pa hartë.",
+      "origin": "frëngjishtja e vjetër / anglisht",
+      "rootMeanings": [
+        "i guximshëm, i fortë",
+        "gjendje, kusht"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "folje",
+      "definition": "Të lulëzosh; gjithashtu të zhvillohesh ose të shfaqesh gradualisht.",
+      "friendly": "Të lulëzosh në shprehje të plotë — si një lule që hapet, ose një ide që më në fund vjen te vetja.",
+      "exampleGloss": "Talenti i saj i qetë për pikturë effloresced sapo pati një studio të vetën.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë",
+        "të fillosh të lulëzosh"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "emër",
+      "definition": "Fije e peshuar për të përcaktuar vertikalisht; figurativisht, standard gjykimi.",
+      "friendly": "Një peshë në fije që varret krejt drejt poshtë, për të kontrolluar nëse diçka është vërtet vertikale — dhe, më gjerë, çdo standard i fiksuar kundrejt të cilit mat gjithçka tjetër.",
+      "exampleGloss": "Ai përdorte ndershmërinë e gjyshit të tij si një lloj plumb line për çdo vendim.",
+      "origin": "latinisht / anglisht",
+      "rootMeanings": [
+        "plumb",
+        "litar, masë"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "ndajfolje",
+      "definition": "Me kënaqësi, me dëshirë (i vjetëruar).",
+      "friendly": "Mënyrë e vjetër për të thënë \"me kënaqësi\" ose \"me dëshirë.\"",
+      "exampleGloss": "\"I would fain rest here a while,\" psherëtiu udhëtari.",
+      "origin": "anglishtja e vjetër",
+      "rootMeanings": [
+        "i gëzuar, i lumtur",
+        "me kënaqësi, me dëshirë"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "emër",
+      "definition": "Kritikë e ashpër publike ose turp.",
+      "friendly": "Turp publik i grumbulluar mbi dikë në mënyrë të madhe, të dukshme — turpi që vjen nga mosmiratimi i gjerë.",
+      "exampleGloss": "Skandali solli opprobrium publik mbi gjithë firmën.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "kundër",
+        "turp, qortim"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Thellësisht sarkastik, i prerë në zgjuarsi ose kritikë.",
+      "friendly": "Zgjuarsi me dhëmbë të vërtetë — një vërejtje mordant djeg pikërisht sepse është kaq zgjuar e synuar.",
+      "exampleGloss": "Recensionet e saj mordant të filmave i trembnin regjisorët dhe i donin lexuesit.",
+      "origin": "latinisht / frëngjisht",
+      "rootMeanings": [
+        "të kafshosh",
+        "që kafshon, që bën"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "emër",
+      "definition": "Shpallje formale, shpesh politike ose ushtarake.",
+      "friendly": "Njoftim i madh, zyrtar — zakonisht ai që shpall një qeveri të re, një kryengritje ose një dekret të rëndësishëm.",
+      "exampleGloss": "Pronunciamento e gjeneralit në agim shpalli qeverinë e re.",
+      "origin": "spanjisht",
+      "rootMeanings": [
+        "përpara",
+        "të shpallësh"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "emër",
+      "definition": "Person me njohuri sipërfaqësore që bën sikur është ekspert.",
+      "friendly": "Dikush që ka përshkuar sipërfaqen e një teme dhe pastaj flet sikur ka shkruar tekstin shkollor për të.",
+      "exampleGloss": "Sciolist i darkës korrigjoi me siguri astrofizikanin e vërtetë në tryezë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të dish",
+        "zvogëlues — një njohës i vogël"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "emër",
+      "definition": "Rënie e aftësive mendore në pleqëri.",
+      "friendly": "Ajo shtrirje e mjegullt, harrese e pleqërisë së thellë kur mprehtësia e mendjes fillon të zbehet.",
+      "exampleGloss": "Në dotage të tij, tregonte të njëjtat tre histori çdo vizitë, çdo herë sikur të ishin të reja.",
+      "origin": "anglishtja e mesme",
+      "rootMeanings": [
+        "të bëhesh budalla, të jesh i marrë",
+        "gjendje ose rezultat"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "emër",
+      "definition": "Ana e mbrojtur nga era.",
+      "friendly": "Ana e qetë, e mbrojtur e diçkaje — një kodër, një anije, një mur — ku era nuk të arrin fare.",
+      "exampleGloss": "Udhëtarët ngritën çadrën në lee side të kreshtës për t'i shpëtuar erërave.",
+      "origin": "anglishtja e vjetër",
+      "rootMeanings": [
+        "strehë, mbrojtje",
+        "anë, fytyrë"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "folje",
+      "definition": "Të zmbrapsësh ose të mbrohesh nga një goditje, pyetje ose argument.",
+      "friendly": "Të zmbrapsësh butësisht diçka — një goditje shpate, një pyetje të vështirë, ose një akuzë — pa humbur ritmin.",
+      "exampleGloss": "Ajo parried pyetjen e vështirë të gazetarit me një shaka të lehtë.",
+      "origin": "frëngjisht",
+      "rootMeanings": [
+        "të zmbrapsësh",
+        "të përgatitesh, të mbrohesh"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Me erë të keqe, i dëmshëm.",
+      "friendly": "Që qelbon në mënyrë që ndihet pothuajse toksike — një erë kaq e keqe sa duket e rrezikshme të frymëmarrësh.",
+      "exampleGloss": "Një erë mephitic ngrihej nga këneta ndërsa dielli perëndonte.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "avull i dëmshëm",
+        "që ka natyrën e"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "emër",
+      "definition": "Person i përkushtuar ndaj luksit dhe kënaqësisë.",
+      "friendly": "Dikush që jeton për rehati dhe kënaqësi — ushqim i mirë, shtretër të butë, jetë e lehtë — emërtuar nga qyteti i lashtë grek Sybaris, i famshëm për tepricat.",
+      "exampleGloss": "Një sybarite i vërtetë, ai refuzonte çdo dhomë hoteli pa vaskë.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "qytet i lashtë grek i famshëm për luks",
+        "banor i"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "folje",
+      "definition": "Të lësh qëllimisht mënjanë ose të injorosh një pjesë.",
+      "friendly": "Të lësh qëllimisht një copë të enigmës mënjanë, që të përqendrohesh pastër te pjesa tjetër.",
+      "exampleGloss": "Le të prescind nga kostoja për një çast dhe të pyesim vetëm nëse plani funksionon vërtet.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "para, larg",
+        "të presësh"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "folje",
+      "definition": "Të kritikosh rëndë; gjithashtu, të heqësh lëkurën.",
+      "friendly": "Të grisësh dikë me kritikë të ashpër — me fjalë, sikur fjalë për fjalë t'i hiqje lëkurën.",
+      "exampleGloss": "Kritikët e excoriated vazhdimin për tradhtinë e gjithçkaje që fansat donin te origjinali.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "poshtë",
+        "lëkurë, lëkurë kafshe"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "folje",
+      "definition": "Të sjellësh si dëshmi ose provë.",
+      "friendly": "Të nxjerrësh një fakt ose shembull për të mbështetur pikën tënde — ajo që tregon kur dikush pyet \"what's your evidence?\"",
+      "exampleGloss": "Avokatja adduced tre dëshmitarë për të mbështetur alibinë e klientit.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "te, drejt",
+        "të udhëheqësh"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "emër",
+      "definition": "Udhëtime ose endje, veçanërisht të gjata ose të gjera.",
+      "friendly": "Udhëtime të gjata, endacake — lloji i endjes së gjerë që të çon larg shtëpisë për një kohë të gjatë.",
+      "exampleGloss": "Peregrinations e tij nëpër tre kontinente mbushën një raft të tërë ditarësh udhëtimi.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "përmes",
+        "fushë, tokë (peregrinus: i huaj)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "emër",
+      "definition": "Lypës, ose dikush që jeton nga lëmosha.",
+      "friendly": "Dikush që jeton duke kërkuar bamirësi — historikisht kjo përshkruante edhe murgjit që bënin betime varfërie dhe jetonin nga dhurimet.",
+      "exampleGloss": "Murgjit mendicant nuk zotëronin asgjë dhe mbështeteshin tërësisht te mirësia e fshatarëve.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të lypësh",
+        "lypës"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Tejet bujar.",
+      "friendly": "Bujar në shkallë të madhe, pothuajse shfaqëse — lloji i dhuratës që i bën njerëzit të nxjerrin pak frymë.",
+      "exampleGloss": "Dhurimi munificent financoi gjithë krahun e ri të bibliotekës.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "dhuratë, shërbim",
+        "që bën, që jep"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "emër",
+      "definition": "Rraskapitje nga mungesa e ushqimit; gjithashtu mungesë vitaliteti.",
+      "friendly": "Gjendje e dobët, e shteruar nga të mos u ushqyer ose mbushur — fjalë për fjalë nga uria, ose figurativisht nga të mos të ketë mbetur asgjë për të punuar.",
+      "exampleGloss": "Në fund të rrethimit, ushtarët ishin afër inanition.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "i zbrazët, boshllëk",
+        "veprimi ose rezultati i"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "emër",
+      "definition": "Kritikë e hidhur, fyese.",
+      "friendly": "Kritikë që ka kaluar shumë tej të drejtës dhe është kthyer në një tiradë të zemëruar, të hidhur.",
+      "exampleGloss": "Komentet në internet u shpërbënë në vituperation të pastër brenda minutash.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "faj",
+        "të përgatitësh, të pajisësh"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Armiqësor, i dëmshëm në efekt.",
+      "friendly": "Punon kundër teje, edhe nëse në heshtje — kushte ose qëndrime që nuk janë miqësore ndaj interesave të tua.",
+      "exampleGloss": "Politika e re ishte inimical për bizneset e vogla, edhe nëse ky nuk ishte qëllimi.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jo",
+        "mik"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I prirur të shkaktojë zemërim ose pakënaqësi, shpesh përmes krahasimeve të padrejta.",
+      "friendly": "I destinuar të bëjë dikë të ndihet i lënë mënjanë — zakonisht sepse vë njerëz ose gjëra kundër njëri-tjetrit padrejtësisht.",
+      "exampleGloss": "Të renditësh vëllezërit sipas \"who Mom loves best\" është një lojë invidious që askush nuk duhet ta luajë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "invidi",
+        "të shikosh (me vullnet të keq)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "emër",
+      "definition": "Person me rang ose status më të ulët; vartës.",
+      "friendly": "Dikush më poshtë në zinxhirin e komandës ose shkallën sociale — një i ri, që punon nën dikë me më shumë pushtet.",
+      "exampleGloss": "Si subaltern i ri, ai merrte urdhra shumë para se t'i jepte ndonjëherë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "nën",
+        "alternativ, tjetër"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "folje",
+      "definition": "Të ndjesh ose të shprehësh urrejtje të fortë për.",
+      "friendly": "Të urresh diçka aq shumë sa ta mallkosh me zë — neveri e pastër, me zë.",
+      "exampleGloss": "Fshatarët e execrated mbledhësin e taksave sa herë që karroca e tij rrotullohej nëpër qytet.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë nga",
+        "i shenjtë (të mallkosh jashtë të shenjtës)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "emër",
+      "definition": "Mbulesë e jashtme natyrore, si lëkura ose predha.",
+      "friendly": "Mbështjellja mbrojtëse e vetë natyrës — lëkurë, predhë, lëvozhgë ose lëvore, çfarëdo që mbulon dhe mbron diçka të gjallë.",
+      "exampleGloss": "Predha e breshkës është një integument jashtëzakonisht i fortë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "mbi, mbi",
+        "të mbulosh"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I pafajshëm, naiv, me thjeshtësi fëmijërore; e kundërta e \"disingenuous.\"",
+      "friendly": "I hapur, besues dhe pak naiv, pa asnjë axhendë të fshehtë — e lehtë për t'u ngatërruar me \"ingenious,\" që do të thotë i zgjuar.",
+      "exampleGloss": "Pyetja e saj ingenuous — \"why would anyone lie about that?\" — tregoi sa pak dinakëri kishte.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "brenda, i lindur",
+        "të lindësh (i lindur i lirë, i hapur)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "emër",
+      "definition": "Shqetësim i tepruar me hollësi të vogla ose rregulla.",
+      "friendly": "Të humbasësh në rregullat e vogla duke humbur pamjen e madhe — të obsesionohësh me shkronjat e imta që askush tjetër nuk i vë re.",
+      "exampleGloss": "Pedantry e tij për presjet Oxford i prishi gjithë mbledhjen.",
+      "origin": "italisht / latinisht",
+      "rootMeanings": [
+        "mësues fëmijësh",
+        "praktikë ose cilësi"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "emër",
+      "definition": "Ekzaminim i thellë, i kujdesshëm.",
+      "friendly": "Një vështrim i thellë, pa-gur-të-palëvizur — të shkosh mbi çdo hollësi me kujdes të vërtetë.",
+      "exampleGloss": "Vetëm pas një perscrutation të kujdesshme të librave të llogarive doli mospërputhja.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "përmes, tërësisht",
+        "të kërkosh, të shqyrtoosh"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "folje",
+      "definition": "Të ngrësh kundërshtime; të tregosh hezitim.",
+      "friendly": "Të tërhiqesh me mirësjellje ose të hezitosh në vend që të pranosh menjëherë — një \"I'd rather not\" i butë.",
+      "exampleGloss": "Kur iu kërkua të nënshkruante pa e lexuar, ajo demurred.",
+      "origin": "latinisht / frëngjisht",
+      "rootMeanings": [
+        "nga, larg",
+        "të vonosh"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Sipërfaqësisht i besueshëm, por në të vërtetë i gabuar.",
+      "friendly": "Tingëllon bindëse në shikim të parë, por shkërmoqet në çastin që e kontrollon vërtet.",
+      "exampleGloss": "\"Everyone's doing it\" është një argument specious që kurrë nuk qëndron nën shqyrtim.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "pamje, dukje",
+        "i mbushur me (që duket i bukur)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "emër",
+      "definition": "Fjalë e pasinqertë, hipokrite, shpesh moralizuese.",
+      "friendly": "Fjalë predikuese që tingëllon e virtytshme por nuk mbështetet nga asnjë ndjenjë e vërtetë — pozë morale në autopilot.",
+      "exampleGloss": "Ai ishte lodhur nga cant korporativ për \"family\" nga një kompani që kurrë nuk i jepte askujt pushime.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të këndosh (më vonë: zhargon monoton)",
+        "ligjëratë vajtuese e lypësve, pastaj hipokrizi"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Pa guxim, i frikësuar.",
+      "friendly": "I timor deri në mungesë kurrizi — shumë i frikësuar për t'u ngritur edhe kur ka rëndësi të qartë.",
+      "exampleGloss": "Heshtja pusillanimous e bordit e la skandalin të shpërthente jashtë kontrollit.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "shumë i vogël",
+        "shpirt, guxim"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Si dhelpër; dinak, i zgjuar.",
+      "friendly": "Dinak e i zgjuar si dhelpra — i shpejtë në mendje, pak i rrëshqitshëm, gjithmonë një hap përpara.",
+      "exampleGloss": "Ai dha një buzëqeshje vulpine në çastin që vuri re të çarën.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "dhelpër",
+        "i ose si"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "ndajfolje",
+      "definition": "Njëri pas tjetrit, me radhë.",
+      "friendly": "I marrë rreptësisht një nga një, me radhë — pa kërcyer përpara, pa bërë dy njëherësh.",
+      "exampleGloss": "Gjykuesi i trajtoi secilën nga dymbëdhjetë pretendimet seriatim.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "rresht, sekuencë",
+        "një nga një"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "emër",
+      "definition": "Kursim i skajshëm; koprraci.",
+      "friendly": "Të jesh i ngushtë me paratë (ose fjalët, ose burimet) shumë përtej kursimit të arsyeshëm.",
+      "exampleGloss": "Parsimony e tij ishte legjendare — qeset e çajit i ripërdorte tri herë.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të kursesh, të jesh kursimtar",
+        "gjendje ose praktikë"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "emër",
+      "definition": "Korrigjim, veçanërisht në një tekst.",
+      "friendly": "Një ndreqje e bërë në një shkrim — një ndreqje shkencore që korrigjon një gabim në një tekst të vjetër ose të rëndësishëm.",
+      "exampleGloss": "Botimi i ri përfshin dhjetëra emendations të dorëshkrimit origjinal.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë nga",
+        "faj, gabim"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I moderuar në ngrënie dhe pirje.",
+      "friendly": "I përmbajtur qëllimisht rreth ushqimit dhe pijes — kurrë nuk tepron, gjithmonë lë pak në pjatë.",
+      "exampleGloss": "Zakonet e tij abstemious e mbajtën të mprehtë shumë pasi moshatarët e tij ishin ngadalësuar.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "larg nga",
+        "pije dehëse"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "emër",
+      "definition": "Gabim gramatikor ose shkelje e etikës.",
+      "friendly": "Një rrëshqitje në gramatikë ose sjellje — lloji i gabimit të vogël që e bën pedantin të dridhet.",
+      "exampleGloss": "\"Between you and I\" është një solecism i zakonshëm që ende i bën gramatikënët të tunden.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "qytet cilician i njohur për greqishten 'të keqe'",
+        "praktikë, mënyrë"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që lidhet me konfliktin brenda një grupi; shkatërrues i ndërsjellë.",
+      "friendly": "Grindje e brendshme që gris grupin nga brenda — një luftë ku të gjithë humbin, sepse është familje kundër familjes.",
+      "exampleGloss": "Grindjet internecine të partisë bënë më shumë dëm se çdo kundërshtar i jashtëm.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "ndërmjet, mes",
+        "të vrasësh"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "mbiemër / emër",
+      "definition": "Qëndrim indiferent, i pakujdesshëm.",
+      "friendly": "Një ngritje supe e kthyer në personalitet të tërë — të të interesojë kaq pak gjërat që dikur kishin rëndësi sa asgjë nuk duket e vlefshme më.",
+      "exampleGloss": "Qëndrimi i tij pococurante ndaj ceremonisë së çmimeve i befasoi të gjithë që dinin sa fort kishte punuar.",
+      "origin": "italisht",
+      "rootMeanings": [
+        "pak",
+        "të të interesojë"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "emër",
+      "definition": "Situatë ose mosmarrëveshje e ngatërruar, e ndërlikuar.",
+      "friendly": "Situatë e ngatërruar, e çrregullt, e vështirë për t'u kuptuar — pjesë keqkuptimi, pjesë dramë, gjithë konfuzion.",
+      "exampleGloss": "I gjithë imbroglio i planit të ulëseve nisi me një kartë emri të vendosur gabim.",
+      "origin": "italisht",
+      "rootMeanings": [
+        "brenda",
+        "të ngatërrosh, të hutosh"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Kërcënues, i frikshëm.",
+      "friendly": "Që mbart një atmosferë të qartë kërcënimi — një vështrim ose letër minatory e bën shumë të qartë se mund të ndjekë diçka e keqe.",
+      "exampleGloss": "Toni minatory i letrës e bëri qiramarrësen nervoze para se të kishte hapur zarfin.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të kërcënosh",
+        "që shërben për"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "emër",
+      "definition": "Kritikë e fortë publike ose fyerje me fjalë.",
+      "friendly": "Dënim i zëshëm, publik — lloji i kritikës djegëse që ndodh para të gjithëve.",
+      "exampleGloss": "Sinjalizuesja u përball me vite obloquy publik para se historia ta vërtetonte.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "kundër",
+        "të flasësh"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "emër",
+      "definition": "Shpërthim i papritur i dhunshëm, i emocionit ose veprimit.",
+      "friendly": "Shpërthim i papritur, intensiv që të merr përsipër menjëherë — një krizë e të qeshurit, zemërimit ose kollës që bie si valë.",
+      "exampleGloss": "Ajo u kap nga një paroxysm e të qeshurit që nuk mund t'ia shpjegonte askujt tjetër në dhomë.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "përtej",
+        "i mprehtë, akut"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I shtuar nga një burim i jashtëm, jo i brendshëm.",
+      "friendly": "I vidhosur nga jashtë në vend që të jetë ndërtuar që në fillim — një shtesë, jo pjesë thelbësore.",
+      "exampleGloss": "Komenti ndihet adscititious, sikur të ishte ngjitur mbi një tekst tashmë të përfunduar.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "te, përveç",
+        "të miratosh, të marrësh"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "emër",
+      "definition": "Mungesë njohurish, injorancë.",
+      "friendly": "Thjesht mosdije — një boshllëk në njohuri, pa asnjë gjykim të lidhur.",
+      "exampleGloss": "Ai pranoi nescience e tij për verën franceze dhe e la somelierin të zgjidhte.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jo",
+        "të dish"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "emër",
+      "definition": "Interes i tepruar për çështje seksuale.",
+      "friendly": "Kuriozitet tepër i etur, i vështruar për gjithçka pikante — interes që ka kaluar të shëndetshmen te ngacmuesja.",
+      "exampleGloss": "Prurience e tabloidit mbi jetën private të çiftit kufizohej me obsesionin.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të kruhesh, të dëshirosh",
+        "gjendje e"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I tymosur, i errët, i turbullt.",
+      "friendly": "I errët e i tymosur në pamje, sikur gjithçka të ishte e mbuluar me një shtresë të hollë tymi.",
+      "exampleGloss": "Një mjegull fuliginous varej mbi qytetin e fabrikës në muzg.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "tym",
+        "i mbushur me"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "folje",
+      "definition": "Të mohosh ose të kundërshtosh.",
+      "friendly": "Të flasësh rrafshët kundër asaj që tha dikush tjetër — të thuash \"that's not so.\"",
+      "exampleGloss": "Askush nuk guxoi të gainsay tregimin e kapitenit të vjetër për stuhinë.",
+      "origin": "anglishtja e mesme",
+      "rootMeanings": [
+        "kundër",
+        "të flasësh"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "emër",
+      "definition": "Përtaci, dembelizëm (nga latinishtja).",
+      "friendly": "Fjalë e vjetër latine për përtacinë e pastër — tërheqja e të mos dashur të bësh asgjë fare.",
+      "exampleGloss": "Murgjit predikonin kundër ignavia si një nga rreziqet e qeta të shpirtit.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jo",
+        "i zënë, i zellshëm"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "emër",
+      "definition": "Mburojë që shfaq një stemë.",
+      "friendly": "Emblema në formë mburoje që tregon stemën e familjes — \"pllakën e emrit\" heraldike.",
+      "exampleGloss": "Escutcheon e familjes ende varet mbi derën e përparme të manorit të vjetër.",
+      "origin": "latinisht / frëngjishtja e vjetër",
+      "rootMeanings": [
+        "mburojë",
+        "zvogëlues / objekt"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I vjetëruar, i dalë mode, ose i pensionuar për shkak të moshës.",
+      "friendly": "Përtej kulmit të dobishëm dhe i lënë në kullotë — shumë i vjetëruar ose i konsumuar për të vazhduar punën.",
+      "exampleGloss": "Printeri superannuated më në fund u zëvendësua pas pesëmbëdhjetë vjetësh bllokimesh.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "përtej",
+        "vit"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "emër",
+      "definition": "Zëvendësues, veçanërisht në mjekësi.",
+      "friendly": "Mjekime zëvendësuese që përdoren kur trajtimi i vërtetë nuk është i disponueshëm — në thelb dublantë mjekësorë.",
+      "exampleGloss": "Mjekët e luftës shpesh mbështeteshin te succedanea kur mbaronin barnat e vërteta.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "në vend të",
+        "të shkosh, të lësh vend"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "emër",
+      "definition": "Fjalë mburrëse, e zhurmshme.",
+      "friendly": "Mburrje e madhe, e zhurmshme — fjalë e zëshme për madhështinë tënde që është kryesisht ajër i nxehtë.",
+      "exampleGloss": "Rodomontade e tij se e kishte shpëtuar projektin \"single-handedly\" nuk mashtroi askënd që kishte qenë vërtet aty.",
+      "origin": "italisht",
+      "rootMeanings": [
+        "kalorës mburrës në Orlando Furioso",
+        "veprim, shfaqje"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "folje",
+      "definition": "Të përdorësh mashtrim ose dinakëri për të arritur diçka.",
+      "friendly": "Të rrëshqasësh drejt një qëllimi me trukë të dinakë, jo me lojë të drejtë.",
+      "exampleGloss": "Ai chicaned rrugën e tij në marrëveshje me një kontratë plot shkronja të imta.",
+      "origin": "frëngjisht",
+      "rootMeanings": [
+        "të ngatërrosh, të mashtrash",
+        "dinakëri; më vonë kthesë e mprehtë"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "emër",
+      "definition": "Shkenca e pastër ose abstrakte e të nxënit ose e dijes, shpesh matematika.",
+      "friendly": "Të nxënit në formën e tij më të pastër, më abstrakte — struktura e thellë e vetë dijes, veçanërisht ajo matematike.",
+      "exampleGloss": "Filozofi ëndërronte një mathesis universale që mund të bashkonte çdo fushë të dijes.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "të mësosh",
+        "akti i të nxënit"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Tejet i shqetësuar me rregulla formale ose hollësi të parëndësishme.",
+      "friendly": "Tepër i rreptë për gjërat e vogla — korrigjon nuanca të vogla teknike që në të vërtetë nuk ndryshojnë asgjë.",
+      "exampleGloss": "Dukej pak pedantic të diskutoje për \"who\" kundër \"whom\" në një mesazh.",
+      "origin": "italisht / greqisht",
+      "rootMeanings": [
+        "udhëheqës fëmijësh, mësues",
+        "që ka mënyrën e"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "emër",
+      "definition": "Dritë që shkëlqen, që xixa.",
+      "friendly": "Një shkëndijë e shpejtë, e shkëlqyer drite — mendo dritën e diellit mbi ujë, ose një diamant që kap dritën.",
+      "exampleGloss": "Coruscation e llambadarit shpërndau dritën në çdo cep të sallës së ballos.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të shkëlqesh, të xixëlosh",
+        "akti i"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "emër",
+      "definition": "Fillestar, novic.",
+      "friendly": "Dikush krejt i ri në një aftësi ose fushë — ende po i mëson litarët, ende jo ekspert.",
+      "exampleGloss": "Edhe një lojtar shahu tyro mund ta vërë re atë gabim.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "rekrut, novic",
+        "ushtar i ri i papërpunuar"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Tejet i keq, i neveritshëm.",
+      "friendly": "I keq në një mënyrë që meriton neveri të vërtetë — jo vetëm \"mesatar,\" por vërtet i neveritshëm.",
+      "exampleGloss": "Recensuesi e quajti vazhdimin execrable, dhe numrat e arkës u pajtuan.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të mallkosh",
+        "i denjë, i aftë të jetë"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I kuq si gjaku.",
+      "friendly": "Një e kuqe e thellë, e gjallë — ngjyra e gjakut të freskët, e përdorur famshëm nga Makbethi i Shekspirit.",
+      "exampleGloss": "Perëndimi e ktheu gjithë qiellin në një shkëlqim incarnadine.",
+      "origin": "italisht / latinisht",
+      "rootMeanings": [
+        "brenda",
+        "mish (i kuq mishi)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "emër",
+      "definition": "Hapësirë e vogël ose boshllëk ndërmjet gjërave.",
+      "friendly": "Ajo hapësirë e vogël ndërmjet që është e lehtë të anashkalohet — çarja ndërmjet dërrasave të dyshemesë, boshllëku në orar.",
+      "exampleGloss": "Barërat e këqija shtynin lart nëpër çdo interstice të shtegut të vjetër të tullave.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "ndërmjet",
+        "të qëndrosh"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "emër",
+      "definition": "Vërejtje kritike ose qortuese.",
+      "friendly": "Komente të mprehta, mosmiratuese — lloji i kritikës që mbart pak ton qortimi.",
+      "exampleGloss": "Animadversions e profesorit mbi esenë i mbushën anët me bojë të kuqe.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "mendje",
+        "të kthehesh drejt"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I pamundur për t'u hedhur poshtë, i pamohueshëm.",
+      "friendly": "Ka aq i fortë i vërtetuar sa nuk ka se çfarë të diskutosh — çështja është thjesht e mbyllur.",
+      "exampleGloss": "Prova e ADN-së ishte irrefragable, dhe gjyqi mbaroi brenda orës.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jo",
+        "të kundërshtosh, t'i rezistosh"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "emër",
+      "definition": "Ndërlikim, ngatërresë; gjithashtu një përthyerje e brendshme.",
+      "friendly": "Një ndërlikim i ngatërruar, i palosur mbi vete — gjëra të mbështjella kaq ngushtë sa janë të vështira për t'u shkëputur.",
+      "exampleGloss": "Involution e intrigës e la gjysmën e publikut duke u përpjekur ta zgjidhte pas titujve.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "brenda, drejt brendësisë",
+        "të rrotullosh, të kthesh"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "emër",
+      "definition": "Forcë ose përpjekje, si në \"by dint of.\"",
+      "friendly": "Forcë ose përpjekje e pastër — sot mbijeton kryesisht në frazën \"by dint of.\"",
+      "exampleGloss": "Ai e kaloi provimin by dint of praktikës së pastër, kokëfortë.",
+      "origin": "anglishtja e vjetër",
+      "rootMeanings": [
+        "një goditje, një rrahje",
+        "me forcën e"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I bashkuar me nyje mortise-and-tenon; i përshtatur fort bashkë.",
+      "friendly": "I kyçur bashkë në mënyrën e vjetër të zdrukthëtarit — një copë që futet ngushtë në një vrimë të prerë pikërisht për të.",
+      "exampleGloss": "Trarët e hambarit të vjetër ishin mortised bashkë pa asnjë gozhdë.",
+      "origin": "latinisht / frëngjisht",
+      "rootMeanings": [
+        "fole, vrimë",
+        "kafshim, kapje"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Shumë i përshtatshëm, i saktë.",
+      "friendly": "Pikërisht i duhuri për çastin — një vërejtje, citim ose shembull që bie përsosmërisht në pikë.",
+      "exampleGloss": "Vërejtja e saj apposite e përmblodhi gjithë debatin në një fjali.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "te",
+        "të vendosësh"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Që shkëlqen butësisht ose xixëllon (dritë); gjithashtu zgjuarsi e lehtë.",
+      "friendly": "Që shkëlqen butësisht në vend që të flakërojë — dritë e butë, xixëlluese, ose zgjuarsi lozonjare në vend të ashpër.",
+      "exampleGloss": "Drita e qirinjve hodhi një shkëlqim lambent mbi dhomën e ngrënies së vjetër.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "të lëpish",
+        "që bën (dritë që 'lëpin')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "emër",
+      "definition": "Ermit fetar që jeton në vetmi.",
+      "friendly": "Dikush që tërhiqet tërësisht nga bota për të jetuar vetëm në lutje e reflektim.",
+      "exampleGloss": "Anchorite jetoi në një qeli të vogël të lidhur me kishën për mbi tridhjetë vjet.",
+      "origin": "greqisht",
+      "rootMeanings": [
+        "mbrapa, larg",
+        "të tërhiqesh"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "folje",
+      "definition": "Të shuash etjen; të shuash.",
+      "friendly": "Të kënaqësh plotësisht një dëshirë — më shpesh etjen, por figurativisht çdo nevojë të thellë.",
+      "exampleGloss": "Një gotë e ftohtë uji slaked etjen e tij pas ecjes së gjatë.",
+      "origin": "anglishtja e vjetër",
+      "rootMeanings": [
+        "i lëshuar, i lirë",
+        "të lëshosh, të qetësosh"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Në formë gjilpëre.",
+      "friendly": "I gjatë, i hollë e i mprehtë si gjilpërë — forma e një gjilpëre pishë ose e një kristali të vogël të mprehtë.",
+      "exampleGloss": "Pishat njihen lehtë nga gjethet e tyre acicular.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "gjilpërë",
+        "i vogël"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "mbiemër",
+      "definition": "I shteruar nga vitaliteti, i dobët, i stërholluar.",
+      "friendly": "I konsumuar e i butë — që ka humbur forcën ose gjallërinë origjinale nga shumë rehati ose stërhollim.",
+      "exampleGloss": "Kritikët e quajtën revistën dikur të guximshme effete, hijen e viteve të saj të hershme të guximshme.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "jashtë",
+        "i frytshëm, që ka lindur"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "emër",
+      "definition": "Aksesor ose send ose e drejtë e vogël e bashkangjitur.",
+      "friendly": "Një shtesë e vogël që vjen e bashkangjitur me diçka më të madhe — aksesorët dhe shtesat që i përkasin gjësë kryesore.",
+      "exampleGloss": "Qiraja përfshinte garazhin dhe të gjitha appurtenances e tij.",
+      "origin": "latinisht / frëngjisht",
+      "rootMeanings": [
+        "te",
+        "të i përkasësh"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "folje",
+      "definition": "Të mbulosh ose të zvogëlosh një faj.",
+      "friendly": "Të zbutësh një gabim me fjalë të buta, duke e bërë të tingëllojë më i vogël se sa është.",
+      "exampleGloss": "Ai u përpoq të gloze afatin e humbur me fjalë të mjegullta për \"unforeseen challenges.\"",
+      "origin": "frëngjishtja e vjetër / latinisht",
+      "rootMeanings": [
+        "glosë, shpjegim",
+        "të komentosh — pastaj të zbutësh"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "mbiemër",
+      "definition": "Në fazë të hershme, sapo ka filluar.",
+      "friendly": "Sapo po tregon veten — faza e parë, mezi e dukshme e diçkaje më të madhe që do të vijë.",
+      "exampleGloss": "Mjekët kapën shenjat incipient të sëmundjes para se ajo të përhapej.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "mbi, brenda",
+        "të marrësh (të ndërmarrësh, të fillosh)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "emër",
+      "definition": "Frymëzim krijues, veçanërisht hyjnor.",
+      "friendly": "Një valë e papritur frymëzimi që ndihet më e madhe se ti — sikur ideja të të jetë fryrë nga diku tjetër.",
+      "exampleGloss": "Poeti e përshkroi gjithë pjesën duke ardhur në një shpërthim afflatus në orën tre të mëngjesit.",
+      "origin": "latinisht",
+      "rootMeanings": [
+        "te, mbi",
+        "të frysh (një fryrje mbi)"
+      ]
+    }
+  }
+}

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/word_repository.dart';
+import '../l10n/app_localizations.dart';
+import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/quiz_controller.dart';
 import '../theme/brand_colors.dart';
@@ -17,15 +19,16 @@ class QuizThemeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final repo = context.watch<WordRepository>();
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
 
     return PaperBackdrop(
       child: Scaffold(
         backgroundColor: Colors.transparent,
-        appBar: AppBar(title: const Text('Theme')),
+        appBar: AppBar(title: Text(l10n.themeTitle)),
         body: repo.categories.isEmpty
             ? Center(
                 child: Text(
-                  'No themes yet.',
+                  l10n.noThemesYet,
                   style: TextStyle(color: brand.foregroundMuted, fontSize: 16),
                 ),
               )
@@ -34,15 +37,15 @@ class QuizThemeScreen extends StatelessWidget {
                 itemCount: repo.categories.length + 1,
                 itemBuilder: (context, index) {
                   if (index == 0) {
-                    return const Padding(
-                      padding: EdgeInsets.only(bottom: 28),
-                      child: ScriptCaption('choose a subject'),
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 28),
+                      child: ScriptCaption(l10n.chooseASubject),
                     );
                   }
                   final category = repo.categories[index - 1];
                   final themed = repo.wordsForCategory(category.id);
                   return _ThemeRow(
-                    label: category.label,
+                    label: localizedCategoryLabel(l10n, category.id),
                     count: themed.length,
                     onTap: themed.isEmpty
                         ? null
@@ -59,6 +62,7 @@ class QuizThemeScreen extends StatelessWidget {
     List<WordEntry> themed,
     List<WordEntry> allWords,
   ) {
+    final l10n = AppLocalizations.of(context);
     try {
       context.read<QuizController>().start(
             themed,
@@ -68,9 +72,7 @@ class QuizThemeScreen extends StatelessWidget {
       Navigator.of(context).pop();
     } on ArgumentError {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Not enough words in this theme yet.'),
-        ),
+        SnackBar(content: Text(l10n.notEnoughWordsInTheme)),
       );
     }
   }

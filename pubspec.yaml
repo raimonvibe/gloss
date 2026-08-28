@@ -1,7 +1,7 @@
 name: beautiful_words
 description: Gloss — a lexicon of lovely language. Explore rare words, study their etymology, and quiz yourself.
 publish_to: "none"
-version: 1.0.0+1
+version: 1.0.0+4
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
@@ -9,8 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   flutter_tts: ^4.2.3
   google_fonts: ^6.2.1
+  intl: any
   provider: ^6.1.2
   shared_preferences: ^2.3.3
 
@@ -36,10 +39,13 @@ flutter_launcher_icons:
     image_path: assets/images/app_icon.png
 
 flutter:
+  generate: true
   uses-material-design: true
   assets:
     - assets/data/words.json
     - assets/images/
+    - assets/l10n/
+    - l10n/catalog.json
   fonts:
     - family: Tangerine
       fonts:

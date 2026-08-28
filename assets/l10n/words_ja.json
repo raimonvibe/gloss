@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "動詞",
+      "definition": "甘くする、または浄化する。ものから厳しさや刺激を取り除くこと。",
+      "friendly": "とげや苦みを抜くこと——文字どおり甘くする、あるいは比喩的にきつい考えをやわらげて飲み込みやすくすること。",
+      "exampleGloss": "編集者は印刷に回す前に、厳しい書評を edulcorated した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外へ、徹底して",
+        "甘い"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "形容詞",
+      "definition": "過度に、またはわざとらしく信心深い。",
+      "friendly": "信心が本物というより見せ物に感じられる人を指す。演技が先で、信仰が後。",
+      "exampleGloss": "説教のあいだの彼の pietistic な溜息に、座席のほかの者はうんざりした。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "敬虔、義務感",
+        "〜の性質をもつ"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "名詞",
+      "definition": "文法構造から生じる曖昧さ——二通りに読める文。",
+      "friendly": "文法的には正しいのに、まったく違う二通りに読めてしまう文。たとえば「Visiting relatives can be tiring」。",
+      "exampleGloss": "「Visiting relatives can be tiring」は古典的な amphiboly ——疲れるのは親戚か、それとも訪問そのものか。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "両方、両側に",
+        "投げる"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "形容詞",
+      "definition": "鋭く、核心を突き、無駄なく要点に切り込む。",
+      "friendly": "余計なものを切り捨てる——trenchant な発言や思考は、無駄な言葉なしに物事の急所へ一気に届く。",
+      "exampleGloss": "彼女の trenchant な批評は、映画の穴が隠れる余地を残さなかった。",
+      "origin": "古フランス語",
+      "rootMeanings": [
+        "切る",
+        "行う、〜の性質をもつ"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "形容詞",
+      "definition": "始まったばかり。初期または萌芽の段階にある。",
+      "friendly": "まだ幕が開いたばかり——形になり始めた計画、感情、過程。",
+      "exampleGloss": "条約の inchoative な段階は有望だったが、細部はまだ多く未定だった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "始める、着手する",
+        "〜へ向かう傾向"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "名詞",
+      "definition": "誰かを高く称える公式の演説や文章。",
+      "friendly": "本格的で格式のある賛辞——輝く弔辞や、功績を屋上から歌うようなスピーチを思い浮かべて。",
+      "exampleGloss": "退職する教授は、いちばん近い学生たちからの panegyric で見送られた。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "すべて",
+        "集会、集まり"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "形容詞",
+      "definition": "抽象理論ではなく、実際の存在や事実としての在り方に関する。",
+      "friendly": "観念や理論としてではなく、現実に存在するものそのものについて。",
+      "exampleGloss": "哲学者たちは、数が ontic な地位をもつのか、心の中にしかないのかを議論する。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "存在、在るもの",
+        "〜に関する"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "動詞",
+      "definition": "実を結ぶ、あるいは生産的になる。",
+      "friendly": "ようやく実を結ぶこと——努力、アイデア、投資が種から役立つものへ育つ。",
+      "exampleGloss": "静かな研究の年月が、ついに実用のワクチンへと fructified した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "果実",
+        "作る、引き起こす"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "形容詞",
+      "definition": "実際に起きる前に、すでに済んだこととして先取りして示す。",
+      "friendly": "文学的に先走る——未来の出来事をすでに終わったかのように描き、論点を強く打ち込む。",
+      "exampleGloss": "将軍の「勝利」への proleptical な乾杯は、戦いのまる一週間前に行われた。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "前に",
+        "取る、掴む"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "形容詞",
+      "definition": "空気圧で動く。また、霊や息に関する。",
+      "friendly": "ふつうは「圧縮空気で動く」という意味——ただし霊や息に関する場合もある。",
+      "exampleGloss": "バスが縁石に停まったとき、pneumatic ブレーキがシューッと鳴った。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "風、息、霊",
+        "〜に属する"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "形容詞",
+      "definition": "肯定的な陳述によって神や神聖を語ること——アポファティックの反対。",
+      "friendly": "神が何でないかだけでなく、神が何であるかを述べて語るやり方——「God is love」のように。",
+      "exampleGloss": "Cataphatic 神学は、神を愛深く、正しく、慈悲深いと自信をもって語る。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "下へ、に従って",
+        "話す、言う"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "形容詞",
+      "definition": "信頼や信仰に基づく。また、固定の基準点として用いる。",
+      "friendly": "信頼して拠り所にする錨——fiducial の印は、ほかのすべてを測る固定点。",
+      "exampleGloss": "測量士は敷地を図化する前に、岩盤に fiducial マーカーを置いた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "信頼する",
+        "信頼、確信"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "名詞",
+      "definition": "悪の存在を踏まえたうえでの、神の善性の擁護。",
+      "friendly": "古来の問い——「神が善であるなら、なぜ悪があるのか」——に答えようとする試み。",
+      "exampleGloss": "彼女の論文はヨブ記のレンズを通して theodicy を探った。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "神",
+        "正義"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "名詞",
+      "definition": "相互内在——三位一体の各位格が互いの内に在ることを指す神学用語。",
+      "friendly": "三つでありながら一つ、互いが互いを完全に含み合うほどの一体性を表す神学の言葉。",
+      "exampleGloss": "circumincession の教義は、父・子・聖霊が区別されつつも切り離せないことを説明しようとする。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "まわりに",
+        "行く、歩く"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "動詞",
+      "definition": "誰かの利益になったり、その人に跳ね返ったりする結果をもたらす。",
+      "friendly": "功績（または非難）が責任者に戻ってくること——評判に redound する善行は、巡り巡って自分を報いる。",
+      "exampleGloss": "チームの成功は、静かで勤勉なコーチの功績に redound するだろう。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "戻って、再び",
+        "波"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "形容詞",
+      "definition": "避けられない、逃れられない。",
+      "friendly": "何をしても必ず起こる——ineluctable な結末からは、もがいても抜けられない。",
+      "exampleGloss": "老いがすべての人に来るのは、単に ineluctable なのだ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜でない",
+        "もがいて抜け出す"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "形容詞",
+      "definition": "直接の形ではなく、遠回しで冗長な言い回しを用いる。",
+      "friendly": "言葉で遠回りすること——「decide」と言わず「make a decision」と言うような。",
+      "exampleGloss": "彼の periphrastic なメールは、三段落かかった内容を一行で済んだはずだった。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "まわりに",
+        "宣言する、述べる"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "名詞",
+      "definition": "精神の鈍さ、無気力。",
+      "friendly": "思考がシロップをかき分けるように感じる、霧のかかった鈍い心の状態。",
+      "exampleGloss": "昼食の直後、教室に hebetude の波が押し寄せた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "鈍い、先の丸い",
+        "状態、性質"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "形容詞",
+      "definition": "好ましくない。不吉な前触れ。",
+      "friendly": "悪い兆し——始める前から条件やタイミングが逆風に見えること。",
+      "exampleGloss": "灰色の空と上がらないバッテリーが、ドライブの unpropitious な始まりになった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜でない",
+        "好意的な、恵み深い"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "形容詞 / 動詞",
+      "definition": "ソースで煮込んだ肉——正しくは fricasseed。",
+      "friendly": "肉を切り、自分のソースでとろとろ煮る、懐かしい料理のことば。",
+      "exampleGloss": "祖母の fricasseed チキンは、毎週日曜の食卓の目玉だった。",
+      "origin": "フランス語",
+      "rootMeanings": [
+        "揚げる",
+        "（細かく）壊す"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "形容詞",
+      "definition": "人工的で劣った代用品。",
+      "friendly": "本物の代わりに立つ模造品——用は足りるが、誰の目にも本物ではない。",
+      "exampleGloss": "戦時の買い物客は、焙煎チコリで淹れた ersatz コーヒーで我慢した。",
+      "origin": "ドイツ語",
+      "rootMeanings": [
+        "外へ、置換の接頭辞",
+        "置く、据える"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "動詞",
+      "definition": "抽象的な観念を、具体的な物であるかのように扱う。",
+      "friendly": "ぼんやりした考えを実体のあるものにすること——たとえば「the economy」を指差せる物に変える。",
+      "exampleGloss": "国の「精神」を一つの存在と呼ぶことは、実際には何百万もの個々の選択にすぎないものを reifies する。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "物",
+        "作る"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "動詞（過去形）",
+      "definition": "巧みに逃れた、かわした。",
+      "friendly": "きれいにすり抜ける——捕縛でも質問でも答えでも、巧妙に、あるいは危うくかわす。",
+      "exampleGloss": "答えは何時間も彼女を eluded し、シャワーの中で突然つながった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外へ、離れて",
+        "遊ぶ"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "形容詞",
+      "definition": "疑い、当惑、あるいは解けない矛盾を表す。",
+      "friendly": "思考が本当の行き止まりにいる——怠けての混乱ではなく、問いそのものがきれいな答えを拒むから。",
+      "exampleGloss": "ソクラテスはしばしば対話を aporetic な調子で終え、答えより問いを残した。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "〜なしに",
+        "通路、道"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "名詞",
+      "definition": "関連する語で名指す修辞——たとえば君主を「the crown」と呼ぶ。",
+      "friendly": "本物の代わりに関連語を使うこと——政権を意味するのに「the White House announced」と言う。",
+      "exampleGloss": "「Wall Street had a rough day」は metonymy ——実際は株式市場が荒れたという意味。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "変化、のちに",
+        "名"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "動詞",
+      "definition": "根こそぎにする。自然な環境から引き裂く。",
+      "friendly": "もの（または人）を根ごと引き抜き、属する場所や文化から引き離す。",
+      "exampleGloss": "戦争は一代を deracinated し、家族を国境の向こうへ散らした。",
+      "origin": "フランス語 / ラテン語",
+      "rootMeanings": [
+        "離れて、去って",
+        "根"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "形容詞",
+      "definition": "快い響きの。",
+      "friendly": "ただ聞いて心地よい——euphonious な語や文は、ほとんど音楽のように耳をすべる。",
+      "exampleGloss": "「Murmuring brook」は euphonious な短い句で、柔らかく言いやすい。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "良い、うまく",
+        "音、声"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "形容詞",
+      "definition": "一般にそうだと見なされている、推定上の。",
+      "friendly": "まだ証明されていなくても広く真実だと思われている——いわゆる「supposed」の版。",
+      "exampleGloss": "手紙の putative な著者は、のちにまったくの他人だとわかった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "考える、みなす",
+        "〜の性質をもつ"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "名詞",
+      "definition": "新しく作られた語や句。",
+      "friendly": "できたての言葉——発明されたばかりで、辞書にはまだ（ほとんど）載っていない。",
+      "exampleGloss": "「Doomscrolling」は neologism として始まり、すぐに日常の俗語になった。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "新しい",
+        "語、ことば"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "形容詞",
+      "definition": "怒りっぽい、不機嫌な。",
+      "friendly": "不機嫌で切れやすい——かつては脾臓が気性を司ると信じられていた、その気分。",
+      "exampleGloss": "彼はメールを読んだ数秒後に splenetic な返信を飛ばした。",
+      "origin": "ギリシャ語 / ラテン語",
+      "rootMeanings": [
+        "脾臓（怒りの座）",
+        "影響を受けた"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "形容詞",
+      "definition": "尊大でわざとらしい説教口調になりがちな。",
+      "friendly": "自己重要げに人生訓を配るのが好きで、一文一文がおみくじのよう。",
+      "exampleGloss": "「友情の真の意味」についての彼の sententious な乾杯で、皆が時計を見た。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "意見、格言",
+        "満ちた"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "形容詞",
+      "definition": "とりわけ些細なことで、しゃべりすぎる。",
+      "friendly": "おしゃべりが止まらない——ほかの人がもう言うことがなくなっても、小さな話を続ける。",
+      "exampleGloss": "garrulous なタクシー運転手は、空港を出る前に自分の全人生を語った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "ぺちゃぺちゃ話す",
+        "〜しがちな"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "名詞",
+      "definition": "愚かさ、馬鹿らしさ。",
+      "friendly": "ただの愚かさ——まともに答える価値もないほど馬鹿らしい発言や計画。",
+      "exampleGloss": "計画の純粋な fatuity は、実行した瞬間に明らかになった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "愚かな、馬鹿らしい",
+        "〜である状態"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "名詞",
+      "definition": "演説の結びの部分。しばしば要約する。",
+      "friendly": "スピーチの大詰め——話し手がすべてをまとめ、論点を打ち込む結びの節。",
+      "exampleGloss": "peroration のころには、聴衆の半分が立ち上がっていた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "通して、終わりまで",
+        "話す、弁論する"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "名詞",
+      "definition": "同じ考えを別の言葉で不要に繰り返すこと。",
+      "friendly": "新しいことを加えずに同じことを二度言う——「free gift」や「end result」のように。",
+      "exampleGloss": "「It is what it is」は、本当の説明を避ける人の好物の tautology だ。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "同じ",
+        "語、ことば"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "名詞",
+      "definition": "ごくわずかな語しか使わないこと。簡潔な話し方。",
+      "friendly": "ごく短く多くを言う術——ラコニアのスパルタ人の悪名高い簡潔さにちなむ、短いぶっきらぼうな返答。",
+      "exampleGloss": "「Molon labe」——「来て奪え」——は史上もっとも有名な laconism だ。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "ラコニアのスパルタ人",
+        "習慣、様式"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "名詞",
+      "definition": "味気なく単純化しすぎた考え。もともとは味気ない食べ物や粥。",
+      "friendly": "薄めて水増しした思考——心の栄養にならないほど安全で単純な内容。",
+      "exampleGloss": "政治家の演説はほとんど pabulum だった。掴みどころのない曖昧な約束ばかり。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "養う",
+        "手段、道具"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "形容詞",
+      "definition": "眠りや眠気を引き起こす。",
+      "friendly": "退屈すぎて——あるいは文字どおり鎮静的で——眠くなる。温かい牛乳や、三時間の予算会議を思い浮かべて。",
+      "exampleGloss": "講義の soporific な単調さに、部屋の半分が目を開けていようと戦っていた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "深い眠り",
+        "作る、引き起こす"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "形容詞",
+      "definition": "過度にへつらい、油っこい態度の。",
+      "friendly": "滑らかすぎて滑りやすい——お世辞が厚く塗られ、脂まで感じられそう。",
+      "exampleGloss": "unctuous な販売員は、毎回のアップセルの前に私の「優れた趣味」をほめ続けた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "油を塗る、塗油する",
+        "満ちた"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "形容詞",
+      "definition": "欠点をすぐ見つけ、些細なことに過度に批判的。",
+      "friendly": "あら探しが過ぎる——本当はどうでもよいことまで問題にする人。",
+      "exampleGloss": "報告書への彼の captious な注は、カンマの位置ばかりに集中していた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "掴む、取る",
+        "罠、詭弁"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "形容詞",
+      "definition": "鈍い。精神的または身体的に不活発。",
+      "friendly": "冬眠中の熊のように遅く、半ば眠っている——ほとんど動かず、ほとんど考えない。",
+      "exampleGloss": "八月の重い暑さのなか、事務所は torpid になった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "麻痺する、鈍る",
+        "〜の状態で"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "名詞",
+      "definition": "中世の家政を管理する執事や役人。",
+      "friendly": "中世版の総務責任者——領主の家と領地を日々回した信頼の役人。",
+      "exampleGloss": "城の seneschal は、収穫の帳簿から招待客リストまですべてを管理した。",
+      "origin": "フランク語 / 古フランス語",
+      "rootMeanings": [
+        "古い、年長の",
+        "奉仕者"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "動詞",
+      "definition": "ある話題について長く話し、または書く。",
+      "friendly": "本調子で語り始めること——あらゆる角度から、延々と話し続ける、書き続ける。",
+      "exampleGloss": "ヴィンテージカーの話を振れば、彼はまる一時間 expatiate する。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外へ",
+        "空間"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "形容詞",
+      "definition": "価値がない、些細な。また無効で効果のない。",
+      "friendly": "ほとんど無価値——契約の nugatory な条項は、実際には何もしない条項。",
+      "exampleGloss": "裁判所は古い条例を nugatory と判断した。一度も執行されていなかったからだ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "つまらぬこと、たわ言",
+        "〜に属する"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "名詞",
+      "definition": "知恵、鋭い判断。",
+      "friendly": "実践的で鋭い知恵——本の知識だけでなく、経験から来る良い判断。",
+      "exampleGloss": "老船長の sagacity は、一度ならず乗組員を災いから守った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "嗅覚が鋭い、慧眼の",
+        "〜の性質"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "名詞",
+      "definition": "下層の群衆、大衆。軽蔑して用いる。",
+      "friendly": "「下々」や庶民を見下して呼ぶ、気取った侮蔑語。",
+      "exampleGloss": "伯爵は宮殿の門の外に集まる canaille を鼻で笑った。",
+      "origin": "イタリア語 / フランス語",
+      "rootMeanings": [
+        "犬",
+        "集団、群れ"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "名詞",
+      "definition": "無礼で辱める扱い、または言葉。",
+      "friendly": "辱めるための残酷で侮蔑的な扱い——刺さるように設計された侮辱。",
+      "exampleGloss": "彼は作品が認められるまで、批評家からの contumely を何年も耐えた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "ともに、徹底して",
+        "（誇りで）膨れる"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "副詞",
+      "definition": "疑いまたは非難をこめて。横目。",
+      "friendly": "あまり信じられないものに向ける横目——疑いでいっぱいの視線。",
+      "exampleGloss": "教師は、怪しげなほどきれいな宿題を askance に見た。",
+      "origin": "不詳 / イタリア語",
+      "rootMeanings": [
+        "〜に、〜へ",
+        "斜め、偏り"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "名詞",
+      "definition": "愚かな人。のろま。",
+      "friendly": "少し鈍い人への、古風でほとんど愛情のこもった罵り——のろま。",
+      "exampleGloss": "「あなた clodpate」と彼女は笑い、「地図、ずっと逆さまよ」。",
+      "origin": "英語",
+      "rootMeanings": [
+        "土の塊",
+        "頭"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "動詞",
+      "definition": "動きや行動に移す。動機づける。",
+      "friendly": "動き出すきっかけになる火花——機械のスイッチでも、人がようやく考えを実行に移すことでも。",
+      "exampleGloss": "契約を失う恐れが、チーム全体を週末の残業へと actuated した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "行い、駆動",
+        "駆り立てる、行う"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "名詞",
+      "definition": "預かった資金の横領。",
+      "friendly": "預かるよう信頼された金を静かに盗むこと——古風な外套を着た横領。",
+      "exampleGloss": "会計係の peculation は、ほぼ十年気づかれなかった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "私有財産",
+        "家畜、富"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "名詞",
+      "definition": "立派な社会の周縁にいると見なされる集団。",
+      "friendly": "華やかだがいかがわしい社交の裏世界——「立派な」社会の規則のすぐ外で生きる人々。",
+      "exampleGloss": "その小説は、1920年代キャバレーの demi-monde を生きる歌手を追う。",
+      "origin": "フランス語",
+      "rootMeanings": [
+        "半分",
+        "世界、社会"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "形容詞",
+      "definition": "いまなお存在する。絶滅も破壊もされていない。",
+      "friendly": "今日まで残っている——写本、種、建物など、生き延びた古いものに使う。",
+      "exampleGloss": "初版の extant な写しは、知られている限り三部だけだ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外へ",
+        "立つ"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "名詞",
+      "definition": "欺瞞。信頼の裏切り。",
+      "friendly": "深く、意図的な裏切り——相手が当然守られると思った信頼を破ること。",
+      "exampleGloss": "将軍は、交渉の席での旧友の perfidy を決して許さなかった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "通して、逆らって",
+        "信仰、信頼"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "名詞",
+      "definition": "地域の方言。とくに標準でないもの。",
+      "friendly": "ある土地の人々の独特な話し方——外の人には拾いにくい語やリズムに満ちている。",
+      "exampleGloss": "祖母は家族の夕食で、いまも島の patois を話した。",
+      "origin": "フランス語",
+      "rootMeanings": [
+        "粗い話し方、方言",
+        "爪——不器用な話し方"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "名詞",
+      "definition": "個人や集団に属する特別な権利。",
+      "friendly": "自分だけのもの特権——役割、地位、身分に付いてくる権利。",
+      "exampleGloss": "家族の休暇先を決めるのは祖父の prerogative で、誰もがそれを知っている。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "前に",
+        "尋ねる、投票する"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "名詞",
+      "definition": "大胆さ、図太さ。また強靭さや忍耐。",
+      "friendly": "荒々しく勇気ある回復力——前へ進む度胸と、進んだあとも続ける強さ。",
+      "exampleGloss": "地図なしの吹雪で峠を越えるには、本物の hardihood が要った。",
+      "origin": "古フランス語 / 英語",
+      "rootMeanings": [
+        "大胆な、頑丈な",
+        "状態、条件"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "動詞",
+      "definition": "満開になる。また、発達したり徐々に現れたりする。",
+      "friendly": "花が開くように、あるいは考えがようやく本領を現すように、十分に咲き出すこと。",
+      "exampleGloss": "絵の静かな才能は、自分のアトリエを得てから effloresced した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外へ",
+        "咲き始める"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "名詞",
+      "definition": "鉛直を測るおもりのついた糸。比喩的には判断の基準。",
+      "friendly": "まっすぐに垂れるおもりの糸で、本当に鉛直かを確かめるもの——転じて、ほかのすべてを測る固定の基準。",
+      "exampleGloss": "彼は祖父の誠実さを、あらゆる決断の一種の plumb line にした。",
+      "origin": "ラテン語 / 英語",
+      "rootMeanings": [
+        "鉛",
+        "紐、尺度"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "副詞",
+      "definition": "喜んで、進んで（古風）。",
+      "friendly": "「喜んで」「快く」の古風な言い方。",
+      "exampleGloss": "「I would fain rest here a while」と旅人は溜息をついた。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "喜ばしい、楽しい",
+        "喜んで、進んで"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "名詞",
+      "definition": "厳しい公的非難、または不名誉。",
+      "friendly": "誰かに目に見える大きな恥を積み重ねること——広く不評から来る不名誉。",
+      "exampleGloss": "スキャンダルは会社全体に公の opprobrium をもたらした。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "逆らって",
+        "不名誉、非難"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "形容詞",
+      "definition": "鋭く皮肉で、機知や批評が噛みつくような。",
+      "friendly": "牙のある機知——mordant な一言は、狙いが巧妙なだけに少し刺さる。",
+      "exampleGloss": "彼女の mordant な映画評は、監督には恐れられ、読者には愛された。",
+      "origin": "ラテン語 / フランス語",
+      "rootMeanings": [
+        "噛む",
+        "噛む、行う"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "名詞",
+      "definition": "公式の宣言。しばしば政治的または軍事的。",
+      "friendly": "大きな公式発表——新政府、蜂起、重大な布告を告げるものが多い。",
+      "exampleGloss": "将軍の pronunciamento は、夜明けに新政府を発表した。",
+      "origin": "スペイン語",
+      "rootMeanings": [
+        "前方へ",
+        "告知する"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "名詞",
+      "definition": "浅い知識しかないのに専門家のふりをする人。",
+      "friendly": "話題の表面をなめただけで、教科書を書いたように話す人。",
+      "exampleGloss": "晩餐会の sciolist は、席にいた本物の天体物理学者を自信満々に訂正した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "知る",
+        "指小——小さな知り手"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "名詞",
+      "definition": "老年における精神機能の衰え。",
+      "friendly": "非常に高齢で、心の切れ味が薄れ始める、霧のかかった物忘れの時期。",
+      "exampleGloss": "dotage のなかで、彼は同じ三つの話を毎回、初めてのように語った。",
+      "origin": "中英語",
+      "rootMeanings": [
+        "惚ける、愚かになる",
+        "状態、結果"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "名詞",
+      "definition": "風を避けた側。",
+      "friendly": "丘、船、壁などの、風が届きにくい穏やかな側。",
+      "exampleGloss": "ハイカーは突風を逃れるため、尾根の lee side にテントを張った。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "隠れ場、保護",
+        "側面、面"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "動詞",
+      "definition": "打撃、質問、議論をかわす、防ぐ。",
+      "friendly": "剣の一撃でも気まずい質問でも非難でも、間髪入れず滑らかに払う。",
+      "exampleGloss": "彼女は記者の厄介な質問を、軽い冗談で parried した。",
+      "origin": "フランス語",
+      "rootMeanings": [
+        "防ぐ",
+        "備える、守る"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "形容詞",
+      "definition": "悪臭のする、有害な。",
+      "friendly": "ほとんど有毒に感じるほどの匂い——吸うのが危険に思える悪臭。",
+      "exampleGloss": "日が沈むと、沼から mephitic な匂いが立ち上った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "有害な蒸気",
+        "〜の性質をもつ"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "名詞",
+      "definition": "贅沢と快楽に身を捧げる人。",
+      "friendly": "快適と放縦のために生きる人——美食、柔らかいベッド、楽な暮らし。贅沢で知られた古代ギリシャの都市シバリスにちなむ。",
+      "exampleGloss": "真の sybarite である彼は、浴槽のないホテルの部屋を拒んだ。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "贅沢で知られた古代ギリシャの都市",
+        "の住人"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "動詞",
+      "definition": "意図的に一部を脇へ置く、無視する。",
+      "friendly": "パズルの一片をあえて心の外に置き、残りにきれいに集中すること。",
+      "exampleGloss": "費用はいったん prescind して、計画が実際にうまくいくかだけを問おう。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "前に、離れて",
+        "切る"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "動詞",
+      "definition": "厳しく非難する。また、皮を剥ぐ。",
+      "friendly": "厳しい批評で誰かを引き裂く——文字どおり皮を剥ぐように、言葉で。",
+      "exampleGloss": "批評家たちは続編を、原作のファンが愛したすべてを裏切ったとして excoriated した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "離れて",
+        "皮、革"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "動詞",
+      "definition": "証拠や証明として挙げる。",
+      "friendly": "論点を支える事実や例を差し出すこと——「what's your evidence?」と聞かれたときに指すもの。",
+      "exampleGloss": "弁護士は依頼人のアリバイを支える証人を三人 adduced した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜へ、向かって",
+        "導く"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "名詞",
+      "definition": "旅、放浪。とくに長く広範なもの。",
+      "friendly": "長くさまよう旅——家を長く遠く離れる、広範な徘徊。",
+      "exampleGloss": "三大陸にわたる彼の peregrinations は、旅行日記を棚ひとつ分埋めた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "通して",
+        "野、土地（peregrinus：外国人）"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "名詞",
+      "definition": "乞食、または施しで生きる者。",
+      "friendly": "施しを請うて生きる人——歴史的には、清貧の誓いを立て寄付で生きた修道士も指した。",
+      "exampleGloss": "mendicant の修道士たちは何も持たず、村人の情けにまったく頼った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "乞う",
+        "乞食"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "形容詞",
+      "definition": "きわめて寛大な。",
+      "friendly": "派手なほど大きな寛大さ——人が少し息を呑むような贈り物。",
+      "exampleGloss": "munificent な寄付が、図書館の新しい翼全体の資金になった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "贈り物、奉仕",
+        "作る、与える"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "名詞",
+      "definition": "栄養不足による衰弱。また活力の欠如。",
+      "friendly": "満たされず燃料がなくて弱り切った状態——文字どおり飢えから、あるいは比喩的に走るものが何も残っていないことから。",
+      "exampleGloss": "包囲の終わりには、兵士たちは inanition 近くまで来ていた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "空、虚",
+        "行為または結果"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "名詞",
+      "definition": "辛辣で罵倒的な批評。",
+      "friendly": "公正をはるかに超え、怒りと苦みの長広舌になった批評。",
+      "exampleGloss": "ネットのコメントは数分で純粋な vituperation に溶けた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "欠点",
+        "整える、与える"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "形容詞",
+      "definition": "敵意のある。効果として有害な。",
+      "friendly": "静かにでもあなたに逆らう——利害に優しくない条件や態度。",
+      "exampleGloss": "新しい方針は、意図ではなくても、中小企業に inimical だった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜でない",
+        "友"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "形容詞",
+      "definition": "不満や恨みを招きやすい。しばしば不公平な比較によって。",
+      "friendly": "誰かを軽んじられた気にさせる——ふつう、人やものを不公平に並べるから。",
+      "exampleGloss": "兄弟を「誰を母が一番愛するか」で順位づけるのは、誰もすべきでない invidious な遊びだ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "嫉妬",
+        "（悪意をもって）見る"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "名詞",
+      "definition": "下位の地位の人。部下。",
+      "friendly": "指揮系統や社会の梯子の下にいる人——より力のある人の下で働く若手。",
+      "exampleGloss": "若い subaltern として、彼は命令を出すずっと前から命令を受けた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "下に",
+        "代わりの、他の"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "動詞",
+      "definition": "強い憎しみを感じる、または表す。",
+      "friendly": "声に出して呪いたくなるほど憎むこと——純粋で声高な嫌悪。",
+      "exampleGloss": "村人たちは、収税人の荷車が通るたびに彼を execrated した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜から外へ",
+        "聖なる（聖から外して呪う）"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "名詞",
+      "definition": "皮膚や殻のような、自然の外皮。",
+      "friendly": "自然そのものの保護の包み——皮膚、殻、外皮、果皮、生き物を覆い守るもの。",
+      "exampleGloss": "亀の甲羅は、驚くほど頑丈な integument だ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "上に、覆って",
+        "覆う"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "形容詞",
+      "definition": "無邪気で、世間知らずで、子どものような単純さを示す。「disingenuous」の反対。",
+      "friendly": "隠し立てなく少し世間知らず——「clever」を意味する「ingenious」と取り違えやすい。",
+      "exampleGloss": "彼女の ingenuous な問い——「なぜそんなことで嘘をつく人がいるの？」——は、策略がどれほど少ないかを示した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "内に、生まれながらの",
+        "生む（自由民の、率直な）"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "名詞",
+      "definition": "細部や規則への過度のこだわり。",
+      "friendly": "大きな絵を見逃して小さな規則に溺れること——誰も気にしない細則に執着する。",
+      "exampleGloss": "オックスフォード・コンマへの彼の pedantry が、会議全体を脱線させた。",
+      "origin": "イタリア語 / ラテン語",
+      "rootMeanings": [
+        "子どもの家庭教師",
+        "習慣、性質"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "名詞",
+      "definition": "徹底した、注意深い吟味。",
+      "friendly": "石を残さず見る深い点検——細部を本当に丁寧に見て回ること。",
+      "exampleGloss": "帳簿の注意深い perscrutation のあとで、ようやく食い違いが出た。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "通して、徹底して",
+        "探す、調べる"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "動詞",
+      "definition": "異議を唱える。ためらいを示す。",
+      "friendly": "すぐ従うのではなく、礼儀正しく押し返す、ためらう——柔らかい「I'd rather not」。",
+      "exampleGloss": "読まずに署名するよう求められ、彼女は demurred した。",
+      "origin": "ラテン語 / フランス語",
+      "rootMeanings": [
+        "から、離れて",
+        "遅らせる"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "形容詞",
+      "definition": "一見もっともらしいが、実際は誤り。",
+      "friendly": "一見説得力があるが、実際に確かめた瞬間に崩れる。",
+      "exampleGloss": "「Everyone's doing it」は、精査に耐えない specious な議論だ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外見、見た目",
+        "満ちた（もっともらしく見える）"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "名詞",
+      "definition": "不誠実で偽善的な話。しばしば説教がましい。",
+      "friendly": "徳高く聞こえるが実感のない説教口調——自動操縦の道徳ポーズ。",
+      "exampleGloss": "彼は、誰にも休みを与えない会社からの「家族」についての企業 cant にうんざりしていた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "歌う（のちに単調な隠語）",
+        "乞食の泣き言、転じて偽善"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "形容詞",
+      "definition": "勇気に欠ける、臆病な。",
+      "friendly": "無気力なほど臆病——明らかに大切なときでも立ち上がれないほど恐れる。",
+      "exampleGloss": "理事会の pusillanimous な沈黙のせいで、スキャンダルは制御不能に広がった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "ごく小さい",
+        "精神、勇気"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "形容詞",
+      "definition": "狐のような。狡猾で抜け目ない。",
+      "friendly": "狐のようにずる賢く機転が利く——少しこそこそして、常に一歩先。",
+      "exampleGloss": "抜け穴を見つけた瞬間、彼は vulpine な笑みを浮かべた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "狐",
+        "〜の、〜のような"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "副詞",
+      "definition": "一つずつ、順序どおりに。",
+      "friendly": "厳密に一つずつ、順番に取り上げる——先飛ばしも、二つ同時もなし。",
+      "exampleGloss": "判事は十二の請求のそれぞれを seriatim に扱った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "列、順序",
+        "一つずつ"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "名詞",
+      "definition": "極端な倹約。けち。",
+      "friendly": "金（または言葉、資源）を、妥当な倹約を超えて締めること。",
+      "exampleGloss": "彼の parsimony は伝説だった——ティーバッグを三回も使い回した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "惜しむ、倹約する",
+        "状態、習慣"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "名詞",
+      "definition": "訂正。とくにテキストの。",
+      "friendly": "文章への修正——古い、または重要なテキストの誤りを直す学術的な手直し。",
+      "exampleGloss": "新版には、原写本への何十もの emendations が含まれる。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜から外へ",
+        "欠点、誤り"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "形容詞",
+      "definition": "飲食に節度のある。",
+      "friendly": "飲食物のまわりで意図的に控える——決して過食せず、皿に少し残す。",
+      "exampleGloss": "彼の abstemious な習慣は、同輩が衰えたあとも長く彼を鋭く保った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜から離れて",
+        "酔わせる飲み物"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "名詞",
+      "definition": "文法の誤り、または礼儀の違反。",
+      "friendly": "文法や作法の小さな失敗——細かい人を顔をしかめさせる種類の誤り。",
+      "exampleGloss": "「Between you and I」は、いまも文法家をひるませるありふれた solecism だ。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "「悪い」ギリシャ語で知られたキリキアの都市",
+        "習慣、様式"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "形容詞",
+      "definition": "集団内部の争い。互いに破壊的な。",
+      "friendly": "内側から集団を引き裂く内輪もめ——家族対家族だから、誰もが負ける争い。",
+      "exampleGloss": "党の internecine ないがみ合いは、外部の敵より大きな損害を出した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "あいだに、なかに",
+        "殺す"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "形容詞 / 名詞",
+      "definition": "無関心で、気にかけない態度。",
+      "friendly": "肩をすくめることが人格になった状態——かつては大事だったことすら、もう努力に値しない。",
+      "exampleGloss": "授賞式への彼の pococurante な態度は、どれほど彼が働いたかを知る全員を驚かせた。",
+      "origin": "イタリア語",
+      "rootMeanings": [
+        "少し",
+        "気にかける"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "名詞",
+      "definition": "混乱した複雑な状況、または争い。",
+      "friendly": "意味を取りにくい絡まった乱雑な状況——誤解とドラマと混乱が混ざったもの。",
+      "exampleGloss": "席次表の imbroglio 全体は、一枚の名札の置き間違いから始まった。",
+      "origin": "イタリア語",
+      "rootMeanings": [
+        "中に",
+        "絡める、混乱させる"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "形容詞",
+      "definition": "脅す、威圧的な。",
+      "friendly": "明らかな脅威の気配を帯びる——minatory な視線や手紙は、悪いことが続きそうだとよくわかる。",
+      "exampleGloss": "手紙の minatory な調子に、借家人は封筒を開ける前から落ち着かなかった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "脅す",
+        "〜する働きの"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "名詞",
+      "definition": "強い公的非難、または口汚い罵り。",
+      "friendly": "大きな公の糾弾——皆の前で展開する、焼けつくような批評。",
+      "exampleGloss": "内部告発者は、歴史が彼女の正しさを証明するまで、何年も公の obloquy に直面した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "逆らって",
+        "話す"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "名詞",
+      "definition": "感情や行動の、突然の激しい爆発。",
+      "friendly": "一度に飲み込むような突然の激しいバースト——笑い、怒り、咳の発作が波のように来る。",
+      "exampleGloss": "彼女は、部屋の誰にも説明できない笑いの paroxysm に襲われた。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "超えて",
+        "鋭い、急性の"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "形容詞",
+      "definition": "外部から加えられた、固有でない。",
+      "friendly": "最初から組み込まれたのではなく、外からボルト留めされた——核心ではなく余分。",
+      "exampleGloss": "その解説は adscititious に感じられる。すでに完成した本文に貼り付けたようだ。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜へ、加えて",
+        "認める、引き受ける"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "名詞",
+      "definition": "知識の欠如、無知。",
+      "friendly": "ただ知らないこと——判断を付けない、知識の隙間。",
+      "exampleGloss": "彼はフランスワインについての nescience を認め、ソムリエに選ばせた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜でない",
+        "知る"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "名詞",
+      "definition": "性的な事柄への過度の関心。",
+      "friendly": "いかがわしいものへの、覗きすぎるほど熱心な好奇心——健全を超えて詮索になった関心。",
+      "exampleGloss": "タブロイドの、カップルの私生活への prurience は、執着に近かった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "痒がる、欲しがる",
+        "状態"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "形容詞",
+      "definition": "煤けた、暗い、濁った。",
+      "friendly": "薄く煤をかぶったように、暗く煙った見た目。",
+      "exampleGloss": "工場町の夕暮れに、fuliginous な霞がかかった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "煤",
+        "満ちた"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "動詞",
+      "definition": "否定する、反論する。",
+      "friendly": "相手の言ったことにきっぱり逆らう——「that's not so」と言うこと。",
+      "exampleGloss": "誰も、老船長の嵐の話を gainsay しようとはしなかった。",
+      "origin": "中英語",
+      "rootMeanings": [
+        "逆らって",
+        "話す"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "名詞",
+      "definition": "怠惰、ものぐさ（ラテン語から）。",
+      "friendly": "純粋な怠けを指す古いラテン語——何もしたくないという引きずる気持ち。",
+      "exampleGloss": "修道士たちは、魂の静かな危険の一つとして ignavia を誡めた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜でない",
+        "忙しい、勤勉な"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "名詞",
+      "definition": "紋章を示す盾。",
+      "friendly": "家の紋章を示す盾形の標章——紋章の「表札」。",
+      "exampleGloss": "家の escutcheon は、いまも古い邸宅の玄関の上に掛かっている。",
+      "origin": "ラテン語 / 古フランス語",
+      "rootMeanings": [
+        "盾",
+        "指小／物"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "形容詞",
+      "definition": "時代遅れ、廃れた、または年齢で引退した。",
+      "friendly": "役に立つ盛りを過ぎ、放牧に出された——古すぎ、擦り切れすぎて仕事を続けられない。",
+      "exampleGloss": "superannuated なプリンターは、十五年の紙詰まりの末、ついに取り換えられた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "超えて",
+        "年"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "名詞",
+      "definition": "代用品。とくに医学の。",
+      "friendly": "本治療が手に入らないときの代役の薬——要するに医学の代役。",
+      "exampleGloss": "戦時の医師は、正規の薬が尽きたときしばしば succedanea に頼った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "代わりに",
+        "行く、譲る"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "名詞",
+      "definition": "自慢げで虚勢の話。",
+      "friendly": "大きな虚勢の自慢——自分の偉大さについての大声で、ほとんど中身のない話。",
+      "exampleGloss": "プロジェクトを「一手に」救ったという彼の rodomontade は、実際にいた誰も騙さなかった。",
+      "origin": "イタリア語",
+      "rootMeanings": [
+        "『狂えるオルランド』の自慢好きな騎士",
+        "行為、見せびらかし"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "動詞",
+      "definition": "策略や欺瞞を用いて何かを成し遂げる。",
+      "friendly": "公正な勝負ではなく、こそこそした策略で目標へもぐり込む。",
+      "exampleGloss": "彼は細則だらけの契約で、取引へ chicaned した。",
+      "origin": "フランス語",
+      "rootMeanings": [
+        "揚げ足を取る、騙す",
+        "策略。のちに急カーブ"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "名詞",
+      "definition": "学習や知識の純粋・抽象的な学。しばしば数学。",
+      "friendly": "もっとも純粋で抽象的な学び——知識そのものの深い構造、とくに数学的なもの。",
+      "exampleGloss": "哲学者は、あらゆる知識分野を統一できる普遍の mathesis を夢見た。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "学ぶ",
+        "学ぶ行為"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "形容詞",
+      "definition": "形式的な規則や些細な細部に過度にこだわる。",
+      "friendly": "小さなことに厳しすぎる——何も変えない技術的な細部を訂正する。",
+      "exampleGloss": "テキストメッセージで「who」対「whom」を争うのは、少し pedantic に感じられた。",
+      "origin": "イタリア語 / ギリシャ語",
+      "rootMeanings": [
+        "子どもの案内役、家庭教師",
+        "〜の流儀をもつ"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "名詞",
+      "definition": "閃く、きらめく光。",
+      "friendly": "すばやくきらめく光の閃き——水面に跳ねる日光や、光を捉えるダイヤモンド。",
+      "exampleGloss": "シャンデリアの coruscation が、舞踏室のすみずみに光を散らした。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "きらめく、閃く",
+        "その行為"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "名詞",
+      "definition": "初心者、新参。",
+      "friendly": "技能や分野にまったく新しい人——まだ手ほどきの途中で、専門家ではない。",
+      "exampleGloss": "tyro のチェス打ちでも、その大失敗は見抜ける。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "新兵、初心者",
+        "未熟な若い兵士"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "形容詞",
+      "definition": "きわめて悪い、忌まわしい。",
+      "friendly": "本気の嫌悪に値する悪さ——「並み」ではなく、本当に忌まわしい。",
+      "exampleGloss": "評者は続編を execrable と呼び、興行収入もそれに同意した。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "呪う",
+        "〜に値する、〜しうる"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "形容詞",
+      "definition": "血のような赤の。",
+      "friendly": "鮮やかな深い赤——新鮮な血の色。シェイクスピアのマクベスで有名。",
+      "exampleGloss": "日没が空全体を incarnadine な輝きに変えた。",
+      "origin": "イタリア語 / ラテン語",
+      "rootMeanings": [
+        "中へ",
+        "肉（肉色の赤）"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "名詞",
+      "definition": "もののあいだの小さな隙間。",
+      "friendly": "見落としやすい、あいだの小さな空間——床板の割れ目、予定の隙間。",
+      "exampleGloss": "雑草が、古いレンガ道のあらゆる interstice から押し上がった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "あいだに",
+        "立つ"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "名詞",
+      "definition": "批判的、または検閲的な発言。",
+      "friendly": "とがめる調子を帯びた、鋭い不賛成のコメント。",
+      "exampleGloss": "教授のエッセイへの animadversions が、余白を赤いインクで埋めた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "心",
+        "〜のほうへ向ける"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "形容詞",
+      "definition": "反駁できない、否定できない。",
+      "friendly": "あまりに堅く証明され、議論の余地がない——一件落着。",
+      "exampleGloss": "DNAの証拠は irrefragable で、裁判は一時間以内に終わった。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜でない",
+        "逆らう、抵抗する"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "名詞",
+      "definition": "複雑さ、入り組むこと。また内側への巻き込み。",
+      "friendly": "自分の中に折り畳まれた、ほどきにくい複雑さ——強く巻きつき、引き離しにくいもの。",
+      "exampleGloss": "筋の involution に、観客の半分はエンドロールのあとまで解こうとしていた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "内へ、内側へ",
+        "巻く、回す"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "名詞",
+      "definition": "力や努力。たとえば「by dint of」。",
+      "friendly": "純粋な努力や力——今日ではほとんど「by dint of」という句に残る。",
+      "exampleGloss": "彼は純粋で頑固な練習の dint で試験に通った。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "一撃、一打",
+        "〜の力によって"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "形容詞",
+      "definition": "ほぞ穴とほぞで接合された。しっかりと組み合わされた。",
+      "friendly": "昔ながらの大工の組み方でロックされる——一方が、ちょうど切られた穴にぴたりとはまる。",
+      "exampleGloss": "古い納屋の梁は、釘一本なしに mortised で組まれていた。",
+      "origin": "ラテン語 / フランス語",
+      "rootMeanings": [
+        "受け口、穴",
+        "噛みつき、掴み"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "形容詞",
+      "definition": "きわめて適切で、ぴったりした。",
+      "friendly": "その瞬間にまさに合う——コメント、引用、例が一点にきれいに着地する。",
+      "exampleGloss": "彼女の apposite な一言が、議論全体を一文でまとめた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜へ",
+        "置く"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "形容詞",
+      "definition": "柔らかく光る、ちらつく（光）。また軽やかな機知。",
+      "friendly": "燃え上がらず、やさしく光る——柔らかく揺れる光、または鋭くなく遊び心のある機知。",
+      "exampleGloss": "燭光が古い食堂に lambent な輝きを投げた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "舐める",
+        "行う（『舐める』光）"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "名詞",
+      "definition": "孤独に生きる宗教的隠者。",
+      "friendly": "祈りと思索のために、世から完全に退いて一人で生きる人。",
+      "exampleGloss": "その anchorite は、教会に付いた小さな独房に三十年以上住んだ。",
+      "origin": "ギリシャ語",
+      "rootMeanings": [
+        "後ろへ、離れて",
+        "退く"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "動詞",
+      "definition": "渇きを満たす。鎮める。",
+      "friendly": "渇望を十分に満たすこと——多くは渇きだが、比喩的には深い欲求や必要なら何でも。",
+      "exampleGloss": "冷たい水一杯が、長いハイキングのあとの渇きを slaked した。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "緩い、弛んだ",
+        "緩める、鎮める"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "形容詞",
+      "definition": "針状の。",
+      "friendly": "長く細く、針のように尖った——松葉や鋭い小さな結晶の形。",
+      "exampleGloss": "松は acicular な葉で見分けやすい。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "針",
+        "小さな"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "形容詞",
+      "definition": "活力を使い果たした、弱い、洗練されすぎた。",
+      "friendly": "擦り切れ、柔らかくなった——快適や洗練が過ぎて、元の強さや勢いを失った。",
+      "exampleGloss": "批評家たちは、かつては大胆だった雑誌を effete と呼び、初期の影だとした。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "外へ",
+        "実り多い、産み終えた"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "名詞",
+      "definition": "付属する付属物、または小さな権利。",
+      "friendly": "大きなものに付いてくる小さな余分——本体に属する付属やアドオン。",
+      "exampleGloss": "賃貸には車庫と、そのすべての appurtenances が含まれた。",
+      "origin": "ラテン語 / フランス語",
+      "rootMeanings": [
+        "〜へ",
+        "属する"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "動詞",
+      "definition": "欠点を言い繕う、小さく見せる。",
+      "friendly": "柔らかい言葉で過ちをなめらかにし、実際より小さく聞こえるようにする。",
+      "exampleGloss": "彼は「予期せぬ課題」という曖昧な話で、遅れた締め切りを gloze しようとした。",
+      "origin": "古フランス語 / ラテン語",
+      "rootMeanings": [
+        "注釈、説明",
+        "注を付ける——転じて言い繕う"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "形容詞",
+      "definition": "初期の段階にある。始まったばかり。",
+      "friendly": "ようやく姿を見せ始めた——これから大きくなるものの、ごく最初の、ほとんど見えない段階。",
+      "exampleGloss": "医師たちは、広がる前に病の incipient な徴候を捉えた。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "上に、中へ",
+        "取る（取り上げる、始める）"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "名詞",
+      "definition": "創造的な霊感。とくに神的な。",
+      "friendly": "自分より大きなものに感じられる突然の霊感——どこかから息を吹き込まれたような着想。",
+      "exampleGloss": "詩人は、作品全体が午前三時の一吹きの afflatus で届いたと語った。",
+      "origin": "ラテン語",
+      "rootMeanings": [
+        "〜へ、上に",
+        "吹く（吹きかけること）"
+      ]
+    }
+  }
+}

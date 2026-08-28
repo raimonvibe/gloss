@@ -1,0 +1,208 @@
+{
+  "@@locale": "en",
+  "appTitle": "Gloss",
+  "@appTitle": {
+    "description": "Do not translate. Brand name."
+  },
+  "tagline": "a lexicon of lovely language",
+  "navHome": "Home",
+  "navLexicon": "Lexicon",
+  "navQuiz": "Quiz",
+  "navSaved": "Saved",
+  "navLanguages": "Languages",
+  "homeBlurb": "{count} rare, rich words from the {lexicon} lexicon — explained the way a friend would explain them, not a dictionary.",
+  "@homeBlurb": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lexicon": {
+        "type": "String"
+      }
+    }
+  },
+  "wordsExplored": "{current} of {total} words explored",
+  "@wordsExplored": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "exploreLexicon": "Explore the lexicon",
+  "startQuiz": "Start a quiz",
+  "wordOfTheDay": "word of the day",
+  "readFullEntry": "Read the full entry →",
+  "lexiconTitle": "The lexicon",
+  "lexiconCaption": "the gathering",
+  "savedTitle": "Saved words",
+  "savedCaption": "kept close",
+  "searchHint": "Search a word, or describe its meaning…",
+  "clearSearch": "Clear search",
+  "filterAll": "All",
+  "noMatches": "No matches yet — try a different word or feeling.",
+  "matchCount": "{n, plural, =1{1 match} other{{n} matches}}",
+  "@matchCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "nothingHere": "nothing here",
+  "emptyLexicon": "Nothing in this corner of the lexicon.",
+  "emptySaved": "No saved words yet. Tap the heart on any entry.",
+  "tapToReadMore": "Tap to read more",
+  "saveWord": "Save word",
+  "removeFromFavorites": "Remove from favorites",
+  "inPlainWords": "in plain words",
+  "theDefinition": "the definition",
+  "inASentence": "in a sentence",
+  "exampleGlossLabel": "in other words",
+  "save": "Save",
+  "saved": "Saved",
+  "copy": "Copy",
+  "copiedToClipboard": "Copied to clipboard",
+  "roots": "roots",
+  "quizTitle": "A little quiz",
+  "quizCaption": "know the roots, then choose the meaning",
+  "quizIntro": "Each question shows a word and its etymology. Pick the definition that fits — four choices, one true.",
+  "howManyWords": "how many words",
+  "begin": "Begin",
+  "quizByTheme": "Quiz by theme",
+  "endQuiz": "End quiz",
+  "questionOf": "Question {index} of {length}",
+  "@questionOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "whichDefinitionFits": "which definition fits?",
+  "previous": "Previous",
+  "next": "Next",
+  "seeResults": "See results",
+  "themeTitle": "Theme",
+  "chooseASubject": "choose a subject",
+  "noThemesYet": "No themes yet.",
+  "notEnoughWordsInTheme": "Not enough words in this theme yet.",
+  "results": "Results",
+  "perfectPage": "a perfect page",
+  "wellMarked": "well marked",
+  "tryAnotherRound": "Try another round",
+  "definitionsRight": "{score, plural, =1{1 definition right} other{{score} definitions right}}",
+  "@definitionsRight": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "definitionsRightSpoken": "{score, plural, =1{One definition right, of {total}.} other{{score} definitions right, of {total}.}}",
+  "@definitionsRightSpoken": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "switchToLightMode": "Switch to light mode",
+  "switchToDarkMode": "Switch to dark mode",
+  "listen": "Listen",
+  "stop": "Stop",
+  "glossIcon": "Gloss icon",
+  "@glossIcon": {
+    "description": "Do not translate. Brand name."
+  },
+  "languagesTitle": "Languages",
+  "languagesCaption": "the tongues",
+  "searchLanguages": "Search a country or language…",
+  "noMatchingLanguages": "No matching countries or languages.",
+  "selectedLanguage": "Reading in",
+  "continentAfrica": "Africa",
+  "continentAsia": "Asia",
+  "continentEurope": "Europe",
+  "continentAmericas": "Americas",
+  "continentOceania": "Oceania",
+  "currentOfTotal": "{current} of {total}",
+  "@currentOfTotal": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "speechAlso": "Also {variants}.",
+  "@speechAlso": {
+    "placeholders": {
+      "variants": {
+        "type": "String"
+      }
+    }
+  },
+  "speechAsIn": "As in: {example}",
+  "@speechAsIn": {
+    "placeholders": {
+      "example": {
+        "type": "String"
+      }
+    }
+  },
+  "speechFrom": "From {origin}, {originWord}.",
+  "@speechFrom": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "originWord": {
+        "type": "String"
+      }
+    }
+  },
+  "speechRoot": "{form}, meaning {meaning}",
+  "@speechRoot": {
+    "placeholders": {
+      "form": {
+        "type": "String"
+      },
+      "meaning": {
+        "type": "String"
+      }
+    }
+  },
+  "speechInPlainWords": "In plain words: {friendly}",
+  "@speechInPlainWords": {
+    "placeholders": {
+      "friendly": {
+        "type": "String"
+      }
+    }
+  },
+  "categorySpeech": "Speech & Rhetoric",
+  "categoryCharacter": "Character & Temperament",
+  "categoryCriticism": "Criticism & Insult",
+  "categoryVirtue": "Virtue",
+  "categoryVice": "Vice",
+  "categoryKnowledge": "Knowledge & Thought",
+  "categoryReligion": "Religion & Spirit",
+  "categoryBeginnings": "Beginnings",
+  "categoryConflict": "Conflict & Deceit",
+  "categoryAppearance": "Appearance & Light",
+  "categoryPeople": "People & Roles",
+  "categoryObjects": "Objects & Things",
+  "categoryEmotion": "Emotion",
+  "categoryArchaic": "Old & Archaic"
+}

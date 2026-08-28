@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../l10n/app_localizations.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
 
@@ -21,7 +22,9 @@ class SpeakButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final speech = context.watch<SpeechController>();
     final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
     final active = speech.isSpeakingKey(speechKey);
+    final label = active ? l10n.stop : l10n.listen;
     final icon = Icon(
       active ? Icons.stop_outlined : Icons.volume_up_outlined,
       color: brand.accentGold,
@@ -30,14 +33,14 @@ class SpeakButton extends StatelessWidget {
 
     if (compact) {
       return IconButton(
-        tooltip: active ? 'Stop' : 'Listen',
+        tooltip: label,
         onPressed: () => speech.toggle(speechKey, text),
         icon: icon,
       );
     }
 
     return Tooltip(
-      message: active ? 'Stop' : 'Listen',
+      message: label,
       child: Material(
         color: brand.card,
         shape: CircleBorder(side: BorderSide(color: brand.cardBorder)),

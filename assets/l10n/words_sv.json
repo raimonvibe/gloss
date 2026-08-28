@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "verb",
+      "definition": "Att söta eller rena; att ta bort strävhet från något.",
+      "friendly": "Att ta udden eller bitterheten ur något — bokstavligen genom att söta det, eller bildligt genom att mjuka upp en hård idé så att den går ner lättare.",
+      "exampleGloss": "Redaktören edulcorated den hårda recensionen innan den gick i tryck.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ut, grundligt",
+        "söt"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Överdrivet eller tillgjort religiös eller from.",
+      "friendly": "Beskriver någon vars religiösa hängivenhet känns iscensatt för syns skull, mer föreställning än genuin tro.",
+      "exampleGloss": "Hans pietistic suckande under predikan irriterade resten av bänkraden.",
+      "origin": "latin",
+      "rootMeanings": [
+        "fromhet, plikttrohet",
+        "som har karaktären av"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "substantiv",
+      "definition": "Tvetydighet som uppstår ur den grammatiska strukturen — en mening som kan läsas på två sätt.",
+      "friendly": "En mening som är grammatiskt korrekt men kan läsas på två helt olika sätt, som \"I saw the man with the telescope.\"",
+      "exampleGloss": "\"Visiting relatives can be tiring\" är en klassisk amphiboly — är släktingarna tröttande, eller är det att hälsa på dem?",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "båda, på båda sidor",
+        "att kasta"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Skarp, träffsäker, skär rakt till poängen.",
+      "friendly": "Skär rakt genom utfyllnaden — en trenchant kommentar eller ett trenchant intellekt når sakens kärna snabbt, utan onödiga ord.",
+      "exampleGloss": "Hennes trenchant kritik lämnade ingen plats för filmens luckor i handlingen att gömma sig.",
+      "origin": "forfranska",
+      "rootMeanings": [
+        "att skära",
+        "görande, som har kvaliteten av"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Precis i början; i ett tidigt eller rudimentärt skede.",
+      "friendly": "Fortfarande i sina öppningsögonblick — en plan, en känsla eller en process som bara just har börjat ta form.",
+      "exampleGloss": "De inchoative stadierna av fördraget var lovande, men många detaljer återstod att lösa.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att börja, att starta",
+        "som strävar mot"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett formellt tal eller en text som prisar någon högt.",
+      "friendly": "En fullödig, formell hyllning — tänk ett lysande minnestal eller ett anförande som sjunger någons bedrifter från taken.",
+      "exampleGloss": "Den avgående professorn skickades av med en panegyric från sina närmaste studenter.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "allt",
+        "församling, sammankomst"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som rör verklig existens eller faktiskt varande, till skillnad från abstrakt teori.",
+      "friendly": "Om ting som de faktiskt finns i verkligheten, inte bara som idéer eller teorier om dem.",
+      "exampleGloss": "Filosofer debatterar om tal har någon ontic status eller bara finns i våra sinnen.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "varande, det som finns",
+        "som rör"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "verb",
+      "definition": "Att bära frukt, eller att bli produktiv.",
+      "friendly": "Att äntligen ge utdelning — en insats, idé eller investering som fructify har växt från frö till något användbart.",
+      "exampleGloss": "År av tyst forskning fructified till sist till ett fungerande vaccin.",
+      "origin": "latin",
+      "rootMeanings": [
+        "frukt",
+        "att göra, att framkalla"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som föregriper eller framställer något som redan gjort innan det faktiskt har hänt.",
+      "friendly": "Att springa i förväg på ett litterärt sätt — att beskriva en framtida händelse som om den redan vore avslutad, för att poängen ska slå hårdare.",
+      "exampleGloss": "Generalens proleptical skål för \"victory\" utbringades en hel vecka före slaget.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "före",
+        "att ta, att gripa"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Drivet av lufttryck; även relaterat till ande eller andedräkt.",
+      "friendly": "Betyder oftast \"drivet av tryckluft\" — men kan också syfta på ande eller andedräkt.",
+      "exampleGloss": "De pneumatic bromsarna väste när bussen stannade vid trottoarkanten.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "vind, andedräkt, ande",
+        "som hör till"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Att beskriva Gud eller det gudomliga genom positiva påståenden — motsatsen till apofatisk.",
+      "friendly": "Ett sätt att tala om Gud genom att säga vad Gud är — \"God is love\" — snarare än bara vad Gud inte är.",
+      "exampleGloss": "Cataphatic teologi talar tryggt om Gud som kärleksfull, rättvis och barmhärtig.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "ned, enligt",
+        "att tala, att säga"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Grundat på tillit eller tro; även använt som en fast referenspunkt.",
+      "friendly": "Något du tar på tillit och sedan använder som ankare — ett fiducial märke är den fasta punkt allt annat mäts mot.",
+      "exampleGloss": "Lantmätarna satte en fiducial markör i berggrunden innan de kartlade platsen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att lita",
+        "tillit, förtroende"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett försvar av Guds godhet givet ondskans existens.",
+      "friendly": "Det urgamla försöket att svara på \"If God is good, why does evil exist?\"",
+      "exampleGloss": "Hennes uppsats undersökte theodicy genom Jobs bok.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "gud",
+        "rättvisa"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ömsesidigt inneboende — en teologisk term för hur Treenighetens personer finns i varandra.",
+      "friendly": "Ett teologiskt ord för tre-i-ett-samhörighet så fullständig att varje del helt rymmer och ryms av de andra.",
+      "exampleGloss": "Läran om circumincession försöker förklara hur Fader, Son och Ande är åtskilda men oskiljaktiga.",
+      "origin": "latin",
+      "rootMeanings": [
+        "runtom",
+        "att gå, att vandra"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "verb",
+      "definition": "Att få en följd som gynnar eller slår tillbaka på någon.",
+      "friendly": "När äran (eller skulden) studsar tillbaka på den ansvariga — goda gärningar som redound till ditt rykte kommer tillbaka och belönar dig.",
+      "exampleGloss": "Lagets framgång kommer att redound till den tyste, hårt arbetande tränarens ära.",
+      "origin": "latin",
+      "rootMeanings": [
+        "tillbaka, åter",
+        "våg"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Omöjlig att undvika eller undkomma.",
+      "friendly": "Dömt att ske oavsett vad du gör — det går inte att slingra sig ur ett ineluctable utfall.",
+      "exampleGloss": "Ålderdomen kommer till alla; den är helt enkelt ineluctable.",
+      "origin": "latin",
+      "rootMeanings": [
+        "inte",
+        "att kämpa sig ur"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som använder omständliga, ordrika formuleringar i stället för en direkt form.",
+      "friendly": "Att ta omvägen med orden — att säga \"make a decision\" i stället för \"decide.\"",
+      "exampleGloss": "Hans periphrastic mejl hade kunnat säga på en rad vad som tog honom tre stycken.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "runtom",
+        "att förkunna, att berätta"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "substantiv",
+      "definition": "Andlig slöhet eller letargi.",
+      "friendly": "Det där dimmiga, tröga sinnestillståndet där tänkandet känns som att vada genom sirap.",
+      "exampleGloss": "En våg av hebetude slog till i klassen precis efter lunchen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "slö, trubbig",
+        "tillstånd eller egenskap"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Inte gynnsam; som bådar illa.",
+      "friendly": "Ett dåligt tecken — förhållanden eller timing som tycks arbeta emot dig innan du ens har börjat.",
+      "exampleGloss": "Grå himmel och ett dött bilbatteri gav en unpropitious start på roadtripen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "inte",
+        "gynnsam, nådig"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "adjektiv / verb",
+      "definition": "Kött stuvat eller bräserat i sås — rättstavas \"fricasseed.\"",
+      "friendly": "En ombonad gammal matlagningsterm för kött som skurits upp och sjötts långsamt i sin egen sås tills det är mört.",
+      "exampleGloss": "Mormors fricasseed kyckling var höjdpunkten på varje söndagsmiddag.",
+      "origin": "franska",
+      "rootMeanings": [
+        "att steka",
+        "att bryta (i bitar)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Ett konstgjort eller sämre substitut.",
+      "friendly": "En kopia som står in för originalet — den gör jobbet tekniskt sett, men alla ser att det inte är äkta vara.",
+      "exampleGloss": "Krigstidens kunder nöjde sig med ersatz-kaffe bryggt på rostade cikoria.",
+      "origin": "tyska",
+      "rootMeanings": [
+        "ut, ersättningsprefix",
+        "att sätta, att placera"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "verb",
+      "definition": "Att behandla en abstrakt idé som om den vore ett konkret ting.",
+      "friendly": "Att få en idé att kännas verklig och solid — att vända något luddigt, som \"the economy,\" till ett ting man kan peka på.",
+      "exampleGloss": "Att kalla en nations \"spirit\" för ett eget väsen reifies något som egentligen bara är miljoner enskilda val.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ting",
+        "att göra"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "verb (imperfekt)",
+      "definition": "Undkom eller undvek skickligt.",
+      "friendly": "Gled undan rent — smet från något, ofta listigt eller nätt och jämnt, vare sig det var ett gripande, en fråga eller ett svar.",
+      "exampleGloss": "Svaret eluded henne i timmar tills det plötsligt klickade i duschen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ut, bort",
+        "att leka"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som uttrycker tvivel, förvirring eller en olöst motsägelse.",
+      "friendly": "Fast i en verklig tankeåtervändsgränd — inte förvirrad av lättja, utan för att frågan själv motstår ett prydligt svar.",
+      "exampleGloss": "Sokrates avslutade ofta sina dialoger på en aporetic ton, med fler frågor än svar.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "utan",
+        "passage, väg"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett stilfigur som namnger något genom en förknippad term, t.ex. \"the crown\" för monarken.",
+      "friendly": "Att använda ett närbesläktat ord i stället för saken själv — att säga \"the White House announced\" när man menar administrationen.",
+      "exampleGloss": "\"Wall Street had a rough day\" är metonymy — det betyder egentligen att börsen hade det.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "ändring, efter",
+        "namn"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "verb",
+      "definition": "Att rycka upp med rötterna; att slita ur en naturlig miljö.",
+      "friendly": "Att dra upp något (eller någon) med rötterna, bort från den plats eller kultur de hör hemma i.",
+      "exampleGloss": "Kriget deracinated en hel generation och spred familjer över gränserna.",
+      "origin": "franska / latin",
+      "rootMeanings": [
+        "bort, av",
+        "rot"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Välljudande.",
+      "friendly": "Helt enkelt skönt att höra — ett euphonious ord, namn eller en mening rullar mjukt längs örat, nästan musikaliskt.",
+      "exampleGloss": "\"Murmuring brook\" är en euphonious liten fras, mjuk och lätt att säga.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "god, väl",
+        "ljud, röst"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Allmänt antagen eller förmodad att vara.",
+      "friendly": "Allmänt trodd vara sann, även om det inte egentligen är bevisat — den \"supposed\" versionen av något.",
+      "exampleGloss": "Den putative författaren till brevet visade sig senare vara en total främling.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att tänka, att anse",
+        "som har naturen av"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett nybildat ord eller uttryck.",
+      "friendly": "Ett alldeles nytt ord — nyss uppfunnet, ännu inte (eller knappt) i ordboken.",
+      "exampleGloss": "\"Doomscrolling\" började som en neologism och blev snabbt vardagsslang.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "ny",
+        "ord, tal"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Arg eller vresig.",
+      "friendly": "I ett surt, irriterat humör — snabb att smälla till, så som man en gång trodde att mjälten styrde lynnet.",
+      "exampleGloss": "Han skickade iväg ett splenetic svar på mejlet inom sekunder efter att ha läst det.",
+      "origin": "grekiska / latin",
+      "rootMeanings": [
+        "mjälte (vredeens säte)",
+        "påverkad av"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Benägen att moralisera på ett pompöst eller tillgjort sätt.",
+      "friendly": "Älskar att dela ut små livsläxor på ett självupptaget sätt, som om varje mening vore en lyckokaka.",
+      "exampleGloss": "Hans sententious skål om \"the true meaning of friendship\" fick alla att kolla klockan.",
+      "origin": "latin",
+      "rootMeanings": [
+        "åsikt, sentens",
+        "full av"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Överdrivet pratsam, särskilt om triviala saker.",
+      "friendly": "Slutar bara inte prata — raljerar om småsaker långt efter att alla andra har slut på samtalsämnen.",
+      "exampleGloss": "Den garrulous taxichauffören berättade hela sitt liv innan vi hade lämnat flygplatsen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att pladdra, att tjattra",
+        "benägen att"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "substantiv",
+      "definition": "Dårskap, fånighet.",
+      "friendly": "Ren dårskap — en kommentar eller plan så fånig att den knappt förtjänar ett seriöst svar.",
+      "exampleGloss": "Planens rena fatuity blev uppenbar i samma ögonblick de prövade den.",
+      "origin": "latin",
+      "rootMeanings": [
+        "dåraktig, fånig",
+        "tillstånd att vara"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "substantiv",
+      "definition": "Den avslutande delen av ett tal, ofta sammanfattande.",
+      "friendly": "Talets stora avslutning — sista avsnittet där talaren samlar allt och slår in poängen.",
+      "exampleGloss": "Vid peroration stod halva publiken på fötterna.",
+      "origin": "latin",
+      "rootMeanings": [
+        "igenom, till slutet",
+        "att tala, att plädera"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "substantiv",
+      "definition": "Onödig upprepning av samma idé med andra ord.",
+      "friendly": "Att säga samma sak två gånger utan att lägga till något nytt, som \"free gift\" eller \"end result.\"",
+      "exampleGloss": "\"It is what it is\" är en favorit-tautology bland folk som undviker en riktig förklaring.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "densamma",
+        "ord, tal"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "substantiv",
+      "definition": "Bruket av mycket få ord; knapphändigt tal.",
+      "friendly": "Att säga mycket med väldigt lite — konsten av det korta, raka svaret, uppkallad efter de beryktat fåordiga spartanerna i Lakonien.",
+      "exampleGloss": "\"Molon labe\" — \"come and take them\" — är historiens mest berömda stycke laconism.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "en spartan från Lakonien",
+        "sed, sätt"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "substantiv",
+      "definition": "Tama, överförenklade idéer; ursprungligen tam mat eller välling.",
+      "friendly": "Tunt, urvattnat tänkande — innehåll så förenklat och säkert att det saknar näring för sinnet.",
+      "exampleGloss": "Politikerns tal var mest pabulum: vaga löften utan något att ta på.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att föda",
+        "medel eller redskap"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som framkallar sömn eller dåsighet.",
+      "friendly": "Så tråkigt — eller så bokstavligt sövande — att det gör en sömnig. Tänk varm mjölk, eller ett tre timmar långt budgetmöte.",
+      "exampleGloss": "Föreläsningens soporific surr fick halva rummet att kämpa för att hålla ögonen öppna.",
+      "origin": "latin",
+      "rootMeanings": [
+        "djup sömn",
+        "görande, framkallande"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Överdrivet smickrande eller oljig i sättet.",
+      "friendly": "Så slätt charmig att det känns halt — smicker lagt på så tjockt att man nästan känner fettet.",
+      "exampleGloss": "Den unctuous säljaren fortsatte berömma min \"excellent taste\" före varje merförsäljning.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att smörja, att olja",
+        "full av"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Snabb att anmärka, överdrivet kritisk mot triviala saker.",
+      "friendly": "Petig till ett fel — typen som hittar fel i allt, även när det inte spelar någon roll.",
+      "exampleGloss": "Hans captious anmärkningar på rapporten handlade bara om kommatering.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att gripa, att ta",
+        "en fälla, ett sofism"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Trög, mentalt eller fysiskt overksam.",
+      "friendly": "Långsam och halvsovande, som en björn i ide — knappt i rörelse, knappt i tanke.",
+      "exampleGloss": "Kontoret föll torpid i augustivärmen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att vara domnad, att vara trög",
+        "i ett tillstånd av"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "substantiv",
+      "definition": "En förvaltare eller ämbetsman som skötte ett medeltida hushåll.",
+      "friendly": "Medeltidens motsvarighet till en stabschef — den betrodda tjänstemannen som drev en herres hushåll och gods från dag till dag.",
+      "exampleGloss": "Borgens seneschal skötte allt från skördeböcker till gästlistan.",
+      "origin": "frankiska / forfranska",
+      "rootMeanings": [
+        "gammal, senior",
+        "tjänare"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "verb",
+      "definition": "Att tala eller skriva utförligt om ett ämne.",
+      "friendly": "Att verkligen komma igång om ett ämne — tala eller skriva på och på, och täcka det från varje vinkel.",
+      "exampleGloss": "Fråga honom om veteranbilar så kommer han att expatiate i en timme i sträck.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ut",
+        "rum"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Utan värde, obetydlig; även ogiltig eller verkningslös.",
+      "friendly": "Värt i princip ingenting — en nugatory klausul i ett kontrakt är en som inte egentligen gör något.",
+      "exampleGloss": "Domstolen dömde den gamla stadgan nugatory, eftersom den aldrig hade tillämpats.",
+      "origin": "latin",
+      "rootMeanings": [
+        "bagateller, strunt",
+        "tillhörande"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "substantiv",
+      "definition": "Visdom, skarpsinnigt omdöme.",
+      "friendly": "Skarp, praktisk visdom — det goda omdöme som kommer av erfarenhet, inte bara boklig bildning.",
+      "exampleGloss": "Den gamle kaptenens sagacity höll besättningen undan från trubbel mer än en gång.",
+      "origin": "latin",
+      "rootMeanings": [
+        "skarpluktande, skarpsinnig",
+        "egenskap av"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "substantiv",
+      "definition": "Pöbeln eller massorna, använt föraktfullt.",
+      "friendly": "Ett snobbigt, avfärdande ord för \"the rabble\" eller vanligt folk, använt med förakt.",
+      "exampleGloss": "Greven hånlog åt canaille som samlades utanför palatsgrindarna.",
+      "origin": "italienska / franska",
+      "rootMeanings": [
+        "hund",
+        "kollektiv, flock"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "substantiv",
+      "definition": "Fräck, förödmjukande behandling eller språk.",
+      "friendly": "Grym, hånfull behandling avsedd att förödmjuka — den sortens skymf som är gjord för att svida.",
+      "exampleGloss": "Han uthärdade år av contumely från kritiker innan hans verk äntligen erkändes.",
+      "origin": "latin",
+      "rootMeanings": [
+        "med, grundligt",
+        "att svälla (av stolthet)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "adverb",
+      "definition": "Med misstänksamhet eller ogillande; en sidoblick.",
+      "friendly": "Den där sidoblicken du ger något du inte riktigt litar på — en blick laddad med tvivel.",
+      "exampleGloss": "Läraren såg askance på den misstänkt prydliga läxan.",
+      "origin": "osäkert / italienska",
+      "rootMeanings": [
+        "åt, till",
+        "sned, bias"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "substantiv",
+      "definition": "En dum person; ett träskalle.",
+      "friendly": "En gammaldags, nästan öm skymf för någon som är trög eller tjockskallig — en träskalle.",
+      "exampleGloss": "\"You clodpate,\" skrattade hon, \"you've had the map upside down the whole time.\"",
+      "origin": "engelska",
+      "rootMeanings": [
+        "jordklump",
+        "huvud"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "verb",
+      "definition": "Att sätta i rörelse eller handling; att motivera.",
+      "friendly": "Att vara gnistan som sätter något i rörelse — vare sig det är en maskin som slås på eller en person som äntligen handlar på en idé.",
+      "exampleGloss": "Rädslan att förlora kontraktet actuated hela laget till en helg med övertid.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ett görande, ett drivande",
+        "att driva, att göra"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Förskingring av medel anförtrodda ens vård.",
+      "friendly": "Att tyst stjäla pengar man var betrodd att sköta — förskingring i en gammaldags kappa.",
+      "exampleGloss": "Kassörens peculation gick obemärkt i nästan ett decennium.",
+      "origin": "latin",
+      "rootMeanings": [
+        "privat egendom",
+        "boskap, rikedom"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "substantiv",
+      "definition": "En grupp som anses stå i utkanten av den respektabla societeten.",
+      "friendly": "Den glamorösa men skumma sociala undervärlden — folk som lever strax utanför reglerna för \"respectable\" societet.",
+      "exampleGloss": "Romanen följer en sångerska som navigerar 1920-talets kabaréers demi-monde.",
+      "origin": "franska",
+      "rootMeanings": [
+        "halv",
+        "värld, societet"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Fortfarande existerande; inte utdöd eller förstörd.",
+      "friendly": "Fortfarande kvar i dag — används om gamla ting (handskrifter, arter, byggnader) som har lyckats överleva.",
+      "exampleGloss": "Bara tre extant exemplar av den första tryckningen är kända.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ut",
+        "att stå"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Svekfullhet; svek mot förtroende.",
+      "friendly": "Djupt, avsiktligt svek — att bryta ett förtroende som någon hade rätt att vänta att du skulle hålla.",
+      "exampleGloss": "Generalen förlät aldrig sin gamle väns perfidy vid förhandlingsbordet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "igenom, emot",
+        "tro, tillit"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "substantiv",
+      "definition": "En regional dialekt, särskilt en icke-standardspråklig.",
+      "friendly": "Det särpräglade, lokala sättet folk talar på i en viss trakt — fullt av ord och rytmer en utomstående kanske inte fångar.",
+      "exampleGloss": "Hennes mormor talade fortfarande öns patois vid familjemiddagar.",
+      "origin": "franska",
+      "rootMeanings": [
+        "grovt tal, dialekt",
+        "tass — klumpigt tal"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "substantiv",
+      "definition": "En särskild rätt som tillhör en person eller grupp.",
+      "friendly": "Ett privilegium som är ditt och bara ditt — en rätt som följer med din roll, ställning eller status.",
+      "exampleGloss": "Att välja familjens semestermål är farfars prerogative, och det vet alla.",
+      "origin": "latin",
+      "rootMeanings": [
+        "före",
+        "att fråga, att rösta"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "substantiv",
+      "definition": "Djärvhet, oförvägenhet; även tålighet eller uthållighet.",
+      "friendly": "Rå, modig motståndskraft — nerverna att gå vidare och tuffheten att fortsätta när du väl gör det.",
+      "exampleGloss": "Det krävdes verklig hardihood att korsa passet i snöstorm utan karta.",
+      "origin": "forfranska / engelska",
+      "rootMeanings": [
+        "djärv, härdad",
+        "tillstånd, läge"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "verb",
+      "definition": "Att slå ut i blom; även att utvecklas eller gradvis framträda.",
+      "friendly": "Att slå ut i fullt uttryck — som en blomma som öppnar sig, eller en idé som äntligen kommer till sin rätt.",
+      "exampleGloss": "Hennes tysta målarbegåvning effloresced när hon väl fick en egen ateljé.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ut",
+        "att börja blomma"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "substantiv",
+      "definition": "En tyngd på ett snöre som används för att avgöra lodrätthet; bildligt, en måttstock för omdöme.",
+      "friendly": "En tyngd på ett snöre som hänger helt rakt ner, för att kolla om något är lodrätt — och i vidare mening varje fast måttstock du mäter allt annat mot.",
+      "exampleGloss": "Han använde sin egen farfars ärlighet som ett slags plumb-line för varje beslut.",
+      "origin": "latin / engelska",
+      "rootMeanings": [
+        "bly",
+        "snöre, mått"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "adverb",
+      "definition": "Gärna, villigt (ålderdomligt).",
+      "friendly": "Ett gammaldags sätt att säga \"gladly\" eller \"with pleasure.\"",
+      "exampleGloss": "\"I would fain rest here a while,\" suckade resenären.",
+      "origin": "forengelska",
+      "rootMeanings": [
+        "glad, ljuvlig",
+        "gärna, villigt"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "substantiv",
+      "definition": "Hård offentlig kritik eller vanära.",
+      "friendly": "Offentlig skam som hopas på någon på ett stort, synligt sätt — vanäran som kommer av utbrett ogillande.",
+      "exampleGloss": "Skandalen drog offentlig opprobrium över hela firman.",
+      "origin": "latin",
+      "rootMeanings": [
+        "emot",
+        "vanära, förebråelse"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Skarpt sarkastisk, bitande i kvickhet eller kritik.",
+      "friendly": "Kvickhet med riktiga tänder — en mordant kommentar svider lite just för att den är så träffsäkert riktad.",
+      "exampleGloss": "Hennes mordant filmrecensioner fruktades av regissörer och älskades av läsare.",
+      "origin": "latin / franska",
+      "rootMeanings": [
+        "att bita",
+        "bitande, görande"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "substantiv",
+      "definition": "En formell proklamation, ofta politisk eller militär.",
+      "friendly": "Ett stort, officiellt tillkännagivande — vanligen ett som utropar en ny regering, ett uppror eller ett stort dekret.",
+      "exampleGloss": "Generalens pronunciamento tillkännagav den nya regeringen i gryningen.",
+      "origin": "spanska",
+      "rootMeanings": [
+        "fram",
+        "att tillkännage"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "substantiv",
+      "definition": "En person med ytlig kunskap som låtsas vara expert.",
+      "friendly": "Någon som har skummat ytan av ett ämne och sedan pratar som om de skrev läroboken om det.",
+      "exampleGloss": "Middagsbjudningens sciolist rättade självsäkert den faktiska astrofysikern vid bordet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att veta",
+        "diminutiv — en liten vetare"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "substantiv",
+      "definition": "Avtagande av de mentala förmågorna på ålderns höst.",
+      "friendly": "Den dimmiga, glömska sträckan av hög ålder när sinnets skärpa börjar falna.",
+      "exampleGloss": "I sin dotage berättade han samma tre historier varje besök, varje gång som om de vore nya.",
+      "origin": "medelengelska",
+      "rootMeanings": [
+        "att dota, att vara dåraktig",
+        "tillstånd eller resultat"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "substantiv",
+      "definition": "Sidan som är skyddad från vinden.",
+      "friendly": "Den lugna, skyddade sidan av något — en kulle, ett skepp, en mur — där vinden inte riktigt når dig.",
+      "exampleGloss": "Vandrarna slog upp tältet på åsens lee-side för att slippa byarna.",
+      "origin": "forengelska",
+      "rootMeanings": [
+        "skydd, värn",
+        "flank, sida"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "verb",
+      "definition": "Att avvärja eller slå undan ett slag, en fråga eller ett argument.",
+      "friendly": "Att mjukt slå undan något — ett svärdshugg, en besvärlig fråga eller en anklagelse — utan att tappa takten.",
+      "exampleGloss": "Hon parried reporterns knepiga fråga med ett lätt skämt.",
+      "origin": "franska",
+      "rootMeanings": [
+        "att avvärja",
+        "att bereda, att försvara"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Illaluktande, skadlig.",
+      "friendly": "Stinkande på ett sätt som känns nästan giftigt — en stank så illa att det tycks farligt att andas.",
+      "exampleGloss": "En mephitic lukt drev upp från träsket när solen gick ner.",
+      "origin": "latin",
+      "rootMeanings": [
+        "skadlig ånga",
+        "som har naturen av"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "substantiv",
+      "definition": "En person hängiven lyx och njutning.",
+      "friendly": "Någon som lever för bekvämlighet och njutning — fin mat, mjuka sängar, lätt liv — uppkallad efter den antika grekiska staden Sybaris, känd för sitt överflöd.",
+      "exampleGloss": "En sann sybarite, han vägrade vilket hotellrum som helst utan badkar.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "antik grekisk stad känd för lyx",
+        "invånare i"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "verb",
+      "definition": "Att medvetet lägga åt sidan eller ignorera en del av något.",
+      "friendly": "Att mentalt lägga en pusselbit åt sidan med flit, så att du kan fokusera rent på resten.",
+      "exampleGloss": "Låt oss prescind från kostnaden ett ögonblick och bara fråga om planen faktiskt fungerar.",
+      "origin": "latin",
+      "rootMeanings": [
+        "före, bort",
+        "att skära"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "verb",
+      "definition": "Att kritisera hårt; även att flå huden av.",
+      "friendly": "Att slita i någon med hård kritik — verbalt, som om du bokstavligen flådde huden av.",
+      "exampleGloss": "Kritikerna excoriated uppföljaren för att ha svikit allt fansen älskade med originalet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "av",
+        "skinn, hud"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "verb",
+      "definition": "Att anföra som bevis eller belägg.",
+      "friendly": "Att föra fram ett faktum eller exempel till stöd för din poäng — det du pekar på när någon frågar \"what's your evidence?\"",
+      "exampleGloss": "Advokaten adduced tre vittnen till stöd för klientens alibi.",
+      "origin": "latin",
+      "rootMeanings": [
+        "till, mot",
+        "att leda"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "substantiv",
+      "definition": "Resor eller vandringar, särskilt långa eller omfattande.",
+      "friendly": "Långa, kringflackande färder — den sortens omfattande vandring som för dig långt hemifrån en god stund.",
+      "exampleGloss": "Hans peregrinations över tre kontinenter fyllde en hel hylla med resedagböcker.",
+      "origin": "latin",
+      "rootMeanings": [
+        "igenom",
+        "fält, land (peregrinus: främling)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "substantiv",
+      "definition": "En tiggare, eller en som lever på allmosor.",
+      "friendly": "Någon som lever av att be om välgörenhet — historiskt beskrev detta också munkar som tog fattigdomslöften och levde på gåvor.",
+      "exampleGloss": "De mendicant bröderna ägde ingenting och förlitade sig helt på bybornas godhet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att tigga",
+        "tiggare"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Ytterst generös.",
+      "friendly": "Generös i en stor, nästan prålig skala — den sortens gåva som får folk att flämta till.",
+      "exampleGloss": "Den munificent donationen finansierade hela bibliotekets nya flygel.",
+      "origin": "latin",
+      "rootMeanings": [
+        "gåva, tjänst",
+        "görande, givande"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "substantiv",
+      "definition": "Utmattning av brist på näring; även brist på livskraft.",
+      "friendly": "Ett svagt, tömt tillstånd av att inte ha fått mat eller bränsle — bokstavligen av hunger, eller bildligt av att inte ha något kvar att gå på.",
+      "exampleGloss": "Vid belägringens slut var soldaterna nära inanition.",
+      "origin": "latin",
+      "rootMeanings": [
+        "tom, vakum",
+        "handlingen eller resultatet av"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Bitter, skymfande kritik.",
+      "friendly": "Kritik som har gått långt förbi det sakliga och förvandlats till ett vredgat, bittert utbrott.",
+      "exampleGloss": "Nätkommentarerna upplöstes i ren vituperation inom minuter.",
+      "origin": "latin",
+      "rootMeanings": [
+        "fel",
+        "att bereda, att förse"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Fientlig, skadlig i verkan.",
+      "friendly": "Arbetar emot dig, även tyst — förhållanden eller attityder som är ovänliga mot dina intressen.",
+      "exampleGloss": "Den nya politiken var inimical mot småföretag, även om det inte var avsikten.",
+      "origin": "latin",
+      "rootMeanings": [
+        "inte",
+        "vän"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Benägen att väcka förbittring eller missnöje, ofta genom orättvisa jämförelser.",
+      "friendly": "Dömt att få någon att känna sig åsidosatt — oftast för att det ställer folk eller ting mot varandra på ett orättvist sätt.",
+      "exampleGloss": "Att ranka syskonen efter \"who Mom loves best\" är ett invidious spel som ingen borde leka.",
+      "origin": "latin",
+      "rootMeanings": [
+        "avund",
+        "att se på (med illvilja)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "substantiv",
+      "definition": "En person av lägre rang eller status; en underordnad.",
+      "friendly": "Någon längre ner i kommandokedjan eller den sociala stegen — en junior, som arbetar under någon med mer makt.",
+      "exampleGloss": "Som ung subaltern tog han order länge innan han någonsin gav dem.",
+      "origin": "latin",
+      "rootMeanings": [
+        "under",
+        "växelvis, annan"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "verb",
+      "definition": "Att känna eller uttrycka starkt hat för.",
+      "friendly": "Att avsky något så mycket att du förbannar det högt — ren, högljudd avsky.",
+      "exampleGloss": "Byborna execrated skatteindrivaren varje gång hans vagn rullade genom byn.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ur",
+        "helig (att förbanna ut ur det heliga)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett naturligt yttre hölje, som hud eller ett skal.",
+      "friendly": "Naturens eget skyddande omslag — hud, skal, hylsa eller skal, vad som än täcker och skyddar något levande.",
+      "exampleGloss": "En sköldpaddas skal är ett anmärkningsvärt tåligt integument.",
+      "origin": "latin",
+      "rootMeanings": [
+        "på, över",
+        "att täcka"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Oskyldig, naiv, med barnslig enkelhet; motsatsen till \"disingenuous.\"",
+      "friendly": "Öppet tillitsfull och lite naiv, utan dold agenda — lätt att blanda ihop med \"ingenious,\" som betyder klok.",
+      "exampleGloss": "Hennes ingenuous fråga — \"why would anyone lie about that?\" — visade hur lite list hon hade.",
+      "origin": "latin",
+      "rootMeanings": [
+        "i, infödd",
+        "att avla (frifödd, uppriktig)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "substantiv",
+      "definition": "Överdriven omsorg om smådetaljer eller regler.",
+      "friendly": "Att gå vilse i de små reglerna och missa den större bilden — att älta det finstilta som ingen annan bryr sig om.",
+      "exampleGloss": "Hans pedantry om Oxford-komman spårade ur hela mötet.",
+      "origin": "italienska / latin",
+      "rootMeanings": [
+        "barnens lärare",
+        "praxis eller egenskap"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "substantiv",
+      "definition": "En grundlig, omsorgsfull undersökning.",
+      "friendly": "En djup, ingen-sten-orörd blick på något — att gå igenom varje detalj med verklig omsorg.",
+      "exampleGloss": "Först efter en noggrann perscrutation av liggarna dök avvikelsen upp.",
+      "origin": "latin",
+      "rootMeanings": [
+        "igenom, grundligt",
+        "att söka, att undersöka"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "verb",
+      "definition": "Att resa invändningar; att visa motvilja.",
+      "friendly": "Att artigt backa eller tveka i stället för att haka på direkt — ett mjukt \"I'd rather not.\"",
+      "exampleGloss": "När hon ombads skriva under utan att läsa, demurred hon.",
+      "origin": "latin / franska",
+      "rootMeanings": [
+        "från, bort",
+        "att dröja"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Ytligt plausibel men i själva verket fel.",
+      "friendly": "Låter övertygande vid första ögonkastet men faller isär så fort du faktiskt granskar det.",
+      "exampleGloss": "\"Everyone's doing it\" är ett specious argument som aldrig riktigt håller vid närmare granskning.",
+      "origin": "latin",
+      "rootMeanings": [
+        "utseende, uppsyn",
+        "full av (skenbart skön)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "substantiv",
+      "definition": "Oärligt, hycklande tal, ofta moraliserande.",
+      "friendly": "Predikande tal som låter dygdigt men inte backas av någon riktig känsla — moralisk posering på autopilot.",
+      "exampleGloss": "Han var trött på det korporativa cant om \"family\" från ett företag som aldrig gav någon ledigt.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att sjunga (senare: sjungande jargong)",
+        "tiggares gnällande tal, sedan hyckleri"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som saknar mod, feg.",
+      "friendly": "Räddhågad till ryggradslöshet — för rädd för att stå upp även när det uppenbart spelar roll.",
+      "exampleGloss": "Styrelsens pusillanimous tystnad lät skandalen spirala ur kontroll.",
+      "origin": "latin",
+      "rootMeanings": [
+        "mycket liten",
+        "ande, mod"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Rävlik; slug, listig.",
+      "friendly": "Slug och klok som en räv — kvicktänkt, lite smygande, alltid ett steg före.",
+      "exampleGloss": "Han log ett vulpine leende i samma ögonblick han såg kryphålet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "räv",
+        "av eller lik"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "adverb",
+      "definition": "En efter en, i följd.",
+      "friendly": "Tagna strikt en i taget, i ordning — inget hopp framåt, inget av två på en gång.",
+      "exampleGloss": "Domaren behandlade vart och ett av de tolv kraven seriatim.",
+      "origin": "latin",
+      "rootMeanings": [
+        "rad, följd",
+        "en i taget"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "substantiv",
+      "definition": "Extrem sparsamhet; snålhet.",
+      "friendly": "Att vara knusslig med pengar (eller ord, eller resurser) långt förbi rimlig sparsamhet.",
+      "exampleGloss": "Hans parsimony var legendarisk — han återanvände tepåsar tre gånger om.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att spara, att vara sparsam",
+        "tillstånd eller praxis"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "substantiv",
+      "definition": "En rättelse, särskilt i en text.",
+      "friendly": "En lagning i en skrift — en lärd justering som rättar ett fel i en gammal eller viktig text.",
+      "exampleGloss": "Den nya utgåvan rymmer dussintals emendations av originalmanuskriptet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ur",
+        "fel, misstag"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Måttlig i ätande och drickande.",
+      "friendly": "Medvetet återhållsam kring mat och dryck — aldrig överdrivet, alltid lämnar lite på tallriken.",
+      "exampleGloss": "Hans abstemious vanor höll honom skarp länge efter att hans jämlikar hade saktat ner.",
+      "origin": "latin",
+      "rootMeanings": [
+        "bort från",
+        "berusande dryck"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett grammatiskt misstag eller ett brott mot etiket.",
+      "friendly": "Ett misstag i grammatik eller manér — den sortens lilla fel som får en pedant att ryna på näsan.",
+      "exampleGloss": "\"Between you and I\" är en vanlig solecism som fortfarande får grammatiker att rygga.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "kilikisk stad känd för 'dålig' grekiska",
+        "sed, sätt"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Som rör konflikt inom en grupp; ömsesidigt förödande.",
+      "friendly": "Inbördes strid som river sönder en grupp inifrån — en kamp där alla förlorar, för det är familj mot familj.",
+      "exampleGloss": "Partiets internecine käbbel gjorde mer skada än någon yttre motståndare kunde.",
+      "origin": "latin",
+      "rootMeanings": [
+        "mellan, bland",
+        "att döda"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "adjektiv / substantiv",
+      "definition": "Likgiltig, vårdslös attityd.",
+      "friendly": "En axelryckning vänd till en hel personlighet — att bry sig så lite om saker som brukade spela roll att inget längre verkar värt mödan.",
+      "exampleGloss": "Hans pococurante attityd till prisceremonin förvånade alla som visste hur hårt han hade arbetat.",
+      "origin": "italienska",
+      "rootMeanings": [
+        "litet",
+        "att bry sig"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "substantiv",
+      "definition": "En förvirrad, komplicerad situation eller tvist.",
+      "friendly": "En trasslig, rörig situation som är svår att begripa — delvis missförstånd, delvis drama, helt förvirring.",
+      "exampleGloss": "Hela sittplatskartan-imbroglio började med ett felplacerat namnkort.",
+      "origin": "italienska",
+      "rootMeanings": [
+        "i",
+        "att trassla, att förvirra"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Hotfull, hotande.",
+      "friendly": "Bärande en omisskännlig luft av hot — en minatory blick eller ett minatory brev gör det mycket tydligt att något illa kan följa.",
+      "exampleGloss": "Brevets minatory ton gjorde hyresgästen nervös innan hon ens öppnat kuvertet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att hota",
+        "tjänande till"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "substantiv",
+      "definition": "Stark offentlig kritik eller verbal skymf.",
+      "friendly": "Högljudd, offentlig fördömelse — den sortens svidande kritik som utspelar sig inför alla.",
+      "exampleGloss": "Visselblåsaren mötte år av offentlig obloquy innan historien gav henne rätt.",
+      "origin": "latin",
+      "rootMeanings": [
+        "emot",
+        "att tala"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett plötsligt våldsamt utbrott, av känsla eller handling.",
+      "friendly": "En plötslig, intensiv stöt som överväldigar dig på en gång — ett skrattanfall, raseri eller hosta som slår som en våg.",
+      "exampleGloss": "Hon greps av ett paroxysm av skratt hon inte kunde förklara för någon annan i rummet.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "bortom",
+        "skarp, akut"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Tillagd från en yttre källa, inte inneboende.",
+      "friendly": "Skruvad på utifrån i stället för inbyggd från början — ett extra, inte en kärndel.",
+      "exampleGloss": "Kommentaren känns adscititious, som om den klistrats på en redan färdig text.",
+      "origin": "latin",
+      "rootMeanings": [
+        "till, dessutom",
+        "att godkänna, att anta"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "substantiv",
+      "definition": "Brist på kunskap, okunnighet.",
+      "friendly": "Enkelt inte-vetande — en kunskapslucka, utan någon värdering fäst vid den.",
+      "exampleGloss": "Han medgav sin nescience om franskt vin och lät sommelieren välja.",
+      "origin": "latin",
+      "rootMeanings": [
+        "inte",
+        "att veta"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "substantiv",
+      "definition": "Överdrivet intresse för sexuella angelägenheter.",
+      "friendly": "En överivrig, gloende nyfikenhet på allt pikant — intresse som har gått förbi det sunda och blivit närgånget.",
+      "exampleGloss": "Tabloidens prurience kring paretets privatliv gränsade till det tvångsmässiga.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att klia, att längta efter",
+        "tillstånd av"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Sotig, mörk, disig.",
+      "friendly": "Mörk och rökig till utseendet, som om allt vore täckt av ett tunt lager sot.",
+      "exampleGloss": "En fuliginous dis hängde över fabriksstaden i skymningen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "sot",
+        "full av"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "verb",
+      "definition": "Att förneka eller motsäga.",
+      "friendly": "Att rakt tala emot något någon annan sagt — att säga \"that's not so.\"",
+      "exampleGloss": "Ingen vågade gainsay den gamle kaptenens skildring av stormen.",
+      "origin": "medelengelska",
+      "rootMeanings": [
+        "emot",
+        "att tala"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "substantiv",
+      "definition": "Lathet, lättja (från latin).",
+      "friendly": "Ett gammalt latinskt ord för ren lathet — släpet i att inte vilja göra någonting alls.",
+      "exampleGloss": "Munkarna predikade mot ignavia som en av själens tysta faror.",
+      "origin": "latin",
+      "rootMeanings": [
+        "inte",
+        "upptagen, flitig"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "substantiv",
+      "definition": "En sköld som visar ett vapen.",
+      "friendly": "Den sköldformade emblem som visar en familjs vapen — dess heraldiska \"nameplate.\"",
+      "exampleGloss": "Familjens escutcheon hänger fortfarande ovanför den gamla herrgårdens ytterdörr.",
+      "origin": "latin / forfranska",
+      "rootMeanings": [
+        "sköld",
+        "diminutiv / föremål"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Föråldrad, obsolet, eller pensionerad på grund av ålder.",
+      "friendly": "Förbi sin nyttiga topp och satt på bete — för gammaldags eller utsliten för att fortsätta göra jobbet.",
+      "exampleGloss": "Den superannuated skrivaren byttes äntligen ut efter femton års pappersstopp.",
+      "origin": "latin",
+      "rootMeanings": [
+        "bortom",
+        "år"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "substantiv",
+      "definition": "Substitut, särskilt inom medicin.",
+      "friendly": "Ersättningsmedel som används när den riktiga behandlingen inte finns — medicinska understudies, i grund och botten.",
+      "exampleGloss": "Krigstidens läkare förlitade sig ofta på succedanea när de rätta medicinerna tog slut.",
+      "origin": "latin",
+      "rootMeanings": [
+        "i stället för",
+        "att gå, att vika"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "substantiv",
+      "definition": "Skrytsam, skrävlande prat.",
+      "friendly": "Stort, blåsigt skryt — högljutt tal om din egen storhet som mest är tom luft.",
+      "exampleGloss": "Hans rodomontade om att \"single-handedly\" ha räddat projektet lurade ingen som faktiskt hade varit där.",
+      "origin": "italienska",
+      "rootMeanings": [
+        "skrytsam riddare i Orlando Furioso",
+        "handling, uppvisning"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "verb",
+      "definition": "Att använda knep eller svek för att uppnå något.",
+      "friendly": "Att slingra sig till ett mål genom smygknep snarare än schysst spel.",
+      "exampleGloss": "Han chicaned sig in i affären med ett kontrakt fullt av finstilt.",
+      "origin": "franska",
+      "rootMeanings": [
+        "att käbbla, att lura",
+        "knep; senare en skarp sväng"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "substantiv",
+      "definition": "Den rena eller abstrakta vetenskapen om lärande eller kunskap, ofta matematik.",
+      "friendly": "Lärande i sin renaste, mest abstrakta form — kunskapens djupa struktur själv, särskilt den matematiska sorten.",
+      "exampleGloss": "Filosofen drömde om en universell mathesis som kunde ena varje kunskapsfält.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "att lära",
+        "handlingen att lära"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Överdrivet upptagen av formella regler eller triviala detaljer.",
+      "friendly": "Överdrivet strikt om småsakerna — rättar små teknikaliteter som inte egentligen ändrar något.",
+      "exampleGloss": "Det kändes lite pedantic att bråka om \"who\" kontra \"whom\" i ett textmeddelande.",
+      "origin": "italienska / grekiska",
+      "rootMeanings": [
+        "barnledare, handledare",
+        "som har sättet av"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett blixtrande, gnistrande ljus.",
+      "friendly": "En snabb, glittrande ljusglimt — tänk solljus som studsar mot vatten, eller en diamant som fångar ljuset.",
+      "exampleGloss": "Kronljusets coruscation strödde ljus över varje hörn av balsalen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att glittra, att blixtra",
+        "handlingen av"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "substantiv",
+      "definition": "En nybörjare, novis.",
+      "friendly": "Någon alldeles ny i en färdighet eller ett fält — fortfarande i färd med att lära sig grunderna, ännu inte expert.",
+      "exampleGloss": "Även en tyro schackspelare kan se det där grodan.",
+      "origin": "latin",
+      "rootMeanings": [
+        "rekryt, novis",
+        "en rå ung soldat"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Ytterst dålig, avskyvärd.",
+      "friendly": "Dålig på ett sätt som förtjänar verklig avsky — inte bara \"mediocre,\" utan verkligt avskyvärd.",
+      "exampleGloss": "Recensenten kallade uppföljaren execrable, och biografsiffrorna höll med.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att förbanna",
+        "värd, i stånd att bli"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Blodsröd till färgen.",
+      "friendly": "Ett djupt, livfullt rött — färgen av färskt blod, berömt använt av Shakespeares Macbeth.",
+      "exampleGloss": "Solnedgången vände hela himlen till en incarnadine glöd.",
+      "origin": "italienska / latin",
+      "rootMeanings": [
+        "in i",
+        "kött (kött-röd)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett litet mellanrum eller en spalt mellan ting.",
+      "friendly": "Det lilla mellanrummet som är lätt att förbise — springan mellan golvtiljorna, luckan i ett schema.",
+      "exampleGloss": "Ogräs trängde upp genom varje interstice i den gamla tegelgången.",
+      "origin": "latin",
+      "rootMeanings": [
+        "mellan",
+        "att stå"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "substantiv",
+      "definition": "Kritiska eller klandrande anmärkningar.",
+      "friendly": "Spetsiga, ogillande kommentarer — den sortens kritik som bär en smula skällande ton.",
+      "exampleGloss": "Professorns animadversions på uppsatsen fyllde marginalerna med röd bläck.",
+      "origin": "latin",
+      "rootMeanings": [
+        "sinne",
+        "att vända mot"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Omöjlig att vederlägga, obestridlig.",
+      "friendly": "Så solidt bevisad att det inte går att argumentera emot — fallet är helt enkelt stängt.",
+      "exampleGloss": "DNA-beviset var irrefragable, och rättegången var över inom timmen.",
+      "origin": "latin",
+      "rootMeanings": [
+        "inte",
+        "att motstå, att sätta sig emot"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "substantiv",
+      "definition": "Komplexitet, inveckladhet; även en invridning.",
+      "friendly": "En trasslig, invikt-i-sig-själv sorts komplexitet — saker virade så tätt att de är svåra att dra isär.",
+      "exampleGloss": "Handlingens involution lämnade halva publiken försökande nysta upp den efter texterna.",
+      "origin": "latin",
+      "rootMeanings": [
+        "in, inåt",
+        "att rulla, att vända"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "substantiv",
+      "definition": "Kraft eller möda, som i \"by dint of.\"",
+      "friendly": "Ren möda eller kraft — överlever mest i dag i frasen \"by dint of.\"",
+      "exampleGloss": "Han klarade examen by dint of ren, envis övning.",
+      "origin": "forengelska",
+      "rootMeanings": [
+        "ett slag, en stöt",
+        "med kraft av"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Hopfogad med tappskarv; stadigt infogad.",
+      "friendly": "Låst ihop på det gammaldags snickarsättet — en bit som glider tätt in i ett hål skuret just för den.",
+      "exampleGloss": "Den gamla ladans balkar var mortised ihop utan en enda spik.",
+      "origin": "latin / franska",
+      "rootMeanings": [
+        "ett urtag, ett hål",
+        "ett bett, ett grepp"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Högst relevant, träffande.",
+      "friendly": "Precis rätt för stunden — en kommentar, ett citat eller ett exempel som landar helt på pricken.",
+      "exampleGloss": "Hennes apposite anmärkning sammanfattade hela debatten i en mening.",
+      "origin": "latin",
+      "rootMeanings": [
+        "till",
+        "att placera"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Mjukt glödande eller fladdrande (ljus); även lätt kvickhet.",
+      "friendly": "Glödande milt snarare än flammande — ett mjukt, fladdrande ljus, eller en kvickhet som är lekfull snarare än skarp.",
+      "exampleGloss": "Stearinljus kastade en lambent glöd över det gamla matrummet.",
+      "origin": "latin",
+      "rootMeanings": [
+        "att slicka",
+        "görande (ljus som 'slickar')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "substantiv",
+      "definition": "En religiös eremit som lever i ensamhet.",
+      "friendly": "Någon som drar sig undan världen helt för att leva ensam i bön och eftertanke.",
+      "exampleGloss": "Anchorite bodde i en liten cell fäst vid kyrkan i över trettio år.",
+      "origin": "grekiska",
+      "rootMeanings": [
+        "tillbaka, bort",
+        "att dra sig undan"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "verb",
+      "definition": "Att stilla törst; att släcka.",
+      "friendly": "Att helt stilla ett begär — oftast törst, men bildligt vilket djupt behov som helst.",
+      "exampleGloss": "Ett kallt glas vatten slaked hans törst efter den långa vandringen.",
+      "origin": "forengelska",
+      "rootMeanings": [
+        "slak, lös",
+        "att slappa, att stilla"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Nålformad.",
+      "friendly": "Lång, tunn och spetsig som en nål — formen av en tallbarr eller en skarp liten kristall.",
+      "exampleGloss": "Tallar är lätta att känna igen på sina acicular blad.",
+      "origin": "latin",
+      "rootMeanings": [
+        "nål",
+        "liten"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "adjektiv",
+      "definition": "Uttömd på livskraft, svag, överförfinad.",
+      "friendly": "Utsliten och mjuk — har förlorat sin ursprungliga styrka eller spänst genom för mycket bekvämlighet eller förfining.",
+      "exampleGloss": "Kritiker kallade den en gång så djärva tidskriften effete, en skugga av sina tidiga djärva år.",
+      "origin": "latin",
+      "rootMeanings": [
+        "ut",
+        "fruktbar, som har burit"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "substantiv",
+      "definition": "Ett tillbehör eller ett mindre vidhängande föremål eller rättighet.",
+      "friendly": "Ett litet extra som följer med något större — tillbehören och påhängena som hör till huvudsaken.",
+      "exampleGloss": "Hyresavtalet omfattade garaget och alla dess appurtenances.",
+      "origin": "latin / franska",
+      "rootMeanings": [
+        "till",
+        "att tillhöra"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "verb",
+      "definition": "Att skyla över eller förminska ett fel.",
+      "friendly": "Att släta över ett misstag med mjuka ord, så att det låter mindre än det egentligen är.",
+      "exampleGloss": "Han försökte gloze över den missade deadlinen med vagt prat om \"unforeseen challenges.\"",
+      "origin": "forfranska / latin",
+      "rootMeanings": [
+        "en glosa, en förklaring",
+        "att kommentera — sedan att släta över"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "adjektiv",
+      "definition": "I ett tidigt skede, precis i början.",
+      "friendly": "Precis på väg att visa sig — det allra första, knappt synliga stadiet av något större som kommer.",
+      "exampleGloss": "Läkarna fångade de incipient tecknen på sjukdomen innan den kunde sprida sig.",
+      "origin": "latin",
+      "rootMeanings": [
+        "på, in i",
+        "att ta (att ta upp, att börja)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "substantiv",
+      "definition": "Kreativ inspiration, särskilt gudomlig.",
+      "friendly": "En plötslig rusning av inspiration som känns större än du — som om idén andades in i dig någon annanstans ifrån.",
+      "exampleGloss": "Poeten beskrev att hela stycket kom i en enda stöt av afflatus klockan tre på natten.",
+      "origin": "latin",
+      "rootMeanings": [
+        "till, på",
+        "att blåsa (ett andedräkt-på)"
+      ]
+    }
+  }
+}

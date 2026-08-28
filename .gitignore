@@ -83,3 +83,8 @@ credentials.json
 # Flutter test failure dumps (goldens themselves are committed if added)
 test/**/failures/
 *.log
+
+# Python translation tooling
+**/__pycache__/
+*.pyc
+l10n/cache/

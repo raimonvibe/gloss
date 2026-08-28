@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "verbi",
+      "definition": "Makeuttaa tai puhdistaa; poistaa karheus jostakin.",
+      "friendly": "Ottaa pisto tai karvaus jostakin — kirjaimellisesti makeuttamalla, tai kuvainnollisesti pehmentämällä kova ajatus, jotta se menee paremmin alas.",
+      "exampleGloss": "Toimittaja edulcorated kovan arvostelun ennen kuin se meni painoon.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos, perin pohjin",
+        "makea"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Liiallisen tai teennäisen uskonnollinen tai hurskas.",
+      "friendly": "Kuvaa ihmistä, jonka uskonnollinen hartaus tuntuu näytökseltä — enemmän esitystä kuin aitoa uskoa.",
+      "exampleGloss": "Hänen pietistic huokailunsa saarnan aikana ärsytti muuta penkkiriviä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "hurskaus, velvollisuudentunto",
+        "jonka luonne on"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kieliopillisesta rakenteesta syntyvä kaksiselitteisyys — lause, joka voidaan lukea kahdella tavalla.",
+      "friendly": "Lause, joka on kieliopillisesti kunnossa mutta voidaan lukea kahdella täysin eri tavalla, kuten \"I saw the man with the telescope.\"",
+      "exampleGloss": "\"Visiting relatives can be tiring\" on klassinen amphiboly — ovatko sukulaiset uuvuttavia, vai onko heidän luona käyminen?",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "molemmat, molemmin puolin",
+        "heittää"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Terävä, osuva, leikkaa suoraan asiaan.",
+      "friendly": "Leikkaa suoraan täytteen läpi — trenchant huomautus tai mieli pääsee asian ytimeen nopeasti, ilman turhia sanoja.",
+      "exampleGloss": "Hänen trenchant arvostelunsa ei jättänyt elokuvan juoniaukoille piilopaikkaa.",
+      "origin": "muinaisranska",
+      "rootMeanings": [
+        "leikata",
+        "tekevä, jonka laatu on"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Vasta alussa; varhaisessa tai alkeellisessa vaiheessa.",
+      "friendly": "Yhä avaushetkissään — suunnitelma, tunne tai prosessi, joka on vasta alkanut saada muotoa.",
+      "exampleGloss": "Sopimuksen inchoative vaiheet olivat lupaavia, mutta monet yksityiskohdat olivat vielä auki.",
+      "origin": "latina",
+      "rootMeanings": [
+        "aloittaa, käynnistää",
+        "joka pyrkii kohti"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Muodollinen puhe tai kirjoitus, joka ylistää ketään suuresti.",
+      "friendly": "Täysimittainen, muodollinen ylistys — ajattele hehkuvaa muistopuhetta tai puhetta, joka laulaa jonkun saavutuksia katoilta.",
+      "exampleGloss": "Eläkkeelle jäävä professori saateltiin matkaan panegyric-puheella lähimmiltä opiskelijoiltaan.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "kaikki",
+        "kokous, kokoontuminen"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Koskee todellista olemassaoloa tai tosiasiallista olemista, vastakohtana abstraktille teorialle.",
+      "friendly": "Asioista sellaisina kuin ne todella ovat olemassa, ei vain ideoina tai teorioina niistä.",
+      "exampleGloss": "Filosofit kiistelevät, onko luvuilla mitään ontic asemaa vai ovatko ne olemassa vain mielissämme.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "oleminen, se mikä on",
+        "joka liittyy"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "verbi",
+      "definition": "Kantaa hedelmää tai tulla tuottavaksi.",
+      "friendly": "Tuottaa vihdoin tulosta — ponnistus, idea tai sijoitus, joka fructify, on kasvanut siemenestä joksikin hyödylliseksi.",
+      "exampleGloss": "Vuosien hiljainen tutkimus fructified vihdoin toimivaksi rokotteeksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "hedelmä",
+        "tehdä, aiheuttaa"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Ennakoi tai esittää jotakin jo tehtynä ennen kuin se on todella tapahtunut.",
+      "friendly": "Juoksee edelle kirjallisesti — kuvaa tulevaa tapahtumaa kuin se olisi jo ohi, jotta pointti iskee kovemmin.",
+      "exampleGloss": "Kenraalin proleptical malja \"victory\":lle nostettiin kokonainen viikko ennen taistelua.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "ennen",
+        "ottaa, temmata"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Ilmanpaineella toimiva; myös henkeen tai hengitykseen liittyvä.",
+      "friendly": "Tarkoittaa yleensä \"paineilmalla toimivaa\" — vaikka se voi merkitä myös henkeä tai hengitystä.",
+      "exampleGloss": "Pneumatic jarrut sihisivät, kun bussi pysähtyi reunakivelle.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "tuuli, hengitys, henki",
+        "joka kuuluu"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Kuvaa Jumalaa tai jumalallista myönteisillä väitteillä — apofaattisen vastakohta.",
+      "friendly": "Tapa puhua Jumalasta sanomalla, mitä Jumala on — \"God is love\" — eikä vain, mitä Jumala ei ole.",
+      "exampleGloss": "Cataphatic teologia puhuu luottavaisesti Jumalasta rakastavana, oikeudenmukaisena ja laupiaana.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "alas, mukaan",
+        "puhua, sanoa"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Luottamukseen tai uskoon perustuva; myös kiinteä viitepiste.",
+      "friendly": "Jokin, jonka otat luottamuksella ja jota käytät sitten ankkurina — fiducial merkki on kiinteä piste, johon kaikki muu mitataan.",
+      "exampleGloss": "Maanmittarit asettivat fiducial merkin kallioperään ennen alueen kartoitusta.",
+      "origin": "latina",
+      "rootMeanings": [
+        "luottaa",
+        "luottamus, varmuus"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Jumalan hyvyyden puolustus pahan olemassaolon valossa.",
+      "friendly": "Iänikuinen yritys vastata kysymykseen \"If God is good, why does evil exist?\"",
+      "exampleGloss": "Hänen tutkielmansa tarkasteli theodicya Jobin kirjan kautta.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "jumala",
+        "oikeudenmukaisuus"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Keskinäinen asuminen toisissaan — teologinen termi sille, miten Kolminaisuuden persoonat ovat toisissaan.",
+      "friendly": "Teologian sana kolmessa-yhdessä-yhteydelle, joka on niin täydellinen, että kukin osa sisältää toiset ja sisältyy niihin.",
+      "exampleGloss": "Circumincession-oppi yrittää selittää, miten Isä, Poika ja Henki ovat erillisiä mutta erottamattomia.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ympäri",
+        "mennä, kävellä"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "verbi",
+      "definition": "Saada seuraus, joka hyödyttää ketään tai heijastuu takaisin häneen.",
+      "friendly": "Kun kunnia (tai syy) kimpoaa takaisin vastuulliselle — hyvät teot, jotka redound maineellesi, palaavat palkitsemaan sinua.",
+      "exampleGloss": "Joukkueen menestys tulee redound hiljaisen, ahkeran valmentajansa kunniaksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "takaisin, jälleen",
+        "aalto"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Mahdoton välttää tai paeta.",
+      "friendly": "Tapahtuu väistämättä, teitpä mitä tahansa — ineluctable lopputuloksesta ei luikahdeta pois.",
+      "exampleGloss": "Vanhuus tulee kaikille; se on yksinkertaisesti ineluctable.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ei",
+        "kamppailla ulos"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Käyttää kiertelevää, sanarikasta ilmaisua suoran muodon sijaan.",
+      "friendly": "Pitkä kiertotie sanoilla — sanoa \"make a decision\" sen sijaan että sanoisi \"decide.\"",
+      "exampleGloss": "Hänen periphrastic sähköpostinsa olisivat voineet sanoa yhdellä rivillä sen, mihin häneltä meni kolme kappaletta.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "ympäri",
+        "julistaa, kertoa"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Henkinen tylsyys tai letargia.",
+      "friendly": "Se utuinen, visva mielentila, jossa ajattelu tuntuu siirapissa kahlailulta.",
+      "exampleGloss": "Hebetude-aalto iski luokkaan heti lounaan jälkeen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tylppä, tumpelo",
+        "tila tai ominaisuus"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Epäsuotuisa; enteilee pahaa.",
+      "friendly": "Huono merkki — olosuhteet tai ajoitus, jotka tuntuvat toimivan sinua vastaan jo ennen kuin olet edes alkanut.",
+      "exampleGloss": "Harmaa taivas ja kuollut autonakku tekivät road tripille unpropitious alun.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ei",
+        "suotuisa, armollinen"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "adjektiivi / verbi",
+      "definition": "Kastikkeessa haudutettua tai braseroitua lihaa — oikein kirjoitettuna \"fricasseed.\"",
+      "friendly": "Kotoisa vanha keittotermi lihalle, joka on leikattu paloiksi ja haudutettu hitaasti omassa kastikkeessaan mureaksi.",
+      "exampleGloss": "Isoäidin fricasseed kana oli jokaisen sunnuntailounaan kohokohta.",
+      "origin": "ranska",
+      "rootMeanings": [
+        "paistaa",
+        "rikkoa (paloiksi)"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Keinotekoinen tai heikompi korvike.",
+      "friendly": "Jäljitelmä aidon tilalla — hoitaa homman teknisesti, mutta kaikki näkevät, ettei se ole aitoa tavaraa.",
+      "exampleGloss": "Sodanaikaiset ostajat tyytyivät paahdetusta sikurista keitettyyn ersatz-kahviin.",
+      "origin": "saksa",
+      "rootMeanings": [
+        "ulos, korvausetuliite",
+        "asettaa, sijoittaa"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "verbi",
+      "definition": "Kohdella abstraktia ideaa kuin se olisi konkreettinen asia.",
+      "friendly": "Saada idea tuntumaan todelliselta ja kiinteältä — muuttaa sumea asia, kuten \"the economy,\" joksikin, johon voi osoittaa.",
+      "exampleGloss": "Kansakunnan \"spirit\":n kutsuminen omaksi olennokseen reifies jotakin, joka on oikeasti vain miljoonia yksittäisiä valintoja.",
+      "origin": "latina",
+      "rootMeanings": [
+        "asia",
+        "tehdä"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "verbi (imperfekti)",
+      "definition": "Pakeni tai vältti taitavasti.",
+      "friendly": "Luiskahti puhtaasti karkuun — väisti jotakin, usein ovelasti tai täpärästi, oli se sitten kiinniotto, kysymys tai vastaus.",
+      "exampleGloss": "Vastaus eluded häntä tunteja, kunnes se yhtäkkiä naksahti suihkussa.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos, pois",
+        "leikkiä"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Ilmaisee epäilyä, hämmennystä tai ratkaisematonta ristiriitaa.",
+      "friendly": "Jumissa aidossa ajattelun umpikujassa — ei laiskuudesta hämmentynyt, vaan koska kysymys itse vastustaa siistiä vastausta.",
+      "exampleGloss": "Sokrates päätti usein dialoginsa aporetic sävyyn, enemmän kysymyksiä kuin vastauksia.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "ilman",
+        "käytävä, tie"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kielikuva, joka nimeää asian liittyvällä termillä, esim. \"the crown\" hallitsijasta.",
+      "friendly": "Käyttää liittyvää sanaa itse asian sijaan — sanoa \"the White House announced,\" kun tarkoittaa hallintoa.",
+      "exampleGloss": "\"Wall Street had a rough day\" on metonymy — se tarkoittaa oikeasti pörssiä.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "muutos, jälkeen",
+        "nimi"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "verbi",
+      "definition": "Revittää juurineen; temmata luonnollisesta ympäristöstä.",
+      "friendly": "Kiskoa jotakin (tai jotakuta) juurineen irti paikkaasta tai kulttuurista, johon he kuuluvat.",
+      "exampleGloss": "Sota deracinated kokonaisen sukupolven ja hajotti perheet rajojen yli.",
+      "origin": "ranska / latina",
+      "rootMeanings": [
+        "pois, irti",
+        "juuri"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Miellyttävästi soiva.",
+      "friendly": "Yksinkertaisesti kiva kuulla — euphonious sana, nimi tai lause vierii korvassa pehmeästi, miltei musikaalisesti.",
+      "exampleGloss": "\"Murmuring brook\" on euphonious pieni fraasi, pehmeä ja helppo sanoa.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "hyvä, hyvin",
+        "ääni, ääni"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Yleisesti oletettu tai luultu olevan.",
+      "friendly": "Laajalti uskottu todeksi, vaikka sitä ei ole oikeasti todistettu — jonkin \"supposed\" versio.",
+      "exampleGloss": "Kirjeen putative kirjoittaja paljastui myöhemmin täydeksi vieraaksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ajatella, pitää",
+        "jonka luonne on"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Vastakeksitty sana tai ilmaus.",
+      "friendly": "Upouusi sana — juuri keksitty, ei vielä (tai tuskin) sanakirjassa.",
+      "exampleGloss": "\"Doomscrolling\" alkoi neologism-sanana ja muuttui nopeasti arkikieleksi.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "uusi",
+        "sana, puhe"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Vihainen tai äkäinen.",
+      "friendly": "Pahalla, ärtyisällä tuulella — nopea räjähtämään, niin kuin ennen uskottiin pernan hallitsevan luonnetta.",
+      "exampleGloss": "Hän ampui splenetic vastauksen sähköpostiin sekunneissa sen luettuaan.",
+      "origin": "kreikka / latina",
+      "rootMeanings": [
+        "perna (vihan paikka)",
+        "jonka vallassa"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Taipuvainen moralisoimaan mahtailevasti tai teennäisesti.",
+      "friendly": "Rakastaa jakaa pieniä elämänoppeja itseään täynnä, aivan kuin jokainen lause olisi onnenkeksi.",
+      "exampleGloss": "Hänen sententious maljapuheensa \"the true meaning of friendship\":stä sai kaikki vilkuilemaan kelloaan.",
+      "origin": "latina",
+      "rootMeanings": [
+        "mielipide, mietelause",
+        "täynnä"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Liian puhelias, etenkin mitättömistä asioista.",
+      "friendly": "Ei vain lakkaa juttelemasta — jaarittelee pikkujutuista kauan sen jälkeen, kun muilla on aiheet loppu.",
+      "exampleGloss": "Garrulous taksikuski kertoi koko elämäntarinansa ennen kuin olimme lähteneet lentoasemalta.",
+      "origin": "latina",
+      "rootMeanings": [
+        "jaarittelu, jaaritus",
+        "taipuvainen"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Tyhmyys, hölmöys.",
+      "friendly": "Puhdasta tyhmyyttä — kommentti tai suunnitelma niin hölmö, ettei se juuri ansaitse vakavaa vastausta.",
+      "exampleGloss": "Suunnitelman silkka fatuity kävi ilmi heti, kun he kokeilivat sitä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tyhmä, hölmö",
+        "olemisen tila"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Puheen päättävä osa, usein tiivistävä.",
+      "friendly": "Puheen suuri lopetus — päätösjakso, jossa puhuja kokoaa kaiken ja iskee pointin kotiin.",
+      "exampleGloss": "Peroration-kohdassa puolet yleisöstä oli jo jaloillaan.",
+      "origin": "latina",
+      "rootMeanings": [
+        "läpi, loppuun asti",
+        "puhua, vedota"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Saman idean tarpeeton toisto eri sanoin.",
+      "friendly": "Sanoa sama kahdesti lisäämättä mitään uutta, kuten \"free gift\" tai \"end result.\"",
+      "exampleGloss": "\"It is what it is\" on suosittu tautology niillä, jotka välttävät oikeaa selitystä.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "sama",
+        "sana, puhe"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Hyvin harvojen sanojen käyttö; napakka puhe.",
+      "friendly": "Sanoa paljon vähällä — lyhyen, suoran vastauksen taito, nimetty Lakonian kuuluisan niukkasanaisista spartalaisista.",
+      "exampleGloss": "\"Molon labe\" — \"come and take them\" — on historian kuuluisin laconism.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "Lakonian spartalainen",
+        "tapa, käytäntö"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Miedot, yliselvennetyt ideat; alun perin mieto ruoka tai velli.",
+      "friendly": "Ohutta, vesitettyä ajattelua — sisältöä niin yksinkertaistettua ja turvallista, ettei siinä ole ravintoa mielelle.",
+      "exampleGloss": "Poliitikon puhe oli enimmäkseen pabulumia: epämääräisiä lupauksia, joihin ei saanut otetta.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ruokkia",
+        "väline tai keino"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Unettava tai torkkua aiheuttava.",
+      "friendly": "Niin tylsä — tai niin kirjaimellisesti nukuttava — että se tekee uniseksi. Ajattele lämmintä maitoa tai kolmen tunnin budjettikokousta.",
+      "exampleGloss": "Luentojen soporific humina sai puolet huoneesta taistelemaan silmiensä auki pitämiseksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "syvä uni",
+        "tekevä, aiheuttava"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Liian imarteleva tai öljyinen käytökseltään.",
+      "friendly": "Niin sileän hurmaava, että se tuntuu liukkaalta — imartelua niin paksulti, että rasvan miltei tuntee.",
+      "exampleGloss": "Unctuous myyjä kehui \"excellent taste\":äni ennen jokaista lisämyyntiä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "voidella, öljytä",
+        "täynnä"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Nopea löytämään vikoja, liian kriittinen mitättömissä asioissa.",
+      "friendly": "Nitpickaava vikaan asti — tyyppi, joka löytää ongelman kaikesta, vaikka sillä ei ole väliä.",
+      "exampleGloss": "Hänen captious huomautuksensa raportista keskittyivät kokonaan pilkkuihin.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tarttua, ottaa",
+        "ansa, sofismi"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Velttona, henkisesti tai ruumiillisesti toimeton.",
+      "friendly": "Hidas ja puoliunessa, kuin karhu talviunilla — tuskin liikkuu, tuskin ajattelee.",
+      "exampleGloss": "Toimisto vajosi torpid-tilaan elokuun raskaassa helteessä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "olla tunnoton, olla veltto",
+        "jonkin tilassa"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Hovimestari tai virkamies, joka hoiti keskiaikaista taloutta.",
+      "friendly": "Keskiajan versio henkilöstöpäälliköstä — luotettu virkamies, joka pyöritti herran taloutta ja tiluksia päivästä toiseen.",
+      "exampleGloss": "Linnan seneschal hoiti kaiken satojen kirjanpidosta vieraslistaan.",
+      "origin": "frankki / muinaisranska",
+      "rootMeanings": [
+        "vanha, vanhempi",
+        "palvelija"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "verbi",
+      "definition": "Puhua tai kirjoittaa aiheesta pitkälti.",
+      "friendly": "Päästä kunnolla vauhtiin aiheesta — puhua tai kirjoittaa ja peittää se joka kulmasta.",
+      "exampleGloss": "Kysy häneltä vintage-autoista, niin hän expatiate täyden tunnin.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos",
+        "tila"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Arvoton, mitätön; myös mitätön tai tehoton.",
+      "friendly": "Käytännössä ei minkään arvoinen — nugatory sopimuskohta on sellainen, joka ei oikeasti tee mitään.",
+      "exampleGloss": "Oikeus julisti vanhan säännön nugatory, koska sitä ei ollut koskaan pantu täytäntöön.",
+      "origin": "latina",
+      "rootMeanings": [
+        "pikkuseikat, hölynpöly",
+        "kuuluva"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Viisaus, terävä harkinta.",
+      "friendly": "Terävää, käytännöllistä viisautta — sellaista hyvää harkintaa, joka syntyy kokemuksesta, ei vain kirjoista.",
+      "exampleGloss": "Vanhan kapteenin sagacity piti miehistön pois pulasta useammin kuin kerran.",
+      "origin": "latina",
+      "rootMeanings": [
+        "terävähajuinen, terävä",
+        "ominaisuus"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Rähjä tai massat, halveksuen käytettynä.",
+      "friendly": "Ylpeilevä, sivuuttava sana \"the rabble\":lle tai tavalliselle väelle, käytetty halveksuen.",
+      "exampleGloss": "Kreivi irvisti canaillelle, joka kerääntyi palatsin porteille.",
+      "origin": "italia / ranska",
+      "rootMeanings": [
+        "koira",
+        "joukko, lauma"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Röyhkeä, nöyryyttävä kohtelu tai kieli.",
+      "friendly": "Julmaa, pilkallista kohtelua, jonka tarkoitus on nöyryyttää — sellainen herja, joka on tehty kirvelemään.",
+      "exampleGloss": "Hän kesti vuosien contumelya kriitikoilta, ennen kuin hänen työnsä vihdoin tunnustettiin.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kanssa, perin pohjin",
+        "paisua (ylpeydestä)"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "adverbi",
+      "definition": "Epäillen tai paheksuen; sivusilmäys.",
+      "friendly": "Se sivusilmäys, jonka annat jollekin, johon et aivan luota — katse täynnä epäilyä.",
+      "exampleGloss": "Opettaja katsoi askance epäilyttävän siistiä läksyä.",
+      "origin": "epävarma / italia",
+      "rootMeanings": [
+        "kohti, luo",
+        "vino, vinouma"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Tyhmä ihminen; pölkkypää.",
+      "friendly": "Vanhahtava, miltei hellä herja jollekulle, joka on hidas tai paksukalloinen — pölkkypää.",
+      "exampleGloss": "\"You clodpate,\" hän nauroi, \"you've had the map upside down the whole time.\"",
+      "origin": "englanti",
+      "rootMeanings": [
+        "maakokkare",
+        "pää"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "verbi",
+      "definition": "Laittaa liikkeelle tai toimintaan; motivoida.",
+      "friendly": "Olla kipinä, joka saa jotakin liikkumaan — olipa kyseessä kone, joka käynnistyy, tai ihminen, joka vihdoin toimii idean pohjalta.",
+      "exampleGloss": "Pelko sopimuksen menettämisestä actuated koko joukkueen viikonlopun ylityöhön.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tekeminen, ajaminen",
+        "ajaa, tehdä"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Haltuun uskottujen varojen kavallus.",
+      "friendly": "Varastaa hiljaa rahaa, jonka hoitoon sinut on luotettu — kavallus vanhanaikaisessa takissa.",
+      "exampleGloss": "Rahastonhoitajan peculation jäi huomaamatta lähes vuosikymmeneksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "yksityisomaisuus",
+        "karja, rikkaus"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Ryhmä, jota pidetään kunniallisen seurapiirin laidalla.",
+      "friendly": "Loistokas mutta hämärä sosiaalinen alamaailma — ihmisiä, jotka elävät juuri \"respectable\" seurapiirin sääntöjen ulkopuolella.",
+      "exampleGloss": "Romaani seuraa laulajatarta, joka luovii 1920-luvun kabareiden demi-mondeessa.",
+      "origin": "ranska",
+      "rootMeanings": [
+        "puoli",
+        "maailma, seura"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Yhä olemassa; ei sukupuuttoon kuollut tai tuhottu.",
+      "friendly": "Yhä täällä tänään — käytetään vanhoista asioista (käsikirjoituksista, lajeista, rakennuksista), jotka ovat onnistuneet säilymään.",
+      "exampleGloss": "Vain kolme extant kappaletta ensipainoksesta tiedetään olevan olemassa.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos",
+        "seisoa"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Petollisuus; luottamuksen pettäminen.",
+      "friendly": "Syvä, tahallinen petos — luottamuksen rikkominen, jota toinen sai odottaa sinun pitävän.",
+      "exampleGloss": "Kenraali ei koskaan antanut anteeksi vanhan ystävänsä perfidya neuvottelupöydässä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "läpi, vastaan",
+        "usko, luottamus"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Alueellinen murre, etenkin epästandardi.",
+      "friendly": "Erityinen, paikallinen tapa, jolla ihmiset puhuvat tietyllä seudulla — täynnä sanoja ja rytmejä, joita ulkopuolinen ei ehkä tavoita.",
+      "exampleGloss": "Hänen isoäitinsä puhui yhä saaren patoisia perheillallisilla.",
+      "origin": "ranska",
+      "rootMeanings": [
+        "karkea puhe, murre",
+        "tassu — kömpelö puhe"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Erityinen oikeus, joka kuuluu henkilölle tai ryhmälle.",
+      "friendly": "Erioikeus, joka on sinun ja vain sinun — oikeus, joka tulee roolisi, asemasi tai statuksesi mukana.",
+      "exampleGloss": "Perheen lomakohteen valinta on isoisän prerogative, ja kaikki tietävät sen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ennen",
+        "kysyä, äänestää"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Rohkeus, uskaliaisuus; myös sitkeys tai kestävyys.",
+      "friendly": "Karkeaa, sisukasta kestävyyttä — hermoja mennä eteenpäin ja sitkeyttä jatkaa, kun kerran aloitat.",
+      "exampleGloss": "Oikeaa hardihoodia vaadittiin solan ylittämiseen lumimyrskyssä ilman karttaa.",
+      "origin": "muinaisranska / englanti",
+      "rootMeanings": [
+        "rohkea, karaistunut",
+        "tila, olotila"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "verbi",
+      "definition": "Puhjeta kukkaan; myös kehittyä tai ilmestyä vähitellen.",
+      "friendly": "Avautua täyteen ilmaisuun — kuin kukka, joka aukeaa, tai idea, joka vihdoin tulee omakseen.",
+      "exampleGloss": "Hänen hiljainen maalaustalenttinsa effloresced, kun hän sai oman ateljeen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos",
+        "alkaa kukkia"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Painotettu naru pystysuoruuden määräämiseen; kuvainnollisesti, harkinnan mittapuu.",
+      "friendly": "Paino narussa, joka riippuu täysin suoraan alas — sillä tarkistetaan, onko jokin aidosti pystysuora — ja laajemmin mikä tahansa kiinteä mittapuu, johon kaikkea muuta verrataan.",
+      "exampleGloss": "Hän käytti oman isoisänsä rehellisyyttä eräänlaisena plumb-linena jokaiseen päätökseen.",
+      "origin": "latina / englanti",
+      "rootMeanings": [
+        "lyijy",
+        "naru, mitta"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "adverbi",
+      "definition": "Mielellään, vapaaehtoisesti (vanhahtava).",
+      "friendly": "Vanhahtava tapa sanoa \"gladly\" tai \"with pleasure.\"",
+      "exampleGloss": "\"I would fain rest here a while,\" matkalainen huokaisi.",
+      "origin": "muinaisenglanti",
+      "rootMeanings": [
+        "iloinen, riemukas",
+        "mielellään, vapaaehtoisesti"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kova julkinen arvostelu tai häpeä.",
+      "friendly": "Julkista häpeää, jota kasataan näkyvästi jonkun päälle — häpeä, joka syntyy laajasta paheksunnasta.",
+      "exampleGloss": "Skandaali toi julkisen opprobriumin koko firman ylle.",
+      "origin": "latina",
+      "rootMeanings": [
+        "vastaan",
+        "häpeä, moite"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Terävän sarkastinen, pureva nokkeluudessa tai arvostelussa.",
+      "friendly": "Nokkeluutta, jolla on oikeat hampaat — mordant huomautus kirvelee juuri siksi, että se on niin osuvasti tähdätty.",
+      "exampleGloss": "Hänen mordant elokuva-arvostelujaan ohjaajat pelkäsivät ja lukijat rakastivat.",
+      "origin": "latina / ranska",
+      "rootMeanings": [
+        "purra",
+        "pureva, tekevä"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Muodollinen julistus, usein poliittinen tai sotilaallinen.",
+      "friendly": "Suuri, virallinen ilmoitus — yleensä sellainen, joka julistaa uuden hallituksen, kapinan tai merkittävän asetuksen.",
+      "exampleGloss": "Kenraalin pronunciamento julisti uuden hallituksen aamunkoitteessa.",
+      "origin": "espanja",
+      "rootMeanings": [
+        "eteen",
+        "ilmoittaa"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Henkilö, jolla on pinnallista tietoa ja joka teeskentelee asiantuntijaa.",
+      "friendly": "Joku, joka on silmäillyt aiheen pinnan ja puhuu sitten kuin olisi kirjoittanut oppikirjan siitä.",
+      "exampleGloss": "Päivällisten sciolist korjasi itsevarmasti pöydän oikeaa astrofyysikkoa.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tietää",
+        "diminutiivi — pieni tietäjä"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Henkinen taantuma vanhuudessa.",
+      "friendly": "Utuinen, unohteleva jakso korkeassa iässä, kun mielen terävyys alkaa himmetä.",
+      "exampleGloss": "Dotageessaan hän kertoi samat kolme tarinaa joka käynnillä, joka kerta kuin uutena.",
+      "origin": "keskienglanti",
+      "rootMeanings": [
+        "höperehtiä, olla typerä",
+        "tila tai tulos"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Tuulelta suojassa oleva puoli.",
+      "friendly": "Jonkin rauhallinen, suojaisa puoli — mäen, laivan, muurin — jossa tuuli ei aivan yllä luoksesi.",
+      "exampleGloss": "Vaeltajat pystyttivät teltan harjanteen lee-sidelle päästäkseen puuskilta.",
+      "origin": "muinaisenglanti",
+      "rootMeanings": [
+        "suoja, turva",
+        "kylki, sivu"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "verbi",
+      "definition": "Torjua isku, kysymys tai argumentti.",
+      "friendly": "Lyödä jotakin sulavasti sivuun — miekanisku, kiusallinen kysymys tai syytös — tahdista putoamatta.",
+      "exampleGloss": "Hän parried toimittajan kiperän kysymyksen helpolla vitsillä.",
+      "origin": "ranska",
+      "rootMeanings": [
+        "torjua",
+        "valmistautua, puolustaa"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Pahanhajuinen, myrkyllinen.",
+      "friendly": "Haiskahtaa miltei myrkylliseltä — haju niin paha, että hengittäminen tuntuu vaaralliselta.",
+      "exampleGloss": "Mephitic haju nousi suosta auringon laskiessa.",
+      "origin": "latina",
+      "rootMeanings": [
+        "myrkyllinen höyry",
+        "jonka luonne on"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Henkilö, joka on omistautunut ylellisyydelle ja nautinnolle.",
+      "friendly": "Joku, joka elää mukavuuden ja nautinnon vuoksi — hieno ruoka, pehmeät sängyt, helppo elämä — nimetty antiikin kreikkalaisen Sybariksen mukaan, joka oli kuuluisa yltäkylläisyydestään.",
+      "exampleGloss": "Tosi sybarite, hän kieltäytyi kaikista hotellihuoneista ilman kylpyammetta.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "antiikin kreikkalainen ylellisyydestään kuuluisa kaupunki",
+        "asukas"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "verbi",
+      "definition": "Sivuuttaa tahallaan osa jostakin.",
+      "friendly": "Laittaa palapelin pala tahallaan sivuun, jotta voit keskittyä puhtaasti muuhun.",
+      "exampleGloss": "Prescind kustannuksesta hetkeksi ja kysytään vain, toimiiko suunnitelma oikeasti.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ennen, pois",
+        "leikata"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "verbi",
+      "definition": "Arvostella ankarasti; myös nylkeä iho.",
+      "friendly": "Revittää joku rikki kovalla arvostelulla — sanoin, aivan kuin nylkisit ihon kirjaimellisesti.",
+      "exampleGloss": "Kriitikot excoriated jatko-osan, koska se petti kaiken, mitä fanit rakastivat alkuperäisessä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "irti",
+        "nahka, iho"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "verbi",
+      "definition": "Vedota todisteena tai näyttönä.",
+      "friendly": "Tuoda esiin tosiasia tai esimerkki pointtisi tueksi — se, johon osoitat, kun joku kysyy \"what's your evidence?\"",
+      "exampleGloss": "Asianajaja adduced kolme todistajaa asiakkaansa alibin tueksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "luo, kohti",
+        "johtaa"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Matkat tai vaellukset, etenkin pitkät tai laajat.",
+      "friendly": "Pitkiä, harhailevia matkoja — sellaista laajaa vaellusta, joka vie kauas kotoa pitkäksi aikaa.",
+      "exampleGloss": "Hänen peregrinations kolmen mantereen halki täyttivät kokonaisen hyllyn matkapäiväkirjoja.",
+      "origin": "latina",
+      "rootMeanings": [
+        "läpi",
+        "pelto, maa (peregrinus: muukalainen)"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kerjäläinen tai almuilla elävä.",
+      "friendly": "Joku, joka elää pyytämällä hyväntekeväisyyttä — historiallisesti tämä kuvasi myös munkkeja, jotka vannoivat köyhyyslupauksen ja elivät lahjoituksilla.",
+      "exampleGloss": "Mendicant veljet eivät omistaneet mitään ja luottivat täysin kyläläisten hyvyyteen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kerjätä",
+        "kerjäläinen"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Äärimmäisen antelias.",
+      "friendly": "Antelias suurella, miltei pröystäilevällä mittakaavalla — sellainen lahja, joka saa ihmiset hieman haukkomaan henkeään.",
+      "exampleGloss": "Munificent lahjoitus rahoitti koko kirjaston uuden siiven.",
+      "origin": "latina",
+      "rootMeanings": [
+        "lahja, palvelus",
+        "tekevä, antava"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Uupumus ravinnon puutteesta; myös elinvoiman puute.",
+      "friendly": "Heikko, tyhjä tila siitä, ettei ole saanut ruokaa tai polttoainetta — kirjaimellisesti nälästä, tai kuvainnollisesti siitä, ettei ole enää mitään millä kulkea.",
+      "exampleGloss": "Piirityksen lopussa sotilaat olivat lähellä inanitionia.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tyhjä, tyhjiö",
+        "teko tai tulos"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Katkera, herjaava arvostelu.",
+      "friendly": "Arvostelua, joka on mennyt kauan reilun ohi ja muuttunut vihaiseksi, katkeraksi purkaukseksi.",
+      "exampleGloss": "Verkkokommentit hajosivat puhtaaksi vituperationiksi minuuteissa.",
+      "origin": "latina",
+      "rootMeanings": [
+        "vika",
+        "valmistaa, varustaa"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Vihamielinen, vahingollinen vaikutukseltaan.",
+      "friendly": "Toimii sinua vastaan, vaikkakin hiljaa — olosuhteet tai asenteet, jotka ovat epäystävällisiä etujesi kannalta.",
+      "exampleGloss": "Uusi politiikka oli inimical pienyrityksille, vaikka se ei ollut tarkoitus.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ei",
+        "ystävä"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Omiaan herättämään kaunaa tai tyytymättömyyttä, usein epäreilujen vertailujen kautta.",
+      "friendly": "Tuomittu saamaan joku tuntemaan itsensä sivuutetuksi — yleensä siksi, että se asettaa ihmisiä tai asioita epäreilusti toisiaan vastaan.",
+      "exampleGloss": "Sisarusten ranking \"who Mom loves best\":n mukaan on invidious peli, jota kenenkään ei pitäisi pelata.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kateus",
+        "katsoa (pahantahtoisesti)"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Alempiarvoinen tai -asemainen henkilö; alainen.",
+      "friendly": "Alempana komentoketjussa tai sosiaalisella tikapuilla — junioreita, jotka työskentelevät vaikutusvaltaisemman alaisuudessa.",
+      "exampleGloss": "Nuorena subalternina hän otti käskyjä kauan ennen kuin koskaan antoi niitä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "alla",
+        "vuorotteleva, toinen"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "verbi",
+      "definition": "Tuntea tai ilmaista voimakasta vihaa kohtaan.",
+      "friendly": "Inhota jotakin niin, että kiroat sen ääneen — puhdasta, äänekästä inhoa.",
+      "exampleGloss": "Kyläläiset execrated veronkantajaa joka kerta, kun hänen kärrynsä vierivät kylän läpi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos",
+        "pyhä (kirota pyhästä pois)"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Luonnollinen ulkokuori, kuten iho tai kuori.",
+      "friendly": "Luonnon oma suojaava kääre — iho, kuori, palko tai kuori, mikä tahansa, joka peittää ja suojaa elävää.",
+      "exampleGloss": "Kilpikonnan kuori on huomattavan sitkeä integument.",
+      "origin": "latina",
+      "rootMeanings": [
+        "päällä, yli",
+        "peittää"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Viaton, naiivi, lapsenomaista yksinkertaisuutta osoittava; \"disingenuous\":n vastakohta.",
+      "friendly": "Avoimen luottavainen ja hieman naiivi, ilman piilotettua agendaa — helppo sekoittaa \"ingenious\":een, joka tarkoittaa nokkelaa.",
+      "exampleGloss": "Hänen ingenuous kysymyksensä — \"why would anyone lie about that?\" — paljasti, miten vähän kavaluutta hänessä oli.",
+      "origin": "latina",
+      "rootMeanings": [
+        "sisässä, syntyperäinen",
+        "siittää (vapaana syntynyt, vilpitön)"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Liiallinen huoli pikkuyksityiskohdista tai säännöistä.",
+      "friendly": "Eksyminen pieniin sääntöihin ja isomman kuvan menettäminen — takertuminen pieneen pränttiin, josta kukaan muu ei välitä.",
+      "exampleGloss": "Hänen pedantry Oxford-pilkuista suisti koko kokouksen raiteiltaan.",
+      "origin": "italia / latina",
+      "rootMeanings": [
+        "lasten opettaja",
+        "käytäntö tai ominaisuus"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Perusteellinen, huolellinen tarkastelu.",
+      "friendly": "Syvä, yhtään kiveä kääntämätön katsaus johonkin — jokaisen yksityiskohdan läpikäynti aidolla huolella.",
+      "exampleGloss": "Vasta huolellisen perscrutationin jälkeen kirjanpidosta löytyi poikkeama.",
+      "origin": "latina",
+      "rootMeanings": [
+        "läpi, perin pohjin",
+        "etsiä, tutkia"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "verbi",
+      "definition": "Esittää vastalauseita; osoittaa haluttomuutta.",
+      "friendly": "Perääntyä kohteliaasti tai epäröidä sen sijaan, että lähtisi heti mukaan — pehmeä \"I'd rather not.\"",
+      "exampleGloss": "Kun häntä pyydettiin allekirjoittamaan lukematta, hän demurred.",
+      "origin": "latina / ranska",
+      "rootMeanings": [
+        "pois, erilleen",
+        "viivytellä"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Pinnallisesti uskottava mutta itse asiassa väärä.",
+      "friendly": "Kuulostaa vakuuttavalta ensi vilkaisulla, mutta hajoaa heti, kun sen oikeasti tarkistaa.",
+      "exampleGloss": "\"Everyone's doing it\" on specious argumentti, joka ei kestä tarkastelua.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulkonäkö, ilme",
+        "täynnä (näennäisen kaunis)"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Vilpitön, tekopyhä puhe, usein moralisoiva.",
+      "friendly": "Saarnaavaa puhetta, joka kuulostaa hyveelliseltä mutta jota ei tue mikään aito tunne — moraalista poseerausta autopilotilla.",
+      "exampleGloss": "Hän oli kyllästynyt yrityksen cant-puheeseen \"family\":stä firmalta, joka ei koskaan antanut vapaata.",
+      "origin": "latina",
+      "rootMeanings": [
+        "laulaa (myöhemmin: laulava slangi)",
+        "kerjäläisten kitinä, sitten tekopyhyys"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Rohkeutta vailla, pelkuri.",
+      "friendly": "Arka selkärangattomuuteen asti — liian peloissaan seistä edes silloin, kun se selvästi merkitsee.",
+      "exampleGloss": "Hallituksen pusillanimous hiljaisuus antoi skandaalin kieriä käsistä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "hyvin pieni",
+        "henki, rohkeus"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Kettumainen; ovela, viekas.",
+      "friendly": "Ovela ja nokkela kuin kettu — nopeaälyinen, hieman salakavala, aina askeleen edellä.",
+      "exampleGloss": "Hän virnisti vulpine hymyn heti bongattuaan porsaanreiän.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kettu",
+        "jonkin tai kaltaisen"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "adverbi",
+      "definition": "Yksi kerrallaan, järjestyksessä.",
+      "friendly": "Otettu tiukasti yksi kerrallaan, järjestyksessä — ei hypätä eteen, ei kahta kerralla.",
+      "exampleGloss": "Tuomari käsitteli kunkin kahdestatoista vaateesta seriatim.",
+      "origin": "latina",
+      "rootMeanings": [
+        "rivi, jakso",
+        "yksi kerrallaan"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Äärimmäinen säästäväisyys; kitsaus.",
+      "friendly": "Kitukuus rahan (tai sanojen tai voimavarojen) kanssa kauan järkevän säästäväisyyden ohi.",
+      "exampleGloss": "Hänen parsimony oli legendaarista — hän käytti teepussit kolmeen kertaan.",
+      "origin": "latina",
+      "rootMeanings": [
+        "säästää, olla säästäväinen",
+        "tila tai käytäntö"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Korjaus, etenkin tekstissä.",
+      "friendly": "Korjaus kirjoitukseen — oppinut säätö, joka korjaa virheen vanhassa tai tärkeässä tekstissä.",
+      "exampleGloss": "Uusi laitos sisältää kymmeniä emendations alkuperäiseen käsikirjoitukseen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos",
+        "virhe, erehdys"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Kohtuullinen syömisessä ja juomisessa.",
+      "friendly": "Tarkoituksellisen pidättyväinen ruoan ja juoman suhteen — ei koskaan liikaa, aina vähän lautaselle jätettynä.",
+      "exampleGloss": "Hänen abstemious tapansa pitivät hänet terävänä kauan sen jälkeen, kun ikätoverit olivat hidastuneet.",
+      "origin": "latina",
+      "rootMeanings": [
+        "pois jostakin",
+        "päihdyttävä juoma"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kieliopillinen virhe tai etiketin rikkomus.",
+      "friendly": "Kömmähdys kieliopissa tai tavoissa — sellainen pieni virhe, joka saa saivartelijan irvistämään.",
+      "exampleGloss": "\"Between you and I\" on yleinen solecism, joka saa kieliopin vartijat yhä säpsähtämään.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "Kilikian kaupunki, joka tunnettiin 'huonosta' kreikasta",
+        "tapa, käytäntö"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Koskee ryhmän sisäistä konfliktia; molemminpuolisesti tuhoisa.",
+      "friendly": "Sisäinen riita, joka repii ryhmän sisältä — taistelu, jossa kaikki häviävät, koska se on perhe perhettä vastaan.",
+      "exampleGloss": "Puolueen internecine kinastelu teki enemmän vahinkoa kuin mikään ulkopuolinen vastustaja olisi voinut.",
+      "origin": "latina",
+      "rootMeanings": [
+        "välillä, keskuudessa",
+        "tappaa"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "adjektiivi / substantiivi",
+      "definition": "Välinpitämätön, huolimaton asenne.",
+      "friendly": "Olankohautus, josta on tehty koko persoonallisuus — välittää niin vähän asioista, jotka ennen merkitsivät, ettei mikään enää tunnu vaivan arvoiselta.",
+      "exampleGloss": "Hänen pococurante asenteensa palkintogaalaan yllätti kaikki, jotka tiesivät, miten kovasti hän oli tehnyt töitä.",
+      "origin": "italia",
+      "rootMeanings": [
+        "vähän",
+        "välittää"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Hämmentynyt, monimutkainen tilanne tai riita.",
+      "friendly": "Sotkuinen, sekava tilanne, josta on vaikea saada tolkkua — osin väärinkäsitystä, osin draamaa, kokonaan hämmennystä.",
+      "exampleGloss": "Koko istumajärjestys-imbroglio alkoi yhdestä väärään paikkaan joutuneesta nimikortista.",
+      "origin": "italia",
+      "rootMeanings": [
+        "sisässä",
+        "sotkea, hämmentää"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Uhkaava, uhkaileva.",
+      "friendly": "Kantaa erehtymätöntä uhan ilmaa — minatory katse tai kirje tekee hyvin selväksi, että jotakin pahaa voi seurata.",
+      "exampleGloss": "Kirjeen minatory sävy teki vuokralaisen hermostuneeksi jo ennen kuin hän oli avannut kirjekuoren.",
+      "origin": "latina",
+      "rootMeanings": [
+        "uhata",
+        "palveleva"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Voimakas julkinen arvostelu tai sanallinen herja.",
+      "friendly": "Äänekästä, julkista tuomitsemista — sellaista kirvelevää arvostelua, joka tapahtuu kaikkien nähden.",
+      "exampleGloss": "Ilmiantaja kohtasi vuosien julkisen obloquyn, ennen kuin historia antoi hänelle oikeuden.",
+      "origin": "latina",
+      "rootMeanings": [
+        "vastaan",
+        "puhua"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Äkillinen väkivaltainen purkaus, tunteen tai teon.",
+      "friendly": "Äkillinen, intensiivinen isku, joka valtaa kerralla — naurun, raivon tai yskän puuska, joka iskee kuin aalto.",
+      "exampleGloss": "Hänet valtasi paroxysm naurua, jota hän ei osannut selittää kenellekään muulle huoneessa.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "tuolla puolen",
+        "terävä, akuutti"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Lisätty ulkoisesta lähteestä, ei luontainen.",
+      "friendly": "Ruuvattu kiinni ulkopuolelta sen sijaan, että olisi rakennettu sisään alusta asti — lisä, ei ydinosa.",
+      "exampleGloss": "Kommentti tuntuu adscititious, aivan kuin se olisi liimattu jo valmiiseen tekstiin.",
+      "origin": "latina",
+      "rootMeanings": [
+        "lisäksi, lisäksi",
+        "hyväksyä, ottaa"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Tiedon puute, tietämättömyys.",
+      "friendly": "Yksinkertaista ei-tietämistä — aukko tiedossa, ilman siihen liitettyä arvostelua.",
+      "exampleGloss": "Hän myönsi nesciencensa ranskalaisesta viinistä ja antoi sommelieerin valita.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ei",
+        "tietää"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Liiallinen kiinnostus seksuaalisia asioita kohtaan.",
+      "friendly": "Yli-innokasta, tuijottavaa uteliaisuutta kaikkea pikanttia kohtaan — kiinnostusta, joka on mennyt terveen ohi uteliaaksi.",
+      "exampleGloss": "Tabloidin prurience parin yksityiselämästä rajasi pakkomielteiseen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kutittaa, kaivata",
+        "tila"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Nokeinen, pimeä, samea.",
+      "friendly": "Tumma ja savuinen näköinen, aivan kuin kaikki olisi ohuen noen peitossa.",
+      "exampleGloss": "Fuliginous utu riippui tehdaskaupungin yllä hämärässä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "noki",
+        "täynnä"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "verbi",
+      "definition": "Kieltää tai väittää vastaan.",
+      "friendly": "Puhua suoraan vastaan sitä, mitä toinen on sanonut — sanoa \"that's not so.\"",
+      "exampleGloss": "Kukaan ei uskaltanut gainsay vanhan kapteenin kertomusta myrskystä.",
+      "origin": "keskienglanti",
+      "rootMeanings": [
+        "vastaan",
+        "puhua"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Laiskuus, joutilaisuus (latinasta).",
+      "friendly": "Vanha latinalainen sana puhtaalle laiskuudelle — laahaaminen siinä, ettei halua tehdä mitään.",
+      "exampleGloss": "Munkit saarnasivat ignaviaa vastaan yhtenä sielun hiljaisista vaaroista.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ei",
+        "kiireinen, ahkera"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kilpi, jossa on vaakuna.",
+      "friendly": "Kilvenmuotoinen tunnus, joka näyttää suvun vaakunan — sen heraldisen \"nameplate\":n.",
+      "exampleGloss": "Suvun escutcheon riippuu yhä vanhan kartanon etuoven yläpuolella.",
+      "origin": "latina / muinaisranska",
+      "rootMeanings": [
+        "kilpi",
+        "diminutiivi / esine"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Vanhentunut, vanhentunut tai iän vuoksi eläkkeelle siirretty.",
+      "friendly": "Hyödyllisen huippunsa ohi ja laitumelle laitettu — liian vanhanaikainen tai kulunut jatkamaan hommaa.",
+      "exampleGloss": "Superannuated tulostin vaihdettiin vihdoin viidentoista vuoden paperitukosten jälkeen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "tuolla puolen",
+        "vuosi"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Korvikkeet, etenkin lääketieteessä.",
+      "friendly": "Korvaavia lääkkeitä, kun oikeaa hoitoa ei ole saatavilla — lääketieteellisiä sijaisia pohjimmiltaan.",
+      "exampleGloss": "Sodanaikaiset lääkärit turvautuivat usein succedaneaan, kun oikeat lääkkeet loppuivat.",
+      "origin": "latina",
+      "rootMeanings": [
+        "sijasta",
+        "mennä, väistyä"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kerskailevaa, pöyhkeilevää puhetta.",
+      "friendly": "Suurta, puhkuvaa kerskailua — äänekästä puhetta omasta suuruudesta, joka on enimmäkseen tyhjää ilmaa.",
+      "exampleGloss": "Hänen rodomontadensa siitä, että hän \"single-handedly\" pelasti projektin, ei huijannut ketään, joka oli oikeasti paikalla.",
+      "origin": "italia",
+      "rootMeanings": [
+        "kerskaileva ritari teoksessa Orlando Furioso",
+        "teko, näytös"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "verbi",
+      "definition": "Käyttää kikkaa tai petosta jonkin saavuttamiseksi.",
+      "friendly": "Kiemurrella tavoitteeseen salakavalilla tempuilla reilun pelin sijaan.",
+      "exampleGloss": "Hän chicaned itsensä diiliin pienellä präntillä täytetyllä sopimuksella.",
+      "origin": "ranska",
+      "rootMeanings": [
+        "saivarrella, huijata",
+        "kikka; myöhemmin jyrkkä mutka"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Oppimisen tai tiedon puhdas tai abstrakti tiede, usein matematiikka.",
+      "friendly": "Oppiminen puhtaimmassa, abstrakteimmassa muodossaan — tiedon syvä rakenne itse, etenkin matemaattinen laji.",
+      "exampleGloss": "Filosofi unelmoi universaalista mathesiksesta, joka voisi yhdistää jokaisen tieteenalan.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "oppia",
+        "oppimisen teko"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Liian kiinnostunut muodollisista säännöistä tai mitättömistä yksityiskohdista.",
+      "friendly": "Liian tiukka pikkujutuista — korjaa pieniä teknisiä seikkoja, jotka eivät oikeasti muuta mitään.",
+      "exampleGloss": "Tuntui hieman pedantic väitellä \"who\":sta versus \"whom\":sta tekstiviestissä.",
+      "origin": "italia / kreikka",
+      "rootMeanings": [
+        "lapsenopas, ohjaaja",
+        "jonka tapa on"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Välähtävä, kimalteleva valo.",
+      "friendly": "Nopea, kimalteleva valonvälähdys — ajattele auringonvaloa veden pinnalla tai timanttia, joka nappaa valon.",
+      "exampleGloss": "Kattokruunun coruscation sirotteli valoa jokaiseen tanssisalin nurkkaan.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kimaltaa, välähtää",
+        "teko"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Aloittelija, noviisi.",
+      "friendly": "Joku upouusi taidossa tai alalla — yhä opettelemassa alkeita, ei vielä asiantuntija.",
+      "exampleGloss": "Jopa tyro-shakinpelaaja huomaa sen kömmähdyksen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "rekryytti, noviisi",
+        "raaka nuori sotilas"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Äärimmäisen huono, inhottava.",
+      "friendly": "Huono tavalla, joka ansaitsee aitoa inhoa — ei vain \"mediocre,\" vaan todella inhottava.",
+      "exampleGloss": "Arvostelija kutsui jatko-osaa execrableksi, ja lipputulot olivat samaa mieltä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "kirota",
+        "arvoinen, kykenevä tulemaan"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Verenpunainen väriltään.",
+      "friendly": "Syvä, eloisa punainen — tuoreen veren väri, Shakespearen Macbethin kuuluisasti käyttämä.",
+      "exampleGloss": "Auringonlasku käänsi koko taivaan incarnadine hehkuun.",
+      "origin": "italia / latina",
+      "rootMeanings": [
+        "sisään",
+        "liha (lihanpunainen)"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Pieni rako tai tila asioiden välissä.",
+      "friendly": "Pieni väli, joka on helppo sivuuttaa — lattialautojen rako, aikataulun aukko.",
+      "exampleGloss": "Rikkakasvit puskeutuivat jokaisesta intersticestä vanhalla tiilipolulla.",
+      "origin": "latina",
+      "rootMeanings": [
+        "välillä",
+        "seisoa"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Kriittisiä tai moittivia huomautuksia.",
+      "friendly": "Teräviä, paheksuvia kommentteja — sellaista arvostelua, jossa on hieman nuhteleva sävy.",
+      "exampleGloss": "Professorin animadversions esseestä täyttivät marginaalit punaisella musteella.",
+      "origin": "latina",
+      "rootMeanings": [
+        "mieli",
+        "kääntyä kohti"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Mahdoton kumota, kiistämätön.",
+      "friendly": "Niin vankasti todistettu, ettei siitä voi kiistellä — asia on yksinkertaisesti suljettu.",
+      "exampleGloss": "DNA-todiste oli irrefragable, ja oikeudenkäynti oli ohi tunnissa.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ei",
+        "vastustaa, panna vastaan"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Monimutkaisuus, mutkikkuus; myös sisäänpäin kiertyminen.",
+      "friendly": "Sotkuista, itseensä kiertynyttä monimutkaisuutta — asioita kiedottu niin tiukkaan, että niitä on vaikea irrottaa.",
+      "exampleGloss": "Juonen involution jätti puolet yleisöstä yrittämään sen selvittämistä loppumusiikin jälkeen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "sisään, sisäänpäin",
+        "kieriä, kääntyä"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Voima tai ponnistus, kuten \"by dint of.\"",
+      "friendly": "Silkkaa ponnistusta tai voimaa — elää nykyään enimmäkseen fraasissa \"by dint of.\"",
+      "exampleGloss": "Hän pääsi kokeesta by dint of silkalla, itsepäisellä harjoittelulla.",
+      "origin": "muinaisenglanti",
+      "rootMeanings": [
+        "isku, täräys",
+        "voimalla"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Liitetty tapilla; tiukasti yhteen sovitettu.",
+      "friendly": "Lukittu yhteen vanhanaikaisen puusepän tapaan — pala, joka liukuu tiukasti juuri sille leikattuun koloon.",
+      "exampleGloss": "Vanhan ladon palkit oli mortised yhteen ilman yhtään naulaa.",
+      "origin": "latina / ranska",
+      "rootMeanings": [
+        "kolo, reikä",
+        "puraisu, ote"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Erittäin osuva, sopiva.",
+      "friendly": "Juuri oikea hetkeen — huomautus, lainaus tai esimerkki, joka osuu täydellisesti nappiin.",
+      "exampleGloss": "Hänen apposite huomautuksensa tiivisti koko keskustelun yhteen lauseeseen.",
+      "origin": "latina",
+      "rootMeanings": [
+        "luo",
+        "sijoittaa"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Pehmeästi hehkuva tai välkkyvä (valo); myös kevyt nokkeluus.",
+      "friendly": "Hehkuu lempeästi mieluummin kuin leimuaa — pehmeä, välkkyvä valo, tai nokkeluus, joka on leikkisää pikemmin kuin terävää.",
+      "exampleGloss": "Kynttilänvalo heitti lambent hehkun vanhan ruokasalin ylle.",
+      "origin": "latina",
+      "rootMeanings": [
+        "nuolla",
+        "tekevä (valo joka 'nuolee')"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Uskonnollinen erakko, joka elää yksinäisyydessä.",
+      "friendly": "Joku, joka vetäytyy maailmasta kokonaan elämään yksin rukouksessa ja pohdinnassa.",
+      "exampleGloss": "Anchorite asui pienessä kirkkoon liitetyssä sellissä yli kolmekymmentä vuotta.",
+      "origin": "kreikka",
+      "rootMeanings": [
+        "takaisin, pois",
+        "vetäytyä"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "verbi",
+      "definition": "Sammuttaa jano; sammuttaa.",
+      "friendly": "Tyydyttää kaipuu täysin — useimmiten jano, mutta kuvainnollisesti mikä tahansa syvä tarve.",
+      "exampleGloss": "Yksi kylmä lasillinen vettä slaked hänen janonsa pitkän vaelluksen jälkeen.",
+      "origin": "muinaisenglanti",
+      "rootMeanings": [
+        "veltto, löysä",
+        "löysätä, tyynnyttää"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Neulanmuotoinen.",
+      "friendly": "Pitkä, ohut ja terävä kuin neula — männynneulasen tai terävän pienen kristallin muoto.",
+      "exampleGloss": "Männyt on helppo tunnistaa acicular lehdistään.",
+      "origin": "latina",
+      "rootMeanings": [
+        "neula",
+        "pieni"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Elinvoimasta uupunut, heikko, ylisivistynyt.",
+      "friendly": "Kulunut ja pehmeä — menettänyt alkuperäisen voimansa tai ponnen liiallisen mukavuuden tai hienostuneisuuden kautta.",
+      "exampleGloss": "Kriitikot kutsuivat kerran rohkeaa lehteä effete, sen varhaisten rohkeiden vuosien varjoksi.",
+      "origin": "latina",
+      "rootMeanings": [
+        "ulos",
+        "hedelmällinen, joka on kantanut"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Lisäke tai pienempi liitännäinen esine tai oikeus.",
+      "friendly": "Pieni lisä, joka tulee isomman mukana — lisävarusteet ja liitteet, jotka kuuluvat pääasiaan.",
+      "exampleGloss": "Vuokrasopimus sisälsi autotallin ja kaikki sen appurtenances.",
+      "origin": "latina / ranska",
+      "rootMeanings": [
+        "luo",
+        "kuulua"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "verbi",
+      "definition": "Peitellä tai vähätellä virhettä.",
+      "friendly": "Silottaa virhe pehmeillä sanoilla, jotta se kuulostaa pienemmältä kuin se on.",
+      "exampleGloss": "Hän yritti gloze myöhästyneen määräajan yli epämääräisellä puheella \"unforeseen challenges\":sta.",
+      "origin": "muinaisranska / latina",
+      "rootMeanings": [
+        "glossa, selitys",
+        "kommentoida — sitten silottaa"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "adjektiivi",
+      "definition": "Varhaisessa vaiheessa, vasta alkamassa.",
+      "friendly": "Vasta alkamassa näkyä — aivan ensimmäinen, tuskin näkyvä vaihe jostakin suuremmasta, joka on tulossa.",
+      "exampleGloss": "Lääkärit nappasivat taudin incipient merkit, ennen kuin se ehti levitä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "päälle, sisään",
+        "ottaa (ottaa vastaan, aloittaa)"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "substantiivi",
+      "definition": "Luova inspiraatio, etenkin jumalallinen.",
+      "friendly": "Äkillinen inspiraation puuska, joka tuntuu itseäsi suuremmalta — aivan kuin idea olisi puhallettu sinuun jostakin muualta.",
+      "exampleGloss": "Runoilija kuvasi koko teoksen saapuneen yhdessä afflatus-puuskassa kello kolme yöllä.",
+      "origin": "latina",
+      "rootMeanings": [
+        "luo, päälle",
+        "puhaltaa (päällepuhallus)"
+      ]
+    }
+  }
+}

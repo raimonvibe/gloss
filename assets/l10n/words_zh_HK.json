@@ -1,0 +1,1478 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "動詞",
+      "definition": "使變甜或淨化；從某物除去粗礪。",
+      "friendly": "把刺或苦味拿掉——字面上變甜，或比喻上把刺耳的想法軟化，讓人比較吞得下去。",
+      "exampleGloss": "編輯在付印前把苛刻的書評 edulcorated 了。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向外、徹底地",
+        "甜的"
+      ]
+    },
+    "pietistic": {
+      "partOfSpeech": "形容詞",
+      "definition": "過度或做作地虔誠。",
+      "friendly": "形容信仰看起來像表演、為給人看，多於真心。",
+      "exampleGloss": "講道時他 pietistic 的嘆氣惹惱了整排座位。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "虔誠、盡責",
+        "具有……的性質"
+      ]
+    },
+    "amphiboly": {
+      "partOfSpeech": "名詞",
+      "definition": "由文法結構產生的歧義——一句話可讀成兩種意思。",
+      "friendly": "文法沒問題，卻能讀成完全不同的兩種意思，例如「Visiting relatives can be tiring」。",
+      "exampleGloss": "「Visiting relatives can be tiring」是經典 amphiboly——累的是親戚，還是去探望？",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "兩者、兩邊",
+        "投擲"
+      ]
+    },
+    "trenchant": {
+      "partOfSpeech": "形容詞",
+      "definition": "銳利、一針見血，直切要點。",
+      "friendly": "直接削掉廢話——trenchant 的評語或心思很快抵達核心，沒有廢字。",
+      "exampleGloss": "她 trenchant 的批評沒給電影的漏洞留下藏身處。",
+      "origin": "古法語",
+      "rootMeanings": [
+        "切開",
+        "作為、具有……的性質"
+      ]
+    },
+    "inchoative": {
+      "partOfSpeech": "形容詞",
+      "definition": "剛開始；處於早期或萌芽階段。",
+      "friendly": "還在開場——計畫、感覺或過程才剛成形。",
+      "exampleGloss": "條約的 inchoative 階段看來有希望，但許多細節仍未定。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "開始、著手",
+        "傾向於"
+      ]
+    },
+    "panegyric": {
+      "partOfSpeech": "名詞",
+      "definition": "高度讚揚某人的正式演說或文章。",
+      "friendly": "盛大而正式的頌詞——想像一篇發光的悼詞，或從屋頂唱頌功績的演講。",
+      "exampleGloss": "即將退休的教授由最親近的學生以一篇 panegyric 送行。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "全部",
+        "集會、聚集"
+      ]
+    },
+    "ontic": {
+      "partOfSpeech": "形容詞",
+      "definition": "關乎真實存在或事實之在，而非抽象理論。",
+      "friendly": "談事物在現實中如何存在，而不只是關於它們的觀念或理論。",
+      "exampleGloss": "哲學家爭論數字有沒有任何 ontic 地位，還是只存在於心中。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "存在、所是之物",
+        "關於"
+      ]
+    },
+    "fructify": {
+      "partOfSpeech": "動詞",
+      "definition": "結果實，或變得有生產力。",
+      "friendly": "終於開花結果——努力、想法或投資從種子長成有用之物。",
+      "exampleGloss": "多年安靜的研究終於 fructified 成可用的疫苗。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "果實",
+        "使成、引起"
+      ]
+    },
+    "proleptical": {
+      "partOfSpeech": "形容詞",
+      "definition": "在實際發生前，把某事當成已經完成來呈現。",
+      "friendly": "文學式的搶跑——把未來寫成已經結束，好讓論點更用力落地。",
+      "exampleGloss": "將軍為「勝利」舉的 proleptical 祝酒，在戰役整整一週前就說了。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "之前",
+        "拿、抓住"
+      ]
+    },
+    "pneumatic": {
+      "partOfSpeech": "形容詞",
+      "definition": "以氣壓驅動；也關乎靈或氣息。",
+      "friendly": "通常指「用壓縮空氣推動」——也可指靈或氣息。",
+      "exampleGloss": "巴士靠到路邊時，pneumatic 煞車嘶地一聲。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "風、氣息、靈",
+        "屬於"
+      ]
+    },
+    "cataphatic": {
+      "partOfSpeech": "形容詞",
+      "definition": "以肯定陳述描述神或神聖——與否定神學相對。",
+      "friendly": "用「神是甚麼」來談神——例如「God is love」——而不只說神不是甚麼。",
+      "exampleGloss": "Cataphatic 神學自信地說神是慈愛、公義、憐憫的。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "向下、依照",
+        "說、講"
+      ]
+    },
+    "fiducial": {
+      "partOfSpeech": "形容詞",
+      "definition": "基於信任或信心；也用作固定參考點。",
+      "friendly": "先信了再當錨點——fiducial 標記是其餘一切用來量測的固定點。",
+      "exampleGloss": "測量員在繪製場址前，把 fiducial 標記放進基岩。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "信任",
+        "信任、信心"
+      ]
+    },
+    "theodicy": {
+      "partOfSpeech": "名詞",
+      "definition": "在惡存在的前提下為神的良善辯護。",
+      "friendly": "古老的嘗試：回答「若神是善的，為何有惡？」",
+      "exampleGloss": "她的論文從約伯記的視角探討 theodicy。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "神",
+        "正義"
+      ]
+    },
+    "circumincession": {
+      "partOfSpeech": "名詞",
+      "definition": "互相內住——三位一體各位格彼此內在的神學用語。",
+      "friendly": "三而一、彼此完全包含又被包含的神學字眼。",
+      "exampleGloss": "circumincession 的教義試圖說明聖父、聖子、聖靈既有分別又不可分割。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "周圍",
+        "走、行"
+      ]
+    },
+    "redound": {
+      "partOfSpeech": "動詞",
+      "definition": "帶來回報或反照到某人身上的後果。",
+      "friendly": "功勞（或責難）彈回負責人——對名聲 redound 的善行會繞回來獎賞你。",
+      "exampleGloss": "隊伍的成功將 redound 到那位安靜勤奮的教練的功勞上。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "回來、再次",
+        "波浪"
+      ]
+    },
+    "ineluctable": {
+      "partOfSpeech": "形容詞",
+      "definition": "無法避免或逃脫。",
+      "friendly": "無論怎麼做都會發生——ineluctable 的結局掙不脫。",
+      "exampleGloss": "衰老會來到每個人身上；這簡直是 ineluctable。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "不",
+        "掙扎著脫出"
+      ]
+    },
+    "periphrastic": {
+      "partOfSpeech": "形容詞",
+      "definition": "用迂迴冗長的措辭，而不用直接形式。",
+      "friendly": "用話說遠路——說「make a decision」而不說「decide」。",
+      "exampleGloss": "他 periphrastic 的電子郵件，三個段落才講完一行就能說完的話。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "周圍",
+        "宣告、講述"
+      ]
+    },
+    "hebetude": {
+      "partOfSpeech": "名詞",
+      "definition": "心智遲鈍或昏沉。",
+      "friendly": "思考像在糖漿裏蹚水的霧茫茫、懶洋洋的心智狀態。",
+      "exampleGloss": "午餐過後，一陣 hebetude 襲上全班。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "鈍的、不鋒利的",
+        "狀態或性質"
+      ]
+    },
+    "unpropitious": {
+      "partOfSpeech": "形容詞",
+      "definition": "不利的；預兆不佳。",
+      "friendly": "壞兆頭——還沒開始，條件或時機就像在跟你作對。",
+      "exampleGloss": "灰濛濛的天空加上沒電的汽車電池，讓這趟公路旅行有個 unpropitious 的開頭。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "不",
+        "有利的、恩慈的"
+      ]
+    },
+    "fricaseed": {
+      "partOfSpeech": "形容詞／動詞",
+      "definition": "以醬汁燉或燜的肉——正確拼法是 fricasseed。",
+      "friendly": "把肉切開、用自己的醬汁慢慢煨到軟的溫暖舊廚用語。",
+      "exampleGloss": "祖母的 fricasseed 雞肉是每個星期日晚餐的亮點。",
+      "origin": "法語",
+      "rootMeanings": [
+        "油煎",
+        "打碎（成塊）"
+      ]
+    },
+    "ersatz": {
+      "partOfSpeech": "形容詞",
+      "definition": "人工或較劣的替代品。",
+      "friendly": "頂替真貨的仿品——勉強能用，但人人看得出不是真的。",
+      "exampleGloss": "戰時購物者只好將就用烘焙菊苣煮的 ersatz 咖啡。",
+      "origin": "德語",
+      "rootMeanings": [
+        "向外、替代前綴",
+        "放置、安放"
+      ]
+    },
+    "reify": {
+      "partOfSpeech": "動詞",
+      "definition": "把抽象觀念當成具體事物來對待。",
+      "friendly": "讓想法感覺實在——把模糊的東西，例如「the economy」，變成可以指著的物件。",
+      "exampleGloss": "把一國的「精神」稱為獨立存在，是把其實只是數百萬個選擇的東西 reifies 了。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "事物",
+        "使成"
+      ]
+    },
+    "eluded": {
+      "partOfSpeech": "動詞（過去式）",
+      "definition": "靈巧地逃脫或避開了。",
+      "friendly": "乾淨俐落地溜走——巧妙或驚險地躲開捕捉、問題或答案。",
+      "exampleGloss": "答案 eluded 了她好幾小時，直到淋浴時忽然接通。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向外、離開",
+        "玩耍"
+      ]
+    },
+    "aporetic": {
+      "partOfSpeech": "形容詞",
+      "definition": "表達疑惑、困惑或未解的矛盾。",
+      "friendly": "卡在真正的思路死胡同——不是懶得想，而是問題本身拒絕整齊的答案。",
+      "exampleGloss": "蘇格拉底常以 aporetic 的調子結束對話，留下的問題多過答案。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "沒有",
+        "通道、路"
+      ]
+    },
+    "metonymy": {
+      "partOfSpeech": "名詞",
+      "definition": "以相關詞稱呼某物的修辭，例如以「the crown」稱君主。",
+      "friendly": "用相關詞頂替真東西——說「the White House announced」其實指行政當局。",
+      "exampleGloss": "「Wall Street had a rough day」是 metonymy——其實是股市慘澹。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "改變、之後",
+        "名稱"
+      ]
+    },
+    "deracinate": {
+      "partOfSpeech": "動詞",
+      "definition": "連根拔起；從自然環境撕裂出來。",
+      "friendly": "把某物（或某人）連根拔離所屬的地方或文化。",
+      "exampleGloss": "戰爭 deracinated 了整整一代，把家庭驅散到邊境之外。",
+      "origin": "法語／拉丁語",
+      "rootMeanings": [
+        "離開、脫離",
+        "根"
+      ]
+    },
+    "euphonious": {
+      "partOfSpeech": "形容詞",
+      "definition": "聲音悅耳的。",
+      "friendly": "就是好聽——euphonious 的詞、名字或句子幾乎像音樂一樣滑過耳朵。",
+      "exampleGloss": "「Murmuring brook」是個 euphonious 的短語，柔軟好說。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "好、善",
+        "聲音、嗓音"
+      ]
+    },
+    "putative": {
+      "partOfSpeech": "形容詞",
+      "definition": "一般被假定或認為是的。",
+      "friendly": "即使尚未證實也被廣泛當成真的——所謂「supposed」的版本。",
+      "exampleGloss": "信件的 putative 作者後來證明完全是陌生人。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "認為、考量",
+        "具有……的性質"
+      ]
+    },
+    "neologism": {
+      "partOfSpeech": "名詞",
+      "definition": "新造的詞或片語。",
+      "friendly": "全新的詞——剛發明，字典裏還沒（幾乎沒）收錄。",
+      "exampleGloss": "「Doomscrolling」起初是 neologism，很快成了日常俚語。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "新的",
+        "詞、言語"
+      ]
+    },
+    "splenetic": {
+      "partOfSpeech": "形容詞",
+      "definition": "易怒或脾氣壞的。",
+      "friendly": "心情糟透、容易爆發——從前人們相信脾臟掌管脾氣。",
+      "exampleGloss": "他讀完郵件幾秒內就發出 splenetic 的回覆。",
+      "origin": "希臘語／拉丁語",
+      "rootMeanings": [
+        "脾（怒氣之所）",
+        "受……影響"
+      ]
+    },
+    "sententious": {
+      "partOfSpeech": "形容詞",
+      "definition": "喜歡以傲慢或做作的方式說教。",
+      "friendly": "愛用自以為是的口氣丟人生教訓，像每句都是簽餅籤詩。",
+      "exampleGloss": "他關於「友誼真義」的 sententious 祝酒讓大家都去看錶。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "意見、格言",
+        "充滿"
+      ]
+    },
+    "garrulous": {
+      "partOfSpeech": "形容詞",
+      "definition": "話特別多，尤其愛講瑣事。",
+      "friendly": "就是停不下來——別人已經沒話了還在碎念小事。",
+      "exampleGloss": "那位 garrulous 的士司機在我們離開機場前就把生平講完了。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "喋喋不休",
+        "傾向於"
+      ]
+    },
+    "fatuity": {
+      "partOfSpeech": "名詞",
+      "definition": "愚蠢、可笑。",
+      "friendly": "純粹的蠢——一句話或計畫蠢到幾乎不值得認真回應。",
+      "exampleGloss": "計畫純粹的 fatuity 在他們一試就暴露了。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "愚蠢的、可笑的",
+        "處於……的狀態"
+      ]
+    },
+    "peroration": {
+      "partOfSpeech": "名詞",
+      "definition": "演說的結尾部分，常作總結。",
+      "friendly": "演說的大結局——講者把一切收攏、把論點釘死的收尾。",
+      "exampleGloss": "到了 peroration，一半聽眾已經站起來了。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "穿過、直到終點",
+        "說、辯護"
+      ]
+    },
+    "tautology": {
+      "partOfSpeech": "名詞",
+      "definition": "用不同的話不必要地重複同一意思。",
+      "friendly": "沒有新意卻說兩遍，例如「free gift」或「end result」。",
+      "exampleGloss": "「It is what it is」是逃避真正解釋的人最愛用的 tautology。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "相同",
+        "詞、言語"
+      ]
+    },
+    "laconism": {
+      "partOfSpeech": "名詞",
+      "definition": "用極少的字；簡短的說話。",
+      "friendly": "以少勝多——簡短直率的回答藝術，得名於拉科尼亞斯巴達人出名的簡短。",
+      "exampleGloss": "「Molon labe」——「來拿吧」——是史上最著名的一段 laconism。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "拉科尼亞的斯巴達人",
+        "習慣、方式"
+      ]
+    },
+    "pabulum": {
+      "partOfSpeech": "名詞",
+      "definition": "平淡、過度簡化的想法；原指淡而無味的食物或糊。",
+      "friendly": "稀薄、兌了水的思想——簡化到對心智沒營養的內容。",
+      "exampleGloss": "政客的演說多半是 pabulum：含糊的承諾，甚麼也釘不住。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "餵養",
+        "手段或工具"
+      ]
+    },
+    "soporific": {
+      "partOfSpeech": "形容詞",
+      "definition": "引起睡眠或困倦。",
+      "friendly": "無聊到——或字面上鎮靜到——讓人想睡。想想溫牛奶，或三小時的預算會議。",
+      "exampleGloss": "講座 soporific 的嗡嗡聲讓半個房間在撐眼皮。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "深睡",
+        "造成、引起"
+      ]
+    },
+    "unctuous": {
+      "partOfSpeech": "形容詞",
+      "definition": "態度過分奉承或油滑。",
+      "friendly": "圓滑到發膩——奉承厚得幾乎摸得到油脂。",
+      "exampleGloss": "那位 unctuous 業務在每次追加銷售前都稱讚我的「絕佳品味」。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "塗油、膏抹",
+        "充滿"
+      ]
+    },
+    "captious": {
+      "partOfSpeech": "形容詞",
+      "definition": "很快挑錯，對瑣事過度批評。",
+      "friendly": "挑剔到病態——甚麼都要找問題，哪怕其實無關緊要。",
+      "exampleGloss": "他對報告 captious 的批註完全盯著逗號位置。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "抓住、拿取",
+        "陷阱、詭辯"
+      ]
+    },
+    "torpid": {
+      "partOfSpeech": "形容詞",
+      "definition": "遲緩，心智或身體不活躍。",
+      "friendly": "像冬眠的熊又慢又半醒——幾乎不動，幾乎不想。",
+      "exampleGloss": "八月悶熱裏，辦公室變得 torpid。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "麻木、遲緩",
+        "處於……狀態"
+      ]
+    },
+    "seneschal": {
+      "partOfSpeech": "名詞",
+      "definition": "管理中世紀家業的管家或官員。",
+      "friendly": "中世紀版的總管——替領主打理日常家宅與領地的可信官員。",
+      "exampleGloss": "城堡的 seneschal 從收穫帳到賓客名單甚麼都管。",
+      "origin": "法蘭克語／古法語",
+      "rootMeanings": [
+        "年長、資深",
+        "僕人"
+      ]
+    },
+    "expatiate": {
+      "partOfSpeech": "動詞",
+      "definition": "就某一主題長篇大論地說或寫。",
+      "friendly": "真正進入狀態——從每個角度沒完沒了地講、寫。",
+      "exampleGloss": "問他古董車，他就會 expatiate 整整一小時。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向外",
+        "空間"
+      ]
+    },
+    "nugatory": {
+      "partOfSpeech": "形容詞",
+      "definition": "毫無價值、瑣碎；也指無效或不起作用。",
+      "friendly": "基本上一文不值——合約裏 nugatory 的條款其實甚麼也不做。",
+      "exampleGloss": "法院裁定舊法規 nugatory，因為從來沒真正執行過。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "瑣事、廢話",
+        "屬於"
+      ]
+    },
+    "sagacity": {
+      "partOfSpeech": "名詞",
+      "definition": "智慧、精明的判斷。",
+      "friendly": "銳利務實的智慧——來自經驗而不只是書本的好判斷。",
+      "exampleGloss": "老船長的 sagacity 不只一次讓船員免於麻煩。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "嗅覺敏銳、精明",
+        "……的性質"
+      ]
+    },
+    "canaille": {
+      "partOfSpeech": "名詞",
+      "definition": "下層烏合之眾，輕蔑用語。",
+      "friendly": "勢利地貶稱「賤民」或普通人的詞。",
+      "exampleGloss": "伯爵對著聚集在宮門外的 canaille 冷笑。",
+      "origin": "意大利語／法語",
+      "rootMeanings": [
+        "狗",
+        "集合、一群"
+      ]
+    },
+    "contumely": {
+      "partOfSpeech": "名詞",
+      "definition": "無禮、羞辱的對待或言語。",
+      "friendly": "故意羞辱的殘酷輕蔑——設計來刺痛的侮辱。",
+      "exampleGloss": "他在作品被認可前忍受了批評家多年的 contumely。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "一起、徹底地",
+        "（因驕傲而）膨脹"
+      ]
+    },
+    "askance": {
+      "partOfSpeech": "副詞",
+      "definition": "帶著懷疑或不以為然；斜眼。",
+      "friendly": "對不太信任的東西投去的斜視——裝滿懷疑的一眼。",
+      "exampleGloss": "老師對整齊得可疑的作業看了一眼 askance。",
+      "origin": "不確定／意大利語",
+      "rootMeanings": [
+        "朝向、到",
+        "傾斜、偏見"
+      ]
+    },
+    "clodpate": {
+      "partOfSpeech": "名詞",
+      "definition": "笨蛋；木頭人。",
+      "friendly": "對有點笨的人幾乎帶點親暱的古罵——木頭人。",
+      "exampleGloss": "「你這 clodpate，」她笑，「地圖整段時間都拿反了。」",
+      "origin": "英語",
+      "rootMeanings": [
+        "土塊",
+        "頭"
+      ]
+    },
+    "actuate": {
+      "partOfSpeech": "動詞",
+      "definition": "使進入運動或行動；激勵。",
+      "friendly": "成為讓事情動起來的火花——無論是機器開機，還是人終於把想法付諸行動。",
+      "exampleGloss": "怕失去合約的恐懼把全隊 actuated 進了週末加班。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "作為、驅動",
+        "驅使、做"
+      ]
+    },
+    "peculation": {
+      "partOfSpeech": "名詞",
+      "definition": "侵占受託保管的資金。",
+      "friendly": "悄悄偷走託你看管的錢——穿著古外套的侵占。",
+      "exampleGloss": "出納的 peculation 將近十年沒被發現。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "私有財產",
+        "牲畜、財富"
+      ]
+    },
+    "demi-monde": {
+      "partOfSpeech": "名詞",
+      "definition": "被視為位於體面社會邊緣的群體。",
+      "friendly": "華麗卻見不得光的社交地下世界——活在「體面」規則外側的人。",
+      "exampleGloss": "小說追隨一位在一九二〇年代卡巴萊 demi-monde 裏周旋的歌手。",
+      "origin": "法語",
+      "rootMeanings": [
+        "一半",
+        "世界、社會"
+      ]
+    },
+    "extant": {
+      "partOfSpeech": "形容詞",
+      "definition": "仍然存在；未滅絕或未毀滅。",
+      "friendly": "今天還在——用於設法存活下來的古物（手稿、物種、建築）。",
+      "exampleGloss": "初版已知僅存三份 extant 複本。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向外",
+        "站立"
+      ]
+    },
+    "perfidy": {
+      "partOfSpeech": "名詞",
+      "definition": "欺詐；背叛信任。",
+      "friendly": "深刻、蓄意的背叛——打破對方有理由期望你守住的信任。",
+      "exampleGloss": "將軍從不原諒老友在談判桌上的 perfidy。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "穿過、反對",
+        "信仰、信任"
+      ]
+    },
+    "patois": {
+      "partOfSpeech": "名詞",
+      "definition": "地方方言，尤其非標準的。",
+      "friendly": "某地人們獨特的說話方式——充滿外人未必聽得懂的詞與節奏。",
+      "exampleGloss": "她祖母在家庭晚餐仍說島上的 patois。",
+      "origin": "法語",
+      "rootMeanings": [
+        "粗糙的話、方言",
+        "爪子——笨拙的話"
+      ]
+    },
+    "prerogative": {
+      "partOfSpeech": "名詞",
+      "definition": "屬於某人或某群體的特殊權利。",
+      "friendly": "只屬於你的特權——隨角色、職位或身分而來的權利。",
+      "exampleGloss": "選定全家度假地是爺爺的 prerogative，人人都知道。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "之前",
+        "詢問、投票"
+      ]
+    },
+    "hardihood": {
+      "partOfSpeech": "名詞",
+      "definition": "大膽、無畏；也指堅韌或耐力。",
+      "friendly": "粗礪有膽的韌性——往前衝的膽子，以及一旦上路就撐下去的硬。",
+      "exampleGloss": "沒有地圖在暴風雪中翻過山口，需要真正的 hardihood。",
+      "origin": "古法語／英語",
+      "rootMeanings": [
+        "大膽、強健",
+        "狀態、情形"
+      ]
+    },
+    "effloresce": {
+      "partOfSpeech": "動詞",
+      "definition": "綻放；也指發展或逐漸顯現。",
+      "friendly": "開成充分的表達——像花開，或想法終於長成自己。",
+      "exampleGloss": "她安靜的繪畫才華在有了自己的畫室後 effloresced。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向外",
+        "開始綻放"
+      ]
+    },
+    "plumb-line": {
+      "partOfSpeech": "名詞",
+      "definition": "測鉛直的加重線；比喻判斷的標準。",
+      "friendly": "垂得筆直的加重線，用來檢查是否真正垂直——引申為衡量其餘一切的固定標準。",
+      "exampleGloss": "他把祖父的誠實當成每項決定的一種 plumb line。",
+      "origin": "拉丁語／英語",
+      "rootMeanings": [
+        "鉛",
+        "繩、尺度"
+      ]
+    },
+    "fain": {
+      "partOfSpeech": "副詞",
+      "definition": "欣然、願意地（古語）。",
+      "friendly": "「欣然」或「樂意」的古說法。",
+      "exampleGloss": "「I would fain rest here a while，」旅人嘆道。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "高興的、快樂的",
+        "欣然、願意地"
+      ]
+    },
+    "opprobrium": {
+      "partOfSpeech": "名詞",
+      "definition": "嚴厲的公開批評或恥辱。",
+      "friendly": "公開、顯眼地堆在某人身上的羞恥——廣泛不以為然帶來的恥辱。",
+      "exampleGloss": "醜聞把公開的 opprobrium 壓到整間公司頭上。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "反對",
+        "恥辱、責備"
+      ]
+    },
+    "mordant": {
+      "partOfSpeech": "形容詞",
+      "definition": "尖銳諷刺，機智或批評帶咬勁。",
+      "friendly": "帶牙的機智——mordant 的評語正因瞄得準而有點刺。",
+      "exampleGloss": "她 mordant 的影評讓導演害怕、讀者喜愛。",
+      "origin": "拉丁語／法語",
+      "rootMeanings": [
+        "咬",
+        "咬著、作為"
+      ]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "名詞",
+      "definition": "正式宣告，常為政治或軍事的。",
+      "friendly": "盛大官方宣布——通常宣告新政權、起事或重大法令。",
+      "exampleGloss": "將軍的 pronunciamento 在黎明宣布了新政府。",
+      "origin": "西班牙語",
+      "rootMeanings": [
+        "向前",
+        "宣布"
+      ]
+    },
+    "sciolist": {
+      "partOfSpeech": "名詞",
+      "definition": "知識膚淺卻假裝專家的人。",
+      "friendly": "只刮過話題表面，卻講得像自己寫了教科書。",
+      "exampleGloss": "晚宴上的 sciolist 自信滿滿地糾正了桌上真正的天文物理學家。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "知道",
+        "指小——小小的知者"
+      ]
+    },
+    "dotage": {
+      "partOfSpeech": "名詞",
+      "definition": "老年心智能力衰退。",
+      "friendly": "極老年、心智鋒芒開始消退的霧茫茫健忘時段。",
+      "exampleGloss": "在他的 dotage 裏，每次來訪都講同樣三個故事，每次都像新的。",
+      "origin": "中古英語",
+      "rootMeanings": [
+        "昏憒、變傻",
+        "狀態或結果"
+      ]
+    },
+    "lee-side": {
+      "partOfSpeech": "名詞",
+      "definition": "背風的一側。",
+      "friendly": "山、船、牆那風吹不太到的平靜一側。",
+      "exampleGloss": "登山者把帳篷紮在山脊的 lee side 以避開陣風。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "遮蔽、保護",
+        "側面、面"
+      ]
+    },
+    "parry": {
+      "partOfSpeech": "動詞",
+      "definition": "擋開或化解一擊、問題或論點。",
+      "friendly": "不漏拍地輕輕擋開——劍擊、尷尬問題或指控。",
+      "exampleGloss": "她用輕鬆的玩笑 parried 了記者刁鑽的問題。",
+      "origin": "法語",
+      "rootMeanings": [
+        "擋開",
+        "準備、防衛"
+      ]
+    },
+    "mephitic": {
+      "partOfSpeech": "形容詞",
+      "definition": "惡臭的、有害的。",
+      "friendly": "幾乎有毒的臭——臭到吸了都覺得危險。",
+      "exampleGloss": "日落時一陣 mephitic 氣味從沼澤升起。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "有害蒸氣",
+        "具有……的性質"
+      ]
+    },
+    "sybarite": {
+      "partOfSpeech": "名詞",
+      "definition": "獻身於奢華與享樂的人。",
+      "friendly": "為舒適與放縱而活的人——美食、軟床、輕鬆日子，得名於以奢華聞名的古希臘城敘巴里斯。",
+      "exampleGloss": "真正的 sybarite，他拒絕沒有浴缸的酒店房間。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "以奢華聞名的古希臘城",
+        "的居民"
+      ]
+    },
+    "prescind": {
+      "partOfSpeech": "動詞",
+      "definition": "刻意把某部分擱置或忽略。",
+      "friendly": "故意把拼圖的一塊放到一邊，好乾淨地專注其餘。",
+      "exampleGloss": "不如我們暫時 prescind 成本，只問計畫到底行不行。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "之前、離開",
+        "切開"
+      ]
+    },
+    "excoriate": {
+      "partOfSpeech": "動詞",
+      "definition": "嚴厲批評；也指剝皮。",
+      "friendly": "用苛刻批評把人撕開——言語上像真的把皮剝下來。",
+      "exampleGloss": "影評人因續集背叛原作粉絲所愛的一切而 excoriated 它。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "脫離",
+        "皮、皮革"
+      ]
+    },
+    "adduce": {
+      "partOfSpeech": "動詞",
+      "definition": "引為證據或證明。",
+      "friendly": "端出事實或例子撐住論點——有人問「what's your evidence?」時你指的東西。",
+      "exampleGloss": "律師 adduced 三位證人支持當事人的不在場證明。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向、朝向",
+        "引導"
+      ]
+    },
+    "peregrinations": {
+      "partOfSpeech": "名詞",
+      "definition": "旅行或遊蕩，尤其漫長廣泛的。",
+      "friendly": "漫長遊走的旅程——讓你離家很久很遠的那種廣泛徘徊。",
+      "exampleGloss": "他橫跨三大洲的 peregrinations 填滿一整層旅行日記。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "穿過",
+        "田野、土地（peregrinus：外國人）"
+      ]
+    },
+    "mendicant": {
+      "partOfSpeech": "名詞",
+      "definition": "乞丐，或以施捨為生的人。",
+      "friendly": "靠求人施捨過活——歷史上也指發清貧誓、靠捐贈維生的修士。",
+      "exampleGloss": "那些 mendicant 修士一無所有，完全靠村民的善意。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "乞求",
+        "乞丐"
+      ]
+    },
+    "munificent": {
+      "partOfSpeech": "形容詞",
+      "definition": "極其慷慨。",
+      "friendly": "大方到近乎炫耀——讓人倒抽一口氣的禮物。",
+      "exampleGloss": "那筆 munificent 捐款資助了圖書館整座新翼。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "禮物、服務",
+        "造成、給予"
+      ]
+    },
+    "inanition": {
+      "partOfSpeech": "名詞",
+      "definition": "因缺乏滋養而衰竭；也指缺乏活力。",
+      "friendly": "沒被餵飽或補給而掏空的虛弱——字面是飢餓，比喻是沒剩燃料可跑。",
+      "exampleGloss": "圍城結束時，士兵已接近 inanition。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "空、虛",
+        "行為或結果"
+      ]
+    },
+    "vituperation": {
+      "partOfSpeech": "名詞",
+      "definition": "尖刻、辱罵性的批評。",
+      "friendly": "早已超過公允、變成憤怒苦澀長篇大論的批評。",
+      "exampleGloss": "網上留言幾分鐘內就溶成純粹的 vituperation。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "過錯",
+        "準備、供給"
+      ]
+    },
+    "inimical": {
+      "partOfSpeech": "形容詞",
+      "definition": "敵對的，效果有害的。",
+      "friendly": "即使悄悄也在跟你作對——對你的利益不友善的條件或態度。",
+      "exampleGloss": "新政策即使不是本意，也對小企業 inimical。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "不",
+        "朋友"
+      ]
+    },
+    "invidious": {
+      "partOfSpeech": "形容詞",
+      "definition": "容易引起怨恨或不滿，常因不公平比較。",
+      "friendly": "注定讓人覺得被輕慢——通常因為把人或事物不公平地排在一起。",
+      "exampleGloss": "用「媽媽最愛誰」給手足排名，是誰都不該玩的 invidious 遊戲。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "嫉妒",
+        "（懷惡意地）看"
+      ]
+    },
+    "subaltern": {
+      "partOfSpeech": "名詞",
+      "definition": "地位較低的人；下屬。",
+      "friendly": "指揮鏈或社會階梯較低處的人——在更有權的人底下做事的資淺者。",
+      "exampleGloss": "作為年輕的 subaltern，他在發號施令很久以前就先聽命。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "在下",
+        "交替的、其他的"
+      ]
+    },
+    "execrate": {
+      "partOfSpeech": "動詞",
+      "definition": "感到或表達強烈憎恨。",
+      "friendly": "厭惡到出聲咒罵——純粹、有聲的憎惡。",
+      "exampleGloss": "村民每次稅吏的車經過鎮上就 execrated 他。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "出於",
+        "神聖的（從神聖中咒出）"
+      ]
+    },
+    "integument": {
+      "partOfSpeech": "名詞",
+      "definition": "自然的外覆，如皮膚或殼。",
+      "friendly": "大自然自己的保護包裝——皮、殼、莢、皮層，凡是覆蓋並保護生物的。",
+      "exampleGloss": "烏龜的殼是極為堅韌的 integument。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "在上、覆蓋",
+        "覆蓋"
+      ]
+    },
+    "ingenuous": {
+      "partOfSpeech": "形容詞",
+      "definition": "天真、少不更事，帶孩子般的單純；「disingenuous」的反面。",
+      "friendly": "坦率信任、有點天真，沒有隱藏目的——容易和意為聰明的「ingenious」搞混。",
+      "exampleGloss": "她 ingenuous 的問題——「為甚麼有人會為那件事說謊？」——顯出她多麼沒心機。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "內、天生的",
+        "生育（自由民的、坦率的）"
+      ]
+    },
+    "pedantry": {
+      "partOfSpeech": "名詞",
+      "definition": "對細枝末節或規則過度執著。",
+      "friendly": "迷失在小規則裏而錯過大局——執著於沒人在乎的細則。",
+      "exampleGloss": "他對牛津逗號的 pedantry 讓整場會議脫軌。",
+      "origin": "意大利語／拉丁語",
+      "rootMeanings": [
+        "兒童導師",
+        "習慣或性質"
+      ]
+    },
+    "perscrutation": {
+      "partOfSpeech": "名詞",
+      "definition": "徹底、仔細的檢查。",
+      "friendly": "翻遍每塊石頭的深查——真正仔細過每一個細節。",
+      "exampleGloss": "直到仔細 perscrutation 帳冊之後，差異才出現。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "穿過、徹底地",
+        "搜尋、檢查"
+      ]
+    },
+    "demur": {
+      "partOfSpeech": "動詞",
+      "definition": "提出異議；表示不情願。",
+      "friendly": "禮貌地推回去或猶豫，而不是立刻附和——柔軟的「I'd rather not」。",
+      "exampleGloss": "被要求不讀就簽名時，她 demurred。",
+      "origin": "拉丁語／法語",
+      "rootMeanings": [
+        "從、離開",
+        "延遲"
+      ]
+    },
+    "specious": {
+      "partOfSpeech": "形容詞",
+      "definition": "表面看似合理，其實是錯的。",
+      "friendly": "乍看有說服力，一查就垮。",
+      "exampleGloss": "「Everyone's doing it」是經不起檢視的 specious 論點。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "外表、樣子",
+        "充滿（看似美好）"
+      ]
+    },
+    "cant": {
+      "partOfSpeech": "名詞",
+      "definition": "不誠懇、偽善的話，常帶說教。",
+      "friendly": "聽來有德卻沒真感情撐腰的說教——自動駕駛的道德姿態。",
+      "exampleGloss": "他厭倦了一家從不給人放假的公司關於「家庭」的企業 cant。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "歌唱（後來指單調行話）",
+        "乞丐的哀鳴，轉為偽善"
+      ]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "形容詞",
+      "definition": "缺乏勇氣，怯懦。",
+      "friendly": "膽怯到沒脊骨——明明事關重大也不敢站出來。",
+      "exampleGloss": "董事會 pusillanimous 的沉默讓醜聞失控蔓延。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "極小",
+        "精神、勇氣"
+      ]
+    },
+    "vulpine": {
+      "partOfSpeech": "形容詞",
+      "definition": "像狐狸；狡猾、有手段。",
+      "friendly": "像狐狸一樣狡滑機靈——反應快、有點鬼、總領先一步。",
+      "exampleGloss": "一看到漏洞，他就露出 vulpine 的笑。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "狐狸",
+        "屬於或像"
+      ]
+    },
+    "seriatim": {
+      "partOfSpeech": "副詞",
+      "definition": "一個接一個，依序。",
+      "friendly": "嚴格一次一件、按順序——不准跳、不准兩件並行。",
+      "exampleGloss": "法官把十二項主張逐一 seriatim 處理。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "行列、順序",
+        "一次一個"
+      ]
+    },
+    "parsimony": {
+      "partOfSpeech": "名詞",
+      "definition": "極度節儉；吝嗇。",
+      "friendly": "把錢（或話、資源）擰得超過合理節儉。",
+      "exampleGloss": "他的 parsimony 是傳奇——茶包重複用三次。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "吝惜、節儉",
+        "狀態或習慣"
+      ]
+    },
+    "emendation": {
+      "partOfSpeech": "名詞",
+      "definition": "更正，尤其文本的。",
+      "friendly": "對文章的修補——改正古老或重要文本錯誤的學術調整。",
+      "exampleGloss": "新版包含對原手稿的數十處 emendations。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "出於",
+        "過錯、錯誤"
+      ]
+    },
+    "abstemious": {
+      "partOfSpeech": "形容詞",
+      "definition": "飲食有節制。",
+      "friendly": "在吃喝上刻意克制——從不過量，盤子裏總留一點。",
+      "exampleGloss": "他 abstemious 的習慣讓他在同輩慢下來之後仍長久敏銳。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "遠離",
+        "致醉飲料"
+      ]
+    },
+    "solecism": {
+      "partOfSpeech": "名詞",
+      "definition": "文法錯誤或禮儀過失。",
+      "friendly": "文法或禮貌上的小閃失——會讓挑剔的人皺眉的那種錯。",
+      "exampleGloss": "「Between you and I」是仍讓語法家一縮的常見 solecism。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "以「壞」希臘語聞名的奇里乞亞城",
+        "習慣、方式"
+      ]
+    },
+    "internecine": {
+      "partOfSpeech": "形容詞",
+      "definition": "與群體內部衝突有關；互相毀滅的。",
+      "friendly": "從內部撕裂群體的內鬥——因為是自己人打自己人，人人都輸。",
+      "exampleGloss": "黨內 internecine 的爭吵比任何外部對手都傷得更重。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "之間、之中",
+        "殺害"
+      ]
+    },
+    "pococurante": {
+      "partOfSpeech": "形容詞／名詞",
+      "definition": "冷漠、漫不經心的態度。",
+      "friendly": "聳肩變成整個人格——對曾經重要的事關心少到甚麼都不值得費力。",
+      "exampleGloss": "他對頒獎典禮 pococurante 的態度，讓知道他多努力的人都吃驚。",
+      "origin": "意大利語",
+      "rootMeanings": [
+        "少",
+        "關心"
+      ]
+    },
+    "imbroglio": {
+      "partOfSpeech": "名詞",
+      "definition": "混亂複雜的局面或爭執。",
+      "friendly": "糾纏難解的亂局——一部分誤會、一部分戲劇、全是混亂。",
+      "exampleGloss": "整場座位表 imbroglio 始於一張放錯的名牌。",
+      "origin": "意大利語",
+      "rootMeanings": [
+        "在內",
+        "糾纏、弄亂"
+      ]
+    },
+    "minatory": {
+      "partOfSpeech": "形容詞",
+      "definition": "威脅的、威嚇的。",
+      "friendly": "帶著明白無誤的威脅氣息——minatory 的眼神或信件讓人很清楚壞事可能接著來。",
+      "exampleGloss": "信件 minatory 的語氣讓房客還沒拆封就緊張。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "威脅",
+        "用以……的"
+      ]
+    },
+    "obloquy": {
+      "partOfSpeech": "名詞",
+      "definition": "強烈的公開批評或辱罵。",
+      "friendly": "大聲的公開譴責——在所有人面前展開的灼熱批評。",
+      "exampleGloss": "揭弊者在歷史證明她正確之前，面對了多年公開的 obloquy。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "反對",
+        "說話"
+      ]
+    },
+    "paroxysm": {
+      "partOfSpeech": "名詞",
+      "definition": "情感或行動突然猛烈的爆發。",
+      "friendly": "一下子吞沒你的強烈爆發——笑聲、怒火或咳嗽像浪打來。",
+      "exampleGloss": "她被一陣無法向房裏任何人解釋的笑聲 paroxysm 攫住。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "超越",
+        "銳利、急性"
+      ]
+    },
+    "adscititious": {
+      "partOfSpeech": "形容詞",
+      "definition": "從外部加上的，非固有的。",
+      "friendly": "從外面栓上去，而不是一開始就建在裏頭——額外的，不是核心。",
+      "exampleGloss": "那段評注感覺 adscititious，像貼在已經完成的文本上。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向、另外",
+        "認可、接納"
+      ]
+    },
+    "nescience": {
+      "partOfSpeech": "名詞",
+      "definition": "缺乏知識，無知。",
+      "friendly": "單純的不知——知識的缺口，不帶評判。",
+      "exampleGloss": "他承認對法國葡萄酒的 nescience，讓侍酒師來選。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "不",
+        "知道"
+      ]
+    },
+    "prurience": {
+      "partOfSpeech": "名詞",
+      "definition": "對性事過度的興趣。",
+      "friendly": "對任何露骨之事過於熱切、帶色的好奇心——過了健康線變成窺探。",
+      "exampleGloss": "小報對那對情侶私生活的 prurience 近乎執迷。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "發癢、渴望",
+        "狀態"
+      ]
+    },
+    "fuliginous": {
+      "partOfSpeech": "形容詞",
+      "definition": "煤煙般的、暗的、混濁的。",
+      "friendly": "又暗又煙，像薄薄一層煤灰覆著一切。",
+      "exampleGloss": "黃昏時 fuliginous 的霾懸在工業小鎮上空。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "煤煙",
+        "充滿"
+      ]
+    },
+    "gainsay": {
+      "partOfSpeech": "動詞",
+      "definition": "否認或反駁。",
+      "friendly": "對別人說的話直截了當地反對——說「that's not so」。",
+      "exampleGloss": "沒人敢 gainsay 老船長對那場風暴的敘述。",
+      "origin": "中古英語",
+      "rootMeanings": [
+        "反對",
+        "說話"
+      ]
+    },
+    "ignavia": {
+      "partOfSpeech": "名詞",
+      "definition": "懶惰、怠惰（源自拉丁語）。",
+      "friendly": "指純粹懶惰的古拉丁詞——甚麼都不想做的拖拉。",
+      "exampleGloss": "修士把 ignavia 講成靈魂安靜的危險之一。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "不",
+        "忙碌、勤勉"
+      ]
+    },
+    "escutcheon": {
+      "partOfSpeech": "名詞",
+      "definition": "展示紋章的盾。",
+      "friendly": "展示家族紋章的盾形標誌——紋章的「名牌」。",
+      "exampleGloss": "家族的 escutcheon 仍掛在老莊園正門上方。",
+      "origin": "拉丁語／古法語",
+      "rootMeanings": [
+        "盾",
+        "指小／物件"
+      ]
+    },
+    "superannuated": {
+      "partOfSpeech": "形容詞",
+      "definition": "過時、廢棄，或因年邁而退休。",
+      "friendly": "過了有用盛年、被放去放牧——太老式或太磨損，無法繼續做這份工作。",
+      "exampleGloss": "那台 superannuated 打印機卡紙十五年後終於被換掉。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "超越",
+        "年"
+      ]
+    },
+    "succedanea": {
+      "partOfSpeech": "名詞",
+      "definition": "替代品，尤其醫藥上的。",
+      "friendly": "真正療法沒有時用的頂替藥——基本上是醫療的替角。",
+      "exampleGloss": "戰時醫生在正規藥品用盡時常常依賴 succedanea。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "代替",
+        "去、讓出"
+      ]
+    },
+    "rodomontade": {
+      "partOfSpeech": "名詞",
+      "definition": "自誇、虛張聲勢的話。",
+      "friendly": "大聲吹噓自己有多偉大——多半是熱空氣。",
+      "exampleGloss": "他關於「單槍匹馬」拯救項目的 rodomontade 騙不了真正在場的人。",
+      "origin": "意大利語",
+      "rootMeanings": [
+        "《瘋狂的奧蘭多》裏愛吹噓的騎士",
+        "行為、展示"
+      ]
+    },
+    "chicane": {
+      "partOfSpeech": "動詞",
+      "definition": "用詭計或欺騙達成某事。",
+      "friendly": "靠偷偷摸摸的把戲而不是公平競爭鑽向目標。",
+      "exampleGloss": "他用滿是細則的合約 chicaned 進了這筆交易。",
+      "origin": "法語",
+      "rootMeanings": [
+        "找碴、欺騙",
+        "詭計；後來指急轉彎"
+      ]
+    },
+    "mathesis": {
+      "partOfSpeech": "名詞",
+      "definition": "學習或知識的純粹抽象科學，常指數學。",
+      "friendly": "最純粹、最抽象的學習——知識本身的深層結構，尤其是數學那種。",
+      "exampleGloss": "哲學家夢想能統一每一知識領域的普遍 mathesis。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "學習",
+        "學習的行為"
+      ]
+    },
+    "pedantic": {
+      "partOfSpeech": "形容詞",
+      "definition": "過度執著於形式規則或瑣碎細節。",
+      "friendly": "對小事過於嚴格——糾正其實甚麼也不改的技術細節。",
+      "exampleGloss": "在短訊裏爭「who」和「whom」感覺有點 pedantic。",
+      "origin": "意大利語／希臘語",
+      "rootMeanings": [
+        "兒童引導者、導師",
+        "具有……的態度"
+      ]
+    },
+    "coruscation": {
+      "partOfSpeech": "名詞",
+      "definition": "閃爍、閃耀的光。",
+      "friendly": "迅速閃亮的一閃——想想水面反光，或鑽石接住光。",
+      "exampleGloss": "枝形吊燈的 coruscation 把光灑滿舞廳每個角落。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "閃耀、閃光",
+        "該行為"
+      ]
+    },
+    "tyro": {
+      "partOfSpeech": "名詞",
+      "definition": "初學者、新手。",
+      "friendly": "對一項技能或領域全新的人——還在學門路，還不是專家。",
+      "exampleGloss": "連 tyro 棋手都能看出那步臭棋。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "新兵、新手",
+        "生澀的年輕兵士"
+      ]
+    },
+    "execrable": {
+      "partOfSpeech": "形容詞",
+      "definition": "極壞的、可憎的。",
+      "friendly": "壞到該被真心厭惡——不是「普通」，而是真正可憎。",
+      "exampleGloss": "評者稱續集 execrable，票房數字也同意。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "詛咒",
+        "值得、能夠被"
+      ]
+    },
+    "incarnadine": {
+      "partOfSpeech": "形容詞",
+      "definition": "血紅色的。",
+      "friendly": "深而鮮豔的紅——新鮮血液的顏色，因莎士比亞《馬克白》而著名。",
+      "exampleGloss": "日落把整片天空變成 incarnadine 的光輝。",
+      "origin": "意大利語／拉丁語",
+      "rootMeanings": [
+        "進入",
+        "肉（肉色紅）"
+      ]
+    },
+    "interstice": {
+      "partOfSpeech": "名詞",
+      "definition": "事物之間的小空隙。",
+      "friendly": "容易忽略的中間小空間——地板縫、行程空檔。",
+      "exampleGloss": "雜草從舊磚徑每一個 interstice 拱上來。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "之間",
+        "站立"
+      ]
+    },
+    "animadversion": {
+      "partOfSpeech": "名詞",
+      "definition": "批評或非難的話。",
+      "friendly": "尖銳、不以為然的評語——帶點訓斥口氣的批評。",
+      "exampleGloss": "教授對論文的 animadversions 用紅墨水填滿了頁邊。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "心智",
+        "轉向"
+      ]
+    },
+    "irrefragable": {
+      "partOfSpeech": "形容詞",
+      "definition": "無法反駁，不容否認。",
+      "friendly": "證明得太堅實，沒得爭——案子就此結了。",
+      "exampleGloss": "DNA 證據 irrefragable，審訊一小時內結束。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "不",
+        "反對、抵抗"
+      ]
+    },
+    "involution": {
+      "partOfSpeech": "名詞",
+      "definition": "複雜、錯綜；也指向內捲曲。",
+      "friendly": "纏在自己裏頭、難以拆開的複雜——包得太緊，很難拉開。",
+      "exampleGloss": "情節的 involution 讓一半觀眾在字幕後還在解。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向內",
+        "捲、轉"
+      ]
+    },
+    "dint": {
+      "partOfSpeech": "名詞",
+      "definition": "力量或努力，如「by dint of」。",
+      "friendly": "純粹的努力或力量——如今多半活在片語「by dint of」裏。",
+      "exampleGloss": "他憑純粹、固執練習的 dint 通過了考試。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "一擊、一打",
+        "憑……之力"
+      ]
+    },
+    "mortised": {
+      "partOfSpeech": "形容詞",
+      "definition": "以榫眼榫頭接合的；牢牢契合的。",
+      "friendly": "用老派木匠的方式鎖在一起——一塊剛好嵌入為它切出的孔。",
+      "exampleGloss": "舊穀倉的梁沒有一根釘子就 mortised 在一起。",
+      "origin": "拉丁語／法語",
+      "rootMeanings": [
+        "榫眼、孔",
+        "咬合、抓握"
+      ]
+    },
+    "apposite": {
+      "partOfSpeech": "形容詞",
+      "definition": "高度相關、貼切。",
+      "friendly": "正是那一刻該有的——評論、引文或例子完美落點。",
+      "exampleGloss": "她 apposite 的一句話用一句總結了整場辯論。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向",
+        "放置"
+      ]
+    },
+    "lambent": {
+      "partOfSpeech": "形容詞",
+      "definition": "柔和發光或閃爍的（光）；也指輕巧機智。",
+      "friendly": "溫柔發光而非燃燒——柔和閃爍的光，或好玩而不鋒利的機智。",
+      "exampleGloss": "燭光在舊餐廳投下 lambent 的光。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "舔",
+        "作為（「舔」過的光）"
+      ]
+    },
+    "anchorite": {
+      "partOfSpeech": "名詞",
+      "definition": "獨居的宗教隱修者。",
+      "friendly": "完全退出塵世、獨自過祈禱與沉思生活的人。",
+      "exampleGloss": "那位 anchorite 在附屬於教堂的小室住了三十多年。",
+      "origin": "希臘語",
+      "rootMeanings": [
+        "向後、離開",
+        "退出"
+      ]
+    },
+    "slake": {
+      "partOfSpeech": "動詞",
+      "definition": "解渴；平息。",
+      "friendly": "充分滿足渴望——多半是渴，比喻上則是任何深層需要。",
+      "exampleGloss": "一杯冷水 slaked 了他長途健行後的渴。",
+      "origin": "古英語",
+      "rootMeanings": [
+        "鬆的、弛的",
+        "放鬆、緩和"
+      ]
+    },
+    "acicular": {
+      "partOfSpeech": "形容詞",
+      "definition": "針狀的。",
+      "friendly": "又長又細、像針一樣尖——松針或銳利小晶體的形狀。",
+      "exampleGloss": "松樹很容易憑 acicular 的葉子辨認。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "針",
+        "小的"
+      ]
+    },
+    "effete": {
+      "partOfSpeech": "形容詞",
+      "definition": "耗盡活力、軟弱、過度精緻。",
+      "friendly": "磨舊而軟——因過度舒適或精緻而失去原先的力與氣。",
+      "exampleGloss": "批評家稱這本曾經大膽的雜誌 effete，只是早期鋒芒的影子。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向外",
+        "多產的、已結實的"
+      ]
+    },
+    "appurtenance": {
+      "partOfSpeech": "名詞",
+      "definition": "附屬物或次要附帶權利。",
+      "friendly": "跟著大物而來的小額外——屬於主體的配件與附加。",
+      "exampleGloss": "租約包括車庫及其所有 appurtenances。",
+      "origin": "拉丁語／法語",
+      "rootMeanings": [
+        "向",
+        "屬於"
+      ]
+    },
+    "gloze": {
+      "partOfSpeech": "動詞",
+      "definition": "粉飾或淡化過錯。",
+      "friendly": "用軟話把錯抹平，聽起來比實際小。",
+      "exampleGloss": "他試圖用「未能預見的挑戰」這種含糊說法 gloze 錯過的期限。",
+      "origin": "古法語／拉丁語",
+      "rootMeanings": [
+        "注釋、解釋",
+        "作注——轉為粉飾"
+      ]
+    },
+    "incipient": {
+      "partOfSpeech": "形容詞",
+      "definition": "處於早期階段，剛開始。",
+      "friendly": "才剛顯露出來——更大之事最初、幾乎看不見的階段。",
+      "exampleGloss": "醫師在病情擴散前捕捉到 incipient 徵象。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "在上、進入",
+        "拿（拿起、開始）"
+      ]
+    },
+    "afflatus": {
+      "partOfSpeech": "名詞",
+      "definition": "創造性靈感，尤其神聖的。",
+      "friendly": "感覺比自己更大的突然靈感——像念頭從別處被吹進你裏頭。",
+      "exampleGloss": "詩人說整篇作品在凌晨三點一陣 afflatus 裏來到。",
+      "origin": "拉丁語",
+      "rootMeanings": [
+        "向、之上",
+        "吹（吹拂於上）"
+      ]
+    }
+  }
+}

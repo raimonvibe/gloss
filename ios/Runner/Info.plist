@@ -5,7 +5,66 @@
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<string>en</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>sq</string>
+		<string>ar</string>
+		<string>pt</string>
+		<string>en</string>
+		<string>es</string>
+		<string>hy</string>
+		<string>nl</string>
+		<string>de</string>
+		<string>az</string>
+		<string>bn</string>
+		<string>be</string>
+		<string>fr</string>
+		<string>sr</string>
+		<string>ms</string>
+		<string>bg</string>
+		<string>km</string>
+		<string>hr</string>
+		<string>el</string>
+		<string>tr</string>
+		<string>cs</string>
+		<string>da</string>
+		<string>et</string>
+		<string>fi</string>
+		<string>ka</string>
+		<string>zh</string>
+		<string>hu</string>
+		<string>is</string>
+		<string>hi</string>
+		<string>id</string>
+		<string>he</string>
+		<string>it</string>
+		<string>ja</string>
+		<string>kk</string>
+		<string>ru</string>
+		<string>sw</string>
+		<string>ky</string>
+		<string>lo</string>
+		<string>lv</string>
+		<string>lt</string>
+		<string>ro</string>
+		<string>my</string>
+		<string>af</string>
+		<string>ne</string>
+		<string>mk</string>
+		<string>nb</string>
+		<string>ur</string>
+		<string>fil</string>
+		<string>pl</string>
+		<string>sk</string>
+		<string>sl</string>
+		<string>ko</string>
+		<string>si</string>
+		<string>sv</string>
+		<string>th</string>
+		<string>uk</string>
+		<string>vi</string>
+	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Gloss</string>
 	<key>CFBundleExecutable</key>

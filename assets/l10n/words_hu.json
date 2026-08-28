@@ -1,0 +1,1076 @@
+{
+  "words": {
+    "edulcorate": {
+      "partOfSpeech": "ige",
+      "definition": "Édesíteni vagy tisztítani; kivenni belőle a nyerséget.",
+      "friendly": "Kivenni belőle a fullánkot vagy a keserűséget — szó szerint édesíteni, vagy átvitt értelemben puhítani egy durva gondolatot, hogy könnyebben lemenjen.",
+      "exampleGloss": "A szerkesztő edulcorated a kemény recenziót, mielőtt nyomdába ment.",
+      "origin": "latin",
+      "rootMeanings": ["ki, alaposan", "édes"]
+    },
+    "pietistic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Túlzottan vagy mutatósan áhítatos.",
+      "friendly": "Arról, akinek a jámborsága inkább előadásnak tűnik — több a színjáték, mint az élő hit.",
+      "exampleGloss": "A pietistic sóhajtozása a prédikáció alatt idegesítette az egész padsort.",
+      "origin": "latin",
+      "rootMeanings": ["jámborság, kötelesség", "jellegű"]
+    },
+    "amphiboly": {
+      "partOfSpeech": "főnév",
+      "definition": "Nyelvtani szerkezetből fakadó kétértelműség — mondat, amelyet kétféleképpen lehet olvasni.",
+      "friendly": "A mondat nyelvtanilag helyes, de két teljesen különböző módon olvasható, mint a „Visiting relatives can be tiring“.",
+      "exampleGloss": "A „Visiting relatives can be tiring“ klasszikus amphiboly — a rokonok fárasztóak, vagy maga a látogatás?",
+      "origin": "görög",
+      "rootMeanings": ["mindkettő, mindkét oldalról", "dobni"]
+    },
+    "trenchant": {
+      "partOfSpeech": "melléknév",
+      "definition": "Éles, átható, amely egyenesen a lényegre vág.",
+      "friendly": "Átvágja a szócséplést — egy trenchant megjegyzés vagy elme gyorsan a dolog közepébe ér, felesleg nélkül.",
+      "exampleGloss": "A trenchant kritikája nem hagyott a cselekmény lyukainak hova bújniuk.",
+      "origin": "ófrancia",
+      "rootMeanings": ["vágni", "cselekvés, tulajdonság"]
+    },
+    "inchoative": {
+      "partOfSpeech": "melléknév",
+      "definition": "Éppen csak elkezdődött; korai vagy csíra állapotban.",
+      "friendly": "Még az első pillanatokban — terv, érzés vagy folyamat, amely éppen csak formát kezd ölteni.",
+      "exampleGloss": "A szerződés inchoative szakaszai biztatóak voltak, de sok részlet nyitva maradt.",
+      "origin": "latin",
+      "rootMeanings": ["elkezdeni", "hajlamos valamire"]
+    },
+    "panegyric": {
+      "partOfSpeech": "főnév",
+      "definition": "Ünnepélyes beszéd vagy írás, amely valakit magasan dicsér.",
+      "friendly": "Teljes ünnepélyes dicséret — ragyogó panegirisz vagy beszéd, amely teljes hangerőn énekli valaki érdemeit.",
+      "exampleGloss": "A távozó professzort a legközelebbi tanítványai panegyric-kel kísérték.",
+      "origin": "görög",
+      "rootMeanings": ["egész, minden", "gyűlés, gyülekezet"]
+    },
+    "ontic": {
+      "partOfSpeech": "melléknév",
+      "definition": "A valóságos létezésre vagy tényleges létre vonatkozik, nem az elvont elméletre.",
+      "friendly": "A dolgokról úgy, ahogy valóban vannak, nem ahogy gondoljuk vagy elméletezzük őket.",
+      "exampleGloss": "A filozófusok vitatkoznak, van-e a számoknak bármilyen ontic státuszuk, vagy csak az elmében élnek.",
+      "origin": "görög",
+      "rootMeanings": ["lét, ami van", "valamire vonatkozó"]
+    },
+    "fructify": {
+      "partOfSpeech": "ige",
+      "definition": "Gyümölcsöt hozni vagy termékennyé válni.",
+      "friendly": "Végre megtérülni — erőfeszítés, ötlet vagy befektetés, amely gyümölcsöt hozott, és magból valami hasznossá nőtt.",
+      "exampleGloss": "A csendes munka évei végül fructified egy működő oltóanyagban.",
+      "origin": "latin",
+      "rootMeanings": ["gyümölcs", "tenni, okozni"]
+    },
+    "proleptical": {
+      "partOfSpeech": "melléknév",
+      "definition": "Elővételező, vagy valamit úgy ábrázol, mintha már megtörtént volna, mielőtt bekövetkezett.",
+      "friendly": "Irodalmilag előreszaladni — a jövőt úgy leírni, mintha már vége lenne, hogy a gondolat erősebben üssön.",
+      "exampleGloss": "A tábornok proleptical pohárköszöntője a „győzelemre“ egy héttel a csata előtt hangzott el.",
+      "origin": "görög",
+      "rootMeanings": ["előtt", "fogni, megragadni"]
+    },
+    "pneumatic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Levegőnyomással működő; illetőleg a lélekre vagy a lélegzetre vonatkozó.",
+      "friendly": "Általában „levegővel hajtott“ — fékek, szivattyúk, szerszámok, amelyek sziszegnek; régi szövegekben a lélekről vagy a lélegzetről is.",
+      "exampleGloss": "A pneumatic fékek sziszegtek, amikor a busz megállt a járdaszegélynél.",
+      "origin": "görög",
+      "rootMeanings": ["szél, lélegzet, lélek", "valamire vonatkozó"]
+    },
+    "cataphatic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Istent vagy az istenséget állító kijelentésekkel írja le — az apofatikus ellentéte.",
+      "friendly": "Úgy beszélni Istenről, hogy megmondjuk, milyen: „Isten a szeretet“, „Isten igazságos“ — nemcsak azt, hogy mi nem.",
+      "exampleGloss": "A cataphatic teológia magabiztosan beszél Istenről mint szeretőről, igazságosról és irgalmasról.",
+      "origin": "görög",
+      "rootMeanings": ["lefelé, szerint", "beszélni, mondani"]
+    },
+    "fiducial": {
+      "partOfSpeech": "melléknév",
+      "definition": "Bizalmon vagy hiten alapuló; illetőleg rögzített viszonyítási pont.",
+      "friendly": "Valami, amit hiten veszel, és aztán horgonyként tartasz — a fiducial jel rögzített pont, amelytől minden mást mérnek.",
+      "exampleGloss": "A földmérők fiducial jelölőt tettek a sziklába, mielőtt feltérképezték a terepet.",
+      "origin": "latin",
+      "rootMeanings": ["bízni", "bizalom, biztonság"]
+    },
+    "theodicy": {
+      "partOfSpeech": "főnév",
+      "definition": "Isten jóságának védelme a rossz létezése mellett.",
+      "friendly": "Évszázados kísérlet a kérdésre: ha Isten jó, honnan a rossz?",
+      "exampleGloss": "A disszertációja Jób könyvén keresztül vizsgálta a theodicy-t.",
+      "origin": "görög",
+      "rootMeanings": ["isten", "igazságosság"]
+    },
+    "circumincession": {
+      "partOfSpeech": "főnév",
+      "definition": "Kölcsönös lakozás — teológiai fogalom arról, hogyan lakoznak a Szentháromság személyei egymásban.",
+      "friendly": "Teológiai szó a Szentháromság olyan teljes egységére, hogy minden rész teljesen tartalmazza a többit, és bennük van.",
+      "exampleGloss": "A circumincession tana azt próbálja megmagyarázni, hogyan különböznek az Atya, a Fiú és a Lélek, és mégis elválaszthatatlanok.",
+      "origin": "latin",
+      "rootMeanings": ["körül", "menni, járni"]
+    },
+    "redound": {
+      "partOfSpeech": "ige",
+      "definition": "Olyan következménnyel járni, amely haszonként tér vissza vagy valakin tükröződik.",
+      "friendly": "Amikor a dicsőség (vagy a vád) visszatér ahhoz, aki megérdemelte — a jó tettek, amelyek redound a nevedre, jutalomként jönnek vissza.",
+      "exampleGloss": "A csapat sikere redound a csendes, szorgalmas edzőjének a becsületére.",
+      "origin": "latin",
+      "rootMeanings": ["vissza, újra", "hullám"]
+    },
+    "ineluctable": {
+      "partOfSpeech": "melléknév",
+      "definition": "Elkerülhetetlen, amely elől nem lehet kitérni.",
+      "friendly": "Megtörténik, bármit teszel — az ineluctable kimenetelből nem bújhatsz ki.",
+      "exampleGloss": "Az öregség mindenkire eljön; egyszerűen ineluctable.",
+      "origin": "latin",
+      "rootMeanings": ["nem", "kivergődni, kitépni magunkat"]
+    },
+    "periphrastic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Körülíró, szószátyár fordulatokat használ a közvetlen forma helyett.",
+      "friendly": "Kerülőúton eljutni a gondolathoz — azt mondani, „távozást hajtott végre“ a „elment“ helyett, vagy egy egész mondatot, ahol egy szó is elég lenne.",
+      "exampleGloss": "A periphrastic levelei egy sorban elmondhatták volna azt, amire három bekezdés kellett.",
+      "origin": "görög",
+      "rootMeanings": ["körül", "kihirdetni, elmondani"]
+    },
+    "hebetude": {
+      "partOfSpeech": "főnév",
+      "definition": "Szellemi tompaság vagy kábultság.",
+      "friendly": "Ködös, álmos nehézség az elmében, amikor a gondolkodás olyan, mint szirupon átgázolni.",
+      "exampleGloss": "A hebetude hulláma rögtön ebéd után elborította az osztályt.",
+      "origin": "latin",
+      "rootMeanings": ["tompa, tompított", "állapot, tulajdonság"]
+    },
+    "unpropitious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Kedvezőtlen; rosszat sejtető.",
+      "friendly": "Rossz jel — körülmények vagy időpont, amelyek mintha már a kezdet előtt ellened dolgoznának.",
+      "exampleGloss": "A szürke ég és a lemerült akkumulátor unpropitious kezdetet adott az útnak.",
+      "origin": "latin",
+      "rootMeanings": ["nem", "kedvező, kegyes"]
+    },
+    "fricaseed": {
+      "partOfSpeech": "melléknév / ige",
+      "definition": "Szószban párolt hús — helyesen fricasseed.",
+      "friendly": "Kellemes, régi szakácsszó a felkockázott és saját mártásában lassan párolt húsra, amíg meg nem puhul.",
+      "exampleGloss": "A nagymama fricasseed csirkéje minden vasárnapi vacsora dísze volt.",
+      "origin": "francia",
+      "rootMeanings": ["sütni", "törni (darabokra)"]
+    },
+    "ersatz": {
+      "partOfSpeech": "melléknév",
+      "definition": "Mesterséges vagy gyengébb helyettesítő.",
+      "friendly": "Hamisítvány az igazi helyett — formálisan megteszi, de mindenki látja, hogy nem az.",
+      "exampleGloss": "A háborúban a vásárlók pörkölt cikóriából készült ersatz kávéval boldogultak.",
+      "origin": "német",
+      "rootMeanings": ["ki, helyettesítő előtag", "tenni, helyezni"]
+    },
+    "reify": {
+      "partOfSpeech": "ige",
+      "definition": "Elvont eszmét úgy kezelni, mintha konkrét dolog volna.",
+      "friendly": "Tapinthatóvá és sűrűvé tenni a gondolatot — valami ködöset, mint az „igazságosság“ vagy a „piac“, tárggyá tenni, amire rá lehet mutatni.",
+      "exampleGloss": "A nemzet „szellemét“ külön lénynek nevezni annyi, mint reify azt, ami valójában milliónyi külön döntés.",
+      "origin": "latin",
+      "rootMeanings": ["dolog", "tenni"]
+    },
+    "eluded": {
+      "partOfSpeech": "ige (múlt idő)",
+      "definition": "Ügyesen kicsúszott vagy elkerült.",
+      "friendly": "Tisztán elszökött — kikerült, gyakran ügyesen vagy hajszálon, legyen szó fogásról, kérdésről vagy válaszról.",
+      "exampleGloss": "A válasz órákig eluded, míg hirtelen a zuhany alatt kattanva megjött.",
+      "origin": "latin",
+      "rootMeanings": ["ki, el", "játszani"]
+    },
+    "aporetic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Kétséget, zavarodottságot vagy feloldatlan ellentmondást kifejező.",
+      "friendly": "Megállni a gondolat igazi zsákutcájánál — nem lustaságból, hanem mert maga a kérdés nem ad rendes választ.",
+      "exampleGloss": "Szókratész gyakran aporetic hangon zárta a párbeszédeket: több a kérdés, mint a válasz.",
+      "origin": "görög",
+      "rootMeanings": ["nélkül", "átjáró, út"]
+    },
+    "metonymy": {
+      "partOfSpeech": "főnév",
+      "definition": "Szóalakzat, amely a dolgot szomszédos szóval nevezi meg, pl. „a korona“ az uralkodó helyett.",
+      "friendly": "Kapcsolódó szót tenni a dolog helyére — azt mondani, „a Fehér Ház bejelentette“, amikor az elnökre gondolsz.",
+      "exampleGloss": "A „Wall Street had a rough day“ metonymy — valójában a tőzsdéről van szó.",
+      "origin": "görög",
+      "rootMeanings": ["változás, utána", "név"]
+    },
+    "deracinate": {
+      "partOfSpeech": "ige",
+      "definition": "Gyökerestül kitépni; kiszakítani a természetes környezetéből.",
+      "friendly": "Valamit (vagy valakit) gyökerestül kivenni, messze attól a helytől vagy kultúrától, amelyhez tartozik.",
+      "exampleGloss": "A háború deracinated egy egész nemzedéket, családokat szórva szét a határokon túl.",
+      "origin": "francia / latin",
+      "rootMeanings": ["el, tőle", "gyökér"]
+    },
+    "euphonious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Kellemes a fülnek.",
+      "friendly": "Egyszerűen szépen hangzik — egy euphonious szó, név vagy mondat simán gördül a fülön, szinte zeneien.",
+      "exampleGloss": "A „Murmuring brook“ euphonious kis kifejezés, puha és könnyű kimondani.",
+      "origin": "görög",
+      "rootMeanings": ["jó, jól", "hang, szó"]
+    },
+    "putative": {
+      "partOfSpeech": "melléknév",
+      "definition": "Általánosan feltételezett vagy annak tartott.",
+      "friendly": "Széles körben igaznak vett, még ha nincs is bizonyítva — a „vélt“ apa, a „feltételezett“ szerző.",
+      "exampleGloss": "A levél putative szerzőjéről később kiderült, hogy teljesen idegen.",
+      "origin": "latin",
+      "rootMeanings": ["gondolni, tartani", "jellegű"]
+    },
+    "neologism": {
+      "partOfSpeech": "főnév",
+      "definition": "Újonnan alkotott szó vagy kifejezés.",
+      "friendly": "Teljesen új szó — éppen kitalált, még nem (vagy alig) került a szótárba.",
+      "exampleGloss": "A „Doomscrolling“ neologismként indult, és gyorsan mindennapi szleng lett.",
+      "origin": "görög",
+      "rootMeanings": ["új", "szó, beszéd"]
+    },
+    "splenetic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Dühös vagy rosszkedvű.",
+      "friendly": "Csúnya, ingerlékeny hangulatban — kész odamordulni, ahogy egykor azt hitték, a lép uralja a jellemet.",
+      "exampleGloss": "Splenetic választ küldött a levélre másodpercekkel az elolvasása után.",
+      "origin": "görög / latin",
+      "rootMeanings": ["lép (a harag székhelye)", "érintett"]
+    },
+    "sententious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Hajlamos dagályos vagy tettetett moralizálásra.",
+      "friendly": "Szeret életbölcsességeket osztogatni komolykodva, mintha minden mondat próféciás keksz volna.",
+      "exampleGloss": "A sententious pohárköszöntője a „barátság igazi értelméről“ mindenkit az órájára nézett.",
+      "origin": "latin",
+      "rootMeanings": ["vélemény, szentencia", "teli"]
+    },
+    "garrulous": {
+      "partOfSpeech": "melléknév",
+      "definition": "Túlzottan beszédes, különösen apróságokról.",
+      "friendly": "Egyszerűen nem áll meg — apróságokat szór, jóval azután, hogy a többieknek már nincs mit mondaniuk.",
+      "exampleGloss": "A garrulous taxisofőr az egész életét elmesélte, mielőtt kigurultunk volna a reptérről.",
+      "origin": "latin",
+      "rootMeanings": ["fecsegni, reszketni", "hajlamos"]
+    },
+    "fatuity": {
+      "partOfSpeech": "főnév",
+      "definition": "Ostobaság, üresfejűség.",
+      "friendly": "Csupasz ostobaság — megjegyzés vagy terv olyan üres, hogy alig érdemes komolyan válaszolni rá.",
+      "exampleGloss": "A terv fatuity-ja abban a pillanatban nyilvánvalóvá vált, amikor kipróbálták.",
+      "origin": "latin",
+      "rootMeanings": ["ostoba, üres", "állapot"]
+    },
+    "peroration": {
+      "partOfSpeech": "főnév",
+      "definition": "Beszéd záró része, gyakran összefoglalással.",
+      "friendly": "A fellépés nagy fináléja — a záró szakasz, ahol a szónok mindent összegyűjt, és a pontra üt.",
+      "exampleGloss": "A peroration-ig már a terem fele állt.",
+      "origin": "latin",
+      "rootMeanings": ["át, végig", "beszélni, védeni"]
+    },
+    "tautology": {
+      "partOfSpeech": "főnév",
+      "definition": "Ugyanannak a gondolatnak felesleges ismétlése más szavakkal.",
+      "friendly": "Ugyanazt kétszer mondani anélkül, hogy bármit hozzáadnánk, mint az „ingyen ajándék“ vagy a „végső kimenetel“.",
+      "exampleGloss": "Az „It is what it is“ a kedvenc tautology-ja azoknak, akik kerülik az igazi magyarázatot.",
+      "origin": "görög",
+      "rootMeanings": ["ugyanaz", "szó, beszéd"]
+    },
+    "laconism": {
+      "partOfSpeech": "főnév",
+      "definition": "Nagyon kevés szó használata; szűkszavú beszéd.",
+      "friendly": "Sokat mondani kevéssel — a rövid, élesen vágott válasz mestersége, Lakónia spártaiairól elnevezve.",
+      "exampleGloss": "A „Molon labe“ — „gyertek és vegyétek el“ — a történelem leghíresebb laconism-ja.",
+      "origin": "görög",
+      "rootMeanings": ["lakóniai spártai", "szokás, mód"]
+    },
+    "pabulum": {
+      "partOfSpeech": "főnév",
+      "definition": "Sápadt, leegyszerűsített gondolatok; eredetileg ízetlen eledel vagy kása.",
+      "friendly": "Felhigított gondolkodás — tartalom olyan biztos és egyszerűsített, hogy az elme nem kap belőle táplálékot.",
+      "exampleGloss": "A politikus beszéde szinte tiszta pabulum volt: ködös ígéret, amibe nem lehet belekapaszkodni.",
+      "origin": "latin",
+      "rootMeanings": ["táplálni", "eszköz, szerszám"]
+    },
+    "soporific": {
+      "partOfSpeech": "melléknév",
+      "definition": "Álmost vagy szunnyadást okozó.",
+      "friendly": "Olyan unalmas — vagy szó szerint altató —, hogy összeragad a szemhéj. Meleg tej vagy háromórás költségvetési ülés.",
+      "exampleGloss": "Az előadás soporific zúgása a terem felét a szemhéjával küzdötte.",
+      "origin": "latin",
+      "rootMeanings": ["mély álom", "amely tesz, okoz"]
+    },
+    "unctuous": {
+      "partOfSpeech": "melléknév",
+      "definition": "Túlzottan hízelgő vagy olajos viselkedésű.",
+      "friendly": "Olyan sima báj, hogy csúszik — a hízelgés olyan sűrűn van kenve, hogy szinte érzed a zsírt.",
+      "exampleGloss": "Az unctuous eladó végtelenül dicsérte a „kiváló ízlésemet“ minden ráadáseladás előtt.",
+      "origin": "latin",
+      "rootMeanings": ["kenni, olaj", "teli"]
+    },
+    "captious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Gyors a megjegyzésre, túlzottan kritikus az apróságokkal szemben.",
+      "friendly": "Szőrszálhasogató a hibáig — ember, aki mindenben talál kivetnivalót, még ha az semmit nem változtat.",
+      "exampleGloss": "A captious megjegyzései a jelentéshez csak a vesszők körül forogtak.",
+      "origin": "latin",
+      "rootMeanings": ["megfogni, venni", "csapda, szofizma"]
+    },
+    "torpid": {
+      "partOfSpeech": "melléknév",
+      "definition": "Kábult, szellemileg vagy testileg tétlen.",
+      "friendly": "Lassú és félig álmos, mint a medve téli álmában — alig mozdul, alig gondolkodik.",
+      "exampleGloss": "Az iroda torpid állapotba süllyedt az ágostusi nehéz hőségben.",
+      "origin": "latin",
+      "rootMeanings": ["zsibbadtnak, kábultnak lenni", "állapotban"]
+    },
+    "seneschal": {
+      "partOfSpeech": "főnév",
+      "definition": "Gondnok vagy tisztségviselő, aki középkori háztartást vezetett.",
+      "friendly": "A középkori személyzeti főnök — a bizalmi ember, aki napról napra vezette az úr házát és birtokát.",
+      "exampleGloss": "A vár seneschal-ja mindent vezetett: a terméselszámolástól a vendéglistáig.",
+      "origin": "frank / ófrancia",
+      "rootMeanings": ["öreg, idősebb", "szolga"]
+    },
+    "expatiate": {
+      "partOfSpeech": "ige",
+      "definition": "Hosszan beszélni vagy írni egy témáról.",
+      "friendly": "Igazán szétbeszélni magunkat — beszélni vagy írni és írni, körbejárni a tárgyat minden oldalról.",
+      "exampleGloss": "Kérdezzétek régi autókról — és egy órán át fog expatiate.",
+      "origin": "latin",
+      "rootMeanings": ["ki", "tér"]
+    },
+    "nugatory": {
+      "partOfSpeech": "melléknév",
+      "definition": "Értéktelen, csekély; illetőleg érvénytelen vagy hatástalan.",
+      "friendly": "Lényegében semmi — a szerződés nugatory záradéka az, amelyik semmit nem tesz.",
+      "exampleGloss": "A bíróság nugatory-nak nyilvánította a régi szabályzatot, mert soha nem alkalmazták.",
+      "origin": "latin",
+      "rootMeanings": ["apróságok, értelmetlenség", "tartozó"]
+    },
+    "sagacity": {
+      "partOfSpeech": "főnév",
+      "definition": "Bölcsesség, éles ítélet.",
+      "friendly": "Éles, gyakorlati bölcsesség — egészséges ítélet, amely a tapasztalatból jön, nem csak a könyvekből.",
+      "exampleGloss": "A régi kapitány sagacity-ja nem egyszer tartotta a legénységet távol a bajtól.",
+      "origin": "latin",
+      "rootMeanings": ["éleseszű, átlátó", "tulajdonság"]
+    },
+    "canaille": {
+      "partOfSpeech": "főnév",
+      "definition": "A közönséges csőcselék vagy a tömegek, lenézően.",
+      "friendly": "Sznob, lenéző szó a „nyájra“, a közönséges emberekre, felülről mondva.",
+      "exampleGloss": "A gróf elmosolyodott a palota kapuja előtt összegyűlt canaille-ra.",
+      "origin": "olasz / francia",
+      "rootMeanings": ["kutya", "gyűjtőnév, falka"]
+    },
+    "contumely": {
+      "partOfSpeech": "főnév",
+      "definition": "Merész, megalázó bánásmód vagy beszéd.",
+      "friendly": "Kegyetlen, lenéző bánásmód, amely megalázni akar — sértés, amelynek égnie kell.",
+      "exampleGloss": "Évekig tűrte a kritikusok contumely-ját, míg a munka végül elismerést kapott.",
+      "origin": "latin",
+      "rootMeanings": ["-val, alaposan", "felfuvalkodni (büszkeségtől)"]
+    },
+    "askance": {
+      "partOfSpeech": "határozószó",
+      "definition": "Gyanakvással vagy helytelenítéssel; ferdén.",
+      "friendly": "Ferde pillantás valamire, amiben nem bízol teljesen — kétellyel terhelt tekintet.",
+      "exampleGloss": "A tanárnő askance nézett a gyanúsan rendes házi feladatra.",
+      "origin": "bizonytalan / olasz",
+      "rootMeanings": ["felé, -ra", "dőlés, ferdeség"]
+    },
+    "clodpate": {
+      "partOfSpeech": "főnév",
+      "definition": "Ostoba ember; tökfilkó.",
+      "friendly": "Ódivatú, szinte szeretetteljes szidalom annak, aki tompa — tuskó, tölgy.",
+      "exampleGloss": "„You clodpate,“ nevetett, „a térképed végig fejjel lefelé van.“",
+      "origin": "angol",
+      "rootMeanings": ["földgöröngy", "fej"]
+    },
+    "actuate": {
+      "partOfSpeech": "ige",
+      "definition": "Mozgásba vagy cselekvésbe hozni; ösztönözni.",
+      "friendly": "Az a szikra lenni, amely megmozdít — akár a gép kapcsolódik be, akár az ember végre a gondolata szerint cselekszik.",
+      "exampleGloss": "A szerződés elvesztésének félelme actuated az egész csapatot hétvégi túlórára.",
+      "origin": "latin",
+      "rootMeanings": ["cselekvés, indíték", "hajtani, tenni"]
+    },
+    "peculation": {
+      "partOfSpeech": "főnév",
+      "definition": "Megbízásra adott pénz elsikkasztása.",
+      "friendly": "Csendben lopni a pénzt, amelyet őrizetre bíztak rád — sikkasztás ódivatú köpenyben.",
+      "exampleGloss": "A pénztáros peculation-ja közel tíz évig észrevétlen maradt.",
+      "origin": "latin",
+      "rootMeanings": ["magántulajdon", "jószág, gazdagság"]
+    },
+    "demi-monde": {
+      "partOfSpeech": "főnév",
+      "definition": "Kör, amelyet a tisztességes társadalom szélének tartanak.",
+      "friendly": "A ragyogó, de gyanús világ — emberek, akik kicsit a „illemes“ társadalom szabályain kívül élnek.",
+      "exampleGloss": "A regény egy énekesnőt követ a húszas évek kabaréinak demi-monde-jában.",
+      "origin": "francia",
+      "rootMeanings": ["fél", "világ, társadalom"]
+    },
+    "extant": {
+      "partOfSpeech": "melléknév",
+      "definition": "Még létező; nem halt ki és nem semmisült meg.",
+      "friendly": "Még itt van — régi dolgokról (kéziratok, fajok, épületek), amelyeknek sikerült túlélniük.",
+      "exampleGloss": "Az első kiadásnak csak három extant példánya ismert.",
+      "origin": "latin",
+      "rootMeanings": ["ki", "állni"]
+    },
+    "perfidy": {
+      "partOfSpeech": "főnév",
+      "definition": "Hitszegés; a bizalom elárulása.",
+      "friendly": "Mély, szándékos árulás — a bizalom szakítása, amelyet az embernek teljes joga volt várni.",
+      "exampleGloss": "A tábornok soha nem bocsátotta meg a régi barát perfidy-ját a tárgyalóasztalnál.",
+      "origin": "latin",
+      "rootMeanings": ["át, ellen", "hit, bizalom"]
+    },
+    "patois": {
+      "partOfSpeech": "főnév",
+      "definition": "Helyi beszéd, különösen nem standard.",
+      "friendly": "Sajátos, helyi beszédmód egy vidéken — tele szavakkal és ritmusokkal, amelyeket az idegen talán nem fog meg.",
+      "exampleGloss": "A nagymama még a sziget patois-ját beszélte a családi asztalnál.",
+      "origin": "francia",
+      "rootMeanings": ["durva beszéd, nyelvjárás", "mancs — ügyetlen beszéd"]
+    },
+    "prerogative": {
+      "partOfSpeech": "főnév",
+      "definition": "Különleges jog, amely személyhez vagy csoporthoz tartozik.",
+      "friendly": "Kiváltság, amely a tiéd és csak a tiéd — jog, amely a szereppel, a tisztséggel vagy a státusszal jár.",
+      "exampleGloss": "A családi nyaralóhely kiválasztása a nagyapa prerogative-ja, és ezt mindenki tudja.",
+      "origin": "latin",
+      "rootMeanings": ["előtt", "kérdezni, szavazni"]
+    },
+    "hardihood": {
+      "partOfSpeech": "főnév",
+      "definition": "Merészség, bátorság; illetőleg szívósság vagy kitartás.",
+      "friendly": "Kemény, makacs ellenállás — ideg, hogy elindulj, és erő, hogy kitarts, miután elindultál.",
+      "exampleGloss": "Igazi hardihood kellett a hágó átkeléséhez hóviharban térkép nélkül.",
+      "origin": "ófrancia / angol",
+      "rootMeanings": ["merész, megkeményedett", "állapot"]
+    },
+    "effloresce": {
+      "partOfSpeech": "ige",
+      "definition": "Kivirágzani; illetőleg fejlődni vagy fokozatosan megjelenni.",
+      "friendly": "Teljes erőre nyílni — mint a virág, vagy mint a gondolat, amely végre önmaga lett.",
+      "exampleGloss": "A csendes festői tehetsége effloresced, amint saját műterme lett.",
+      "origin": "latin",
+      "rootMeanings": ["ki", "virágozni kezd"]
+    },
+    "plumb-line": {
+      "partOfSpeech": "főnév",
+      "definition": "Függőón — zsinór súllyal a függőleges ellenőrzésére; átvitt értelemben az ítélet mércéje.",
+      "friendly": "Súly a zsinóron, amely tökéletesen egyenesen lóg, hogy ellenőrizzék a függőlegest — és tágabban bármely rögzített mérték, amellyel minden mást mérnek.",
+      "exampleGloss": "A nagyapa becsületét egyfajta plumb line-ként tartotta minden döntéshez.",
+      "origin": "latin / angol",
+      "rootMeanings": ["ólom", "zsinór, mérték"]
+    },
+    "fain": {
+      "partOfSpeech": "határozószó",
+      "definition": "Szívesen, készségesen (elavult).",
+      "friendly": "Régies módja annak, hogy „szívesen“ vagy „örömmel tenném“.",
+      "exampleGloss": "„I would fain rest here a while,“ sóhajtott az utazó.",
+      "origin": "óangol",
+      "rootMeanings": ["örömest, vidám", "szívesen, készségesen"]
+    },
+    "opprobrium": {
+      "partOfSpeech": "főnév",
+      "definition": "Éles nyilvános gyalázat vagy elítélés.",
+      "friendly": "Nyilvános szégyen, mindenki szeme előtt halmozva — a széles elítélés gyalázata.",
+      "exampleGloss": "A botrány nyilvános opprobrium-ot zúdított az egész cégre.",
+      "origin": "latin",
+      "rootMeanings": ["ellen", "gyalázat, feddés"]
+    },
+    "mordant": {
+      "partOfSpeech": "melléknév",
+      "definition": "Élesen szarkasztikus, maró a szellemességben vagy a kritikában.",
+      "friendly": "Szellemesség igazi fogakkal — a mordant megjegyzés kicsit ég, éppen azért, mert eltalált.",
+      "exampleGloss": "A mordant filmkritikáit a rendezők féltek, az olvasók szerették.",
+      "origin": "latin / francia",
+      "rootMeanings": ["harapni", "amely harap, tesz"]
+    },
+    "pronunciamento": {
+      "partOfSpeech": "főnév",
+      "definition": "Ünnepélyes kihirdetés, gyakran politikai vagy katonai.",
+      "friendly": "Nagy hivatalos bejelentés — általában új kormányról, lázadásról vagy fontos rendeletről.",
+      "exampleGloss": "A tábornok pronunciamento-ja hajnalban kihirdette az új kormányt.",
+      "origin": "spanyol",
+      "rootMeanings": ["előre", "kihirdetni"]
+    },
+    "sciolist": {
+      "partOfSpeech": "főnév",
+      "definition": "Felszínes tudású ember, aki szakértőnek tetteti magát.",
+      "friendly": "Az, aki elsiklott a téma felszínén, és úgy beszél, mintha ő írta volna a tankönyvet.",
+      "exampleGloss": "Az asztali sciolist magabiztosan javította ki az igazi asztrofizikust.",
+      "origin": "latin",
+      "rootMeanings": ["tudni", "kicsinyítő — kis ismerő"]
+    },
+    "dotage": {
+      "partOfSpeech": "főnév",
+      "definition": "A szellemi erők hanyatlása öregkorban.",
+      "friendly": "A mély öregség ködös, feledékeny vonása, amikor az elme élessége olvadni kezd.",
+      "exampleGloss": "Dotage-jában ugyanazt a három történetet mesélte minden látogatáskor, mindig újakként.",
+      "origin": "középangol",
+      "rootMeanings": ["hervadni, ostobának lenni", "állapot vagy következmény"]
+    },
+    "lee-side": {
+      "partOfSpeech": "főnév",
+      "definition": "A széltől védett oldal.",
+      "friendly": "A csendes, védett oldal — dombnak, hajónak, falnak —, ahova a szél alig ér el.",
+      "exampleGloss": "Az utazók a gerinc lee side-ján verték fel a sátrat, hogy elkerüljék a széllökéseket.",
+      "origin": "óangol",
+      "rootMeanings": ["menedék, védelem", "oldal, felület"]
+    },
+    "parry": {
+      "partOfSpeech": "ige",
+      "definition": "Ütést, kérdést vagy érvet elhárítani vagy elütni.",
+      "friendly": "Simaán elhárítani — kardcsapást, kellemetlen kérdést vagy vádat — anélkül, hogy elveszítenéd a tapintatot.",
+      "exampleGloss": "Parried a riporter ravasz kérdését könnyed tréfával.",
+      "origin": "francia",
+      "rootMeanings": ["elhárítani", "készülődni, védekezni"]
+    },
+    "mephitic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Büdös, káros.",
+      "friendly": "Olyan bűz, hogy szinte mérgezőnek tűnik — szag, amellyel veszélyes lélegezni.",
+      "exampleGloss": "Mephitic szag szállt fel a mocsárból naplementekor.",
+      "origin": "latin",
+      "rootMeanings": ["káros gőz", "jellegű"]
+    },
+    "sybarite": {
+      "partOfSpeech": "főnév",
+      "definition": "A fényűzésnek és az élvezetnek adódó ember.",
+      "friendly": "Az, aki kényelemért és bőségért él — finom ételek, puha ágyak, könnyű élet — a túlzásáról híres ókori görög Sybarisról.",
+      "exampleGloss": "Igazi sybarite, minden kád nélküli szobát visszautasított.",
+      "origin": "görög",
+      "rootMeanings": ["fényűzéséről híres ókori görög város", "lakos"]
+    },
+    "prescind": {
+      "partOfSpeech": "ige",
+      "definition": "Szándékosan félretenni vagy figyelmen kívül hagyni valaminek egy részét.",
+      "friendly": "A gondolatban arrébb tolni a kirakós egy darabját, hogy tisztán lásd a többit.",
+      "exampleGloss": "Egy pillanatra prescind az ártól, és kérdezzük meg, egyáltalán működik-e a terv.",
+      "origin": "latin",
+      "rootMeanings": ["előtt, félre", "vágni"]
+    },
+    "excoriate": {
+      "partOfSpeech": "ige",
+      "definition": "Élesen bírálni; illetőleg lehúzni a bőrt.",
+      "friendly": "Szétmarcangolni valakit kemény kritikával — szavakkal, mintha a bőrét húznád le.",
+      "exampleGloss": "A kritikusok excoriated a folytatást, mert elárulta mindazt, amit a nézők az eredetiben szerettek.",
+      "origin": "latin",
+      "rootMeanings": ["félre", "bőr, bőr"]
+    },
+    "adduce": {
+      "partOfSpeech": "ige",
+      "definition": "Bizonyítékként vagy tanúbizonyságként felhozni.",
+      "friendly": "Tényt vagy példát hozni a gondolat támogatására — amire rámutatsz, amikor azt kérdezik: „és hol a bizonyíték?“",
+      "exampleGloss": "Az ügyvédnő három tanút adduced a kliens alibijének alátámasztására.",
+      "origin": "latin",
+      "rootMeanings": ["felé, ellen", "vezetni"]
+    },
+    "peregrinations": {
+      "partOfSpeech": "főnév",
+      "definition": "Utazások vagy bolyongások, különösen hosszúak és kiterjedtek.",
+      "friendly": "Hosszú, kóbor utak — olyan barangolás, amely hosszú időre visz messze otthonról.",
+      "exampleGloss": "Három kontinensen átívelő peregrinations-jai egész polcnyi útinaplót töltöttek meg.",
+      "origin": "latin",
+      "rootMeanings": ["át", "mező, föld (peregrinus: idegen)"]
+    },
+    "mendicant": {
+      "partOfSpeech": "főnév",
+      "definition": "Koldus vagy aki alamizsnából él.",
+      "friendly": "Az, aki alamizsnát kérve él — történelmileg így hívták a szegénységi fogadalmat tett, adományokból élő szerzeteseket is.",
+      "exampleGloss": "A mendicant testvérek semmit sem birtokoltak, és csak a falusiak jóságára támaszkodtak.",
+      "origin": "latin",
+      "rootMeanings": ["koldulni", "koldus"]
+    },
+    "munificent": {
+      "partOfSpeech": "melléknév",
+      "definition": "Rendkívül bőkezű.",
+      "friendly": "Nagy, szinte mutogató mértékben bőkezű — ajándék, amelytől az emberek egy kicsit levegőért kapkodnak.",
+      "exampleGloss": "A munificent adomány az egész új könyvtárszárnyat kifizette.",
+      "origin": "latin",
+      "rootMeanings": ["ajándék, szívesség", "amely tesz, ad"]
+    },
+    "inanition": {
+      "partOfSpeech": "főnév",
+      "definition": "Kimerülés táplálékhiánytól; illetőleg az életerő hiánya.",
+      "friendly": "Gyenge, kicsurgatott állapot attól, hogy nem táplálnak — szó szerint éhségtől, vagy átvitt értelemben attól, hogy nincs mivel továbbmenni.",
+      "exampleGloss": "Az ostrom végére a katonák már majdnem inanition-nál jártak.",
+      "origin": "latin",
+      "rootMeanings": ["üres, semmi", "cselekvés vagy kimenetel"]
+    },
+    "vituperation": {
+      "partOfSpeech": "főnév",
+      "definition": "Keserű, szidalmazó kritika.",
+      "friendly": "Kritika, amely rég túllépte a méltányos mértéket, és gonosz, epés tirádává vált.",
+      "exampleGloss": "Az internetes hozzászólások perceken belül tiszta vituperation-ná omlottak.",
+      "origin": "latin",
+      "rootMeanings": ["vétek, hiba", "készíteni, ellátni"]
+    },
+    "inimical": {
+      "partOfSpeech": "melléknév",
+      "definition": "Ellenséges, hatásában káros.",
+      "friendly": "Ellened dolgozik, ha csendben is — körülmények vagy szokások, amelyek ellenségesek az érdekeiddel.",
+      "exampleGloss": "Az új politika inimical volt a kis cégekkel, még ha nem is szándékosan.",
+      "origin": "latin",
+      "rootMeanings": ["nem", "barát"]
+    },
+    "invidious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Sértést vagy elégedetlenséget kelthet, gyakran igazságtalan összehasonlítással.",
+      "friendly": "Szükségszerűen megsért valakit — általában azért, mert embereket vagy dolgokat tisztességtelenül állít egymással szembe.",
+      "exampleGloss": "A gyerekeket aszerint rangsorolni, „kit szeret anya jobban“, invidious játék, amelyet senkinek sem szabadna játszania.",
+      "origin": "latin",
+      "rootMeanings": ["irigység", "nézni (rosszindulattal)"]
+    },
+    "subaltern": {
+      "partOfSpeech": "főnév",
+      "definition": "Alacsonyabb rangú vagy helyzetű ember; alárendelt.",
+      "friendly": "Az, aki lejjebb van a parancsnoki láncban vagy a társadalmi lépcsőn — a fiatalabb, aki valaki erősebb alatt dolgozik.",
+      "exampleGloss": "Fiatal subaltern-ként sokáig fogadott parancsokat, mielőtt maga is adni kezdte őket.",
+      "origin": "latin",
+      "rootMeanings": ["alatt", "másik"]
+    },
+    "execrate": {
+      "partOfSpeech": "ige",
+      "definition": "Erős gyűlöletet érezni vagy kifejezni.",
+      "friendly": "Úgy gyűlölni, hogy hangosan átkozol — tiszta, hangos gyűlölet.",
+      "exampleGloss": "A falusiak minden alkalommal execrated az adószedőt, amikor a kocsija átgurult a falun.",
+      "origin": "latin",
+      "rootMeanings": ["ki", "szent (átkozni, kitaszítani a szentből)"]
+    },
+    "integument": {
+      "partOfSpeech": "főnév",
+      "definition": "Természetes külső burkolat, mint a bőr vagy a páncél.",
+      "friendly": "A természet saját védőburka — bőr, páncél, héj vagy kéreg, amely takarja és óvja az élőt.",
+      "exampleGloss": "A teknős páncélja szokatlanul kemény integument.",
+      "origin": "latin",
+      "rootMeanings": ["-ra, fölé", "takarni"]
+    },
+    "ingenuous": {
+      "partOfSpeech": "melléknév",
+      "definition": "Együgyű, naiv, gyermeki egyenességgel; a disingenuous ellentéte.",
+      "friendly": "Nyíltan bizakodó és kicsit naiv, rejtett játék nélkül — könnyen összekeverhető az ingenious-szal, ami találékonyat jelent.",
+      "exampleGloss": "Az ingenuous kérdése — „miért hazudna erről egyáltalán valaki?“ — megmutatta, milyen kevés a ravaszság benne.",
+      "origin": "latin",
+      "rootMeanings": ["benne, született", "szülni (szabadon született, egyenes)"]
+    },
+    "pedantry": {
+      "partOfSpeech": "főnév",
+      "definition": "Túlzott törődés apróságokkal vagy szabályokkal.",
+      "friendly": "Elveszni az apró szabályokban, és elszalasztani az egészet — olyan apróságokat babrálni, amelyeket senki más nem érdekel.",
+      "exampleGloss": "Az oxfordi vessző körüli pedantry-ja tönkretette az egész ülést.",
+      "origin": "olasz / latin",
+      "rootMeanings": ["gyermekek tanítója", "szokás vagy tulajdonság"]
+    },
+    "perscrutation": {
+      "partOfSpeech": "főnév",
+      "definition": "Alapos, gondos vizsgálat.",
+      "friendly": "Mély átnézés hézag nélkül — minden részleten igazi gondossággal végigmenni.",
+      "exampleGloss": "Csak a könyvek gondos perscrutation-ja után került elő a különbség.",
+      "origin": "latin",
+      "rootMeanings": ["át, alaposan", "keresni, vizsgálni"]
+    },
+    "demur": {
+      "partOfSpeech": "ige",
+      "definition": "Ellenvetést tenni; habozást mutatni.",
+      "friendly": "Udvariasan hátralépni vagy megállni, ahelyett hogy azonnal beleegyeznél — puha „inkább ne“.",
+      "exampleGloss": "Amikor arra kérték, hogy olvasás nélkül írjon alá, ő demurred.",
+      "origin": "latin / francia",
+      "rootMeanings": ["tőle, félre", "halasztani"]
+    },
+    "specious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Látszatra meggyőző, valójában téves.",
+      "friendly": "Először meggyőzően hangzik, de szétesik, amint ellenőrizni kezded.",
+      "exampleGloss": "Az „Everyone's doing it“ specious érv, amely vizsgálat alatt soha nem áll meg.",
+      "origin": "latin",
+      "rootMeanings": ["látszat, alak", "teli (látszatra szép)"]
+    },
+    "cant": {
+      "partOfSpeech": "főnév",
+      "definition": "Őszintétlen, képmutató beszéd, gyakran tanító jellegű.",
+      "friendly": "Prédikáció, amely erényesnek hangzik, de semmi élő nem áll mögötte — erkölcsi póz automatán.",
+      "exampleGloss": "Untatta a vállalati cant a „családról“ egy cégben, amely senkinek sem adott szabadságot.",
+      "origin": "latin",
+      "rootMeanings": ["énekelni (később: énekes zsargon)", "koldusnyöszörgés, később képmutatás"]
+    },
+    "pusillanimous": {
+      "partOfSpeech": "melléknév",
+      "definition": "Bátorság nélküli, gyáva.",
+      "friendly": "Félelmes a gerinctelenségig — túl fél felállni, még amikor ez nyilvánvalóan fontos.",
+      "exampleGloss": "A tanács pusillanimous hallgatása hagyta, hogy a botrány szétterüljön.",
+      "origin": "latin",
+      "rootMeanings": ["nagyon kicsi", "lélek, bátorság"]
+    },
+    "vulpine": {
+      "partOfSpeech": "melléknév",
+      "definition": "Rókaszerű; ravasz, körmönfont.",
+      "friendly": "Okos és ügyes, mint a róka — éleseszű, kicsit körmönfont, mindig egy lépéssel előrébb.",
+      "exampleGloss": "Vulpine mosollyal mosolygott, amint meglátta a hézagot a szabályokban.",
+      "origin": "latin",
+      "rootMeanings": ["róka", "sajátos, hasonló"]
+    },
+    "seriatim": {
+      "partOfSpeech": "határozószó",
+      "definition": "Egyik a másik után, sorban.",
+      "friendly": "Szigorúan egyet venni, sorban — előreugrás nélkül, két dolgot egyszerre nem.",
+      "exampleGloss": "A bíró a tizenkét kérelmet seriatim vizsgálta.",
+      "origin": "latin",
+      "rootMeanings": ["sor, sorrend", "egyenként"]
+    },
+    "parsimony": {
+      "partOfSpeech": "főnév",
+      "definition": "Szélsőséges takarékosság; fösvénység.",
+      "friendly": "A pénzt (vagy a szavakat, vagy az eszközöket) a józan takarékosságon messze túl szorítani.",
+      "exampleGloss": "A parsimony-ja legendává vált — egy teafiltert háromszor öntött le.",
+      "origin": "latin",
+      "rootMeanings": ["takarékoskodni, takarékosnak lenni", "állapot vagy gyakorlat"]
+    },
+    "emendation": {
+      "partOfSpeech": "főnév",
+      "definition": "Javítás, különösen szövegben.",
+      "friendly": "Javítás az írásban — tudós korrekció, amely régi vagy fontos szöveg hibáját igazítja.",
+      "exampleGloss": "Az új kiadás tucatnyi emendation-t tartalmaz az eredeti kézirathoz.",
+      "origin": "latin",
+      "rootMeanings": ["ki", "vétek, hiba"]
+    },
+    "abstemious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Mértékletes ételben és italban.",
+      "friendly": "Szándékosan visszafogott az asztalnál — soha nem lakik jól túl, mindig hagy egy kicsit a tányéron.",
+      "exampleGloss": "Az abstemious szokásai élesen tartották, jóval azután, hogy kortársai elengedték magukat.",
+      "origin": "latin",
+      "rootMeanings": ["távol tőle", "részegítő ital"]
+    },
+    "solecism": {
+      "partOfSpeech": "főnév",
+      "definition": "Nyelvtani hiba vagy illemsértés.",
+      "friendly": "Megcsúszás a nyelvtanban vagy a modorban — apró hiba, amelytől a pedáns összerezzen.",
+      "exampleGloss": "A „Between you and I“ gyakori solecism, amelytől a nyelvészek még mindig összerezzennek.",
+      "origin": "görög",
+      "rootMeanings": ["kilikiai város, a „rossz“ görögről híres", "szokás, mód"]
+    },
+    "internecine": {
+      "partOfSpeech": "melléknév",
+      "definition": "Csoporton belüli viszályra vonatkozó; kölcsönösen pusztító.",
+      "friendly": "Belső viszály, amely belülről tépi a csoportot — harc, amelyben mindenki veszít, mert a sajátjaik harcolnak a sajátjaik ellen.",
+      "exampleGloss": "A párt internecine viszályai több kárt tettek, mint bármely külső ellenfél.",
+      "origin": "latin",
+      "rootMeanings": ["között, egymás között", "ölni"]
+    },
+    "pococurante": {
+      "partOfSpeech": "melléknév / főnév",
+      "definition": "Közömbös, hanyag magatartás.",
+      "friendly": "Vállrándítás, amely jellemmé vált — a gond olyan vékonyra kopott, hogy semmi sem éri meg a fáradságot.",
+      "exampleGloss": "A díjátadóhoz való pococurante viszonya meglepte mindazokat, akik tudták, mennyit dolgozott.",
+      "origin": "olasz",
+      "rootMeanings": ["kevés", "törődni"]
+    },
+    "imbroglio": {
+      "partOfSpeech": "főnév",
+      "definition": "Zavaros, bonyolult helyzet vagy vita.",
+      "friendly": "Gubancos, koszos történet, amelyben nehéz eligazodni — részben félreértés, részben dráma, maga a zűrzavar.",
+      "exampleGloss": "Az egész ülésrend-imbroglio egy összecserélt névjegykártyával kezdődött.",
+      "origin": "olasz",
+      "rootMeanings": ["benne", "összekuszálni, összezavarni"]
+    },
+    "minatory": {
+      "partOfSpeech": "melléknév",
+      "definition": "Fenyegető, ijesztő.",
+      "friendly": "Világos fenyegetést hordoz — a minatory tekintet vagy levél világosan mondja, hogy rossz következhet.",
+      "exampleGloss": "A levél minatory hangja nyugtalanította a bérlőt, még mielőtt kinyitotta volna a borítékot.",
+      "origin": "latin",
+      "rootMeanings": ["fenyegetni", "amely szolgál valamire"]
+    },
+    "obloquy": {
+      "partOfSpeech": "főnév",
+      "definition": "Erős nyilvános kritika vagy szóbeli szidalom.",
+      "friendly": "Hangos nyilvános elítélés — éles kritika, amely mindenki szeme előtt zajlik.",
+      "exampleGloss": "A bejelentő évekig tűrte a nyilvános obloquy-t, míg a történelem igazat nem adott neki.",
+      "origin": "latin",
+      "rootMeanings": ["ellen", "beszélni"]
+    },
+    "paroxysm": {
+      "partOfSpeech": "főnév",
+      "definition": "Hirtelen, heves érzelem- vagy cselekvéskitörés.",
+      "friendly": "Hirtelen, erős roham, amely egyszerre borít el — nevetés, harag vagy köhögés, mint egy hullám.",
+      "exampleGloss": "Paroxysm nevetés fogta el, amelyet senki a szobában nem tudott megmagyarázni.",
+      "origin": "görög",
+      "rootMeanings": ["túl, fölött", "éles"]
+    },
+    "adscititious": {
+      "partOfSpeech": "melléknév",
+      "definition": "Kívülről hozzáadott, nem velejáró.",
+      "friendly": "Kívülről rátett, nem eleve beépített — toldalék, nem mag.",
+      "exampleGloss": "A kommentár adscititious-nak hat, mintha egy már kész szövegre ragasztották volna.",
+      "origin": "latin",
+      "rootMeanings": ["felé, mellé", "helyeselni, elfogadni"]
+    },
+    "nescience": {
+      "partOfSpeech": "főnév",
+      "definition": "Tudáshiány, tudatlanság.",
+      "friendly": "Egyszerűen nem tudni — hézag, amelyhez nem tapad feddés.",
+      "exampleGloss": "Bevallotta a francia borokra vonatkozó nescience-jét, és a választást a sommelierre bízta.",
+      "origin": "latin",
+      "rootMeanings": ["nem", "tudni"]
+    },
+    "prurience": {
+      "partOfSpeech": "főnév",
+      "definition": "Túlzott érdeklődés testi dolgok iránt.",
+      "friendly": "Túl mohó, leskelődő kíváncsiság minden pikáns iránt — érdeklődés, amely az egészségesből tolakodóvá vált.",
+      "exampleGloss": "A sárga sajtó prurience-je a pár magánélete iránt a megszállottság határán volt.",
+      "origin": "latin",
+      "rootMeanings": ["viszketni, sóvárogni", "állapot"]
+    },
+    "fuliginous": {
+      "partOfSpeech": "melléknév",
+      "definition": "Kormos, sötét, homályos.",
+      "friendly": "Sötét és füstös a látványban, mintha mindent vékony koromréteg fedne.",
+      "exampleGloss": "Fuliginous köd lógott a gyárváros fölött alkonyatkor.",
+      "origin": "latin",
+      "rootMeanings": ["korom", "teli"]
+    },
+    "gainsay": {
+      "partOfSpeech": "ige",
+      "definition": "Tagadni vagy ellentmondani.",
+      "friendly": "Egyenesen a másik szava ellen mondani — azt mondani, „ez nem így van“.",
+      "exampleGloss": "Senki sem merte gainsay a régi kapitány viharról szóló elbeszélését.",
+      "origin": "középangol",
+      "rootMeanings": ["ellen", "beszélni"]
+    },
+    "ignavia": {
+      "partOfSpeech": "főnév",
+      "definition": "Restség, henyélés (latinból).",
+      "friendly": "Régi latin szó a tiszta lustaságra — a késztetés, hogy ne akarjunk semmit sem tenni.",
+      "exampleGloss": "A szerzetesek az ignavia ellen prédikáltak mint a lélek egyik csendes veszélye ellen.",
+      "origin": "latin",
+      "rootMeanings": ["nem", "elfoglalt, szorgalmas"]
+    },
+    "escutcheon": {
+      "partOfSpeech": "főnév",
+      "definition": "Címerpajzs.",
+      "friendly": "Pajzs alakú jel a családi címerrel — a heraldikai „névjegy“.",
+      "exampleGloss": "A családi escutcheon még mindig a régi kúria bejárati ajtaja fölött lóg.",
+      "origin": "latin / ófrancia",
+      "rootMeanings": ["pajzs", "kicsinyítő / tárgy"]
+    },
+    "superannuated": {
+      "partOfSpeech": "melléknév",
+      "definition": "Elavult, használaton kívül helyezett vagy kor miatt nyugdíjazott.",
+      "friendly": "Túl van a hasznos virágzáson, és pihenőre küldték — túl ódivatú vagy elhasználódott ahhoz, hogy még végezze a munkát.",
+      "exampleGloss": "A superannuated nyomtatót tizenöt évnyi beragadás után végre kicserélték.",
+      "origin": "latin",
+      "rootMeanings": ["túl, fölött", "év"]
+    },
+    "succedanea": {
+      "partOfSpeech": "főnév",
+      "definition": "Helyettesítők, különösen az orvoslásban.",
+      "friendly": "Helyettesítő szerek, amikor az igazi kezelés nincs — lényegében orvosi dublőrök.",
+      "exampleGloss": "A háborús orvosok gyakran succedanea-ra támaszkodtak, amikor az igazi gyógyszerek elfogytak.",
+      "origin": "latin",
+      "rootMeanings": ["helyette", "menni, hátrálni"]
+    },
+    "rodomontade": {
+      "partOfSpeech": "főnév",
+      "definition": "Hetvenkedő, dagályos beszéd.",
+      "friendly": "Nagy, hangos hencegés — hangos beszédek a saját nagyságról, amelyekben szinte csak forró levegő van.",
+      "exampleGloss": "A rodomontade-ja arról, hogyan mentette meg „egyedül“ a projektet, senkit sem csapott be azok közül, akik ott voltak.",
+      "origin": "olasz",
+      "rootMeanings": ["hetvenkedő lovag az Őrjöngő Rolandból", "cselekvés, mutatás"]
+    },
+    "chicane": {
+      "partOfSpeech": "ige",
+      "definition": "Valamit ravaszsággal vagy csalással elérni.",
+      "friendly": "Apró trükkökkel osonni a célhoz, nem tiszta játékkal.",
+      "exampleGloss": "Chicaned magának utat az üzletbe apróbetűs szerződéssel.",
+      "origin": "francia",
+      "rootMeanings": ["szőrszálat hasogatni, ravaszkodni", "ravaszság; később éles kanyar"]
+    },
+    "mathesis": {
+      "partOfSpeech": "főnév",
+      "definition": "A tudás tiszta vagy elvont tudománya, gyakran a matematika.",
+      "friendly": "A tanulás legtisztább, elvont formája — magának a tudásnak a mélyszerkezete, különösen a matematikaié.",
+      "exampleGloss": "A filozófus általános mathesis-ről álmodott, amely minden tudásmezőt összekötne.",
+      "origin": "görög",
+      "rootMeanings": ["tanulni", "a tanulás cselekvése"]
+    },
+    "pedantic": {
+      "partOfSpeech": "melléknév",
+      "definition": "Túlzottan a formai szabályokkal vagy apró részlettel foglalkozó.",
+      "friendly": "Túl szigorú az apróságokkal — technikai csecsebecséket javít, amelyek semmit lényegeset nem változtatnak.",
+      "exampleGloss": "Kicsit pedantic volt a „who“ és a „whom“ miatt vitatkozni egy üzenetben.",
+      "origin": "olasz / görög",
+      "rootMeanings": ["gyermekek vezetője, tanító", "módú"]
+    },
+    "coruscation": {
+      "partOfSpeech": "főnév",
+      "definition": "Villanás, szikrázó fény.",
+      "friendly": "Gyors, reszkető villanás — nap a vízen, vagy gyémánt, amely elkapta a fényt.",
+      "exampleGloss": "A csillár coruscation-ja szétterítette a fényt a bálterem minden sarkába.",
+      "origin": "latin",
+      "rootMeanings": ["szikrázni, villanni", "cselekvés"]
+    },
+    "tyro": {
+      "partOfSpeech": "főnév",
+      "definition": "Kezdő, újonc.",
+      "friendly": "Teljesen új egy mesterségben vagy mezőn — még az alapokat tanulja, még nem szakértő.",
+      "exampleGloss": "Még egy sakk-tyro is észreveszi azt a durva hibát.",
+      "origin": "latin",
+      "rootMeanings": ["újonc, kezdő", "nyers ifjú katona"]
+    },
+    "execrable": {
+      "partOfSpeech": "melléknév",
+      "definition": "Rendkívül rossz, undorító.",
+      "friendly": "Rossz úgy, hogy igazi undort kelt — nem csak „gyenge“, hanem igazán undorító.",
+      "exampleGloss": "A recenzens execrable-nek nevezte a folytatást, és a kassza egyetértett.",
+      "origin": "latin",
+      "rootMeanings": ["átkozni", "méltó, képes lenni"]
+    },
+    "incarnadine": {
+      "partOfSpeech": "melléknév",
+      "definition": "Vérvörös.",
+      "friendly": "Mély, élő vörös — a friss vér színe, Shakespeare Macbethjéből híres.",
+      "exampleGloss": "A naplemente az egész eget incarnadine ragyogással festette.",
+      "origin": "olasz / latin",
+      "rootMeanings": ["benne", "test (testi vörös)"]
+    },
+    "interstice": {
+      "partOfSpeech": "főnév",
+      "definition": "Kis rés vagy hasadék a dolgok között.",
+      "friendly": "A kicsi „között“, amelyet könnyű elnézni — hasadék a padlóban, lyuk a napirendben.",
+      "exampleGloss": "A régi téglás ösvény minden interstice-én gyom kúszott.",
+      "origin": "latin",
+      "rootMeanings": ["között", "állni"]
+    },
+    "animadversion": {
+      "partOfSpeech": "főnév",
+      "definition": "Kritikus vagy feddő megjegyzések.",
+      "friendly": "Éles, helytelenítő szavak — kritika feddő hanggal.",
+      "exampleGloss": "A professzor animadversion-jai a dolgozathoz vörös tintával töltötték meg a margókat.",
+      "origin": "latin",
+      "rootMeanings": ["elme", "fordítani felé"]
+    },
+    "irrefragable": {
+      "partOfSpeech": "melléknév",
+      "definition": "Megcáfolhatatlan, vitathatatlan.",
+      "friendly": "Olyan szilárdan bizonyított, hogy nincs értelme vitatkozni — az ügy egyszerűen le van zárva.",
+      "exampleGloss": "A DNS-bizonyíték irrefragable volt, és a per egy óra alatt véget ért.",
+      "origin": "latin",
+      "rootMeanings": ["nem", "ellenállni, kinyílni"]
+    },
+    "involution": {
+      "partOfSpeech": "főnév",
+      "definition": "Bonyolultság, gubanc; illetőleg befelé tekeredés.",
+      "friendly": "Gubancos, magába hajtott bonyolultság — dolgok olyan sűrűn tekerve, hogy nehéz szétválasztani őket.",
+      "exampleGloss": "A cselekmény involution-ja a terem felét a stáblista után is bogozta.",
+      "origin": "latin",
+      "rootMeanings": ["befelé", "gördíteni, fordítani"]
+    },
+    "dint": {
+      "partOfSpeech": "főnév",
+      "definition": "Erő vagy fáradság, mint a „by dint of“-ban.",
+      "friendly": "Csupasz erő vagy munka — ma szinte csak a „by dint of“ fordulatban él.",
+      "exampleGloss": "A vizsgát by dint of makacs, kitartó gyakorlással tette le.",
+      "origin": "óangol",
+      "rootMeanings": ["ütés, csapás", "erővel"]
+    },
+    "mortised": {
+      "partOfSpeech": "melléknév",
+      "definition": "Csappal és horonnyal illesztett; szorosan illeszkedő.",
+      "friendly": "A régi ácsmódon illesztve — az egyik darab a pontosan neki vágott nyílásba megy.",
+      "exampleGloss": "A régi csűr gerendái egyetlen szög nélkül voltak mortised egymáshoz.",
+      "origin": "latin / francia",
+      "rootMeanings": ["horony, nyílás", "harapás, szorítás"]
+    },
+    "apposite": {
+      "partOfSpeech": "melléknév",
+      "definition": "Nagyon helyénvaló, találó.",
+      "friendly": "Pont a tárgyra — megjegyzés, idézet vagy példa, amely a pontra ül.",
+      "exampleGloss": "Az apposite válasza az egész vitát egyetlen mondatba csavarta.",
+      "origin": "latin",
+      "rootMeanings": ["felé", "tenni"]
+    },
+    "lambent": {
+      "partOfSpeech": "melléknév",
+      "definition": "Lágyan ragyogó vagy reszkető (fény); illetőleg könnyed szellemesség.",
+      "friendly": "Gyengéden világít, nem lángol — puha, reszkető fény, vagy játékos, nem éles szellemesség.",
+      "exampleGloss": "A gyertyák lambent ragyogást vetettek a régi ebédlőn.",
+      "origin": "latin",
+      "rootMeanings": ["nyalni", "cselekvés (fény, amely „nyal“)"]
+    },
+    "anchorite": {
+      "partOfSpeech": "főnév",
+      "definition": "Vallásos remetelakó, aki magányban él.",
+      "friendly": "Az, aki teljesen visszavonul a világtól, hogy egyedül éljen imában és elmélkedésben.",
+      "exampleGloss": "Az anchorite több mint harminc évet töltött a templom melletti szűk cellában.",
+      "origin": "görög",
+      "rootMeanings": ["vissza, félre", "visszavonulni"]
+    },
+    "slake": {
+      "partOfSpeech": "ige",
+      "definition": "Szomjat oltani; kielégíteni.",
+      "friendly": "Teljesen csillapítani a vágyat — leggyakrabban a szomjat, de átvitt értelemben bármely mély szükségletet.",
+      "exampleGloss": "Egy hideg pohár víz slaked a szomját a hosszú gyaloglás után.",
+      "origin": "óangol",
+      "rootMeanings": ["laza, engedett", "engedni, csillapítani"]
+    },
+    "acicular": {
+      "partOfSpeech": "melléknév",
+      "definition": "Tűszerű.",
+      "friendly": "Hosszú, vékony és hegyes, mint a tű — a fenyőtű vagy egy hegyes kristály alakja.",
+      "exampleGloss": "A fenyők könnyen felismerhetők acicular leveleikről.",
+      "origin": "latin",
+      "rootMeanings": ["tű", "kicsi"]
+    },
+    "effete": {
+      "partOfSpeech": "melléknév",
+      "definition": "Életerőtől kimerült, gyenge, túl finomkodó.",
+      "friendly": "Elkopott és puha — a túl sok kényelem vagy kifinomultság elvesztette az eredeti erőt.",
+      "exampleGloss": "A kritikusok a valamikor merész lapot effete-nek nevezték, a bátor korai évek árnyékának.",
+      "origin": "latin",
+      "rootMeanings": ["ki", "termékeny, már szült"]
+    },
+    "appurtenance": {
+      "partOfSpeech": "főnév",
+      "definition": "Tartozék vagy kis, hozzácsatolt dolog vagy jog.",
+      "friendly": "A kicsi toldalék a nagyobbhoz — tartozékok és kiegészítők, amelyek a fő dologgal járnak.",
+      "exampleGloss": "A bérlet magában foglalta a garázst és minden appurtenance-ját.",
+      "origin": "latin / francia",
+      "rootMeanings": ["felé", "tartozni"]
+    },
+    "gloze": {
+      "partOfSpeech": "ige",
+      "definition": "Eltussolni vagy kisebbíteni a vétket.",
+      "friendly": "Puha szavakkal puhítani a hibát, hogy kisebbnek tűnjön, mint amilyen.",
+      "exampleGloss": "Megpróbálta gloze over a lekésett határidőt ködös beszéddel az „előre nem látott nehézségekről“.",
+      "origin": "ófrancia / latin",
+      "rootMeanings": ["glossz, magyarázat", "kommentálni — később eltussolni"]
+    },
+    "incipient": {
+      "partOfSpeech": "melléknév",
+      "definition": "Korai szakaszban, éppen csak elkezdődött.",
+      "friendly": "Éppen csak mutatkozni kezd — valami nagyobb első, alig látható fázisa.",
+      "exampleGloss": "Az orvosok elkapták a betegség incipient jeleit, mielőtt elterjedhetett volna.",
+      "origin": "latin",
+      "rootMeanings": ["-ra, -ban", "fogni (hozzáfogni, kezdeni)"]
+    },
+    "afflatus": {
+      "partOfSpeech": "főnév",
+      "definition": "Alkotó ihlet, különösen isteni.",
+      "friendly": "Hirtelen ihletáradat, amely nagyobbnak tűnik nálad — mintha a gondolatot máshonnan lehelték volna beléd.",
+      "exampleGloss": "A költő azt mondta, az egész egy afflatus-csapással jött hajnali háromkor.",
+      "origin": "latin",
+      "rootMeanings": ["felé, -ra", "fújni (rálehelés)"]
+    }
+  }
+}

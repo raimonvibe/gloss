@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -6,6 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:beautiful_words/app.dart';
 import 'package:beautiful_words/data/word_repository.dart';
+import 'package:beautiful_words/l10n/locale_catalog.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
@@ -98,6 +102,9 @@ const _fixture = '''
 
 Widget _brandWrap(Widget child) {
   return MaterialApp(
+    locale: const Locale('en'),
+    supportedLocales: AppLocalizations.supportedLocales,
+    localizationsDelegates: AppLocalizations.localizationsDelegates,
     theme: ThemeData(
       useMaterial3: true,
       extensions: const [BrandColors.light],
@@ -361,5 +368,46 @@ void main() {
     await tester.tap(find.byTooltip('Stop'));
     await tester.pump();
     expect(speech.isSpeaking, isFalse);
+  });
+
+  testWidgets('languages tab searches countries and persists a locale', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final catalog = LocaleCatalog.fromJsonString(
+      File('l10n/catalog.json').readAsStringSync(),
+    );
+    final settings = SettingsController(prefs, catalog: catalog);
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: ProgressController(prefs),
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pump();
+
+    await tester.tap(find.text('Languages'));
+    await tester.pumpAndSettle();
+    expect(find.text('the tongues'), findsOneWidget);
+
+    await tester.enterText(find.byType(TextField), 'Nederlands');
+    await tester.pumpAndSettle();
+    expect(find.text('Netherlands'), findsWidgets);
+
+    await tester.tap(find.text('Netherlands').first);
+    await tester.pumpAndSettle();
+    expect(settings.savedLocaleId, 'nl-NL');
+
+    await tester.tap(find.text('Home'));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.text('Begin een quiz'), 400);
+    expect(find.text('Begin een quiz'), findsOneWidget);
   });
 }
