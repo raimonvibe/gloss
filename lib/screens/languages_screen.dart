@@ -7,7 +7,6 @@ import '../l10n/locale_catalog.dart';
 import '../state/settings_controller.dart';
 import '../theme/brand_colors.dart';
 import '../widgets/card_surface.dart';
-import '../widgets/ornament.dart';
 import '../widgets/theme_toggle.dart';
 
 const _continentOrder = [
