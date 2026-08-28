@@ -98,7 +98,7 @@ void main() {
   });
 
   test('every non-English translation key has a word overlay file', () {
-    const incomplete = {'km', 'lo', 'my'};
+    const incomplete = {'lo', 'my'};
     final keys = catalog.locales.map((locale) => locale.translationKey).toSet();
     for (final key in keys) {
       if (key == 'en' || incomplete.contains(key)) continue;
