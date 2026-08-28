@@ -6,6 +6,7 @@
 - **Repo:** https://github.com/raimonvibe/gloss (`origin/main`)
 - **Path:** `/home/raimonvibe/Documenten/Mobile Development/002Beautiful Words`
 - **Plan (4 todos, all completed):** `~/.cursor/plans/177-language_i18n_5e8cb304.plan.md`
+- **Open work:** [BACKLOG.md](BACKLOG.md)
 - **Flutter SDK:** not on `PATH`. Prefix commands with `PATH="$HOME/Documenten/Developer/flutter/bin:$PATH"`
 
 ## Current state (Aug 2026)
@@ -13,6 +14,7 @@
 - **i18n is complete.** All **59** word-overlay JSON files exist under `assets/l10n/`; Lao (`lo`) and Burmese (`my`) landed in `9076dbb`.
 - `test/l10n_catalog_test.dart` no longer exempts any locale — `const incomplete = <String>{};` is the empty hook kept for future work.
 - Every non-English translation key resolves to a 134-word overlay with a non-empty `friendly`, `exampleGloss`, and two `rootMeanings`.
+- **Caveat:** the *word overlays* are complete, but the Study page's 37 UI keys exist only in `app_en.arb` — see [BACKLOG.md](BACKLOG.md).
 
 ## Architecture
 
