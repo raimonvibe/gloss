@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../l10n/app_localizations.dart';
-import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../theme/brand_colors.dart';
 import 'card_surface.dart';
@@ -83,7 +82,7 @@ class WordCard extends StatelessWidget {
               SpeakButton(
                 compact: true,
                 speechKey: 'card:${entry.id}',
-                text: entry.spokenGlanceWith(SpeechTemplates.fromL10n(l10n)),
+                text: entry.spokenGlance,
               ),
             ],
           ),

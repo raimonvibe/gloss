@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
-import '../l10n/speech_templates.dart';
 import '../state/progress_controller.dart';
 import '../state/quiz_controller.dart';
 import '../state/speech_controller.dart';
@@ -200,7 +199,6 @@ class _QuizPlay extends StatelessWidget {
                 speechKey: 'quiz:${question.word.id}:${quiz.index}',
                 text: question.word.spokenQuiz(
                   revealed: quiz.hasAnsweredCurrent,
-                  templates: SpeechTemplates.fromL10n(l10n),
                 ),
               ),
               const SizedBox(width: 8),

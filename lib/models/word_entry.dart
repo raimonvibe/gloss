@@ -62,6 +62,7 @@ class WordEntry {
     required this.roots,
     this.variants = const [],
     this.exampleGloss,
+    this.translationSource,
   });
 
   final String id;
@@ -77,6 +78,17 @@ class WordEntry {
   final String origin;
   final String originWord;
   final List<WordRoot> roots;
+
+  /// The English entry this one was translated from, if it was.
+  ///
+  /// Read-aloud is English-only: the lemma cannot be pronounced in another
+  /// tongue, and handing translated text to the English-locked voice makes
+  /// it mangle the words. Display uses the translated fields; speech reads
+  /// from here.
+  final WordEntry? translationSource;
+
+  /// This entry's English original — itself when nothing was overlaid.
+  WordEntry get english => translationSource ?? this;
 
   factory WordEntry.fromJson(Map<String, dynamic> json) {
     return WordEntry(
@@ -121,6 +133,7 @@ class WordEntry {
             i < meanings.length ? meanings[i] : roots[i].meaning,
           ),
       ],
+      translationSource: english,
     );
   }
 
@@ -144,35 +157,40 @@ class WordEntry {
   /// Hyphens in respellings make TTS pause; spaces read more naturally.
   String get spokenPronunciation => pronunciation.replaceAll('-', ' ');
 
-  String get spokenWord => '$word. $spokenPronunciation.';
+  String get spokenWord => '${english.word}. ${english.spokenPronunciation}.';
 
   String get spokenGlance => spokenGlanceWith(SpeechTemplates.english);
 
   String spokenGlanceWith(SpeechTemplates templates) =>
-      '$spokenWord $friendly';
+      '$spokenWord ${english.friendly}';
 
   String get spokenEntry => spokenEntryWith(SpeechTemplates.english);
 
   String spokenEntryWith(SpeechTemplates templates) {
-    final also =
-        variants.isEmpty ? '' : ' ${templates.also(variants.join(', '))}';
-    return '$spokenWord $partOfSpeech.$also $friendly $definition ${templates.asIn(example)}';
+    final source = english;
+    final also = source.variants.isEmpty
+        ? ''
+        : ' ${templates.also(source.variants.join(', '))}';
+    return '$spokenWord ${source.partOfSpeech}.$also ${source.friendly} '
+        '${source.definition} ${templates.asIn(source.example)}';
   }
 
   String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);
 
   String spokenPromptWith(SpeechTemplates templates) {
-    final rootLine = roots
+    final source = english;
+    final rootLine = source.roots
         .map((r) => templates.rootMeaning(r.form, r.meaning))
         .join('. ');
     final rootsPart = rootLine.isEmpty ? '' : ' $rootLine.';
-    return '$spokenWord ${templates.fromOrigin(origin, originWord)}$rootsPart';
+    return '$spokenWord '
+        '${templates.fromOrigin(source.origin, source.originWord)}$rootsPart';
   }
 
   String spokenQuiz({required bool revealed, SpeechTemplates? templates}) {
     final copy = templates ?? SpeechTemplates.english;
     if (!revealed) return spokenPromptWith(copy);
-    return '${spokenPromptWith(copy)} ${copy.inPlainWords(friendly)}';
+    return '${spokenPromptWith(copy)} ${copy.inPlainWords(english.friendly)}';
   }
 }
 

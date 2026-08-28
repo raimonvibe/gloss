@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
-import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
@@ -40,7 +39,7 @@ class WordDetailScreen extends StatelessWidget {
             actions: [
               SpeakButton(
                 speechKey: 'entry:${live.id}',
-                text: live.spokenEntryWith(SpeechTemplates.fromL10n(l10n)),
+                text: live.spokenEntry,
               ),
               const Padding(
                 padding: EdgeInsets.only(right: 8),

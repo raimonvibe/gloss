@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
-import '../l10n/speech_templates.dart';
 import '../state/quiz_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
@@ -63,9 +62,7 @@ class QuizResultsScreen extends StatelessWidget {
                   word: quiz.questions[i].word.word,
                   definition: quiz.questions[i].word.definition,
                   speechKey: 'result:${quiz.questions[i].word.id}',
-                  speechText: quiz.questions[i].word.spokenGlanceWith(
-                    SpeechTemplates.fromL10n(l10n),
-                  ),
+                  speechText: quiz.questions[i].word.spokenGlance,
                 ),
                 const SizedBox(height: 10),
               ],

@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import '../branding.dart';
 import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
-import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
@@ -173,9 +172,7 @@ class _WordOfTheDay extends StatelessWidget {
                 ),
                 SpeakButton(
                   speechKey: 'wotd:${entry.id}',
-                  text: entry.spokenGlanceWith(
-                    SpeechTemplates.fromL10n(l10n),
-                  ),
+                  text: entry.spokenGlance,
                 ),
               ],
             ),
