@@ -252,5 +252,22 @@
         "type": "String"
       }
     }
+  },
+  "readExplanationsIn": "Read explanations in {language}",
+  "@readExplanationsIn": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "readExplanationsCaption": "The word itself is always read in English.",
+  "noVoiceInstalled": "This device has no {language} voice installed.",
+  "@noVoiceInstalled": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
   }
 }

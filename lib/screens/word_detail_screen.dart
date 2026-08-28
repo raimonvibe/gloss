@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
+import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../state/settings_controller.dart';
@@ -33,15 +34,16 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) => _autoplay());
   }
 
-  /// "Read a word aloud when it opens" — the same English narration the
-  /// speak button produces.
+  /// "Read a word aloud when it opens".
   void _autoplay() {
     if (!mounted) return;
     if (!context.read<SettingsController>().autoplayPronunciation) return;
     final repo = context.read<WordRepository>();
     final matches = repo.words.where((word) => word.id == widget.entry.id);
     final live = matches.isEmpty ? widget.entry : matches.first;
-    context.read<SpeechController>().speak('entry:${live.id}', live.spokenEntry);
+    context
+        .read<SpeechController>()
+        .speakSegments('entry:${live.id}', _readingOf(context, live));
   }
 
   @override
@@ -64,6 +66,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
               SpeakButton(
                 speechKey: 'entry:${live.id}',
                 text: live.spokenEntry,
+                segments: _readingOf(context, live),
               ),
               const Padding(
                 padding: EdgeInsets.only(right: 8),
@@ -224,6 +227,30 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
       ),
     );
   }
+}
+
+/// The lemma is always English. The explanation follows the reader's
+/// language only when they have switched it on in the study; the engine
+/// drops that segment if the device has no voice for it.
+List<SpeechSegment> _readingOf(BuildContext context, WordEntry live) {
+  final segments = [SpeechSegment(live.spokenEntry)];
+  final settings = context.read<SettingsController>();
+  if (!settings.readTranslationAloud) return segments;
+
+  final info = settings.catalog.infoFor(
+    settings.localeIdFor(View.of(context).platformDispatcher.locales),
+  );
+  if (info == null || info.translationKey == 'en') return segments;
+
+  final explanation = live.spokenExplanationWith(
+    SpeechTemplates.fromL10n(AppLocalizations.of(context)),
+  );
+  if (explanation.isEmpty) return segments;
+
+  return [
+    ...segments,
+    SpeechSegment(explanation, languageTag: info.flutterLocale.toLanguageTag()),
+  ];
 }
 
 class _Section extends StatelessWidget {

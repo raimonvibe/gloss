@@ -441,4 +441,18 @@ class AppLocalizationsKy extends AppLocalizations {
   String couldNotOpenLink(String label) {
     return 'Could not open $label.';
   }
+
+  @override
+  String readExplanationsIn(String language) {
+    return 'Read explanations in $language';
+  }
+
+  @override
+  String get readExplanationsCaption =>
+      'The word itself is always read in English.';
+
+  @override
+  String noVoiceInstalled(String language) {
+    return 'This device has no $language voice installed.';
+  }
 }

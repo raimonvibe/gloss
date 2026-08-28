@@ -978,6 +978,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Could not open {label}.'**
   String couldNotOpenLink(String label);
+
+  /// No description provided for @readExplanationsIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Read explanations in {language}'**
+  String readExplanationsIn(String language);
+
+  /// No description provided for @readExplanationsCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'The word itself is always read in English.'**
+  String get readExplanationsCaption;
+
+  /// No description provided for @noVoiceInstalled.
+  ///
+  /// In en, this message translates to:
+  /// **'This device has no {language} voice installed.'**
+  String noVoiceInstalled(String language);
 }
 
 class _AppLocalizationsDelegate

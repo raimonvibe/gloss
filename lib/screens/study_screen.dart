@@ -387,8 +387,56 @@ class _VoiceControl extends StatelessWidget {
               label: Text(l10n.hearIt),
             ),
           ),
+          _TranslationVoiceControl(settings: settings),
         ],
       ),
+    );
+  }
+}
+
+/// Offered only when the reader is not already in English and the device
+/// actually has a voice for their language — most do not, for the smaller
+/// languages in the catalog.
+class _TranslationVoiceControl extends StatelessWidget {
+  const _TranslationVoiceControl({required this.settings});
+
+  final SettingsController settings;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final brand = context.brand;
+    final speech = context.watch<SpeechController>();
+    final devices = View.of(context).platformDispatcher.locales;
+    final info = settings.catalog.infoFor(settings.localeIdFor(devices));
+
+    if (info == null || info.translationKey == 'en') {
+      return const SizedBox.shrink();
+    }
+    final tag = info.flutterLocale.toLanguageTag();
+
+    return FutureBuilder<VoiceOption?>(
+      future: speech.voiceForLanguage(tag),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState != ConnectionState.done) {
+          return const SizedBox.shrink();
+        }
+        if (snapshot.data == null) {
+          return Padding(
+            padding: const EdgeInsets.only(top: 4, bottom: 8),
+            child: Text(
+              l10n.noVoiceInstalled(info.languageNameNative),
+              style: TextStyle(fontSize: 12, color: brand.foregroundMuted),
+            ),
+          );
+        }
+        return _SwitchRow(
+          label: l10n.readExplanationsIn(info.languageNameNative),
+          caption: l10n.readExplanationsCaption,
+          value: settings.readTranslationAloud,
+          onChanged: settings.setReadTranslationAloud,
+        );
+      },
     );
   }
 }

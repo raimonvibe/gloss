@@ -33,7 +33,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ar": [
@@ -70,7 +73,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "az": [
@@ -107,7 +113,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "be": [
@@ -144,7 +153,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "bg": [
@@ -181,7 +193,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "bn": [
@@ -218,7 +233,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "cs": [
@@ -255,7 +273,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "da": [
@@ -292,7 +313,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "de": [
@@ -329,7 +353,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "el": [
@@ -366,7 +393,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "es": [
@@ -403,7 +433,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "es_419": [
@@ -440,7 +473,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "et": [
@@ -477,7 +513,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "fi": [
@@ -514,7 +553,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "fil": [
@@ -551,7 +593,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "fr": [
@@ -588,7 +633,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "fr_CA": [
@@ -625,7 +673,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "he": [
@@ -662,7 +713,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "hi": [
@@ -699,7 +753,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "hr": [
@@ -736,7 +793,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "hu": [
@@ -773,7 +833,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "hy": [
@@ -810,7 +873,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "id": [
@@ -847,7 +913,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "is": [
@@ -884,7 +953,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "it": [
@@ -921,7 +993,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ja": [
@@ -958,7 +1033,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ka": [
@@ -995,7 +1073,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "kk": [
@@ -1032,7 +1113,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "km": [
@@ -1069,7 +1153,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ko": [
@@ -1106,7 +1193,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ky": [
@@ -1143,7 +1233,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "lo": [
@@ -1180,7 +1273,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "lt": [
@@ -1217,7 +1313,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "lv": [
@@ -1254,7 +1353,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "mk": [
@@ -1291,7 +1393,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ms": [
@@ -1328,7 +1433,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "my": [
@@ -1365,7 +1473,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "nb": [
@@ -1402,7 +1513,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ne": [
@@ -1439,7 +1553,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "nl": [
@@ -1476,7 +1593,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "pl": [
@@ -1513,7 +1633,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "pt": [
@@ -1550,7 +1673,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "pt_BR": [
@@ -1587,7 +1713,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ro": [
@@ -1624,7 +1753,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ru": [
@@ -1661,7 +1793,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "si": [
@@ -1698,7 +1833,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "sk": [
@@ -1735,7 +1873,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "sl": [
@@ -1772,7 +1913,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "sq": [
@@ -1809,7 +1953,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "sr": [
@@ -1846,7 +1993,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "sv": [
@@ -1883,7 +2033,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "sw": [
@@ -1920,7 +2073,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "th": [
@@ -1957,7 +2113,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "tr": [
@@ -1994,7 +2153,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "uk": [
@@ -2031,7 +2193,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "ur": [
@@ -2068,7 +2233,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "vi": [
@@ -2105,7 +2273,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "zh": [
@@ -2142,7 +2313,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "zh_HK": [
@@ -2179,7 +2353,10 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ],
 
   "zh_TW": [
@@ -2216,6 +2393,9 @@
     "openLicences",
     "shareGloss",
     "followTheMaker",
-    "couldNotOpenLink"
+    "couldNotOpenLink",
+    "readExplanationsIn",
+    "readExplanationsCaption",
+    "noVoiceInstalled"
   ]
 }

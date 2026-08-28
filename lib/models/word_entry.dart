@@ -175,6 +175,14 @@ class WordEntry {
         '${source.definition} ${templates.asIn(source.example)}';
   }
 
+  /// The explanation in the reader's language, for a voice that speaks it.
+  /// Empty when nothing was translated, so callers can drop the segment.
+  String spokenExplanationWith(SpeechTemplates templates) {
+    if (translationSource == null) return '';
+    return '$friendly $definition '
+        '${exampleGloss == null ? '' : templates.asIn(exampleGloss!)}'.trim();
+  }
+
   String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);
 
   String spokenPromptWith(SpeechTemplates templates) {

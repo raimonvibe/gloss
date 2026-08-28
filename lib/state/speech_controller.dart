@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
@@ -151,6 +153,52 @@ List<VoiceOption> englishVoiceOptions(Iterable<Map<dynamic, dynamic>> voices) {
   return options;
 }
 
+/// One stretch of speech in one language.
+///
+/// A [languageTag] of null means English, the lexicon's own language and the
+/// only one the lemma may be pronounced in.
+class SpeechSegment {
+  const SpeechSegment(this.text, {this.languageTag});
+
+  final String text;
+  final String? languageTag;
+
+  bool get isEnglish => languageTag == null;
+}
+
+/// Best installed voice for a BCP-47 tag: an exact locale match first, then
+/// any voice for the same language. Offline voices beat network ones.
+VoiceOption? pickVoiceForLanguage(
+  Iterable<Map<dynamic, dynamic>> voices,
+  String languageTag,
+) {
+  final wanted = normalizeTtsLocale(languageTag);
+  final language = wanted.split('-').first;
+  final candidates = <VoiceOption>[];
+  for (final voice in voices) {
+    final name = voice['name']?.toString();
+    final locale = voice['locale']?.toString();
+    if (name == null || locale == null || name.isEmpty) continue;
+    final normalized = normalizeTtsLocale(locale);
+    if (normalized != wanted && normalized.split('-').first != language) {
+      continue;
+    }
+    candidates.add(VoiceOption(name: name, locale: normalized));
+  }
+  if (candidates.isEmpty) return null;
+
+  int score(VoiceOption voice) {
+    var value = voice.locale == wanted ? 40 : 20;
+    final name = voice.name.toLowerCase();
+    if (name.contains('local')) value += 15;
+    if (name.contains('network') || name.contains('online')) value -= 10;
+    return value;
+  }
+
+  candidates.sort((a, b) => score(b).compareTo(score(a)));
+  return candidates.first;
+}
+
 /// Platform TTS. Tests inject [SilentSpeechEngine].
 abstract class SpeechEngine {
   void setCompletionHandler(VoidCallback handler);
@@ -163,6 +211,13 @@ abstract class SpeechEngine {
 
   /// [voiceName] of null returns the engine to its own best English pick.
   Future<void> applyPreferences({String? voiceName, double? rate});
+
+  /// Speaks each segment in turn, switching voice between them, and leaves
+  /// the engine locked back to English.
+  Future<void> speakSegments(List<SpeechSegment> segments);
+
+  /// The voice this device would use for [languageTag], if it has one.
+  Future<VoiceOption?> voiceForLanguage(String languageTag);
 }
 
 class TtsSpeechEngine implements SpeechEngine {
@@ -278,14 +333,48 @@ class TtsSpeechEngine implements SpeechEngine {
     } catch (_) {}
   }
 
+  VoidCallback? _onDone;
+  Completer<void>? _segmentDone;
+  var _inSequence = false;
+
   @override
   void setCompletionHandler(VoidCallback handler) {
-    _tts.setCompletionHandler(handler);
+    _onDone = handler;
+    _tts.setCompletionHandler(_handleDone);
   }
 
   @override
   void setErrorHandler(void Function(dynamic message) handler) {
-    _tts.setErrorHandler(handler);
+    _tts.setErrorHandler((message) {
+      // Never leave a sequence waiting on an utterance that failed.
+      _finishSegment();
+      handler(message);
+    });
+  }
+
+  void _handleDone() {
+    _finishSegment();
+    if (!_inSequence) _onDone?.call();
+  }
+
+  void _finishSegment() {
+    final pending = _segmentDone;
+    _segmentDone = null;
+    if (pending != null && !pending.isCompleted) pending.complete();
+  }
+
+  /// Waits for this utterance before starting the next, so the voice change
+  /// between segments does not cut the previous one off. The timeout is a
+  /// backstop: some engines never report completion for empty or filtered
+  /// text, and a sequence must not hang on that.
+  Future<void> _speakAndWait(String text) {
+    _segmentDone = Completer<void>();
+    final waiting = _segmentDone!.future;
+    _tts.speak(text);
+    return waiting.timeout(
+      const Duration(seconds: 90),
+      onTimeout: () {},
+    );
   }
 
   @override
@@ -299,7 +388,68 @@ class TtsSpeechEngine implements SpeechEngine {
   @override
   Future<void> stop() async {
     await _ready;
+    _inSequence = false;
+    _finishSegment();
     await _tts.stop();
+  }
+
+  @override
+  Future<void> speakSegments(List<SpeechSegment> segments) async {
+    await _ready;
+    _inSequence = true;
+    try {
+      for (final segment in segments) {
+        if (segment.text.trim().isEmpty) continue;
+        if (segment.isEnglish) {
+          await _lockToEnglish();
+          final utterance =
+              _useEnglishSsml ? wrapEnglishSsml(segment.text) : segment.text;
+          await _speakAndWait(utterance);
+        } else {
+          final applied = await _useLanguage(segment.languageTag!);
+          // Rather than let the English voice mangle it, skip the segment.
+          if (!applied) continue;
+          await _speakAndWait(segment.text);
+        }
+        if (!_inSequence) break;
+      }
+    } catch (_) {
+      // A failed segment should not strand the sequence.
+    } finally {
+      _inSequence = false;
+      try {
+        await _lockToEnglish();
+      } catch (_) {}
+      _onDone?.call();
+    }
+  }
+
+  /// Points the engine at [languageTag]. False when the device has no voice
+  /// for it, which is common for the smaller languages in the catalog.
+  Future<bool> _useLanguage(String languageTag) async {
+    try {
+      final voices = await _tts.getVoices;
+      if (voices is! List) return false;
+      final voice = pickVoiceForLanguage(voices.whereType<Map>(), languageTag);
+      if (voice == null) return false;
+      await _tts.setLanguage(voice.locale);
+      await _tts.setVoice({'name': voice.name, 'locale': voice.locale});
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  @override
+  Future<VoiceOption?> voiceForLanguage(String languageTag) async {
+    await _ready;
+    try {
+      final voices = await _tts.getVoices;
+      if (voices is! List) return null;
+      return pickVoiceForLanguage(voices.whereType<Map>(), languageTag);
+    } catch (_) {
+      return null;
+    }
   }
 }
 
@@ -340,6 +490,32 @@ class SilentSpeechEngine implements SpeechEngine {
     stopped = true;
     lastSpoken = null;
   }
+
+  /// Every segment handed to the engine, in order, as 'tag:text'.
+  final List<String> spokenSegments = [];
+
+  @override
+  Future<void> speakSegments(List<SpeechSegment> segments) async {
+    for (final segment in segments) {
+      if (segment.text.trim().isEmpty) continue;
+      if (!segment.isEnglish &&
+          await voiceForLanguage(segment.languageTag!) == null) {
+        continue;
+      }
+      spokenSegments.add('${segment.languageTag ?? 'en'}:${segment.text}');
+      lastSpoken = segment.text;
+    }
+    stopped = false;
+  }
+
+  @override
+  Future<VoiceOption?> voiceForLanguage(String languageTag) async {
+    final language = normalizeTtsLocale(languageTag).split('-').first;
+    for (final voice in voices) {
+      if (voice.locale.split('-').first == language) return voice;
+    }
+    return null;
+  }
 }
 
 class SpeechController extends ChangeNotifier {
@@ -371,6 +547,36 @@ class SpeechController extends ChangeNotifier {
 
   Future<void> applyPreferences({String? voiceName, double? rate}) =>
       _engine.applyPreferences(voiceName: voiceName, rate: rate);
+
+  Future<VoiceOption?> voiceForLanguage(String languageTag) =>
+      _engine.voiceForLanguage(languageTag);
+
+  Future<void> toggleSegments(String key, List<SpeechSegment> segments) async {
+    if (isSpeakingKey(key)) {
+      await stop();
+      return;
+    }
+    await speakSegments(key, segments);
+  }
+
+  /// Speaks an entry that is part English, part translated. Segments with no
+  /// installed voice are dropped by the engine rather than mispronounced.
+  Future<void> speakSegments(String key, List<SpeechSegment> segments) async {
+    final wanted = [
+      for (final segment in segments)
+        if (segment.text.trim().isNotEmpty) segment,
+    ];
+    if (wanted.isEmpty) return;
+    await _engine.stop();
+    _activeKey = key;
+    _speaking = true;
+    notifyListeners();
+    try {
+      await _engine.speakSegments(wanted);
+    } catch (_) {
+      _onIdle();
+    }
+  }
 
   Future<void> toggle(String key, String text) async {
     if (isSpeakingKey(key)) {

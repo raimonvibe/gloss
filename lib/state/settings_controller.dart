@@ -11,6 +11,7 @@ const _voiceKey = 'beautiful-words:voice';
 const _speechRateKey = 'beautiful-words:speech-rate';
 const _autoplayKey = 'beautiful-words:autoplay';
 const _reduceMotionKey = 'beautiful-words:reduce-motion';
+const _readTranslationKey = 'beautiful-words:read-translation';
 
 /// Text can grow half again as large before the parchment cards start to
 /// clip; below 1.0 the Cormorant body face turns to grit.
@@ -35,6 +36,7 @@ class SettingsController extends ChangeNotifier {
     );
     _autoplay = _prefs.getBool(_autoplayKey) ?? false;
     _reduceMotion = _prefs.getBool(_reduceMotionKey) ?? false;
+    _readTranslation = _prefs.getBool(_readTranslationKey) ?? false;
   }
 
   final SharedPreferences _prefs;
@@ -46,6 +48,7 @@ class SettingsController extends ChangeNotifier {
   late double _speechRate;
   late bool _autoplay;
   late bool _reduceMotion;
+  late bool _readTranslation;
 
   ThemeMode get themeMode => _themeMode;
   String? get savedLocaleId => _localeId;
@@ -57,6 +60,10 @@ class SettingsController extends ChangeNotifier {
   double get speechRate => _speechRate;
   bool get autoplayPronunciation => _autoplay;
   bool get reduceMotion => _reduceMotion;
+
+  /// Off by default: the lemma is always English, and most devices have no
+  /// installed voice for the smaller languages in the catalog.
+  bool get readTranslationAloud => _readTranslation;
 
   Future<void> setTextScale(double value) async {
     final next = _clamp(value, kMinTextScale, kMaxTextScale);
@@ -97,6 +104,13 @@ class SettingsController extends ChangeNotifier {
     _reduceMotion = value;
     notifyListeners();
     await _prefs.setBool(_reduceMotionKey, value);
+  }
+
+  Future<void> setReadTranslationAloud(bool value) async {
+    if (value == _readTranslation) return;
+    _readTranslation = value;
+    notifyListeners();
+    await _prefs.setBool(_readTranslationKey, value);
   }
 
   static double _clamp(double value, double min, double max) =>

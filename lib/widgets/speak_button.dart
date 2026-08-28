@@ -11,11 +11,17 @@ class SpeakButton extends StatelessWidget {
     super.key,
     required this.speechKey,
     required this.text,
+    this.segments,
     this.compact = false,
   });
 
   final String speechKey;
   final String text;
+
+  /// When set, the reading runs as several segments in different voices
+  /// instead of one English utterance.
+  final List<SpeechSegment>? segments;
+
   final bool compact;
 
   @override
@@ -24,6 +30,14 @@ class SpeakButton extends StatelessWidget {
     final brand = context.brand;
     final l10n = AppLocalizations.of(context);
     final active = speech.isSpeakingKey(speechKey);
+    final parts = segments;
+    void play() {
+      if (parts == null) {
+        speech.toggle(speechKey, text);
+      } else {
+        speech.toggleSegments(speechKey, parts);
+      }
+    }
     final label = active ? l10n.stop : l10n.listen;
     final icon = Icon(
       active ? Icons.stop_outlined : Icons.volume_up_outlined,
@@ -34,7 +48,7 @@ class SpeakButton extends StatelessWidget {
     if (compact) {
       return IconButton(
         tooltip: label,
-        onPressed: () => speech.toggle(speechKey, text),
+        onPressed: play,
         icon: icon,
       );
     }
@@ -46,7 +60,7 @@ class SpeakButton extends StatelessWidget {
         shape: CircleBorder(side: BorderSide(color: brand.cardBorder)),
         child: InkWell(
           customBorder: const CircleBorder(),
-          onTap: () => speech.toggle(speechKey, text),
+          onTap: play,
           child: SizedBox(
             width: 42,
             height: 42,
