@@ -76,6 +76,10 @@ assets/data/words.json      # 134 words + etymology
 
 Word data is adapted from `lib/words.ts` in the website repo, with origin language and root components added for the etymology card. To refresh the list from a newer website checkout, edit `tool/merge_etymology.js` and run `node tool/merge_etymology.js`.
 
+## Google Play
+
+Beginner walkthrough with the exact left-menu clicks: [`store/play/GOOGLE-PLAY-CONSOLE.md`](store/play/GOOGLE-PLAY-CONSOLE.md).
+
 ## License
 
 MIT — see [`LICENSE`](./LICENSE).
