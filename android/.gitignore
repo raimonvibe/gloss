@@ -1,0 +1,20 @@
+/.gradle
+/captures/
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+#
+# key.properties.example is the committed template (no passwords).
+# key.properties is the filled copy and must never be committed.
+key.properties
+keystore-password.txt
+keystore-credentials.txt
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.pepk
+**/*.pk8
+upload_certificate.pem

@@ -1,0 +1,85 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# pubspec.lock IS committed. This is an application shipped to a store;
+# the resolved plugin set is part of what was tested.
+
+# Gradle. Build caches, and a file of absolute paths to this machine's SDKs.
+.gradle/
+android/.gradle/
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Symbolication / obfuscation output
+app.*.symbols
+app.*.map.json
+
+# ---------------------------------------------------------------------------
+# Google Play upload signing — never commit these.
+#
+# key.properties holds the keystore password in plain text. The keystore is
+# the one file that cannot be regenerated: Play requires every update to
+# carry the same certificate. It lives outside this project on purpose —
+# see android/key.properties.example. These rules are the second line of
+# defence for the day a copy lands inside the tree anyway.
+# ---------------------------------------------------------------------------
+android/key.properties
+**/key.properties
+keystore-password.txt
+keystore-credentials.txt
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pepk
+**/*.pk8
+upload_certificate.pem
+**/upload_certificate.pem
+
+# Signed artefacts. Reproducible with the keystore; large; not source.
+*.aab
+*.apk
+*.apks
+*.ipa
+
+# iOS signing material (if it ever appears in this tree)
+**/*.mobileprovision
+**/AuthKey_*.p8
+**/*.p8
+
+# Secrets that are easy to drop in a project root by habit
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+secrets.json
+credentials.json
+
+# Flutter test failure dumps (goldens themselves are committed if added)
+test/**/failures/
+*.log
