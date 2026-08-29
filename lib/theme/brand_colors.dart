@@ -16,6 +16,8 @@ class BrandColors extends ThemeExtension<BrandColors> {
     required this.cardGradient,
     required this.heroGradient,
     required this.frameGradient,
+    required this.cardShadow,
+    required this.grain,
     required this.correct,
     required this.incorrect,
   });
@@ -33,6 +35,14 @@ class BrandColors extends ThemeExtension<BrandColors> {
   final List<Color> cardGradient;
   final List<Color> heroGradient;
   final List<Color> frameGradient;
+
+  /// The shadow a card casts, and the tint of the three soft blooms behind
+  /// the page. Both were picked widget-side from `Theme.of(context)
+  /// .brightness`, which left two of the palette's colours written down
+  /// somewhere other than the palette.
+  final Color cardShadow;
+  final Color grain;
+
   final Color correct;
   final Color incorrect;
 
@@ -50,6 +60,8 @@ class BrandColors extends ThemeExtension<BrandColors> {
     cardGradient: [Color(0xFFFFFDF7), Color(0xFFFBF1DC)],
     heroGradient: [Color(0xFFA9762F), Color(0xFF7A2E3A), Color(0xFF4C2A52)],
     frameGradient: [Color(0xFFC99A3D), Color(0xFF8A3247), Color(0xFF4C2A52)],
+    cardShadow: Color(0x332F3D26),
+    grain: Color(0x0A000000),
     correct: Color(0xFF3D6B4A),
     incorrect: Color(0xFF7A2E3A),
   );
@@ -68,6 +80,8 @@ class BrandColors extends ThemeExtension<BrandColors> {
     cardGradient: [Color(0xFF241A2C), Color(0xFF1C1522)],
     heroGradient: [Color(0xFF3D2748), Color(0xFF5A2A3D), Color(0xFF7A3A2E)],
     frameGradient: [Color(0xFFE0B45C), Color(0xFFD9738A), Color(0xFF8D6FD9)],
+    cardShadow: Color(0x66080810),
+    grain: Color(0x08FFFFFF),
     correct: Color(0xFF8FCB9B),
     incorrect: Color(0xFFD98A97),
   );
@@ -87,6 +101,8 @@ class BrandColors extends ThemeExtension<BrandColors> {
     List<Color>? cardGradient,
     List<Color>? heroGradient,
     List<Color>? frameGradient,
+    Color? cardShadow,
+    Color? grain,
     Color? correct,
     Color? incorrect,
   }) {
@@ -104,6 +120,8 @@ class BrandColors extends ThemeExtension<BrandColors> {
       cardGradient: cardGradient ?? this.cardGradient,
       heroGradient: heroGradient ?? this.heroGradient,
       frameGradient: frameGradient ?? this.frameGradient,
+      cardShadow: cardShadow ?? this.cardShadow,
+      grain: grain ?? this.grain,
       correct: correct ?? this.correct,
       incorrect: incorrect ?? this.incorrect,
     );
@@ -141,6 +159,8 @@ class BrandColors extends ThemeExtension<BrandColors> {
         Color.lerp(frameGradient[1], other.frameGradient[1], t)!,
         Color.lerp(frameGradient[2], other.frameGradient[2], t)!,
       ],
+      cardShadow: Color.lerp(cardShadow, other.cardShadow, t)!,
+      grain: Color.lerp(grain, other.grain, t)!,
       correct: Color.lerp(correct, other.correct, t)!,
       incorrect: Color.lerp(incorrect, other.incorrect, t)!,
     );

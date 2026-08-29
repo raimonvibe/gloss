@@ -24,7 +24,6 @@ class CardSurface extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final brand = context.brand;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
     return Material(
       color: Colors.transparent,
       child: InkWell(
@@ -45,9 +44,7 @@ class CardSurface extends StatelessWidget {
             ),
             boxShadow: [
               BoxShadow(
-                color: isDark
-                    ? const Color(0x66080810)
-                    : const Color(0x332F3D26),
+                color: brand.cardShadow,
                 blurRadius: 18,
                 offset: const Offset(0, 8),
               ),
