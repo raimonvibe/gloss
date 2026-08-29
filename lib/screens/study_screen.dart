@@ -523,10 +523,20 @@ class _VoiceControl extends StatelessWidget {
 /// Offered only when the reader is not already in English and the device
 /// actually has a voice for their language — most do not, for the smaller
 /// languages in the catalog.
-class _TranslationVoiceControl extends StatelessWidget {
+class _TranslationVoiceControl extends StatefulWidget {
   const _TranslationVoiceControl({required this.settings});
 
   final SettingsController settings;
+
+  @override
+  State<_TranslationVoiceControl> createState() =>
+      _TranslationVoiceControlState();
+}
+
+class _TranslationVoiceControlState extends State<_TranslationVoiceControl> {
+  Future<VoiceOption?>? _voice;
+  String? _asked;
+  List<VoiceOption>? _knownVoices;
 
   @override
   Widget build(BuildContext context) {
@@ -534,6 +544,7 @@ class _TranslationVoiceControl extends StatelessWidget {
     final brand = context.brand;
     final speech = context.watch<SpeechController>();
     final devices = View.of(context).platformDispatcher.locales;
+    final settings = widget.settings;
     final info = settings.catalog.infoFor(settings.localeIdFor(devices));
 
     if (info == null || info.translationKey == 'en') {
@@ -541,8 +552,22 @@ class _TranslationVoiceControl extends StatelessWidget {
     }
     final tag = info.flutterLocale.toLanguageTag();
 
+    // The engine is asked once per language, and again only when it reports
+    // a new list of voices.
+    //
+    // Handing `future:` a call made here in build asks again on every
+    // rebuild, and until each new answer arrives this row is nothing at all —
+    // so the row vanished and the whole page below it jumped up, then
+    // dropped back. Changing the light rebuilds the page, which is why the
+    // settings hopped whenever the reader switched parchment to candlelight.
+    if (tag != _asked || !identical(speech.voices, _knownVoices)) {
+      _asked = tag;
+      _knownVoices = speech.voices;
+      _voice = speech.voiceForLanguage(tag);
+    }
+
     return FutureBuilder<VoiceOption?>(
-      future: speech.voiceForLanguage(tag),
+      future: _voice,
       builder: (context, snapshot) {
         if (snapshot.connectionState != ConnectionState.done) {
           return const SizedBox.shrink();
@@ -591,6 +616,19 @@ class _ThemeControl extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: SegmentedButton<ThemeMode>(
+        // Rebuilt whenever the light changes, which throws away whatever this
+        // control had in flight at that moment.
+        //
+        // It is the one button that repaints the page underneath itself. The
+        // page turns over in a single frame (see `themeAnimationStyle` in
+        // app.dart), but the button's own ink went on running afterwards in
+        // the colours of the theme just left: a pale splash spreading and
+        // fading inside the segment, and the fill and labels crossing to
+        // their new colours over another fifth of a second, while everything
+        // around them had already changed. A light moving over the page, and
+        // the last of it. A new key here ends both, because the segments and
+        // the Material holding their ink are built afresh.
+        key: ValueKey(Theme.of(context).brightness),
         // The default segment padding is generous; the room is better spent
         // on the words, which run long in most of the 61 locales.
         style: SegmentedButton.styleFrom(

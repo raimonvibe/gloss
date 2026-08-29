@@ -64,6 +64,18 @@ class GlossApp extends StatelessWidget {
             theme: AppTheme.light(),
             darkTheme: AppTheme.dark(),
             themeMode: settings.themeMode,
+            // Parchment and candlelight change over at once, with no fade.
+            //
+            // The fade Material gives you for nothing crossfades every colour
+            // on its own, in sRGB, and parchment and candlelight sit at
+            // opposite ends of the scale: halfway through, the page was a
+            // flat grey fog with its own text nearly invisible inside it, and
+            // the three soft blooms behind the page slid through it as the
+            // gradient's stops crossed at their own rates. It read as a light
+            // moving over the screen. There is no crossfade of a whole page
+            // to be had here — only sixty colours crossing separately — so
+            // the page turns over in one frame instead.
+            themeAnimationStyle: AnimationStyle.noAnimation,
             // The reader's choice multiplies the platform's own setting, so
             // someone who has already enlarged text system-wide keeps it —
             // capped, because past 2x the parchment cards start to clip.

@@ -13,7 +13,6 @@ class PaperBackdrop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final brand = context.brand;
-    final isDark = Theme.of(context).brightness == Brightness.dark;
     final calm = context.select<SettingsController, bool>(
       (settings) => settings.reduceMotion,
     );
@@ -32,7 +31,7 @@ class PaperBackdrop extends StatelessWidget {
                   ),
           ),
         ),
-        if (!calm) CustomPaint(painter: _GrainPainter(dark: isDark)),
+        if (!calm) CustomPaint(painter: _GrainPainter(tint: brand.grain)),
         child,
       ],
     );
@@ -40,24 +39,26 @@ class PaperBackdrop extends StatelessWidget {
 }
 
 class _GrainPainter extends CustomPainter {
-  const _GrainPainter({required this.dark});
+  const _GrainPainter({required this.tint});
 
-  final bool dark;
+  /// From [BrandColors.grain]: near-black on parchment, near-white in
+  /// candlelight, and either way faint enough to read as paper rather than
+  /// as three circles.
+  final Color tint;
 
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
       ..style = PaintingStyle.fill
-      ..color = dark
-          ? const Color(0x08FFFFFF)
-          : const Color(0x0A000000);
+      ..color = tint;
     canvas.drawCircle(Offset(size.width * 0.2, size.height * 0.3), size.width * 0.45, paint);
     canvas.drawCircle(Offset(size.width * 0.8, size.height * 0.7), size.width * 0.4, paint);
     canvas.drawCircle(Offset(size.width * 0.5, size.height * 0.5), size.width * 0.55, paint);
   }
 
   @override
-  bool shouldRepaint(covariant _GrainPainter oldDelegate) => oldDelegate.dark != dark;
+  bool shouldRepaint(covariant _GrainPainter oldDelegate) =>
+      oldDelegate.tint != tint;
 }
 
 class FlourishCorners extends StatelessWidget {
