@@ -2,15 +2,18 @@ import 'dart:io';
 
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:beautiful_words/app.dart';
+import 'package:beautiful_words/branding.dart';
 import 'package:beautiful_words/data/word_repository.dart';
 import 'package:beautiful_words/l10n/locale_catalog.dart';
 import 'package:beautiful_words/models/word_entry.dart';
+import 'package:beautiful_words/screens/study_screen.dart';
 import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
@@ -730,5 +733,75 @@ void main() {
     await tester.tap(clear);
     await tester.pumpAndSettle();
     expect(find.text('Cancel'), findsNothing);
+  });
+
+  testWidgets('sharing copies the store link and offers the share sheet', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+
+    String? copied;
+    Map<Object?, Object?>? sheet;
+    final messenger = tester.binding.defaultBinaryMessenger;
+
+    messenger.setMockMethodCallHandler(SystemChannels.platform, (call) async {
+      if (call.method == 'Clipboard.setData') {
+        copied = (call.arguments as Map)['text'] as String?;
+      }
+      return null;
+    });
+    addTearDown(
+      () => messenger.setMockMethodCallHandler(SystemChannels.platform, null),
+    );
+
+    const shareChannel = MethodChannel('dev.fluttercommunity.plus/share');
+    messenger.setMockMethodCallHandler(shareChannel, (call) async {
+      if (call.method == 'share') sheet = call.arguments as Map<Object?, Object?>;
+      return 'dev.fluttercommunity.plus/share/success';
+    });
+    addTearDown(() => messenger.setMockMethodCallHandler(shareChannel, null));
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: SettingsController(prefs),
+        progress: ProgressController(prefs),
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+
+    final share = find.text('Share Gloss');
+    await tester.scrollUntilVisible(
+      share,
+      300,
+      scrollable: find.byType(Scrollable).last,
+      maxScrolls: 60,
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(share);
+    await tester.pumpAndSettle();
+
+    // The link is in hand whatever the reader does with the sheet.
+    expect(copied, Branding.storeUrl);
+    expect(find.text('Copied to clipboard'), findsOneWidget);
+
+    // And the sheet was offered, carrying that same link.
+    expect(sheet, isNotNull);
+    expect(sheet!['text'], contains(Branding.storeUrl));
+  });
+
+  test('the shared message ends on the link, alone on its line', () {
+    final message = shareMessage('a lexicon of lovely language');
+
+    expect(message, contains(Branding.storeName));
+    expect(message.split('\n').last, Branding.storeUrl);
   });
 }

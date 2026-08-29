@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../branding.dart';
 import '../l10n/app_localizations.dart';
@@ -19,17 +20,31 @@ import 'languages_screen.dart';
 /// translated preview would be read in the wrong language.
 const kVoicePreview = 'Edulcorate. To sweeten, or to soften.';
 
-class StudyScreen extends StatefulWidget {
-  const StudyScreen({super.key, this.onShare});
+/// What the reader hands on when they share the app.
+///
+/// The link sits last and alone on its line: that is the part a messaging app
+/// lifts out for its preview card, and the part someone can tap. It is the
+/// same link that goes to the clipboard, so the two can never disagree.
+String shareMessage(String tagline) =>
+    '${Branding.storeName} — $tagline\n${Branding.storeUrl}';
 
-  /// Injected by tests so no share sheet or browser opens.
+class StudyScreen extends StatefulWidget {
+  const StudyScreen({super.key, this.onShare, this.onShareText});
+
+  /// Injected by tests so no browser opens. Carries the maker's links.
   final Future<bool> Function(Uri url)? onShare;
+
+  /// Injected by tests so no share sheet opens.
+  final Future<bool> Function(String message)? onShareText;
 
   @override
   State<StudyScreen> createState() => _StudyScreenState();
 }
 
 class _StudyScreenState extends State<StudyScreen> {
+  /// Anchors the iPad share popover to the row that was tapped.
+  final _shareRowKey = GlobalKey();
+
   @override
   void initState() {
     super.initState();
@@ -201,6 +216,7 @@ class _StudyScreenState extends State<StudyScreen> {
             ),
             const _HairLine(),
             _LinkRow(
+              key: _shareRowKey,
               icon: Icons.ios_share,
               label: l10n.shareGloss,
               onTap: () => _share(context),
@@ -215,23 +231,49 @@ class _StudyScreenState extends State<StudyScreen> {
     );
   }
 
+  /// Hand the app on, rather than walking the reader to the shop.
+  ///
+  /// Sharing used to open the store listing itself, which sent the reader
+  /// away to a page about an app they already have. What they wanted was the
+  /// link, to give to somebody else. So: copy it, then offer the sheet.
   Future<void> _share(BuildContext context) async {
     final messenger = ScaffoldMessenger.maybeOf(context);
     final l10n = AppLocalizations.of(context);
-    final url = Uri.parse(Branding.storeUrl);
-    final launcher = widget.onShare ??
-        (Uri uri) => launchUrl(uri, mode: LaunchMode.externalApplication);
-    var opened = false;
+
+    // The clipboard first, and unconditionally. Whatever becomes of the sheet
+    // - dismissed, or an app that keeps the text and drops the link - the
+    // reader is left holding the thing they asked for.
+    await Clipboard.setData(const ClipboardData(text: Branding.storeUrl));
+
+    final share = widget.onShareText ?? _openShareSheet;
     try {
-      opened = await launcher(url);
+      await share(shareMessage(l10n.tagline));
     } catch (_) {
-      opened = false;
+      // A sheet that will not open earns no error of its own. The promise
+      // this row makes is the copy above, and that has already been kept;
+      // 'could not open Gloss' would be a lie told over a full clipboard.
     }
-    if (!opened) {
-      messenger?.showSnackBar(
-        SnackBar(content: Text(l10n.couldNotOpenLink(Branding.displayName))),
-      );
-    }
+    if (!context.mounted) return;
+    messenger?.showSnackBar(SnackBar(content: Text(l10n.copiedToClipboard)));
+  }
+
+  Future<bool> _openShareSheet(String message) async {
+    final result = await SharePlus.instance.share(
+      ShareParams(
+        text: message,
+        subject: Branding.storeName,
+        // iPad and macOS anchor the popover here. Without a rect it lands in
+        // the middle of the screen, pointing at nothing.
+        sharePositionOrigin: _shareRowRect(),
+      ),
+    );
+    return result.status == ShareResultStatus.success;
+  }
+
+  Rect? _shareRowRect() {
+    final box = _shareRowKey.currentContext?.findRenderObject() as RenderBox?;
+    if (box == null || !box.hasSize) return null;
+    return box.localToGlobal(Offset.zero) & box.size;
   }
 }
 
@@ -610,6 +652,7 @@ class _SwitchRow extends StatelessWidget {
 
 class _LinkRow extends StatelessWidget {
   const _LinkRow({
+    super.key,
     required this.icon,
     required this.label,
     this.trailing,
