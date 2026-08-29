@@ -21,10 +21,12 @@ Known checkouts:
 | Machine | Path | Flutter | Python | Git |
 |---|---|---|---|---|
 | Linux | `~/Documenten/Mobile Development/002Beautiful Words` | **not** on `PATH` — prefix `PATH="$HOME/Documenten/Developer/flutter/bin:$PATH"` | `python3` | yes |
-| Windows | `C:\Users\rober\Documents\My Tableau Repository\Mobile Development\002 Beautiful Words` | on `PATH` | `python` (no `python3`) | **no `.git`** |
+| Windows | `C:\Users\rober\Documents\My Tableau Repository\Mobile Development\002 Beautiful Words` | on `PATH` | `python` (no `python3`) | yes, since 2026-08-29 |
 
-The Windows copy has no git history, so `git log`, `git status` and anything
-comparing against `origin/main` will fail there. Check before reaching for them.
+The Windows copy began as a snapshot with no `.git` at all. It was initialised
+against `origin/main` on 2026-08-29, so it has real history now — but it was set
+up with `core.autocrlf false`, deliberately, to stop Windows rewriting line endings
+into every diff. Keep that if you re-clone.
 
 ## Current state (Aug 2026)
 
