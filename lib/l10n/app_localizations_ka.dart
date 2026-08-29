@@ -454,4 +454,39 @@ class AppLocalizationsKa extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'ამ მოწყობილობას არ აქვს $language ხმა დაყენებული.';
   }
+
+  @override
+  String get memorySection => 'მეხსიერება';
+
+  @override
+  String get memoryCaption => 'რას ინახავს Gloss';
+
+  @override
+  String get forgetProgress => 'დაივიწყე ჩემი პროგრესი';
+
+  @override
+  String get forgetProgressBody =>
+      'თქვენ მიერ შესწავლილ სიტყვებს მოეხსნება ნიშანი. შენახული სიტყვები დარჩება.';
+
+  @override
+  String get clearSavedWords => 'გაასუფთავე შენახული სიტყვები';
+
+  @override
+  String get clearSavedWordsBody =>
+      'თქვენ მიერ შენახული სიტყვები წაიშლება. თქვენი პროგრესი დარჩება.';
+
+  @override
+  String get cancel => 'გაუქმება';
+
+  @override
+  String get forget => 'დავიწყება';
+
+  @override
+  String get clear => 'გასუფთავება';
+
+  @override
+  String get progressForgotten => 'პროგრესი დავიწყებულია.';
+
+  @override
+  String get savedWordsCleared => 'შენახული სიტყვები გასუფთავდა.';
 }

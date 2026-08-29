@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Tidak dapat membuka {label}.",
   "readExplanationsIn": "Baca penjelasan dalam bahasa {language}",
   "readExplanationsCaption": "Kata itu sendiri selalu dibaca dalam bahasa Inggris.",
-  "noVoiceInstalled": "Perangkat ini tidak memiliki suara {language} yang terpasang."
+  "noVoiceInstalled": "Perangkat ini tidak memiliki suara {language} yang terpasang.",
+  "memorySection": "Ingatan",
+  "memoryCaption": "apa yang Gloss simpan",
+  "forgetProgress": "Lupakan kemajuan saya",
+  "forgetProgressBody": "Tanda pada kata yang telah kamu jelajahi akan dihapus. Kata tersimpanmu tetap ada.",
+  "clearSavedWords": "Hapus kata tersimpan",
+  "clearSavedWordsBody": "Kata yang kamu simpan akan dihapus. Kemajuanmu tetap ada.",
+  "cancel": "Batal",
+  "forget": "Lupakan",
+  "clear": "Hapus",
+  "progressForgotten": "Kemajuan dilupakan.",
+  "savedWordsCleared": "Kata tersimpan dihapus."
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "تعذّر فتح {label}.",
   "readExplanationsIn": "اقرأ الشروح بـ{language}",
   "readExplanationsCaption": "تُقرأ الكلمة نفسها بالإنجليزية دائمًا.",
-  "noVoiceInstalled": "لا يوجد صوت {language} مثبّت على هذا الجهاز."
+  "noVoiceInstalled": "لا يوجد صوت {language} مثبّت على هذا الجهاز.",
+  "memorySection": "الذاكرة",
+  "memoryCaption": "ما يحتفظ به Gloss",
+  "forgetProgress": "انسَ تقدّمي",
+  "forgetProgressBody": "ستُزال العلامة عن الكلمات التي استكشفتها. كلماتك المحفوظة تبقى.",
+  "clearSavedWords": "مسح الكلمات المحفوظة",
+  "clearSavedWordsBody": "ستُحذف الكلمات التي احتفظت بها. تقدّمك يبقى.",
+  "cancel": "إلغاء",
+  "forget": "انسَ",
+  "clear": "مسح",
+  "progressForgotten": "نُسي التقدّم.",
+  "savedWordsCleared": "مُسحت الكلمات المحفوظة."
 }

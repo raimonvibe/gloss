@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} ачылган жок.",
   "readExplanationsIn": "Түшүндүрмөлөрдү {language} тилинде окуу",
   "readExplanationsCaption": "Сөздүн өзү дайыма англисче окулат.",
-  "noVoiceInstalled": "Бул түзмөктө {language} үнү орнотулган эмес."
+  "noVoiceInstalled": "Бул түзмөктө {language} үнү орнотулган эмес.",
+  "memorySection": "Эс",
+  "memoryCaption": "Gloss эмнени сактайт",
+  "forgetProgress": "Прогрессимди унут",
+  "forgetProgressBody": "Сиз изилдеген сөздөрдүн белгиси алынат. Сакталган сөздөрүңүз калат.",
+  "clearSavedWords": "Сакталган сөздөрдү тазалоо",
+  "clearSavedWordsBody": "Сиз сактаган сөздөр өчүрүлөт. Прогрессиңиз калат.",
+  "cancel": "Жокко чыгаруу",
+  "forget": "Унутуу",
+  "clear": "Тазалоо",
+  "progressForgotten": "Прогресс унутулду.",
+  "savedWordsCleared": "Сакталган сөздөр тазаланды."
 }

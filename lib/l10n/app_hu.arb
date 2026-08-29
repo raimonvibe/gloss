@@ -130,5 +130,16 @@
   "couldNotOpenLink": "A(z) {label} megnyitása nem sikerült.",
   "readExplanationsIn": "Magyarázatok olvasása ezen a nyelven: {language}",
   "readExplanationsCaption": "Magát a szót mindig angolul olvassuk fel.",
-  "noVoiceInstalled": "Ezen az eszközön nincs telepítve {language} hang."
+  "noVoiceInstalled": "Ezen az eszközön nincs telepítve {language} hang.",
+  "memorySection": "Emlékezet",
+  "memoryCaption": "mit őriz a Gloss",
+  "forgetProgress": "Felejtsd el a haladásomat",
+  "forgetProgressBody": "A felfedezett szavakról lekerül a jelölés. A mentett szavaid megmaradnak.",
+  "clearSavedWords": "Mentett szavak törlése",
+  "clearSavedWordsBody": "A megőrzött szavak eltávolításra kerülnek. A haladásod megmarad.",
+  "cancel": "Mégse",
+  "forget": "Elfelejt",
+  "clear": "Törlés",
+  "progressForgotten": "Haladás elfelejtve.",
+  "savedWordsCleared": "Mentett szavak törölve."
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "無法開啟 {label}。",
   "readExplanationsIn": "以{language}閱讀釋義",
   "readExplanationsCaption": "詞語本身一律以英語朗讀。",
-  "noVoiceInstalled": "這部裝置未安裝 {language} 語音。"
+  "noVoiceInstalled": "這部裝置未安裝 {language} 語音。",
+  "memorySection": "記憶",
+  "memoryCaption": "Gloss 記住的東西",
+  "forgetProgress": "忘記我的進度",
+  "forgetProgressBody": "你讀過的詞將不再標記。收藏的詞會保留。",
+  "clearSavedWords": "清空收藏的詞",
+  "clearSavedWordsBody": "你收藏的詞將被移除。你的進度會保留。",
+  "cancel": "取消",
+  "forget": "忘記",
+  "clear": "清空",
+  "progressForgotten": "進度已忘記。",
+  "savedWordsCleared": "收藏的詞已清空。"
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} nuk mund të hapej.",
   "readExplanationsIn": "Lexo shpjegimet në {language}",
   "readExplanationsCaption": "Vetë fjala lexohet gjithmonë në anglisht.",
-  "noVoiceInstalled": "Kjo pajisje nuk ka zë {language} të instaluar."
+  "noVoiceInstalled": "Kjo pajisje nuk ka zë {language} të instaluar.",
+  "memorySection": "Kujtesa",
+  "memoryCaption": "çfarë ruan Gloss",
+  "forgetProgress": "Harro përparimin tim",
+  "forgetProgressBody": "Fjalëve që keni eksploruar do t'u hiqet shenja. Fjalët e ruajtura mbeten.",
+  "clearSavedWords": "Pastro fjalët e ruajtura",
+  "clearSavedWordsBody": "Fjalët që keni mbajtur do të hiqen. Përparimi juaj mbetet.",
+  "cancel": "Anulo",
+  "forget": "Harro",
+  "clear": "Pastro",
+  "progressForgotten": "Përparimi u harrua.",
+  "savedWordsCleared": "Fjalët e ruajtura u pastruan."
 }

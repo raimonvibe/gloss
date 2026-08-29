@@ -451,4 +451,37 @@ class AppLocalizationsKo extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return '이 기기에는 $language 목소리가 설치되어 있지 않습니다.';
   }
+
+  @override
+  String get memorySection => '기억';
+
+  @override
+  String get memoryCaption => 'Gloss가 간직하는 것';
+
+  @override
+  String get forgetProgress => '내 진행 상황 잊기';
+
+  @override
+  String get forgetProgressBody => '살펴본 낱말의 표시가 지워집니다. 저장한 낱말은 그대로 남습니다.';
+
+  @override
+  String get clearSavedWords => '저장한 낱말 지우기';
+
+  @override
+  String get clearSavedWordsBody => '간직한 낱말이 삭제됩니다. 진행 상황은 그대로 남습니다.';
+
+  @override
+  String get cancel => '취소';
+
+  @override
+  String get forget => '잊기';
+
+  @override
+  String get clear => '지우기';
+
+  @override
+  String get progressForgotten => '진행 상황을 잊었습니다.';
+
+  @override
+  String get savedWordsCleared => '저장한 낱말을 지웠습니다.';
 }

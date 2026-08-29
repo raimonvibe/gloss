@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Impossibile aprire {label}.",
   "readExplanationsIn": "Leggi le spiegazioni in {language}",
   "readExplanationsCaption": "La parola stessa viene sempre letta in inglese.",
-  "noVoiceInstalled": "Questo dispositivo non ha una voce {language} installata."
+  "noVoiceInstalled": "Questo dispositivo non ha una voce {language} installata.",
+  "memorySection": "Memoria",
+  "memoryCaption": "ciò che Gloss conserva",
+  "forgetProgress": "Dimentica i miei progressi",
+  "forgetProgressBody": "Le parole che hai esplorato perderanno il segno. Le parole salvate restano.",
+  "clearSavedWords": "Cancella le parole salvate",
+  "clearSavedWordsBody": "Le parole che hai conservato saranno rimosse. I tuoi progressi restano.",
+  "cancel": "Annulla",
+  "forget": "Dimentica",
+  "clear": "Cancella",
+  "progressForgotten": "Progressi dimenticati.",
+  "savedWordsCleared": "Parole salvate cancellate."
 }

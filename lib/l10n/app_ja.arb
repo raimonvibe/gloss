@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} を開けませんでした。",
   "readExplanationsIn": "{language} で解説を読む",
   "readExplanationsCaption": "語そのものは常に英語で読み上げられます。",
-  "noVoiceInstalled": "この端末には {language} の声がインストールされていません。"
+  "noVoiceInstalled": "この端末には {language} の声がインストールされていません。",
+  "memorySection": "記憶",
+  "memoryCaption": "Gloss が覚えていること",
+  "forgetProgress": "進み具合を忘れる",
+  "forgetProgressBody": "読んだ語の印が外れます。保存した語はそのまま残ります。",
+  "clearSavedWords": "保存した語を消す",
+  "clearSavedWordsBody": "手元に置いた語が削除されます。進み具合はそのまま残ります。",
+  "cancel": "キャンセル",
+  "forget": "忘れる",
+  "clear": "消す",
+  "progressForgotten": "進み具合を忘れました。",
+  "savedWordsCleared": "保存した語を消しました。"
 }

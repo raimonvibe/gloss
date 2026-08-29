@@ -450,6 +450,39 @@ class AppLocalizationsZh extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return '此设备未安装 $language 语音。';
   }
+
+  @override
+  String get memorySection => '记忆';
+
+  @override
+  String get memoryCaption => 'Gloss 记住的东西';
+
+  @override
+  String get forgetProgress => '忘记我的进度';
+
+  @override
+  String get forgetProgressBody => '你读过的词将不再标记。收藏的词会保留。';
+
+  @override
+  String get clearSavedWords => '清空收藏的词';
+
+  @override
+  String get clearSavedWordsBody => '你收藏的词将被移除。你的进度会保留。';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get forget => '忘记';
+
+  @override
+  String get clear => '清空';
+
+  @override
+  String get progressForgotten => '进度已忘记。';
+
+  @override
+  String get savedWordsCleared => '收藏的词已清空。';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -898,6 +931,39 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
   String noVoiceInstalled(String language) {
     return '此裝置未安裝 $language 語音。';
   }
+
+  @override
+  String get memorySection => '記憶';
+
+  @override
+  String get memoryCaption => 'Gloss 記住的東西';
+
+  @override
+  String get forgetProgress => '忘記我的進度';
+
+  @override
+  String get forgetProgressBody => '你讀過的詞將不再標記。收藏的詞會保留。';
+
+  @override
+  String get clearSavedWords => '清空收藏的詞';
+
+  @override
+  String get clearSavedWordsBody => '你收藏的詞將被移除。你的進度會保留。';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get forget => '忘記';
+
+  @override
+  String get clear => '清空';
+
+  @override
+  String get progressForgotten => '進度已忘記。';
+
+  @override
+  String get savedWordsCleared => '收藏的詞已清空。';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -1346,4 +1412,37 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String noVoiceInstalled(String language) {
     return '這部裝置未安裝 $language 語音。';
   }
+
+  @override
+  String get memorySection => '記憶';
+
+  @override
+  String get memoryCaption => 'Gloss 記住的東西';
+
+  @override
+  String get forgetProgress => '忘記我的進度';
+
+  @override
+  String get forgetProgressBody => '你讀過的詞將不再標記。收藏的詞會保留。';
+
+  @override
+  String get clearSavedWords => '清空收藏的詞';
+
+  @override
+  String get clearSavedWordsBody => '你收藏的詞將被移除。你的進度會保留。';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get forget => '忘記';
+
+  @override
+  String get clear => '清空';
+
+  @override
+  String get progressForgotten => '進度已忘記。';
+
+  @override
+  String get savedWordsCleared => '收藏的詞已清空。';
 }

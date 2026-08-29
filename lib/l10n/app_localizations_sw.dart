@@ -455,4 +455,39 @@ class AppLocalizationsSw extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Kifaa hiki hakina sauti ya $language iliyosakinishwa.';
   }
+
+  @override
+  String get memorySection => 'Kumbukumbu';
+
+  @override
+  String get memoryCaption => 'kile Gloss huhifadhi';
+
+  @override
+  String get forgetProgress => 'Sahau maendeleo yangu';
+
+  @override
+  String get forgetProgressBody =>
+      'Alama za maneno uliyochunguza zitaondolewa. Maneno uliyohifadhi yatabaki.';
+
+  @override
+  String get clearSavedWords => 'Futa maneno yaliyohifadhiwa';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Maneno uliyoyaweka yataondolewa. Maendeleo yako yatabaki.';
+
+  @override
+  String get cancel => 'Ghairi';
+
+  @override
+  String get forget => 'Sahau';
+
+  @override
+  String get clear => 'Futa';
+
+  @override
+  String get progressForgotten => 'Maendeleo yamesahauliwa.';
+
+  @override
+  String get savedWordsCleared => 'Maneno yaliyohifadhiwa yamefutwa.';
 }

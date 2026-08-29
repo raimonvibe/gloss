@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Hindi mabuksan ang {label}.",
   "readExplanationsIn": "Basahin ang mga paliwanag sa {language}",
   "readExplanationsCaption": "Ang salita mismo ay laging binabasa sa Ingles.",
-  "noVoiceInstalled": "Walang naka-install na boseng {language} sa device na ito."
+  "noVoiceInstalled": "Walang naka-install na boseng {language} sa device na ito.",
+  "memorySection": "Alaala",
+  "memoryCaption": "kung ano ang iniingatan ng Gloss",
+  "forgetProgress": "Kalimutan ang aking progreso",
+  "forgetProgressBody": "Maaalis ang marka ng mga salitang natuklasan mo. Mananatili ang mga naka-save mong salita.",
+  "clearSavedWords": "Burahin ang mga naka-save na salita",
+  "clearSavedWordsBody": "Aalisin ang mga salitang iningatan mo. Mananatili ang progreso mo.",
+  "cancel": "Kanselahin",
+  "forget": "Kalimutan",
+  "clear": "Burahin",
+  "progressForgotten": "Nakalimutan ang progreso.",
+  "savedWordsCleared": "Nabura ang mga naka-save na salita."
 }

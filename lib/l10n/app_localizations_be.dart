@@ -455,4 +455,39 @@ class AppLocalizationsBe extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'На гэтай прыладзе няма голасу для мовы $language.';
   }
+
+  @override
+  String get memorySection => 'Памяць';
+
+  @override
+  String get memoryCaption => 'што захоўвае Gloss';
+
+  @override
+  String get forgetProgress => 'Забыць мой поступ';
+
+  @override
+  String get forgetProgressBody =>
+      'З словаў, якія вы даследавалі, будуць знятыя пазнакі. Захаваныя словы застануцца.';
+
+  @override
+  String get clearSavedWords => 'Ачысціць захаваныя словы';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Словы, якія вы захавалі, будуць выдаленыя. Ваш поступ застанецца.';
+
+  @override
+  String get cancel => 'Скасаваць';
+
+  @override
+  String get forget => 'Забыць';
+
+  @override
+  String get clear => 'Ачысціць';
+
+  @override
+  String get progressForgotten => 'Поступ забыты.';
+
+  @override
+  String get savedWordsCleared => 'Захаваныя словы ачышчаныя.';
 }

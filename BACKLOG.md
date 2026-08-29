@@ -7,23 +7,15 @@ verify the project.
 Completed items are removed rather than struck through — the point of this file is what
 is still open. What was learned from finishing one belongs in CLAUDE.md.
 
-## 1. Settings researched but not yet built
+## 1. Daily word reminder — *not built*
 
 From the vocabulary-app research done during the Study page design. Four candidates were
-put forward; **Reading & motion** and **About & licences** were chosen and shipped. The
-other two were deliberately deferred and are still open:
-
-### Data controls — *not built*
-
-Reset quiz progress, and clear saved words, each behind a confirmation dialog. Destructive,
-so it was worth being deliberate about. Pure Flutter, no new dependencies — the state already
-lives in `SettingsController` and the saved-words store.
-
-### Daily word reminder — *not built*
+put forward; **Reading & motion**, **About & licences** and **Data controls** have all
+shipped. This is the last one, and the largest lift.
 
 A notification at an hour the reader picks. The research flagged **daily reminders and text
 scaling as the two most-used features** in vocabulary apps. Text scaling shipped; the reminder
-did not, because it is the largest lift on the list:
+did not, because unlike the rest it reaches outside Flutter:
 
 - adds `flutter_local_notifications` + `timezone`
 - Android 13 `POST_NOTIFICATIONS` runtime permission

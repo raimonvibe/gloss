@@ -450,4 +450,37 @@ class AppLocalizationsJa extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'この端末には $language の声がインストールされていません。';
   }
+
+  @override
+  String get memorySection => '記憶';
+
+  @override
+  String get memoryCaption => 'Gloss が覚えていること';
+
+  @override
+  String get forgetProgress => '進み具合を忘れる';
+
+  @override
+  String get forgetProgressBody => '読んだ語の印が外れます。保存した語はそのまま残ります。';
+
+  @override
+  String get clearSavedWords => '保存した語を消す';
+
+  @override
+  String get clearSavedWordsBody => '手元に置いた語が削除されます。進み具合はそのまま残ります。';
+
+  @override
+  String get cancel => 'キャンセル';
+
+  @override
+  String get forget => '忘れる';
+
+  @override
+  String get clear => '消す';
+
+  @override
+  String get progressForgotten => '進み具合を忘れました。';
+
+  @override
+  String get savedWordsCleared => '保存した語を消しました。';
 }

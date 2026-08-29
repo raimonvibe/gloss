@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Imeshindwa kufungua {label}.",
   "readExplanationsIn": "Soma maelezo kwa {language}",
   "readExplanationsCaption": "Neno lenyewe husomwa kwa Kiingereza kila wakati.",
-  "noVoiceInstalled": "Kifaa hiki hakina sauti ya {language} iliyosakinishwa."
+  "noVoiceInstalled": "Kifaa hiki hakina sauti ya {language} iliyosakinishwa.",
+  "memorySection": "Kumbukumbu",
+  "memoryCaption": "kile Gloss huhifadhi",
+  "forgetProgress": "Sahau maendeleo yangu",
+  "forgetProgressBody": "Alama za maneno uliyochunguza zitaondolewa. Maneno uliyohifadhi yatabaki.",
+  "clearSavedWords": "Futa maneno yaliyohifadhiwa",
+  "clearSavedWordsBody": "Maneno uliyoyaweka yataondolewa. Maendeleo yako yatabaki.",
+  "cancel": "Ghairi",
+  "forget": "Sahau",
+  "clear": "Futa",
+  "progressForgotten": "Maendeleo yamesahauliwa.",
+  "savedWordsCleared": "Maneno yaliyohifadhiwa yamefutwa."
 }

@@ -633,4 +633,97 @@ void main() {
       );
     }
   });
+
+  testWidgets('clearing progress is confirmed first, and cancel keeps it', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(prefs);
+    final progress = ProgressController(prefs);
+    await progress.explored.add('edulcorate');
+    await progress.favorites.add('edulcorate');
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: progress,
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+
+    final forget = find.text('Forget my progress');
+    await tester.scrollUntilVisible(
+      forget,
+      300,
+      scrollable: find.byType(Scrollable).last,
+      maxScrolls: 60,
+    );
+    await tester.pumpAndSettle();
+
+    // Destructive and not undoable, so it must never fire on one tap.
+    await tester.tap(forget);
+    await tester.pumpAndSettle();
+    expect(find.text('Cancel'), findsOneWidget);
+    expect(progress.explored.count, 1, reason: 'cleared before confirming');
+
+    await tester.tap(find.text('Cancel'));
+    await tester.pumpAndSettle();
+    expect(progress.explored.count, 1, reason: 'cancel still cleared it');
+
+    await tester.tap(forget);
+    await tester.pumpAndSettle();
+    await tester.tap(find.widgetWithText(TextButton, 'Forget'));
+    await tester.pumpAndSettle();
+
+    expect(progress.explored.count, 0);
+    expect(progress.favorites.count, 1, reason: 'saved words were collateral');
+    expect(find.text('Progress forgotten.'), findsOneWidget);
+  });
+
+  testWidgets('nothing to clear leaves the rows inert', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(prefs);
+    final progress = ProgressController(prefs);
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: progress,
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+
+    final clear = find.text('Clear saved words');
+    await tester.scrollUntilVisible(
+      clear,
+      300,
+      scrollable: find.byType(Scrollable).last,
+      maxScrolls: 60,
+    );
+    await tester.pumpAndSettle();
+
+    // An inert row says "nothing here" more quietly than a dialog that
+    // reports it has nothing to do.
+    await tester.tap(clear);
+    await tester.pumpAndSettle();
+    expect(find.text('Cancel'), findsNothing);
+  });
 }

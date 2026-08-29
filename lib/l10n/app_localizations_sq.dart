@@ -455,4 +455,39 @@ class AppLocalizationsSq extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Kjo pajisje nuk ka zë $language të instaluar.';
   }
+
+  @override
+  String get memorySection => 'Kujtesa';
+
+  @override
+  String get memoryCaption => 'çfarë ruan Gloss';
+
+  @override
+  String get forgetProgress => 'Harro përparimin tim';
+
+  @override
+  String get forgetProgressBody =>
+      'Fjalëve që keni eksploruar do t\'u hiqet shenja. Fjalët e ruajtura mbeten.';
+
+  @override
+  String get clearSavedWords => 'Pastro fjalët e ruajtura';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Fjalët që keni mbajtur do të hiqen. Përparimi juaj mbetet.';
+
+  @override
+  String get cancel => 'Anulo';
+
+  @override
+  String get forget => 'Harro';
+
+  @override
+  String get clear => 'Pastro';
+
+  @override
+  String get progressForgotten => 'Përparimi u harrua.';
+
+  @override
+  String get savedWordsCleared => 'Fjalët e ruajtura u pastruan.';
 }

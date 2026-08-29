@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} açılamadı.",
   "readExplanationsIn": "Açıklamaları {language} dilinde oku",
   "readExplanationsCaption": "Kelimenin kendisi her zaman İngilizce okunur.",
-  "noVoiceInstalled": "Bu cihazda {language} sesi yüklü değil."
+  "noVoiceInstalled": "Bu cihazda {language} sesi yüklü değil.",
+  "memorySection": "Bellek",
+  "memoryCaption": "Gloss'un sakladıkları",
+  "forgetProgress": "İlerlememi unut",
+  "forgetProgressBody": "Keşfettiğiniz kelimelerin işareti kaldırılacak. Kaydettiğiniz kelimeler kalır.",
+  "clearSavedWords": "Kaydedilen kelimeleri temizle",
+  "clearSavedWordsBody": "Sakladığınız kelimeler kaldırılacak. İlerlemeniz kalır.",
+  "cancel": "İptal",
+  "forget": "Unut",
+  "clear": "Temizle",
+  "progressForgotten": "İlerleme unutuldu.",
+  "savedWordsCleared": "Kaydedilen kelimeler temizlendi."
 }

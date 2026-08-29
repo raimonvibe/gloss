@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Չհաջողվեց բացել {label}։",
   "readExplanationsIn": "Կարդալ բացատրությունները {language} լեզվով",
   "readExplanationsCaption": "Բառն ինքը միշտ կարդացվում է անգլերեն։",
-  "noVoiceInstalled": "Այս սարքում {language} ձայն տեղադրված չէ։"
+  "noVoiceInstalled": "Այս սարքում {language} ձայն տեղադրված չէ։",
+  "memorySection": "Հիշողություն",
+  "memoryCaption": "ինչ է պահում Gloss-ը",
+  "forgetProgress": "Մոռանալ իմ առաջընթացը",
+  "forgetProgressBody": "Ձեր ուսումնասիրած բառերի նշումը կհեռացվի։ Պահպանված բառերը կմնան։",
+  "clearSavedWords": "Մաքրել պահպանված բառերը",
+  "clearSavedWordsBody": "Ձեր պահած բառերը կհեռացվեն։ Ձեր առաջընթացը կմնա։",
+  "cancel": "Չեղարկել",
+  "forget": "Մոռանալ",
+  "clear": "Մաքրել",
+  "progressForgotten": "Առաջընթացը մոռացվեց։",
+  "savedWordsCleared": "Պահպանված բառերը մաքրվեցին։"
 }

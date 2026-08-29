@@ -454,4 +454,39 @@ class AppLocalizationsHu extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Ezen az eszközön nincs telepítve $language hang.';
   }
+
+  @override
+  String get memorySection => 'Emlékezet';
+
+  @override
+  String get memoryCaption => 'mit őriz a Gloss';
+
+  @override
+  String get forgetProgress => 'Felejtsd el a haladásomat';
+
+  @override
+  String get forgetProgressBody =>
+      'A felfedezett szavakról lekerül a jelölés. A mentett szavaid megmaradnak.';
+
+  @override
+  String get clearSavedWords => 'Mentett szavak törlése';
+
+  @override
+  String get clearSavedWordsBody =>
+      'A megőrzött szavak eltávolításra kerülnek. A haladásod megmarad.';
+
+  @override
+  String get cancel => 'Mégse';
+
+  @override
+  String get forget => 'Elfelejt';
+
+  @override
+  String get clear => 'Törlés';
+
+  @override
+  String get progressForgotten => 'Haladás elfelejtve.';
+
+  @override
+  String get savedWordsCleared => 'Mentett szavak törölve.';
 }

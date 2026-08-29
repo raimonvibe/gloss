@@ -454,4 +454,39 @@ class AppLocalizationsNe extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'यस यन्त्रमा $language स्वर स्थापना गरिएको छैन।';
   }
+
+  @override
+  String get memorySection => 'स्मृति';
+
+  @override
+  String get memoryCaption => 'Gloss ले के राख्छ';
+
+  @override
+  String get forgetProgress => 'मेरो प्रगति बिर्सनुहोस्';
+
+  @override
+  String get forgetProgressBody =>
+      'तपाईंले हेर्नुभएका शब्दहरूको चिन्ह हट्नेछ। सुरक्षित शब्दहरू रहनेछन्।';
+
+  @override
+  String get clearSavedWords => 'सुरक्षित शब्दहरू खाली गर्नुहोस्';
+
+  @override
+  String get clearSavedWordsBody =>
+      'तपाईंले राख्नुभएका शब्दहरू हटाइनेछन्। तपाईंको प्रगति रहनेछ।';
+
+  @override
+  String get cancel => 'रद्द गर्नुहोस्';
+
+  @override
+  String get forget => 'बिर्सनुहोस्';
+
+  @override
+  String get clear => 'खाली गर्नुहोस्';
+
+  @override
+  String get progressForgotten => 'प्रगति बिर्सियो।';
+
+  @override
+  String get savedWordsCleared => 'सुरक्षित शब्दहरू खाली गरियो।';
 }

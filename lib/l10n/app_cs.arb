@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Nepodařilo se otevřít {label}.",
   "readExplanationsIn": "Číst vysvětlivky v jazyce {language}",
   "readExplanationsCaption": "Samotné slovo se vždy čte anglicky.",
-  "noVoiceInstalled": "Toto zařízení nemá nainstalovaný hlas pro jazyk {language}."
+  "noVoiceInstalled": "Toto zařízení nemá nainstalovaný hlas pro jazyk {language}.",
+  "memorySection": "Paměť",
+  "memoryCaption": "co si Gloss pamatuje",
+  "forgetProgress": "Zapomenout můj pokrok",
+  "forgetProgressBody": "Slovům, která jste prozkoumali, bude odebrána značka. Uložená slova zůstanou.",
+  "clearSavedWords": "Vymazat uložená slova",
+  "clearSavedWordsBody": "Slova, která jste si uložili, budou odstraněna. Váš pokrok zůstane.",
+  "cancel": "Zrušit",
+  "forget": "Zapomenout",
+  "clear": "Vymazat",
+  "progressForgotten": "Pokrok zapomenut.",
+  "savedWordsCleared": "Uložená slova vymazána."
 }

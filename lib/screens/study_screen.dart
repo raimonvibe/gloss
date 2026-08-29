@@ -4,6 +4,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../branding.dart';
 import '../l10n/app_localizations.dart';
+import '../data/word_repository.dart';
+import '../state/progress_controller.dart';
 import '../state/settings_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
@@ -36,10 +38,50 @@ class _StudyScreenState extends State<StudyScreen> {
     });
   }
 
+  /// Clearing either store cannot be undone, so it is always behind a
+  /// dialog whose confirm button says what it will do rather than "OK".
+  Future<void> _confirmClear({
+    required String title,
+    required String body,
+    required String confirmLabel,
+    required Future<void> Function() onConfirm,
+    required String done,
+  }) async {
+    final l10n = AppLocalizations.of(context);
+    final errorColor = Theme.of(context).colorScheme.error;
+    final messenger = ScaffoldMessenger.of(context);
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: Text(title),
+        content: Text(body),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(false),
+            child: Text(l10n.cancel),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(true),
+            style: TextButton.styleFrom(foregroundColor: errorColor),
+            child: Text(confirmLabel),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed != true) return;
+    await onConfirm();
+    if (!mounted) return;
+    messenger.showSnackBar(SnackBar(content: Text(done)));
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final settings = context.watch<SettingsController>();
+    final progress = context.watch<ProgressController>();
+    final total = context.watch<WordRepository>().words.length;
 
     return ListView(
       padding: const EdgeInsets.fromLTRB(20, 16, 20, 32),
@@ -95,6 +137,44 @@ class _StudyScreenState extends State<StudyScreen> {
                   builder: (_) => const _LanguagesPage(),
                 ),
               ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 14),
+        _Section(
+          title: l10n.memorySection,
+          caption: l10n.memoryCaption,
+          children: [
+            _LinkRow(
+              icon: Icons.history_toggle_off,
+              label: l10n.forgetProgress,
+              trailing: l10n.currentOfTotal(progress.explored.count, total),
+              // Nothing to forget yet: an inert row says so more quietly
+              // than a dialog that reports it has nothing to do.
+              onTap: progress.explored.count == 0
+                  ? null
+                  : () => _confirmClear(
+                        title: l10n.forgetProgress,
+                        body: l10n.forgetProgressBody,
+                        confirmLabel: l10n.forget,
+                        onConfirm: progress.explored.clear,
+                        done: l10n.progressForgotten,
+                      ),
+            ),
+            const _HairLine(),
+            _LinkRow(
+              icon: Icons.bookmark_remove_outlined,
+              label: l10n.clearSavedWords,
+              trailing: '${progress.favorites.count}',
+              onTap: progress.favorites.count == 0
+                  ? null
+                  : () => _confirmClear(
+                        title: l10n.clearSavedWords,
+                        body: l10n.clearSavedWordsBody,
+                        confirmLabel: l10n.clear,
+                        onConfirm: progress.favorites.clear,
+                        done: l10n.savedWordsCleared,
+                      ),
             ),
           ],
         ),

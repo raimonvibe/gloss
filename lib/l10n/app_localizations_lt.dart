@@ -454,4 +454,39 @@ class AppLocalizationsLt extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Šiame įrenginyje nėra įdiegto $language kalbos balso.';
   }
+
+  @override
+  String get memorySection => 'Atmintis';
+
+  @override
+  String get memoryCaption => 'ką Gloss saugo';
+
+  @override
+  String get forgetProgress => 'Pamiršti mano pažangą';
+
+  @override
+  String get forgetProgressBody =>
+      'Žodžiams, kuriuos peržiūrėjote, bus panaikinta žyma. Išsaugoti žodžiai liks.';
+
+  @override
+  String get clearSavedWords => 'Išvalyti išsaugotus žodžius';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Žodžiai, kuriuos išsaugojote, bus pašalinti. Jūsų pažanga liks.';
+
+  @override
+  String get cancel => 'Atšaukti';
+
+  @override
+  String get forget => 'Pamiršti';
+
+  @override
+  String get clear => 'Išvalyti';
+
+  @override
+  String get progressForgotten => 'Pažanga pamiršta.';
+
+  @override
+  String get savedWordsCleared => 'Išsaugoti žodžiai išvalyti.';
 }

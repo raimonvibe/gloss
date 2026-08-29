@@ -457,6 +457,41 @@ class AppLocalizationsFr extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Cet appareil n\'a aucune voix $language installée.';
   }
+
+  @override
+  String get memorySection => 'Mémoire';
+
+  @override
+  String get memoryCaption => 'ce que Gloss retient';
+
+  @override
+  String get forgetProgress => 'Oublier ma progression';
+
+  @override
+  String get forgetProgressBody =>
+      'Les mots que vous avez explorés ne seront plus marqués. Vos mots gardés restent.';
+
+  @override
+  String get clearSavedWords => 'Effacer les mots gardés';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Les mots que vous avez gardés seront retirés. Votre progression reste.';
+
+  @override
+  String get cancel => 'Annuler';
+
+  @override
+  String get forget => 'Oublier';
+
+  @override
+  String get clear => 'Effacer';
+
+  @override
+  String get progressForgotten => 'Progression oubliée.';
+
+  @override
+  String get savedWordsCleared => 'Mots gardés effacés.';
 }
 
 /// The translations for French, as used in Canada (`fr_CA`).
@@ -912,4 +947,39 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
   String noVoiceInstalled(String language) {
     return 'Cet appareil n\'a aucune voix $language installée.';
   }
+
+  @override
+  String get memorySection => 'Mémoire';
+
+  @override
+  String get memoryCaption => 'ce que Gloss retient';
+
+  @override
+  String get forgetProgress => 'Oublier ma progression';
+
+  @override
+  String get forgetProgressBody =>
+      'Les mots que vous avez explorés ne seront plus marqués. Vos mots gardés restent.';
+
+  @override
+  String get clearSavedWords => 'Effacer les mots gardés';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Les mots que vous avez gardés seront retirés. Votre progression reste.';
+
+  @override
+  String get cancel => 'Annuler';
+
+  @override
+  String get forget => 'Oublier';
+
+  @override
+  String get clear => 'Effacer';
+
+  @override
+  String get progressForgotten => 'Progression oubliée.';
+
+  @override
+  String get savedWordsCleared => 'Mots gardés effacés.';
 }

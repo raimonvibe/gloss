@@ -457,6 +457,41 @@ class AppLocalizationsPt extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Este dispositivo não tem uma voz em $language instalada.';
   }
+
+  @override
+  String get memorySection => 'Memória';
+
+  @override
+  String get memoryCaption => 'o que o Gloss guarda';
+
+  @override
+  String get forgetProgress => 'Esquecer o meu progresso';
+
+  @override
+  String get forgetProgressBody =>
+      'As palavras que explorou deixarão de estar assinaladas. As palavras guardadas ficam.';
+
+  @override
+  String get clearSavedWords => 'Limpar palavras guardadas';
+
+  @override
+  String get clearSavedWordsBody =>
+      'As palavras que guardou serão removidas. O seu progresso fica.';
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get forget => 'Esquecer';
+
+  @override
+  String get clear => 'Limpar';
+
+  @override
+  String get progressForgotten => 'Progresso esquecido.';
+
+  @override
+  String get savedWordsCleared => 'Palavras guardadas limpas.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -911,4 +946,39 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String noVoiceInstalled(String language) {
     return 'Este dispositivo não tem uma voz em $language instalada.';
   }
+
+  @override
+  String get memorySection => 'Memória';
+
+  @override
+  String get memoryCaption => 'o que o Gloss guarda';
+
+  @override
+  String get forgetProgress => 'Esquecer meu progresso';
+
+  @override
+  String get forgetProgressBody =>
+      'As palavras que você explorou deixarão de estar marcadas. Suas palavras salvas ficam.';
+
+  @override
+  String get clearSavedWords => 'Limpar palavras salvas';
+
+  @override
+  String get clearSavedWordsBody =>
+      'As palavras que você guardou serão removidas. Seu progresso fica.';
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get forget => 'Esquecer';
+
+  @override
+  String get clear => 'Limpar';
+
+  @override
+  String get progressForgotten => 'Progresso esquecido.';
+
+  @override
+  String get savedWordsCleared => 'Palavras salvas limpas.';
 }

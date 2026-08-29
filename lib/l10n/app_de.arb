@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} konnte nicht geöffnet werden.",
   "readExplanationsIn": "Erklärungen auf {language} lesen",
   "readExplanationsCaption": "Das Wort selbst wird immer auf Englisch gelesen.",
-  "noVoiceInstalled": "Auf diesem Gerät ist keine {language}-Stimme installiert."
+  "noVoiceInstalled": "Auf diesem Gerät ist keine {language}-Stimme installiert.",
+  "memorySection": "Gedächtnis",
+  "memoryCaption": "was Gloss behält",
+  "forgetProgress": "Meinen Fortschritt vergessen",
+  "forgetProgressBody": "Die erkundeten Wörter verlieren ihre Markierung. Ihre gespeicherten Wörter bleiben.",
+  "clearSavedWords": "Gespeicherte Wörter löschen",
+  "clearSavedWordsBody": "Die aufbewahrten Wörter werden entfernt. Ihr Fortschritt bleibt.",
+  "cancel": "Abbrechen",
+  "forget": "Vergessen",
+  "clear": "Löschen",
+  "progressForgotten": "Fortschritt vergessen.",
+  "savedWordsCleared": "Gespeicherte Wörter gelöscht."
 }

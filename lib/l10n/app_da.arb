@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Kunne ikke åbne {label}.",
   "readExplanationsIn": "Læs forklaringer på {language}",
   "readExplanationsCaption": "Selve ordet læses altid på engelsk.",
-  "noVoiceInstalled": "Denne enhed har ingen {language}-stemme installeret."
+  "noVoiceInstalled": "Denne enhed har ingen {language}-stemme installeret.",
+  "memorySection": "Hukommelse",
+  "memoryCaption": "hvad Gloss gemmer",
+  "forgetProgress": "Glem mine fremskridt",
+  "forgetProgressBody": "Ordene, du har udforsket, bliver afmærket. Dine gemte ord bliver.",
+  "clearSavedWords": "Ryd gemte ord",
+  "clearSavedWordsBody": "Ordene, du har gemt, bliver fjernet. Dine fremskridt bliver.",
+  "cancel": "Annuller",
+  "forget": "Glem",
+  "clear": "Ryd",
+  "progressForgotten": "Fremskridt glemt.",
+  "savedWordsCleared": "Gemte ord ryddet."
 }

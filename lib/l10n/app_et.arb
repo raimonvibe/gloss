@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} avamine ebaõnnestus.",
   "readExplanationsIn": "Loe selgitusi keeles {language}",
   "readExplanationsCaption": "Sõna ise loetakse alati inglise keeles.",
-  "noVoiceInstalled": "Sellel seadmel pole {language} häält paigaldatud."
+  "noVoiceInstalled": "Sellel seadmel pole {language} häält paigaldatud.",
+  "memorySection": "Mälu",
+  "memoryCaption": "mida Gloss hoiab",
+  "forgetProgress": "Unusta mu edenemine",
+  "forgetProgressBody": "Uuritud sõnadelt eemaldatakse märge. Sinu salvestatud sõnad jäävad.",
+  "clearSavedWords": "Tühjenda salvestatud sõnad",
+  "clearSavedWordsBody": "Sõnad, mille oled hoidnud, eemaldatakse. Sinu edenemine jääb.",
+  "cancel": "Loobu",
+  "forget": "Unusta",
+  "clear": "Tühjenda",
+  "progressForgotten": "Edenemine unustatud.",
+  "savedWordsCleared": "Salvestatud sõnad tühjendatud."
 }

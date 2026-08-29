@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Ekki tókst að opna {label}.",
   "readExplanationsIn": "Lesa skýringar á {language}",
   "readExplanationsCaption": "Orðið sjálft er alltaf lesið á ensku.",
-  "noVoiceInstalled": "Þetta tæki er ekki með {language} rödd uppsetta."
+  "noVoiceInstalled": "Þetta tæki er ekki með {language} rödd uppsetta.",
+  "memorySection": "Minni",
+  "memoryCaption": "hvað Gloss geymir",
+  "forgetProgress": "Gleyma framvindu minni",
+  "forgetProgressBody": "Merkingar orðanna sem þú hefur kannað verða fjarlægðar. Vistuðu orðin þín haldast.",
+  "clearSavedWords": "Hreinsa vistuð orð",
+  "clearSavedWordsBody": "Orðin sem þú hefur geymt verða fjarlægð. Framvindan þín helst.",
+  "cancel": "Hætta við",
+  "forget": "Gleyma",
+  "clear": "Hreinsa",
+  "progressForgotten": "Framvindu gleymt.",
+  "savedWordsCleared": "Vistuð orð hreinsuð."
 }

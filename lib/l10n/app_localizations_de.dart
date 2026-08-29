@@ -456,4 +456,39 @@ class AppLocalizationsDe extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Auf diesem Gerät ist keine $language-Stimme installiert.';
   }
+
+  @override
+  String get memorySection => 'Gedächtnis';
+
+  @override
+  String get memoryCaption => 'was Gloss behält';
+
+  @override
+  String get forgetProgress => 'Meinen Fortschritt vergessen';
+
+  @override
+  String get forgetProgressBody =>
+      'Die erkundeten Wörter verlieren ihre Markierung. Ihre gespeicherten Wörter bleiben.';
+
+  @override
+  String get clearSavedWords => 'Gespeicherte Wörter löschen';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Die aufbewahrten Wörter werden entfernt. Ihr Fortschritt bleibt.';
+
+  @override
+  String get cancel => 'Abbrechen';
+
+  @override
+  String get forget => 'Vergessen';
+
+  @override
+  String get clear => 'Löschen';
+
+  @override
+  String get progressForgotten => 'Fortschritt vergessen.';
+
+  @override
+  String get savedWordsCleared => 'Gespeicherte Wörter gelöscht.';
 }

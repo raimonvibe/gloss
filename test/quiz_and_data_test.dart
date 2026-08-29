@@ -1,9 +1,11 @@
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:beautiful_words/data/quiz_engine.dart';
 import 'package:beautiful_words/data/word_repository.dart';
+import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/quiz_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 
@@ -193,5 +195,54 @@ void main() {
     await speech.toggle('b', 'two');
     expect(speech.isSpeaking, isFalse);
     speech.dispose();
+  });
+
+  group('clearing a saved set', () {
+    Future<SavedSetStore> storeWith(List<String> ids) async {
+      SharedPreferences.setMockInitialValues({'k': ids});
+      return SavedSetStore(await SharedPreferences.getInstance(), 'k');
+    }
+
+    test('empties the set and the stored copy', () async {
+      final store = await storeWith(['alpha', 'beta']);
+      expect(store.count, 2);
+
+      var notified = 0;
+      store.addListener(() => notified++);
+      await store.clear();
+
+      expect(store.count, 0);
+      expect(store.contains('alpha'), isFalse);
+      expect(notified, 1);
+
+      // Survives a reload: the point is that it left the device, not just
+      // the in-memory set.
+      final reloaded =
+          SavedSetStore(await SharedPreferences.getInstance(), 'k');
+      expect(reloaded.count, 0);
+    });
+
+    test('an already empty set does not notify', () async {
+      final store = await storeWith([]);
+      var notified = 0;
+      store.addListener(() => notified++);
+
+      await store.clear();
+
+      expect(notified, 0);
+    });
+
+    test('clearing one store leaves the other alone', () async {
+      SharedPreferences.setMockInitialValues({});
+      final prefs = await SharedPreferences.getInstance();
+      final progress = ProgressController(prefs);
+      await progress.explored.add('alpha');
+      await progress.favorites.add('beta');
+
+      await progress.explored.clear();
+
+      expect(progress.explored.count, 0);
+      expect(progress.favorites.count, 1, reason: 'saved words were collateral');
+    });
   });
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Kon {label} nie oopmaak nie.",
   "readExplanationsIn": "Lees verduidelikings in {language}",
   "readExplanationsCaption": "Die woord self word altyd in Engels gelees.",
-  "noVoiceInstalled": "Hierdie toestel het geen {language}-stem geïnstalleer nie."
+  "noVoiceInstalled": "Hierdie toestel het geen {language}-stem geïnstalleer nie.",
+  "memorySection": "Geheue",
+  "memoryCaption": "wat Gloss bewaar",
+  "forgetProgress": "Vergeet my vordering",
+  "forgetProgressBody": "Die woorde wat jy verken het, se merke word verwyder. Jou bewaarde woorde bly.",
+  "clearSavedWords": "Maak bewaarde woorde skoon",
+  "clearSavedWordsBody": "Die woorde wat jy bewaar het, word verwyder. Jou vordering bly.",
+  "cancel": "Kanselleer",
+  "forget": "Vergeet",
+  "clear": "Maak skoon",
+  "progressForgotten": "Vordering vergeet.",
+  "savedWordsCleared": "Bewaarde woorde skoongemaak."
 }

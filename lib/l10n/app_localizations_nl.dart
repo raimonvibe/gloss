@@ -455,4 +455,39 @@ class AppLocalizationsNl extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Dit apparaat heeft geen $language-stem geïnstalleerd.';
   }
+
+  @override
+  String get memorySection => 'Geheugen';
+
+  @override
+  String get memoryCaption => 'wat Gloss bewaart';
+
+  @override
+  String get forgetProgress => 'Vergeet mijn voortgang';
+
+  @override
+  String get forgetProgressBody =>
+      'De woorden die je hebt verkend, verliezen hun markering. Je bewaarde woorden blijven.';
+
+  @override
+  String get clearSavedWords => 'Wis bewaarde woorden';
+
+  @override
+  String get clearSavedWordsBody =>
+      'De woorden die je hebt bewaard, worden verwijderd. Je voortgang blijft.';
+
+  @override
+  String get cancel => 'Annuleren';
+
+  @override
+  String get forget => 'Vergeten';
+
+  @override
+  String get clear => 'Wissen';
+
+  @override
+  String get progressForgotten => 'Voortgang vergeten.';
+
+  @override
+  String get savedWordsCleared => 'Bewaarde woorden gewist.';
 }

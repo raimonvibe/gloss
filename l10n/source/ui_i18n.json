@@ -130,7 +130,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hoe Gloss hardop lees",
     "voiceDefault": "Vir jou gekies",
-    "voiceSection": "Stem"
+    "voiceSection": "Stem",
+    "memorySection": "Geheue",
+    "memoryCaption": "wat Gloss bewaar",
+    "forgetProgress": "Vergeet my vordering",
+    "forgetProgressBody": "Die woorde wat jy verken het, se merke word verwyder. Jou bewaarde woorde bly.",
+    "clearSavedWords": "Maak bewaarde woorde skoon",
+    "clearSavedWordsBody": "Die woorde wat jy bewaar het, word verwyder. Jou vordering bly.",
+    "cancel": "Kanselleer",
+    "forget": "Vergeet",
+    "clear": "Maak skoon",
+    "progressForgotten": "Vordering vergeet.",
+    "savedWordsCleared": "Bewaarde woorde skoongemaak."
   },
   "ar": {
     "appTitle": "Gloss",
@@ -263,7 +274,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "كيف يقرأ Gloss بصوت عالٍ",
     "voiceDefault": "اختير لك",
-    "voiceSection": "الصوت"
+    "voiceSection": "الصوت",
+    "memorySection": "الذاكرة",
+    "memoryCaption": "ما يحتفظ به Gloss",
+    "forgetProgress": "انسَ تقدّمي",
+    "forgetProgressBody": "ستُزال العلامة عن الكلمات التي استكشفتها. كلماتك المحفوظة تبقى.",
+    "clearSavedWords": "مسح الكلمات المحفوظة",
+    "clearSavedWordsBody": "ستُحذف الكلمات التي احتفظت بها. تقدّمك يبقى.",
+    "cancel": "إلغاء",
+    "forget": "انسَ",
+    "clear": "مسح",
+    "progressForgotten": "نُسي التقدّم.",
+    "savedWordsCleared": "مُسحت الكلمات المحفوظة."
   },
   "az": {
     "appTitle": "Gloss",
@@ -396,7 +418,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss necə ucadan oxuyur",
     "voiceDefault": "Sizin üçün seçilib",
-    "voiceSection": "Səs"
+    "voiceSection": "Səs",
+    "memorySection": "Yaddaş",
+    "memoryCaption": "Gloss nəyi saxlayır",
+    "forgetProgress": "İrəliləyişimi unut",
+    "forgetProgressBody": "Kəşf etdiyiniz sözlərin işarəsi götürüləcək. Saxladığınız sözlər qalır.",
+    "clearSavedWords": "Saxlanan sözləri təmizlə",
+    "clearSavedWordsBody": "Saxladığınız sözlər silinəcək. İrəliləyişiniz qalır.",
+    "cancel": "Ləğv et",
+    "forget": "Unut",
+    "clear": "Təmizlə",
+    "progressForgotten": "İrəliləyiş unuduldu.",
+    "savedWordsCleared": "Saxlanan sözlər təmizləndi."
   },
   "be": {
     "appTitle": "Gloss",
@@ -529,7 +562,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "як Gloss чытае ўслых",
     "voiceDefault": "Абраны для вас",
-    "voiceSection": "Голас"
+    "voiceSection": "Голас",
+    "memorySection": "Памяць",
+    "memoryCaption": "што захоўвае Gloss",
+    "forgetProgress": "Забыць мой поступ",
+    "forgetProgressBody": "З словаў, якія вы даследавалі, будуць знятыя пазнакі. Захаваныя словы застануцца.",
+    "clearSavedWords": "Ачысціць захаваныя словы",
+    "clearSavedWordsBody": "Словы, якія вы захавалі, будуць выдаленыя. Ваш поступ застанецца.",
+    "cancel": "Скасаваць",
+    "forget": "Забыць",
+    "clear": "Ачысціць",
+    "progressForgotten": "Поступ забыты.",
+    "savedWordsCleared": "Захаваныя словы ачышчаныя."
   },
   "bg": {
     "appTitle": "Gloss",
@@ -662,7 +706,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "как Gloss чете на глас",
     "voiceDefault": "Избран за вас",
-    "voiceSection": "Глас"
+    "voiceSection": "Глас",
+    "memorySection": "Памет",
+    "memoryCaption": "какво пази Gloss",
+    "forgetProgress": "Забрави напредъка ми",
+    "forgetProgressBody": "Думите, които сте разгледали, ще бъдат размаркирани. Запазените ви думи остават.",
+    "clearSavedWords": "Изчисти запазените думи",
+    "clearSavedWordsBody": "Думите, които сте запазили, ще бъдат премахнати. Напредъкът ви остава.",
+    "cancel": "Отказ",
+    "forget": "Забрави",
+    "clear": "Изчисти",
+    "progressForgotten": "Напредъкът е забравен.",
+    "savedWordsCleared": "Запазените думи са изчистени."
   },
   "bn": {
     "appTitle": "Gloss",
@@ -795,7 +850,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss কেমন করে সশব্দে পড়ে",
     "voiceDefault": "আপনার জন্য বাছাই",
-    "voiceSection": "কণ্ঠ"
+    "voiceSection": "কণ্ঠ",
+    "memorySection": "স্মৃতি",
+    "memoryCaption": "Gloss যা রাখে",
+    "forgetProgress": "আমার অগ্রগতি ভুলে যাও",
+    "forgetProgressBody": "আপনি যে শব্দগুলি দেখেছেন সেগুলির চিহ্ন সরানো হবে। সংরক্ষিত শব্দ থেকে যাবে।",
+    "clearSavedWords": "সংরক্ষিত শব্দ মুছুন",
+    "clearSavedWordsBody": "আপনি যে শব্দগুলি রেখেছেন সেগুলি সরানো হবে। আপনার অগ্রগতি থেকে যাবে।",
+    "cancel": "বাতিল",
+    "forget": "ভুলে যাও",
+    "clear": "মুছুন",
+    "progressForgotten": "অগ্রগতি ভুলে যাওয়া হয়েছে।",
+    "savedWordsCleared": "সংরক্ষিত শব্দ মুছে ফেলা হয়েছে।"
   },
   "cs": {
     "appTitle": "Gloss",
@@ -928,7 +994,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "jak Gloss čte nahlas",
     "voiceDefault": "Vybráno pro vás",
-    "voiceSection": "Hlas"
+    "voiceSection": "Hlas",
+    "memorySection": "Paměť",
+    "memoryCaption": "co si Gloss pamatuje",
+    "forgetProgress": "Zapomenout můj pokrok",
+    "forgetProgressBody": "Slovům, která jste prozkoumali, bude odebrána značka. Uložená slova zůstanou.",
+    "clearSavedWords": "Vymazat uložená slova",
+    "clearSavedWordsBody": "Slova, která jste si uložili, budou odstraněna. Váš pokrok zůstane.",
+    "cancel": "Zrušit",
+    "forget": "Zapomenout",
+    "clear": "Vymazat",
+    "progressForgotten": "Pokrok zapomenut.",
+    "savedWordsCleared": "Uložená slova vymazána."
   },
   "da": {
     "appTitle": "Gloss",
@@ -1061,7 +1138,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hvordan Gloss læser højt",
     "voiceDefault": "Valgt til dig",
-    "voiceSection": "Stemme"
+    "voiceSection": "Stemme",
+    "memorySection": "Hukommelse",
+    "memoryCaption": "hvad Gloss gemmer",
+    "forgetProgress": "Glem mine fremskridt",
+    "forgetProgressBody": "Ordene, du har udforsket, bliver afmærket. Dine gemte ord bliver.",
+    "clearSavedWords": "Ryd gemte ord",
+    "clearSavedWordsBody": "Ordene, du har gemt, bliver fjernet. Dine fremskridt bliver.",
+    "cancel": "Annuller",
+    "forget": "Glem",
+    "clear": "Ryd",
+    "progressForgotten": "Fremskridt glemt.",
+    "savedWordsCleared": "Gemte ord ryddet."
   },
   "de": {
     "appTitle": "Gloss",
@@ -1194,7 +1282,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "wie Gloss vorliest",
     "voiceDefault": "Für dich gewählt",
-    "voiceSection": "Stimme"
+    "voiceSection": "Stimme",
+    "memorySection": "Gedächtnis",
+    "memoryCaption": "was Gloss behält",
+    "forgetProgress": "Meinen Fortschritt vergessen",
+    "forgetProgressBody": "Die erkundeten Wörter verlieren ihre Markierung. Ihre gespeicherten Wörter bleiben.",
+    "clearSavedWords": "Gespeicherte Wörter löschen",
+    "clearSavedWordsBody": "Die aufbewahrten Wörter werden entfernt. Ihr Fortschritt bleibt.",
+    "cancel": "Abbrechen",
+    "forget": "Vergessen",
+    "clear": "Löschen",
+    "progressForgotten": "Fortschritt vergessen.",
+    "savedWordsCleared": "Gespeicherte Wörter gelöscht."
   },
   "el": {
     "appTitle": "Gloss",
@@ -1327,7 +1426,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "πώς διαβάζει φωναχτά το Gloss",
     "voiceDefault": "Επιλεγμένη για εσάς",
-    "voiceSection": "Φωνή"
+    "voiceSection": "Φωνή",
+    "memorySection": "Μνήμη",
+    "memoryCaption": "τι κρατά το Gloss",
+    "forgetProgress": "Ξέχνα την πρόοδό μου",
+    "forgetProgressBody": "Οι λέξεις που εξερευνήσατε θα πάψουν να είναι σημειωμένες. Οι αποθηκευμένες λέξεις μένουν.",
+    "clearSavedWords": "Καθαρισμός αποθηκευμένων λέξεων",
+    "clearSavedWordsBody": "Οι λέξεις που κρατήσατε θα αφαιρεθούν. Η πρόοδός σας μένει.",
+    "cancel": "Άκυρο",
+    "forget": "Ξέχνα",
+    "clear": "Καθαρισμός",
+    "progressForgotten": "Η πρόοδος ξεχάστηκε.",
+    "savedWordsCleared": "Οι αποθηκευμένες λέξεις καθαρίστηκαν."
   },
   "es": {
     "appTitle": "Gloss",
@@ -1460,7 +1570,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "cómo lee Gloss en voz alta",
     "voiceDefault": "Elegida para ti",
-    "voiceSection": "Voz"
+    "voiceSection": "Voz",
+    "memorySection": "Memoria",
+    "memoryCaption": "lo que Gloss guarda",
+    "forgetProgress": "Olvidar mi progreso",
+    "forgetProgressBody": "Las palabras que has explorado dejarán de estar marcadas. Tus palabras guardadas se quedan.",
+    "clearSavedWords": "Borrar palabras guardadas",
+    "clearSavedWordsBody": "Las palabras que has guardado se eliminarán. Tu progreso se queda.",
+    "cancel": "Cancelar",
+    "forget": "Olvidar",
+    "clear": "Borrar",
+    "progressForgotten": "Progreso olvidado.",
+    "savedWordsCleared": "Palabras guardadas borradas."
   },
   "es_419": {
     "appTitle": "Gloss",
@@ -1593,7 +1714,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "cómo lee Gloss en voz alta",
     "voiceDefault": "Elegida para ti",
-    "voiceSection": "Voz"
+    "voiceSection": "Voz",
+    "memorySection": "Memoria",
+    "memoryCaption": "lo que Gloss guarda",
+    "forgetProgress": "Olvidar mi progreso",
+    "forgetProgressBody": "Las palabras que exploraste dejarán de estar marcadas. Tus palabras guardadas se quedan.",
+    "clearSavedWords": "Borrar palabras guardadas",
+    "clearSavedWordsBody": "Las palabras que guardaste se eliminarán. Tu progreso se queda.",
+    "cancel": "Cancelar",
+    "forget": "Olvidar",
+    "clear": "Borrar",
+    "progressForgotten": "Progreso olvidado.",
+    "savedWordsCleared": "Palabras guardadas borradas."
   },
   "et": {
     "appTitle": "Gloss",
@@ -1726,7 +1858,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "kuidas Gloss valjusti loeb",
     "voiceDefault": "Sinu jaoks valitud",
-    "voiceSection": "Hääl"
+    "voiceSection": "Hääl",
+    "memorySection": "Mälu",
+    "memoryCaption": "mida Gloss hoiab",
+    "forgetProgress": "Unusta mu edenemine",
+    "forgetProgressBody": "Uuritud sõnadelt eemaldatakse märge. Sinu salvestatud sõnad jäävad.",
+    "clearSavedWords": "Tühjenda salvestatud sõnad",
+    "clearSavedWordsBody": "Sõnad, mille oled hoidnud, eemaldatakse. Sinu edenemine jääb.",
+    "cancel": "Loobu",
+    "forget": "Unusta",
+    "clear": "Tühjenda",
+    "progressForgotten": "Edenemine unustatud.",
+    "savedWordsCleared": "Salvestatud sõnad tühjendatud."
   },
   "fi": {
     "appTitle": "Gloss",
@@ -1859,7 +2002,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "miten Gloss lukee ääneen",
     "voiceDefault": "Valittu sinulle",
-    "voiceSection": "Ääni"
+    "voiceSection": "Ääni",
+    "memorySection": "Muisti",
+    "memoryCaption": "mitä Gloss säilyttää",
+    "forgetProgress": "Unohda edistymiseni",
+    "forgetProgressBody": "Tutkimiesi sanojen merkintä poistetaan. Tallennetut sanasi säilyvät.",
+    "clearSavedWords": "Tyhjennä tallennetut sanat",
+    "clearSavedWordsBody": "Säilyttämäsi sanat poistetaan. Edistymisesi säilyy.",
+    "cancel": "Peruuta",
+    "forget": "Unohda",
+    "clear": "Tyhjennä",
+    "progressForgotten": "Edistyminen unohdettu.",
+    "savedWordsCleared": "Tallennetut sanat tyhjennetty."
   },
   "fil": {
     "appTitle": "Gloss",
@@ -1992,7 +2146,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "kung paano bumabasa nang malakas ang Gloss",
     "voiceDefault": "Pinili para sa iyo",
-    "voiceSection": "Boses"
+    "voiceSection": "Boses",
+    "memorySection": "Alaala",
+    "memoryCaption": "kung ano ang iniingatan ng Gloss",
+    "forgetProgress": "Kalimutan ang aking progreso",
+    "forgetProgressBody": "Maaalis ang marka ng mga salitang natuklasan mo. Mananatili ang mga naka-save mong salita.",
+    "clearSavedWords": "Burahin ang mga naka-save na salita",
+    "clearSavedWordsBody": "Aalisin ang mga salitang iningatan mo. Mananatili ang progreso mo.",
+    "cancel": "Kanselahin",
+    "forget": "Kalimutan",
+    "clear": "Burahin",
+    "progressForgotten": "Nakalimutan ang progreso.",
+    "savedWordsCleared": "Nabura ang mga naka-save na salita."
   },
   "fr": {
     "appTitle": "Gloss",
@@ -2125,7 +2290,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "comment Gloss lit à voix haute",
     "voiceDefault": "Choisie pour vous",
-    "voiceSection": "Voix"
+    "voiceSection": "Voix",
+    "memorySection": "Mémoire",
+    "memoryCaption": "ce que Gloss retient",
+    "forgetProgress": "Oublier ma progression",
+    "forgetProgressBody": "Les mots que vous avez explorés ne seront plus marqués. Vos mots gardés restent.",
+    "clearSavedWords": "Effacer les mots gardés",
+    "clearSavedWordsBody": "Les mots que vous avez gardés seront retirés. Votre progression reste.",
+    "cancel": "Annuler",
+    "forget": "Oublier",
+    "clear": "Effacer",
+    "progressForgotten": "Progression oubliée.",
+    "savedWordsCleared": "Mots gardés effacés."
   },
   "fr_CA": {
     "appTitle": "Gloss",
@@ -2258,7 +2434,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "comment Gloss lit à voix haute",
     "voiceDefault": "Choisie pour vous",
-    "voiceSection": "Voix"
+    "voiceSection": "Voix",
+    "memorySection": "Mémoire",
+    "memoryCaption": "ce que Gloss retient",
+    "forgetProgress": "Oublier ma progression",
+    "forgetProgressBody": "Les mots que vous avez explorés ne seront plus marqués. Vos mots gardés restent.",
+    "clearSavedWords": "Effacer les mots gardés",
+    "clearSavedWordsBody": "Les mots que vous avez gardés seront retirés. Votre progression reste.",
+    "cancel": "Annuler",
+    "forget": "Oublier",
+    "clear": "Effacer",
+    "progressForgotten": "Progression oubliée.",
+    "savedWordsCleared": "Mots gardés effacés."
   },
   "he": {
     "appTitle": "Gloss",
@@ -2391,7 +2578,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "איך Gloss מקריא",
     "voiceDefault": "נבחר עבורך",
-    "voiceSection": "קול"
+    "voiceSection": "קול",
+    "memorySection": "זיכרון",
+    "memoryCaption": "מה ש-Gloss שומר",
+    "forgetProgress": "שכח את ההתקדמות שלי",
+    "forgetProgressBody": "הסימון יוסר מהמילים שחקרת. המילים השמורות שלך יישארו.",
+    "clearSavedWords": "נקה מילים שמורות",
+    "clearSavedWordsBody": "המילים ששמרת יוסרו. ההתקדמות שלך תישאר.",
+    "cancel": "ביטול",
+    "forget": "שכח",
+    "clear": "נקה",
+    "progressForgotten": "ההתקדמות נשכחה.",
+    "savedWordsCleared": "המילים השמורות נוקו."
   },
   "hi": {
     "appTitle": "Gloss",
@@ -2524,7 +2722,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss कैसे बोलकर पढ़ता है",
     "voiceDefault": "आपके लिए चुनी गई",
-    "voiceSection": "आवाज़"
+    "voiceSection": "आवाज़",
+    "memorySection": "स्मृति",
+    "memoryCaption": "Gloss क्या रखता है",
+    "forgetProgress": "मेरी प्रगति भूल जाएँ",
+    "forgetProgressBody": "आपने जो शब्द देखे हैं उनका चिह्न हट जाएगा। आपके सहेजे शब्द बने रहेंगे।",
+    "clearSavedWords": "सहेजे शब्द मिटाएँ",
+    "clearSavedWordsBody": "आपने जो शब्द रखे हैं वे हटा दिए जाएँगे। आपकी प्रगति बनी रहेगी।",
+    "cancel": "रद्द करें",
+    "forget": "भूल जाएँ",
+    "clear": "मिटाएँ",
+    "progressForgotten": "प्रगति भुला दी गई।",
+    "savedWordsCleared": "सहेजे शब्द मिटा दिए गए।"
   },
   "hr": {
     "appTitle": "Gloss",
@@ -2657,7 +2866,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "kako Gloss čita naglas",
     "voiceDefault": "Odabran za tebe",
-    "voiceSection": "Glas"
+    "voiceSection": "Glas",
+    "memorySection": "Pamćenje",
+    "memoryCaption": "što Gloss čuva",
+    "forgetProgress": "Zaboravi moj napredak",
+    "forgetProgressBody": "Riječima koje ste istražili bit će uklonjena oznaka. Spremljene riječi ostaju.",
+    "clearSavedWords": "Očisti spremljene riječi",
+    "clearSavedWordsBody": "Riječi koje ste sačuvali bit će uklonjene. Vaš napredak ostaje.",
+    "cancel": "Odustani",
+    "forget": "Zaboravi",
+    "clear": "Očisti",
+    "progressForgotten": "Napredak zaboravljen.",
+    "savedWordsCleared": "Spremljene riječi očišćene."
   },
   "hu": {
     "appTitle": "Gloss",
@@ -2790,7 +3010,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hogyan olvas fel a Gloss",
     "voiceDefault": "Neked választva",
-    "voiceSection": "Hang"
+    "voiceSection": "Hang",
+    "memorySection": "Emlékezet",
+    "memoryCaption": "mit őriz a Gloss",
+    "forgetProgress": "Felejtsd el a haladásomat",
+    "forgetProgressBody": "A felfedezett szavakról lekerül a jelölés. A mentett szavaid megmaradnak.",
+    "clearSavedWords": "Mentett szavak törlése",
+    "clearSavedWordsBody": "A megőrzött szavak eltávolításra kerülnek. A haladásod megmarad.",
+    "cancel": "Mégse",
+    "forget": "Elfelejt",
+    "clear": "Törlés",
+    "progressForgotten": "Haladás elfelejtve.",
+    "savedWordsCleared": "Mentett szavak törölve."
   },
   "hy": {
     "appTitle": "Gloss",
@@ -2923,7 +3154,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "ինչպես է Gloss-ը բարձրաձայն կարդում",
     "voiceDefault": "Ընտրված է ձեզ համար",
-    "voiceSection": "Ձայն"
+    "voiceSection": "Ձայն",
+    "memorySection": "Հիշողություն",
+    "memoryCaption": "ինչ է պահում Gloss-ը",
+    "forgetProgress": "Մոռանալ իմ առաջընթացը",
+    "forgetProgressBody": "Ձեր ուսումնասիրած բառերի նշումը կհեռացվի։ Պահպանված բառերը կմնան։",
+    "clearSavedWords": "Մաքրել պահպանված բառերը",
+    "clearSavedWordsBody": "Ձեր պահած բառերը կհեռացվեն։ Ձեր առաջընթացը կմնա։",
+    "cancel": "Չեղարկել",
+    "forget": "Մոռանալ",
+    "clear": "Մաքրել",
+    "progressForgotten": "Առաջընթացը մոռացվեց։",
+    "savedWordsCleared": "Պահպանված բառերը մաքրվեցին։"
   },
   "id": {
     "appTitle": "Gloss",
@@ -3056,7 +3298,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "bagaimana Gloss membaca nyaring",
     "voiceDefault": "Dipilihkan untukmu",
-    "voiceSection": "Suara"
+    "voiceSection": "Suara",
+    "memorySection": "Ingatan",
+    "memoryCaption": "apa yang Gloss simpan",
+    "forgetProgress": "Lupakan kemajuan saya",
+    "forgetProgressBody": "Tanda pada kata yang telah kamu jelajahi akan dihapus. Kata tersimpanmu tetap ada.",
+    "clearSavedWords": "Hapus kata tersimpan",
+    "clearSavedWordsBody": "Kata yang kamu simpan akan dihapus. Kemajuanmu tetap ada.",
+    "cancel": "Batal",
+    "forget": "Lupakan",
+    "clear": "Hapus",
+    "progressForgotten": "Kemajuan dilupakan.",
+    "savedWordsCleared": "Kata tersimpan dihapus."
   },
   "is": {
     "appTitle": "Gloss",
@@ -3189,7 +3442,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hvernig Gloss les upphátt",
     "voiceDefault": "Valið fyrir þig",
-    "voiceSection": "Rödd"
+    "voiceSection": "Rödd",
+    "memorySection": "Minni",
+    "memoryCaption": "hvað Gloss geymir",
+    "forgetProgress": "Gleyma framvindu minni",
+    "forgetProgressBody": "Merkingar orðanna sem þú hefur kannað verða fjarlægðar. Vistuðu orðin þín haldast.",
+    "clearSavedWords": "Hreinsa vistuð orð",
+    "clearSavedWordsBody": "Orðin sem þú hefur geymt verða fjarlægð. Framvindan þín helst.",
+    "cancel": "Hætta við",
+    "forget": "Gleyma",
+    "clear": "Hreinsa",
+    "progressForgotten": "Framvindu gleymt.",
+    "savedWordsCleared": "Vistuð orð hreinsuð."
   },
   "it": {
     "appTitle": "Gloss",
@@ -3322,7 +3586,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "come Gloss legge ad alta voce",
     "voiceDefault": "Scelta per te",
-    "voiceSection": "Voce"
+    "voiceSection": "Voce",
+    "memorySection": "Memoria",
+    "memoryCaption": "ciò che Gloss conserva",
+    "forgetProgress": "Dimentica i miei progressi",
+    "forgetProgressBody": "Le parole che hai esplorato perderanno il segno. Le parole salvate restano.",
+    "clearSavedWords": "Cancella le parole salvate",
+    "clearSavedWordsBody": "Le parole che hai conservato saranno rimosse. I tuoi progressi restano.",
+    "cancel": "Annulla",
+    "forget": "Dimentica",
+    "clear": "Cancella",
+    "progressForgotten": "Progressi dimenticati.",
+    "savedWordsCleared": "Parole salvate cancellate."
   },
   "ja": {
     "appTitle": "Gloss",
@@ -3455,7 +3730,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss の読み上げかた",
     "voiceDefault": "おまかせ",
-    "voiceSection": "声"
+    "voiceSection": "声",
+    "memorySection": "記憶",
+    "memoryCaption": "Gloss が覚えていること",
+    "forgetProgress": "進み具合を忘れる",
+    "forgetProgressBody": "読んだ語の印が外れます。保存した語はそのまま残ります。",
+    "clearSavedWords": "保存した語を消す",
+    "clearSavedWordsBody": "手元に置いた語が削除されます。進み具合はそのまま残ります。",
+    "cancel": "キャンセル",
+    "forget": "忘れる",
+    "clear": "消す",
+    "progressForgotten": "進み具合を忘れました。",
+    "savedWordsCleared": "保存した語を消しました。"
   },
   "ka": {
     "appTitle": "Gloss",
@@ -3588,7 +3874,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "როგორ კითხულობს Gloss ხმამაღლა",
     "voiceDefault": "შერჩეულია თქვენთვის",
-    "voiceSection": "ხმა"
+    "voiceSection": "ხმა",
+    "memorySection": "მეხსიერება",
+    "memoryCaption": "რას ინახავს Gloss",
+    "forgetProgress": "დაივიწყე ჩემი პროგრესი",
+    "forgetProgressBody": "თქვენ მიერ შესწავლილ სიტყვებს მოეხსნება ნიშანი. შენახული სიტყვები დარჩება.",
+    "clearSavedWords": "გაასუფთავე შენახული სიტყვები",
+    "clearSavedWordsBody": "თქვენ მიერ შენახული სიტყვები წაიშლება. თქვენი პროგრესი დარჩება.",
+    "cancel": "გაუქმება",
+    "forget": "დავიწყება",
+    "clear": "გასუფთავება",
+    "progressForgotten": "პროგრესი დავიწყებულია.",
+    "savedWordsCleared": "შენახული სიტყვები გასუფთავდა."
   },
   "kk": {
     "appTitle": "Gloss",
@@ -3721,7 +4018,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss қалай дауыстап оқиды",
     "voiceDefault": "Сізге таңдалған",
-    "voiceSection": "Дауыс"
+    "voiceSection": "Дауыс",
+    "memorySection": "Жады",
+    "memoryCaption": "Gloss нені сақтайды",
+    "forgetProgress": "Ілгерілеуімді ұмыту",
+    "forgetProgressBody": "Сіз зерттеген сөздердің белгісі алынады. Сақталған сөздеріңіз қалады.",
+    "clearSavedWords": "Сақталған сөздерді тазалау",
+    "clearSavedWordsBody": "Сіз сақтаған сөздер жойылады. Ілгерілеуіңіз қалады.",
+    "cancel": "Бас тарту",
+    "forget": "Ұмыту",
+    "clear": "Тазалау",
+    "progressForgotten": "Ілгерілеу ұмытылды.",
+    "savedWordsCleared": "Сақталған сөздер тазаланды."
   },
   "km": {
     "appTitle": "Gloss",
@@ -3854,7 +4162,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "របៀបដែល Gloss អានឮៗ",
     "voiceDefault": "ជ្រើសរើសសម្រាប់អ្នក",
-    "voiceSection": "សំឡេង"
+    "voiceSection": "សំឡេង",
+    "memorySection": "អង្គចងចាំ",
+    "memoryCaption": "អ្វីដែល Gloss រក្សាទុក",
+    "forgetProgress": "ភ្លេចវឌ្ឍនភាពរបស់ខ្ញុំ",
+    "forgetProgressBody": "សញ្ញាសម្គាល់លើពាក្យដែលអ្នកបានរុករកនឹងត្រូវដកចេញ។ ពាក្យដែលបានរក្សាទុកនៅដដែល។",
+    "clearSavedWords": "សម្អាតពាក្យដែលបានរក្សាទុក",
+    "clearSavedWordsBody": "ពាក្យដែលអ្នកបានរក្សាទុកនឹងត្រូវដកចេញ។ វឌ្ឍនភាពរបស់អ្នកនៅដដែល។",
+    "cancel": "បោះបង់",
+    "forget": "ភ្លេច",
+    "clear": "សម្អាត",
+    "progressForgotten": "វឌ្ឍនភាពត្រូវបានភ្លេច។",
+    "savedWordsCleared": "ពាក្យដែលបានរក្សាទុកត្រូវបានសម្អាត។"
   },
   "ko": {
     "appTitle": "Gloss",
@@ -3987,7 +4306,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss가 읽어 주는 방식",
     "voiceDefault": "자동 선택",
-    "voiceSection": "목소리"
+    "voiceSection": "목소리",
+    "memorySection": "기억",
+    "memoryCaption": "Gloss가 간직하는 것",
+    "forgetProgress": "내 진행 상황 잊기",
+    "forgetProgressBody": "살펴본 낱말의 표시가 지워집니다. 저장한 낱말은 그대로 남습니다.",
+    "clearSavedWords": "저장한 낱말 지우기",
+    "clearSavedWordsBody": "간직한 낱말이 삭제됩니다. 진행 상황은 그대로 남습니다.",
+    "cancel": "취소",
+    "forget": "잊기",
+    "clear": "지우기",
+    "progressForgotten": "진행 상황을 잊었습니다.",
+    "savedWordsCleared": "저장한 낱말을 지웠습니다."
   },
   "ky": {
     "appTitle": "Gloss",
@@ -4120,7 +4450,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss кандай үн чыгарып окуйт",
     "voiceDefault": "Сиз үчүн тандалган",
-    "voiceSection": "Үн"
+    "voiceSection": "Үн",
+    "memorySection": "Эс",
+    "memoryCaption": "Gloss эмнени сактайт",
+    "forgetProgress": "Прогрессимди унут",
+    "forgetProgressBody": "Сиз изилдеген сөздөрдүн белгиси алынат. Сакталган сөздөрүңүз калат.",
+    "clearSavedWords": "Сакталган сөздөрдү тазалоо",
+    "clearSavedWordsBody": "Сиз сактаган сөздөр өчүрүлөт. Прогрессиңиз калат.",
+    "cancel": "Жокко чыгаруу",
+    "forget": "Унутуу",
+    "clear": "Тазалоо",
+    "progressForgotten": "Прогресс унутулду.",
+    "savedWordsCleared": "Сакталган сөздөр тазаланды."
   },
   "lo": {
     "appTitle": "Gloss",
@@ -4253,7 +4594,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss ອ່ານອອກສຽງແນວໃດ",
     "voiceDefault": "ເລືອກໃຫ້ທ່ານ",
-    "voiceSection": "ສຽງ"
+    "voiceSection": "ສຽງ",
+    "memorySection": "ຄວາມຊົງຈຳ",
+    "memoryCaption": "ສິ່ງທີ່ Gloss ເກັບໄວ້",
+    "forgetProgress": "ລືມຄວາມກ້າວໜ້າຂອງຂ້ອຍ",
+    "forgetProgressBody": "ເຄື່ອງໝາຍຂອງຄຳທີ່ທ່ານໄດ້ສຳຫຼວດຈະຖືກລຶບອອກ. ຄຳທີ່ບັນທຶກໄວ້ຍັງຢູ່.",
+    "clearSavedWords": "ລຶບຄຳທີ່ບັນທຶກໄວ້",
+    "clearSavedWordsBody": "ຄຳທີ່ທ່ານເກັບໄວ້ຈະຖືກລຶບອອກ. ຄວາມກ້າວໜ້າຂອງທ່ານຍັງຢູ່.",
+    "cancel": "ຍົກເລີກ",
+    "forget": "ລືມ",
+    "clear": "ລຶບ",
+    "progressForgotten": "ລືມຄວາມກ້າວໜ້າແລ້ວ.",
+    "savedWordsCleared": "ລຶບຄຳທີ່ບັນທຶກໄວ້ແລ້ວ."
   },
   "lt": {
     "appTitle": "Gloss",
@@ -4386,7 +4738,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "kaip Gloss skaito balsu",
     "voiceDefault": "Parinkta jums",
-    "voiceSection": "Balsas"
+    "voiceSection": "Balsas",
+    "memorySection": "Atmintis",
+    "memoryCaption": "ką Gloss saugo",
+    "forgetProgress": "Pamiršti mano pažangą",
+    "forgetProgressBody": "Žodžiams, kuriuos peržiūrėjote, bus panaikinta žyma. Išsaugoti žodžiai liks.",
+    "clearSavedWords": "Išvalyti išsaugotus žodžius",
+    "clearSavedWordsBody": "Žodžiai, kuriuos išsaugojote, bus pašalinti. Jūsų pažanga liks.",
+    "cancel": "Atšaukti",
+    "forget": "Pamiršti",
+    "clear": "Išvalyti",
+    "progressForgotten": "Pažanga pamiršta.",
+    "savedWordsCleared": "Išsaugoti žodžiai išvalyti."
   },
   "lv": {
     "appTitle": "Gloss",
@@ -4519,7 +4882,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "kā Gloss lasa skaļi",
     "voiceDefault": "Izvēlēta jums",
-    "voiceSection": "Balss"
+    "voiceSection": "Balss",
+    "memorySection": "Atmiņa",
+    "memoryCaption": "ko Gloss patur",
+    "forgetProgress": "Aizmirst manu progresu",
+    "forgetProgressBody": "Vārdiem, kurus esat izpētījis, tiks noņemta atzīme. Saglabātie vārdi paliks.",
+    "clearSavedWords": "Notīrīt saglabātos vārdus",
+    "clearSavedWordsBody": "Vārdi, kurus esat saglabājis, tiks noņemti. Jūsu progress paliks.",
+    "cancel": "Atcelt",
+    "forget": "Aizmirst",
+    "clear": "Notīrīt",
+    "progressForgotten": "Progress aizmirsts.",
+    "savedWordsCleared": "Saglabātie vārdi notīrīti."
   },
   "mk": {
     "appTitle": "Gloss",
@@ -4652,7 +5026,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "како Gloss чита на глас",
     "voiceDefault": "Избран за вас",
-    "voiceSection": "Глас"
+    "voiceSection": "Глас",
+    "memorySection": "Меморија",
+    "memoryCaption": "што чува Gloss",
+    "forgetProgress": "Заборави го мојот напредок",
+    "forgetProgressBody": "На зборовите што сте ги истражиле ќе им биде тргната ознаката. Зачуваните зборови остануваат.",
+    "clearSavedWords": "Исчисти ги зачуваните зборови",
+    "clearSavedWordsBody": "Зборовите што сте ги зачувале ќе бидат отстранети. Вашиот напредок останува.",
+    "cancel": "Откажи",
+    "forget": "Заборави",
+    "clear": "Исчисти",
+    "progressForgotten": "Напредокот е заборавен.",
+    "savedWordsCleared": "Зачуваните зборови се исчистени."
   },
   "ms": {
     "appTitle": "Gloss",
@@ -4785,7 +5170,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "bagaimana Gloss membaca dengan kuat",
     "voiceDefault": "Dipilih untuk anda",
-    "voiceSection": "Suara"
+    "voiceSection": "Suara",
+    "memorySection": "Ingatan",
+    "memoryCaption": "apa yang Gloss simpan",
+    "forgetProgress": "Lupakan kemajuan saya",
+    "forgetProgressBody": "Tanda pada perkataan yang anda terokai akan dibuang. Perkataan tersimpan anda kekal.",
+    "clearSavedWords": "Kosongkan perkataan tersimpan",
+    "clearSavedWordsBody": "Perkataan yang anda simpan akan dibuang. Kemajuan anda kekal.",
+    "cancel": "Batal",
+    "forget": "Lupakan",
+    "clear": "Kosongkan",
+    "progressForgotten": "Kemajuan dilupakan.",
+    "savedWordsCleared": "Perkataan tersimpan dikosongkan."
   },
   "my": {
     "appTitle": "Gloss",
@@ -4918,7 +5314,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss မည်သို့ အသံထွက်ဖတ်သည်",
     "voiceDefault": "သင့်အတွက် ရွေးထားသည်",
-    "voiceSection": "အသံ"
+    "voiceSection": "အသံ",
+    "memorySection": "မှတ်ဉာဏ်",
+    "memoryCaption": "Gloss သိမ်းထားသည့်အရာ",
+    "forgetProgress": "ကျွန်ုပ်၏တိုးတက်မှုကို မေ့ပါ",
+    "forgetProgressBody": "သင်လေ့လာခဲ့သော စကားလုံးများ၏ အမှတ်အသားကို ဖယ်ရှားပါမည်။ သိမ်းထားသော စကားလုံးများ ကျန်ရှိပါမည်။",
+    "clearSavedWords": "သိမ်းထားသော စကားလုံးများကို ရှင်းပါ",
+    "clearSavedWordsBody": "သင်သိမ်းထားသော စကားလုံးများကို ဖယ်ရှားပါမည်။ သင့်တိုးတက်မှု ကျန်ရှိပါမည်။",
+    "cancel": "ပယ်ဖျက်",
+    "forget": "မေ့ပါ",
+    "clear": "ရှင်းပါ",
+    "progressForgotten": "တိုးတက်မှုကို မေ့လိုက်ပါပြီ။",
+    "savedWordsCleared": "သိမ်းထားသော စကားလုံးများကို ရှင်းလိုက်ပါပြီ။"
   },
   "nb": {
     "appTitle": "Gloss",
@@ -5051,7 +5458,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hvordan Gloss leser høyt",
     "voiceDefault": "Valgt for deg",
-    "voiceSection": "Stemme"
+    "voiceSection": "Stemme",
+    "memorySection": "Hukommelse",
+    "memoryCaption": "hva Gloss tar vare på",
+    "forgetProgress": "Glem framgangen min",
+    "forgetProgressBody": "Ordene du har utforsket, mister merket. De lagrede ordene dine blir.",
+    "clearSavedWords": "Tøm lagrede ord",
+    "clearSavedWordsBody": "Ordene du har tatt vare på, blir fjernet. Framgangen din blir.",
+    "cancel": "Avbryt",
+    "forget": "Glem",
+    "clear": "Tøm",
+    "progressForgotten": "Framgang glemt.",
+    "savedWordsCleared": "Lagrede ord tømt."
   },
   "ne": {
     "appTitle": "Gloss",
@@ -5184,7 +5602,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss कसरी ठूलो स्वरमा पढ्छ",
     "voiceDefault": "तपाईंका लागि छानिएको",
-    "voiceSection": "स्वर"
+    "voiceSection": "स्वर",
+    "memorySection": "स्मृति",
+    "memoryCaption": "Gloss ले के राख्छ",
+    "forgetProgress": "मेरो प्रगति बिर्सनुहोस्",
+    "forgetProgressBody": "तपाईंले हेर्नुभएका शब्दहरूको चिन्ह हट्नेछ। सुरक्षित शब्दहरू रहनेछन्।",
+    "clearSavedWords": "सुरक्षित शब्दहरू खाली गर्नुहोस्",
+    "clearSavedWordsBody": "तपाईंले राख्नुभएका शब्दहरू हटाइनेछन्। तपाईंको प्रगति रहनेछ।",
+    "cancel": "रद्द गर्नुहोस्",
+    "forget": "बिर्सनुहोस्",
+    "clear": "खाली गर्नुहोस्",
+    "progressForgotten": "प्रगति बिर्सियो।",
+    "savedWordsCleared": "सुरक्षित शब्दहरू खाली गरियो।"
   },
   "nl": {
     "appTitle": "Gloss",
@@ -5317,7 +5746,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hoe Gloss voorleest",
     "voiceDefault": "Voor jou gekozen",
-    "voiceSection": "Stem"
+    "voiceSection": "Stem",
+    "memorySection": "Geheugen",
+    "memoryCaption": "wat Gloss bewaart",
+    "forgetProgress": "Vergeet mijn voortgang",
+    "forgetProgressBody": "De woorden die je hebt verkend, verliezen hun markering. Je bewaarde woorden blijven.",
+    "clearSavedWords": "Wis bewaarde woorden",
+    "clearSavedWordsBody": "De woorden die je hebt bewaard, worden verwijderd. Je voortgang blijft.",
+    "cancel": "Annuleren",
+    "forget": "Vergeten",
+    "clear": "Wissen",
+    "progressForgotten": "Voortgang vergeten.",
+    "savedWordsCleared": "Bewaarde woorden gewist."
   },
   "pl": {
     "appTitle": "Gloss",
@@ -5450,7 +5890,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "jak Gloss czyta na głos",
     "voiceDefault": "Wybrany dla ciebie",
-    "voiceSection": "Głos"
+    "voiceSection": "Głos",
+    "memorySection": "Pamięć",
+    "memoryCaption": "co Gloss zachowuje",
+    "forgetProgress": "Zapomnij mój postęp",
+    "forgetProgressBody": "Słowa, które poznałeś, stracą oznaczenie. Zapisane słowa pozostaną.",
+    "clearSavedWords": "Wyczyść zapisane słowa",
+    "clearSavedWordsBody": "Słowa, które zachowałeś, zostaną usunięte. Twój postęp pozostanie.",
+    "cancel": "Anuluj",
+    "forget": "Zapomnij",
+    "clear": "Wyczyść",
+    "progressForgotten": "Postęp zapomniany.",
+    "savedWordsCleared": "Zapisane słowa wyczyszczone."
   },
   "pt": {
     "appTitle": "Gloss",
@@ -5583,7 +6034,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "como Gloss lê em voz alta",
     "voiceDefault": "Escolhida para si",
-    "voiceSection": "Voz"
+    "voiceSection": "Voz",
+    "memorySection": "Memória",
+    "memoryCaption": "o que o Gloss guarda",
+    "forgetProgress": "Esquecer o meu progresso",
+    "forgetProgressBody": "As palavras que explorou deixarão de estar assinaladas. As palavras guardadas ficam.",
+    "clearSavedWords": "Limpar palavras guardadas",
+    "clearSavedWordsBody": "As palavras que guardou serão removidas. O seu progresso fica.",
+    "cancel": "Cancelar",
+    "forget": "Esquecer",
+    "clear": "Limpar",
+    "progressForgotten": "Progresso esquecido.",
+    "savedWordsCleared": "Palavras guardadas limpas."
   },
   "pt_BR": {
     "appTitle": "Gloss",
@@ -5716,7 +6178,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "como Gloss lê em voz alta",
     "voiceDefault": "Escolhida para você",
-    "voiceSection": "Voz"
+    "voiceSection": "Voz",
+    "memorySection": "Memória",
+    "memoryCaption": "o que o Gloss guarda",
+    "forgetProgress": "Esquecer meu progresso",
+    "forgetProgressBody": "As palavras que você explorou deixarão de estar marcadas. Suas palavras salvas ficam.",
+    "clearSavedWords": "Limpar palavras salvas",
+    "clearSavedWordsBody": "As palavras que você guardou serão removidas. Seu progresso fica.",
+    "cancel": "Cancelar",
+    "forget": "Esquecer",
+    "clear": "Limpar",
+    "progressForgotten": "Progresso esquecido.",
+    "savedWordsCleared": "Palavras salvas limpas."
   },
   "ro": {
     "appTitle": "Gloss",
@@ -5849,7 +6322,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "cum citește Gloss cu voce tare",
     "voiceDefault": "Aleasă pentru tine",
-    "voiceSection": "Voce"
+    "voiceSection": "Voce",
+    "memorySection": "Memorie",
+    "memoryCaption": "ce păstrează Gloss",
+    "forgetProgress": "Uită progresul meu",
+    "forgetProgressBody": "Cuvintele pe care le-ai explorat nu vor mai fi marcate. Cuvintele salvate rămân.",
+    "clearSavedWords": "Șterge cuvintele salvate",
+    "clearSavedWordsBody": "Cuvintele pe care le-ai păstrat vor fi eliminate. Progresul tău rămâne.",
+    "cancel": "Anulează",
+    "forget": "Uită",
+    "clear": "Șterge",
+    "progressForgotten": "Progres uitat.",
+    "savedWordsCleared": "Cuvinte salvate șterse."
   },
   "ru": {
     "appTitle": "Gloss",
@@ -5982,7 +6466,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "как Gloss читает вслух",
     "voiceDefault": "Выбран для вас",
-    "voiceSection": "Голос"
+    "voiceSection": "Голос",
+    "memorySection": "Память",
+    "memoryCaption": "что хранит Gloss",
+    "forgetProgress": "Забыть мой прогресс",
+    "forgetProgressBody": "С изученных слов будут сняты отметки. Сохранённые слова останутся.",
+    "clearSavedWords": "Очистить сохранённые слова",
+    "clearSavedWordsBody": "Слова, которые вы сохранили, будут удалены. Ваш прогресс останется.",
+    "cancel": "Отмена",
+    "forget": "Забыть",
+    "clear": "Очистить",
+    "progressForgotten": "Прогресс забыт.",
+    "savedWordsCleared": "Сохранённые слова очищены."
   },
   "si": {
     "appTitle": "Gloss",
@@ -6115,7 +6610,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss හඬනගා කියවන ආකාරය",
     "voiceDefault": "ඔබ වෙනුවෙන් තෝරන ලද",
-    "voiceSection": "හඬ"
+    "voiceSection": "හඬ",
+    "memorySection": "මතකය",
+    "memoryCaption": "Gloss තබාගන්නා දේ",
+    "forgetProgress": "මගේ ප්‍රගතිය අමතක කරන්න",
+    "forgetProgressBody": "ඔබ ගවේෂණය කළ වචනවල සලකුණ ඉවත් වේ. ඔබ සුරැකි වචන පවතී.",
+    "clearSavedWords": "සුරැකි වචන ඉවත් කරන්න",
+    "clearSavedWordsBody": "ඔබ තබාගත් වචන ඉවත් කෙරේ. ඔබේ ප්‍රගතිය පවතී.",
+    "cancel": "අවලංගු කරන්න",
+    "forget": "අමතක කරන්න",
+    "clear": "ඉවත් කරන්න",
+    "progressForgotten": "ප්‍රගතිය අමතක කෙරිණි.",
+    "savedWordsCleared": "සුරැකි වචන ඉවත් කෙරිණි."
   },
   "sk": {
     "appTitle": "Gloss",
@@ -6248,7 +6754,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "ako Gloss číta nahlas",
     "voiceDefault": "Vybrané pre vás",
-    "voiceSection": "Hlas"
+    "voiceSection": "Hlas",
+    "memorySection": "Pamäť",
+    "memoryCaption": "čo si Gloss pamätá",
+    "forgetProgress": "Zabudnúť môj pokrok",
+    "forgetProgressBody": "Slovám, ktoré ste preskúmali, sa odoberie značka. Uložené slová zostanú.",
+    "clearSavedWords": "Vymazať uložené slová",
+    "clearSavedWordsBody": "Slová, ktoré ste si uložili, budú odstránené. Váš pokrok zostane.",
+    "cancel": "Zrušiť",
+    "forget": "Zabudnúť",
+    "clear": "Vymazať",
+    "progressForgotten": "Pokrok zabudnutý.",
+    "savedWordsCleared": "Uložené slová vymazané."
   },
   "sl": {
     "appTitle": "Gloss",
@@ -6381,7 +6898,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "kako Gloss bere na glas",
     "voiceDefault": "Izbran za vas",
-    "voiceSection": "Glas"
+    "voiceSection": "Glas",
+    "memorySection": "Spomin",
+    "memoryCaption": "kaj Gloss hrani",
+    "forgetProgress": "Pozabi moj napredek",
+    "forgetProgressBody": "Besedam, ki ste jih raziskali, bo odstranjena oznaka. Shranjene besede ostanejo.",
+    "clearSavedWords": "Počisti shranjene besede",
+    "clearSavedWordsBody": "Besede, ki ste jih shranili, bodo odstranjene. Vaš napredek ostane.",
+    "cancel": "Prekliči",
+    "forget": "Pozabi",
+    "clear": "Počisti",
+    "progressForgotten": "Napredek pozabljen.",
+    "savedWordsCleared": "Shranjene besede počiščene."
   },
   "sq": {
     "appTitle": "Gloss",
@@ -6514,7 +7042,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "si lexon Gloss me zë",
     "voiceDefault": "Zgjedhur për ty",
-    "voiceSection": "Zë"
+    "voiceSection": "Zë",
+    "memorySection": "Kujtesa",
+    "memoryCaption": "çfarë ruan Gloss",
+    "forgetProgress": "Harro përparimin tim",
+    "forgetProgressBody": "Fjalëve që keni eksploruar do t'u hiqet shenja. Fjalët e ruajtura mbeten.",
+    "clearSavedWords": "Pastro fjalët e ruajtura",
+    "clearSavedWordsBody": "Fjalët që keni mbajtur do të hiqen. Përparimi juaj mbetet.",
+    "cancel": "Anulo",
+    "forget": "Harro",
+    "clear": "Pastro",
+    "progressForgotten": "Përparimi u harrua.",
+    "savedWordsCleared": "Fjalët e ruajtura u pastruan."
   },
   "sr": {
     "appTitle": "Gloss",
@@ -6647,7 +7186,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "како Gloss чита наглас",
     "voiceDefault": "Изабран за вас",
-    "voiceSection": "Глас"
+    "voiceSection": "Глас",
+    "memorySection": "Памћење",
+    "memoryCaption": "шта Gloss чува",
+    "forgetProgress": "Заборави мој напредак",
+    "forgetProgressBody": "Речима које сте истражили биће уклоњена ознака. Сачуване речи остају.",
+    "clearSavedWords": "Обриши сачуване речи",
+    "clearSavedWordsBody": "Речи које сте сачували биће уклоњене. Ваш напредак остаје.",
+    "cancel": "Одустани",
+    "forget": "Заборави",
+    "clear": "Обриши",
+    "progressForgotten": "Напредак заборављен.",
+    "savedWordsCleared": "Сачуване речи обрисане."
   },
   "sv": {
     "appTitle": "Gloss",
@@ -6780,7 +7330,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "hur Gloss läser högt",
     "voiceDefault": "Vald åt dig",
-    "voiceSection": "Röst"
+    "voiceSection": "Röst",
+    "memorySection": "Minne",
+    "memoryCaption": "vad Gloss behåller",
+    "forgetProgress": "Glöm mina framsteg",
+    "forgetProgressBody": "Orden du har utforskat förlorar sin markering. Dina sparade ord blir kvar.",
+    "clearSavedWords": "Rensa sparade ord",
+    "clearSavedWordsBody": "Orden du har sparat tas bort. Dina framsteg blir kvar.",
+    "cancel": "Avbryt",
+    "forget": "Glöm",
+    "clear": "Rensa",
+    "progressForgotten": "Framsteg glömda.",
+    "savedWordsCleared": "Sparade ord rensade."
   },
   "sw": {
     "appTitle": "Gloss",
@@ -6913,7 +7474,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "jinsi Gloss inavyosoma kwa sauti",
     "voiceDefault": "Imechaguliwa kwa ajili yako",
-    "voiceSection": "Sauti"
+    "voiceSection": "Sauti",
+    "memorySection": "Kumbukumbu",
+    "memoryCaption": "kile Gloss huhifadhi",
+    "forgetProgress": "Sahau maendeleo yangu",
+    "forgetProgressBody": "Alama za maneno uliyochunguza zitaondolewa. Maneno uliyohifadhi yatabaki.",
+    "clearSavedWords": "Futa maneno yaliyohifadhiwa",
+    "clearSavedWordsBody": "Maneno uliyoyaweka yataondolewa. Maendeleo yako yatabaki.",
+    "cancel": "Ghairi",
+    "forget": "Sahau",
+    "clear": "Futa",
+    "progressForgotten": "Maendeleo yamesahauliwa.",
+    "savedWordsCleared": "Maneno yaliyohifadhiwa yamefutwa."
   },
   "th": {
     "appTitle": "Gloss",
@@ -7046,7 +7618,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss อ่านออกเสียงอย่างไร",
     "voiceDefault": "เลือกไว้ให้คุณ",
-    "voiceSection": "เสียง"
+    "voiceSection": "เสียง",
+    "memorySection": "ความทรงจำ",
+    "memoryCaption": "สิ่งที่ Gloss เก็บไว้",
+    "forgetProgress": "ลืมความคืบหน้าของฉัน",
+    "forgetProgressBody": "เครื่องหมายของคำที่คุณสำรวจแล้วจะถูกลบออก คำที่บันทึกไว้ยังคงอยู่",
+    "clearSavedWords": "ล้างคำที่บันทึกไว้",
+    "clearSavedWordsBody": "คำที่คุณเก็บไว้จะถูกลบออก ความคืบหน้าของคุณยังคงอยู่",
+    "cancel": "ยกเลิก",
+    "forget": "ลืม",
+    "clear": "ล้าง",
+    "progressForgotten": "ลืมความคืบหน้าแล้ว",
+    "savedWordsCleared": "ล้างคำที่บันทึกไว้แล้ว"
   },
   "tr": {
     "appTitle": "Gloss",
@@ -7179,7 +7762,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss nasıl sesli okur",
     "voiceDefault": "Sizin için seçildi",
-    "voiceSection": "Ses"
+    "voiceSection": "Ses",
+    "memorySection": "Bellek",
+    "memoryCaption": "Gloss'un sakladıkları",
+    "forgetProgress": "İlerlememi unut",
+    "forgetProgressBody": "Keşfettiğiniz kelimelerin işareti kaldırılacak. Kaydettiğiniz kelimeler kalır.",
+    "clearSavedWords": "Kaydedilen kelimeleri temizle",
+    "clearSavedWordsBody": "Sakladığınız kelimeler kaldırılacak. İlerlemeniz kalır.",
+    "cancel": "İptal",
+    "forget": "Unut",
+    "clear": "Temizle",
+    "progressForgotten": "İlerleme unutuldu.",
+    "savedWordsCleared": "Kaydedilen kelimeler temizlendi."
   },
   "uk": {
     "appTitle": "Gloss",
@@ -7312,7 +7906,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "як Gloss читає вголос",
     "voiceDefault": "Обраний для вас",
-    "voiceSection": "Голос"
+    "voiceSection": "Голос",
+    "memorySection": "Пам'ять",
+    "memoryCaption": "що зберігає Gloss",
+    "forgetProgress": "Забути мій поступ",
+    "forgetProgressBody": "Зі слів, які ви дослідили, буде знято позначки. Збережені слова залишаться.",
+    "clearSavedWords": "Очистити збережені слова",
+    "clearSavedWordsBody": "Слова, які ви зберегли, буде вилучено. Ваш поступ залишиться.",
+    "cancel": "Скасувати",
+    "forget": "Забути",
+    "clear": "Очистити",
+    "progressForgotten": "Поступ забуто.",
+    "savedWordsCleared": "Збережені слова очищено."
   },
   "ur": {
     "appTitle": "Gloss",
@@ -7445,7 +8050,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss کیسے بلند آواز میں پڑھتا ہے",
     "voiceDefault": "آپ کے لیے منتخب",
-    "voiceSection": "آواز"
+    "voiceSection": "آواز",
+    "memorySection": "یادداشت",
+    "memoryCaption": "Gloss کیا رکھتا ہے",
+    "forgetProgress": "میری پیش رفت بھول جائیں",
+    "forgetProgressBody": "جو الفاظ آپ نے دیکھے ہیں ان کا نشان ہٹ جائے گا۔ آپ کے محفوظ الفاظ رہیں گے۔",
+    "clearSavedWords": "محفوظ الفاظ صاف کریں",
+    "clearSavedWordsBody": "جو الفاظ آپ نے رکھے ہیں وہ ہٹا دیے جائیں گے۔ آپ کی پیش رفت رہے گی۔",
+    "cancel": "منسوخ",
+    "forget": "بھول جائیں",
+    "clear": "صاف کریں",
+    "progressForgotten": "پیش رفت بھلا دی گئی۔",
+    "savedWordsCleared": "محفوظ الفاظ صاف کر دیے گئے۔"
   },
   "vi": {
     "appTitle": "Gloss",
@@ -7578,7 +8194,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "cách Gloss đọc to",
     "voiceDefault": "Đã chọn cho bạn",
-    "voiceSection": "Giọng"
+    "voiceSection": "Giọng",
+    "memorySection": "Ký ức",
+    "memoryCaption": "những gì Gloss giữ lại",
+    "forgetProgress": "Quên tiến trình của tôi",
+    "forgetProgressBody": "Dấu trên những từ bạn đã khám phá sẽ được gỡ bỏ. Các từ đã lưu vẫn còn.",
+    "clearSavedWords": "Xóa các từ đã lưu",
+    "clearSavedWordsBody": "Những từ bạn đã giữ sẽ bị gỡ bỏ. Tiến trình của bạn vẫn còn.",
+    "cancel": "Hủy",
+    "forget": "Quên",
+    "clear": "Xóa",
+    "progressForgotten": "Đã quên tiến trình.",
+    "savedWordsCleared": "Đã xóa các từ đã lưu."
   },
   "zh_HK": {
     "appTitle": "Gloss",
@@ -7711,7 +8338,18 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss 如何朗讀",
     "voiceDefault": "為你選定",
-    "voiceSection": "語音"
+    "voiceSection": "語音",
+    "memorySection": "記憶",
+    "memoryCaption": "Gloss 記住的東西",
+    "forgetProgress": "忘記我的進度",
+    "forgetProgressBody": "你讀過的詞將不再標記。收藏的詞會保留。",
+    "clearSavedWords": "清空收藏的詞",
+    "clearSavedWordsBody": "你收藏的詞將被移除。你的進度會保留。",
+    "cancel": "取消",
+    "forget": "忘記",
+    "clear": "清空",
+    "progressForgotten": "進度已忘記。",
+    "savedWordsCleared": "收藏的詞已清空。"
   },
   "zh_TW": {
     "appTitle": "Gloss",
@@ -7844,6 +8482,17 @@
     "versionLine": "Gloss {version}",
     "voiceCaption": "Gloss 如何朗讀",
     "voiceDefault": "為你選定",
-    "voiceSection": "語音"
+    "voiceSection": "語音",
+    "memorySection": "記憶",
+    "memoryCaption": "Gloss 記住的東西",
+    "forgetProgress": "忘記我的進度",
+    "forgetProgressBody": "你讀過的詞將不再標記。收藏的詞會保留。",
+    "clearSavedWords": "清空收藏的詞",
+    "clearSavedWordsBody": "你收藏的詞將被移除。你的進度會保留。",
+    "cancel": "取消",
+    "forget": "忘記",
+    "clear": "清空",
+    "progressForgotten": "進度已忘記。",
+    "savedWordsCleared": "收藏的詞已清空。"
   }
 }

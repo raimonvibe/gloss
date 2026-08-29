@@ -454,4 +454,39 @@ class AppLocalizationsSi extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'මෙම උපාංගයේ $language හඬක් ස්ථාපනය කර නැත.';
   }
+
+  @override
+  String get memorySection => 'මතකය';
+
+  @override
+  String get memoryCaption => 'Gloss තබාගන්නා දේ';
+
+  @override
+  String get forgetProgress => 'මගේ ප්‍රගතිය අමතක කරන්න';
+
+  @override
+  String get forgetProgressBody =>
+      'ඔබ ගවේෂණය කළ වචනවල සලකුණ ඉවත් වේ. ඔබ සුරැකි වචන පවතී.';
+
+  @override
+  String get clearSavedWords => 'සුරැකි වචන ඉවත් කරන්න';
+
+  @override
+  String get clearSavedWordsBody =>
+      'ඔබ තබාගත් වචන ඉවත් කෙරේ. ඔබේ ප්‍රගතිය පවතී.';
+
+  @override
+  String get cancel => 'අවලංගු කරන්න';
+
+  @override
+  String get forget => 'අමතක කරන්න';
+
+  @override
+  String get clear => 'ඉවත් කරන්න';
+
+  @override
+  String get progressForgotten => 'ප්‍රගතිය අමතක කෙරිණි.';
+
+  @override
+  String get savedWordsCleared => 'සුරැකි වචන ඉවත් කෙරිණි.';
 }

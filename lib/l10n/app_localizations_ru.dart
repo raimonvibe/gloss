@@ -455,4 +455,39 @@ class AppLocalizationsRu extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'На этом устройстве нет голоса для языка $language.';
   }
+
+  @override
+  String get memorySection => 'Память';
+
+  @override
+  String get memoryCaption => 'что хранит Gloss';
+
+  @override
+  String get forgetProgress => 'Забыть мой прогресс';
+
+  @override
+  String get forgetProgressBody =>
+      'С изученных слов будут сняты отметки. Сохранённые слова останутся.';
+
+  @override
+  String get clearSavedWords => 'Очистить сохранённые слова';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Слова, которые вы сохранили, будут удалены. Ваш прогресс останется.';
+
+  @override
+  String get cancel => 'Отмена';
+
+  @override
+  String get forget => 'Забыть';
+
+  @override
+  String get clear => 'Очистить';
+
+  @override
+  String get progressForgotten => 'Прогресс забыт.';
+
+  @override
+  String get savedWordsCleared => 'Сохранённые слова очищены.';
 }

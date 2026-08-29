@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Δεν ήταν δυνατό το άνοιγμα του {label}.",
   "readExplanationsIn": "Ανάγνωση των επεξηγήσεων στα {language}",
   "readExplanationsCaption": "Η ίδια η λέξη διαβάζεται πάντα στα αγγλικά.",
-  "noVoiceInstalled": "Αυτή η συσκευή δεν έχει εγκατεστημένη φωνή {language}."
+  "noVoiceInstalled": "Αυτή η συσκευή δεν έχει εγκατεστημένη φωνή {language}.",
+  "memorySection": "Μνήμη",
+  "memoryCaption": "τι κρατά το Gloss",
+  "forgetProgress": "Ξέχνα την πρόοδό μου",
+  "forgetProgressBody": "Οι λέξεις που εξερευνήσατε θα πάψουν να είναι σημειωμένες. Οι αποθηκευμένες λέξεις μένουν.",
+  "clearSavedWords": "Καθαρισμός αποθηκευμένων λέξεων",
+  "clearSavedWordsBody": "Οι λέξεις που κρατήσατε θα αφαιρεθούν. Η πρόοδός σας μένει.",
+  "cancel": "Άκυρο",
+  "forget": "Ξέχνα",
+  "clear": "Καθαρισμός",
+  "progressForgotten": "Η πρόοδος ξεχάστηκε.",
+  "savedWordsCleared": "Οι αποθηκευμένες λέξεις καθαρίστηκαν."
 }

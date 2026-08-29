@@ -454,4 +454,39 @@ class AppLocalizationsId extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Perangkat ini tidak memiliki suara $language yang terpasang.';
   }
+
+  @override
+  String get memorySection => 'Ingatan';
+
+  @override
+  String get memoryCaption => 'apa yang Gloss simpan';
+
+  @override
+  String get forgetProgress => 'Lupakan kemajuan saya';
+
+  @override
+  String get forgetProgressBody =>
+      'Tanda pada kata yang telah kamu jelajahi akan dihapus. Kata tersimpanmu tetap ada.';
+
+  @override
+  String get clearSavedWords => 'Hapus kata tersimpan';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Kata yang kamu simpan akan dihapus. Kemajuanmu tetap ada.';
+
+  @override
+  String get cancel => 'Batal';
+
+  @override
+  String get forget => 'Lupakan';
+
+  @override
+  String get clear => 'Hapus';
+
+  @override
+  String get progressForgotten => 'Kemajuan dilupakan.';
+
+  @override
+  String get savedWordsCleared => 'Kata tersimpan dihapus.';
 }

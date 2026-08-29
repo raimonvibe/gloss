@@ -457,4 +457,39 @@ class AppLocalizationsEl extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Αυτή η συσκευή δεν έχει εγκατεστημένη φωνή $language.';
   }
+
+  @override
+  String get memorySection => 'Μνήμη';
+
+  @override
+  String get memoryCaption => 'τι κρατά το Gloss';
+
+  @override
+  String get forgetProgress => 'Ξέχνα την πρόοδό μου';
+
+  @override
+  String get forgetProgressBody =>
+      'Οι λέξεις που εξερευνήσατε θα πάψουν να είναι σημειωμένες. Οι αποθηκευμένες λέξεις μένουν.';
+
+  @override
+  String get clearSavedWords => 'Καθαρισμός αποθηκευμένων λέξεων';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Οι λέξεις που κρατήσατε θα αφαιρεθούν. Η πρόοδός σας μένει.';
+
+  @override
+  String get cancel => 'Άκυρο';
+
+  @override
+  String get forget => 'Ξέχνα';
+
+  @override
+  String get clear => 'Καθαρισμός';
+
+  @override
+  String get progressForgotten => 'Η πρόοδος ξεχάστηκε.';
+
+  @override
+  String get savedWordsCleared => 'Οι αποθηκευμένες λέξεις καθαρίστηκαν.';
 }

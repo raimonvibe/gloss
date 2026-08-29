@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} کو کھولا نہ جا سکا۔",
   "readExplanationsIn": "{language} میں وضاحتیں پڑھیں",
   "readExplanationsCaption": "لفظ خود ہمیشہ انگریزی میں پڑھا جاتا ہے۔",
-  "noVoiceInstalled": "اس آلے پر {language} آواز نصب نہیں ہے۔"
+  "noVoiceInstalled": "اس آلے پر {language} آواز نصب نہیں ہے۔",
+  "memorySection": "یادداشت",
+  "memoryCaption": "Gloss کیا رکھتا ہے",
+  "forgetProgress": "میری پیش رفت بھول جائیں",
+  "forgetProgressBody": "جو الفاظ آپ نے دیکھے ہیں ان کا نشان ہٹ جائے گا۔ آپ کے محفوظ الفاظ رہیں گے۔",
+  "clearSavedWords": "محفوظ الفاظ صاف کریں",
+  "clearSavedWordsBody": "جو الفاظ آپ نے رکھے ہیں وہ ہٹا دیے جائیں گے۔ آپ کی پیش رفت رہے گی۔",
+  "cancel": "منسوخ",
+  "forget": "بھول جائیں",
+  "clear": "صاف کریں",
+  "progressForgotten": "پیش رفت بھلا دی گئی۔",
+  "savedWordsCleared": "محفوظ الفاظ صاف کر دیے گئے۔"
 }

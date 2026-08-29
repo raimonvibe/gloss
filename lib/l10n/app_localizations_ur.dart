@@ -453,4 +453,39 @@ class AppLocalizationsUr extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'اس آلے پر $language آواز نصب نہیں ہے۔';
   }
+
+  @override
+  String get memorySection => 'یادداشت';
+
+  @override
+  String get memoryCaption => 'Gloss کیا رکھتا ہے';
+
+  @override
+  String get forgetProgress => 'میری پیش رفت بھول جائیں';
+
+  @override
+  String get forgetProgressBody =>
+      'جو الفاظ آپ نے دیکھے ہیں ان کا نشان ہٹ جائے گا۔ آپ کے محفوظ الفاظ رہیں گے۔';
+
+  @override
+  String get clearSavedWords => 'محفوظ الفاظ صاف کریں';
+
+  @override
+  String get clearSavedWordsBody =>
+      'جو الفاظ آپ نے رکھے ہیں وہ ہٹا دیے جائیں گے۔ آپ کی پیش رفت رہے گی۔';
+
+  @override
+  String get cancel => 'منسوخ';
+
+  @override
+  String get forget => 'بھول جائیں';
+
+  @override
+  String get clear => 'صاف کریں';
+
+  @override
+  String get progressForgotten => 'پیش رفت بھلا دی گئی۔';
+
+  @override
+  String get savedWordsCleared => 'محفوظ الفاظ صاف کر دیے گئے۔';
 }

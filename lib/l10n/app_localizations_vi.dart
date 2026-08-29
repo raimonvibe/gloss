@@ -454,4 +454,39 @@ class AppLocalizationsVi extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Thiết bị này chưa cài giọng $language.';
   }
+
+  @override
+  String get memorySection => 'Ký ức';
+
+  @override
+  String get memoryCaption => 'những gì Gloss giữ lại';
+
+  @override
+  String get forgetProgress => 'Quên tiến trình của tôi';
+
+  @override
+  String get forgetProgressBody =>
+      'Dấu trên những từ bạn đã khám phá sẽ được gỡ bỏ. Các từ đã lưu vẫn còn.';
+
+  @override
+  String get clearSavedWords => 'Xóa các từ đã lưu';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Những từ bạn đã giữ sẽ bị gỡ bỏ. Tiến trình của bạn vẫn còn.';
+
+  @override
+  String get cancel => 'Hủy';
+
+  @override
+  String get forget => 'Quên';
+
+  @override
+  String get clear => 'Xóa';
+
+  @override
+  String get progressForgotten => 'Đã quên tiến trình.';
+
+  @override
+  String get savedWordsCleared => 'Đã xóa các từ đã lưu.';
 }

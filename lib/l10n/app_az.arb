@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} açıla bilmədi.",
   "readExplanationsIn": "İzahları {language} dilində oxu",
   "readExplanationsCaption": "Sözün özü həmişə ingiliscə oxunur.",
-  "noVoiceInstalled": "Bu cihazda {language} səsi quraşdırılmayıb."
+  "noVoiceInstalled": "Bu cihazda {language} səsi quraşdırılmayıb.",
+  "memorySection": "Yaddaş",
+  "memoryCaption": "Gloss nəyi saxlayır",
+  "forgetProgress": "İrəliləyişimi unut",
+  "forgetProgressBody": "Kəşf etdiyiniz sözlərin işarəsi götürüləcək. Saxladığınız sözlər qalır.",
+  "clearSavedWords": "Saxlanan sözləri təmizlə",
+  "clearSavedWordsBody": "Saxladığınız sözlər silinəcək. İrəliləyişiniz qalır.",
+  "cancel": "Ləğv et",
+  "forget": "Unut",
+  "clear": "Təmizlə",
+  "progressForgotten": "İrəliləyiş unuduldu.",
+  "savedWordsCleared": "Saxlanan sözlər təmizləndi."
 }

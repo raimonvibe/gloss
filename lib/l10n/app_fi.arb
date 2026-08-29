@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Kohteen {label} avaaminen epäonnistui.",
   "readExplanationsIn": "Lue selitykset kielellä {language}",
   "readExplanationsCaption": "Itse sana luetaan aina englanniksi.",
-  "noVoiceInstalled": "Tässä laitteessa ei ole {language}-ääntä asennettuna."
+  "noVoiceInstalled": "Tässä laitteessa ei ole {language}-ääntä asennettuna.",
+  "memorySection": "Muisti",
+  "memoryCaption": "mitä Gloss säilyttää",
+  "forgetProgress": "Unohda edistymiseni",
+  "forgetProgressBody": "Tutkimiesi sanojen merkintä poistetaan. Tallennetut sanasi säilyvät.",
+  "clearSavedWords": "Tyhjennä tallennetut sanat",
+  "clearSavedWordsBody": "Säilyttämäsi sanat poistetaan. Edistymisesi säilyy.",
+  "cancel": "Peruuta",
+  "forget": "Unohda",
+  "clear": "Tyhjennä",
+  "progressForgotten": "Edistyminen unohdettu.",
+  "savedWordsCleared": "Tallennetut sanat tyhjennetty."
 }
