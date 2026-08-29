@@ -87,6 +87,13 @@ app's own copy (a score, a heading), `englishCopy` for the English twin of any A
 string. Screens must not hand a raw `l10n.` string to `SpeakButton`: that is what gave
 the quiz results a Dutch sentence in an English accent.
 
+A reading is the page, top to bottom, each piece in the language it is written in:
+`readingOf()` sends the lemma and its respelling to the English voice, then hands the
+rest — part of speech, origin, roots, meaning, the sentence, the gloss — to
+`spokenExplanationWith()` in the reader's language. `spokenEntryWith()` is the same page
+in English, and doubles as the fallback. Both cover the whole card; a reading that
+stopped at the meaning left the origin and the roots unread.
+
 Translated copy also quotes the English lexicon inside
 its own sentences — the Dutch for *amphiboly* explains it with "Visiting relatives can
 be tiring" in the middle of a Dutch paragraph. `segmentTranslation()` in
@@ -197,7 +204,7 @@ flutter test
 ```
 
 **Known-good baseline (2026-08-29, Flutter 3.41.7 on Windows):** `flutter analyze`
-clean, `flutter test` **119/119**, `l10n/untranslated.json` empty,
+clean, `flutter test` **126/126**, `l10n/untranslated.json` empty,
 `flutter build apk --debug` exit 0.
 
 The Flutter version differs by machine — 3.47.2 / Dart 3.13.2 on Linux, 3.41.7 on

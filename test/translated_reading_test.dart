@@ -49,6 +49,9 @@ void main() {
           ChangeNotifierProvider.value(value: repo),
         ],
         child: MaterialApp(
+          locale: const Locale('nl'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
           home: Builder(
             builder: (context) {
               reading = readingOf(context, entry);
@@ -89,6 +92,135 @@ void main() {
     final groups = {for (final piece in dutch) piece.group};
     expect(groups.length, 1);
     expect(dutch.first.fallback, isNotNull);
+  });
+
+  testWidgets('the reading covers the whole page, in both voices',
+      (tester) async {
+    SharedPreferences.setMockInitialValues({
+      'beautiful-words:locale': 'nl-NL',
+      'beautiful-words:read-translation': true,
+    });
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(
+      prefs,
+      catalog: LocaleCatalog.fromJsonString(
+        File('l10n/catalog.json').readAsStringSync(),
+      ),
+    );
+
+    final repo = (await tester.runAsync(() async {
+      final loaded = await WordRepository.load();
+      await loaded.applyLocale('nl');
+      return loaded;
+    }))!;
+    final entry = repo.words.firstWhere((word) => word.id == 'torpid');
+
+    late List<SpeechSegment> reading;
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: settings),
+          ChangeNotifierProvider.value(value: repo),
+        ],
+        child: MaterialApp(
+          locale: const Locale('nl'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          home: Builder(
+            builder: (context) {
+              reading = readingOf(context, entry);
+              return const SizedBox.shrink();
+            },
+          ),
+        ),
+      ),
+    );
+
+    final english =
+        reading.where((p) => p.isEnglish).map((p) => p.text).join(' ');
+    final dutch =
+        reading.where((p) => !p.isEnglish).map((p) => p.text).join(' ');
+
+    // The card at the top of the page - what kind of word, where it came
+    // from, what it is built of - went unread before this.
+    expect(dutch, contains('bijvoeglijk naamwoord'));
+    expect(dutch, contains('Latijn'));
+    expect(english, contains('torpidus'), reason: 'the etymon is not Dutch');
+    expect(english, contains('torpere'), reason: 'a root form is not Dutch');
+    expect(dutch, contains('verdoofd zijn'));
+    expect(dutch, contains('in een staat van'));
+
+    // Then the meaning, the sentence, and the sentence in Dutch - the last
+    // of which was left off the reading entirely.
+    expect(dutch, contains('Langzaam en half in slaap'));
+    expect(dutch, contains('lichamelijk inactief'));
+    expect(english, contains('The office fell torpid in the heavy heat'));
+    expect(dutch, contains('Het kantoor viel'));
+    expect(dutch, contains('augustushitte'));
+
+    // The lemma opens it, in English, as it always did.
+    expect(reading.first.isEnglish, isTrue);
+    expect(reading.first.text, contains('Torpid'));
+
+    // And no Dutch voice is ever handed the English.
+    for (final piece in reading.where((p) => !p.isEnglish)) {
+      expect(piece.text, isNot(contains('The office fell')));
+      expect(piece.text, isNot(contains('torpere')));
+    }
+  });
+
+  testWidgets('with the switch off the whole page is read in English',
+      (tester) async {
+    SharedPreferences.setMockInitialValues({
+      'beautiful-words:locale': 'nl-NL',
+      'beautiful-words:read-translation': false,
+    });
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(
+      prefs,
+      catalog: LocaleCatalog.fromJsonString(
+        File('l10n/catalog.json').readAsStringSync(),
+      ),
+    );
+    final repo = (await tester.runAsync(() async {
+      final loaded = await WordRepository.load();
+      await loaded.applyLocale('nl');
+      return loaded;
+    }))!;
+    final entry = repo.words.firstWhere((word) => word.id == 'torpid');
+
+    late List<SpeechSegment> reading;
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: settings),
+          ChangeNotifierProvider.value(value: repo),
+        ],
+        child: MaterialApp(
+          locale: const Locale('nl'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          home: Builder(
+            builder: (context) {
+              reading = readingOf(context, entry);
+              return const SizedBox.shrink();
+            },
+          ),
+        ),
+      ),
+    );
+
+    expect(reading.length, 1);
+    expect(reading.single.isEnglish, isTrue);
+    final spoken = reading.single.text;
+    // The same page, the same order, one voice.
+    expect(spoken, contains('Torpid'));
+    expect(spoken, contains('adjective'));
+    expect(spoken, contains('From Latin, torpidus.'));
+    expect(spoken, contains('torpere'));
+    expect(spoken, contains('Slow and half-asleep'));
+    expect(spoken, contains('The office fell torpid'));
+    expect(spoken, isNot(contains('Latijn')));
   });
 
   group("the app's own copy", () {

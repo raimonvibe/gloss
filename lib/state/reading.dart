@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../l10n/app_localizations_en.dart';
+import '../l10n/speech_templates.dart';
 import '../models/word_entry.dart';
 import 'settings_controller.dart';
 import 'speech_controller.dart';
@@ -60,31 +61,37 @@ List<SpeechSegment> spokenLine(
   ];
 }
 
-/// The reading of one entry: the lemma is always English, the explanation
-/// follows the reader's language only when they have switched it on in the
-/// study, and the engine drops that half if the device has no voice for it.
+/// The reading of one entry: the page, top to bottom, each piece in the
+/// language it is written in.
+///
+/// The lemma and how to say it are English and always will be. Everything
+/// after that — what kind of word it is, where it came from, what it is
+/// built of, what it means, the sentence it lives in — follows the reader's
+/// language when they have switched that on, with the English it quotes cut
+/// back out for the English voice.
+///
+/// All of it shares one group, so a device with no voice for the language
+/// reads the English entry once instead of a lemma followed by silence.
 List<SpeechSegment> readingOf(BuildContext context, WordEntry live) {
   final englishOnly = [SpeechSegment(live.spokenEntry)];
   final tag = readerLanguageTag(context);
   if (tag == null) return englishOnly;
 
-  final explanation = live.spokenExplanation;
+  final templates = SpeechTemplates.fromL10n(AppLocalizations.of(context));
+  final explanation = live.spokenExplanationWith(templates);
   if (explanation.isEmpty) return englishOnly;
 
-  // The English half shrinks to what only exists in English, so the two
-  // readings do not say the same thing twice. The explanation follows in
-  // the reader's language — cut at whatever English it quotes, so a Dutch
-  // voice never has to read an English sentence.
+  final group = 'entry:${live.id}';
   return [
-    SpeechSegment(live.spokenLemma),
+    SpeechSegment(live.spokenWord, group: group),
     ...segmentTranslation(
       explanation,
       languageTag: tag,
       englishTerms: live.quotedEnglish,
       // If the voice went missing since the switch was turned on, the
-      // reader still hears the explanation, in English.
-      fallback: live.english.spokenExplanationFallback,
-      group: 'explanation:${live.id}',
+      // reader still hears the whole entry, in English.
+      fallback: live.english.spokenEntry,
+      group: group,
     ),
   ];
 }
