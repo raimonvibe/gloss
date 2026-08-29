@@ -7,9 +7,11 @@ import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
+import '../state/reading.dart';
 import '../state/settings_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/etymology_card.dart';
@@ -42,7 +44,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
     final live = matches.isEmpty ? widget.entry : matches.first;
     context
         .read<SpeechController>()
-        .speakSegments('entry:${live.id}', _readingOf(context, live));
+        .speakSegments('entry:${live.id}', readingOf(context, live));
   }
 
   @override
@@ -65,7 +67,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
               SpeakButton(
                 speechKey: 'entry:${live.id}',
                 text: live.spokenEntry,
-                segments: _readingOf(context, live),
+                segments: readingOf(context, live),
               ),
               const Padding(
                 padding: EdgeInsets.only(right: 8),
@@ -73,189 +75,165 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
               ),
             ],
           ),
-          body: ListView(
-            padding: const EdgeInsets.fromLTRB(20, 8, 20, 40),
-            children: [
-              EtymologyCard(entry: live),
-              const DividerFlourish(),
-              _Section(
-                title: l10n.inPlainWords,
-                child: Text(
-                  live.friendly,
-                  style: TextStyle(
-                    fontSize: 18,
-                    height: 1.45,
-                    color: brand.foreground,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 18),
-              _Section(
-                title: l10n.theDefinition,
-                child: Text(
-                  live.definition,
-                  style: TextStyle(
-                    fontSize: 16,
-                    height: 1.45,
-                    color: brand.foregroundMuted,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 18),
-              _Section(
-                title: l10n.inASentence,
-                child: Builder(
-                  builder: (context) {
-                    final rtl =
-                        Directionality.of(context) == TextDirection.rtl;
-                    final gold = brand.accentGold.withValues(alpha: 0.5);
-                    return Container(
-                      padding: EdgeInsets.only(
-                        left: rtl ? 0 : 12,
-                        right: rtl ? 12 : 0,
+          body: LayoutBoundary(
+            child: Builder(
+              builder: (context) => ListView(
+                padding: context.layout.pagePadding(top: 8, bottom: 40),
+                children: [
+                  EtymologyCard(entry: live),
+                  const DividerFlourish(),
+                  _Section(
+                    title: l10n.inPlainWords,
+                    child: Text(
+                      live.friendly,
+                      style: TextStyle(
+                        fontSize: 18,
+                        height: 1.45,
+                        color: brand.foreground,
                       ),
-                      decoration: BoxDecoration(
-                        border: Border(
-                          left: rtl
-                              ? BorderSide.none
-                              : BorderSide(color: gold, width: 2),
-                          right: rtl
-                              ? BorderSide(color: gold, width: 2)
-                              : BorderSide.none,
-                        ),
+                    ),
+                  ),
+                  const SizedBox(height: 18),
+                  _Section(
+                    title: l10n.theDefinition,
+                    child: Text(
+                      live.definition,
+                      style: TextStyle(
+                        fontSize: 16,
+                        height: 1.45,
+                        color: brand.foregroundMuted,
                       ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          EnglishLemma(
-                            child: Text(
-                              '“${live.example}”',
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontStyle: FontStyle.italic,
-                                height: 1.45,
-                                color: brand.foregroundMuted,
-                              ),
+                    ),
+                  ),
+                  const SizedBox(height: 18),
+                  _Section(
+                    title: l10n.inASentence,
+                    child: Builder(
+                      builder: (context) {
+                        final rtl =
+                            Directionality.of(context) == TextDirection.rtl;
+                        final gold = brand.accentGold.withValues(alpha: 0.5);
+                        return Container(
+                          padding: EdgeInsets.only(
+                            left: rtl ? 0 : 12,
+                            right: rtl ? 12 : 0,
+                          ),
+                          decoration: BoxDecoration(
+                            border: Border(
+                              left: rtl
+                                  ? BorderSide.none
+                                  : BorderSide(color: gold, width: 2),
+                              right: rtl
+                                  ? BorderSide(color: gold, width: 2)
+                                  : BorderSide.none,
                             ),
                           ),
-                          if (live.exampleGloss != null) ...[
-                            const SizedBox(height: 8),
-                            Text(
-                              l10n.exampleGlossLabel,
-                              style: TextStyle(
-                                fontSize: 12,
-                                fontWeight: FontWeight.w600,
-                                color: brand.accentGold,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              EnglishLemma(
+                                child: Text(
+                                  '“${live.example}”',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontStyle: FontStyle.italic,
+                                    height: 1.45,
+                                    color: brand.foregroundMuted,
+                                  ),
+                                ),
                               ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              live.exampleGloss!,
-                              style: TextStyle(
-                                fontSize: 15,
-                                height: 1.4,
-                                color: brand.foregroundMuted,
-                              ),
-                            ),
-                          ],
-                        ],
-                      ),
-                    );
-                  },
-                ),
-              ),
-              const SizedBox(height: 16),
-              Wrap(
-                spacing: 8,
-                runSpacing: 8,
-                children: [
-                  for (final tag in live.tags)
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 12,
-                        vertical: 6,
-                      ),
-                      decoration: BoxDecoration(
-                        color: brand.backgroundAlt,
-                        borderRadius: BorderRadius.circular(999),
-                        border: Border.all(color: brand.cardBorder),
-                      ),
-                      child: Text(
-                        localizedCategoryLabel(l10n, tag),
-                        style: TextStyle(
-                          fontSize: 12,
-                          color: brand.foregroundMuted,
-                        ),
-                      ),
-                    ),
-                ],
-              ),
-              const SizedBox(height: 24),
-              Row(
-                children: [
-                  Expanded(
-                    child: _PillButton(
-                      icon: saved ? Icons.favorite : Icons.favorite_border,
-                      label: saved ? l10n.saved : l10n.save,
-                      filled: saved,
-                      onTap: () => progress.favorites.toggle(live.id),
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: _PillButton(
-                      icon: Icons.copy_outlined,
-                      label: l10n.copy,
-                      onTap: () async {
-                        await Clipboard.setData(
-                          ClipboardData(text: '${live.word} — ${live.friendly}'),
+                              if (live.exampleGloss != null) ...[
+                                const SizedBox(height: 8),
+                                Text(
+                                  l10n.exampleGlossLabel,
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600,
+                                    color: brand.accentGold,
+                                  ),
+                                ),
+                                const SizedBox(height: 4),
+                                Text(
+                                  live.exampleGloss!,
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    height: 1.4,
+                                    color: brand.foregroundMuted,
+                                  ),
+                                ),
+                              ],
+                            ],
+                          ),
                         );
-                        if (context.mounted) {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text(l10n.copiedToClipboard)),
-                          );
-                        }
                       },
                     ),
                   ),
+                  const SizedBox(height: 16),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
+                    children: [
+                      for (final tag in live.tags)
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 6,
+                          ),
+                          decoration: BoxDecoration(
+                            color: brand.backgroundAlt,
+                            borderRadius: BorderRadius.circular(999),
+                            border: Border.all(color: brand.cardBorder),
+                          ),
+                          child: Text(
+                            localizedCategoryLabel(l10n, tag),
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: brand.foregroundMuted,
+                            ),
+                          ),
+                        ),
+                    ],
+                  ),
+                  const SizedBox(height: 24),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: _PillButton(
+                          icon: saved ? Icons.favorite : Icons.favorite_border,
+                          label: saved ? l10n.saved : l10n.save,
+                          filled: saved,
+                          onTap: () => progress.favorites.toggle(live.id),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: _PillButton(
+                          icon: Icons.copy_outlined,
+                          label: l10n.copy,
+                          onTap: () async {
+                            await Clipboard.setData(
+                              ClipboardData(
+                            text: '${live.word} — ${live.friendly}',
+                          ),
+                            );
+                            if (context.mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text(l10n.copiedToClipboard)),
+                              );
+                            }
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
-            ],
+            ),
           ),
         ),
       ),
     );
   }
-}
-
-/// The lemma is always English. The explanation follows the reader's
-/// language only when they have switched it on in the study; the engine
-/// drops that segment if the device has no voice for it.
-List<SpeechSegment> _readingOf(BuildContext context, WordEntry live) {
-  final englishOnly = [SpeechSegment(live.spokenEntry)];
-  final settings = context.read<SettingsController>();
-  if (!settings.readTranslationAloud) return englishOnly;
-
-  final info = settings.catalog.infoFor(
-    settings.localeIdFor(View.of(context).platformDispatcher.locales),
-  );
-  if (info == null || info.translationKey == 'en') return englishOnly;
-
-  final explanation = live.spokenExplanation;
-  if (explanation.isEmpty) return englishOnly;
-
-  // The English half shrinks to what only exists in English, so the two
-  // readings do not say the same thing twice.
-  return [
-    SpeechSegment(live.spokenLemma),
-    SpeechSegment(
-      explanation,
-      languageTag: info.flutterLocale.toLanguageTag(),
-      // If the voice went missing since the switch was turned on, the
-      // reader still hears the explanation, in English.
-      fallback: live.english.spokenExplanationFallback,
-    ),
-  ];
 }
 
 class _Section extends StatelessWidget {

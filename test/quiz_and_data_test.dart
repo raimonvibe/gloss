@@ -245,4 +245,36 @@ void main() {
       expect(progress.favorites.count, 1, reason: 'saved words were collateral');
     });
   });
+
+  _englishTextIsWhole();
+}
+
+/// The shipped English text once carried a round of escaping too many: 20
+/// examples showed a literal \" on screen, and 23 explanations were cut off
+/// where their quotation began. Both came from generation, so both can come
+/// back the same way.
+void _englishTextIsWhole() {
+  test('no shipped English text carries a stray escape', () async {
+    TestWidgetsFlutterBinding.ensureInitialized();
+    final repo = await WordRepository.load();
+
+    final escaped = <String>[];
+    final unbalanced = <String>[];
+    for (final entry in repo.words) {
+      final fields = {
+        'definition': entry.definition,
+        'friendly': entry.friendly,
+        'example': entry.example,
+      };
+      fields.forEach((name, text) {
+        if (text.contains('\\')) escaped.add('${entry.id}/$name');
+        // A quotation that opens has to close, or the text was cut off.
+        if (RegExp('"').allMatches(text).length.isOdd) {
+          unbalanced.add('${entry.id}/$name');
+        }
+      });
+    }
+    expect(escaped, isEmpty, reason: 'backslashes reached the page');
+    expect(unbalanced, isEmpty, reason: 'a quotation opens and never closes');
+  });
 }

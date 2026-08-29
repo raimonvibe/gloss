@@ -6,6 +6,7 @@ import '../l10n/category_labels.dart';
 import '../l10n/locale_catalog.dart';
 import '../state/settings_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/theme_toggle.dart';
 
@@ -69,6 +70,10 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
       if (selected != null) selected.country.continent,
     };
 
+    final layout = context.layout;
+    final side = layout.sideInset(layout.contentWidth);
+    final columns = layout.columnsFor(tile: 360);
+
     final grouped = <String, List<LanguageChoice>>{
       for (final continent in _continentOrder) continent: [],
     };
@@ -79,7 +84,7 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(20, 16, 20, 8),
+          padding: EdgeInsets.fromLTRB(side, 16, side, 8),
           child: Row(
             children: [
               Expanded(
@@ -104,7 +109,7 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
         ),
         if (selected != null)
           Padding(
-            padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
+            padding: EdgeInsets.fromLTRB(side, 0, side, 12),
             child: _LanguageRow(
               choice: selected,
               selected: true,
@@ -113,7 +118,7 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
             ),
           ),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: EdgeInsets.symmetric(horizontal: side),
           child: CardSurface(
             radius: 999,
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
@@ -167,7 +172,7 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
                   ),
                 )
               : ListView(
-                  padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
+                  padding: EdgeInsets.fromLTRB(side, 8, side, 32),
                   children: [
                     for (final continent in _continentOrder)
                       if (grouped[continent]!.isNotEmpty) ...[
@@ -180,17 +185,58 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
                               : () => _toggle(continent),
                         ),
                         if (_isOpen(continent, searching: searching))
-                          for (final choice in grouped[continent]!)
-                            _LanguageRow(
-                              choice: choice,
-                              selected: choice.locale.id == selectedId,
-                              onTap: () =>
-                                  settings.setLocaleId(choice.locale.id),
-                            ),
+                          _CountryColumns(
+                            columns: columns,
+                            children: [
+                              for (final choice in grouped[continent]!)
+                                _LanguageRow(
+                                  choice: choice,
+                                  selected: choice.locale.id == selectedId,
+                                  onTap: () =>
+                                      settings.setLocaleId(choice.locale.id),
+                                ),
+                            ],
+                          ),
                       ],
                   ],
                 ),
         ),
+      ],
+    );
+  }
+}
+
+/// The countries of one continent, in as many columns as the page can hold.
+/// A row is only as tall as its tallest card, which keeps the columns level
+/// however long a country's name runs.
+class _CountryColumns extends StatelessWidget {
+  const _CountryColumns({required this.columns, required this.children});
+
+  final int columns;
+  final List<Widget> children;
+
+  @override
+  Widget build(BuildContext context) {
+    if (columns <= 1) return Column(children: children);
+    final rows = (children.length + columns - 1) ~/ columns;
+    return Column(
+      children: [
+        for (var row = 0; row < rows; row++)
+          IntrinsicHeight(
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                for (var column = 0; column < columns; column++) ...[
+                  if (column > 0) const SizedBox(width: 10),
+                  Expanded(
+                    child: row * columns + column < children.length
+                        ? children[row * columns + column]
+                        : const SizedBox.shrink(),
+                  ),
+                ],
+              ],
+            ),
+          ),
       ],
     );
   }

@@ -118,8 +118,8 @@
       "partOfSpeech": "noun",
       "pronunciation": "am-FIB-uh-lee",
       "definition": "Ambiguity arising from grammatical structure — a sentence readable two ways.",
-      "friendly": "A sentence that's grammatically fine but can be read in two completely different ways, like \\",
-      "example": "\\\"Visiting relatives can be tiring\\\" is a classic amphiboly — are the relatives tiring, or is visiting them?",
+      "friendly": "A sentence that's grammatically fine but can be read in two completely different ways, like \"I saw the man with the telescope.\"",
+      "example": "\"Visiting relatives can be tiring\" is a classic amphiboly — are the relatives tiring, or is visiting them?",
       "tags": [
         "speech",
         "knowledge"
@@ -272,7 +272,7 @@
       "pronunciation": "proh-LEP-tih-kul",
       "definition": "Anticipating or representing something as done before it has actually happened.",
       "friendly": "Jumping the gun in a literary way — describing a future event as if it's already finished, to make a point land harder.",
-      "example": "The general's proleptical toast to \\\"victory\\\" was delivered a full week before the battle.",
+      "example": "The general's proleptical toast to \"victory\" was delivered a full week before the battle.",
       "tags": [
         "speech",
         "knowledge"
@@ -297,7 +297,7 @@
       "partOfSpeech": "adjective",
       "pronunciation": "noo-MAT-ik",
       "definition": "Operated by air pressure; also relating to spirit or breath.",
-      "friendly": "Usually means \\",
+      "friendly": "Usually means \"powered by compressed air\" — though it can also mean relating to spirit or breath.",
       "example": "The pneumatic brakes hissed as the bus pulled up to the curb.",
       "tags": [
         "objects",
@@ -323,7 +323,7 @@
       "partOfSpeech": "adjective",
       "pronunciation": "kat-uh-FAT-ik",
       "definition": "Describing God or the divine through positive statements — the opposite of apophatic.",
-      "friendly": "A way of talking about God by saying what God is — \\",
+      "friendly": "A way of talking about God by saying what God is — \"God is love\" — rather than only what God is not.",
       "example": "Cataphatic theology speaks confidently of God as loving, just, and merciful.",
       "tags": [
         "religion"
@@ -374,7 +374,7 @@
       "partOfSpeech": "noun",
       "pronunciation": "thee-OD-ih-see",
       "definition": "A defense of God's goodness given the existence of evil.",
-      "friendly": "The age-old attempt to answer \\",
+      "friendly": "The age-old attempt to answer \"If God is good, why does evil exist?\"",
       "example": "Her thesis explored theodicy through the lens of the Book of Job.",
       "tags": [
         "religion",
@@ -475,7 +475,7 @@
       "partOfSpeech": "adjective",
       "pronunciation": "per-ih-FRAS-tik",
       "definition": "Using roundabout, wordy phrasing instead of a direct form.",
-      "friendly": "Taking the long way round with words — saying \\",
+      "friendly": "Taking the long way round with words — saying \"make a decision\" instead of \"decide.\"",
       "example": "His periphrastic emails could have said in one line what took him three paragraphs.",
       "tags": [
         "speech",
@@ -553,7 +553,7 @@
       ],
       "partOfSpeech": "adjective / verb",
       "pronunciation": "FRIK-uh-seed",
-      "definition": "Meat stewed or braised in sauce — properly spelled \\",
+      "definition": "Meat stewed or braised in sauce — properly spelled \"fricasseed.\"",
       "friendly": "A cozy old cooking term for meat that's been cut up and simmered slowly in its own sauce until tender.",
       "example": "Grandmother's fricasseed chicken was the highlight of every Sunday dinner.",
       "tags": [
@@ -605,8 +605,8 @@
       "partOfSpeech": "verb",
       "pronunciation": "RAY-ih-fy",
       "definition": "To treat an abstract idea as if it were a concrete thing.",
-      "friendly": "To make an idea feel real and solid — turning something fuzzy, like \\",
-      "example": "Calling a nation's \\\"spirit\\\" its own being reifies something that's really just millions of individual choices.",
+      "friendly": "To make an idea feel real and solid — turning something fuzzy, like \"the economy,\" into a thing you can point at.",
+      "example": "Calling a nation's \"spirit\" its own being reifies something that's really just millions of individual choices.",
       "tags": [
         "knowledge"
       ],
@@ -679,9 +679,9 @@
       "variants": [],
       "partOfSpeech": "noun",
       "pronunciation": "meh-TON-uh-mee",
-      "definition": "A figure of speech naming something by an associated term, e.g., \\",
-      "friendly": "Using a related word to stand in for the real thing — saying \\",
-      "example": "\\\"Wall Street had a rough day\\\" is metonymy — it really means the stock market did.",
+      "definition": "A figure of speech naming something by an associated term, e.g., \"the crown\" for the monarch.",
+      "friendly": "Using a related word to stand in for the real thing — saying \"the White House announced\" when you mean the administration.",
+      "example": "\"Wall Street had a rough day\" is metonymy — it really means the stock market did.",
       "tags": [
         "speech"
       ],
@@ -731,7 +731,7 @@
       "pronunciation": "yoo-FOH-nee-us",
       "definition": "Pleasant-sounding.",
       "friendly": "Just nice to hear — a euphonious word, name, or sentence rolls off the ear smoothly, almost musically.",
-      "example": "\\\"Murmuring brook\\\" is a euphonious little phrase, soft and easy to say.",
+      "example": "\"Murmuring brook\" is a euphonious little phrase, soft and easy to say.",
       "tags": [
         "speech",
         "appearance"
@@ -756,7 +756,7 @@
       "partOfSpeech": "adjective",
       "pronunciation": "PYOO-tuh-tiv",
       "definition": "Generally assumed or supposed to be.",
-      "friendly": "Widely believed to be true, even if it hasn't actually been proven — the \\",
+      "friendly": "Widely believed to be true, even if it hasn't actually been proven — the \"supposed\" version of something.",
       "example": "The putative author of the letter later turned out to be a total stranger.",
       "tags": [
         "knowledge"
@@ -782,7 +782,7 @@
       "pronunciation": "nee-OL-uh-jiz-um",
       "definition": "A newly coined word or phrase.",
       "friendly": "A brand-new word — freshly invented, not yet (or barely) in the dictionary.",
-      "example": "\\\"Doomscrolling\\\" started as a neologism and quickly became everyday slang.",
+      "example": "\"Doomscrolling\" started as a neologism and quickly became everyday slang.",
       "tags": [
         "speech"
       ],
@@ -833,7 +833,7 @@
       "pronunciation": "sen-TEN-shus",
       "definition": "Given to moralizing in a pompous or affected manner.",
       "friendly": "Loves to deliver little life lessons in a self-important way, like every sentence is a fortune cookie.",
-      "example": "His sententious toast about \\\"the true meaning of friendship\\\" made everyone check their watches.",
+      "example": "His sententious toast about \"the true meaning of friendship\" made everyone check their watches.",
       "tags": [
         "speech",
         "criticism"
@@ -936,8 +936,8 @@
       "partOfSpeech": "noun",
       "pronunciation": "taw-TOL-uh-jee",
       "definition": "Needless repetition of the same idea in different words.",
-      "friendly": "Saying the same thing twice without adding anything new, like \\",
-      "example": "\\\"It is what it is\\\" is a favorite tautology of people avoiding a real explanation.",
+      "friendly": "Saying the same thing twice without adding anything new, like \"free gift\" or \"end result.\"",
+      "example": "\"It is what it is\" is a favorite tautology of people avoiding a real explanation.",
       "tags": [
         "speech",
         "criticism"
@@ -963,7 +963,7 @@
       "pronunciation": "LAK-uh-niz-um",
       "definition": "The use of very few words; terse speech.",
       "friendly": "Saying a lot with very little — the art of the short, blunt reply, named after the notoriously brief Spartans of Laconia.",
-      "example": "\\\"Molon labe\\\" — \\\"come and take them\\\" — is history's most famous piece of laconism.",
+      "example": "\"Molon labe\" — \"come and take them\" — is history's most famous piece of laconism.",
       "tags": [
         "speech",
         "virtue"
@@ -1043,7 +1043,7 @@
       "pronunciation": "UNK-choo-us",
       "definition": "Excessively flattering or oily in manner.",
       "friendly": "So smoothly charming it feels slippery — flattery laid on so thick you can practically feel the grease.",
-      "example": "The unctuous salesman kept complimenting my \\\"excellent taste\\\" before every upsell.",
+      "example": "The unctuous salesman kept complimenting my \"excellent taste\" before every upsell.",
       "tags": [
         "character",
         "vice",
@@ -1223,7 +1223,7 @@
       "partOfSpeech": "noun",
       "pronunciation": "kuh-NYE",
       "definition": "The common rabble or masses, used contemptuously.",
-      "friendly": "A snobbish, dismissive word for \\",
+      "friendly": "A snobbish, dismissive word for \"the rabble\" or common people, used with contempt.",
       "example": "The count sneered at the canaille gathering outside the palace gates.",
       "tags": [
         "people",
@@ -1301,7 +1301,7 @@
       "pronunciation": "KLOD-pate",
       "definition": "A stupid person; a blockhead.",
       "friendly": "An old-fashioned, almost affectionate insult for someone being dim or dense — a blockhead.",
-      "example": "\\\"You clodpate,\\\" she laughed, \\\"you've had the map upside down the whole time.\\\"",
+      "example": "\"You clodpate,\" she laughed, \"you've had the map upside down the whole time.\"",
       "tags": [
         "criticism",
         "people"
@@ -1377,7 +1377,7 @@
       "partOfSpeech": "noun",
       "pronunciation": "DEM-ee-mond",
       "definition": "A group considered on the fringes of respectable society.",
-      "friendly": "The glamorous-but-shady social underworld — people living just outside the rules of \\",
+      "friendly": "The glamorous-but-shady social underworld — people living just outside the rules of \"respectable\" society.",
       "example": "The novel follows a singer navigating the demi-monde of 1920s cabarets.",
       "tags": [
         "people"
@@ -1581,8 +1581,8 @@
       "partOfSpeech": "adverb",
       "pronunciation": "FAYN",
       "definition": "Gladly, willingly (archaic).",
-      "friendly": "An old-fashioned way of saying \\",
-      "example": "\\\"I would fain rest here a while,\\\" the traveler sighed.",
+      "friendly": "An old-fashioned way of saying \"gladly\" or \"with pleasure.\"",
+      "example": "\"I would fain rest here a while,\" the traveler sighed.",
       "tags": [
         "archaic",
         "character"
@@ -1890,7 +1890,7 @@
       "partOfSpeech": "verb",
       "pronunciation": "uh-DOOSS",
       "definition": "To cite as evidence or proof.",
-      "friendly": "To bring forward a fact or example to back up your point — the thing you point to when someone asks \\",
+      "friendly": "To bring forward a fact or example to back up your point — the thing you point to when someone asks \"what's your evidence?\"",
       "example": "The lawyer adduced three witnesses to support her client's alibi.",
       "tags": [
         "speech",
@@ -2069,7 +2069,7 @@
       "pronunciation": "in-VID-ee-us",
       "definition": "Likely to cause resentment or discontent, often through unfair comparisons.",
       "friendly": "Bound to make someone feel slighted — usually because it stacks people or things against each other unfairly.",
-      "example": "Ranking the siblings by \\\"who Mom loves best\\\" is an invidious game nobody should play.",
+      "example": "Ranking the siblings by \"who Mom loves best\" is an invidious game nobody should play.",
       "tags": [
         "criticism",
         "conflict"
@@ -2169,9 +2169,9 @@
       "variants": [],
       "partOfSpeech": "adjective",
       "pronunciation": "in-JEN-yoo-us",
-      "definition": "Innocent, naive, showing childlike simplicity; the opposite of \\",
-      "friendly": "Openly trusting and a little naive, without any hidden agenda — easy to mix up with \\",
-      "example": "Her ingenuous question — \\\"why would anyone lie about that?\\\" — showed how little guile she had.",
+      "definition": "Innocent, naive, showing childlike simplicity; the opposite of \"disingenuous.\"",
+      "friendly": "Openly trusting and a little naive, without any hidden agenda — easy to mix up with \"ingenious,\" which means clever.",
+      "example": "Her ingenuous question — \"why would anyone lie about that?\" — showed how little guile she had.",
       "tags": [
         "character",
         "virtue"
@@ -2247,7 +2247,7 @@
       "partOfSpeech": "verb",
       "pronunciation": "dih-MER",
       "definition": "To raise objections; to show reluctance.",
-      "friendly": "To politely push back or hesitate rather than go along right away — a soft \\",
+      "friendly": "To politely push back or hesitate rather than go along right away — a soft \"I'd rather not.\"",
       "example": "When asked to sign without reading it, she demurred.",
       "tags": [
         "conflict",
@@ -2274,7 +2274,7 @@
       "pronunciation": "SPEE-shus",
       "definition": "Superficially plausible but actually wrong.",
       "friendly": "Sounds convincing at first glance but falls apart the moment you actually check it.",
-      "example": "\\\"Everyone's doing it\\\" is a specious argument that never quite holds up under scrutiny.",
+      "example": "\"Everyone's doing it\" is a specious argument that never quite holds up under scrutiny.",
       "tags": [
         "criticism",
         "knowledge"
@@ -2302,7 +2302,7 @@
       "pronunciation": "KANT",
       "definition": "Insincere, hypocritical talk, often moralizing.",
       "friendly": "Preachy talk that sounds virtuous but isn't backed by any real feeling — moral posturing on autopilot.",
-      "example": "He was tired of the corporate cant about \\\"family\\\" from a company that never gave anyone time off.",
+      "example": "He was tired of the corporate cant about \"family\" from a company that never gave anyone time off.",
       "tags": [
         "speech",
         "criticism",
@@ -2484,7 +2484,7 @@
       "pronunciation": "SOL-ih-siz-um",
       "definition": "A grammatical mistake or breach of etiquette.",
       "friendly": "A slip-up in grammar or manners — the kind of small error that makes a stickler wince.",
-      "example": "\\\"Between you and I\\\" is a common solecism that still makes grammarians flinch.",
+      "example": "\"Between you and I\" is a common solecism that still makes grammarians flinch.",
       "tags": [
         "speech",
         "criticism"
@@ -2763,7 +2763,7 @@
       "partOfSpeech": "verb",
       "pronunciation": "GAYN-say",
       "definition": "To deny or contradict.",
-      "friendly": "To flatly speak against something someone else said — to say \\",
+      "friendly": "To flatly speak against something someone else said — to say \"that's not so.\"",
       "example": "No one dared gainsay the old captain's account of the storm.",
       "tags": [
         "speech",
@@ -2815,7 +2815,7 @@
       "partOfSpeech": "noun",
       "pronunciation": "eh-SKUTCH-un",
       "definition": "A shield displaying a coat of arms.",
-      "friendly": "The shield-shaped emblem showing a family's coat of arms — its heraldic \\",
+      "friendly": "The shield-shaped emblem showing a family's coat of arms — its heraldic \"nameplate.\"",
       "example": "The family's escutcheon still hangs above the old manor's front door.",
       "tags": [
         "objects",
@@ -2893,7 +2893,7 @@
       "pronunciation": "rod-oh-mon-TAYD",
       "definition": "Boastful, blustering talk.",
       "friendly": "Big, blustery bragging — loud talk about your own greatness that's mostly hot air.",
-      "example": "His rodomontade about \\\"single-handedly\\\" saving the project fooled no one who'd actually been there.",
+      "example": "His rodomontade about \"single-handedly\" saving the project fooled no one who'd actually been there.",
       "tags": [
         "speech",
         "criticism",
@@ -2971,7 +2971,7 @@
       "pronunciation": "puh-DAN-tik",
       "definition": "Excessively concerned with formal rules or trivial detail.",
       "friendly": "Overly strict about the small stuff — correcting minor technicalities that don't really change anything.",
-      "example": "It felt a little pedantic to argue about \\\"who\\\" versus \\\"whom\\\" in a text message.",
+      "example": "It felt a little pedantic to argue about \"who\" versus \"whom\" in a text message.",
       "tags": [
         "criticism",
         "knowledge"
@@ -3047,7 +3047,7 @@
       "partOfSpeech": "adjective",
       "pronunciation": "EK-sih-kruh-bul",
       "definition": "Extremely bad, detestable.",
-      "friendly": "Bad in a way that deserves real disgust — not just \\",
+      "friendly": "Bad in a way that deserves real disgust — not just \"mediocre,\" but truly detestable.",
       "example": "The reviewer called the sequel execrable, and the box office numbers agreed.",
       "tags": [
         "criticism"
@@ -3197,8 +3197,8 @@
       "variants": [],
       "partOfSpeech": "noun",
       "pronunciation": "DINT",
-      "definition": "Force or effort, as in \\",
-      "friendly": "Sheer effort or force — mostly survives today in the phrase \\",
+      "definition": "Force or effort, as in \"by dint of.\"",
+      "friendly": "Sheer effort or force — mostly survives today in the phrase \"by dint of.\"",
       "example": "He passed the exam by dint of sheer, stubborn practice.",
       "tags": [
         "archaic"
@@ -3428,7 +3428,7 @@
       "pronunciation": "GLOHZ",
       "definition": "To gloss over or minimize a fault.",
       "friendly": "To smooth over a mistake with soft words, making it sound smaller than it really is.",
-      "example": "He tried to gloze over the missed deadline with vague talk of \\\"unforeseen challenges.\\\"",
+      "example": "He tried to gloze over the missed deadline with vague talk of \"unforeseen challenges.\"",
       "tags": [
         "speech",
         "vice"

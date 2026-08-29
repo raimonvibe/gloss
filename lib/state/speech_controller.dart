@@ -164,7 +164,12 @@ List<VoiceOption> englishVoiceOptions(Iterable<Map<dynamic, dynamic>> voices) {
 /// A [languageTag] of null means English, the lexicon's own language and the
 /// only one the lemma may be pronounced in.
 class SpeechSegment {
-  const SpeechSegment(this.text, {this.languageTag, this.fallback});
+  const SpeechSegment(
+    this.text, {
+    this.languageTag,
+    this.fallback,
+    this.group,
+  });
 
   final String text;
   final String? languageTag;
@@ -173,7 +178,102 @@ class SpeechSegment {
   /// Without one the segment is simply skipped.
   final String? fallback;
 
+  /// The passage this piece belongs to.
+  ///
+  /// One passage of translated prose comes apart into several segments,
+  /// because it quotes English part-way through. They stand or fall
+  /// together: if the device cannot speak the language, the whole passage
+  /// gives way to its [fallback] once, rather than each piece falling back
+  /// on its own and saying the same thing three times over.
+  final Object? group;
+
   bool get isEnglish => languageTag == null;
+}
+
+/// Terms shorter than this are not worth cutting a sentence for, and short
+/// ones ("e-", "ex-") turn up inside ordinary words.
+const _kShortestQuote = 3;
+
+final _wordCharacter = RegExp(r'[\p{L}\p{N}]', unicode: true);
+
+/// True when [start]–[end] is not sitting inside a longer word.
+bool _standsAlone(String text, int start, int end) {
+  final before = start == 0 ? '' : text[start - 1];
+  final after = end >= text.length ? '' : text[end];
+  return !_wordCharacter.hasMatch(before) && !_wordCharacter.hasMatch(after);
+}
+
+/// Cuts one passage of translated prose into the languages it is actually
+/// written in.
+///
+/// Translations quote the English lexicon inside their own sentences — the
+/// headword, the sentence it lives in, the roots it came from. The Dutch for
+/// *amphiboly* explains it with "Visiting relatives can be tiring" sitting in
+/// the middle of the Dutch, and a Dutch voice reads that with a Dutch accent.
+/// Every term in [englishTerms] that [text] quotes becomes a segment of its
+/// own for the English voice; what is left stays in [languageTag].
+///
+/// The pieces share a [group], so a device with no voice for [languageTag]
+/// hears [fallback] once instead of the passage.
+List<SpeechSegment> segmentTranslation(
+  String text, {
+  required String languageTag,
+  required Iterable<String> englishTerms,
+  String? fallback,
+  Object? group,
+}) {
+  final body = text.trim();
+  if (body.isEmpty) return const [];
+
+  SpeechSegment translated(String part) => SpeechSegment(
+        part,
+        languageTag: languageTag,
+        fallback: fallback,
+        group: group,
+      );
+
+  // Longest first, so a quoted sentence wins over the headword inside it.
+  final terms = englishTerms
+      .map((term) => term.trim())
+      .where((term) => term.length >= _kShortestQuote)
+      .toList()
+    ..sort((a, b) => b.length.compareTo(a.length));
+
+  final haystack = body.toLowerCase();
+  final claimed = List<bool>.filled(body.length, false);
+  final found = <(int, int)>[];
+  for (final term in terms) {
+    final needle = term.toLowerCase();
+    for (var from = 0;;) {
+      final at = haystack.indexOf(needle, from);
+      if (at < 0) break;
+      final end = at + needle.length;
+      from = at + 1;
+      if (!_standsAlone(body, at, end)) continue;
+      if (claimed.getRange(at, end).contains(true)) continue;
+      claimed.fillRange(at, end, true);
+      found.add((at, end));
+    }
+  }
+  if (found.isEmpty) return [translated(body)];
+  found.sort((a, b) => a.$1.compareTo(b.$1));
+
+  final segments = <SpeechSegment>[];
+  var cursor = 0;
+  // A piece of nothing but a closing quote and a full stop has no words in
+  // it. Dropping it saves the engine a voice change that says nothing.
+  void addTranslated(String part) {
+    final trimmed = part.trim();
+    if (_wordCharacter.hasMatch(trimmed)) segments.add(translated(trimmed));
+  }
+
+  for (final (start, end) in found) {
+    addTranslated(body.substring(cursor, start));
+    segments.add(SpeechSegment(body.substring(start, end), group: group));
+    cursor = end;
+  }
+  addTranslated(body.substring(cursor));
+  return segments;
 }
 
 /// Best installed voice for a BCP-47 tag: an exact locale match first, then
@@ -636,15 +736,68 @@ class SpeechController extends ChangeNotifier {
         if (segment.text.trim().isNotEmpty) segment,
     ];
     if (wanted.isEmpty) return;
+    final resolved = await _settleGroups(wanted);
+    if (resolved.isEmpty) return;
     await _engine.stop();
     _activeKey = key;
     _speaking = true;
     notifyListeners();
     try {
-      await _engine.speakSegments(wanted);
+      await _engine.speakSegments(resolved);
     } catch (_) {
       _onIdle();
     }
+  }
+
+  /// Decides the fate of each passage before a word of it is spoken.
+  ///
+  /// A passage cut into pieces around the English it quotes has to be judged
+  /// whole: if the device cannot speak its language, the English fallback
+  /// stands in for all of it. Deciding piece by piece would say the quoted
+  /// English first and then repeat it inside the fallback.
+  Future<List<SpeechSegment>> _settleGroups(
+    List<SpeechSegment> segments,
+  ) async {
+    final speakable = <String, bool>{};
+    final lost = <Object>{};
+    for (final segment in segments) {
+      final group = segment.group;
+      if (group == null || segment.isEnglish) continue;
+      final tag = segment.languageTag!;
+      var known = speakable[tag];
+      if (known == null) {
+        try {
+          known = await _engine.voiceForLanguage(tag) != null;
+        } catch (_) {
+          // Let the engine make its own call segment by segment.
+          known = true;
+        }
+        speakable[tag] = known;
+      }
+      if (!known) lost.add(group);
+    }
+    if (lost.isEmpty) return segments;
+
+    final settled = <SpeechSegment>[];
+    final replaced = <Object>{};
+    for (final segment in segments) {
+      final group = segment.group;
+      if (group == null || !lost.contains(group)) {
+        settled.add(segment);
+        continue;
+      }
+      if (!replaced.add(group)) continue;
+      final fallback = segments
+          .firstWhere(
+            (piece) => piece.group == group && piece.fallback != null,
+            orElse: () => const SpeechSegment(''),
+          )
+          .fallback;
+      if (fallback != null && fallback.trim().isNotEmpty) {
+        settled.add(SpeechSegment(fallback));
+      }
+    }
+    return settled;
   }
 
   Future<void> toggle(String key, String text) async {

@@ -81,6 +81,38 @@ English. Translate UI chrome + explanations only.
 The **ARBs are the source of truth** for UI strings. `ui_i18n.json` is a human working
 copy that no tool reads; keep it in step when you can, but never treat it as canonical.
 
+**Read-aloud across two languages:** `lib/state/reading.dart` is the only place that
+decides which voice reads what — `readingOf()` for an entry, `spokenLine()` for the
+app's own copy (a score, a heading), `englishCopy` for the English twin of any ARB
+string. Screens must not hand a raw `l10n.` string to `SpeakButton`: that is what gave
+the quiz results a Dutch sentence in an English accent.
+
+Translated copy also quotes the English lexicon inside
+its own sentences — the Dutch for *amphiboly* explains it with "Visiting relatives can
+be tiring" in the middle of a Dutch paragraph. `segmentTranslation()` in
+`speech_controller.dart` cuts a passage at every term in `WordEntry.quotedEnglish`
+(headword, variants, the example, the phrase the example quotes, origin word, root
+forms), so each half reaches the voice it belongs to. The pieces share a `group`: when
+the device has no voice for the language, `SpeechController` trades the whole passage
+for its English fallback once, instead of each piece falling back on its own.
+`test/english_narration_test.dart` sweeps six locales of shipped data for English left
+inside a local-voice segment.
+
+**English word data (repaired 2026-08-29):** `assets/data/words.json` had been through
+one round of escaping too many — 20 `example` fields showed a literal `\"` on screen and
+23 `friendly`/`definition` fields were cut off where their quotation began. All 43 were
+restored from `tool/_en_words_src.json`, which is the canonical English source and was
+never damaged; the 60 overlays never were either. `quiz_and_data_test.dart` now fails on
+a backslash or an unclosed quotation in the shipped English text.
+
+**Responsive layout:** `lib/theme/layout.dart` owns the breakpoints, gutters, reading
+width, and column counts. Read it with `context.layout`, which measures the space the
+page was actually handed — `LayoutBoundary` publishes that, because the window is the
+wrong ruler once the navigation rail stands beside the page (and because
+`setSurfaceSize` in a test does not move `MediaQuery`). Below 840pt the tabs sit along
+the bottom; above it they move to a rail. `test/responsive_test.dart` walks every tab
+at six window sizes plus the largest text size — an overflow anywhere fails it.
+
 **App wiring (done):** `SettingsController` locale persistence, `WordRepository.applyLocale()`,
 `LanguagesScreen` (5th tab + Home shortcut), RTL lemma isolation (`EnglishLemma`),
 `AppFonts` fallbacks, English TTS lock in `speech_controller.dart`.
@@ -164,8 +196,9 @@ flutter analyze
 flutter test
 ```
 
-**Known-good baseline (2026-08-29):** `flutter analyze` clean, `flutter test` **81/81**,
-`l10n/untranslated.json` empty, `flutter build apk --debug` exit 0.
+**Known-good baseline (2026-08-29, Flutter 3.41.7 on Windows):** `flutter analyze`
+clean, `flutter test` **119/119**, `l10n/untranslated.json` empty,
+`flutter build apk --debug` exit 0.
 
 The Flutter version differs by machine — 3.47.2 / Dart 3.13.2 on Linux, 3.41.7 on
 Windows. Record which one you used when you move the baseline.

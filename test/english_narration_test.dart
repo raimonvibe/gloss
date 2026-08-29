@@ -29,6 +29,23 @@ const _entry = WordEntry(
   roots: [WordRoot(form: 'dulcis', meaning: 'sweet')],
 );
 
+const _amphiboly = WordEntry(
+  id: 'amphiboly',
+  word: 'Amphiboly',
+  partOfSpeech: 'noun',
+  pronunciation: 'am-FIB-uh-lee',
+  definition: 'Ambiguity of grammatical structure.',
+  friendly: 'A sentence that can be read two ways.',
+  example: '"Visiting relatives can be tiring" is a classic amphiboly.',
+  tags: ['speech'],
+  origin: 'Greek',
+  originWord: 'amphibolos',
+  roots: [
+    WordRoot(form: 'amphi-', meaning: 'both'),
+    WordRoot(form: 'ballein', meaning: 'to throw'),
+  ],
+);
+
 /// The lexicon is English and the TTS engine is locked to an English voice.
 /// Speaking translated text through it makes the voice mangle the words —
 /// the mirror of the bug where a Dutch device voice mangled English lemmas.
@@ -99,6 +116,164 @@ void main() {
   });
 
   _splitNarration();
+  _quotedEnglish();
+}
+
+/// A translation quotes the lexicon rather than translating it: the headword
+/// and the sentence it lives in stay English inside the reader's own
+/// language. Those words belong to the English voice wherever they appear.
+void _quotedEnglish() {
+  group('English quoted inside a translation', () {
+    const dutch = 'Een zin die grammatisch klopt, maar op twee heel '
+        'verschillende manieren te lezen is, zoals '
+        '„Visiting relatives can be tiring.”';
+
+    List<SpeechSegment> cut(String text, {String? fallback}) {
+      return segmentTranslation(
+        text,
+        languageTag: 'nl-NL',
+        englishTerms: _amphiboly.quotedEnglish,
+        fallback: fallback,
+        group: 'explanation',
+      );
+    }
+
+    test('the entry offers the English a translation may quote', () {
+      final quoted = _amphiboly.quotedEnglish;
+      expect(quoted, contains('Amphiboly'));
+      // The phrase the example puts in quotation marks, which is what the
+      // Dutch quotes - not the whole sentence around it.
+      expect(quoted, contains('Visiting relatives can be tiring'));
+      expect(quoted, contains('ballein'));
+    });
+
+    test('the English sentence becomes a segment of its own', () {
+      final segments = cut(dutch);
+      expect(segments.length, 2);
+      expect(segments[0].languageTag, 'nl-NL');
+      expect(segments[0].text, startsWith('Een zin die'));
+
+      expect(segments[1].isEnglish, isTrue);
+      expect(segments[1].text, 'Visiting relatives can be tiring');
+      // What is left of the Dutch is a full stop and a closing quote, which
+      // no voice needs to say.
+    });
+
+    test('the headword is handed back to the English voice as well', () {
+      final segments = cut('Dit is een klassieke amphiboly in het Nederlands.');
+      expect(segments.map((s) => s.text).toList(), [
+        'Dit is een klassieke',
+        'amphiboly',
+        'in het Nederlands.',
+      ]);
+      expect(segments[1].isEnglish, isTrue);
+    });
+
+    test('a translation quoting nothing English stays one segment', () {
+      final segments = cut('Zoeten of zuiveren.');
+      expect(segments.length, 1);
+      expect(segments.single.languageTag, 'nl-NL');
+    });
+
+    test('a term inside a longer word is left alone', () {
+      // 'ballein' is a root of this entry; 'balleinachtig' is not it.
+      final segments = cut('Een balleinachtig woord.');
+      expect(segments.length, 1);
+      expect(segments.single.languageTag, 'nl-NL');
+    });
+
+    test('the whole passage speaks when the voice is there', () async {
+      final engine = SilentSpeechEngine(
+        voices: const [VoiceOption(name: 'nl-nl-x-dma-local', locale: 'nl-nl')],
+      );
+      final speech = SpeechController(engine: engine);
+      await speech.speakSegments('entry:amphiboly', cut(dutch));
+      expect(engine.spokenSegments, [
+        'nl-NL:Een zin die grammatisch klopt, maar op twee heel '
+            'verschillende manieren te lezen is, zoals „',
+        'en:Visiting relatives can be tiring',
+      ]);
+    });
+
+    test('the shipped Dutch entry no longer hands English to a Dutch voice',
+        () async {
+      TestWidgetsFlutterBinding.ensureInitialized();
+      final repo = await WordRepository.load();
+      await repo.applyLocale('nl');
+      final entry = repo.words.firstWhere((word) => word.id == 'amphiboly');
+
+      // This is the entry from the bug report: the Dutch explanation quotes
+      // the English sentence in the middle of a Dutch one.
+      expect(entry.spokenExplanation, contains('Visiting relatives'));
+
+      final segments = segmentTranslation(
+        entry.spokenExplanation,
+        languageTag: 'nl-NL',
+        englishTerms: entry.quotedEnglish,
+        group: 'explanation',
+      );
+      final english = segments.where((piece) => piece.isEnglish);
+      expect(
+        english.map((piece) => piece.text),
+        contains('Visiting relatives can be tiring'),
+      );
+      for (final piece in segments.where((piece) => !piece.isEnglish)) {
+        expect(piece.text, isNot(contains('Visiting relatives')));
+      }
+    });
+
+    test('no shipped passage in any script keeps English for a local voice',
+        () async {
+      TestWidgetsFlutterBinding.ensureInitialized();
+      final repo = await WordRepository.load();
+
+      // One from each family the catalog covers, including a right-to-left
+      // script and two that are not written in Latin letters at all.
+      final leaked = <String>[];
+      for (final locale in ['nl', 'de', 'fr', 'ru', 'th', 'ar']) {
+        await repo.applyLocale(locale);
+        for (final entry in repo.words) {
+          final segments = segmentTranslation(
+            entry.spokenExplanation,
+            languageTag: locale,
+            englishTerms: entry.quotedEnglish,
+            group: entry.id,
+          );
+          for (final piece in segments.where((piece) => !piece.isEnglish)) {
+            for (final term in entry.quotedEnglish) {
+              if (term.length < 3) continue;
+              // A term standing on its own is English that the local voice
+              // would have to read. The same string inside a longer word of
+              // the language ('gefricasseerd') is simply that language, and
+              // stays where it is.
+              if (_standingAlone(term).hasMatch(piece.text)) {
+                leaked.add('$locale/${entry.id}: "$term"');
+              }
+            }
+          }
+        }
+      }
+      expect(leaked, isEmpty, reason: 'English left for a local voice');
+    });
+
+    test('no Dutch voice replaces the passage once, not piece by piece',
+        () async {
+      final engine = SilentSpeechEngine(
+        voices: const [VoiceOption(name: 'en-us-x-sfg', locale: 'en-us')],
+      );
+      final speech = SpeechController(engine: engine);
+      await speech.speakSegments('entry:amphiboly', [
+        const SpeechSegment('Amphiboly. noun.'),
+        ...cut(dutch, fallback: 'A sentence that can be read two ways.'),
+      ]);
+      // The English quoted inside the Dutch does not survive on its own: it
+      // would be said once alone and again inside the fallback.
+      expect(engine.spokenSegments, [
+        'en:Amphiboly. noun.',
+        'en:A sentence that can be read two ways.',
+      ]);
+    });
+  });
 }
 
 /// The opt-in second half: the explanation may follow the reader's language,
@@ -224,3 +399,19 @@ void _splitNarration() {
     });
   });
 }
+
+/// The same rule the splitter uses: a term counts only when it is not part
+/// of a longer word.
+///
+/// Kept in a map because the sweep below asks for the same few thousand
+/// terms over and over, and compiling each one again is what makes it slow.
+final _boundaries = <String, RegExp>{};
+
+RegExp _standingAlone(String term) => _boundaries.putIfAbsent(
+      term,
+      () => RegExp(
+        r'(?<![\p{L}\p{N}])' + RegExp.escape(term) + r'(?![\p{L}\p{N}])',
+        unicode: true,
+        caseSensitive: false,
+      ),
+    );
