@@ -1,6 +1,9 @@
+import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:beautiful_words/data/word_repository.dart';
+import 'package:beautiful_words/l10n/app_localizations.dart';
+import 'package:beautiful_words/l10n/speech_templates.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 
@@ -204,10 +207,16 @@ void _quotedEnglish() {
 
       // This is the entry from the bug report: the Dutch explanation quotes
       // the English sentence in the middle of a Dutch one.
-      expect(entry.spokenExplanation, contains('Visiting relatives'));
+      final dutch = SpeechTemplates.fromL10n(
+        lookupAppLocalizations(const Locale('nl')),
+      );
+      expect(
+        entry.spokenExplanationWith(dutch),
+        contains('Visiting relatives'),
+      );
 
       final segments = segmentTranslation(
-        entry.spokenExplanation,
+        entry.spokenExplanationWith(dutch),
         languageTag: 'nl-NL',
         englishTerms: entry.quotedEnglish,
         group: 'explanation',
@@ -234,7 +243,11 @@ void _quotedEnglish() {
         await repo.applyLocale(locale);
         for (final entry in repo.words) {
           final segments = segmentTranslation(
-            entry.spokenExplanation,
+            entry.spokenExplanationWith(
+              SpeechTemplates.fromL10n(
+                lookupAppLocalizations(Locale(locale)),
+              ),
+            ),
             languageTag: locale,
             englishTerms: entry.quotedEnglish,
             group: entry.id,
@@ -371,31 +384,48 @@ void _splitNarration() {
     });
 
     test('an untranslated entry offers no explanation segment', () {
-      expect(_entry.spokenExplanation, isEmpty);
-      expect(localized.spokenExplanation, contains('bitterheid'));
+      expect(_entry.spokenExplanationWith(SpeechTemplates.english), isEmpty);
+      expect(
+        localized.spokenExplanationWith(SpeechTemplates.english),
+        contains('bitterheid'),
+      );
     });
 
-    test('the two halves do not repeat each other', () {
-      // English half: lemma, how to say it, what kind of word, the sentence.
-      final english = localized.spokenLemma;
-      expect(english, contains('Edulcorate'));
-      expect(english, contains('verb'));
-      expect(english, contains('The editor edulcorated the review.'));
-      // …and none of the explanation, which the translated half carries.
-      expect(english, isNot(contains('To take the bitterness out.')));
-      expect(english, isNot(contains('To sweeten or purify.')));
+    test('the reading covers the whole page, not half of it', () {
+      // The English lemma and how to say it open the reading; everything
+      // else follows in the reader's language.
+      expect(localized.spokenWord, contains('Edulcorate'));
 
-      final dutch = localized.spokenExplanation;
+      final dutch = localized.spokenExplanationWith(SpeechTemplates.english);
+      // What kind of word it is, where it came from, what it is built of,
+      // what it means, and the sentence - the card at the top of the page
+      // used to be left out entirely.
+      expect(dutch, contains('werkwoord'));
+      expect(dutch, contains('Latijn'));
+      expect(dutch, contains('edulcorare'));
+      expect(dutch, contains('dulcis'));
+      expect(dutch, contains('zoet'));
       expect(dutch, contains('bitterheid'));
       expect(dutch, contains('Zoeten'));
+      expect(dutch, contains('The editor edulcorated the review.'));
+      // The gloss belongs to the page too. It keeps the English lemma
+      // inside a Dutch sentence, which the splitter hands back to the
+      // English voice rather than dropping the sentence.
+      expect(dutch, contains('redacteur'));
     });
 
-    test('the translated half leaves out the gloss holding the English lemma',
-        () {
-      // 'De redacteur verzachtte…' keeps 'Edulcorate' inside a Dutch
-      // sentence; a Dutch voice would mangle it.
-      expect(localized.exampleGloss, isNotNull);
-      expect(localized.spokenExplanation, isNot(contains('redacteur')));
+    test('the English reading is the same page, whole', () {
+      final english = localized.spokenEntry;
+      expect(english, contains('Edulcorate'));
+      expect(english, contains('verb'));
+      expect(english, contains('From Latin, edulcorare.'));
+      expect(english, contains('dulcis'));
+      expect(english, contains('To take the bitterness out.'));
+      expect(english, contains('To sweeten or purify.'));
+      expect(english, contains('The editor edulcorated the review.'));
+      // Still not a word of Dutch in it.
+      expect(english, isNot(contains('bitterheid')));
+      expect(english, isNot(contains('Latijn')));
     });
   });
 }

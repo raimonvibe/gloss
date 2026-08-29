@@ -196,6 +196,8 @@ const _kShortestQuote = 3;
 
 final _wordCharacter = RegExp(r'[\p{L}\p{N}]', unicode: true);
 
+final _leadingPunctuation = RegExp(r'^[\s,;:]+');
+
 /// True when [start]–[end] is not sitting inside a longer word.
 bool _standsAlone(String text, int start, int end) {
   final before = start == 0 ? '' : text[start - 1];
@@ -262,8 +264,12 @@ List<SpeechSegment> segmentTranslation(
   var cursor = 0;
   // A piece of nothing but a closing quote and a full stop has no words in
   // it. Dropping it saves the engine a voice change that says nothing.
+  //
+  // What is left often starts on the punctuation that followed the English
+  // — 'torpere, meaning to be numb' leaves ', meaning to be numb' behind.
+  // The voice should open on a word, not a comma.
   void addTranslated(String part) {
-    final trimmed = part.trim();
+    final trimmed = part.trim().replaceFirst(_leadingPunctuation, '');
     if (_wordCharacter.hasMatch(trimmed)) segments.add(translated(trimmed));
   }
 

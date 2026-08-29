@@ -166,13 +166,33 @@ class WordEntry {
 
   String get spokenEntry => spokenEntryWith(SpeechTemplates.english);
 
+  /// The whole entry, in the order the page sets it out: what the word is
+  /// and how to say it, where it came from, what it is built of, what it
+  /// means, and the sentence it lives in.
+  ///
+  /// A reading that stopped at the meaning left the card at the top of the
+  /// page — the origin and the roots — unread.
   String spokenEntryWith(SpeechTemplates templates) {
     final source = english;
-    final also = source.variants.isEmpty
-        ? ''
-        : ' ${templates.also(source.variants.join(', '))}';
-    return '$spokenWord ${source.partOfSpeech}.$also ${source.friendly} '
-        '${source.definition} ${templates.asIn(source.example)}';
+    return [
+      spokenWord,
+      '${source.partOfSpeech}.',
+      if (source.variants.isNotEmpty)
+        templates.also(source.variants.join(', ')),
+      templates.fromOrigin(source.origin, source.originWord),
+      source._spokenRootsWith(templates),
+      templates.inPlainWords(source.friendly),
+      source.definition,
+      templates.asIn(source.example),
+    ].where((part) => part.isNotEmpty).join(' ');
+  }
+
+  /// 'torpere, meaning to be numb. -idus, meaning in a state of.'
+  String _spokenRootsWith(SpeechTemplates templates) {
+    if (roots.isEmpty) return '';
+    final lines =
+        roots.map((r) => templates.rootMeaning(r.form, r.meaning)).join('. ');
+    return '$lines.';
   }
 
   /// Everything in this entry that a translation may quote in English.
@@ -193,34 +213,23 @@ class WordEntry {
     ];
   }
 
-  /// What the explanation segment says when it has to fall back to English.
-  String get spokenExplanationFallback => '$friendly $definition'.trim();
-
-  /// The half that exists only in English: the lemma, how to say it, what
-  /// kind of word it is, and the sentence it lives in. Spoken when the
-  /// explanation is about to follow in the reader's own language, so the
-  /// two readings do not repeat each other.
-  String get spokenLemma => spokenLemmaWith(SpeechTemplates.english);
-
-  String spokenLemmaWith(SpeechTemplates templates) {
-    final source = english;
-    final also = source.variants.isEmpty
-        ? ''
-        : ' ${templates.also(source.variants.join(', '))}';
-    return '$spokenWord ${source.partOfSpeech}.$also '
-        '${templates.asIn(source.example)}';
-  }
-
-  /// The explanation in the reader's language, for a voice that speaks it.
-  /// Empty when nothing was translated, so callers can drop the segment.
+  /// The same entry in the reader's language, laid out in the same order.
   ///
-  /// The example gloss is left out on purpose: it keeps the English lemma
-  /// inside a translated sentence, and a French or Thai voice would mangle
-  /// that one word. The English example is read in the English half, and
-  /// the gloss is on the page to be read with the eyes.
-  String get spokenExplanation {
+  /// Empty when nothing was translated, so callers can drop it. What stays
+  /// English inside it — the headword, the root forms, the etymon, the
+  /// sentence — is cut back out by `segmentTranslation` and handed to the
+  /// English voice, so this can quote the lexicon freely.
+  String spokenExplanationWith(SpeechTemplates templates) {
     if (translationSource == null) return '';
-    return '$friendly $definition'.trim();
+    return [
+      '$partOfSpeech.',
+      templates.fromOrigin(origin, originWord),
+      _spokenRootsWith(templates),
+      templates.inPlainWords(friendly),
+      definition,
+      templates.asIn(english.example),
+      if (exampleGloss != null) exampleGloss!,
+    ].where((part) => part.isNotEmpty).join(' ');
   }
 
   String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);
