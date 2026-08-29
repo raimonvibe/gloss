@@ -446,16 +446,43 @@ class _ThemeControl extends StatelessWidget {
 
   final SettingsController settings;
 
+  /// Three labels split one row, and the reader may be running text at twice
+  /// the normal size (see the clamp in `app.dart`). Every other way out is
+  /// worse: wrapping splits words mid-word ('Perkamen/t'), ellipsis hides
+  /// which theme a segment picks, and a fixed small font would quietly
+  /// override the reader's own text-size choice. Shrink only when it will not
+  /// otherwise fit.
+  Widget _label(String text) {
+    return FittedBox(
+      fit: BoxFit.scaleDown,
+      child: Text(text, maxLines: 1, softWrap: false),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: SegmentedButton<ThemeMode>(
+        // The default segment padding is generous; the room is better spent
+        // on the words, which run long in most of the 61 locales.
+        style: SegmentedButton.styleFrom(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
+        ),
         segments: [
-          ButtonSegment(value: ThemeMode.system, label: Text(l10n.themeSystem)),
-          ButtonSegment(value: ThemeMode.light, label: Text(l10n.themeLight)),
-          ButtonSegment(value: ThemeMode.dark, label: Text(l10n.themeDark)),
+          ButtonSegment(
+            value: ThemeMode.system,
+            label: _label(l10n.themeSystem),
+          ),
+          ButtonSegment(
+            value: ThemeMode.light,
+            label: _label(l10n.themeLight),
+          ),
+          ButtonSegment(
+            value: ThemeMode.dark,
+            label: _label(l10n.themeDark),
+          ),
         ],
         selected: {settings.themeMode},
         showSelectedIcon: false,
