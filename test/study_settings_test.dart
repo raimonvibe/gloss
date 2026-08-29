@@ -101,6 +101,136 @@ void main() {
       expect(options, hasLength(1));
     });
 
+    test('reads the gender and the number out of a Google voice id', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-iob#male_2-local', 'locale': 'en-US'},
+        {'name': 'en-us-x-tpf#female_1-local', 'locale': 'en-US'},
+      ]);
+
+      expect(options.map((v) => v.gender), [
+        VoiceGender.male,
+        VoiceGender.female,
+      ]);
+      expect(options.map((v) => v.variant), [2, 1]);
+    });
+
+    test("'female' is not read as 'male'", () {
+      const voice = VoiceOption(
+        name: 'en-us-x-tpf#female_3-local',
+        locale: 'en-us',
+      );
+
+      expect(voice.gender, VoiceGender.female);
+      expect(voice.variant, 3);
+    });
+
+    test('a voice with no gender anywhere is never given one', () {
+      const voice = VoiceOption(name: 'en-gb-x-gba-local', locale: 'en-gb');
+
+      expect(voice.gender, VoiceGender.unknown);
+      expect(voice.label, 'British English · Voice 1 · offline');
+    });
+
+    test('the platform may say the gender itself, as iOS does', () {
+      final options = englishVoiceOptions([
+        {'name': 'Daniel', 'locale': 'en-GB', 'gender': 'male'},
+      ]);
+
+      expect(options.single.gender, VoiceGender.male);
+      // A person's name beats anything we could build out of the locale.
+      expect(options.single.label, 'Daniel · British English');
+    });
+
+    test('names the region, not the locale', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-iob#male_1-local', 'locale': 'en-US'},
+        {'name': 'en-au-x-aua-local', 'locale': 'en-AU'},
+        {'name': 'en-in-x-ene-local', 'locale': 'en-IN'},
+      ]);
+
+      expect(options.map((v) => v.regionLabel), [
+        'Australian English',
+        'Indian English',
+        'American English',
+      ]);
+    });
+
+    test('an unknown English region still reads as English', () {
+      const voice = VoiceOption(name: 'en-xx-x-abc-local', locale: 'en-xx');
+
+      expect(voice.regionLabel, 'English (en-xx)');
+    });
+
+    test('numbers the unnamed voices within their own region', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-sfg-local', 'locale': 'en-US'},
+        {'name': 'en-us-x-tpc-local', 'locale': 'en-US'},
+        {'name': 'en-gb-x-gba-local', 'locale': 'en-GB'},
+      ]);
+
+      expect(options.map((v) => v.label), [
+        'British English · Voice 1 · offline',
+        'American English · Voice 1 · offline',
+        'American English · Voice 2 · offline',
+      ]);
+    });
+
+    test('male voices lead their region, so they are not lost among the rest', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-tpf#female_1-local', 'locale': 'en-US'},
+        {'name': 'en-us-x-sfg-local', 'locale': 'en-US'},
+        {'name': 'en-us-x-tpf#female_2-local', 'locale': 'en-US'},
+        {'name': 'en-us-x-iob#male_1-local', 'locale': 'en-US'},
+      ]);
+
+      expect(options.map((v) => v.gender), [
+        VoiceGender.male,
+        VoiceGender.female,
+        VoiceGender.female,
+        VoiceGender.unknown,
+      ]);
+    });
+
+    test('says which voices read without the network', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-iob#male_1-network', 'locale': 'en-US'},
+        {'name': 'en-us-x-iob#male_1-local', 'locale': 'en-US'},
+      ]);
+
+      // The offline twin comes first, and each says which it is.
+      expect(options.map((v) => v.label), [
+        'American English · Male 1 · offline',
+        'American English · Male 1 · online',
+      ]);
+    });
+
+    test('the label never shows the raw engine id it was built from', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-iob#male_1-local', 'locale': 'en-US'},
+        {'name': 'en-gb-x-gba-local', 'locale': 'en-GB'},
+        {'name': 'com.apple.voice.compact.en-US.Samantha', 'locale': 'en-US'},
+      ]);
+
+      for (final voice in options) {
+        expect(
+          voice.label,
+          isNot(contains('-x-')),
+          reason: '${voice.label} still shows the engine id',
+        );
+        expect(voice.label, isNot(contains('#')));
+        expect(voice.label, isNot(contains('com.apple')));
+      }
+    });
+
+    test('the stored preference stays the engine id, not the label', () {
+      final options = englishVoiceOptions([
+        {'name': 'en-us-x-iob#male_1-local', 'locale': 'en-US'},
+      ]);
+
+      // The label is presentation. Storing it would break the engine lookup.
+      expect(options.single.name, 'en-us-x-iob#male_1-local');
+    });
+
     test('controller loads voices from the engine', () async {
       final engine = SilentSpeechEngine(
         voices: const [VoiceOption(name: 'en-us-x-sfg', locale: 'en-us')],

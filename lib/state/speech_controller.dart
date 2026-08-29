@@ -124,39 +124,212 @@ const kDefaultSpeechRate = 0.42;
 const _kTtsCallTimeout = Duration(seconds: 5);
 const _kTtsInitTimeout = Duration(seconds: 10);
 
+/// Where an English voice is spoken, in the words a reader would use for it.
+///
+/// The engine offers a locale and nothing else, and 'en-us' is not an answer
+/// to 'which of these forty voices do I want'. Keyed by the normalised locale.
+const kEnglishRegionNames = <String, String>{
+  'en': 'English',
+  'en-au': 'Australian English',
+  'en-bd': 'Bangladeshi English',
+  'en-ca': 'Canadian English',
+  'en-gb': 'British English',
+  'en-gh': 'Ghanaian English',
+  'en-hk': 'Hong Kong English',
+  'en-ie': 'Irish English',
+  'en-in': 'Indian English',
+  'en-ke': 'Kenyan English',
+  'en-ng': 'Nigerian English',
+  'en-nz': 'New Zealand English',
+  'en-ph': 'Philippine English',
+  'en-pk': 'Pakistani English',
+  'en-sg': 'Singapore English',
+  'en-tz': 'Tanzanian English',
+  'en-us': 'American English',
+  'en-za': 'South African English',
+};
+
+/// Which voice this is, where the engine says at all.
+///
+/// [unknown] is a real answer and not a failure: plenty of voices carry no
+/// gender anywhere in what the engine reports, and a guess dressed up as a
+/// label would be worse than the locale we started with.
+enum VoiceGender { male, female, unknown }
+
+/// Google's Android names carry the gender inline - 'en-us-x-tpf#female_2-local'
+/// - behind a separator. The optional 'fe' is what tells the two apart, and it
+/// has to be tried in that order or 'female' matches as 'male'.
+final _kGenderInVoiceName = RegExp(
+  r'[#_-](fe)?male(?:[_-]?(\d+))?',
+  caseSensitive: false,
+);
+
+VoiceGender? _declaredVoiceGender(Object? raw) {
+  final value = raw?.toString().trim().toLowerCase();
+  if (value == null || value.isEmpty) return null;
+  if (value == 'male') return VoiceGender.male;
+  if (value == 'female') return VoiceGender.female;
+  return null;
+}
+
 /// One installed English voice the reader may choose between.
 class VoiceOption {
-  const VoiceOption({required this.name, required this.locale});
+  const VoiceOption({
+    required this.name,
+    required this.locale,
+    this.declaredGender,
+    this.ordinal = 1,
+  });
 
+  /// The engine's own id. This is what is stored and what is handed back to
+  /// the engine, so every label below is presentation and nothing more.
   final String name;
   final String locale;
 
-  /// 'en-gb-x-gbb-local' → 'English (United Kingdom)' is beyond us, but the
-  /// raw locale plus a tidied name is enough to tell two voices apart.
-  String get label {
-    final tidy = name.replaceAll('_', ' ').replaceAll('#', ' ').trim();
-    return '$tidy · $locale';
+  /// What the platform said outright. iOS reports a gender field; Android
+  /// does not, and leaves it to be read out of [name].
+  final VoiceGender? declaredGender;
+
+  /// Position within this region and gender, counted from one. Fills the
+  /// number in 'Male 2' for the voices that carry no number of their own.
+  final int ordinal;
+
+  VoiceGender get gender {
+    final declared = declaredGender;
+    if (declared != null) return declared;
+    final match = _kGenderInVoiceName.firstMatch(name);
+    if (match == null) return VoiceGender.unknown;
+    return match.group(1) == null ? VoiceGender.male : VoiceGender.female;
   }
+
+  /// The number the engine itself gave this voice, where it gave one.
+  int? get variant {
+    final digits = _kGenderInVoiceName.firstMatch(name)?.group(2);
+    return digits == null ? null : int.tryParse(digits);
+  }
+
+  /// An offline voice reads with the network off and without sending the
+  /// text anywhere; that is worth saying on the label.
+  bool get isOffline => name.toLowerCase().contains('local');
+
+  bool get isNetwork {
+    final lower = name.toLowerCase();
+    return lower.contains('network') || lower.contains('online');
+  }
+
+  /// iOS names its voices after people - 'Daniel', 'Moira' - and that name is
+  /// better than anything we could build. Android hands back a synthetic id
+  /// ('en-gb-x-gbb-local'), which is not a name and must not be shown as one.
+  String? get personName {
+    var trimmed = name.trim();
+    if (trimmed.isEmpty) return null;
+    // 'com.apple.voice.compact.en-GB.Daniel' → 'Daniel'.
+    if (trimmed.toLowerCase().startsWith('com.apple')) {
+      trimmed = trimmed.split('.').last;
+    }
+    if (trimmed.contains('-x-') || trimmed.contains('#')) return null;
+    if (isEnglishTtsLocale(trimmed)) return null;
+    if (!RegExp(r'^[A-Za-zÀ-ɏ][A-Za-zÀ-ɏ .-]*$').hasMatch(trimmed)) {
+      return null;
+    }
+    final lower = trimmed.toLowerCase();
+    if (lower == 'local' || lower == 'network' || lower == 'online') {
+      return null;
+    }
+    return trimmed;
+  }
+
+  String get regionLabel =>
+      kEnglishRegionNames[locale] ?? 'English ($locale)';
+
+  String get genderLabel => switch (gender) {
+        VoiceGender.male => 'Male',
+        VoiceGender.female => 'Female',
+        VoiceGender.unknown => 'Voice',
+      };
+
+  String? get qualityLabel {
+    if (isNetwork) return 'online';
+    if (isOffline) return 'offline';
+    return null;
+  }
+
+  /// 'American English · Male 1 · offline', rather than
+  /// 'en-us-x-iob male 1-local · en-us'.
+  ///
+  /// Deliberately English, like the lemmas and the respelling: every voice in
+  /// this list reads the English lexicon, and 'American English' is the name
+  /// of the accent it reads it in, not chrome around it.
+  String get label {
+    final parts = <String>[];
+    final person = personName;
+    if (person != null) {
+      parts.add(person);
+      parts.add(regionLabel);
+    } else {
+      parts.add(regionLabel);
+      parts.add('$genderLabel ${variant ?? ordinal}');
+    }
+    final quality = qualityLabel;
+    if (quality != null) parts.add(quality);
+    return parts.join(' · ');
+  }
+
+  VoiceOption withOrdinal(int value) => VoiceOption(
+        name: name,
+        locale: locale,
+        declaredGender: declaredGender,
+        ordinal: value,
+      );
 }
 
 /// English voices only, sorted so the likeliest pick sits first. The lexicon
 /// is English; offering a Dutch voice here would undo the language lock.
+///
+/// Within a region the male voices lead. Most devices install more female
+/// English voices than male ones, and interleaved under opaque ids the male
+/// ones read as missing altogether.
 List<VoiceOption> englishVoiceOptions(Iterable<Map<dynamic, dynamic>> voices) {
   final seen = <String>{};
-  final options = <VoiceOption>[];
+  final found = <VoiceOption>[];
   for (final voice in voices) {
     final name = voice['name']?.toString();
     final locale = voice['locale']?.toString();
-    if (name == null || locale == null) continue;
+    if (name == null || locale == null || name.isEmpty) continue;
     if (!isEnglishTtsLocale(locale)) continue;
     if (!seen.add(name)) continue;
-    options.add(VoiceOption(name: name, locale: normalizeTtsLocale(locale)));
+    found.add(
+      VoiceOption(
+        name: name,
+        locale: normalizeTtsLocale(locale),
+        declaredGender: _declaredVoiceGender(voice['gender']),
+      ),
+    );
   }
-  options.sort((a, b) {
+  found.sort((a, b) {
     final byLocale = a.locale.compareTo(b.locale);
-    return byLocale != 0 ? byLocale : a.name.compareTo(b.name);
+    if (byLocale != 0) return byLocale;
+    final byGender = a.gender.index.compareTo(b.gender.index);
+    if (byGender != 0) return byGender;
+    final byVariant = (a.variant ?? 0).compareTo(b.variant ?? 0);
+    if (byVariant != 0) return byVariant;
+    if (a.isOffline != b.isOffline) return a.isOffline ? -1 : 1;
+    return a.name.compareTo(b.name);
   });
-  return options;
+
+  // The number in 'Male 2' counts within one region and one gender, so that
+  // it reads as a choice between neighbours rather than an index into forty.
+  final counts = <String, int>{};
+  return [
+    for (final voice in found)
+      voice.withOrdinal(
+        counts.update(
+          '${voice.locale}/${voice.gender.name}',
+          (n) => n + 1,
+          ifAbsent: () => 1,
+        ),
+      ),
+  ];
 }
 
 /// One stretch of speech in one language.
