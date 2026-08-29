@@ -118,9 +118,11 @@ class AppTheme {
         }),
       ),
       // The rail stands in for the bottom bar on a wide window, so it wears
-      // the same gold-on-parchment colours.
+      // the same gold-on-parchment colours. Transparent, though: a solid
+      // panel down the side reads as a slab pasted onto the page, and the
+      // parchment and its corner flourish should carry on underneath.
       navigationRailTheme: NavigationRailThemeData(
-        backgroundColor: brand.card.withValues(alpha: 0.94),
+        backgroundColor: Colors.transparent,
         indicatorColor: brand.accentGold.withValues(alpha: 0.18),
         elevation: 0,
         selectedIconTheme: IconThemeData(color: brand.accentGold),

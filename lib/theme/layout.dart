@@ -57,9 +57,6 @@ class Layout {
   /// which is also where a bottom bar starts to look marooned.
   bool get usesRail => isAtLeastExpanded;
 
-  /// Labels beside the rail icons rather than under them.
-  bool get usesExtendedRail => width >= Breakpoints.wide;
-
   /// The breathing room at the edge of a page.
   double get gutter => switch (size) {
         LayoutSize.compact => 20,
