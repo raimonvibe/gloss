@@ -19,8 +19,8 @@ void main() {
     );
   });
 
-  test('catalog covers 177 countries and shared translation keys', () {
-    expect(catalog.countries, hasLength(177));
+  test('catalog covers 178 countries and shared translation keys', () {
+    expect(catalog.countries, hasLength(178));
     expect(catalog.locales.length, greaterThan(50));
     expect(catalog.translationKeyFor('nl-NL'), 'nl');
     expect(catalog.translationKeyFor('es-US'), 'es_419');
@@ -284,6 +284,42 @@ void main() {
       }
 
       expect(wrong, isEmpty, reason: wrong.join('\n'));
+    });
+  });
+
+  group('the catalog and the ARBs agree on which locales exist', () {
+    Set<String> arbKeys() => Directory('lib/l10n')
+        .listSync()
+        .whereType<File>()
+        .where((f) => f.path.endsWith('.arb'))
+        .map((f) => f.uri.pathSegments.last)
+        .map((n) => n.substring('app_'.length, n.length - '.arb'.length))
+        .toSet();
+
+    test('no ARB is stranded without a catalog locale', () {
+      final reachable = catalog.locales
+          .map((l) => l.translationKey)
+          .toSet()
+        ..add('en');
+
+      // app_zh.arb carried a whole Simplified Chinese UI that nothing could
+      // ever select, because China was missing from the country list.
+      expect(arbKeys().difference(reachable), isEmpty);
+    });
+
+    test('no catalog locale is left without an ARB', () {
+      final keys = catalog.locales.map((l) => l.translationKey).toSet();
+      expect(keys.difference(arbKeys()), isEmpty);
+    });
+
+    test('Simplified Chinese is reachable, and names China', () {
+      expect(catalog.translationKeyFor('zh-CN'), 'zh');
+      expect(catalog.choiceForLocale('zh-CN')?.country.iso2, 'CN');
+      expect(catalog.infoFor('zh-CN')?.languageNameEn, 'Chinese (Simplified)');
+
+      // Traditional must not have been disturbed by adding Simplified.
+      expect(catalog.translationKeyFor('zh-TW'), 'zh_TW');
+      expect(catalog.translationKeyFor('zh-HK'), 'zh_HK');
     });
   });
 }

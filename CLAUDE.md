@@ -45,13 +45,19 @@ is an empty hook kept for future work — and enforces four invariants:
 - placeholders (`{label}`, `{language}`, `{version}`) survive translation
 - the headword `Edulcorate` and the product name `Gloss` stay English
 
-### The three counts, which are all different on purpose
+### The counts, and why they differ
 
 | Count | What |
 |---|---|
-| **60** | `translationKey`s in `l10n/catalog.json` — 59 non-English plus `en` |
-| **59** | `assets/l10n/words_<key>.json` overlays — one per non-English key; English needs none |
-| **61** | `lib/l10n/app_<key>.arb` — the 60 above, plus an orphan `app_zh.arb` (see [BACKLOG.md](BACKLOG.md) item 4) |
+| **178** | countries in `l10n/catalog.json` |
+| **61** | `translationKey`s — 60 non-English plus `en` |
+| **61** | `lib/l10n/app_<key>.arb` — one per translation key, `en` included |
+| **60** | `assets/l10n/words_<key>.json` overlays — one per **non-English** key; English is the source and needs none |
+
+Only the overlay count differs now, and only because English needs no overlay.
+`test/l10n_catalog_test.dart` asserts both directions — no ARB without a catalog
+locale, no catalog locale without an ARB — so a locale can no longer be half-added
+the way `zh` was.
 
 ## Architecture
 
@@ -60,7 +66,7 @@ English. Translate UI chrome + explanations only.
 
 | What | Where |
 |------|-------|
-| 177 countries → ~59 locales | `l10n/catalog.json` |
+| 178 countries → 60 locales | `l10n/catalog.json` |
 | Human spec | `l10n/SOURCE.md` |
 | Machine source | `l10n/source/ui.json`, `l10n/source/content.json` |
 | Hand-written UI translations | `l10n/source/ui_i18n.json` (59 locales; does **not** track `zh`) |
