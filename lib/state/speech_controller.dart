@@ -118,6 +118,12 @@ const kMinSpeechRate = 0.25;
 const kMaxSpeechRate = 0.75;
 const kDefaultSpeechRate = 0.42;
 
+/// No platform TTS call may block the UI indefinitely. Android parks calls
+/// until the engine reports init, and an engine that never binds never
+/// reports at all.
+const _kTtsCallTimeout = Duration(seconds: 5);
+const _kTtsInitTimeout = Duration(seconds: 10);
+
 /// One installed English voice the reader may choose between.
 class VoiceOption {
   const VoiceOption({required this.name, required this.locale});
@@ -205,6 +211,11 @@ VoiceOption? pickVoiceForLanguage(
 
 /// Platform TTS. Tests inject [SilentSpeechEngine].
 abstract class SpeechEngine {
+  /// False once the platform has shown it has no working TTS engine. Speech
+  /// is silent then, and the reader is owed an explanation rather than a
+  /// button that does nothing.
+  bool get isAvailable;
+
   void setCompletionHandler(VoidCallback handler);
   void setErrorHandler(void Function(dynamic message) handler);
   Future<void> speak(String text);
@@ -225,77 +236,119 @@ abstract class SpeechEngine {
 }
 
 class TtsSpeechEngine implements SpeechEngine {
-  TtsSpeechEngine() {
-    _ready = _configure();
+  /// The timeouts are injectable so tests can exercise a platform that never
+  /// answers without waiting out the real budget.
+  TtsSpeechEngine({
+    Duration callTimeout = _kTtsCallTimeout,
+    Duration initTimeout = _kTtsInitTimeout,
+  }) : _callTimeout = callTimeout {
+    // A configure() that never finishes must not strand every later call.
+    _ready = _configure().timeout(
+      initTimeout,
+      onTimeout: () => _unavailable = true,
+    );
   }
 
   final FlutterTts _tts = FlutterTts();
+  final Duration _callTimeout;
   late final Future<void> _ready;
   var _useEnglishSsml = false;
+  var _englishLocked = false;
+  var _unavailable = false;
   String? _preferredVoiceName;
   double _rate = kDefaultSpeechRate;
 
-  Future<void> _configure() async {
+  @override
+  bool get isAvailable => !_unavailable;
+
+  /// flutter_tts parks every method call until Android reports the engine
+  /// initialised, and hands the reply back only then. A device with no
+  /// configured TTS engine never fires that callback, so the future neither
+  /// completes nor throws - a bare await on it strands the play button
+  /// forever, with no sound and nothing in the log. Every platform call
+  /// therefore needs its own way out.
+  Future<T?> _guard<T>(Future<T> call) async {
     try {
-      if (_isIOS) {
-        await _tts.setSharedInstance(true);
-      }
-      if (_isAndroid) {
-        await _preferGoogleEngine();
-      }
-      await _tts.setSpeechRate(_rate);
-      await _tts.setPitch(1.0);
-      // flutter_tts Android init applies the *device* default voice (Dutch).
-      // Lock English after that callback has finished.
-      await _lockToEnglish();
+      return await call.timeout(_callTimeout);
+    } on TimeoutException {
+      _unavailable = true;
+      return null;
     } catch (_) {
       // Linux/desktop and tests may lack a TTS backend.
+      return null;
     }
+  }
+
+  Future<void> _configure() async {
+    if (_isIOS) {
+      await _guard(_tts.setSharedInstance(true));
+    }
+    if (_isAndroid) {
+      await _preferGoogleEngine();
+    }
+    await _guard(_tts.setSpeechRate(_rate));
+    await _guard(_tts.setPitch(1.0));
+    // flutter_tts Android init applies the *device* default voice (Dutch).
+    // Lock English after that callback has finished.
+    await _lockToEnglish();
   }
 
   Future<void> _preferGoogleEngine() async {
-    try {
-      final engines = await _tts.getEngines;
-      if (engines is! List) return;
-      final engine = pickPreferredTtsEngine(engines.map((e) => e.toString()));
-      if (engine == null) return;
-      await _tts.setEngine(engine);
-      _useEnglishSsml = engine.toLowerCase().contains('google');
-    } catch (_) {}
+    final engines = await _guard(_tts.getEngines);
+    if (engines is! List) return;
+    final engine = pickPreferredTtsEngine(engines.map((e) => e.toString()));
+    if (engine == null) return;
+    _useEnglishSsml = engine.toLowerCase().contains('google');
+    // setEngine tears the bound TextToSpeech down and builds a new one. On a
+    // phone already running Google TTS that throws away a working binding,
+    // and every call made before the replacement connects fails with 'not
+    // bound to TTS engine' - including the English lock below, which then
+    // leaves the device (Dutch) voice in place.
+    final current = (await _guard(_tts.getDefaultEngine))?.toString();
+    if (current != null && current.toLowerCase() == engine.toLowerCase()) {
+      return;
+    }
+    await _guard(_tts.setEngine(engine));
   }
 
   /// Device language (Dutch, etc.) must not drive pronunciation.
+  ///
+  /// Skipped once it has taken. The full lock is nine platform round-trips
+  /// and it used to run before every single utterance. [_englishLocked] is
+  /// cleared whenever the engine is pointed elsewhere ([_useLanguage]) or the
+  /// reader's pick changes ([applyPreferences]).
   Future<void> _lockToEnglish() async {
-    var language = 'en-US';
-    try {
-      final languages = await _tts.getLanguages;
-      if (languages is List) {
-        final picked = pickEnglishLanguage(
-          languages.map((code) => code.toString()),
-        );
-        if (picked != null) language = picked;
-      }
-    } catch (_) {}
+    if (_englishLocked) return;
 
-    for (final candidate in [language, ...kPreferredEnglishLocales]) {
-      try {
-        final available = await _tts.isLanguageAvailable(candidate);
-        if (available == false) continue;
-        final result = await _tts.setLanguage(candidate);
-        if (result == 0 || result == false) continue;
-        break;
-      } catch (_) {}
+    var language = 'en-US';
+    final languages = await _guard(_tts.getLanguages);
+    if (languages is List) {
+      final picked = pickEnglishLanguage(
+        languages.map((code) => code.toString()),
+      );
+      if (picked != null) language = picked;
     }
 
-    try {
-      final voices = await _tts.getVoices;
-      if (voices is! List) return;
-      final english = voices.whereType<Map>();
-      final chosen = _chooseVoice(english);
-      if (chosen != null) {
-        await _tts.setVoice(chosen);
-      }
-    } catch (_) {}
+    var applied = false;
+    for (final candidate in [language, ...kPreferredEnglishLocales]) {
+      final available = await _guard(_tts.isLanguageAvailable(candidate));
+      if (available == false) continue;
+      final result = await _guard(_tts.setLanguage(candidate));
+      if (result == null || result == 0 || result == false) continue;
+      applied = true;
+      break;
+    }
+    // A lock that never took must be retried, not remembered: an engine that
+    // is still binding reports every language unavailable.
+    if (!applied) return;
+    _englishLocked = true;
+
+    final voices = await _guard(_tts.getVoices);
+    if (voices is! List) return;
+    final chosen = _chooseVoice(voices.whereType<Map>());
+    if (chosen != null) {
+      await _guard(_tts.setVoice(chosen));
+    }
   }
 
   /// The reader's pick when it is still installed and still English,
@@ -317,13 +370,9 @@ class TtsSpeechEngine implements SpeechEngine {
   @override
   Future<List<VoiceOption>> englishVoices() async {
     await _ready;
-    try {
-      final voices = await _tts.getVoices;
-      if (voices is! List) return const [];
-      return englishVoiceOptions(voices.whereType<Map>());
-    } catch (_) {
-      return const [];
-    }
+    final voices = await _guard(_tts.getVoices);
+    if (voices is! List) return const [];
+    return englishVoiceOptions(voices.whereType<Map>());
   }
 
   @override
@@ -331,10 +380,9 @@ class TtsSpeechEngine implements SpeechEngine {
     await _ready;
     _preferredVoiceName = voiceName;
     if (rate != null) _rate = rate;
-    try {
-      await _tts.setSpeechRate(_rate);
-      await _lockToEnglish();
-    } catch (_) {}
+    await _guard(_tts.setSpeechRate(_rate));
+    _englishLocked = false;
+    await _lockToEnglish();
   }
 
   VoidCallback? _onDone;
@@ -371,11 +419,21 @@ class TtsSpeechEngine implements SpeechEngine {
   /// between segments does not cut the previous one off. The timeout is a
   /// backstop: some engines never report completion for empty or filtered
   /// text, and a sequence must not hang on that.
-  Future<void> _speakAndWait(String text) {
+  ///
+  /// speak() is only awaited for the engine's acknowledgement - the plugin
+  /// answers it straight away unless awaitSpeakCompletion is on, which it
+  /// never is here. An engine that cannot even take the utterance will not
+  /// report it finished either, so waiting out the backstop would freeze the
+  /// whole sequence for a minute and a half per segment.
+  Future<void> _speakAndWait(String text) async {
     _segmentDone = Completer<void>();
     final waiting = _segmentDone!.future;
-    _tts.speak(text);
-    return waiting.timeout(
+    final accepted = await _guard(_tts.speak(text));
+    if (accepted == null) {
+      _finishSegment();
+      return;
+    }
+    await waiting.timeout(
       const Duration(seconds: 90),
       onTimeout: () {},
     );
@@ -386,7 +444,7 @@ class TtsSpeechEngine implements SpeechEngine {
     await _ready;
     await _lockToEnglish();
     final utterance = _useEnglishSsml ? wrapEnglishSsml(text) : text;
-    await _tts.speak(utterance);
+    await _guard(_tts.speak(utterance));
   }
 
   @override
@@ -394,7 +452,7 @@ class TtsSpeechEngine implements SpeechEngine {
     await _ready;
     _inSequence = false;
     _finishSegment();
-    await _tts.stop();
+    await _guard(_tts.stop());
   }
 
   @override
@@ -430,9 +488,7 @@ class TtsSpeechEngine implements SpeechEngine {
       // A failed segment should not strand the sequence.
     } finally {
       _inSequence = false;
-      try {
-        await _lockToEnglish();
-      } catch (_) {}
+      await _lockToEnglish();
       _onDone?.call();
     }
   }
@@ -440,29 +496,22 @@ class TtsSpeechEngine implements SpeechEngine {
   /// Points the engine at [languageTag]. False when the device has no voice
   /// for it, which is common for the smaller languages in the catalog.
   Future<bool> _useLanguage(String languageTag) async {
-    try {
-      final voices = await _tts.getVoices;
-      if (voices is! List) return false;
-      final voice = pickVoiceForLanguage(voices.whereType<Map>(), languageTag);
-      if (voice == null) return false;
-      await _tts.setLanguage(voice.locale);
-      await _tts.setVoice({'name': voice.name, 'locale': voice.locale});
-      return true;
-    } catch (_) {
-      return false;
-    }
+    final voices = await _guard(_tts.getVoices);
+    if (voices is! List) return false;
+    final voice = pickVoiceForLanguage(voices.whereType<Map>(), languageTag);
+    if (voice == null) return false;
+    _englishLocked = false;
+    await _guard(_tts.setLanguage(voice.locale));
+    await _guard(_tts.setVoice({'name': voice.name, 'locale': voice.locale}));
+    return true;
   }
 
   @override
   Future<VoiceOption?> voiceForLanguage(String languageTag) async {
     await _ready;
-    try {
-      final voices = await _tts.getVoices;
-      if (voices is! List) return null;
-      return pickVoiceForLanguage(voices.whereType<Map>(), languageTag);
-    } catch (_) {
-      return null;
-    }
+    final voices = await _guard(_tts.getVoices);
+    if (voices is! List) return null;
+    return pickVoiceForLanguage(voices.whereType<Map>(), languageTag);
   }
 }
 
@@ -476,6 +525,9 @@ class SilentSpeechEngine implements SpeechEngine {
   final List<VoiceOption> voices;
   String? appliedVoiceName;
   double? appliedRate;
+
+  @override
+  bool get isAvailable => true;
 
   @override
   Future<List<VoiceOption>> englishVoices() async => voices;
