@@ -112,6 +112,16 @@ restored from `tool/_en_words_src.json`, which is the canonical English source a
 never damaged; the 60 overlays never were either. `quiz_and_data_test.dart` now fails on
 a backslash or an unclosed quotation in the shipped English text.
 
+**Proofreading the shipped text:** `test/text_quality_test.dart` runs the mechanical
+half over all sixty languages — a quotation that closes, a bracket with a partner, no
+stray escape, no doubled punctuation, no word typed twice. It is calibrated against the
+languages rather than against English: French puts a space before `:` and `?`, quotation
+marks close with different characters per language, and Turkish `uzun uzun`, Swahili
+`lile lile` and Urdu `ایک ایک` are ordinary reduplication — those twenty-three live in
+`_knownReduplication`, each checked by hand. The checks say nothing about grammar, which
+no tool can settle for sixty languages; they catch the generation damage that has twice
+reached the store.
+
 **Responsive layout:** `lib/theme/layout.dart` owns the breakpoints, gutters, reading
 width, and column counts. Read it with `context.layout`, which measures the space the
 page was actually handed — `LayoutBoundary` publishes that, because the window is the
@@ -204,7 +214,7 @@ flutter test
 ```
 
 **Known-good baseline (2026-08-29, Flutter 3.41.7 on Windows):** `flutter analyze`
-clean, `flutter test` **126/126**, `l10n/untranslated.json` empty,
+clean, `flutter test` **133/133**, `l10n/untranslated.json` empty,
 `flutter build apk --debug` exit 0.
 
 The Flutter version differs by machine — 3.47.2 / Dart 3.13.2 on Linux, 3.41.7 on
