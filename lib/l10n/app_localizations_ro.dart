@@ -457,4 +457,39 @@ class AppLocalizationsRo extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Acest dispozitiv nu are o voce $language instalată.';
   }
+
+  @override
+  String get memorySection => 'Memorie';
+
+  @override
+  String get memoryCaption => 'ce păstrează Gloss';
+
+  @override
+  String get forgetProgress => 'Uită progresul meu';
+
+  @override
+  String get forgetProgressBody =>
+      'Cuvintele pe care le-ai explorat nu vor mai fi marcate. Cuvintele salvate rămân.';
+
+  @override
+  String get clearSavedWords => 'Șterge cuvintele salvate';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Cuvintele pe care le-ai păstrat vor fi eliminate. Progresul tău rămâne.';
+
+  @override
+  String get cancel => 'Anulează';
+
+  @override
+  String get forget => 'Uită';
+
+  @override
+  String get clear => 'Șterge';
+
+  @override
+  String get progressForgotten => 'Progres uitat.';
+
+  @override
+  String get savedWordsCleared => 'Cuvinte salvate șterse.';
 }

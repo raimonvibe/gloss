@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Không thể mở {label}.",
   "readExplanationsIn": "Đọc giải thích bằng {language}",
   "readExplanationsCaption": "Bản thân từ luôn được đọc bằng tiếng Anh.",
-  "noVoiceInstalled": "Thiết bị này chưa cài giọng {language}."
+  "noVoiceInstalled": "Thiết bị này chưa cài giọng {language}.",
+  "memorySection": "Ký ức",
+  "memoryCaption": "những gì Gloss giữ lại",
+  "forgetProgress": "Quên tiến trình của tôi",
+  "forgetProgressBody": "Dấu trên những từ bạn đã khám phá sẽ được gỡ bỏ. Các từ đã lưu vẫn còn.",
+  "clearSavedWords": "Xóa các từ đã lưu",
+  "clearSavedWordsBody": "Những từ bạn đã giữ sẽ bị gỡ bỏ. Tiến trình của bạn vẫn còn.",
+  "cancel": "Hủy",
+  "forget": "Quên",
+  "clear": "Xóa",
+  "progressForgotten": "Đã quên tiến trình.",
+  "savedWordsCleared": "Đã xóa các từ đã lưu."
 }

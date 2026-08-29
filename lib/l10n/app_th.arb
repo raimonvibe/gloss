@@ -130,5 +130,16 @@
   "couldNotOpenLink": "ไม่สามารถเปิด {label} ได้",
   "readExplanationsIn": "อ่านคำอธิบายเป็นภาษา {language}",
   "readExplanationsCaption": "ตัวคำนั้นจะอ่านเป็นภาษาอังกฤษเสมอ",
-  "noVoiceInstalled": "อุปกรณ์นี้ไม่มีเสียง {language} ติดตั้งอยู่"
+  "noVoiceInstalled": "อุปกรณ์นี้ไม่มีเสียง {language} ติดตั้งอยู่",
+  "memorySection": "ความทรงจำ",
+  "memoryCaption": "สิ่งที่ Gloss เก็บไว้",
+  "forgetProgress": "ลืมความคืบหน้าของฉัน",
+  "forgetProgressBody": "เครื่องหมายของคำที่คุณสำรวจแล้วจะถูกลบออก คำที่บันทึกไว้ยังคงอยู่",
+  "clearSavedWords": "ล้างคำที่บันทึกไว้",
+  "clearSavedWordsBody": "คำที่คุณเก็บไว้จะถูกลบออก ความคืบหน้าของคุณยังคงอยู่",
+  "cancel": "ยกเลิก",
+  "forget": "ลืม",
+  "clear": "ล้าง",
+  "progressForgotten": "ลืมความคืบหน้าแล้ว",
+  "savedWordsCleared": "ล้างคำที่บันทึกไว้แล้ว"
 }

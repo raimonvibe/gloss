@@ -130,5 +130,16 @@
   "couldNotOpenLink": "לא ניתן לפתוח את {label}.",
   "readExplanationsIn": "קריאת ההסברים ב{language}",
   "readExplanationsCaption": "המילה עצמה נקראת תמיד באנגלית.",
-  "noVoiceInstalled": "במכשיר הזה לא מותקן קול {language}."
+  "noVoiceInstalled": "במכשיר הזה לא מותקן קול {language}.",
+  "memorySection": "זיכרון",
+  "memoryCaption": "מה ש-Gloss שומר",
+  "forgetProgress": "שכח את ההתקדמות שלי",
+  "forgetProgressBody": "הסימון יוסר מהמילים שחקרת. המילים השמורות שלך יישארו.",
+  "clearSavedWords": "נקה מילים שמורות",
+  "clearSavedWordsBody": "המילים ששמרת יוסרו. ההתקדמות שלך תישאר.",
+  "cancel": "ביטול",
+  "forget": "שכח",
+  "clear": "נקה",
+  "progressForgotten": "ההתקדמות נשכחה.",
+  "savedWordsCleared": "המילים השמורות נוקו."
 }

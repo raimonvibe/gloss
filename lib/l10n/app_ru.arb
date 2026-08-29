@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Не удалось открыть {label}.",
   "readExplanationsIn": "Читать пояснения на языке {language}",
   "readExplanationsCaption": "Само слово всегда читается по-английски.",
-  "noVoiceInstalled": "На этом устройстве нет голоса для языка {language}."
+  "noVoiceInstalled": "На этом устройстве нет голоса для языка {language}.",
+  "memorySection": "Память",
+  "memoryCaption": "что хранит Gloss",
+  "forgetProgress": "Забыть мой прогресс",
+  "forgetProgressBody": "С изученных слов будут сняты отметки. Сохранённые слова останутся.",
+  "clearSavedWords": "Очистить сохранённые слова",
+  "clearSavedWordsBody": "Слова, которые вы сохранили, будут удалены. Ваш прогресс останется.",
+  "cancel": "Отмена",
+  "forget": "Забыть",
+  "clear": "Очистить",
+  "progressForgotten": "Прогресс забыт.",
+  "savedWordsCleared": "Сохранённые слова очищены."
 }

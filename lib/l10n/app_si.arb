@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} විවෘත කළ නොහැකි විය.",
   "readExplanationsIn": "{language} බසින් විස්තර කියවන්න",
   "readExplanationsCaption": "වචනය සැමවිටම ඉංග්‍රීසියෙන් කියවනු ලැබේ.",
-  "noVoiceInstalled": "මෙම උපාංගයේ {language} හඬක් ස්ථාපනය කර නැත."
+  "noVoiceInstalled": "මෙම උපාංගයේ {language} හඬක් ස්ථාපනය කර නැත.",
+  "memorySection": "මතකය",
+  "memoryCaption": "Gloss තබාගන්නා දේ",
+  "forgetProgress": "මගේ ප්‍රගතිය අමතක කරන්න",
+  "forgetProgressBody": "ඔබ ගවේෂණය කළ වචනවල සලකුණ ඉවත් වේ. ඔබ සුරැකි වචන පවතී.",
+  "clearSavedWords": "සුරැකි වචන ඉවත් කරන්න",
+  "clearSavedWordsBody": "ඔබ තබාගත් වචන ඉවත් කෙරේ. ඔබේ ප්‍රගතිය පවතී.",
+  "cancel": "අවලංගු කරන්න",
+  "forget": "අමතක කරන්න",
+  "clear": "ඉවත් කරන්න",
+  "progressForgotten": "ප්‍රගතිය අමතක කෙරිණි.",
+  "savedWordsCleared": "සුරැකි වචන ඉවත් කෙරිණි."
 }

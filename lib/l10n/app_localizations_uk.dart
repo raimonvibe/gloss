@@ -454,4 +454,39 @@ class AppLocalizationsUk extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'На цьому пристрої немає голосу для мови $language.';
   }
+
+  @override
+  String get memorySection => 'Пам\'ять';
+
+  @override
+  String get memoryCaption => 'що зберігає Gloss';
+
+  @override
+  String get forgetProgress => 'Забути мій поступ';
+
+  @override
+  String get forgetProgressBody =>
+      'Зі слів, які ви дослідили, буде знято позначки. Збережені слова залишаться.';
+
+  @override
+  String get clearSavedWords => 'Очистити збережені слова';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Слова, які ви зберегли, буде вилучено. Ваш поступ залишиться.';
+
+  @override
+  String get cancel => 'Скасувати';
+
+  @override
+  String get forget => 'Забути';
+
+  @override
+  String get clear => 'Очистити';
+
+  @override
+  String get progressForgotten => 'Поступ забуто.';
+
+  @override
+  String get savedWordsCleared => 'Збережені слова очищено.';
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Не ўдалося адкрыць {label}.",
   "readExplanationsIn": "Чытаць тлумачэнні на мове {language}",
   "readExplanationsCaption": "Само слова заўсёды чытаецца па-англійску.",
-  "noVoiceInstalled": "На гэтай прыладзе няма голасу для мовы {language}."
+  "noVoiceInstalled": "На гэтай прыладзе няма голасу для мовы {language}.",
+  "memorySection": "Памяць",
+  "memoryCaption": "што захоўвае Gloss",
+  "forgetProgress": "Забыць мой поступ",
+  "forgetProgressBody": "З словаў, якія вы даследавалі, будуць знятыя пазнакі. Захаваныя словы застануцца.",
+  "clearSavedWords": "Ачысціць захаваныя словы",
+  "clearSavedWordsBody": "Словы, якія вы захавалі, будуць выдаленыя. Ваш поступ застанецца.",
+  "cancel": "Скасаваць",
+  "forget": "Забыць",
+  "clear": "Ачысціць",
+  "progressForgotten": "Поступ забыты.",
+  "savedWordsCleared": "Захаваныя словы ачышчаныя."
 }

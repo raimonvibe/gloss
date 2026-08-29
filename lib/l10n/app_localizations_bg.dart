@@ -455,4 +455,39 @@ class AppLocalizationsBg extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Това устройство няма инсталиран глас за $language.';
   }
+
+  @override
+  String get memorySection => 'Памет';
+
+  @override
+  String get memoryCaption => 'какво пази Gloss';
+
+  @override
+  String get forgetProgress => 'Забрави напредъка ми';
+
+  @override
+  String get forgetProgressBody =>
+      'Думите, които сте разгледали, ще бъдат размаркирани. Запазените ви думи остават.';
+
+  @override
+  String get clearSavedWords => 'Изчисти запазените думи';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Думите, които сте запазили, ще бъдат премахнати. Напредъкът ви остава.';
+
+  @override
+  String get cancel => 'Отказ';
+
+  @override
+  String get forget => 'Забрави';
+
+  @override
+  String get clear => 'Изчисти';
+
+  @override
+  String get progressForgotten => 'Напредъкът е забравен.';
+
+  @override
+  String get savedWordsCleared => 'Запазените думи са изчистени.';
 }

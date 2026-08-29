@@ -7,23 +7,15 @@ verify the project.
 Completed items are removed rather than struck through — the point of this file is what
 is still open. What was learned from finishing one belongs in CLAUDE.md.
 
-## 1. Settings researched but not yet built
+## 1. Daily word reminder — *not built*
 
 From the vocabulary-app research done during the Study page design. Four candidates were
-put forward; **Reading & motion** and **About & licences** were chosen and shipped. The
-other two were deliberately deferred and are still open:
-
-### Data controls — *not built*
-
-Reset quiz progress, and clear saved words, each behind a confirmation dialog. Destructive,
-so it was worth being deliberate about. Pure Flutter, no new dependencies — the state already
-lives in `SettingsController` and the saved-words store.
-
-### Daily word reminder — *not built*
+put forward; **Reading & motion**, **About & licences** and **Data controls** have all
+shipped. This is the last one, and the largest lift.
 
 A notification at an hour the reader picks. The research flagged **daily reminders and text
 scaling as the two most-used features** in vocabulary apps. Text scaling shipped; the reminder
-did not, because it is the largest lift on the list:
+did not, because unlike the rest it reaches outside Flutter:
 
 - adds `flutter_local_notifications` + `timezone`
 - Android 13 `POST_NOTIFICATIONS` runtime permission
@@ -56,31 +48,7 @@ Note the deprecation warning comes from Flutter 3.47.2 (the Linux machine). The 
 checkout runs 3.41.7 and may not warn at all — that is a difference in the SDK, not in
 the project.
 
-## 3. `app_zh.arb` is unreachable, and China is missing from the catalog
-
-`lib/l10n/app_zh.arb` carries a full set of Simplified Chinese UI strings, but **no
-catalog locale ever selects it**. `l10n/catalog.json` has no `zh` translation key: its
-only Chinese entries are `zh-HK` (Hong Kong) and `zh-TW` (Taiwan, and Macao). The app
-builds `supportedLocales` from the catalog (`app.dart`), so `zh` is never resolved.
-
-Two facts that almost certainly belong to the same unfinished thought:
-
-- **China (`CN`) is absent from the 177-country list entirely** — Hong Kong, Macao,
-  Taiwan and Singapore are all present
-- `app_zh.arb` exists anyway, and `l10n/source/ui_i18n.json` does **not** track `zh`
-
-So this is a half-added locale, not dead weight to delete on sight. Either finish it or
-drop it, deliberately:
-
-- **Finish:** add China to `l10n/catalog.json` with `zh` (plus `tool/_pos_origin.py`),
-  then write `tool/_data_zh.py` and emit `assets/l10n/words_zh.json`. The overlay test
-  requires it — every non-English translation key must have one.
-- **Drop:** delete `lib/l10n/app_zh.arb` and re-run `flutter gen-l10n`.
-
-Finishing is the better end state: Simplified Chinese is the largest language currently
-missing, and the UI half is already written.
-
-## 4. Documentation drifts from the machine it was written on
+## 3. Documentation drifts from the machine it was written on
 
 Both this file and CLAUDE.md previously hard-coded one machine's paths, one Flutter
 install, `python3`, and a test count — all of which were wrong on the second machine or

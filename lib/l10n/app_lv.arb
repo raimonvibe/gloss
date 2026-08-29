@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Neizdevās atvērt {label}.",
   "readExplanationsIn": "Lasīt skaidrojumus {language} valodā",
   "readExplanationsCaption": "Pats vārds vienmēr tiek lasīts angliski.",
-  "noVoiceInstalled": "Šajā ierīcē nav instalētas {language} valodas balss."
+  "noVoiceInstalled": "Šajā ierīcē nav instalētas {language} valodas balss.",
+  "memorySection": "Atmiņa",
+  "memoryCaption": "ko Gloss patur",
+  "forgetProgress": "Aizmirst manu progresu",
+  "forgetProgressBody": "Vārdiem, kurus esat izpētījis, tiks noņemta atzīme. Saglabātie vārdi paliks.",
+  "clearSavedWords": "Notīrīt saglabātos vārdus",
+  "clearSavedWordsBody": "Vārdi, kurus esat saglabājis, tiks noņemti. Jūsu progress paliks.",
+  "cancel": "Atcelt",
+  "forget": "Aizmirst",
+  "clear": "Notīrīt",
+  "progressForgotten": "Progress aizmirsts.",
+  "savedWordsCleared": "Saglabātie vārdi notīrīti."
 }

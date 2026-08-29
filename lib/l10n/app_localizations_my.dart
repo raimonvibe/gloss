@@ -456,4 +456,40 @@ class AppLocalizationsMy extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'ဤစက်တွင် $language အသံ မတပ်ဆင်ထားပါ။';
   }
+
+  @override
+  String get memorySection => 'မှတ်ဉာဏ်';
+
+  @override
+  String get memoryCaption => 'Gloss သိမ်းထားသည့်အရာ';
+
+  @override
+  String get forgetProgress => 'ကျွန်ုပ်၏တိုးတက်မှုကို မေ့ပါ';
+
+  @override
+  String get forgetProgressBody =>
+      'သင်လေ့လာခဲ့သော စကားလုံးများ၏ အမှတ်အသားကို ဖယ်ရှားပါမည်။ သိမ်းထားသော စကားလုံးများ ကျန်ရှိပါမည်။';
+
+  @override
+  String get clearSavedWords => 'သိမ်းထားသော စကားလုံးများကို ရှင်းပါ';
+
+  @override
+  String get clearSavedWordsBody =>
+      'သင်သိမ်းထားသော စကားလုံးများကို ဖယ်ရှားပါမည်။ သင့်တိုးတက်မှု ကျန်ရှိပါမည်။';
+
+  @override
+  String get cancel => 'ပယ်ဖျက်';
+
+  @override
+  String get forget => 'မေ့ပါ';
+
+  @override
+  String get clear => 'ရှင်းပါ';
+
+  @override
+  String get progressForgotten => 'တိုးတက်မှုကို မေ့လိုက်ပါပြီ။';
+
+  @override
+  String get savedWordsCleared =>
+      'သိမ်းထားသော စကားလုံးများကို ရှင်းလိုက်ပါပြီ။';
 }

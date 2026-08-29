@@ -453,4 +453,39 @@ class AppLocalizationsCs extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Toto zařízení nemá nainstalovaný hlas pro jazyk $language.';
   }
+
+  @override
+  String get memorySection => 'Paměť';
+
+  @override
+  String get memoryCaption => 'co si Gloss pamatuje';
+
+  @override
+  String get forgetProgress => 'Zapomenout můj pokrok';
+
+  @override
+  String get forgetProgressBody =>
+      'Slovům, která jste prozkoumali, bude odebrána značka. Uložená slova zůstanou.';
+
+  @override
+  String get clearSavedWords => 'Vymazat uložená slova';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Slova, která jste si uložili, budou odstraněna. Váš pokrok zůstane.';
+
+  @override
+  String get cancel => 'Zrušit';
+
+  @override
+  String get forget => 'Zapomenout';
+
+  @override
+  String get clear => 'Vymazat';
+
+  @override
+  String get progressForgotten => 'Pokrok zapomenut.';
+
+  @override
+  String get savedWordsCleared => 'Uložená slova vymazána.';
 }

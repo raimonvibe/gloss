@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Не вдалося відкрити {label}.",
   "readExplanationsIn": "Читати пояснення мовою {language}",
   "readExplanationsCaption": "Саме слово завжди читається англійською.",
-  "noVoiceInstalled": "На цьому пристрої немає голосу для мови {language}."
+  "noVoiceInstalled": "На цьому пристрої немає голосу для мови {language}.",
+  "memorySection": "Пам'ять",
+  "memoryCaption": "що зберігає Gloss",
+  "forgetProgress": "Забути мій поступ",
+  "forgetProgressBody": "Зі слів, які ви дослідили, буде знято позначки. Збережені слова залишаться.",
+  "clearSavedWords": "Очистити збережені слова",
+  "clearSavedWordsBody": "Слова, які ви зберегли, буде вилучено. Ваш поступ залишиться.",
+  "cancel": "Скасувати",
+  "forget": "Забути",
+  "clear": "Очистити",
+  "progressForgotten": "Поступ забуто.",
+  "savedWordsCleared": "Збережені слова очищено."
 }

@@ -453,4 +453,39 @@ class AppLocalizationsAr extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'لا يوجد صوت $language مثبّت على هذا الجهاز.';
   }
+
+  @override
+  String get memorySection => 'الذاكرة';
+
+  @override
+  String get memoryCaption => 'ما يحتفظ به Gloss';
+
+  @override
+  String get forgetProgress => 'انسَ تقدّمي';
+
+  @override
+  String get forgetProgressBody =>
+      'ستُزال العلامة عن الكلمات التي استكشفتها. كلماتك المحفوظة تبقى.';
+
+  @override
+  String get clearSavedWords => 'مسح الكلمات المحفوظة';
+
+  @override
+  String get clearSavedWordsBody =>
+      'ستُحذف الكلمات التي احتفظت بها. تقدّمك يبقى.';
+
+  @override
+  String get cancel => 'إلغاء';
+
+  @override
+  String get forget => 'انسَ';
+
+  @override
+  String get clear => 'مسح';
+
+  @override
+  String get progressForgotten => 'نُسي التقدّم.';
+
+  @override
+  String get savedWordsCleared => 'مُسحت الكلمات المحفوظة.';
 }

@@ -451,4 +451,39 @@ class AppLocalizationsHy extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Այս սարքում $language ձայն տեղադրված չէ։';
   }
+
+  @override
+  String get memorySection => 'Հիշողություն';
+
+  @override
+  String get memoryCaption => 'ինչ է պահում Gloss-ը';
+
+  @override
+  String get forgetProgress => 'Մոռանալ իմ առաջընթացը';
+
+  @override
+  String get forgetProgressBody =>
+      'Ձեր ուսումնասիրած բառերի նշումը կհեռացվի։ Պահպանված բառերը կմնան։';
+
+  @override
+  String get clearSavedWords => 'Մաքրել պահպանված բառերը';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Ձեր պահած բառերը կհեռացվեն։ Ձեր առաջընթացը կմնա։';
+
+  @override
+  String get cancel => 'Չեղարկել';
+
+  @override
+  String get forget => 'Մոռանալ';
+
+  @override
+  String get clear => 'Մաքրել';
+
+  @override
+  String get progressForgotten => 'Առաջընթացը մոռացվեց։';
+
+  @override
+  String get savedWordsCleared => 'Պահպանված բառերը մաքրվեցին։';
 }

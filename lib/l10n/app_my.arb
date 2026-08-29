@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} ကို မဖွင့်နိုင်ပါ။",
   "readExplanationsIn": "{language} ဘာသာဖြင့် ရှင်းလင်းချက်များကို ဖတ်ပါ",
   "readExplanationsCaption": "စကားလုံးကိုယ်တိုင်ကို အမြဲ အင်္ဂလိပ်လိုဖတ်ပါသည်။",
-  "noVoiceInstalled": "ဤစက်တွင် {language} အသံ မတပ်ဆင်ထားပါ။"
+  "noVoiceInstalled": "ဤစက်တွင် {language} အသံ မတပ်ဆင်ထားပါ။",
+  "memorySection": "မှတ်ဉာဏ်",
+  "memoryCaption": "Gloss သိမ်းထားသည့်အရာ",
+  "forgetProgress": "ကျွန်ုပ်၏တိုးတက်မှုကို မေ့ပါ",
+  "forgetProgressBody": "သင်လေ့လာခဲ့သော စကားလုံးများ၏ အမှတ်အသားကို ဖယ်ရှားပါမည်။ သိမ်းထားသော စကားလုံးများ ကျန်ရှိပါမည်။",
+  "clearSavedWords": "သိမ်းထားသော စကားလုံးများကို ရှင်းပါ",
+  "clearSavedWordsBody": "သင်သိမ်းထားသော စကားလုံးများကို ဖယ်ရှားပါမည်။ သင့်တိုးတက်မှု ကျန်ရှိပါမည်။",
+  "cancel": "ပယ်ဖျက်",
+  "forget": "မေ့ပါ",
+  "clear": "ရှင်းပါ",
+  "progressForgotten": "တိုးတက်မှုကို မေ့လိုက်ပါပြီ။",
+  "savedWordsCleared": "သိမ်းထားသော စကားလုံးများကို ရှင်းလိုက်ပါပြီ။"
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} खोल्न सकिएन।",
   "readExplanationsIn": "{language} मा व्याख्या पढ्नुहोस्",
   "readExplanationsCaption": "शब्द आफैँ सधैँ अङ्ग्रेजीमा पढिन्छ।",
-  "noVoiceInstalled": "यस यन्त्रमा {language} स्वर स्थापना गरिएको छैन।"
+  "noVoiceInstalled": "यस यन्त्रमा {language} स्वर स्थापना गरिएको छैन।",
+  "memorySection": "स्मृति",
+  "memoryCaption": "Gloss ले के राख्छ",
+  "forgetProgress": "मेरो प्रगति बिर्सनुहोस्",
+  "forgetProgressBody": "तपाईंले हेर्नुभएका शब्दहरूको चिन्ह हट्नेछ। सुरक्षित शब्दहरू रहनेछन्।",
+  "clearSavedWords": "सुरक्षित शब्दहरू खाली गर्नुहोस्",
+  "clearSavedWordsBody": "तपाईंले राख्नुभएका शब्दहरू हटाइनेछन्। तपाईंको प्रगति रहनेछ।",
+  "cancel": "रद्द गर्नुहोस्",
+  "forget": "बिर्सनुहोस्",
+  "clear": "खाली गर्नुहोस्",
+  "progressForgotten": "प्रगति बिर्सियो।",
+  "savedWordsCleared": "सुरक्षित शब्दहरू खाली गरियो।"
 }

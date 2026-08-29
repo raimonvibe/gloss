@@ -451,4 +451,39 @@ class AppLocalizationsTh extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'อุปกรณ์นี้ไม่มีเสียง $language ติดตั้งอยู่';
   }
+
+  @override
+  String get memorySection => 'ความทรงจำ';
+
+  @override
+  String get memoryCaption => 'สิ่งที่ Gloss เก็บไว้';
+
+  @override
+  String get forgetProgress => 'ลืมความคืบหน้าของฉัน';
+
+  @override
+  String get forgetProgressBody =>
+      'เครื่องหมายของคำที่คุณสำรวจแล้วจะถูกลบออก คำที่บันทึกไว้ยังคงอยู่';
+
+  @override
+  String get clearSavedWords => 'ล้างคำที่บันทึกไว้';
+
+  @override
+  String get clearSavedWordsBody =>
+      'คำที่คุณเก็บไว้จะถูกลบออก ความคืบหน้าของคุณยังคงอยู่';
+
+  @override
+  String get cancel => 'ยกเลิก';
+
+  @override
+  String get forget => 'ลืม';
+
+  @override
+  String get clear => 'ล้าง';
+
+  @override
+  String get progressForgotten => 'ลืมความคืบหน้าแล้ว';
+
+  @override
+  String get savedWordsCleared => 'ล้างคำที่บันทึกไว้แล้ว';
 }

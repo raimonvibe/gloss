@@ -454,4 +454,39 @@ class AppLocalizationsEt extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Sellel seadmel pole $language häält paigaldatud.';
   }
+
+  @override
+  String get memorySection => 'Mälu';
+
+  @override
+  String get memoryCaption => 'mida Gloss hoiab';
+
+  @override
+  String get forgetProgress => 'Unusta mu edenemine';
+
+  @override
+  String get forgetProgressBody =>
+      'Uuritud sõnadelt eemaldatakse märge. Sinu salvestatud sõnad jäävad.';
+
+  @override
+  String get clearSavedWords => 'Tühjenda salvestatud sõnad';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Sõnad, mille oled hoidnud, eemaldatakse. Sinu edenemine jääb.';
+
+  @override
+  String get cancel => 'Loobu';
+
+  @override
+  String get forget => 'Unusta';
+
+  @override
+  String get clear => 'Tühjenda';
+
+  @override
+  String get progressForgotten => 'Edenemine unustatud.';
+
+  @override
+  String get savedWordsCleared => 'Salvestatud sõnad tühjendatud.';
 }

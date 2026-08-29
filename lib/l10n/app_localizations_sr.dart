@@ -453,4 +453,39 @@ class AppLocalizationsSr extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Овај уређај нема инсталиран глас за језик $language.';
   }
+
+  @override
+  String get memorySection => 'Памћење';
+
+  @override
+  String get memoryCaption => 'шта Gloss чува';
+
+  @override
+  String get forgetProgress => 'Заборави мој напредак';
+
+  @override
+  String get forgetProgressBody =>
+      'Речима које сте истражили биће уклоњена ознака. Сачуване речи остају.';
+
+  @override
+  String get clearSavedWords => 'Обриши сачуване речи';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Речи које сте сачували биће уклоњене. Ваш напредак остаје.';
+
+  @override
+  String get cancel => 'Одустани';
+
+  @override
+  String get forget => 'Заборави';
+
+  @override
+  String get clear => 'Обриши';
+
+  @override
+  String get progressForgotten => 'Напредак заборављен.';
+
+  @override
+  String get savedWordsCleared => 'Сачуване речи обрисане.';
 }

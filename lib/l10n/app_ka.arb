@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} ვერ გაიხსნა.",
   "readExplanationsIn": "განმარტებების წაკითხვა {language} ენაზე",
   "readExplanationsCaption": "თავად სიტყვა ყოველთვის ინგლისურად იკითხება.",
-  "noVoiceInstalled": "ამ მოწყობილობას არ აქვს {language} ხმა დაყენებული."
+  "noVoiceInstalled": "ამ მოწყობილობას არ აქვს {language} ხმა დაყენებული.",
+  "memorySection": "მეხსიერება",
+  "memoryCaption": "რას ინახავს Gloss",
+  "forgetProgress": "დაივიწყე ჩემი პროგრესი",
+  "forgetProgressBody": "თქვენ მიერ შესწავლილ სიტყვებს მოეხსნება ნიშანი. შენახული სიტყვები დარჩება.",
+  "clearSavedWords": "გაასუფთავე შენახული სიტყვები",
+  "clearSavedWordsBody": "თქვენ მიერ შენახული სიტყვები წაიშლება. თქვენი პროგრესი დარჩება.",
+  "cancel": "გაუქმება",
+  "forget": "დავიწყება",
+  "clear": "გასუფთავება",
+  "progressForgotten": "პროგრესი დავიწყებულია.",
+  "savedWordsCleared": "შენახული სიტყვები გასუფთავდა."
 }

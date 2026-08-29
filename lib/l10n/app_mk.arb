@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} не можеше да се отвори.",
   "readExplanationsIn": "Читај објаснувања на {language}",
   "readExplanationsCaption": "Самиот збор секогаш се чита на англиски.",
-  "noVoiceInstalled": "Овој уред нема инсталиран глас за {language}."
+  "noVoiceInstalled": "Овој уред нема инсталиран глас за {language}.",
+  "memorySection": "Меморија",
+  "memoryCaption": "што чува Gloss",
+  "forgetProgress": "Заборави го мојот напредок",
+  "forgetProgressBody": "На зборовите што сте ги истражиле ќе им биде тргната ознаката. Зачуваните зборови остануваат.",
+  "clearSavedWords": "Исчисти ги зачуваните зборови",
+  "clearSavedWordsBody": "Зборовите што сте ги зачувале ќе бидат отстранети. Вашиот напредок останува.",
+  "cancel": "Откажи",
+  "forget": "Заборави",
+  "clear": "Исчисти",
+  "progressForgotten": "Напредокот е заборавен.",
+  "savedWordsCleared": "Зачуваните зборови се исчистени."
 }

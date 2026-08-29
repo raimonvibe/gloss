@@ -453,4 +453,39 @@ class AppLocalizationsIs extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Þetta tæki er ekki með $language rödd uppsetta.';
   }
+
+  @override
+  String get memorySection => 'Minni';
+
+  @override
+  String get memoryCaption => 'hvað Gloss geymir';
+
+  @override
+  String get forgetProgress => 'Gleyma framvindu minni';
+
+  @override
+  String get forgetProgressBody =>
+      'Merkingar orðanna sem þú hefur kannað verða fjarlægðar. Vistuðu orðin þín haldast.';
+
+  @override
+  String get clearSavedWords => 'Hreinsa vistuð orð';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Orðin sem þú hefur geymt verða fjarlægð. Framvindan þín helst.';
+
+  @override
+  String get cancel => 'Hætta við';
+
+  @override
+  String get forget => 'Gleyma';
+
+  @override
+  String get clear => 'Hreinsa';
+
+  @override
+  String get progressForgotten => 'Framvindu gleymt.';
+
+  @override
+  String get savedWordsCleared => 'Vistuð orð hreinsuð.';
 }

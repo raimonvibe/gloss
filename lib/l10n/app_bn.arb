@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} খোলা গেল না।",
   "readExplanationsIn": "{language} ভাষায় ব্যাখ্যা পড়ুন",
   "readExplanationsCaption": "শব্দটি নিজে সর্বদা ইংরেজিতেই পড়া হয়।",
-  "noVoiceInstalled": "এই ডিভাইসে {language} কণ্ঠ ইনস্টল করা নেই।"
+  "noVoiceInstalled": "এই ডিভাইসে {language} কণ্ঠ ইনস্টল করা নেই।",
+  "memorySection": "স্মৃতি",
+  "memoryCaption": "Gloss যা রাখে",
+  "forgetProgress": "আমার অগ্রগতি ভুলে যাও",
+  "forgetProgressBody": "আপনি যে শব্দগুলি দেখেছেন সেগুলির চিহ্ন সরানো হবে। সংরক্ষিত শব্দ থেকে যাবে।",
+  "clearSavedWords": "সংরক্ষিত শব্দ মুছুন",
+  "clearSavedWordsBody": "আপনি যে শব্দগুলি রেখেছেন সেগুলি সরানো হবে। আপনার অগ্রগতি থেকে যাবে।",
+  "cancel": "বাতিল",
+  "forget": "ভুলে যাও",
+  "clear": "মুছুন",
+  "progressForgotten": "অগ্রগতি ভুলে যাওয়া হয়েছে।",
+  "savedWordsCleared": "সংরক্ষিত শব্দ মুছে ফেলা হয়েছে।"
 }

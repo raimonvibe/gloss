@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Nepavyko atverti {label}.",
   "readExplanationsIn": "Skaityti paaiškinimus {language} kalba",
   "readExplanationsCaption": "Pats žodis visada skaitomas angliškai.",
-  "noVoiceInstalled": "Šiame įrenginyje nėra įdiegto {language} kalbos balso."
+  "noVoiceInstalled": "Šiame įrenginyje nėra įdiegto {language} kalbos balso.",
+  "memorySection": "Atmintis",
+  "memoryCaption": "ką Gloss saugo",
+  "forgetProgress": "Pamiršti mano pažangą",
+  "forgetProgressBody": "Žodžiams, kuriuos peržiūrėjote, bus panaikinta žyma. Išsaugoti žodžiai liks.",
+  "clearSavedWords": "Išvalyti išsaugotus žodžius",
+  "clearSavedWordsBody": "Žodžiai, kuriuos išsaugojote, bus pašalinti. Jūsų pažanga liks.",
+  "cancel": "Atšaukti",
+  "forget": "Pamiršti",
+  "clear": "Išvalyti",
+  "progressForgotten": "Pažanga pamiršta.",
+  "savedWordsCleared": "Išsaugoti žodžiai išvalyti."
 }

@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Kunne ikke åpne {label}.",
   "readExplanationsIn": "Les forklaringer på {language}",
   "readExplanationsCaption": "Selve ordet leses alltid på engelsk.",
-  "noVoiceInstalled": "Denne enheten har ingen {language}-stemme installert."
+  "noVoiceInstalled": "Denne enheten har ingen {language}-stemme installert.",
+  "memorySection": "Hukommelse",
+  "memoryCaption": "hva Gloss tar vare på",
+  "forgetProgress": "Glem framgangen min",
+  "forgetProgressBody": "Ordene du har utforsket, mister merket. De lagrede ordene dine blir.",
+  "clearSavedWords": "Tøm lagrede ord",
+  "clearSavedWordsBody": "Ordene du har tatt vare på, blir fjernet. Framgangen din blir.",
+  "cancel": "Avbryt",
+  "forget": "Glem",
+  "clear": "Tøm",
+  "progressForgotten": "Framgang glemt.",
+  "savedWordsCleared": "Lagrede ord tømt."
 }

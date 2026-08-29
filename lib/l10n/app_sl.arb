@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Ni bilo mogoče odpreti {label}.",
   "readExplanationsIn": "Beri razlage v jeziku {language}",
   "readExplanationsCaption": "Sama beseda se vedno prebere v angleščini.",
-  "noVoiceInstalled": "Ta naprava nima nameščenega glasu za jezik {language}."
+  "noVoiceInstalled": "Ta naprava nima nameščenega glasu za jezik {language}.",
+  "memorySection": "Spomin",
+  "memoryCaption": "kaj Gloss hrani",
+  "forgetProgress": "Pozabi moj napredek",
+  "forgetProgressBody": "Besedam, ki ste jih raziskali, bo odstranjena oznaka. Shranjene besede ostanejo.",
+  "clearSavedWords": "Počisti shranjene besede",
+  "clearSavedWordsBody": "Besede, ki ste jih shranili, bodo odstranjene. Vaš napredek ostane.",
+  "cancel": "Prekliči",
+  "forget": "Pozabi",
+  "clear": "Počisti",
+  "progressForgotten": "Napredek pozabljen.",
+  "savedWordsCleared": "Shranjene besede počiščene."
 }

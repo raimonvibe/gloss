@@ -453,4 +453,39 @@ class AppLocalizationsAz extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Bu cihazda $language səsi quraşdırılmayıb.';
   }
+
+  @override
+  String get memorySection => 'Yaddaş';
+
+  @override
+  String get memoryCaption => 'Gloss nəyi saxlayır';
+
+  @override
+  String get forgetProgress => 'İrəliləyişimi unut';
+
+  @override
+  String get forgetProgressBody =>
+      'Kəşf etdiyiniz sözlərin işarəsi götürüləcək. Saxladığınız sözlər qalır.';
+
+  @override
+  String get clearSavedWords => 'Saxlanan sözləri təmizlə';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Saxladığınız sözlər silinəcək. İrəliləyişiniz qalır.';
+
+  @override
+  String get cancel => 'Ləğv et';
+
+  @override
+  String get forget => 'Unut';
+
+  @override
+  String get clear => 'Təmizlə';
+
+  @override
+  String get progressForgotten => 'İrəliləyiş unuduldu.';
+
+  @override
+  String get savedWordsCleared => 'Saxlanan sözlər təmizləndi.';
 }

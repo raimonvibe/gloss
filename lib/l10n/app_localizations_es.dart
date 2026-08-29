@@ -456,6 +456,41 @@ class AppLocalizationsEs extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Este dispositivo no tiene instalada una voz en $language.';
   }
+
+  @override
+  String get memorySection => 'Memoria';
+
+  @override
+  String get memoryCaption => 'lo que Gloss guarda';
+
+  @override
+  String get forgetProgress => 'Olvidar mi progreso';
+
+  @override
+  String get forgetProgressBody =>
+      'Las palabras que has explorado dejarán de estar marcadas. Tus palabras guardadas se quedan.';
+
+  @override
+  String get clearSavedWords => 'Borrar palabras guardadas';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Las palabras que has guardado se eliminarán. Tu progreso se queda.';
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get forget => 'Olvidar';
+
+  @override
+  String get clear => 'Borrar';
+
+  @override
+  String get progressForgotten => 'Progreso olvidado.';
+
+  @override
+  String get savedWordsCleared => 'Palabras guardadas borradas.';
 }
 
 /// The translations for Spanish Castilian, as used in Latin America and the Caribbean (`es_419`).
@@ -910,4 +945,39 @@ class AppLocalizationsEs419 extends AppLocalizationsEs {
   String noVoiceInstalled(String language) {
     return 'Este dispositivo no tiene instalada una voz en $language.';
   }
+
+  @override
+  String get memorySection => 'Memoria';
+
+  @override
+  String get memoryCaption => 'lo que Gloss guarda';
+
+  @override
+  String get forgetProgress => 'Olvidar mi progreso';
+
+  @override
+  String get forgetProgressBody =>
+      'Las palabras que exploraste dejarán de estar marcadas. Tus palabras guardadas se quedan.';
+
+  @override
+  String get clearSavedWords => 'Borrar palabras guardadas';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Las palabras que guardaste se eliminarán. Tu progreso se queda.';
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get forget => 'Olvidar';
+
+  @override
+  String get clear => 'Borrar';
+
+  @override
+  String get progressForgotten => 'Progreso olvidado.';
+
+  @override
+  String get savedWordsCleared => 'Palabras guardadas borradas.';
 }

@@ -457,4 +457,39 @@ class AppLocalizationsIt extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Questo dispositivo non ha una voce $language installata.';
   }
+
+  @override
+  String get memorySection => 'Memoria';
+
+  @override
+  String get memoryCaption => 'ciò che Gloss conserva';
+
+  @override
+  String get forgetProgress => 'Dimentica i miei progressi';
+
+  @override
+  String get forgetProgressBody =>
+      'Le parole che hai esplorato perderanno il segno. Le parole salvate restano.';
+
+  @override
+  String get clearSavedWords => 'Cancella le parole salvate';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Le parole che hai conservato saranno rimosse. I tuoi progressi restano.';
+
+  @override
+  String get cancel => 'Annulla';
+
+  @override
+  String get forget => 'Dimentica';
+
+  @override
+  String get clear => 'Cancella';
+
+  @override
+  String get progressForgotten => 'Progressi dimenticati.';
+
+  @override
+  String get savedWordsCleared => 'Parole salvate cancellate.';
 }

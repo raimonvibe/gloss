@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label} ашылмады.",
   "readExplanationsIn": "Түсіндірмелерді {language} тілінде оқу",
   "readExplanationsCaption": "Сөздің өзі әрқашан ағылшынша оқылады.",
-  "noVoiceInstalled": "Бұл құрылғыда {language} дауысы орнатылмаған."
+  "noVoiceInstalled": "Бұл құрылғыда {language} дауысы орнатылмаған.",
+  "memorySection": "Жады",
+  "memoryCaption": "Gloss нені сақтайды",
+  "forgetProgress": "Ілгерілеуімді ұмыту",
+  "forgetProgressBody": "Сіз зерттеген сөздердің белгісі алынады. Сақталған сөздеріңіз қалады.",
+  "clearSavedWords": "Сақталған сөздерді тазалау",
+  "clearSavedWordsBody": "Сіз сақтаған сөздер жойылады. Ілгерілеуіңіз қалады.",
+  "cancel": "Бас тарту",
+  "forget": "Ұмыту",
+  "clear": "Тазалау",
+  "progressForgotten": "Ілгерілеу ұмытылды.",
+  "savedWordsCleared": "Сақталған сөздер тазаланды."
 }

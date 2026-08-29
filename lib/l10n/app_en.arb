@@ -269,5 +269,16 @@
         "type": "String"
       }
     }
-  }
+  },
+  "memorySection": "Memory",
+  "memoryCaption": "what Gloss keeps",
+  "forgetProgress": "Forget my progress",
+  "forgetProgressBody": "The words you have explored will be unmarked. Your saved words stay.",
+  "clearSavedWords": "Clear saved words",
+  "clearSavedWordsBody": "The words you have kept will be removed. Your progress stays.",
+  "cancel": "Cancel",
+  "forget": "Forget",
+  "clear": "Clear",
+  "progressForgotten": "Progress forgotten.",
+  "savedWordsCleared": "Saved words cleared."
 }

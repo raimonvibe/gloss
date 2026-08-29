@@ -454,4 +454,39 @@ class AppLocalizationsKk extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Бұл құрылғыда $language дауысы орнатылмаған.';
   }
+
+  @override
+  String get memorySection => 'Жады';
+
+  @override
+  String get memoryCaption => 'Gloss нені сақтайды';
+
+  @override
+  String get forgetProgress => 'Ілгерілеуімді ұмыту';
+
+  @override
+  String get forgetProgressBody =>
+      'Сіз зерттеген сөздердің белгісі алынады. Сақталған сөздеріңіз қалады.';
+
+  @override
+  String get clearSavedWords => 'Сақталған сөздерді тазалау';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Сіз сақтаған сөздер жойылады. Ілгерілеуіңіз қалады.';
+
+  @override
+  String get cancel => 'Бас тарту';
+
+  @override
+  String get forget => 'Ұмыту';
+
+  @override
+  String get clear => 'Тазалау';
+
+  @override
+  String get progressForgotten => 'Ілгерілеу ұмытылды.';
+
+  @override
+  String get savedWordsCleared => 'Сақталған сөздер тазаланды.';
 }

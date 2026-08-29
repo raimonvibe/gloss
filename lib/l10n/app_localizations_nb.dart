@@ -454,4 +454,39 @@ class AppLocalizationsNb extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Denne enheten har ingen $language-stemme installert.';
   }
+
+  @override
+  String get memorySection => 'Hukommelse';
+
+  @override
+  String get memoryCaption => 'hva Gloss tar vare på';
+
+  @override
+  String get forgetProgress => 'Glem framgangen min';
+
+  @override
+  String get forgetProgressBody =>
+      'Ordene du har utforsket, mister merket. De lagrede ordene dine blir.';
+
+  @override
+  String get clearSavedWords => 'Tøm lagrede ord';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Ordene du har tatt vare på, blir fjernet. Framgangen din blir.';
+
+  @override
+  String get cancel => 'Avbryt';
+
+  @override
+  String get forget => 'Glem';
+
+  @override
+  String get clear => 'Tøm';
+
+  @override
+  String get progressForgotten => 'Framgang glemt.';
+
+  @override
+  String get savedWordsCleared => 'Lagrede ord tømt.';
 }

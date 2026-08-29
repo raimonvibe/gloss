@@ -130,5 +130,16 @@
   "couldNotOpenLink": "{label}을(를) 열 수 없습니다.",
   "readExplanationsIn": "{language}(으)로 설명 읽기",
   "readExplanationsCaption": "낱말 자체는 언제나 영어로 읽힙니다.",
-  "noVoiceInstalled": "이 기기에는 {language} 목소리가 설치되어 있지 않습니다."
+  "noVoiceInstalled": "이 기기에는 {language} 목소리가 설치되어 있지 않습니다.",
+  "memorySection": "기억",
+  "memoryCaption": "Gloss가 간직하는 것",
+  "forgetProgress": "내 진행 상황 잊기",
+  "forgetProgressBody": "살펴본 낱말의 표시가 지워집니다. 저장한 낱말은 그대로 남습니다.",
+  "clearSavedWords": "저장한 낱말 지우기",
+  "clearSavedWordsBody": "간직한 낱말이 삭제됩니다. 진행 상황은 그대로 남습니다.",
+  "cancel": "취소",
+  "forget": "잊기",
+  "clear": "지우기",
+  "progressForgotten": "진행 상황을 잊었습니다.",
+  "savedWordsCleared": "저장한 낱말을 지웠습니다."
 }

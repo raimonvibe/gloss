@@ -457,4 +457,39 @@ class AppLocalizationsFil extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Walang naka-install na boseng $language sa device na ito.';
   }
+
+  @override
+  String get memorySection => 'Alaala';
+
+  @override
+  String get memoryCaption => 'kung ano ang iniingatan ng Gloss';
+
+  @override
+  String get forgetProgress => 'Kalimutan ang aking progreso';
+
+  @override
+  String get forgetProgressBody =>
+      'Maaalis ang marka ng mga salitang natuklasan mo. Mananatili ang mga naka-save mong salita.';
+
+  @override
+  String get clearSavedWords => 'Burahin ang mga naka-save na salita';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Aalisin ang mga salitang iningatan mo. Mananatili ang progreso mo.';
+
+  @override
+  String get cancel => 'Kanselahin';
+
+  @override
+  String get forget => 'Kalimutan';
+
+  @override
+  String get clear => 'Burahin';
+
+  @override
+  String get progressForgotten => 'Nakalimutan ang progreso.';
+
+  @override
+  String get savedWordsCleared => 'Nabura ang mga naka-save na salita.';
 }

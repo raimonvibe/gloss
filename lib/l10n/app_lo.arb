@@ -130,5 +130,16 @@
   "couldNotOpenLink": "ບໍ່ສາມາດເປີດ {label} ໄດ້.",
   "readExplanationsIn": "ອ່ານຄຳອະທິບາຍເປັນພາສາ {language}",
   "readExplanationsCaption": "ຄຳສັບເອງຈະຖືກອ່ານເປັນພາສາອັງກິດສະເໝີ.",
-  "noVoiceInstalled": "ອຸປະກອນນີ້ບໍ່ມີສຽງ {language} ຕິດຕັ້ງໄວ້."
+  "noVoiceInstalled": "ອຸປະກອນນີ້ບໍ່ມີສຽງ {language} ຕິດຕັ້ງໄວ້.",
+  "memorySection": "ຄວາມຊົງຈຳ",
+  "memoryCaption": "ສິ່ງທີ່ Gloss ເກັບໄວ້",
+  "forgetProgress": "ລືມຄວາມກ້າວໜ້າຂອງຂ້ອຍ",
+  "forgetProgressBody": "ເຄື່ອງໝາຍຂອງຄຳທີ່ທ່ານໄດ້ສຳຫຼວດຈະຖືກລຶບອອກ. ຄຳທີ່ບັນທຶກໄວ້ຍັງຢູ່.",
+  "clearSavedWords": "ລຶບຄຳທີ່ບັນທຶກໄວ້",
+  "clearSavedWordsBody": "ຄຳທີ່ທ່ານເກັບໄວ້ຈະຖືກລຶບອອກ. ຄວາມກ້າວໜ້າຂອງທ່ານຍັງຢູ່.",
+  "cancel": "ຍົກເລີກ",
+  "forget": "ລືມ",
+  "clear": "ລຶບ",
+  "progressForgotten": "ລືມຄວາມກ້າວໜ້າແລ້ວ.",
+  "savedWordsCleared": "ລຶບຄຳທີ່ບັນທຶກໄວ້ແລ້ວ."
 }

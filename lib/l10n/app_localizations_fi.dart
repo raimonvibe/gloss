@@ -455,4 +455,39 @@ class AppLocalizationsFi extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Tässä laitteessa ei ole $language-ääntä asennettuna.';
   }
+
+  @override
+  String get memorySection => 'Muisti';
+
+  @override
+  String get memoryCaption => 'mitä Gloss säilyttää';
+
+  @override
+  String get forgetProgress => 'Unohda edistymiseni';
+
+  @override
+  String get forgetProgressBody =>
+      'Tutkimiesi sanojen merkintä poistetaan. Tallennetut sanasi säilyvät.';
+
+  @override
+  String get clearSavedWords => 'Tyhjennä tallennetut sanat';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Säilyttämäsi sanat poistetaan. Edistymisesi säilyy.';
+
+  @override
+  String get cancel => 'Peruuta';
+
+  @override
+  String get forget => 'Unohda';
+
+  @override
+  String get clear => 'Tyhjennä';
+
+  @override
+  String get progressForgotten => 'Edistyminen unohdettu.';
+
+  @override
+  String get savedWordsCleared => 'Tallennetut sanat tyhjennetty.';
 }

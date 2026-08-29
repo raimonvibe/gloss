@@ -338,6 +338,15 @@
       ]
     },
     {
+      "name": "China",
+      "iso2": "CN",
+      "flag": "🇨🇳",
+      "continent": "Asia",
+      "localeIds": [
+        "zh-CN"
+      ]
+    },
+    {
       "name": "Colombia",
       "iso2": "CO",
       "flag": "🇨🇴",
@@ -1922,6 +1931,16 @@
       "languageNameNative": "ქართული",
       "rtl": false,
       "googleCode": "ka"
+    },
+    {
+      "id": "zh-CN",
+      "translationKey": "zh",
+      "languageCode": "zh",
+      "countryCode": "CN",
+      "languageNameEn": "Chinese (Simplified)",
+      "languageNameNative": "简体中文",
+      "rtl": false,
+      "googleCode": "zh-CN"
     },
     {
       "id": "zh-HK",

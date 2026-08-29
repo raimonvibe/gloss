@@ -454,4 +454,39 @@ class AppLocalizationsBn extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'এই ডিভাইসে $language কণ্ঠ ইনস্টল করা নেই।';
   }
+
+  @override
+  String get memorySection => 'স্মৃতি';
+
+  @override
+  String get memoryCaption => 'Gloss যা রাখে';
+
+  @override
+  String get forgetProgress => 'আমার অগ্রগতি ভুলে যাও';
+
+  @override
+  String get forgetProgressBody =>
+      'আপনি যে শব্দগুলি দেখেছেন সেগুলির চিহ্ন সরানো হবে। সংরক্ষিত শব্দ থেকে যাবে।';
+
+  @override
+  String get clearSavedWords => 'সংরক্ষিত শব্দ মুছুন';
+
+  @override
+  String get clearSavedWordsBody =>
+      'আপনি যে শব্দগুলি রেখেছেন সেগুলি সরানো হবে। আপনার অগ্রগতি থেকে যাবে।';
+
+  @override
+  String get cancel => 'বাতিল';
+
+  @override
+  String get forget => 'ভুলে যাও';
+
+  @override
+  String get clear => 'মুছুন';
+
+  @override
+  String get progressForgotten => 'অগ্রগতি ভুলে যাওয়া হয়েছে।';
+
+  @override
+  String get savedWordsCleared => 'সংরক্ষিত শব্দ মুছে ফেলা হয়েছে।';
 }

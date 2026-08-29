@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Kunde inte öppna {label}.",
   "readExplanationsIn": "Läs förklaringar på {language}",
   "readExplanationsCaption": "Själva ordet läses alltid på engelska.",
-  "noVoiceInstalled": "Den här enheten har ingen {language}-röst installerad."
+  "noVoiceInstalled": "Den här enheten har ingen {language}-röst installerad.",
+  "memorySection": "Minne",
+  "memoryCaption": "vad Gloss behåller",
+  "forgetProgress": "Glöm mina framsteg",
+  "forgetProgressBody": "Orden du har utforskat förlorar sin markering. Dina sparade ord blir kvar.",
+  "clearSavedWords": "Rensa sparade ord",
+  "clearSavedWordsBody": "Orden du har sparat tas bort. Dina framsteg blir kvar.",
+  "cancel": "Avbryt",
+  "forget": "Glöm",
+  "clear": "Rensa",
+  "progressForgotten": "Framsteg glömda.",
+  "savedWordsCleared": "Sparade ord rensade."
 }

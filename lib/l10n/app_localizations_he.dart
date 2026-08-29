@@ -451,4 +451,38 @@ class AppLocalizationsHe extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'במכשיר הזה לא מותקן קול $language.';
   }
+
+  @override
+  String get memorySection => 'זיכרון';
+
+  @override
+  String get memoryCaption => 'מה ש-Gloss שומר';
+
+  @override
+  String get forgetProgress => 'שכח את ההתקדמות שלי';
+
+  @override
+  String get forgetProgressBody =>
+      'הסימון יוסר מהמילים שחקרת. המילים השמורות שלך יישארו.';
+
+  @override
+  String get clearSavedWords => 'נקה מילים שמורות';
+
+  @override
+  String get clearSavedWordsBody => 'המילים ששמרת יוסרו. ההתקדמות שלך תישאר.';
+
+  @override
+  String get cancel => 'ביטול';
+
+  @override
+  String get forget => 'שכח';
+
+  @override
+  String get clear => 'נקה';
+
+  @override
+  String get progressForgotten => 'ההתקדמות נשכחה.';
+
+  @override
+  String get savedWordsCleared => 'המילים השמורות נוקו.';
 }

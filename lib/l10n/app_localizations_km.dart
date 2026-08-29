@@ -454,4 +454,39 @@ class AppLocalizationsKm extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'ឧបករណ៍នេះមិនមានសំឡេង $language ដំឡើងទេ។';
   }
+
+  @override
+  String get memorySection => 'អង្គចងចាំ';
+
+  @override
+  String get memoryCaption => 'អ្វីដែល Gloss រក្សាទុក';
+
+  @override
+  String get forgetProgress => 'ភ្លេចវឌ្ឍនភាពរបស់ខ្ញុំ';
+
+  @override
+  String get forgetProgressBody =>
+      'សញ្ញាសម្គាល់លើពាក្យដែលអ្នកបានរុករកនឹងត្រូវដកចេញ។ ពាក្យដែលបានរក្សាទុកនៅដដែល។';
+
+  @override
+  String get clearSavedWords => 'សម្អាតពាក្យដែលបានរក្សាទុក';
+
+  @override
+  String get clearSavedWordsBody =>
+      'ពាក្យដែលអ្នកបានរក្សាទុកនឹងត្រូវដកចេញ។ វឌ្ឍនភាពរបស់អ្នកនៅដដែល។';
+
+  @override
+  String get cancel => 'បោះបង់';
+
+  @override
+  String get forget => 'ភ្លេច';
+
+  @override
+  String get clear => 'សម្អាត';
+
+  @override
+  String get progressForgotten => 'វឌ្ឍនភាពត្រូវបានភ្លេច។';
+
+  @override
+  String get savedWordsCleared => 'ពាក្យដែលបានរក្សាទុកត្រូវបានសម្អាត។';
 }

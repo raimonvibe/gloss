@@ -130,5 +130,16 @@
   "couldNotOpenLink": "Nu s-a putut deschide {label}.",
   "readExplanationsIn": "Citește explicațiile în {language}",
   "readExplanationsCaption": "Cuvântul în sine este citit întotdeauna în engleză.",
-  "noVoiceInstalled": "Acest dispozitiv nu are o voce {language} instalată."
+  "noVoiceInstalled": "Acest dispozitiv nu are o voce {language} instalată.",
+  "memorySection": "Memorie",
+  "memoryCaption": "ce păstrează Gloss",
+  "forgetProgress": "Uită progresul meu",
+  "forgetProgressBody": "Cuvintele pe care le-ai explorat nu vor mai fi marcate. Cuvintele salvate rămân.",
+  "clearSavedWords": "Șterge cuvintele salvate",
+  "clearSavedWordsBody": "Cuvintele pe care le-ai păstrat vor fi eliminate. Progresul tău rămâne.",
+  "cancel": "Anulează",
+  "forget": "Uită",
+  "clear": "Șterge",
+  "progressForgotten": "Progres uitat.",
+  "savedWordsCleared": "Cuvinte salvate șterse."
 }

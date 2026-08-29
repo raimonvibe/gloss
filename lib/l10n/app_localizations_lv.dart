@@ -455,4 +455,39 @@ class AppLocalizationsLv extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Šajā ierīcē nav instalētas $language valodas balss.';
   }
+
+  @override
+  String get memorySection => 'Atmiņa';
+
+  @override
+  String get memoryCaption => 'ko Gloss patur';
+
+  @override
+  String get forgetProgress => 'Aizmirst manu progresu';
+
+  @override
+  String get forgetProgressBody =>
+      'Vārdiem, kurus esat izpētījis, tiks noņemta atzīme. Saglabātie vārdi paliks.';
+
+  @override
+  String get clearSavedWords => 'Notīrīt saglabātos vārdus';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Vārdi, kurus esat saglabājis, tiks noņemti. Jūsu progress paliks.';
+
+  @override
+  String get cancel => 'Atcelt';
+
+  @override
+  String get forget => 'Aizmirst';
+
+  @override
+  String get clear => 'Notīrīt';
+
+  @override
+  String get progressForgotten => 'Progress aizmirsts.';
+
+  @override
+  String get savedWordsCleared => 'Saglabātie vārdi notīrīti.';
 }

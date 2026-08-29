@@ -28,6 +28,15 @@ class SavedSetStore extends ChangeNotifier {
       await _prefs.setStringList(_key, _ids.toList());
     }
   }
+
+  /// Empties the set. Destructive and not undoable, so every caller confirms
+  /// with the reader first.
+  Future<void> clear() async {
+    if (_ids.isEmpty) return;
+    _ids = <String>{};
+    notifyListeners();
+    await _prefs.setStringList(_key, const <String>[]);
+  }
 }
 
 class ProgressController extends ChangeNotifier {

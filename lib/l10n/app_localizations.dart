@@ -996,6 +996,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This device has no {language} voice installed.'**
   String noVoiceInstalled(String language);
+
+  /// No description provided for @memorySection.
+  ///
+  /// In en, this message translates to:
+  /// **'Memory'**
+  String get memorySection;
+
+  /// No description provided for @memoryCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'what Gloss keeps'**
+  String get memoryCaption;
+
+  /// No description provided for @forgetProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Forget my progress'**
+  String get forgetProgress;
+
+  /// No description provided for @forgetProgressBody.
+  ///
+  /// In en, this message translates to:
+  /// **'The words you have explored will be unmarked. Your saved words stay.'**
+  String get forgetProgressBody;
+
+  /// No description provided for @clearSavedWords.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear saved words'**
+  String get clearSavedWords;
+
+  /// No description provided for @clearSavedWordsBody.
+  ///
+  /// In en, this message translates to:
+  /// **'The words you have kept will be removed. Your progress stays.'**
+  String get clearSavedWordsBody;
+
+  /// No description provided for @cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
+
+  /// No description provided for @forget.
+  ///
+  /// In en, this message translates to:
+  /// **'Forget'**
+  String get forget;
+
+  /// No description provided for @clear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get clear;
+
+  /// No description provided for @progressForgotten.
+  ///
+  /// In en, this message translates to:
+  /// **'Progress forgotten.'**
+  String get progressForgotten;
+
+  /// No description provided for @savedWordsCleared.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved words cleared.'**
+  String get savedWordsCleared;
 }
 
 class _AppLocalizationsDelegate

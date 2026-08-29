@@ -454,4 +454,39 @@ class AppLocalizationsTr extends AppLocalizations {
   String noVoiceInstalled(String language) {
     return 'Bu cihazda $language sesi yüklü değil.';
   }
+
+  @override
+  String get memorySection => 'Bellek';
+
+  @override
+  String get memoryCaption => 'Gloss\'un sakladıkları';
+
+  @override
+  String get forgetProgress => 'İlerlememi unut';
+
+  @override
+  String get forgetProgressBody =>
+      'Keşfettiğiniz kelimelerin işareti kaldırılacak. Kaydettiğiniz kelimeler kalır.';
+
+  @override
+  String get clearSavedWords => 'Kaydedilen kelimeleri temizle';
+
+  @override
+  String get clearSavedWordsBody =>
+      'Sakladığınız kelimeler kaldırılacak. İlerlemeniz kalır.';
+
+  @override
+  String get cancel => 'İptal';
+
+  @override
+  String get forget => 'Unut';
+
+  @override
+  String get clear => 'Temizle';
+
+  @override
+  String get progressForgotten => 'İlerleme unutuldu.';
+
+  @override
+  String get savedWordsCleared => 'Kaydedilen kelimeler temizlendi.';
 }
