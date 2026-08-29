@@ -439,8 +439,13 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    // The home header offers one control now, not a theme toggle plus a globe.
-    expect(find.byType(ThemeToggle), findsNothing);
+    // The globe went to the study and stayed there. The light switch came
+    // back to the home header, where the reader looked for it.
+    expect(find.byType(ThemeToggle), findsOneWidget);
+    expect(settings.themeMode, ThemeMode.system);
+    await tester.tap(find.byType(ThemeToggle));
+    await tester.pumpAndSettle();
+    expect(settings.themeMode, isNot(ThemeMode.system));
 
     await tester.tap(find.text('Study'));
     await tester.pumpAndSettle();

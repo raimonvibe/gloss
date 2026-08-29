@@ -14,6 +14,7 @@ import 'state/quiz_controller.dart';
 import 'state/settings_controller.dart';
 import 'state/speech_controller.dart';
 import 'theme/app_theme.dart';
+import 'theme/brand_colors.dart';
 import 'theme/layout.dart';
 import 'widgets/ornament.dart';
 
@@ -216,7 +217,6 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
                             _Rail(
                               index: _index,
                               onSelect: _selectTab,
-                              extended: shell.usesExtendedRail,
                               destinations: destinations,
                             ),
                             Expanded(child: pages),
@@ -343,50 +343,61 @@ class _Rail extends StatelessWidget {
   const _Rail({
     required this.index,
     required this.onSelect,
-    required this.extended,
     required this.destinations,
   });
 
   final int index;
   final ValueChanged<int> onSelect;
-  final bool extended;
   final List<_Destination> destinations;
 
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(
-      builder: (context, constraints) => SingleChildScrollView(
-        child: ConstrainedBox(
-          constraints: BoxConstraints(minHeight: constraints.maxHeight),
-          child: IntrinsicHeight(
-            child: NavigationRail(
-              selectedIndex: index,
-              onDestinationSelected: onSelect,
-              extended: extended,
-              labelType: extended ? null : NavigationRailLabelType.all,
-              destinations: [
-                for (final tab in destinations)
-                  NavigationRailDestination(
-                    icon: Icon(tab.icon),
-                    selectedIcon: Icon(tab.selectedIcon),
-                    // A narrow rail is barely wider than "Gespeichert". Here
-                    // the label is a widget, so it can simply be told to
-                    // shrink rather than wrap.
-                    label: extended
-                        ? Text(tab.label)
-                        : SizedBox(
-                            width: 64,
-                            child: FittedBox(
-                              fit: BoxFit.scaleDown,
-                              child: Text(
-                                tab.label,
-                                maxLines: 1,
-                                softWrap: false,
-                              ),
-                            ),
+    // A hairline of gold, the same one the page uses to separate a heading
+    // from what follows. It is all the edge the rail needs; a filled panel
+    // sits on the parchment rather than in it.
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        border: BorderDirectional(
+          end: BorderSide(
+            color: context.brand.accentGold.withValues(alpha: 0.28),
+          ),
+        ),
+      ),
+      child: LayoutBuilder(
+        builder: (context, constraints) => SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: BoxConstraints(minHeight: constraints.maxHeight),
+            child: IntrinsicHeight(
+              child: NavigationRail(
+                selectedIndex: index,
+                onDestinationSelected: onSelect,
+                labelType: NavigationRailLabelType.all,
+                // The corner flourish is drawn behind the rail now that the
+                // rail is see-through. Starting a little lower keeps the
+                // first tab out of its curl.
+                leading: const SizedBox(height: 20),
+                destinations: [
+                  for (final tab in destinations)
+                    NavigationRailDestination(
+                      icon: Icon(tab.icon),
+                      selectedIcon: Icon(tab.selectedIcon),
+                      // A narrow rail is barely wider than "Gespeichert".
+                      // Here the label is a widget, so it can simply be told
+                      // to shrink rather than wrap.
+                      label: SizedBox(
+                        width: 64,
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Text(
+                            tab.label,
+                            maxLines: 1,
+                            softWrap: false,
                           ),
-                  ),
-              ],
+                        ),
+                      ),
+                    ),
+                ],
+              ),
             ),
           ),
         ),
