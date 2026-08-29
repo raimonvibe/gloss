@@ -335,92 +335,92 @@ class AppLocalizationsHu extends AppLocalizations {
   String get categoryArchaic => 'Régi és archaikus';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Dolgozó';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'A dolgozószoba';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'olvasás, hang és fény';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Olvasás';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'hogyan ül a lap';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Szövegméret';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — édesíteni, lágyítani.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Kisebb';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Nagyobb';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'Olvassa fel a szót megnyitáskor';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Csendesítsd a díszeket';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'kevesebb cirkalom és színátmenet';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Hang';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'hogyan olvas fel a Gloss';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Hang';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Neked választva';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Nincs más angol hang telepítve erre az eszközre.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Tempó';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Lassabban';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Gyorsabban';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Hallgasd meg';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Fény';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'pergamen vagy gyertyafény';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Eszköz szerint';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Pergamen';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Gyertyafény';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Nyelv';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Névjegy';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'hogyan készült';
 
   @override
   String versionLine(String version) {
@@ -428,30 +428,30 @@ class AppLocalizationsHu extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Nyílt forráskódú licencek';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Gloss megosztása';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Kövesd a készítőt';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'A(z) $label megnyitása nem sikerült.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Magyarázatok olvasása ezen a nyelven: $language';
   }
 
   @override
   String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+      'Magát a szót mindig angolul olvassuk fel.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Ezen az eszközön nincs telepítve $language hang.';
   }
 }

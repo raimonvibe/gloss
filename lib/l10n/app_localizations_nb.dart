@@ -336,92 +336,92 @@ class AppLocalizationsNb extends AppLocalizations {
   String get categoryArchaic => 'Gammelt og arkaisk';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Studie';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Arbeidsrommet';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'lesing, stemme og lys';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Lesing';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'hvordan siden sitter';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Tekststørrelse';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — å søte, å mildne.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Mindre';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Større';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'Les et ord høyt når det åpnes';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Demp utsmykningen';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'færre kruseduller og fargeoverganger';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Stemme';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'hvordan Gloss leser høyt';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Stemme';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Valgt for deg';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Ingen andre engelske stemmer er installert på denne enheten.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Tempo';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Saktere';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Raskere';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Hør det';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Lys';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'pergament eller levende lys';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Følg enheten';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Pergament';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Levende lys';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Tunge';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Om';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'hvordan det ble til';
 
   @override
   String versionLine(String version) {
@@ -429,30 +429,29 @@ class AppLocalizationsNb extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Åpen kildekode-lisenser';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Del Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Følg skaperen';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'Kunne ikke åpne $label.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Les forklaringer på $language';
   }
 
   @override
-  String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+  String get readExplanationsCaption => 'Selve ordet leses alltid på engelsk.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Denne enheten har ingen $language-stemme installert.';
   }
 }

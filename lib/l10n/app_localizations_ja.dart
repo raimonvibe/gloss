@@ -333,92 +333,91 @@ class AppLocalizationsJa extends AppLocalizations {
   String get categoryArchaic => '古語と雅語';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => '書斎';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => '書斎';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => '読むこと、声、灯り';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => '読むこと';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => '頁のたたずまい';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => '文字の大きさ';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — 甘くすること、和らげること。';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => '小さく';
 
   @override
-  String get larger => 'Larger';
+  String get larger => '大きく';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => '開いたときに語を読み上げる';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => '装飾を静める';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => '飾りとグラデーションを控えめに';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => '声';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'Gloss の読み上げかた';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => '声';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'おまかせ';
 
   @override
-  String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+  String get noOtherVoices => 'この端末には他の英語の声がインストールされていません。';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => '速さ';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'ゆっくり';
 
   @override
-  String get faster => 'Faster';
+  String get faster => '速く';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => '聞いてみる';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => '灯り';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => '羊皮紙か蝋燭の灯か';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => '端末に合わせる';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => '羊皮紙';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => '蝋燭の灯';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => '言葉';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'このアプリについて';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'つくられかた';
 
   @override
   String versionLine(String version) {
@@ -426,30 +425,29 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'オープンソースライセンス';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Gloss を共有';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => '作り手をフォロー';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return '$label を開けませんでした。';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return '$language で解説を読む';
   }
 
   @override
-  String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+  String get readExplanationsCaption => '語そのものは常に英語で読み上げられます。';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'この端末には $language の声がインストールされていません。';
   }
 }

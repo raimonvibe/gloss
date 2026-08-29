@@ -333,92 +333,91 @@ class AppLocalizationsZh extends AppLocalizations {
   String get categoryArchaic => '古語與舊詞';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => '书房';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => '书房';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => '阅读、声音与光';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => '阅读';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => '书页如何安放';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => '文字大小';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — 使之甘甜，使之柔和。';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => '更小';
 
   @override
-  String get larger => 'Larger';
+  String get larger => '更大';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => '打开词条时朗读该词';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => '让纹饰安静';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => '更少的花饰与渐变';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => '语音';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'Gloss 如何朗读';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => '语音';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => '为你选定';
 
   @override
-  String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+  String get noOtherVoices => '此设备未安装其他英语语音。';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => '语速';
 
   @override
-  String get slower => 'Slower';
+  String get slower => '更慢';
 
   @override
-  String get faster => 'Faster';
+  String get faster => '更快';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => '听一听';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => '光';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => '羊皮纸或烛光';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => '跟随设备';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => '羊皮纸';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => '烛光';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => '语言';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => '关于';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => '它是如何做成的';
 
   @override
   String versionLine(String version) {
@@ -426,31 +425,30 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => '开源许可';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => '分享 Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => '关注作者';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return '无法打开 $label。';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return '以$language阅读释义';
   }
 
   @override
-  String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+  String get readExplanationsCaption => '词语本身始终以英语朗读。';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return '此设备未安装 $language 语音。';
   }
 }
 
@@ -781,6 +779,125 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get categoryArchaic => '古語與舊詞';
+
+  @override
+  String get navStudy => '書房';
+
+  @override
+  String get studyTitle => '書房';
+
+  @override
+  String get studyCaption => '閱讀、聲音與光';
+
+  @override
+  String get readingSection => '閱讀';
+
+  @override
+  String get readingCaption => '書頁如何安放';
+
+  @override
+  String get textSize => '文字大小';
+
+  @override
+  String get textSizeSample => 'Edulcorate — 使之甘甜，使之柔和。';
+
+  @override
+  String get smaller => '更小';
+
+  @override
+  String get larger => '更大';
+
+  @override
+  String get autoplayPronunciation => '開啟詞條時朗讀該詞';
+
+  @override
+  String get reduceMotion => '讓紋飾安靜';
+
+  @override
+  String get reduceMotionCaption => '更少花飾與漸變';
+
+  @override
+  String get voiceSection => '語音';
+
+  @override
+  String get voiceCaption => 'Gloss 如何朗讀';
+
+  @override
+  String get chooseVoice => '語音';
+
+  @override
+  String get voiceDefault => '為你選定';
+
+  @override
+  String get noOtherVoices => '此裝置未安裝其他英語語音。';
+
+  @override
+  String get speechPace => '語速';
+
+  @override
+  String get slower => '更慢';
+
+  @override
+  String get faster => '更快';
+
+  @override
+  String get hearIt => '聽一聽';
+
+  @override
+  String get lightSection => '光';
+
+  @override
+  String get lightCaption => '羊皮紙或燭光';
+
+  @override
+  String get themeSystem => '跟隨裝置';
+
+  @override
+  String get themeLight => '羊皮紙';
+
+  @override
+  String get themeDark => '燭光';
+
+  @override
+  String get tongueSection => '語言';
+
+  @override
+  String get aboutSection => '關於';
+
+  @override
+  String get aboutCaption => '它是怎樣造成的';
+
+  @override
+  String versionLine(String version) {
+    return 'Gloss $version';
+  }
+
+  @override
+  String get openLicences => '開源授權';
+
+  @override
+  String get shareGloss => '分享 Gloss';
+
+  @override
+  String get followTheMaker => '追蹤作者';
+
+  @override
+  String couldNotOpenLink(String label) {
+    return '無法開啟 $label。';
+  }
+
+  @override
+  String readExplanationsIn(String language) {
+    return '以$language閱讀釋義';
+  }
+
+  @override
+  String get readExplanationsCaption => '詞語本身一律以英語朗讀。';
+
+  @override
+  String noVoiceInstalled(String language) {
+    return '此裝置未安裝 $language 語音。';
+  }
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -1110,4 +1227,123 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get categoryArchaic => '古語與舊詞';
+
+  @override
+  String get navStudy => '書房';
+
+  @override
+  String get studyTitle => '書房';
+
+  @override
+  String get studyCaption => '閱讀、聲音與光';
+
+  @override
+  String get readingSection => '閱讀';
+
+  @override
+  String get readingCaption => '書頁如何安放';
+
+  @override
+  String get textSize => '文字大小';
+
+  @override
+  String get textSizeSample => 'Edulcorate — 使之甘甜，使之柔和。';
+
+  @override
+  String get smaller => '更小';
+
+  @override
+  String get larger => '更大';
+
+  @override
+  String get autoplayPronunciation => '開啟詞條時朗讀該詞';
+
+  @override
+  String get reduceMotion => '讓紋飾安靜';
+
+  @override
+  String get reduceMotionCaption => '更少花飾與漸層';
+
+  @override
+  String get voiceSection => '語音';
+
+  @override
+  String get voiceCaption => 'Gloss 如何朗讀';
+
+  @override
+  String get chooseVoice => '語音';
+
+  @override
+  String get voiceDefault => '為你選定';
+
+  @override
+  String get noOtherVoices => '這部裝置未安裝其他英語語音。';
+
+  @override
+  String get speechPace => '語速';
+
+  @override
+  String get slower => '更慢';
+
+  @override
+  String get faster => '更快';
+
+  @override
+  String get hearIt => '聽一聽';
+
+  @override
+  String get lightSection => '光';
+
+  @override
+  String get lightCaption => '羊皮紙或燭光';
+
+  @override
+  String get themeSystem => '跟隨裝置';
+
+  @override
+  String get themeLight => '羊皮紙';
+
+  @override
+  String get themeDark => '燭光';
+
+  @override
+  String get tongueSection => '語言';
+
+  @override
+  String get aboutSection => '關於';
+
+  @override
+  String get aboutCaption => '它是如何做成的';
+
+  @override
+  String versionLine(String version) {
+    return 'Gloss $version';
+  }
+
+  @override
+  String get openLicences => '開放原始碼授權';
+
+  @override
+  String get shareGloss => '分享 Gloss';
+
+  @override
+  String get followTheMaker => '追蹤作者';
+
+  @override
+  String couldNotOpenLink(String label) {
+    return '無法開啟 $label。';
+  }
+
+  @override
+  String readExplanationsIn(String language) {
+    return '以$language閱讀釋義';
+  }
+
+  @override
+  String get readExplanationsCaption => '詞語本身一律以英語朗讀。';
+
+  @override
+  String noVoiceInstalled(String language) {
+    return '這部裝置未安裝 $language 語音。';
+  }
 }

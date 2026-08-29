@@ -335,92 +335,92 @@ class AppLocalizationsKm extends AppLocalizations {
   String get categoryArchaic => 'ចាស់ និងបុរាណ';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'បន្ទប់សិក្សា';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'បន្ទប់សិក្សា';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'ការអាន សំឡេង និងពន្លឺ';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'ការអាន';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'របៀបដែលទំព័រអង្គុយ';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'ទំហំអក្សរ';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — ធ្វើឱ្យផ្អែម ធ្វើឱ្យទន់។';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'តូចជាង';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'ធំជាង';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'អានពាក្យឮៗពេលបើក';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'បន្ថយការតុបតែង';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'តិចជាងនូវក្បាច់និងពណ៌លាយ';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'សំឡេង';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'របៀបដែល Gloss អានឮៗ';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'សំឡេង';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'ជ្រើសរើសសម្រាប់អ្នក';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'គ្មានសំឡេងអង់គ្លេសផ្សេងទៀតត្រូវបានដំឡើងនៅលើឧបករណ៍នេះទេ។';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'ល្បឿន';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'យឺតជាង';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'លឿនជាង';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'ស្តាប់';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'ពន្លឺ';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'ក្រដាសស្បែក ឬពន្លឺទៀន';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'តាមឧបករណ៍';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'ក្រដាសស្បែក';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'ពន្លឺទៀន';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'ភាសា';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'អំពី';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'របៀបដែលវាត្រូវបានបង្កើត';
 
   @override
   String versionLine(String version) {
@@ -428,30 +428,30 @@ class AppLocalizationsKm extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'អាជ្ញាបណ្ណប្រភពបើកចំហ';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'ចែករំលែក Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'តាមដានអ្នកបង្កើត';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'មិនអាចបើក $label បានទេ។';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'អានការពន្យល់ជាភាសា $language';
   }
 
   @override
   String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+      'ពាក្យនេះតែងតែត្រូវបានអានជាភាសាអង់គ្លេស។';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'ឧបករណ៍នេះមិនមានសំឡេង $language ដំឡើងទេ។';
   }
 }
