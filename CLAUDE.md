@@ -20,8 +20,18 @@ Known checkouts:
 
 | Machine | Path | Flutter | Python | Git |
 |---|---|---|---|---|
-| Linux | `~/Documenten/Mobile Development/002Beautiful Words` | **not** on `PATH` — prefix `PATH="$HOME/Documenten/Developer/flutter/bin:$PATH"` | `python3` | yes |
+| Linux | `~/Documenten/Mobile Development/003gloss` | **not** on `PATH` — prefix `PATH="$HOME/Documenten/Developer/flutter/bin:$PATH"` | `python3` (no `python`) | yes, since 2026-08-29 |
 | Windows | `C:\Users\rober\Documents\My Tableau Repository\Mobile Development\002 Beautiful Words` | on `PATH` | `python` (no `python3`) | yes, since 2026-08-29 |
+
+`003gloss` replaced `002Beautiful Words` as the Linux checkout on 2026-08-29 and was
+initialised against `origin/main` the same day. It too began as a snapshot with no
+`.git`. Every hand-written file in it matched `origin/main` at `2dc63a1`, so no work had
+to be carried across; only the 57 generated `app_localizations*.dart` differed, and a
+regenerate settled those — see *Verification*.
+
+`002Beautiful Words` is still on disk and is **26 commits behind** `origin/main`, whose
+history it is a clean ancestor of. It is a stale copy, not a second working one — do not
+edit it, and do not try to keep the two in step. Work in `003gloss`.
 
 The Windows copy began as a snapshot with no `.git` at all. It was initialised
 against `origin/main` on 2026-08-29, so it has real history now — but it was set
@@ -213,12 +223,48 @@ flutter analyze
 flutter test
 ```
 
-**Known-good baseline (2026-08-29, Flutter 3.41.7 on Windows):** `flutter analyze`
-clean, `flutter test` **133/133**, `l10n/untranslated.json` empty,
-`flutter build apk --debug` exit 0.
+### The generated l10n files are output, not source
 
-The Flutter version differs by machine — 3.47.2 / Dart 3.13.2 on Linux, 3.41.7 on
-Windows. Record which one you used when you move the baseline.
+`lib/l10n/app_localizations*.dart` — 57 files — are written by `flutter gen-l10n` from
+the ARBs. Nothing should ever edit them by hand, and `gen-l10n` is the only thing that
+gets to say what they contain.
+
+Worth knowing, because it cost an hour on 2026-08-29: the `003gloss` snapshot arrived
+with all 57 of them differing from `origin/main` at `2dc63a1` — **+125/−68, whitespace
+and trailing commas only, not one translated string changed**. Copied working trees can
+carry stale generated output like this, and the first `gen-l10n` in a fresh checkout runs
+before `pub get` has resolved anything, which is its own way of producing a file that
+does not match.
+
+The arbiter is a regenerate on a settled checkout. `flutter gen-l10n` on Linux / 3.47.2
+rewrites all 57 and reproduces `origin/main` byte for byte, so a formatting-only diff in
+these files is something to throw away rather than commit:
+
+```bash
+flutter pub get && flutter gen-l10n
+git status --short lib/l10n          # expect nothing, if no ARB changed
+git checkout -- 'lib/l10n/app_localizations*.dart'
+```
+
+Name the generated files, never the directory: the hand-written `app_<key>.arb` live in
+`lib/l10n/` too, and `git checkout -- lib/l10n/` would take sixty locales of translation
+down with the reformat.
+
+A diff here that survives a clean regenerate is a real change and belongs in the commit.
+
+### Known-good baseline
+
+Both taken at `2dc63a1`, and a baseline means nothing without the commit it was taken at:
+
+| When | Machine | Flutter | `analyze` | `test` | `untranslated.json` |
+|---|---|---|---|---|---|
+| 2026-08-29 | Linux | 3.47.2 / Dart 3.13.2 | clean | **133/133** | empty |
+| 2026-08-29 | Windows | 3.41.7 | clean | **133/133** | empty |
+
+`flutter build apk --debug` exits 0 on Windows at that commit.
+
+The Flutter version differs by machine. Record which one you used, **and at which
+commit**, when you move the baseline.
 
 ## Do not
 
@@ -226,6 +272,7 @@ Windows. Record which one you used when you move the baseline.
 - Commit `l10n/cache/` or secrets (`.env`, API keys)
 - Force-push `main`
 - Amend commits unless explicitly requested
+- Commit a `gen-l10n` run whose only change is formatting — see *Verification*
 - Assume this checkout is a git repo, or that Flutter is on `PATH` — see *Environments*
 
 ## Reference commits
