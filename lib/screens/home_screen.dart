@@ -6,8 +6,10 @@ import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
+import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
+import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/study_button.dart';
@@ -203,23 +205,6 @@ class _Actions extends StatelessWidget {
   }
 }
 
-/// A button's word, shrunk to whatever room is left rather than wrapped or
-/// cut off. Half a tablet's width is not much for "Das Lexikon erkunden".
-class _Label extends StatelessWidget {
-  const _Label(this.text, {required this.style});
-
-  final String text;
-  final TextStyle style;
-
-  @override
-  Widget build(BuildContext context) {
-    return FittedBox(
-      fit: BoxFit.scaleDown,
-      child: Text(text, maxLines: 1, softWrap: false, style: style),
-    );
-  }
-}
-
 class _WordOfTheDay extends StatelessWidget {
   const _WordOfTheDay({required this.entry, required this.onOpen});
 
@@ -313,7 +298,7 @@ class _ActionButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(999),
           child: Ink(
             width: double.infinity,
-            padding: const EdgeInsets.symmetric(vertical: 14),
+            padding: kButtonPadding,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(999),
               gradient: LinearGradient(colors: brand.heroGradient),
@@ -324,8 +309,10 @@ class _ActionButton extends StatelessWidget {
                 Icon(icon, color: Colors.white, size: 20),
                 const SizedBox(width: 8),
                 Flexible(
-                  child: _Label(
+                  child: ButtonLabel(
                     label,
+                    maxLines: 1,
+                    minScale: 0.6,
                     style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w700,
@@ -342,15 +329,17 @@ class _ActionButton extends StatelessWidget {
     return CardSurface(
       onTap: onTap,
       radius: 999,
-      padding: const EdgeInsets.symmetric(vertical: 14),
+      padding: kButtonPadding,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(icon, color: brand.accentGold, size: 20),
           const SizedBox(width: 8),
           Flexible(
-            child: _Label(
+            child: ButtonLabel(
               label,
+              maxLines: 1,
+              minScale: 0.6,
               style: TextStyle(
                 color: brand.foreground,
                 fontWeight: FontWeight.w600,

@@ -12,6 +12,7 @@ import '../state/settings_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
+import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/etymology_card.dart';
@@ -284,7 +285,7 @@ class _PillButton extends StatelessWidget {
         customBorder: const StadiumBorder(),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 12),
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -294,11 +295,14 @@ class _PillButton extends StatelessWidget {
                 color: filled ? Colors.white : brand.foregroundMuted,
               ),
               const SizedBox(width: 6),
-              Text(
-                label,
-                style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  color: filled ? Colors.white : brand.foregroundMuted,
+              Flexible(
+                child: ButtonLabel(
+                  label,
+                  maxLines: 1,
+                  style: TextStyle(
+                    fontWeight: FontWeight.w600,
+                    color: filled ? Colors.white : brand.foregroundMuted,
+                  ),
                 ),
               ),
             ],

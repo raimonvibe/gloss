@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -11,6 +12,7 @@ import 'package:beautiful_words/l10n/locale_catalog.dart';
 import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
+import 'package:beautiful_words/widgets/button_label.dart';
 import 'package:beautiful_words/widgets/etymology_card.dart';
 import 'package:beautiful_words/widgets/word_card.dart';
 
@@ -232,6 +234,84 @@ void main() {
       );
     }
   });
+
+  // A button's words are English-length in English and nothing like it
+  // anywhere else: "See results" is "Ergebnisse ansehen" in German and
+  // "Переглянути результати" in Ukrainian. Left alone the label wrapped,
+  // which made the pill tall, which curved its rounded ends in over the
+  // words — the label ended up printed across the outside of its own button.
+  // It now shrinks first, and whatever it does it keeps clear of the curve.
+  //
+  // The four below are the longest of the sixty, by the two labels that
+  // share a line. The fix is not theirs, though: nothing here names a
+  // language, and any of the sixty would do as the sample.
+  const worstCases = <String, String>{
+    'uk': 'Ukrainian',
+    'de-DE': 'German',
+    'el-GR': 'Greek',
+    'fil': 'Filipino',
+  };
+
+  for (final locale in worstCases.entries) {
+    testWidgets('a long button label stays inside its pill in '
+        '${locale.value}', (tester) async {
+      final arb = jsonDecode(
+        File('lib/l10n/app_${locale.key.split('-').first}.arb')
+            .readAsStringSync(),
+      ) as Map<String, dynamic>;
+      String label(String key) => arb[key] as String;
+
+      await _pumpApp(
+        tester,
+        size: const Size(411, 891),
+        localeId: locale.key,
+      );
+
+      await tester.tap(
+        find.descendant(of: _nav, matching: find.byIcon(Icons.quiz_outlined)),
+      );
+      await tester.pumpAndSettle();
+      await tester.tap(find.text(label('begin')));
+      await tester.pumpAndSettle();
+
+      // Answer until the last question, where the long label appears.
+      for (var question = 0; question < 12; question++) {
+        await tester.tap(find.text('A'));
+        await tester.pumpAndSettle();
+        if (find.text(label('seeResults')).evaluate().isNotEmpty) break;
+        await tester.tap(find.text(label('next')));
+        await tester.pumpAndSettle();
+      }
+
+      // Both buttons on the line: the one that grew and the one beside it.
+      for (final button in [
+        find.byType(FilledButton),
+        find.byType(OutlinedButton),
+      ]) {
+        expect(button, findsOneWidget);
+        final words = tester.getRect(
+          find.descendant(of: button, matching: find.byType(ButtonLabel)),
+        );
+        final pill = tester.getRect(button);
+
+        // Room at each end for the curve of a stadium to come in without
+        // reaching the words.
+        expect(
+          words.left - pill.left,
+          greaterThanOrEqualTo(12),
+          reason: 'the label runs into the left end of the pill',
+        );
+        expect(
+          pill.right - words.right,
+          greaterThanOrEqualTo(12),
+          reason: 'the label runs into the right end of the pill',
+        );
+        expect(pill.contains(words.topLeft), isTrue);
+        expect(pill.contains(words.bottomRight - const Offset(0.5, 0.5)),
+            isTrue);
+      }
+    });
+  }
 
   testWidgets('the tabs move to a rail once there is room beside the page', (
     tester,

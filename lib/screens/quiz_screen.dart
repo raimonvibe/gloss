@@ -6,8 +6,10 @@ import '../l10n/app_localizations.dart';
 import '../state/progress_controller.dart';
 import '../state/quiz_controller.dart';
 import '../state/speech_controller.dart';
+import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
+import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/etymology_card.dart';
 import '../widgets/multiple_choice.dart';
@@ -95,14 +97,13 @@ class _QuizSetupState extends State<_QuizSetup> {
             },
             borderRadius: BorderRadius.circular(999),
             child: Ink(
-              padding: const EdgeInsets.symmetric(vertical: 14),
+              padding: kButtonPadding,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(999),
                 gradient: LinearGradient(colors: brand.heroGradient),
               ),
-              child: Text(
+              child: ButtonLabel(
                 l10n.begin,
-                textAlign: TextAlign.center,
                 style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w700,
@@ -278,9 +279,8 @@ class _QuizPlay extends StatelessWidget {
                     style: OutlinedButton.styleFrom(
                       foregroundColor: brand.foreground,
                       side: BorderSide(color: brand.cardBorder),
-                      padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: Text(l10n.previous, textAlign: TextAlign.center),
+                    child: ButtonLabel(l10n.previous),
                   ),
                 ),
                 const SizedBox(width: 12),
@@ -291,12 +291,8 @@ class _QuizPlay extends StatelessWidget {
                         : null,
                     style: FilledButton.styleFrom(
                       backgroundColor: brand.accentGold,
-                      padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: Text(
-                      quiz.isLast ? l10n.seeResults : l10n.next,
-                      textAlign: TextAlign.center,
-                    ),
+                    child: ButtonLabel(quiz.isLast ? l10n.seeResults : l10n.next),
                   ),
                 ),
               ],

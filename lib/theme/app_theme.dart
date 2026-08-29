@@ -3,6 +3,15 @@ import 'package:flutter/material.dart';
 import 'app_fonts.dart';
 import 'brand_colors.dart';
 
+/// A wide button is a stadium, and a stadium's ends curve in by half its
+/// height. Room at the sides keeps the label clear of that curve, however
+/// tall the button grows — which is what stopped "Ergebnisse ansehen" from
+/// spilling past its own pill. Every pill the app draws by hand uses it too.
+const EdgeInsets kButtonPadding = EdgeInsets.symmetric(
+  horizontal: 20,
+  vertical: 14,
+);
+
 class AppTheme {
   static ThemeData light() => _build(Brightness.light, BrandColors.light);
 
@@ -160,6 +169,7 @@ class AppTheme {
         style: FilledButton.styleFrom(
           backgroundColor: brand.accentGold,
           foregroundColor: Colors.white,
+          padding: kButtonPadding,
           textStyle: AppFonts.cormorant(
             fontSize: 16,
             fontWeight: FontWeight.w700,
@@ -169,6 +179,7 @@ class AppTheme {
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
           foregroundColor: brand.foreground,
+          padding: kButtonPadding,
           textStyle: AppFonts.cormorant(
             fontSize: 16,
             fontWeight: FontWeight.w600,

@@ -7,6 +7,7 @@ import '../state/reading.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
+import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/ornament.dart';
@@ -91,9 +92,8 @@ class QuizResultsScreen extends StatelessWidget {
                     },
                     style: FilledButton.styleFrom(
                       backgroundColor: brand.accentGold,
-                      padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: Text(l10n.tryAnotherRound),
+                    child: ButtonLabel(l10n.tryAnotherRound),
                   ),
                 ],
               ),
