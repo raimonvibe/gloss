@@ -336,92 +336,91 @@ class AppLocalizationsAz extends AppLocalizations {
   String get categoryArchaic => 'Qədim və arxaik';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Kabinet';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Kabinet';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'oxu, səs və işıq';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Oxu';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'səhifə necə oturur';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Mətn ölçüsü';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — şirinləşdirmək, yumşaltmaq.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Daha kiçik';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Daha böyük';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'Söz açılanda ucadan oxunsun';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Bəzəkləri sakitləşdir';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'daha az naxış və keçid';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Səs';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'Gloss necə ucadan oxuyur';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Səs';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Sizin üçün seçilib';
 
   @override
-  String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+  String get noOtherVoices => 'Bu cihazda başqa ingilis səsi quraşdırılmayıb.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Sürət';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Daha yavaş';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Daha sürətli';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Dinlə';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'İşıq';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'perqament və ya şam işığı';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Cihaza uyğun';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Perqament';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Şam işığı';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Dil';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Haqqında';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'necə hazırlanıb';
 
   @override
   String versionLine(String version) {
@@ -429,30 +428,29 @@ class AppLocalizationsAz extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Açıq mənbə lisenziyaları';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Gloss\'u paylaş';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Müəllifi izlə';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return '$label açıla bilmədi.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'İzahları $language dilində oxu';
   }
 
   @override
-  String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+  String get readExplanationsCaption => 'Sözün özü həmişə ingiliscə oxunur.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Bu cihazda $language səsi quraşdırılmayıb.';
   }
 }

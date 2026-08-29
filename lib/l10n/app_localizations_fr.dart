@@ -337,92 +337,93 @@ class AppLocalizationsFr extends AppLocalizations {
   String get categoryArchaic => 'Ancien et archaïque';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Cabinet';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Le cabinet de travail';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'lecture, voix et lumière';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Lecture';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'comment la page se pose';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Taille du texte';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — adoucir, édulcorer.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Plus petit';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Plus grand';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation =>
+      'Lire un mot à voix haute à son ouverture';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Apaiser les ornements';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'moins de fioritures et de dégradés';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Voix';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'comment Gloss lit à voix haute';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Voix';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Choisie pour vous';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Aucune autre voix anglaise n\'est installée sur cet appareil.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Allure';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Plus lent';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Plus vite';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'L\'entendre';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Lumière';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'parchemin ou chandelle';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Suivre l\'appareil';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Parchemin';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Chandelle';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Langue';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'À propos';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'comment il fut fait';
 
   @override
   String versionLine(String version) {
@@ -430,31 +431,31 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Licences open source';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Partager Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Suivre l\'auteur';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'Impossible d\'ouvrir $label.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Lire les explications en $language';
   }
 
   @override
   String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+      'Le mot lui-même est toujours lu en anglais.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Cet appareil n\'a aucune voix $language installée.';
   }
 }
 
@@ -789,4 +790,126 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
 
   @override
   String get categoryArchaic => 'Ancien et archaïque';
+
+  @override
+  String get navStudy => 'Cabinet';
+
+  @override
+  String get studyTitle => 'Le cabinet de travail';
+
+  @override
+  String get studyCaption => 'lecture, voix et lumière';
+
+  @override
+  String get readingSection => 'Lecture';
+
+  @override
+  String get readingCaption => 'comment la page se pose';
+
+  @override
+  String get textSize => 'Taille du texte';
+
+  @override
+  String get textSizeSample => 'Edulcorate — adoucir, édulcorer.';
+
+  @override
+  String get smaller => 'Plus petit';
+
+  @override
+  String get larger => 'Plus grand';
+
+  @override
+  String get autoplayPronunciation =>
+      'Lire un mot à voix haute à son ouverture';
+
+  @override
+  String get reduceMotion => 'Apaiser les ornements';
+
+  @override
+  String get reduceMotionCaption => 'moins de fioritures et de dégradés';
+
+  @override
+  String get voiceSection => 'Voix';
+
+  @override
+  String get voiceCaption => 'comment Gloss lit à voix haute';
+
+  @override
+  String get chooseVoice => 'Voix';
+
+  @override
+  String get voiceDefault => 'Choisie pour vous';
+
+  @override
+  String get noOtherVoices =>
+      'Aucune autre voix anglaise n\'est installée sur cet appareil.';
+
+  @override
+  String get speechPace => 'Allure';
+
+  @override
+  String get slower => 'Plus lent';
+
+  @override
+  String get faster => 'Plus vite';
+
+  @override
+  String get hearIt => 'L\'entendre';
+
+  @override
+  String get lightSection => 'Lumière';
+
+  @override
+  String get lightCaption => 'parchemin ou chandelle';
+
+  @override
+  String get themeSystem => 'Suivre l\'appareil';
+
+  @override
+  String get themeLight => 'Parchemin';
+
+  @override
+  String get themeDark => 'Chandelle';
+
+  @override
+  String get tongueSection => 'Langue';
+
+  @override
+  String get aboutSection => 'À propos';
+
+  @override
+  String get aboutCaption => 'comment il fut fait';
+
+  @override
+  String versionLine(String version) {
+    return 'Gloss $version';
+  }
+
+  @override
+  String get openLicences => 'Licences à code ouvert';
+
+  @override
+  String get shareGloss => 'Partager Gloss';
+
+  @override
+  String get followTheMaker => 'Suivre l\'auteur';
+
+  @override
+  String couldNotOpenLink(String label) {
+    return 'Impossible d\'ouvrir $label.';
+  }
+
+  @override
+  String readExplanationsIn(String language) {
+    return 'Lire les explications en $language';
+  }
+
+  @override
+  String get readExplanationsCaption =>
+      'Le mot lui-même est toujours lu en anglais.';
+
+  @override
+  String noVoiceInstalled(String language) {
+    return 'Cet appareil n\'a aucune voix $language installée.';
+  }
 }

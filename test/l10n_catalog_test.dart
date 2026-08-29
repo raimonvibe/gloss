@@ -138,4 +138,152 @@ void main() {
 ''');
     expect(repo.search(query: 'Edulcorate'), isNotEmpty);
   });
+
+  group('choiceForLocale picks the locale\'s own country', () {
+    LocaleCatalog realCatalog() => LocaleCatalog.fromJsonString(
+          File('l10n/catalog.json').readAsStringSync(),
+        );
+
+    test('nl-NL is the Netherlands, not the first country alphabetically', () {
+      final catalog = realCatalog();
+
+      // Aruba, Belgium, Netherlands and Suriname all list nl-NL, and the
+      // country list is alphabetical, so Aruba used to win.
+      final claimants = catalog.choices
+          .where((c) => c.locale.id == 'nl-NL')
+          .map((c) => c.country.name)
+          .toList();
+      expect(claimants.length, greaterThan(1));
+      expect(claimants.first, isNot('Netherlands'));
+
+      expect(catalog.choiceForLocale('nl-NL')?.country.iso2, 'NL');
+    });
+
+    test('every locale naming a country resolves to that country', () {
+      final catalog = realCatalog();
+      final wrong = <String>[];
+
+      for (final locale in catalog.locales) {
+        final code = locale.countryCode;
+        if (code == null || code.isEmpty) continue;
+        final claimed = catalog.choices.any(
+          (c) =>
+              c.locale.id == locale.id &&
+              c.country.iso2.toUpperCase() == code.toUpperCase(),
+        );
+        if (!claimed) continue;
+        final resolved = catalog.choiceForLocale(locale.id);
+        if (resolved?.country.iso2.toUpperCase() != code.toUpperCase()) {
+          expect(resolved, isNotNull);
+          wrong.add('${locale.id} -> ${resolved?.country.iso2} (want $code)');
+        }
+      }
+
+      expect(wrong, isEmpty);
+    });
+
+    test('a regional locale still resolves to some country', () {
+      final catalog = realCatalog();
+      final regional = catalog.locales.where(
+        (l) => l.countryCode == null || l.countryCode!.isEmpty,
+      );
+
+      for (final locale in regional) {
+        final claimed =
+            catalog.choices.any((c) => c.locale.id == locale.id);
+        if (!claimed) continue;
+        expect(
+          catalog.choiceForLocale(locale.id),
+          isNotNull,
+          reason: '${locale.id} lost its country',
+        );
+      }
+    });
+  });
+
+  group('every locale carries the whole UI', () {
+    Map<String, String> messagesOf(File file) {
+      final decoded =
+          jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+      return {
+        for (final entry in decoded.entries)
+          if (!entry.key.startsWith('@')) entry.key: entry.value as String,
+      };
+    }
+
+    List<File> arbFiles() => Directory('lib/l10n')
+        .listSync()
+        .whereType<File>()
+        .where((f) => f.path.endsWith('.arb'))
+        .toList()
+      ..sort((a, b) => a.path.compareTo(b.path));
+
+    Set<String> placeholdersOf(String value) => RegExp(r'\{(\w+)\}')
+        .allMatches(value)
+        .map((m) => m.group(1)!)
+        .toSet();
+
+    test('no locale falls back to English for a missing key', () {
+      final english = messagesOf(File('lib/l10n/app_en.arb'));
+      final gaps = <String>[];
+
+      for (final file in arbFiles()) {
+        if (file.path.endsWith('app_en.arb')) continue;
+        final missing = english.keys
+            .where((k) => !messagesOf(file).containsKey(k))
+            .toList();
+        if (missing.isNotEmpty) {
+          gaps.add('${file.uri.pathSegments.last}: ${missing.length} missing '
+              '(${missing.take(4).join(', ')}...)');
+        }
+      }
+
+      // gen-l10n falls back per key rather than failing, so a half-translated
+      // screen ships silently. This is the only thing that catches it.
+      expect(gaps, isEmpty, reason: gaps.join('\n'));
+    });
+
+    test('placeholders survive translation in every locale', () {
+      final english = messagesOf(File('lib/l10n/app_en.arb'));
+      final wrong = <String>[];
+
+      for (final file in arbFiles()) {
+        if (file.path.endsWith('app_en.arb')) continue;
+        final name = file.uri.pathSegments.last;
+        messagesOf(file).forEach((key, value) {
+          final source = english[key];
+          if (source == null) return;
+          final want = placeholdersOf(source);
+          final got = placeholdersOf(value);
+          if (!got.containsAll(want)) {
+            wrong.add('$name/$key lost ${want.difference(got)}');
+          }
+        });
+      }
+
+      expect(wrong, isEmpty, reason: wrong.join('\n'));
+    });
+
+    test('the lemma and the product name stay English', () {
+      final wrong = <String>[];
+
+      for (final file in arbFiles()) {
+        final name = file.uri.pathSegments.last;
+        final messages = messagesOf(file);
+        // Gloss is a bilingual dictionary: the headword is never translated.
+        final sample = messages['textSizeSample'];
+        if (sample != null && !sample.contains('Edulcorate')) {
+          wrong.add('$name/textSizeSample dropped the English lemma');
+        }
+        for (final key in ['versionLine', 'shareGloss', 'appTitle']) {
+          final value = messages[key];
+          if (value != null && !value.contains('Gloss')) {
+            wrong.add('$name/$key dropped the product name');
+          }
+        }
+      }
+
+      expect(wrong, isEmpty, reason: wrong.join('\n'));
+    });
+  });
 }

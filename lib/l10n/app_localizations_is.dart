@@ -335,92 +335,92 @@ class AppLocalizationsIs extends AppLocalizations {
   String get categoryArchaic => 'Gamalt og fornt';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Lesstofa';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Lesstofan';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'lestur, rödd og ljós';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Lestur';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'hvernig síðan situr';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Leturstærð';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — að sæta, að mýkja.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Minna';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Stærra';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'Lesa orð upphátt þegar það opnast';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Róa skrautið';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'færri flúr og litstiglar';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Rödd';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'hvernig Gloss les upphátt';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Rödd';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Valið fyrir þig';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Engar aðrar enskar raddir eru uppsettar í þessu tæki.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Hraði';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Hægar';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Hraðar';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Heyra það';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Ljós';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'bókfell eða kertaljós';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Fylgja tæki';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Bókfell';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Kertaljós';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Tunga';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Um';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'hvernig það varð til';
 
   @override
   String versionLine(String version) {
@@ -428,30 +428,29 @@ class AppLocalizationsIs extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Leyfi opins hugbúnaðar';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Deila Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Fylgstu með höfundinum';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'Ekki tókst að opna $label.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Lesa skýringar á $language';
   }
 
   @override
-  String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+  String get readExplanationsCaption => 'Orðið sjálft er alltaf lesið á ensku.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Þetta tæki er ekki með $language rödd uppsetta.';
   }
 }

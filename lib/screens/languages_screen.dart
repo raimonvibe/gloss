@@ -27,10 +27,27 @@ class LanguagesScreen extends StatefulWidget {
 class _LanguagesScreenState extends State<LanguagesScreen> {
   final _query = TextEditingController();
 
+  /// Null until the first build, which is the earliest point the selected
+  /// locale is known. 177 countries in one flat list is a long scroll, so
+  /// only the continent the reader is already reading in starts open.
+  Set<String>? _open;
+
   @override
   void dispose() {
     _query.dispose();
     super.dispose();
+  }
+
+  /// A search has to reach into every continent, or matches outside the open
+  /// ones would silently not show up.
+  bool _isOpen(String continent, {required bool searching}) =>
+      searching || (_open?.contains(continent) ?? false);
+
+  void _toggle(String continent) {
+    setState(() {
+      final open = _open ??= <String>{};
+      if (!open.remove(continent)) open.add(continent);
+    });
   }
 
   @override
@@ -47,6 +64,10 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
       return choice.searchHaystack.contains(needle);
     }).toList();
     final selected = catalog.choiceForLocale(selectedId);
+    final searching = needle.isNotEmpty;
+    _open ??= {
+      if (selected != null) selected.country.continent,
+    };
 
     final grouped = <String, List<LanguageChoice>>{
       for (final continent in _continentOrder) continent: [],
@@ -150,25 +171,91 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
                   children: [
                     for (final continent in _continentOrder)
                       if (grouped[continent]!.isNotEmpty) ...[
-                        Padding(
-                          padding: const EdgeInsets.fromLTRB(4, 18, 4, 8),
-                          child: ScriptCaption(
-                            localizedContinent(l10n, continent),
-                            textAlign: TextAlign.start,
-                            fontSize: 24,
-                          ),
+                        _ContinentHeader(
+                          label: localizedContinent(l10n, continent),
+                          count: grouped[continent]!.length,
+                          open: _isOpen(continent, searching: searching),
+                          onTap: searching
+                              ? null
+                              : () => _toggle(continent),
                         ),
-                        for (final choice in grouped[continent]!)
-                          _LanguageRow(
-                            choice: choice,
-                            selected: choice.locale.id == selectedId,
-                            onTap: () => settings.setLocaleId(choice.locale.id),
-                          ),
+                        if (_isOpen(continent, searching: searching))
+                          for (final choice in grouped[continent]!)
+                            _LanguageRow(
+                              choice: choice,
+                              selected: choice.locale.id == selectedId,
+                              onTap: () =>
+                                  settings.setLocaleId(choice.locale.id),
+                            ),
                       ],
                   ],
                 ),
         ),
       ],
+    );
+  }
+}
+
+/// A continent that folds away. The chevron and the count are the only hints
+/// that anything is hidden, so both stay visible when the section is shut.
+class _ContinentHeader extends StatelessWidget {
+  const _ContinentHeader({
+    required this.label,
+    required this.count,
+    required this.open,
+    required this.onTap,
+  });
+
+  final String label;
+  final int count;
+  final bool open;
+
+  /// Null while a search is running - the sections are forced open then, and
+  /// a header that refused to close would just look broken.
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final brand = context.brand;
+    return Semantics(
+      button: onTap != null,
+      expanded: open,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(12),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(4, 14, 4, 6),
+          child: Row(
+            children: [
+              Expanded(
+                child: ScriptCaption(
+                  label,
+                  textAlign: TextAlign.start,
+                  fontSize: 24,
+                ),
+              ),
+              Text(
+                '$count',
+                style: TextStyle(
+                  fontSize: 13,
+                  color: brand.foregroundMuted,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(width: 6),
+              AnimatedRotation(
+                turns: open ? 0.5 : 0,
+                duration: const Duration(milliseconds: 180),
+                child: Icon(
+                  Icons.expand_more,
+                  size: 22,
+                  color: onTap == null ? brand.foregroundMuted : brand.accentGold,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

@@ -336,92 +336,92 @@ class AppLocalizationsBe extends AppLocalizations {
   String get categoryArchaic => 'Старое і архаічнае';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Кабінет';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Кабінет';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'чытанне, голас і святло';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Чытанне';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'як кладзецца старонка';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Памер тэксту';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — падсаладзіць, змякчыць.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Драбней';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Буйней';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'Чытаць слова ўслых пры адкрыцці';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Супакоіць аздабленне';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'менш завітушак і градыентаў';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Голас';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'як Gloss чытае ўслых';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Голас';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Абраны для вас';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Іншыя англійскія галасы на гэтай прыладзе не ўсталяваныя.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Тэмп';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Павольней';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Хутчэй';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Паслухаць';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Святло';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'пергамент або святло свечкі';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Як на прыладзе';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Пергамент';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Святло свечкі';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Мова';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Пра праграму';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'як гэта зроблена';
 
   @override
   String versionLine(String version) {
@@ -429,30 +429,30 @@ class AppLocalizationsBe extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Ліцэнзіі адкрытага кода';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Падзяліцца Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Сачыце за аўтарам';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'Не ўдалося адкрыць $label.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Чытаць тлумачэнні на мове $language';
   }
 
   @override
   String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+      'Само слова заўсёды чытаецца па-англійску.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'На гэтай прыладзе няма голасу для мовы $language.';
   }
 }

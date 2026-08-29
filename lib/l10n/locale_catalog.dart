@@ -173,11 +173,25 @@ class LocaleCatalog {
 
   bool isRtl(String localeId) => byId[localeId]?.rtl ?? false;
 
+  /// The country the locale actually belongs to, not merely the first that
+  /// lists it. Twenty locales are claimed by more than one country - nl-NL by
+  /// four, en-US by thirty-eight - and [countries] is alphabetical, so taking
+  /// the first match showed Dutch as Aruba and English as whatever country
+  /// sorts first. Prefer the country whose ISO code the locale names.
   LanguageChoice? choiceForLocale(String localeId) {
+    final wanted = byId[localeId]?.countryCode;
+    LanguageChoice? firstMatch;
     for (final choice in choices) {
-      if (choice.locale.id == localeId) return choice;
+      if (choice.locale.id != localeId) continue;
+      if (wanted != null &&
+          wanted.isNotEmpty &&
+          choice.country.iso2.toUpperCase() == wanted.toUpperCase()) {
+        return choice;
+      }
+      firstMatch ??= choice;
     }
-    return null;
+    // Regional locales (ar, sw, es-419) name no country of their own.
+    return firstMatch;
   }
 
   String matchDevice(List<Locale> devices) {

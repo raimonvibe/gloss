@@ -337,92 +337,93 @@ class AppLocalizationsEl extends AppLocalizations {
   String get categoryArchaic => 'Παλαιό και αρχαϊκό';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Γραφείο';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Το γραφείο';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'ανάγνωση, φωνή και φως';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Ανάγνωση';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'πώς κάθεται η σελίδα';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Μέγεθος κειμένου';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — να γλυκάνει, να απαλύνει.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Μικρότερο';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Μεγαλύτερο';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation =>
+      'Ανάγνωση της λέξης φωναχτά με το άνοιγμα';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Γαλήνεψε τα στολίδια';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'λιγότερες καμπύλες και διαβαθμίσεις';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Φωνή';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'πώς διαβάζει φωναχτά το Gloss';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Φωνή';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Επιλεγμένη για εσάς';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Δεν υπάρχουν άλλες αγγλικές φωνές εγκατεστημένες σε αυτή τη συσκευή.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Ρυθμός';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Πιο αργά';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Πιο γρήγορα';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Άκουσέ τη';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Φως';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'περγαμηνή ή φως κεριού';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Όπως η συσκευή';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Περγαμηνή';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Φως κεριού';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Γλώσσα';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Σχετικά';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'πώς φτιάχτηκε';
 
   @override
   String versionLine(String version) {
@@ -430,30 +431,30 @@ class AppLocalizationsEl extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Άδειες ανοιχτού κώδικα';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Κοινοποίηση του Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Ακολουθήστε τον δημιουργό';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'Δεν ήταν δυνατό το άνοιγμα του $label.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Ανάγνωση των επεξηγήσεων στα $language';
   }
 
   @override
   String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+      'Η ίδια η λέξη διαβάζεται πάντα στα αγγλικά.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Αυτή η συσκευή δεν έχει εγκατεστημένη φωνή $language.';
   }
 }

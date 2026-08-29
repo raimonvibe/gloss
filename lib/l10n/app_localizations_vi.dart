@@ -335,92 +335,92 @@ class AppLocalizationsVi extends AppLocalizations {
   String get categoryArchaic => 'Cổ và cổ kính';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => 'Phòng đọc';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => 'Phòng đọc sách';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => 'đọc, giọng và ánh sáng';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => 'Đọc';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => 'trang giấy nằm thế nào';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => 'Cỡ chữ';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — làm ngọt, làm dịu.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => 'Nhỏ hơn';
 
   @override
-  String get larger => 'Larger';
+  String get larger => 'Lớn hơn';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => 'Đọc to từ khi mở';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => 'Làm dịu hoa văn';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => 'ít nét lượn và chuyển sắc hơn';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => 'Giọng';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'cách Gloss đọc to';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => 'Giọng';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => 'Đã chọn cho bạn';
 
   @override
   String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+      'Thiết bị này không cài đặt giọng tiếng Anh nào khác.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => 'Nhịp';
 
   @override
-  String get slower => 'Slower';
+  String get slower => 'Chậm hơn';
 
   @override
-  String get faster => 'Faster';
+  String get faster => 'Nhanh hơn';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => 'Nghe thử';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => 'Ánh sáng';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => 'giấy da hay ánh nến';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => 'Theo thiết bị';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => 'Giấy da';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => 'Ánh nến';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => 'Ngôn ngữ';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => 'Giới thiệu';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => 'nó được làm ra thế nào';
 
   @override
   String versionLine(String version) {
@@ -428,30 +428,30 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Giấy phép nguồn mở';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Chia sẻ Gloss';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => 'Theo dõi tác giả';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return 'Không thể mở $label.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return 'Đọc giải thích bằng $language';
   }
 
   @override
   String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+      'Bản thân từ luôn được đọc bằng tiếng Anh.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return 'Thiết bị này chưa cài giọng $language.';
   }
 }

@@ -466,4 +466,171 @@ void main() {
     await tester.pumpAndSettle();
     expect(settings.reduceMotion, isTrue);
   });
+
+  testWidgets('language continents fold away and search reaches inside', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final catalog = LocaleCatalog.fromJsonString(
+      File('l10n/catalog.json').readAsStringSync(),
+    );
+    final settings = SettingsController(prefs, catalog: catalog);
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: ProgressController(prefs),
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pump();
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Languages'));
+    await tester.pumpAndSettle();
+
+    // Every continent header is present, but 177 countries are not: the
+    // sections start shut so the list is short enough to scan.
+    // Albania heads the European list, so it is on screen whenever the
+    // section is open - Netherlands sits 26th of 42 and would not be.
+    expect(find.text('Europe'), findsOneWidget);
+    expect(find.text('Albania'), findsNothing);
+
+    await tester.tap(find.text('Europe'));
+    await tester.pumpAndSettle();
+    expect(find.text('Albania'), findsWidgets);
+
+    await tester.tap(find.text('Europe'));
+    await tester.pumpAndSettle();
+    expect(find.text('Albania'), findsNothing);
+
+    // A match in a shut continent must still surface, or search looks broken.
+    await tester.enterText(find.byType(TextField), 'Netherlands');
+    await tester.pumpAndSettle();
+    expect(find.text('Netherlands'), findsWidgets);
+  });
+
+  testWidgets('choosing Dutch names the Netherlands, not Aruba', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final catalog = LocaleCatalog.fromJsonString(
+      File('l10n/catalog.json').readAsStringSync(),
+    );
+    final settings = SettingsController(prefs, catalog: catalog);
+
+    await tester.binding.setSurfaceSize(const Size(800, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: ProgressController(prefs),
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pump();
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Languages'));
+    await tester.pumpAndSettle();
+
+    await tester.enterText(find.byType(TextField), 'Nederlands');
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Netherlands').first);
+    await tester.pumpAndSettle();
+
+    expect(settings.savedLocaleId, 'nl-NL');
+
+    // The card at the top of the picker names the chosen country. Aruba also
+    // reads Dutch and sorts first, which is what used to be shown there.
+    // Aruba still belongs in the Americas list, so scope this to that card:
+    // it is the first CardSurface, sitting above the search field.
+    await tester.enterText(find.byType(TextField), '');
+    await tester.pumpAndSettle();
+    final selectedCard = find.byType(CardSurface).first;
+    expect(
+      find.descendant(of: selectedCard, matching: find.text('Netherlands')),
+      findsOneWidget,
+    );
+    expect(
+      find.descendant(of: selectedCard, matching: find.text('Aruba')),
+      findsNothing,
+    );
+  });
+
+  testWidgets('theme labels stay on one line at the largest text size', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(prefs);
+
+    // A narrow screen and the biggest text the app allows - three theme
+    // labels used to wrap here, splitting words mid-word ('Perkamen/t').
+    await tester.binding.setSurfaceSize(const Size(360, 1400));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    await settings.setTextScale(2.0);
+
+    await tester.pumpWidget(
+      GlossApp(
+        settings: settings,
+        progress: ProgressController(prefs),
+        repository: WordRepository.fromJsonString(_fixture),
+        speech: SpeechController(engine: SilentSpeechEngine()),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('Study'));
+    await tester.pumpAndSettle();
+
+    final segmented = find.byType(SegmentedButton<ThemeMode>);
+    // Light sits well down a page that is very long at this text size, and a
+    // ListView only builds what is near the viewport.
+    if (segmented.evaluate().isEmpty) {
+      await tester.scrollUntilVisible(
+        segmented,
+        300,
+        scrollable: find.byType(Scrollable).last,
+        maxScrolls: 60,
+      );
+      await tester.pumpAndSettle();
+    }
+    expect(segmented, findsOneWidget);
+
+    for (final label in ['Match device', 'Parchment', 'Candlelight']) {
+      final text = find.descendant(of: segmented, matching: find.text(label));
+      expect(text, findsOneWidget, reason: '$label missing');
+
+      final widget = tester.widget<Text>(text);
+      expect(widget.maxLines, 1, reason: '$label may wrap');
+      expect(widget.softWrap, isFalse, reason: '$label may wrap');
+
+      // Scaling down is what keeps a long label whole; without it the label
+      // would have to wrap or be cut off.
+      expect(
+        find.ancestor(of: text, matching: find.byType(FittedBox)),
+        findsWidgets,
+        reason: '$label cannot shrink to fit',
+      );
+
+      // One line of text, however large the reader has set it.
+      final box = tester.renderObject<RenderBox>(text);
+      expect(
+        box.size.height,
+        lessThan(60),
+        reason: '$label rendered ${box.size.height}px tall - it wrapped',
+      );
+    }
+  });
 }

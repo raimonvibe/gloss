@@ -334,92 +334,91 @@ class AppLocalizationsKo extends AppLocalizations {
   String get categoryArchaic => '옛말과 고어';
 
   @override
-  String get navStudy => 'Study';
+  String get navStudy => '서재';
 
   @override
-  String get studyTitle => 'The study';
+  String get studyTitle => '서재';
 
   @override
-  String get studyCaption => 'reading, voice, and light';
+  String get studyCaption => '읽기, 목소리, 그리고 빛';
 
   @override
-  String get readingSection => 'Reading';
+  String get readingSection => '읽기';
 
   @override
-  String get readingCaption => 'how the page sits';
+  String get readingCaption => '책장이 놓이는 방식';
 
   @override
-  String get textSize => 'Text size';
+  String get textSize => '글자 크기';
 
   @override
-  String get textSizeSample => 'Edulcorate — to sweeten, to soften.';
+  String get textSizeSample => 'Edulcorate — 달게 하다, 부드럽게 하다.';
 
   @override
-  String get smaller => 'Smaller';
+  String get smaller => '작게';
 
   @override
-  String get larger => 'Larger';
+  String get larger => '크게';
 
   @override
-  String get autoplayPronunciation => 'Read a word aloud when it opens';
+  String get autoplayPronunciation => '열 때 낱말을 소리 내어 읽기';
 
   @override
-  String get reduceMotion => 'Calm the ornaments';
+  String get reduceMotion => '장식을 가라앉히기';
 
   @override
-  String get reduceMotionCaption => 'fewer flourishes and gradients';
+  String get reduceMotionCaption => '덜한 장식과 그라데이션';
 
   @override
-  String get voiceSection => 'Voice';
+  String get voiceSection => '목소리';
 
   @override
-  String get voiceCaption => 'how Gloss reads aloud';
+  String get voiceCaption => 'Gloss가 읽어 주는 방식';
 
   @override
-  String get chooseVoice => 'Voice';
+  String get chooseVoice => '목소리';
 
   @override
-  String get voiceDefault => 'Chosen for you';
+  String get voiceDefault => '자동 선택';
 
   @override
-  String get noOtherVoices =>
-      'No other English voices are installed on this device.';
+  String get noOtherVoices => '이 기기에는 다른 영어 목소리가 설치되어 있지 않습니다.';
 
   @override
-  String get speechPace => 'Pace';
+  String get speechPace => '속도';
 
   @override
-  String get slower => 'Slower';
+  String get slower => '느리게';
 
   @override
-  String get faster => 'Faster';
+  String get faster => '빠르게';
 
   @override
-  String get hearIt => 'Hear it';
+  String get hearIt => '들어보기';
 
   @override
-  String get lightSection => 'Light';
+  String get lightSection => '빛';
 
   @override
-  String get lightCaption => 'parchment or candlelight';
+  String get lightCaption => '양피지 또는 촛불';
 
   @override
-  String get themeSystem => 'Match device';
+  String get themeSystem => '기기 설정 따르기';
 
   @override
-  String get themeLight => 'Parchment';
+  String get themeLight => '양피지';
 
   @override
-  String get themeDark => 'Candlelight';
+  String get themeDark => '촛불';
 
   @override
-  String get tongueSection => 'Tongue';
+  String get tongueSection => '말';
 
   @override
-  String get aboutSection => 'About';
+  String get aboutSection => '정보';
 
   @override
-  String get aboutCaption => 'the making of it';
+  String get aboutCaption => '어떻게 만들어졌는가';
 
   @override
   String versionLine(String version) {
@@ -427,30 +426,29 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => '오픈 소스 라이선스';
 
   @override
-  String get shareGloss => 'Share Gloss';
+  String get shareGloss => 'Gloss 공유';
 
   @override
-  String get followTheMaker => 'Follow the maker';
+  String get followTheMaker => '만든 이 팔로우';
 
   @override
   String couldNotOpenLink(String label) {
-    return 'Could not open $label.';
+    return '$label을(를) 열 수 없습니다.';
   }
 
   @override
   String readExplanationsIn(String language) {
-    return 'Read explanations in $language';
+    return '$language(으)로 설명 읽기';
   }
 
   @override
-  String get readExplanationsCaption =>
-      'The word itself is always read in English.';
+  String get readExplanationsCaption => '낱말 자체는 언제나 영어로 읽힙니다.';
 
   @override
   String noVoiceInstalled(String language) {
-    return 'This device has no $language voice installed.';
+    return '이 기기에는 $language 목소리가 설치되어 있지 않습니다.';
   }
 }
