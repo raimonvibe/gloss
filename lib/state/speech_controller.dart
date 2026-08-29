@@ -196,7 +196,28 @@ const _kShortestQuote = 3;
 
 final _wordCharacter = RegExp(r'[\p{L}\p{N}]', unicode: true);
 
-final _leadingPunctuation = RegExp(r'^[\s,;:]+');
+/// Punctuation left dangling once the English is lifted out of a sentence:
+/// the opening quote with nothing behind it, the comma that trailed a term,
+/// the full stop and closing quote that the next piece begins on.
+///
+/// A voice handed '.” Dubbelzinnigheid' says the full stop and the quote
+/// out loud before it reaches a word. Sentence endings are left alone: a
+/// piece may finish on '.', '!' or '?', which is how it should sound.
+final _danglingHead = RegExp(r'^[\s.,;:!?…"“”„«»‹›—–-]+');
+
+final _danglingTail = RegExp(r'[\s,;:"“”„«»‹›—–-]+$');
+
+/// What a voice is actually given to say.
+///
+/// Quotation marks are a mark on the page, not a sound: some engines
+/// announce them - 'aanhalingsteken' dropped into the middle of a sentence -
+/// and none of them read better for keeping them. Everything the app speaks
+/// passes through here, so the page can quote as freely as it likes.
+///
+/// Apostrophes are left alone. They live inside words.
+String asSpoken(String text) => text.replaceAll(_quotationMarks, '').trim();
+
+final _quotationMarks = RegExp(r'["“”„«»‹›]');
 
 /// True when [start]–[end] is not sitting inside a longer word.
 bool _standsAlone(String text, int start, int end) {
@@ -265,11 +286,18 @@ List<SpeechSegment> segmentTranslation(
   // A piece of nothing but a closing quote and a full stop has no words in
   // it. Dropping it saves the engine a voice change that says nothing.
   //
-  // What is left often starts on the punctuation that followed the English
-  // — 'torpere, meaning to be numb' leaves ', meaning to be numb' behind.
-  // The voice should open on a word, not a comma.
+  // What is left over often begins or ends on the punctuation that held the
+  // English in place — 'torpere, meaning to be numb' leaves ', meaning to be
+  // numb' behind. A voice should open and close on words, not on a comma or
+  // a stranded quotation mark.
+  //
+  // Only what is left over is trimmed. The English lifted out keeps every
+  // mark it came with, including the hyphen that makes '-istic' a suffix.
   void addTranslated(String part) {
-    final trimmed = part.trim().replaceFirst(_leadingPunctuation, '');
+    final trimmed = part
+        .trim()
+        .replaceFirst(_danglingHead, '')
+        .replaceFirst(_danglingTail, '');
     if (_wordCharacter.hasMatch(trimmed)) segments.add(translated(trimmed));
   }
 
@@ -742,7 +770,18 @@ class SpeechController extends ChangeNotifier {
         if (segment.text.trim().isNotEmpty) segment,
     ];
     if (wanted.isEmpty) return;
-    final resolved = await _settleGroups(wanted);
+    final resolved = [
+      for (final segment in await _settleGroups(wanted))
+        if (asSpoken(segment.text).isNotEmpty)
+          SpeechSegment(
+            asSpoken(segment.text),
+            languageTag: segment.languageTag,
+            fallback: segment.fallback == null
+                ? null
+                : asSpoken(segment.fallback!),
+            group: segment.group,
+          ),
+    ];
     if (resolved.isEmpty) return;
     await _engine.stop();
     _activeKey = key;
@@ -815,7 +854,7 @@ class SpeechController extends ChangeNotifier {
   }
 
   Future<void> speak(String key, String text) async {
-    final trimmed = text.trim();
+    final trimmed = asSpoken(text);
     if (trimmed.isEmpty) return;
     await _engine.stop();
     _activeKey = key;

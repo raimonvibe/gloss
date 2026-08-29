@@ -427,7 +427,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get openLicences => 'Open-source licences';
+  String get openLicences => 'Open-source licenses';
 
   @override
   String get shareGloss => 'Share Gloss';

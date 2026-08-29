@@ -958,7 +958,7 @@ abstract class AppLocalizations {
   /// No description provided for @openLicences.
   ///
   /// In en, this message translates to:
-  /// **'Open-source licences'**
+  /// **'Open-source licenses'**
   String get openLicences;
 
   /// No description provided for @shareGloss.

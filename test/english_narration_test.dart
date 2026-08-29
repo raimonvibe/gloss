@@ -191,9 +191,11 @@ void _quotedEnglish() {
       );
       final speech = SpeechController(engine: engine);
       await speech.speakSegments('entry:amphiboly', cut(dutch));
+      // No quotation mark reaches the engine: the opening one the Dutch
+      // was left holding is trimmed, and quotation marks are not sounds.
       expect(engine.spokenSegments, [
         'nl-NL:Een zin die grammatisch klopt, maar op twee heel '
-            'verschillende manieren te lezen is, zoals „',
+            'verschillende manieren te lezen is, zoals',
         'en:Visiting relatives can be tiring',
       ]);
     });
@@ -267,6 +269,58 @@ void _quotedEnglish() {
         }
       }
       expect(leaked, isEmpty, reason: 'English left for a local voice');
+    });
+
+    test('no voice is ever handed a quotation mark to pronounce', () async {
+      TestWidgetsFlutterBinding.ensureInitialized();
+      final repo = await WordRepository.load();
+
+      // What the engine was handed, and which entry it came from.
+      final spoken = <(String, String)>[];
+      for (final locale in ['nl', 'de', 'fr']) {
+        await repo.applyLocale(locale);
+        final templates = SpeechTemplates.fromL10n(
+          lookupAppLocalizations(Locale(locale)),
+        );
+        for (final entry in repo.words) {
+          final engine = SilentSpeechEngine(
+            voices: [VoiceOption(name: '$locale-x-local', locale: locale)],
+          );
+          await SpeechController(engine: engine).speakSegments(entry.id, [
+            SpeechSegment(entry.spokenWord, group: entry.id),
+            ...segmentTranslation(
+              entry.spokenExplanationWith(templates),
+              languageTag: locale,
+              englishTerms: entry.quotedEnglish,
+              fallback: entry.english.spokenEntry,
+              group: entry.id,
+            ),
+          ]);
+          for (final line in engine.spokenSegments) {
+            // 'nl:betekenis werpen.' — the tag is everything up to the
+            // first colon, the utterance is the rest.
+            final split = line.indexOf(':');
+            spoken.add(('$locale/${entry.id}', line.substring(split + 1)));
+          }
+        }
+      }
+      expect(spoken, isNotEmpty, reason: 'nothing was spoken to check');
+
+      // A quotation mark is a mark on the page. Some engines say it out
+      // loud, in the middle of a sentence, in the reader's language.
+      final quoted = [
+        for (final (where, text) in spoken)
+          if (_quotationMark.hasMatch(text)) '$where: $text',
+      ];
+      expect(quoted, isEmpty, reason: 'a quotation mark reached a voice');
+
+      // And nothing opens on the punctuation the English left behind — a
+      // full stop and a closing quote were being read out as words.
+      final dangling = [
+        for (final (where, text) in spoken)
+          if (_opensOnPunctuation.hasMatch(text)) '$where: $text',
+      ];
+      expect(dangling, isEmpty, reason: 'a piece opens on punctuation');
     });
 
     test('no Dutch voice replaces the passage once, not piece by piece',
@@ -445,3 +499,8 @@ RegExp _standingAlone(String term) => _boundaries.putIfAbsent(
         caseSensitive: false,
       ),
     );
+
+final _quotationMark = RegExp(r'["“”„«»‹›]');
+
+/// A hyphen is allowed: '-idus' is a suffix, and it is English.
+final _opensOnPunctuation = RegExp(r'^[\s.,;:!?…]');
