@@ -597,7 +597,7 @@ ROWS = [
     ),
     (
         "At rejse indvendinger; at vise modvilje.",
-        "Høfligt at bakke eller tøve i stedet for at hoppe med med det samme — et blødt \"I'd rather not.\"",
+        "Høfligt at bakke eller tøve i stedet for at hoppe med det samme — et blødt \"I'd rather not.\"",
         "Da hun blev bedt om at underskrive uden at læse, demurred hun.",
         "fra, væk",
         "at tøve",

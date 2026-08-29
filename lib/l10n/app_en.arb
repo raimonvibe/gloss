@@ -242,7 +242,7 @@
       }
     }
   },
-  "openLicences": "Open-source licences",
+  "openLicences": "Open-source licenses",
   "shareGloss": "Share Gloss",
   "followTheMaker": "Follow the maker",
   "couldNotOpenLink": "Could not open {label}.",
