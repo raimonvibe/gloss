@@ -21,22 +21,47 @@ Known checkouts:
 | Machine | Path | Flutter | Python | Git |
 |---|---|---|---|---|
 | Linux | `~/Documenten/Mobile Development/003gloss` | **not** on `PATH` — prefix `PATH="$HOME/Documenten/Developer/flutter/bin:$PATH"` | `python3` (no `python`) | yes, since 2026-08-29 |
-| Windows | `C:\Users\rober\Documents\My Tableau Repository\Mobile Development\002 Beautiful Words` | on `PATH` | `python` (no `python3`) | yes, since 2026-08-29 |
+| Windows | `C:\Users\rober\Documents\My Tableau Repository\Mobile Development\003 Beautiful Words` | on `PATH` | `python` (no `python3`) | yes, since 2026-08-29 |
 
-`003gloss` replaced `002Beautiful Words` as the Linux checkout on 2026-08-29 and was
-initialised against `origin/main` the same day. It too began as a snapshot with no
-`.git`. Every hand-written file in it matched `origin/main` at `2dc63a1`, so no work had
-to be carried across; only the 57 generated `app_localizations*.dart` differed, and a
-regenerate settled those — see *Verification*.
+Both machines moved to a `003` checkout on 2026-08-29, and for the same reason: each
+arrived as a snapshot with no `.git` and was **initialised against `origin/main` rather
+than cloned**, so that the files already on disk were kept and merely matched against the
+remote.
 
-`002Beautiful Words` is still on disk and is **26 commits behind** `origin/main`, whose
-history it is a clean ancestor of. It is a stale copy, not a second working one — do not
-edit it, and do not try to keep the two in step. Work in `003gloss`.
+- `003gloss` (Linux) took over from `002Beautiful Words` at `2dc63a1`. Every
+  hand-written file matched; only the 57 generated `app_localizations*.dart` differed,
+  and a regenerate settled those — see *Verification*.
+- `003 Beautiful Words` (Windows) took over from `002 Beautiful Words` at `59ec260`.
+  The whole tree matched, the 57 generated files included. Only `pubspec.lock` differed,
+  and that is the toolchain rather than work: Windows Flutter 3.41.7 resolves
+  `intl 0.20.2` and `meta 1.17.0` where the Linux 3.47.2 that wrote the committed lock
+  resolves newer ones. **Leave it dirty; do not commit it** — the next `pub get` on
+  either machine writes it back the other way regardless.
 
-The Windows copy began as a snapshot with no `.git` at all. It was initialised
-against `origin/main` on 2026-08-29, so it has real history now — but it was set
-up with `core.autocrlf false`, deliberately, to stop Windows rewriting line endings
-into every diff. Keep that if you re-clone.
+The initialise-don't-clone sequence, which moves the branch and leaves every file alone:
+
+```bash
+git init -b main
+git config core.autocrlf false     # Windows only, and deliberate
+git remote add origin https://github.com/raimonvibe/gloss
+git fetch origin
+git reset --mixed origin/main      # NOT checkout - that would overwrite the tree
+git branch --set-upstream-to=origin/main main
+```
+
+`core.autocrlf false` is what stops Windows rewriting line endings into every diff. Keep
+it if you re-clone.
+
+`android/key.properties` does **not** travel with a checkout — it is gitignored, as is
+the keystore it names, and that keystore lives outside the repo. A fresh checkout cannot
+build a release bundle until the file is copied across from the previous checkout (or
+written from `android/key.properties.example`).
+
+Both `002` copies are still on disk. They are stale, not second working copies — do not
+edit them, and do not try to keep them in step. One thing in them is not on the remote:
+`002 Beautiful Words` sits on branch `tablet-rail-restyle`, one commit ahead at
+`052371b` *"Raise the bundle to 1.0.0+8"*. It touches `pubspec.yaml` and nothing else,
+and `1.0.0+9` here supersedes it. Nothing else in either `002` is unpushed.
 
 ## Current state (Aug 2026)
 
@@ -254,14 +279,25 @@ A diff here that survives a clean regenerate is a real change and belongs in the
 
 ### Known-good baseline
 
-Both taken at `2dc63a1`, and a baseline means nothing without the commit it was taken at:
+A baseline means nothing without the commit it was taken at:
 
-| When | Machine | Flutter | `analyze` | `test` | `untranslated.json` |
-|---|---|---|---|---|---|
-| 2026-08-29 | Linux | 3.47.2 / Dart 3.13.2 | clean | **133/133** | empty |
-| 2026-08-29 | Windows | 3.41.7 | clean | **133/133** | empty |
+| When | Commit | Machine | Flutter | `analyze` | `test` | `untranslated.json` |
+|---|---|---|---|---|---|---|
+| 2026-08-29 | `2dc63a1` | Linux | 3.47.2 / Dart 3.13.2 | clean | **133/133** | empty |
+| 2026-08-29 | `2dc63a1` | Windows | 3.41.7 | clean | **133/133** | empty |
+| 2026-08-29 | `59ec260` | Windows | 3.41.7 | clean | **146/146** | empty |
 
-`flutter build apk --debug` exits 0 on Windows at that commit.
+The suite grew from 133 to 146 between those two commits; the number is a fact about the
+commit, not a constant to hold.
+
+`flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
+
+`flutter build appbundle --release` exits 0 on Windows at `59ec260` + the `1.0.0+9` bump,
+writing a 47.3 MB `build/app/outputs/bundle/release/app-release.aab`. Check what came out
+before uploading — `keytool -printcert -jarfile app-release.aab` must name
+`CN=Gloss, O=Raimonvibe` (the upload key, not a debug key), and
+`build/app/intermediates/merged_manifest/release/*/AndroidManifest.xml` carries the
+`versionCode` in plain text, which the bundle's own protobuf manifest does not.
 
 The Flutter version differs by machine. Record which one you used, **and at which
 commit**, when you move the baseline.
