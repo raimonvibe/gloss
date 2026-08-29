@@ -117,6 +117,25 @@ class AppTheme {
           );
         }),
       ),
+      // The rail stands in for the bottom bar on a wide window, so it wears
+      // the same gold-on-parchment colours.
+      navigationRailTheme: NavigationRailThemeData(
+        backgroundColor: brand.card.withValues(alpha: 0.94),
+        indicatorColor: brand.accentGold.withValues(alpha: 0.18),
+        elevation: 0,
+        selectedIconTheme: IconThemeData(color: brand.accentGold),
+        unselectedIconTheme: IconThemeData(color: brand.foregroundMuted),
+        selectedLabelTextStyle: AppFonts.cormorant(
+          fontSize: 13,
+          fontWeight: FontWeight.w700,
+          color: brand.accentGold,
+        ),
+        unselectedLabelTextStyle: AppFonts.cormorant(
+          fontSize: 13,
+          fontWeight: FontWeight.w500,
+          color: brand.foregroundMuted,
+        ),
+      ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
         fillColor: Colors.transparent,

@@ -7,6 +7,7 @@ import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/quiz_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/ornament.dart';
 
@@ -25,34 +26,40 @@ class QuizThemeScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(title: Text(l10n.themeTitle)),
-        body: repo.categories.isEmpty
-            ? Center(
+        body: LayoutBuilder(
+          builder: (context, constraints) {
+            if (repo.categories.isEmpty) {
+              return Center(
                 child: Text(
                   l10n.noThemesYet,
                   style: TextStyle(color: brand.foregroundMuted, fontSize: 16),
                 ),
-              )
-            : ListView.builder(
-                padding: const EdgeInsets.fromLTRB(28, 8, 28, 48),
-                itemCount: repo.categories.length + 1,
-                itemBuilder: (context, index) {
-                  if (index == 0) {
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 28),
-                      child: ScriptCaption(l10n.chooseASubject),
-                    );
-                  }
-                  final category = repo.categories[index - 1];
-                  final themed = repo.wordsForCategory(category.id);
-                  return _ThemeRow(
-                    label: localizedCategoryLabel(l10n, category.id),
-                    count: themed.length,
-                    onTap: themed.isEmpty
-                        ? null
-                        : () => _begin(context, themed, repo.words),
+              );
+            }
+            final layout = Layout.fromConstraints(constraints);
+            return ListView.builder(
+              padding: layout.pagePadding(top: 8, bottom: 48),
+              itemCount: repo.categories.length + 1,
+              itemBuilder: (context, index) {
+                if (index == 0) {
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 28),
+                    child: ScriptCaption(l10n.chooseASubject),
                   );
-                },
-              ),
+                }
+                final category = repo.categories[index - 1];
+                final themed = repo.wordsForCategory(category.id);
+                return _ThemeRow(
+                  label: localizedCategoryLabel(l10n, category.id),
+                  count: themed.length,
+                  onTap: themed.isEmpty
+                      ? null
+                      : () => _begin(context, themed, repo.words),
+                );
+              },
+            );
+          },
+        ),
       ),
     );
   }

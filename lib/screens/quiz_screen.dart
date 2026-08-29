@@ -7,6 +7,7 @@ import '../state/progress_controller.dart';
 import '../state/quiz_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/etymology_card.dart';
 import '../widgets/multiple_choice.dart';
@@ -45,8 +46,9 @@ class _QuizSetupState extends State<_QuizSetup> {
     final brand = context.brand;
     final repo = context.watch<WordRepository>();
     final l10n = AppLocalizations.of(context);
+    final layout = context.layout;
     return ListView(
-      padding: const EdgeInsets.fromLTRB(24, 20, 24, 40),
+      padding: layout.pagePadding(top: 20, bottom: 40),
       children: [
         Row(
           children: [
@@ -172,11 +174,13 @@ class _QuizPlay extends StatelessWidget {
     final question = quiz.current!;
     final brand = context.brand;
     final l10n = AppLocalizations.of(context);
+    final layout = context.layout;
+    final side = layout.sideInset();
 
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+          padding: EdgeInsets.fromLTRB(side, 12, side, 0),
           child: Row(
             children: [
               IconButton(
@@ -208,7 +212,7 @@ class _QuizPlay extends StatelessWidget {
         ),
         Expanded(
           child: ListView(
-            padding: const EdgeInsets.fromLTRB(20, 16, 20, 20),
+            padding: EdgeInsets.fromLTRB(side, 16, side, 20),
             children: [
               EtymologyCard(entry: question.word, compact: true),
               const SizedBox(height: 18),
@@ -260,7 +264,7 @@ class _QuizPlay extends StatelessWidget {
         SafeArea(
           top: false,
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(20, 8, 20, 12),
+            padding: EdgeInsets.fromLTRB(side, 8, side, 12),
             child: Row(
               children: [
                 Expanded(

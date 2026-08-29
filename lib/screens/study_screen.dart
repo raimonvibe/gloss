@@ -9,6 +9,7 @@ import '../state/progress_controller.dart';
 import '../state/settings_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/social_row.dart';
 import 'languages_screen.dart';
@@ -82,9 +83,10 @@ class _StudyScreenState extends State<StudyScreen> {
     final settings = context.watch<SettingsController>();
     final progress = context.watch<ProgressController>();
     final total = context.watch<WordRepository>().words.length;
+    final layout = context.layout;
 
     return ListView(
-      padding: const EdgeInsets.fromLTRB(20, 16, 20, 32),
+      padding: layout.pagePadding(top: 16, bottom: 32),
       children: [
         _Header(title: l10n.studyTitle, caption: l10n.studyCaption),
         const SizedBox(height: 16),
@@ -246,7 +248,9 @@ class _LanguagesPage extends StatelessWidget {
         foregroundColor: context.brand.foreground,
         elevation: 0,
       ),
-      body: const SafeArea(child: LanguagesScreen()),
+      body: const SafeArea(
+        child: LayoutBoundary(child: LanguagesScreen()),
+      ),
     );
   }
 }

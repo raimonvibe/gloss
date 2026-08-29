@@ -3,8 +3,10 @@ import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../state/quiz_controller.dart';
+import '../state/reading.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/ornament.dart';
@@ -31,55 +33,71 @@ class QuizResultsScreen extends StatelessWidget {
             actions: [
               SpeakButton(
                 speechKey: 'results',
-                text: l10n.definitionsRightSpoken(score, total),
+                // The score line is the app's own copy, so it is whatever
+                // language the reader chose. Handing that to the
+                // English-locked voice is what gave it an English accent.
+                text: englishCopy.definitionsRightSpoken(score, total),
+                segments: spokenLine(
+                  context,
+                  localized: l10n.definitionsRightSpoken(score, total),
+                  english: englishCopy.definitionsRightSpoken(score, total),
+                  group: 'results',
+                ),
               ),
               const SizedBox(width: 8),
             ],
           ),
-          body: ListView(
-            padding: const EdgeInsets.fromLTRB(20, 8, 20, 40),
-            children: [
-              ScriptCaption(score == total ? l10n.perfectPage : l10n.wellMarked),
-              const SizedBox(height: 8),
-              GradientText(
-                '$score / $total',
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.displayMedium?.copyWith(
-                      fontWeight: FontWeight.w800,
+          body: LayoutBoundary(
+            child: Builder(
+              builder: (context) => ListView(
+                padding: context.layout.pagePadding(top: 8, bottom: 40),
+                children: [
+                  ScriptCaption(
+                    score == total ? l10n.perfectPage : l10n.wellMarked,
+                  ),
+                  const SizedBox(height: 8),
+                  GradientText(
+                    '$score / $total',
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.displayMedium?.copyWith(
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                  const SizedBox(height: 16),
+                  ProgressTracker(
+                    current: score,
+                    total: total,
+                    label: l10n.definitionsRight(score),
+                  ),
+                  const DividerFlourish(),
+                  for (var i = 0; i < quiz.questions.length; i++) ...[
+                    _ResultRow(
+                      index: i,
+                      correct:
+                          quiz.questions[i].isCorrect(quiz.answerFor(i) ?? -1),
+                      word: quiz.questions[i].word.word,
+                      definition: quiz.questions[i].word.definition,
+                      speechKey: 'result:${quiz.questions[i].word.id}',
+                      speechText: quiz.questions[i].word.spokenGlance,
                     ),
+                    const SizedBox(height: 10),
+                  ],
+                  const SizedBox(height: 16),
+                  FilledButton(
+                    onPressed: () {
+                      context.read<SpeechController>().stop();
+                      context.read<QuizController>().reset();
+                      Navigator.of(context).pop();
+                    },
+                    style: FilledButton.styleFrom(
+                      backgroundColor: brand.accentGold,
+                      padding: const EdgeInsets.symmetric(vertical: 14),
+                    ),
+                    child: Text(l10n.tryAnotherRound),
+                  ),
+                ],
               ),
-              const SizedBox(height: 16),
-              ProgressTracker(
-                current: score,
-                total: total,
-                label: l10n.definitionsRight(score),
-              ),
-              const DividerFlourish(),
-              for (var i = 0; i < quiz.questions.length; i++) ...[
-                _ResultRow(
-                  index: i,
-                  correct: quiz.questions[i].isCorrect(quiz.answerFor(i) ?? -1),
-                  word: quiz.questions[i].word.word,
-                  definition: quiz.questions[i].word.definition,
-                  speechKey: 'result:${quiz.questions[i].word.id}',
-                  speechText: quiz.questions[i].word.spokenGlance,
-                ),
-                const SizedBox(height: 10),
-              ],
-              const SizedBox(height: 16),
-              FilledButton(
-                onPressed: () {
-                  context.read<SpeechController>().stop();
-                  context.read<QuizController>().reset();
-                  Navigator.of(context).pop();
-                },
-                style: FilledButton.styleFrom(
-                  backgroundColor: brand.accentGold,
-                  padding: const EdgeInsets.symmetric(vertical: 14),
-                ),
-                child: Text(l10n.tryAnotherRound),
-              ),
-            ],
+            ),
           ),
         ),
       ),

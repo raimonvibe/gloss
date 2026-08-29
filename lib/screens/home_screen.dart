@@ -7,6 +7,7 @@ import '../l10n/app_localizations.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/study_button.dart';
@@ -34,12 +35,31 @@ class HomeScreen extends StatelessWidget {
     final brand = context.brand;
     final l10n = AppLocalizations.of(context);
     final today = repo.wordOfTheDay();
+    final layout = context.layout;
+    final side = layout.sideInset();
+
+    // A phone on its side has no height to spare for a full-dress hero.
+    final mark = layout.isShort
+        ? 64.0
+        : layout.isAtLeastMedium
+            ? 104.0
+            : 88.0;
+    final titleSize = layout.isShort
+        ? 34.0
+        : layout.isAtLeastMedium
+            ? 52.0
+            : 42.0;
 
     return CustomScrollView(
       slivers: [
         SliverToBoxAdapter(
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(24, 28, 24, 8),
+            padding: EdgeInsets.fromLTRB(
+              side,
+              layout.isShort ? 16 : 28,
+              side,
+              8,
+            ),
             child: Column(
               children: [
                 Row(
@@ -48,13 +68,13 @@ class HomeScreen extends StatelessWidget {
                     StudyButton(onOpen: onOpenStudy),
                   ],
                 ),
-                const SizedBox(height: 12),
+                SizedBox(height: layout.isShort ? 6 : 12),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(22),
                   child: Image.asset(
                     Branding.markAsset,
-                    width: 88,
-                    height: 88,
+                    width: mark,
+                    height: mark,
                     fit: BoxFit.cover,
                     filterQuality: FilterQuality.high,
                     semanticLabel: l10n.glossIcon,
@@ -68,7 +88,7 @@ class HomeScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.displayMedium?.copyWith(
                         fontWeight: FontWeight.w800,
-                        fontSize: 42,
+                        fontSize: titleSize,
                       ),
                 ),
                 const SizedBox(height: 10),
@@ -87,7 +107,7 @@ class HomeScreen extends StatelessWidget {
         ),
         SliverToBoxAdapter(
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(24, 8, 24, 0),
+            padding: EdgeInsets.fromLTRB(side, 8, side, 0),
             child: ProgressTracker(
               current: progress.explored.count,
               total: repo.words.length,
@@ -98,10 +118,15 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ),
-        const SliverToBoxAdapter(child: DividerFlourish()),
         SliverToBoxAdapter(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
+            padding: EdgeInsets.symmetric(horizontal: side),
+            child: const DividerFlourish(),
+          ),
+        ),
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: side),
             child: _WordOfTheDay(
               entry: today,
               onOpen: () => _open(context, today),
@@ -110,22 +135,22 @@ class HomeScreen extends StatelessWidget {
         ),
         SliverToBoxAdapter(
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(24, 20, 24, 40),
-            child: Column(
-              children: [
-                _ActionButton(
-                  icon: Icons.menu_book_outlined,
-                  label: l10n.exploreLexicon,
-                  onTap: onOpenLexicon,
-                ),
-                const SizedBox(height: 12),
-                _ActionButton(
-                  icon: Icons.quiz_outlined,
-                  label: l10n.startQuiz,
-                  filled: true,
-                  onTap: onOpenQuiz,
-                ),
-              ],
+            padding: EdgeInsets.fromLTRB(side, 20, side, 40),
+            child: _Actions(
+              // Side by side once the buttons would otherwise run the width
+              // of a tablet; stacked on a phone, where they would crowd.
+              wide: layout.isAtLeastMedium,
+              lexicon: _ActionButton(
+                icon: Icons.menu_book_outlined,
+                label: l10n.exploreLexicon,
+                onTap: onOpenLexicon,
+              ),
+              quiz: _ActionButton(
+                icon: Icons.quiz_outlined,
+                label: l10n.startQuiz,
+                filled: true,
+                onTap: onOpenQuiz,
+              ),
             ),
           ),
         ),
@@ -137,6 +162,55 @@ class HomeScreen extends StatelessWidget {
     context.read<ProgressController>().explored.add(entry.id);
     Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => WordDetailScreen(entry: entry)),
+    );
+  }
+}
+
+class _Actions extends StatelessWidget {
+  const _Actions({
+    required this.wide,
+    required this.lexicon,
+    required this.quiz,
+  });
+
+  final bool wide;
+  final Widget lexicon;
+  final Widget quiz;
+
+  @override
+  Widget build(BuildContext context) {
+    if (!wide) {
+      return Column(
+        children: [
+          lexicon,
+          const SizedBox(height: 12),
+          quiz,
+        ],
+      );
+    }
+    return Row(
+      children: [
+        Expanded(child: lexicon),
+        const SizedBox(width: 12),
+        Expanded(child: quiz),
+      ],
+    );
+  }
+}
+
+/// A button's word, shrunk to whatever room is left rather than wrapped or
+/// cut off. Half a tablet's width is not much for "Das Lexikon erkunden".
+class _Label extends StatelessWidget {
+  const _Label(this.text, {required this.style});
+
+  final String text;
+  final TextStyle style;
+
+  @override
+  Widget build(BuildContext context) {
+    return FittedBox(
+      fit: BoxFit.scaleDown,
+      child: Text(text, maxLines: 1, softWrap: false, style: style),
     );
   }
 }
@@ -244,12 +318,14 @@ class _ActionButton extends StatelessWidget {
               children: [
                 Icon(icon, color: Colors.white, size: 20),
                 const SizedBox(width: 8),
-                Text(
-                  label,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                    fontSize: 16,
+                Flexible(
+                  child: _Label(
+                    label,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 16,
+                    ),
                   ),
                 ),
               ],
@@ -267,12 +343,14 @@ class _ActionButton extends StatelessWidget {
         children: [
           Icon(icon, color: brand.accentGold, size: 20),
           const SizedBox(width: 8),
-          Text(
-            label,
-            style: TextStyle(
-              color: brand.foreground,
-              fontWeight: FontWeight.w600,
-              fontSize: 16,
+          Flexible(
+            child: _Label(
+              label,
+              style: TextStyle(
+                color: brand.foreground,
+                fontWeight: FontWeight.w600,
+                fontSize: 16,
+              ),
             ),
           ),
         ],

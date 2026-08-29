@@ -7,6 +7,7 @@ import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
 import '../theme/brand_colors.dart';
+import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/theme_toggle.dart';
 import '../widgets/word_card.dart';
@@ -42,11 +43,14 @@ class _LexiconScreenState extends State<LexiconScreen> {
       tags: _selectedTags.toList(),
       ids: widget.favoritesOnly ? progress.favorites.ids : null,
     );
+    final layout = context.layout;
+    final side = layout.sideInset(layout.contentWidth);
+    final columns = layout.columnsFor();
 
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(20, 16, 20, 8),
+          padding: EdgeInsets.fromLTRB(side, 16, side, 8),
           child: Row(
             children: [
               Expanded(
@@ -74,7 +78,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: EdgeInsets.symmetric(horizontal: side),
           child: CardSurface(
             radius: 999,
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
@@ -110,7 +114,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
             height: 40,
             child: ListView(
               scrollDirection: Axis.horizontal,
-              padding: const EdgeInsets.symmetric(horizontal: 20),
+              padding: EdgeInsets.symmetric(horizontal: side),
               children: [
                 _TagChip(
                   label: l10n.filterAll,
@@ -138,7 +142,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
           ),
         if (_query.text.isNotEmpty)
           Padding(
-            padding: const EdgeInsets.fromLTRB(24, 10, 24, 0),
+            padding: EdgeInsets.fromLTRB(side + 4, 10, side + 4, 0),
             child: Align(
               alignment: Alignment.centerLeft,
               child: Text(
@@ -173,20 +177,16 @@ class _LexiconScreenState extends State<LexiconScreen> {
                     ),
                   ),
                 )
-              : ListView.separated(
-                  padding: const EdgeInsets.fromLTRB(20, 16, 20, 32),
-                  itemCount: results.length,
-                  separatorBuilder: (_, __) => const SizedBox(height: 12),
-                  itemBuilder: (context, index) {
-                    final entry = results[index];
-                    return WordCard(
-                      entry: entry,
-                      isFavorite: progress.favorites.contains(entry.id),
-                      onToggleFavorite: () =>
-                          progress.favorites.toggle(entry.id),
-                      onOpen: () => _open(context, entry),
-                    );
-                  },
+              : _WordList(
+                  results: results,
+                  columns: columns,
+                  padding: EdgeInsets.fromLTRB(side, 16, side, 32),
+                  card: (entry) => WordCard(
+                    entry: entry,
+                    isFavorite: progress.favorites.contains(entry.id),
+                    onToggleFavorite: () => progress.favorites.toggle(entry.id),
+                    onOpen: () => _open(context, entry),
+                  ),
                 ),
         ),
       ],
@@ -197,6 +197,63 @@ class _LexiconScreenState extends State<LexiconScreen> {
     context.read<ProgressController>().explored.add(entry.id);
     Navigator.of(context).push(
       MaterialPageRoute<void>(builder: (_) => WordDetailScreen(entry: entry)),
+    );
+  }
+}
+
+/// The words, one column on a phone and two or three once the page is wide
+/// enough that a single column would leave the cards stranded.
+///
+/// The rows are built from the list rather than from a grid delegate so a
+/// card is as tall as its own text needs — a grid would want one height for
+/// every tile, which the reader's text size keeps moving.
+class _WordList extends StatelessWidget {
+  const _WordList({
+    required this.results,
+    required this.columns,
+    required this.padding,
+    required this.card,
+  });
+
+  final List<WordEntry> results;
+  final int columns;
+  final EdgeInsets padding;
+  final Widget Function(WordEntry entry) card;
+
+  @override
+  Widget build(BuildContext context) {
+    if (columns <= 1) {
+      return ListView.separated(
+        padding: padding,
+        itemCount: results.length,
+        separatorBuilder: (_, __) => const SizedBox(height: 12),
+        itemBuilder: (context, index) => card(results[index]),
+      );
+    }
+
+    final rows = (results.length + columns - 1) ~/ columns;
+    return ListView.separated(
+      padding: padding,
+      itemCount: rows,
+      separatorBuilder: (_, __) => const SizedBox(height: 12),
+      itemBuilder: (context, row) {
+        final start = row * columns;
+        return IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              for (var column = 0; column < columns; column++) ...[
+                if (column > 0) const SizedBox(width: 12),
+                Expanded(
+                  child: start + column < results.length
+                      ? card(results[start + column])
+                      : const SizedBox.shrink(),
+                ),
+              ],
+            ],
+          ),
+        );
+      },
     );
   }
 }

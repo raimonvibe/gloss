@@ -175,6 +175,24 @@ class WordEntry {
         '${source.definition} ${templates.asIn(source.example)}';
   }
 
+  /// Everything in this entry that a translation may quote in English.
+  ///
+  /// Translated copy keeps the lexicon's own words: the headword, the
+  /// sentence it lives in, the phrase that sentence puts in quotation marks,
+  /// the root forms. Speech uses this to hand each of them back to the
+  /// English voice wherever they turn up inside another language.
+  List<String> get quotedEnglish {
+    final source = english;
+    return [
+      source.word,
+      ...source.variants,
+      source.example,
+      ..._quotedIn(source.example),
+      source.originWord,
+      for (final root in source.roots) root.form,
+    ];
+  }
+
   /// What the explanation segment says when it has to fall back to English.
   String get spokenExplanationFallback => '$friendly $definition'.trim();
 
@@ -223,6 +241,20 @@ class WordEntry {
     return '${spokenPromptWith(copy)} ${copy.inPlainWords(english.friendly)}';
   }
 }
+
+/// The phrases an English sentence puts in quotation marks — the part a
+/// translation tends to quote rather than translate.
+///
+/// Backslashes are dropped first, so a stray escape in the data can never
+/// hide a quotation from the voice that should be reading it.
+Iterable<String> _quotedIn(String text) {
+  return _quotation
+      .allMatches(text.replaceAll('\\', ''))
+      .map((match) => match.group(1)!.trim())
+      .where((phrase) => phrase.isNotEmpty);
+}
+
+final _quotation = RegExp('["“”„«»](.+?)["“”„«»]');
 
 class WordCategory {
   const WordCategory({required this.id, required this.label});
