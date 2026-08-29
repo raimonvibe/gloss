@@ -11,6 +11,7 @@ import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/study_button.dart';
+import '../widgets/theme_toggle.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
 import '../widgets/speak_button.dart';
@@ -66,6 +67,10 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     const Spacer(),
                     StudyButton(onOpen: onOpenStudy),
+                    const SizedBox(width: 8),
+                    // Every other page carries the light switch in its
+                    // corner; the home page missed it.
+                    const ThemeToggle(),
                   ],
                 ),
                 SizedBox(height: layout.isShort ? 6 : 12),
