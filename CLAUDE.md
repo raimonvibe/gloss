@@ -287,15 +287,16 @@ A baseline means nothing without the commit it was taken at:
 | 2026-08-29 | `2dc63a1` | Windows | 3.41.7 | clean | **133/133** | empty |
 | 2026-08-29 | `59ec260` | Windows | 3.41.7 | clean | **146/146** | empty |
 | 2026-08-29 | `096727e` | Windows | 3.41.7 | clean | **153/153** | empty |
+| 2026-08-30 | `36dfbe8` | Windows | 3.41.7 | clean | **166/166** | empty |
 
-The suite grew from 133 to 146 to 153 across those commits; the number is a fact about
-the commit, not a constant to hold.
+The suite grew from 133 to 146 to 153 to 166 across those commits; the number is a fact
+about the commit, not a constant to hold.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `096727e` (`1.0.0+11`), writing
-a 47.3 MB `build/app/outputs/bundle/release/app-release.aab` — the same size it was at
-`59ec260` + `1.0.0+9`. Check what came out before uploading —
+`flutter build appbundle --release` exits 0 on Windows at `36dfbe8` (`1.0.0+12`), writing
+a 47.3 MB `build/app/outputs/bundle/release/app-release.aab` — the same size it has been
+since `59ec260` + `1.0.0+9`. Check what came out before uploading —
 `keytool -printcert -jarfile app-release.aab` must name `CN=Gloss, O=Raimonvibe` (the
 upload key, not a debug key), and
 `build/app/intermediates/merged_manifest/release/*/AndroidManifest.xml` carries the
