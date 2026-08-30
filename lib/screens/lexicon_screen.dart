@@ -110,34 +110,42 @@ class _LexiconScreenState extends State<LexiconScreen> {
         ),
         const SizedBox(height: 12),
         if (!widget.favoritesOnly)
-          SizedBox(
-            height: 40,
-            child: ListView(
+          // A floor, not a height. The strip used to be a 40pt box, which
+          // is a promise about the type inside it that no reader with large
+          // text turned on has agreed to — and a clipped strip reports no
+          // overflow, so the labels simply lost their tops and tails. It
+          // keeps the 40 it always stood at, and grows past it when the
+          // chips do.
+          ConstrainedBox(
+            constraints: const BoxConstraints(minHeight: 40),
+            child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               padding: EdgeInsets.symmetric(horizontal: side),
-              children: [
-                _TagChip(
-                  label: l10n.filterAll,
-                  selected: _selectedTags.isEmpty,
-                  onTap: () => setState(_selectedTags.clear),
-                ),
-                const SizedBox(width: 8),
-                ...repo.categories.map(
-                  (cat) => Padding(
-                    padding: const EdgeInsets.only(right: 8),
-                    child: _TagChip(
-                      label: localizedCategoryLabel(l10n, cat.id),
-                      selected: _selectedTags.contains(cat.id),
-                      wine: true,
-                      onTap: () => setState(() {
-                        if (!_selectedTags.add(cat.id)) {
-                          _selectedTags.remove(cat.id);
-                        }
-                      }),
+              child: Row(
+                children: [
+                  _TagChip(
+                    label: l10n.filterAll,
+                    selected: _selectedTags.isEmpty,
+                    onTap: () => setState(_selectedTags.clear),
+                  ),
+                  const SizedBox(width: 8),
+                  ...repo.categories.map(
+                    (cat) => Padding(
+                      padding: const EdgeInsets.only(right: 8),
+                      child: _TagChip(
+                        label: localizedCategoryLabel(l10n, cat.id),
+                        selected: _selectedTags.contains(cat.id),
+                        wine: true,
+                        onTap: () => setState(() {
+                          if (!_selectedTags.add(cat.id)) {
+                            _selectedTags.remove(cat.id);
+                          }
+                        }),
+                      ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         if (_query.text.isNotEmpty)

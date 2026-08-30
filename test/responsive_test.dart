@@ -361,6 +361,44 @@ void main() {
         tester.getSize(cards.at(1)).height);
   });
 
+  // The strip of filter chips was a `SizedBox(height: 40)`, and 40pt is a
+  // promise about the type inside it that nobody with large text turned on
+  // agreed to. A clipped strip reports no overflow, so nothing failed — the
+  // labels simply lost their tops and tails, and a clipped label measures
+  // shorter than it is, which is why the check below is on the strip.
+  testWidgets('the filter strip grows with the text size', (tester) async {
+    final heights = <double, double>{};
+    for (final scale in [1.0, 2.0]) {
+      await _pumpApp(tester, size: const Size(360, 780), textScale: scale);
+      // By the label, not the icon: a second pass finds the tab already
+      // open, and an open tab wears the filled icon instead.
+      await tester.tap(find.text('Lexicon').last);
+      await tester.pumpAndSettle();
+
+      final label = find.text('All');
+      expect(label, findsOneWidget);
+      final strip = find.ancestor(
+        of: label,
+        matching: find.byType(SingleChildScrollView),
+      );
+      final words = tester.getRect(label);
+      final rail = tester.getRect(strip.first);
+      heights[scale] = rail.height;
+
+      expect(rail.top, lessThanOrEqualTo(words.top));
+      expect(rail.bottom, greaterThanOrEqualTo(words.bottom));
+      // The chip keeps its own 8pt of air above and below the words.
+      expect(rail.height, greaterThanOrEqualTo(words.height + 16));
+    }
+
+    expect(
+      heights[2.0]!,
+      greaterThan(heights[1.0]!),
+      reason: 'the strip is the same height at twice the text size, so the '
+          'chips inside it are being cut down to fit',
+    );
+  });
+
   testWidgets('the language picker columns on a tablet', (tester) async {
     await _pumpApp(tester, size: const Size(1112, 834));
     await tester.tap(find.text('Study').last);

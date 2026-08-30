@@ -10,6 +10,7 @@ import '../theme/layout.dart';
 import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
+import '../widgets/fit_to_width.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
 import '../widgets/speak_button.dart';
@@ -57,12 +58,14 @@ class QuizResultsScreen extends StatelessWidget {
                     score == total ? l10n.perfectPage : l10n.wellMarked,
                   ),
                   const SizedBox(height: 8),
-                  GradientText(
-                    '$score / $total',
-                    textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.displayMedium?.copyWith(
-                          fontWeight: FontWeight.w800,
-                        ),
+                  FitToWidth(
+                    child: GradientText(
+                      '$score / $total',
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.displayMedium?.copyWith(
+                            fontWeight: FontWeight.w800,
+                          ),
+                    ),
                   ),
                   const SizedBox(height: 16),
                   ProgressTracker(
@@ -142,9 +145,11 @@ class _ResultRow extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 EnglishLemma(
-                  child: Text(
-                    '${index + 1}. $word',
-                    style: Theme.of(context).textTheme.titleMedium,
+                  child: FitToWidth(
+                    child: Text(
+                      '${index + 1}. $word',
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 4),

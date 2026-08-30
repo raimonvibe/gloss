@@ -17,6 +17,7 @@ import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/etymology_card.dart';
 import '../widgets/ornament.dart';
+import '../widgets/pill.dart';
 import '../widgets/speak_button.dart';
 import '../widgets/theme_toggle.dart';
 
@@ -175,24 +176,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                     runSpacing: 8,
                     children: [
                       for (final tag in live.tags)
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 6,
-                          ),
-                          decoration: BoxDecoration(
-                            color: brand.backgroundAlt,
-                            borderRadius: BorderRadius.circular(999),
-                            border: Border.all(color: brand.cardBorder),
-                          ),
-                          child: Text(
-                            localizedCategoryLabel(l10n, tag),
-                            style: TextStyle(
-                              fontSize: 12,
-                              color: brand.foregroundMuted,
-                            ),
-                          ),
-                        ),
+                        _TagPill(label: localizedCategoryLabel(l10n, tag)),
                     ],
                   ),
                   const SizedBox(height: 24),
@@ -256,6 +240,35 @@ class _Section extends StatelessWidget {
         const SizedBox(height: 6),
         child,
       ],
+    );
+  }
+}
+
+/// A category the word belongs to.
+///
+/// Shrink-then-wrap words ([ButtonLabel]) and a radius that stops growing
+/// once they take a second line ([pillRadius]) — "Speech & Rhetoric" is
+/// "Sprache und Rhetorik" in German and longer still in Georgian, and at the
+/// largest text size the label used to be cut by the curve of its own pill.
+class _TagPill extends StatelessWidget {
+  const _TagPill({required this.label});
+
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    final brand = context.brand;
+    final labelStyle = TextStyle(fontSize: 12, color: brand.foregroundMuted);
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+      decoration: BoxDecoration(
+        color: brand.backgroundAlt,
+        borderRadius: BorderRadius.circular(
+          pillRadius(context, style: labelStyle, verticalPadding: 6),
+        ),
+        border: Border.all(color: brand.cardBorder),
+      ),
+      child: ButtonLabel(label, minScale: 0.7, style: labelStyle),
     );
   }
 }
