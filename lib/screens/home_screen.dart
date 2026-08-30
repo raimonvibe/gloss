@@ -12,6 +12,7 @@ import '../theme/layout.dart';
 import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
+import '../widgets/fit_to_width.dart';
 import '../widgets/study_button.dart';
 import '../widgets/theme_toggle.dart';
 import '../widgets/ornament.dart';
@@ -90,13 +91,15 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 14),
                 ScriptCaption(l10n.tagline),
                 const SizedBox(height: 8),
-                GradientText(
-                  Branding.displayName,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.displayMedium?.copyWith(
-                        fontWeight: FontWeight.w800,
-                        fontSize: titleSize,
-                      ),
+                FitToWidth(
+                  child: GradientText(
+                    Branding.displayName,
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.displayMedium?.copyWith(
+                          fontWeight: FontWeight.w800,
+                          fontSize: titleSize,
+                        ),
+                  ),
                 ),
                 const SizedBox(height: 10),
                 Text(
@@ -239,9 +242,11 @@ class _WordOfTheDay extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             EnglishLemma(
-              child: Text(
-                entry.word,
-                style: Theme.of(context).textTheme.headlineMedium,
+              child: FitToWidth(
+                child: Text(
+                  entry.word,
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
               ),
             ),
             EnglishLemma(

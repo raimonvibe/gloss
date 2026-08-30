@@ -5,6 +5,7 @@ import '../models/word_entry.dart';
 import '../theme/brand_colors.dart';
 import 'card_surface.dart';
 import 'english_lemma.dart';
+import 'fit_to_width.dart';
 import 'speak_button.dart';
 
 class WordCard extends StatelessWidget {
@@ -38,9 +39,11 @@ class WordCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     EnglishLemma(
-                      child: Text(
-                        entry.word,
-                        style: Theme.of(context).textTheme.titleLarge,
+                      child: FitToWidth(
+                        child: Text(
+                          entry.word,
+                          style: Theme.of(context).textTheme.titleLarge,
+                        ),
                       ),
                     ),
                     const SizedBox(height: 2),

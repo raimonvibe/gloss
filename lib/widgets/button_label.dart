@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-/// A button's words, fitted to the room the button actually has.
+import 'pill.dart';
+
+/// A pill's words, fitted to the room the pill actually has — a button's
+/// label, and the chips that carry an origin or a category too.
 ///
 /// English says "See results" in eleven characters; German needs "Ergebnisse
 /// ansehen", Hungarian "Eredmények megtekintése", and the button is the same
@@ -13,7 +16,9 @@ import 'package:flutter/material.dart';
 /// button: it shrinks a step at a time down to [minScale] of its font size to
 /// stay on one line, and only takes a second line ([maxLines]) when even the
 /// smallest step will not hold it. A whole word made smaller reads better on
-/// a pill than a line broken in half.
+/// a pill than a line broken in half. The shape has to give ground as well:
+/// see [pillRadius], which stops a pill's ends curving in over the second
+/// line this leaves behind.
 class ButtonLabel extends StatelessWidget {
   const ButtonLabel(
     this.text, {
