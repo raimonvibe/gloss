@@ -33,28 +33,10 @@ class EtymologyCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Wrap(
-              crossAxisAlignment: WrapCrossAlignment.center,
-              children: [
-                EnglishLemma(
-                  child: Text(
-                    entry.pronunciation,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      color: brand.foregroundMuted,
-                      fontSize: 13,
-                    ),
-                  ),
-                ),
-                Text(
-                  '  ·  ${entry.partOfSpeech}',
-                  style: TextStyle(
-                    fontStyle: FontStyle.italic,
-                    color: brand.foregroundMuted,
-                    fontSize: 13,
-                  ),
-                ),
-              ],
+            _MetaLine(
+              pronunciation: entry.pronunciation,
+              partOfSpeech: entry.partOfSpeech,
+              fontSize: 13,
             ),
             const SizedBox(height: 4),
             EnglishLemma(
@@ -163,12 +145,27 @@ class _Roots extends StatelessWidget {
 
         final room = constraints.maxWidth * _share;
         final stacked = !constraints.maxWidth.isFinite || widest > room;
+        // The forms' own column, with the air beside it kept out of it.
+        //
+        // The gap used to be slack inside this box, which works only while
+        // the page reads left to right. Laid out right to left the box is
+        // the right-hand one and its slack falls on the far side of the
+        // form, so the meaning ended up against the form with nothing
+        // between them — 'يناضل للخروجeluctari' on the Arabic card. A gap
+        // in the row instead lands on the near side whichever way the row
+        // is laid out.
+        //
         // Never narrower than the column has always been, so an ordinary
         // entry at an ordinary text size looks exactly as it did.
-        final column = math.min(
-          math.max(widest + _gap, compact ? 108.0 : 124.0),
+        final forms = math.min(
+          math.max(widest, (compact ? 108.0 : 124.0) - _gap),
           room,
         );
+        // Which edge of that column the form stands against follows the
+        // page, not the form. The form is English and reads left to right
+        // wherever it is, but on an Arabic page its column is the
+        // right-hand one, and it belongs against the right of it.
+        final ltr = Directionality.of(context) == TextDirection.ltr;
 
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -191,11 +188,17 @@ class _Roots extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           SizedBox(
-                            width: column,
+                            width: forms,
                             child: EnglishLemma(
-                              child: Text(root.form, style: formStyle),
+                              child: Text(
+                                root.form,
+                                style: formStyle,
+                                textAlign:
+                                    ltr ? TextAlign.left : TextAlign.right,
+                              ),
                             ),
                           ),
+                          const SizedBox(width: _gap),
                           Expanded(
                             child: Text(root.meaning, style: meaningStyle),
                           ),
@@ -205,6 +208,44 @@ class _Roots extends StatelessWidget {
           ],
         );
       },
+    );
+  }
+}
+
+/// An English pronunciation, a middot, and a translated part of speech.
+///
+/// The air between them is the Wrap's, not two spaces typed into the front
+/// of a string. Spacing written as content sits inside a run of text, and a
+/// run boundary is where a right-to-left page is free to trim or reorder it
+/// — the same mistake that left a root pressed against its meaning on the
+/// Arabic card. Here it never had a chance to show, because two spaces are
+/// about the width the gap wanted anyway; it was luck rather than layout.
+class _MetaLine extends StatelessWidget {
+  const _MetaLine({
+    required this.pronunciation,
+    required this.partOfSpeech,
+    required this.fontSize,
+  });
+
+  final String pronunciation;
+  final String partOfSpeech;
+  final double fontSize;
+
+  @override
+  Widget build(BuildContext context) {
+    final style = TextStyle(
+      fontStyle: FontStyle.italic,
+      color: context.brand.foregroundMuted,
+      fontSize: fontSize,
+    );
+    return Wrap(
+      spacing: 6,
+      crossAxisAlignment: WrapCrossAlignment.center,
+      children: [
+        EnglishLemma(child: Text(pronunciation, style: style)),
+        Text('·', style: style),
+        Text(partOfSpeech, style: style),
+      ],
     );
   }
 }

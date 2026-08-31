@@ -6,10 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/theme/brand_colors.dart';
+import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 import 'package:beautiful_words/widgets/etymology_card.dart';
 import 'package:beautiful_words/widgets/word_card.dart';
@@ -108,6 +110,7 @@ Future<void> _pumpRoots(
   WidgetTester tester,
   List<WordRoot> roots, {
   double scale = 1.0,
+  Locale locale = const Locale('en'),
 }) async {
   await tester.binding.setSurfaceSize(const Size(320, 640));
   addTearDown(() => tester.binding.setSurfaceSize(null));
@@ -115,7 +118,7 @@ Future<void> _pumpRoots(
     MediaQuery(
       data: MediaQueryData(textScaler: TextScaler.linear(scale)),
       child: MaterialApp(
-        locale: const Locale('en'),
+        locale: locale,
         supportedLocales: AppLocalizations.supportedLocales,
         localizationsDelegates: AppLocalizations.localizationsDelegates,
         theme: ThemeData(
@@ -274,6 +277,36 @@ void main() {
       );
     });
 
+    // The form is English and reads left to right wherever it is; on an
+    // Arabic page its column is the right-hand one. The air between the two
+    // was slack inside that column, which put it on the far side of the
+    // form and left the meaning touching it.
+    testWidgets('keep the air between them on a right-to-left page',
+        (tester) async {
+      await _pumpRoots(
+        tester,
+        const [WordRoot(form: 'eluctari', meaning: 'يناضل للخروج')],
+        locale: const Locale('ar'),
+      );
+
+      final form = tester.getRect(find.text('eluctari'));
+      final meaning = tester.getRect(
+        find.text('يناضل للخروج'),
+      );
+
+      expect(
+        form.left,
+        greaterThanOrEqualTo(meaning.right),
+        reason: 'the form should stand to the right of its meaning',
+      );
+      expect(
+        form.left - meaning.right,
+        greaterThanOrEqualTo(8),
+        reason: 'the meaning ran into the form',
+      );
+      expect(form.top, closeTo(meaning.top, 4));
+    });
+
     testWidgets('stack once the largest text size leaves no room to share',
         (tester) async {
       await _pumpRoots(
@@ -301,10 +334,19 @@ void main() {
     await tester.binding.setSurfaceSize(const Size(360, 780));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
+    // The card asks who is being read to before it offers to read.
+    SharedPreferences.setMockInitialValues(const {});
+    final settings = SettingsController(await SharedPreferences.getInstance());
+
     late TextStyle written;
     await tester.pumpWidget(
-      ChangeNotifierProvider<SpeechController>(
-        create: (_) => SpeechController(engine: SilentSpeechEngine()),
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider<SpeechController>(
+            create: (_) => SpeechController(engine: SilentSpeechEngine()),
+          ),
+          ChangeNotifierProvider<SettingsController>.value(value: settings),
+        ],
         child: MaterialApp(
           locale: const Locale('en'),
           supportedLocales: AppLocalizations.supportedLocales,

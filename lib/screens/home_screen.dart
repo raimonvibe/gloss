@@ -6,6 +6,7 @@ import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
+import '../state/reading.dart';
 import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
@@ -236,7 +237,12 @@ class _WordOfTheDay extends StatelessWidget {
                 ),
                 SpeakButton(
                   speechKey: 'wotd:${entry.id}',
-                  text: entry.spokenGlance,
+                  text: entry.english.spokenGlance,
+                  segments: glanceOf(
+                    context,
+                    entry,
+                    group: 'wotd:${entry.id}',
+                  ),
                 ),
               ],
             ),

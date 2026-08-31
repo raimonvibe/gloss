@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/word_entry.dart';
+import '../state/reading.dart';
 import '../theme/brand_colors.dart';
 import 'card_surface.dart';
 import 'english_lemma.dart';
@@ -48,6 +49,9 @@ class WordCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 2),
                     Wrap(
+                      // The gap is the Wrap's, not spaces typed into the
+                      // string — see _MetaLine in etymology_card.dart.
+                      spacing: 6,
                       crossAxisAlignment: WrapCrossAlignment.center,
                       children: [
                         EnglishLemma(
@@ -61,7 +65,15 @@ class WordCard extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          '  ·  ${entry.partOfSpeech}',
+                          '·',
+                          style: TextStyle(
+                            fontStyle: FontStyle.italic,
+                            fontSize: 12,
+                            color: brand.foregroundMuted,
+                          ),
+                        ),
+                        Text(
+                          entry.partOfSpeech,
                           style: TextStyle(
                             fontStyle: FontStyle.italic,
                             fontSize: 12,
@@ -85,7 +97,12 @@ class WordCard extends StatelessWidget {
               SpeakButton(
                 compact: true,
                 speechKey: 'card:${entry.id}',
-                text: entry.spokenGlance,
+                text: entry.english.spokenGlance,
+                segments: glanceOf(
+                  context,
+                  entry,
+                  group: 'card:${entry.id}',
+                ),
               ),
             ],
           ),
