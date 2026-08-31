@@ -71,6 +71,10 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                 text: live.spokenEntry,
                 segments: readingOf(context, live),
               ),
+              // Listen stops the reading; the toggle repaints the app. Two
+              // gold circles of the same size, so they keep the gap the quiz
+              // page gives them rather than touching under one thumb.
+              const SizedBox(width: 8),
               const Padding(
                 padding: EdgeInsets.only(right: 8),
                 child: ThemeToggle(),
