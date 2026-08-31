@@ -1,3 +1,7 @@
+import 'dart:math' as math;
+import 'dart:typed_data';
+import 'dart:ui' as ui;
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -107,61 +111,160 @@ class _Flourish extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomPaint(
-      size: const Size(72, 72),
-      painter: _FlourishPainter(color),
+    return RepaintBoundary(
+      child: CustomPaint(
+        size: const Size(72, 72),
+        isComplex: true,
+        willChange: false,
+        painter: _FlourishPainter(color),
+      ),
     );
   }
 }
 
+/// One corner of penwork, drawn as a pen would leave it.
+///
+/// The earlier version stroked its curves at a single width and stopped at
+/// a bare dot, which is why it read as three stray marks rather than as one
+/// gesture. Three things carry the difference: every stroke tapers, each
+/// arm ends in a volute that winds inward instead of stopping, and the two
+/// arms are the same path reflected about the diagonal, so the corner is
+/// exactly symmetrical rather than nearly.
 class _FlourishPainter extends CustomPainter {
   const _FlourishPainter(this.color);
 
   final Color color;
 
+  /// Everything is laid out on a 120-point square and scaled to fit.
+  static const _grid = 120.0;
+
   @override
   void paint(Canvas canvas, Size size) {
-    final scale = size.width / 120;
-    canvas.scale(scale);
-    final stroke = Paint()
-      ..color = color
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 1.4
-      ..strokeCap = StrokeCap.round;
-    final thin = Paint()
-      ..color = color
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 1
-      ..strokeCap = StrokeCap.round;
-    final fill = Paint()
-      ..color = color
-      ..style = PaintingStyle.fill;
+    canvas.save();
+    canvas.scale(size.width / _grid);
 
-    final p1 = Path()
-      ..moveTo(4, 4)
-      ..cubicTo(4, 40, 4, 60, 30, 66)
-      ..cubicTo(50, 71, 40, 88, 58, 90);
-    final p2 = Path()
-      ..moveTo(4, 4)
-      ..cubicTo(40, 4, 60, 4, 66, 30)
-      ..cubicTo(71, 50, 88, 40, 90, 58);
-    final p3 = Path()
-      ..moveTo(4, 4)
-      ..cubicTo(20, 8, 24, 24, 8, 20);
-    final p4 = Path()
-      ..moveTo(30, 66)
-      ..cubicTo(34, 60, 42, 60, 44, 68);
-    final p5 = Path()
-      ..moveTo(66, 30)
-      ..cubicTo(60, 34, 60, 42, 68, 44);
+    _arm(canvas);
+    // The same arm across the diagonal: (x, y) becomes (y, x). Both start on
+    // the diagonal itself, so the two meet at a point instead of crossing.
+    canvas.save();
+    canvas.transform(Float64List.fromList(const [
+      0, 1, 0, 0, //
+      1, 0, 0, 0, //
+      0, 0, 1, 0, //
+      0, 0, 0, 1, //
+    ]));
+    _arm(canvas);
+    canvas.restore();
 
-    canvas.drawPath(p1, stroke);
-    canvas.drawPath(p2, stroke);
-    canvas.drawPath(p3, thin);
-    canvas.drawPath(p4, thin);
-    canvas.drawPath(p5, thin);
-    canvas.drawCircle(const Offset(58, 90), 2.2, fill);
-    canvas.drawCircle(const Offset(90, 58), 2.2, fill);
+    // The bead where the two arms meet, sitting on the diagonal.
+    canvas.drawCircle(const Offset(9, 9), 1.9, Paint()..color = color);
+    canvas.restore();
+  }
+
+  /// One arm: the long sweep off the corner, the volute it winds into, a
+  /// leaf resting on its back, and a hairline echoing it.
+  void _arm(Canvas canvas) {
+    final sweep = Path()
+      ..moveTo(9, 9)
+      ..cubicTo(9, 48, 17, 74, 51, 83);
+    _taper(canvas, sweep, from: 2.4, to: 0.85);
+
+    // The volute picks the sweep up where it ends and winds in.
+    _taper(
+      canvas,
+      _volute(const Offset(51, 92), 9, -math.pi / 2, 1.15),
+      from: 0.85,
+      to: 0,
+    );
+
+    // A hairline running just inside the sweep, stopping short of it.
+    final echo = Path()
+      ..moveTo(13, 15)
+      ..cubicTo(15, 44, 22, 62, 40, 69);
+    _taper(canvas, echo, from: 0.8, to: 0);
+
+    canvas.drawPath(
+      _leaf(const Offset(11, 44), const Offset(27, 58), 4.2),
+      Paint()..color = color,
+    );
+  }
+
+  /// A spiral that loses radius as it turns, which is what makes it read as
+  /// a wound line rather than as a circle.
+  Path _volute(Offset centre, double radius, double startAngle, double turns) {
+    final path = Path();
+    const steps = 48;
+    for (var i = 0; i <= steps; i++) {
+      final t = i / steps;
+      final angle = startAngle + turns * 2 * math.pi * t;
+      final r = radius * (1 - 0.84 * t);
+      final point = centre + Offset(math.cos(angle) * r, math.sin(angle) * r);
+      if (i == 0) {
+        path.moveTo(point.dx, point.dy);
+      } else {
+        path.lineTo(point.dx, point.dy);
+      }
+    }
+    return path;
+  }
+
+  /// A filled teardrop between two points, bowed one way on the outward
+  /// journey and the other on the way back.
+  Path _leaf(Offset a, Offset b, double bulge) {
+    final along = b - a;
+    final length = along.distance;
+    if (length == 0) return Path();
+    final across = Offset(-along.dy, along.dx) / length * bulge;
+    final mid = Offset((a.dx + b.dx) / 2, (a.dy + b.dy) / 2);
+    return Path()
+      ..moveTo(a.dx, a.dy)
+      ..quadraticBezierTo(mid.dx + across.dx, mid.dy + across.dy, b.dx, b.dy)
+      ..quadraticBezierTo(mid.dx - across.dx, mid.dy - across.dy, a.dx, a.dy)
+      ..close();
+  }
+
+  /// Fills a path as a ribbon whose width changes along its length.
+  ///
+  /// Flutter strokes at one width per path, so a taper cannot be stroked.
+  /// Drawing it as a run of ever-thinner pieces was the first attempt and
+  /// the round cap of every piece showed as a bead along the thick end. So
+  /// the outline is walked instead: each side of the line is offset from
+  /// the centre by half the width at that point, and the two sides are
+  /// closed into one shape. A width of zero at the far end gives the nib's
+  /// point rather than a clipped end.
+  void _taper(
+    Canvas canvas,
+    Path path, {
+    required double from,
+    required double to,
+  }) {
+    final ribbon = Path();
+    for (final metric in path.computeMetrics()) {
+      const steps = 72;
+      final near = <Offset>[];
+      final far = <Offset>[];
+      for (var i = 0; i <= steps; i++) {
+        final t = i / steps;
+        final tangent = metric.getTangentForOffset(metric.length * t);
+        if (tangent == null) continue;
+        final half = ui.lerpDouble(from, to, t)! / 2;
+        // The tangent's vector is a unit vector; its perpendicular is the
+        // direction the edge lies in.
+        final edge = Offset(-tangent.vector.dy, tangent.vector.dx) * half;
+        near.add(tangent.position + edge);
+        far.add(tangent.position - edge);
+      }
+      if (near.length < 2) continue;
+      ribbon.moveTo(near.first.dx, near.first.dy);
+      for (final point in near.skip(1)) {
+        ribbon.lineTo(point.dx, point.dy);
+      }
+      for (final point in far.reversed) {
+        ribbon.lineTo(point.dx, point.dy);
+      }
+      ribbon.close();
+    }
+    canvas.drawPath(ribbon, Paint()..color = color);
   }
 
   @override
