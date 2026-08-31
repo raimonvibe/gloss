@@ -117,10 +117,20 @@ The **ARBs are the source of truth** for UI strings. `ui_i18n.json` is a human w
 copy that no tool reads; keep it in step when you can, but never treat it as canonical.
 
 **Read-aloud across two languages:** `lib/state/reading.dart` is the only place that
-decides which voice reads what — `readingOf()` for an entry, `spokenLine()` for the
-app's own copy (a score, a heading), `englishCopy` for the English twin of any ARB
-string. Screens must not hand a raw `l10n.` string to `SpeakButton`: that is what gave
-the quiz results a Dutch sentence in an English accent.
+decides which voice reads what — `readingOf()` for a whole entry, `glanceOf()` for the
+short reading a card gives, `quizReadingOf()` for a question and its four answers,
+`spokenLine()` for the app's own copy (a score, a heading), `englishCopy` for the
+English twin of any ARB string. Screens must not hand a raw `l10n.` string to
+`SpeakButton`: that is what gave the quiz results a Dutch sentence in an English accent.
+
+All four readings share one private shape, `_lemmaThen()`: the lemma to the English
+voice, the rest to the reader's, the English quoted inside it cut back out, one group
+across the lot. The switch reaches every listen button in the app — the detail page had
+it to itself until `f62f92e`, so a reader who turned it on met English everywhere else.
+`autoplayPronunciation` ("Read a word aloud when it opens") is a **different** switch:
+it decides *whether* a page reads itself on arrival, not *which language* it reads in.
+The quiz honours it once per question, answers included, and never again when the
+answer lands.
 
 A reading is the page, top to bottom, each piece in the language it is written in:
 `readingOf()` sends the lemma and its respelling to the English voice, then hands the
@@ -164,6 +174,23 @@ wrong ruler once the navigation rail stands beside the page (and because
 `setSurfaceSize` in a test does not move `MediaQuery`). Below 840pt the tabs sit along
 the bottom; above it they move to a rail. `test/responsive_test.dart` walks every tab
 at six window sizes plus the largest text size — an overflow anywhere fails it.
+
+**Spacing is layout, not content.** Where a left-to-right island sits beside translated
+text, the air between them must be a gap in the row — never slack inside a fixed-width
+box, never spaces typed into the front of a string. Both only work while the page reads
+left to right: laid out right to left the box is the right-hand one and its slack falls
+on the far side, which is how the Arabic etymology card came to read
+`يناضل للخروجeluctari` with nothing between the root and its meaning. Which edge an
+`EnglishLemma` stands against is read from `Directionality.of(context)`, not from the
+form. `test/layout_fit_test.dart` measures the gap on a right-to-left page.
+
+**Cards carry no shadow.** Impeller draws a blurred `BoxShadow` on `CardSurface` as a
+hard-edged rectangle — the blur squares off at the bounding box, leaving every rounded
+card inside a grey box with pointed corners, in both themes and at every radius. Flutter's
+own rasteriser draws it correctly, so a widget test will not catch this; it was found and
+fixed on a device at `d1a5a70`. A stadium shape and moving the decoration out of the
+material's ink layer were both tried and neither helped. `brand.cardShadow` is kept but
+unread, so restoring the shadow on a renderer that draws it properly is one line.
 
 **App wiring (done):** `SettingsController` locale persistence, `WordRepository.applyLocale()`,
 `LanguagesScreen` (5th tab + Home shortcut), RTL lemma isolation (`EnglishLemma`),
@@ -288,13 +315,14 @@ A baseline means nothing without the commit it was taken at:
 | 2026-08-29 | `59ec260` | Windows | 3.41.7 | clean | **146/146** | empty |
 | 2026-08-29 | `096727e` | Windows | 3.41.7 | clean | **153/153** | empty |
 | 2026-08-30 | `36dfbe8` | Windows | 3.41.7 | clean | **166/166** | empty |
+| 2026-08-31 | `b800a98` | Windows | 3.41.7 | clean | **177/177** | empty |
 
-The suite grew from 133 to 146 to 153 to 166 across those commits; the number is a fact
-about the commit, not a constant to hold.
+The suite grew from 133 to 146 to 153 to 166 to 177 across those commits; the number is
+a fact about the commit, not a constant to hold.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `36dfbe8` (`1.0.0+12`), writing
+`flutter build appbundle --release` exits 0 on Windows at `b800a98` (`1.0.0+13`), writing
 a 47.3 MB `build/app/outputs/bundle/release/app-release.aab` — the same size it has been
 since `59ec260` + `1.0.0+9`. Check what came out before uploading —
 `keytool -printcert -jarfile app-release.aab` must name `CN=Gloss, O=Raimonvibe` (the
@@ -313,6 +341,10 @@ commit**, when you move the baseline.
 - Amend commits unless explicitly requested
 - Commit a `gen-l10n` run whose only change is formatting — see *Verification*
 - Assume this checkout is a git repo, or that Flutter is on `PATH` — see *Environments*
+- Put a blurred shadow back on `CardSurface` without looking at it on a device — see
+  *Cards carry no shadow*
+- Trust a widget test alone for anything the **renderer** draws; Flutter's test
+  rasteriser is not Impeller, and twice it disagreed with the device
 
 ## Reference commits
 
@@ -320,3 +352,6 @@ commit**, when you move the baseline.
 - `6cbecd8` — Khmer overlays + Caucasian/Turkic refresh
 - `9076dbb` — Lao + Burmese overlays; all 59 locales complete
 - `d77e39f` — Study page (the one that introduced the 37-key gap)
+- `f62f92e` — Read-aloud reaches every listen button; the quiz reads its own answers
+- `d1a5a70` — Cards lose their shadow (Impeller)
+- `2590a5f` — Right-to-left gap between a root and its meaning
