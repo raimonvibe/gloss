@@ -42,13 +42,14 @@ class CardSurface extends StatelessWidget {
               end: Alignment.bottomRight,
               colors: brand.cardGradient,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: brand.cardShadow,
-                blurRadius: 18,
-                offset: const Offset(0, 8),
-              ),
-            ],
+            // No shadow, in either theme.
+            //
+            // Impeller drew this one as a hard-edged rectangle around every
+            // card — the blur squared off at the bounding box, so each
+            // rounded card sat inside a grey box with pointed corners.
+            // Neither a stadium shape nor moving the decoration out of the
+            // ink layer shifted it on the emulator, and the border alone
+            // holds the card well enough.
           ),
           child: child,
         ),
