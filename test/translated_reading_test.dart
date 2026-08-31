@@ -5,9 +5,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'package:beautiful_words/data/quiz_engine.dart';
 import 'package:beautiful_words/data/word_repository.dart';
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:beautiful_words/l10n/locale_catalog.dart';
+import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/state/reading.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
@@ -221,6 +223,198 @@ void main() {
     expect(spoken, contains('Slow and half-asleep'));
     expect(spoken, contains('The office fell torpid'));
     expect(spoken, isNot(contains('Latijn')));
+  });
+
+  // The detail page had the switch to itself for a while. A card, the word
+  // of the day and the quiz all read the same word out of the same lexicon,
+  // and all three did it in English no matter what the reader had asked for.
+  group('the shorter readings', () {
+    Future<List<SpeechSegment>> readingWith(
+      WidgetTester tester, {
+      required bool readInDutch,
+      required List<SpeechSegment> Function(BuildContext, WordEntry) build,
+    }) async {
+      SharedPreferences.setMockInitialValues({
+        'beautiful-words:locale': 'nl-NL',
+        'beautiful-words:read-translation': readInDutch,
+      });
+      final prefs = await SharedPreferences.getInstance();
+      final settings = SettingsController(
+        prefs,
+        catalog: LocaleCatalog.fromJsonString(
+          File('l10n/catalog.json').readAsStringSync(),
+        ),
+      );
+      final repo = (await tester.runAsync(() async {
+        final loaded = await WordRepository.load();
+        await loaded.applyLocale('nl');
+        return loaded;
+      }))!;
+      final entry = repo.words.firstWhere((word) => word.id == 'torpid');
+
+      late List<SpeechSegment> reading;
+      await tester.pumpWidget(
+        MultiProvider(
+          providers: [
+            ChangeNotifierProvider.value(value: settings),
+            ChangeNotifierProvider.value(value: repo),
+          ],
+          child: MaterialApp(
+            locale: const Locale('nl'),
+            supportedLocales: AppLocalizations.supportedLocales,
+            localizationsDelegates: AppLocalizations.localizationsDelegates,
+            home: Builder(
+              builder: (context) {
+                reading = build(context, entry);
+                return const SizedBox.shrink();
+              },
+            ),
+          ),
+        ),
+      );
+      return reading;
+    }
+
+    testWidgets('a card reads its lemma in English and its meaning in Dutch',
+        (tester) async {
+      final reading = await readingWith(
+        tester,
+        readInDutch: true,
+        build: (context, entry) =>
+            glanceOf(context, entry, group: 'card:torpid'),
+      );
+
+      expect(reading.first.isEnglish, isTrue);
+      expect(reading.first.text, contains('Torpid'));
+
+      final dutch = reading.where((p) => !p.isEnglish);
+      expect(dutch, isNotEmpty, reason: 'the glance stayed English');
+      expect(
+        dutch.map((p) => p.text).join(' '),
+        contains('Langzaam en half in slaap'),
+      );
+      // One passage, so a phone with no Dutch voice reads the English glance
+      // once rather than a lemma and then silence.
+      expect({for (final p in reading) p.group}, {'card:torpid'});
+      expect(dutch.first.fallback, contains('Slow and half-asleep'));
+    });
+
+    testWidgets('with the switch off a card is one English utterance',
+        (tester) async {
+      final reading = await readingWith(
+        tester,
+        readInDutch: false,
+        build: (context, entry) =>
+            glanceOf(context, entry, group: 'card:torpid'),
+      );
+
+      expect(reading.length, 1);
+      expect(reading.single.isEnglish, isTrue);
+      expect(reading.single.text, contains('Slow and half-asleep'));
+      expect(reading.single.text, isNot(contains('Langzaam')));
+    });
+
+    // A question built by hand, so the assertions can name the four answers.
+    // The Dutch and English lists are the pair the reading has to keep
+    // straight: the page shows one, the English fallback speaks the other.
+    QuizQuestion question(WordEntry entry) => QuizQuestion(
+          word: entry,
+          options: [entry.definition, 'Een', 'Twee', 'Drie'],
+          englishOptions: [
+            entry.english.definition,
+            'One',
+            'Two',
+            'Three',
+          ],
+          correctIndex: 0,
+        );
+
+    testWidgets('the quiz keeps its answer back until the answer is given',
+        (tester) async {
+      final asked = await readingWith(
+        tester,
+        readInDutch: true,
+        build: (context, entry) => quizReadingOf(
+          context,
+          question(entry),
+          revealed: false,
+          group: 'quiz:torpid:0',
+        ),
+      );
+      final dutchAsked =
+          asked.where((p) => !p.isEnglish).map((p) => p.text).join(' ');
+
+      // The prompt: the word, where it came from, what it is built of.
+      expect(asked.first.isEnglish, isTrue);
+      expect(asked.first.text, contains('Torpid'));
+      expect(dutchAsked, contains('Latijn'));
+      expect(dutchAsked, contains('verdoofd zijn'));
+      // Not what it means - that is the question.
+      expect(dutchAsked, isNot(contains('Langzaam en half in slaap')));
+
+      // The four answers, lettered as the page letters them, in the language
+      // the page shows them in. A listener cannot choose between four
+      // definitions they have never heard.
+      expect(dutchAsked, contains('welke definitie past'));
+      expect(dutchAsked, contains('A.'));
+      expect(dutchAsked, contains('B. Een'));
+      expect(dutchAsked, contains('D. Drie'));
+      // The English twins belong to the fallback, not to this reading.
+      expect(dutchAsked, isNot(contains('One')));
+
+      final answered = await readingWith(
+        tester,
+        readInDutch: true,
+        build: (context, entry) => quizReadingOf(
+          context,
+          question(entry),
+          revealed: true,
+          group: 'quiz:torpid:0',
+        ),
+      );
+      expect(
+        answered.where((p) => !p.isEnglish).map((p) => p.text).join(' '),
+        contains('Langzaam en half in slaap'),
+      );
+
+      // The etymon and the root forms are Latin, and stay with the English
+      // voice in both halves.
+      for (final reading in [asked, answered]) {
+        final english =
+            reading.where((p) => p.isEnglish).map((p) => p.text).join(' ');
+        expect(english, contains('torpidus'));
+        expect(english, contains('torpere'));
+        for (final piece in reading.where((p) => !p.isEnglish)) {
+          expect(piece.text, isNot(contains('torpere')));
+        }
+      }
+    });
+
+    testWidgets('with the switch off the quiz asks in English',
+        (tester) async {
+      final reading = await readingWith(
+        tester,
+        readInDutch: false,
+        build: (context, entry) => quizReadingOf(
+          context,
+          question(entry),
+          revealed: false,
+          group: 'quiz:torpid:0',
+        ),
+      );
+
+      expect(reading.length, 1);
+      expect(reading.single.isEnglish, isTrue);
+      final spoken = reading.single.text;
+      expect(spoken, contains('From Latin, torpidus.'));
+      expect(spoken, contains('which definition fits?'));
+      // The English twins of the four answers - the Dutch on screen would be
+      // mangled by an English voice, which is the whole point of the pair.
+      expect(spoken, contains('B. One'));
+      expect(spoken, contains('D. Three'));
+      expect(spoken, isNot(contains('Een')));
+      expect(spoken, isNot(contains('Latijn')));
+    });
   });
 
   group("the app's own copy", () {

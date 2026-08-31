@@ -232,6 +232,34 @@ class WordEntry {
     ].where((part) => part.isNotEmpty).join(' ');
   }
 
+  /// The glance a card reads out — what the word means, and no more — in
+  /// the reader's language.
+  ///
+  /// Empty when nothing was translated, so callers can drop it.
+  String get spokenGlanceExplanation =>
+      translationSource == null ? '' : friendly;
+
+  /// What the quiz card shows before an answer — where the word came from
+  /// and what it is built of — in the reader's language.
+  ///
+  /// The lemma and its respelling are not here: they are English, and the
+  /// caller sends them to the English voice. Nor is the meaning, which is
+  /// the question. Empty when nothing was translated, so callers can drop it.
+  String spokenQuizPromptWith(SpeechTemplates templates) {
+    if (translationSource == null) return '';
+    return [
+      templates.fromOrigin(origin, originWord),
+      _spokenRootsWith(templates),
+    ].where((part) => part.isNotEmpty).join(' ');
+  }
+
+  /// What the word means, in the reader's language.
+  ///
+  /// Kept apart from the prompt because the quiz withholds it until the
+  /// answer is in. Empty when nothing was translated.
+  String spokenMeaningWith(SpeechTemplates templates) =>
+      translationSource == null ? '' : templates.inPlainWords(friendly);
+
   String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);
 
   String spokenPromptWith(SpeechTemplates templates) {

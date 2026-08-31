@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
+import '../models/word_entry.dart';
 import '../state/quiz_controller.dart';
 import '../state/reading.dart';
 import '../state/speech_controller.dart';
@@ -79,10 +80,7 @@ class QuizResultsScreen extends StatelessWidget {
                       index: i,
                       correct:
                           quiz.questions[i].isCorrect(quiz.answerFor(i) ?? -1),
-                      word: quiz.questions[i].word.word,
-                      definition: quiz.questions[i].word.definition,
-                      speechKey: 'result:${quiz.questions[i].word.id}',
-                      speechText: quiz.questions[i].word.spokenGlance,
+                      entry: quiz.questions[i].word,
                     ),
                     const SizedBox(height: 10),
                   ],
@@ -112,18 +110,12 @@ class _ResultRow extends StatelessWidget {
   const _ResultRow({
     required this.index,
     required this.correct,
-    required this.word,
-    required this.definition,
-    required this.speechKey,
-    required this.speechText,
+    required this.entry,
   });
 
   final int index;
   final bool correct;
-  final String word;
-  final String definition;
-  final String speechKey;
-  final String speechText;
+  final WordEntry entry;
 
   @override
   Widget build(BuildContext context) {
@@ -147,14 +139,14 @@ class _ResultRow extends StatelessWidget {
                 EnglishLemma(
                   child: FitToWidth(
                     child: Text(
-                      '${index + 1}. $word',
+                      '${index + 1}. ${entry.word}',
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
                   ),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  definition,
+                  entry.definition,
                   style: TextStyle(color: brand.foregroundMuted, height: 1.35),
                 ),
               ],
@@ -162,8 +154,9 @@ class _ResultRow extends StatelessWidget {
           ),
           SpeakButton(
             compact: true,
-            speechKey: speechKey,
-            text: speechText,
+            speechKey: 'result:${entry.id}',
+            text: entry.english.spokenGlance,
+            segments: glanceOf(context, entry, group: 'result:${entry.id}'),
           ),
         ],
       ),

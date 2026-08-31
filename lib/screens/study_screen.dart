@@ -7,6 +7,7 @@ import '../branding.dart';
 import '../l10n/app_localizations.dart';
 import '../data/word_repository.dart';
 import '../state/progress_controller.dart';
+import '../state/reading.dart';
 import '../state/settings_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
@@ -15,9 +16,16 @@ import '../widgets/card_surface.dart';
 import '../widgets/social_row.dart';
 import 'languages_screen.dart';
 
-/// Spoken when the reader tries a voice. Deliberately not localised: the
-/// lexicon is English and the engine is locked to an English voice, so a
-/// translated preview would be read in the wrong language.
+/// The entry the voice preview reads.
+///
+/// A real one, so the preview is the thing itself rather than a description
+/// of it — and so it can be read in both voices, the way every other page
+/// reads a word.
+const kPreviewWordId = 'edulcorate';
+
+/// Spoken when the reader tries a voice and the lexicon is not there to read
+/// from — a fallback, and English, because it is written here rather than
+/// translated. See `_VoiceControl._preview`, which prefers the real entry.
 const kVoicePreview = 'Edulcorate. To sweeten, or to soften.';
 
 /// What the reader hands on when they share the app.
@@ -436,6 +444,27 @@ class _VoiceControl extends StatelessWidget {
 
   final SettingsController settings;
 
+  /// The preview reads the way an entry reads: the lemma in English, the
+  /// rest in whatever language the reader has asked for.
+  ///
+  /// Locked to English it could say that the engine works, but not whether
+  /// the reader's own voice does — which is the one thing the switch under
+  /// it turns on.
+  void _preview(BuildContext context, SpeechController speech) {
+    final matches = context
+        .read<WordRepository>()
+        .words
+        .where((word) => word.id == kPreviewWordId);
+    if (matches.isEmpty) {
+      speech.speak('study-preview', kVoicePreview);
+      return;
+    }
+    speech.speakSegments(
+      'study-preview',
+      glanceOf(context, matches.first, group: 'study-preview'),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
@@ -508,7 +537,7 @@ class _VoiceControl extends StatelessWidget {
           Align(
             alignment: AlignmentDirectional.centerStart,
             child: TextButton.icon(
-              onPressed: () => speech.speak('study-preview', kVoicePreview),
+              onPressed: () => _preview(context, speech),
               icon: Icon(Icons.volume_up_outlined, color: brand.accentGold),
               label: Text(l10n.hearIt),
             ),

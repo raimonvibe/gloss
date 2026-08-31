@@ -5,6 +5,8 @@ import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../state/progress_controller.dart';
 import '../state/quiz_controller.dart';
+import '../state/reading.dart';
+import '../state/settings_controller.dart';
 import '../state/speech_controller.dart';
 import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
@@ -166,8 +168,49 @@ class _CountChip extends StatelessWidget {
   }
 }
 
-class _QuizPlay extends StatelessWidget {
+class _QuizPlay extends StatefulWidget {
   const _QuizPlay();
+
+  @override
+  State<_QuizPlay> createState() => _QuizPlayState();
+}
+
+class _QuizPlayState extends State<_QuizPlay> {
+  /// The question the voice has already been handed, so that an answer
+  /// coming in does not start the reading over.
+  int? _read;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final quiz = context.read<QuizController>();
+    if (!quiz.isActive || _read == quiz.index) return;
+    _read = quiz.index;
+    WidgetsBinding.instance.addPostFrameCallback((_) => _autoplay());
+  }
+
+  /// "Read a word aloud when it opens", carried into the quiz: each question
+  /// as it arrives, answers and all.
+  ///
+  /// Once per question, and not again when the answer lands — that would
+  /// start talking over the reader at the moment they are reading.
+  void _autoplay() {
+    if (!mounted) return;
+    if (!context.read<SettingsController>().autoplayPronunciation) return;
+    final quiz = context.read<QuizController>();
+    final question = quiz.current;
+    if (question == null) return;
+    final key = 'quiz:${question.word.id}:${quiz.index}';
+    context.read<SpeechController>().speakSegments(
+          key,
+          quizReadingOf(
+            context,
+            question,
+            revealed: quiz.hasAnsweredCurrent,
+            group: key,
+          ),
+        );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -202,8 +245,14 @@ class _QuizPlay extends StatelessWidget {
               const SizedBox(width: 8),
               SpeakButton(
                 speechKey: 'quiz:${question.word.id}:${quiz.index}',
-                text: question.word.spokenQuiz(
+                text: question.word.english.spokenQuiz(
                   revealed: quiz.hasAnsweredCurrent,
+                ),
+                segments: quizReadingOf(
+                  context,
+                  question,
+                  revealed: quiz.hasAnsweredCurrent,
+                  group: 'quiz:${question.word.id}:${quiz.index}',
                 ),
               ),
               const SizedBox(width: 8),

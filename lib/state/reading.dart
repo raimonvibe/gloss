@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
+import '../data/quiz_engine.dart';
 import '../l10n/app_localizations.dart';
 import '../l10n/app_localizations_en.dart';
 import '../l10n/speech_templates.dart';
@@ -61,37 +62,115 @@ List<SpeechSegment> spokenLine(
   ];
 }
 
+/// The lemma in English, then the rest of the reading in the reader's
+/// language — the shape every reading in the app takes.
+///
+/// [explanation] is the part that follows the word, already in the reader's
+/// language; when it comes back empty (nothing translated for this entry)
+/// the whole reading falls back to [english]. The English quoted inside it
+/// is cut back out for the English voice.
+///
+/// One group across the lot, so a device with no voice for the language
+/// reads the English once instead of a lemma followed by silence.
+List<SpeechSegment> _lemmaThen(
+  BuildContext context,
+  WordEntry live, {
+  required String Function(SpeechTemplates) explanation,
+  required String english,
+  required String group,
+}) {
+  final englishOnly = [SpeechSegment(english)];
+  final tag = readerLanguageTag(context);
+  if (tag == null) return englishOnly;
+
+  final body =
+      explanation(SpeechTemplates.fromL10n(AppLocalizations.of(context)));
+  if (body.isEmpty) return englishOnly;
+
+  return [
+    SpeechSegment(live.spokenWord, group: group),
+    ...segmentTranslation(
+      body,
+      languageTag: tag,
+      englishTerms: live.quotedEnglish,
+      // If the voice went missing since the switch was turned on, the
+      // reader still hears the whole thing, in English.
+      fallback: english,
+      group: group,
+    ),
+  ];
+}
+
 /// The reading of one entry: the page, top to bottom, each piece in the
 /// language it is written in.
 ///
 /// The lemma and how to say it are English and always will be. Everything
 /// after that — what kind of word it is, where it came from, what it is
 /// built of, what it means, the sentence it lives in — follows the reader's
-/// language when they have switched that on, with the English it quotes cut
-/// back out for the English voice.
-///
-/// All of it shares one group, so a device with no voice for the language
-/// reads the English entry once instead of a lemma followed by silence.
+/// language when they have switched that on.
 List<SpeechSegment> readingOf(BuildContext context, WordEntry live) {
-  final englishOnly = [SpeechSegment(live.spokenEntry)];
-  final tag = readerLanguageTag(context);
-  if (tag == null) return englishOnly;
+  return _lemmaThen(
+    context,
+    live,
+    explanation: live.spokenExplanationWith,
+    english: live.english.spokenEntry,
+    group: 'entry:${live.id}',
+  );
+}
 
-  final templates = SpeechTemplates.fromL10n(AppLocalizations.of(context));
-  final explanation = live.spokenExplanationWith(templates);
-  if (explanation.isEmpty) return englishOnly;
+/// The glance a card gives — the word of the day, a row in the lexicon, a
+/// line in the quiz results.
+///
+/// Short where [readingOf] is long, and localised the same way: the lemma
+/// and its respelling in English, what it means in the reader's language.
+List<SpeechSegment> glanceOf(
+  BuildContext context,
+  WordEntry live, {
+  required String group,
+}) {
+  return _lemmaThen(
+    context,
+    live,
+    explanation: (_) => live.spokenGlanceExplanation,
+    english: live.english.spokenGlance,
+    group: group,
+  );
+}
 
-  final group = 'entry:${live.id}';
-  return [
-    SpeechSegment(live.spokenWord, group: group),
-    ...segmentTranslation(
-      explanation,
-      languageTag: tag,
-      englishTerms: live.quotedEnglish,
-      // If the voice went missing since the switch was turned on, the
-      // reader still hears the whole entry, in English.
-      fallback: live.english.spokenEntry,
-      group: group,
-    ),
-  ];
+/// The quiz's reading of the question in play: the lemma in English, then
+/// its origin and roots, the question itself and the four answers — and
+/// what the word means, once the answer is out — in the reader's language.
+///
+/// The answers are read because a listener cannot choose between four
+/// definitions they have never heard.
+List<SpeechSegment> quizReadingOf(
+  BuildContext context,
+  QuizQuestion question, {
+  required bool revealed,
+  required String group,
+}) {
+  final live = question.word;
+  final l10n = AppLocalizations.of(context);
+  return _lemmaThen(
+    context,
+    live,
+    explanation: (templates) {
+      final prompt = live.spokenQuizPromptWith(templates);
+      if (prompt.isEmpty) return '';
+      return [
+        prompt,
+        l10n.whichDefinitionFits,
+        question.spokenOptions,
+        if (revealed) live.spokenMeaningWith(templates),
+      ].where((part) => part.isNotEmpty).join(' ');
+    },
+    english: [
+      live.english.spokenPromptWith(SpeechTemplates.english),
+      englishCopy.whichDefinitionFits,
+      question.spokenOptionsEnglish,
+      if (revealed)
+        SpeechTemplates.english.inPlainWords(live.english.friendly),
+    ].where((part) => part.isNotEmpty).join(' '),
+    group: group,
+  );
 }
