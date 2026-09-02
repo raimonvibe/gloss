@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
+import '../models/ssml.dart';
+
 /// Gloss is an English lexicon. TTS must never follow the phone language.
 const kPreferredEnglishLocales = [
   'en-US',
@@ -103,8 +105,28 @@ String wrapEnglishSsml(String text) {
       .replaceAll('&', '&amp;')
       .replaceAll('<', '&lt;')
       .replaceAll('>', '&gt;')
-      .replaceAll('"', '&quot;');
+      .replaceAll('"', '&quot;')
+      // The app's own tags, written as sentinels so that the escaping above
+      // could not touch them — see lib/models/ssml.dart.
+      .replaceAll(kSsmlOpen, '<')
+      .replaceAll(kSsmlClose, '>')
+      .replaceAll(kSsmlQuote, '"');
   return '<speak xml:lang="en-US">$escaped</speak>';
+}
+
+/// Debug-only trace of what actually reaches the platform engine.
+///
+/// The Dart can be provably right and the phone still wrong, and the ways
+/// that happens all look identical from here: a stale install, a second
+/// checkout, a voice that never locked to English, a screen reader saying
+/// the page instead of the app saying the word. This prints the four facts
+/// that tell them apart — the engine, whether it is being given SSML, the
+/// voice that actually took, and the exact string handed over.
+///
+/// Debug builds only; `kDebugMode` is a compile-time constant, so this and
+/// every call to it are dropped from a release build.
+void ttsTrace(String message) {
+  if (kDebugMode) debugPrint('[gloss-tts] $message');
 }
 
 bool get _isAndroid =>
@@ -606,6 +628,7 @@ class TtsSpeechEngine implements SpeechEngine {
     final engine = pickPreferredTtsEngine(engines.map((e) => e.toString()));
     if (engine == null) return;
     _useEnglishSsml = engine.toLowerCase().contains('google');
+    ttsTrace('engine=$engine ssml=$_useEnglishSsml');
     // setEngine tears the bound TextToSpeech down and builds a new one. On a
     // phone already running Google TTS that throws away a working binding,
     // and every call made before the replacement connects fails with 'not
@@ -647,14 +670,22 @@ class TtsSpeechEngine implements SpeechEngine {
     }
     // A lock that never took must be retried, not remembered: an engine that
     // is still binding reports every language unavailable.
-    if (!applied) return;
+    if (!applied) {
+      ttsTrace('WARNING no English language took — the device voice is still '
+          'in charge, and it will read English text in its own language');
+      return;
+    }
     _englishLocked = true;
 
     final voices = await _guard(_tts.getVoices);
     if (voices is! List) return;
     final chosen = _chooseVoice(voices.whereType<Map>());
     if (chosen != null) {
+      ttsTrace('locked to $language, voice=${chosen['name']} '
+          '(${chosen['locale']})');
       await _guard(_tts.setVoice(chosen));
+    } else {
+      ttsTrace('locked to $language, no voice chosen');
     }
   }
 
@@ -750,7 +781,9 @@ class TtsSpeechEngine implements SpeechEngine {
   Future<void> speak(String text) async {
     await _ready;
     await _lockToEnglish();
-    final utterance = _useEnglishSsml ? wrapEnglishSsml(text) : text;
+    final utterance =
+        _useEnglishSsml ? wrapEnglishSsml(text) : ssmlToPlainText(text);
+    ttsTrace('speak $utterance');
     await _guard(_tts.speak(utterance));
   }
 
@@ -771,12 +804,15 @@ class TtsSpeechEngine implements SpeechEngine {
         if (segment.text.trim().isEmpty) continue;
         if (segment.isEnglish) {
           await _lockToEnglish();
-          final utterance =
-              _useEnglishSsml ? wrapEnglishSsml(segment.text) : segment.text;
+          final utterance = _useEnglishSsml
+              ? wrapEnglishSsml(segment.text)
+              : ssmlToPlainText(segment.text);
+          ttsTrace('segment[en] $utterance');
           await _speakAndWait(utterance);
         } else {
           final applied = await _useLanguage(segment.languageTag!);
           if (applied) {
+            ttsTrace('segment[${segment.languageTag}] ${segment.text}');
             await _speakAndWait(segment.text);
           } else {
             // Never let the English voice loose on translated text. Say the
@@ -785,7 +821,9 @@ class TtsSpeechEngine implements SpeechEngine {
             if (fallback == null || fallback.trim().isEmpty) continue;
             await _lockToEnglish();
             await _speakAndWait(
-              _useEnglishSsml ? wrapEnglishSsml(fallback) : fallback,
+              _useEnglishSsml
+                  ? wrapEnglishSsml(fallback)
+                  : ssmlToPlainText(fallback),
             );
           }
         }

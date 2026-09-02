@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+
+import 'package:beautiful_words/models/ssml.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -156,7 +158,10 @@ void main() {
     // of which was left off the reading entirely.
     expect(dutch, contains('Langzaam en half in slaap'));
     expect(dutch, contains('lichamelijk inactief'));
-    expect(english, contains('The office fell torpid in the heavy heat'));
+    expect(
+      ssmlWithoutTags(english),
+      contains('The office fell torpid in the heavy heat'),
+    );
     expect(dutch, contains('Het kantoor viel'));
     expect(dutch, contains('augustushitte'));
 
@@ -221,7 +226,7 @@ void main() {
     expect(spoken, contains('From Latin, torpidus.'));
     expect(spoken, contains('torpere'));
     expect(spoken, contains('Slow and half-asleep'));
-    expect(spoken, contains('The office fell torpid'));
+    expect(ssmlWithoutTags(spoken), contains('The office fell torpid'));
     expect(spoken, isNot(contains('Latijn')));
   });
 

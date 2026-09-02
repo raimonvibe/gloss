@@ -262,6 +262,7 @@ class _WordOfTheDay extends StatelessWidget {
                   fontStyle: FontStyle.italic,
                   color: brand.foregroundMuted,
                 ),
+                semanticsLabel: entry.spokenPronunciation,
               ),
             ),
             const SizedBox(height: 8),

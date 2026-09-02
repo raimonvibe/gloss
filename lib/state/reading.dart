@@ -89,6 +89,10 @@ List<SpeechSegment> _lemmaThen(
 
   return [
     SpeechSegment(live.spokenWord, group: group),
+    // The English cut back out of a translated passage is the lexicon's own
+    // words — the headword, the sentence it lives in — and the engine cannot
+    // say those either. It is cut here as it is written, so that
+    // segmentTranslation can find it, and voiced afterwards.
     ...segmentTranslation(
       body,
       languageTag: tag,
@@ -97,6 +101,14 @@ List<SpeechSegment> _lemmaThen(
       // reader still hears the whole thing, in English.
       fallback: english,
       group: group,
+    ).map(
+      (segment) => segment.isEnglish
+          ? SpeechSegment(
+              live.voiced(segment.text),
+              fallback: segment.fallback,
+              group: segment.group,
+            )
+          : segment,
     ),
   ];
 }
@@ -169,7 +181,9 @@ List<SpeechSegment> quizReadingOf(
       englishCopy.whichDefinitionFits,
       question.spokenOptionsEnglish,
       if (revealed)
-        SpeechTemplates.english.inPlainWords(live.english.friendly),
+        live.english.voiced(
+          SpeechTemplates.english.inPlainWords(live.english.friendly),
+        ),
     ].where((part) => part.isNotEmpty).join(' '),
     group: group,
   );

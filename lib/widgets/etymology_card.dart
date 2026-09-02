@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/word_entry.dart';
+import '../models/respelling.dart';
 import '../theme/app_fonts.dart';
 import '../theme/brand_colors.dart';
 import 'button_label.dart';
@@ -242,7 +243,15 @@ class _MetaLine extends StatelessWidget {
       spacing: 6,
       crossAxisAlignment: WrapCrossAlignment.center,
       children: [
-        EnglishLemma(child: Text(pronunciation, style: style)),
+        EnglishLemma(
+          child: Text(
+            pronunciation,
+            style: style,
+            // What a screen reader says, so it matches the app's own
+            // voice — see spokenRespelling.
+            semanticsLabel: spokenRespelling(pronunciation),
+          ),
+        ),
         Text('·', style: style),
         Text(partOfSpeech, style: style),
       ],
