@@ -39,8 +39,10 @@ void main() {
 
   test('a syllable the engine spells is given one it says', () {
     expect(spokenRespelling('HEB-ih-tood'), 'heb ihh tood');
-    expect(spokenRespelling('PAR-uk-siz-um'), 'parre uck siz um');
-    expect(spokenRespelling('ee-DUL-cor-ate'), 'eeh dul core ate');
+    // `parr` is the /a/ of bat with an r; `par` would be the /ar/ of bar.
+    expect(spokenRespelling('PARR-uk-siz-um'), 'parre uck siz um');
+    expect(spokenRespelling('PAR-sih-moh-nee'), 'parr sih moh nee');
+    expect(spokenRespelling('ee-DUL-kuh-rate'), 'ee dul kuh rate');
     expect(spokenRespelling('thee-OD-ih-see'), 'thee odd ihh see');
     expect(spokenRespelling('SY-uh-list'), 'sigh uh list');
     expect(spokenRespelling('vy-too-per-AY-shun'), 'vye too per ay shun');
@@ -91,13 +93,23 @@ void main() {
     );
   });
 
+  /// Syllables the reader's phone overruled the desktop probe on.
+  ///
+  /// `tool/probe_respellings.ps1` asks Windows SAPI, and SAPI is not the
+  /// engine on the phone. Where a syllable has actually been heard on a
+  /// device, that verdict wins and the probe's is a hint — see the note on
+  /// `ee` in respelling.dart.
+  const heardOnDevice = <String>{'ee'};
+
   test('nothing the engine spells reaches the voice', () {
     final left = <String>[];
     for (final word in words) {
       for (final syllable in spokenRespelling(
         word['pronunciation'] as String,
       ).split(' ')) {
-        if (spelled.contains(syllable)) left.add('${word['word']}: $syllable');
+        if (spelled.contains(syllable) && !heardOnDevice.contains(syllable)) {
+          left.add('${word['word']}: $syllable');
+        }
       }
     }
     expect(
@@ -143,7 +155,7 @@ void main() {
       case RespellingVoicing.wordOnly:
         // These two do not say the respelling at all.
         expect(entry.spokenWord, isNot(contains('ihh')));
-        expect(entry.spokenWord, contains('Hebetude'));
+        expect(entry.spokenWord, contains('ˈhɛbɪtuːd'));
       case RespellingVoicing.respellingOnly:
         // ...and this one says nothing but.
         expect(entry.spokenWord, 'heb ihh tood.');
@@ -151,7 +163,7 @@ void main() {
       case RespellingVoicing.probe:
         // The word is shown and the respelling is spoken, so both are in the
         // utterance and the respelling is inside the alias.
-        expect(entry.spokenWord, contains(ssmlSub('heb ihh tood', 'Hebetude')));
+        expect(entry.spokenWord, contains(ssmlPhoneme('ˈhɛbɪtuːd', 'heb ihh tood')));
       case RespellingVoicing.spaced:
       case RespellingVoicing.commas:
       case RespellingVoicing.sentences:

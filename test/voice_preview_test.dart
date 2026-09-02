@@ -92,7 +92,7 @@ void main() {
 
     expect(heard, isNotEmpty, reason: 'the preview said nothing');
     // The lemma is English and stays English, as it does everywhere.
-    expect(heard.first, contains('Edulcorate'));
+    expect(heard.first, contains('ee dul kuh rate'));
     // And the half the switch is about actually reaches the Dutch voice,
     // which is the only way to hear whether that voice works.
     expect(
@@ -107,7 +107,7 @@ void main() {
     final heard = engine.spokenSegments;
 
     expect(heard, isNotEmpty);
-    expect(heard.join(' '), contains('Edulcorate'));
+    expect(heard.join(' '), contains('ee dul kuh rate'));
     expect(
       heard.where((segment) => segment.startsWith('nl-NL:')),
       isEmpty,

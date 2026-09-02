@@ -21,7 +21,7 @@ const _fixture = '''
       "word": "Edulcorate",
       "variants": [],
       "partOfSpeech": "verb",
-      "pronunciation": "ee-DUL-cor-ate",
+      "pronunciation": "ee-DUL-kuh-rate",
       "definition": "To sweeten or purify.",
       "friendly": "To take the bitterness out of something.",
       "example": "The editor edulcorated the review.",
@@ -69,7 +69,7 @@ const _fixture = '''
       "word": "Paroxysm",
       "variants": [],
       "partOfSpeech": "noun",
-      "pronunciation": "PAR-uk-siz-um",
+      "pronunciation": "PARR-uk-siz-um",
       "definition": "A sudden violent outburst.",
       "friendly": "A sudden intense burst of emotion.",
       "example": "A paroxysm of laughter.",
@@ -177,7 +177,7 @@ void main() {
 
   test('spoken prompts name the word and hide the definition', () {
     final entry = repo.words.first;
-    expect(entry.spokenPronunciation, 'eeh dul core ate');
+    expect(entry.spokenPronunciation, 'ee dul kuh rate');
     expect(entry.spokenPrompt, contains('Edulcorate'));
     expect(entry.spokenPrompt, contains('dulcis'));
     expect(entry.spokenPrompt, isNot(contains(entry.definition)));

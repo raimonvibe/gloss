@@ -50,7 +50,13 @@ const Map<String, String> _spokenSyllables = {
   // Two-letter fragments read as letter names.
   'ak': 'ack', //   /ak/ as in back      Actuate
   'ap': 'app', //   /ap/ as in cap       Aporetic, Apposite
-  'ee': 'eeh', //   /ee/ as in bee       13 words — `ee` was said as two beats
+  // 'ee' is deliberately NOT substituted. SAPI reads it as two beats and
+  // `eeh` as one, so the table sent `eeh` — and Google's Android engine
+  // spells that, "ee ee aitch", heard in *Emendation* on a phone. `ee` is
+  // the safer bet even when an engine spells it, because the letter E is
+  // already the sound the syllable wants; `eeh` adds an H that is audibly
+  // wrong. Where the desktop probe and the reader's phone disagree, the
+  // phone wins.
   'ek': 'eck', //   /ek/ as in deck      Expatiate, Extant, Excoriate, Execrate
   'ig': 'ihg', //   /ig/ as in big       Ignavia
   'ih': 'ihh', //   /i/  as in bit       13 words, Hebetude among them
@@ -67,7 +73,12 @@ const Map<String, String> _spokenSyllables = {
   'koh': 'koe', //  /koh/ as in toe      Inchoative, Pococurante
   'luh': 'lah', //  /lah/ as in ah       Effloresce, Obloquy
   'pab': 'pabb', // /pab/ as in cab      Pabulum
-  'par': 'parre', // /par/ as in bat + r Parry, Parsimony, Paroxysm
+  // Two respellings, two sounds, and the fallback spellings that produce
+  // them: `par` is the /ar/ of *bar* (Parsimony) and `parr` is the /a/ of
+  // *bat* with an r after it (Parry, Paroxysm). The doubled r shortens the
+  // vowel, in the respelling and in the fallback alike.
+  'par': 'parr', //  /par/ as in bar      Parsimony
+  'parr': 'parre', // /parr/ as in bat + r  Parry, Paroxysm
   'pid': 'pidd', // /pid/ as in bid      Torpid
   'ret': 'rett', // /ret/ as in bet      Aporetic
   'rih': 'rihh', // /ri/  as in rip      Redound

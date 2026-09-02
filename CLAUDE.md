@@ -206,6 +206,18 @@ the letter "pee" while SAPI says `py` correctly, and byte-identically to `pie`. 
 replacement that is an ordinary English word, which no engine has to guess at. `py`, `fy`
 and `ty` are in the table for that reason alone.
 
+**"Read the translation aloud" follows the language the reader picked.** It defaulted to
+`false` until 2026-09-02, which meant a fresh install spoke English in all sixty: choose
+Arabic, press listen, hear English. Preferences are cleared by a reinstall, so this came
+back every time the app was installed again, and it looked like a regression each time.
+
+Every translated test seeded `'beautiful-words:read-translation': true`, so the whole suite
+was green while the app did this — the default was the one path nothing exercised.
+`test/reads_in_the_chosen_language_test.dart` now covers it from the install default in
+Dutch and in Arabic, and checks that a reader who turns the switch **off** stays off:
+`readTranslationAloudChosen` is what the study shows, `readTranslationAloud` is the
+question the reading asks, and only the second one has a default.
+
 **A respelling has two readers, and `spokenRespelling` only reaches one.** It fixes what
 `SpeakButton` says. It cannot reach the *screen reader*: the respelling is also drawn on
 the page — the word of the day, every lexicon card, the card at the top of a word's page —
@@ -222,25 +234,103 @@ none of them in its dictionary and invents a reading from the spelling: *pietist
 out "pi-e-stic". Every respelling fix above is downstream of that — the respelling was
 never the disease, it is the cure the app already had.
 
-**`<sub alias="...">` is the fix, and it works.** SSML *is* reaching the engine — the app
+**`<phoneme alphabet="ipa">` is the fix, and it works.** SSML reaches the engine — the app
 has always wrapped English utterances (`_useEnglishSsml`, set when the engine is Google) —
-and a probe on the device on 2026-09-02 confirmed the engine honours `<sub>`:
+and two device probes settled what it accepts. The first said `<sub alias="...">` was
+honoured. The second, after `<sub>` was still heard saying respellings wrong, asked the
+question that mattered:
 
 | Sent | Heard |
 |---|---|
-| `<sub alias="pie uh tiss tik">Pietistic</sub>` | correct |
-| `pie uh tiss tik` | correct |
-| `Pietistic` | **wrong** — "pi-e-stic" |
+| `<phoneme alphabet="ipa" ph="ˌiːmɛnˈdeɪʃən">ee men day shun</phoneme>` | **correct** |
+| `<sub alias="ee men day shun">Emendation</sub>` | wrong |
+| `ee men day shun` | wrong |
 
-So the page keeps the word and the voice is handed the respelling, for all 134 at once.
-`kRespellingVoicing` in `lib/models/word_entry.dart` records every shape that was tried
-and what the phone said about each; `RespellingVoicing.probe` is the experiment itself,
-kept because it is how the next such question gets answered.
+The received wisdom is that on-device engines ignore `<phoneme>`. That wisdom also said
+they ignore SSML. **Ask the device.**
+
+So the app hands the voice a *sound*, never a spelling. `assets/data/words.json` carries an
+`ipa` for every word, and `lib/models/spoken_forms.dart` carries one for every inflected
+form. Neither is written by hand: `tool/emit_ipa.py` derives them from the respellings, and
+`python tool/emit_ipa.py --check` fails when the two have drifted apart.
+
+**Why derived rather than fetched.** The respelling is what the page shows and so is the
+app's own authority; the inflected forms have no dictionary entry; and eighteen of the 134
+have no Wiktionary entry at all. It was checked against Wiktionary all the same, and that
+check earned its keep — it found five rule bugs (`eh` keeping its h, `tch`, `ye`, unstressed
+`-ar`, and an `-ed` rule that fired on *seed*). Of the 116 words Wiktionary knows, the
+derived IPA agrees with it on 84; the rest are rhotic and US/UK differences and the handful
+of attested variants the pronunciation audit already recorded.
+
+**A respelling that writes a full vowel where the word has a schwa is now a wrong
+pronunciation, not a loose one.** *Edulcorate* was `ee-DUL-cor-ate` and *Anchorite* was
+`ANG-kor-ite`; both wrote `-or-` for what dictionaries reduce to /ə/. They are
+`ee-DUL-kuh-rate` and `ANG-kuh-rite` since 2026-09-02, and the derived IPA followed on its
+own — `iːˈdʌlkəreɪt` and `ˈæŋkəraɪt`, which is what Wiktionary and Merriam-Webster both
+give. This is the same lesson as `PARR-`: once the IPA is derived from the respelling, the
+respelling has to be right rather than merely readable.
+
+Six more were flagged by the pronunciation audit and are **not** errors — ours is an
+attested variant in every case, and for four of them it is Merriam-Webster's first:
+
+| Word | Ours | The other reading | Verdict |
+|---|---|---|---|
+| Irrefragable | ir-eh-**FRAG**-uh-bul | ih-**REF**-ruh-guh-bul | the other is primary in RP and GA |
+| Extant | ek-**STANT** | **EK**-stunt | the other is M-W's first |
+| Reify | **RAY**-ih-fy | **REE**-uh-fy | ours is M-W's first — keep |
+| Patois | **PAT**-wah | puh-**TWAH** | ours is M-W's first — keep |
+| Ersatz | AIR-**zahts** | AIR-**zats** | ours is the US reading — keep |
+| Pococurante | …-**RAN**-tee | …-**RAHN**-tee | ours is M-W's — keep |
+
+**A doubled r shortens the vowel, on the page and in the fallback.** `PAR-` is the /ɑːr/ of
+*bar* and `PARR-` is the /æ/ of *bat* with an r after it. *Parry* and *Paroxysm* were written
+`PAR-` and so were being said "par-ee" and "par-ok-sizm"; they are `PARR-` since 2026-09-02,
+which the pronunciation audit had flagged against Wiktionary. *Parsimony* keeps `PAR-`
+because it really is /ˈpɑːrsɪmoʊni/. The IPA follows the respelling automatically —
+`emit_ipa.py` reads the doubled r — and the fallback table maps `par`→`parr` and
+`parr`→`parre`, which are the spellings a speech engine reads as those two sounds.
+
+**The respelling rides inside the tag as its text**, so an engine that ignores `<phoneme>`
+says exactly what the app said before, and `ssmlToPlainText` gives it the same thing when
+it is not handed SSML at all. That is what the 27 substitutions in `respelling.dart` are
+for now — a fallback, not the main road. Nineteen of them are invented spellings measured
+against Windows SAPI, and the phone disagreed with SAPI on `eeh`, which is why `ee` is no
+longer substituted and why the device's verdict overrules the desktop probe's wherever the
+two have been heard to differ.
 
 `<phoneme alphabet="ipa">` is a different matter and is **not** supported by the on-device
 engines — it is a cloud-API feature (Google Cloud TTS, Polly, Azure). An engine that does
 not know a tag speaks its inner text, which is why `<sub>` costs nothing where it is
 unsupported, and why reaching for `<phoneme>` would buy nothing here.
+
+**`quotedEnglish` must name every form, not just the headword.** Translated copy keeps the
+English word in whatever shape its own sentence needs — the Dutch for *edulcorate* reads
+"De redacteur **edulcorated** de harde recensie" — and `segmentTranslation` only cuts out
+the terms it is told about. It was told about `Edulcorate`, which does not stand alone
+inside `edulcorated`, so the whole sentence went to the Dutch voice and the English word
+came out in a Dutch accent. It now lists `spokenForms.keys`, so every inflection and
+variant is cut out and handed back to the English voice, where `voiced()` gives it its
+phoneme. Heard on a device and fixed on 2026-09-02.
+
+**The mechanism is general across the sixty; its coverage is only as wide as
+`kSpokenForms`.** `segmentTranslation` cuts English out of a translated passage identically
+in every language, but it cuts only the terms it is told about, so the table has to name
+every English word the copy keeps. `tool/find_unsaid_english.py` reads all sixty overlays
+and reports standalone words built on a headword's stem that the table does not know:
+
+```bash
+python tool/find_unsaid_english.py
+```
+
+It found four real ones — *plumb* (quoted alone out of "Plumb line", in all sixty),
+*fructifies*, *mortise*, and *ingenious*, which is not an inflection at all but the word
+fifty-nine explanations name to tell it apart from *ingenuous*.
+
+**It cannot be a test**, and that is the point of it being a tool. Most of what it reports
+is the local language's own vocabulary standing on the same Latin root — Spanish *ingenuo*,
+French *mendiant*, Italian *fiducia*, Portuguese *fuligem* — and those correctly stay with
+the local voice. Sixty-one such remain, and telling them from real English needs an eye,
+not an assertion.
 
 **Every English passage the app speaks goes through `WordEntry.voiced()`.** The headword
 at the top of a reading was the easy half; the sentence underneath names the word again,

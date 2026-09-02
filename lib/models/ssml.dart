@@ -30,6 +30,23 @@ String ssmlSub(String alias, String text) =>
     '${kSsmlOpen}sub alias=$kSsmlQuote$alias$kSsmlQuote$kSsmlClose'
     '$text$kSsmlOpen/sub$kSsmlClose';
 
+/// `<phoneme alphabet="ipa" ph="...">text</phoneme>` — say [ipa], show [text].
+///
+/// The tag that would end the guessing. Every respelling substitution is a bet
+/// about how one engine reads an invented spelling, and `eeh` lost that bet on
+/// a phone while winning it on the desktop probe. IPA is not a spelling and
+/// nothing has to guess at it.
+///
+/// The old advice was that on-device engines ignore `<phoneme>`. That advice
+/// also said they ignore SSML, and this one demonstrably honours `<sub>`, so
+/// it is worth asking rather than assuming. An engine that does not know the
+/// tag speaks the inner text, so passing the respelling as [text] makes this
+/// no worse than what ships today whatever the answer.
+String ssmlPhoneme(String ipa, String text) =>
+    '${kSsmlOpen}phoneme alphabet=${kSsmlQuote}ipa$kSsmlQuote '
+    'ph=$kSsmlQuote$ipa$kSsmlQuote$kSsmlClose'
+    '$text$kSsmlOpen/phoneme$kSsmlClose';
+
 /// The same utterance for an engine that is not being handed SSML.
 ///
 /// Only Google's Android engine is — `_useEnglishSsml` is set from the engine
@@ -44,11 +61,22 @@ String ssmlSub(String alias, String text) =>
 String ssmlToPlainText(String text) {
   return text
       .replaceAllMapped(_sub, (match) => match.group(1)!)
+      // A phoneme keeps its inner text: the IPA is for the parser, and the
+      // text is the respelling an engine without one should say.
+      .replaceAllMapped(_phoneme, (match) => match.group(1)!)
       .replaceAll(_anyTag, '')
       .replaceAll(kSsmlOpen, '')
       .replaceAll(kSsmlClose, '')
       .replaceAll(kSsmlQuote, '');
 }
+
+final _phoneme = RegExp(
+  '$kSsmlOpen'
+  'phoneme[^$kSsmlClose]*'
+  '$kSsmlClose'
+  '([^$kSsmlOpen]*)'
+  '$kSsmlOpen/phoneme$kSsmlClose',
+);
 
 final _sub = RegExp(
   '$kSsmlOpen'

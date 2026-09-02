@@ -171,6 +171,7 @@ py
 pyoo
 ran
 rass
+rate
 ray
 ress
 ret
@@ -273,6 +274,7 @@ zit
 # substitutes
 odd
 parre
+parr
 rett
 rihh
 pie

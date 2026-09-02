@@ -69,7 +69,9 @@ void main() {
     // The lemma, its pronunciation and the English sentence come first, in
     // English, as they always did.
     expect(reading.first.isEnglish, isTrue);
-    expect(reading.first.text, contains('Amphiboly'));
+    // The engine is handed the lemma's sound, not its spelling.
+    expect(reading.first.text, contains('æmˈfɪbəliː'));
+    expect(reading.first.text, contains('am fib uh lee'));
 
     final dutch = reading.where((piece) => piece.languageTag == 'nl-NL');
     final english = reading.where((piece) => piece.isEnglish);
@@ -160,14 +162,16 @@ void main() {
     expect(dutch, contains('lichamelijk inactief'));
     expect(
       ssmlWithoutTags(english),
-      contains('The office fell torpid in the heavy heat'),
+      // The word inside the sentence is handed over as its sound too, so
+      // what is left when the tags come off is the respelling.
+      contains('The office fell tor pidd in the heavy heat'),
     );
     expect(dutch, contains('Het kantoor viel'));
     expect(dutch, contains('augustushitte'));
 
     // The lemma opens it, in English, as it always did.
     expect(reading.first.isEnglish, isTrue);
-    expect(reading.first.text, contains('Torpid'));
+    expect(reading.first.text, contains('tor pidd'));
 
     // And no Dutch voice is ever handed the English.
     for (final piece in reading.where((p) => !p.isEnglish)) {
@@ -221,12 +225,15 @@ void main() {
     expect(reading.single.isEnglish, isTrue);
     final spoken = reading.single.text;
     // The same page, the same order, one voice.
-    expect(spoken, contains('Torpid'));
+    expect(spoken, contains('tor pidd'));
     expect(spoken, contains('adjective'));
     expect(spoken, contains('From Latin, torpidus.'));
     expect(spoken, contains('torpere'));
     expect(spoken, contains('Slow and half-asleep'));
-    expect(ssmlWithoutTags(spoken), contains('The office fell torpid'));
+    expect(
+      ssmlWithoutTags(spoken),
+      contains('The office fell tor pidd'),
+    );
     expect(spoken, isNot(contains('Latijn')));
   });
 
@@ -290,7 +297,7 @@ void main() {
       );
 
       expect(reading.first.isEnglish, isTrue);
-      expect(reading.first.text, contains('Torpid'));
+      expect(reading.first.text, contains('tor pidd'));
 
       final dutch = reading.where((p) => !p.isEnglish);
       expect(dutch, isNotEmpty, reason: 'the glance stayed English');
@@ -351,7 +358,7 @@ void main() {
 
       // The prompt: the word, where it came from, what it is built of.
       expect(asked.first.isEnglish, isTrue);
-      expect(asked.first.text, contains('Torpid'));
+      expect(asked.first.text, contains('tor pidd'));
       expect(dutchAsked, contains('Latijn'));
       expect(dutchAsked, contains('verdoofd zijn'));
       // Not what it means - that is the question.

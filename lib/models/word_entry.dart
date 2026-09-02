@@ -56,6 +56,7 @@ class WordEntry {
     required this.word,
     required this.partOfSpeech,
     required this.pronunciation,
+    this.ipa = '',
     required this.definition,
     required this.friendly,
     required this.example,
@@ -73,6 +74,13 @@ class WordEntry {
   final List<String> variants;
   final String partOfSpeech;
   final String pronunciation;
+
+  /// The sound of the word, for a voice that cannot read the spelling.
+  ///
+  /// Derived from [pronunciation] by `tool/emit_ipa.py`, never written by
+  /// hand — run that tool after changing a respelling, and
+  /// `python tool/emit_ipa.py --check` fails if the two have drifted apart.
+  final String ipa;
   final String definition;
   final String friendly;
   final String example;
@@ -102,6 +110,7 @@ class WordEntry {
           .toList(),
       partOfSpeech: json['partOfSpeech'] as String,
       pronunciation: json['pronunciation'] as String,
+      ipa: json['ipa'] as String? ?? '',
       definition: json['definition'] as String,
       friendly: json['friendly'] as String,
       example: json['example'] as String,
@@ -123,6 +132,7 @@ class WordEntry {
       variants: variants,
       partOfSpeech: overlay.partOfSpeech ?? partOfSpeech,
       pronunciation: pronunciation,
+      ipa: ipa,
       definition: overlay.definition ?? definition,
       friendly: overlay.friendly ?? friendly,
       example: example,
@@ -163,46 +173,48 @@ class WordEntry {
   /// capitals that a voice would spell out are undone in one place.
   String get spokenPronunciation => spokenRespelling(pronunciation);
 
-  /// The word, and then how to say it.
+  /// The word, said.
   ///
-  /// [kRespellingVoicing] decides the shape of the second half. Which shape
-  /// an engine reads correctly is a fact about that engine, and the only one
-  /// that matters is the one on the reader's phone — see the enum.
+  /// The engine cannot read these spellings — it holds almost none of the 134
+  /// and invents a reading — so it is handed the sound instead. A device probe
+  /// on 2026-09-02 settled which of the three ways of doing that this engine
+  /// accepts: `<phoneme>` was right, `<sub>` with a respelling for an alias was
+  /// wrong, and the bare respelling was wrong. The received wisdom was that an
+  /// on-device engine ignores `<phoneme>`; this one does not.
+  ///
+  /// The respelling rides inside the tag as its text, so an engine that ignores
+  /// `<phoneme>` says what the app said before this and nothing is lost.
   String get spokenWord {
     final source = english;
-    final syllables = source.spokenPronunciation.split(' ');
-    switch (kRespellingVoicing) {
-      case RespellingVoicing.spaced:
-        return '${source.word}. ${syllables.join(' ')}.';
-      case RespellingVoicing.commas:
-        return '${source.word}. ${syllables.join(', ')}.';
-      case RespellingVoicing.sentences:
-        return '${source.word}. ${syllables.join('. ')}.';
-      case RespellingVoicing.twice:
-        return '${source.word}. ${source.word}.';
-      case RespellingVoicing.wordOnly:
-        return '${source.word}.';
-      case RespellingVoicing.sub:
-        return '${ssmlSub(source.spokenPronunciation, source.word)}.';
-      case RespellingVoicing.respellingOnly:
-        return '${syllables.join(' ')}.';
-      case RespellingVoicing.probe:
-        return 'One. ${ssmlSub(source.spokenPronunciation, source.word)}. '
-            'Two. ${syllables.join(' ')}. '
-            'Three. ${source.word}.';
-    }
+    return '${source.said(source.word)} ';
+  }
+
+  /// [text] said by its sound rather than read off its spelling.
+  ///
+  /// Falls back to the plain word where there is no IPA, which is what a new
+  /// entry looks like before `tool/emit_ipa.py` has been run over it.
+  String said(String text) {
+    final source = english;
+    if (source.ipa.isEmpty) return '$text.';
+    return '${ssmlPhoneme(source.ipa, source.spokenPronunciation)}.';
   }
 
   /// Every English form of this word the app may say, and its respelling.
   ///
   /// The headword itself, its variants, and the inflections the example
   /// sentences use — see [kSpokenForms].
-  Map<String, String> get spokenForms {
+  Map<String, SpokenForm> get spokenForms {
     final source = english;
     return {
-      source.word.toLowerCase(): source.spokenPronunciation,
+      source.word.toLowerCase(): SpokenForm(
+        ipa: source.ipa,
+        respelling: source.spokenPronunciation,
+      ),
       for (final form in kSpokenForms[source.id]?.keys ?? const <String>[])
-        form: spokenFormOf(source.id, form)!,
+        form: SpokenForm(
+          ipa: ipaOfForm(source.id, form) ?? '',
+          respelling: spokenFormOf(source.id, form)!,
+        ),
     };
   }
 
@@ -237,7 +249,10 @@ class WordEntry {
     );
     return passage.replaceAllMapped(pattern, (match) {
       final found = match.group(0)!;
-      return ssmlSub(forms[found.toLowerCase()]!, found);
+      final sound = forms[found.toLowerCase()]!;
+      return sound.ipa.isEmpty
+          ? ssmlSub(sound.respelling, found)
+          : ssmlPhoneme(sound.ipa, sound.respelling);
     });
   }
 
@@ -288,6 +303,12 @@ class WordEntry {
   List<String> get quotedEnglish {
     final source = english;
     return [
+      // Every form the app knows how to say, the inflections included. A
+      // translated sentence keeps the English word in whatever shape it
+      // needs — the Dutch for *edulcorate* reads "De redacteur edulcorated
+      // de harde recensie" — and an inflection that is not listed here is
+      // one the Dutch voice is left holding, in a Dutch accent.
+      ...spokenForms.keys,
       source.word,
       ...source.variants,
       source.example,
@@ -435,35 +456,36 @@ enum RespellingVoicing {
   probe,
 }
 
-/// The shape in use, and how it was settled.
+/// IPA for the handful of words [RespellingVoicing.probe] asks with, taken
+/// from Wiktionary's General American transcriptions.
 ///
-/// Tried on a Dutch phone running Google's Android engine, 2026-09-02, with
-/// the `[gloss-tts]` trace confirming the right string left the app each time.
+/// Only these few, because this is an experiment and not a data model. If the
+/// phone turns out to honour `<phoneme>`, IPA belongs in `words.json` for all
+/// 134 — it was already fetched once, for the audit in `spoken_forms.dart`'s
+/// sibling work — and every invented respelling substitution can go.
+const kProbeIpa = <String, String>{
+  'emendation': 'ˌiːmɛnˈdeɪʃən',
+  'edulcorate': 'əˈdʌlkəɹeɪt',
+  'pietistic': 'ˌpaɪɪˈtɪstɪk',
+  'hebetude': 'ˈhɛbətuːd',
+};
+
+/// The shape in use.
 ///
-/// `spaced`, `commas` and `sentences` were all reported wrong, and all three
-/// were the wrong question: a reading opens with the headword, and **the
-/// engine cannot say the headword**. `twice` sent nothing but
-/// `Pietistic. Pietistic.` and both came out "pi-e-stic". Gloss is a lexicon
-/// of rare words, so this is not one unlucky entry — the engine's dictionary
-/// holds almost none of them and its letter-to-sound rules invent a reading
-/// from the spelling. The respelling was never the disease; it is the cure the
-/// app already had, and `twice` was the one change that threw it away.
+/// [sub] ships: the page keeps the word and the voice is handed the
+/// respelling, which a device probe confirmed the engine honours.
 ///
-/// [probe] then asked the phone directly, and the answer was unambiguous:
+/// What that left behind is the respelling itself. Nineteen of the twenty-seven
+/// substitutions in `respelling.dart` are invented spellings — `eeh`, `ihh`,
+/// `ihhr` — each a bet about how one engine reads a string that is not a word.
+/// They were measured against Windows SAPI, and the phone disagreed: `eeh` came
+/// out "ee ee aitch" in *Emendation*. `ihh` stands to fail the same way, in
+/// thirteen more.
 ///
-/// - `<sub alias="pie uh tiss tik">Pietistic</sub>` — **correct**. The engine
-///   honours `<sub>`, so the page can keep the word and the voice be handed
-///   the respelling.
-/// - `pie uh tiss tik` on its own — also correct, which is the fallback and
-///   which confirms the substitution table in `respelling.dart` is doing its
-///   job.
-/// - `Pietistic` alone — wrong, as expected. That is the control.
-///
-/// So [sub] ships. It costs nothing on an engine that ignores `<sub>`, which
-/// speaks the inner text and leaves us exactly where we were, and
-/// `ssmlToPlainText` gives the alias to the engines that are not handed SSML
-/// at all.
-const kRespellingVoicing = RespellingVoicing.sub;
+/// [probe] asks the only question that would end that for good: whether the
+/// engine honours `<phoneme>`. If it does, IPA replaces every invented spelling
+/// and nothing has to guess again.
+const kRespellingVoicing = RespellingVoicing.probe;
 
 class WordCategory {
   const WordCategory({required this.id, required this.label});

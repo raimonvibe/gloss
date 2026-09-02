@@ -56,7 +56,7 @@ void main() {
       id: 'edulcorate',
       word: 'Edulcorate',
       partOfSpeech: 'verb',
-      pronunciation: 'ee-DUL-cor-ate',
+      pronunciation: 'ee-DUL-kuh-rate',
       definition: 'To sweeten or purify.',
       friendly: 'To take the bitterness out.',
       example: 'The editor edulcorated the review.',
@@ -76,7 +76,7 @@ void main() {
       ),
     );
     expect(localized.word, 'Edulcorate');
-    expect(localized.pronunciation, 'ee-DUL-cor-ate');
+    expect(localized.pronunciation, 'ee-DUL-kuh-rate');
     expect(localized.originWord, 'edulcorare');
     expect(localized.partOfSpeech, 'werkwoord');
     expect(localized.friendly, 'De bitterheid eruit halen.');
@@ -125,7 +125,7 @@ void main() {
     "word": "Edulcorate",
     "variants": [],
     "partOfSpeech": "verb",
-    "pronunciation": "ee-DUL-cor-ate",
+    "pronunciation": "ee-DUL-kuh-rate",
     "definition": "To sweeten.",
     "friendly": "To take the bitterness out.",
     "example": "The editor edulcorated the review.",
