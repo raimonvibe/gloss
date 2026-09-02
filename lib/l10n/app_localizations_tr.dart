@@ -489,4 +489,121 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Kaydedilen kelimeler temizlendi.';
+
+  @override
+  String get contactTitle => 'Yapımcıya yaz';
+
+  @override
+  String get contactCaption => 'bir mektup, dilersen';
+
+  @override
+  String get contactBlurb =>
+      'Gloss\'u tek bir kişi yapıyor. Aradığın bir kelime, bulduğun bir hata, hoşuna giden bir satır — hepsi aynı masaya ulaşır.';
+
+  @override
+  String get contactLetterSection => 'Mektup';
+
+  @override
+  String get contactName => 'Adın';
+
+  @override
+  String get contactNameHint => 'Sana seslenmek için kullanılacak ad';
+
+  @override
+  String get contactEmail => 'E-postan';
+
+  @override
+  String get contactEmailHint => 'Bir yanıtın seni bulabileceği yer';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '$domain mı demek istedin?';
+  }
+
+  @override
+  String get contactReason => 'Yazma nedeni';
+
+  @override
+  String get reasonWord => 'Eklenecek bir kelime';
+
+  @override
+  String get reasonProblem => 'Bir şey yanlış';
+
+  @override
+  String get reasonQuestion => 'Bir soru';
+
+  @override
+  String get reasonPraise => 'Geri bildirim';
+
+  @override
+  String get reasonOther => 'Başka bir şey';
+
+  @override
+  String get contactPriority => 'Ne kadar acil';
+
+  @override
+  String get priorityLow => 'Düşük';
+
+  @override
+  String get priorityNormal => 'Olağan';
+
+  @override
+  String get priorityHigh => 'Yüksek';
+
+  @override
+  String get contactMessage => 'Mesajın';
+
+  @override
+  String get contactMessageHint => 'İstediğin kadar uzun ya da kısa yaz…';
+
+  @override
+  String get contactHumanCheck => 'Göndermeden önce bir kelime';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Hangi anlam $word kelimesine ait?';
+  }
+
+  @override
+  String get contactHumanRetry => 'O değil. İşte başka bir kelime.';
+
+  @override
+  String get contactDetails => 'Uygulama bilgilerini ekle';
+
+  @override
+  String get contactDetailsCaption =>
+      'Sürüm, dil, ışık ve yazı boyutu; bir hata böylece daha çabuk bulunur.';
+
+  @override
+  String get contactSend => 'Mektubu gönder';
+
+  @override
+  String get contactCopyLetter => 'Mektubu kopyala';
+
+  @override
+  String get contactDraftRestored =>
+      'Burada gönderilmemiş bir mektup bekliyordu.';
+
+  @override
+  String get contactNoMailApp =>
+      'Hiçbir posta uygulaması yanıt vermedi, mektup panoda kaldı.';
+
+  @override
+  String get contactNeedName => 'Bir ad, ki yanıt kime seslendiğini bilsin.';
+
+  @override
+  String get contactNeedEmail => 'Bir yanıtın ulaşabileceği bir adres.';
+
+  @override
+  String get contactNeedMessage => 'Hiç değilse bir iki satır.';
+
+  @override
+  String get contactSent => 'Mektubun yolda. Teşekkürler.';
+
+  @override
+  String get contactSendFailed =>
+      'Mektup şu anda gönderilemedi. Panoda duruyor ve burada saklı kalıyor.';
+
+  @override
+  String get contactSendByMail => 'Bunun yerine bir posta uygulaması kullan';
 }

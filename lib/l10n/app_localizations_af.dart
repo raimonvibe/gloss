@@ -492,4 +492,122 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Bewaarde woorde skoongemaak.';
+
+  @override
+  String get contactTitle => 'Skryf aan die maker';
+
+  @override
+  String get contactCaption => '\'n brief, as jy wil';
+
+  @override
+  String get contactBlurb =>
+      'Gloss word deur een persoon gemaak. \'n Woord wat jy mis, \'n fout wat jy gekry het, \'n sin wat jou geval het — dit kom alles op dieselfde lessenaar.';
+
+  @override
+  String get contactLetterSection => 'Die brief';
+
+  @override
+  String get contactName => 'Jou naam';
+
+  @override
+  String get contactNameHint => 'Die naam waarmee jy gegroet word';
+
+  @override
+  String get contactEmail => 'Jou e-posadres';
+
+  @override
+  String get contactEmailHint => 'Waar \'n antwoord jou kan vind';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Het jy $domain bedoel?';
+  }
+
+  @override
+  String get contactReason => 'Rede vir skryf';
+
+  @override
+  String get reasonWord => '\'n Woord om by te voeg';
+
+  @override
+  String get reasonProblem => 'Iets is verkeerd';
+
+  @override
+  String get reasonQuestion => '\'n Vraag';
+
+  @override
+  String get reasonPraise => 'Terugvoer';
+
+  @override
+  String get reasonOther => 'Iets anders';
+
+  @override
+  String get contactPriority => 'Hoe dringend';
+
+  @override
+  String get priorityLow => 'Laag';
+
+  @override
+  String get priorityNormal => 'Normaal';
+
+  @override
+  String get priorityHigh => 'Hoog';
+
+  @override
+  String get contactMessage => 'Jou boodskap';
+
+  @override
+  String get contactMessageHint => 'Skryf soveel of so min soos jy wil…';
+
+  @override
+  String get contactHumanCheck => 'Nog een woord voor jy stuur';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Watter betekenis hoort by $word?';
+  }
+
+  @override
+  String get contactHumanRetry =>
+      'Nie daardie een nie. Hier is \'n ander woord.';
+
+  @override
+  String get contactDetails => 'Stuur programbesonderhede saam';
+
+  @override
+  String get contactDetailsCaption =>
+      'Weergawe, taal, lig en teksgrootte, sodat \'n fout makliker gevind word.';
+
+  @override
+  String get contactSend => 'Stuur die brief';
+
+  @override
+  String get contactCopyLetter => 'Kopieer die brief';
+
+  @override
+  String get contactDraftRestored => 'Hier het \'n ongestuurde brief gewag.';
+
+  @override
+  String get contactNoMailApp =>
+      'Geen e-posprogram het geantwoord nie, die brief is op jou knipbord.';
+
+  @override
+  String get contactNeedName =>
+      '\'n Naam, sodat \'n antwoord weet wie om te groet.';
+
+  @override
+  String get contactNeedEmail => '\'n Adres wat \'n antwoord kan bereik.';
+
+  @override
+  String get contactNeedMessage => 'Ten minste \'n reël of twee.';
+
+  @override
+  String get contactSent => 'Jou brief is op pad. Dankie.';
+
+  @override
+  String get contactSendFailed =>
+      'Die brief kon nou nie gestuur word nie. Dit is op jou knipbord en bly hier bewaar.';
+
+  @override
+  String get contactSendByMail => 'Gebruik eerder \'n e-posprogram';
 }

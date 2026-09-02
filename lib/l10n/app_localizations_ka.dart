@@ -489,4 +489,120 @@ class AppLocalizationsKa extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'შენახული სიტყვები გასუფთავდა.';
+
+  @override
+  String get contactTitle => 'მისწერეთ შემქმნელს';
+
+  @override
+  String get contactCaption => 'წერილი, თუ ისურვებთ';
+
+  @override
+  String get contactBlurb =>
+      'Gloss-ს ერთი ადამიანი აკეთებს. სიტყვა, რომელიც დაგაკლდათ, შეცდომა, რომელიც იპოვეთ, სტრიქონი, რომელიც მოგეწონათ — ყველაფერი ერთსა და იმავე მაგიდაზე მოდის.';
+
+  @override
+  String get contactLetterSection => 'წერილი';
+
+  @override
+  String get contactName => 'თქვენი სახელი';
+
+  @override
+  String get contactNameHint => 'სახელი, რომლითაც მოგმართავთ';
+
+  @override
+  String get contactEmail => 'თქვენი ელფოსტა';
+
+  @override
+  String get contactEmailHint => 'სადაც პასუხი გიპოვით';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'იქნებ $domain იგულისხმეთ?';
+  }
+
+  @override
+  String get contactReason => 'წერის მიზეზი';
+
+  @override
+  String get reasonWord => 'სიტყვა, რომელიც უნდა დაემატოს';
+
+  @override
+  String get reasonProblem => 'რაღაც არ არის რიგზე';
+
+  @override
+  String get reasonQuestion => 'კითხვა';
+
+  @override
+  String get reasonPraise => 'გამოხმაურება';
+
+  @override
+  String get reasonOther => 'სხვა რამ';
+
+  @override
+  String get contactPriority => 'რამდენად სასწრაფოა';
+
+  @override
+  String get priorityLow => 'დაბალი';
+
+  @override
+  String get priorityNormal => 'ჩვეულებრივი';
+
+  @override
+  String get priorityHigh => 'მაღალი';
+
+  @override
+  String get contactMessage => 'თქვენი შეტყობინება';
+
+  @override
+  String get contactMessageHint => 'დაწერეთ იმდენი, რამდენიც გსურთ…';
+
+  @override
+  String get contactHumanCheck => 'ერთი სიტყვა გაგზავნამდე';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'რომელი მნიშვნელობა ეკუთვნის სიტყვას $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'ეს არა. აი, სხვა სიტყვა.';
+
+  @override
+  String get contactDetails => 'დაერთოს აპლიკაციის მონაცემები';
+
+  @override
+  String get contactDetailsCaption =>
+      'ვერსია, ენა, სინათლე და ტექსტის ზომა, რომ შეცდომა უფრო სწრაფად მოიძებნოს.';
+
+  @override
+  String get contactSend => 'წერილის გაგზავნა';
+
+  @override
+  String get contactCopyLetter => 'წერილის კოპირება';
+
+  @override
+  String get contactDraftRestored => 'აქ გაუგზავნელი წერილი გელოდათ.';
+
+  @override
+  String get contactNoMailApp =>
+      'ფოსტის არცერთმა აპლიკაციამ არ უპასუხა, წერილი ბუფერში დარჩა.';
+
+  @override
+  String get contactNeedName => 'სახელი, რომ პასუხმა იცოდეს, ვის მიმართავს.';
+
+  @override
+  String get contactNeedEmail => 'მისამართი, რომელსაც პასუხი მიაღწევს.';
+
+  @override
+  String get contactNeedMessage => 'სულ მცირე ერთი-ორი სტრიქონი.';
+
+  @override
+  String get contactSent => 'თქვენი წერილი გზაშია. გმადლობთ.';
+
+  @override
+  String get contactSendFailed =>
+      'წერილი ახლა ვერ გაიგზავნა. ის ბუფერშია და აქვე ინახება.';
+
+  @override
+  String get contactSendByMail => 'სანაცვლოდ გამოიყენეთ ფოსტის აპლიკაცია';
 }

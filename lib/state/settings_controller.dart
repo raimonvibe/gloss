@@ -12,6 +12,7 @@ const _speechRateKey = 'beautiful-words:speech-rate';
 const _autoplayKey = 'beautiful-words:autoplay';
 const _reduceMotionKey = 'beautiful-words:reduce-motion';
 const _readTranslationKey = 'beautiful-words:read-translation';
+const _contactDraftKey = 'beautiful-words:contact-draft';
 
 /// Text can grow half again as large before the parchment cards start to
 /// clip; below 1.0 the Cormorant body face turns to grit.
@@ -112,6 +113,20 @@ class SettingsController extends ChangeNotifier {
     notifyListeners();
     await _prefs.setBool(_readTranslationKey, value);
   }
+
+  /// The unsent letter, as the contact page encoded it.
+  ///
+  /// A draft is not a setting: nothing watches it, and it is written on
+  /// every pause in the typing. So it is deliberately silent — a
+  /// `notifyListeners` here would rebuild the whole app between two
+  /// keystrokes. It lives on this controller only because this is where the
+  /// app's one [SharedPreferences] handle lives.
+  String? get contactDraft => _prefs.getString(_contactDraftKey);
+
+  Future<void> saveContactDraft(String encoded) =>
+      _prefs.setString(_contactDraftKey, encoded);
+
+  Future<void> clearContactDraft() => _prefs.remove(_contactDraftKey);
 
   static double _clamp(double value, double min, double max) =>
       value.isNaN ? min : value.clamp(min, max);

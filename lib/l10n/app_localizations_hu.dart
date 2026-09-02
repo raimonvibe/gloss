@@ -489,4 +489,121 @@ class AppLocalizationsHu extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Mentett szavak törölve.';
+
+  @override
+  String get contactTitle => 'Írj a készítőnek';
+
+  @override
+  String get contactCaption => 'egy levél, ha van kedved';
+
+  @override
+  String get contactBlurb =>
+      'A Glosst egyetlen ember készíti. Egy szó, ami hiányzott, egy hiba, amit megtaláltál, egy sor, ami tetszett — minden ugyanarra az asztalra érkezik.';
+
+  @override
+  String get contactLetterSection => 'A levél';
+
+  @override
+  String get contactName => 'A neved';
+
+  @override
+  String get contactNameHint => 'A név, amivel köszöntsünk';
+
+  @override
+  String get contactEmail => 'Az e-mail-címed';
+
+  @override
+  String get contactEmailHint => 'Ahol a válasz megtalál';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Erre gondoltál: $domain?';
+  }
+
+  @override
+  String get contactReason => 'Az írás oka';
+
+  @override
+  String get reasonWord => 'Egy szó, amit érdemes hozzátenni';
+
+  @override
+  String get reasonProblem => 'Valami nincs rendben';
+
+  @override
+  String get reasonQuestion => 'Egy kérdés';
+
+  @override
+  String get reasonPraise => 'Visszajelzés';
+
+  @override
+  String get reasonOther => 'Valami más';
+
+  @override
+  String get contactPriority => 'Mennyire sürgős';
+
+  @override
+  String get priorityLow => 'Alacsony';
+
+  @override
+  String get priorityNormal => 'Szokásos';
+
+  @override
+  String get priorityHigh => 'Magas';
+
+  @override
+  String get contactMessage => 'Az üzeneted';
+
+  @override
+  String get contactMessageHint =>
+      'Írj annyit vagy olyan keveset, amennyit szeretnél…';
+
+  @override
+  String get contactHumanCheck => 'Egy szó, mielőtt elküldöd';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Melyik jelentés tartozik ehhez: $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Nem az. Itt egy másik szó.';
+
+  @override
+  String get contactDetails => 'Az alkalmazás adatai is menjenek';
+
+  @override
+  String get contactDetailsCaption =>
+      'Verzió, nyelv, fény és betűméret, hogy egy hiba hamarabb meglegyen.';
+
+  @override
+  String get contactSend => 'Levél küldése';
+
+  @override
+  String get contactCopyLetter => 'Levél másolása';
+
+  @override
+  String get contactDraftRestored => 'Egy elküldetlen levél várt itt.';
+
+  @override
+  String get contactNoMailApp =>
+      'Egyetlen levelezőalkalmazás sem válaszolt, a levél a vágólapon maradt.';
+
+  @override
+  String get contactNeedName => 'Egy név, hogy a válasz tudja, kit köszöntsön.';
+
+  @override
+  String get contactNeedEmail => 'Egy cím, amit a válasz elér.';
+
+  @override
+  String get contactNeedMessage => 'Legalább egy-két sor.';
+
+  @override
+  String get contactSent => 'A leveled úton van. Köszönjük.';
+
+  @override
+  String get contactSendFailed =>
+      'A levelet most nem sikerült elküldeni. A vágólapon van, és itt is megmarad.';
+
+  @override
+  String get contactSendByMail => 'Használj helyette levelezőalkalmazást';
 }

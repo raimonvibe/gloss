@@ -489,4 +489,122 @@ class AppLocalizationsKm extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'ពាក្យដែលបានរក្សាទុកត្រូវបានសម្អាត។';
+
+  @override
+  String get contactTitle => 'សរសេរទៅអ្នកបង្កើត';
+
+  @override
+  String get contactCaption => 'សំបុត្រមួយ បើអ្នកចង់';
+
+  @override
+  String get contactBlurb =>
+      'Gloss ត្រូវបានធ្វើឡើងដោយមនុស្សតែម្នាក់។ ពាក្យដែលអ្នកខ្វះ កំហុសដែលអ្នករកឃើញ បន្ទាត់ដែលអ្នកចូលចិត្ត — ទាំងអស់មកដល់តុតែមួយ។';
+
+  @override
+  String get contactLetterSection => 'សំបុត្រ';
+
+  @override
+  String get contactName => 'ឈ្មោះរបស់អ្នក';
+
+  @override
+  String get contactNameHint => 'ឈ្មោះសម្រាប់ស្វាគមន៍អ្នក';
+
+  @override
+  String get contactEmail => 'អ៊ីមែលរបស់អ្នក';
+
+  @override
+  String get contactEmailHint => 'កន្លែងដែលចម្លើយអាចរកអ្នកឃើញ';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'តើអ្នកចង់និយាយថា $domain ឬ?';
+  }
+
+  @override
+  String get contactReason => 'មូលហេតុនៃការសរសេរ';
+
+  @override
+  String get reasonWord => 'ពាក្យមួយដែលគួរបន្ថែម';
+
+  @override
+  String get reasonProblem => 'មានអ្វីមួយមិនត្រឹមត្រូវ';
+
+  @override
+  String get reasonQuestion => 'សំណួរមួយ';
+
+  @override
+  String get reasonPraise => 'មតិយោបល់';
+
+  @override
+  String get reasonOther => 'រឿងផ្សេងទៀត';
+
+  @override
+  String get contactPriority => 'ប្រញាប់ប៉ុនណា';
+
+  @override
+  String get priorityLow => 'ទាប';
+
+  @override
+  String get priorityNormal => 'ធម្មតា';
+
+  @override
+  String get priorityHigh => 'ខ្ពស់';
+
+  @override
+  String get contactMessage => 'សាររបស់អ្នក';
+
+  @override
+  String get contactMessageHint => 'សរសេរវែងឬខ្លីតាមតែអ្នកចង់…';
+
+  @override
+  String get contactHumanCheck => 'ពាក្យមួយមុននឹងផ្ញើ';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'តើអត្ថន័យណាជារបស់ $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'មិនមែនអត្ថន័យនោះទេ។ នេះជាពាក្យមួយផ្សេងទៀត។';
+
+  @override
+  String get contactDetails => 'ភ្ជាប់ព័ត៌មានកម្មវិធី';
+
+  @override
+  String get contactDetailsCaption =>
+      'កំណែ ភាសា ពន្លឺ និងទំហំអក្សរ ដើម្បីរកកំហុសបានលឿនជាង។';
+
+  @override
+  String get contactSend => 'ផ្ញើសំបុត្រ';
+
+  @override
+  String get contactCopyLetter => 'ចម្លងសំបុត្រ';
+
+  @override
+  String get contactDraftRestored =>
+      'មានសំបុត្រមួយមិនទាន់ផ្ញើកំពុងរង់ចាំនៅទីនេះ។';
+
+  @override
+  String get contactNoMailApp =>
+      'គ្មានកម្មវិធីអ៊ីមែលណាឆ្លើយតបទេ ដូច្នេះសំបុត្រនៅក្នុងក្ដារតម្បៀតខ្ទាស់។';
+
+  @override
+  String get contactNeedName =>
+      'ឈ្មោះមួយ ដើម្បីឲ្យចម្លើយដឹងថាត្រូវស្វាគមន៍អ្នកណា។';
+
+  @override
+  String get contactNeedEmail => 'អាសយដ្ឋានមួយដែលចម្លើយអាចទៅដល់។';
+
+  @override
+  String get contactNeedMessage => 'យ៉ាងហោចណាស់មួយឬពីរបន្ទាត់។';
+
+  @override
+  String get contactSent => 'សំបុត្ររបស់អ្នកកំពុងធ្វើដំណើរ។ អរគុណ។';
+
+  @override
+  String get contactSendFailed =>
+      'សំបុត្រមិនអាចផ្ញើបានទេឥឡូវនេះ។ វានៅក្នុងក្ដារតម្បៀតខ្ទាស់ ហើយនៅរក្សាទុកទីនេះ។';
+
+  @override
+  String get contactSendByMail => 'ប្រើកម្មវិធីអ៊ីមែលជំនួសវិញ';
 }

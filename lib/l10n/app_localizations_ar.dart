@@ -488,4 +488,120 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'مُسحت الكلمات المحفوظة.';
+
+  @override
+  String get contactTitle => 'اكتب إلى صانع التطبيق';
+
+  @override
+  String get contactCaption => 'رسالة، إن شئت';
+
+  @override
+  String get contactBlurb =>
+      'يصنع Gloss شخص واحد. كلمة افتقدتها، خطأ وجدته، سطر أعجبك — كل ذلك يصل إلى المكتب نفسه.';
+
+  @override
+  String get contactLetterSection => 'الرسالة';
+
+  @override
+  String get contactName => 'اسمك';
+
+  @override
+  String get contactNameHint => 'الاسم الذي نحييك به';
+
+  @override
+  String get contactEmail => 'بريدك الإلكتروني';
+
+  @override
+  String get contactEmailHint => 'حيث يجدك الرد';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'هل قصدت $domain؟';
+  }
+
+  @override
+  String get contactReason => 'سبب الكتابة';
+
+  @override
+  String get reasonWord => 'كلمة تستحق الإضافة';
+
+  @override
+  String get reasonProblem => 'هناك خطأ ما';
+
+  @override
+  String get reasonQuestion => 'سؤال';
+
+  @override
+  String get reasonPraise => 'ملاحظات';
+
+  @override
+  String get reasonOther => 'شيء آخر';
+
+  @override
+  String get contactPriority => 'ما مدى الاستعجال';
+
+  @override
+  String get priorityLow => 'منخفض';
+
+  @override
+  String get priorityNormal => 'عادي';
+
+  @override
+  String get priorityHigh => 'مرتفع';
+
+  @override
+  String get contactMessage => 'رسالتك';
+
+  @override
+  String get contactMessageHint => 'اكتب ما شئت، طال أو قصر…';
+
+  @override
+  String get contactHumanCheck => 'كلمة قبل الإرسال';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'أي معنى ينتمي إلى $word؟';
+  }
+
+  @override
+  String get contactHumanRetry => 'ليس هذا. إليك كلمة أخرى.';
+
+  @override
+  String get contactDetails => 'أرفق تفاصيل التطبيق';
+
+  @override
+  String get contactDetailsCaption =>
+      'الإصدار واللغة والإضاءة وحجم النص، ليُعثر على الخطأ أسرع.';
+
+  @override
+  String get contactSend => 'أرسل الرسالة';
+
+  @override
+  String get contactCopyLetter => 'انسخ الرسالة';
+
+  @override
+  String get contactDraftRestored => 'كانت هنا رسالة لم تُرسل.';
+
+  @override
+  String get contactNoMailApp =>
+      'لم يستجب أي تطبيق بريد، فبقيت الرسالة في الحافظة.';
+
+  @override
+  String get contactNeedName => 'اسم، ليعرف الرد بمن يبدأ.';
+
+  @override
+  String get contactNeedEmail => 'عنوان يستطيع الرد بلوغه.';
+
+  @override
+  String get contactNeedMessage => 'سطر أو سطران على الأقل.';
+
+  @override
+  String get contactSent => 'رسالتك في طريقها. شكرًا لك.';
+
+  @override
+  String get contactSendFailed =>
+      'تعذّر إرسال الرسالة الآن. هي في الحافظة ومحفوظة هنا أيضًا.';
+
+  @override
+  String get contactSendByMail => 'استخدم تطبيق بريد بدلاً من ذلك';
 }

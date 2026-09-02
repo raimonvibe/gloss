@@ -486,4 +486,120 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Պահպանված բառերը մաքրվեցին։';
+
+  @override
+  String get contactTitle => 'Գրեք ստեղծողին';
+
+  @override
+  String get contactCaption => 'նամակ, եթե ցանկանում եք';
+
+  @override
+  String get contactBlurb =>
+      'Gloss-ը պատրաստում է մեկ մարդ։ Բառ, որը պակասեց, սխալ, որ գտաք, տող, որ դուր եկավ — ամեն ինչ հասնում է նույն սեղանին։';
+
+  @override
+  String get contactLetterSection => 'Նամակը';
+
+  @override
+  String get contactName => 'Ձեր անունը';
+
+  @override
+  String get contactNameHint => 'Անունը, որով դիմենք ձեզ';
+
+  @override
+  String get contactEmail => 'Ձեր էլ․ փոստը';
+
+  @override
+  String get contactEmailHint => 'Այնտեղ, որտեղ պատասխանը կգտնի ձեզ';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Գուցե նկատի ունեիք $domain։';
+  }
+
+  @override
+  String get contactReason => 'Գրելու պատճառը';
+
+  @override
+  String get reasonWord => 'Բառ, որ արժե ավելացնել';
+
+  @override
+  String get reasonProblem => 'Ինչ-որ բան այնպես չէ';
+
+  @override
+  String get reasonQuestion => 'Հարց';
+
+  @override
+  String get reasonPraise => 'Կարծիք';
+
+  @override
+  String get reasonOther => 'Այլ բան';
+
+  @override
+  String get contactPriority => 'Որքան հրատապ';
+
+  @override
+  String get priorityLow => 'Ցածր';
+
+  @override
+  String get priorityNormal => 'Սովորական';
+
+  @override
+  String get priorityHigh => 'Բարձր';
+
+  @override
+  String get contactMessage => 'Ձեր հաղորդագրությունը';
+
+  @override
+  String get contactMessageHint => 'Գրեք այնքան, որքան ուզում եք…';
+
+  @override
+  String get contactHumanCheck => 'Մեկ բառ ուղարկելուց առաջ';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Ո՞ր իմաստն է պատկանում $word բառին։';
+  }
+
+  @override
+  String get contactHumanRetry => 'Այն չէ։ Ահա մեկ այլ բառ։';
+
+  @override
+  String get contactDetails => 'Կցել հավելվածի տվյալները';
+
+  @override
+  String get contactDetailsCaption =>
+      'Տարբերակ, լեզու, լույս և տառաչափ, որ սխալն ավելի շուտ գտնվի։';
+
+  @override
+  String get contactSend => 'Ուղարկել նամակը';
+
+  @override
+  String get contactCopyLetter => 'Պատճենել նամակը';
+
+  @override
+  String get contactDraftRestored => 'Այստեղ սպասում էր չուղարկված նամակ։';
+
+  @override
+  String get contactNoMailApp =>
+      'Ոչ մի փոստի հավելված չպատասխանեց, նամակը մնաց սեղմատախտակին։';
+
+  @override
+  String get contactNeedName => 'Անուն, որ պատասխանն իմանա՝ ում է դիմում։';
+
+  @override
+  String get contactNeedEmail => 'Հասցե, ուր պատասխանը կհասնի։';
+
+  @override
+  String get contactNeedMessage => 'Գոնե մեկ-երկու տող։';
+
+  @override
+  String get contactSent => 'Ձեր նամակը ճանապարհին է։ Շնորհակալություն։';
+
+  @override
+  String get contactSendFailed =>
+      'Նամակը հիմա չուղարկվեց։ Այն սեղմատախտակին է և պահվում է այստեղ։';
+
+  @override
+  String get contactSendByMail => 'Փոխարենը օգտագործեք փոստի հավելված';
 }

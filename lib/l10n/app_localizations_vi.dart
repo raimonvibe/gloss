@@ -489,4 +489,120 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Đã xóa các từ đã lưu.';
+
+  @override
+  String get contactTitle => 'Viết cho người làm ra Gloss';
+
+  @override
+  String get contactCaption => 'một lá thư, nếu bạn muốn';
+
+  @override
+  String get contactBlurb =>
+      'Gloss do một người làm ra. Một từ bạn thấy thiếu, một lỗi bạn tìm thấy, một dòng bạn thích — tất cả đều đến cùng một bàn viết.';
+
+  @override
+  String get contactLetterSection => 'Lá thư';
+
+  @override
+  String get contactName => 'Tên bạn';
+
+  @override
+  String get contactNameHint => 'Tên để chào bạn';
+
+  @override
+  String get contactEmail => 'Email của bạn';
+
+  @override
+  String get contactEmailHint => 'Nơi thư trả lời tìm được bạn';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Bạn định viết $domain phải không?';
+  }
+
+  @override
+  String get contactReason => 'Lý do viết';
+
+  @override
+  String get reasonWord => 'Một từ nên thêm vào';
+
+  @override
+  String get reasonProblem => 'Có gì đó không ổn';
+
+  @override
+  String get reasonQuestion => 'Một câu hỏi';
+
+  @override
+  String get reasonPraise => 'Góp ý';
+
+  @override
+  String get reasonOther => 'Chuyện khác';
+
+  @override
+  String get contactPriority => 'Gấp đến đâu';
+
+  @override
+  String get priorityLow => 'Thấp';
+
+  @override
+  String get priorityNormal => 'Bình thường';
+
+  @override
+  String get priorityHigh => 'Cao';
+
+  @override
+  String get contactMessage => 'Lời nhắn của bạn';
+
+  @override
+  String get contactMessageHint => 'Viết dài hay ngắn tuỳ bạn…';
+
+  @override
+  String get contactHumanCheck => 'Một từ trước khi gửi';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Nghĩa nào thuộc về $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Không phải nghĩa đó. Đây là một từ khác.';
+
+  @override
+  String get contactDetails => 'Gửi kèm thông tin ứng dụng';
+
+  @override
+  String get contactDetailsCaption =>
+      'Phiên bản, ngôn ngữ, ánh sáng và cỡ chữ, để tìm ra lỗi nhanh hơn.';
+
+  @override
+  String get contactSend => 'Gửi lá thư';
+
+  @override
+  String get contactCopyLetter => 'Sao chép lá thư';
+
+  @override
+  String get contactDraftRestored => 'Ở đây còn một lá thư chưa gửi.';
+
+  @override
+  String get contactNoMailApp =>
+      'Không ứng dụng thư nào đáp lời, nên lá thư nằm trong bộ nhớ tạm.';
+
+  @override
+  String get contactNeedName => 'Một cái tên, để thư trả lời biết chào ai.';
+
+  @override
+  String get contactNeedEmail => 'Một địa chỉ mà thư trả lời tới được.';
+
+  @override
+  String get contactNeedMessage => 'Ít nhất một hai dòng.';
+
+  @override
+  String get contactSent => 'Lá thư của bạn đang trên đường. Cảm ơn bạn.';
+
+  @override
+  String get contactSendFailed =>
+      'Lá thư chưa gửi được lúc này. Nó nằm trong bộ nhớ tạm và vẫn được giữ ở đây.';
+
+  @override
+  String get contactSendByMail => 'Dùng ứng dụng thư thay thế';
 }

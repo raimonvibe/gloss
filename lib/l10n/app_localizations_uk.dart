@@ -489,4 +489,121 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Збережені слова очищено.';
+
+  @override
+  String get contactTitle => 'Написати авторові';
+
+  @override
+  String get contactCaption => 'лист, якщо ваша ласка';
+
+  @override
+  String get contactBlurb =>
+      'Gloss робить одна людина. Слово, якого вам бракує, знайдена помилка, рядок, що сподобався — усе потрапляє на той самий стіл.';
+
+  @override
+  String get contactLetterSection => 'Лист';
+
+  @override
+  String get contactName => 'Ваше ім\'я';
+
+  @override
+  String get contactNameHint => 'Ім\'я, яким до вас звертатися';
+
+  @override
+  String get contactEmail => 'Ваша пошта';
+
+  @override
+  String get contactEmailHint => 'Куди надійде відповідь';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Ви мали на увазі $domain?';
+  }
+
+  @override
+  String get contactReason => 'Причина листа';
+
+  @override
+  String get reasonWord => 'Слово, яке варто додати';
+
+  @override
+  String get reasonProblem => 'Щось не так';
+
+  @override
+  String get reasonQuestion => 'Запитання';
+
+  @override
+  String get reasonPraise => 'Відгук';
+
+  @override
+  String get reasonOther => 'Щось інше';
+
+  @override
+  String get contactPriority => 'Наскільки терміново';
+
+  @override
+  String get priorityLow => 'Низька';
+
+  @override
+  String get priorityNormal => 'Звичайна';
+
+  @override
+  String get priorityHigh => 'Висока';
+
+  @override
+  String get contactMessage => 'Ваше повідомлення';
+
+  @override
+  String get contactMessageHint => 'Пишіть стільки, скільки забажаєте…';
+
+  @override
+  String get contactHumanCheck => 'Одне слово перед надсиланням';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Яке значення належить слову $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Не це. Ось інше слово.';
+
+  @override
+  String get contactDetails => 'Додати відомості про застосунок';
+
+  @override
+  String get contactDetailsCaption =>
+      'Версія, мова, світло та розмір тексту — так помилку знайти легше.';
+
+  @override
+  String get contactSend => 'Надіслати лист';
+
+  @override
+  String get contactCopyLetter => 'Скопіювати лист';
+
+  @override
+  String get contactDraftRestored => 'Тут чекав ненадісланий лист.';
+
+  @override
+  String get contactNoMailApp =>
+      'Поштовий застосунок не відповів, тож лист лишився в буфері обміну.';
+
+  @override
+  String get contactNeedName =>
+      'Ім\'я, щоб відповідь знала, до кого звертається.';
+
+  @override
+  String get contactNeedEmail => 'Адреса, до якої дійде відповідь.';
+
+  @override
+  String get contactNeedMessage => 'Хоча б рядок або два.';
+
+  @override
+  String get contactSent => 'Ваш лист у дорозі. Дякуємо.';
+
+  @override
+  String get contactSendFailed =>
+      'Лист зараз не надіслався. Він у буфері обміну й лишився тут.';
+
+  @override
+  String get contactSendByMail => 'Надіслати через поштовий застосунок';
 }

@@ -489,4 +489,121 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'सहेजे शब्द मिटा दिए गए।';
+
+  @override
+  String get contactTitle => 'रचयिता को लिखें';
+
+  @override
+  String get contactCaption => 'चाहें तो एक चिट्ठी';
+
+  @override
+  String get contactBlurb =>
+      'Gloss एक ही व्यक्ति बनाता है। जो शब्द आपको नहीं मिला, जो चूक आपने पकड़ी, जो पंक्ति आपको भाई — सब एक ही मेज़ तक पहुँचता है।';
+
+  @override
+  String get contactLetterSection => 'चिट्ठी';
+
+  @override
+  String get contactName => 'आपका नाम';
+
+  @override
+  String get contactNameHint => 'जिस नाम से आपको पुकारें';
+
+  @override
+  String get contactEmail => 'आपका ईमेल';
+
+  @override
+  String get contactEmailHint => 'जहाँ उत्तर आप तक पहुँचे';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'क्या आपका मतलब $domain था?';
+  }
+
+  @override
+  String get contactReason => 'लिखने का कारण';
+
+  @override
+  String get reasonWord => 'जोड़ने योग्य एक शब्द';
+
+  @override
+  String get reasonProblem => 'कुछ ठीक नहीं है';
+
+  @override
+  String get reasonQuestion => 'एक प्रश्न';
+
+  @override
+  String get reasonPraise => 'प्रतिक्रिया';
+
+  @override
+  String get reasonOther => 'कुछ और';
+
+  @override
+  String get contactPriority => 'कितना ज़रूरी';
+
+  @override
+  String get priorityLow => 'कम';
+
+  @override
+  String get priorityNormal => 'सामान्य';
+
+  @override
+  String get priorityHigh => 'अधिक';
+
+  @override
+  String get contactMessage => 'आपका संदेश';
+
+  @override
+  String get contactMessageHint => 'जितना चाहें उतना लिखें, या थोड़ा ही…';
+
+  @override
+  String get contactHumanCheck => 'भेजने से पहले एक शब्द';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word का अर्थ इनमें से कौन-सा है?';
+  }
+
+  @override
+  String get contactHumanRetry => 'वह नहीं। यह लीजिए दूसरा शब्द।';
+
+  @override
+  String get contactDetails => 'ऐप का विवरण साथ भेजें';
+
+  @override
+  String get contactDetailsCaption =>
+      'संस्करण, भाषा, रोशनी और अक्षर का आकार, ताकि चूक जल्दी मिले।';
+
+  @override
+  String get contactSend => 'चिट्ठी भेजें';
+
+  @override
+  String get contactCopyLetter => 'चिट्ठी कॉपी करें';
+
+  @override
+  String get contactDraftRestored => 'यहाँ एक बिन भेजी चिट्ठी रखी थी।';
+
+  @override
+  String get contactNoMailApp =>
+      'किसी मेल ऐप ने उत्तर नहीं दिया, इसलिए चिट्ठी क्लिपबोर्ड में है।';
+
+  @override
+  String get contactNeedName =>
+      'एक नाम, ताकि उत्तर जान सके किसे संबोधित करना है।';
+
+  @override
+  String get contactNeedEmail => 'एक पता जहाँ उत्तर पहुँच सके।';
+
+  @override
+  String get contactNeedMessage => 'कम से कम एक-दो पंक्तियाँ।';
+
+  @override
+  String get contactSent => 'आपकी चिट्ठी रास्ते में है। धन्यवाद।';
+
+  @override
+  String get contactSendFailed =>
+      'चिट्ठी अभी भेजी नहीं जा सकी। वह क्लिपबोर्ड में है और यहाँ भी रखी है।';
+
+  @override
+  String get contactSendByMail => 'इसके बजाय मेल ऐप इस्तेमाल करें';
 }

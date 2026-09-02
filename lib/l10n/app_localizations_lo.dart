@@ -486,4 +486,120 @@ class AppLocalizationsLo extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'ລຶບຄຳທີ່ບັນທຶກໄວ້ແລ້ວ.';
+
+  @override
+  String get contactTitle => 'ຂຽນເຖິງຜູ້ສ້າງ';
+
+  @override
+  String get contactCaption => 'ຈົດໝາຍສະບັບໜຶ່ງ ຖ້າທ່ານຢາກ';
+
+  @override
+  String get contactBlurb =>
+      'Gloss ສ້າງຂຶ້ນໂດຍຄົນຜູ້ດຽວ. ຄຳທີ່ທ່ານຄິດຮອດ, ຂໍ້ຜິດພາດທີ່ທ່ານພົບ, ແຖວທີ່ທ່ານມັກ — ທັງໝົດມາເຖິງໂຕະດຽວກັນ.';
+
+  @override
+  String get contactLetterSection => 'ຈົດໝາຍ';
+
+  @override
+  String get contactName => 'ຊື່ຂອງທ່ານ';
+
+  @override
+  String get contactNameHint => 'ຊື່ທີ່ໃຊ້ທັກທາຍທ່ານ';
+
+  @override
+  String get contactEmail => 'ອີເມວຂອງທ່ານ';
+
+  @override
+  String get contactEmailHint => 'ບ່ອນທີ່ຄຳຕອບຈະໄປເຖິງທ່ານ';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'ທ່ານໝາຍເຖິງ $domain ບໍ?';
+  }
+
+  @override
+  String get contactReason => 'ເຫດຜົນທີ່ຂຽນ';
+
+  @override
+  String get reasonWord => 'ຄຳໜຶ່ງທີ່ຄວນເພີ່ມ';
+
+  @override
+  String get reasonProblem => 'ມີບາງຢ່າງບໍ່ຖືກຕ້ອງ';
+
+  @override
+  String get reasonQuestion => 'ຄຳຖາມ';
+
+  @override
+  String get reasonPraise => 'ຄຳຕິຊົມ';
+
+  @override
+  String get reasonOther => 'ເລື່ອງອື່ນ';
+
+  @override
+  String get contactPriority => 'ຮີບດ່ວນປານໃດ';
+
+  @override
+  String get priorityLow => 'ຕໍ່າ';
+
+  @override
+  String get priorityNormal => 'ທຳມະດາ';
+
+  @override
+  String get priorityHigh => 'ສູງ';
+
+  @override
+  String get contactMessage => 'ຂໍ້ຄວາມຂອງທ່ານ';
+
+  @override
+  String get contactMessageHint => 'ຂຽນຍາວຫຼືສັ້ນຕາມໃຈທ່ານ…';
+
+  @override
+  String get contactHumanCheck => 'ອີກຄຳໜຶ່ງກ່ອນສົ່ງ';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'ຄວາມໝາຍໃດເປັນຂອງ $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'ບໍ່ແມ່ນຄຳນັ້ນ. ນີ້ແມ່ນອີກຄຳໜຶ່ງ.';
+
+  @override
+  String get contactDetails => 'ແນບຂໍ້ມູນຂອງແອັບ';
+
+  @override
+  String get contactDetailsCaption =>
+      'ລຸ້ນ, ພາສາ, ແສງ ແລະ ຂະໜາດຕົວອັກສອນ, ເພື່ອຫາຂໍ້ຜິດພາດໄດ້ໄວຂຶ້ນ.';
+
+  @override
+  String get contactSend => 'ສົ່ງຈົດໝາຍ';
+
+  @override
+  String get contactCopyLetter => 'ສຳເນົາຈົດໝາຍ';
+
+  @override
+  String get contactDraftRestored => 'ມີຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ສົ່ງລໍຖ້າຢູ່ນີ້.';
+
+  @override
+  String get contactNoMailApp =>
+      'ບໍ່ມີແອັບອີເມວຕອບຮັບ, ຈົດໝາຍຈຶ່ງຢູ່ໃນຄລິບບອດ.';
+
+  @override
+  String get contactNeedName => 'ຊື່ໜຶ່ງ ເພື່ອໃຫ້ຄຳຕອບຮູ້ວ່າຈະທັກໃຜ.';
+
+  @override
+  String get contactNeedEmail => 'ທີ່ຢູ່ທີ່ຄຳຕອບໄປເຖິງໄດ້.';
+
+  @override
+  String get contactNeedMessage => 'ຢ່າງໜ້ອຍໜຶ່ງຫຼືສອງແຖວ.';
+
+  @override
+  String get contactSent => 'ຈົດໝາຍຂອງທ່ານກຳລັງເດີນທາງ. ຂອບໃຈ.';
+
+  @override
+  String get contactSendFailed =>
+      'ຕອນນີ້ສົ່ງຈົດໝາຍບໍ່ໄດ້. ມັນຢູ່ໃນຄລິບບອດ ແລະ ຍັງເກັບໄວ້ນີ້.';
+
+  @override
+  String get contactSendByMail => 'ໃຊ້ແອັບອີເມວແທນ';
 }

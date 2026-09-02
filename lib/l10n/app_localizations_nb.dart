@@ -489,4 +489,120 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Lagrede ord tømt.';
+
+  @override
+  String get contactTitle => 'Skriv til skaperen';
+
+  @override
+  String get contactCaption => 'et brev, om du vil';
+
+  @override
+  String get contactBlurb =>
+      'Gloss lages av én person. Et ord du savner, en feil du fant, en linje du likte — alt havner på det samme skrivebordet.';
+
+  @override
+  String get contactLetterSection => 'Brevet';
+
+  @override
+  String get contactName => 'Navnet ditt';
+
+  @override
+  String get contactNameHint => 'Navnet du skal hilses med';
+
+  @override
+  String get contactEmail => 'E-posten din';
+
+  @override
+  String get contactEmailHint => 'Der et svar kan finne deg';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Mente du $domain?';
+  }
+
+  @override
+  String get contactReason => 'Grunn til å skrive';
+
+  @override
+  String get reasonWord => 'Et ord å legge til';
+
+  @override
+  String get reasonProblem => 'Noe er galt';
+
+  @override
+  String get reasonQuestion => 'Et spørsmål';
+
+  @override
+  String get reasonPraise => 'Tilbakemelding';
+
+  @override
+  String get reasonOther => 'Noe annet';
+
+  @override
+  String get contactPriority => 'Hvor mye haster det';
+
+  @override
+  String get priorityLow => 'Lav';
+
+  @override
+  String get priorityNormal => 'Normal';
+
+  @override
+  String get priorityHigh => 'Høy';
+
+  @override
+  String get contactMessage => 'Meldingen din';
+
+  @override
+  String get contactMessageHint => 'Skriv så mye eller så lite du vil…';
+
+  @override
+  String get contactHumanCheck => 'Et ord før du sender';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Hvilken betydning hører til $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ikke den. Her er et annet ord.';
+
+  @override
+  String get contactDetails => 'Send med app-detaljer';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versjon, språk, lys og tekststørrelse, så en feil er lettere å finne.';
+
+  @override
+  String get contactSend => 'Send brevet';
+
+  @override
+  String get contactCopyLetter => 'Kopier brevet';
+
+  @override
+  String get contactDraftRestored => 'Her lå et usendt brev.';
+
+  @override
+  String get contactNoMailApp =>
+      'Ingen e-postapp svarte, så brevet ligger på utklippstavlen.';
+
+  @override
+  String get contactNeedName => 'Et navn, så svaret vet hvem det hilser på.';
+
+  @override
+  String get contactNeedEmail => 'En adresse et svar kan nå.';
+
+  @override
+  String get contactNeedMessage => 'Minst en linje eller to.';
+
+  @override
+  String get contactSent => 'Brevet ditt er på vei. Takk.';
+
+  @override
+  String get contactSendFailed =>
+      'Brevet kunne ikke sendes akkurat nå. Det ligger på utklippstavlen og blir liggende her.';
+
+  @override
+  String get contactSendByMail => 'Bruk en e-postapp i stedet';
 }

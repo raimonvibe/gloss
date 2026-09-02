@@ -488,4 +488,120 @@ class AppLocalizationsIs extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Vistuð orð hreinsuð.';
+
+  @override
+  String get contactTitle => 'Skrifaðu höfundinum';
+
+  @override
+  String get contactCaption => 'bréf, ef þú vilt';
+
+  @override
+  String get contactBlurb =>
+      'Gloss er gert af einni manneskju. Orð sem þig vantar, villa sem þú fannst, lína sem þér líkaði — allt berst á sama skrifborðið.';
+
+  @override
+  String get contactLetterSection => 'Bréfið';
+
+  @override
+  String get contactName => 'Nafnið þitt';
+
+  @override
+  String get contactNameHint => 'Nafnið sem þú vilt vera ávarpaður með';
+
+  @override
+  String get contactEmail => 'Netfangið þitt';
+
+  @override
+  String get contactEmailHint => 'Þar sem svar finnur þig';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Áttir þú við $domain?';
+  }
+
+  @override
+  String get contactReason => 'Ástæða skrifanna';
+
+  @override
+  String get reasonWord => 'Orð til að bæta við';
+
+  @override
+  String get reasonProblem => 'Eitthvað er að';
+
+  @override
+  String get reasonQuestion => 'Spurning';
+
+  @override
+  String get reasonPraise => 'Umsögn';
+
+  @override
+  String get reasonOther => 'Eitthvað annað';
+
+  @override
+  String get contactPriority => 'Hversu brýnt';
+
+  @override
+  String get priorityLow => 'Lágt';
+
+  @override
+  String get priorityNormal => 'Venjulegt';
+
+  @override
+  String get priorityHigh => 'Hátt';
+
+  @override
+  String get contactMessage => 'Skilaboðin þín';
+
+  @override
+  String get contactMessageHint => 'Skrifaðu eins mikið eða lítið og þú vilt…';
+
+  @override
+  String get contactHumanCheck => 'Eitt orð áður en þú sendir';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Hvaða merking tilheyrir $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ekki sú. Hér er annað orð.';
+
+  @override
+  String get contactDetails => 'Senda upplýsingar um forritið með';
+
+  @override
+  String get contactDetailsCaption =>
+      'Útgáfa, tungumál, birta og leturstærð, svo villa finnist fyrr.';
+
+  @override
+  String get contactSend => 'Senda bréfið';
+
+  @override
+  String get contactCopyLetter => 'Afrita bréfið';
+
+  @override
+  String get contactDraftRestored => 'Hér beið ósent bréf.';
+
+  @override
+  String get contactNoMailApp =>
+      'Ekkert póstforrit svaraði, bréfið er á klippiborðinu.';
+
+  @override
+  String get contactNeedName => 'Nafn, svo svarið viti hvern það ávarpar.';
+
+  @override
+  String get contactNeedEmail => 'Netfang sem svar nær til.';
+
+  @override
+  String get contactNeedMessage => 'Að minnsta kosti lína eða tvær.';
+
+  @override
+  String get contactSent => 'Bréfið þitt er á leiðinni. Takk.';
+
+  @override
+  String get contactSendFailed =>
+      'Bréfið sendist ekki í augnablikinu. Það er á klippiborðinu og geymist hér.';
+
+  @override
+  String get contactSendByMail => 'Nota póstforrit í staðinn';
 }

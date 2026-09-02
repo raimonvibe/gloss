@@ -280,5 +280,55 @@
   "forget": "Forget",
   "clear": "Clear",
   "progressForgotten": "Progress forgotten.",
-  "savedWordsCleared": "Saved words cleared."
+  "savedWordsCleared": "Saved words cleared.",
+  "contactTitle": "Write to the maker",
+  "contactCaption": "a letter, if you would",
+  "contactBlurb": "Gloss is made by one person. A word you miss, a fault you found, a line you liked — it all reaches the same desk.",
+  "contactLetterSection": "The letter",
+  "contactName": "Your name",
+  "contactNameHint": "The name to greet you by",
+  "contactEmail": "Your email",
+  "contactEmailHint": "Where a reply can find you",
+  "contactEmailTypo": "Did you mean {domain}?",
+  "@contactEmailTypo": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "contactReason": "Reason for writing",
+  "reasonWord": "A word to add",
+  "reasonProblem": "Something is wrong",
+  "reasonQuestion": "A question",
+  "reasonPraise": "Feedback",
+  "reasonOther": "Something else",
+  "contactPriority": "How pressing",
+  "priorityLow": "Low",
+  "priorityNormal": "Normal",
+  "priorityHigh": "High",
+  "contactMessage": "Your message",
+  "contactMessageHint": "Write as much or as little as you like…",
+  "contactHumanCheck": "A word before you send",
+  "contactHumanQuestion": "Which meaning belongs to {word}?",
+  "@contactHumanQuestion": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "contactHumanRetry": "Not that one. Here is another word.",
+  "contactDetails": "Include app details",
+  "contactDetailsCaption": "Version, language, light and text size, so a fault is easier to find.",
+  "contactSend": "Send the letter",
+  "contactCopyLetter": "Copy the letter",
+  "contactDraftRestored": "An unsent letter was waiting here.",
+  "contactNoMailApp": "No mail app answered, so the letter is on your clipboard.",
+  "contactNeedName": "A name, so a reply knows whom to greet.",
+  "contactNeedEmail": "An address a reply can reach.",
+  "contactNeedMessage": "A line or two, at least.",
+  "contactSent": "Your letter is on its way. Thank you.",
+  "contactSendFailed": "The letter would not send just now. It is on your clipboard, and kept here.",
+  "contactSendByMail": "Use a mail app instead"
 }

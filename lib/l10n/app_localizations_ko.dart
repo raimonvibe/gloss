@@ -484,4 +484,118 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get savedWordsCleared => '저장한 낱말을 지웠습니다.';
+
+  @override
+  String get contactTitle => '만든 사람에게 편지 쓰기';
+
+  @override
+  String get contactCaption => '괜찮으시다면, 편지 한 통';
+
+  @override
+  String get contactBlurb =>
+      'Gloss는 한 사람이 만듭니다. 아쉬웠던 낱말, 찾아낸 오류, 마음에 든 한 줄 — 모두 같은 책상에 닿습니다.';
+
+  @override
+  String get contactLetterSection => '편지';
+
+  @override
+  String get contactName => '이름';
+
+  @override
+  String get contactNameHint => '불러 드릴 이름';
+
+  @override
+  String get contactEmail => '이메일';
+
+  @override
+  String get contactEmailHint => '답장이 닿을 곳';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '$domain을(를) 뜻하셨나요?';
+  }
+
+  @override
+  String get contactReason => '쓰시는 이유';
+
+  @override
+  String get reasonWord => '보태고 싶은 낱말';
+
+  @override
+  String get reasonProblem => '무언가 잘못되었어요';
+
+  @override
+  String get reasonQuestion => '질문';
+
+  @override
+  String get reasonPraise => '의견';
+
+  @override
+  String get reasonOther => '그 밖의 일';
+
+  @override
+  String get contactPriority => '얼마나 급한지';
+
+  @override
+  String get priorityLow => '낮음';
+
+  @override
+  String get priorityNormal => '보통';
+
+  @override
+  String get priorityHigh => '높음';
+
+  @override
+  String get contactMessage => '보내실 말씀';
+
+  @override
+  String get contactMessageHint => '길게든 짧게든, 원하시는 만큼 쓰세요…';
+
+  @override
+  String get contactHumanCheck => '보내기 전에 한 낱말';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word에 어울리는 뜻은 무엇일까요?';
+  }
+
+  @override
+  String get contactHumanRetry => '그건 아니에요. 다른 낱말을 드릴게요.';
+
+  @override
+  String get contactDetails => '앱 정보 함께 보내기';
+
+  @override
+  String get contactDetailsCaption =>
+      '버전, 언어, 빛, 글자 크기 — 문제를 더 빨리 찾는 데 도움이 됩니다.';
+
+  @override
+  String get contactSend => '편지 보내기';
+
+  @override
+  String get contactCopyLetter => '편지 복사';
+
+  @override
+  String get contactDraftRestored => '보내지 않은 편지가 남아 있었어요.';
+
+  @override
+  String get contactNoMailApp => '메일 앱이 응답하지 않아, 편지는 클립보드에 있습니다.';
+
+  @override
+  String get contactNeedName => '이름을 남겨 주세요. 답장이 누구를 부를지 알도록.';
+
+  @override
+  String get contactNeedEmail => '답장이 닿을 주소를 남겨 주세요.';
+
+  @override
+  String get contactNeedMessage => '적어도 한두 줄은요.';
+
+  @override
+  String get contactSent => '편지가 전해지는 중입니다. 고맙습니다.';
+
+  @override
+  String get contactSendFailed => '지금은 보내지 못했어요. 편지는 클립보드에 있고 여기에도 남아 있습니다.';
+
+  @override
+  String get contactSendByMail => '대신 메일 앱 사용하기';
 }

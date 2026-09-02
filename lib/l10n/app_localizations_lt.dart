@@ -489,4 +489,120 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Išsaugoti žodžiai išvalyti.';
+
+  @override
+  String get contactTitle => 'Parašykite kūrėjui';
+
+  @override
+  String get contactCaption => 'laiškas, jei norite';
+
+  @override
+  String get contactBlurb =>
+      'Gloss kuria vienas žmogus. Žodis, kurio pasigedote, klaida, kurią radote, eilutė, kuri patiko — viskas atkeliauja ant to paties stalo.';
+
+  @override
+  String get contactLetterSection => 'Laiškas';
+
+  @override
+  String get contactName => 'Jūsų vardas';
+
+  @override
+  String get contactNameHint => 'Vardas, kuriuo jus pasveikinti';
+
+  @override
+  String get contactEmail => 'Jūsų el. paštas';
+
+  @override
+  String get contactEmailHint => 'Kur jus pasieks atsakymas';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Ar turėjote omenyje $domain?';
+  }
+
+  @override
+  String get contactReason => 'Rašymo priežastis';
+
+  @override
+  String get reasonWord => 'Žodis, kurį verta pridėti';
+
+  @override
+  String get reasonProblem => 'Kažkas negerai';
+
+  @override
+  String get reasonQuestion => 'Klausimas';
+
+  @override
+  String get reasonPraise => 'Atsiliepimas';
+
+  @override
+  String get reasonOther => 'Kažkas kita';
+
+  @override
+  String get contactPriority => 'Kiek skubu';
+
+  @override
+  String get priorityLow => 'Žemas';
+
+  @override
+  String get priorityNormal => 'Įprastas';
+
+  @override
+  String get priorityHigh => 'Aukštas';
+
+  @override
+  String get contactMessage => 'Jūsų žinutė';
+
+  @override
+  String get contactMessageHint => 'Rašykite tiek, kiek norite…';
+
+  @override
+  String get contactHumanCheck => 'Vienas žodis prieš išsiunčiant';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Kuri reikšmė priklauso žodžiui $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ne ta. Štai kitas žodis.';
+
+  @override
+  String get contactDetails => 'Pridėti programėlės duomenis';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versija, kalba, šviesa ir teksto dydis, kad klaidą būtų lengviau rasti.';
+
+  @override
+  String get contactSend => 'Siųsti laišką';
+
+  @override
+  String get contactCopyLetter => 'Kopijuoti laišką';
+
+  @override
+  String get contactDraftRestored => 'Čia laukė neišsiųstas laiškas.';
+
+  @override
+  String get contactNoMailApp =>
+      'Nė viena pašto programėlė neatsiliepė, laiškas liko iškarpinėje.';
+
+  @override
+  String get contactNeedName => 'Vardas, kad atsakymas žinotų, ką sveikina.';
+
+  @override
+  String get contactNeedEmail => 'Adresas, kurį pasiektų atsakymas.';
+
+  @override
+  String get contactNeedMessage => 'Bent eilutė ar dvi.';
+
+  @override
+  String get contactSent => 'Jūsų laiškas pakeliui. Ačiū.';
+
+  @override
+  String get contactSendFailed =>
+      'Laiško dabar išsiųsti nepavyko. Jis iškarpinėje ir lieka čia.';
+
+  @override
+  String get contactSendByMail => 'Vietoj to naudokite pašto programėlę';
 }

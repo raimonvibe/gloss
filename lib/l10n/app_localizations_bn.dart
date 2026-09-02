@@ -489,4 +489,120 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'সংরক্ষিত শব্দ মুছে ফেলা হয়েছে।';
+
+  @override
+  String get contactTitle => 'নির্মাতাকে লিখুন';
+
+  @override
+  String get contactCaption => 'ইচ্ছে হলে একটি চিঠি';
+
+  @override
+  String get contactBlurb =>
+      'Gloss তৈরি করেন একজন মানুষ। যে শব্দটি আপনি খুঁজছিলেন, যে ভুলটি ধরলেন, যে লাইনটি ভালো লাগল — সবই একই টেবিলে পৌঁছয়।';
+
+  @override
+  String get contactLetterSection => 'চিঠি';
+
+  @override
+  String get contactName => 'আপনার নাম';
+
+  @override
+  String get contactNameHint => 'যে নামে আপনাকে সম্বোধন করা হবে';
+
+  @override
+  String get contactEmail => 'আপনার ইমেল';
+
+  @override
+  String get contactEmailHint => 'যেখানে উত্তর আপনাকে খুঁজে পাবে';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'আপনি কি $domain বলতে চেয়েছিলেন?';
+  }
+
+  @override
+  String get contactReason => 'লেখার কারণ';
+
+  @override
+  String get reasonWord => 'যোগ করার মতো একটি শব্দ';
+
+  @override
+  String get reasonProblem => 'কিছু একটা ঠিক নেই';
+
+  @override
+  String get reasonQuestion => 'একটি প্রশ্ন';
+
+  @override
+  String get reasonPraise => 'মতামত';
+
+  @override
+  String get reasonOther => 'অন্য কিছু';
+
+  @override
+  String get contactPriority => 'কতটা জরুরি';
+
+  @override
+  String get priorityLow => 'কম';
+
+  @override
+  String get priorityNormal => 'সাধারণ';
+
+  @override
+  String get priorityHigh => 'বেশি';
+
+  @override
+  String get contactMessage => 'আপনার বার্তা';
+
+  @override
+  String get contactMessageHint => 'যত ইচ্ছে লিখুন, কিংবা অল্পই…';
+
+  @override
+  String get contactHumanCheck => 'পাঠানোর আগে একটি শব্দ';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word শব্দের অর্থ কোনটি?';
+  }
+
+  @override
+  String get contactHumanRetry => 'ওটি নয়। এই নিন আরেকটি শব্দ।';
+
+  @override
+  String get contactDetails => 'অ্যাপের তথ্য সঙ্গে পাঠান';
+
+  @override
+  String get contactDetailsCaption =>
+      'সংস্করণ, ভাষা, আলো আর লেখার আকার, যাতে ভুলটি তাড়াতাড়ি ধরা পড়ে।';
+
+  @override
+  String get contactSend => 'চিঠি পাঠান';
+
+  @override
+  String get contactCopyLetter => 'চিঠি অনুলিপি করুন';
+
+  @override
+  String get contactDraftRestored => 'এখানে একটি না-পাঠানো চিঠি অপেক্ষা করছিল।';
+
+  @override
+  String get contactNoMailApp =>
+      'কোনো মেল অ্যাপ সাড়া দেয়নি, তাই চিঠিটি ক্লিপবোর্ডে রইল।';
+
+  @override
+  String get contactNeedName => 'একটি নাম, যাতে উত্তর জানে কাকে সম্বোধন করবে।';
+
+  @override
+  String get contactNeedEmail => 'এমন একটি ঠিকানা যেখানে উত্তর পৌঁছতে পারে।';
+
+  @override
+  String get contactNeedMessage => 'অন্তত এক-দুই লাইন।';
+
+  @override
+  String get contactSent => 'আপনার চিঠি পথে রয়েছে। ধন্যবাদ।';
+
+  @override
+  String get contactSendFailed =>
+      'চিঠিটি এখন পাঠানো গেল না। এটি ক্লিপবোর্ডে আছে এবং এখানেও রাখা রইল।';
+
+  @override
+  String get contactSendByMail => 'বদলে একটি মেল অ্যাপ ব্যবহার করুন';
 }

@@ -187,26 +187,38 @@ Save each page of the wizard.
 
 **Where:** **Policy and programs** → **App content** → **Data safety** → **Start**
 
-Play wants to know if data **leaves the device**. Saved words and theme stay in local storage. That is **not** “collection” on this form.
+Play wants to know if data **leaves the device**. Saved words, progress, settings and an unsent contact draft stay in local storage. That is **not** “collection” on this form.
+
+One thing does leave: **the contact letter**. Study → *Write to the maker* posts what the reader typed to the same Formspree form the website uses (`formspree.io/f/xwplqeky`), and only when they press Send. That makes three data types collected, so the answers below changed with the contact page — **do not copy an older screenshot of this card.**
 
 Walk through the overview, then:
 
 | Question | Answer for Gloss |
 | --- | --- |
-| Does your app collect or share any of the required user data types? | **No** |
-| Is all of the user data collected encrypted in transit? | Skip — nothing is sent |
-| Do you provide a way for users to request that their data is deleted? | Skip — uninstalling removes local data |
+| Does your app collect or share any of the required user data types? | **Yes** |
+| Which types? | **Personal info → Name**, **Personal info → Email address**, **Messages → Other in-app messages** |
+| Collected or shared? | **Collected** (Formspree is a processor acting for us, which Play counts as collection rather than sharing) |
+| Is this data required? | **Optional** — nothing is sent unless the reader writes a letter and presses Send |
+| Purpose | **App functionality** and **Customer support** |
+| Is all of the user data collected encrypted in transit? | **Yes** — HTTPS to Formspree |
+| Do you provide a way for users to request that their data is deleted? | **Yes** — by mail to info@raimonvibe.com |
+
+The *Include app details* switch adds one line — version, language, light, text size, platform — and only when the reader turns it on. It carries no identifier, so it needs no type of its own; it is part of the message.
 
 **Security practices** (if still shown after “No”):
 
 - Independent security review? **No**.
 - Committed to Play Families Policy? **No** (we did not target children).
 
-Preview the store listing card. It should say the app does not collect user data. Submit.
+Preview the store listing card. It should now name Name, Email address and in-app messages, all optional. Submit.
 
 **Read aloud:** the phone’s own speech engine may talk. That is Android, not our server. Do not list it as data we collect.
 
-**Google Fonts:** display fonts *may* load from Google when the device is online. The privacy policy already mentions this. If Play later asks about “App activity” or identifiers from a font request, keep the form matching what a release build actually does. Debug builds request `INTERNET`; the main release manifest does not.
+**Google Fonts:** display fonts *may* load from Google when the device is online. The privacy policy already mentions this. If Play later asks about “App activity” or identifiers from a font request, keep the form matching what a release build actually does.
+
+**`INTERNET`:** the main release manifest now asks for it, because the contact form posts. It used to be a debug-only permission, so a release APK that lacked it is not the app any more — see `android/app/src/main/AndroidManifest.xml`.
+
+**Privacy policy:** the page at `/apps/gloss/privacy` predates the contact form. It needs a paragraph saying what the form sends, that Formspree processes it, and how to ask for it to be deleted — the Data safety answers above are checked against it.
 
 ---
 

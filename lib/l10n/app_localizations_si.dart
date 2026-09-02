@@ -489,4 +489,120 @@ class AppLocalizationsSi extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'සුරැකි වචන ඉවත් කෙරිණි.';
+
+  @override
+  String get contactTitle => 'නිර්මාපකයාට ලියන්න';
+
+  @override
+  String get contactCaption => 'කැමති නම්, ලිපියක්';
+
+  @override
+  String get contactBlurb =>
+      'Gloss සාදන්නේ එක් අයෙකි. ඔබට නොලැබුණු වචනයක්, ඔබ සොයාගත් වරදක්, ඔබ ප්‍රිය කළ පේළියක් — සියල්ලම එකම මේසයට එයි.';
+
+  @override
+  String get contactLetterSection => 'ලිපිය';
+
+  @override
+  String get contactName => 'ඔබේ නම';
+
+  @override
+  String get contactNameHint => 'ඔබ අමතන නම';
+
+  @override
+  String get contactEmail => 'ඔබේ විද්‍යුත් තැපෑල';
+
+  @override
+  String get contactEmailHint => 'පිළිතුරක් ඔබව සොයාගන්නා තැන';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'ඔබ අදහස් කළේ $domain ද?';
+  }
+
+  @override
+  String get contactReason => 'ලිවීමට හේතුව';
+
+  @override
+  String get reasonWord => 'එකතු කළ යුතු වචනයක්';
+
+  @override
+  String get reasonProblem => 'යමක් වැරදියි';
+
+  @override
+  String get reasonQuestion => 'ප්‍රශ්නයක්';
+
+  @override
+  String get reasonPraise => 'ප්‍රතිචාර';
+
+  @override
+  String get reasonOther => 'වෙනත් දෙයක්';
+
+  @override
+  String get contactPriority => 'කෙතරම් හදිසිද';
+
+  @override
+  String get priorityLow => 'අඩු';
+
+  @override
+  String get priorityNormal => 'සාමාන්‍ය';
+
+  @override
+  String get priorityHigh => 'වැඩි';
+
+  @override
+  String get contactMessage => 'ඔබේ පණිවිඩය';
+
+  @override
+  String get contactMessageHint => 'කැමති තරම් දිගින් හෝ කෙටියෙන් ලියන්න…';
+
+  @override
+  String get contactHumanCheck => 'යැවීමට පෙර එක් වචනයක්';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word යන්නට අයත් අර්ථය කුමක්ද?';
+  }
+
+  @override
+  String get contactHumanRetry => 'එය නොවේ. මෙන්න තවත් වචනයක්.';
+
+  @override
+  String get contactDetails => 'යෙදුමේ විස්තර ද යවන්න';
+
+  @override
+  String get contactDetailsCaption =>
+      'අනුවාදය, භාෂාව, ආලෝකය සහ අකුරු ප්‍රමාණය — වරදක් වේගයෙන් සොයාගැනීමට.';
+
+  @override
+  String get contactSend => 'ලිපිය යවන්න';
+
+  @override
+  String get contactCopyLetter => 'ලිපිය පිටපත් කරන්න';
+
+  @override
+  String get contactDraftRestored => 'නොයැවූ ලිපියක් මෙහි රැඳී තිබුණි.';
+
+  @override
+  String get contactNoMailApp =>
+      'කිසිදු තැපැල් යෙදුමක් පිළිතුරු නොදුන් නිසා ලිපිය පසුරු පුවරුවේ ඇත.';
+
+  @override
+  String get contactNeedName => 'නමක්, පිළිතුර කවුරුන් අමතන්නේදැයි දැනගන්නට.';
+
+  @override
+  String get contactNeedEmail => 'පිළිතුරක් ළඟා විය හැකි ලිපිනයක්.';
+
+  @override
+  String get contactNeedMessage => 'අඩුම තරමේ පේළියක් දෙකක්.';
+
+  @override
+  String get contactSent => 'ඔබේ ලිපිය මාර්ගයේ ය. ස්තුතියි.';
+
+  @override
+  String get contactSendFailed =>
+      'ලිපිය දැන් යැවිය නොහැකි විය. එය පසුරු පුවරුවේ ඇති අතර මෙහිද තබා ඇත.';
+
+  @override
+  String get contactSendByMail => 'ඒ වෙනුවට තැපැල් යෙදුමක් භාවිත කරන්න';
 }

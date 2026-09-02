@@ -490,4 +490,121 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Tallennetut sanat tyhjennetty.';
+
+  @override
+  String get contactTitle => 'Kirjoita tekijälle';
+
+  @override
+  String get contactCaption => 'kirje, jos haluat';
+
+  @override
+  String get contactBlurb =>
+      'Glossin tekee yksi ihminen. Sana, jota kaipasit, virhe, jonka löysit, rivi, josta pidit — kaikki päätyy samalle pöydälle.';
+
+  @override
+  String get contactLetterSection => 'Kirje';
+
+  @override
+  String get contactName => 'Nimesi';
+
+  @override
+  String get contactNameHint => 'Nimi, jolla sinua tervehditään';
+
+  @override
+  String get contactEmail => 'Sähköpostisi';
+
+  @override
+  String get contactEmailHint => 'Mistä vastaus löytää sinut';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Tarkoititko $domain?';
+  }
+
+  @override
+  String get contactReason => 'Kirjoittamisen syy';
+
+  @override
+  String get reasonWord => 'Sana, joka kannattaa lisätä';
+
+  @override
+  String get reasonProblem => 'Jokin on vialla';
+
+  @override
+  String get reasonQuestion => 'Kysymys';
+
+  @override
+  String get reasonPraise => 'Palaute';
+
+  @override
+  String get reasonOther => 'Jotain muuta';
+
+  @override
+  String get contactPriority => 'Kuinka kiireellistä';
+
+  @override
+  String get priorityLow => 'Matala';
+
+  @override
+  String get priorityNormal => 'Tavallinen';
+
+  @override
+  String get priorityHigh => 'Korkea';
+
+  @override
+  String get contactMessage => 'Viestisi';
+
+  @override
+  String get contactMessageHint =>
+      'Kirjoita niin paljon tai vähän kuin haluat…';
+
+  @override
+  String get contactHumanCheck => 'Yksi sana ennen lähettämistä';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Mikä merkitys kuuluu sanalle $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ei tuo. Tässä on toinen sana.';
+
+  @override
+  String get contactDetails => 'Liitä sovelluksen tiedot';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versio, kieli, valo ja tekstin koko, jotta virhe löytyy nopeammin.';
+
+  @override
+  String get contactSend => 'Lähetä kirje';
+
+  @override
+  String get contactCopyLetter => 'Kopioi kirje';
+
+  @override
+  String get contactDraftRestored => 'Täällä odotti lähettämätön kirje.';
+
+  @override
+  String get contactNoMailApp =>
+      'Yksikään sähköpostisovellus ei vastannut, joten kirje jäi leikepöydälle.';
+
+  @override
+  String get contactNeedName => 'Nimi, jotta vastaus tietää ketä tervehtiä.';
+
+  @override
+  String get contactNeedEmail => 'Osoite, johon vastaus pääsee.';
+
+  @override
+  String get contactNeedMessage => 'Ainakin rivi tai kaksi.';
+
+  @override
+  String get contactSent => 'Kirjeesi on matkalla. Kiitos.';
+
+  @override
+  String get contactSendFailed =>
+      'Kirjettä ei saatu nyt lähetettyä. Se on leikepöydällä ja säilyy täällä.';
+
+  @override
+  String get contactSendByMail => 'Käytä sen sijaan sähköpostisovellusta';
 }
