@@ -5,6 +5,7 @@ import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
 import '../l10n/locale_catalog.dart';
 import '../state/settings_controller.dart';
+import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
@@ -132,6 +133,7 @@ class _LanguagesScreenState extends State<LanguagesScreen> {
                     onChanged: (_) => setState(() {}),
                     decoration: InputDecoration(
                       hintText: l10n.searchLanguages,
+                      hintMaxLines: hintLines(context),
                     ),
                   ),
                 ),

@@ -6,6 +6,7 @@ import '../l10n/app_localizations.dart';
 import '../l10n/category_labels.dart';
 import '../models/word_entry.dart';
 import '../state/progress_controller.dart';
+import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
@@ -99,6 +100,7 @@ class _LexiconScreenState extends State<LexiconScreen> {
                     onChanged: (_) => setState(() {}),
                     decoration: InputDecoration(
                       hintText: l10n.searchHint,
+                      hintMaxLines: hintLines(context),
                     ),
                   ),
                 ),

@@ -293,8 +293,8 @@ class WordEntry {
       templates.fromOrigin(source.origin, source.originWord),
       source._spokenRootsWith(templates),
       source.voiced(templates.inPlainWords(source.friendly)),
-      source.voiced(source.definition),
-      source.voiced(templates.asIn(source.example)),
+      source.voiced(templates.theDefinition(source.definition)),
+      source.voiced(templates.inASentence(source.example)),
     ].where((part) => part.isNotEmpty).join(' ');
   }
 
@@ -371,8 +371,8 @@ class WordEntry {
       templates.fromOrigin(spokenOrigin ?? origin, originWord),
       _spokenRootsWith(templates),
       templates.inPlainWords(friendly),
-      definition,
-      templates.asIn(english.example),
+      templates.theDefinition(definition),
+      templates.inASentence(english.example),
       if (exampleGloss != null) exampleGloss!,
     ].where((part) => part.isNotEmpty).join(' ');
   }

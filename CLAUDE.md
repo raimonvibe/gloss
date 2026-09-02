@@ -531,6 +531,28 @@ a quiz's four options and the theme's own `bodyMedium` are 17pt on a 1.45 line r
 than 16 on 1.35–1.4. Labels, chips, captions and buttons were left alone: this is for the
 text a reader reads at length, not for the furniture around it.
 
+**A reading is the page, and that includes the headings over it.** Two were missing and
+one was wrong: the definition was read with nothing introducing it, the sentence was
+announced as "Zoals in" where the page says *in een zin*, and only *in gewone woorden*
+matched. So a reader following along heard the app name a section that was not on the
+page and skip two that were. `SpeechTemplates` now composes all three from **the page's
+own strings** — `l10n.inPlainWords`, `l10n.theDefinition`, `l10n.inASentence` — rather
+than from speech keys of its own, which is what stops them drifting apart again and
+needed no new translation, because the page already had the sixty. `speechInPlainWords`
+and `speechAsIn` are unused in the ARBs now; they stay there, because taking a key out of
+sixty files buys nothing.
+
+**A placeholder is an instruction, and it was being cut off mid-phrase.**
+`InputDecoration.hintMaxLines` follows the field's own `maxLines`, which is one for a
+search box or a name — so "Zoek een woord, of beschrijf de betekenis…" ended in an
+ellipsis, and worse at every step up in text size. `hintLines(context)` in `app_theme.dart`
+gives a placeholder **one line until the reader enlarges the type and four after that**:
+the search pill keeps the shape it was drawn for at the ordinary size, and at the large
+sizes — where nothing on the page is slim any more — the hint wraps and the field grows to
+hold it. `test/placeholder_test.dart` checks the policy away from any font (a test face
+makes every glyph a full em square, so counting lines here says nothing about a device)
+and then that the field really did grow to hold what it allowed.
+
 **A fixed box with type in it is a bug waiting for a reader to turn their text up.** The
 quiz's answer badges were a 32pt circle holding a letter that follows the reader's
 setting: at 1.6 the letter wanted a 36.5pt circle and at 2.0 a 45pt one, so A, B, C and D

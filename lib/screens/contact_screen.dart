@@ -13,6 +13,7 @@ import '../models/word_entry.dart';
 import '../state/contact_letter.dart';
 import '../state/settings_controller.dart';
 import '../theme/app_fonts.dart';
+import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
@@ -734,6 +735,7 @@ class _LetterField extends StatelessWidget {
             style: Theme.of(context).textTheme.bodyLarge,
             decoration: InputDecoration(
               hintText: hint,
+              hintMaxLines: hintLines(context),
               // Muted ink at full strength. The theme's own hint is that
               // colour at seven tenths, which reads as a smudge on parchment
               // and as nothing at all by candlelight.
