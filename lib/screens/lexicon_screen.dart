@@ -57,11 +57,18 @@ class _LexiconScreenState extends State<LexiconScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      widget.favoritesOnly
-                          ? l10n.savedTitle
-                          : l10n.lexiconTitle,
-                      style: Theme.of(context).textTheme.headlineSmall,
+                    // The page's own name, which is furniture rather than
+                    // reading: doubled it wrapped to three lines and took
+                    // the room the words needed. The list below it is what
+                    // the reader turned their text size up for.
+                    MediaQuery.withClampedTextScaling(
+                      maxScaleFactor: 1.4,
+                      child: Text(
+                        widget.favoritesOnly
+                            ? l10n.savedTitle
+                            : l10n.lexiconTitle,
+                        style: Theme.of(context).textTheme.headlineSmall,
+                      ),
                     ),
                     ScriptCaption(
                       widget.favoritesOnly
@@ -163,25 +170,37 @@ class _LexiconScreenState extends State<LexiconScreen> {
           ),
         Expanded(
           child: results.isEmpty
-              ? Center(
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 32),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        ScriptCaption(l10n.nothingHere),
-                        const SizedBox(height: 8),
-                        Text(
-                          widget.favoritesOnly
-                              ? l10n.emptySaved
-                              : l10n.emptyLexicon,
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: brand.foregroundMuted,
-                            fontSize: 16,
-                          ),
+              // Centred while it fits and scrollable when it does not: at
+              // the largest text size "No saved words yet. Tap the heart on
+              // any entry." is taller than the space between the search box
+              // and the tabs, and a Center has nowhere to put the rest.
+              ? LayoutBuilder(
+                  builder: (context, constraints) => SingleChildScrollView(
+                    padding: const EdgeInsets.fromLTRB(32, 16, 32, 16),
+                    child: ConstrainedBox(
+                      constraints: BoxConstraints(
+                        minHeight: constraints.maxHeight - 32,
+                      ),
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            ScriptCaption(l10n.nothingHere),
+                            const SizedBox(height: 8),
+                            Text(
+                              widget.favoritesOnly
+                                  ? l10n.emptySaved
+                                  : l10n.emptyLexicon,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: brand.foregroundMuted,
+                                fontSize: 17,
+                                height: 1.45,
+                              ),
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   ),
                 )
@@ -191,8 +210,6 @@ class _LexiconScreenState extends State<LexiconScreen> {
                   padding: EdgeInsets.fromLTRB(side, 16, side, 32),
                   card: (entry) => WordCard(
                     entry: entry,
-                    isFavorite: progress.favorites.contains(entry.id),
-                    onToggleFavorite: () => progress.favorites.toggle(entry.id),
                     onOpen: () => _open(context, entry),
                   ),
                 ),

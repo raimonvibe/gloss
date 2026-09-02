@@ -14,10 +14,20 @@ const _reduceMotionKey = 'beautiful-words:reduce-motion';
 const _readTranslationKey = 'beautiful-words:read-translation';
 const _contactDraftKey = 'beautiful-words:contact-draft';
 
-/// Text can grow half again as large before the parchment cards start to
-/// clip; below 1.0 the Cormorant body face turns to grit.
+/// How far the reader may push the type.
+///
+/// It stopped at 1.6 — "half again as large before the parchment cards start
+/// to clip" — and a reader wrote in to say the app was hard to read *after*
+/// they had turned it up, which is what running out of slider feels like.
+/// Cormorant Garamond is a small-eyed face: 16pt of it sets about the size
+/// of 14pt of a workaday serif, so this scale is doing more work here than
+/// the same number would in another app. The cards were then measured at
+/// 2.0 rather than assumed — see `test/responsive_test.dart`, which walks
+/// every tab at the maximum.
+///
+/// Below 1.0 the same face turns to grit, so there is nothing under it.
 const kMinTextScale = 1.0;
-const kMaxTextScale = 1.6;
+const kMaxTextScale = 2.0;
 
 class SettingsController extends ChangeNotifier {
   SettingsController(this._prefs, {LocaleCatalog? catalog})

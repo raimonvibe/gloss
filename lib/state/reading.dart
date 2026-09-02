@@ -105,15 +105,30 @@ List<SpeechSegment> _lemmaThen(
       // reader still hears the whole thing, in English.
       fallback: english,
       group: group,
-    ).map(
-      (segment) => segment.isEnglish
-          ? SpeechSegment(
-              live.voiced(segment.text),
-              fallback: segment.fallback,
-              group: segment.group,
-            )
-          : segment,
-    ),
+    ).map((segment) {
+      if (!segment.isEnglish) return segment;
+      // The word the headword came from belongs to the language it is
+      // written in, not to English. A French etymon read with an English
+      // mouth is the same bug as a Dutch sentence in an English accent,
+      // one word wide.
+      final etymon = live.etymonVoiceFor(segment.text);
+      if (etymon != null) {
+        return SpeechSegment(
+          segment.text,
+          languageTag: etymon,
+          // Its own fallback, and no group. A device with no French voice
+          // says this one piece the way it always did; sharing the group
+          // would take the whole Dutch reading down to English for want of
+          // a single French word.
+          fallback: live.voiced(segment.text),
+        );
+      }
+      return SpeechSegment(
+        live.voiced(segment.text),
+        fallback: segment.fallback,
+        group: segment.group,
+      );
+    }),
   ];
 }
 
@@ -171,7 +186,7 @@ List<SpeechSegment> quizReadingOf(
     context,
     live,
     explanation: (templates) {
-      final prompt = live.spokenQuizPromptWith(templates);
+      final prompt = live.spokenQuizPromptWith(templates, withRoots: revealed);
       if (prompt.isEmpty) return '';
       return [
         prompt,
@@ -181,7 +196,10 @@ List<SpeechSegment> quizReadingOf(
       ].where((part) => part.isNotEmpty).join(' ');
     },
     english: [
-      live.english.spokenPromptWith(SpeechTemplates.english),
+      live.english.spokenPromptWith(
+        SpeechTemplates.english,
+        withRoots: revealed,
+      ),
       englishCopy.whichDefinitionFits,
       question.spokenOptionsEnglish,
       if (revealed)

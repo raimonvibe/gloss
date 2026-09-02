@@ -11,6 +11,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/theme/brand_colors.dart';
+import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 import 'package:beautiful_words/widgets/etymology_card.dart';
@@ -334,9 +335,11 @@ void main() {
     await tester.binding.setSurfaceSize(const Size(360, 780));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
-    // The card asks who is being read to before it offers to read.
+    // The card asks who is being read to before it offers to read, and
+    // whether this word is one of the saved before it draws its heart.
     SharedPreferences.setMockInitialValues(const {});
-    final settings = SettingsController(await SharedPreferences.getInstance());
+    final prefs = await SharedPreferences.getInstance();
+    final settings = SettingsController(prefs);
 
     late TextStyle written;
     await tester.pumpWidget(
@@ -346,6 +349,9 @@ void main() {
             create: (_) => SpeechController(engine: SilentSpeechEngine()),
           ),
           ChangeNotifierProvider<SettingsController>.value(value: settings),
+          ChangeNotifierProvider<ProgressController>(
+            create: (_) => ProgressController(prefs),
+          ),
         ],
         child: MaterialApp(
           locale: const Locale('en'),
@@ -361,9 +367,7 @@ void main() {
                 written = Theme.of(context).textTheme.titleLarge!;
                 return WordCard(
                   entry: _entry(const _Sample('en', 'Latin', 'noun')),
-                  isFavorite: false,
                   onOpen: () {},
-                  onToggleFavorite: () {},
                 );
               },
             ),

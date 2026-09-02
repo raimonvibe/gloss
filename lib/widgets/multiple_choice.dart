@@ -121,8 +121,8 @@ class _ChoiceTile extends StatelessWidget {
               child: Text(
                 text,
                 style: TextStyle(
-                  fontSize: 16,
-                  height: 1.35,
+                  fontSize: 17,
+                  height: 1.45,
                   color: brand.foreground,
                 ),
               ),

@@ -313,6 +313,115 @@ void main() {
     });
   }
 
+  // The tab walk stops at the top of each tab. These are the pages behind
+  // them, at the size the reader who wrote in was using — the cap moved to
+  // 2.0 on 2026-09-02, and until then a test that asked for 2.0 was quietly
+  // handed 1.6.
+  //
+  // Everything here scrolls to what it wants before touching it: at twice
+  // the type the first answer of a quiz is below the fold of a phone, and a
+  // tap on something off-screen lands on nothing.
+  Future<void> reach(WidgetTester tester, Finder target) async {
+    // Built already: scroll it into view, whichever way that is. Dragging
+    // blind sends a list that was already past the target further past it.
+    if (target.evaluate().isNotEmpty) {
+      await tester.ensureVisible(target.first);
+      await tester.pumpAndSettle();
+      return;
+    }
+    // Not built at all: a lazy list has to be dragged before it exists.
+    await tester.scrollUntilVisible(
+      target,
+      200,
+      scrollable: find.byType(Scrollable).first,
+      maxScrolls: 60,
+    );
+    await tester.pumpAndSettle();
+  }
+
+  for (final phone in const <String, Size>{
+    'a phone': Size(360, 780),
+    'a small phone': Size(320, 640),
+  }.entries) {
+    testWidgets('a quiz plays through to its results on ${phone.key} at the '
+        'largest text size', (tester) async {
+      await _pumpApp(tester, size: phone.value, textScale: 2.0);
+      await tester.tap(
+        find.descendant(of: _nav, matching: find.byIcon(Icons.quiz_outlined)),
+      );
+      await tester.pumpAndSettle();
+
+      await reach(tester, find.text('Begin'));
+      await tester.tap(find.text('Begin'));
+      await tester.pumpAndSettle();
+
+      for (var question = 0; question < 8; question++) {
+        await reach(tester, find.text('A'));
+        await tester.tap(find.text('A'));
+        await tester.pumpAndSettle();
+        final last = find.text('See results');
+        if (last.evaluate().isNotEmpty) {
+          await tester.tap(last);
+          await tester.pumpAndSettle();
+          break;
+        }
+        await tester.tap(find.text('Next'));
+        await tester.pumpAndSettle();
+      }
+      await reach(tester, find.text('Try another round'));
+      expect(find.text('Try another round'), findsOneWidget);
+    });
+
+    testWidgets('a word opens from the lexicon on ${phone.key} at the '
+        'largest text size', (tester) async {
+      await _pumpApp(tester, size: phone.value, textScale: 2.0);
+      await tester.tap(
+        find.descendant(
+          of: _nav,
+          matching: find.byIcon(Icons.menu_book_outlined),
+        ),
+      );
+      await tester.pumpAndSettle();
+
+      final headword = find.text('Edulcorate');
+      await reach(tester, headword);
+      await tester.tap(headword);
+      await tester.pumpAndSettle();
+      expect(find.byType(EtymologyCard), findsOneWidget);
+
+      // The whole page, not only what the first screen of it holds.
+      await reach(tester, find.text('Copy'));
+    });
+  }
+
+  // Nothing overflowed here, which is why nothing caught it: the page simply
+  // had no room left to put a word in. At twice the type on a 320pt phone the
+  // title and its script caption stood 400pt tall on a 640pt screen, the
+  // search box and the filter chips took what was under them, and the list
+  // built no cards at all — a lexicon showing no words, to the one reader
+  // most likely to have turned the type up.
+  testWidgets('the lexicon still shows a word at the largest text size', (
+    tester,
+  ) async {
+    await _pumpApp(tester, size: const Size(320, 640), textScale: 2.0);
+    await tester.tap(
+      find.descendant(
+        of: _nav,
+        matching: find.byIcon(Icons.menu_book_outlined),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final cards = find.byType(WordCard);
+    expect(cards, findsAtLeastNWidgets(1), reason: 'the list came up empty');
+    final first = tester.getRect(cards.first);
+    expect(
+      first.top,
+      lessThan(640 - 80),
+      reason: 'the first word starts below the fold',
+    );
+  });
+
   testWidgets('the tabs move to a rail once there is room beside the page', (
     tester,
   ) async {

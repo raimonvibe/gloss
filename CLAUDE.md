@@ -389,6 +389,173 @@ marks close with different characters per language, and Turkish `uzun uzun`, Swa
 no tool can settle for sixty languages; they catch the generation damage that has twice
 reached the store.
 
+**The quiz gave its answer away twice over, and the roots were only half of
+it.** *Hebetude* was asked with `hebes` "dull, blunt" printed above four definitions of
+which one was "Mental dullness or lethargy", against distractors about moralizing,
+wisdom and air pressure. Two changes, and the second is the one that matters:
+
+- `EtymologyCard` takes `revealRoots`, and the quiz passes `quiz.hasAnsweredCurrent`, so
+  the roots arrive with the rest of the explanation. **The reading had to follow**, or
+  the giveaway would simply have moved to the listen button: `spokenQuizPromptWith` and
+  `spokenPromptWith` take `withRoots`, and `quizReadingOf` passes `revealed` into both.
+  The etymon (`torpidus`) stays in the prompt — it is on the card as the origin chip,
+  and it names the word rather than its meaning.
+- `_distractorsFor` in `quiz_engine.dart` draws the three wrong answers from words that
+  **share a theme**, then from words that share an **origin**, then from anything, each
+  band shuffled so a word does not meet the same three every time. Random distractors
+  were the root cause: a hint is only decisive when the other three options are nowhere
+  near. The lexicon's themes are wide enough for this — 35 in `criticism`, 30 in
+  `knowledge`, and 72 of the 134 carry more than one tag — and a theme too thin to fill
+  three (`emotion` has one word) falls through to origin on its own.
+
+`test/quiz_gives_less_away_test.dart` covers both, the reading included. Note that
+`origin` is localised per locale by `tool/_pos_origin.py`, so comparing origins compares
+like with like inside one locale.
+
+**A word's origin has two halves, and each was being said by the wrong mouth.** A Dutch
+reader was told *Chicane* comes "van Frans" and then heard **chicaner** read with an
+English mouth; the same reader met **Oudengels** and heard one mangled word.
+
+- **The etymon belongs to the language it is written in.** `kOriginVoices` in
+  `lib/models/origin_voice.dart` maps a single-language origin to a voice, and
+  `reading.dart` re-tags the segment `segmentTranslation` had already cut out for
+  English. Three deliberate holes in that table: **compound origins** are excluded,
+  because "Latin / Old French" quotes *escutcheon (escuchon)* — the English word and
+  then the French — and "Latin / English" quotes *plumbum + line*; **Greek** is excluded
+  although nineteen words are Greek, because ours is transliterated (*panēgyrikos*) and a
+  Greek voice handed Latin letters spells them; and **Latin is read by an Italian voice**,
+  which is the one judgment call — no engine has Latin, eighty-one of the 134 are Latin,
+  and Italian is the pronunciation ecclesiastical Latin uses. One line to revert.
+  Root forms carrying a gloss or a second language (`racine (radix)`, `caro, carnis`,
+  `poco + curante`) keep the English voice; `kMixedForm` is that test.
+- **The etymon segment carries its own fallback and no group**, which matters more than it
+  looks: a grouped segment takes its whole passage down to English when the device lacks
+  the voice (see `_settleGroups`), so a missing French voice would have cost the reader
+  their entire Dutch reading. Ungrouped, it falls back alone and everything around it is
+  untouched.
+- **The count, because "did you do all of them?" deserves a number.** 105 of the 134 have
+  their etymon read in its own language; 87 of those have every root form too. The 29 that
+  do not are each excluded on purpose: **19 Greek**, transliterated into Latin letters;
+  **7 English, Old English and Middle English**, where the English voice is both the right
+  one and the only one an engine has; **Frankish** *seneschal*, which no engine speaks; and
+  **plumb-line** and **hardihood**, which quote an English word beside the foreign one
+  (*plumbum + line*, *hardi + -hood*) so that no single voice is right for the pair.
+  `test/spoken_origins_test.dart` holds that census as a set of ids — a word that loses
+  its voice, or gains one unexpectedly, fails it.
+- **Compound origins were resolved one at a time, not by rule.** The first attempt
+  excluded all sixteen; a rule taking the first named language would have been wrong three
+  times out of four, because the "Latin / French" words are *mordere* (the Latin) but also
+  *demorer*, *mortaise* and *apartenance* (the French). `kEtymonVoiceByWord` is that
+  reading, one line per word. Where a word's roots are in a different language from its
+  etymon — Latin *morari* under French *demorer* — they follow the etymon: a Latin root in
+  a French mouth is a smaller error than the English one it had, and a language per root is
+  not something the lexicon records.
+- **A macron means transliterated Greek**, wherever it turns up. *splēn* sits under
+  "Greek / Latin" and *paidagōgos* under "Italian / Greek", so the origin does not always
+  say Greek and `kTransliteratedGreek` is what catches them.
+- **Only the translated reading is split this way.** The English-only reading is one
+  assembled, already-voiced string, and cutting it at the etymon would mean splitting
+  text that contains SSML — *Voice the parts, never the assembly*. An English reader still
+  hears *chicaner* in English.
+
+**The name of the origin is a compound in seventeen of the sixty, and the seam is derived
+rather than listed.** Dutch writes Old English closed as *Oudengels*, German as
+*Altenglisch*, Russian as *древнеанглийский*, and an engine handed a compound it has no
+entry for guesses from the spelling. `spoken_origin.dart` finds the seam from the
+lexicon's own data: **the language names a locale uses are the simple origin labels it
+uses elsewhere**, so a label ending in one of them and longer than it splits exactly
+there — *Oud engels*, *Alt englisch*, *древне английский*. Nothing in it knows a word of
+any of the sixty, and no locale needs a line of its own; compare `_spokenSyllables`, which
+could not be derived and had to be measured one at a time. Scripts written without spaces
+are excluded: 古英語 ends in 英語 and is one word to a Japanese voice all the same. The page
+always shows the written form — `WordEntry.spokenOrigin` is read by speech alone, and
+`WordRepository` works the table out once per locale because the seam needs the whole
+lexicon's labels, not one word's. `test/spoken_origins_test.dart` sweeps all sixty and
+holds the transformation to one invariant: **a spoken origin may gain spaces and nothing
+else.**
+
+**The split is applied where the origin is named, and that is the whole of it only while
+no other sentence quotes one of these compounds.** Measured across all sixty overlays and
+every spoken field — definition, friendly, example gloss, part of speech, root meanings —
+a compound origin word appears in prose **zero times**; the simple labels (*Latijn*,
+*latin*, *ladina*) turn up often and need no splitting. A test pins the zero, so a future
+gloss that writes "Oudengels" into a sentence fails the suite rather than being read
+wrong. Note what that test needed to be correct: `'\p{L}'` in a plain Dart string is not
+an escape Dart knows, so the first version handed the engine `p{L}` and matched nothing —
+a test that passed because it never looked. `flutter analyze` caught it.
+
+The heart also stands in the word page's own app bar now. The Save pill is at the foot of
+the page, behind the roots, the sentence and the gloss, and a reader who already knows
+they want the word should not have to read to the end to keep it.
+
+**"Hard to read even after increasing the font size" — the reader had run out of
+slider, and the slider was not the whole of it.** `kMaxTextScale` was 1.6; it is 2.0
+since 2026-09-02, which `app.dart` had always been prepared to pass through
+(`combined.clamp(1.0, 2.0)`). Cormorant Garamond is a small-eyed face — 16pt of it sets
+about the size of 14pt of a workaday serif — so this scale carries more weight here than
+the same number would elsewhere.
+
+**Every test that asked for 2.0 had been quietly handed 1.6**, so raising the cap was
+the first time the app was measured at its own maximum, and three things were waiting
+there:
+
+- **The lexicon showed no words at all** on a 320pt phone. Nothing overflowed, so nothing
+  failed: the title and its script caption stood 400pt tall on a 640pt screen, the search
+  box and chips took what was left, and the `Expanded` list was handed no height. The
+  ornament is what gives now — `ScriptCaption` clamps its own scaling at 1.3 and the
+  lexicon's page title at 1.4. **The reader's setting is for the words, not for the
+  flourish over them.** `test/responsive_test.dart` asserts a word card is on screen.
+- **Two sliders with a label at each end** — text size, speech pace — pushed themselves
+  off their own row. Both legends moved underneath the slider, two halves of a row that
+  wrap rather than shove.
+- **The empty lexicon/saved state** could not fit its two centred lines, so it scrolls
+  when it must and stays centred when it can.
+
+**The gold was too pale to be read, and it is text as often as it is ornament** — *tap
+to read more*, the progress percentage, the origin chip, every `ScriptCaption` heading.
+`#A9762F` measured **3.8:1 on a card, 3.6:1 on the page, 3.2:1 on a tag**, all under AA's
+4.5. It is `#896026` since 2026-09-02, a deeper bronze that clears 4.5 on every ground it
+is drawn against — the gold-tinted chip fill included, which is the tightest of them.
+`foregroundMuted` was already 6.5:1 and the dark theme passed throughout.
+
+`test/contrast_test.dart` now holds every colour that carries a word to AA, on all four
+grounds, in both themes, so the next hand on the palette hears about it at once. One
+colour is deliberately outside it: `cardBorder` measures about 1.8:1, and it is a
+hairline around a card rather than something a reader must perceive to follow anything.
+It is worth revisiting if the cards are ever given their shadow back — the hairline is
+doing that job alone.
+
+**The reading prose went up a point, and its lines were opened out.** Cormorant sets
+small for its size, so a card's plain-words line, a definition, an example and its gloss,
+a quiz's four options and the theme's own `bodyMedium` are 17pt on a 1.45 line rather
+than 16 on 1.35–1.4. Labels, chips, captions and buttons were left alone: this is for the
+text a reader reads at length, not for the furniture around it.
+
+**The quiz's top strip is two shapes, not one.** Leave, how far along, save, listen,
+light — five things across a phone is one too many. The progress line was handed whatever
+the four controls left it, and the controls are a fixed `48 + 3×(42 + 8)` = **198pt** at
+every text size, so on a 390pt phone the line had 152pt: "Vraag 3 van 5" wrapped into
+three lines inside a bar drawn for one, with the percentage crushed against the edge.
+`_QuizHeader` measures with a `LayoutBuilder` and drops the progress line underneath the
+controls whenever sharing would crush it — every phone, and a tablet once the text is
+large enough. **The floor is measured in type, not pixels** (`_progressFloor` scales 190
+by the reader's `textScaler`), because the controls do not grow with the text and the
+line beside them does. `test/quiz_header_test.dart` pins both shapes, and note what it
+does *not* assert: how many lines the label takes. A test runs in a full-em font, so the
+label wraps there at widths where the shipped Cormorant would not — the width the layout
+hands it is the part the layout controls.
+
+**A word can be saved wherever it is shown.** The heart lived on the lexicon card
+alone, so a reader who met a word as the word of the day, inside a quiz, or in the list
+of what they had just been asked had to go and find it again in the lexicon to keep it.
+`lib/widgets/favorite_button.dart` is that one control: it wires itself to
+`ProgressController`, so a screen has only to name the word it is drawing, and the four
+places that draw one cannot fall out of step. It follows `SpeakButton`'s two shapes —
+a bare icon inside a card, a gold circle where it stands beside one. The word's own page
+keeps its labelled *Save* pill instead. `test/save_from_every_screen_test.dart` saves
+from each of the four, and checks the quiz's now four-icon header still fits the
+smallest phone at the largest text size.
+
 **Responsive layout:** `lib/theme/layout.dart` owns the breakpoints, gutters, reading
 width, and column counts. Read it with `context.layout`, which measures the space the
 page was actually handed — `LayoutBoundary` publishes that, because the window is the

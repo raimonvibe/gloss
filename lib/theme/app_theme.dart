@@ -91,8 +91,8 @@ class AppTheme {
         ),
         bodyMedium: AppFonts.cormorant(
           textStyle: baseText.bodyMedium,
-          fontSize: 16,
-          height: 1.4,
+          fontSize: 17,
+          height: 1.45,
           color: brand.foreground,
         ),
       ),

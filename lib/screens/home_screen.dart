@@ -13,6 +13,7 @@ import '../theme/layout.dart';
 import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/fit_to_width.dart';
 import '../widgets/study_button.dart';
 import '../widgets/theme_toggle.dart';
@@ -235,6 +236,8 @@ class _WordOfTheDay extends StatelessWidget {
                     fontSize: 26,
                   ),
                 ),
+                FavoriteButton(wordId: entry.id),
+                const SizedBox(width: 8),
                 SpeakButton(
                   speechKey: 'wotd:${entry.id}',
                   text: entry.english.spokenGlance,
@@ -269,8 +272,8 @@ class _WordOfTheDay extends StatelessWidget {
             Text(
               entry.friendly,
               style: TextStyle(
-                fontSize: 16,
-                height: 1.4,
+                fontSize: 17,
+                height: 1.45,
                 color: brand.foregroundMuted,
               ),
             ),

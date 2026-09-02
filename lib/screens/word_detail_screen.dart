@@ -16,6 +16,7 @@ import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/etymology_card.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/ornament.dart';
 import '../widgets/pill.dart';
 import '../widgets/speak_button.dart';
@@ -66,6 +67,11 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
           appBar: AppBar(
             title: EnglishLemma(child: Text(live.word)),
             actions: [
+              // The Save pill is at the foot of the page, behind the roots,
+              // the sentence and the gloss. A reader who knows already that
+              // they want the word should not have to read to the end to
+              // keep it.
+              FavoriteButton(wordId: live.id, compact: true),
               SpeakButton(
                 speechKey: 'entry:${live.id}',
                 text: live.spokenEntry,
@@ -105,7 +111,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                     child: Text(
                       live.definition,
                       style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 17,
                         height: 1.45,
                         color: brand.foregroundMuted,
                       ),
@@ -141,7 +147,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                                 child: Text(
                                   '“${live.example}”',
                                   style: TextStyle(
-                                    fontSize: 16,
+                                    fontSize: 17,
                                     fontStyle: FontStyle.italic,
                                     height: 1.45,
                                     color: brand.foregroundMuted,
@@ -162,8 +168,8 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                                 Text(
                                   live.exampleGloss!,
                                   style: TextStyle(
-                                    fontSize: 15,
-                                    height: 1.4,
+                                    fontSize: 16,
+                                    height: 1.45,
                                     color: brand.foregroundMuted,
                                   ),
                                 ),
