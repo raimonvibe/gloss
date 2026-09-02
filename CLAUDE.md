@@ -262,6 +262,14 @@ check earned its keep — it found five rule bugs (`eh` keeping its h, `tch`, `y
 derived IPA agrees with it on 84; the rest are rhotic and US/UK differences and the handful
 of attested variants the pronunciation audit already recorded.
 
+**A doubled r shortens the vowel, on the page and in the fallback.** `PAR-` is the /ɑːr/ of
+*bar* and `PARR-` is the /æ/ of *bat* with an r after it. *Parry* and *Paroxysm* were written
+`PAR-` and so were being said "par-ee" and "par-ok-sizm"; they are `PARR-` since 2026-09-02,
+which the pronunciation audit had flagged against Wiktionary. *Parsimony* keeps `PAR-`
+because it really is /ˈpɑːrsɪmoʊni/. The IPA follows the respelling automatically —
+`emit_ipa.py` reads the doubled r — and the fallback table maps `par`→`parr` and
+`parr`→`parre`, which are the spellings a speech engine reads as those two sounds.
+
 **The respelling rides inside the tag as its text**, so an engine that ignores `<phoneme>`
 says exactly what the app said before, and `ssmlToPlainText` gives it the same thing when
 it is not handed SSML at all. That is what the 27 substitutions in `respelling.dart` are

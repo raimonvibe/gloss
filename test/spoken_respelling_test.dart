@@ -39,7 +39,9 @@ void main() {
 
   test('a syllable the engine spells is given one it says', () {
     expect(spokenRespelling('HEB-ih-tood'), 'heb ihh tood');
-    expect(spokenRespelling('PAR-uk-siz-um'), 'parre uck siz um');
+    // `parr` is the /a/ of bat with an r; `par` would be the /ar/ of bar.
+    expect(spokenRespelling('PARR-uk-siz-um'), 'parre uck siz um');
+    expect(spokenRespelling('PAR-sih-moh-nee'), 'parr sih moh nee');
     expect(spokenRespelling('ee-DUL-cor-ate'), 'ee dul core ate');
     expect(spokenRespelling('thee-OD-ih-see'), 'thee odd ihh see');
     expect(spokenRespelling('SY-uh-list'), 'sigh uh list');

@@ -73,7 +73,12 @@ const Map<String, String> _spokenSyllables = {
   'koh': 'koe', //  /koh/ as in toe      Inchoative, Pococurante
   'luh': 'lah', //  /lah/ as in ah       Effloresce, Obloquy
   'pab': 'pabb', // /pab/ as in cab      Pabulum
-  'par': 'parre', // /par/ as in bat + r Parry, Parsimony, Paroxysm
+  // Two respellings, two sounds, and the fallback spellings that produce
+  // them: `par` is the /ar/ of *bar* (Parsimony) and `parr` is the /a/ of
+  // *bat* with an r after it (Parry, Paroxysm). The doubled r shortens the
+  // vowel, in the respelling and in the fallback alike.
+  'par': 'parr', //  /par/ as in bar      Parsimony
+  'parr': 'parre', // /parr/ as in bat + r  Parry, Paroxysm
   'pid': 'pidd', // /pid/ as in bid      Torpid
   'ret': 'rett', // /ret/ as in bet      Aporetic
   'rih': 'rihh', // /ri/  as in rip      Redound

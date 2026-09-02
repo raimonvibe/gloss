@@ -63,7 +63,7 @@ const kSpokenForms = <String, Map<String, String>>{
   'effloresce': {
     'effloresced': 'ef-luh-REST',
   },
-  // Parry — PAR-ee
+  // Parry — PARR-ee
   'parry': {
     'parried': 'PARR-ihd',
   },

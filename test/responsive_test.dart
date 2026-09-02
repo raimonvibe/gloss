@@ -67,7 +67,7 @@ const _fixture = '''
       "word": "Paroxysm",
       "variants": [],
       "partOfSpeech": "noun",
-      "pronunciation": "PAR-uk-siz-um",
+      "pronunciation": "PARR-uk-siz-um",
       "definition": "A sudden violent outburst.",
       "friendly": "A sudden intense burst of emotion.",
       "example": "A paroxysm of laughter.",
