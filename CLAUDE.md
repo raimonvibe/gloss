@@ -303,6 +303,15 @@ engines — it is a cloud-API feature (Google Cloud TTS, Polly, Azure). An engin
 not know a tag speaks its inner text, which is why `<sub>` costs nothing where it is
 unsupported, and why reaching for `<phoneme>` would buy nothing here.
 
+**`quotedEnglish` must name every form, not just the headword.** Translated copy keeps the
+English word in whatever shape its own sentence needs — the Dutch for *edulcorate* reads
+"De redacteur **edulcorated** de harde recensie" — and `segmentTranslation` only cuts out
+the terms it is told about. It was told about `Edulcorate`, which does not stand alone
+inside `edulcorated`, so the whole sentence went to the Dutch voice and the English word
+came out in a Dutch accent. It now lists `spokenForms.keys`, so every inflection and
+variant is cut out and handed back to the English voice, where `voiced()` gives it its
+phoneme. Heard on a device and fixed on 2026-09-02.
+
 **Every English passage the app speaks goes through `WordEntry.voiced()`.** The headword
 at the top of a reading was the easy half; the sentence underneath names the word again,
 and often inflected — *edulcorated*, *parried*, *animadversions* — where the headword's own

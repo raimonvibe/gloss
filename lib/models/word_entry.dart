@@ -303,6 +303,12 @@ class WordEntry {
   List<String> get quotedEnglish {
     final source = english;
     return [
+      // Every form the app knows how to say, the inflections included. A
+      // translated sentence keeps the English word in whatever shape it
+      // needs — the Dutch for *edulcorate* reads "De redacteur edulcorated
+      // de harde recensie" — and an inflection that is not listed here is
+      // one the Dutch voice is left holding, in a Dutch accent.
+      ...spokenForms.keys,
       source.word,
       ...source.variants,
       source.example,

@@ -7,6 +7,7 @@ import 'package:beautiful_words/models/respelling.dart';
 import 'package:beautiful_words/models/spoken_forms.dart';
 import 'package:beautiful_words/models/ssml.dart';
 import 'package:beautiful_words/models/word_entry.dart';
+import 'package:beautiful_words/state/speech_controller.dart';
 
 /// The engine cannot say the words this app is about.
 ///
@@ -98,6 +99,37 @@ void main() {
       isEmpty,
       reason: 'add it to tool/respelling_tokens.txt and run '
           'tool/probe_respellings.ps1',
+    );
+  });
+
+  test('an inflected form inside a translated sentence is cut out for the '
+      'English voice', () {
+    // Heard on a phone: the Dutch gloss of *edulcorate* keeps the English
+    // word, inflected, and the whole sentence went to the Dutch voice —
+    // "edulcorated" in a Dutch accent. segmentTranslation only cuts out the
+    // terms it is told about, and it was told about the headword alone.
+    final entry = entries.firstWhere((e) => e.word == 'Edulcorate');
+    final segments = segmentTranslation(
+      'De redacteur edulcorated de harde recensie voordat die naar de druk '
+      'ging.',
+      languageTag: 'nl-NL',
+      englishTerms: entry.quotedEnglish,
+    );
+    expect(
+      segments.any(
+        (piece) =>
+            piece.isEnglish &&
+            piece.text.toLowerCase().contains('edulcorated'),
+      ),
+      isTrue,
+      reason: 'the Dutch voice was left holding an English word',
+    );
+    expect(
+      segments.any(
+        (piece) => !piece.isEnglish && piece.text.contains('De redacteur'),
+      ),
+      isTrue,
+      reason: 'the Dutch around it stopped being Dutch',
     );
   });
 
