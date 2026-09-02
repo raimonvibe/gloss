@@ -1,5 +1,7 @@
 import '../l10n/speech_templates.dart';
 import 'respelling.dart';
+import 'spoken_forms.dart';
+import 'ssml.dart';
 
 class WordRoot {
   const WordRoot({required this.form, required this.meaning});
@@ -161,12 +163,88 @@ class WordEntry {
   /// capitals that a voice would spell out are undone in one place.
   String get spokenPronunciation => spokenRespelling(pronunciation);
 
-  String get spokenWord => '${english.word}. ${english.spokenPronunciation}.';
+  /// The word, and then how to say it.
+  ///
+  /// [kRespellingVoicing] decides the shape of the second half. Which shape
+  /// an engine reads correctly is a fact about that engine, and the only one
+  /// that matters is the one on the reader's phone — see the enum.
+  String get spokenWord {
+    final source = english;
+    final syllables = source.spokenPronunciation.split(' ');
+    switch (kRespellingVoicing) {
+      case RespellingVoicing.spaced:
+        return '${source.word}. ${syllables.join(' ')}.';
+      case RespellingVoicing.commas:
+        return '${source.word}. ${syllables.join(', ')}.';
+      case RespellingVoicing.sentences:
+        return '${source.word}. ${syllables.join('. ')}.';
+      case RespellingVoicing.twice:
+        return '${source.word}. ${source.word}.';
+      case RespellingVoicing.wordOnly:
+        return '${source.word}.';
+      case RespellingVoicing.sub:
+        return '${ssmlSub(source.spokenPronunciation, source.word)}.';
+      case RespellingVoicing.respellingOnly:
+        return '${syllables.join(' ')}.';
+      case RespellingVoicing.probe:
+        return 'One. ${ssmlSub(source.spokenPronunciation, source.word)}. '
+            'Two. ${syllables.join(' ')}. '
+            'Three. ${source.word}.';
+    }
+  }
+
+  /// Every English form of this word the app may say, and its respelling.
+  ///
+  /// The headword itself, its variants, and the inflections the example
+  /// sentences use — see [kSpokenForms].
+  Map<String, String> get spokenForms {
+    final source = english;
+    return {
+      source.word.toLowerCase(): source.spokenPronunciation,
+      for (final form in kSpokenForms[source.id]?.keys ?? const <String>[])
+        form: spokenFormOf(source.id, form)!,
+    };
+  }
+
+  /// [passage] with every form of this word in it handed to the voice as its
+  /// respelling.
+  ///
+  /// This is the general form of the fix that `spokenWord` applies to the
+  /// headword. The engine cannot say these words anywhere — not at the top of
+  /// the reading and not in the middle of the sentence that shows them off —
+  /// so every English passage the app speaks goes through here first.
+  ///
+  /// Longest form first, so *edulcorated* is matched before *edulcorate* and
+  /// the sentence is not left saying the wrong word. Whole words only, and
+  /// the text inside the tag is the text as written, so an engine that
+  /// ignores `<sub>` reads exactly what it read before.
+  ///
+  /// Never run this over a passage that already carries markup: it would
+  /// match the headword inside a tag it wrote a moment ago. Assemble first
+  /// from voiced parts, or voice the parts — never the assembly.
+  String voiced(String passage) {
+    if (passage.isEmpty) return passage;
+    assert(
+      !passage.contains(kSsmlOpen),
+      'voiced() was handed a passage that already carries markup',
+    );
+    final forms = spokenForms;
+    final written = forms.keys.toList()
+      ..sort((a, b) => b.length.compareTo(a.length));
+    final pattern = RegExp(
+      r'\b(' + written.map(RegExp.escape).join('|') + r')\b',
+      caseSensitive: false,
+    );
+    return passage.replaceAllMapped(pattern, (match) {
+      final found = match.group(0)!;
+      return ssmlSub(forms[found.toLowerCase()]!, found);
+    });
+  }
 
   String get spokenGlance => spokenGlanceWith(SpeechTemplates.english);
 
   String spokenGlanceWith(SpeechTemplates templates) =>
-      '$spokenWord ${english.friendly}';
+      '$spokenWord ${english.voiced(english.friendly)}';
 
   String get spokenEntry => spokenEntryWith(SpeechTemplates.english);
 
@@ -179,15 +257,17 @@ class WordEntry {
   String spokenEntryWith(SpeechTemplates templates) {
     final source = english;
     return [
+      // spokenWord already carries its own tag; everything after it is plain
+      // English that may name the word again, so it is voiced here.
       spokenWord,
       '${source.partOfSpeech}.',
       if (source.variants.isNotEmpty)
-        templates.also(source.variants.join(', ')),
+        source.voiced(templates.also(source.variants.join(', '))),
       templates.fromOrigin(source.origin, source.originWord),
       source._spokenRootsWith(templates),
-      templates.inPlainWords(source.friendly),
-      source.definition,
-      templates.asIn(source.example),
+      source.voiced(templates.inPlainWords(source.friendly)),
+      source.voiced(source.definition),
+      source.voiced(templates.asIn(source.example)),
     ].where((part) => part.isNotEmpty).join(' ');
   }
 
@@ -279,7 +359,8 @@ class WordEntry {
   String spokenQuiz({required bool revealed, SpeechTemplates? templates}) {
     final copy = templates ?? SpeechTemplates.english;
     if (!revealed) return spokenPromptWith(copy);
-    return '${spokenPromptWith(copy)} ${copy.inPlainWords(english.friendly)}';
+    return '${spokenPromptWith(copy)} '
+        '${english.voiced(copy.inPlainWords(english.friendly))}';
   }
 }
 
@@ -296,6 +377,93 @@ Iterable<String> _quotedIn(String text) {
 }
 
 final _quotation = RegExp('["“”„«»](.+?)["“”„«»]');
+
+/// How the respelling is handed to the voice.
+///
+/// The app was sending `Pietistic. pie uh tiss tik.` — the right string, the
+/// device trace proves it — and Google's Android engine still opened the
+/// respelling on the letter "pee" while saying the very same sound correctly
+/// inside *Pietistic* a moment earlier.
+///
+/// So the fault is not the spelling of the syllable. `pie` is an ordinary
+/// English word and it still came out wrong; what differs is the company it
+/// keeps. A neural engine predicts prosody over the whole utterance, and a
+/// run of short tokens is read as a rapid unstressed sequence rather than as
+/// four words being sounded out, which reduces the vowel. `Pietistic` comes
+/// out right because the model has a whole word to work from.
+///
+/// Which of these an engine reads correctly cannot be reasoned out and
+/// cannot be measured from a desktop — Windows SAPI, which
+/// `tool/probe_respellings.ps1` asks, is not the engine on the phone and
+/// disagrees with it. So this is a switch: set it, `flutter run --debug`,
+/// hot-restart with R, and listen. The `[gloss-tts]` trace prints the
+/// utterance, so the log says which shape was tried.
+enum RespellingVoicing {
+  /// `Pietistic. pie uh tiss tik.` — what ships today.
+  spaced,
+
+  /// `Pietistic. pie, uh, tiss, tik.` — a comma is a prosodic boundary, so
+  /// each syllable is likelier to keep its full vowel.
+  commas,
+
+  /// `Pietistic. pie. uh. tiss. tik.` — each syllable its own sentence, which
+  /// is the strongest hint an engine takes for a citation form.
+  sentences,
+
+  /// `Pietistic. Pietistic.` — no respelling at all. This one cannot be
+  /// mispronounced: it is the word the engine already says correctly, which
+  /// the trace and the ear both confirm. The respelling stays on the page,
+  /// where it was always meant to be read rather than heard.
+  twice,
+
+  /// `Pietistic.` — the word, once.
+  wordOnly,
+
+  /// `<sub alias="pie uh tiss tik">Pietistic</sub>.` — the page shows the
+  /// word, the voice is given the respelling. This is the fix if the engine
+  /// honours `<sub>`; an engine that does not speaks the inner text, which is
+  /// the word alone, so it is never worse than [wordOnly].
+  sub,
+
+  /// `pie uh tiss tik.` — the respelling in place of the word, no markup and
+  /// nothing for an engine to support. The fallback if `<sub>` is ignored.
+  respellingOnly,
+
+  /// A labelled experiment, for finding out which of the above this engine
+  /// can do. Says each candidate in turn behind a number, so one listen
+  /// settles it. Not for shipping.
+  probe,
+}
+
+/// The shape in use, and how it was settled.
+///
+/// Tried on a Dutch phone running Google's Android engine, 2026-09-02, with
+/// the `[gloss-tts]` trace confirming the right string left the app each time.
+///
+/// `spaced`, `commas` and `sentences` were all reported wrong, and all three
+/// were the wrong question: a reading opens with the headword, and **the
+/// engine cannot say the headword**. `twice` sent nothing but
+/// `Pietistic. Pietistic.` and both came out "pi-e-stic". Gloss is a lexicon
+/// of rare words, so this is not one unlucky entry — the engine's dictionary
+/// holds almost none of them and its letter-to-sound rules invent a reading
+/// from the spelling. The respelling was never the disease; it is the cure the
+/// app already had, and `twice` was the one change that threw it away.
+///
+/// [probe] then asked the phone directly, and the answer was unambiguous:
+///
+/// - `<sub alias="pie uh tiss tik">Pietistic</sub>` — **correct**. The engine
+///   honours `<sub>`, so the page can keep the word and the voice be handed
+///   the respelling.
+/// - `pie uh tiss tik` on its own — also correct, which is the fallback and
+///   which confirms the substitution table in `respelling.dart` is doing its
+///   job.
+/// - `Pietistic` alone — wrong, as expected. That is the control.
+///
+/// So [sub] ships. It costs nothing on an engine that ignores `<sub>`, which
+/// speaks the inner text and leaves us exactly where we were, and
+/// `ssmlToPlainText` gives the alias to the engines that are not handed SSML
+/// at all.
+const kRespellingVoicing = RespellingVoicing.sub;
 
 class WordCategory {
   const WordCategory({required this.id, required this.label});

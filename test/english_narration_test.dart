@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:beautiful_words/data/word_repository.dart';
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:beautiful_words/l10n/speech_templates.dart';
+import 'package:beautiful_words/models/ssml.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 
@@ -469,7 +470,10 @@ void _splitNarration() {
     });
 
     test('the English reading is the same page, whole', () {
-      final english = localized.spokenEntry;
+      // The reading carries <sub> tags now, because the engine cannot say
+      // these words — see kSpokenForms. This test is about the copy, not the
+      // speaking, so it reads the page as written.
+      final english = ssmlWithoutTags(localized.spokenEntry);
       expect(english, contains('Edulcorate'));
       expect(english, contains('verb'));
       expect(english, contains('From Latin, edulcorare.'));

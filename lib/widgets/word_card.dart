@@ -62,6 +62,7 @@ class WordCard extends StatelessWidget {
                               fontSize: 12,
                               color: brand.foregroundMuted,
                             ),
+                            semanticsLabel: entry.spokenPronunciation,
                           ),
                         ),
                         Text(

@@ -165,6 +165,123 @@ one place, not one per screen. **Do not fix this by lower-casing speech generall
 `test/spoken_respelling_test.dart` sweeps all 134 for capitals a voice would spell, and
 checks that no syllable is lost to the reshaping.
 
+Lower case was half of it. The other half is that **a syllable is not a word**: an
+engine handed a fragment it has no entry for guesses from the spelling, and the guess is
+often the letter names. `ih` comes out "eye-aitch", so `HEB-ih-tood` was read "heb
+eye-aitch tood"; `uk` comes out "U.K.", so *paroxysm* was read "par U.K. siz um". Twenty-four
+of the 262 syllables in the lexicon were being spelled rather than said, across **48 of
+the 134 words**. `_spokenSyllables` in `lib/models/respelling.dart` gives each of them a
+spelling the engine says instead — `ihh`, `uck`, `parr`, `core`, `odd`, `sigh`, `vye`.
+
+**No rule about the spelling predicts which fragments those are.** `par` is spelled and
+`tuh` is not; `ih` is spelled and `dih` is not; a syllable with no vowel letter in it at
+all (`py`, `fy`, `ty`) is said correctly. It is a property of the engine's dictionary, not
+of English, so the table is measured rather than reasoned:
+
+```bash
+powershell -NoProfile -File tool/probe_respellings.ps1   # Windows only
+```
+
+`tool/probe_respellings.ps1` speaks every syllable in `tool/respelling_tokens.txt` twice —
+as itself, and as its own letters spaced apart — inside a carrier phrase, and compares the
+phonemes Windows SAPI reports through `PhonemeReached`. Matching readings mean the engine
+is spelling the token. The verdicts land in `tool/respelling_probe.json`, and
+`test/spoken_respelling_test.dart` reads that file: a syllable that has never been probed
+fails the suite, and so does one the probe calls spelled that still reaches the voice. That
+is what makes word 135 safe rather than lucky.
+
+Two things about the probe are load-bearing:
+
+- **Compare the phoneme multiset, not the sequence.** `PhonemeReached` arrives on the event
+  queue and its order jitters against the carrier between runs; the phonemes themselves do
+  not. Comparing sequences made two consecutive runs disagree on a dozen tokens.
+- **A carrier phrase, not a bare token.** A token alone in an utterance is treated as an
+  abbreviation where the same token inside a phrase is not — `par` and `ret` come back
+  clean alone and spelled in context.
+
+**The probe's engine is not the reader's engine.** SAPI is Windows; the phone runs Google's.
+They spell overlapping but different sets — *pietistic* was reported from a device opening on
+the letter "pee" while SAPI says `py` correctly, and byte-identically to `pie`. So treat a
+*spelled* verdict as proof and a *said* verdict as only the absence of one, and prefer a
+replacement that is an ordinary English word, which no engine has to guess at. `py`, `fy`
+and `ty` are in the table for that reason alone.
+
+**A respelling has two readers, and `spokenRespelling` only reaches one.** It fixes what
+`SpeakButton` says. It cannot reach the *screen reader*: the respelling is also drawn on
+the page — the word of the day, every lexicon card, the card at the top of a word's page —
+and TalkBack and VoiceOver say whatever is drawn. `py-uh-TISS-tik` on screen was read out
+letter names and hyphens included, in an app that had just said it correctly out of its
+own button. Every site that draws a respelling now passes `semanticsLabel:` with the
+spoken form, and `test/spoken_label_test.dart` walks the app with the real 134 words and
+fails on one drawn without it. **A new screen that shows a respelling must carry that
+label** — the test is what remembers.
+
+**The engine cannot say the words.** This is the one that matters, and it took a device
+trace to see. Gloss is a lexicon of *rare* words, so Google's Android engine holds almost
+none of them in its dictionary and invents a reading from the spelling: *pietistic* came
+out "pi-e-stic". Every respelling fix above is downstream of that — the respelling was
+never the disease, it is the cure the app already had.
+
+**`<sub alias="...">` is the fix, and it works.** SSML *is* reaching the engine — the app
+has always wrapped English utterances (`_useEnglishSsml`, set when the engine is Google) —
+and a probe on the device on 2026-09-02 confirmed the engine honours `<sub>`:
+
+| Sent | Heard |
+|---|---|
+| `<sub alias="pie uh tiss tik">Pietistic</sub>` | correct |
+| `pie uh tiss tik` | correct |
+| `Pietistic` | **wrong** — "pi-e-stic" |
+
+So the page keeps the word and the voice is handed the respelling, for all 134 at once.
+`kRespellingVoicing` in `lib/models/word_entry.dart` records every shape that was tried
+and what the phone said about each; `RespellingVoicing.probe` is the experiment itself,
+kept because it is how the next such question gets answered.
+
+`<phoneme alphabet="ipa">` is a different matter and is **not** supported by the on-device
+engines — it is a cloud-API feature (Google Cloud TTS, Polly, Azure). An engine that does
+not know a tag speaks its inner text, which is why `<sub>` costs nothing where it is
+unsupported, and why reaching for `<phoneme>` would buy nothing here.
+
+**Every English passage the app speaks goes through `WordEntry.voiced()`.** The headword
+at the top of a reading was the easy half; the sentence underneath names the word again,
+and often inflected — *edulcorated*, *parried*, *animadversions* — where the headword's own
+respelling would say the wrong word. `voiced()` wraps every form it knows, longest first,
+whole words only, and the text inside the tag is the text as written, so an engine that
+ignores `<sub>` reads exactly what it read before.
+
+`kSpokenForms` in `lib/models/spoken_forms.dart` holds the forms that are not the headword
+— 21 of them, the 17 inflections the examples use plus the 4 variants — written in the
+same notation as the 134 and put through `spokenRespelling`, so they inherit the measured
+substitution table rather than sitting beside it. Two of them (`tid`, `eed`) were caught by
+the probe on the way in and replaced with `tidd` and `ihd`; that is the guard working.
+
+The counts are worth keeping: every one of the 134 examples names its own headword, 117 in
+the exact form. `test/spoken_forms_test.dart` fails on an example whose form is neither the
+headword nor listed, on a form whose respelling brings in an unprobed syllable, on a table
+id that is not a word, and on nested markup. So a new word cannot quietly ship a sentence
+the voice will mangle.
+
+**Voice the parts, never the assembly.** `voiced()` asserts on a passage that already
+carries markup, because run twice it would match a headword inside a tag it wrote a moment
+earlier. `spokenEntryWith` therefore voices each part and then joins; `reading.dart` voices
+the English segments *after* `segmentTranslation` has cut them, because that cutting finds
+its terms by matching `quotedEnglish` against the passage as written and pre-wrapped markup
+would hide them.
+
+**Only Google's Android engine is handed SSML.** iOS, desktop and every other Android
+engine get plain text, so `ssmlToPlainText` in `lib/models/ssml.dart` turns a `<sub>` back
+into its alias for them — the alias is the pronunciation the tag existed to deliver, so
+they hear the respelling. A sentinel reaching one of those engines unconverted would be a
+control character in the middle of a word, which is worse than the bug this fixes.
+
+**The app writes tags with sentinels, never with brackets.** `wrapEnglishSsml` must escape
+the utterance — the lexicon's text carries `&` and quotation marks, and one unescaped
+character makes the whole utterance malformed XML, which an engine answers by saying
+nothing at all. Escaping cannot tell a tag the app meant from a bracket the data happens
+to contain, so `ssml.dart` writes ``, ``, `` and the wrapper turns those
+into `<`, `>` and `"` *after* escaping. Data can never reach the parser as markup; the
+app's own tags always do.
+
 **English word data (repaired 2026-08-29):** `assets/data/words.json` had been through
 one round of escaping too many — 20 `example` fields showed a literal `\"` on screen and
 23 `friendly`/`definition` fields were cut off where their quotation began. All 43 were
