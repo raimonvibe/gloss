@@ -808,9 +808,11 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-02 | `daa0a98` | Windows | 3.41.7 | clean | **206/206** | empty |
 | 2026-09-02 | `1333cf1` | Windows | 3.41.7 | clean | **218/218** | empty |
 | 2026-09-02 | `a774b84` | Windows | 3.41.7 | clean | **224/224** | empty |
+| 2026-09-02 | `1eb9a0b` | Windows | 3.41.7 | clean | **320/320** | empty |
 
-The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 across those
-commits; the number is a fact about the commit, not a constant to hold.
+The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 320
+across those commits; the number is a fact about the commit, not a constant to hold. The
+320 is the two halves added together — 293 and 27.
 
 **`english_narration_test.dart` is flaky under full-suite concurrency**, and has been since
 before `1333cf1` — the file sweeps sixty locales and one of its cases trips the 30s per-test
@@ -827,7 +829,13 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `a774b84` (`1.0.0+16`), writing a
+`flutter build appbundle --release` exits 0 on Windows at `1eb9a0b` (`1.0.0+17`), writing a
+47.9 MB bundle — `versionCode 17`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the
+`SENDTO` query both in the merged manifest, 134 words each carrying their `ipa` and all 60
+overlays inside the bundle. The same size as `1.0.0+16`: a session of layout, colour and
+speech-routing work adds nothing a bundle can weigh.
+
+Before that, at `a774b84` (`1.0.0+16`) it wrote a
 47.9 MB bundle — `versionCode 16`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the
 `SENDTO` query both in the merged manifest, and all 134 words carrying their `ipa` in the
 shipped `words.json`. The same size as `1.0.0+15`, which is what a change of this shape
