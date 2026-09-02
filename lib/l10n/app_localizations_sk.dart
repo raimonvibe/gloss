@@ -489,4 +489,120 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Uložené slová vymazané.';
+
+  @override
+  String get contactTitle => 'Napíšte tvorcovi';
+
+  @override
+  String get contactCaption => 'list, ak chcete';
+
+  @override
+  String get contactBlurb =>
+      'Gloss robí jeden človek. Slovo, ktoré vám chýba, chyba, ktorú ste našli, veta, ktorá sa vám páčila — všetko príde na ten istý stôl.';
+
+  @override
+  String get contactLetterSection => 'List';
+
+  @override
+  String get contactName => 'Vaše meno';
+
+  @override
+  String get contactNameHint => 'Meno, ktorým vás osloviť';
+
+  @override
+  String get contactEmail => 'Váš e-mail';
+
+  @override
+  String get contactEmailHint => 'Kam príde odpoveď';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Mysleli ste $domain?';
+  }
+
+  @override
+  String get contactReason => 'Dôvod správy';
+
+  @override
+  String get reasonWord => 'Slovo, ktoré pridať';
+
+  @override
+  String get reasonProblem => 'Niečo je zle';
+
+  @override
+  String get reasonQuestion => 'Otázka';
+
+  @override
+  String get reasonPraise => 'Spätná väzba';
+
+  @override
+  String get reasonOther => 'Niečo iné';
+
+  @override
+  String get contactPriority => 'Aké naliehavé';
+
+  @override
+  String get priorityLow => 'Nízka';
+
+  @override
+  String get priorityNormal => 'Bežná';
+
+  @override
+  String get priorityHigh => 'Vysoká';
+
+  @override
+  String get contactMessage => 'Vaša správa';
+
+  @override
+  String get contactMessageHint => 'Píšte toľko alebo tak málo, koľko chcete…';
+
+  @override
+  String get contactHumanCheck => 'Jedno slovo pred odoslaním';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Ktorý význam patrí slovu $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ten nie. Tu je iné slovo.';
+
+  @override
+  String get contactDetails => 'Priložiť údaje o aplikácii';
+
+  @override
+  String get contactDetailsCaption =>
+      'Verzia, jazyk, svetlo a veľkosť písma, aby sa chyba našla skôr.';
+
+  @override
+  String get contactSend => 'Odoslať list';
+
+  @override
+  String get contactCopyLetter => 'Skopírovať list';
+
+  @override
+  String get contactDraftRestored => 'Čakal tu neodoslaný list.';
+
+  @override
+  String get contactNoMailApp =>
+      'Žiadna poštová aplikácia neodpovedala, list zostal v schránke.';
+
+  @override
+  String get contactNeedName => 'Meno, aby odpoveď vedela, koho zdraví.';
+
+  @override
+  String get contactNeedEmail => 'Adresa, na ktorú odpoveď dorazí.';
+
+  @override
+  String get contactNeedMessage => 'Aspoň riadok alebo dva.';
+
+  @override
+  String get contactSent => 'Váš list je na ceste. Ďakujeme.';
+
+  @override
+  String get contactSendFailed =>
+      'List sa teraz nepodarilo odoslať. Je v schránke a zostáva tu.';
+
+  @override
+  String get contactSendByMail => 'Použiť namiesto toho poštovú aplikáciu';
 }

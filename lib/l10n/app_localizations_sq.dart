@@ -490,4 +490,123 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Fjalët e ruajtura u pastruan.';
+
+  @override
+  String get contactTitle => 'Shkruaji krijuesit';
+
+  @override
+  String get contactCaption => 'një letër, nëse doni';
+
+  @override
+  String get contactBlurb =>
+      'Gloss e bën një njeri i vetëm. Një fjalë që ju mungoi, një gabim që gjetët, një rresht që ju pëlqeu — gjithçka mbërrin në të njëjtën tryezë.';
+
+  @override
+  String get contactLetterSection => 'Letra';
+
+  @override
+  String get contactName => 'Emri juaj';
+
+  @override
+  String get contactNameHint => 'Emri me të cilin t\'ju përshëndesim';
+
+  @override
+  String get contactEmail => 'E-mail-i juaj';
+
+  @override
+  String get contactEmailHint => 'Ku mund t\'ju gjejë një përgjigje';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Mos donit të thoshit $domain?';
+  }
+
+  @override
+  String get contactReason => 'Arsyeja e shkrimit';
+
+  @override
+  String get reasonWord => 'Një fjalë për të shtuar';
+
+  @override
+  String get reasonProblem => 'Diçka nuk shkon';
+
+  @override
+  String get reasonQuestion => 'Një pyetje';
+
+  @override
+  String get reasonPraise => 'Mendim';
+
+  @override
+  String get reasonOther => 'Diçka tjetër';
+
+  @override
+  String get contactPriority => 'Sa e ngutshme';
+
+  @override
+  String get priorityLow => 'E ulët';
+
+  @override
+  String get priorityNormal => 'E zakonshme';
+
+  @override
+  String get priorityHigh => 'E lartë';
+
+  @override
+  String get contactMessage => 'Mesazhi juaj';
+
+  @override
+  String get contactMessageHint => 'Shkruani sa të doni, ose fare pak…';
+
+  @override
+  String get contactHumanCheck => 'Një fjalë para se ta dërgoni';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Cili kuptim i takon fjalës $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Jo ai. Ja një fjalë tjetër.';
+
+  @override
+  String get contactDetails => 'Bashkëngjit të dhënat e aplikacionit';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versioni, gjuha, drita dhe madhësia e tekstit, që një gabim të gjendet më shpejt.';
+
+  @override
+  String get contactSend => 'Dërgo letrën';
+
+  @override
+  String get contactCopyLetter => 'Kopjo letrën';
+
+  @override
+  String get contactDraftRestored => 'Këtu priste një letër e padërguar.';
+
+  @override
+  String get contactNoMailApp =>
+      'Asnjë aplikacion poste nuk u përgjigj, letra mbeti në kujtesën e fragmenteve.';
+
+  @override
+  String get contactNeedName =>
+      'Një emër, që përgjigjja të dijë kë përshëndet.';
+
+  @override
+  String get contactNeedEmail =>
+      'Një adresë ku mund të mbërrijë një përgjigje.';
+
+  @override
+  String get contactNeedMessage => 'Të paktën një rresht a dy.';
+
+  @override
+  String get contactSent => 'Letra juaj është në rrugë. Faleminderit.';
+
+  @override
+  String get contactSendFailed =>
+      'Letra nuk u dërgua dot tani. Është në kujtesën e fragmenteve dhe ruhet këtu.';
+
+  @override
+  String get contactSendByMail =>
+      'Përdorni një aplikacion poste në vend të kësaj';
 }

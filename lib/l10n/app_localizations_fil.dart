@@ -492,4 +492,122 @@ class AppLocalizationsFil extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Nabura ang mga naka-save na salita.';
+
+  @override
+  String get contactTitle => 'Sumulat sa may-akda';
+
+  @override
+  String get contactCaption => 'isang liham, kung nais mo';
+
+  @override
+  String get contactBlurb =>
+      'Isang tao lamang ang gumagawa ng Gloss. Isang salitang hinahanap mo, isang maling nakita mo, isang linyang nagustuhan mo — lahat ay dumarating sa iisang mesa.';
+
+  @override
+  String get contactLetterSection => 'Ang liham';
+
+  @override
+  String get contactName => 'Ang pangalan mo';
+
+  @override
+  String get contactNameHint => 'Ang pangalang ipambabati sa iyo';
+
+  @override
+  String get contactEmail => 'Ang email mo';
+
+  @override
+  String get contactEmailHint => 'Kung saan ka maaabot ng sagot';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '$domain ba ang ibig mong sabihin?';
+  }
+
+  @override
+  String get contactReason => 'Dahilan ng pagsulat';
+
+  @override
+  String get reasonWord => 'Isang salitang idaragdag';
+
+  @override
+  String get reasonProblem => 'May mali';
+
+  @override
+  String get reasonQuestion => 'Isang tanong';
+
+  @override
+  String get reasonPraise => 'Puna';
+
+  @override
+  String get reasonOther => 'Iba pang bagay';
+
+  @override
+  String get contactPriority => 'Gaano kadalian';
+
+  @override
+  String get priorityLow => 'Mababa';
+
+  @override
+  String get priorityNormal => 'Karaniwan';
+
+  @override
+  String get priorityHigh => 'Mataas';
+
+  @override
+  String get contactMessage => 'Ang mensahe mo';
+
+  @override
+  String get contactMessageHint =>
+      'Sumulat nang mahaba o maikli, ikaw ang bahala…';
+
+  @override
+  String get contactHumanCheck => 'Isang salita bago magpadala';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Aling kahulugan ang nauukol sa $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Hindi iyon. Narito ang ibang salita.';
+
+  @override
+  String get contactDetails => 'Isama ang datos ng app';
+
+  @override
+  String get contactDetailsCaption =>
+      'Bersyon, wika, liwanag at laki ng teksto, upang mas mabilis matagpuan ang mali.';
+
+  @override
+  String get contactSend => 'Ipadala ang liham';
+
+  @override
+  String get contactCopyLetter => 'Kopyahin ang liham';
+
+  @override
+  String get contactDraftRestored => 'May liham dito na hindi naipadala.';
+
+  @override
+  String get contactNoMailApp =>
+      'Walang app ng email ang tumugon, kaya nasa clipboard ang liham.';
+
+  @override
+  String get contactNeedName =>
+      'Isang pangalan, upang malaman ng sagot kung sino ang babatiin.';
+
+  @override
+  String get contactNeedEmail => 'Isang tirahan na maaabot ng sagot.';
+
+  @override
+  String get contactNeedMessage => 'Kahit isa o dalawang linya.';
+
+  @override
+  String get contactSent => 'Papunta na ang liham mo. Salamat.';
+
+  @override
+  String get contactSendFailed =>
+      'Hindi naipadala ang liham ngayon. Nasa clipboard ito at nananatili rito.';
+
+  @override
+  String get contactSendByMail => 'Gumamit na lang ng app ng email';
 }

@@ -1062,6 +1062,222 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Saved words cleared.'**
   String get savedWordsCleared;
+
+  /// No description provided for @contactTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Write to the maker'**
+  String get contactTitle;
+
+  /// No description provided for @contactCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'a letter, if you would'**
+  String get contactCaption;
+
+  /// No description provided for @contactBlurb.
+  ///
+  /// In en, this message translates to:
+  /// **'Gloss is made by one person. A word you miss, a fault you found, a line you liked — it all reaches the same desk.'**
+  String get contactBlurb;
+
+  /// No description provided for @contactLetterSection.
+  ///
+  /// In en, this message translates to:
+  /// **'The letter'**
+  String get contactLetterSection;
+
+  /// No description provided for @contactName.
+  ///
+  /// In en, this message translates to:
+  /// **'Your name'**
+  String get contactName;
+
+  /// No description provided for @contactNameHint.
+  ///
+  /// In en, this message translates to:
+  /// **'The name to greet you by'**
+  String get contactNameHint;
+
+  /// No description provided for @contactEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Your email'**
+  String get contactEmail;
+
+  /// No description provided for @contactEmailHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Where a reply can find you'**
+  String get contactEmailHint;
+
+  /// No description provided for @contactEmailTypo.
+  ///
+  /// In en, this message translates to:
+  /// **'Did you mean {domain}?'**
+  String contactEmailTypo(String domain);
+
+  /// No description provided for @contactReason.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason for writing'**
+  String get contactReason;
+
+  /// No description provided for @reasonWord.
+  ///
+  /// In en, this message translates to:
+  /// **'A word to add'**
+  String get reasonWord;
+
+  /// No description provided for @reasonProblem.
+  ///
+  /// In en, this message translates to:
+  /// **'Something is wrong'**
+  String get reasonProblem;
+
+  /// No description provided for @reasonQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'A question'**
+  String get reasonQuestion;
+
+  /// No description provided for @reasonPraise.
+  ///
+  /// In en, this message translates to:
+  /// **'Feedback'**
+  String get reasonPraise;
+
+  /// No description provided for @reasonOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Something else'**
+  String get reasonOther;
+
+  /// No description provided for @contactPriority.
+  ///
+  /// In en, this message translates to:
+  /// **'How pressing'**
+  String get contactPriority;
+
+  /// No description provided for @priorityLow.
+  ///
+  /// In en, this message translates to:
+  /// **'Low'**
+  String get priorityLow;
+
+  /// No description provided for @priorityNormal.
+  ///
+  /// In en, this message translates to:
+  /// **'Normal'**
+  String get priorityNormal;
+
+  /// No description provided for @priorityHigh.
+  ///
+  /// In en, this message translates to:
+  /// **'High'**
+  String get priorityHigh;
+
+  /// No description provided for @contactMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Your message'**
+  String get contactMessage;
+
+  /// No description provided for @contactMessageHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Write as much or as little as you like…'**
+  String get contactMessageHint;
+
+  /// No description provided for @contactHumanCheck.
+  ///
+  /// In en, this message translates to:
+  /// **'A word before you send'**
+  String get contactHumanCheck;
+
+  /// No description provided for @contactHumanQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Which meaning belongs to {word}?'**
+  String contactHumanQuestion(String word);
+
+  /// No description provided for @contactHumanRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Not that one. Here is another word.'**
+  String get contactHumanRetry;
+
+  /// No description provided for @contactDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Include app details'**
+  String get contactDetails;
+
+  /// No description provided for @contactDetailsCaption.
+  ///
+  /// In en, this message translates to:
+  /// **'Version, language, light and text size, so a fault is easier to find.'**
+  String get contactDetailsCaption;
+
+  /// No description provided for @contactSend.
+  ///
+  /// In en, this message translates to:
+  /// **'Send the letter'**
+  String get contactSend;
+
+  /// No description provided for @contactCopyLetter.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy the letter'**
+  String get contactCopyLetter;
+
+  /// No description provided for @contactDraftRestored.
+  ///
+  /// In en, this message translates to:
+  /// **'An unsent letter was waiting here.'**
+  String get contactDraftRestored;
+
+  /// No description provided for @contactNoMailApp.
+  ///
+  /// In en, this message translates to:
+  /// **'No mail app answered, so the letter is on your clipboard.'**
+  String get contactNoMailApp;
+
+  /// No description provided for @contactNeedName.
+  ///
+  /// In en, this message translates to:
+  /// **'A name, so a reply knows whom to greet.'**
+  String get contactNeedName;
+
+  /// No description provided for @contactNeedEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'An address a reply can reach.'**
+  String get contactNeedEmail;
+
+  /// No description provided for @contactNeedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'A line or two, at least.'**
+  String get contactNeedMessage;
+
+  /// No description provided for @contactSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Your letter is on its way. Thank you.'**
+  String get contactSent;
+
+  /// No description provided for @contactSendFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The letter would not send just now. It is on your clipboard, and kept here.'**
+  String get contactSendFailed;
+
+  /// No description provided for @contactSendByMail.
+  ///
+  /// In en, this message translates to:
+  /// **'Use a mail app instead'**
+  String get contactSendByMail;
 }
 
 class _AppLocalizationsDelegate

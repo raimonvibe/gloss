@@ -492,4 +492,123 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Οι αποθηκευμένες λέξεις καθαρίστηκαν.';
+
+  @override
+  String get contactTitle => 'Γράψτε στον δημιουργό';
+
+  @override
+  String get contactCaption => 'ένα γράμμα, αν θέλετε';
+
+  @override
+  String get contactBlurb =>
+      'Το Gloss το φτιάχνει ένας άνθρωπος. Μια λέξη που σας έλειψε, ένα λάθος που βρήκατε, μια γραμμή που σας άρεσε — όλα φτάνουν στο ίδιο γραφείο.';
+
+  @override
+  String get contactLetterSection => 'Το γράμμα';
+
+  @override
+  String get contactName => 'Το όνομά σας';
+
+  @override
+  String get contactNameHint => 'Το όνομα με το οποίο θα σας χαιρετήσουμε';
+
+  @override
+  String get contactEmail => 'Το e-mail σας';
+
+  @override
+  String get contactEmailHint => 'Εκεί που θα σας βρει μια απάντηση';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Μήπως εννοούσατε $domain;';
+  }
+
+  @override
+  String get contactReason => 'Αιτία του μηνύματος';
+
+  @override
+  String get reasonWord => 'Μια λέξη για προσθήκη';
+
+  @override
+  String get reasonProblem => 'Κάτι δεν πάει καλά';
+
+  @override
+  String get reasonQuestion => 'Μια ερώτηση';
+
+  @override
+  String get reasonPraise => 'Σχόλια';
+
+  @override
+  String get reasonOther => 'Κάτι άλλο';
+
+  @override
+  String get contactPriority => 'Πόσο επείγει';
+
+  @override
+  String get priorityLow => 'Χαμηλή';
+
+  @override
+  String get priorityNormal => 'Συνήθης';
+
+  @override
+  String get priorityHigh => 'Υψηλή';
+
+  @override
+  String get contactMessage => 'Το μήνυμά σας';
+
+  @override
+  String get contactMessageHint => 'Γράψτε όσα ή όσο λίγα θέλετε…';
+
+  @override
+  String get contactHumanCheck => 'Μια λέξη πριν στείλετε';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Ποια σημασία ανήκει στη λέξη $word;';
+  }
+
+  @override
+  String get contactHumanRetry => 'Όχι αυτή. Ορίστε άλλη λέξη.';
+
+  @override
+  String get contactDetails => 'Να σταλούν και τα στοιχεία της εφαρμογής';
+
+  @override
+  String get contactDetailsCaption =>
+      'Έκδοση, γλώσσα, φως και μέγεθος κειμένου, για να βρεθεί πιο γρήγορα ένα σφάλμα.';
+
+  @override
+  String get contactSend => 'Αποστολή του γράμματος';
+
+  @override
+  String get contactCopyLetter => 'Αντιγραφή του γράμματος';
+
+  @override
+  String get contactDraftRestored =>
+      'Εδώ περίμενε ένα γράμμα που δεν στάλθηκε.';
+
+  @override
+  String get contactNoMailApp =>
+      'Καμία εφαρμογή αλληλογραφίας δεν απάντησε, το γράμμα έμεινε στο πρόχειρο.';
+
+  @override
+  String get contactNeedName =>
+      'Ένα όνομα, για να ξέρει η απάντηση ποιον χαιρετά.';
+
+  @override
+  String get contactNeedEmail =>
+      'Μια διεύθυνση που μπορεί να φτάσει μια απάντηση.';
+
+  @override
+  String get contactNeedMessage => 'Τουλάχιστον μία ή δύο γραμμές.';
+
+  @override
+  String get contactSent => 'Το γράμμα σας είναι καθ\' οδόν. Ευχαριστούμε.';
+
+  @override
+  String get contactSendFailed =>
+      'Το γράμμα δεν στάλθηκε αυτή τη στιγμή. Βρίσκεται στο πρόχειρο και μένει εδώ.';
+
+  @override
+  String get contactSendByMail => 'Χρησιμοποιήστε εφαρμογή αλληλογραφίας';
 }

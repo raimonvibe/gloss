@@ -489,4 +489,120 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Shranjene besede počiščene.';
+
+  @override
+  String get contactTitle => 'Pišite ustvarjalcu';
+
+  @override
+  String get contactCaption => 'pismo, če želite';
+
+  @override
+  String get contactBlurb =>
+      'Gloss dela en sam človek. Beseda, ki vam manjka, napaka, ki ste jo našli, vrstica, ki vam je bila všeč — vse pride na isto mizo.';
+
+  @override
+  String get contactLetterSection => 'Pismo';
+
+  @override
+  String get contactName => 'Vaše ime';
+
+  @override
+  String get contactNameHint => 'Ime, s katerim vas pozdravimo';
+
+  @override
+  String get contactEmail => 'Vaš e-naslov';
+
+  @override
+  String get contactEmailHint => 'Kam lahko pride odgovor';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Ste mislili $domain?';
+  }
+
+  @override
+  String get contactReason => 'Razlog za sporočilo';
+
+  @override
+  String get reasonWord => 'Beseda, ki jo velja dodati';
+
+  @override
+  String get reasonProblem => 'Nekaj ni v redu';
+
+  @override
+  String get reasonQuestion => 'Vprašanje';
+
+  @override
+  String get reasonPraise => 'Odziv';
+
+  @override
+  String get reasonOther => 'Nekaj drugega';
+
+  @override
+  String get contactPriority => 'Kako nujno';
+
+  @override
+  String get priorityLow => 'Nizka';
+
+  @override
+  String get priorityNormal => 'Običajna';
+
+  @override
+  String get priorityHigh => 'Visoka';
+
+  @override
+  String get contactMessage => 'Vaše sporočilo';
+
+  @override
+  String get contactMessageHint => 'Napišite toliko ali tako malo, kot želite…';
+
+  @override
+  String get contactHumanCheck => 'Ena beseda pred pošiljanjem';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Kateri pomen pripada besedi $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ta ne. Tukaj je druga beseda.';
+
+  @override
+  String get contactDetails => 'Priloži podatke o aplikaciji';
+
+  @override
+  String get contactDetailsCaption =>
+      'Različica, jezik, svetloba in velikost besedila, da se napaka najde prej.';
+
+  @override
+  String get contactSend => 'Pošlji pismo';
+
+  @override
+  String get contactCopyLetter => 'Kopiraj pismo';
+
+  @override
+  String get contactDraftRestored => 'Tu je čakalo neposlano pismo.';
+
+  @override
+  String get contactNoMailApp =>
+      'Nobena poštna aplikacija ni odgovorila, pismo je ostalo v odložišču.';
+
+  @override
+  String get contactNeedName => 'Ime, da odgovor ve, koga nagovarja.';
+
+  @override
+  String get contactNeedEmail => 'Naslov, do katerega pride odgovor.';
+
+  @override
+  String get contactNeedMessage => 'Vsaj vrstica ali dve.';
+
+  @override
+  String get contactSent => 'Vaše pismo je na poti. Hvala.';
+
+  @override
+  String get contactSendFailed =>
+      'Pisma zdaj ni bilo mogoče poslati. Je v odložišču in ostaja tukaj.';
+
+  @override
+  String get contactSendByMail => 'Namesto tega uporabi poštno aplikacijo';
 }

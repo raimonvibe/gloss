@@ -490,4 +490,120 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Zapisane słowa wyczyszczone.';
+
+  @override
+  String get contactTitle => 'Napisz do twórcy';
+
+  @override
+  String get contactCaption => 'list, jeśli zechcesz';
+
+  @override
+  String get contactBlurb =>
+      'Gloss robi jedna osoba. Słowo, którego ci brakuje, błąd, który znalazłeś, zdanie, które ci się spodobało — wszystko trafia na to samo biurko.';
+
+  @override
+  String get contactLetterSection => 'List';
+
+  @override
+  String get contactName => 'Twoje imię';
+
+  @override
+  String get contactNameHint => 'Imię, którym cię powitać';
+
+  @override
+  String get contactEmail => 'Twój e-mail';
+
+  @override
+  String get contactEmailHint => 'Tam, gdzie znajdzie cię odpowiedź';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Czy chodziło o $domain?';
+  }
+
+  @override
+  String get contactReason => 'Powód wiadomości';
+
+  @override
+  String get reasonWord => 'Słowo do dodania';
+
+  @override
+  String get reasonProblem => 'Coś jest nie tak';
+
+  @override
+  String get reasonQuestion => 'Pytanie';
+
+  @override
+  String get reasonPraise => 'Opinia';
+
+  @override
+  String get reasonOther => 'Coś innego';
+
+  @override
+  String get contactPriority => 'Jak pilne';
+
+  @override
+  String get priorityLow => 'Niski';
+
+  @override
+  String get priorityNormal => 'Zwykły';
+
+  @override
+  String get priorityHigh => 'Wysoki';
+
+  @override
+  String get contactMessage => 'Twoja wiadomość';
+
+  @override
+  String get contactMessageHint => 'Napisz tyle albo tak mało, ile chcesz…';
+
+  @override
+  String get contactHumanCheck => 'Jedno słowo przed wysłaniem';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Które znaczenie należy do $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Nie to. Oto inne słowo.';
+
+  @override
+  String get contactDetails => 'Dołącz dane aplikacji';
+
+  @override
+  String get contactDetailsCaption =>
+      'Wersja, język, światło i wielkość tekstu, żeby łatwiej znaleźć błąd.';
+
+  @override
+  String get contactSend => 'Wyślij list';
+
+  @override
+  String get contactCopyLetter => 'Skopiuj list';
+
+  @override
+  String get contactDraftRestored => 'Czekał tu niewysłany list.';
+
+  @override
+  String get contactNoMailApp =>
+      'Żadna aplikacja pocztowa nie odpowiedziała, list został w schowku.';
+
+  @override
+  String get contactNeedName => 'Imię, żeby odpowiedź wiedziała, kogo wita.';
+
+  @override
+  String get contactNeedEmail => 'Adres, do którego dotrze odpowiedź.';
+
+  @override
+  String get contactNeedMessage => 'Przynajmniej linijka albo dwie.';
+
+  @override
+  String get contactSent => 'Twój list jest w drodze. Dziękujemy.';
+
+  @override
+  String get contactSendFailed =>
+      'List nie dał się teraz wysłać. Jest w schowku i zostaje tutaj.';
+
+  @override
+  String get contactSendByMail => 'Użyj zamiast tego aplikacji pocztowej';
 }

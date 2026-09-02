@@ -491,4 +491,123 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Perkataan tersimpan dikosongkan.';
+
+  @override
+  String get contactTitle => 'Menulis kepada pembuatnya';
+
+  @override
+  String get contactCaption => 'sepucuk surat, jika sudi';
+
+  @override
+  String get contactBlurb =>
+      'Gloss dibuat oleh seorang sahaja. Kata yang anda cari, kesilapan yang anda temui, satu baris yang anda suka — semuanya sampai ke meja yang sama.';
+
+  @override
+  String get contactLetterSection => 'Surat';
+
+  @override
+  String get contactName => 'Nama anda';
+
+  @override
+  String get contactNameHint => 'Nama untuk menyapa anda';
+
+  @override
+  String get contactEmail => 'E-mel anda';
+
+  @override
+  String get contactEmailHint => 'Tempat balasan menemui anda';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Maksud anda $domain?';
+  }
+
+  @override
+  String get contactReason => 'Sebab menulis';
+
+  @override
+  String get reasonWord => 'Kata untuk ditambah';
+
+  @override
+  String get reasonProblem => 'Ada sesuatu yang tidak kena';
+
+  @override
+  String get reasonQuestion => 'Satu soalan';
+
+  @override
+  String get reasonPraise => 'Maklum balas';
+
+  @override
+  String get reasonOther => 'Perkara lain';
+
+  @override
+  String get contactPriority => 'Sejauh mana mendesak';
+
+  @override
+  String get priorityLow => 'Rendah';
+
+  @override
+  String get priorityNormal => 'Biasa';
+
+  @override
+  String get priorityHigh => 'Tinggi';
+
+  @override
+  String get contactMessage => 'Pesanan anda';
+
+  @override
+  String get contactMessageHint =>
+      'Tulis sepanjang atau sesingkat yang anda mahu…';
+
+  @override
+  String get contactHumanCheck => 'Satu kata sebelum menghantar';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Makna manakah milik $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Bukan yang itu. Ini kata lain.';
+
+  @override
+  String get contactDetails => 'Sertakan butiran aplikasi';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versi, bahasa, cahaya dan saiz teks, supaya kesilapan lebih cepat ditemui.';
+
+  @override
+  String get contactSend => 'Hantar surat';
+
+  @override
+  String get contactCopyLetter => 'Salin surat';
+
+  @override
+  String get contactDraftRestored =>
+      'Ada surat yang belum dihantar menunggu di sini.';
+
+  @override
+  String get contactNoMailApp =>
+      'Tiada aplikasi e-mel menjawab, jadi surat ini ada di papan keratan.';
+
+  @override
+  String get contactNeedName =>
+      'Satu nama, supaya balasan tahu siapa yang disapa.';
+
+  @override
+  String get contactNeedEmail => 'Alamat yang dapat dicapai balasan.';
+
+  @override
+  String get contactNeedMessage => 'Sekurang-kurangnya satu dua baris.';
+
+  @override
+  String get contactSent => 'Surat anda dalam perjalanan. Terima kasih.';
+
+  @override
+  String get contactSendFailed =>
+      'Surat tidak dapat dihantar sekarang. Ia ada di papan keratan dan kekal tersimpan di sini.';
+
+  @override
+  String get contactSendByMail => 'Gunakan aplikasi e-mel sebaliknya';
 }

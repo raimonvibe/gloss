@@ -485,4 +485,120 @@ class AppLocalizationsHe extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'המילים השמורות נוקו.';
+
+  @override
+  String get contactTitle => 'כתבו ליוצר';
+
+  @override
+  String get contactCaption => 'מכתב, אם תרצו';
+
+  @override
+  String get contactBlurb =>
+      '‏Gloss נעשה בידי אדם אחד. מילה שחסרה לכם, טעות שמצאתם, שורה שאהבתם — הכול מגיע לאותו שולחן.';
+
+  @override
+  String get contactLetterSection => 'המכתב';
+
+  @override
+  String get contactName => 'השם שלכם';
+
+  @override
+  String get contactNameHint => 'השם שבו נפנה אליכם';
+
+  @override
+  String get contactEmail => 'הדוא\"ל שלכם';
+
+  @override
+  String get contactEmailHint => 'היכן שתשובה תמצא אתכם';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'האם התכוונתם ל־$domain?';
+  }
+
+  @override
+  String get contactReason => 'סיבת הפנייה';
+
+  @override
+  String get reasonWord => 'מילה שכדאי להוסיף';
+
+  @override
+  String get reasonProblem => 'משהו לא בסדר';
+
+  @override
+  String get reasonQuestion => 'שאלה';
+
+  @override
+  String get reasonPraise => 'משוב';
+
+  @override
+  String get reasonOther => 'משהו אחר';
+
+  @override
+  String get contactPriority => 'עד כמה דחוף';
+
+  @override
+  String get priorityLow => 'נמוכה';
+
+  @override
+  String get priorityNormal => 'רגילה';
+
+  @override
+  String get priorityHigh => 'גבוהה';
+
+  @override
+  String get contactMessage => 'ההודעה שלכם';
+
+  @override
+  String get contactMessageHint => 'כתבו כמה שתרצו, בקצרה או בארוכה…';
+
+  @override
+  String get contactHumanCheck => 'מילה אחת לפני השליחה';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'איזו משמעות שייכת ל־$word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'לא זו. הנה מילה אחרת.';
+
+  @override
+  String get contactDetails => 'לצרף פרטי אפליקציה';
+
+  @override
+  String get contactDetailsCaption =>
+      'גרסה, שפה, אור וגודל טקסט, כדי שתקלה תימצא מהר יותר.';
+
+  @override
+  String get contactSend => 'שליחת המכתב';
+
+  @override
+  String get contactCopyLetter => 'העתקת המכתב';
+
+  @override
+  String get contactDraftRestored => 'כאן חיכה מכתב שלא נשלח.';
+
+  @override
+  String get contactNoMailApp =>
+      'שום אפליקציית דואר לא נענתה, ולכן המכתב נמצא בלוח.';
+
+  @override
+  String get contactNeedName => 'שם, כדי שהתשובה תדע למי לפנות.';
+
+  @override
+  String get contactNeedEmail => 'כתובת שתשובה יכולה להגיע אליה.';
+
+  @override
+  String get contactNeedMessage => 'לפחות שורה או שתיים.';
+
+  @override
+  String get contactSent => 'המכתב שלכם בדרך. תודה.';
+
+  @override
+  String get contactSendFailed =>
+      'לא הצלחנו לשלוח את המכתב כרגע. הוא בלוח וגם נשמר כאן.';
+
+  @override
+  String get contactSendByMail => 'להשתמש באפליקציית דואר במקום';
 }

@@ -486,4 +486,119 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'ล้างคำที่บันทึกไว้แล้ว';
+
+  @override
+  String get contactTitle => 'เขียนถึงผู้สร้าง';
+
+  @override
+  String get contactCaption => 'จดหมายสักฉบับ ถ้าคุณอยาก';
+
+  @override
+  String get contactBlurb =>
+      'Gloss ทำโดยคนเพียงคนเดียว คำที่คุณคิดถึง ข้อผิดพลาดที่คุณพบ บรรทัดที่คุณชอบ — ทั้งหมดมาถึงโต๊ะตัวเดียวกัน';
+
+  @override
+  String get contactLetterSection => 'จดหมาย';
+
+  @override
+  String get contactName => 'ชื่อของคุณ';
+
+  @override
+  String get contactNameHint => 'ชื่อที่ใช้ทักทายคุณ';
+
+  @override
+  String get contactEmail => 'อีเมลของคุณ';
+
+  @override
+  String get contactEmailHint => 'ที่ที่คำตอบจะไปถึงคุณ';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'คุณหมายถึง $domain หรือเปล่า';
+  }
+
+  @override
+  String get contactReason => 'เหตุที่เขียน';
+
+  @override
+  String get reasonWord => 'คำที่อยากให้เพิ่ม';
+
+  @override
+  String get reasonProblem => 'มีบางอย่างผิดพลาด';
+
+  @override
+  String get reasonQuestion => 'คำถาม';
+
+  @override
+  String get reasonPraise => 'ความเห็น';
+
+  @override
+  String get reasonOther => 'เรื่องอื่น';
+
+  @override
+  String get contactPriority => 'เร่งด่วนแค่ไหน';
+
+  @override
+  String get priorityLow => 'ต่ำ';
+
+  @override
+  String get priorityNormal => 'ปกติ';
+
+  @override
+  String get priorityHigh => 'สูง';
+
+  @override
+  String get contactMessage => 'ข้อความของคุณ';
+
+  @override
+  String get contactMessageHint => 'เขียนยาวหรือสั้นก็ได้ตามใจ…';
+
+  @override
+  String get contactHumanCheck => 'อีกคำหนึ่งก่อนส่ง';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'ความหมายใดเป็นของ $word';
+  }
+
+  @override
+  String get contactHumanRetry => 'ไม่ใช่คำนั้น นี่คืออีกคำหนึ่ง';
+
+  @override
+  String get contactDetails => 'แนบข้อมูลของแอปด้วย';
+
+  @override
+  String get contactDetailsCaption =>
+      'รุ่น ภาษา แสง และขนาดตัวอักษร เพื่อให้หาข้อผิดพลาดได้เร็วขึ้น';
+
+  @override
+  String get contactSend => 'ส่งจดหมาย';
+
+  @override
+  String get contactCopyLetter => 'คัดลอกจดหมาย';
+
+  @override
+  String get contactDraftRestored => 'มีจดหมายที่ยังไม่ได้ส่งรออยู่ที่นี่';
+
+  @override
+  String get contactNoMailApp => 'ไม่มีแอปอีเมลตอบรับ จดหมายจึงอยู่ในคลิปบอร์ด';
+
+  @override
+  String get contactNeedName => 'ชื่อสักชื่อ เพื่อให้คำตอบรู้ว่าจะทักใคร';
+
+  @override
+  String get contactNeedEmail => 'ที่อยู่ที่คำตอบไปถึงได้';
+
+  @override
+  String get contactNeedMessage => 'อย่างน้อยสักบรรทัดสองบรรทัด';
+
+  @override
+  String get contactSent => 'จดหมายของคุณกำลังเดินทาง ขอบคุณ';
+
+  @override
+  String get contactSendFailed =>
+      'ตอนนี้ส่งจดหมายไม่สำเร็จ จดหมายอยู่ในคลิปบอร์ดและยังเก็บไว้ที่นี่';
+
+  @override
+  String get contactSendByMail => 'ใช้แอปอีเมลแทน';
 }

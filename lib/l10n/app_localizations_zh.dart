@@ -483,6 +483,118 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get savedWordsCleared => '收藏的词已清空。';
+
+  @override
+  String get contactTitle => '写信给作者';
+
+  @override
+  String get contactCaption => '若你愿意，写一封信';
+
+  @override
+  String get contactBlurb => 'Gloss 由一个人做成。你想加的词、你发现的错处、你喜欢的一行 — 都会送到同一张书桌上。';
+
+  @override
+  String get contactLetterSection => '这封信';
+
+  @override
+  String get contactName => '你的名字';
+
+  @override
+  String get contactNameHint => '该怎样称呼你';
+
+  @override
+  String get contactEmail => '你的邮箱';
+
+  @override
+  String get contactEmailHint => '回信能找到你的地方';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '你是想写 $domain 吗？';
+  }
+
+  @override
+  String get contactReason => '写信的缘由';
+
+  @override
+  String get reasonWord => '想添的一个词';
+
+  @override
+  String get reasonProblem => '有什么不对';
+
+  @override
+  String get reasonQuestion => '一个问题';
+
+  @override
+  String get reasonPraise => '反馈';
+
+  @override
+  String get reasonOther => '别的事';
+
+  @override
+  String get contactPriority => '有多急';
+
+  @override
+  String get priorityLow => '低';
+
+  @override
+  String get priorityNormal => '一般';
+
+  @override
+  String get priorityHigh => '高';
+
+  @override
+  String get contactMessage => '你的话';
+
+  @override
+  String get contactMessageHint => '想写多少就写多少…';
+
+  @override
+  String get contactHumanCheck => '寄出之前，先看一个词';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '哪一个意思属于 $word？';
+  }
+
+  @override
+  String get contactHumanRetry => '不是这个。换一个词。';
+
+  @override
+  String get contactDetails => '附上应用信息';
+
+  @override
+  String get contactDetailsCaption => '版本、语言、明暗与字号，便于更快找出毛病。';
+
+  @override
+  String get contactSend => '寄出这封信';
+
+  @override
+  String get contactCopyLetter => '复制这封信';
+
+  @override
+  String get contactDraftRestored => '这里留着一封没寄出的信。';
+
+  @override
+  String get contactNoMailApp => '没有邮件应用应答，信已放进剪贴板。';
+
+  @override
+  String get contactNeedName => '留个名字，回信才知道称呼谁。';
+
+  @override
+  String get contactNeedEmail => '留个回信能到的地址。';
+
+  @override
+  String get contactNeedMessage => '至少写上一两行。';
+
+  @override
+  String get contactSent => '你的信已经上路了。谢谢。';
+
+  @override
+  String get contactSendFailed => '这封信暂时寄不出去。信已放进剪贴板，也留在这里。';
+
+  @override
+  String get contactSendByMail => '改用邮件应用';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -964,6 +1076,118 @@ class AppLocalizationsZhHk extends AppLocalizationsZh {
 
   @override
   String get savedWordsCleared => '收藏的詞已清空。';
+
+  @override
+  String get contactTitle => '寫信畀作者';
+
+  @override
+  String get contactCaption => '若你願意，寫一封信';
+
+  @override
+  String get contactBlurb => 'Gloss 由一個人做成。你想加嘅詞、你發現嘅錯處、你鍾意嘅一行 — 都會送到同一張書枱。';
+
+  @override
+  String get contactLetterSection => '呢封信';
+
+  @override
+  String get contactName => '你嘅名';
+
+  @override
+  String get contactNameHint => '點稱呼你';
+
+  @override
+  String get contactEmail => '你嘅電郵';
+
+  @override
+  String get contactEmailHint => '回覆搵到你嘅地方';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '你係咪想寫 $domain？';
+  }
+
+  @override
+  String get contactReason => '寫信嘅緣由';
+
+  @override
+  String get reasonWord => '想加嘅一個詞';
+
+  @override
+  String get reasonProblem => '有啲唔妥';
+
+  @override
+  String get reasonQuestion => '一個問題';
+
+  @override
+  String get reasonPraise => '意見';
+
+  @override
+  String get reasonOther => '第啲事';
+
+  @override
+  String get contactPriority => '有幾急';
+
+  @override
+  String get priorityLow => '低';
+
+  @override
+  String get priorityNormal => '一般';
+
+  @override
+  String get priorityHigh => '高';
+
+  @override
+  String get contactMessage => '你嘅話';
+
+  @override
+  String get contactMessageHint => '想寫幾多就寫幾多…';
+
+  @override
+  String get contactHumanCheck => '寄出之前，先睇一個詞';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '邊個意思屬於 $word？';
+  }
+
+  @override
+  String get contactHumanRetry => '唔係呢個。換一個詞。';
+
+  @override
+  String get contactDetails => '附上應用程式資料';
+
+  @override
+  String get contactDetailsCaption => '版本、語言、明暗同字級，方便更快搵到問題。';
+
+  @override
+  String get contactSend => '寄出呢封信';
+
+  @override
+  String get contactCopyLetter => '複製呢封信';
+
+  @override
+  String get contactDraftRestored => '呢度留低咗一封未寄出嘅信。';
+
+  @override
+  String get contactNoMailApp => '冇郵件程式回應，封信已經放咗入剪貼簿。';
+
+  @override
+  String get contactNeedName => '留個名，回覆先知點稱呼你。';
+
+  @override
+  String get contactNeedEmail => '留個回覆到達到嘅地址。';
+
+  @override
+  String get contactNeedMessage => '至少寫一兩行。';
+
+  @override
+  String get contactSent => '你封信已經上路。多謝。';
+
+  @override
+  String get contactSendFailed => '呢封信暫時寄唔出。信已經放咗入剪貼簿，亦留喺呢度。';
+
+  @override
+  String get contactSendByMail => '改用郵件程式';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -1445,4 +1669,116 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get savedWordsCleared => '收藏的詞已清空。';
+
+  @override
+  String get contactTitle => '寫信給作者';
+
+  @override
+  String get contactCaption => '若你願意，寫一封信';
+
+  @override
+  String get contactBlurb => 'Gloss 由一個人做成。你想加的詞、你發現的錯處、你喜歡的一行 — 都會送到同一張書桌上。';
+
+  @override
+  String get contactLetterSection => '這封信';
+
+  @override
+  String get contactName => '你的名字';
+
+  @override
+  String get contactNameHint => '該怎麼稱呼你';
+
+  @override
+  String get contactEmail => '你的信箱';
+
+  @override
+  String get contactEmailHint => '回信能找到你的地方';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '你是想寫 $domain 嗎？';
+  }
+
+  @override
+  String get contactReason => '寫信的緣由';
+
+  @override
+  String get reasonWord => '想添的一個詞';
+
+  @override
+  String get reasonProblem => '有什麼不對';
+
+  @override
+  String get reasonQuestion => '一個問題';
+
+  @override
+  String get reasonPraise => '意見';
+
+  @override
+  String get reasonOther => '別的事';
+
+  @override
+  String get contactPriority => '有多急';
+
+  @override
+  String get priorityLow => '低';
+
+  @override
+  String get priorityNormal => '一般';
+
+  @override
+  String get priorityHigh => '高';
+
+  @override
+  String get contactMessage => '你的話';
+
+  @override
+  String get contactMessageHint => '想寫多少就寫多少…';
+
+  @override
+  String get contactHumanCheck => '寄出之前，先看一個詞';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '哪一個意思屬於 $word？';
+  }
+
+  @override
+  String get contactHumanRetry => '不是這個。換一個詞。';
+
+  @override
+  String get contactDetails => '附上應用程式資訊';
+
+  @override
+  String get contactDetailsCaption => '版本、語言、明暗與字級，便於更快找出毛病。';
+
+  @override
+  String get contactSend => '寄出這封信';
+
+  @override
+  String get contactCopyLetter => '複製這封信';
+
+  @override
+  String get contactDraftRestored => '這裡留著一封沒寄出的信。';
+
+  @override
+  String get contactNoMailApp => '沒有郵件程式回應，信已放進剪貼簿。';
+
+  @override
+  String get contactNeedName => '留個名字，回信才知道稱呼誰。';
+
+  @override
+  String get contactNeedEmail => '留個回信能到的地址。';
+
+  @override
+  String get contactNeedMessage => '至少寫上一兩行。';
+
+  @override
+  String get contactSent => '你的信已經上路了。謝謝。';
+
+  @override
+  String get contactSendFailed => '這封信暫時寄不出去。信已放進剪貼簿，也留在這裡。';
+
+  @override
+  String get contactSendByMail => '改用郵件程式';
 }

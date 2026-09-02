@@ -492,4 +492,123 @@ class AppLocalizationsMy extends AppLocalizations {
   @override
   String get savedWordsCleared =>
       'သိမ်းထားသော စကားလုံးများကို ရှင်းလိုက်ပါပြီ။';
+
+  @override
+  String get contactTitle => 'ဖန်တီးသူထံ စာရေးပါ';
+
+  @override
+  String get contactCaption => 'အလိုရှိလျှင် စာတစ်စောင်';
+
+  @override
+  String get contactBlurb =>
+      'Gloss ကို လူတစ်ဦးတည်းက ပြုလုပ်သည်။ လိုအပ်နေသော စကားလုံး၊ တွေ့ရှိသော အမှား၊ နှစ်သက်သော စာကြောင်း — အားလုံး တစ်ခုတည်းသော စားပွဲပေါ်သို့ ရောက်သည်။';
+
+  @override
+  String get contactLetterSection => 'စာ';
+
+  @override
+  String get contactName => 'သင့်အမည်';
+
+  @override
+  String get contactNameHint => 'သင့်ကို နှုတ်ဆက်ရန် အမည်';
+
+  @override
+  String get contactEmail => 'သင့်အီးမေးလ်';
+
+  @override
+  String get contactEmailHint => 'အဖြေက သင့်ကို ရှာတွေ့နိုင်သည့်နေရာ';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '$domain ကို ဆိုလိုပါသလား';
+  }
+
+  @override
+  String get contactReason => 'စာရေးရသည့် အကြောင်းရင်း';
+
+  @override
+  String get reasonWord => 'ထည့်သင့်သော စကားလုံး';
+
+  @override
+  String get reasonProblem => 'တစ်ခုခု မှားနေသည်';
+
+  @override
+  String get reasonQuestion => 'မေးခွန်း';
+
+  @override
+  String get reasonPraise => 'အကြံပြုချက်';
+
+  @override
+  String get reasonOther => 'အခြားအရာ';
+
+  @override
+  String get contactPriority => 'မည်မျှ အရေးကြီးသနည်း';
+
+  @override
+  String get priorityLow => 'နိမ့်';
+
+  @override
+  String get priorityNormal => 'ပုံမှန်';
+
+  @override
+  String get priorityHigh => 'မြင့်';
+
+  @override
+  String get contactMessage => 'သင့်စာ';
+
+  @override
+  String get contactMessageHint =>
+      'ရှည်သည်ဖြစ်စေ တိုသည်ဖြစ်စေ နှစ်သက်သလို ရေးပါ…';
+
+  @override
+  String get contactHumanCheck => 'မပို့မီ စကားလုံးတစ်လုံး';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word နှင့် သက်ဆိုင်သော အဓိပ္ပာယ်မှာ ဘယ်ဟာလဲ';
+  }
+
+  @override
+  String get contactHumanRetry => 'ထိုအရာ မဟုတ်ပါ။ ဤတွင် အခြားစကားလုံးတစ်လုံး။';
+
+  @override
+  String get contactDetails => 'အက်ပ်အချက်အလက်များ ပူးတွဲရန်';
+
+  @override
+  String get contactDetailsCaption =>
+      'ဗားရှင်း၊ ဘာသာစကား၊ အလင်းနှင့် စာလုံးအရွယ်အစား — အမှားကို ပိုမြန်မြန် ရှာတွေ့စေရန်။';
+
+  @override
+  String get contactSend => 'စာပို့ရန်';
+
+  @override
+  String get contactCopyLetter => 'စာကို ကူးယူရန်';
+
+  @override
+  String get contactDraftRestored =>
+      'မပို့ရသေးသော စာတစ်စောင် ဤနေရာတွင် စောင့်နေခဲ့သည်။';
+
+  @override
+  String get contactNoMailApp =>
+      'မည်သည့် အီးမေးလ်အက်ပ်မျှ မတုံ့ပြန်ပါ၊ ထို့ကြောင့် စာသည် ကလစ်ဘုတ်တွင် ရှိသည်။';
+
+  @override
+  String get contactNeedName =>
+      'အမည်တစ်ခု — အဖြေက မည်သူ့ကို နှုတ်ဆက်ရမည်ကို သိစေရန်။';
+
+  @override
+  String get contactNeedEmail => 'အဖြေ ရောက်ရှိနိုင်သော လိပ်စာတစ်ခု။';
+
+  @override
+  String get contactNeedMessage => 'အနည်းဆုံး စာကြောင်း တစ်ကြောင်းနှစ်ကြောင်း။';
+
+  @override
+  String get contactSent => 'သင့်စာ လမ်းခရီးတွင် ရှိပါပြီ။ ကျေးဇူးတင်ပါသည်။';
+
+  @override
+  String get contactSendFailed =>
+      'ယခုအချိန်တွင် စာမပို့နိုင်ပါ။ စာသည် ကလစ်ဘုတ်တွင် ရှိပြီး ဤနေရာတွင်လည်း သိမ်းထားသည်။';
+
+  @override
+  String get contactSendByMail => 'အစားထိုး အီးမေးလ်အက်ပ် သုံးရန်';
 }

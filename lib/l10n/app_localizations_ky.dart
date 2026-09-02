@@ -489,4 +489,120 @@ class AppLocalizationsKy extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Сакталган сөздөр тазаланды.';
+
+  @override
+  String get contactTitle => 'Жаратуучуга жазыңыз';
+
+  @override
+  String get contactCaption => 'кат, кааласаңыз';
+
+  @override
+  String get contactBlurb =>
+      'Gloss\'ту бир киши жасайт. Жетишпеген сөз, тапкан катаңыз, жаккан сап — баары бир столго келет.';
+
+  @override
+  String get contactLetterSection => 'Кат';
+
+  @override
+  String get contactName => 'Атыңыз';
+
+  @override
+  String get contactNameHint => 'Сизге кайрылчу ат';
+
+  @override
+  String get contactEmail => 'Электрондук почтаңыз';
+
+  @override
+  String get contactEmailHint => 'Жооп сизди табуучу жер';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '$domain дегиңиз келди беле?';
+  }
+
+  @override
+  String get contactReason => 'Жазуу себеби';
+
+  @override
+  String get reasonWord => 'Кошула турган сөз';
+
+  @override
+  String get reasonProblem => 'Бир нерсе туура эмес';
+
+  @override
+  String get reasonQuestion => 'Суроо';
+
+  @override
+  String get reasonPraise => 'Пикир';
+
+  @override
+  String get reasonOther => 'Башка нерсе';
+
+  @override
+  String get contactPriority => 'Канчалык шашылыш';
+
+  @override
+  String get priorityLow => 'Төмөн';
+
+  @override
+  String get priorityNormal => 'Кадимки';
+
+  @override
+  String get priorityHigh => 'Жогорку';
+
+  @override
+  String get contactMessage => 'Билдирүүңүз';
+
+  @override
+  String get contactMessageHint => 'Каалаганыңызча узун же кыска жазыңыз…';
+
+  @override
+  String get contactHumanCheck => 'Жөнөтөрдөн мурун бир сөз';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Кайсы маани $word сөзүнө тиешелүү?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ал эмес. Мына, башка сөз.';
+
+  @override
+  String get contactDetails => 'Колдонмо маалыматын кошуу';
+
+  @override
+  String get contactDetailsCaption =>
+      'Версия, тил, жарык жана тексттин өлчөмү — ката тезирээк табылат.';
+
+  @override
+  String get contactSend => 'Катты жөнөтүү';
+
+  @override
+  String get contactCopyLetter => 'Катты көчүрүү';
+
+  @override
+  String get contactDraftRestored => 'Бул жерде жөнөтүлбөгөн кат күтүп турган.';
+
+  @override
+  String get contactNoMailApp =>
+      'Эч бир почта колдонмосу жооп бербеди, кат алмашуу буферинде калды.';
+
+  @override
+  String get contactNeedName => 'Ат, жооп кимге кайрыларын билиши үчүн.';
+
+  @override
+  String get contactNeedEmail => 'Жооп жете турган дарек.';
+
+  @override
+  String get contactNeedMessage => 'Жок дегенде бир-эки сап.';
+
+  @override
+  String get contactSent => 'Катыңыз жолдо. Рахмат.';
+
+  @override
+  String get contactSendFailed =>
+      'Кат азыр жөнөтүлгөн жок. Ал алмашуу буферинде жана ушул жерде сакталды.';
+
+  @override
+  String get contactSendByMail => 'Анын ордуна почта колдонмосун колдонуңуз';
 }

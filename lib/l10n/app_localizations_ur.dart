@@ -488,4 +488,120 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'محفوظ الفاظ صاف کر دیے گئے۔';
+
+  @override
+  String get contactTitle => 'بنانے والے کو لکھیں';
+
+  @override
+  String get contactCaption => 'اگر آپ چاہیں تو ایک خط';
+
+  @override
+  String get contactBlurb =>
+      'Gloss ایک ہی شخص بناتا ہے۔ جو لفظ آپ کو نہ ملا، جو غلطی آپ نے پکڑی، جو سطر آپ کو بھائی — سب ایک ہی میز تک پہنچتا ہے۔';
+
+  @override
+  String get contactLetterSection => 'خط';
+
+  @override
+  String get contactName => 'آپ کا نام';
+
+  @override
+  String get contactNameHint => 'وہ نام جس سے آپ کو پکارا جائے';
+
+  @override
+  String get contactEmail => 'آپ کا ای میل';
+
+  @override
+  String get contactEmailHint => 'جہاں جواب آپ تک پہنچ سکے';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'کیا آپ کی مراد $domain تھی؟';
+  }
+
+  @override
+  String get contactReason => 'لکھنے کی وجہ';
+
+  @override
+  String get reasonWord => 'ایک لفظ جو شامل کیا جائے';
+
+  @override
+  String get reasonProblem => 'کچھ درست نہیں';
+
+  @override
+  String get reasonQuestion => 'ایک سوال';
+
+  @override
+  String get reasonPraise => 'رائے';
+
+  @override
+  String get reasonOther => 'کچھ اور';
+
+  @override
+  String get contactPriority => 'کتنی جلدی';
+
+  @override
+  String get priorityLow => 'کم';
+
+  @override
+  String get priorityNormal => 'عام';
+
+  @override
+  String get priorityHigh => 'زیادہ';
+
+  @override
+  String get contactMessage => 'آپ کا پیغام';
+
+  @override
+  String get contactMessageHint => 'جتنا چاہیں لکھیں، یا تھوڑا ہی…';
+
+  @override
+  String get contactHumanCheck => 'بھیجنے سے پہلے ایک لفظ';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word کا مطلب ان میں سے کون سا ہے؟';
+  }
+
+  @override
+  String get contactHumanRetry => 'وہ نہیں۔ یہ لیجیے دوسرا لفظ۔';
+
+  @override
+  String get contactDetails => 'ایپ کی تفصیل ساتھ بھیجیں';
+
+  @override
+  String get contactDetailsCaption =>
+      'ورژن، زبان، روشنی اور متن کا سائز، تاکہ خرابی جلد مل جائے۔';
+
+  @override
+  String get contactSend => 'خط بھیجیں';
+
+  @override
+  String get contactCopyLetter => 'خط نقل کریں';
+
+  @override
+  String get contactDraftRestored => 'یہاں ایک بغیر بھیجا ہوا خط رکھا تھا۔';
+
+  @override
+  String get contactNoMailApp =>
+      'کسی میل ایپ نے جواب نہیں دیا، سو خط کلپ بورڈ میں ہے۔';
+
+  @override
+  String get contactNeedName => 'ایک نام، تاکہ جواب جانے کہ کسے مخاطب کرنا ہے۔';
+
+  @override
+  String get contactNeedEmail => 'ایک پتہ جہاں جواب پہنچ سکے۔';
+
+  @override
+  String get contactNeedMessage => 'کم از کم ایک دو سطریں۔';
+
+  @override
+  String get contactSent => 'آپ کا خط راستے میں ہے۔ شکریہ۔';
+
+  @override
+  String get contactSendFailed =>
+      'خط ابھی بھیجا نہ جا سکا۔ وہ کلپ بورڈ میں ہے اور یہاں بھی محفوظ ہے۔';
+
+  @override
+  String get contactSendByMail => 'اس کے بجائے میل ایپ استعمال کریں';
 }

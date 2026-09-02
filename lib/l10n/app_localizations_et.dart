@@ -489,4 +489,120 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Salvestatud sõnad tühjendatud.';
+
+  @override
+  String get contactTitle => 'Kirjuta tegijale';
+
+  @override
+  String get contactCaption => 'kiri, kui soovid';
+
+  @override
+  String get contactBlurb =>
+      'Glossi teeb üks inimene. Sõna, millest puudust tundsid, viga, mille leidsid, rida, mis meeldis — kõik jõuab samale lauale.';
+
+  @override
+  String get contactLetterSection => 'Kiri';
+
+  @override
+  String get contactName => 'Sinu nimi';
+
+  @override
+  String get contactNameHint => 'Nimi, millega sind tervitada';
+
+  @override
+  String get contactEmail => 'Sinu e-post';
+
+  @override
+  String get contactEmailHint => 'Kust vastus sind leiab';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Kas mõtlesid $domain?';
+  }
+
+  @override
+  String get contactReason => 'Kirjutamise põhjus';
+
+  @override
+  String get reasonWord => 'Sõna, mida lisada';
+
+  @override
+  String get reasonProblem => 'Midagi on valesti';
+
+  @override
+  String get reasonQuestion => 'Küsimus';
+
+  @override
+  String get reasonPraise => 'Tagasiside';
+
+  @override
+  String get reasonOther => 'Midagi muud';
+
+  @override
+  String get contactPriority => 'Kui kiire on';
+
+  @override
+  String get priorityLow => 'Madal';
+
+  @override
+  String get priorityNormal => 'Tavaline';
+
+  @override
+  String get priorityHigh => 'Kõrge';
+
+  @override
+  String get contactMessage => 'Sinu sõnum';
+
+  @override
+  String get contactMessageHint => 'Kirjuta nii palju või nii vähe kui soovid…';
+
+  @override
+  String get contactHumanCheck => 'Üks sõna enne saatmist';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Milline tähendus kuulub sõnale $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Mitte see. Siin on teine sõna.';
+
+  @override
+  String get contactDetails => 'Lisa rakenduse andmed';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versioon, keel, valgus ja teksti suurus, et viga kiiremini leitaks.';
+
+  @override
+  String get contactSend => 'Saada kiri';
+
+  @override
+  String get contactCopyLetter => 'Kopeeri kiri';
+
+  @override
+  String get contactDraftRestored => 'Siin ootas saatmata kiri.';
+
+  @override
+  String get contactNoMailApp =>
+      'Ükski postirakendus ei vastanud, nii et kiri jäi lõikelauale.';
+
+  @override
+  String get contactNeedName => 'Nimi, et vastus teaks, keda tervitada.';
+
+  @override
+  String get contactNeedEmail => 'Aadress, kuhu vastus jõuab.';
+
+  @override
+  String get contactNeedMessage => 'Vähemalt rida või kaks.';
+
+  @override
+  String get contactSent => 'Sinu kiri on teel. Aitäh.';
+
+  @override
+  String get contactSendFailed =>
+      'Kirja ei õnnestunud praegu saata. See on lõikelaual ja jääb siia.';
+
+  @override
+  String get contactSendByMail => 'Kasuta selle asemel postirakendust';
 }

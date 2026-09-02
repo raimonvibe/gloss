@@ -490,4 +490,121 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Bewaarde woorden gewist.';
+
+  @override
+  String get contactTitle => 'Schrijf de maker';
+
+  @override
+  String get contactCaption => 'een brief, als je wilt';
+
+  @override
+  String get contactBlurb =>
+      'Gloss wordt door één persoon gemaakt. Een woord dat je mist, een fout die je vond, een zin die je mooi vond — het komt allemaal op hetzelfde bureau.';
+
+  @override
+  String get contactLetterSection => 'De brief';
+
+  @override
+  String get contactName => 'Je naam';
+
+  @override
+  String get contactNameHint => 'De naam om je mee te groeten';
+
+  @override
+  String get contactEmail => 'Je e-mailadres';
+
+  @override
+  String get contactEmailHint => 'Waar een antwoord je kan vinden';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Bedoelde je $domain?';
+  }
+
+  @override
+  String get contactReason => 'Reden om te schrijven';
+
+  @override
+  String get reasonWord => 'Een woord om toe te voegen';
+
+  @override
+  String get reasonProblem => 'Er is iets mis';
+
+  @override
+  String get reasonQuestion => 'Een vraag';
+
+  @override
+  String get reasonPraise => 'Feedback';
+
+  @override
+  String get reasonOther => 'Iets anders';
+
+  @override
+  String get contactPriority => 'Hoe dringend';
+
+  @override
+  String get priorityLow => 'Laag';
+
+  @override
+  String get priorityNormal => 'Normaal';
+
+  @override
+  String get priorityHigh => 'Hoog';
+
+  @override
+  String get contactMessage => 'Je bericht';
+
+  @override
+  String get contactMessageHint => 'Schrijf zoveel of zo weinig als je wilt…';
+
+  @override
+  String get contactHumanCheck => 'Nog één woord voor je verstuurt';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Welke betekenis hoort bij $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Niet die. Hier is een ander woord.';
+
+  @override
+  String get contactDetails => 'App-gegevens meesturen';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versie, taal, licht en tekstgrootte, zodat een fout makkelijker te vinden is.';
+
+  @override
+  String get contactSend => 'Verstuur de brief';
+
+  @override
+  String get contactCopyLetter => 'Kopieer de brief';
+
+  @override
+  String get contactDraftRestored => 'Hier lag nog een onverzonden brief.';
+
+  @override
+  String get contactNoMailApp =>
+      'Geen mail-app antwoordde, dus de brief staat op je klembord.';
+
+  @override
+  String get contactNeedName =>
+      'Een naam, zodat een antwoord weet wie het groet.';
+
+  @override
+  String get contactNeedEmail => 'Een adres dat een antwoord kan bereiken.';
+
+  @override
+  String get contactNeedMessage => 'Op zijn minst een paar regels.';
+
+  @override
+  String get contactSent => 'Je brief is onderweg. Dank je.';
+
+  @override
+  String get contactSendFailed =>
+      'De brief kon nu niet verzonden worden. Hij staat op je klembord en blijft hier bewaard.';
+
+  @override
+  String get contactSendByMail => 'Gebruik in plaats daarvan een mail-app';
 }

@@ -492,6 +492,123 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Mots gardés effacés.';
+
+  @override
+  String get contactTitle => 'Écrire à l\'auteur';
+
+  @override
+  String get contactCaption => 'une lettre, si vous voulez';
+
+  @override
+  String get contactBlurb =>
+      'Gloss est fait par une seule personne. Un mot qui vous manque, une erreur que vous avez trouvée, une phrase qui vous a plu — tout arrive sur le même bureau.';
+
+  @override
+  String get contactLetterSection => 'La lettre';
+
+  @override
+  String get contactName => 'Votre nom';
+
+  @override
+  String get contactNameHint => 'Le nom par lequel vous saluer';
+
+  @override
+  String get contactEmail => 'Votre adresse e-mail';
+
+  @override
+  String get contactEmailHint => 'Où une réponse peut vous trouver';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Vouliez-vous dire $domain ?';
+  }
+
+  @override
+  String get contactReason => 'Motif du message';
+
+  @override
+  String get reasonWord => 'Un mot à ajouter';
+
+  @override
+  String get reasonProblem => 'Quelque chose ne va pas';
+
+  @override
+  String get reasonQuestion => 'Une question';
+
+  @override
+  String get reasonPraise => 'Retour';
+
+  @override
+  String get reasonOther => 'Autre chose';
+
+  @override
+  String get contactPriority => 'Degré d\'urgence';
+
+  @override
+  String get priorityLow => 'Faible';
+
+  @override
+  String get priorityNormal => 'Normal';
+
+  @override
+  String get priorityHigh => 'Élevé';
+
+  @override
+  String get contactMessage => 'Votre message';
+
+  @override
+  String get contactMessageHint =>
+      'Écrivez autant ou aussi peu que vous voulez…';
+
+  @override
+  String get contactHumanCheck => 'Un mot avant d\'envoyer';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Quel sens appartient à $word ?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Pas celui-là. Voici un autre mot.';
+
+  @override
+  String get contactDetails => 'Joindre les détails de l\'app';
+
+  @override
+  String get contactDetailsCaption =>
+      'Version, langue, lumière et taille du texte, pour retrouver une erreur plus vite.';
+
+  @override
+  String get contactSend => 'Envoyer la lettre';
+
+  @override
+  String get contactCopyLetter => 'Copier la lettre';
+
+  @override
+  String get contactDraftRestored => 'Une lettre non envoyée attendait ici.';
+
+  @override
+  String get contactNoMailApp =>
+      'Aucune application de courrier n\'a répondu ; la lettre est dans le presse-papiers.';
+
+  @override
+  String get contactNeedName => 'Un nom, pour que la réponse sache qui saluer.';
+
+  @override
+  String get contactNeedEmail => 'Une adresse qu\'une réponse peut atteindre.';
+
+  @override
+  String get contactNeedMessage => 'Une ligne ou deux, au moins.';
+
+  @override
+  String get contactSent => 'Votre lettre est en route. Merci.';
+
+  @override
+  String get contactSendFailed =>
+      'La lettre n\'a pas pu être envoyée pour l\'instant. Elle est dans le presse-papiers et reste ici.';
+
+  @override
+  String get contactSendByMail => 'Utiliser plutôt une application de courrier';
 }
 
 /// The translations for French, as used in Canada (`fr_CA`).
@@ -982,4 +1099,121 @@ class AppLocalizationsFrCa extends AppLocalizationsFr {
 
   @override
   String get savedWordsCleared => 'Mots gardés effacés.';
+
+  @override
+  String get contactTitle => 'Écrire à l\'auteur';
+
+  @override
+  String get contactCaption => 'une lettre, si vous voulez';
+
+  @override
+  String get contactBlurb =>
+      'Gloss est fait par une seule personne. Un mot qui vous manque, une erreur que vous avez trouvée, une phrase qui vous a plu — tout arrive sur le même bureau.';
+
+  @override
+  String get contactLetterSection => 'La lettre';
+
+  @override
+  String get contactName => 'Votre nom';
+
+  @override
+  String get contactNameHint => 'Le nom par lequel vous saluer';
+
+  @override
+  String get contactEmail => 'Votre courriel';
+
+  @override
+  String get contactEmailHint => 'Où une réponse peut vous trouver';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Vouliez-vous dire $domain ?';
+  }
+
+  @override
+  String get contactReason => 'Motif du message';
+
+  @override
+  String get reasonWord => 'Un mot à ajouter';
+
+  @override
+  String get reasonProblem => 'Quelque chose ne va pas';
+
+  @override
+  String get reasonQuestion => 'Une question';
+
+  @override
+  String get reasonPraise => 'Commentaires';
+
+  @override
+  String get reasonOther => 'Autre chose';
+
+  @override
+  String get contactPriority => 'Degré d\'urgence';
+
+  @override
+  String get priorityLow => 'Faible';
+
+  @override
+  String get priorityNormal => 'Normal';
+
+  @override
+  String get priorityHigh => 'Élevé';
+
+  @override
+  String get contactMessage => 'Votre message';
+
+  @override
+  String get contactMessageHint =>
+      'Écrivez autant ou aussi peu que vous voulez…';
+
+  @override
+  String get contactHumanCheck => 'Un mot avant d\'envoyer';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Quel sens appartient à $word ?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Pas celui-là. Voici un autre mot.';
+
+  @override
+  String get contactDetails => 'Joindre les détails de l\'appli';
+
+  @override
+  String get contactDetailsCaption =>
+      'Version, langue, lumière et taille du texte, pour retrouver une erreur plus vite.';
+
+  @override
+  String get contactSend => 'Envoyer la lettre';
+
+  @override
+  String get contactCopyLetter => 'Copier la lettre';
+
+  @override
+  String get contactDraftRestored => 'Une lettre non envoyée attendait ici.';
+
+  @override
+  String get contactNoMailApp =>
+      'Aucune application de courriel n\'a répondu ; la lettre est dans le presse-papiers.';
+
+  @override
+  String get contactNeedName => 'Un nom, pour que la réponse sache qui saluer.';
+
+  @override
+  String get contactNeedEmail => 'Une adresse qu\'une réponse peut atteindre.';
+
+  @override
+  String get contactNeedMessage => 'Une ligne ou deux, au moins.';
+
+  @override
+  String get contactSent => 'Votre lettre est en route. Merci.';
+
+  @override
+  String get contactSendFailed =>
+      'La lettre n\'a pas pu être envoyée pour l\'instant. Elle est dans le presse-papiers et reste ici.';
+
+  @override
+  String get contactSendByMail => 'Utiliser plutôt une application de courriel';
 }

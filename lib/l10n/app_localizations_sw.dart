@@ -490,4 +490,121 @@ class AppLocalizationsSw extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Maneno yaliyohifadhiwa yamefutwa.';
+
+  @override
+  String get contactTitle => 'Mwandikie mtengenezaji';
+
+  @override
+  String get contactCaption => 'barua, ukipenda';
+
+  @override
+  String get contactBlurb =>
+      'Gloss hutengenezwa na mtu mmoja. Neno ulilolikosa, kosa ulilolipata, mstari uliokupendeza — vyote hufika mezani pale pale.';
+
+  @override
+  String get contactLetterSection => 'Barua';
+
+  @override
+  String get contactName => 'Jina lako';
+
+  @override
+  String get contactNameHint => 'Jina la kukusalimia';
+
+  @override
+  String get contactEmail => 'Barua pepe yako';
+
+  @override
+  String get contactEmailHint => 'Mahali jibu litakapokupata';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Ulimaanisha $domain?';
+  }
+
+  @override
+  String get contactReason => 'Sababu ya kuandika';
+
+  @override
+  String get reasonWord => 'Neno la kuongeza';
+
+  @override
+  String get reasonProblem => 'Kuna jambo lisilo sawa';
+
+  @override
+  String get reasonQuestion => 'Swali';
+
+  @override
+  String get reasonPraise => 'Maoni';
+
+  @override
+  String get reasonOther => 'Jambo lingine';
+
+  @override
+  String get contactPriority => 'Ni la haraka kiasi gani';
+
+  @override
+  String get priorityLow => 'Chini';
+
+  @override
+  String get priorityNormal => 'Kawaida';
+
+  @override
+  String get priorityHigh => 'Juu';
+
+  @override
+  String get contactMessage => 'Ujumbe wako';
+
+  @override
+  String get contactMessageHint => 'Andika kwa urefu au ufupi upendavyo…';
+
+  @override
+  String get contactHumanCheck => 'Neno moja kabla ya kutuma';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Ni maana ipi inayohusiana na $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Si hiyo. Hili hapa neno lingine.';
+
+  @override
+  String get contactDetails => 'Ambatanisha maelezo ya programu';
+
+  @override
+  String get contactDetailsCaption =>
+      'Toleo, lugha, mwanga na ukubwa wa maandishi, ili kosa lipatikane haraka.';
+
+  @override
+  String get contactSend => 'Tuma barua';
+
+  @override
+  String get contactCopyLetter => 'Nakili barua';
+
+  @override
+  String get contactDraftRestored =>
+      'Kulikuwa na barua isiyotumwa ikisubiri hapa.';
+
+  @override
+  String get contactNoMailApp =>
+      'Hakuna programu ya barua pepe iliyojibu, hivyo barua iko kwenye ubao wa kunakili.';
+
+  @override
+  String get contactNeedName => 'Jina, ili jibu lijue linamsalimia nani.';
+
+  @override
+  String get contactNeedEmail => 'Anwani ambayo jibu linaweza kufika.';
+
+  @override
+  String get contactNeedMessage => 'Angalau mstari mmoja au miwili.';
+
+  @override
+  String get contactSent => 'Barua yako iko njiani. Asante.';
+
+  @override
+  String get contactSendFailed =>
+      'Barua haikuweza kutumwa sasa hivi. Ipo kwenye ubao wa kunakili na imehifadhiwa hapa.';
+
+  @override
+  String get contactSendByMail => 'Tumia programu ya barua pepe badala yake';
 }

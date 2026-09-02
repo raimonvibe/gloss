@@ -491,4 +491,122 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Gespeicherte Wörter gelöscht.';
+
+  @override
+  String get contactTitle => 'Schreib dem Macher';
+
+  @override
+  String get contactCaption => 'ein Brief, wenn du magst';
+
+  @override
+  String get contactBlurb =>
+      'Gloss wird von einer einzigen Person gemacht. Ein Wort, das dir fehlt, ein Fehler, den du gefunden hast, eine Zeile, die dir gefiel — alles landet auf demselben Schreibtisch.';
+
+  @override
+  String get contactLetterSection => 'Der Brief';
+
+  @override
+  String get contactName => 'Dein Name';
+
+  @override
+  String get contactNameHint => 'Der Name, mit dem du gegrüßt wirst';
+
+  @override
+  String get contactEmail => 'Deine E-Mail-Adresse';
+
+  @override
+  String get contactEmailHint => 'Wo eine Antwort dich findet';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Meintest du $domain?';
+  }
+
+  @override
+  String get contactReason => 'Grund des Schreibens';
+
+  @override
+  String get reasonWord => 'Ein Wort für die Sammlung';
+
+  @override
+  String get reasonProblem => 'Etwas stimmt nicht';
+
+  @override
+  String get reasonQuestion => 'Eine Frage';
+
+  @override
+  String get reasonPraise => 'Rückmeldung';
+
+  @override
+  String get reasonOther => 'Etwas anderes';
+
+  @override
+  String get contactPriority => 'Wie dringend';
+
+  @override
+  String get priorityLow => 'Niedrig';
+
+  @override
+  String get priorityNormal => 'Normal';
+
+  @override
+  String get priorityHigh => 'Hoch';
+
+  @override
+  String get contactMessage => 'Deine Nachricht';
+
+  @override
+  String get contactMessageHint =>
+      'Schreib so viel oder so wenig, wie du magst…';
+
+  @override
+  String get contactHumanCheck => 'Ein Wort, bevor du sendest';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Welche Bedeutung gehört zu $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Nicht diese. Hier ist ein anderes Wort.';
+
+  @override
+  String get contactDetails => 'App-Angaben mitschicken';
+
+  @override
+  String get contactDetailsCaption =>
+      'Version, Sprache, Licht und Textgröße, damit ein Fehler leichter zu finden ist.';
+
+  @override
+  String get contactSend => 'Brief senden';
+
+  @override
+  String get contactCopyLetter => 'Brief kopieren';
+
+  @override
+  String get contactDraftRestored => 'Hier lag noch ein ungesendeter Brief.';
+
+  @override
+  String get contactNoMailApp =>
+      'Keine Mail-App hat geantwortet, der Brief liegt in der Zwischenablage.';
+
+  @override
+  String get contactNeedName =>
+      'Ein Name, damit die Antwort weiß, wen sie grüßt.';
+
+  @override
+  String get contactNeedEmail => 'Eine Adresse, die eine Antwort erreicht.';
+
+  @override
+  String get contactNeedMessage => 'Wenigstens ein paar Zeilen.';
+
+  @override
+  String get contactSent => 'Dein Brief ist unterwegs. Danke.';
+
+  @override
+  String get contactSendFailed =>
+      'Der Brief ließ sich gerade nicht senden. Er liegt in der Zwischenablage und bleibt hier erhalten.';
+
+  @override
+  String get contactSendByMail => 'Stattdessen eine Mail-App verwenden';
 }

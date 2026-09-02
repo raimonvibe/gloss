@@ -492,4 +492,120 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Cuvinte salvate șterse.';
+
+  @override
+  String get contactTitle => 'Scrie-i autorului';
+
+  @override
+  String get contactCaption => 'o scrisoare, dacă vrei';
+
+  @override
+  String get contactBlurb =>
+      'Gloss este făcut de un singur om. Un cuvânt care îți lipsește, o greșeală pe care ai găsit-o, un rând care ți-a plăcut — totul ajunge pe același birou.';
+
+  @override
+  String get contactLetterSection => 'Scrisoarea';
+
+  @override
+  String get contactName => 'Numele tău';
+
+  @override
+  String get contactNameHint => 'Numele cu care să te salutăm';
+
+  @override
+  String get contactEmail => 'E-mailul tău';
+
+  @override
+  String get contactEmailHint => 'Unde te poate găsi un răspuns';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Ai vrut să spui $domain?';
+  }
+
+  @override
+  String get contactReason => 'Motivul mesajului';
+
+  @override
+  String get reasonWord => 'Un cuvânt de adăugat';
+
+  @override
+  String get reasonProblem => 'Ceva nu este în regulă';
+
+  @override
+  String get reasonQuestion => 'O întrebare';
+
+  @override
+  String get reasonPraise => 'Păreri';
+
+  @override
+  String get reasonOther => 'Altceva';
+
+  @override
+  String get contactPriority => 'Cât de urgent';
+
+  @override
+  String get priorityLow => 'Scăzută';
+
+  @override
+  String get priorityNormal => 'Normală';
+
+  @override
+  String get priorityHigh => 'Ridicată';
+
+  @override
+  String get contactMessage => 'Mesajul tău';
+
+  @override
+  String get contactMessageHint => 'Scrie cât de mult sau de puțin vrei…';
+
+  @override
+  String get contactHumanCheck => 'Un cuvânt înainte de trimitere';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Ce înțeles îi aparține lui $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Nu acela. Iată alt cuvânt.';
+
+  @override
+  String get contactDetails => 'Include detaliile aplicației';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versiune, limbă, lumină și mărimea textului, ca o greșeală să fie găsită mai repede.';
+
+  @override
+  String get contactSend => 'Trimite scrisoarea';
+
+  @override
+  String get contactCopyLetter => 'Copiază scrisoarea';
+
+  @override
+  String get contactDraftRestored => 'Aici aștepta o scrisoare netrimisă.';
+
+  @override
+  String get contactNoMailApp =>
+      'Nicio aplicație de e-mail nu a răspuns, așa că scrisoarea a rămas în clipboard.';
+
+  @override
+  String get contactNeedName => 'Un nume, ca răspunsul să știe pe cine salută.';
+
+  @override
+  String get contactNeedEmail => 'O adresă la care poate ajunge un răspuns.';
+
+  @override
+  String get contactNeedMessage => 'Cel puțin un rând sau două.';
+
+  @override
+  String get contactSent => 'Scrisoarea ta este pe drum. Mulțumim.';
+
+  @override
+  String get contactSendFailed =>
+      'Scrisoarea nu a putut fi trimisă acum. Este în clipboard și rămâne aici.';
+
+  @override
+  String get contactSendByMail => 'Folosește în schimb o aplicație de e-mail';
 }

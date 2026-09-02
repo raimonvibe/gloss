@@ -13,7 +13,9 @@ import '../state/speech_controller.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
 import '../widgets/card_surface.dart';
+import '../widgets/settings_section.dart';
 import '../widgets/social_row.dart';
+import 'contact_screen.dart';
 import 'languages_screen.dart';
 
 /// The entry the voice preview reads.
@@ -113,19 +115,19 @@ class _StudyScreenState extends State<StudyScreen> {
       children: [
         _Header(title: l10n.studyTitle, caption: l10n.studyCaption),
         const SizedBox(height: 16),
-        _Section(
+        SettingsSection(
           title: l10n.readingSection,
           caption: l10n.readingCaption,
           children: [
             _TextSizeControl(settings: settings),
-            const _HairLine(),
-            _SwitchRow(
+            const SettingsHairLine(),
+            SettingsSwitchRow(
               label: l10n.autoplayPronunciation,
               value: settings.autoplayPronunciation,
               onChanged: settings.setAutoplayPronunciation,
             ),
-            const _HairLine(),
-            _SwitchRow(
+            const SettingsHairLine(),
+            SettingsSwitchRow(
               label: l10n.reduceMotion,
               caption: l10n.reduceMotionCaption,
               value: settings.reduceMotion,
@@ -134,22 +136,22 @@ class _StudyScreenState extends State<StudyScreen> {
           ],
         ),
         const SizedBox(height: 14),
-        _Section(
+        SettingsSection(
           title: l10n.voiceSection,
           caption: l10n.voiceCaption,
           children: [_VoiceControl(settings: settings)],
         ),
         const SizedBox(height: 14),
-        _Section(
+        SettingsSection(
           title: l10n.lightSection,
           caption: l10n.lightCaption,
-          children: [_ThemeControl(settings: settings)],
+          children: [ThemeModeControl(settings: settings)],
         ),
         const SizedBox(height: 14),
-        _Section(
+        SettingsSection(
           title: l10n.tongueSection,
           children: [
-            _LinkRow(
+            SettingsLinkRow(
               icon: Icons.translate_outlined,
               label: l10n.languagesTitle,
               trailing: settings.catalog
@@ -166,11 +168,11 @@ class _StudyScreenState extends State<StudyScreen> {
           ],
         ),
         const SizedBox(height: 14),
-        _Section(
+        SettingsSection(
           title: l10n.memorySection,
           caption: l10n.memoryCaption,
           children: [
-            _LinkRow(
+            SettingsLinkRow(
               icon: Icons.history_toggle_off,
               label: l10n.forgetProgress,
               trailing: l10n.currentOfTotal(progress.explored.count, total),
@@ -186,8 +188,8 @@ class _StudyScreenState extends State<StudyScreen> {
                         done: l10n.progressForgotten,
                       ),
             ),
-            const _HairLine(),
-            _LinkRow(
+            const SettingsHairLine(),
+            SettingsLinkRow(
               icon: Icons.bookmark_remove_outlined,
               label: l10n.clearSavedWords,
               trailing: '${progress.favorites.count}',
@@ -204,16 +206,16 @@ class _StudyScreenState extends State<StudyScreen> {
           ],
         ),
         const SizedBox(height: 14),
-        _Section(
+        SettingsSection(
           title: l10n.aboutSection,
           caption: l10n.aboutCaption,
           children: [
-            _LinkRow(
+            SettingsLinkRow(
               icon: Icons.info_outline,
               label: l10n.versionLine(Branding.version),
             ),
-            const _HairLine(),
-            _LinkRow(
+            const SettingsHairLine(),
+            SettingsLinkRow(
               icon: Icons.article_outlined,
               label: l10n.openLicences,
               onTap: () => showLicensePage(
@@ -222,12 +224,25 @@ class _StudyScreenState extends State<StudyScreen> {
                 applicationVersion: Branding.version,
               ),
             ),
-            const _HairLine(),
-            _LinkRow(
+            const SettingsHairLine(),
+            SettingsLinkRow(
               key: _shareRowKey,
               icon: Icons.ios_share,
               label: l10n.shareGloss,
               onTap: () => _share(context),
+            ),
+            const SettingsHairLine(),
+            // The website has a contact page; the app had a row of brand
+            // marks and nothing to write on. This is that page, in the one
+            // place a reader already goes looking for the app itself.
+            SettingsLinkRow(
+              icon: Icons.mail_outline,
+              label: l10n.contactTitle,
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => ContactPage(onOpenLink: widget.onShare),
+                ),
+              ),
             ),
           ],
         ),
@@ -319,67 +334,6 @@ class _Header extends StatelessWidget {
         Text(title, style: Theme.of(context).textTheme.headlineSmall),
         ScriptCaption(caption, textAlign: TextAlign.start, fontSize: 24),
       ],
-    );
-  }
-}
-
-class _Section extends StatelessWidget {
-  const _Section({required this.title, this.caption, required this.children});
-
-  final String title;
-  final String? caption;
-  final List<Widget> children;
-
-  @override
-  Widget build(BuildContext context) {
-    final brand = context.brand;
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.only(left: 4, bottom: 6),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.baseline,
-            textBaseline: TextBaseline.alphabetic,
-            children: [
-              Text(
-                title,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: brand.foreground,
-                      fontWeight: FontWeight.w700,
-                    ),
-              ),
-              if (caption != null) ...[
-                const SizedBox(width: 8),
-                Flexible(
-                  child: ScriptCaption(
-                    caption!,
-                    textAlign: TextAlign.start,
-                    fontSize: 20,
-                  ),
-                ),
-              ],
-            ],
-          ),
-        ),
-        CardSurface(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-          child: Column(children: children),
-        ),
-      ],
-    );
-  }
-}
-
-class _HairLine extends StatelessWidget {
-  const _HairLine();
-
-  @override
-  Widget build(BuildContext context) {
-    return Divider(
-      height: 1,
-      thickness: 1,
-      color: context.brand.cardBorder.withValues(alpha: 0.45),
     );
   }
 }
@@ -610,7 +564,7 @@ class _TranslationVoiceControlState extends State<_TranslationVoiceControl> {
             ),
           );
         }
-        return _SwitchRow(
+        return SettingsSwitchRow(
           label: l10n.readExplanationsIn(info.languageNameNative),
           caption: l10n.readExplanationsCaption,
           value: settings.readTranslationAloud,
@@ -621,132 +575,3 @@ class _TranslationVoiceControlState extends State<_TranslationVoiceControl> {
   }
 }
 
-class _ThemeControl extends StatelessWidget {
-  const _ThemeControl({required this.settings});
-
-  final SettingsController settings;
-
-  /// Three labels split one row, and the reader may be running text at twice
-  /// the normal size (see the clamp in `app.dart`). Every other way out is
-  /// worse: wrapping splits words mid-word ('Perkamen/t'), ellipsis hides
-  /// which theme a segment picks, and a fixed small font would quietly
-  /// override the reader's own text-size choice. Shrink only when it will not
-  /// otherwise fit.
-  Widget _label(String text) {
-    return FittedBox(
-      fit: BoxFit.scaleDown,
-      child: Text(text, maxLines: 1, softWrap: false),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 10),
-      child: SegmentedButton<ThemeMode>(
-        // Rebuilt whenever the light changes, which throws away whatever this
-        // control had in flight at that moment.
-        //
-        // It is the one button that repaints the page underneath itself. The
-        // page turns over in a single frame (see `themeAnimationStyle` in
-        // app.dart), but the button's own ink went on running afterwards in
-        // the colours of the theme just left: a pale splash spreading and
-        // fading inside the segment, and the fill and labels crossing to
-        // their new colours over another fifth of a second, while everything
-        // around them had already changed. A light moving over the page, and
-        // the last of it. A new key here ends both, because the segments and
-        // the Material holding their ink are built afresh.
-        key: ValueKey(Theme.of(context).brightness),
-        // The default segment padding is generous; the room is better spent
-        // on the words, which run long in most of the 61 locales.
-        style: SegmentedButton.styleFrom(
-          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
-        ),
-        segments: [
-          ButtonSegment(
-            value: ThemeMode.system,
-            label: _label(l10n.themeSystem),
-          ),
-          ButtonSegment(
-            value: ThemeMode.light,
-            label: _label(l10n.themeLight),
-          ),
-          ButtonSegment(
-            value: ThemeMode.dark,
-            label: _label(l10n.themeDark),
-          ),
-        ],
-        selected: {settings.themeMode},
-        showSelectedIcon: false,
-        onSelectionChanged: (modes) => settings.setThemeMode(modes.first),
-      ),
-    );
-  }
-}
-
-class _SwitchRow extends StatelessWidget {
-  const _SwitchRow({
-    required this.label,
-    this.caption,
-    required this.value,
-    required this.onChanged,
-  });
-
-  final String label;
-  final String? caption;
-  final bool value;
-  final ValueChanged<bool> onChanged;
-
-  @override
-  Widget build(BuildContext context) {
-    final brand = context.brand;
-    return SwitchListTile(
-      contentPadding: EdgeInsets.zero,
-      value: value,
-      onChanged: onChanged,
-      activeThumbColor: brand.accentGold,
-      title: Text(label, style: Theme.of(context).textTheme.bodyLarge),
-      subtitle: caption == null
-          ? null
-          : Text(
-              caption!,
-              style: TextStyle(fontSize: 12, color: brand.foregroundMuted),
-            ),
-    );
-  }
-}
-
-class _LinkRow extends StatelessWidget {
-  const _LinkRow({
-    super.key,
-    required this.icon,
-    required this.label,
-    this.trailing,
-    this.onTap,
-  });
-
-  final IconData icon;
-  final String label;
-  final String? trailing;
-  final VoidCallback? onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    final brand = context.brand;
-    return ListTile(
-      contentPadding: EdgeInsets.zero,
-      leading: Icon(icon, color: brand.accentGold),
-      title: Text(label, style: Theme.of(context).textTheme.bodyLarge),
-      trailing: trailing == null
-          ? (onTap == null
-              ? null
-              : Icon(Icons.chevron_right, color: brand.foregroundMuted))
-          : Text(
-              trailing!,
-              style: TextStyle(color: brand.foregroundMuted),
-            ),
-      onTap: onTap,
-    );
-  }
-}

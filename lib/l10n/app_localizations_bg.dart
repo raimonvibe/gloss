@@ -490,4 +490,120 @@ class AppLocalizationsBg extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Запазените думи са изчистени.';
+
+  @override
+  String get contactTitle => 'Пишете на създателя';
+
+  @override
+  String get contactCaption => 'писмо, ако желаете';
+
+  @override
+  String get contactBlurb =>
+      'Gloss се прави от един човек. Дума, която ви липсва, грешка, която сте открили, ред, който ви е харесал — всичко стига до едно и също бюро.';
+
+  @override
+  String get contactLetterSection => 'Писмото';
+
+  @override
+  String get contactName => 'Вашето име';
+
+  @override
+  String get contactNameHint => 'Името, с което да ви поздравим';
+
+  @override
+  String get contactEmail => 'Вашата поща';
+
+  @override
+  String get contactEmailHint => 'Където отговорът да ви намери';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Имахте предвид $domain?';
+  }
+
+  @override
+  String get contactReason => 'Причина за писмото';
+
+  @override
+  String get reasonWord => 'Дума за добавяне';
+
+  @override
+  String get reasonProblem => 'Нещо не е наред';
+
+  @override
+  String get reasonQuestion => 'Въпрос';
+
+  @override
+  String get reasonPraise => 'Мнение';
+
+  @override
+  String get reasonOther => 'Нещо друго';
+
+  @override
+  String get contactPriority => 'Колко е спешно';
+
+  @override
+  String get priorityLow => 'Ниска';
+
+  @override
+  String get priorityNormal => 'Обичайна';
+
+  @override
+  String get priorityHigh => 'Висока';
+
+  @override
+  String get contactMessage => 'Вашето съобщение';
+
+  @override
+  String get contactMessageHint => 'Пишете колкото искате, или съвсем малко…';
+
+  @override
+  String get contactHumanCheck => 'Една дума преди да изпратите';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Кое значение принадлежи на $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Не това. Ето друга дума.';
+
+  @override
+  String get contactDetails => 'Приложи данни за приложението';
+
+  @override
+  String get contactDetailsCaption =>
+      'Версия, език, светлина и размер на текста, за да се намери грешката по-бързо.';
+
+  @override
+  String get contactSend => 'Изпрати писмото';
+
+  @override
+  String get contactCopyLetter => 'Копирай писмото';
+
+  @override
+  String get contactDraftRestored => 'Тук чакаше неизпратено писмо.';
+
+  @override
+  String get contactNoMailApp =>
+      'Никое пощенско приложение не отговори, затова писмото остана в клипборда.';
+
+  @override
+  String get contactNeedName => 'Име, за да знае отговорът кого поздравява.';
+
+  @override
+  String get contactNeedEmail => 'Адрес, до който може да стигне отговор.';
+
+  @override
+  String get contactNeedMessage => 'Поне ред или два.';
+
+  @override
+  String get contactSent => 'Писмото ви е на път. Благодарим.';
+
+  @override
+  String get contactSendFailed =>
+      'Писмото не можа да се изпрати сега. То е в клипборда и остава тук.';
+
+  @override
+  String get contactSendByMail => 'Използвайте вместо това пощенско приложение';
 }

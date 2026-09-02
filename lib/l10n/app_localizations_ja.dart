@@ -483,4 +483,117 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get savedWordsCleared => '保存した語を消しました。';
+
+  @override
+  String get contactTitle => '作者に手紙を書く';
+
+  @override
+  String get contactCaption => 'よろしければ、一通の手紙を';
+
+  @override
+  String get contactBlurb =>
+      'Gloss は一人の手で作られています。足りない言葉、見つけた誤り、気に入った一行 — どれも同じ机に届きます。';
+
+  @override
+  String get contactLetterSection => '手紙';
+
+  @override
+  String get contactName => 'お名前';
+
+  @override
+  String get contactNameHint => 'お呼びするお名前';
+
+  @override
+  String get contactEmail => 'メールアドレス';
+
+  @override
+  String get contactEmailHint => '返信が届く場所';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return '$domain のことでしょうか。';
+  }
+
+  @override
+  String get contactReason => '書く理由';
+
+  @override
+  String get reasonWord => '加えたい言葉';
+
+  @override
+  String get reasonProblem => '何かがおかしい';
+
+  @override
+  String get reasonQuestion => '質問';
+
+  @override
+  String get reasonPraise => 'ご意見';
+
+  @override
+  String get reasonOther => 'そのほか';
+
+  @override
+  String get contactPriority => '急ぎの度合い';
+
+  @override
+  String get priorityLow => '低い';
+
+  @override
+  String get priorityNormal => 'ふつう';
+
+  @override
+  String get priorityHigh => '高い';
+
+  @override
+  String get contactMessage => 'ご用件';
+
+  @override
+  String get contactMessageHint => '長くても短くても、お好きなだけどうぞ…';
+
+  @override
+  String get contactHumanCheck => '送る前にひとつだけ';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return '$word に当てはまる意味はどれでしょう。';
+  }
+
+  @override
+  String get contactHumanRetry => 'それではありません。別の言葉をどうぞ。';
+
+  @override
+  String get contactDetails => 'アプリの情報を添える';
+
+  @override
+  String get contactDetailsCaption => '版、言語、明かり、文字の大きさ。不具合を見つけやすくなります。';
+
+  @override
+  String get contactSend => '手紙を送る';
+
+  @override
+  String get contactCopyLetter => '手紙をコピー';
+
+  @override
+  String get contactDraftRestored => '送られていない手紙が残っていました。';
+
+  @override
+  String get contactNoMailApp => 'メールアプリが応じませんでした。手紙はクリップボードにあります。';
+
+  @override
+  String get contactNeedName => 'お名前を。返信が誰に宛てるか分かるように。';
+
+  @override
+  String get contactNeedEmail => '返信の届く宛先を。';
+
+  @override
+  String get contactNeedMessage => 'せめて一行か二行を。';
+
+  @override
+  String get contactSent => 'お手紙をお預かりしました。ありがとうございます。';
+
+  @override
+  String get contactSendFailed => 'いまは送れませんでした。手紙はクリップボードにあり、ここにも残しています。';
+
+  @override
+  String get contactSendByMail => '代わりにメールアプリを使う';
 }

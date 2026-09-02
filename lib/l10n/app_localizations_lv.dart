@@ -490,4 +490,120 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String get savedWordsCleared => 'Saglabātie vārdi notīrīti.';
+
+  @override
+  String get contactTitle => 'Rakstiet veidotājam';
+
+  @override
+  String get contactCaption => 'vēstule, ja vēlaties';
+
+  @override
+  String get contactBlurb =>
+      'Gloss veido viens cilvēks. Vārds, kura pietrūka, kļūda, ko atradāt, rinda, kas patika — viss nonāk uz viena un tā paša galda.';
+
+  @override
+  String get contactLetterSection => 'Vēstule';
+
+  @override
+  String get contactName => 'Jūsu vārds';
+
+  @override
+  String get contactNameHint => 'Vārds, ar kuru jūs sveicināt';
+
+  @override
+  String get contactEmail => 'Jūsu e-pasts';
+
+  @override
+  String get contactEmailHint => 'Kur atbilde jūs atradīs';
+
+  @override
+  String contactEmailTypo(String domain) {
+    return 'Vai domājāt $domain?';
+  }
+
+  @override
+  String get contactReason => 'Rakstīšanas iemesls';
+
+  @override
+  String get reasonWord => 'Vārds, ko pievienot';
+
+  @override
+  String get reasonProblem => 'Kaut kas nav kārtībā';
+
+  @override
+  String get reasonQuestion => 'Jautājums';
+
+  @override
+  String get reasonPraise => 'Atsauksme';
+
+  @override
+  String get reasonOther => 'Kaut kas cits';
+
+  @override
+  String get contactPriority => 'Cik steidzami';
+
+  @override
+  String get priorityLow => 'Zema';
+
+  @override
+  String get priorityNormal => 'Parasta';
+
+  @override
+  String get priorityHigh => 'Augsta';
+
+  @override
+  String get contactMessage => 'Jūsu ziņa';
+
+  @override
+  String get contactMessageHint => 'Rakstiet tik daudz vai maz, cik vēlaties…';
+
+  @override
+  String get contactHumanCheck => 'Viens vārds pirms nosūtīšanas';
+
+  @override
+  String contactHumanQuestion(String word) {
+    return 'Kura nozīme pieder vārdam $word?';
+  }
+
+  @override
+  String get contactHumanRetry => 'Ne tā. Lūk, cits vārds.';
+
+  @override
+  String get contactDetails => 'Pievienot lietotnes datus';
+
+  @override
+  String get contactDetailsCaption =>
+      'Versija, valoda, gaisma un teksta lielums, lai kļūdu atrastu ātrāk.';
+
+  @override
+  String get contactSend => 'Sūtīt vēstuli';
+
+  @override
+  String get contactCopyLetter => 'Kopēt vēstuli';
+
+  @override
+  String get contactDraftRestored => 'Šeit gaidīja nenosūtīta vēstule.';
+
+  @override
+  String get contactNoMailApp =>
+      'Neviena pasta lietotne neatbildēja, tāpēc vēstule palika starpliktuvē.';
+
+  @override
+  String get contactNeedName => 'Vārds, lai atbilde zina, ko sveicināt.';
+
+  @override
+  String get contactNeedEmail => 'Adrese, kuru atbilde var sasniegt.';
+
+  @override
+  String get contactNeedMessage => 'Vismaz rinda vai divas.';
+
+  @override
+  String get contactSent => 'Jūsu vēstule ir ceļā. Paldies.';
+
+  @override
+  String get contactSendFailed =>
+      'Vēstuli tagad neizdevās nosūtīt. Tā ir starpliktuvē un paliek šeit.';
+
+  @override
+  String get contactSendByMail => 'Tā vietā izmantojiet pasta lietotni';
 }
