@@ -531,6 +531,29 @@ a quiz's four options and the theme's own `bodyMedium` are 17pt on a 1.45 line r
 than 16 on 1.35–1.4. Labels, chips, captions and buttons were left alone: this is for the
 text a reader reads at length, not for the furniture around it.
 
+**A fixed box with type in it is a bug waiting for a reader to turn their text up.** The
+quiz's answer badges were a 32pt circle holding a letter that follows the reader's
+setting: at 1.6 the letter wanted a 36.5pt circle and at 2.0 a 45pt one, so A, B, C and D
+were drawn outside their own circles. The circle is now `scaler.scale(16) * 2`, and the
+tick and cross inside it scale with it.
+
+Two things about finding it are worth keeping:
+
+- **Nothing failed, and nothing could have.** A `Container` is not a `Flex`: a child too
+  big for it is painted over the edge in silence, the same silence that hid the clipped
+  filter strip. Only a reader saw it.
+- **A rect will not show it either**, which cost a first attempt at the test. A Container
+  with an alignment hands its child *loose* constraints, so the letter's own box is
+  clamped to the circle while the glyph is painted past it — the box always fits. The test
+  measures the type the letter asks for, with a `TextPainter`, against the circle it was
+  given, **and compares the diagonal**: a box only fits a circle if its diagonal does, and
+  in the test font every glyph is a full em square, so comparing heights is a tie the bug
+  wins. It was checked both ways round — the test fails with the old 32pt box and passes
+  with the new one.
+
+The other fixed boxes in the app (42pt for the listen, save, study and light buttons, 44
+for the social row) hold **icons**, which do not follow the text size, so they are sound.
+
 **The quiz's top strip is two shapes, not one.** Leave, how far along, save, listen,
 light — five things across a phone is one too many. The progress line was handed whatever
 the four controls left it, and the controls are a fixed `48 + 3×(42 + 8)` = **198pt** at

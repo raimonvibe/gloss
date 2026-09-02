@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math' as math;
 
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -117,6 +118,8 @@ Widget _brandWrap(Widget child) {
   );
 }
 
+void _ignore(int _) {}
+
 void main() {
   setUpAll(() {
     GoogleFonts.config.allowRuntimeFetching = false;
@@ -152,6 +155,66 @@ void main() {
     expect(find.byIcon(Icons.check_rounded), findsOneWidget);
     expect(find.byIcon(Icons.close_rounded), findsOneWidget);
   });
+
+  // A, B, C and D stood outside their own circles once the text cap moved to
+  // 2.0: the badge was a fixed 32pt and the letter inside it was not. Nothing
+  // reported it, because a Container is not a Flex and paints a child too big
+  // for it over the edge in silence — so this measures the letter against the
+  // circle rather than waiting for an overflow that never comes.
+  for (final scale in const [1.0, 1.6, 2.0]) {
+    testWidgets('a choice letter stays inside its circle at ${scale}x', (
+      tester,
+    ) async {
+      await tester.pumpWidget(
+        _brandWrap(
+          MediaQuery(
+            data: MediaQueryData(textScaler: TextScaler.linear(scale)),
+            child: const MultipleChoice(
+              options: ['Right meaning', 'Wrong one', 'Also wrong', 'No'],
+              correctIndex: 0,
+              selectedIndex: null,
+              onSelect: _ignore,
+            ),
+          ),
+        ),
+      );
+
+      for (final label in ['A', 'B', 'C', 'D']) {
+        final letter = find.text(label);
+        expect(letter, findsOneWidget, reason: '$label went missing');
+        final circle = find
+            .ancestor(of: letter, matching: find.byType(Container))
+            .first;
+
+        // The type the letter asks for, not the box it was handed: a
+        // Container with an alignment gives its child loose constraints, so
+        // the Text's own rect is clamped to the circle while the glyph is
+        // painted straight past it. Measuring rects would pass either way.
+        final text = tester.widget<Text>(letter);
+        final wanted = TextPainter(
+          text: TextSpan(text: text.data, style: text.style),
+          textDirection: TextDirection.ltr,
+          textScaler: MediaQuery.textScalerOf(tester.element(letter)),
+        )..layout();
+
+        // And the diagonal, because the box has to fit a circle rather than
+        // a square: a 32pt letter does not fit a 32pt circle, it fits a 45pt
+        // one. The test font makes every glyph a full em square, so comparing
+        // heights alone is a tie the bug wins.
+        final badge = tester.getRect(circle);
+        final needed = math.sqrt(
+          wanted.width * wanted.width + wanted.height * wanted.height,
+        );
+        expect(
+          badge.shortestSide,
+          greaterThanOrEqualTo(needed),
+          reason: '$label wants ${wanted.size} — a circle of '
+              '${needed.toStringAsFixed(1)}pt — and was given '
+              '${badge.shortestSide.toStringAsFixed(1)}pt at ${scale}x',
+        );
+      }
+    });
+  }
 
   testWidgets('progress tracker reports current of total', (tester) async {
     await tester.pumpWidget(
