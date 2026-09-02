@@ -192,6 +192,39 @@ fixed on a device at `d1a5a70`. A stadium shape and moving the decoration out of
 material's ink layer were both tried and neither helped. `brand.cardShadow` is kept but
 unread, so restoring the shadow on a renderer that draws it properly is one line.
 
+**The letter to the maker:** Study → About → *Write to the maker* opens
+`ContactScreen`, which posts to the **same Formspree form the website's contact
+page submits to** (`formspree.io/f/<kFormspreeForm>`), under the website's own
+field names, so a letter written on a phone files beside one written in a
+browser. `category` and `priority` are sent in **English whatever the page is
+written in** — sixty languages of "Something is wrong" would leave an inbox that
+cannot be sorted — and `language` says which of the sixty it was. Everything
+decidable without a screen lives in `lib/state/contact_letter.dart` and is
+tested there: the address shape, the mistyped-domain correction, the letter, the
+`mailto:` fallback, the draft.
+
+Three things about it are load-bearing:
+
+- **The clipboard is filled first and always**, before the post. A post fails for
+  reasons a reader cannot see, and none of them should cost them what they wrote.
+  A refusal keeps the draft and offers the mail composer; only a letter that
+  actually arrived clears it.
+- **The draft is saved without notifying.** It sits on `SettingsController`
+  because that is where the app's one `SharedPreferences` handle is, but a draft
+  is not a setting: `notifyListeners` between two keystrokes would rebuild the
+  whole app.
+- **A release build now needs `INTERNET`**, which used to be debug-only, and a
+  `SENDTO`/`mailto` entry in `<queries>` or Android 11+ hides the composer. Play's
+  data safety answers turned over with it — see `store/play/GOOGLE-PLAY-CONSOLE.md`,
+  which is now the record of that, and the privacy page still needs a paragraph
+  about the form.
+
+The study's card, hairline, switch row, link row and light switch live in
+`lib/widgets/settings_section.dart` so both pages wear the same furniture. A
+placeholder is drawn against the theme rather than by it: the app's
+`InputDecorationTheme` has no border and a transparent fill, which suits the one
+search box it was written for and leaves a letter's fields as floating text.
+
 **App wiring (done):** `SettingsController` locale persistence, `WordRepository.applyLocale()`,
 `LanguagesScreen` (5th tab + Home shortcut), RTL lemma isolation (`EnglishLemma`),
 `AppFonts` fallbacks, English TTS lock in `speech_controller.dart`.
@@ -316,19 +349,23 @@ A baseline means nothing without the commit it was taken at:
 | 2026-08-29 | `096727e` | Windows | 3.41.7 | clean | **153/153** | empty |
 | 2026-08-30 | `36dfbe8` | Windows | 3.41.7 | clean | **166/166** | empty |
 | 2026-08-31 | `b800a98` | Windows | 3.41.7 | clean | **177/177** | empty |
+| 2026-09-02 | `4f7da5f` | Windows | 3.41.7 | clean | **199/199** | empty |
 
-The suite grew from 133 to 146 to 153 to 166 to 177 across those commits; the number is
-a fact about the commit, not a constant to hold.
+The suite grew from 133 to 146 to 153 to 166 to 177 to 199 across those commits; the
+number is a fact about the commit, not a constant to hold.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `b800a98` (`1.0.0+13`), writing
-a 47.3 MB `build/app/outputs/bundle/release/app-release.aab` — the same size it has been
-since `59ec260` + `1.0.0+9`. Check what came out before uploading —
+`flutter build appbundle --release` exits 0 on Windows at `4f7da5f` (`1.0.0+14`), writing
+a 47.9 MB `build/app/outputs/bundle/release/app-release.aab`. It was 47.3 MB from
+`59ec260` + `1.0.0+9` through `1.0.0+13`; the contact form's `http` dependency is the
+difference. Check what came out before uploading —
 `keytool -printcert -jarfile app-release.aab` must name `CN=Gloss, O=Raimonvibe` (the
 upload key, not a debug key), and
 `build/app/intermediates/merged_manifest/release/*/AndroidManifest.xml` carries the
-`versionCode` in plain text, which the bundle's own protobuf manifest does not.
+`versionCode` in plain text, which the bundle's own protobuf manifest does not. Grep the
+same file for `android.permission.INTERNET`: without it the contact form cannot post, and
+nothing in a widget test would tell you, because the debug manifest has always had it.
 
 The Flutter version differs by machine. Record which one you used, **and at which
 commit**, when you move the baseline.
