@@ -312,6 +312,26 @@ came out in a Dutch accent. It now lists `spokenForms.keys`, so every inflection
 variant is cut out and handed back to the English voice, where `voiced()` gives it its
 phoneme. Heard on a device and fixed on 2026-09-02.
 
+**The mechanism is general across the sixty; its coverage is only as wide as
+`kSpokenForms`.** `segmentTranslation` cuts English out of a translated passage identically
+in every language, but it cuts only the terms it is told about, so the table has to name
+every English word the copy keeps. `tool/find_unsaid_english.py` reads all sixty overlays
+and reports standalone words built on a headword's stem that the table does not know:
+
+```bash
+python tool/find_unsaid_english.py
+```
+
+It found four real ones — *plumb* (quoted alone out of "Plumb line", in all sixty),
+*fructifies*, *mortise*, and *ingenious*, which is not an inflection at all but the word
+fifty-nine explanations name to tell it apart from *ingenuous*.
+
+**It cannot be a test**, and that is the point of it being a tool. Most of what it reports
+is the local language's own vocabulary standing on the same Latin root — Spanish *ingenuo*,
+French *mendiant*, Italian *fiducia*, Portuguese *fuligem* — and those correctly stay with
+the local voice. Sixty-one such remain, and telling them from real English needs an eye,
+not an assertion.
+
 **Every English passage the app speaks goes through `WordEntry.voiced()`.** The headword
 at the top of a reading was the easy half; the sentence underneath names the word again,
 and often inflected — *edulcorated*, *parried*, *animadversions* — where the headword's own

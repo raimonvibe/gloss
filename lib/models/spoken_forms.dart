@@ -34,6 +34,19 @@ class SpokenForm {
 ///
 /// Keyed by entry id, then by the form as it is written in the sentence.
 const kSpokenForms = <String, Map<String, String>>{
+  // Plumb line — PLUM line. Sixty translations quote the first word alone.
+  'plumb-line': {
+    'plumb': 'PLUM',
+  },
+  // Mortised — MOR-tist. The translations quote the plain verb.
+  'mortised': {
+    'mortise': 'MOR-tiss',
+  },
+  // Ingenuous — in-JEN-yoo-us. Not an inflection: the explanations name the
+  // word it is confused with, in English, in fifty-nine languages.
+  'ingenuous': {
+    'ingenious': 'in-JEE-nee-us',
+  },
   // Edulcorate — ee-DUL-kuh-rate
   'edulcorate': {
     'edulcorated': 'ee-DUL-kuh-ray-tidd',
@@ -41,6 +54,7 @@ const kSpokenForms = <String, Map<String, String>>{
   // Fructify — FRUK-tih-fy
   'fructify': {
     'fructified': 'FRUK-tih-fide',
+    'fructifies': 'FRUK-tih-fize',
   },
   // Fricaseed — FRIK-uh-seed
   'fricaseed': {
@@ -131,11 +145,21 @@ String? spokenFormOf(String id, String form) {
 /// in one language and one place; `test/spoken_forms_test.dart` checks the two
 /// tables stay in step.
 const kFormIpa = <String, Map<String, String>>{
+  'plumb-line': {
+    'plumb': 'ˈplʌm',
+  },
+  'mortised': {
+    'mortise': 'ˈmɔːrtɪs',
+  },
+  'ingenuous': {
+    'ingenious': 'ɪnˈdʒiːniːəs',
+  },
   'edulcorate': {
     'edulcorated': 'iːˈdʌlkəreɪtɪd',
   },
   'fructify': {
     'fructified': 'ˈfrʌktɪfaɪd',
+    'fructifies': 'ˈfrʌktɪfaɪz',
   },
   'fricaseed': {
     'fricasseed': 'ˈfrɪkəsiːd',
