@@ -542,6 +542,27 @@ needed no new translation, because the page already had the sixty. `speechInPlai
 and `speechAsIn` are unused in the ARBs now; they stay there, because taking a key out of
 sixty files buys nothing.
 
+**A Material chip cannot hold a translated phrase, and it fails silently.** The five
+reasons for writing were `ChoiceChip`s, and a chip is built for a short label: `RawChip`
+puts a `DefaultTextStyle` with `maxLines: 1, softWrap: false` around whatever it is
+handed, so "Een woord om toe te voegen" lost its tail at twice the type **inside a chip
+that was itself exactly the right width**. Nothing overflowed and no rectangle was wrong.
+
+Turning wrapping on did not fix it either, and the way it failed is worth remembering: a
+chip works its own width out from what the label asks for, and a label that may wrap asks
+for almost nothing — the chip put four lines of two characters against its right-hand
+edge. The app already had the answer for its own pills, twice over: `ButtonLabel` shrinks
+a step at a time and takes another line only when shrinking runs out, and `pillRadius`
+stops the rounded ends curving in over that line. `_ReasonPill` is those two, and it is
+the same furniture a category pill on a word's page has always worn.
+
+Measured while there, because "Ukrainian runs long" was the guess: the longest reason
+label of the sixty is **Hungarian** (*Egy szó, amit érdemes hozzátenni*, 32 characters),
+then Russian and Georgian; **Ukrainian is mid-pack at 24**. All five are in the test, and
+the assertion is `RenderParagraph.didExceedMaxLines` rather than a rectangle — a label
+that shrinks before it wraps makes every width comparison meaningless, and only the
+paragraph knows whether it ran out of lines.
+
 **A placeholder is an instruction, and it was being cut off mid-phrase.**
 `InputDecoration.hintMaxLines` follows the field's own `maxLines`, which is one for a
 search box or a name — so "Zoek een woord, of beschrijf de betekenis…" ended in an

@@ -16,6 +16,8 @@ import '../theme/app_fonts.dart';
 import '../theme/app_theme.dart';
 import '../theme/brand_colors.dart';
 import '../theme/layout.dart';
+import '../widgets/button_label.dart';
+import '../widgets/pill.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/ornament.dart';
@@ -812,7 +814,6 @@ class _ReasonChips extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final brand = context.brand;
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 12),
       child: Column(
@@ -825,37 +826,110 @@ class _ReasonChips extends StatelessWidget {
             runSpacing: 8,
             children: [
               for (final reason in ContactReason.values)
-                ChoiceChip(
+                _ReasonPill(
+                  label: labelOf(reason),
+                  icon: iconOf(reason),
                   selected: reason == selected,
-                  onSelected: (_) => onSelect(reason),
-                  showCheckmark: false,
-                  avatar: Icon(
-                    iconOf(reason),
-                    size: 16,
-                    color: reason == selected
-                        ? brand.accentGold
-                        : brand.foregroundMuted,
-                  ),
-                  label: Text(labelOf(reason)),
-                  labelStyle: AppFonts.cormorant(
-                    fontSize: 15,
-                    fontWeight:
-                        reason == selected ? FontWeight.w700 : FontWeight.w500,
-                    color: reason == selected
-                        ? brand.foreground
-                        : brand.foregroundMuted,
-                  ),
-                  backgroundColor: Colors.transparent,
-                  selectedColor: brand.accentGold.withValues(alpha: 0.16),
-                  side: BorderSide(
-                    color: reason == selected
-                        ? brand.accentGold
-                        : brand.cardBorder,
-                  ),
+                  onTap: () => onSelect(reason),
                 ),
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// One reason to write, as a pill the app draws itself.
+///
+/// It was a Material `ChoiceChip`, which is built for a short label: it holds
+/// its own to one line with wrapping off — `RawChip` says so in the
+/// `DefaultTextStyle` it puts around whatever it is handed — so "Een woord om
+/// toe te voegen" lost its tail at twice the type, inside a chip that was
+/// itself the right width. Nothing overflowed and no rectangle was wrong; the
+/// words were simply cut. Turning wrapping on did not help either: a chip
+/// works its width out from what its label asks for, and a label that may wrap
+/// asks for almost nothing, so the chip put four lines of two characters at
+/// its right-hand edge.
+///
+/// The app already had the answer for its own pills, twice over — [ButtonLabel]
+/// shrinks a step at a time and takes a second line only when shrinking runs
+/// out, and [pillRadius] stops the rounded ends curving in over that second
+/// line. A category pill on a word's page has carried a long translated label
+/// this way all along.
+class _ReasonPill extends StatelessWidget {
+  const _ReasonPill({
+    required this.label,
+    required this.icon,
+    required this.selected,
+    required this.onTap,
+  });
+
+  final String label;
+  final IconData icon;
+  final bool selected;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final brand = context.brand;
+    final labelStyle = AppFonts.cormorant(
+      fontSize: 15,
+      fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
+      color: selected ? brand.foreground : brand.foregroundMuted,
+    );
+    final radius = pillRadius(
+      context,
+      style: labelStyle,
+      verticalPadding: 8,
+    );
+
+    return Semantics(
+      button: true,
+      selected: selected,
+      child: Material(
+        color: selected
+            ? brand.accentGold.withValues(alpha: 0.16)
+            : Colors.transparent,
+        borderRadius: BorderRadius.circular(radius),
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(radius),
+          child: Ink(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(radius),
+              border: Border.all(
+                color: selected ? brand.accentGold : brand.cardBorder,
+              ),
+            ),
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(
+                  icon,
+                  size: 16,
+                  color: selected ? brand.accentGold : brand.foregroundMuted,
+                ),
+                const SizedBox(width: 8),
+                Flexible(
+                  // An allowance rather than a shape, and a generous one:
+                  // this is a phrase to choose between, not a word on a
+                  // button. The longest of the sixty — Hungarian's "Egy szó,
+                  // amit érdemes hozzátenni" — takes two lines on a narrow
+                  // phone at the largest size, and four in the full-em face a
+                  // test runs in. Short labels still take one.
+                  child: ButtonLabel(
+                    label,
+                    maxLines: 6,
+                    minScale: 0.8,
+                    style: labelStyle,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

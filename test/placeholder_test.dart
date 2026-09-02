@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -12,6 +13,7 @@ import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
 import 'package:beautiful_words/theme/app_theme.dart';
+import 'package:beautiful_words/widgets/button_label.dart';
 
 const _fixture = '''
 {
@@ -73,6 +75,28 @@ Future<void> _pumpApp(
     box: tester.getRect(drawn),
     field: tester.getRect(field),
   );
+}
+
+/// Study → Write to the maker.
+Future<void> _openTheLetter(WidgetTester tester) async {
+  await tester.tap(
+    find.descendant(
+      of: _nav,
+      matching: find.byIcon(Icons.auto_stories_outlined),
+    ),
+  );
+  await tester.pumpAndSettle();
+
+  final letter = find.byIcon(Icons.mail_outline);
+  await tester.scrollUntilVisible(
+    letter,
+    300,
+    scrollable: find.byType(Scrollable).first,
+    maxScrolls: 60,
+  );
+  await tester.pumpAndSettle();
+  await tester.tap(letter.first);
+  await tester.pumpAndSettle();
 }
 
 void main() {
@@ -157,6 +181,61 @@ void main() {
     });
   }
 
+  // The reasons for writing are chips, and a chip holds its label to one line
+  // with wrapping turned off — `RawChip` says so in the `DefaultTextStyle` it
+  // puts around the label — so "Een woord om toe te voegen" lost its tail
+  // inside a chip that was itself exactly the right width. Nothing overflowed
+  // and no rect was wrong; the words were simply cut.
+  //
+  // Hungarian is the longest of the sixty ("Egy szó, amit érdemes
+  // hozzátenni", 32 characters), then Russian and Georgian. Ukrainian, which
+  // runs long elsewhere in the app, is mid-pack here at 24.
+  for (final locale in ['hu-HU', 'ru-RU', 'ka-GE', 'uk', 'nl-NL']) {
+    testWidgets('a reason chip says all of its label in $locale', (
+      tester,
+    ) async {
+      await _pumpApp(
+        tester,
+        textScale: 2.0,
+        localeId: locale,
+        // The narrowest phone the app supports, and a window tall enough for
+        // the whole form to be built rather than half of it.
+        size: const Size(320, 2400),
+      );
+      await _openTheLetter(tester);
+
+      // The pill the app draws itself; a Material chip could not hold these
+      // labels — see _ReasonPill.
+      final chips = find.byType(ButtonLabel);
+      expect(chips, findsAtLeastNWidgets(5), reason: 'the reasons went missing');
+
+      for (var i = 0; i < 5; i++) {
+        final chip = tester.getRect(chips.at(i));
+        expect(chip.left, greaterThanOrEqualTo(-0.5));
+        expect(chip.right, lessThanOrEqualTo(320.5));
+
+        final label =
+            find.descendant(of: chips.at(i), matching: find.byType(Text)).first;
+        final drawn = tester.getRect(label);
+        final text = tester.widget<Text>(label);
+
+        // ButtonLabel shrinks a step at a time and then wraps, so what it
+        // asks for at full size says nothing. What matters is whether the
+        // paragraph it actually laid out ran past the lines it was allowed —
+        // which is what "the tail is cut" means, and the only reading of it
+        // that survives a test font wider than the shipped one.
+        final paragraph = tester.renderObject<RenderParagraph>(label);
+        expect(
+          paragraph.didExceedMaxLines,
+          isFalse,
+          reason: '"${text.data}" is cut off in '
+              '${drawn.width.toStringAsFixed(0)}pt of width',
+        );
+        expect(drawn.bottom, lessThanOrEqualTo(chip.bottom + 0.5));
+      }
+    });
+  }
+
   // The contact form is where the placeholder is an instruction rather than a
   // label — "where an answer may go" — so it is the one that has to be read.
   testWidgets('the contact form\'s placeholders are not cut off', (
@@ -168,22 +247,7 @@ void main() {
       localeId: 'nl-NL',
       size: const Size(390, 1600),
     );
-    await tester.tap(
-      find.descendant(of: _nav, matching: find.byIcon(Icons.auto_stories_outlined)),
-    );
-    await tester.pumpAndSettle();
-
-    // Study → Write to the maker.
-    final letter = find.byIcon(Icons.mail_outline);
-    await tester.scrollUntilVisible(
-      letter,
-      300,
-      scrollable: find.byType(Scrollable).first,
-      maxScrolls: 60,
-    );
-    await tester.pumpAndSettle();
-    await tester.tap(letter.first);
-    await tester.pumpAndSettle();
+    await _openTheLetter(tester);
 
     final fields = find.byType(TextField);
     expect(fields, findsWidgets, reason: 'the letter has no fields');
