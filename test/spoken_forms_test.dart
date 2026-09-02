@@ -54,8 +54,8 @@ void main() {
     // 'edulcorated' must not be read as 'edulcorate' followed by a stray 'd'.
     final entry = entries.firstWhere((e) => e.word == 'Edulcorate');
     final voiced = entry.voiced('The editor edulcorated the review.');
-    expect(voiced, contains('iːˈdʌlkɔːreɪtɪd'));
-    expect(voiced, contains('ee dul core ay tidd'));
+    expect(voiced, contains('iːˈdʌlkəreɪtɪd'));
+    expect(voiced, contains('ee dul kuh ray tidd'));
   });
 
   test('a word inside another word is left alone', () {

@@ -18,7 +18,7 @@ const _words = [
     id: 'edulcorate',
     word: 'Edulcorate',
     partOfSpeech: 'verb',
-    pronunciation: 'ee-DUL-cor-ate',
+    pronunciation: 'ee-DUL-kuh-rate',
     definition: 'To sweeten or purify.',
     friendly: 'To take the bitterness out.',
     example: 'The editor edulcorated the review.',

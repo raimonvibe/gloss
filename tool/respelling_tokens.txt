@@ -171,6 +171,7 @@ py
 pyoo
 ran
 rass
+rate
 ray
 ress
 ret

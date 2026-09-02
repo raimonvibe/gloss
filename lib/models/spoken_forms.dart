@@ -34,9 +34,9 @@ class SpokenForm {
 ///
 /// Keyed by entry id, then by the form as it is written in the sentence.
 const kSpokenForms = <String, Map<String, String>>{
-  // Edulcorate — ee-DUL-cor-ate
+  // Edulcorate — ee-DUL-kuh-rate
   'edulcorate': {
-    'edulcorated': 'ee-DUL-cor-ay-tidd',
+    'edulcorated': 'ee-DUL-kuh-ray-tidd',
   },
   // Fructify — FRUK-tih-fy
   'fructify': {
@@ -132,7 +132,7 @@ String? spokenFormOf(String id, String form) {
 /// tables stay in step.
 const kFormIpa = <String, Map<String, String>>{
   'edulcorate': {
-    'edulcorated': 'iːˈdʌlkɔːreɪtɪd',
+    'edulcorated': 'iːˈdʌlkəreɪtɪd',
   },
   'fructify': {
     'fructified': 'ˈfrʌktɪfaɪd',

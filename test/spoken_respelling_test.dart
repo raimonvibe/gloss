@@ -42,7 +42,7 @@ void main() {
     // `parr` is the /a/ of bat with an r; `par` would be the /ar/ of bar.
     expect(spokenRespelling('PARR-uk-siz-um'), 'parre uck siz um');
     expect(spokenRespelling('PAR-sih-moh-nee'), 'parr sih moh nee');
-    expect(spokenRespelling('ee-DUL-cor-ate'), 'ee dul core ate');
+    expect(spokenRespelling('ee-DUL-kuh-rate'), 'ee dul kuh rate');
     expect(spokenRespelling('thee-OD-ih-see'), 'thee odd ihh see');
     expect(spokenRespelling('SY-uh-list'), 'sigh uh list');
     expect(spokenRespelling('vy-too-per-AY-shun'), 'vye too per ay shun');

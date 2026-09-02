@@ -22,7 +22,7 @@ const _fixture = '''
       "word": "Edulcorate",
       "variants": [],
       "partOfSpeech": "verb",
-      "pronunciation": "ee-DUL-cor-ate",
+      "pronunciation": "ee-DUL-kuh-rate",
       "definition": "To sweeten or purify.",
       "friendly": "To take the bitterness out of something.",
       "example": "The editor edulcorated the review.",

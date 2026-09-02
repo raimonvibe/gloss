@@ -262,6 +262,26 @@ check earned its keep — it found five rule bugs (`eh` keeping its h, `tch`, `y
 derived IPA agrees with it on 84; the rest are rhotic and US/UK differences and the handful
 of attested variants the pronunciation audit already recorded.
 
+**A respelling that writes a full vowel where the word has a schwa is now a wrong
+pronunciation, not a loose one.** *Edulcorate* was `ee-DUL-cor-ate` and *Anchorite* was
+`ANG-kor-ite`; both wrote `-or-` for what dictionaries reduce to /ə/. They are
+`ee-DUL-kuh-rate` and `ANG-kuh-rite` since 2026-09-02, and the derived IPA followed on its
+own — `iːˈdʌlkəreɪt` and `ˈæŋkəraɪt`, which is what Wiktionary and Merriam-Webster both
+give. This is the same lesson as `PARR-`: once the IPA is derived from the respelling, the
+respelling has to be right rather than merely readable.
+
+Six more were flagged by the pronunciation audit and are **not** errors — ours is an
+attested variant in every case, and for four of them it is Merriam-Webster's first:
+
+| Word | Ours | The other reading | Verdict |
+|---|---|---|---|
+| Irrefragable | ir-eh-**FRAG**-uh-bul | ih-**REF**-ruh-guh-bul | the other is primary in RP and GA |
+| Extant | ek-**STANT** | **EK**-stunt | the other is M-W's first |
+| Reify | **RAY**-ih-fy | **REE**-uh-fy | ours is M-W's first — keep |
+| Patois | **PAT**-wah | puh-**TWAH** | ours is M-W's first — keep |
+| Ersatz | AIR-**zahts** | AIR-**zats** | ours is the US reading — keep |
+| Pococurante | …-**RAN**-tee | …-**RAHN**-tee | ours is M-W's — keep |
+
 **A doubled r shortens the vowel, on the page and in the fallback.** `PAR-` is the /ɑːr/ of
 *bar* and `PARR-` is the /æ/ of *bat* with an r after it. *Parry* and *Paroxysm* were written
 `PAR-` and so were being said "par-ee" and "par-ok-sizm"; they are `PARR-` since 2026-09-02,

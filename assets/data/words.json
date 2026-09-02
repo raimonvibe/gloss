@@ -63,7 +63,7 @@
       "word": "Edulcorate",
       "variants": [],
       "partOfSpeech": "verb",
-      "pronunciation": "ee-DUL-cor-ate",
+      "pronunciation": "ee-DUL-kuh-rate",
       "definition": "To sweeten or purify; to remove harshness from something.",
       "friendly": "To take the sting or bitterness out of something — literally sweetening it, or figuratively softening a harsh idea so it goes down easier.",
       "example": "The editor edulcorated the harsh review before it went to print.",
@@ -83,7 +83,7 @@
           "meaning": "sweet"
         }
       ],
-      "ipa": "iːˈdʌlkɔːreɪt"
+      "ipa": "iːˈdʌlkəreɪt"
     },
     {
       "id": "pietistic",
@@ -3423,7 +3423,7 @@
       "word": "Anchorite",
       "variants": [],
       "partOfSpeech": "noun",
-      "pronunciation": "ANG-kor-ite",
+      "pronunciation": "ANG-kuh-rite",
       "definition": "A religious recluse living in solitude.",
       "friendly": "Someone who withdraws from the world entirely to live alone in prayer and reflection.",
       "example": "The anchorite lived in a small cell attached to the church for over thirty years.",
@@ -3443,7 +3443,7 @@
           "meaning": "to withdraw"
         }
       ],
-      "ipa": "ˈæŋkɔːraɪt"
+      "ipa": "ˈæŋkəraɪt"
     },
     {
       "id": "slake",

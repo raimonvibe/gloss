@@ -132,7 +132,7 @@ Future<void> _pumpRoots(
                 id: 'x',
                 word: 'Edulcorate',
                 partOfSpeech: 'verb',
-                pronunciation: 'ee-DUL-cor-ate',
+                pronunciation: 'ee-DUL-kuh-rate',
                 definition: 'd',
                 friendly: 'f',
                 example: 'e',
