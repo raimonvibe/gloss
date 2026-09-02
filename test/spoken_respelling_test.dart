@@ -153,7 +153,7 @@ void main() {
       case RespellingVoicing.wordOnly:
         // These two do not say the respelling at all.
         expect(entry.spokenWord, isNot(contains('ihh')));
-        expect(entry.spokenWord, contains('Hebetude'));
+        expect(entry.spokenWord, contains('ˈhɛbɪtuːd'));
       case RespellingVoicing.respellingOnly:
         // ...and this one says nothing but.
         expect(entry.spokenWord, 'heb ihh tood.');
@@ -161,7 +161,7 @@ void main() {
       case RespellingVoicing.probe:
         // The word is shown and the respelling is spoken, so both are in the
         // utterance and the respelling is inside the alias.
-        expect(entry.spokenWord, contains(ssmlSub('heb ihh tood', 'Hebetude')));
+        expect(entry.spokenWord, contains(ssmlPhoneme('ˈhɛbɪtuːd', 'heb ihh tood')));
       case RespellingVoicing.spaced:
       case RespellingVoicing.commas:
       case RespellingVoicing.sentences:

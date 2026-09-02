@@ -273,6 +273,7 @@ zit
 # substitutes
 odd
 parre
+parr
 rett
 rihh
 pie

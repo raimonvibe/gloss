@@ -1,5 +1,17 @@
 import 'respelling.dart';
 
+/// How one English form is said: its sound, and the spelling to fall back on.
+///
+/// The sound is what an engine that honours `<phoneme>` is given. The
+/// respelling is the tag's inner text, which is what an engine that does not
+/// honour it says instead — the same thing the app said before phonemes.
+class SpokenForm {
+  const SpokenForm({required this.ipa, required this.respelling});
+
+  final String ipa;
+  final String respelling;
+}
+
 /// The other English forms of a headword that the app says out loud, and how
 /// each of them is pronounced.
 ///
@@ -53,7 +65,7 @@ const kSpokenForms = <String, Map<String, String>>{
   },
   // Parry — PAR-ee
   'parry': {
-    'parried': 'PAR-ihd',
+    'parried': 'PARR-ihd',
   },
   // Excoriate — ek-SKOR-ee-ate
   'excoriate': {
@@ -110,4 +122,81 @@ const kSpokenForms = <String, Map<String, String>>{
 String? spokenFormOf(String id, String form) {
   final written = kSpokenForms[id]?[form.toLowerCase()];
   return written == null ? null : spokenRespelling(written);
+}
+
+/// The sound of each form above, derived from its respelling by the same rules
+/// `tool/emit_ipa.py` uses on the headwords.
+///
+/// Written out rather than computed at run time, so that the derivation lives
+/// in one language and one place; `test/spoken_forms_test.dart` checks the two
+/// tables stay in step.
+const kFormIpa = <String, Map<String, String>>{
+  'edulcorate': {
+    'edulcorated': 'iːˈdʌlkɔːreɪtɪd',
+  },
+  'fructify': {
+    'fructified': 'ˈfrʌktɪfaɪd',
+  },
+  'fricaseed': {
+    'fricasseed': 'ˈfrɪkəsiːd',
+    'fricassee': 'ˈfrɪkəsiː',
+  },
+  'reify': {
+    'reifies': 'ˈreɪɪfaɪz',
+  },
+  'deracinate': {
+    'deracinated': 'diːˈræsɪneɪtɪd',
+  },
+  'actuate': {
+    'actuated': 'ˈæktʃuːeɪtɪd',
+  },
+  'effloresce': {
+    'effloresced': 'ɛfləˈrɛst',
+  },
+  'parry': {
+    'parried': 'ˈpærɪd',
+  },
+  'excoriate': {
+    'excoriated': 'ɛkˈskɔːriːeɪtɪd',
+  },
+  'adduce': {
+    'adduced': 'əˈduːst',
+  },
+  'execrate': {
+    'execrated': 'ˈɛksɪkreɪtɪd',
+  },
+  'demur': {
+    'demurred': 'dɪˈmɜːrd',
+  },
+  'emendation': {
+    'emendations': 'iːmɛnˈdeɪʃənz',
+  },
+  'chicane': {
+    'chicaned': 'ʃɪˈkeɪnd',
+  },
+  'animadversion': {
+    'animadversions': 'ænɪmædˈvɜːrʒənz',
+  },
+  'slake': {
+    'slaked': 'ˈsleɪkt',
+  },
+  'appurtenance': {
+    'appurtenances': 'əˈpɜːrtənənsɪz',
+  },
+  'pabulum': {
+    'pablum': 'ˈpæbləm',
+  },
+  'cant': {
+    'canting': 'ˈkæntɪŋ',
+  },
+  'pococurante': {
+    'pococurantism': 'poʊkoʊkjuːˈræntɪzəm',
+  },
+};
+
+/// The sound of [form] of the entry [id], derived from its respelling the same
+/// way `tool/emit_ipa.py` derives the headwords'.
+String? ipaOfForm(String id, String form) {
+  final written = kSpokenForms[id]?[form.toLowerCase()];
+  return written == null ? null : kFormIpa[id]?[form.toLowerCase()];
 }

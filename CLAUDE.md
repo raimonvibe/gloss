@@ -234,20 +234,41 @@ none of them in its dictionary and invents a reading from the spelling: *pietist
 out "pi-e-stic". Every respelling fix above is downstream of that — the respelling was
 never the disease, it is the cure the app already had.
 
-**`<sub alias="...">` is the fix, and it works.** SSML *is* reaching the engine — the app
+**`<phoneme alphabet="ipa">` is the fix, and it works.** SSML reaches the engine — the app
 has always wrapped English utterances (`_useEnglishSsml`, set when the engine is Google) —
-and a probe on the device on 2026-09-02 confirmed the engine honours `<sub>`:
+and two device probes settled what it accepts. The first said `<sub alias="...">` was
+honoured. The second, after `<sub>` was still heard saying respellings wrong, asked the
+question that mattered:
 
 | Sent | Heard |
 |---|---|
-| `<sub alias="pie uh tiss tik">Pietistic</sub>` | correct |
-| `pie uh tiss tik` | correct |
-| `Pietistic` | **wrong** — "pi-e-stic" |
+| `<phoneme alphabet="ipa" ph="ˌiːmɛnˈdeɪʃən">ee men day shun</phoneme>` | **correct** |
+| `<sub alias="ee men day shun">Emendation</sub>` | wrong |
+| `ee men day shun` | wrong |
 
-So the page keeps the word and the voice is handed the respelling, for all 134 at once.
-`kRespellingVoicing` in `lib/models/word_entry.dart` records every shape that was tried
-and what the phone said about each; `RespellingVoicing.probe` is the experiment itself,
-kept because it is how the next such question gets answered.
+The received wisdom is that on-device engines ignore `<phoneme>`. That wisdom also said
+they ignore SSML. **Ask the device.**
+
+So the app hands the voice a *sound*, never a spelling. `assets/data/words.json` carries an
+`ipa` for every word, and `lib/models/spoken_forms.dart` carries one for every inflected
+form. Neither is written by hand: `tool/emit_ipa.py` derives them from the respellings, and
+`python tool/emit_ipa.py --check` fails when the two have drifted apart.
+
+**Why derived rather than fetched.** The respelling is what the page shows and so is the
+app's own authority; the inflected forms have no dictionary entry; and eighteen of the 134
+have no Wiktionary entry at all. It was checked against Wiktionary all the same, and that
+check earned its keep — it found five rule bugs (`eh` keeping its h, `tch`, `ye`, unstressed
+`-ar`, and an `-ed` rule that fired on *seed*). Of the 116 words Wiktionary knows, the
+derived IPA agrees with it on 84; the rest are rhotic and US/UK differences and the handful
+of attested variants the pronunciation audit already recorded.
+
+**The respelling rides inside the tag as its text**, so an engine that ignores `<phoneme>`
+says exactly what the app said before, and `ssmlToPlainText` gives it the same thing when
+it is not handed SSML at all. That is what the 27 substitutions in `respelling.dart` are
+for now — a fallback, not the main road. Nineteen of them are invented spellings measured
+against Windows SAPI, and the phone disagreed with SAPI on `eeh`, which is why `ee` is no
+longer substituted and why the device's verdict overrules the desktop probe's wherever the
+two have been heard to differ.
 
 `<phoneme alphabet="ipa">` is a different matter and is **not** supported by the on-device
 engines — it is a cloud-API feature (Google Cloud TTS, Polly, Azure). An engine that does
