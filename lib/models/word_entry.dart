@@ -1,4 +1,5 @@
 import '../l10n/speech_templates.dart';
+import 'respelling.dart';
 
 class WordRoot {
   const WordRoot({required this.form, required this.meaning});
@@ -154,8 +155,11 @@ class WordEntry {
     ].join(' ').toLowerCase();
   }
 
-  /// Hyphens in respellings make TTS pause; spaces read more naturally.
-  String get spokenPronunciation => pronunciation.replaceAll('-', ' ');
+  /// The respelling as a voice should hear it — see [spokenRespelling].
+  ///
+  /// Every reading in the app arrives here through [spokenWord], so the
+  /// capitals that a voice would spell out are undone in one place.
+  String get spokenPronunciation => spokenRespelling(pronunciation);
 
   String get spokenWord => '${english.word}. ${english.spokenPronunciation}.';
 

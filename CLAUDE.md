@@ -150,6 +150,21 @@ for its English fallback once, instead of each piece falling back on its own.
 `test/english_narration_test.dart` sweeps six locales of shipped data for English left
 inside a local-voice segment.
 
+**The respelling is written for the eye, spoken for the ear.** The 134 respellings mark
+stress in capitals — `HEB-ih-tood`, `PYOO-tuh-tiv` — and a text-to-speech engine reads a
+short run of capitals as an initialism, so the guide that was meant to teach *hebetude*
+spelled it: "aitch ee bee", then "tood". Every word whose stress falls on one short
+syllable had the same fault, in every voice and on every listen button, because the
+capitals reached the engine as written. `spokenRespelling()` in
+`lib/models/respelling.dart` hands the voice the syllables in lower case and separated by
+spaces (a hyphen is a pause, or the word "dash"); the page keeps the capitals it was
+written with. Everything spoken arrives there through `WordEntry.spokenWord`, so this is
+one place, not one per screen. **Do not fix this by lower-casing speech generally** —
+`DNA` is in the English example for *irrefragable* and in all sixty overlays as `ADN`,
+`DNK`, `DNS`, and it is an initialism that should be spelled.
+`test/spoken_respelling_test.dart` sweeps all 134 for capitals a voice would spell, and
+checks that no syllable is lost to the reshaping.
+
 **English word data (repaired 2026-08-29):** `assets/data/words.json` had been through
 one round of escaping too many — 20 `example` fields showed a literal `\"` on screen and
 23 `friendly`/`definition` fields were cut off where their quotation began. All 43 were
@@ -350,15 +365,17 @@ A baseline means nothing without the commit it was taken at:
 | 2026-08-30 | `36dfbe8` | Windows | 3.41.7 | clean | **166/166** | empty |
 | 2026-08-31 | `b800a98` | Windows | 3.41.7 | clean | **177/177** | empty |
 | 2026-09-02 | `4f7da5f` | Windows | 3.41.7 | clean | **199/199** | empty |
+| 2026-09-02 | `daa0a98` | Windows | 3.41.7 | clean | **206/206** | empty |
 
-The suite grew from 133 to 146 to 153 to 166 to 177 to 199 across those commits; the
-number is a fact about the commit, not a constant to hold.
+The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 across those commits;
+the number is a fact about the commit, not a constant to hold.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `4f7da5f` (`1.0.0+14`), writing
-a 47.9 MB `build/app/outputs/bundle/release/app-release.aab`. It was 47.3 MB from
-`59ec260` + `1.0.0+9` through `1.0.0+13`; the contact form's `http` dependency is the
+`flutter build appbundle --release` exits 0 on Windows at `daa0a98` (`1.0.0+15`), writing
+a 47.9 MB `build/app/outputs/bundle/release/app-release.aab` — the same size as
+`4f7da5f` + `1.0.0+14`, which is what a change of this shape should weigh. It was 47.3 MB
+from `59ec260` + `1.0.0+9` through `1.0.0+13`; the contact form's `http` dependency is the
 difference. Check what came out before uploading —
 `keytool -printcert -jarfile app-release.aab` must name `CN=Gloss, O=Raimonvibe` (the
 upload key, not a debug key), and
