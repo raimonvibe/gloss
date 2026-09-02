@@ -148,6 +148,18 @@ const _words = [
   ),
 ];
 
+/// Whether [heard] says [term] as a word of its own.
+///
+/// Not `contains`: the quiz shuffles unseeded, and when *Paroxysm* came up
+/// first the reading said its etymon — *par-oxys-mos* — which carries the root
+/// form *oxys* inside it. A substring check called that a leak and failed
+/// about one full run in three, on a different question each time.
+bool says(String heard, String term) => RegExp(
+      r'(?<![\p{L}\p{N}])' + RegExp.escape(term) + r'(?![\p{L}\p{N}])',
+      unicode: true,
+      caseSensitive: false,
+    ).hasMatch(heard);
+
 void main() {
   setUpAll(() => GoogleFonts.config.allowRuntimeFetching = false);
 
@@ -318,7 +330,7 @@ void main() {
       final heard = engine.spokenSegments.join(' ');
       expect(heard, contains(word.word), reason: 'the quiz opened in silence');
       expect(heard, contains('From ${word.origin}'));
-      expect(heard, isNot(contains(root.form)));
+      expect(says(heard, root.form), isFalse, reason: 'a root form was read');
       expect(heard, isNot(contains(root.meaning)));
       expect(heard, isNot(contains(word.friendly)));
     });
@@ -335,7 +347,7 @@ void main() {
       await tester.pumpAndSettle();
 
       final heard = engine.spokenSegments.join(' ');
-      expect(heard, contains(root.form));
+      expect(says(heard, root.form), isTrue);
       expect(heard, contains(root.meaning));
       expect(heard, contains(quiz.current!.word.friendly));
     });
@@ -347,7 +359,7 @@ void main() {
       final asked = entry.spokenQuiz(revealed: false);
       expect(asked, contains(entry.word));
       expect(asked, contains('From ${entry.origin}'));
-      expect(asked, isNot(contains(root.form)));
+      expect(says(asked, root.form), isFalse);
       expect(asked, isNot(contains(root.meaning)));
 
       final answered = entry.spokenQuiz(revealed: true);

@@ -542,6 +542,24 @@ needed no new translation, because the page already had the sixty. `speechInPlai
 and `speechAsIn` are unused in the ARBs now; they stay there, because taking a key out of
 sixty files buys nothing.
 
+**Every heading on a word's page is set in the script face — except one, for a long
+time.** *in other words*, the label over the translated gloss, was a plain 12pt line while
+*in plain words*, *the definition* and *in a sentence* above it were all `ScriptCaption`.
+It showed the moment the other three started being read aloud by their own names. It is a
+`ScriptCaption` too now, at 22 rather than the sections' 26 because it belongs under the
+sentence rather than beside it, and `widget_test.dart` checks all four are drawn in
+`AppFonts.tangerineFamily`. Note what that test needs: the page prefers the repository's
+copy of a word over the entry it was handed, so the fixture entry has to carry an id the
+repository does **not** know or the gloss never appears.
+
+**`quiz_gives_less_away_test` was failing about one full run in three, and it was not a
+flake.** The quiz shuffles unseeded, so a different question comes up first each run, and
+when *Paroxysm* did, the reading said its etymon — *par-oxys-mos* — which carries the root
+form *oxys* inside it. A `contains` check called that a leaked root. The assertion matches
+whole words now. Two lessons in one: an intermittent failure in a suite that shuffles is a
+collision until proven otherwise, and *the first theory (async speech not settling) was
+wrong and a wait loop written for it was taken back out* rather than left in as a charm.
+
 **A Material chip cannot hold a translated phrase, and it fails silently.** The five
 reasons for writing were `ChoiceChip`s, and a chip is built for a short label: `RawChip`
 puts a `DefaultTextStyle` with `maxLines: 1, softWrap: false` around whatever it is

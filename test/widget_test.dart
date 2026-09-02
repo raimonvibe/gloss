@@ -14,10 +14,12 @@ import 'package:beautiful_words/branding.dart';
 import 'package:beautiful_words/data/word_repository.dart';
 import 'package:beautiful_words/l10n/locale_catalog.dart';
 import 'package:beautiful_words/models/word_entry.dart';
+import 'package:beautiful_words/screens/word_detail_screen.dart';
 import 'package:beautiful_words/screens/study_screen.dart';
 import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
+import 'package:beautiful_words/theme/app_fonts.dart';
 import 'package:beautiful_words/theme/brand_colors.dart';
 import 'package:beautiful_words/widgets/card_surface.dart';
 import 'package:beautiful_words/widgets/etymology_card.dart';
@@ -215,6 +217,80 @@ void main() {
       }
     });
   }
+
+  // Every heading on a word's page is set in the script face. "in other
+  // words" was the one left in the body font — it is a sub-label under the
+  // sentence rather than a section of its own, and it had been written as a
+  // plain 12pt line since before any of this. A reader noticed it as soon as
+  // the three above it started being read aloud by their own names.
+  testWidgets('every heading on a word page is in the script face', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    // The gloss label only appears where there is a gloss, which is a
+    // translated field: an English entry never has one.
+    // An id the fixture does not carry: the page prefers the repository's
+    // copy of a word over the one it was handed, and that copy has no gloss.
+    const glossed = WordEntry(
+      id: 'glossed-sample',
+      word: 'Edulcorate',
+      partOfSpeech: 'verb',
+      pronunciation: 'ee-DUL-kuh-rate',
+      definition: 'To sweeten or purify.',
+      friendly: 'To take the bitterness out.',
+      example: 'The editor edulcorated the review.',
+      exampleGloss: 'De redacteur verzachtte de recensie.',
+      tags: ['speech'],
+      origin: 'Latin',
+      originWord: 'edulcorare',
+      roots: [WordRoot(form: 'dulcis', meaning: 'sweet')],
+    );
+
+    await tester.binding.setSurfaceSize(const Size(390, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: SettingsController(prefs)),
+          ChangeNotifierProvider.value(value: ProgressController(prefs)),
+          ChangeNotifierProvider.value(
+            value: WordRepository.fromJsonString(_fixture),
+          ),
+          ChangeNotifierProvider.value(
+            value: SpeechController(engine: SilentSpeechEngine()),
+          ),
+        ],
+        child: MaterialApp(
+          locale: const Locale('en'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          theme: ThemeData(
+            useMaterial3: true,
+            extensions: const [BrandColors.light],
+          ),
+          home: const WordDetailScreen(entry: glossed),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    for (final heading in [
+      'in plain words',
+      'the definition',
+      'in a sentence',
+      'in other words',
+    ]) {
+      final drawn = find.text(heading);
+      expect(drawn, findsOneWidget, reason: '"$heading" is not on the page');
+      expect(
+        tester.widget<Text>(drawn).style?.fontFamily,
+        AppFonts.tangerineFamily,
+        reason: '"$heading" is drawn in the body font, not the script one',
+      );
+    }
+  });
 
   testWidgets('progress tracker reports current of total', (tester) async {
     await tester.pumpWidget(

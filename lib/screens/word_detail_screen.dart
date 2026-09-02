@@ -156,13 +156,17 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                               ),
                               if (live.exampleGloss != null) ...[
                                 const SizedBox(height: 8),
-                                Text(
+                                // The script face, like every other heading
+                                // on this page. It was the one left in the
+                                // body font, which showed once the three
+                                // above it were all being read aloud by
+                                // their own names — and 22 rather than the
+                                // sections' 26, because it belongs under the
+                                // sentence rather than beside it.
+                                ScriptCaption(
                                   l10n.exampleGlossLabel,
-                                  style: TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w600,
-                                    color: brand.accentGold,
-                                  ),
+                                  textAlign: TextAlign.start,
+                                  fontSize: 22,
                                 ),
                                 const SizedBox(height: 4),
                                 Text(
