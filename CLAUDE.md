@@ -574,6 +574,7 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-02 | `4f7da5f` | Windows | 3.41.7 | clean | **199/199** | empty |
 | 2026-09-02 | `daa0a98` | Windows | 3.41.7 | clean | **206/206** | empty |
 | 2026-09-02 | `1333cf1` | Windows | 3.41.7 | clean | **218/218** | empty |
+| 2026-09-02 | `a774b84` | Windows | 3.41.7 | clean | **224/224** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 across those
 commits; the number is a fact about the commit, not a constant to hold.
@@ -593,8 +594,13 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `daa0a98` (`1.0.0+15`), writing
-a 47.9 MB `build/app/outputs/bundle/release/app-release.aab` — the same size as
+`flutter build appbundle --release` exits 0 on Windows at `a774b84` (`1.0.0+16`), writing a
+47.9 MB bundle — `versionCode 16`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the
+`SENDTO` query both in the merged manifest, and all 134 words carrying their `ipa` in the
+shipped `words.json`. The same size as `1.0.0+15`, which is what a change of this shape
+should weigh: the IPA is a short string per word against a 47.9 MB bundle.
+
+Before that, `daa0a98` (`1.0.0+15`) wrote 47.9 MB too — the same size as
 `4f7da5f` + `1.0.0+14`, which is what a change of this shape should weigh. It was 47.3 MB
 from `59ec260` + `1.0.0+9` through `1.0.0+13`; the contact form's `http` dependency is the
 difference. Check what came out before uploading —
