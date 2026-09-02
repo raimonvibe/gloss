@@ -37,7 +37,9 @@ class SettingsController extends ChangeNotifier {
     );
     _autoplay = _prefs.getBool(_autoplayKey) ?? false;
     _reduceMotion = _prefs.getBool(_reduceMotionKey) ?? false;
-    _readTranslation = _prefs.getBool(_readTranslationKey) ?? false;
+    // Null means the reader has never touched it, which is not the same as
+    // off — see [readTranslationAloudChosen].
+    _readTranslation = _prefs.getBool(_readTranslationKey);
   }
 
   final SharedPreferences _prefs;
@@ -49,7 +51,7 @@ class SettingsController extends ChangeNotifier {
   late double _speechRate;
   late bool _autoplay;
   late bool _reduceMotion;
-  late bool _readTranslation;
+  bool? _readTranslation;
 
   ThemeMode get themeMode => _themeMode;
   String? get savedLocaleId => _localeId;
@@ -64,7 +66,20 @@ class SettingsController extends ChangeNotifier {
 
   /// Off by default: the lemma is always English, and most devices have no
   /// installed voice for the smaller languages in the catalog.
-  bool get readTranslationAloud => _readTranslation;
+  /// Whether a translated reading is spoken in the reader's own language.
+  ///
+  /// The default follows the language the reader picked: someone who has
+  /// chosen Arabic has not asked to be read to in English. It was `false` for
+  /// everyone until 2026-09-02, which meant that picking a language and
+  /// pressing listen gave you English, in all sixty — and that a reinstall,
+  /// which clears preferences, silently put a reader back there.
+  ///
+  /// [readTranslationAloudChosen] is what the switch in the study shows, so a
+  /// reader who turns it off stays off.
+  bool get readTranslationAloud => _readTranslation ?? true;
+
+  /// What the reader actually chose, or null if they never did.
+  bool? get readTranslationAloudChosen => _readTranslation;
 
   Future<void> setTextScale(double value) async {
     final next = _clamp(value, kMinTextScale, kMaxTextScale);

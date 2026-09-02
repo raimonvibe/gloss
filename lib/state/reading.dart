@@ -26,8 +26,12 @@ final AppLocalizations englishCopy = AppLocalizationsEn();
 
 /// The language the reader asked to be read to in, or null for English.
 ///
-/// Null when the switch in the study is off, when the reader is already
-/// reading English, or when the catalog has no locale to speak.
+/// Null when the reader has turned the switch in the study off, when they are
+/// already reading English, or when the catalog has no locale to speak.
+///
+/// The switch defaults to on for a reader who has picked one of the other
+/// fifty-nine: choosing a language and being read to in English is not an
+/// answer anyone asked for.
 String? readerLanguageTag(BuildContext context) {
   final settings = context.read<SettingsController>();
   if (!settings.readTranslationAloud) return null;

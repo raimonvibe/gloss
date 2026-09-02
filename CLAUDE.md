@@ -206,6 +206,18 @@ the letter "pee" while SAPI says `py` correctly, and byte-identically to `pie`. 
 replacement that is an ordinary English word, which no engine has to guess at. `py`, `fy`
 and `ty` are in the table for that reason alone.
 
+**"Read the translation aloud" follows the language the reader picked.** It defaulted to
+`false` until 2026-09-02, which meant a fresh install spoke English in all sixty: choose
+Arabic, press listen, hear English. Preferences are cleared by a reinstall, so this came
+back every time the app was installed again, and it looked like a regression each time.
+
+Every translated test seeded `'beautiful-words:read-translation': true`, so the whole suite
+was green while the app did this — the default was the one path nothing exercised.
+`test/reads_in_the_chosen_language_test.dart` now covers it from the install default in
+Dutch and in Arabic, and checks that a reader who turns the switch **off** stays off:
+`readTranslationAloudChosen` is what the study shows, `readTranslationAloud` is the
+question the reading asks, and only the second one has a default.
+
 **A respelling has two readers, and `spokenRespelling` only reaches one.** It fixes what
 `SpeakButton` says. It cannot reach the *screen reader*: the respelling is also drawn on
 the page — the word of the day, every lexicon card, the card at the top of a word's page —
