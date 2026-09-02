@@ -50,7 +50,13 @@ const Map<String, String> _spokenSyllables = {
   // Two-letter fragments read as letter names.
   'ak': 'ack', //   /ak/ as in back      Actuate
   'ap': 'app', //   /ap/ as in cap       Aporetic, Apposite
-  'ee': 'eeh', //   /ee/ as in bee       13 words — `ee` was said as two beats
+  // 'ee' is deliberately NOT substituted. SAPI reads it as two beats and
+  // `eeh` as one, so the table sent `eeh` — and Google's Android engine
+  // spells that, "ee ee aitch", heard in *Emendation* on a phone. `ee` is
+  // the safer bet even when an engine spells it, because the letter E is
+  // already the sound the syllable wants; `eeh` adds an H that is audibly
+  // wrong. Where the desktop probe and the reader's phone disagree, the
+  // phone wins.
   'ek': 'eck', //   /ek/ as in deck      Expatiate, Extant, Excoriate, Execrate
   'ig': 'ihg', //   /ig/ as in big       Ignavia
   'ih': 'ihh', //   /i/  as in bit       13 words, Hebetude among them

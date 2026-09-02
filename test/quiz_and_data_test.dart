@@ -177,7 +177,7 @@ void main() {
 
   test('spoken prompts name the word and hide the definition', () {
     final entry = repo.words.first;
-    expect(entry.spokenPronunciation, 'eeh dul core ate');
+    expect(entry.spokenPronunciation, 'ee dul core ate');
     expect(entry.spokenPrompt, contains('Edulcorate'));
     expect(entry.spokenPrompt, contains('dulcis'));
     expect(entry.spokenPrompt, isNot(contains(entry.definition)));

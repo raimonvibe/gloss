@@ -54,7 +54,7 @@ void main() {
     // 'edulcorated' must not be read as 'edulcorate' followed by a stray 'd'.
     final entry = entries.firstWhere((e) => e.word == 'Edulcorate');
     final voiced = entry.voiced('The editor edulcorated the review.');
-    expect(voiced, contains(ssmlSub('eeh dul core ay tidd', 'edulcorated')));
+    expect(voiced, contains(ssmlSub('ee dul core ay tidd', 'edulcorated')));
     expect(voiced, isNot(contains('>edulcorate<')));
   });
 

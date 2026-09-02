@@ -187,9 +187,14 @@ class WordEntry {
       case RespellingVoicing.respellingOnly:
         return '${syllables.join(' ')}.';
       case RespellingVoicing.probe:
-        return 'One. ${ssmlSub(source.spokenPronunciation, source.word)}. '
-            'Two. ${syllables.join(' ')}. '
-            'Three. ${source.word}.';
+        final ipa = kProbeIpa[source.id];
+        final alias = source.spokenPronunciation;
+        return [
+          if (ipa != null) 'One. ${ssmlPhoneme(ipa, alias)}.',
+          if (ipa == null) 'One. ${source.word}.',
+          'Two. ${ssmlSub(alias, source.word)}.',
+          'Three. $alias.',
+        ].join(' ');
     }
   }
 
@@ -435,35 +440,36 @@ enum RespellingVoicing {
   probe,
 }
 
-/// The shape in use, and how it was settled.
+/// IPA for the handful of words [RespellingVoicing.probe] asks with, taken
+/// from Wiktionary's General American transcriptions.
 ///
-/// Tried on a Dutch phone running Google's Android engine, 2026-09-02, with
-/// the `[gloss-tts]` trace confirming the right string left the app each time.
+/// Only these few, because this is an experiment and not a data model. If the
+/// phone turns out to honour `<phoneme>`, IPA belongs in `words.json` for all
+/// 134 — it was already fetched once, for the audit in `spoken_forms.dart`'s
+/// sibling work — and every invented respelling substitution can go.
+const kProbeIpa = <String, String>{
+  'emendation': 'ˌiːmɛnˈdeɪʃən',
+  'edulcorate': 'əˈdʌlkəɹeɪt',
+  'pietistic': 'ˌpaɪɪˈtɪstɪk',
+  'hebetude': 'ˈhɛbətuːd',
+};
+
+/// The shape in use.
 ///
-/// `spaced`, `commas` and `sentences` were all reported wrong, and all three
-/// were the wrong question: a reading opens with the headword, and **the
-/// engine cannot say the headword**. `twice` sent nothing but
-/// `Pietistic. Pietistic.` and both came out "pi-e-stic". Gloss is a lexicon
-/// of rare words, so this is not one unlucky entry — the engine's dictionary
-/// holds almost none of them and its letter-to-sound rules invent a reading
-/// from the spelling. The respelling was never the disease; it is the cure the
-/// app already had, and `twice` was the one change that threw it away.
+/// [sub] ships: the page keeps the word and the voice is handed the
+/// respelling, which a device probe confirmed the engine honours.
 ///
-/// [probe] then asked the phone directly, and the answer was unambiguous:
+/// What that left behind is the respelling itself. Nineteen of the twenty-seven
+/// substitutions in `respelling.dart` are invented spellings — `eeh`, `ihh`,
+/// `ihhr` — each a bet about how one engine reads a string that is not a word.
+/// They were measured against Windows SAPI, and the phone disagreed: `eeh` came
+/// out "ee ee aitch" in *Emendation*. `ihh` stands to fail the same way, in
+/// thirteen more.
 ///
-/// - `<sub alias="pie uh tiss tik">Pietistic</sub>` — **correct**. The engine
-///   honours `<sub>`, so the page can keep the word and the voice be handed
-///   the respelling.
-/// - `pie uh tiss tik` on its own — also correct, which is the fallback and
-///   which confirms the substitution table in `respelling.dart` is doing its
-///   job.
-/// - `Pietistic` alone — wrong, as expected. That is the control.
-///
-/// So [sub] ships. It costs nothing on an engine that ignores `<sub>`, which
-/// speaks the inner text and leaves us exactly where we were, and
-/// `ssmlToPlainText` gives the alias to the engines that are not handed SSML
-/// at all.
-const kRespellingVoicing = RespellingVoicing.sub;
+/// [probe] asks the only question that would end that for good: whether the
+/// engine honours `<phoneme>`. If it does, IPA replaces every invented spelling
+/// and nothing has to guess again.
+const kRespellingVoicing = RespellingVoicing.probe;
 
 class WordCategory {
   const WordCategory({required this.id, required this.label});
