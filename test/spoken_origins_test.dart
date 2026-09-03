@@ -184,7 +184,10 @@ void main() {
       final spanish = byId['pronunciamento']!;
       expect(spanish.origin, 'Spanish');
       expect(spanish.etymonVoiceFor('pro-'), kOriginVoices['Spanish']);
-      expect(spanish.spokenEtymonFor('pro-')!.text, 'pro-');
+      // Spoken without the hyphen it is written with, like the Greek one
+      // beside it — an Italian or Spanish voice says a trailing hyphen out
+      // loud where the Greek table had always been written without.
+      expect(spanish.spokenEtymonFor('pro-')!.text, 'pro');
 
       // No word outside the twenty-two ever reaches the Greek table.
       final greekVoiced = repo.words.where(
@@ -284,6 +287,69 @@ void main() {
       // Alone, like the French one: a device with no Greek voice loses this
       // word and keeps its Dutch reading.
       for (final piece in greek) {
+        expect(piece.group, isNull, reason: 'the etymon joined the passage');
+        expect(piece.fallback, isNotNull, reason: 'no English to fall back on');
+      }
+      expect(
+        reading.where((piece) => piece.languageTag == 'nl-NL'),
+        isNotEmpty,
+        reason: 'the Dutch explanation went missing',
+      );
+    });
+
+    // A root is written with the hyphen that says which end it attaches to,
+    // and a voice says the hyphen out loud. Greek has been handed its forms
+    // without one since it was let in; every other language kept them.
+    test('a root reaches the voice without the hyphen it is written with', () {
+      expect(spokenEtymonForm('ex-'), 'ex');
+      expect(spokenEtymonForm('-osus'), 'osus');
+      expect(spokenEtymonForm(' inter- '), 'inter');
+      // A hyphen inside a word is part of the word.
+      expect(spokenEtymonForm('demi-monde'), 'demi-monde');
+      expect(spokenEtymonForm('-'), '-', reason: 'nothing left to say');
+    });
+
+    testWidgets('no shipped form reaches a foreign voice hyphenated', (
+      tester,
+    ) async {
+      final repo = await _shipped(tester, 'en');
+      final said = <String>[];
+      for (final word in repo.words) {
+        for (final form in [
+          word.originWord,
+          for (final root in word.roots) root.form,
+        ]) {
+          final etymon = word.spokenEtymonFor(form);
+          if (etymon == null) continue;
+          if (etymon.text.startsWith('-') || etymon.text.endsWith('-')) {
+            said.add('${word.id}: ${etymon.text}');
+          }
+        }
+      }
+      expect(said, isEmpty, reason: 'a voice will say the hyphen');
+    });
+
+    testWidgets('the shipped Latin etymon reaches an Italian voice', (
+      tester,
+    ) async {
+      final repo = await _shipped(tester, 'nl');
+      final entry = repo.words.firstWhere((word) => word.id == 'effloresce');
+      final reading = await _readingIn(
+        tester,
+        localeId: 'nl-NL',
+        repo: repo,
+        entry: entry,
+      );
+
+      final italian = reading.where((piece) => piece.languageTag == 'it-IT');
+      expect(italian, isNotEmpty, reason: 'the etymon stayed with English');
+      expect(
+        italian.map((piece) => piece.text),
+        containsAll(<String>['efflorescere', 'florescere', 'ex']),
+      );
+      // Eighty-one of the 134 are Latin, so this is the common case rather
+      // than a corner of one.
+      for (final piece in italian) {
         expect(piece.group, isNull, reason: 'the etymon joined the passage');
         expect(piece.fallback, isNotNull, reason: 'no English to fall back on');
       }

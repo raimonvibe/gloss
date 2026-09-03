@@ -381,6 +381,86 @@ void _splitNarration() {
       expect(voice, isNull);
     });
 
+    // A Latin etymon is read by an Italian voice, and a Dutch reader heard
+    // it in English. The routing was right; what reached the engine was not.
+    test('the engine gets the locale spelled the way it spelled it', () {
+      final voice = pickVoiceForLanguage(const [
+        {'name': 'it-it-x-kda-local', 'locale': 'it-IT'},
+      ], 'it-IT');
+      // Lower case to compare with, because 'it_IT' and 'it-IT' are the same
+      // voice and nothing else here should have to know that.
+      expect(voice!.locale, 'it-it');
+      // And the engine's own spelling to speak with: setVoice matches the
+      // locale exactly, against Locale.toLanguageTag() on Android and
+      // AVSpeechSynthesisVoice.language on iOS, both of which say 'it-IT'.
+      expect(voice.engineLocale, 'it-IT');
+    });
+
+    test('a voice the engine lists but has not downloaded is not a voice', () {
+      // Google's getVoices answers with every language it supports, and
+      // marks the ones whose data is not on the phone.
+      final voice = pickVoiceForLanguage(const [
+        {
+          'name': 'it-it-x-kda-local',
+          'locale': 'it-IT',
+          'features': 'notInstalled	networkTimeoutMs',
+        },
+      ], 'it-IT');
+      expect(voice, isNull, reason: 'an Italian voice that cannot speak');
+
+      final installed = pickVoiceForLanguage(const [
+        {
+          'name': 'it-it-x-kda-network',
+          'locale': 'it-IT',
+          'features': 'notInstalled',
+        },
+        {'name': 'it-it-x-itd-local', 'locale': 'it-IT', 'features': ''},
+      ], 'it-IT');
+      expect(installed!.name, 'it-it-x-itd-local');
+    });
+
+    test('iOS reports no features, and that means installed', () {
+      // speechVoices() lists what is on the device and nothing else, so an
+      // absent field cannot be read as a missing voice.
+      final voice = pickVoiceForLanguage(const [
+        {'name': 'Alice', 'locale': 'it-IT', 'quality': 'default'},
+      ], 'it-IT');
+      expect(voice!.name, 'Alice');
+      expect(voice.engineLocale, 'it-IT');
+    });
+
+    test('the engine settles it where the name says nothing', () {
+      // Google writes '-local' and '-network' into its ids; iOS calls its
+      // voices Alice and Federica, and only the field tells them apart.
+      final voice = pickVoiceForLanguage(const [
+        {'name': 'Alice', 'locale': 'it-IT', 'network_required': '1'},
+        {'name': 'Federica', 'locale': 'it-IT', 'network_required': '0'},
+      ], 'it-IT');
+      expect(voice!.name, 'Federica');
+    });
+
+    test('an English voice that is not installed is not offered', () {
+      final voices = englishVoiceOptions(const [
+        {
+          'name': 'en-gb-x-gba-local',
+          'locale': 'en-GB',
+          'features': 'notInstalled',
+        },
+        {'name': 'en-us-x-sfg-local', 'locale': 'en-US'},
+      ]);
+      expect(voices.map((voice) => voice.name), ['en-us-x-sfg-local']);
+      expect(
+        pickEnglishVoice(const [
+          {
+            'name': 'en-gb-x-gba-local',
+            'locale': 'en-GB',
+            'features': 'notInstalled',
+          },
+        ]),
+        isNull,
+      );
+    });
+
     test('both segments play when a voice exists', () async {
       final engine = SilentSpeechEngine(voices: dutchVoices);
       final speech = SpeechController(engine: engine);

@@ -229,3 +229,36 @@ const kGreekScript = <String, String>{
   'ana-': 'ανα',
   'chōrein': 'χωρείν',
 };
+
+/// An etymological form as a voice should be handed it, hyphen and all.
+///
+/// The page writes a root as a root — *ex-*, *-osus*, *inter-* — because
+/// that is what tells a reader which end the word attaches to. A voice
+/// handed the hyphen either pauses on it or says the word for it, so
+/// *effloresce* was read out "ex trattino, out" by the Italian voice the
+/// Latin had just been given.
+///
+/// The Greek table above has never had this fault, because its entries were
+/// written out by hand as the voice should say them and every hyphen was
+/// dropped on the way in — *amphi-* is *αμφι*. Everything else is the form
+/// as written, so it needs the same thing doing to it here: **eighty of the
+/// three hundred and fifty-one forms that reach a foreign voice carry a
+/// hyphen**, which is most of the prefixes and every suffix in the lexicon.
+///
+/// Only the ends are trimmed. *demi-monde* is a French word with a hyphen
+/// in the middle of it and is spoken whole.
+String spokenEtymonForm(String form) {
+  final trimmed = form.trim();
+  var start = 0;
+  var end = trimmed.length;
+  while (start < end && trimmed.codeUnitAt(start) == 0x2D) {
+    start++;
+  }
+  while (end > start && trimmed.codeUnitAt(end - 1) == 0x2D) {
+    end--;
+  }
+  final inner = trimmed.substring(start, end);
+  // A form that is nothing but hyphens is not a word; leave it as it was
+  // and let the caller's own emptiness checks deal with it.
+  return inner.isEmpty ? trimmed : inner;
+}
