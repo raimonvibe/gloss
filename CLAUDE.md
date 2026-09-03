@@ -460,18 +460,40 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Eleven are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`,
-`ru` — and 49 are not.** **6,434 of the 8,040 glosses still carry the English headword.**
-All eleven have had their `friendly` and `definition` fields done too, so a diff of one of
-them is no longer `exampleGloss` lines alone — see *`exampleGloss` was never the only field
-this can happen in* below.
+**Thirteen are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`,
+`pl`, `ru`, `uk`, `cs` — and 47 are not.** **6,169 of the 8,040 glosses still carry the
+English headword.** All thirteen have had their `friendly` and `definition` fields done
+too, so a diff of one of them is no longer `exampleGloss` lines alone — see *`exampleGloss`
+was never the only field this can happen in* below.
 
-**Of the 49 left, only 12 can be written by this tool.** 37 have a `tool/_data_<locale>.py`
+**Of the 47 left, only 10 can be written by this tool.** 37 have a `tool/_data_<locale>.py`
 and `localize_gloss.py` refuses them, because the next `emit_from_data.py` would throw the
-edit away; those need the generator edited instead. The 12 are `bg`, `cs`, `el`, `hr`,
-`hu`, `mk`, `nb`, `ro`, `sk`, `sl`, `sr`, `uk` — none of them a pair, so the cheap ones are
-spent. The three Chinese locales are still worth diffing before treating them as three
-jobs.
+edit away; those need the generator edited instead. The 10 are `bg`, `el`, `hr`, `hu`,
+`mk`, `nb`, `ro`, `sk`, `sl`, `sr` — none of them a pair, so the cheap ones are spent. The
+three Chinese locales are still worth diffing before treating them as three jobs.
+
+**Four Slavic locales in a row needed exactly one exemption and the same one**, which is
+now a prediction rather than a surprise. Polish and Czech decline what they borrow
+(*panegirykiem*, *teodyceę*, *panegyrik*, *teodiceu*, *sybarita*, *solecismus*); Russian and
+Ukrainian are in another script, so a borrowing arrives transliterated and cannot be
+identical to the English form even where it is the same word. *mathesis* survives both
+tests because every locale keeps it in Latin letters. **Expect one exemption from `bg`,
+`mk`, `sr`, `el`, and from `hr`, `sk`, `sl` for the other reason.**
+
+**Three locales sorted use from mention identically without being asked**, and by the
+third it stopped being a coincidence: `ru`, `uk` and `cs` each kept exactly two —
+*fricaseed* defined as the misspelling of "fricasseed", *ingenuous* as the word told apart
+from "ingenious" — and each had written both **without quotation marks**, which is why the
+sweep could not tell them from a use. Quoting is the whole fix and it also hands the word
+back to the English voice. All three had already translated *fain* and *fructify*, which
+no Romance or Germanic locale had. **A Slavic locale's worklist is eight, not ten.**
+
+**A doubled root is not a doubled word, and only a reader catches it.** The Ukrainian
+`mordant` line read *влучно влучило* and the Czech one *tak trefně trefila* — the same
+root twice running, in the same row, in two locales that were translated separately.
+`text_quality_test.dart` catches a word typed twice and cannot catch this; both were
+repaired by eye while rewriting the row. Worth a look in the remaining locales' `mordant`,
+since whatever produced it produced it twice.
 
 **A locale in another script needs no exemption list, and that is a fact about the
 alphabet rather than about the language.** Russian took one — *mathesis*, kept in Latin
