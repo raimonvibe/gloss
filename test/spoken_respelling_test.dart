@@ -196,6 +196,100 @@ void main() {
     }
   });
 
+  // What an engine without <phoneme> actually hears.
+  //
+  // Only Google's Android engine is handed SSML at all; iOS, desktop and every
+  // other Android engine get ssmlToPlainText, which keeps a phoneme tag's
+  // inner text. That inner text used to be the respelling, so those engines
+  // said `gair uh lus` - three tokens with pauses between them - and
+  // *Garrulous* was read out a syllable at a time. Reported from a device on
+  // 2026-09-03.
+  //
+  // The respelling has two other readers and both still get it: the page draws
+  // it, and a screen reader is handed spokenRespelling through semanticsLabel.
+  // What no voice should be handed is a guide written for the eye.
+  test('an engine without phoneme support hears the word, not the syllables',
+      () {
+    final offenders = <String>[];
+    for (final word in words) {
+      final entry = WordEntry.fromJson(word);
+      final heard = ssmlToPlainText(entry.spokenWord).trim();
+      if (heard != '${entry.word}.') {
+        offenders.add('${entry.word}: "$heard"');
+      }
+    }
+    expect(
+      offenders,
+      isEmpty,
+      reason: 'the plain-text fallback says something other than the word',
+    );
+
+    // The one that was reported, spelled out.
+    final garrulous =
+        WordEntry.fromJson(words.firstWhere((w) => w['id'] == 'garrulous'));
+    expect(garrulous.pronunciation, 'GAIR-uh-lus', reason: 'the page');
+    expect(garrulous.spokenPronunciation, 'gair uh lus', reason: 'the reader');
+    expect(ssmlToPlainText(garrulous.spokenWord).trim(), 'Garrulous.');
+    // ...and the IPA is still what a phoneme-honouring engine is given, so
+    // nothing was traded away to get there.
+    expect(garrulous.spokenWord, contains(garrulous.ipa));
+  });
+
+  // The general form of the check above, over every English utterance the app
+  // can produce rather than over spokenWord alone.
+  //
+  // The first fix for *Garrulous* changed the two places that build a phoneme
+  // tag, and the first test swept only spokenWord. That left the inflected
+  // forms and the composed readings unproven, and it left one real hole: the
+  // no-IPA branch of voiced() emitted a <sub> whose alias was the respelling,
+  // and ssmlToPlainText resolves a <sub> to its alias. This sweeps the lot.
+  //
+  // Only respellings that would read as a list are looked for, which needs two
+  // exclusions rather than one. A one-syllable respelling is often the word
+  // itself - `dint` is spelled `DINT` - so finding it proves nothing. And a
+  // two-word headword has a space that is a word space, not a syllable gap:
+  // *Lee side* is respelled `LEE-side`, whose spoken form is exactly the word,
+  // and the first draft of this test duly reported it. Neither is evidence of
+  // anything, so a respelling counts only when it differs from the form it
+  // stands for.
+  test('no English utterance ever hands a voice a respelling', () {
+    final offenders = <String>[];
+    for (final word in words) {
+      final entry = WordEntry.fromJson(word);
+      final spaced = <String>{
+        for (final form in entry.spokenForms.entries)
+          if (form.value.respelling.contains(' ') &&
+              form.value.respelling.toLowerCase() != form.key.toLowerCase())
+            form.value.respelling,
+      };
+      if (spaced.isEmpty) continue;
+
+      final utterances = <String, String>{
+        'spokenWord': entry.spokenWord,
+        'spokenEntry': entry.spokenEntry,
+        'spokenGlance': entry.spokenGlance,
+        'spokenPrompt': entry.spokenPrompt,
+        'spokenQuiz(asked)': entry.spokenQuiz(revealed: false),
+        'spokenQuiz(answered)': entry.spokenQuiz(revealed: true),
+        'voiced(example)': entry.voiced(entry.example),
+      };
+      utterances.forEach((where, utterance) {
+        final heard = ssmlToPlainText(utterance);
+        for (final respelling in spaced) {
+          if (heard.contains(respelling)) {
+            offenders.add('${entry.word} $where: "$respelling"');
+          }
+        }
+      });
+    }
+    expect(
+      offenders,
+      isEmpty,
+      reason: 'an engine with no SSML would read these out a syllable at a '
+          'time — the tag must carry the word, not the respelling',
+    );
+  });
+
   test('the page keeps the capitals; only the voice loses them', () {
     final entry = WordEntry.fromJson(
       words.firstWhere((word) => word['word'] == 'Hebetude'),
@@ -218,7 +312,7 @@ void main() {
       case RespellingVoicing.probe:
         // The word is shown and the respelling is spoken, so both are in the
         // utterance and the respelling is inside the alias.
-        expect(entry.spokenWord, contains(ssmlPhoneme('ˈhɛbɪtuːd', 'heb ihh tood')));
+        expect(entry.spokenWord, contains(ssmlPhoneme('ˈhɛbɪtuːd', 'Hebetude')));
       case RespellingVoicing.spaced:
       case RespellingVoicing.commas:
       case RespellingVoicing.sentences:

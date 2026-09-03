@@ -33,24 +33,41 @@ Future<void> _pumpLine(
   required double width,
   double fontSize = 40,
   double minScale = 0.62,
+  double textScale = 1.0,
 }) {
   return tester.pumpWidget(
-    Directionality(
-      textDirection: TextDirection.ltr,
-      child: Center(
-        child: SizedBox(
-          width: width,
-          child: Align(
-            alignment: Alignment.centerLeft,
-            child: FitToWidth(
-              minScale: minScale,
-              child: Text(text, style: TextStyle(fontSize: fontSize)),
+    MediaQuery(
+      data: MediaQueryData(textScaler: TextScaler.linear(textScale)),
+      child: Directionality(
+        textDirection: TextDirection.ltr,
+        child: Center(
+          child: SizedBox(
+            width: width,
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: FitToWidth(
+                minScale: minScale,
+                child: Text(text, style: TextStyle(fontSize: fontSize)),
+              ),
             ),
           ),
         ),
       ),
     ),
   );
+}
+
+/// What one line of [text] asks for, in the font the test is running in.
+/// Measured rather than assumed: a test font makes every glyph a full em
+/// square, so any width written down here would be a fact about this
+/// machine's fallback face and not about the shipped one.
+Future<double> _naturalWidth(
+  WidgetTester tester,
+  String text, {
+  double textScale = 1.0,
+}) async {
+  await _pumpLine(tester, text, width: 100000, textScale: textScale);
+  return tester.getSize(find.text(text)).width;
 }
 
 /// What the line was scaled by: the box it ended up in, against the size the
@@ -121,6 +138,44 @@ void main() {
 
     expect(tester.getRect(find.text('Proleptical')).width,
         lessThanOrEqualTo(300.5));
+  });
+
+  // The bug this reopened: at the 2.0 maximum the floor was 0.62 of *44pt*,
+  // so the longest headword broke with a lone "n" under it in the lexicon —
+  // the one thing this widget exists to prevent. The floor is a fraction of
+  // the design size now, so the reader's setting cannot raise it.
+  testWidgets("the floor is the design size, not the reader's setting",
+      (tester) async {
+    const word = 'Circumincession';
+    final natural = await _naturalWidth(tester, word);
+    // Room for nine tenths of the line, so a reader at the ordinary setting
+    // gets it shrunk a little; at 2.0 the same box is 0.45 of what the line
+    // asks for, which the old floor of 0.62 refused and this one allows.
+    final width = natural * 0.9;
+
+    await _pumpLine(tester, word, width: width, textScale: 1.0);
+    final oneLine = tester.getSize(find.text(word)).height;
+    expect(_scaleOf(tester, word), closeTo(0.9, 0.01));
+
+    await _pumpLine(tester, word, width: width, textScale: 2.0);
+    expect(_scaleOf(tester, word), closeTo(0.45, 0.01));
+    // Still one line, and still drawn larger than the same word is at the
+    // ordinary setting: 0.45 of 2.0 is 0.9, which is what a reader who has
+    // turned their text up is owed.
+    expect(tester.getSize(find.text(word)).height, closeTo(oneLine * 2, 1));
+    expect(tester.getRect(find.text(word)).width, lessThanOrEqualTo(width + 0.5));
+  });
+
+  testWidgets('past the design floor it still gives up and wraps',
+      (tester) async {
+    const word = 'Circumincession';
+    final natural = await _naturalWidth(tester, word);
+    // A fifth of the line at the ordinary setting is a tenth of it at 2.0,
+    // under the 0.31 the design floor comes to there.
+    await _pumpLine(tester, word, width: natural * 0.2, textScale: 2.0);
+
+    expect(_scaleOf(tester, word), closeTo(0.62 / 2.0, 0.001));
+    expect(tester.getSize(find.text(word)).height, greaterThan(40 * 2 * 2));
   });
 
   testWidgets('the headword shrinks rather than breaking against the frame',

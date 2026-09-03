@@ -168,6 +168,62 @@ void main() {
       );
     });
   });
+
+  // ---- the English an explanation names, as English ---------------------
+  //
+  // The same line runs through the other fields, and it was drawn there by
+  // sixty translators without being written down either. An explanation can
+  // *use* the English headword, which is the bug a reader reported on
+  // 2026-09-03 — "aan een ineluctable uitkomst wring je je niet los", with
+  // the one word the sentence exists to explain left unreadable. Or it can
+  // *mention* it, naming an English word as English, and then the English is
+  // the content:
+  //
+  //   dint         survives in the phrase "by dint of" and almost nowhere
+  //                else, which is what its definition and its plain-words
+  //                line both say
+  //   ingenuous    is the word its explanation tells apart from "ingenious"
+  //   fricaseed    is the misspelling its definition corrects to
+  //                "fricasseed"
+  //
+  // A pass that renders the headword into the reader's language — the one
+  // `tool/localize_gloss.py` runs, now over `friendly` and `definition` too —
+  // would carry these off by accident, and the sentence would then say
+  // nothing at all. `python tool/english_in_translation.py` tells the two
+  // apart across all six translated fields and prints what is left.
+  group('an English word a translation names must stay English', () {
+    const mentions = <String, String>{
+      'dint.definition': 'dint',
+      'dint.friendly': 'dint',
+      'ingenuous.friendly': 'ingenious',
+      'fricaseed.definition': 'fricasseed',
+    };
+
+    // Serbian transliterated it into Cyrillic — "ингениоус" — which gives a
+    // reader the sound and takes away the spelling, and the spelling is the
+    // whole point of a word you are being told to tell apart.
+    const alreadyGone = <String>{'sr/ingenuous.friendly'};
+
+    test('all sixty keep it, and the exceptions are the known ones', () {
+      final lost = <String>[];
+      overlays.forEach((locale, words) {
+        mentions.forEach((where, english) {
+          final parts = where.split('.');
+          final text = words[parts[0]]?[parts[1]] as String?;
+          if (text == null) return;
+          if (!text.toLowerCase().contains(english.toLowerCase())) {
+            lost.add('$locale/$where');
+          }
+        });
+      });
+      expect(
+        lost.toSet(),
+        alreadyGone,
+        reason: 'an English word the explanation exists to name was '
+            'translated away — see tool/english_in_translation.py',
+      );
+    });
+  });
 }
 
 /// Reduplication that is correct in the language, gone through one by one.

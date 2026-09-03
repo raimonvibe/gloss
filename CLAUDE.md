@@ -113,6 +113,7 @@ example sentence* below, which is the one place this rule moved.
 | POS + origin maps | `tool/_pos_origin.py` (one entry per locale) |
 | English word index | `tool/_en_words_src.json` |
 | Emit JSON from `_data_*.py` | `python tool/emit_from_data.py <locale>` |
+| English left in translated copy | `python tool/english_in_translation.py` |
 | Bulk translate (API) | `python tool/translate_l10n.py` |
 
 The **ARBs are the source of truth** for UI strings. `ui_i18n.json` is a human working
@@ -264,6 +265,24 @@ Dutch and in Arabic, and checks that a reader who turns the switch **off** stays
 `readTranslationAloudChosen` is what the study shows, `readTranslationAloud` is the
 question the reading asks, and only the second one has a default.
 
+**"Does that switch still do anything?"** — asked of the shipped app on 2026-09-03, and
+worth answering by measurement rather than by reading the code. It does, and it is wired
+at exactly one point: `readerLanguageTag` in `reading.dart`, which every reading passes
+through. The file above only ever proved that for `readingOf`, the reading a word's own
+page gives, and **proving one of the four proves nothing about the other three** — a
+screen only has to reach past `reading.dart` to lose the switch, which is what the quiz
+results once did. It now walks all four (`readingOf`, `glanceOf`, `quizReadingOf`,
+`spokenLine`) in both positions: on, each must carry a Dutch piece; off, every piece must
+be English. Between them those four build the six listen buttons and the study's own
+voice preview. Checked both ways round — with the switch ignored, all four *off* cases
+fail.
+
+Two things that look like the switch failing and are not. The switch **hides itself**
+when the device reports no voice for the language, so a visible switch means a voice was
+found; and a grouped segment still falls back to English as a whole when the engine
+cannot manage the language at speaking time, so a reader can have it on and hear English
+anyway. Neither is the preference being ignored.
+
 **A respelling has two readers, and `spokenRespelling` only reaches one.** It fixes what
 `SpeakButton` says. It cannot reach the *screen reader*: the respelling is also drawn on
 the page — the word of the day, every lexicon card, the card at the top of a word's page —
@@ -336,9 +355,47 @@ because it really is /ˈpɑːrsɪmoʊni/. The IPA follows the respelling automat
 `emit_ipa.py` reads the doubled r — and the fallback table maps `par`→`parr` and
 `parr`→`parre`, which are the spellings a speech engine reads as those two sounds.
 
-**The respelling rides inside the tag as its text**, so an engine that ignores `<phoneme>`
-says exactly what the app said before, and `ssmlToPlainText` gives it the same thing when
-it is not handed SSML at all. That is what the 27 substitutions in `respelling.dart` are
+**The word rides inside the tag, not the respelling — and it took a device to see why.**
+The reasoning used to be that an engine ignoring `<phoneme>` should hear the respelling,
+since that is the pronunciation the tag existed to deliver. It is the opposite. A
+respelling is spaced syllables, so those engines said `gair uh lus` — three tokens with a
+pause between each — and *Garrulous* was read out a syllable at a time. Reported from a
+device on 2026-09-03, and it was every one of the 134 on every engine that is not
+Google's, which is most of them: `_useEnglishSsml` is set from the engine name, so iOS,
+desktop and Samsung's TTS all get `ssmlToPlainText`.
+
+So `said()` now writes `<phoneme ph="ˈɡɛərələs">Garrulous</phoneme>`. An engine that
+honours the tag never reads the inner text at all — it says the IPA, unchanged and exact —
+so what is written there is only ever heard by an engine that does not, and for that
+engine **one guessed word beats a correctly-spelled-out guide**. The respelling keeps its
+two proper readers: the page draws it, and a screen reader is handed `spokenRespelling`
+through `semanticsLabel`. What no voice should be handed is a guide written for the eye.
+`test/spoken_respelling_test.dart` now sweeps all 134 and requires
+`ssmlToPlainText(spokenWord)` to be the word and nothing else.
+
+**That first sweep was not general enough, and saying so is the point.** It covered
+`spokenWord` and left the inflected forms and the composed readings unproven — and it left
+a real hole: the no-IPA branch of `voiced()` emitted `<sub alias="e dul kuh ray tidd">`,
+and `ssmlToPlainText` resolves a `<sub>` to its **alias**, so that branch handed the voice
+the syllables by another door, on *every* engine rather than only the ones without SSML.
+Unreachable today, because all 25 forms carry an IPA; it is a bare word now, so adding a
+form without one costs a plain word instead of a silent regression. The sweep is over every
+English utterance the app can build — `spokenWord`, `spokenEntry`, `spokenGlance`,
+`spokenPrompt`, both halves of `spokenQuiz`, and `voiced()` over the example — and it was
+**checked both ways round**: reverted to the old behaviour it fails, which is the only
+evidence that it is a test rather than a decoration.
+
+Two exclusions in it are load-bearing, and the second cost a run. A one-syllable respelling
+is often the word (`dint` is spelled `DINT`), and **a two-word headword has a space that is
+a word space rather than a syllable gap** — *Lee side* is respelled `LEE-side`, whose spoken
+form is exactly the word, and the first draft duly reported it. A respelling counts only
+when it differs from the form it stands for.
+
+**`kRespellingVoicing` was a red herring and is no longer one.** It read `probe` — the one
+value its own documentation calls "not for shipping" — while nothing had read the constant
+since `said()` stopped branching on it. It looks exactly like the cause of any
+pronunciation bug and is not. It is set to `sub`, which is what actually ships, and the
+enum is kept only for the record of what each shape sounded like. That is what the 27 substitutions in `respelling.dart` are
 for now — a fallback, not the main road. Nineteen of them are invented spellings measured
 against Windows SAPI, and the phone disagreed with SAPI on `eeh`, which is why `ee` is no
 longer substituted and why the device's verdict overrules the desktop probe's wherever the
@@ -403,10 +460,37 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Dutch, German and French are done; the other 57 are not.** 133 of the 134 Dutch
-sentences changed, 134 of the German and 130 of the French, and each diff is
-`exampleGloss` lines and nothing else. **7514 of the 8,040 glosses still carry the English
-headword.**
+**Six are done — `nl`, `de`, `fr`, `es`, `es_419`, `it` — and 54 are not.** **7116 of the
+8,040 glosses still carry the English headword.** The same six have since had their
+`friendly` and `definition` fields done too, so a diff of one of them is no longer
+`exampleGloss` lines alone — see *`exampleGloss` was never the only field this can happen
+in* below.
+
+**How many exemptions a locale needs is not what you would guess.** For the sentences,
+French needed five and Italian two, although Italian is where several of these words came
+*from*. The reason
+is morphology rather than borrowing: Italian inflects almost every loan into a shape of
+its own — *sibarita*, *siniscalco*, *canaglia*, *peculato*, *contumelie*, *sagacia*,
+*rodomontata*, *parossismo*, *interstizio* — so the check sees a translated word, which it
+is. Only a loan that is identical letter for letter needs a decision, and there are few of
+those in any language. **`english_ok` should stay a short list in every locale**; if it is
+growing past a handful, the sentences are reaching for the borrowing where the language
+has a plainer word.
+
+**A locale pair can be nearly free.** `es` and `es_419` shipped with **129 of their 134
+glosses identical**, differing only where the region does: *estudiantes* for *alumnos*,
+*acera* for *bordillo*, *auto* for *coche*, and an *ustedeo* imperative where Spain uses
+*vosotros*. So Latin American Spanish was derived from the peninsular file with those
+five carried across, rather than translated again. Look for the same in `pt`/`pt_BR`,
+`fr`/`fr_CA` and the three Chinese locales before treating any of them as a fresh job.
+
+**Comparing the pair also found damage that was already in the store.** The `es_419`
+gloss for *ontic* read "los númerlo" where it should read "los números" — a word broken
+in generation, not a regional form, and invisible to every check the suite has, because
+a mangled word is still a word. `text_quality_test.dart` catches a stray escape or an
+unclosed quotation; it cannot catch this. **Diffing two locales that ought to agree is a
+proofreading tool nobody had used**, and it is worth running over the other near-identical
+pairs.
 
 **How much a language has already borrowed decides how much work it is**, and that is
 not something to discover halfway through. *mathesis* and *imbroglio* are unchanged in
@@ -433,15 +517,120 @@ expecting one of these per script family, and worth noticing that **the check fa
 the tool working**: nothing was written, and the fault was in the rule rather than in the
 text.
 
-**Two traps for whoever does the next locale.** `emit_from_data.py` is the source of truth
-for the **37** locales that have a `tool/_data_<locale>.py`, so an edit to their overlay
-JSON is thrown away by the next emit — `localize_gloss.py` refuses to touch those and says
-so. The other **23** (nl, de, fr, es, it, pt, ru, pl, uk and the rest of Europe) have no
-such file and the overlay is the artefact. And a word whose local form equals the English
-one still reaches `segmentTranslation`, so it is handed to the English voice inside a
-sentence that is otherwise local — true today for *mathesis* and *imbroglio* in Dutch, a
-small wart rather than a bug, and the reason `english_ok` is a list you have to write
-rather than a rule.
+**Three traps for whoever does the next locale, and the second was found the hard way.**
+`emit_from_data.py` is the source of truth for the **37** locales that have a
+`tool/_data_<locale>.py`, so an edit to their overlay JSON is thrown away by the next emit
+— `localize_gloss.py` refuses to touch those and says so.
+
+**The other 23 were described here as having no generator, and ten of them do.**
+`write_words_western.py` builds nl, de, fr, es, it, pl, pt and the three regional variants
+from `tool/_words_<locale>.py`, and those files were stale by the whole of the
+example-sentence work — **130 to 134 rows each in nl, de, fr, es and it** — so one run of
+that script would have silently undone all six locales. Nothing warned, because nothing
+knew. `localize_gloss.py` rewrites `_words_<locale>.py` alongside the overlay now, and it
+was run over the five to bring them back into step; the overlays did not move, only the
+generators. It rewrites only a file it can first reproduce byte for byte from its own
+contents, which is what keeps it away from `_words_es_419`, `_words_fr_CA` and
+`_words_pt_BR` — those derive their rows from a base locale by substitution rather than
+listing them. Two of those three are still worth a look before anyone runs the script:
+re-deriving would leave **es_419** differing from its shipped overlay in 11 rows (it was
+133 before the resync) and **fr_CA** in 122, because `fr` has had its glosses localised
+and `fr_CA` has not. `pt_BR` matches exactly.
+
+And a word whose local form equals the English one still reaches `segmentTranslation`, so
+it is handed to the English voice inside a sentence that is otherwise local — true today
+for *mathesis* and *imbroglio* in Dutch, a small wart rather than a bug, and the reason
+`english_ok` is a list you have to write rather than a rule.
+
+**`exampleGloss` was never the only field this can happen in, and looking only there is
+what hid it.** A reader on 2026-09-03 met the same fault under *in gewone woorden*: the
+Dutch for *Ineluctable* read "aan een **ineluctable** uitkomst wring je je niet los". An
+overlay has **six** translated fields and any of them can carry an English word.
+`tool/english_in_translation.py` sweeps all six in all sixty, where `gloss_english.py`
+asked about one:
+
+| field | carrying English | |
+|---|---|---|
+| `exampleGloss` | 7103 / 8040 | 88% — the large job, see above |
+| `friendly` | 645 / 8040 | 8% — **13 words, the same 13 in every locale** |
+| `definition` | 131 / 8040 | 2% — 7 words |
+| `rootMeanings` | 4 / 16080 | 0% |
+| `partOfSpeech` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
+| `origin` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
+
+That is the measurement the work started from. Six locales on, it reads 7103, **590**,
+**128** and **3** — the six that had their sentences done have had their explanations done
+too, and `exampleGloss` has not moved because theirs was already clear.
+
+**The two generated fields are clean and will stay clean**, which is the useful half of
+that table: a label written from a table cannot drift the way a sentence can, so the
+hand-written fields are the whole of the exposure.
+
+**A mention is not a use, and the difference is mechanical.** The line the sixty drew
+unprompted in the example sentences runs through every field, and here it can be measured
+rather than judged: English inside quotation marks is a **mention** — the word named *as*
+English — and bare English is a **use**. *Dint* is defined as the force in "by dint of"
+(quoted in 60 of 60), *Fricaseed* as the misspelling of "fricasseed", *Ingenuous* as the
+word told apart from "ingenious". Those must stay; translating them empties the sentence
+out. Sorted that way the 645 come apart cleanly: **nine words are a use in all sixty** —
+*trenchant*, *minatory*, *euphonious*, *fiducial*, *ineluctable*, *mordant*, *nugatory*,
+*redound*, *fructify* — and the rest is a mention that a few locales wrote without its
+quotation marks.
+
+**The fault is inherited, not invented, which is why it is the same nine everywhere.** The
+*English* `friendly` uses the headword in its own explanation — "a trenchant comment gets
+to the heart of the matter" — and sixty translators carried it across faithfully. No
+locale can be blamed for it, and the tool prints the English line beside the local one for
+that reason.
+
+**The same six are done — `nl`, `de`, `fr`, `es`, `es_419`, `it` — and 54 are not.** Ten
+`friendly` fields each, written out in `tool/gloss_local_<locale>.json` and put through the
+same checks as the sentences — `localize_gloss.py` carries three fields now (`glosses` →
+`exampleGloss`, `friendly`, `definitions` → `definition`) rather than one. It is the same
+ten words in all six, because the fault is inherited rather than invented, so a locale's
+worklist is `python tool/english_in_translation.py --locale <id>` and the answer is
+already known before you read it.
+
+**Each of the six kept one word in English on purpose, and it is the same word.** *fain*
+is the archaic term the line exists to name, so it is quoted rather than translated —
+"wie iets „fain" doet", "wer etwas „fain“ tut", "qui fait une chose « fain »", "chi fa
+una cosa «fain»", "quien hace algo «fain»". Quoting also puts the word back in the
+English voice's hands, since `segmentTranslation` cuts on `quotedEnglish`.
+
+**`english_ok` grew by one word in three of them, and each is a real dictionary entry
+rather than a shortcut.** German's *Ersatz* is Duden's own noun and the one English
+borrowed, and it stands in the definition of *ersatz* where no other German word will do;
+Italian took *demi-monde* from the same French English took it from and has no plainer
+term; French *mordant* is the participle of *mordre* and *interstice* is ordinary French,
+and both turn up in a definition or a root meaning rather than in a sentence. Everywhere
+else the plainer local word was reached for first, which is the rule this file already
+states: *nugatory* → *sans effet*, *trenchant* → *incisif*, *fiducial* → *fiduciaire* /
+*fiduciaria*, *ineluctable* → *ineludible*.
+
+**The pass repaired one piece of shipped damage, which is the second time diffing has
+found some.** The French definition of *minatory* read "Mençant" for "Menaçant" — a word
+broken in generation, not a variant, and invisible to every check in the suite for the
+same reason *los númerlo* was: a mangled word is still a word. It is in
+`tool/gloss_local_fr.json` under `definitions` now, so the repair is recorded where the
+next generation will read it.
+
+**`localize_gloss.py` had the English field named wrong for definitions.** `CARRIES` said
+`definition` where `tool/_en_words_src.json` calls it `def`, so the guard that requires a
+specimen quotation to survive translation read an empty string and could never fire on a
+definition. Nothing was wrong today — none of the seven specimens is in an English
+definition, which is why it went unnoticed — but the check was a decoration until the name
+was fixed.
+
+**Only `friendly` and `definition` may carry a mention; an example sentence may not.**
+That is a rule in `localize_gloss.py` rather than a matter of taste: an explanation
+sometimes has to name an English word, and a sentence never does — there the local word
+does the work, quoted or not.
+
+`test/text_quality_test.dart` pins the three mentions in all sixty, the way it already
+pins the seven specimen quotations, because the obvious next pass would carry them off by
+accident. One exception is named in it: **Serbian transliterated *ingenious* into Cyrillic**
+(*ингениоус*), which gives a reader the sound and takes away the spelling — and the
+spelling is the whole point of a word you are being told to tell apart.
 
 **`quotedEnglish` must name every form, not just the headword.** Translated copy keeps the
 English word in whatever shape its own sentence needs — the Dutch for *edulcorate* reads
@@ -686,6 +875,30 @@ there:
   wrap rather than shove.
 - **The empty lexicon/saved state** could not fit its two centred lines, so it scrolls
   when it must and stays centred when it can.
+
+**A shrink-to-fit floor written as a fraction of the type grows with the reader.**
+`FitToWidth` gives a headword the room it asks for and scales it down to the width it
+was handed, no further than `minScale`; past that it stops and lets the line wrap,
+because type that small is worse to read than a second line. The floor was 0.62 of the
+type **as the reader had grown it**, so at the 2.0 maximum it came to 0.62 × 44pt = 27pt
+— half again the size the headword is drawn at by default, and far too high to hold the
+longest words on one line. *Circumincession* duly broke in the lexicon with a lone "n"
+under it, which is the exact shape of the bug the widget was written to prevent, back
+again at the far end of the slider. Reported from a device on 2026-09-03.
+
+The floor is `minScale / textScaler` now, which pins it to the **design** size: whatever
+the setting, a line may shrink to 0.62 of the 22pt it was written at and no further. At a
+scaler of 1 nothing moves at all. Measured from the screenshot, *Circumincession* needs
+about 0.58 of its 44pt at the maximum — under the old floor, over the new one — so it
+lands around 25pt, still larger than the same word at the ordinary setting. The floor has
+not been removed: below it the line still wraps, which is what the second of the two new
+cases pins, and both were **checked both ways round** — reverted to the old behaviour they
+report 0.62 where they want 0.45 and 0.31.
+
+`FitToWidth` is a `StatelessWidget` around the render object now, because the floor has to
+be read from `MediaQuery` and a render object has no context. The reach is every hero the
+app sets this way: the lexicon card, the word page's own headword, the app's name on Home,
+the word of the day, and a quiz score.
 
 **The gold was too pale to be read, and it is text as often as it is ornament** — *tap
 to read more*, the progress percentage, the origin chip, every `ScriptCaption` heading.
@@ -1088,10 +1301,12 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-02 | `a774b84` | Windows | 3.41.7 | clean | **224/224** | empty |
 | 2026-09-02 | `54ecdce` | Windows | 3.41.7 | clean | **321/321** | empty |
 | 2026-09-03 | `a71fff9` | Windows | 3.41.7 | clean | **334/334** | empty |
+| 2026-09-03 | `5e27617` | Windows | 3.41.7 | clean | **336/336** | empty |
+| 2026-09-03 | `80d816d` | Windows | 3.41.7 | clean | **347/347** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
-334 across those commits; the number is a fact about the commit, not a constant to hold.
-The 334 is the two halves added together — 307 and 27.
+334 to 336 to 347 across those commits; the number is a fact about the commit, not a
+constant to hold. The 347 is the two halves added together — 320 and 27.
 
 **`english_narration_test.dart` is flaky under full-suite concurrency**, and has been since
 before `1333cf1` — the file sweeps sixty locales and one of its cases trips the 30s per-test
@@ -1108,7 +1323,15 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `54ecdce` (`1.0.0+17`), writing a
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+18`, writing a **47.9 MB**
+bundle — `versionCode 18`, signed `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`,
+`INTERNET` and the `SENDTO` query both in the merged manifest. Six locales now read their
+example sentences wholly in their own language, and every word is handed to the voice as a
+word rather than as its syllables. The same 47.9 MB as `1.0.0+17`: six locales of rewritten
+sentences replace six locales of sentences, so a bundle cannot tell the difference. **Not
+uploaded** — the version code moves when it is.
+
+Before that, `flutter build appbundle --release` exited 0 on Windows at `54ecdce` (`1.0.0+17`), writing a
 47.9 MB bundle — `versionCode 17`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the
 `SENDTO` query both in the merged manifest, 134 words each carrying their `ipa`, all 60
 overlays and the Tangerine face inside the bundle. Built twice at this version, at

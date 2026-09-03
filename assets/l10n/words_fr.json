@@ -36,7 +36,7 @@
     "trenchant": {
       "partOfSpeech": "adjectif",
       "definition": "Tranchant, incisif, allant droit au but.",
-      "friendly": "Coupe net dans le superflu — un propos ou un esprit trenchant va au cœur de l’affaire, sans un mot de trop.",
+      "friendly": "Coupe net dans le superflu — un propos ou un esprit incisif va au cœur de l’affaire, sans un mot de trop.",
       "exampleGloss": "Sa critique tranchante ne laissait aucun trou du scénario où se cacher.",
       "origin": "ancien français",
       "rootMeanings": [
@@ -80,7 +80,7 @@
     "fructify": {
       "partOfSpeech": "verbe",
       "definition": "Porter du fruit, ou devenir productif.",
-      "friendly": "Enfin porter ses fruits — un effort, une idée ou un placement qui fructifies est passé de la graine à quelque chose d’utile.",
+      "friendly": "Enfin porter ses fruits — un effort, une idée ou un placement qui fructifie est passé de la graine à quelque chose d’utile.",
       "exampleGloss": "Des années de recherche discrète fructifièrent enfin en un vaccin qui fonctionne.",
       "origin": "latin",
       "rootMeanings": [
@@ -124,7 +124,7 @@
     "fiducial": {
       "partOfSpeech": "adjectif",
       "definition": "Fondé sur la confiance ou la foi ; aussi : un point de référence fixe.",
-      "friendly": "Quelque chose que l’on prend sur parole, puis dont on se sert d’ancre — une marque fiducial est le point fixe à partir duquel on mesure tout le reste.",
+      "friendly": "Quelque chose que l’on prend sur parole, puis dont on se sert d’ancre — une marque fiduciaire est le point fixe à partir duquel on mesure tout le reste.",
       "exampleGloss": "Les géomètres placèrent un repère fixe dans le roc avant de cartographier le site.",
       "origin": "latin",
       "rootMeanings": [
@@ -157,7 +157,7 @@
     "redound": {
       "partOfSpeech": "verbe",
       "definition": "Avoir une conséquence qui profite à quelqu’un ou se répercute sur lui.",
-      "friendly": "Quand le mérite (ou le blâme) rebondit vers le responsable — les bonnes actions qui redound à votre nom vous reviennent en récompense.",
+      "friendly": "Quand le mérite (ou le blâme) rebondit vers le responsable — les bonnes actions qui rejaillissent sur votre nom vous reviennent en récompense.",
       "exampleGloss": "Le succès de l’équipe rejaillira à l’honneur de son entraîneur discret et laborieux.",
       "origin": "latin",
       "rootMeanings": [
@@ -168,7 +168,7 @@
     "ineluctable": {
       "partOfSpeech": "adjectif",
       "definition": "Qu’on ne peut éviter ni dont on ne peut s’échapper.",
-      "friendly": "Cela arrivera quoi que vous fassiez — d’une issue ineluctable, on ne se dégage pas.",
+      "friendly": "Cela arrivera quoi que vous fassiez — d’une issue inéluctable, on ne se dégage pas.",
       "exampleGloss": "La vieillesse vient pour tout le monde ; c’est simplement inéluctable.",
       "origin": "latin",
       "rootMeanings": [
@@ -289,7 +289,7 @@
     "euphonious": {
       "partOfSpeech": "adjectif",
       "definition": "D’un son agréable.",
-      "friendly": "Tout simplement beau à l’oreille — un mot ou une phrase euphonious glisse, presque en musique.",
+      "friendly": "Tout simplement beau à l’oreille — un mot ou une phrase euphonique glisse, presque en musique.",
       "exampleGloss": "« Murmuring brook » est une petite phrase euphonique, douce et facile à dire.",
       "origin": "grec",
       "rootMeanings": [
@@ -476,7 +476,7 @@
     "nugatory": {
       "partOfSpeech": "adjectif",
       "definition": "Sans valeur, futile ; aussi invalide ou inefficace.",
-      "friendly": "Ne valant à peu près rien — une clause nugatory dans un contrat ne fait, en pratique, rien du tout.",
+      "friendly": "Ne valant à peu près rien — une clause sans effet dans un contrat ne fait, en pratique, rien du tout.",
       "exampleGloss": "Le tribunal déclara l’ancien règlement sans effet, puisqu’il n’avait jamais été appliqué.",
       "origin": "latin",
       "rootMeanings": [
@@ -652,7 +652,7 @@
     "fain": {
       "partOfSpeech": "adverbe",
       "definition": "Volontiers, de bon gré (archaïque).",
-      "friendly": "Une façon un peu ancienne de dire « volontiers » ou « avec plaisir » — you would fain faire une chose si cela vous plaît.",
+      "friendly": "Une façon un peu ancienne de dire « volontiers » ou « avec plaisir » — qui fait une chose « fain » la fait de grand cœur.",
       "exampleGloss": "« Je me reposerais volontiers ici un moment », soupira le voyageur.",
       "origin": "vieil anglais",
       "rootMeanings": [
@@ -674,7 +674,7 @@
     "mordant": {
       "partOfSpeech": "adjectif",
       "definition": "Vivement sarcastique, mordant d’esprit ou de critique.",
-      "friendly": "De l’esprit qui a de vraies dents — une remarque mordant pique précisément parce qu’elle vise juste.",
+      "friendly": "De l’esprit qui a de vraies dents — une remarque mordante pique précisément parce qu’elle vise juste.",
       "exampleGloss": "Ses critiques de films mordantes étaient redoutées des réalisateurs et chéries des lecteurs.",
       "origin": "latin / français",
       "rootMeanings": [
@@ -1080,8 +1080,8 @@
     },
     "minatory": {
       "partOfSpeech": "adjectif",
-      "definition": "Mençant, de mauvais augure.",
-      "friendly": "Porteur d’une menace indéniable — un regard ou une lettre minatory fait clairement entendre que le pire peut suivre.",
+      "definition": "Menaçant, de mauvais augure.",
+      "friendly": "Porteur d’une menace indéniable — un regard ou une lettre comminatoire fait clairement entendre que le pire peut suivre.",
       "exampleGloss": "Le ton comminatoire de la lettre rendit la locataire nerveuse avant même qu’elle eût ouvert l’enveloppe.",
       "origin": "latin",
       "rootMeanings": [

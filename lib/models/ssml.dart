@@ -62,7 +62,9 @@ String ssmlToPlainText(String text) {
   return text
       .replaceAllMapped(_sub, (match) => match.group(1)!)
       // A phoneme keeps its inner text: the IPA is for the parser, and the
-      // text is the respelling an engine without one should say.
+      // text is the word itself. It used to be the respelling, which meant an
+      // engine without <phoneme> said `gair uh lus` — three tokens, a syllable
+      // at a time — where it should say "Garrulous".
       .replaceAllMapped(_phoneme, (match) => match.group(1)!)
       .replaceAll(_anyTag, '')
       .replaceAll(kSsmlOpen, '')

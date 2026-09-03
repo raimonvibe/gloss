@@ -10,14 +10,29 @@
     "instead - ersatz to succedane, canaille to racaille, rodomontade to fanfaronnade,",
     "interstice to joint, involution to complication - because there the French has a",
     "plainer word and the borrowing is the rarer one.",
-    "Run: python tool/localize_gloss.py --locale fr"
+    "Run: python tool/localize_gloss.py --locale fr",
+    "",
+    "`friendly` is the plain-words explanation, and it had the same fault: ten of the",
+    "134 used the English headword as though it were French - 'une remarque mordant",
+    "pique'. Those ten are rewritten with the French word, and where French has a",
+    "plainer term than the borrowing it is used again here - nugatory to sans effet,",
+    "trenchant to incisif, redound to rejaillir. One keeps its English on purpose and",
+    "is quoted rather than translated: 'fain' is the archaic word the line names.",
+    "Two more join english_ok because the French word IS the English one, and they",
+    "turn up in the definition and the root meanings rather than in a sentence:",
+    "mordant (participle of mordre) and interstice. See english_in_translation.py.",
+    "",
+    "`definitions` carries one repair the sweep turned up: minatory read 'Mencant'",
+    "for 'Menacant'. A word broken in generation, not a variant, and it shipped."
   ],
   "english_ok": [
     "mathesis",
     "imbroglio",
     "demi-monde",
     "patois",
-    "sybarite"
+    "sybarite",
+    "mordant",
+    "interstice"
   ],
   "glosses": {
     "edulcorate": "Le rédacteur adoucit la critique cinglante avant qu’elle parte à l’impression.",
@@ -154,5 +169,20 @@
     "gloze": "Il tenta de farder le délai manqué avec un vague discours sur des « difficultés imprévues ».",
     "incipient": "Les médecins saisirent les signes naissants de la maladie avant qu’elle ne se répandît.",
     "afflatus": "Le poète raconta que toute la pièce arriva d’un souffle d’inspiration à trois heures du matin."
+  },
+  "friendly": {
+    "euphonious": "Tout simplement beau à l’oreille — un mot ou une phrase euphonique glisse, presque en musique.",
+    "fain": "Une façon un peu ancienne de dire « volontiers » ou « avec plaisir » — qui fait une chose « fain » la fait de grand cœur.",
+    "fiducial": "Quelque chose que l’on prend sur parole, puis dont on se sert d’ancre — une marque fiduciaire est le point fixe à partir duquel on mesure tout le reste.",
+    "fructify": "Enfin porter ses fruits — un effort, une idée ou un placement qui fructifie est passé de la graine à quelque chose d’utile.",
+    "ineluctable": "Cela arrivera quoi que vous fassiez — d’une issue inéluctable, on ne se dégage pas.",
+    "minatory": "Porteur d’une menace indéniable — un regard ou une lettre comminatoire fait clairement entendre que le pire peut suivre.",
+    "mordant": "De l’esprit qui a de vraies dents — une remarque mordante pique précisément parce qu’elle vise juste.",
+    "nugatory": "Ne valant à peu près rien — une clause sans effet dans un contrat ne fait, en pratique, rien du tout.",
+    "redound": "Quand le mérite (ou le blâme) rebondit vers le responsable — les bonnes actions qui rejaillissent sur votre nom vous reviennent en récompense.",
+    "trenchant": "Coupe net dans le superflu — un propos ou un esprit incisif va au cœur de l’affaire, sans un mot de trop."
+  },
+  "definitions": {
+    "minatory": "Menaçant, de mauvais augure."
   }
 }

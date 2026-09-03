@@ -44,10 +44,13 @@ void main() {
 
   test('the headword is voiced wherever it appears, in any case', () {
     final entry = entries.firstWhere((e) => e.word == 'Pietistic');
-    final said = ssmlPhoneme('paɪəˈtɪstɪk', 'pie uh tiss tik');
+    // The inner text is the word as the passage wrote it, so the two
+    // occurrences differ by their capital.
+    final lower = ssmlPhoneme('paɪəˈtɪstɪk', 'pietistic');
+    final upper = ssmlPhoneme('paɪəˈtɪstɪk', 'Pietistic');
     expect(
       entry.voiced('A pietistic man. Pietistic, even.'),
-      'A $said man. $said, even.',
+      'A $lower man. $upper, even.',
     );
   });
 
@@ -56,7 +59,7 @@ void main() {
     final entry = entries.firstWhere((e) => e.word == 'Edulcorate');
     final voiced = entry.voiced('The editor edulcorated the review.');
     expect(voiced, contains('iːˈdʌlkəreɪtɪd'));
-    expect(voiced, contains('e dul kuh ray tidd'));
+    expect(voiced, contains('edulcorated'));
   });
 
   test('a word inside another word is left alone', () {
