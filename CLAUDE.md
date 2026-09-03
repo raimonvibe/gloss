@@ -354,6 +354,24 @@ through `semanticsLabel`. What no voice should be handed is a guide written for 
 `test/spoken_respelling_test.dart` now sweeps all 134 and requires
 `ssmlToPlainText(spokenWord)` to be the word and nothing else.
 
+**That first sweep was not general enough, and saying so is the point.** It covered
+`spokenWord` and left the inflected forms and the composed readings unproven — and it left
+a real hole: the no-IPA branch of `voiced()` emitted `<sub alias="e dul kuh ray tidd">`,
+and `ssmlToPlainText` resolves a `<sub>` to its **alias**, so that branch handed the voice
+the syllables by another door, on *every* engine rather than only the ones without SSML.
+Unreachable today, because all 25 forms carry an IPA; it is a bare word now, so adding a
+form without one costs a plain word instead of a silent regression. The sweep is over every
+English utterance the app can build — `spokenWord`, `spokenEntry`, `spokenGlance`,
+`spokenPrompt`, both halves of `spokenQuiz`, and `voiced()` over the example — and it was
+**checked both ways round**: reverted to the old behaviour it fails, which is the only
+evidence that it is a test rather than a decoration.
+
+Two exclusions in it are load-bearing, and the second cost a run. A one-syllable respelling
+is often the word (`dint` is spelled `DINT`), and **a two-word headword has a space that is
+a word space rather than a syllable gap** — *Lee side* is respelled `LEE-side`, whose spoken
+form is exactly the word, and the first draft duly reported it. A respelling counts only
+when it differs from the form it stands for.
+
 **`kRespellingVoicing` was a red herring and is no longer one.** It read `probe` — the one
 value its own documentation calls "not for shipping" — while nothing had read the constant
 since `said()` stopped branching on it. It looks exactly like the cause of any
@@ -1152,7 +1170,15 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `54ecdce` (`1.0.0+17`), writing a
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+18`, writing a **47.9 MB**
+bundle — `versionCode 18`, signed `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`,
+`INTERNET` and the `SENDTO` query both in the merged manifest. Six locales now read their
+example sentences wholly in their own language, and every word is handed to the voice as a
+word rather than as its syllables. The same 47.9 MB as `1.0.0+17`: six locales of rewritten
+sentences replace six locales of sentences, so a bundle cannot tell the difference. **Not
+uploaded** — the version code moves when it is.
+
+Before that, `flutter build appbundle --release` exited 0 on Windows at `54ecdce` (`1.0.0+17`), writing a
 47.9 MB bundle — `versionCode 17`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the
 `SENDTO` query both in the merged manifest, 134 words each carrying their `ipa`, all 60
 overlays and the Tangerine face inside the bundle. Built twice at this version, at

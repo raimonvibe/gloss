@@ -273,9 +273,15 @@ class WordEntry {
       // Likewise the inflected forms: the tag carries the word as the passage
       // wrote it, so an engine without <phoneme> says "edulcorated" rather
       // than "e dul kuh ray tidd".
-      return sound.ipa.isEmpty
-          ? ssmlSub(sound.respelling, found)
-          : ssmlPhoneme(sound.ipa, found);
+      //
+      // A form with no IPA is left as the bare word. It used to become
+      // `<sub alias="e dul kuh ray tidd">edulcorated</sub>`, and ssmlToPlainText
+      // resolves a <sub> to its *alias* — so that branch handed the voice the
+      // syllables by another door, on every engine rather than only the ones
+      // without SSML. Every form in kSpokenForms has an IPA today, so this is
+      // unreachable; it is written this way so that adding one without an IPA
+      // costs a plain word rather than a silent regression.
+      return sound.ipa.isEmpty ? found : ssmlPhoneme(sound.ipa, found);
     });
   }
 

@@ -93,7 +93,34 @@ Four things to hold on to before doing another:
   locale, so roughly 600k for all 59. That is a modest job — reach for a strong model
   rather than a cheap router.
 
-## 4. Documentation drifts from the machine it was written on
+## 4. Where the next session picks up
+
+Written 2026-09-03, at the end of a long session. Everything below is pushed to
+`the-respelling-is-for-the-ear`; nothing is merged to `main` and nothing is uploaded to
+Play.
+
+**The bundle.** `1.0.0+18` is built and verified — 47.9 MB, `versionCode 18`, signed
+`CN=Gloss, O=Raimonvibe`, `INTERNET` and the `SENDTO` query both in the merged manifest.
+It is **not uploaded**; bump the version code when it is.
+
+**What wants a device, not a test.** Two changes in this session can only be judged by ear
+and neither has been:
+
+- **The Greek etymons** now go to a Greek voice in Greek letters (*μάθησις*). A phone with
+  no Greek TTS data falls back to exactly what it said before, so if nothing changed,
+  check the voice is installed before assuming the code is wrong.
+- **Every word is now handed to the voice as a word** rather than as its syllables. On
+  Google's engine this is unchanged — it reads the IPA either way. It is the other engines
+  that changed, and *those* are the ones to listen on. Samsung's TTS is the case that was
+  reported.
+
+**One thing worth deciding.** `_useEnglishSsml` in `speech_controller.dart` is true only
+when the engine name contains "google", so every other engine is handed plain text and
+never sees `<phoneme>` at all. Widening that would give more phones the IPA. It was left
+alone because whether another engine honours the tag is a device question, and this project
+has been wrong twice about what engines support.
+
+## 5. Documentation drifts from the machine it was written on
 
 Both this file and CLAUDE.md previously hard-coded one machine's paths, one Flutter
 install, `python3`, and a test count — all of which were wrong on the second machine or
