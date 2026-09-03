@@ -156,10 +156,11 @@ Written 2026-09-03, at the end of a long session. Everything below is pushed to
 `the-respelling-is-for-the-ear`; nothing is merged to `main` and nothing is uploaded to
 Play.
 
-**The bundle.** `1.0.0+19` is the current version — 47.9 MB, signed `CN=Gloss,
-O=Raimonvibe`, `INTERNET` and the `SENDTO` query both in the merged manifest. It is **not
-uploaded**; bump the version code when it is. (`+18` was built and never uploaded, and `+19`
-moved anyway — the gap is spent, not lost.)
+**The bundle.** `1.0.0+20` is built and verified at `2ebd435` — 47.9 MB, `versionCode 20`,
+signed `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query
+both in the merged manifest, all 60 overlays inside it. It is **not uploaded**; bump the
+version code when it is. (`+18` and `+19` were both built and never uploaded — those codes
+are spent, not lost.)
 
 **What wants a device, not a test.** Two changes in this session can only be judged by ear
 and neither has been:

@@ -1566,7 +1566,20 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `1.0.0+19`, writing a **47.9 MB**
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+20` (`2ebd435`), writing a
+**47.9 MB** bundle — `versionCode 20`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest, all 60 overlays and the Tangerine face inside it, and all 134 English
+words carrying their `ipa`. **Twenty-three locales** now read their example sentences and
+their explanations wholly in their own language — every locale `localize_gloss.py` can
+reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
+`words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
+
+**Still 47.9 MB, for the fourth version running.** That is worth knowing before going
+looking for what went wrong: rewritten sentences replace sentences of about the same length,
+so ten more locales of prose cannot move a bundle whose weight is fonts and engine.
+
+Before that, `flutter build appbundle --release` exited 0 on Windows at `1.0.0+19`, writing a **47.9 MB**
 bundle — `versionCode 19`, `versionName 1.0.0`, signed
 `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
 the merged manifest. **Thirteen locales** now read their example sentences wholly in their
