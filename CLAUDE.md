@@ -1781,6 +1781,7 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-03 | `5309767` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `8a3be0c` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `e69ca5b` | Windows | 3.41.7 | clean | **355/355** | empty |
+| 2026-09-03 | `0ce8105` | Windows | 3.41.7 | clean | **356/356** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
 334 to 336 to 347 across those commits; the number is a fact about the commit, not a
@@ -1810,7 +1811,12 @@ their explanations wholly in their own language — every locale `localize_gloss
 reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
 `words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
 
-`flutter build appbundle --release` exits 0 on Windows at `1.0.0+21` (`e69ca5b`), writing a
+**`1.0.0+21` was built twice** — at `e69ca5b`, and again at `0ce8105` once the voice checks
+had been turned back from vetoes into orderings. The version code stays at 21 because
+neither bundle was uploaded; a code moves at least when a bundle goes to Play, not every
+time one is built.
+
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+21` (`0ce8105`), writing a
 **47.9 MB** bundle — `versionCode 21`, `versionName 1.0.0`, signed
 `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
 the merged manifest, all 60 overlays and the Tangerine face inside it, and all 134 English
