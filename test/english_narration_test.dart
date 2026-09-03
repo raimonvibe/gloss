@@ -381,6 +381,101 @@ void _splitNarration() {
       expect(voice, isNull);
     });
 
+    // A Latin etymon is read by an Italian voice, and a Dutch reader heard
+    // it in English. The routing was right; what reached the engine was not.
+    test('the engine gets the locale spelled the way it spelled it', () {
+      final voice = pickVoiceForLanguage(const [
+        {'name': 'it-it-x-kda-local', 'locale': 'it-IT'},
+      ], 'it-IT');
+      // Lower case to compare with, because 'it_IT' and 'it-IT' are the same
+      // voice and nothing else here should have to know that.
+      expect(voice!.locale, 'it-it');
+      // And the engine's own spelling to speak with: setVoice matches the
+      // locale exactly, against Locale.toLanguageTag() on Android and
+      // AVSpeechSynthesisVoice.language on iOS, both of which say 'it-IT'.
+      expect(voice.engineLocale, 'it-IT');
+    });
+
+    // Google's getVoices answers with every language it supports and marks
+    // the ones whose data is not on the phone. That marking orders the
+    // candidates and must never remove them: the version live on Play speaks
+    // every language its reader has chosen on a device that flags some of
+    // those voices, so the flag is not the last word.
+    test('a downloaded voice is preferred over one that is not', () {
+      final voice = pickVoiceForLanguage(const [
+        {
+          'name': 'it-it-x-kda-local',
+          'locale': 'it-IT',
+          'features': 'notInstalled	networkTimeoutMs',
+        },
+        {'name': 'it-it-x-itd-local', 'locale': 'it-IT', 'features': ''},
+      ], 'it-IT');
+      expect(voice!.name, 'it-it-x-itd-local');
+    });
+
+    test('a language is never lost to a notInstalled flag', () {
+      // Every Italian voice the engine knows is flagged, and it is still
+      // Italian that gets asked for. Losing a language a reader already had
+      // is a worse fault than the one the flag was read for.
+      final voice = pickVoiceForLanguage(const [
+        {
+          'name': 'it-it-x-kda-local',
+          'locale': 'it-IT',
+          'features': 'notInstalled	networkTimeoutMs',
+        },
+      ], 'it-IT');
+      expect(voice, isNotNull, reason: 'Italian was refused before it spoke');
+      expect(voice!.engineLocale, 'it-IT');
+    });
+
+    test('iOS reports no features, and that means installed', () {
+      // speechVoices() lists what is on the device and nothing else, so an
+      // absent field cannot be read as a missing voice.
+      final voice = pickVoiceForLanguage(const [
+        {'name': 'Alice', 'locale': 'it-IT', 'quality': 'default'},
+      ], 'it-IT');
+      expect(voice!.name, 'Alice');
+      expect(voice.engineLocale, 'it-IT');
+    });
+
+    test('the engine settles it where the name says nothing', () {
+      // Google writes '-local' and '-network' into its ids; iOS calls its
+      // voices Alice and Federica, and only the field tells them apart.
+      final voice = pickVoiceForLanguage(const [
+        {'name': 'Alice', 'locale': 'it-IT', 'network_required': '1'},
+        {'name': 'Federica', 'locale': 'it-IT', 'network_required': '0'},
+      ], 'it-IT');
+      expect(voice!.name, 'Federica');
+    });
+
+    test('the reader is still offered an English voice the engine flags', () {
+      // Still on the list: a reader whose every English voice is flagged must
+      // not be handed an empty picker.
+      final voices = englishVoiceOptions(const [
+        {
+          'name': 'en-gb-x-gba-local',
+          'locale': 'en-GB',
+          'features': 'notInstalled',
+        },
+        {'name': 'en-us-x-sfg-local', 'locale': 'en-US'},
+      ]);
+      // The picker keeps its own order, by region — what matters here is
+      // that neither voice was dropped out of it.
+      expect(voices.map((voice) => voice.name),
+          containsAll(['en-us-x-sfg-local', 'en-gb-x-gba-local']));
+      expect(
+        pickEnglishVoice(const [
+          {
+            'name': 'en-gb-x-gba-local',
+            'locale': 'en-GB',
+            'features': 'notInstalled',
+          },
+        ]),
+        isNotNull,
+        reason: 'the lexicon would have gone silent',
+      );
+    });
+
     test('both segments play when a voice exists', () async {
       final engine = SilentSpeechEngine(voices: dutchVoices);
       final speech = SpeechController(engine: engine);

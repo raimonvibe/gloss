@@ -395,7 +395,7 @@ class WordEntry {
         kTransliteratedGreek.hasMatch(needle)) {
       return null;
     }
-    return SpokenEtymon(term, tag);
+    return SpokenEtymon(spokenEtymonForm(term), tag);
   }
 
   /// The same entry in the reader's language, laid out in the same order.

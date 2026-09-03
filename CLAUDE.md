@@ -460,20 +460,89 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**All 23 locales that `localize_gloss.py` can reach are done — `nl`, `de`, `fr`, `fr_CA`,
-`es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`,
-`mk`, `el`, `ro`, `hu`, `nb`.** **4,913 of the 8,040 glosses still carry the English
-headword**, and **every one of them is in one of the 37 locales that has a
-`tool/_data_<locale>.py`.** All 23 have had their `friendly` and `definition` fields done in
-the same pass, so a diff of one is no longer `exampleGloss` lines alone — see
-*`exampleGloss` was never the only field this can happen in* below.
+**Thirty-six locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
+`pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`,
+`nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`,
+`zh_HK`.** **3,183 of the 8,040 glosses still carry the English headword**, and **every
+one of them is in one of the 24 locales left that have a `tool/_data_<locale>.py`.**
+Every
+one of the 24 has had its `friendly` and `definition` fields done in the same pass, so a
+diff of one is no longer `exampleGloss` lines alone — see *`exampleGloss` was never the
+only field this can happen in* below.
 
-**So this tool's half of the job is finished, and the remaining 37 are a different job.**
-`localize_gloss.py` refuses them on purpose, because the next `emit_from_data.py` would
-throw the edit away; they need `tool/_data_<locale>.py` edited and re-emitted. Worth
-planning rather than continuing into: the generator is 134 five-field tuples per locale, and
-`emit_from_data.py` is the source of truth for all of them. The three Chinese locales are
-still worth diffing before treating them as three jobs.
+**`localize_gloss.py` reaches the generated locales too, as of 2026-09-03.** It used to
+refuse all 37 of them — the next `emit_from_data.py` would have thrown the edit away — and
+that refusal, rather than anything about the languages, is why the whole of Asia, the
+Middle East, the Nordics and Belarusian still carry the English headword. It writes
+`tool/_data_<locale>.py` and re-emits now, so the generator and the overlay cannot
+disagree. What is left per locale is the writing: **~132 sentences and 8–11 `friendly`
+lines**, the same shape every time, because the fault is inherited from the English rather
+than invented locally.
+
+The safety property had to be a different one. The ten `_words_<locale>.py` files are
+guarded by reproducing the file byte for byte before touching it, and that cannot work
+here: the 37 were written at different times in at least three layouts — one tuple per
+line in `zh`, a line per field in `sv`, two fields to a line in `be`. So the file is
+rendered in one canonical layout and then **imported again and compared cell by cell
+against what was meant**, all 670 of them, with the original put back if the readback
+disagrees. The content is proved and only the formatting moves. The renderer was
+round-tripped over all 37 before any of them was written: no faults.
+
+**The three Chinese locales were one job and two derivations, and diffing them first is
+what showed it.** Measured before a word was written, over all 670 cells of the shipped
+generators: **`zh` is exactly `opencc tw2sp` of `zh_TW`** — script and mainland vocabulary
+both, *計程車* → *出租车*, *印表機* → *打印机*, *專案* → *项目* — and **`zh_HK` is exactly
+`zh_TW` under twelve substitutions**, four of them vocabulary (*巴士*, *的士*, *酒店*,
+*打印機*) and the rest the two orthographic habits that separate Hong Kong from Taiwan,
+*裏* for *裡* and *甚麼* for *什麼*. Nought mismatches either way.
+
+So Taiwan was written by hand and `tool/derive_chinese.py` produced the other two: the
+generator, the overlay **and** the written `gloss_local_*.json` for all three, so they agree
+by construction rather than by diligence. That is the `pt_BR` lesson applied *before* the
+work instead of after it — and the reason it could be applied is that the derivation was
+proved against the shipped files first. `python tool/derive_chinese.py --check` is that
+proof, and it is worth running before touching Taiwan again: run against an unlocalised
+base it must report nought, and a rule that has quietly stopped holding shows up while the
+base is still the text the rules were measured on.
+
+**`opencc` is not a repo dependency and the app does not need it**; the tool does.
+`pip install opencc-python-reimplemented`.
+
+One thing the pair diff could not see, and the sweep could: *mathesis* is `english_ok` for
+Taiwan, and the two derived locales had no file to say so, so they each showed one flag
+that was not a fault. `derive_chinese.py` writes their `gloss_local_*.json` through the same
+rules now, which both records the derived text and carries the exemption across.
+
+**The CRLF bug left exactly one fingerprint in the repo, and it was here.**
+`assets/l10n/words_zh.json` was the only one of the sixty overlays committed with CRLF —
+which fits, because it is the one file that was generated by running a script on Windows.
+It is LF now like the other 59, so its diff for this pass reads 2,956 lines where the other
+two read 284; underneath, all three moved the same 142 cells.
+
+**Ten of the 37 could not be emitted at all, and nothing said so until one was tried.**
+`af`, `be`, `da`, `et`, `fi`, `is`, `lt`, `lv`, `sq` and `sv` have a
+`tool/_data_<locale>.py` and **no entry in `tool/_pos_origin.py`**, so
+`emit_from_data.py` exits on *"missing POS/ORIGIN maps"* — their shipped overlays must
+have been written by some other route, and the maps were never added or were lost. Found
+on 2026-09-03 by localising the first of them; the emit refused after the generator had
+already been written.
+
+They were **recovered from the shipped overlays rather than translated afresh**, which is
+sound here for a reason worth checking before doing it again: across all 134 words in all
+ten, every one of the 7 parts of speech and 22 origins maps to exactly one local string,
+so there was nothing to choose between. The proof it worked is that re-emitting `be`
+changed **`exampleGloss` in 133 rows and `friendly` in 9, and nothing else** —
+`partOfSpeech`, `origin` and `rootMeanings` came back byte for byte.
+
+**`emit_from_data.py` wrote CRLF on Windows, and that hid what it had done.** `Path.write_text`
+translates newlines unless told not to, so a 142-cell edit to `be` arrived as a **2,956-line
+diff** — all 1,478 lines deleted and rewritten — and the repo sets `core.autocrlf false`
+on purpose, so nothing downstream would have put it back. It writes `newline="\n"` now and
+the same edit reads as 142 insertions and 142 deletions. Worth knowing for two reasons:
+every overlay emitted from Windows before 2026-09-03 will have had this, and **a diff far
+larger than the edit is a fact about the writer, not about the edit** — the cell-by-cell
+comparison had already said only 142 cells moved, which is what made the line count worth
+looking into rather than accepting.
 
 **`bg`/`mk` was the last near-twin pair, and it was not cheap.** Measured before starting:
 0.80 mean similarity with 101 of 134 above 0.75, which looked like `es`/`es_419` (129
@@ -490,8 +559,92 @@ they borrow (*panegirykiem*, *teodyceę*, *panegyrik*, *teodiceu*, *sybarita*, *
 Bulgarian and Macedonian are in another script, so a borrowing arrives transliterated and
 cannot be identical to the English form even where it is the same word. *mathesis* survives
 both tests because every locale keeps it in Latin letters. **Every Slavic locale in the
-lexicon is now done — all ten of them — and every one needed exactly `mathesis`, by one of
-those two routes.**
+lexicon is now done — all eleven of them — and every one needed exactly `mathesis`, by one
+of those two routes.**
+
+**It said ten here until 2026-09-03, and the eleventh was Belarusian.** The count was
+written from the locales `localize_gloss.py` could reach, and `be` was not one of them
+because it has a `tool/_data_be.py` — so a locale that was neither done nor counted sat
+inside a claim that everything was done. It was found by counting the remaining rows per
+locale rather than by reading this file, which is the general lesson: **a claim of the
+form "all of X are done" should be checked against the tool that measures X, not against
+the list that produced the claim.** Belarusian duly needed exactly `mathesis`, by the
+Cyrillic route, so the prediction held for the one locale it had never seen.
+
+Belarusian also paid the rewrite's usual dividend of proofreading, and the two worst were
+agreement faults no check here can see: *гасцінічнай пакоя*, a feminine adjective on a
+masculine noun, and *старога цэглянага сцежкі*, two masculine ones on a feminine. Two more
+verbs did not agree with the subjects the localisation gave them, and *арандатара нервовай*
+mixed a masculine noun with a feminine adjective. All five were found by reading the row in
+order to replace it. One fault of a different kind, and worth naming because it was
+self-inflicted: a **Latin á typed inside a Cyrillic word** (*праклінáлі*). Nothing in the
+project could see it — the English sweeps match whole English words, and a single Latin
+letter inside a Cyrillic one is not a word. A mixed-alphabet sweep over the written file is
+four lines and catches it; it is worth running on every locale whose script is not Latin.
+
+**Danish and Swedish were the first two of the ten whose maps had to be recovered, and
+they came out cheap — 142 cells each, and neither needed an exemption beyond `mathesis`.**
+The Nordic borrowings are all spelled their own way (*sybarit*, *seneskal*/*seneskalk*,
+*amfiboli*, *lakonisme*/*lakonism*, *teodicé*/*teodicén*), so the check sees a translated
+word, which it is — the Italian answer rather than the French one. Danish leans on `nb`
+for its shape and must not for its spelling: the finished Norwegian is now correct
+Norwegian, and the whole point of the earlier `nb` repair was that the two are not
+interchangeable.
+
+**One proofreading catch is the same fault in both, in the same row, and that says
+something about where the text came from.** `animadversion` read *rød blæk* in Danish and
+*röd bläck* in Swedish — the neuter noun with a common-gender adjective, identically wrong
+in two files that were supposedly written apart. It is the *nb*-was-Danish lesson in
+miniature: **when two independent locales carry the same error in the same row, they are
+not independent.** Worth checking `animadversion` in the remaining Germanic locales before
+assuming each needs its own reading.
+
+The rest were ordinary and only a rewrite would have found them. Danish: *uden en eneste
+søm* for *et eneste søm* (a nail is neuter), *rygens* for *ryggens*, *lumsk spørgsmål* for
+*lumske*, *de rigtige medicin* for *den rigtige medicin*, and *sukkede rejsende* with no
+article. Swedish: *paretets privatliv* for *parets* — a word broken in generation, the
+`los númerlo` fault again and just as invisible — *det där grodan* for *den där*, *rostade
+cikoria* for *rostad*, and `coruscation` written as *Kronljusets* (the candle's) where the
+English sentence is about a chandelier, so it is now *Kristallkronans*.
+
+**All ten recovered-map locales are done, and the whole set needed one exemption between
+them.** `af`, `be`, `da`, `et`, `fi`, `is`, `lt`, `lv`, `sq` and `sv`, 142 cells each and
+`mathesis` the only word any of them kept — the pattern this file has been predicting since
+German holds across Germanic, Baltic, Finnic and Albanian alike, because each spells its
+borrowings its own way (*sibarīts*, *sübariit*, *sibarit*, *seneskalas*, *lakonism*,
+*teodicé*, *amfibolija*). **Finnish cost 118 rather than 142**, exactly the third it was
+measured to owe. Two counts that look like failures and are not: `ro` keeps 2 and `sq`
+keeps 1, and all three are the same false positive — *plumb* is the Romanian and the
+Albanian word for lead, inherited from the Latin *plumbum* the entry is about, so the sweep
+is finding the local language's own vocabulary. See *The checker caught one that reading
+would not have*.
+
+**Afrikaans repeated the Norwegian lesson exactly.** `nb` was written by something drifting
+into Danish; Afrikaans had *Grys luchte* for *Grys lugte* — the Dutch spelling, in a locale
+whose nearest neighbour in this repo is the finished Dutch. **A locale written next to its
+big sibling drifts into the sibling**, and no check here can see it, because the drifted
+word is a real word in the other language. Also *gesny* where the sentence needed *gespot*,
+*laat spiral* with the English verb left standing, *ooit welke gegee* carrying Dutch
+*welke*, and *laat ruggraat kry* for *laat krimp*, which means nothing at all.
+
+Elsewhere the same class, one to five per locale, all invisible to every check:
+
+- **Icelandic** — *dauð bílastaðla*, which is not a word, for *dauður bílrafgeymir*;
+  *í lítilli klefa* for *í litlum klefa*; *óljósar loforð*, a feminine adjective on a
+  neuter noun.
+- **Estonian** — the `pedantry` row had **no main verb at all** (*rööbastelt kogu
+  koosoleku*, "off the rails the whole meeting"), and `redound` put a nominative adjective
+  on a genitive noun.
+- **Lithuanian** — *mirusi automobilio baterija*, a battery that has literally passed away,
+  and *stovėjo kojomis* for *stovėjo ant kojų*.
+- **Latvian** — *Karš deracinate*, the English verb left standing uninflected where every
+  other row at least declined around it; *bez neviena naglas* for *bez nevienas naglas*;
+  and *mūki nepiederēja nekas*, a sentence with no subject.
+- **Albanian** — *gramatikënët* for *gramatikanët*, and a `paroxysm` whose article did not
+  agree with its noun.
+
+**Expect one to five of these per locale for the 27 that remain, and expect none of them
+to be findable by anything except writing the row again.**
 
 **Greek needed no exemption at all, and it is the only locale that has managed that.** The
 prediction here was that Greek would take one for the script reason, like the Cyrillic
@@ -809,7 +962,7 @@ to the heart of the matter" — and sixty translators carried it across faithful
 locale can be blamed for it, and the tool prints the English line beside the local one for
 that reason.
 
-**The same 23 are done, and the 37 generated locales are not.** Ten `friendly` fields each — eight in a
+**The same 36 are done, and the 24 generated locales left are not.** Ten `friendly` fields each — eight in a
 Slavic locale, which had already translated *fain* and *fructify* — written out in
 `tool/gloss_local_<locale>.json` and put through the same checks as the sentences;
 `localize_gloss.py` carries three fields now (`glosses` → `exampleGloss`, `friendly`,
@@ -1060,6 +1213,87 @@ English mouth; the same reader met **Oudengels** and heard one mangled word.
   assembled, already-voiced string, and cutting it at the etymon would mean splitting
   text that contains SSML — *Voice the parts, never the assembly*. An English reader still
   hears *chicaner* in English.
+
+**"Why is *efflorescere* still English?" — the routing was right and the request never
+reached the engine.** Reported from a device on 2026-09-03, of the Latin etymon on the
+*Effloresce* page in Dutch. Measured first, because the reading is the cheap thing to
+check and the phone is not: `readingOf` builds an `it-IT` segment carrying *efflorescere*
+for **all 81 Latin words** in the lexicon, and the same for the roots. Nothing above
+`speech_controller.dart` was wrong.
+
+Three faults underneath it, and the first is the one that ships the bug:
+
+- **`pickVoiceForLanguage` lower-cased the locale, and `setVoice` compares it exactly.**
+  `normalizeTtsLocale` is right for matching — `it_IT` and `it-IT` are the same voice —
+  and wrong for a platform call. flutter_tts matches a voice against
+  `Locale.toLanguageTag()` on Android and `AVSpeechSynthesisVoice.language` on iOS, and
+  both of those say `it-IT`; handed `it-it` the plugin logs "Voice name not found" and
+  returns 0. On Android `setLanguage` had already taken, so the engine spoke Italian
+  anyway and the fault was invisible. **On iOS it is not invisible**: `setLanguage` sets
+  `self.voice = nil`, so a `setVoice` that fails leaves the utterance with no voice at
+  all and it is spoken by the **system default** — English on an English-set phone,
+  whatever language the app is being read in. `VoiceOption.engineLocale` is the locale as
+  the engine spelled it; `locale` stays lower-cased for comparing. **The English lock
+  never had this bug** — `pickEnglishVoice` passes the raw string through — which is
+  exactly why the English half of every reading was fine and the other half was not.
+- **`_useLanguage` never looked at the answers.** It set the language, set the voice, read
+  neither result and returned `true`. An engine that refuses a language keeps the voice it
+  had, so "granted" and "ignored" reported the same and the etymon was read out by
+  whichever voice spoke last. It now asks `isLanguageAvailable`, checks `setLanguage`'s
+  result the way `_lockToEnglish` always has, and returns false so the caller reads the
+  English instead. A `setVoice` that fails after a `setLanguage` that took is not fatal
+  and says so in the trace: the language is right, the particular voice is not.
+- **`getVoices` lists voices the phone may not be able to speak.** Google answers with
+  every language it supports, downloaded or not, marking the rest `notInstalled` in
+  `features`. `voiceIsInstalled` reads that field. It is deliberately narrow: **iOS reports
+  no `features` at all** — `speechVoices()` lists only what is installed — so an absent
+  field means installed.
+
+**And then the third one was reversed within the hour, which is the part worth keeping.**
+For a few hours on 2026-09-03 that flag *excluded* a voice, and an unavailable answer from
+`setLanguage` was enough to give up and read the English. Then the reader said the version
+live on Play speaks every language they had chosen — on a device whose engine flags some of
+those voices. **So the flag is not the last word**: Android can reach a network voice, fetch
+the data, or simply be wrong, and the shipped app was speaking languages this new check
+called unavailable.
+
+`voiceIsInstalled` and the `setLanguage` result are **orderings now, never vetoes**. An
+installed offline voice is preferred by +100 in the score, `setLanguage` answering *no* is
+traced and ignored, and `_useLanguage` returns false only when the engine lists no voice for
+the language at all — the same bar the shipped app used. The reader's English voice list
+lost its filter for the same reason: a reader whose every English voice is flagged must not
+be handed an empty picker.
+
+**The rule this leaves behind: a check added to fix a word in the wrong accent must not be
+able to cost a reader a whole language.** The fault being fixed was one word of Latin; the
+fault being risked was sixty languages going silent, on a device nobody here can inspect.
+Two tests pin it — `a language is never lost to a notInstalled flag`, and `the reader is
+still offered an English voice the engine flags`.
+
+**What survives from that pass is the half that could not cost anything**, and it is the
+half that actually fixed the bug: the locale reaches `setVoice` in the engine's own
+spelling, and an installed offline voice sorts ahead of a listed one. Both are orderings.
+
+**A root is written for the eye there too.** The sweep that found the first fault found a
+second: `spokenEtymonFor` handed the form as written, so `ex-`, `-osus` and `inter-` went
+to an Italian mouth with the hyphen on. **Eighty of the 351 forms that reach a foreign
+voice carry one**, which is most of the prefixes and every suffix in the lexicon. The
+Greek table never had this fault because its entries were written out by hand as the voice
+should say them (*amphi-* is *αμφι*); `spokenEtymonForm` does the same for the rest, ends
+only, so *demi-monde* is still spoken whole.
+
+**What is left is a design choice rather than a defect, and it is worth knowing before the
+next report.** With the above fixed, a phone with no Italian voice reads the Latin etymon
+in **English**, on purpose — that is the documented fallback, and it is now reached
+deliberately rather than by accident. But Latin is 81 of the 134, so on a phone that has
+only its own language and English, most of the lexicon's etymons still arrive in an English
+mouth. Two ways out, neither taken yet: ask the reader to install the Italian voice, or
+give Latin a chain of stand-ins (`it` → `es` → `pt` → `ro`) so that any Romance voice on
+the device says it before English does.
+
+`_useLanguage` also asked the platform for the whole voice list **once per segment** — a
+dozen guarded round trips inside a reading. It is fetched once and dropped when
+`applyPreferences` runs, in case the reader went and installed one.
 
 **The name of the origin is a compound in seventeen of the sixty, and the seam is derived
 rather than listed.** Dutch writes Old English closed as *Oudengels*, German as
@@ -1546,6 +1780,8 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-03 | `a16c927` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `5309767` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `8a3be0c` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `e69ca5b` | Windows | 3.41.7 | clean | **355/355** | empty |
+| 2026-09-03 | `0ce8105` | Windows | 3.41.7 | clean | **356/356** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
 334 to 336 to 347 across those commits; the number is a fact about the commit, not a
@@ -1574,6 +1810,24 @@ words carrying their `ipa`. **Twenty-three locales** now read their example sent
 their explanations wholly in their own language — every locale `localize_gloss.py` can
 reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
 `words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
+
+**`1.0.0+21` was built twice** — at `e69ca5b`, and again at `0ce8105` once the voice checks
+had been turned back from vetoes into orderings. The version code stays at 21 because
+neither bundle was uploaded; a code moves at least when a bundle goes to Play, not every
+time one is built.
+
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+21` (`0ce8105`), writing a
+**47.9 MB** bundle — `versionCode 21`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest, all 60 overlays and the Tangerine face inside it, and all 134 English
+words carrying their `ipa`. **Thirty-six locales** now read their example sentences and
+their explanations wholly in their own language. Checked by unzipping the bundle rather
+than by trusting the build: `words_zh_TW.json`, `words_be.json`, `words_sv.json` and
+`words_lv.json` inside it carry the rewritten sentences.
+
+**Still 47.9 MB, for the fifth version running** — thirteen more locales of rewritten prose
+weigh nothing against a bundle made of fonts and engine, and the etymon-voice work adds no
+asset at all. Before that:
 
 **Still 47.9 MB, for the fourth version running.** That is worth knowing before going
 looking for what went wrong: rewritten sentences replace sentences of about the same length,

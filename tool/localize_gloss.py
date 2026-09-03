@@ -46,11 +46,26 @@ translating those empties the sentence out. English inside quotation marks is
 allowed in those two fields for that reason. An example **sentence** has no
 such business: there the local word does the work, quoted or not.
 
-**Where a locale has a tool/_data_<locale>.py, that file is the source** and
-this refuses to touch the overlay, because the next `emit_from_data.py` would
-throw the edit away. 23 of the 60 locales have no such file - nl, de, fr, es,
-it, pt, ru, pl, uk and the rest of Europe - and for those the overlay is the
-artefact and this writes it directly.
+**Where a locale has a tool/_data_<locale>.py, that file is the source.** 23
+of the 60 locales have no such file - nl, de, fr, es, it, pt, ru, pl, uk and
+the rest of Europe - and for those the overlay is the artefact and this writes
+it directly. For the other 37 it writes the generator and re-emits, so that
+the next `emit_from_data.py` reproduces the edit instead of throwing it away.
+This refused those 37 outright until 2026-09-03, which is why the whole of
+Asia, the Middle East, the Nordics and Belarusian still carry the English
+headword: not because the text was harder, but because the tool stopped at
+the door.
+
+**A `_data_<locale>.py` is rewritten whole, and checked by reading it back.**
+The ten `_words_<locale>.py` files are guarded by reproducing the file byte
+for byte before touching it; that guard cannot be used here, because the 37
+were written by hand at different times and are in at least three different
+layouts - one tuple per line in `zh`, a line per field in `sv`, two fields to
+a line in `be`. So the file is rendered in one canonical layout and then
+**imported again and compared cell by cell against what was meant**, all 670
+of them. That is a stronger promise than the formatting one: the content is
+proved, and only the formatting moves. Nothing is kept if the readback
+disagrees.
 
 **Ten of those 23 have a `tool/_words_<locale>.py` all the same**, which is a
 second generator nobody had noticed: `write_words_western.py` builds nl, de,
@@ -74,6 +89,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import emit_from_data  # noqa: E402
 import english_in_translation  # noqa: E402
 import gloss_english  # noqa: E402
 
@@ -112,7 +128,8 @@ CARRIES = (
 NO_MENTIONS = {'exampleGloss'}
 
 # The position of each field in a `tool/_words_<locale>.py` row, which is
-# (definition, friendly, exampleGloss, root1, root2).
+# (definition, friendly, exampleGloss, root1, root2). A `tool/_data_<locale>.py`
+# row is the same five in the same order, which is why one map serves both.
 WORDS_PY_SLOT = {'definition': 0, 'friendly': 1, 'exampleGloss': 2}
 
 # The seven that cannot be translated, and why: each one is the phenomenon
@@ -210,6 +227,94 @@ def _words_py(locale):
     return path, header
 
 
+def _data_py(locale):
+    """`tool/_data_<locale>.py`, the generator for 37 of the sixty.
+
+    Returns the path and the comment lines the file opens with, which are the
+    only part of its layout worth keeping - they say which language it is and,
+    in a few, where it was derived from.
+    """
+    path = os.path.join(ROOT, 'tool', '_data_%s.py' % locale)
+    if not os.path.exists(path):
+        return None, None
+    header = []
+    for line in io.open(path, encoding='utf-8').read().split('\n'):
+        if not line.startswith('#'):
+            break
+        header.append(line)
+    return path, header
+
+
+def _render_data(header, rows):
+    """The 134 rows as a `_data_<locale>.py`, in one layout for all of them.
+
+    A field to a line for the three long ones, the two root meanings together
+    on the last, which is the layout most of the 37 already use.
+    """
+    out = list(header)
+    out.append('ROWS = [')
+    for row in rows:
+        cells = [_py_string(cell) for cell in row]
+        out.append('    (%s,' % cells[0])
+        out.append('     %s,' % cells[1])
+        out.append('     %s,' % cells[2])
+        out.append('     %s, %s),' % (cells[3], cells[4]))
+    out.append(']')
+    return '\n'.join(out) + '\n'
+
+
+def _py_string(text):
+    """`text` as a double-quoted Python literal, and nothing clever.
+
+    The rows carry quotation marks of every language's kind and the odd
+    backslash; `json.dumps` escapes exactly what Python needs escaped here and
+    leaves every other script alone.
+    """
+    return json.dumps(text, ensure_ascii=False)
+
+
+def _write_data(locale, path, header, written, order):
+    """Rewrite the generator, then read it back and prove it.
+
+    Returns the number of cells that moved. Raises SystemExit if what landed
+    on disk is not what was meant, having put the file back as it was.
+    """
+    module = importlib.import_module('_data_%s' % locale)
+    rows = [list(row) for row in module.ROWS]
+    if len(rows) != len(order):
+        sys.exit('_data_%s.py has %d rows, expected %d'
+                 % (locale, len(rows), len(order)))
+    at = {wid: i for i, wid in enumerate(order)}
+
+    changed = 0
+    for field, new in written.items():
+        slot = WORDS_PY_SLOT[field]
+        for wid, text in new.items():
+            row = rows[at[wid]]
+            if row[slot] != text:
+                changed += 1
+            row[slot] = text
+
+    was = io.open(path, encoding='utf-8').read()
+    with io.open(path, 'w', encoding='utf-8', newline='\n') as fh:
+        fh.write(_render_data(header, rows))
+
+    # Read it back. A file that imports and holds the rows we meant is worth
+    # more than one that looks the way it used to.
+    try:
+        readback = [list(row) for row in
+                    importlib.reload(module).ROWS]
+    except Exception as exc:  # noqa: BLE001 - any import fault is the same fault
+        io.open(path, 'w', encoding='utf-8', newline='\n').write(was)
+        sys.exit('_data_%s.py would not import (%s); put back as it was'
+                 % (locale, exc))
+    if readback != rows:
+        io.open(path, 'w', encoding='utf-8', newline='\n').write(was)
+        sys.exit('_data_%s.py read back differently; put back as it was'
+                 % locale)
+    return changed
+
+
 def _render(header, table):
     out = [header, 'WORDS = {']
     for wid, row in table.items():
@@ -230,11 +335,7 @@ def main():
     args = ap.parse_args()
     locale = args.locale
 
-    generated = os.path.join(ROOT, 'tool', '_data_%s.py' % locale)
-    if os.path.exists(generated):
-        sys.exit('%s is generated from tool/_data_%s.py - edit that and run '
-                 'emit_from_data.py, or this edit is thrown away on the next '
-                 'emit' % (locale, locale))
+    data_path, data_header = _data_py(locale)
 
     source = os.path.join(ROOT, 'tool', 'gloss_local_%s.json' % locale)
     if not os.path.exists(source):
@@ -298,6 +399,18 @@ def main():
 
     if args.check:
         print('  --check, so nothing written')
+        return
+
+    # Where a generator exists it is the source, and writing the overlay
+    # instead would last exactly as long as it took someone to re-emit.
+    if data_path is not None:
+        order = [w['id'] for w in json.load(
+            io.open(os.path.join(ROOT, 'tool', '_en_words_src.json'),
+                    encoding='utf-8'))]
+        moved = _write_data(locale, data_path, data_header, written, order)
+        print('  written to tool/_data_%s.py (%d cells moved), read back and '
+              'compared cell by cell' % (locale, moved))
+        emit_from_data.emit(locale)
         return
 
     for field, new in written.items():
