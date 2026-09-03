@@ -1302,10 +1302,11 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-02 | `54ecdce` | Windows | 3.41.7 | clean | **321/321** | empty |
 | 2026-09-03 | `a71fff9` | Windows | 3.41.7 | clean | **334/334** | empty |
 | 2026-09-03 | `5e27617` | Windows | 3.41.7 | clean | **336/336** | empty |
+| 2026-09-03 | `80d816d` | Windows | 3.41.7 | clean | **347/347** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
-334 to 336 across those commits; the number is a fact about the commit, not a constant to
-hold. The 336 is the two halves added together — 309 and 27.
+334 to 336 to 347 across those commits; the number is a fact about the commit, not a
+constant to hold. The 347 is the two halves added together — 320 and 27.
 
 **`english_narration_test.dart` is flaky under full-suite concurrency**, and has been since
 before `1333cf1` — the file sweeps sixty locales and one of its cases trips the 30s per-test
