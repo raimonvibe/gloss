@@ -1757,6 +1757,7 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-03 | `a16c927` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `5309767` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `8a3be0c` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `e69ca5b` | Windows | 3.41.7 | clean | **355/355** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
 334 to 336 to 347 across those commits; the number is a fact about the commit, not a
@@ -1785,6 +1786,19 @@ words carrying their `ipa`. **Twenty-three locales** now read their example sent
 their explanations wholly in their own language — every locale `localize_gloss.py` can
 reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
 `words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
+
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+21` (`e69ca5b`), writing a
+**47.9 MB** bundle — `versionCode 21`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest, all 60 overlays and the Tangerine face inside it, and all 134 English
+words carrying their `ipa`. **Thirty-six locales** now read their example sentences and
+their explanations wholly in their own language. Checked by unzipping the bundle rather
+than by trusting the build: `words_zh_TW.json`, `words_be.json`, `words_sv.json` and
+`words_lv.json` inside it carry the rewritten sentences.
+
+**Still 47.9 MB, for the fifth version running** — thirteen more locales of rewritten prose
+weigh nothing against a bundle made of fonts and engine, and the etymon-voice work adds no
+asset at all. Before that:
 
 **Still 47.9 MB, for the fourth version running.** That is worth knowing before going
 looking for what went wrong: rewritten sentences replace sentences of about the same length,
