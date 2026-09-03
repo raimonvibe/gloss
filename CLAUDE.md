@@ -403,10 +403,24 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Dutch, German and French are done; the other 57 are not.** 133 of the 134 Dutch
-sentences changed, 134 of the German and 130 of the French, and each diff is
-`exampleGloss` lines and nothing else. **7514 of the 8,040 glosses still carry the English
+**Five are done — `nl`, `de`, `fr`, `es`, `es_419` — and 55 are not.** Each diff is
+`exampleGloss` lines and nothing else. **7248 of the 8,040 glosses still carry the English
 headword.**
+
+**A locale pair can be nearly free.** `es` and `es_419` shipped with **129 of their 134
+glosses identical**, differing only where the region does: *estudiantes* for *alumnos*,
+*acera* for *bordillo*, *auto* for *coche*, and an *ustedeo* imperative where Spain uses
+*vosotros*. So Latin American Spanish was derived from the peninsular file with those
+five carried across, rather than translated again. Look for the same in `pt`/`pt_BR`,
+`fr`/`fr_CA` and the three Chinese locales before treating any of them as a fresh job.
+
+**Comparing the pair also found damage that was already in the store.** The `es_419`
+gloss for *ontic* read "los númerlo" where it should read "los números" — a word broken
+in generation, not a regional form, and invisible to every check the suite has, because
+a mangled word is still a word. `text_quality_test.dart` catches a stray escape or an
+unclosed quotation; it cannot catch this. **Diffing two locales that ought to agree is a
+proofreading tool nobody had used**, and it is worth running over the other near-identical
+pairs.
 
 **How much a language has already borrowed decides how much work it is**, and that is
 not something to discover halfway through. *mathesis* and *imbroglio* are unchanged in
