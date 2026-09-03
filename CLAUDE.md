@@ -403,12 +403,25 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Dutch is done and is the only one.** 133 of its 134 sentences changed, and the diff is
-133 `exampleGloss` lines and nothing else. Two are deliberately unchanged because the
-Dutch word *is* the English one — *mathesis* and *imbroglio* are both in Van Dale — and
-they are named in `english_ok` in the locale file so that "English left standing" stays an
-error everywhere else. The other 59 locales still carry the English headword: 7,773 of the
-8,040 glosses.
+**Dutch and German are done; the other 58 are not.** 133 of the 134 Dutch sentences
+changed and 134 of the German, and each diff is `exampleGloss` lines and nothing else.
+Two words are deliberately unchanged in both, because the local word *is* the English one
+— *mathesis* and *imbroglio* are in Van Dale and in Duden alike — and they are named in
+`english_ok` in each locale file so that "English left standing" stays an error
+everywhere else. German needed no other exemption: *Ersatz*, *Seneschall*, *Sybarit*,
+*Paroxysmus* and *Solözismus* are German too but spelled differently, so the check sees
+them as translated, which they are. **7643 of the 8,040 glosses still carry the English
+headword.**
+
+**German taught the checker something the other 58 will need.** It refused the whole
+locale over one sentence: *clodpate* ends on `“`, because German closes a quotation with
+the character Dutch opens one with (`„…“` against `„…”`). The list of characters a sentence
+may end on had been written from English and Dutch habits, so it rejected correct German.
+It now also allows `。` and `！？` for Japanese and Chinese, `।॥` for Hindi, `۔؟` for Urdu and
+Arabic, and `։` for Armenian — each of which would have failed the same way. Worth
+expecting one of these per script family, and worth noticing that **the check failing is
+the tool working**: nothing was written, and the fault was in the rule rather than in the
+text.
 
 **Two traps for whoever does the next locale.** `emit_from_data.py` is the source of truth
 for the **37** locales that have a `tool/_data_<locale>.py`, so an edit to their overlay

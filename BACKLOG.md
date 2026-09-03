@@ -51,17 +51,16 @@ the project.
 ## 3. The example sentence's headword, in 59 more languages
 
 `exampleGloss` is the example sentence in the reader's language, and it kept the English
-headword standing inside it — "De **soporific** dreun van de lezing". **Dutch is done and
-is the only one**; the other 59 still carry it, 7,773 of the 8,040 glosses. See *The
-English inside the example sentence* in [CLAUDE.md](CLAUDE.md) for the whole reasoning
-and for what must not be translated.
+headword standing inside it — "De **soporific** dreun van de lezing". **Dutch and German
+are done**; the other 58 still carry it. See *The English inside the example sentence* in
+[CLAUDE.md](CLAUDE.md) for the whole reasoning and for what must not be translated.
 
 Where it stands:
 
 | | |
 |---|---|
-| done | `nl` — 133 of its 134 sentences changed |
-| left | the other 59 locales |
+| done | `nl` (133 of 134 sentences), `de` (134 of 134) |
+| left | the other 58 locales — 7643 of the 8,040 glosses |
 | never | the 7 quotations that **are** the specimen, in all 60 |
 
 The machinery is built and the guardrails run without a model in them:

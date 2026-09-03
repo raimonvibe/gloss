@@ -127,8 +127,14 @@ def main():
             faults.append('%s: stray space' % wid)
         if '\\' in sentence:
             faults.append('%s: a stray escape' % wid)
-        if sentence[-1] not in '.!?”"’»':
-            faults.append('%s: does not end on a full stop' % wid)
+        # What counts as the end of a sentence, across sixty languages. German
+        # closes a quotation with the character Dutch opens one with („…“
+        # against „…”), Japanese and Chinese end on 。, Hindi on ।, Urdu
+        # on ۔, Armenian on ։. A list built from English habits rejects
+        # correct text in half of them - which is how this first ran.
+        if sentence[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։':
+            faults.append('%s: does not end on a full stop, it ends on %r'
+                          % (wid, sentence[-1]))
 
         if row.get('exampleGloss') != sentence:
             changed += 1
