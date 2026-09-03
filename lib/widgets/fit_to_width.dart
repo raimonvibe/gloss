@@ -8,10 +8,22 @@ import 'package:flutter/rendering.dart';
 /// word and drop the tail onto a line of its own. That is how *Proleptical*
 /// came to sit above a lone "l" leaning on the frame, and *Circumincession*
 /// above a stranded "on" in the lexicon. This gives the line back the room it
-/// asked for and then scales it down to fit, no further than [minScale] of the
-/// size it was written at; past that it stops and lets the text wrap, because
-/// type that small is worse to read than a second line — a reader who has
-/// turned their text size up gets a wrapped headword, not a shrunken one.
+/// asked for and then scales it down to fit, no further than [minScale] of
+/// **the size it was written at**; past that it stops and lets the text wrap,
+/// because type that small is worse to read than a second line.
+///
+/// *The size it was written at* is the design size — the 22pt a headword is
+/// set in — and not the size the reader's own setting has grown it to. That
+/// distinction is the whole of it. The floor used to be a fraction of the
+/// scaled type, so a reader at the 2.0 maximum got a floor of 0.62 × 44pt =
+/// 27pt: still half again the size the word is drawn at by default, and far
+/// too high to hold the longest headwords on one line. *Circumincession*
+/// duly broke, with a lone "n" under it, in the one place the widget exists
+/// to prevent. Dividing the floor by the reader's scaler pins it to the
+/// rendered size instead: whatever the setting, the line may shrink to
+/// [minScale] of its design size and no further, so the word stays on one
+/// line for as long as it is still bigger than a word at the ordinary
+/// setting. At a scaler of 1 nothing moves.
 ///
 /// The child measures itself. An earlier version measured the text here with
 /// a [TextPainter] inside a [LayoutBuilder], which was wrong twice over: the
@@ -22,10 +34,30 @@ import 'package:flutter/rendering.dart';
 ///
 /// Only the big type needs this — a hero, a headword. Body and list text is
 /// meant to wrap.
-class FitToWidth extends SingleChildRenderObjectWidget {
-  const FitToWidth({super.key, required Widget super.child, this.minScale = 0.62});
+class FitToWidth extends StatelessWidget {
+  const FitToWidth({super.key, required this.child, this.minScale = 0.62});
 
-  /// How far the line may shrink before it is allowed to wrap instead.
+  final Widget child;
+
+  /// How far the line may shrink, as a fraction of the size it was written
+  /// at, before it is allowed to wrap instead.
+  final double minScale;
+
+  @override
+  Widget build(BuildContext context) {
+    // The child grows with the reader's setting, so the floor has to shrink
+    // by the same amount to stay pinned to the design size.
+    final scaler = MediaQuery.textScalerOf(context).scale(1);
+    return _FittedLine(
+      minScale: scaler > 1 ? minScale / scaler : minScale,
+      child: child,
+    );
+  }
+}
+
+class _FittedLine extends SingleChildRenderObjectWidget {
+  const _FittedLine({required Widget super.child, required this.minScale});
+
   final double minScale;
 
   @override
