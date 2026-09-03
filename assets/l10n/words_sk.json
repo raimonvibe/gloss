@@ -4,1073 +4,1475 @@
       "partOfSpeech": "sloveso",
       "definition": "Osladiť alebo očistiť; odstrániť z niečoho ostrosť.",
       "friendly": "Zobrať niečemu žihadlo alebo horkosť — doslova to osladiť, alebo obrazne zmierniť ostrú myšlienku, aby sa ľahšie prijala.",
-      "exampleGloss": "Redaktor edulcorated ostrú recenziu, než išla do tlače.",
+      "exampleGloss": "Redaktor osladil ostrú recenziu, skôr než išla do tlače.",
       "origin": "latinčina",
-      "rootMeanings": ["von, dôkladne", "sladký"]
+      "rootMeanings": [
+        "von, dôkladne",
+        "sladký"
+      ]
     },
     "pietistic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Prehnane alebo predstierane nábožný.",
       "friendly": "O niekom, koho nábožnosť pôsobí ako predstavenie — viac herectvo než živá viera.",
-      "exampleGloss": "Jeho pietistic vzdychanie počas kázne otravovalo celú lavicu.",
+      "exampleGloss": "Jeho pietistické vzdychanie počas kázne otravovalo celú lavicu.",
       "origin": "latinčina",
-      "rootMeanings": ["nábožnosť, povinnosť", "majúci povahu"]
+      "rootMeanings": [
+        "nábožnosť, povinnosť",
+        "majúci povahu"
+      ]
     },
     "amphiboly": {
       "partOfSpeech": "podstatné meno",
       "definition": "Dvojznačnosť plynúca z vetnej stavby — veta čitateľná dvoma spôsobmi.",
       "friendly": "Veta je gramaticky v poriadku, ale dá sa čítať dvoma celkom odlišnými spôsobmi, ako „Visiting relatives can be tiring“.",
-      "exampleGloss": "„Visiting relatives can be tiring“ je klasická amphiboly — unavujú príbuzní, alebo sama návšteva?",
+      "exampleGloss": "„Visiting relatives can be tiring“ je klasická amfibólia — unavujú príbuzní, alebo sama návšteva?",
       "origin": "gréčtina",
-      "rootMeanings": ["oba, z oboch strán", "hádzať"]
+      "rootMeanings": [
+        "oba, z oboch strán",
+        "hádzať"
+      ]
     },
     "trenchant": {
       "partOfSpeech": "prídavné meno",
       "definition": "Ostrý, prenikavý, idúci rovno k veci.",
-      "friendly": "Prereže vatu slov — trenchant poznámka alebo myseľ sa rýchlo dostane k jadru, bez zbytočností.",
-      "exampleGloss": "Jej trenchant kritika nenechala dieram deja kam sa schovať.",
+      "friendly": "Prereže vatu slov — britká poznámka alebo myseľ sa rýchlo dostane k jadru, bez zbytočností.",
+      "exampleGloss": "Jej britká kritika nenechala dieram deja kam sa schovať.",
       "origin": "stará francúzština",
-      "rootMeanings": ["rezať", "dej, vlastnosť"]
+      "rootMeanings": [
+        "rezať",
+        "dej, vlastnosť"
+      ]
     },
     "inchoative": {
       "partOfSpeech": "prídavné meno",
       "definition": "Iba začínajúci; v ranom alebo zárodočnom štádiu.",
       "friendly": "Ešte v prvých okamihoch — plán, cit alebo proces, ktorý sa iba začína ujímať tvaru.",
-      "exampleGloss": "Inchoative štádiá zmluvy boli sľubné, ale veľa podrobností ostávalo otvorených.",
+      "exampleGloss": "Počiatočné štádiá zmluvy boli sľubné, ale veľa podrobností ostávalo otvorených.",
       "origin": "latinčina",
-      "rootMeanings": ["začať", "smerujúci k"]
+      "rootMeanings": [
+        "začať",
+        "smerujúci k"
+      ]
     },
     "panegyric": {
       "partOfSpeech": "podstatné meno",
       "definition": "Slávnostná reč alebo text, ktorý niekoho vysoko chváli.",
       "friendly": "Plnohodnotná slávnostná chvála — žiarivý panegyrik alebo reč, ktorá spieva niečie zásluhy naplno.",
-      "exampleGloss": "Odchádzajúcu profesorku vyprevadil panegyric od najbližších žiakov.",
+      "exampleGloss": "Odchádzajúcu profesorku vyprevadil panegyrik od najbližších žiakov.",
       "origin": "gréčtina",
-      "rootMeanings": ["všetok", "zhromaždenie, zbor"]
+      "rootMeanings": [
+        "všetok",
+        "zhromaždenie, zbor"
+      ]
     },
     "ontic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Týkajúci sa skutočnej existencie alebo faktického bytia, nie odťažitej teórie.",
       "friendly": "O veciach tak, ako naozaj sú, nie len o predstavách alebo teóriách o nich.",
-      "exampleGloss": "Filozofi sa sporia, či čísla majú nejaký ontic status, alebo žijú len v mysli.",
+      "exampleGloss": "Filozofi sa sporia, či čísla majú nejaký ontický status, alebo žijú len v mysli.",
       "origin": "gréčtina",
-      "rootMeanings": ["bytie, to, čo je", "vzťahujúci sa k"]
+      "rootMeanings": [
+        "bytie, to, čo je",
+        "vzťahujúci sa k"
+      ]
     },
     "fructify": {
       "partOfSpeech": "sloveso",
       "definition": "Niesť ovocie, alebo stať sa plodným.",
       "friendly": "Napokon sa vyplatiť — úsilie, nápad alebo vklad, ktorý priniesol plod a vyrástol zo semena v niečo užitočné.",
-      "exampleGloss": "Roky tichej práce napokon fructified vo funkčnú vakcínu.",
+      "exampleGloss": "Roky tichej práce napokon priniesli plod — funkčnú vakcínu.",
       "origin": "latinčina",
-      "rootMeanings": ["ovocie", "činiť, spôsobovať"]
+      "rootMeanings": [
+        "ovocie",
+        "činiť, spôsobovať"
+      ]
     },
     "proleptical": {
       "partOfSpeech": "prídavné meno",
       "definition": "Predjímajúci alebo zobrazujúci niečo ako hotové skôr, než sa to stalo.",
       "friendly": "Predbiehať literárne — líčiť budúcnosť, ako keby už bola na konci, aby myšlienka udrela silnejšie.",
-      "exampleGloss": "Generálov proleptical prípitok na „víťazstvo“ zaznel celý týždeň pred bitkou.",
+      "exampleGloss": "Generálov proleptický prípitok na „víťazstvo“ zaznel celý týždeň pred bitkou.",
       "origin": "gréčtina",
-      "rootMeanings": ["pred", "vziať, uchvátiť"]
+      "rootMeanings": [
+        "pred",
+        "vziať, uchvátiť"
+      ]
     },
     "pneumatic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Poháňaný tlakom vzduchu; tiež vzťahujúci sa k duchu alebo dychu.",
       "friendly": "Zvyčajne znamená „na vzduch“ — brzdy, čerpadlá, nástroje, ktoré syčia; v starších textoch aj o duchu či dychu.",
-      "exampleGloss": "Pneumatic brzdy zasyčali, keď autobus zastavil pri obrubníku.",
+      "exampleGloss": "Pneumatické brzdy zasyčali, keď autobus zastavil pri obrubníku.",
       "origin": "gréčtina",
-      "rootMeanings": ["vietor, dych, duch", "týkajúci sa"]
+      "rootMeanings": [
+        "vietor, dych, duch",
+        "týkajúci sa"
+      ]
     },
     "cataphatic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Opisujúci Boha alebo božské kladnými výpoveďami — opak apofatického.",
       "friendly": "Hovoriť o Bohu tým, že povieme, aký je: „Boh je láska“, „Boh je spravodlivý“ — nielen čím nie je.",
-      "exampleGloss": "Cataphatic teológia hovorí isto o Bohu ako milujúcom, spravodlivom a milosrdnom.",
+      "exampleGloss": "Katafatická teológia hovorí isto o Bohu ako milujúcom, spravodlivom a milosrdnom.",
       "origin": "gréčtina",
-      "rootMeanings": ["dolu, podľa", "hovoriť, povedať"]
+      "rootMeanings": [
+        "dolu, podľa",
+        "hovoriť, povedať"
+      ]
     },
     "fiducial": {
       "partOfSpeech": "prídavné meno",
       "definition": "Založený na dôvere alebo viere; tiež pevný referenčný bod.",
-      "friendly": "Niečo, čo vezmete na vieru a potom držíte ako kotvu — fiducial značka je pevný bod, od ktorého sa meria všetko ostatné.",
-      "exampleGloss": "Zememerači umiestnili fiducial značku do skaly, kým začali mapovať miesto.",
+      "friendly": "Niečo, čo vezmete na vieru a potom držíte ako kotvu — vzťažná značka je pevný bod, od ktorého sa meria všetko ostatné.",
+      "exampleGloss": "Zememerači umiestnili vzťažnú značku do skaly, skôr než začali mapovať miesto.",
       "origin": "latinčina",
-      "rootMeanings": ["dôverovať", "dôvera, istota"]
+      "rootMeanings": [
+        "dôverovať",
+        "dôvera, istota"
+      ]
     },
     "theodicy": {
       "partOfSpeech": "podstatné meno",
       "definition": "Obhajoba Božej dobroty tvárou v tvár existencii zla.",
       "friendly": "Vekovitá snaha odpovedať: ak je Boh dobrý, odkiaľ je zlo?",
-      "exampleGloss": "Jej práca skúmala theodicy prizmou Knihy Jób.",
+      "exampleGloss": "Jej práca skúmala teodíceu prizmou Knihy Jób.",
       "origin": "gréčtina",
-      "rootMeanings": ["boh", "spravodlivosť"]
+      "rootMeanings": [
+        "boh",
+        "spravodlivosť"
+      ]
     },
     "circumincession": {
       "partOfSpeech": "podstatné meno",
       "definition": "Vzájomné prebývanie — teologický termín pre to, ako osoby Trojice prebývajú jedna v druhej.",
       "friendly": "Teologické slovo pre trojičnú jednotu tak úplnú, že každá časť plne obsahuje ostatné a je v nich obsiahnutá.",
-      "exampleGloss": "Učenie o circumincession sa snaží vysvetliť, ako sú Otec, Syn a Duch odlišní, a predsa nerozdielni.",
+      "exampleGloss": "Učenie o perichoréze sa snaží vysvetliť, ako sú Otec, Syn a Duch odlišní, a predsa nerozdielni.",
       "origin": "latinčina",
-      "rootMeanings": ["okolo", "ísť, kráčať"]
+      "rootMeanings": [
+        "okolo",
+        "ísť, kráčať"
+      ]
     },
     "redound": {
       "partOfSpeech": "sloveso",
       "definition": "Mať následok, ktorý sa niekomu vráti na prospech alebo sa na ňom odrazí.",
-      "friendly": "Keď sa sláva (alebo vina) vráti k tomu, kto si ju zaslúžil — dobré skutky, ktoré redound k vašej povesti, sa vrátia ako odmena.",
-      "exampleGloss": "Úspech tímu redound k cti jeho tichého, pracovitého trénera.",
+      "friendly": "Keď sa sláva (alebo vina) vráti k tomu, kto si ju zaslúžil — dobré skutky, ktoré idú na dobro vašej povesti, sa vrátia ako odmena.",
+      "exampleGloss": "Úspech tímu sa obráti na česť jeho tichého, pracovitého trénera.",
       "origin": "latinčina",
-      "rootMeanings": ["späť, znova", "vlna"]
+      "rootMeanings": [
+        "späť, znova",
+        "vlna"
+      ]
     },
     "ineluctable": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nevyhnutný, z ktorého nemožno uniknúť.",
-      "friendly": "Stane sa, čokoľvek robíte — z ineluctable konca sa nevykrútite.",
-      "exampleGloss": "Staroba príde na každého; je proste ineluctable.",
+      "friendly": "Stane sa, nech robíte čokoľvek — z neodvratného konca sa nevykrútite.",
+      "exampleGloss": "Staroba príde na každého; je proste neodvratná.",
       "origin": "latinčina",
-      "rootMeanings": ["ne", "vyprostiť sa, vykrútiť"]
+      "rootMeanings": [
+        "ne",
+        "vyprostiť sa, vykrútiť"
+      ]
     },
     "periphrastic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Používajúci okluku, mnohoslovné obraty namiesto priameho tvaru.",
       "friendly": "Ísť k veci oklikou — povedať „vykonal odchod“ namiesto „odišiel“, alebo celú vetu tam, kde stačilo slovo.",
-      "exampleGloss": "Jeho periphrastic e-maily mohli povedať jedným riadkom to, na čo potreboval tri odseky.",
+      "exampleGloss": "Jeho perifrastické e-maily mohli povedať jedným riadkom to, na čo potreboval tri odseky.",
       "origin": "gréčtina",
-      "rootMeanings": ["okolo", "ohlásiť, povedať"]
+      "rootMeanings": [
+        "okolo",
+        "ohlásiť, povedať"
+      ]
     },
     "hebetude": {
       "partOfSpeech": "podstatné meno",
       "definition": "Duševná tuposť alebo malátnosť.",
       "friendly": "Hmlistá, ospalá ťarcha mysle, keď myslieť je ako brdiť sa sirupom.",
-      "exampleGloss": "Vlna hebetude zasiahla triedu hneď po obede.",
+      "exampleGloss": "Vlna otupenosti zasiahla triedu hneď po obede.",
       "origin": "latinčina",
-      "rootMeanings": ["tupý, otupený", "stav, vlastnosť"]
+      "rootMeanings": [
+        "tupý, otupený",
+        "stav, vlastnosť"
+      ]
     },
     "unpropitious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nepriaznivý; veštiaci neblahé.",
       "friendly": "Zlé znamenie — okolnosti alebo čas, ktoré akoby pracovali proti vám ešte pred začiatkom.",
-      "exampleGloss": "Sivé nebo a vybitá batéria dali výletu unpropitious štart.",
+      "exampleGloss": "Sivá obloha a vybitá batéria dali výletu nepriaznivý štart.",
       "origin": "latinčina",
-      "rootMeanings": ["ne", "priaznivý, milostivý"]
+      "rootMeanings": [
+        "ne",
+        "priaznivý, milostivý"
+      ]
     },
     "fricaseed": {
       "partOfSpeech": "prídavné meno / sloveso",
-      "definition": "Mäso dusené v omáčke — správne sa píše fricasseed.",
+      "definition": "Mäso dusené v omáčke — správne sa píše „fricasseed“.",
       "friendly": "Útulné staré kuchárske slovo pre mäso nakrájané a pomaly dusené vo vlastnej omáčke do mäkka.",
-      "exampleGloss": "Babkino fricasseed kura bolo ozdobou každej nedeľnej večere.",
+      "exampleGloss": "Babkino kuracie frikasé bolo ozdobou každej nedeľnej večere.",
       "origin": "francúzština",
-      "rootMeanings": ["smažiť", "lámať (na kúsky)"]
+      "rootMeanings": [
+        "smažiť",
+        "lámať (na kúsky)"
+      ]
     },
     "ersatz": {
       "partOfSpeech": "prídavné meno",
       "definition": "Umelá alebo horšia náhrada.",
       "friendly": "Náhrada namiesto pravého — formálne to splní, ale každý vidí, že to nie je ono.",
-      "exampleGloss": "Za vojny sa kupujúci uspokojili s ersatz kávou z praženej čakanky.",
+      "exampleGloss": "Za vojny sa kupujúci uspokojili s náhradkovou kávou z praženej čakanky.",
       "origin": "nemčina",
-      "rootMeanings": ["von, predpona náhrady", "postaviť, umiestniť"]
+      "rootMeanings": [
+        "von, predpona náhrady",
+        "postaviť, umiestniť"
+      ]
     },
     "reify": {
       "partOfSpeech": "sloveso",
       "definition": "Zaobchádzať s abstraktnou ideou, ako keby to bola konkrétna vec.",
       "friendly": "Urobiť myšlienku hmatateľnou a hustou — premeniť niečo hmlisté, ako „spravodlivosť“ alebo „trh“, na predmet, na ktorý možno ukázať.",
-      "exampleGloss": "Nazývať „ducha“ národa samostatnou bytosťou znamená reify niečo, čo je v skutočnosti milióny jednotlivých volieb.",
+      "exampleGloss": "Nazývať „ducha“ národa samostatnou bytosťou znamená zvecňovať niečo, čo je v skutočnosti milióny jednotlivých volieb.",
       "origin": "latinčina",
-      "rootMeanings": ["vec", "činiť"]
+      "rootMeanings": [
+        "vec",
+        "činiť"
+      ]
     },
     "eluded": {
       "partOfSpeech": "sloveso (minulý čas)",
       "definition": "Dovedne unikol alebo sa vyhol.",
       "friendly": "Odišiel čisto — uhol, často šikovne alebo tesne, či už šlo o dopadnutie, otázku, alebo odpoveď.",
-      "exampleGloss": "Odpoveď ju eluded celé hodiny, kým to náhle cvaklo v sprche.",
+      "exampleGloss": "Odpoveď jej unikala celé hodiny, kým to náhle cvaklo v sprche.",
       "origin": "latinčina",
-      "rootMeanings": ["von, preč", "hrať"]
+      "rootMeanings": [
+        "von, preč",
+        "hrať"
+      ]
     },
     "aporetic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Vyjadrujúci pochybnosť, zmätok alebo nerozriešený rozpor.",
       "friendly": "Zastaviť sa pri skutočnej slepej uličke myslenia — nie z lenivosti, ale preto, že otázka sama nedá úhľadnú odpoveď.",
-      "exampleGloss": "Sokrates často končil dialógy na aporetic note: otázok viac než odpovedí.",
+      "exampleGloss": "Sokrates často končil dialógy na aporetickej note: otázok viac než odpovedí.",
       "origin": "gréčtina",
-      "rootMeanings": ["bez", "príchod, cesta"]
+      "rootMeanings": [
+        "bez",
+        "príchod, cesta"
+      ]
     },
     "metonymy": {
       "partOfSpeech": "podstatné meno",
       "definition": "Obraz, ktorý vec pomenuje susedným výrazom, napríklad „koruna“ namiesto panovníka.",
       "friendly": "Dosadiť súvisiace slovo namiesto veci samej — povedať „Biely dom oznámil“, keď myslíte prezidenta.",
-      "exampleGloss": "„Wall Street had a rough day“ je metonymy — v skutočnosti ide o burzu.",
+      "exampleGloss": "„Wall Street had a rough day“ je metonymia — v skutočnosti ide o burzu.",
       "origin": "gréčtina",
-      "rootMeanings": ["zmena, po", "meno"]
+      "rootMeanings": [
+        "zmena, po",
+        "meno"
+      ]
     },
     "deracinate": {
       "partOfSpeech": "sloveso",
       "definition": "Vytrhnúť aj s koreňom; vyrvať z prirodzeného prostredia.",
       "friendly": "Vytiahnuť niečo (alebo niekoho) aj s koreňom, preč z miesta alebo kultúry, ku ktorým patria.",
-      "exampleGloss": "Vojna deracinated celé pokolenie a rozptýlila rodiny cez hranice.",
+      "exampleGloss": "Vojna vykorenila celé pokolenie a rozptýlila rodiny cez hranice.",
       "origin": "francúzština / latinčina",
-      "rootMeanings": ["preč, od", "koreň"]
+      "rootMeanings": [
+        "preč, od",
+        "koreň"
+      ]
     },
     "euphonious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Ľubozvučný.",
-      "friendly": "Proste príjemné na sluch — euphonious slovo, meno alebo veta sa po uchu kotúľa hladko, skoro hudobne.",
-      "exampleGloss": "„Murmuring brook“ je euphonious malá fráza, mäkká a ľahká na vyslovenie.",
+      "friendly": "Proste príjemné na sluch — eufonické slovo, meno alebo veta sa po uchu kotúľa hladko, skoro hudobne.",
+      "exampleGloss": "„Murmuring brook“ je eufonická malá fráza, mäkká a ľahká na vyslovenie.",
       "origin": "gréčtina",
-      "rootMeanings": ["dobrý, dobre", "zvuk, hlas"]
+      "rootMeanings": [
+        "dobrý, dobre",
+        "zvuk, hlas"
+      ]
     },
     "putative": {
       "partOfSpeech": "prídavné meno",
       "definition": "Všeobecne predpokladaný alebo pokladaný za takého.",
       "friendly": "Široko prijímaný za pravdu, aj keď to nie je dokázané — „domnelý“ otec, „údajný“ autor.",
-      "exampleGloss": "Putative autor listu sa neskôr ukázal ako úplný cudzinec.",
+      "exampleGloss": "Domnelý autor listu sa neskôr ukázal ako úplný cudzinec.",
       "origin": "latinčina",
-      "rootMeanings": ["myslieť, pokladať", "majúci povahu"]
+      "rootMeanings": [
+        "myslieť, pokladať",
+        "majúci povahu"
+      ]
     },
     "neologism": {
       "partOfSpeech": "podstatné meno",
       "definition": "Novo utvorené slovo alebo rčenie.",
       "friendly": "Celkom nové slovo — práve vymyslené, ešte nie (alebo sotva) v slovníku.",
-      "exampleGloss": "„Doomscrolling“ začalo ako neologism a rýchlo sa stalo všedným slangom.",
+      "exampleGloss": "„Doomscrolling“ začalo ako neologizmus a rýchlo sa stalo všedným slangom.",
       "origin": "gréčtina",
-      "rootMeanings": ["nový", "slovo, reč"]
+      "rootMeanings": [
+        "nový",
+        "slovo, reč"
+      ]
     },
     "splenetic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Zlostný alebo zlej nálady.",
       "friendly": "V zlej, podráždenej nálade — hotový sa ohnúť, ako sa kedysi verilo, že slezina vládne povahe.",
-      "exampleGloss": "Odoslal splenetic odpoveď na e-mail v priebehu sekúnd po prečítaní.",
+      "exampleGloss": "Odoslal žlčovitú odpoveď na e-mail v priebehu sekúnd po prečítaní.",
       "origin": "gréčtina / latinčina",
-      "rootMeanings": ["slezina (sídlo hnevu)", "postihnutý"]
+      "rootMeanings": [
+        "slezina (sídlo hnevu)",
+        "postihnutý"
+      ]
     },
     "sententious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Náchylný k nabubrelému alebo predstieranému moralizovaniu.",
       "friendly": "Rád rozdáva životné ponaučenia s vážnosťou, akoby každá veta bola sušienka s proroctvom.",
-      "exampleGloss": "Jeho sententious prípitok o „pravom zmysle priateľstva“ prinútil všetkých pozrieť sa na hodinky.",
+      "exampleGloss": "Jeho sentenciózny prípitok o „pravom zmysle priateľstva“ prinútil všetkých pozrieť sa na hodinky.",
       "origin": "latinčina",
-      "rootMeanings": ["názor, sentencia", "plný"]
+      "rootMeanings": [
+        "názor, sentencia",
+        "plný"
+      ]
     },
     "garrulous": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nadmerné upovídaný, zvlášť o maličkostiach.",
       "friendly": "Proste neprestane — sype drobnosti dlho potom, čo ostatným už nie je čo povedať.",
-      "exampleGloss": "Garrulous taxikár nám rozprával celý svoj život, ešte kým sme nevyjeli z letiska.",
+      "exampleGloss": "Ukecaný taxikár nám vyrozprával celý svoj život, ešte než sme opustili letisko.",
       "origin": "latinčina",
-      "rootMeanings": ["žvaníť, tárať", "náchylný k"]
+      "rootMeanings": [
+        "žvaníť, tárať",
+        "náchylný k"
+      ]
     },
     "fatuity": {
       "partOfSpeech": "podstatné meno",
       "definition": "Pošetilosť, hlúposť.",
       "friendly": "Holá hlúposť — poznámka alebo plán tak prázdne, že na ne sotva stojí za to vážne odpovedať.",
-      "exampleGloss": "Sama fatuity plánu vyšla najavo v okamihu, keď ho skúsili.",
+      "exampleGloss": "Sama nezmyselnosť plánu vyšla najavo v okamihu, keď ho skúsili.",
       "origin": "latinčina",
-      "rootMeanings": ["pošetilý, hlúpy", "stav"]
+      "rootMeanings": [
+        "pošetilý, hlúpy",
+        "stav"
+      ]
     },
     "peroration": {
       "partOfSpeech": "podstatné meno",
       "definition": "Záverečná časť reči, často so zhrnutím.",
       "friendly": "Veľké finále prejavu — záverečný úsek, kde rečník všetko zoberie a udrie do bodky.",
-      "exampleGloss": "K peroration už stála polovica sály.",
+      "exampleGloss": "K perorácii už stála polovica sály.",
       "origin": "latinčina",
-      "rootMeanings": ["cez, až do konca", "hovoriť, prihovárať sa"]
+      "rootMeanings": [
+        "cez, až do konca",
+        "hovoriť, prihovárať sa"
+      ]
     },
     "tautology": {
       "partOfSpeech": "podstatné meno",
       "definition": "Zbytočné opakovanie tej istej myšlienky inými slovami.",
       "friendly": "Povedať to isté dvakrát, aniž by ste čokoľvek pridali, ako „bezplatný darček“ alebo „konečný výsledok“.",
-      "exampleGloss": "„It is what it is“ je obľúbená tautology tých, ktorí sa vyhýbajú skutočnému vysvetleniu.",
+      "exampleGloss": "„It is what it is“ je obľúbená tautológia tých, ktorí sa vyhýbajú skutočnému vysvetleniu.",
       "origin": "gréčtina",
-      "rootMeanings": ["ten istý", "slovo, reč"]
+      "rootMeanings": [
+        "ten istý",
+        "slovo, reč"
+      ]
     },
     "laconism": {
       "partOfSpeech": "podstatné meno",
       "definition": "Používanie veľmi mála slov; úsečná reč.",
       "friendly": "Povedať veľa málom — umenie krátkej, ostro rezanej odpovede, pomenované po Sparťanoch z Lakónie.",
-      "exampleGloss": "„Molon labe“ — „poďte a vezmite si ich“ — je najslávnejší laconism v dejinách.",
+      "exampleGloss": "„Molon labe“ — „poďte a vezmite si ich“ — je najslávnejší lakonizmus v dejinách.",
       "origin": "gréčtina",
-      "rootMeanings": ["Sparťan z Lakónie", "zvyk, spôsob"]
+      "rootMeanings": [
+        "Sparťan z Lakónie",
+        "zvyk, spôsob"
+      ]
     },
     "pabulum": {
       "partOfSpeech": "podstatné meno",
       "definition": "Nevýrazné, zjednodušené myšlienky; pôvodne mdlé jedlo alebo kaša.",
       "friendly": "Zriedená myšlienka — obsah tak bezpečný a zjednodušený, že z neho myseľ nemá nijakú výživu.",
-      "exampleGloss": "Politikova reč bola skoro samý pabulum: hmlisté sľuby, za ktoré sa nedá chytiť.",
+      "exampleGloss": "Politikova reč bola skoro samá vata: hmlisté sľuby, za ktoré sa nedá chytiť.",
       "origin": "latinčina",
-      "rootMeanings": ["kŕmiť", "prostriedok, nástroj"]
+      "rootMeanings": [
+        "kŕmiť",
+        "prostriedok, nástroj"
+      ]
     },
     "soporific": {
       "partOfSpeech": "prídavné meno",
       "definition": "Vyvolávajúci spánok alebo ospalosť.",
       "friendly": "Tak nudný — alebo doslova uspávajúci — že sa klížia oči. Teplé mlieko, alebo trojhodinová rozpočtová schôdza.",
-      "exampleGloss": "Soporific hukot prednášky nútil polovicu sály bojovať s viečkami.",
+      "exampleGloss": "Uspávajúci hukot prednášky nútil polovicu sály bojovať s viečkami.",
       "origin": "latinčina",
-      "rootMeanings": ["hlboký spánok", "činiaci, vyvolávajúci"]
+      "rootMeanings": [
+        "hlboký spánok",
+        "činiaci, vyvolávajúci"
+      ]
     },
     "unctuous": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nadmerné lichotivý alebo olejnatý v správaní.",
       "friendly": "Tak hladký šarm, až kĺže — lichôtky namazané tak husto, že skoro cítite masť.",
-      "exampleGloss": "Unctuous predavač bez konca chválil môj „skvelý vkus“ pred každým príplatkom.",
+      "exampleGloss": "Úlisný predavač bez konca chválil môj „skvelý vkus“ pred každým príplatkom.",
       "origin": "latinčina",
-      "rootMeanings": ["pomazať, olejiť", "plný"]
+      "rootMeanings": [
+        "pomazať, olejiť",
+        "plný"
+      ]
     },
     "captious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Rýchly k výtkám, príliš kritický k maličkostiam.",
       "friendly": "Punktičkársky až k chybe — človek, ktorý nájde chybu vo všetkom, aj keď na tom nezáleží.",
-      "exampleGloss": "Jeho captious poznámky k správe sa točili len okolo čiarok.",
+      "exampleGloss": "Jeho hnidopišské poznámky k správe sa točili len okolo čiarok.",
       "origin": "latinčina",
-      "rootMeanings": ["uchopiť, vziať", "pasca, sofizma"]
+      "rootMeanings": [
+        "uchopiť, vziať",
+        "pasca, sofizma"
+      ]
     },
     "torpid": {
       "partOfSpeech": "prídavné meno",
       "definition": "Malátny, duševne alebo telesne nečinný.",
       "friendly": "Pomalý a polospíci, ako medveď v zimnom spánku — sotva sa hýbe, sotva myslí.",
-      "exampleGloss": "Kancelária upadla do torpid stavu v ťažkom augustovom vedre.",
+      "exampleGloss": "Kancelária upadla do strnulosti v ťažkej augustovej horúčave.",
       "origin": "latinčina",
-      "rootMeanings": ["byť stŕpnutý, malátny", "v stave"]
+      "rootMeanings": [
+        "byť stŕpnutý, malátny",
+        "v stave"
+      ]
     },
     "seneschal": {
       "partOfSpeech": "podstatné meno",
       "definition": "Správca alebo úradník, ktorý viedol stredovekú domácnosť.",
       "friendly": "Stredoveký šéf služobníctva — dôverník, ktorý deň čo deň viedol pánov dom aj panstvo.",
-      "exampleGloss": "Seneschal hradu viedol všetko: od účtov úrody po zoznam hostí.",
+      "exampleGloss": "Senešal hradu viedol všetko: od účtov úrody po zoznam hostí.",
       "origin": "frankčina / stará francúzština",
-      "rootMeanings": ["starý, starší", "sluha"]
+      "rootMeanings": [
+        "starý, starší",
+        "sluha"
+      ]
     },
     "expatiate": {
       "partOfSpeech": "sloveso",
       "definition": "Hovoriť alebo písať obšírne o téme.",
       "friendly": "Naozaj sa rozbehnúť — hovoriť alebo písať a písať, obchádzať predmet zo všetkých strán.",
-      "exampleGloss": "Opýtajte sa ho na veterány — a bude expatiate celú hodinu.",
+      "exampleGloss": "Opýtajte sa ho na veterány — a rozpovie sa na celú hodinu.",
       "origin": "latinčina",
-      "rootMeanings": ["von", "priestor"]
+      "rootMeanings": [
+        "von",
+        "priestor"
+      ]
     },
     "nugatory": {
       "partOfSpeech": "prídavné meno",
       "definition": "Bezcený, maličký; tiež neplatný alebo neúčinný.",
-      "friendly": "V podstate k ničomu — nugatory ustanovenie zmluvy je to, ktoré nič nerobí.",
-      "exampleGloss": "Súd uznal starý predpis nugatory, lebo sa nikdy neprosadzoval.",
+      "friendly": "V podstate k ničomu — neúčinné ustanovenie zmluvy je to, ktoré nič nerobí.",
+      "exampleGloss": "Súd uznal starý predpis za neúčinný, lebo sa nikdy nepresadzoval.",
       "origin": "latinčina",
-      "rootMeanings": ["maličkosti, nezmysel", "náležiaci"]
+      "rootMeanings": [
+        "maličkosti, nezmysel",
+        "náležiaci"
+      ]
     },
     "sagacity": {
       "partOfSpeech": "podstatné meno",
       "definition": "Múdrosť, bystrý úsudok.",
       "friendly": "Ostrá, praktická múdrosť — zdravý súd, ktorý prichádza zo skúsenosti, nielen z kníh.",
-      "exampleGloss": "Sagacity starého kapitána neraz udržala posádku mimo ťažkostí.",
+      "exampleGloss": "Prezieravosť starého kapitána neraz udržala posádku mimo ťažkostí.",
       "origin": "latinčina",
-      "rootMeanings": ["ostročitý, bystrý", "vlastnosť"]
+      "rootMeanings": [
+        "ostročitý, bystrý",
+        "vlastnosť"
+      ]
     },
     "canaille": {
       "partOfSpeech": "podstatné meno",
       "definition": "Prostá chátra alebo masy, opovržlivo.",
       "friendly": "Snobské, pohŕdavé slovo pre „lúzu“, pre obyčajných ľudí, povedané zhora dolu.",
-      "exampleGloss": "Gróf sa uškrnul na canaille zhromaždenú pri palácových vrátach.",
+      "exampleGloss": "Gróf sa uškrnul na chátru zhromaždenú pri palácových vrátach.",
       "origin": "taliančina / francúzština",
-      "rootMeanings": ["pes", "súhrn, svorka"]
+      "rootMeanings": [
+        "pes",
+        "súhrn, svorka"
+      ]
     },
     "contumely": {
       "partOfSpeech": "podstatné meno",
       "definition": "Drzé, ponižujúce zaobchádzanie alebo reč.",
       "friendly": "Kruté, opovržlivé zaobchádzanie, ktoré má ponížiť — urážka, ktorá má páliť.",
-      "exampleGloss": "Znášal roky contumely od kritikov, kým bola práca napokon uznaná.",
+      "exampleGloss": "Znášal roky príkoria od kritikov, kým bola jeho práca napokon uznaná.",
       "origin": "latinčina",
-      "rootMeanings": ["s, dôkladne", "nadúvať sa (pýchou)"]
+      "rootMeanings": [
+        "s, dôkladne",
+        "nadúvať sa (pýchou)"
+      ]
     },
     "askance": {
       "partOfSpeech": "príslovka",
       "definition": "S podozrením alebo nesúhlasom; úkosom.",
       "friendly": "Bočný pohľad na niečo, čomu úplne neveríte — pohľad naložený pochybnosťou.",
-      "exampleGloss": "Učiteľka pozrela askance na podozrivo úhľadnú domácu úlohu.",
+      "exampleGloss": "Učiteľka pozrela úkosom na podozrivo úhľadnú domácu úlohu.",
       "origin": "neisté / taliančina",
-      "rootMeanings": ["k, na", "sklon, šikmosť"]
+      "rootMeanings": [
+        "k, na",
+        "sklon, šikmosť"
+      ]
     },
     "clodpate": {
       "partOfSpeech": "podstatné meno",
       "definition": "Hlúpy človek; trdlo.",
       "friendly": "Staromódna, skoro láskavá nadávka pre toho, kto tupí — palica, dub.",
-      "exampleGloss": "„You clodpate,“ zasmiala sa, „máš mapu celý čas hore nohami.“",
+      "exampleGloss": "„Ty tĺk,“ zasmiala sa, „máš mapu celý čas hore nohami.“",
       "origin": "angličtina",
-      "rootMeanings": ["hruda hliny", "hlava"]
+      "rootMeanings": [
+        "hruda hliny",
+        "hlava"
+      ]
     },
     "actuate": {
       "partOfSpeech": "sloveso",
       "definition": "Uviesť do pohybu alebo činnosti; podnietiť.",
       "friendly": "Byť iskrou, ktorá pohne — či už sa stroj zapne, alebo človek napokon koná podľa myšlienky.",
-      "exampleGloss": "Strach zo straty zákazky actuated celý tím k víkendovým nadčasom.",
+      "exampleGloss": "Strach zo straty zákazky pohnal celý tím k víkendovým nadčasom.",
       "origin": "latinčina",
-      "rootMeanings": ["konanie, pobádanie", "hnať, činiť"]
+      "rootMeanings": [
+        "konanie, pobádanie",
+        "hnať, činiť"
+      ]
     },
     "peculation": {
       "partOfSpeech": "podstatné meno",
       "definition": "Sprenevera prostriedkov zverených do starostlivosti.",
       "friendly": "Potichu kradnúť peniaze, ktoré vám zverili na stráženie — sprenevera v staromódnom plášti.",
-      "exampleGloss": "Pokladníkova peculation ostala bez povšimnutia skoro desať rokov.",
+      "exampleGloss": "Pokladníkova sprenevera ostala bez povšimnutia takmer desať rokov.",
       "origin": "latinčina",
-      "rootMeanings": ["súkromný majetok", "dobytok, bohatstvo"]
+      "rootMeanings": [
+        "súkromný majetok",
+        "dobytok, bohatstvo"
+      ]
     },
     "demi-monde": {
       "partOfSpeech": "podstatné meno",
       "definition": "Kruh považovaný za okraj slušnej spoločnosti.",
       "friendly": "Trblietavý, ale pochybný svet — ľudia žijúci kúsok mimo pravidiel „slušnej“ spoločnosti.",
-      "exampleGloss": "Román sleduje speváčku v demi-monde kabaretov dvadsiatych rokov.",
+      "exampleGloss": "Román sleduje speváčku v polosvete kabaretov dvadsiatych rokov.",
       "origin": "francúzština",
-      "rootMeanings": ["polovica", "svet, spoločnosť"]
+      "rootMeanings": [
+        "polovica",
+        "svet, spoločnosť"
+      ]
     },
     "extant": {
       "partOfSpeech": "prídavné meno",
       "definition": "Stále existujúci; nevyhynutý a nezničený.",
       "friendly": "Stále tu — o starých veciach (rukopisoch, druhoch, budovách), ktorým sa podarilo prežiť.",
-      "exampleGloss": "Sú známe len tri extant výtlačky prvého nákladu.",
+      "exampleGloss": "Sú známe len tri zachované výtlačky prvého nákladu.",
       "origin": "latinčina",
-      "rootMeanings": ["von", "stáť"]
+      "rootMeanings": [
+        "von",
+        "stáť"
+      ]
     },
     "perfidy": {
       "partOfSpeech": "podstatné meno",
       "definition": "Verolomnosť; zrada dôvery.",
       "friendly": "Hlboká, úmyselná zrada — rozbitie dôvery, ktorú mal človek plné právo očakávať.",
-      "exampleGloss": "Generál nikdy neodpustil perfidy starého priateľa pri rokovacom stole.",
+      "exampleGloss": "Generál nikdy neodpustil vierolomnosť starého priateľa pri rokovacom stole.",
       "origin": "latinčina",
-      "rootMeanings": ["cez, proti", "viera, dôvera"]
+      "rootMeanings": [
+        "cez, proti",
+        "viera, dôvera"
+      ]
     },
     "patois": {
       "partOfSpeech": "podstatné meno",
       "definition": "Miestne nárečie, zvlášť neštandardné.",
       "friendly": "Zvláštny, miestny spôsob reči v kraji — plný slov a rytmov, ktoré cudzinec nemusí zachytiť.",
-      "exampleGloss": "Babka stále hovorila ostrovným patois pri rodinnom stole.",
+      "exampleGloss": "Babka stále hovorila ostrovným nárečím pri rodinnom stole.",
       "origin": "francúzština",
-      "rootMeanings": ["hrubá reč, nárečie", "labka — neobratná reč"]
+      "rootMeanings": [
+        "hrubá reč, nárečie",
+        "labka — neobratná reč"
+      ]
     },
     "prerogative": {
       "partOfSpeech": "podstatné meno",
       "definition": "Zvláštne právo patriace osobe alebo skupine.",
       "friendly": "Výsada, ktorá je vaša a len vaša — právo, ktoré ide s rolou, postavením alebo stavom.",
-      "exampleGloss": "Vybrať miesto rodinnej dovolenky je dedovo prerogative, a všetci to vedia.",
+      "exampleGloss": "Vybrať miesto rodinnej dovolenky je dedova výsada, a všetci to vedia.",
       "origin": "latinčina",
-      "rootMeanings": ["pred", "pýtať sa, hlasovať"]
+      "rootMeanings": [
+        "pred",
+        "pýtať sa, hlasovať"
+      ]
     },
     "hardihood": {
       "partOfSpeech": "podstatné meno",
       "definition": "Smelosť, odvaha; tiež húževnatosť alebo výdrž.",
       "friendly": "Tvrdá, tvrdošijná odolnosť — nerv vykročiť a sila vydržať, keď už ste vykročili.",
-      "exampleGloss": "Chcelo to poriadnu hardihood prejsť sedlo vo víchrici bez mapy.",
+      "exampleGloss": "Chcelo to poriadnu odvahu prejsť sedlo vo víchrici bez mapy.",
       "origin": "stará francúzština / angličtina",
-      "rootMeanings": ["smelý, otužilý", "stav"]
+      "rootMeanings": [
+        "smelý, otužilý",
+        "stav"
+      ]
     },
     "effloresce": {
       "partOfSpeech": "sloveso",
       "definition": "Rozkvitnúť; tiež sa rozvinúť alebo postupne prejaviť.",
       "friendly": "Otvoriť sa naplno — ako kvet, alebo ako myšlienka, ktorá sa napokon stala sebou.",
-      "exampleGloss": "Jej tichý dar k maľbe effloresced, len čo mala vlastný ateliér.",
+      "exampleGloss": "Jej tichý dar pre maľbu rozkvitol, len čo mala vlastný ateliér.",
       "origin": "latinčina",
-      "rootMeanings": ["von", "začať kvitnúť"]
+      "rootMeanings": [
+        "von",
+        "začať kvitnúť"
+      ]
     },
     "plumb-line": {
       "partOfSpeech": "podstatné meno",
       "definition": "Olovnica — šnúra so závažím na overenie zvislice; prenesené meradlo úsudku.",
       "friendly": "Závažie na šnúre, ktoré visí dokonale rovno, aby sa overila zvislica — a širšie akýkoľvek pevný štandard, s ktorým sa všetko ostatné porovnáva.",
-      "exampleGloss": "Dedovu čestnosť si držal ako istý druh plumb line pre každé rozhodnutie.",
+      "exampleGloss": "Dedovu čestnosť si držal ako istý druh olovnice pre každé rozhodnutie.",
       "origin": "latinčina / angličtina",
-      "rootMeanings": ["olovo", "šnúra, miera"]
+      "rootMeanings": [
+        "olovo",
+        "šnúra, miera"
+      ]
     },
     "fain": {
       "partOfSpeech": "príslovka",
       "definition": "Rád, ochotne (zastaralé).",
       "friendly": "Starodávny spôsob, ako povedať „rád“ alebo „ochotne by som“.",
-      "exampleGloss": "„I would fain rest here a while,“ povzdychol pútnik.",
+      "exampleGloss": "„Rád by som si tu chvíľu odpočinul,“ povzdychol si pútnik.",
       "origin": "stará angličtina",
-      "rootMeanings": ["rád, radostný", "ochotne, rád"]
+      "rootMeanings": [
+        "rád, radostný",
+        "ochotne, rád"
+      ]
     },
     "opprobrium": {
       "partOfSpeech": "podstatné meno",
       "definition": "Tvrdá verejná hanba alebo odsúdenie.",
       "friendly": "Verejný stud naložený pred očami všetkých — hanba širokého odsudku.",
-      "exampleGloss": "Škandál zvalil verejný opprobrium na celú firmu.",
+      "exampleGloss": "Škandál zvalil verejnú hanu na celú firmu.",
       "origin": "latinčina",
-      "rootMeanings": ["proti", "hanba, výčitka"]
+      "rootMeanings": [
+        "proti",
+        "hanba, výčitka"
+      ]
     },
     "mordant": {
       "partOfSpeech": "prídavné meno",
       "definition": "Ostro sarkastický, uštipačný vo vtipe alebo kritike.",
-      "friendly": "Vtip s opravdivými zubami — mordant poznámka trochu páli práve preto, že tak trefne trefila.",
-      "exampleGloss": "Jej mordant filmové recenzie sa báli režiséri a milovali čitatelia.",
+      "friendly": "Vtip s ozajstnými zubami — štipľavá poznámka trochu páli práve preto, že tak presne mieri.",
+      "exampleGloss": "Jej štipľavých filmových recenzií sa báli režiséri a milovali ich čitatelia.",
       "origin": "latinčina / francúzština",
-      "rootMeanings": ["hrýzť", "hrýzuci, činiaci"]
+      "rootMeanings": [
+        "hrýzť",
+        "hrýzuci, činiaci"
+      ]
     },
     "pronunciamento": {
       "partOfSpeech": "podstatné meno",
       "definition": "Slávnostné vyhlásenie, často politické alebo vojenské.",
       "friendly": "Veľké oficiálne oznámenie — zvyčajne o novej vláde, povstaní alebo dôležitom výnose.",
-      "exampleGloss": "Generálovo pronunciamento za úsvitu ohlásilo novú vládu.",
+      "exampleGloss": "Generálovo vyhlásenie za úsvitu oznámilo novú vládu.",
       "origin": "španielčina",
-      "rootMeanings": ["vpred", "ohlásiť"]
+      "rootMeanings": [
+        "vpred",
+        "ohlásiť"
+      ]
     },
     "sciolist": {
       "partOfSpeech": "podstatné meno",
       "definition": "Človek s povrchnými znalosťami, ktorý sa tvári ako znalec.",
       "friendly": "Ten, kto skĺzol po povrchu témy a hovorí, akoby sám napísal učebnicu.",
-      "exampleGloss": "Stolný sciolist sebaisto opravil skutočného astrofyzika pri stole.",
+      "exampleGloss": "Vševed na večierku sebaisto opravil skutočného astrofyzika pri stole.",
       "origin": "latinčina",
-      "rootMeanings": ["vedieť", "zdrobnenina — malý znalec"]
+      "rootMeanings": [
+        "vedieť",
+        "zdrobnenina — malý znalec"
+      ]
     },
     "dotage": {
       "partOfSpeech": "podstatné meno",
       "definition": "Úpadok duševných síl v starobe.",
       "friendly": "Hmlisté, zabúdajúce pásmo hlbokej staroby, keď ostrosť mysle začína tajiť.",
-      "exampleGloss": "Vo svojom dotage rozprával tie isté tri príbehy každú návštevu, zakaždým ako nové.",
+      "exampleGloss": "Na staré kolená rozprával tie isté tri príbehy pri každej návšteve, zakaždým ako nové.",
       "origin": "stredná angličtina",
-      "rootMeanings": ["blbnúť, byť pošetilý", "stav alebo následok"]
+      "rootMeanings": [
+        "blbnúť, byť pošetilý",
+        "stav alebo následok"
+      ]
     },
     "lee-side": {
       "partOfSpeech": "podstatné meno",
       "definition": "Strana chránená pred vetrom.",
       "friendly": "Tichá, krytá strana — kopca, lode, steny — kam vietor skoro nedosiahne.",
-      "exampleGloss": "Pútnici postavili stan na lee side hrebeňa, aby unikli poryvom.",
+      "exampleGloss": "Pútnici postavili stan na záveternej strane hrebeňa, aby unikli poryvom.",
       "origin": "stará angličtina",
-      "rootMeanings": ["úkryt, ochrana", "bok, plocha"]
+      "rootMeanings": [
+        "úkryt, ochrana",
+        "bok, plocha"
+      ]
     },
     "parry": {
       "partOfSpeech": "sloveso",
       "definition": "Odraziť alebo odvrátiť úder, otázku alebo argument.",
       "friendly": "Hladko odraziť — švih čepeľou, nepríjemnú otázku alebo obvinenie — aniž by ste stratili takt.",
-      "exampleGloss": "Parried zákerú otázku reportéra ľahkým žartom.",
+      "exampleGloss": "Odrazila záludnú otázku reportéra ľahkým žartom.",
       "origin": "francúzština",
-      "rootMeanings": ["odraziť", "pripraviť sa, brániť sa"]
+      "rootMeanings": [
+        "odraziť",
+        "pripraviť sa, brániť sa"
+      ]
     },
     "mephitic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Páchnuci, škodlivý.",
       "friendly": "Taký zápach, že sa zdá skoro jedovatý — smrad, ktorým je nebezpečné dýchať.",
-      "exampleGloss": "Mephitic pach stúpal z močiara pri západe slnka.",
+      "exampleGloss": "Odporný zápach stúpal z močiara pri západe slnka.",
       "origin": "latinčina",
-      "rootMeanings": ["škodlivá para", "majúci povahu"]
+      "rootMeanings": [
+        "škodlivá para",
+        "majúci povahu"
+      ]
     },
     "sybarite": {
       "partOfSpeech": "podstatné meno",
       "definition": "Človek oddaný prepychu a požitku.",
       "friendly": "Ten, kto žije pre pohodlie a nadbytok — jemné jedlá, mäkké lôžka, ľahký život — podľa starogréckeho Sybaridy, slynúceho prepychom.",
-      "exampleGloss": "Pravý sybarite, odmítal akúkoľvek izbu bez vane.",
+      "exampleGloss": "Pravý sybarita, odmietal akúkoľvek izbu bez vane.",
       "origin": "gréčtina",
-      "rootMeanings": ["starogrécke mesto slynúce prepychom", "obyvateľ"]
+      "rootMeanings": [
+        "starogrécke mesto slynúce prepychom",
+        "obyvateľ"
+      ]
     },
     "prescind": {
       "partOfSpeech": "sloveso",
       "definition": "Zámerne odložiť alebo nebrať do úvahy časť niečoho.",
       "friendly": "V duchu odsunúť kúsok skladačky nabok, aby ste čisto videli zvyšok.",
-      "exampleGloss": "Poďme na chvíľu prescind od ceny a opýtajme sa, či plán vôbec funguje.",
+      "exampleGloss": "Poďme na chvíľu odhliadnuť od ceny a opýtajme sa, či plán vôbec funguje.",
       "origin": "latinčina",
-      "rootMeanings": ["pred, preč", "rezať"]
+      "rootMeanings": [
+        "pred, preč",
+        "rezať"
+      ]
     },
     "excoriate": {
       "partOfSpeech": "sloveso",
       "definition": "Ostro kritizovať; tiež stiahnuť kožu.",
       "friendly": "Roztrhať niekoho tvrdou kritikou — slovami, akoby ste sťahovali kožu.",
-      "exampleGloss": "Kritici excoriated pokračovanie za zradu všetkého, čo diváci na origináli milovali.",
+      "exampleGloss": "Kritici strhali pokračovanie za zradu všetkého, čo diváci na origináli milovali.",
       "origin": "latinčina",
-      "rootMeanings": ["preč", "koža, kožušina"]
+      "rootMeanings": [
+        "preč",
+        "koža, kožušina"
+      ]
     },
     "adduce": {
       "partOfSpeech": "sloveso",
       "definition": "Uvádzať ako dôkaz alebo doklad.",
       "friendly": "Vyniesť fakt alebo príklad na podporu myšlienky — to, na čo ukážete, keď sa pýtajú: „a kde je dôkaz?“",
-      "exampleGloss": "Advokátka adduced troch svedkov na podporu alibi klienta.",
+      "exampleGloss": "Advokátka uviedla troch svedkov na podporu klientovho alibi.",
       "origin": "latinčina",
-      "rootMeanings": ["k, ku", "viesť"]
+      "rootMeanings": [
+        "k, ku",
+        "viesť"
+      ]
     },
     "peregrinations": {
       "partOfSpeech": "podstatné meno",
       "definition": "Putovanie alebo cesty, zvlášť dlhé a rozsiahle.",
       "friendly": "Dlhé, túlavé cesty — také putovanie, ktoré vás na dlho odvedie ďaleko od domova.",
-      "exampleGloss": "Jeho peregrinations po troch kontinentoch zaplnili celú policu cestovných denníkov.",
+      "exampleGloss": "Jeho putovania po troch kontinentoch zaplnili celú policu cestovných denníkov.",
       "origin": "latinčina",
-      "rootMeanings": ["cez", "pole, zem (peregrinus: cudzinec)"]
+      "rootMeanings": [
+        "cez",
+        "pole, zem (peregrinus: cudzinec)"
+      ]
     },
     "mendicant": {
       "partOfSpeech": "podstatné meno",
       "definition": "Žobrák, alebo ten, kto žije z almužien.",
       "friendly": "Ten, kto žije prosbou o milosrdenstvo — historicky tak hovorili aj mníchom, ktorí zložili sľub chudoby a žili z darov.",
-      "exampleGloss": "Mendicant bratia nič nevlastnili a spoliehali len na dobrotu dedinčanov.",
+      "exampleGloss": "Žobraví bratia nič nevlastnili a spoliehali sa len na dobrotu dedinčanov.",
       "origin": "latinčina",
-      "rootMeanings": ["žobrať", "žobrák"]
+      "rootMeanings": [
+        "žobrať",
+        "žobrák"
+      ]
     },
     "munificent": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nesmierno štedrý.",
       "friendly": "Štedrý vo veľkom, skoro okázalom meradle — dar, nad ktorým ľudia trochu zalapajú po dychu.",
-      "exampleGloss": "Munificent dar zaplatil celé nové krídlo knižnice.",
+      "exampleGloss": "Štedrý dar zaplatil celé nové krídlo knižnice.",
       "origin": "latinčina",
-      "rootMeanings": ["dar, služba", "činiaci, dávajúci"]
+      "rootMeanings": [
+        "dar, služba",
+        "činiaci, dávajúci"
+      ]
     },
     "inanition": {
       "partOfSpeech": "podstatné meno",
       "definition": "Vyčerpanie z nedostatku výživy; tiež nedostatok životnej sily.",
       "friendly": "Slabý, vyžmýkaný stav z toho, že vás nekŕmia a neživía — doslova hladom, alebo obrazne tým, že už nie je čím ísť ďalej.",
-      "exampleGloss": "Ku koncu obliehania boli vojaci takmer pri inanition.",
+      "exampleGloss": "Ku koncu obliehania boli vojaci takmer vysilení.",
       "origin": "latinčina",
-      "rootMeanings": ["prázdny, nič", "dej alebo výsledok"]
+      "rootMeanings": [
+        "prázdny, nič",
+        "dej alebo výsledok"
+      ]
     },
     "vituperation": {
       "partOfSpeech": "podstatné meno",
       "definition": "Horúca, hanlivá kritika.",
       "friendly": "Kritika, ktorá dávno prekročila spravodlivú mieru a stala sa zlou, žlčovitou tirádou.",
-      "exampleGloss": "Internetové komentáre sa v priebehu minút rozpustili v čistú vituperation.",
+      "exampleGloss": "Internetové komentáre sa v priebehu minút zvrhli na číre nadávky.",
       "origin": "latinčina",
-      "rootMeanings": ["vina, vada", "pripraviť, zaobstarať"]
+      "rootMeanings": [
+        "vina, vada",
+        "pripraviť, zaobstarať"
+      ]
     },
     "inimical": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nepriateľský, škodlivý účinkom.",
       "friendly": "Pracujúci proti vám, hoci ticho — pomery alebo nálady, ktoré vašim záujmom nepraje.",
-      "exampleGloss": "Nová politika bola inimical malým podnikom, aj keď to tak nebolo myslené.",
+      "exampleGloss": "Nová politika bola nepriateľská malým podnikom, aj keď to tak nebolo myslené.",
       "origin": "latinčina",
-      "rootMeanings": ["ne", "priateľ"]
+      "rootMeanings": [
+        "ne",
+        "priateľ"
+      ]
     },
     "invidious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Schopný vyvolať urážku alebo nespokojnosť, často nespravodlivým porovnaním.",
       "friendly": "Niekoho nutne urazí — zvyčajne preto, že stavia ľudí alebo veci proti sebe nepoctivo.",
-      "exampleGloss": "Radiť deti podľa toho, „koho mama miluje viac“, je invidious hra, ktorú by nikto nemal hrať.",
+      "exampleGloss": "Radiť deti podľa toho, „koho mama miluje najviac“, je nevraživá hra, ktorú by nikto nemal hrať.",
       "origin": "latinčina",
-      "rootMeanings": ["závisť", "pozerať (so zlou vôľou)"]
+      "rootMeanings": [
+        "závisť",
+        "pozerať (so zlou vôľou)"
+      ]
     },
     "subaltern": {
       "partOfSpeech": "podstatné meno",
       "definition": "Človek nižšej hodnosti alebo postavenia; podriadený.",
       "friendly": "Ten, kto je nižšie v reťazci velenia alebo na spoločenskom rebríku — mladší, pracujúci pod niekým silnejším.",
-      "exampleGloss": "Ako mladý subaltern dlho prijímal rozkazy, kým ich sám začal vydávať.",
+      "exampleGloss": "Ako mladý podriadený dôstojník dlho prijímal rozkazy, kým ich sám začal vydávať.",
       "origin": "latinčina",
-      "rootMeanings": ["pod", "iný"]
+      "rootMeanings": [
+        "pod",
+        "iný"
+      ]
     },
     "execrate": {
       "partOfSpeech": "sloveso",
       "definition": "Cítiť alebo vyjadrovať silnú nenávisť.",
       "friendly": "Nenávidieť tak, že preklínate nahlas — čistá, hlasitá nenávisť.",
-      "exampleGloss": "Dedinčania execrated vyberača daní zakaždým, keď jeho vozík išiel dedinou.",
+      "exampleGloss": "Dedinčania preklínali vyberača daní zakaždým, keď jeho vozík prešiel obcou.",
       "origin": "latinčina",
-      "rootMeanings": ["z", "posvätné (prekliať, vyhnať z posvätného)"]
+      "rootMeanings": [
+        "z",
+        "posvätné (prekliať, vyhnať z posvätného)"
+      ]
     },
     "integument": {
       "partOfSpeech": "podstatné meno",
       "definition": "Prirodzený vonkajší obal, ako koža alebo pancier.",
       "friendly": "Vlastný ochranný obal prírody — koža, pancier, šupka alebo kôra, čo kryje a chráni živé.",
-      "exampleGloss": "Korytnačí pancier je neobyčajne tuhý integument.",
+      "exampleGloss": "Korytnačí pancier je neobyčajne tuhý pokryv.",
       "origin": "latinčina",
-      "rootMeanings": ["na, cez", "kryť"]
+      "rootMeanings": [
+        "na, cez",
+        "kryť"
+      ]
     },
     "ingenuous": {
       "partOfSpeech": "prídavné meno",
       "definition": "Prostodušný, naivný, s detskou priamočiarosťou; opak disingenuous.",
-      "friendly": "Otvorene dôverčivý a trochu naivný, bez skrytej hry — ľahko sa splietie s ingenious, čo znamená vynaliezavý.",
-      "exampleGloss": "Jej ingenuous otázka — „prečo by o tom vôbec niekto lhal?“ — ukázala, ako málo v nej bolo lsti.",
+      "friendly": "Otvorene dôverčivý a trochu naivný, bez skrytej hry — ľahko sa splietie s „ingenious“, čo znamená vynaliezavý.",
+      "exampleGloss": "Jej bezelstná otázka — „prečo by o tom vôbec niekto klamal?“ — ukázala, ako málo v nej bolo ľsti.",
       "origin": "latinčina",
-      "rootMeanings": ["v, rodný", "plodiť (slobodne narodený, priamy)"]
+      "rootMeanings": [
+        "v, rodný",
+        "plodiť (slobodne narodený, priamy)"
+      ]
     },
     "pedantry": {
       "partOfSpeech": "podstatné meno",
       "definition": "Prehnaná starostlivosť o drobnosti alebo pravidlá.",
       "friendly": "Zablúdiť v drobných pravidlách a stratiť celok — hrabať sa v maličkostiach, ktoré nikoho iného nezaujímajú.",
-      "exampleGloss": "Jeho pedantry okolo oxfordskej čiarky pokazila celú schôdzu.",
+      "exampleGloss": "Jeho pedantstvo okolo oxfordskej čiarky pokazilo celú schôdzu.",
       "origin": "taliančina / latinčina",
-      "rootMeanings": ["učiteľ detí", "zvyk alebo vlastnosť"]
+      "rootMeanings": [
+        "učiteľ detí",
+        "zvyk alebo vlastnosť"
+      ]
     },
     "perscrutation": {
       "partOfSpeech": "podstatné meno",
       "definition": "Dôkladné, starostlivé skúmanie.",
       "friendly": "Hlboká prehliadka bez medzier — prejsť každý detail so skutočnou starostlivosťou.",
-      "exampleGloss": "Až po starostlivej perscrutation kníh sa objavil nesúlad.",
+      "exampleGloss": "Až po starostlivom prebraní kníh sa objavil nesúlad.",
       "origin": "latinčina",
-      "rootMeanings": ["cez, dôkladne", "hľadať, skúmať"]
+      "rootMeanings": [
+        "cez, dôkladne",
+        "hľadať, skúmať"
+      ]
     },
     "demur": {
       "partOfSpeech": "sloveso",
       "definition": "Namietnuť; prejaviť váhanie.",
       "friendly": "Zdvorilo ustúpiť alebo zaváhať, namiesto toho, aby sa hneď súhlasilo — mäkké „radšej nie“.",
-      "exampleGloss": "Keď ju žiadali, aby podpísala, aniž by čítala, ona demurred.",
+      "exampleGloss": "Keď ju žiadali, aby podpísala bez čítania, ohradila sa.",
       "origin": "latinčina / francúzština",
-      "rootMeanings": ["od, preč", "otáľať"]
+      "rootMeanings": [
+        "od, preč",
+        "otáľať"
+      ]
     },
     "specious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Na pohľad vierohodný, ale v skutočnosti mylný.",
       "friendly": "Najprv to znie presvedčivo, ale rozpadne sa, len čo to začnete overovať.",
-      "exampleGloss": "„Everyone's doing it“ je specious argument, ktorý pod pohľadom nikdy neobstojí.",
+      "exampleGloss": "„Everyone's doing it“ je zdanlivý argument, ktorý pod pohľadom nikdy neobstojí.",
       "origin": "latinčina",
-      "rootMeanings": ["vzhľad, podoba", "plný (lichotivo vyzerajúci)"]
+      "rootMeanings": [
+        "vzhľad, podoba",
+        "plný (lichotivo vyzerajúci)"
+      ]
     },
     "cant": {
       "partOfSpeech": "podstatné meno",
       "definition": "Neúprimná, pokrytecká reč, často moralizujúca.",
       "friendly": "Kázanie, ktoré znie cnostne, ale nič živé za ním nestojí — mravná póza na automat.",
-      "exampleGloss": "Unavil ho firemný cant o „rodine“ vo firme, ktorá nikomu nedávala dovolenku.",
+      "exampleGloss": "Unavili ho korporátne žvásty o „rodine“ vo firme, ktorá nikomu nedávala dovolenku.",
       "origin": "latinčina",
-      "rootMeanings": ["spievať (potom: spevný žargón)", "kňučanie žobrákov, potom pokrytectvo"]
+      "rootMeanings": [
+        "spievať (potom: spevný žargón)",
+        "kňučanie žobrákov, potom pokrytectvo"
+      ]
     },
     "pusillanimous": {
       "partOfSpeech": "prídavné meno",
       "definition": "Bez odvahy, zbabelý.",
       "friendly": "Bojazlivý až k bezchrbticovosti — príliš sa bojí vstať, aj keď na tom zjavne záleží.",
-      "exampleGloss": "Pusillanimous mlčanie rady nechalo škandál rozliať.",
+      "exampleGloss": "Malomyseľné mlčanie rady nechalo škandál vymknúť sa spod kontroly.",
       "origin": "latinčina",
-      "rootMeanings": ["veľmi malý", "duch, odvaha"]
+      "rootMeanings": [
+        "veľmi malý",
+        "duch, odvaha"
+      ]
     },
     "vulpine": {
       "partOfSpeech": "prídavné meno",
       "definition": "Líščí; lstivý, prefíkaný.",
       "friendly": "Múdry a obratný ako líška — bystrý, trochu šibal, vždy o krok vopred.",
-      "exampleGloss": "Uškrnul sa vulpine úsmevom, len čo zbadal kľučku.",
+      "exampleGloss": "Uškrnul sa líščím úsmevom, len čo zbadal medzeru v zmluve.",
       "origin": "latinčina",
-      "rootMeanings": ["líška", "vlastný, podobný"]
+      "rootMeanings": [
+        "líška",
+        "vlastný, podobný"
+      ]
     },
     "seriatim": {
       "partOfSpeech": "príslovka",
       "definition": "Jedno po druhom, v poradí.",
       "friendly": "Brať prísne po jednom, postupne — bez skokov vpred, bez dvoch vecí naraz.",
-      "exampleGloss": "Sudca prebral každý z dvanástich nárokov seriatim.",
+      "exampleGloss": "Sudca prebral každý z dvanástich nárokov jeden po druhom.",
       "origin": "latinčina",
-      "rootMeanings": ["rad, sled", "po jednom"]
+      "rootMeanings": [
+        "rad, sled",
+        "po jednom"
+      ]
     },
     "parsimony": {
       "partOfSpeech": "podstatné meno",
       "definition": "Krajná šetrnosť; lakomstvo.",
       "friendly": "Škudiť s peniazmi (alebo slovami, alebo prostriedkami) ďaleko za rozumnú úsporu.",
-      "exampleGloss": "Jeho parsimony vošla do legendy — jeden čajový vrecúško sparil trikrát.",
+      "exampleGloss": "Jeho lakomstvo vošlo do legendy — jedno čajové vrecúško sparil trikrát.",
       "origin": "latinčina",
-      "rootMeanings": ["šetriť, byť šetrný", "stav alebo prax"]
+      "rootMeanings": [
+        "šetriť, byť šetrný",
+        "stav alebo prax"
+      ]
     },
     "emendation": {
       "partOfSpeech": "podstatné meno",
       "definition": "Oprava, zvlášť v texte.",
       "friendly": "Úprava v písme — učencká oprava, ktorá spraví chybu v starom alebo dôležitom texte.",
-      "exampleGloss": "Nové vydanie obsahuje desiatky emendations k pôvodnému rukopisu.",
+      "exampleGloss": "Nové vydanie obsahuje desiatky opráv k pôvodnému rukopisu.",
       "origin": "latinčina",
-      "rootMeanings": ["z", "vina, chyba"]
+      "rootMeanings": [
+        "z",
+        "vina, chyba"
+      ]
     },
     "abstemious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Mierny v jedle a pití.",
       "friendly": "Zámerne zdržanlivý pri stole — nikdy sa nepreje, vždy nechá trochu na tanieri.",
-      "exampleGloss": "Jeho abstemious návyky ho držali bystrým dlho potom, čo vrstovníci poľavili.",
+      "exampleGloss": "Jeho striedme návyky ho držali bystrým dlho po tom, čo vrstovníci poľavili.",
       "origin": "latinčina",
-      "rootMeanings": ["stranou od", "opojný nápoj"]
+      "rootMeanings": [
+        "stranou od",
+        "opojný nápoj"
+      ]
     },
     "solecism": {
       "partOfSpeech": "podstatné meno",
       "definition": "Gramatická chyba alebo porušenie etikety.",
       "friendly": "Ušmyknutie v gramatike alebo mravoch — drobná chyba, nad ktorou pedant cúvne.",
-      "exampleGloss": "„Between you and I“ je bežný solecism, z ktorého gramatiku stále trhne.",
+      "exampleGloss": "„Between you and I“ je bežný solecizmus, z ktorého gramatikom dodnes trhne.",
       "origin": "gréčtina",
-      "rootMeanings": ["kilikijské mesto známe „zlou“ gréčtinou", "zvyk, spôsob"]
+      "rootMeanings": [
+        "kilikijské mesto známe „zlou“ gréčtinou",
+        "zvyk, spôsob"
+      ]
     },
     "internecine": {
       "partOfSpeech": "prídavné meno",
       "definition": "Týkajúci sa sporu vnútri skupiny; vzájomne skazonosný.",
       "friendly": "Vnútorná hádka, ktorá trhá skupinu zvnútra — boj, v ktorom všetci prehrávajú, lebo sú to svoji proti svojim.",
-      "exampleGloss": "Internecine hašterenie strany napáchalo viac škody než akýkoľvek vonkajší protivník.",
+      "exampleGloss": "Bratovražedné hašterenie strany napáchalo viac škody než akýkoľvek vonkajší protivník.",
       "origin": "latinčina",
-      "rootMeanings": ["medzi, medzi sebou", "zabíjať"]
+      "rootMeanings": [
+        "medzi, medzi sebou",
+        "zabíjať"
+      ]
     },
     "pococurante": {
       "partOfSpeech": "prídavné meno / podstatné meno",
       "definition": "Ľahostajný, nedbalý postoj.",
       "friendly": "Pokrčenie pliec, ktoré sa stalo povahou — starosť tak stenčela, že už nič nestojí za námahu.",
-      "exampleGloss": "Jeho pococurante postoj k odovzdávaniu cien prekvapil všetkých, ktorí vedeli, ako drel.",
+      "exampleGloss": "Jeho ľahostajný postoj k odovzdávaniu cien prekvapil všetkých, ktorí vedeli, ako drel.",
       "origin": "taliančina",
-      "rootMeanings": ["málo", "starať sa"]
+      "rootMeanings": [
+        "málo",
+        "starať sa"
+      ]
     },
     "imbroglio": {
       "partOfSpeech": "podstatné meno",
       "definition": "Zmätená, spletitá situácia alebo spor.",
       "friendly": "Zamotaná, špinavá história, v ktorej je ťažké sa vyznať — časť nedorozumenia, časť drámy, samý zmätok.",
-      "exampleGloss": "Celé imbroglio so zasadaním začalo jednou prehodenou menovkou.",
+      "exampleGloss": "Celý zmätok so zasadacím poriadkom začal jednou prehodenou menovkou.",
       "origin": "taliančina",
-      "rootMeanings": ["v", "zamotať, zmiasť"]
+      "rootMeanings": [
+        "v",
+        "zamotať, zmiasť"
+      ]
     },
     "minatory": {
       "partOfSpeech": "prídavné meno",
       "definition": "Hrozivý, výhražný.",
-      "friendly": "Nesie zjavnú hrozbu — minatory pohľad alebo list jasne hovorí, že môže nasledovať zlé.",
-      "exampleGloss": "Minatory tón listu nájomníčku znepokojil, ešte kým otvorila obálku.",
+      "friendly": "Nesie zjavnú hrozbu — výhražný pohľad alebo list jasne hovorí, že môže nasledovať zlé.",
+      "exampleGloss": "Výhražný tón listu nájomníčku znepokojil, ešte než otvorila obálku.",
       "origin": "latinčina",
-      "rootMeanings": ["hroziť", "slúžiaci k"]
+      "rootMeanings": [
+        "hroziť",
+        "slúžiaci k"
+      ]
     },
     "obloquy": {
       "partOfSpeech": "podstatné meno",
       "definition": "Silná verejná kritika alebo slovné hanenie.",
       "friendly": "Hlasité verejné odsúdenie — pálčivá kritika, ktorá sa odohráva pred očami všetkých.",
-      "exampleGloss": "Oznamovateľka roky znášala verejný obloquy, kým jej história dala za pravdu.",
+      "exampleGloss": "Oznamovateľka roky znášala verejnú potupu, kým jej dejiny dali za pravdu.",
       "origin": "latinčina",
-      "rootMeanings": ["proti", "hovoriť"]
+      "rootMeanings": [
+        "proti",
+        "hovoriť"
+      ]
     },
     "paroxysm": {
       "partOfSpeech": "podstatné meno",
       "definition": "Náhly prudký výbuch citu alebo konania.",
       "friendly": "Náhly, silný záchvat, ktorý vás prikryje naraz — smiech, hnev alebo kašeľ ako vlna.",
-      "exampleGloss": "Zachvátil ju paroxysm smiechu, ktorý nikomu v miestnosti nedokázala vysvetliť.",
+      "exampleGloss": "Prepadol ju záchvat smiechu, ktorý nikomu v miestnosti nedokázala vysvetliť.",
       "origin": "gréčtina",
-      "rootMeanings": ["za, nad", "ostrý"]
+      "rootMeanings": [
+        "za, nad",
+        "ostrý"
+      ]
     },
     "adscititious": {
       "partOfSpeech": "prídavné meno",
       "definition": "Pridaný zvonka, nie vlastný.",
       "friendly": "Priskrutkované zvonka, nie vstavané od začiatku — prídavok, nie jadro.",
-      "exampleGloss": "Komentár pôsobí adscititious, akoby ho prilepili k už hotovému textu.",
+      "exampleGloss": "Komentár pôsobí nepôvodne, akoby ho prilepili k už hotovému textu.",
       "origin": "latinčina",
-      "rootMeanings": ["k, navyše", "schváliť, prijať"]
+      "rootMeanings": [
+        "k, navyše",
+        "schváliť, prijať"
+      ]
     },
     "nescience": {
       "partOfSpeech": "podstatné meno",
       "definition": "Nedostatok vedomosti, nevedomosť.",
       "friendly": "Prosté nevedenie — medzera, ku ktorej sa nelepí výčitka.",
-      "exampleGloss": "Priznal svoju nescience francúzskych vín a výber nechal na someliérovi.",
+      "exampleGloss": "Priznal svoju neznalosť francúzskych vín a výber nechal na someliérovi.",
       "origin": "latinčina",
-      "rootMeanings": ["ne", "vedieť"]
+      "rootMeanings": [
+        "ne",
+        "vedieť"
+      ]
     },
     "prurience": {
       "partOfSpeech": "podstatné meno",
       "definition": "Nadmerný záujem o telesné veci.",
       "friendly": "Príliš chtivá, nahliadajúca zvedavosť na všetko pikantné — záujem, ktorý prešiel zo zdravého vo vtieravý.",
-      "exampleGloss": "Prurience bulvárneho listu k súkromiu páru hraničila s posadnutosťou.",
+      "exampleGloss": "Chlipnosť bulvárneho listu voči súkromiu páru hraničila s posadnutosťou.",
       "origin": "latinčina",
-      "rootMeanings": ["svrbieť, túžiť", "stav"]
+      "rootMeanings": [
+        "svrbieť, túžiť",
+        "stav"
+      ]
     },
     "fuliginous": {
       "partOfSpeech": "prídavné meno",
       "definition": "Sadzový, temný, kalný.",
       "friendly": "Tmavý a dymový na pohľad, akoby bolo všetko pokryté tenkou vrstvou sadzí.",
-      "exampleGloss": "Fuliginous opary viseli nad továrenským mestom za súmraku.",
+      "exampleGloss": "Sadzovité opary viseli nad továrenským mestom za súmraku.",
       "origin": "latinčina",
-      "rootMeanings": ["sadze", "plný"]
+      "rootMeanings": [
+        "sadze",
+        "plný"
+      ]
     },
     "gainsay": {
       "partOfSpeech": "sloveso",
       "definition": "Poprieť alebo odporovať.",
       "friendly": "Priamo povedať proti cudzím slovám — povedať „to tak nie je“.",
-      "exampleGloss": "Nikto sa neodvážil gainsay rozprávanie starého kapitána o búrke.",
+      "exampleGloss": "Nikto sa neodvážil poprieť rozprávanie starého kapitána o búrke.",
       "origin": "stredná angličtina",
-      "rootMeanings": ["proti", "hovoriť"]
+      "rootMeanings": [
+        "proti",
+        "hovoriť"
+      ]
     },
     "ignavia": {
       "partOfSpeech": "podstatné meno",
       "definition": "Lenivosť, zaháľka (z latinčiny).",
       "friendly": "Staré latinské slovo pre čistú lenivosť — ťah nič nechcieť robiť.",
-      "exampleGloss": "Mnísi kázali proti ignavia ako jednému z tichých nebezpečenstiev duše.",
+      "exampleGloss": "Mnísi kázali proti lenivosti ako proti jednému z tichých nebezpečenstiev duše.",
       "origin": "latinčina",
-      "rootMeanings": ["ne", "zamestnaný, usilovný"]
+      "rootMeanings": [
+        "ne",
+        "zamestnaný, usilovný"
+      ]
     },
     "escutcheon": {
       "partOfSpeech": "podstatné meno",
       "definition": "Štít s erbom.",
       "friendly": "Štítovitý znak s rodovým erbom — jeho heraldická „vizitka“.",
-      "exampleGloss": "Rodinný escutcheon stále visí nad vchodovými dverami starého sídla.",
+      "exampleGloss": "Rodinný erb stále visí nad vchodovými dverami starého sídla.",
       "origin": "latinčina / stará francúzština",
-      "rootMeanings": ["štít", "zdrobnenina / predmet"]
+      "rootMeanings": [
+        "štít",
+        "zdrobnenina / predmet"
+      ]
     },
     "superannuated": {
       "partOfSpeech": "prídavné meno",
       "definition": "Zastaralý, vyradený z používania alebo odložený pre vek.",
       "friendly": "Minul užitočný rozkvet a poslaný na odpočinok — príliš staromódny alebo opotrebovaný, aby ďalej robil prácu.",
-      "exampleGloss": "Superannuated tlačiareň napokon vymenili po pätnástich rokoch zasekávania.",
+      "exampleGloss": "Zastaranú tlačiareň napokon vymenili po pätnástich rokoch zasekávania.",
       "origin": "latinčina",
-      "rootMeanings": ["za, nad", "rok"]
+      "rootMeanings": [
+        "za, nad",
+        "rok"
+      ]
     },
     "succedanea": {
       "partOfSpeech": "podstatné meno",
       "definition": "Náhrady, zvlášť v lekárstve.",
       "friendly": "Náhradné prostriedky, keď pravá liečba nie je — v podstate lekárski náhradníci.",
-      "exampleGloss": "Vojnoví lekári sa často opierali o succedanea, keď pravé lieky došli.",
+      "exampleGloss": "Vojnoví lekári sa často opierali o náhradky, keď pravé lieky došli.",
       "origin": "latinčina",
-      "rootMeanings": ["namiesto", "ísť, ustúpiť"]
+      "rootMeanings": [
+        "namiesto",
+        "ísť, ustúpiť"
+      ]
     },
     "rodomontade": {
       "partOfSpeech": "podstatné meno",
       "definition": "Chvastavá, nadutá reč.",
       "friendly": "Veľké, hlučné chvastanie — hlasité reči o vlastnej veľkosti, v ktorých je skoro samý horúci vzduch.",
-      "exampleGloss": "Jeho rodomontade o tom, ako „sám“ zachránil projekt, nikoho z tých, ktorí tam boli, neošálila.",
+      "exampleGloss": "Jeho chvastanie o tom, ako „sám“ zachránil projekt, neošialilo nikoho z tých, ktorí tam boli.",
       "origin": "taliančina",
-      "rootMeanings": ["chvastavý rytier zo Zúrivého Rolanda", "dej, predvedenie"]
+      "rootMeanings": [
+        "chvastavý rytier zo Zúrivého Rolanda",
+        "dej, predvedenie"
+      ]
     },
     "chicane": {
       "partOfSpeech": "sloveso",
       "definition": "Dosiahnuť niečo ľsťou alebo podvodom.",
       "friendly": "Prekĺznuť k cieľu drobnými trikmi, nie poctivou hrou.",
-      "exampleGloss": "Chicaned si cestu do obchodu zmluvou nacpanou drobným písmom.",
+      "exampleGloss": "Vykľučkoval si cestu do obchodu zmluvou napchatou drobným písmom.",
       "origin": "francúzština",
-      "rootMeanings": ["hádať sa o maličkosti, lstiť", "lesť; neskôr ostrá zákruta"]
+      "rootMeanings": [
+        "hádať sa o maličkosti, lstiť",
+        "lesť; neskôr ostrá zákruta"
+      ]
     },
     "mathesis": {
       "partOfSpeech": "podstatné meno",
       "definition": "Čistá alebo abstraktná veda poznania, často matematika.",
       "friendly": "Učenie v najčistejšej, odťažitej podobe — hlbinná stavba samého vedomia, zvlášť matematického.",
-      "exampleGloss": "Filozof sníval o všeobecnej mathesis, ktorá by spojila všetky polia vedomia.",
+      "exampleGloss": "Filozof sníval o všeobecnej mathesis, ktorá by spojila všetky polia vedenia.",
       "origin": "gréčtina",
-      "rootMeanings": ["učiť sa", "akt učenia"]
+      "rootMeanings": [
+        "učiť sa",
+        "akt učenia"
+      ]
     },
     "pedantic": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nadmerné zaujatý formálnymi pravidlami alebo maličkým detailom.",
       "friendly": "Príliš prísny na drobnosti — opravuje technické maličkosti, ktoré nič podstatné nemenia.",
-      "exampleGloss": "Bolo trochu pedantic hádať sa o „who“ a „whom“ v správe.",
+      "exampleGloss": "Bolo trochu pedantské hádať sa o „who“ a „whom“ v správe.",
       "origin": "taliančina / gréčtina",
-      "rootMeanings": ["vodca detí, učiteľ", "majúci spôsob"]
+      "rootMeanings": [
+        "vodca detí, učiteľ",
+        "majúci spôsob"
+      ]
     },
     "coruscation": {
       "partOfSpeech": "podstatné meno",
       "definition": "Záblesk, iskrivé svetlo.",
       "friendly": "Rýchly, trblietavý záblesk — slnko na vode, alebo diamant, ktorý chytil svetlo.",
-      "exampleGloss": "Coruscation lustru rozhádzalo svetlo do všetkých kútov tanečnej sály.",
+      "exampleGloss": "Jagot lustra rozhádzal svetlo do všetkých kútov tanečnej sály.",
       "origin": "latinčina",
-      "rootMeanings": ["iskriť, blýskať", "dej"]
+      "rootMeanings": [
+        "iskriť, blýskať",
+        "dej"
+      ]
     },
     "tyro": {
       "partOfSpeech": "podstatné meno",
       "definition": "Začiatočník, nováčik.",
       "friendly": "Celkom nový v odbore — ešte sa učí základy, ešte nie je znalec.",
-      "exampleGloss": "Aj tyro v šachu tú hrubú chybu uvidí.",
+      "exampleGloss": "Aj nováčik v šachu tú hrubú chybu uvidí.",
       "origin": "latinčina",
-      "rootMeanings": ["rekrut, nováčik", "surový mladý vojak"]
+      "rootMeanings": [
+        "rekrut, nováčik",
+        "surový mladý vojak"
+      ]
     },
     "execrable": {
       "partOfSpeech": "prídavné meno",
       "definition": "Najvyššou mierou zlý, odporný.",
       "friendly": "Zlý tak, že vzbuzuje opravdivý odpor — nielen „slabé“, ale naozaj ohavné.",
-      "exampleGloss": "Recenzent nazval pokračovanie execrable a pokladňa s ním súhlasila.",
+      "exampleGloss": "Recenzent nazval pokračovanie odporným a pokladňa s ním súhlasila.",
       "origin": "latinčina",
-      "rootMeanings": ["preklínať", "hodný, schopný byť"]
+      "rootMeanings": [
+        "preklínať",
+        "hodný, schopný byť"
+      ]
     },
     "incarnadine": {
       "partOfSpeech": "prídavné meno",
       "definition": "Krvavo červený.",
       "friendly": "Hlboká, živá červeň — farba čerstvej krvi, slávna u Shakespearovho Macbetha.",
-      "exampleGloss": "Západ zafarbil celé nebo incarnadine žiarou.",
+      "exampleGloss": "Západ slnka zafarbil celé nebo krvavo červenou žiarou.",
       "origin": "taliančina / latinčina",
-      "rootMeanings": ["do", "telo (telesne červený)"]
+      "rootMeanings": [
+        "do",
+        "telo (telesne červený)"
+      ]
     },
     "interstice": {
       "partOfSpeech": "podstatné meno",
       "definition": "Malá medzera alebo štrbina medzi vecami.",
       "friendly": "Drobné „medzi“, ktoré ľahko prehliadnete — špára v podlahe, diera v rozvrhu.",
-      "exampleGloss": "Cez každý interstice starej tehlovej cestičky liezla burina.",
+      "exampleGloss": "Cez každú škáru starej tehlovej cestičky liezla burina.",
       "origin": "latinčina",
-      "rootMeanings": ["medzi", "stáť"]
+      "rootMeanings": [
+        "medzi",
+        "stáť"
+      ]
     },
     "animadversion": {
       "partOfSpeech": "podstatné meno",
       "definition": "Kritické alebo karhavé poznámky.",
       "friendly": "Pichľavé, neschvaľujúce slová — kritika s nádychom dôtky.",
-      "exampleGloss": "Profesorove animadversions k slohu vyplnili okraje červeným atramentom.",
+      "exampleGloss": "Profesorove výhrady k slohu vyplnili okraje červeným atramentom.",
       "origin": "latinčina",
-      "rootMeanings": ["myseľ", "obrátiť k"]
+      "rootMeanings": [
+        "myseľ",
+        "obrátiť k"
+      ]
     },
     "irrefragable": {
       "partOfSpeech": "prídavné meno",
       "definition": "Nevyvrátiteľný, nesporný.",
       "friendly": "Tak pevne dokázané, že nemá cenu sa hádať — vec je proste uzavretá.",
-      "exampleGloss": "Dôkazy DNA boli irrefragable a súd skončil do hodiny.",
+      "exampleGloss": "Dôkazy DNA boli nevyvrátiteľné a súd skončil do hodiny.",
       "origin": "latinčina",
-      "rootMeanings": ["ne", "odporovať, vzdorovať"]
+      "rootMeanings": [
+        "ne",
+        "odporovať, vzdorovať"
+      ]
     },
     "involution": {
       "partOfSpeech": "podstatné meno",
       "definition": "Zložitosť, spletitosti; tiež zvinutie dnu.",
       "friendly": "Zamotaná, do seba zložená zložitosť — veci tak tesne zvinuté, že ich je ťažké oddeliť.",
-      "exampleGloss": "Involution zápletky nechala polovicu sály rozmotávať ju po titulkoch.",
+      "exampleGloss": "Spletitosť zápletky nechala polovicu sály rozmotávať ju po titulkoch.",
       "origin": "latinčina",
-      "rootMeanings": ["dovnútra", "váľať, otáčať"]
+      "rootMeanings": [
+        "dovnútra",
+        "váľať, otáčať"
+      ]
     },
     "dint": {
       "partOfSpeech": "podstatné meno",
       "definition": "Sila alebo úsilie, ako v „by dint of“.",
-      "friendly": "Holá sila alebo drelina — dnes skoro žije len v obrate „by dint of“.",
-      "exampleGloss": "Skúšku zložil by dint of tvrdohlavého, húževnatého cvičenia.",
+      "friendly": "Holá sila alebo drina — dnes skoro žije len v obrate „by dint of“.",
+      "exampleGloss": "Skúšku zložil silou tvrdohlavého, húževnatého cvičenia.",
       "origin": "stará angličtina",
-      "rootMeanings": ["úder, rana", "silou"]
+      "rootMeanings": [
+        "úder, rana",
+        "silou"
+      ]
     },
     "mortised": {
       "partOfSpeech": "prídavné meno",
       "definition": "Spojený čapom a dlabom; tesne slícovaný.",
       "friendly": "Spojené po staru, po tesársky — jeden diel zapadne do otvoru vyrezaného presne preň.",
-      "exampleGloss": "Trámy starej stodoly boli mortised dokopy bez jediného klinca.",
+      "exampleGloss": "Trámy starej stodoly boli spojené na čap bez jediného klinca.",
       "origin": "latinčina / francúzština",
-      "rootMeanings": ["dlab, otvor", "uhryznutie, stisk"]
+      "rootMeanings": [
+        "dlab, otvor",
+        "uhryznutie, stisk"
+      ]
     },
     "apposite": {
       "partOfSpeech": "prídavné meno",
       "definition": "Veľmi príhodný, trefný.",
       "friendly": "Presne k veci — poznámka, citát alebo príklad, ktoré sadnú do bodky.",
-      "exampleGloss": "Jej apposite replika zvinula celú debatu do jednej vety.",
+      "exampleGloss": "Jej výstižná replika zvinula celú debatu do jednej vety.",
       "origin": "latinčina",
-      "rootMeanings": ["k", "položiť"]
+      "rootMeanings": [
+        "k",
+        "položiť"
+      ]
     },
     "lambent": {
       "partOfSpeech": "prídavné meno",
       "definition": "Mäkké žiariace alebo kmitajúce (svetlo); tiež ľahký vtip.",
       "friendly": "Svieti nežne, nie plápolá — mäkké, chvejivé svetlo, alebo vtip hravý, nie uštipačný.",
-      "exampleGloss": "Sviečky vrhali lambent žiaru po starej jedálni.",
+      "exampleGloss": "Sviečky vrhali mihotavú žiaru po starej jedálni.",
       "origin": "latinčina",
-      "rootMeanings": ["lízať", "dej (svetlo, ktoré „líže“)"]
+      "rootMeanings": [
+        "lízať",
+        "dej (svetlo, ktoré „líže“)"
+      ]
     },
     "anchorite": {
       "partOfSpeech": "podstatné meno",
       "definition": "Náboženský pustovník žijúci v samote.",
       "friendly": "Ten, kto úplne odíde od sveta, aby žil sám v modlitbe a rozjímaní.",
-      "exampleGloss": "Anchorite prežil viac než tridsať rokov v tesnej cele pri kostole.",
+      "exampleGloss": "Anachoréta prežil viac než tridsať rokov v tesnej cele pri kostole.",
       "origin": "gréčtina",
-      "rootMeanings": ["späť, preč", "ustúpiť"]
+      "rootMeanings": [
+        "späť, preč",
+        "ustúpiť"
+      ]
     },
     "slake": {
       "partOfSpeech": "sloveso",
       "definition": "Uhasíť smäd; ukojiť.",
       "friendly": "Úplne ukojiť túžbu — najčastejšie smäd, ale obrazne aj akúkoľvek hlbokú potrebu.",
-      "exampleGloss": "Jeden studený pohár vody slaked jeho smäd po dlhom pochode.",
+      "exampleGloss": "Jeden studený pohár vody uhasil jeho smäd po dlhom pochode.",
       "origin": "stará angličtina",
-      "rootMeanings": ["voľný, povolený", "povoliť, utíšiť"]
+      "rootMeanings": [
+        "voľný, povolený",
+        "povoliť, utíšiť"
+      ]
     },
     "acicular": {
       "partOfSpeech": "prídavné meno",
       "definition": "Ihlicovitý.",
       "friendly": "Dlhý, tenký a ostrý ako ihla — tvar ihlice alebo ostrého kryštálika.",
-      "exampleGloss": "Borovice sa ľahko spoznajú podľa acicular listov.",
+      "exampleGloss": "Borovice sa ľahko spoznajú podľa ihlicovitých listov.",
       "origin": "latinčina",
-      "rootMeanings": ["ihla", "malý"]
+      "rootMeanings": [
+        "ihla",
+        "malý"
+      ]
     },
     "effete": {
       "partOfSpeech": "prídavné meno",
       "definition": "Vyčerpaný na životnej sile, slabý, prehnane zjemnený.",
       "friendly": "Opotrebovaný a mäkký — stratil pôvodnú silu prílišným pohodlím alebo vytríbenosťou.",
-      "exampleGloss": "Kritici nazvali kedysi odvážny časopis effete, tieňom smelých raných rokov.",
+      "exampleGloss": "Kritici nazvali kedysi odvážny časopis vyčpelým, tieňom smelých raných rokov.",
       "origin": "latinčina",
-      "rootMeanings": ["von", "plodný, už plodivší"]
+      "rootMeanings": [
+        "von",
+        "plodný, už plodivší"
+      ]
     },
     "appurtenance": {
       "partOfSpeech": "podstatné meno",
       "definition": "Príslušenstvo alebo drobná pripojená vec či právo.",
       "friendly": "Malý prídavok k väčšiemu — príslušenstvo a doplnky, ktoré idú s hlavnou vecou.",
-      "exampleGloss": "Nájom zahŕňal garáž a všetky jej appurtenances.",
+      "exampleGloss": "Nájom zahŕňal garáž a všetko jej príslušenstvo.",
       "origin": "latinčina / francúzština",
-      "rootMeanings": ["k", "náležať"]
+      "rootMeanings": [
+        "k",
+        "náležať"
+      ]
     },
     "gloze": {
       "partOfSpeech": "sloveso",
       "definition": "Zastierať alebo zmenšiť vinu.",
       "friendly": "Zjemniť chybu mäkkými slovami, aby vyzerala menšia, než je.",
-      "exampleGloss": "Snažil sa gloze over zmeškaný termín hmlistými rečami o „nepredvídaných ťažkostiach“.",
+      "exampleGloss": "Snažil sa zahovoriť zmeškaný termín hmlistými rečami o „nepredvídaných ťažkostiach“.",
       "origin": "stará francúzština / latinčina",
-      "rootMeanings": ["glosa, výklad", "komentovať — potom zastierať"]
+      "rootMeanings": [
+        "glosa, výklad",
+        "komentovať — potom zastierať"
+      ]
     },
     "incipient": {
       "partOfSpeech": "prídavné meno",
       "definition": "V ranom štádiu, iba začínajúci.",
       "friendly": "Iba sa začína ukazovať — úplne prvá, sotva viditeľná fáza niečoho väčšieho.",
-      "exampleGloss": "Lekári zachytili incipient znaky choroby, kým sa stihla rozšíriť.",
+      "exampleGloss": "Lekári zachytili počiatočné príznaky choroby, skôr než sa stihla rozšíriť.",
       "origin": "latinčina",
-      "rootMeanings": ["na, do", "vziať (chopiť sa, začať)"]
+      "rootMeanings": [
+        "na, do",
+        "vziať (chopiť sa, začať)"
+      ]
     },
     "afflatus": {
       "partOfSpeech": "podstatné meno",
       "definition": "Tvorivé vnuknutie, zvlášť božské.",
       "friendly": "Náhly príval vnuknutia, ktorý sa zdá väčší než vy — akoby vám myšlienku vdýchli odinakiaľ.",
-      "exampleGloss": "Básnik hovoril, že celá vec prišla jedným výbuchom afflatus o tretej ráno.",
+      "exampleGloss": "Básnik hovoril, že celá vec prišla jedným výbuchom vnuknutia o tretej ráno.",
       "origin": "latinčina",
-      "rootMeanings": ["k, na", "fúkať (vdýchnutie-na)"]
+      "rootMeanings": [
+        "k, na",
+        "fúkať (vdýchnutie-na)"
+      ]
     }
   }
 }

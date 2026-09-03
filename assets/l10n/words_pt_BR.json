@@ -4,7 +4,7 @@
       "partOfSpeech": "verbo",
       "definition": "Doçar ou purificar; tirar a aspereza de alguma coisa.",
       "friendly": "Tirar o ferrão ou o amargor — adoçar a sério, ou suavizar em sentido figurado uma ideia dura para que desça melhor.",
-      "exampleGloss": "O redator edulcorated a crítica dura antes de a mandar para impressão.",
+      "exampleGloss": "O redator edulcorou a crítica dura antes de a mandar para impressão.",
       "origin": "latim",
       "rootMeanings": [
         "fora, a fundo",
@@ -15,7 +15,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Excessiva ou fingidamente religioso ou piedoso.",
       "friendly": "Descreve alguém cuja devoção cheira a espetáculo: mais pose do que fé verdadeira.",
-      "exampleGloss": "Os seus suspiros pietistic durante o sermão irritaram o resto do banco.",
+      "exampleGloss": "Os seus suspiros pietistas durante o sermão irritaram o resto do banco.",
       "origin": "latim",
       "rootMeanings": [
         "piedade, sentido do dever",
@@ -26,7 +26,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Ambiguidade nascida da estrutura gramatical — uma frase que se lê de duas maneiras.",
       "friendly": "Uma frase gramaticalmente correta, mas que se pode ler de dois modos completamente diferentes, como «Visiting relatives can be tiring».",
-      "exampleGloss": "«Visiting relatives can be tiring» é uma amphiboly clássica — cansam os parentes, ou o fato de os visitar?",
+      "exampleGloss": "«Visiting relatives can be tiring» é uma anfibologia clássica — cansam os parentes, ou o fato de os visitar?",
       "origin": "grego",
       "rootMeanings": [
         "ambos, de ambos os lados",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "adjetivo",
       "definition": "Agudo, incisivo, que vai direto ao ponto.",
-      "friendly": "Corta o recheio de um só golpe — um comentário ou uma mente trenchant chega ao cerne depressa, sem palavras a mais.",
-      "exampleGloss": "A sua crítica trenchant não deixou recanto onde se escondessem os buracos do argumento.",
+      "friendly": "Corta o recheio de um só golpe — um comentário ou uma mente incisiva chega ao cerne depressa, sem palavras a mais.",
+      "exampleGloss": "A sua crítica incisiva não deixou recanto onde se escondessem os buracos do argumento.",
       "origin": "francês antigo",
       "rootMeanings": [
         "cortar",
@@ -48,7 +48,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Que mal começou; numa fase precoce ou rudimentar.",
       "friendly": "Ainda nos primeiros instantes — um plano, um sentimento ou um processo que só agora começa a tomar forma.",
-      "exampleGloss": "As fases inchoative do tratado eram promissoras, mas muitos pormenores ficaram por assentar.",
+      "exampleGloss": "As fases incoativas do tratado eram promissoras, mas muitos pormenores ficaram por assentar.",
       "origin": "latim",
       "rootMeanings": [
         "começar, dar início",
@@ -59,7 +59,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um discurso ou escrito formal que louva alguém com brilho.",
       "friendly": "Uma homenagem em toda a regra — pense num elogio fúnebre luminoso, ou num discurso que canta os feitos de alguém aos quatro ventos.",
-      "exampleGloss": "A professora que se reformava foi despedida com um panegyric dos seus alunos mais próximos.",
+      "exampleGloss": "A professora que se aposentava foi despedida com um panegírico dos seus alunos mais próximos.",
       "origin": "grego",
       "rootMeanings": [
         "todo, inteiro",
@@ -70,7 +70,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Relativo à existência real, em oposição à teoria abstrata.",
       "friendly": "Das coisas tais como existem de verdade, e não só como ideias ou teorias a seu respeito.",
-      "exampleGloss": "Os filósofos debatem se os números têm algum estatuto ontic ou existem apenas nas nossas cabeças.",
+      "exampleGloss": "Os filósofos debatem se os números têm algum estatuto ôntico ou existem apenas nas nossas cabeças.",
       "origin": "grego",
       "rootMeanings": [
         "ser, o que existe",
@@ -80,8 +80,8 @@
     "fructify": {
       "partOfSpeech": "verbo",
       "definition": "Dar fruto, ou tornar-se produtivo.",
-      "friendly": "Por fim dar fruto — um esforço, uma ideia ou um investimento que fructifies passou da semente a algo útil.",
-      "exampleGloss": "Anos de investigação calada fructified enfim numa vacina que funciona.",
+      "friendly": "Por fim dar fruto — um esforço, uma ideia ou um investimento que frutifica passou da semente a algo útil.",
+      "exampleGloss": "Anos de investigação calada frutificaram enfim numa vacina que funciona.",
       "origin": "latim",
       "rootMeanings": [
         "fruto",
@@ -92,7 +92,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Antecipar ou apresentar algo como já feito antes de acontecer.",
       "friendly": "Adiantar-se de modo literário — descrever um fato futuro como se já estivesse fechado, para o golpe cair mais fundo.",
-      "exampleGloss": "O brinde proleptical do general a «victory» foi pronunciado uma semana inteira antes da batalha.",
+      "exampleGloss": "O brinde proléptico do general à «vitória» foi pronunciado uma semana inteira antes da batalha.",
       "origin": "grego",
       "rootMeanings": [
         "antes",
@@ -103,7 +103,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Acionado por pressão de ar; também relativo ao espírito ou ao sopro.",
       "friendly": "O mais comum: movido a ar comprimido — uma furadeira, um freio de ônibus — mas a mesma raiz grega fala também de sopro e de espírito.",
-      "exampleGloss": "Os freios pneumatic chiavam quando o ônibus parou na calçada.",
+      "exampleGloss": "Os freios pneumáticos chiavam quando o ônibus parou na calçada.",
       "origin": "grego",
       "rootMeanings": [
         "vento, sopro, espírito",
@@ -114,7 +114,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Descrever Deus ou o divino com afirmações positivas — o contrário de apofático.",
       "friendly": "Falar de Deus dizendo o que Ele é — «Deus é amor», «Deus é justo» — em vez de apenas o que Ele não é.",
-      "exampleGloss": "A teologia cataphatic fala com confiança de Deus como amoroso, justo e misericordioso.",
+      "exampleGloss": "A teologia catafática fala com confiança de Deus como amoroso, justo e misericordioso.",
       "origin": "grego",
       "rootMeanings": [
         "abaixo, segundo",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "adjetivo",
       "definition": "Fundado na confiança ou na fé; também: um ponto de referência fixo.",
-      "friendly": "Algo que se toma a crédito e depois serve de âncora — uma marca fiducial é o ponto fixo contra o qual se mede todo o resto.",
-      "exampleGloss": "Os topógrafos colocaram um marcador fiducial na rocha antes de cartografar o sítio.",
+      "friendly": "Algo que se toma a crédito e depois serve de âncora — uma marca de referência é o ponto fixo contra o qual se mede todo o resto.",
+      "exampleGloss": "Os topógrafos colocaram um marcador de referência na rocha antes de cartografar o sítio.",
       "origin": "latim",
       "rootMeanings": [
         "confiar",
@@ -136,7 +136,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Uma defesa da bondade de Deus face à existência do mal.",
       "friendly": "A tentativa de sempre: responder «se Deus é bom, porque há mal?» sem largar nenhuma das duas afirmações.",
-      "exampleGloss": "A tese dela explorava theodicy através da lente do Livro de Job.",
+      "exampleGloss": "A tese dela explorava a teodiceia através da lente do Livro de Job.",
       "origin": "grego",
       "rootMeanings": [
         "deus",
@@ -147,7 +147,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Inhabitação mútua — termo teológico para o modo como as pessoas da Trindade existem umas nas outras.",
       "friendly": "Uma palavra de teologia para um conjunto três-em-um tão completo que cada parte contém as outras e é por elas contida.",
-      "exampleGloss": "A doutrina de circumincession tenta explicar como Pai, Filho e Espírito são distintos e ainda assim inseparáveis.",
+      "exampleGloss": "A doutrina da circuminsessão tenta explicar como Pai, Filho e Espírito são distintos e ainda assim inseparáveis.",
       "origin": "latim",
       "rootMeanings": [
         "à volta",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "verbo",
       "definition": "Ter uma consequência que beneficia alguém ou recai sobre ele.",
-      "friendly": "Quando o crédito (ou a culpa) volta para quem é responsável — as boas ações que redound ao seu nome voltam depois como prêmio.",
-      "exampleGloss": "O sucesso do time redound ao crédito do técnico calado e trabalhador.",
+      "friendly": "Quando o crédito (ou a culpa) volta para quem é responsável — as boas ações que revertem em seu nome voltam depois como prêmio.",
+      "exampleGloss": "O sucesso do time reverterá em crédito do técnico calado e trabalhador.",
       "origin": "latim",
       "rootMeanings": [
         "para trás, de novo",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "adjetivo",
       "definition": "Que não se pode evitar nem de que se possa escapar.",
-      "friendly": "Vai acontecer faça o que fizer — de um desfecho ineluctable não se safará.",
-      "exampleGloss": "A velhice chega para todos; é simplesmente ineluctable.",
+      "friendly": "Vai acontecer faça o que fizer — de um desfecho inelutável não se safará.",
+      "exampleGloss": "A velhice chega para todos; é simplesmente inelutável.",
       "origin": "latim",
       "rootMeanings": [
         "não",
@@ -180,7 +180,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Que usa um rodeio verboso em vez de uma forma direta.",
       "friendly": "Tomar o caminho longo com as palavras — dizer numa frase inteira o que uma só palavra cobriria.",
-      "exampleGloss": "Os seus e-mails periphrastic poderiam ter dito numa linha o que lhe levou três parágrafos.",
+      "exampleGloss": "Os seus e-mails perifrásticos poderiam ter dito numa linha o que lhe levou três parágrafos.",
       "origin": "grego",
       "rootMeanings": [
         "à volta",
@@ -191,7 +191,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Embaciamento mental ou letargia.",
       "friendly": "Aquele estado de espírito brumoso e lento em que pensar é como vadear xarope.",
-      "exampleGloss": "Uma vaga de hebetude caiu sobre a turma logo a seguir ao almoço.",
+      "exampleGloss": "Uma vaga de embotamento caiu sobre a turma logo a seguir ao almoço.",
       "origin": "latim",
       "rootMeanings": [
         "romo, embotado",
@@ -202,7 +202,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Pouco favorável; de mau agouro.",
       "friendly": "Mau sinal — condições ou um momento que já parecem ir contra você antes mesmo de ter começado.",
-      "exampleGloss": "Céu cinzento e bateria do carro morta fizeram um começo unpropitious para a viagem de estrada.",
+      "exampleGloss": "Céu cinzento e bateria do carro morta fizeram um começo pouco propício para a viagem de estrada.",
       "origin": "latim",
       "rootMeanings": [
         "não",
@@ -213,7 +213,7 @@
       "partOfSpeech": "adjetivo / verbo",
       "definition": "Carne estufada ou braseada em molho — corretamente escrito «fricasseed».",
       "friendly": "Um termo de cozinha antigo e caseiro para carne cortada e cozida lentamente no próprio molho até ficar tenra.",
-      "exampleGloss": "O frango fricasseed da avó era o ponto alto de cada jantar de domingo.",
+      "exampleGloss": "O frango fricassé da avó era o ponto alto de cada jantar de domingo.",
       "origin": "francês",
       "rootMeanings": [
         "fritar",
@@ -224,7 +224,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Um substituto artificial ou de menor qualidade.",
       "friendly": "Uma imitação que faz as vezes do verdadeiro — cumpre, mas toda a gente vê que não é o original.",
-      "exampleGloss": "Em tempo de guerra, os fregueses contentavam-se com café ersatz de chicória torrada.",
+      "exampleGloss": "Em tempo de guerra, os fregueses contentavam-se com sucedâneo de café de chicória torrada.",
       "origin": "alemão",
       "rootMeanings": [
         "fora, prefixo de substituição",
@@ -235,7 +235,7 @@
       "partOfSpeech": "verbo",
       "definition": "Tratar uma ideia abstrata como se fosse uma coisa concreta.",
       "friendly": "Fazer uma ideia sentir-se real e sólida — transformar algo vago, como «o mercado», num objeto a que se pode apontar.",
-      "exampleGloss": "Chamar «espírito» de uma nação a um ser próprio reifies algo que na verdade não passa de milhões de escolhas soltas.",
+      "exampleGloss": "Chamar «espírito» de uma nação a um ser próprio reifica algo que na verdade não passa de milhões de escolhas soltas.",
       "origin": "latim",
       "rootMeanings": [
         "coisa",
@@ -246,7 +246,7 @@
       "partOfSpeech": "verbo (pretérito)",
       "definition": "Escapado ou evitado com jeito.",
       "friendly": "Escorregar limpo — esquivar-se de algo, muitas vezes com astúcia ou por um triz, seja uma captura, uma pergunta ou uma resposta.",
-      "exampleGloss": "A resposta eluded durante horas até que, de repente, encaixou no chuveiro.",
+      "exampleGloss": "A resposta lhe escapou durante horas até que, de repente, encaixou no chuveiro.",
       "origin": "latim",
       "rootMeanings": [
         "fora, longe",
@@ -257,7 +257,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Que expressa dúvida, perplexidade ou uma contradição por resolver.",
       "friendly": "Encalhado num beco de verdade do pensamento — não por preguiça, mas porque a própria pergunta se recusa a uma resposta limpa.",
-      "exampleGloss": "Sócrates costumava terminar os diálogos numa nota aporetic, com mais perguntas do que respostas.",
+      "exampleGloss": "Sócrates costumava terminar os diálogos numa nota aporética, com mais perguntas do que respostas.",
       "origin": "grego",
       "rootMeanings": [
         "sem",
@@ -268,7 +268,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Figura que nomeia algo por um termo associado, p. ex. «a coroa» pelo monarca.",
       "friendly": "Usar uma palavra aparentada em vez da coisa mesma — dizer «Wall Street» quando se quer dizer a bolsa.",
-      "exampleGloss": "«Wall Street had a rough day» é metonymy — na verdade significa que a bolsa teve um mau dia.",
+      "exampleGloss": "«Wall Street had a rough day» é metonímia — na verdade significa que a bolsa teve um mau dia.",
       "origin": "grego",
       "rootMeanings": [
         "mudança, depois",
@@ -279,7 +279,7 @@
       "partOfSpeech": "verbo",
       "definition": "Desenraizar; arrancar de um meio natural.",
       "friendly": "Arrancar algo (ou alguém) pela raiz, longe do sítio ou da cultura a que pertence.",
-      "exampleGloss": "A guerra deracinated toda uma geração, espalhando famílias para além das fronteiras.",
+      "exampleGloss": "A guerra desenraizou toda uma geração, espalhando famílias para além das fronteiras.",
       "origin": "francês / latim",
       "rootMeanings": [
         "longe, fora",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "adjetivo",
       "definition": "De som agradável.",
-      "friendly": "Simplesmente bom de ouvir — uma palavra ou uma frase euphonious escorrega, quase com música, no ouvido.",
-      "exampleGloss": "«Murmuring brook» é uma frasinha euphonious, macia e fácil de dizer.",
+      "friendly": "Simplesmente bom de ouvir — uma palavra ou uma frase eufônica escorrega, quase com música, no ouvido.",
+      "exampleGloss": "«Murmuring brook» é uma frasinha eufônica, macia e fácil de dizer.",
       "origin": "grego",
       "rootMeanings": [
         "bom, bem",
@@ -301,7 +301,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Geralmente suposto ou tido como tal.",
       "friendly": "Tido por verdadeiro à larga, mesmo sem prova — a versão presumida ou suposta de alguma coisa.",
-      "exampleGloss": "O autor putative da carta veio a revelar-se um desconhecido total.",
+      "exampleGloss": "O autor putativo da carta veio a revelar-se um desconhecido total.",
       "origin": "latim",
       "rootMeanings": [
         "pensar, considerar",
@@ -312,7 +312,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Uma palavra ou locução recém-cunhada.",
       "friendly": "Uma palavra novinha em folha — recém-inventada, ainda (quase) fora do dicionário.",
-      "exampleGloss": "«Doomscrolling» começou como neologism e depressa se tornou calão do dia a dia.",
+      "exampleGloss": "«Doomscrolling» começou como neologismo e depressa se tornou calão do dia a dia.",
       "origin": "grego",
       "rootMeanings": [
         "novo",
@@ -323,7 +323,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Zangado ou de mau gênio.",
       "friendly": "De humor azedo e irritável, pronto a saltar — como se acreditava outrora que o baço governava o temperamento.",
-      "exampleGloss": "Disparou uma resposta splenetic ao e-mail segundos depois de o ler.",
+      "exampleGloss": "Disparou uma resposta esplenética ao e-mail segundos depois de o ler.",
       "origin": "grego / latim",
       "rootMeanings": [
         "baço (sede da ira)",
@@ -334,7 +334,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Dado a moralizar de modo pomposo ou afetado.",
       "friendly": "Adora debitar liçõezinhas de vida, como se cada frase fosse um biscoito da sorte.",
-      "exampleGloss": "O seu brinde sententious sobre «the true meaning of friendship» fez toda a gente olhar para o relógio.",
+      "exampleGloss": "O seu brinde sentencioso sobre «o verdadeiro sentido da amizade» fez toda a gente olhar para o relógio.",
       "origin": "latim",
       "rootMeanings": [
         "opinião, máxima",
@@ -345,7 +345,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Excessivamente falante, sobretudo de nadas.",
       "friendly": "Não para de conversar — divaga sobre miudezas muito depois de os outros terem se calado.",
-      "exampleGloss": "O taxista garrulous nos contou a vida inteira antes de sairmos do aeroporto.",
+      "exampleGloss": "O taxista tagarela nos contou a vida inteira antes de sairmos do aeroporto.",
       "origin": "latim",
       "rootMeanings": [
         "tagarelar, palrar",
@@ -356,7 +356,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Parvoíce, asneira.",
       "friendly": "A parvoíce lisa — um comentário ou um plano tão parvo que mal merece uma resposta a sério.",
-      "exampleGloss": "A fatuity pura do plano ficou óbvia no momento em que o experimentaram.",
+      "exampleGloss": "A fatuidade pura do plano ficou óbvia no momento em que o experimentaram.",
       "origin": "latim",
       "rootMeanings": [
         "parvo, tolo",
@@ -367,7 +367,7 @@
       "partOfSpeech": "substantivo",
       "definition": "A parte conclusiva de um discurso, muitas vezes recapitulativa.",
       "friendly": "O grande final de um discurso — o troço em que o orador junta tudo e crava o ponto.",
-      "exampleGloss": "Na peroration, metade da plateia estava de pé.",
+      "exampleGloss": "Na peroração, metade da plateia estava de pé.",
       "origin": "latim",
       "rootMeanings": [
         "através, até ao fim",
@@ -378,7 +378,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Repetição desnecessária da mesma ideia com outras palavras.",
       "friendly": "Dizer o mesmo duas vezes sem acrescentar nada, como «oferta grátis» ou «it is what it is».",
-      "exampleGloss": "«It is what it is» é uma tautology favorita de quem evita uma explicação a sério.",
+      "exampleGloss": "«It is what it is» é uma tautologia favorita de quem evita uma explicação a sério.",
       "origin": "grego",
       "rootMeanings": [
         "o mesmo",
@@ -389,7 +389,7 @@
       "partOfSpeech": "substantivo",
       "definition": "O uso de muito poucas palavras; um falar lacónico.",
       "friendly": "Dizer muito com muito pouco — a arte da réplica curta e seca, assim chamada pelos espartanos da Lacónia, famosos pela brevidade.",
-      "exampleGloss": "«Molon labe» — «come and take them» — é o pedaço de laconism mais famoso da história.",
+      "exampleGloss": "«Molon labe» — «venham buscá-las» — é o pedaço de laconismo mais famoso da história.",
       "origin": "grego",
       "rootMeanings": [
         "um espartano da Lacónia",
@@ -400,7 +400,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Ideias insípidas e demasiado simplificadas; na origem, comida sosa ou papa.",
       "friendly": "Pensamento aguado — conteúdo tão simplificado e tão seguro que não nutre a mente.",
-      "exampleGloss": "O discurso do político era sobretudo pabulum: promessas vagas a que não se podia agarrar nada.",
+      "exampleGloss": "O discurso do político era sobretudo palha: promessas vagas a que não se podia agarrar nada.",
       "origin": "latim",
       "rootMeanings": [
         "alimentar",
@@ -411,7 +411,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Que provoca sono ou sonolência.",
       "friendly": "Tão aborrecido — ou tão literalmente sedativo — que dá sono. Pense em leite quente, ou numa reunião de orçamento de três horas.",
-      "exampleGloss": "O zumbido soporific da aula tinha metade da sala a lutar para não fechar os olhos.",
+      "exampleGloss": "O zumbido soporífero da aula tinha metade da sala a lutar para não fechar os olhos.",
       "origin": "latim",
       "rootMeanings": [
         "sono profundo",
@@ -422,7 +422,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Excessivamente lisonjeiro ou oleoso no trato.",
       "friendly": "Tão liso de encanto que escorrega — uma lisonja tão espessa que quase se sente a gordura.",
-      "exampleGloss": "O vendedor unctuous não parava de elogiar o meu «excellent taste» antes de cada venda extra.",
+      "exampleGloss": "O vendedor untuoso não parava de elogiar o meu «excelente gosto» antes de cada venda extra.",
       "origin": "latim",
       "rootMeanings": [
         "ungir, olear",
@@ -433,7 +433,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Pronto a achar defeito, demasiado crítico com nadas.",
       "friendly": "Picuinhas até ao excesso — o tipo que encontra problema em tudo, mesmo quando não importa.",
-      "exampleGloss": "As suas notas captious ao relatório centravam-se por completo nas vírgulas.",
+      "exampleGloss": "As suas notas capciosas ao relatório centravam-se por completo nas vírgulas.",
       "origin": "latim",
       "rootMeanings": [
         "agarrar, tomar",
@@ -444,7 +444,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Lento, inativo de mente ou de corpo.",
       "friendly": "Lento e a meio adormecido, como um urso em hibernação — quase não se mexe, quase não pensa.",
-      "exampleGloss": "O escritório caiu torpid no calor pesado de agosto.",
+      "exampleGloss": "O escritório caiu entorpecido no calor pesado de agosto.",
       "origin": "latim",
       "rootMeanings": [
         "estar entorpecido, estar preguiçoso",
@@ -455,7 +455,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um mordomo ou oficial que geria uma casa medieval.",
       "friendly": "A versão medieval de um chefe de pessoal — o oficial de confiança que levava no dia a dia a casa e a herdade de um senhor.",
-      "exampleGloss": "O seneschal do castelo geria tudo, das contas da colheita à lista de convidados.",
+      "exampleGloss": "O senescal do castelo geria tudo, das contas da colheita à lista de convidados.",
       "origin": "frâncico / francês antigo",
       "rootMeanings": [
         "velho, sénior",
@@ -466,7 +466,7 @@
       "partOfSpeech": "verbo",
       "definition": "Falar ou escrever longamente sobre um tema.",
       "friendly": "Pegar no assunto de verdade — falar ou escrever sem parar, percorrendo o tema de todos os lados.",
-      "exampleGloss": "Pergunte a ele de carros antigos e ele vai expatiate durante uma hora inteira.",
+      "exampleGloss": "Pergunte a ele de carros antigos e ele vai discorrer durante uma hora inteira.",
       "origin": "latim",
       "rootMeanings": [
         "fora",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "adjetivo",
       "definition": "Sem valor, fútil; também inválido ou ineficaz.",
-      "friendly": "Que quase não vale nada — uma cláusula nugatory num contrato, na prática, não faz nada.",
-      "exampleGloss": "O tribunal declarou nugatory o velho regulamento, pois nunca tinha sido aplicado.",
+      "friendly": "Que quase não vale nada — uma cláusula sem efeito num contrato, na prática, não faz nada.",
+      "exampleGloss": "O tribunal declarou sem efeito o velho regulamento, pois nunca tinha sido aplicado.",
       "origin": "latim",
       "rootMeanings": [
         "futilidades, disparates",
@@ -488,7 +488,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Sabedoria, juízo perspicaz.",
       "friendly": "Uma sabedoria viva e prática — o bom juízo que vem da experiência, não só dos livros.",
-      "exampleGloss": "A sagacity do velho capitão tirou a tripulação de sarilhos mais do que uma vez.",
+      "exampleGloss": "A sagacidade do velho capitão tirou a tripulação de sarilhos mais do que uma vez.",
       "origin": "latim",
       "rootMeanings": [
         "de olfato fino, perspicaz",
@@ -499,7 +499,7 @@
       "partOfSpeech": "substantivo",
       "definition": "A ralé ou a massa, usado com desprezo.",
       "friendly": "Uma palavra esnobe e desdenhosa para a gente comum, como se fossem uma alcateia de cães.",
-      "exampleGloss": "O conde escarneceu da canaille reunida fora dos portões do palácio.",
+      "exampleGloss": "O conde escarneceu da canalha reunida fora dos portões do palácio.",
       "origin": "italiano / francês",
       "rootMeanings": [
         "cão",
@@ -510,7 +510,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Trato ou linguagem insolente e humilhante.",
       "friendly": "Um trato cruel e desdenhoso feito para humilhar — o insulto pensado para arder.",
-      "exampleGloss": "Aguentou anos de contumely dos críticos antes de a obra ser enfim reconhecida.",
+      "exampleGloss": "Aguentou anos de afrontas dos críticos antes de a obra ser enfim reconhecida.",
       "origin": "latim",
       "rootMeanings": [
         "com, a fundo",
@@ -521,7 +521,7 @@
       "partOfSpeech": "advérbio",
       "definition": "Com suspeita ou desaprovação; um olhar de viés.",
       "friendly": "O olhar de lado que se lança a algo em que não se confia de todo — um olhar carregado de dúvida.",
-      "exampleGloss": "A professora olhou askance para o trabalho de casa suspeitosamente arrumado.",
+      "exampleGloss": "A professora olhou de soslaio para o trabalho de casa suspeitosamente arrumado.",
       "origin": "incerto / italiano",
       "rootMeanings": [
         "para, a",
@@ -532,7 +532,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um parvo; um cabeça-dura.",
       "friendly": "Um insulto antigo, quase afetuoso, para alguém torpe ou denso — um cabeça-dura.",
-      "exampleGloss": "«You clodpate», riu ela, «you've had the map upside down the whole time.»",
+      "exampleGloss": "«Seu palerma», riu ela, «tiveste o mapa ao contrário este tempo todo.»",
       "origin": "inglês",
       "rootMeanings": [
         "torrão de terra",
@@ -543,7 +543,7 @@
       "partOfSpeech": "verbo",
       "definition": "Pôr em movimento ou em ação; motivar.",
       "friendly": "Ser a faísca que põe algo para andar — uma máquina que liga ou uma pessoa que enfim age sobre uma ideia.",
-      "exampleGloss": "O medo de perder o contrato actuated o time inteiro para um fim de semana de hora extra.",
+      "exampleGloss": "O medo de perder o contrato impeliu o time inteiro para um fim de semana de hora extra.",
       "origin": "latim",
       "rootMeanings": [
         "um fazer, um impelir",
@@ -554,7 +554,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Peculato de fundos confiados à sua guarda.",
       "friendly": "Roubar em silêncio o dinheiro que se devia guardar — o peculato, vestido à antiga.",
-      "exampleGloss": "A peculation do tesoureiro passou despercebida durante quase uma década.",
+      "exampleGloss": "O peculato do tesoureiro passou despercebido durante quase uma década.",
       "origin": "latim",
       "rootMeanings": [
         "propriedade privada",
@@ -565,7 +565,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um grupo tido nas margens da sociedade respeitável.",
       "friendly": "O meio-mundo glamouroso e sombrio — gente que vive mesmo fora das regras do decoro.",
-      "exampleGloss": "O romance segue uma cantora na demi-monde dos cabarés dos anos vinte.",
+      "exampleGloss": "O romance segue uma cantora no mundo galante dos cabarés dos anos vinte.",
       "origin": "francês",
       "rootMeanings": [
         "meio",
@@ -576,7 +576,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Que ainda existe; não extinto nem destruído.",
       "friendly": "Continua cá hoje — diz-se de coisas velhas (manuscritos, espécies, edifícios) que conseguiram sobreviver.",
-      "exampleGloss": "Só se conhecem três exemplares extant da primeira impressão.",
+      "exampleGloss": "Só se conhecem três exemplares sobreviventes da primeira impressão.",
       "origin": "latim",
       "rootMeanings": [
         "fora",
@@ -587,7 +587,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Engano; traição da confiança.",
       "friendly": "Uma traição funda e deliberada — quebrar uma confiança que alguém tinha o direito de esperar de si.",
-      "exampleGloss": "O general nunca perdoou a perfidy do velho amigo à mesa das negociações.",
+      "exampleGloss": "O general nunca perdoou a perfídia do velho amigo à mesa das negociações.",
       "origin": "latim",
       "rootMeanings": [
         "através, contra",
@@ -598,7 +598,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um dialeto regional, sobretudo não padrão.",
       "friendly": "O modo próprio, local, de falar numa região — cheio de palavras e ritmos que um forasteiro não apanha.",
-      "exampleGloss": "A avó ainda falava o patois da ilha nos jantares de família.",
+      "exampleGloss": "A avó ainda falava o dialeto da ilha nos jantares de família.",
       "origin": "francês",
       "rootMeanings": [
         "fala tosca, dialeto",
@@ -609,7 +609,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um direito especial de uma pessoa ou de um grupo.",
       "friendly": "Um privilégio que é só seu — um direito que vem com o papel, o posto ou o status.",
-      "exampleGloss": "Escolher o destino das férias da família é a prerogative do Grandpa, e todo mundo sabe disso.",
+      "exampleGloss": "Escolher o destino das férias da família é a prerrogativa do avô, e todo mundo sabe disso.",
       "origin": "latim",
       "rootMeanings": [
         "antes",
@@ -620,7 +620,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Ousadia, audácia; também resistência ou fôlego.",
       "friendly": "Uma resiliência rude e corajosa — o nervo de avançar e a teimosia de aguentar uma vez a caminho.",
-      "exampleGloss": "Foi precisa uma hardihood a sério para cruzar o porto num nevão, sem mapa.",
+      "exampleGloss": "Foi precisa uma valentia a sério para cruzar o porto num nevão, sem mapa.",
       "origin": "francês antigo / inglês",
       "rootMeanings": [
         "ousado, rijo",
@@ -631,7 +631,7 @@
       "partOfSpeech": "verbo",
       "definition": "Estalar em flor; também desenvolver-se ou aparecer aos poucos.",
       "friendly": "Abrir-se até se exprimir de todo — como uma flor que se abre, ou uma ideia que por fim encontra a forma.",
-      "exampleGloss": "O talento calado dela para a pintura effloresced assim que teve um ateliê seu.",
+      "exampleGloss": "O talento calado dela para a pintura desabrochou assim que teve um ateliê seu.",
       "origin": "latim",
       "rootMeanings": [
         "fora",
@@ -642,7 +642,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um fio de prumo para julgar a vertical; em sentido figurado, um critério.",
       "friendly": "Um peso num fio que cai a prumo, para ver se algo está mesmo a prumo — e, por extensão, qualquer medida fixa contra a qual se compara o resto.",
-      "exampleGloss": "Usava a honestidade do avô como uma espécie de plumb line para cada decisão.",
+      "exampleGloss": "Usava a honestidade do avô como uma espécie de fio de prumo para cada decisão.",
       "origin": "latim / inglês",
       "rootMeanings": [
         "chumbo",
@@ -652,8 +652,8 @@
     "fain": {
       "partOfSpeech": "advérbio",
       "definition": "De bom grado, de vontade (arcaico).",
-      "friendly": "Um modo antigo de dizer «de bom grado» ou «com gosto» — you would fain fazer algo se isso lhe apetecer.",
-      "exampleGloss": "«I would fain rest here a while», suspirou o viajante.",
+      "friendly": "Um modo antigo de dizer «de bom grado» ou «com gosto» — quem faz algo «fain» fá-lo de muito boa vontade.",
+      "exampleGloss": "«De bom grado descansaria aqui um pouco», suspirou o viajante.",
       "origin": "inglês antigo",
       "rootMeanings": [
         "alegre, gozoso",
@@ -664,7 +664,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Crítica pública dura, ou desonra.",
       "friendly": "A vergonha pública deitada em cima de alguém em grande — a desonra de uma desaprovação geral.",
-      "exampleGloss": "O escândalo trouxe opprobrium público sobre toda a firma.",
+      "exampleGloss": "O escândalo trouxe opróbrio público sobre toda a firma.",
       "origin": "latim",
       "rootMeanings": [
         "contra",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "adjetivo",
       "definition": "Vivamente sarcástico, mordaz no engenho ou na crítica.",
-      "friendly": "Engenho com dentes a sério — um comentário mordant pica precisamente porque aponta tão bem.",
-      "exampleGloss": "As críticas de cinema mordant dela eram temidas pelos diretores e amadas pelos leitores.",
+      "friendly": "Engenho com dentes a sério — um comentário mordaz pica precisamente porque aponta tão bem.",
+      "exampleGloss": "As críticas de cinema mordazes dela eram temidas pelos diretores e amadas pelos leitores.",
       "origin": "latim / francês",
       "rootMeanings": [
         "morder",
@@ -686,7 +686,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Uma proclamação formal, muitas vezes política ou militar.",
       "friendly": "Um anúncio grande e oficial — costuma ser o que declara um governo novo, um levantamento ou um decreto maior.",
-      "exampleGloss": "O pronunciamento do general anunciou o novo governo ao amanhecer.",
+      "exampleGloss": "A proclamação do general anunciou o novo governo ao amanhecer.",
       "origin": "espanhol",
       "rootMeanings": [
         "avante",
@@ -697,7 +697,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Pessoa de saber superficial que se faz passar por perito.",
       "friendly": "Alguém que roçou a superfície de um tema e depois fala como se tivesse escrito o manual.",
-      "exampleGloss": "O sciolist do jantar corrigiu com à vontade o verdadeiro astrofísico à mesa.",
+      "exampleGloss": "O sabichão do jantar corrigiu com à vontade o verdadeiro astrofísico à mesa.",
       "origin": "latim",
       "rootMeanings": [
         "saber",
@@ -708,7 +708,7 @@
       "partOfSpeech": "substantivo",
       "definition": "O declínio das faculdades mentais na velhice.",
       "friendly": "O troço brumoso e esquecido da velhice avançada, quando a agudeza da mente começa a apagar-se.",
-      "exampleGloss": "Na sua dotage, contava as mesmas três histórias em cada visita, cada vez como se fossem novas.",
+      "exampleGloss": "Na sua caduquice, contava as mesmas três histórias em cada visita, cada vez como se fossem novas.",
       "origin": "inglês médio",
       "rootMeanings": [
         "chochear, ser tolo",
@@ -719,7 +719,7 @@
       "partOfSpeech": "substantivo",
       "definition": "O lado abrigado do vento.",
       "friendly": "O lado calmo e abrigado de alguma coisa — uma colina, um navio, um muro — onde o vento já não chega de todo.",
-      "exampleGloss": "Os caminhantes armaram a tenda no lee side da crista para fugir às rajadas.",
+      "exampleGloss": "Os caminhantes armaram a tenda do lado sotavento da crista para fugir às rajadas.",
       "origin": "inglês antigo",
       "rootMeanings": [
         "abrigo, proteção",
@@ -730,7 +730,7 @@
       "partOfSpeech": "verbo",
       "definition": "Desviar ou rejeitar um golpe, uma pergunta ou um argumento.",
       "friendly": "Afastar com jeito — um golpe de espada, uma pergunta incómoda, uma acusação — sem perder o compasso.",
-      "exampleGloss": "Ela parried a pergunta manhosa do jornalista com uma piada fácil.",
+      "exampleGloss": "Ela aparou a pergunta manhosa do jornalista com uma piada fácil.",
       "origin": "francês",
       "rootMeanings": [
         "rejeitar",
@@ -741,7 +741,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "De cheiro nauseabundo, nocivo.",
       "friendly": "Fétido de um modo quase tóxico — um cheiro tão mau que parece perigoso respirar.",
-      "exampleGloss": "Um cheiro mephitic subiu do pântano ao pôr do sol.",
+      "exampleGloss": "Um cheiro mefítico subiu do pântano ao pôr do sol.",
       "origin": "latim",
       "rootMeanings": [
         "vapor nocivo",
@@ -752,7 +752,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Pessoa votada ao luxo e ao prazer.",
       "friendly": "Alguém que vive para o conforto e o deleite — boa mesa, camas macias, vida fácil — assim chamado pela cidade grega de Síbaris, famosa pelo excesso.",
-      "exampleGloss": "Um verdadeiro sybarite, recusava qualquer quarto de hotel sem banheira.",
+      "exampleGloss": "Um verdadeiro sibarita, recusava qualquer quarto de hotel sem banheira.",
       "origin": "grego",
       "rootMeanings": [
         "antiga cidade grega famosa pelo luxo",
@@ -763,7 +763,7 @@
       "partOfSpeech": "verbo",
       "definition": "Pôr de lado ou ignorar de propósito uma parte de alguma coisa.",
       "friendly": "Afastar de propósito, na mente, uma peça do puzzle para olhar limpo o resto.",
-      "exampleGloss": "Prescind um momento do custo e perguntemos só se o plano funciona de verdade.",
+      "exampleGloss": "Prescindamos um momento do custo e perguntemos só se o plano funciona de verdade.",
       "origin": "latim",
       "rootMeanings": [
         "antes, longe",
@@ -774,7 +774,7 @@
       "partOfSpeech": "verbo",
       "definition": "Criticar com dureza; também, esfolar.",
       "friendly": "Esfolar alguém a golpes de crítica — como se se lhe arrancasse a pele a sério.",
-      "exampleGloss": "Os críticos excoriated a sequela por trair tudo o que os fãs amavam no original.",
+      "exampleGloss": "Os críticos arrasaram a sequela por trair tudo o que os fãs amavam no original.",
       "origin": "latim",
       "rootMeanings": [
         "fora",
@@ -785,7 +785,7 @@
       "partOfSpeech": "verbo",
       "definition": "Citar como prova ou como evidência.",
       "friendly": "Trazer um fato ou um exemplo para suster o ponto — aquilo a que se aponta quando alguém pede provas.",
-      "exampleGloss": "A advogada adduced três testemunhas em apoio do álibi da cliente.",
+      "exampleGloss": "A advogada aduziu três testemunhas em apoio do álibi da cliente.",
       "origin": "latim",
       "rootMeanings": [
         "para, em direção a",
@@ -796,7 +796,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Viagens ou andanças, sobretudo longas ou extensas.",
       "friendly": "Longos periplos errantes — essa espécie de vaguear que o tem longe de casa uma boa temporada.",
-      "exampleGloss": "As suas peregrinations por três continentes encheram uma prateleira inteira de diários de viagem.",
+      "exampleGloss": "As suas peregrinações por três continentes encheram uma prateleira inteira de diários de viagem.",
       "origin": "latim",
       "rootMeanings": [
         "através",
@@ -807,7 +807,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um mendigo, ou quem vive de esmolas.",
       "friendly": "Alguém que vive a pedir caridade — historicamente, também frades que fizeram voto de pobreza e viviam de donativos.",
-      "exampleGloss": "Os frades mendicant não possuíam nada e dependiam por inteiro da bondade dos aldeões.",
+      "exampleGloss": "Os frades mendicantes não possuíam nada e dependiam por inteiro da bondade dos aldeões.",
       "origin": "latim",
       "rootMeanings": [
         "mendigar",
@@ -818,7 +818,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Extremamente generoso.",
       "friendly": "Generoso a uma escala quase teatral — o donativo que arranca um pequeno «ah».",
-      "exampleGloss": "A doação munificent financiou toda a nova ala da biblioteca.",
+      "exampleGloss": "A doação munificente financiou toda a nova ala da biblioteca.",
       "origin": "latim",
       "rootMeanings": [
         "dom, serviço",
@@ -829,7 +829,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Esgotamento por falta de alimento; também falta de vitalidade.",
       "friendly": "Um estado fraco, esvaziado, por não estar alimentado — no literal pela fome, ou no figurado por não restar combustível.",
-      "exampleGloss": "No fim do cerco, os soldados estavam perto da inanition.",
+      "exampleGloss": "No fim do cerco, os soldados estavam perto da inanição.",
       "origin": "latim",
       "rootMeanings": [
         "vazio, vão",
@@ -840,7 +840,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Crítica amarga e injuriosa.",
       "friendly": "Uma crítica que já deixou para trás o justo e se tornou uma diatribe zangada e amarga.",
-      "exampleGloss": "Os comentários online dissolveram-se em pura vituperation em minutos.",
+      "exampleGloss": "Os comentários online dissolveram-se em pura vituperação em minutos.",
       "origin": "latim",
       "rootMeanings": [
         "falha, defeito",
@@ -851,7 +851,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Hostil, prejudicial nos efeitos.",
       "friendly": "Que trabalha contra si, ainda que em silêncio — condições ou atitudes pouco amigas dos seus interesses.",
-      "exampleGloss": "A nova política era inimical para os pequenas empresas, mesmo que essa não fosse a intenção.",
+      "exampleGloss": "A nova política era hostil às pequenas empresas, mesmo que essa não fosse a intenção.",
       "origin": "latim",
       "rootMeanings": [
         "não",
@@ -862,7 +862,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Propenso a causar rancor, muitas vezes por comparações injustas.",
       "friendly": "De certeza que alguém se sente menosprezado — quase sempre porque se põe gente ou coisas em concorrência desigual.",
-      "exampleGloss": "Classificar os irmãos por «who Mom loves best» é um jogo invidious que ninguém deveria jogar.",
+      "exampleGloss": "Classificar os irmãos por «quem a mãe gosta mais» é um jogo odioso que ninguém deveria jogar.",
       "origin": "latim",
       "rootMeanings": [
         "inveja",
@@ -873,7 +873,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Pessoa de grau ou estatuto inferior; um subordinado.",
       "friendly": "Alguém mais abaixo na cadeia de comando ou na escala social — um júnior, sob alguém com mais poder.",
-      "exampleGloss": "Como jovem subaltern, recebeu ordens muito tempo antes de as dar.",
+      "exampleGloss": "Como jovem subalterno, recebeu ordens muito tempo antes de as dar.",
       "origin": "latim",
       "rootMeanings": [
         "sob",
@@ -884,7 +884,7 @@
       "partOfSpeech": "verbo",
       "definition": "Sentir ou exprimir um ódio intenso.",
       "friendly": "Aborrecer algo tanto que se amaldiçoa em voz alta — uma detestação pura e sonora.",
-      "exampleGloss": "Os aldeões execrated o cobrador de impostos cada vez que o carro dele atravessava a vila.",
+      "exampleGloss": "Os aldeões execravam o cobrador de impostos cada vez que o carro dele atravessava a vila.",
       "origin": "latim",
       "rootMeanings": [
         "fora de",
@@ -895,7 +895,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Uma cobertura natural exterior, como a pele ou uma carapaça.",
       "friendly": "O invólucro protetor da natureza — pele, concha, casca ou cortiça, o que cobre e resguarda um ser vivo.",
-      "exampleGloss": "A carapaça de uma tartaruga é um integument notavelmente rijo.",
+      "exampleGloss": "A carapaça de uma tartaruga é um tegumento notavelmente rijo.",
       "origin": "latim",
       "rootMeanings": [
         "sobre, por cima",
@@ -904,9 +904,9 @@
     },
     "ingenuous": {
       "partOfSpeech": "adjetivo",
-      "definition": "Inocente, ingénuo, de simplicidade infantil; o contrário de manhoso.",
-      "friendly": "Abertamente confiante e um pouco ingénuo, sem agenda oculta — fácil de confundir com «ingenious», que significa engenhoso.",
-      "exampleGloss": "A pergunta ingenuous dela — «why would anyone lie about that?» — mostrava quão pouca astúcia tinha.",
+      "definition": "Inocente, ingênuo, de simplicidade infantil; o contrário de manhoso.",
+      "friendly": "Abertamente confiante e um pouco ingênuo, sem agenda oculta — fácil de confundir com «ingenious», que significa engenhoso.",
+      "exampleGloss": "A pergunta ingênua dela — «porque haveria alguém de mentir sobre isso?» — mostrava quão pouca astúcia tinha.",
       "origin": "latim",
       "rootMeanings": [
         "em, nativo",
@@ -917,7 +917,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Preocupação excessiva com pormenores menores ou regras.",
       "friendly": "Perder-se nas regras miúdas e falhar o quadro grande — obcecar-se com a letra pequena de que mais ninguém se importa.",
-      "exampleGloss": "A pedantry dele com as vírgulas de Oxford descarrilou toda a reunião.",
+      "exampleGloss": "O pedantismo dele com as vírgulas de Oxford descarrilou toda a reunião.",
       "origin": "italiano / latim",
       "rootMeanings": [
         "preceptor de crianças",
@@ -928,7 +928,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um exame minucioso e cuidadoso.",
       "friendly": "Um olhar fundo, que não deixa pedra por mexer — percorrer cada pormenor com verdadeiro cuidado.",
-      "exampleGloss": "Só após uma perscrutation atenta dos livros apareceu a discrepância.",
+      "exampleGloss": "Só após uma perscrutação atenta dos livros apareceu a discrepância.",
       "origin": "latim",
       "rootMeanings": [
         "através, a fundo",
@@ -939,7 +939,7 @@
       "partOfSpeech": "verbo",
       "definition": "Levantar objeções; mostrar relutância.",
       "friendly": "Recuar com cortesia ou hesitar em vez de seguir logo — um suave «um momento».",
-      "exampleGloss": "Quando lhe pediram que assinasse sem ler, ela demurred.",
+      "exampleGloss": "Quando lhe pediram que assinasse sem ler, ela objetou.",
       "origin": "latim / francês",
       "rootMeanings": [
         "de, longe",
@@ -950,7 +950,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Plausível na aparência, mas na verdade falso.",
       "friendly": "Soa convincente à primeira vista, mas desfaz-se assim que se verifica a sério.",
-      "exampleGloss": "«Everyone's doing it» é um argumento specious que nunca aguenta de todo o escrutínio.",
+      "exampleGloss": "«Everyone's doing it» é um argumento especioso que nunca aguenta de todo o escrutínio.",
       "origin": "latim",
       "rootMeanings": [
         "aparência, aspeto",
@@ -961,7 +961,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Conversa insincera e hipócrita, muitas vezes moralizante.",
       "friendly": "Um falar de púlpito que soa virtuoso sem sentimento verdadeiro — pose moral em piloto automático.",
-      "exampleGloss": "Estava farto do cant empresarial sobre a «family» de uma empresa que nunca dava um dia de folga.",
+      "exampleGloss": "Estava farto do palavreado piedoso de empresa sobre a «família», numa empresa que nunca dava um dia de folga.",
       "origin": "latim",
       "rootMeanings": [
         "cantar (depois: jargão cantado)",
@@ -972,7 +972,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Falto de coragem, cobarde.",
       "friendly": "Tímido até não ter coluna — demasiado assustado para se erguer, mesmo quando claramente importa.",
-      "exampleGloss": "O silêncio pusillanimous da direção deixou o escândalo descontrolar-se.",
+      "exampleGloss": "O silêncio pusilânime da direção deixou o escândalo descontrolar-se.",
       "origin": "latim",
       "rootMeanings": [
         "muito pequeno",
@@ -983,7 +983,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "De raposa; astuto, ladino.",
       "friendly": "Manhoso e esperto como uma raposa — vivo de mente, um pouco taimado, sempre um passo à frente.",
-      "exampleGloss": "Deu um sorriso vulpine no instante em que viu a falha.",
+      "exampleGloss": "Deu um sorriso vulpino no instante em que viu a falha.",
       "origin": "latim",
       "rootMeanings": [
         "raposa",
@@ -994,7 +994,7 @@
       "partOfSpeech": "advérbio",
       "definition": "Um após o outro, em sequência.",
       "friendly": "Tomado estritamente um a um, por ordem — sem saltar, sem fazer dois de uma vez.",
-      "exampleGloss": "O juiz abordou cada um dos doze pedidos seriatim.",
+      "exampleGloss": "O juiz abordou cada um dos doze pedidos um a um.",
       "origin": "latim",
       "rootMeanings": [
         "fila, sequência",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Frugalidade extrema; sovinice.",
       "friendly": "Andar curto de dinheiro (ou de palavras, ou de recursos) muito para além de uma poupança razoável.",
-      "exampleGloss": "A sua parsimony era lendária — reutilizava os saquinhos de chá três vezes.",
+      "exampleGloss": "A sua parcimônia era lendária — reutilizava os saquinhos de chá três vezes.",
       "origin": "latim",
       "rootMeanings": [
         "escassear, ser frugal",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Uma correção, sobretudo num texto.",
       "friendly": "Um conserto num escrito — um retoque erudito que corrige um erro num texto velho ou importante.",
-      "exampleGloss": "A nova edição inclui dezenas de emendations ao manuscrito original.",
+      "exampleGloss": "A nova edição inclui dezenas de emendas ao manuscrito original.",
       "origin": "latim",
       "rootMeanings": [
         "fora de",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Moderado no comer e no beber.",
       "friendly": "De propósito contido à mesa — nunca em excesso, sempre a deixar um pouco no prato.",
-      "exampleGloss": "Os hábitos abstemious dele mantiveram-no lúcido muito depois de os pares terem abrandado.",
+      "exampleGloss": "Os hábitos abstêmios dele mantiveram-no lúcido muito depois de os pares terem abrandado.",
       "origin": "latim",
       "rootMeanings": [
         "longe de",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um erro gramatical ou uma falta de etiqueta.",
       "friendly": "Um escorregão de gramática ou de maneiras — o pequeno erro que faz encolher um picuinhas.",
-      "exampleGloss": "«Between you and I» é um solecism comum que ainda faz estremecer os gramáticos.",
+      "exampleGloss": "«Between you and I» é um solecismo comum que ainda faz estremecer os gramáticos.",
       "origin": "grego",
       "rootMeanings": [
         "cidade cilícia conhecida pelo grego «mau»",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Relativo a um conflito interno a um grupo; mutuamente destrutivo.",
       "friendly": "Rixas internas que rasgam um grupo por dentro — uma luta em que todos perdem, porque é família contra família.",
-      "exampleGloss": "As rixas internecine do partido fizeram mais dano do que qualquer rival de fora.",
+      "exampleGloss": "As rixas intestinas do partido fizeram mais dano do que qualquer rival de fora.",
       "origin": "latim",
       "rootMeanings": [
         "entre, no meio",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "adjetivo / substantivo",
       "definition": "Atitude indiferente, descuidada.",
       "friendly": "Um encolher de ombros tornado personalidade — importar tão pouco o que outrora importava que nada parece já valer o esforço.",
-      "exampleGloss": "A atitude pococurante dele para com a gala dos prêmios surpreendeu quantos sabiam o quanto ele tinha trabalhado.",
+      "exampleGloss": "A atitude displicente dele para com a gala dos prêmios surpreendeu quantos sabiam o quanto ele tinha trabalhado.",
       "origin": "italiano",
       "rootMeanings": [
         "pouco",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Uma situação ou disputa confusa e enredada.",
       "friendly": "Um imbróglio emaranhado, difícil de deslindar — parte mal-entendido, parte drama, tudo confusão.",
-      "exampleGloss": "Todo o imbroglio do plano de mesas começou com um cartão de nome mal posto.",
+      "exampleGloss": "Todo o imbróglio do plano de mesas começou com um cartão de nome mal posto.",
       "origin": "italiano",
       "rootMeanings": [
         "em",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "adjetivo",
       "definition": "Ameaçador, de mau presságio.",
-      "friendly": "Com um ar inconfundível de ameaça — um olhar ou uma carta minatory deixa bem claro que pode vir algo feio.",
-      "exampleGloss": "O tom minatory da carta deixou a inquilina nervosa ainda antes de abrir o envelope.",
+      "friendly": "Com um ar inconfundível de ameaça — um olhar ou uma carta ameaçadora deixa bem claro que pode vir algo feio.",
+      "exampleGloss": "O tom ameaçador da carta deixou a inquilina nervosa ainda antes de abrir o envelope.",
       "origin": "latim",
       "rootMeanings": [
         "ameaçar",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Crítica pública forte ou abuso verbal.",
       "friendly": "Uma condenação ruidosa e pública — a crítica abrasadora que se representa diante de todos.",
-      "exampleGloss": "A denunciante aguentou anos de obloquy público antes de a história lhe dar razão.",
+      "exampleGloss": "A denunciante aguentou anos de infâmia pública antes de a história lhe dar razão.",
       "origin": "latim",
       "rootMeanings": [
         "contra",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um rebentamento súbito e violento de emoção ou de ação.",
       "friendly": "Um empurrão intenso que o cobre de golpe — um ataque de riso, de ira ou de tosse como uma onda.",
-      "exampleGloss": "Acometeu-a um paroxysm de riso que não conseguia explicar a mais ninguém na sala.",
+      "exampleGloss": "Acometeu-a um paroxismo de riso que não conseguia explicar a mais ninguém na sala.",
       "origin": "grego",
       "rootMeanings": [
         "para além",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Acrescentado de fora, não inerente.",
       "friendly": "Aparafusado de fora em vez de vir de origem — um extra, não um núcleo.",
-      "exampleGloss": "O comentário sente-se adscititious, como colado a um texto já acabado.",
+      "exampleGloss": "O comentário sente-se adventício, como colado a um texto já acabado.",
       "origin": "latim",
       "rootMeanings": [
         "para, além",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Falta de saber, ignorância.",
       "friendly": "O simples não-saber — um buraco no conhecimento, sem juízo colado por cima.",
-      "exampleGloss": "Admitiu a sua nescience do vinho francês e deixou o sommelier escolher.",
+      "exampleGloss": "Admitiu a sua nesciência do vinho francês e deixou o sommelier escolher.",
       "origin": "latim",
       "rootMeanings": [
         "não",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Interesse excessivo por assuntos sexuais.",
       "friendly": "Uma curiosidade demasiado ansiosa, um tanto lúbrica, por tudo o que é picante — um interesse que passou o são e se tornou bisbilhoteiro.",
-      "exampleGloss": "A prurience do tablóide sobre a vida privada do casal beirava o obsessivo.",
+      "exampleGloss": "A lascívia do tablóide sobre a vida privada do casal beirava o obsessivo.",
       "origin": "latim",
       "rootMeanings": [
         "comichar, anelar",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Fuliginoso, escuro, turvo.",
       "friendly": "Escuro e fumado, como se tudo levasse uma camada fina de fuligem.",
-      "exampleGloss": "Uma bruma fuliginous pairava ao entardecer sobre a vila fabril.",
+      "exampleGloss": "Uma bruma fuliginosa pairava ao entardecer sobre a vila fabril.",
       "origin": "latim",
       "rootMeanings": [
         "fuligem",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "verbo",
       "definition": "Negar ou contradizer.",
       "friendly": "Falar contra, de frente, o que outro disse — dizer que não é assim.",
-      "exampleGloss": "Ninguém ousou gainsay o relato do velho capitão sobre a tempestade.",
+      "exampleGloss": "Ninguém ousou contestar o relato do velho capitão sobre a tempestade.",
       "origin": "inglês médio",
       "rootMeanings": [
         "contra",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Preguiça, ociosidade (do latim).",
       "friendly": "Uma palavra latina antiga para a preguiça pura — o lastro de não querer fazer nada.",
-      "exampleGloss": "Os monges pregavam contra ignavia como um dos perigos calados da alma.",
+      "exampleGloss": "Os monges pregavam contra a acídia como um dos perigos calados da alma.",
       "origin": "latim",
       "rootMeanings": [
         "não",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um escudo que mostra um brasão.",
       "friendly": "O emblema em forma de escudo com as armas de uma família — a sua insígnia heráldica.",
-      "exampleGloss": "O escutcheon da família continua pendurado sobre a porta da velha casa senhorial.",
+      "exampleGloss": "O brasão da família continua pendurado sobre a porta da velha casa senhorial.",
       "origin": "latim / francês antigo",
       "rootMeanings": [
         "escudo",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Antiquado, obsoleto, ou reformado por idade.",
       "friendly": "Passado o bom tempo e posto de lado — demasiado fora de moda ou gasto para continuar a fazer o trabalho.",
-      "exampleGloss": "A impressora superannuated foi enfim substituída após quinze anos de enguiços.",
+      "exampleGloss": "A impressora obsoleta foi enfim substituída após quinze anos de enguiços.",
       "origin": "latim",
       "rootMeanings": [
         "para além",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Substitutos, sobretudo em medicina.",
       "friendly": "Remédios de recurso quando falta o tratamento a sério — dublês médicos, no fundo.",
-      "exampleGloss": "Os médicos de guerra apoiavam-se muitas vezes em succedanea quando acabavam os medicamentos a sério.",
+      "exampleGloss": "Os médicos de guerra apoiavam-se muitas vezes em sucedâneos quando acabavam os medicamentos a sério.",
       "origin": "latim",
       "rootMeanings": [
         "em vez de",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Conversa jactanciosa e fanfarrona.",
       "friendly": "Fanfarronice grande e ruidosa — um falar alto da própria grandeza que é, sobretudo, ar quente.",
-      "exampleGloss": "A sua rodomontade de ter salvo o projeto «single-handedly» não enganou ninguém que tivesse estado lá a sério.",
+      "exampleGloss": "A sua fanfarronice de ter salvo o projeto «sozinho» não enganou ninguém que tivesse estado lá a sério.",
       "origin": "italiano",
       "rootMeanings": [
         "cavaleiro fanfarrão em Orlando Furioso",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "verbo",
       "definition": "Usar astúcia ou engano para conseguir algo.",
       "friendly": "Chegar ao objetivo com truques em vez de jogo limpo.",
-      "exampleGloss": "Chicaned a entrada no negócio com um contrato cheio de letra miúda.",
+      "exampleGloss": "Insinuou-se no negócio com um contrato cheio de letra miúda.",
       "origin": "francês",
       "rootMeanings": [
         "tergiversar, enganar",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Excessivamente ocupado com regras formais ou pormenores triviais.",
       "friendly": "Demasiado rígido com o miúdo — corrigir minúcias técnicas que não mudam nada de fundo.",
-      "exampleGloss": "Soava um pouco pedantic discutir «who» contra «whom» numa mensagem de texto.",
+      "exampleGloss": "Soava um pouco pedante discutir «who» contra «whom» numa mensagem de texto.",
       "origin": "italiano / grego",
       "rootMeanings": [
         "guia de crianças, preceptor",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um lampejo de luz faiscante.",
       "friendly": "Um relâmpago rápido e brilhante — o sol na água, ou um diamante que apanha a luz.",
-      "exampleGloss": "A coruscation do candelabro espalhava luz por cada canto da sala de baile.",
+      "exampleGloss": "A coruscação do candelabro espalhava luz por cada canto da sala de baile.",
       "origin": "latim",
       "rootMeanings": [
         "brilhar, faiscar",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um principiante, um novato.",
       "friendly": "Alguém novinho num ofício ou num campo — ainda a aprender os jeitos, ainda não um perito.",
-      "exampleGloss": "Até um jogador de xadrez tyro consegue ver essa asneira.",
+      "exampleGloss": "Até um jogador de xadrez novato consegue ver essa asneira.",
       "origin": "latim",
       "rootMeanings": [
         "recruta, novato",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Extremamente mau, detestável.",
       "friendly": "Mau de um modo que merece nojo a sério — não só medíocre, mas francamente atroz.",
-      "exampleGloss": "O crítico chamou à sequela execrable, e a bilheteria deu-lhe razão.",
+      "exampleGloss": "O crítico chamou execrável à sequela, e a bilheteria deu-lhe razão.",
       "origin": "latim",
       "rootMeanings": [
         "amaldiçoar",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "De cor vermelho-sangue.",
       "friendly": "Um vermelho fundo e vivo — a cor do sangue fresco, famoso pelo Macbeth de Shakespeare.",
-      "exampleGloss": "O pôr do sol tingiu o céu todo de um resplendor incarnadine.",
+      "exampleGloss": "O pôr do sol tingiu o céu todo de um resplendor encarnado.",
       "origin": "italiano / latim",
       "rootMeanings": [
         "dentro",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um pequeno vão ou espaço entre coisas.",
       "friendly": "O entremedio mínimo que se passa por alto — a fenda entre as tábuas, o buraco numa agenda.",
-      "exampleGloss": "As ervas daninhas empurravam por cada interstice do velho caminho de tijolo.",
+      "exampleGloss": "As ervas daninhas empurravam por cada interstício do velho caminho de tijolo.",
       "origin": "latim",
       "rootMeanings": [
         "entre",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Observações críticas ou censuradoras.",
       "friendly": "Comentários pungentes, de desaprovação — a crítica que soa um pouco a repreensão.",
-      "exampleGloss": "As animadversions do professor ao ensaio encheram as margens de tinta vermelha.",
+      "exampleGloss": "As animadversões do professor ao ensaio encheram as margens de tinta vermelha.",
       "origin": "latim",
       "rootMeanings": [
         "mente",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Impossível de refutar, inegável.",
       "friendly": "Tão solidamente provado que não há argumento em contrário — o caso está fechado.",
-      "exampleGloss": "A prova de ADN era irrefragable, e o julgamento terminou na hora.",
+      "exampleGloss": "A prova de ADN era irrefragável, e o julgamento terminou na hora.",
       "origin": "latim",
       "rootMeanings": [
         "não",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Complexidade, enredo; também um recolher para dentro.",
       "friendly": "Uma complexidade emaranhada, dobrada sobre si — coisas tão apertadas que custa despegá-las.",
-      "exampleGloss": "A involution da trama deixou metade da plateia a deslindar depois dos créditos.",
+      "exampleGloss": "A complicação da trama deixou metade da plateia a deslindar depois dos créditos.",
       "origin": "latim",
       "rootMeanings": [
         "dentro, para dentro",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Força ou esforço, como em «by dint of».",
       "friendly": "Pura força ou empenho — sobrevive sobretudo na locução «by dint of».",
-      "exampleGloss": "Passou no exame by dint of uma prática teimosa, pura e simples.",
+      "exampleGloss": "Passou no exame à força de uma prática teimosa, pura e simples.",
       "origin": "inglês antigo",
       "rootMeanings": [
         "um golpe, um envite",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Unido com encaixe de caixa e espiga; encaixado com firmeza.",
       "friendly": "Travado à maneira antiga do carpinteiro — uma peça entra justa num vão cortado para ela.",
-      "exampleGloss": "As vigas do velho celeiro estavam mortised entre si sem um único prego.",
+      "exampleGloss": "As vigas do velho celeiro estavam encaixadas por respiga e mecha sem um único prego.",
       "origin": "latim / francês",
       "rootMeanings": [
         "uma caixa, um vão",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Altamente pertinente, adequado.",
       "friendly": "Exatamente o que o momento pedia — um comentário, uma citação ou um exemplo que acerta em cheio.",
-      "exampleGloss": "A observação apposite dela resumiu todo o debate numa frase.",
+      "exampleGloss": "A observação certeira dela resumiu todo o debate numa frase.",
       "origin": "latim",
       "rootMeanings": [
         "para",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "De um resplendor suave ou vacilante; também, um engenho leve.",
       "friendly": "Um brilho manso em vez de um incêndio — uma chama que brinca, ou um engenho brincalhão mais do que cortante.",
-      "exampleGloss": "A luz das velas lançava um resplendor lambent sobre a velha sala de jantar.",
+      "exampleGloss": "A luz das velas lançava um resplendor bruxuleante sobre a velha sala de jantar.",
       "origin": "latim",
       "rootMeanings": [
         "lamber",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um recluso religioso que vive em solidão.",
       "friendly": "Alguém que se retira do mundo por completo para viver sozinho em oração e reflexão.",
-      "exampleGloss": "O anchorite viveu mais de trinta anos numa cela pequena adossada à igreja.",
+      "exampleGloss": "O anacoreta viveu mais de trinta anos numa cela pequena adossada à igreja.",
       "origin": "grego",
       "rootMeanings": [
         "para trás, longe",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "verbo",
       "definition": "Saciar a sede; apagar.",
       "friendly": "Satisfazer de todo um anseio — quase sempre a sede, mas no figurado qualquer necessidade funda.",
-      "exampleGloss": "Um copo de água fria slaked a sede dele após a longa caminhada.",
+      "exampleGloss": "Um copo de água fria matou a sede dele após a longa caminhada.",
       "origin": "inglês antigo",
       "rootMeanings": [
         "frouxo, solto",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Em forma de agulha.",
       "friendly": "Comprido, fino e aguçado como uma agulha — a forma de uma agulha de pinheiro ou de um cristalito agudo.",
-      "exampleGloss": "Os pinheiros reconhecem-se facilmente pelas folhas acicular.",
+      "exampleGloss": "Os pinheiros reconhecem-se facilmente pelas folhas aciculares.",
       "origin": "latim",
       "rootMeanings": [
         "agulha",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Esgotado de vitalidade, fraco, demasiado refinado.",
       "friendly": "Gasto e mole — tendo perdido o vigor primeiro à força de conforto ou de requinte.",
-      "exampleGloss": "Os críticos chamaram effete à revista outrora ousada, sombra dos seus anos bravos.",
+      "exampleGloss": "Os críticos chamaram decadente à revista outrora ousada, sombra dos seus anos bravos.",
       "origin": "latim",
       "rootMeanings": [
         "fora",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Um acessório ou um pequeno elemento ou direito anexo.",
       "friendly": "Um extra pequeno unido a algo maior — os acessórios e anexos que vão com o principal.",
-      "exampleGloss": "O arrendamento incluía a garagem e todas as suas appurtenances.",
+      "exampleGloss": "O arrendamento incluía a garagem e todas as suas pertenças.",
       "origin": "latim / francês",
       "rootMeanings": [
         "para",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "verbo",
       "definition": "Passar por cima ou minimizar uma falta.",
       "friendly": "Alisar um erro com palavras macias, para que soe mais pequeno do que é.",
-      "exampleGloss": "Tentou gloze over o prazo perdido com um vago discurso de «unforeseen challenges».",
+      "exampleGloss": "Tentou dourar o prazo perdido com um vago discurso de «desafios imprevistos».",
       "origin": "francês antigo / latim",
       "rootMeanings": [
         "uma glosa, uma explicação",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "adjetivo",
       "definition": "Numa fase precoce, que mal começa.",
       "friendly": "Apenas a começar a mostrar-se — o primeiro estádio, quase invisível, de algo maior.",
-      "exampleGloss": "Os médicos apanharam os sinais incipient da doença antes de se espalhar.",
+      "exampleGloss": "Os médicos apanharam os sinais incipientes da doença antes de se espalhar.",
       "origin": "latim",
       "rootMeanings": [
         "sobre, para dentro",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "substantivo",
       "definition": "Inspiração criativa, sobretudo divina.",
       "friendly": "Um empurrão súbito de inspiração maior do que si — como se a ideia lhe tivesse sido soprada de outra parte.",
-      "exampleGloss": "O poeta contou que toda a peça chegou num burst of afflatus às três da manhã.",
+      "exampleGloss": "O poeta contou que toda a peça chegou num rasgo de inspiração às três da manhã.",
       "origin": "latim",
       "rootMeanings": [
         "para, sobre",

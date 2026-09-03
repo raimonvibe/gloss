@@ -4,7 +4,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Słodzić lub oczyszczać; odbierać czemuś ostrość.",
       "friendly": "Wyjąć żądło albo gorycz — dosłownie osłodzić, albo w przenośni zmiękczyć twardą myśl, żeby łatwiej weszła.",
-      "exampleGloss": "Redaktor edulcorated ostrą recenzję, zanim poszła do druku.",
+      "exampleGloss": "Redaktor osłodził ostrą recenzję, zanim poszła do druku.",
       "origin": "łacina",
       "rootMeanings": [
         "na zewnątrz, gruntownie",
@@ -15,7 +15,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Nadmiernie albo afektowanie religijny lub pobożny.",
       "friendly": "Opisuje kogoś, czyja pobożność pachnie pokazem: więcej występu niż prawdziwej wiary.",
-      "exampleGloss": "Jego pietistic wzdychanie podczas kazania drażniło resztę ławki.",
+      "exampleGloss": "Jego pietystyczne wzdychanie podczas kazania drażniło resztę ławki.",
       "origin": "łacina",
       "rootMeanings": [
         "pobożność, poczucie obowiązku",
@@ -26,7 +26,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Dwuznaczność wynikająca ze składni — zdanie czytelne na dwa sposoby.",
       "friendly": "Zdanie gramatycznie poprawne, ale dające się odczytać na dwa zupełnie różne sposoby, jak „Visiting relatives can be tiring”.",
-      "exampleGloss": "„Visiting relatives can be tiring” to klasyczna amphiboly — męczą krewni, czy samo ich odwiedzanie?",
+      "exampleGloss": "„Visiting relatives can be tiring” to klasyczna amfibolia — męczą krewni, czy samo ich odwiedzanie?",
       "origin": "grecki",
       "rootMeanings": [
         "oba, z obu stron",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "przymiotnik",
       "definition": "Ostry, przenikliwy, idący prosto do rzeczy.",
-      "friendly": "Przecina zbędny szum — trenchant uwaga albo umysł trafia w sedno szybko, bez zbędnych słów.",
-      "exampleGloss": "Jej trenchant krytyka nie zostawiła lukom w fabule filmu żadnej kryjówki.",
+      "friendly": "Przecina zbędny szum — cięta uwaga albo umysł trafia w sedno szybko, bez zbędnych słów.",
+      "exampleGloss": "Jej cięta krytyka nie zostawiła lukom w fabule filmu żadnej kryjówki.",
       "origin": "starofrancuski",
       "rootMeanings": [
         "ciąć",
@@ -48,7 +48,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Dopiero się zaczynający; we wczesnym lub szczątkowym stadium.",
       "friendly": "Jeszcze w pierwszych chwilach — plan, uczucie albo proces, który dopiero zaczyna nabierać kształtu.",
-      "exampleGloss": "Inchoative stadia traktatu były obiecujące, ale wiele szczegółów pozostało otwartych.",
+      "exampleGloss": "Inchoatywne stadia traktatu były obiecujące, ale wiele szczegółów pozostało otwartych.",
       "origin": "łacina",
       "rootMeanings": [
         "zaczynać, rozpoczynać",
@@ -59,7 +59,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Formalna mowa albo tekst wychwalający kogoś z przepychem.",
       "friendly": "Pełny, uroczysty hołd — pomyśl o jaśniejącym panegiryku albo o mowie, która śpiewa czyjeś czyny z dachów.",
-      "exampleGloss": "Odchodzącą profesor pożegnano panegyric jej najbliższych studentów.",
+      "exampleGloss": "Odchodzącą profesor pożegnano panegirykiem jej najbliższych studentów.",
       "origin": "grecki",
       "rootMeanings": [
         "wszystko, cały",
@@ -70,7 +70,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Dotyczący rzeczywistego istnienia, w przeciwieństwie do teorii abstrakcyjnej.",
       "friendly": "O rzeczach takimi, jakimi naprawdę są — nie tylko jako idee albo teorie na ich temat.",
-      "exampleGloss": "Filozofowie spierają się, czy liczby mają jakikolwiek status ontic, czy istnieją tylko w naszych głowach.",
+      "exampleGloss": "Filozofowie spierają się, czy liczby mają jakikolwiek status ontyczny, czy istnieją tylko w naszych głowach.",
       "origin": "grecki",
       "rootMeanings": [
         "bycie, to co istnieje",
@@ -80,8 +80,8 @@
     "fructify": {
       "partOfSpeech": "czasownik",
       "definition": "Owocować albo stawać się wydajnym.",
-      "friendly": "Wreszcie wydać plon — wysiłek, pomysł albo inwestycja, która fructifies, wyrosła z ziarna w coś pożytecznego.",
-      "exampleGloss": "Lata cichej pracy badawczej fructified wreszcie w działającą szczepionkę.",
+      "friendly": "Wreszcie wydać plon — wysiłek, pomysł albo inwestycja, która owocuje, wyrosła z ziarna w coś pożytecznego.",
+      "exampleGloss": "Lata cichej pracy badawczej zaowocowały wreszcie działającą szczepionką.",
       "origin": "łacina",
       "rootMeanings": [
         "owoc",
@@ -92,7 +92,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Antycypować albo przedstawiać coś jako już dokonane, zanim się zdarzy.",
       "friendly": "Wybiegać naprzód na literacki sposób — opisać przyszłe zdarzenie, jakby już było zamknięte, żeby punkt uderzył mocniej.",
-      "exampleGloss": "Proleptical toast generała za „victory” wzniesiono pełny tydzień przed bitwą.",
+      "exampleGloss": "Proleptyczny toast generała za „zwycięstwo” wzniesiono pełny tydzień przed bitwą.",
       "origin": "grecki",
       "rootMeanings": [
         "przed",
@@ -103,7 +103,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Napędzany ciśnieniem powietrza; także dotyczący ducha albo oddechu.",
       "friendly": "Zwykle: poruszany sprężonym powietrzem — wiertarka, hamulec autobusu — ale ten sam grecki rdzeń mówi też o oddechu i duchu.",
-      "exampleGloss": "Pneumatic hamulce syknęły, gdy autobus stanął przy krawężniku.",
+      "exampleGloss": "Pneumatyczne hamulce syknęły, gdy autobus stanął przy krawężniku.",
       "origin": "grecki",
       "rootMeanings": [
         "wiatr, oddech, duch",
@@ -114,7 +114,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Opisywać Boga albo boskość twierdzeniami pozytywnymi — przeciwieństwo apofatycznego.",
       "friendly": "Mówić o Bogu, mówiąc, kim jest — „Bóg jest miłością”, „Bóg jest sprawiedliwy” — zamiast tylko, kim nie jest.",
-      "exampleGloss": "Teologia cataphatic mówi z pewnością o Bogu jako kochającym, sprawiedliwym i miłosiernym.",
+      "exampleGloss": "Teologia katafatyczna mówi z pewnością o Bogu jako kochającym, sprawiedliwym i miłosiernym.",
       "origin": "grecki",
       "rootMeanings": [
         "w dół, według",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "przymiotnik",
       "definition": "Oparty na zaufaniu albo wierze; także: stały punkt odniesienia.",
-      "friendly": "Coś, co bierze się na wiarę, a potem służy za kotwicę — znacznik fiducial to stały punkt, względem którego mierzy się resztę.",
-      "exampleGloss": "Geodeci umieścili znacznik fiducial w skale, zanim zmapowali teren.",
+      "friendly": "Coś, co bierze się na wiarę, a potem służy za kotwicę — znacznik odniesienia to stały punkt, względem którego mierzy się resztę.",
+      "exampleGloss": "Geodeci umieścili znacznik odniesienia w skale, zanim zmapowali teren.",
       "origin": "łacina",
       "rootMeanings": [
         "ufać",
@@ -136,7 +136,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Obrona dobroci Boga wobec istnienia zła.",
       "friendly": "Stara próba odpowiedzi: jeśli Bóg jest dobry, dlaczego jest zło? — bez porzucania żadnego z tych twierdzeń.",
-      "exampleGloss": "Jej praca badała theodicy przez pryzmat Księgi Hioba.",
+      "exampleGloss": "Jej praca badała teodyceę przez pryzmat Księgi Hioba.",
       "origin": "grecki",
       "rootMeanings": [
         "bóg",
@@ -147,7 +147,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Wzajemne zamieszkiwanie — termin teologiczny na to, jak osoby Trójcy istnieją jedna w drugiej.",
       "friendly": "Słowo teologii na trójjedyną wspólnotę tak pełną, że każda część zawiera pozostałe i jest przez nie zawierana.",
-      "exampleGloss": "Doktryna circumincession stara się wyjaśnić, jak Ojciec, Syn i Duch są odrębni, a jednak nierozłączni.",
+      "exampleGloss": "Doktryna perychorezy stara się wyjaśnić, jak Ojciec, Syn i Duch są odrębni, a jednak nierozłączni.",
       "origin": "łacina",
       "rootMeanings": [
         "dookoła",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "czasownik",
       "definition": "Mieć skutek, który komuś służy albo na kogoś spada.",
-      "friendly": "Gdy zasługa (albo wina) odbija się na odpowiedzialnym — dobre uczynki, które redound do twojego imienia, wracają potem jako nagroda.",
-      "exampleGloss": "Sukces drużyny redound na konto cichego, pracowitego trenera.",
+      "friendly": "Gdy zasługa (albo wina) odbija się na odpowiedzialnym — dobre uczynki, które przysparzają ci imienia, wracają potem jako nagroda.",
+      "exampleGloss": "Sukces drużyny przysporzy zasług cichemu, pracowitemu trenerowi.",
       "origin": "łacina",
       "rootMeanings": [
         "wstecz, znowu",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "przymiotnik",
       "definition": "Niemożliwy do uniknięcia ani do ucieczki.",
-      "friendly": "Zdarzy się, cokolwiek zrobisz — z ineluctable wyniku się nie wywiniesz.",
-      "exampleGloss": "Starość przychodzi do wszystkich; jest po prostu ineluctable.",
+      "friendly": "Zdarzy się, cokolwiek zrobisz — z nieuniknionego wyniku się nie wywiniesz.",
+      "exampleGloss": "Starość przychodzi do wszystkich; jest po prostu nieunikniona.",
       "origin": "łacina",
       "rootMeanings": [
         "nie",
@@ -180,7 +180,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Używający okrężnego, słownego sformułowania zamiast formy bezpośredniej.",
       "friendly": "Iść długą drogą ze słowami — powiedzieć całym zdaniem to, co pokryłoby jedno słowo.",
-      "exampleGloss": "Jego periphrastic e-maile mogły powiedzieć w jednej linijce to, co zajęło mu trzy akapity.",
+      "exampleGloss": "Jego peryfrastyczne e-maile mogły powiedzieć w jednej linijce to, co zajęło mu trzy akapity.",
       "origin": "grecki",
       "rootMeanings": [
         "dookoła",
@@ -191,7 +191,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Otępienie umysłowe albo letarg.",
       "friendly": "Ten mglisty, ociężały stan umysłu, w którym myślenie jest jak brnięcie przez syrop.",
-      "exampleGloss": "Fala hebetude spadła na klasę zaraz po obiedzie.",
+      "exampleGloss": "Fala otępienia spadła na klasę zaraz po obiedzie.",
       "origin": "łacina",
       "rootMeanings": [
         "tępy, stępiony",
@@ -202,7 +202,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Niekorzystny; złowróżbny.",
       "friendly": "Zły znak — warunki albo czas, które już zdają się działać przeciwko tobie, zanim w ogóle zaczniesz.",
-      "exampleGloss": "Szare niebo i martwa bateria w aucie dały unpropitious początek podróży.",
+      "exampleGloss": "Szare niebo i martwa bateria w aucie dały niepomyślny początek podróży.",
       "origin": "łacina",
       "rootMeanings": [
         "nie",
@@ -213,7 +213,7 @@
       "partOfSpeech": "przymiotnik / czasownik",
       "definition": "Mięso duszone albo smażone w sosie — poprawnie pisane „fricasseed”.",
       "friendly": "Przytulny, stary termin kuchenny na mięso pokrojone i wolno gotowane we własnym sosie, aż zmięknie.",
-      "exampleGloss": "Fricasseed kurczak babci był gwiazdą każdego niedzielnego obiadu.",
+      "exampleGloss": "Kurczak babci w potrawce był gwiazdą każdego niedzielnego obiadu.",
       "origin": "francuski",
       "rootMeanings": [
         "smażyć",
@@ -224,7 +224,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Sztuczny albo gorszy substytut.",
       "friendly": "Podróbka stojąca za oryginał — spełnia zadanie, ale każdy widzi, że to nie to samo.",
-      "exampleGloss": "W czasie wojny kupujący godzili się na kawę ersatz z palonej cykorii.",
+      "exampleGloss": "W czasie wojny kupujący godzili się na namiastkę kawy z palonej cykorii.",
       "origin": "niemiecki",
       "rootMeanings": [
         "na zewnątrz, przedrostek zastępstwa",
@@ -235,7 +235,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Traktować abstrakcyjną ideę tak, jakby była konkretną rzeczą.",
       "friendly": "Sprawić, by idea poczuła się realna i twarda — zamienić coś mglistego, jak „rynek”, w rzecz, na którą można wskazać.",
-      "exampleGloss": "Nazywanie „ducha” narodu osobnym bytem reifies coś, co naprawdę jest milionami pojedynczych wyborów.",
+      "exampleGloss": "Nazywanie „ducha” narodu osobnym bytem reifikuje coś, co naprawdę jest milionami pojedynczych wyborów.",
       "origin": "łacina",
       "rootMeanings": [
         "rzecz",
@@ -246,7 +246,7 @@
       "partOfSpeech": "czasownik (czas przeszły)",
       "definition": "Zręcznie umknąć albo uniknąć.",
       "friendly": "Wymknąć się czysto — wyminąć coś, często sprytnie albo o włos, czy to schwytanie, pytanie, czy odpowiedź.",
-      "exampleGloss": "Odpowiedź eluded przez godziny, aż nagle kliknęła pod prysznicem.",
+      "exampleGloss": "Odpowiedź wymykała się jej przez godziny, aż nagle kliknęła pod prysznicem.",
       "origin": "łacina",
       "rootMeanings": [
         "na zewnątrz, precz",
@@ -257,7 +257,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Wyrażający wątpliwość, zakłopotanie albo nierozwiązaną sprzeczność.",
       "friendly": "Zablokowany w prawdziwym ślepym zaułku myśli — nie z lenistwa, ale dlatego, że samo pytanie odmawia schludnej odpowiedzi.",
-      "exampleGloss": "Sokrates często kończył dialogi na nucie aporetic, z większą liczbą pytań niż odpowiedzi.",
+      "exampleGloss": "Sokrates często kończył dialogi na nucie aporetycznej, z większą liczbą pytań niż odpowiedzi.",
       "origin": "grecki",
       "rootMeanings": [
         "bez",
@@ -268,7 +268,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Figura nazywająca coś terminem powiązanym, np. „korona” zamiast monarchy.",
       "friendly": "Użyć pokrewnego słowa zamiast samej rzeczy — powiedzieć „Wall Street”, gdy ma się na myśli giełdę.",
-      "exampleGloss": "„Wall Street had a rough day” to metonymy — naprawdę znaczy, że giełda miała zły dzień.",
+      "exampleGloss": "„Wall Street had a rough day” to metonimia — naprawdę znaczy, że giełda miała zły dzień.",
       "origin": "grecki",
       "rootMeanings": [
         "zmiana, potem",
@@ -279,7 +279,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Wykorzenić; wyrwać z naturalnego środowiska.",
       "friendly": "Wyrwać coś (albo kogoś) z korzeniami, precz z miejsca albo kultury, do których należy.",
-      "exampleGloss": "Wojna deracinated całe pokolenie, rozrzucając rodziny poza granice.",
+      "exampleGloss": "Wojna wykorzeniła całe pokolenie, rozrzucając rodziny poza granice.",
       "origin": "francuski / łacina",
       "rootMeanings": [
         "precz, z dala",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "przymiotnik",
       "definition": "Przyjemnie brzmiący.",
-      "friendly": "Po prostu miły dla ucha — euphonious słowo albo zdanie spływa, niemal muzycznie.",
-      "exampleGloss": "„Murmuring brook” to euphonious małe wyrażenie, miękkie i łatwe do wypowiedzenia.",
+      "friendly": "Po prostu miły dla ucha — eufoniczne słowo albo zdanie spływa, niemal muzycznie.",
+      "exampleGloss": "„Murmuring brook” to eufoniczne małe wyrażenie, miękkie i łatwe do wypowiedzenia.",
       "origin": "grecki",
       "rootMeanings": [
         "dobry, dobrze",
@@ -301,7 +301,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Powszechnie zakładany albo uważany za taki.",
       "friendly": "Uznawany za prawdziwy na szeroką skalę, nawet bez dowodu — rzekoma albo domniemana wersja czegoś.",
-      "exampleGloss": "Putative autor listu okazał się później zupełnym obcym.",
+      "exampleGloss": "Domniemany autor listu okazał się później zupełnym obcym.",
       "origin": "łacina",
       "rootMeanings": [
         "myśleć, uważać",
@@ -312,7 +312,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Nowo ukute słowo albo zwrot.",
       "friendly": "Zupełnie nowe słowo — świeżo wymyślone, jeszcze (ledwie) w słowniku.",
-      "exampleGloss": "„Doomscrolling” zaczęło jako neologism i szybko stało się codziennym slangiem.",
+      "exampleGloss": "„Doomscrolling” zaczęło jako neologizm i szybko stało się codziennym slangiem.",
       "origin": "grecki",
       "rootMeanings": [
         "nowy",
@@ -323,7 +323,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Zły albo w złym humorze.",
       "friendly": "W kwaśnym, drażliwym nastroju, skory do wybuchu — jak dawniej wierzono, że śledziona rządzi temperamentem.",
-      "exampleGloss": "Odpalił splenetic odpowiedź na e-mail w kilka sekund po przeczytaniu.",
+      "exampleGloss": "Odpalił zjadliwą odpowiedź na e-mail w kilka sekund po przeczytaniu.",
       "origin": "grecki / łacina",
       "rootMeanings": [
         "śledziona (siedziba gniewu)",
@@ -334,7 +334,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Skłonny do moralizowania w sposób pompatyczny albo afektowany.",
       "friendly": "Uwielbia sypać drobnymi życiowymi naukami, jakby każde zdanie było ciasteczkiem z wróżbą.",
-      "exampleGloss": "Jego sententious toast o „the true meaning of friendship” sprawił, że wszyscy spojrzeli na zegarki.",
+      "exampleGloss": "Jego sentencjonalny toast o „prawdziwym znaczeniu przyjaźni” sprawił, że wszyscy spojrzeli na zegarki.",
       "origin": "łacina",
       "rootMeanings": [
         "opinia, maksyma",
@@ -345,7 +345,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Nadmiernie gadatliwy, zwłaszcza o drobiazgach.",
       "friendly": "Po prostu nie przestaje gadać — plecie o drobiazgach długo po tym, jak reszta już nie ma nic do powiedzenia.",
-      "exampleGloss": "Garrulous taksówkarz opowiedział nam całe swoje życie, zanim wyjechaliśmy z lotniska.",
+      "exampleGloss": "Gadatliwy taksówkarz opowiedział nam całe swoje życie, zanim wyjechaliśmy z lotniska.",
       "origin": "łacina",
       "rootMeanings": [
         "paplać, gawędzić",
@@ -356,7 +356,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Głupota, niemądrość.",
       "friendly": "Zwykła głupota — uwaga albo plan tak niemądre, że ledwie zasługują na poważną odpowiedź.",
-      "exampleGloss": "Czysta fatuity planu stała się oczywista, gdy tylko go spróbowali.",
+      "exampleGloss": "Czysta niedorzeczność planu stała się oczywista, gdy tylko go spróbowali.",
       "origin": "łacina",
       "rootMeanings": [
         "głupi, niemądry",
@@ -367,7 +367,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Zakończeniowa część mowy, często podsumowująca.",
       "friendly": "Wielki finał przemowy — odcinek, w którym mówca zbiera wszystko i wbija punkt.",
-      "exampleGloss": "Przy peroration połowa publiczności była na nogach.",
+      "exampleGloss": "Przy peroracji połowa publiczności była na nogach.",
       "origin": "łacina",
       "rootMeanings": [
         "przez, aż do końca",
@@ -378,7 +378,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Zbędne powtórzenie tej samej myśli innymi słowami.",
       "friendly": "Powiedzieć to samo dwa razy, nic nie dodając, jak „darmowy prezent” albo „it is what it is”.",
-      "exampleGloss": "„It is what it is” to ulubiona tautology ludzi unikających prawdziwego wyjaśnienia.",
+      "exampleGloss": "„It is what it is” to ulubiona tautologia ludzi unikających prawdziwego wyjaśnienia.",
       "origin": "grecki",
       "rootMeanings": [
         "to samo",
@@ -389,7 +389,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Używanie bardzo niewielu słów; zwięzła mowa.",
       "friendly": "Powiedzieć wiele niewieloma — sztuka krótkiej, suchej odpowiedzi, nazwana od notorycznie zwięzłych Spartan z Lakonii.",
-      "exampleGloss": "„Molon labe” — „come and take them” — to najsłynniejszy kawałek laconism w historii.",
+      "exampleGloss": "„Molon labe” — „przyjdźcie i weźcie” — to najsłynniejszy kawałek lakonizmu w historii.",
       "origin": "grecki",
       "rootMeanings": [
         "Spartanin z Lakonii",
@@ -400,7 +400,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Nijakie, nazbyt uproszczone idee; pierwotnie: mdłe jedzenie albo papka.",
       "friendly": "Rozcieńczone myślenie — treść tak uproszczona i bezpieczna, że nie karmi umysłu.",
-      "exampleGloss": "Przemówienie polityka było głównie pabulum: mgliste obietnice, na których nic nie dało się zawiesić.",
+      "exampleGloss": "Przemówienie polityka było głównie papką: mgliste obietnice, na których nic nie dało się zawiesić.",
       "origin": "łacina",
       "rootMeanings": [
         "karmić",
@@ -411,7 +411,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Wywołujący sen albo senność.",
       "friendly": "Tak nudny — albo tak dosłownie usypiający — że chce się spać. Pomyśl o ciepłym mleku albo o trzygodzinnej naradzie budżetowej.",
-      "exampleGloss": "Soporific szum wykładu sprawiał, że połowa sali walczyła, by nie zamknąć oczu.",
+      "exampleGloss": "Usypiający szum wykładu sprawiał, że połowa sali walczyła, by nie zamknąć oczu.",
       "origin": "łacina",
       "rootMeanings": [
         "głęboki sen",
@@ -422,7 +422,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Nadmiernie pochlebny albo oleisty w sposobie bycia.",
       "friendly": "Tak gładko czarujący, że śliski — pochlebstwo tak grube, że prawie czuć tłuszcz.",
-      "exampleGloss": "Unctuous sprzedawca nie przestawał chwalić mojego „excellent taste” przed każdą dodatkową sprzedażą.",
+      "exampleGloss": "Lizusowaty sprzedawca nie przestawał chwalić mojego „doskonałego gustu” przed każdą dodatkową sprzedażą.",
       "origin": "łacina",
       "rootMeanings": [
         "namaszczać, oliwić",
@@ -433,7 +433,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Skory do wyszukiwania wad, zbyt krytyczny wobec drobiazgów.",
       "friendly": "Czepialski do przesady — typ, który znajdzie problem we wszystkim, nawet gdy to nic nie znaczy.",
-      "exampleGloss": "Jego captious uwagi do raportu skupiały się wyłącznie na przecinkach.",
+      "exampleGloss": "Jego czepliwe uwagi do raportu skupiały się wyłącznie na przecinkach.",
       "origin": "łacina",
       "rootMeanings": [
         "chwytać, brać",
@@ -444,7 +444,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Ociężały, nieaktywny umysłowo albo fizycznie.",
       "friendly": "Powolny i na wpół śpiący, jak niedźwiedź w hibernacji — ledwie się rusza, ledwie myśli.",
-      "exampleGloss": "Biuro zapadło w torpid w ciężkim sierpniowym upale.",
+      "exampleGloss": "Biuro zapadło w odrętwienie w ciężkim sierpniowym upale.",
       "origin": "łacina",
       "rootMeanings": [
         "być zdrętwiałym, być ociężałym",
@@ -455,7 +455,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Zarządca albo urzędnik prowadzący średniowieczny dwór.",
       "friendly": "Średniowieczna wersja szefa personelu — zaufany urzędnik, który na co dzień prowadził dom i majątek pana.",
-      "exampleGloss": "Seneschal zamku ogarniał wszystko, od rachunków żniw po listę gości.",
+      "exampleGloss": "Seneszal zamku ogarniał wszystko, od rachunków żniw po listę gości.",
       "origin": "frankijski / starofrancuski",
       "rootMeanings": [
         "stary, starszy",
@@ -466,7 +466,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Mówić albo pisać obszernie o temacie.",
       "friendly": "Naprawdę ruszyć z tematem — gadać albo pisać bez końca, oglądając go z każdej strony.",
-      "exampleGloss": "Zapytaj go o oldtimery, a będzie expatiate przez dobrą godzinę.",
+      "exampleGloss": "Zapytaj go o oldtimery, a będzie się rozwodził przez dobrą godzinę.",
       "origin": "łacina",
       "rootMeanings": [
         "na zewnątrz",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "przymiotnik",
       "definition": "Bezwartościowy, błahy; także nieważny albo nieskuteczny.",
-      "friendly": "W zasadzie nic nie wart — nugatory klauzula w umowie w praktyce nic nie robi.",
-      "exampleGloss": "Sąd uznał stary przepis za nugatory, bo nigdy nie był egzekwowany.",
+      "friendly": "W zasadzie nic nie wart — bezskuteczna klauzula w umowie w praktyce nic nie robi.",
+      "exampleGloss": "Sąd uznał stary przepis za bezskuteczny, bo nigdy nie był egzekwowany.",
       "origin": "łacina",
       "rootMeanings": [
         "drobiazgi, bzdury",
@@ -488,7 +488,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Mądrość, bystra ocena.",
       "friendly": "Ostra, praktyczna mądrość — ten rodzaj dobrego osądu, który przychodzi z doświadczenia, nie tylko z książek.",
-      "exampleGloss": "Sagacity starego kapitana nie raz wyciągnęła załogę z kłopotów.",
+      "exampleGloss": "Roztropność starego kapitana nie raz wyciągnęła załogę z kłopotów.",
       "origin": "łacina",
       "rootMeanings": [
         "bystry węchem, przenikliwy",
@@ -499,7 +499,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Pospólstwo albo masa, używane z pogardą.",
       "friendly": "Snobistyczne, pogardliwe słowo na zwykłych ludzi, jakby byli sforą psów.",
-      "exampleGloss": "Hrabia szydził z canaille zbierającej się za bramami pałacu.",
+      "exampleGloss": "Hrabia szydził z hołoty zbierającej się za bramami pałacu.",
       "origin": "włoski / francuski",
       "rootMeanings": [
         "pies",
@@ -510,7 +510,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Obraźliwe, upokarzające traktowanie albo język.",
       "friendly": "Okrutne, pogardliwe traktowanie mające upokorzyć — obelga zaprojektowana, by zaboleć.",
-      "exampleGloss": "Znosił lata contumely od krytyków, zanim jego praca została wreszcie uznana.",
+      "exampleGloss": "Znosił lata zniewag od krytyków, zanim jego praca została wreszcie uznana.",
       "origin": "łacina",
       "rootMeanings": [
         "z, gruntownie",
@@ -521,7 +521,7 @@
       "partOfSpeech": "przysłówek",
       "definition": "Z podejrzeniem albo dezaprobatą; spojrzenie z ukosa.",
       "friendly": "Skośne spojrzenie, które dajesz czemuś, czemu nie całkiem ufasz — spojrzenie pełne wątpliwości.",
-      "exampleGloss": "Nauczycielka spojrzała askance na podejrzanie schludne zadanie.",
+      "exampleGloss": "Nauczycielka spojrzała krzywo na podejrzanie schludne zadanie.",
       "origin": "niepewne / włoski",
       "rootMeanings": [
         "ku, do",
@@ -532,7 +532,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Głupiec; tępak.",
       "friendly": "Staromodna, niemal czuła obelga na kogoś, kto jest tępawy albo gęsty — tępak.",
-      "exampleGloss": "„You clodpate” — zaśmiała się — „you've had the map upside down the whole time.”",
+      "exampleGloss": "„Ty ośle” — zaśmiała się — „przez cały czas trzymałeś mapę do góry nogami.”",
       "origin": "angielski",
       "rootMeanings": [
         "gruda ziemi",
@@ -543,7 +543,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Wprawić w ruch albo w działanie; zmotywować.",
       "friendly": "Być iskrą, która coś rusza — maszynę, która się włącza, albo człowieka, który wreszcie działa według pomysłu.",
-      "exampleGloss": "Strach przed utratą kontraktu actuated cały zespół do weekendu nadgodzin.",
+      "exampleGloss": "Strach przed utratą kontraktu popchnął cały zespół do weekendu nadgodzin.",
       "origin": "łacina",
       "rootMeanings": [
         "czynienie, pędzenie",
@@ -554,7 +554,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Sprzeniewierzenie powierzonych środków.",
       "friendly": "Cicho kraść pieniądze, które miało się strzec — sprzeniewierzenie w staromodnym płaszczu.",
-      "exampleGloss": "Peculation skarbnika umknęła uwadze przez niemal dekadę.",
+      "exampleGloss": "Sprzeniewierzenie skarbnika umknęło uwadze przez niemal dekadę.",
       "origin": "łacina",
       "rootMeanings": [
         "własność prywatna",
@@ -565,7 +565,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Grupa uważana za żyjącą na skraju przyzwoitego towarzystwa.",
       "friendly": "Glamour i mroczny półświatek — ludzie żyjący tuż poza regułami przyzwoitości.",
-      "exampleGloss": "Powieść śledzi piosenkarkę w demi-monde kabaretów lat dwudziestych.",
+      "exampleGloss": "Powieść śledzi piosenkarkę w półświatku kabaretów lat dwudziestych.",
       "origin": "francuski",
       "rootMeanings": [
         "pół",
@@ -576,7 +576,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Wciąż istniejący; nie wymarły ani nie zniszczony.",
       "friendly": "Wciąż tu dziś — o starych rzeczach (rękopisach, gatunkach, budynkach), które zdołały przetrwać.",
-      "exampleGloss": "Znane są tylko trzy extant egzemplarze pierwszego druku.",
+      "exampleGloss": "Znane są tylko trzy zachowane egzemplarze pierwszego druku.",
       "origin": "łacina",
       "rootMeanings": [
         "na zewnątrz",
@@ -587,7 +587,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Podstęp; zdrada zaufania.",
       "friendly": "Głęboka, zamierzona zdrada — złamać zaufanie, którego ktoś miał prawo od ciebie oczekiwać.",
-      "exampleGloss": "Generał nigdy nie wybaczył perfidy starego przyjaciela przy stole negocjacji.",
+      "exampleGloss": "Generał nigdy nie wybaczył perfidii starego przyjaciela przy stole negocjacji.",
       "origin": "łacina",
       "rootMeanings": [
         "przez, przeciw",
@@ -598,7 +598,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Dialekt regionalny, zwłaszcza niestandardowy.",
       "friendly": "Własny, lokalny sposób mówienia w danym regionie — pełen słów i rytmów, których obcy nie złapie.",
-      "exampleGloss": "Jej babcia wciąż mówiła wyspiarskim patois przy rodzinnych obiadach.",
+      "exampleGloss": "Jej babcia wciąż mówiła wyspiarską gwarą przy rodzinnych obiadach.",
       "origin": "francuski",
       "rootMeanings": [
         "szorstka mowa, dialekt",
@@ -609,7 +609,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Szczególne prawo osoby albo grupy.",
       "friendly": "Przywilej, który jest tylko twój — prawo, które przychodzi z rolą, stanowiskiem albo statusem.",
-      "exampleGloss": "Wybór celu rodzinnych wakacji to prerogative Grandpa, i wszyscy o tym wiedzą.",
+      "exampleGloss": "Wybór celu rodzinnych wakacji to prerogatywa dziadka, i wszyscy o tym wiedzą.",
       "origin": "łacina",
       "rootMeanings": [
         "przed",
@@ -620,7 +620,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Śmiałość, audacja; także twardość albo wytrzymałość.",
       "friendly": "Szorstka, odważna odporność — nerw, by iść dalej, i twardość, by wytrwać, gdy już jesteś w drodze.",
-      "exampleGloss": "Potrzeba było prawdziwej hardihood, by przekroczyć przełęcz w śnieżycy, bez mapy.",
+      "exampleGloss": "Potrzeba było prawdziwego hartu, by przekroczyć przełęcz w śnieżycy, bez mapy.",
       "origin": "starofrancuski / angielski",
       "rootMeanings": [
         "śmiały, twardy",
@@ -631,7 +631,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Wystrzelić kwieciem; także rozwijać się albo stopniowo pojawiać.",
       "friendly": "Rozwinąć się aż do pełnego wyrazu — jak kwiat, który się otwiera, albo pomysł, który wreszcie znajduje formę.",
-      "exampleGloss": "Jej cichy talent malarski effloresced, gdy tylko miała własne studio.",
+      "exampleGloss": "Jej cichy talent malarski rozkwitł, gdy tylko miała własne studio.",
       "origin": "łacina",
       "rootMeanings": [
         "na zewnątrz",
@@ -642,7 +642,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Obciążony sznur do oceny pionu; w przenośni: miara osądu.",
       "friendly": "Ciężarek na sznurku, który spada pionowo, by sprawdzić, czy coś naprawdę stoi pionowo — i, szerzej, każda stała miara, względem której porównuje się resztę.",
-      "exampleGloss": "Używał uczciwości dziadka jako swego rodzaju plumb line przy każdej decyzji.",
+      "exampleGloss": "Używał uczciwości dziadka jako swego rodzaju pionu przy każdej decyzji.",
       "origin": "łacina / angielski",
       "rootMeanings": [
         "ołów",
@@ -652,8 +652,8 @@
     "fain": {
       "partOfSpeech": "przysłówek",
       "definition": "Chętnie, z ochotą (arch.).",
-      "friendly": "Staromodny sposób powiedzenia „chętnie” albo „z ochotą” — you would fain coś zrobić, jeśli ci się to podoba.",
-      "exampleGloss": "„I would fain rest here a while” — westchnął podróżny.",
+      "friendly": "Staromodny sposób powiedzenia „chętnie” albo „z ochotą” — kto robi coś „fain”, robi to z prawdziwą przyjemnością.",
+      "exampleGloss": "„Chętnie odpocząłbym tu chwilę” — westchnął podróżny.",
       "origin": "staroangielski",
       "rootMeanings": [
         "rad, radosny",
@@ -664,7 +664,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Ostra publiczna krytyka albo hańba.",
       "friendly": "Publiczny wstyd zrzucony na kogoś w wielkim stylu — hańba powszechnego potępienia.",
-      "exampleGloss": "Skandal sprowadził publiczne opprobrium na całą firmę.",
+      "exampleGloss": "Skandal sprowadził publiczną hańbę na całą firmę.",
       "origin": "łacina",
       "rootMeanings": [
         "przeciw",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "przymiotnik",
       "definition": "Ostrosarkastyczny, kąśliwy w dowcipie albo krytyce.",
-      "friendly": "Dowcip z prawdziwymi zębami — mordant uwaga szczypie właśnie dlatego, że tak celnie trafia.",
-      "exampleGloss": "Jej mordant recenzje filmowe reżyserzy się bali, a czytelnicy kochali.",
+      "friendly": "Dowcip z prawdziwymi zębami — zjadliwa uwaga szczypie właśnie dlatego, że tak celnie trafia.",
+      "exampleGloss": "Jej zjadliwych recenzji filmowych bali się reżyserzy, a czytelnicy je kochali.",
       "origin": "łacina / francuski",
       "rootMeanings": [
         "gryźć",
@@ -686,7 +686,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Formalna proklamacja, często polityczna albo wojskowa.",
       "friendly": "Wielkie, oficjalne ogłoszenie — zwykle to, które ogłasza nowy rząd, powstanie albo ważny dekret.",
-      "exampleGloss": "Pronunciamento generała ogłosiło nowy rząd o świcie.",
+      "exampleGloss": "Odezwa generała ogłosiła nowy rząd o świcie.",
       "origin": "hiszpański",
       "rootMeanings": [
         "naprzód",
@@ -697,7 +697,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Osoba o powierzchownej wiedzy udająca eksperta.",
       "friendly": "Ktoś, kto musnął powierzchnię tematu, a potem mówi, jakby napisał podręcznik.",
-      "exampleGloss": "Sciolist na kolacji pewnie poprawił prawdziwego astrofizyka przy stole.",
+      "exampleGloss": "Mądrala na kolacji pewnie poprawił prawdziwego astrofizyka przy stole.",
       "origin": "łacina",
       "rootMeanings": [
         "wiedzieć",
@@ -708,7 +708,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Upadek władz umysłowych w starości.",
       "friendly": "Mglisty, zapominalski odcinek późnej starości, gdy ostrość umysłu zaczyna gasnąć.",
-      "exampleGloss": "W swojej dotage opowiadał przy każdej wizycie te same trzy historie, za każdym razem jakby nowe.",
+      "exampleGloss": "W swoim zdziecinnieniu opowiadał przy każdej wizycie te same trzy historie, za każdym razem jakby nowe.",
       "origin": "średnioangielski",
       "rootMeanings": [
         "majaczyć, być niemądrym",
@@ -719,7 +719,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Strona osłonięta od wiatru.",
       "friendly": "Spokojna, osłonięta strona czegoś — wzgórza, statku, muru — gdzie wiatr już cię nie sięga do końca.",
-      "exampleGloss": "Wędrowcy rozbili namiot na lee side grzbietu, by uciec przed podmuchami.",
+      "exampleGloss": "Wędrowcy rozbili namiot po zawietrznej stronie grzbietu, by uciec przed podmuchami.",
       "origin": "staroangielski",
       "rootMeanings": [
         "schronienie, ochrona",
@@ -730,7 +730,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Odeprzeć albo zbić cios, pytanie albo argument.",
       "friendly": "Gładko odsunąć — cios miecza, niewygodne pytanie, oskarżenie — nie tracąc taktu.",
-      "exampleGloss": "Ona parried podchwytliwe pytanie reportera łatwym żartem.",
+      "exampleGloss": "Odparowała podchwytliwe pytanie reportera łatwym żartem.",
       "origin": "francuski",
       "rootMeanings": [
         "odpierać",
@@ -741,7 +741,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Cuchnący, trujący.",
       "friendly": "Śmierdzący niemal toksycznie — smród tak zły, że oddychanie wydaje się niebezpieczne.",
-      "exampleGloss": "Mephitic zapach uniósł się z bagna o zachodzie słońca.",
+      "exampleGloss": "Cuchnący zapach uniósł się z bagna o zachodzie słońca.",
       "origin": "łacina",
       "rootMeanings": [
         "szkodliwa para",
@@ -752,7 +752,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Osoba oddana luksusowi i przyjemności.",
       "friendly": "Ktoś, kto żyje dla wygody i uciech — dobre jedzenie, miękkie łóżka, łatwe życie — nazwany od greckiego Sybaris, słynnego z nadmiaru.",
-      "exampleGloss": "Prawdziwy sybarite, odmawiał każdego pokoju hotelowego bez wanny.",
+      "exampleGloss": "Prawdziwy sybaryta, odmawiał każdego pokoju hotelowego bez wanny.",
       "origin": "grecki",
       "rootMeanings": [
         "starożytne greckie miasto słynne z luksusu",
@@ -763,7 +763,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Świadomie odłożyć albo zignorować część czegoś.",
       "friendly": "W umyśle odsunąć kawałek układanki, by czysto spojrzeć na resztę.",
-      "exampleGloss": "Prescind na chwilę od kosztu i zapytajmy tylko, czy plan w ogóle działa.",
+      "exampleGloss": "Abstrahujmy na chwilę od kosztu i zapytajmy tylko, czy plan w ogóle działa.",
       "origin": "łacina",
       "rootMeanings": [
         "przed, precz",
@@ -774,7 +774,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Ostro skrytykować; także: zedrzeć skórę.",
       "friendly": "Obrać kogoś ze skóry ostrą krytyką — jakby dosłownie zdzierać skórę.",
-      "exampleGloss": "Krytycy excoriated sequel za zdradę wszystkiego, co fani kochali w oryginale.",
+      "exampleGloss": "Krytycy zjechali sequel za zdradę wszystkiego, co fani kochali w oryginale.",
       "origin": "łacina",
       "rootMeanings": [
         "precz",
@@ -785,7 +785,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Przytoczyć jako dowód albo świadectwo.",
       "friendly": "Wysunąć fakt albo przykład na poparcie tezy — to, na co wskazujesz, gdy ktoś prosi o dowód.",
-      "exampleGloss": "Adwokatka adduced trzech świadków na poparcie alibi klientki.",
+      "exampleGloss": "Adwokatka przytoczyła trzech świadków na poparcie alibi klientki.",
       "origin": "łacina",
       "rootMeanings": [
         "ku",
@@ -796,7 +796,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Podróże albo wędrówki, zwłaszcza długie albo rozległe.",
       "friendly": "Długie, błąkające się drogi — ten rodzaj tułaczki, który trzyma cię daleko od domu przez dobry czas.",
-      "exampleGloss": "Jego peregrinations przez trzy kontynenty wypełniły całą półkę dzienników podróży.",
+      "exampleGloss": "Jego peregrynacje przez trzy kontynenty wypełniły całą półkę dzienników podróży.",
       "origin": "łacina",
       "rootMeanings": [
         "przez",
@@ -807,7 +807,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Żebrak, albo ktoś żyjący z jałmużny.",
       "friendly": "Ktoś, kto żyje, prosząc o jałmużnę — historycznie także mnisi, którzy ślubowali ubóstwo i żyli z darów.",
-      "exampleGloss": "Mendicant bracia nic nie posiadali i całkowicie polegali na dobroci wieśniaków.",
+      "exampleGloss": "Bracia żebrzący nic nie posiadali i całkowicie polegali na dobroci wieśniaków.",
       "origin": "łacina",
       "rootMeanings": [
         "żebrać",
@@ -818,7 +818,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Niezmiernie hojny.",
       "friendly": "Hojny w niemal teatralnej skali — dar, przy którym ludzie na chwilę wstrzymują oddech.",
-      "exampleGloss": "Munificent dar sfinansował całe nowe skrzydło biblioteki.",
+      "exampleGloss": "Hojny dar sfinansował całe nowe skrzydło biblioteki.",
       "origin": "łacina",
       "rootMeanings": [
         "dar, usługa",
@@ -829,7 +829,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Wyczerpanie z braku pożywienia; także brak żywotności.",
       "friendly": "Słaby, opróżniony stan z braku karmienia — dosłownie z głodu, albo w przenośni z braku paliwa.",
-      "exampleGloss": "Pod koniec oblężenia żołnierze byli blisko inanition.",
+      "exampleGloss": "Pod koniec oblężenia żołnierze byli bliscy wycieńczenia.",
       "origin": "łacina",
       "rootMeanings": [
         "pusty, marny",
@@ -840,7 +840,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Gorzka, obelżywa krytyka.",
       "friendly": "Krytyka, która dawno minęła to, co sprawiedliwe, i stała się złą, gorzką tyradą.",
-      "exampleGloss": "Komentarze internetowe rozpłynęły się w czystą vituperation w kilka minut.",
+      "exampleGloss": "Komentarze internetowe rozpłynęły się w czyste wyzwiska w kilka minut.",
       "origin": "łacina",
       "rootMeanings": [
         "wada, błąd",
@@ -851,7 +851,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Wrogi, szkodliwy w skutkach.",
       "friendly": "Działający przeciwko tobie, nawet po cichu — warunki albo postawy nieprzyjazne twoim interesom.",
-      "exampleGloss": "Nowa polityka była inimical dla małych firm, nawet jeśli to nie był zamiar.",
+      "exampleGloss": "Nowa polityka była wroga małym firmom, nawet jeśli to nie był zamiar.",
       "origin": "łacina",
       "rootMeanings": [
         "nie",
@@ -862,7 +862,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Skłonny budzić urazę, często przez niesprawiedliwe porównania.",
       "friendly": "Pewne, że ktoś poczuje się urażony — zwykle dlatego, że stawia się ludzi albo rzeczy w nierównej konkurencji.",
-      "exampleGloss": "Szeregować rodzeństwo według „who Mom loves best” to invidious gra, w którą nikt nie powinien grać.",
+      "exampleGloss": "Szeregować rodzeństwo według „kogo mama kocha najbardziej” to nikczemna gra, w którą nikt nie powinien grać.",
       "origin": "łacina",
       "rootMeanings": [
         "zazdrość",
@@ -873,7 +873,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Osoba niższego stopnia albo statusu; podwładny.",
       "friendly": "Ktoś niżej w łańcuchu dowodzenia albo na drabinie społecznej — junior pod kimś z większą władzą.",
-      "exampleGloss": "Jako młody subaltern długo przyjmował rozkazy, zanim sam je wydawał.",
+      "exampleGloss": "Jako młody oficer niższej rangi długo przyjmował rozkazy, zanim sam je wydawał.",
       "origin": "łacina",
       "rootMeanings": [
         "pod",
@@ -884,7 +884,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Odczuwać albo wyrażać silną nienawiść.",
       "friendly": "Tak bardzo czymś gardzić, że przeklina się to głośno — czysta, głośna odraza.",
-      "exampleGloss": "Wieśniacy execrated poborcę podatków za każdym razem, gdy jego wóz toczył się przez miasteczko.",
+      "exampleGloss": "Wieśniacy przeklinali poborcę podatków za każdym razem, gdy jego wóz toczył się przez miasteczko.",
       "origin": "łacina",
       "rootMeanings": [
         "z, poza",
@@ -895,7 +895,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Naturalna zewnętrzna osłona, jak skóra albo skorupa.",
       "friendly": "Ochronne opakowanie natury — skóra, skorupa, łuska albo kora, cokolwiek okrywa i chroni żywą istotę.",
-      "exampleGloss": "Skorupa żółwia to niezwykle twardy integument.",
+      "exampleGloss": "Skorupa żółwia to niezwykle twarda powłoka.",
       "origin": "łacina",
       "rootMeanings": [
         "na, ponad",
@@ -906,7 +906,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Niewinny, naiwny, o dziecięcej prostocie; przeciwieństwo przebiegłego.",
       "friendly": "Otwarcie ufny i trochę naiwny, bez ukrytego celu — łatwo pomylić z „ingenious”, które znaczy pomysłowy.",
-      "exampleGloss": "Jej ingenuous pytanie — „why would anyone lie about that?” — pokazywało, jak mało miała przebiegłości.",
+      "exampleGloss": "Jej naiwne pytanie — „dlaczego ktokolwiek miałby o tym kłamać?” — pokazywało, jak mało miała przebiegłości.",
       "origin": "łacina",
       "rootMeanings": [
         "w, rodzimy",
@@ -917,7 +917,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Nadmierna troska o drobne szczegóły albo reguły.",
       "friendly": "Zgubić się w drobnych regułach i przegapić szerszy obraz — obsesja na punkcie drobnego druku, który nikogo innego nie obchodzi.",
-      "exampleGloss": "Jego pedantry o przecinkach oksfordzkich wykoleiła całe spotkanie.",
+      "exampleGloss": "Jego pedanteria o przecinkach oksfordzkich wykoleiła całe spotkanie.",
       "origin": "włoski / łacina",
       "rootMeanings": [
         "nauczyciel dzieci",
@@ -928,7 +928,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Dokładne, staranne zbadanie.",
       "friendly": "Głębokie spojrzenie, które nie zostawia kamienia nieobróconego — przejść każdy szczegół z prawdziwą troską.",
-      "exampleGloss": "Dopiero po starannej perscrutation ksiąg wyszła rozbieżność.",
+      "exampleGloss": "Dopiero po starannym przeszukaniu ksiąg wyszła rozbieżność.",
       "origin": "łacina",
       "rootMeanings": [
         "przez, gruntownie",
@@ -939,7 +939,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Wnosić zastrzeżenia; okazywać niechęć.",
       "friendly": "Grzecznie się wycofać albo zawahać zamiast iść od razu — miękkie „chwileczkę”.",
-      "exampleGloss": "Gdy poproszono ją, by podpisała bez czytania, demurred.",
+      "exampleGloss": "Gdy poproszono ją, by podpisała bez czytania, zaoponowała.",
       "origin": "łacina / francuski",
       "rootMeanings": [
         "od, precz",
@@ -950,7 +950,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Powierzchownie wiarygodny, ale w rzeczywistości fałszywy.",
       "friendly": "Brzmi przekonująco na pierwszy rzut oka, ale rozpada się, gdy naprawdę sprawdzisz.",
-      "exampleGloss": "„Everyone's doing it” to specious argument, który nigdy do końca nie wytrzymuje badania.",
+      "exampleGloss": "„Everyone's doing it” to pozorny argument, który nigdy do końca nie wytrzymuje badania.",
       "origin": "łacina",
       "rootMeanings": [
         "wygląd, pozór",
@@ -961,7 +961,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Nieszczera, hipokrytyczna mowa, często moralizująca.",
       "friendly": "Kaznodziejska mowa, która brzmi cnotliwie bez prawdziwego uczucia — moralna poza na autopilocie.",
-      "exampleGloss": "Miał dość korporacyjnego cant o „family” z firmy, która nigdy nie dawała wolnego.",
+      "exampleGloss": "Miał dość korporacyjnego frazesu o „rodzinie” z firmy, która nigdy nie dawała wolnego.",
       "origin": "łacina",
       "rootMeanings": [
         "śpiewać (później: śpiewny żargon)",
@@ -972,7 +972,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Pozbawiony odwagi, tchórzliwy.",
       "friendly": "Bojaźliwy aż do braku kręgosłupa — zbyt przestraszony, by się podnieść, nawet gdy wyraźnie o to chodzi.",
-      "exampleGloss": "Pusillanimous milczenie zarządu pozwoliło skandalowi wymknąć się spod kontroli.",
+      "exampleGloss": "Małoduszne milczenie zarządu pozwoliło skandalowi wymknąć się spod kontroli.",
       "origin": "łacina",
       "rootMeanings": [
         "bardzo mały",
@@ -983,7 +983,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Lisowaty; chytry, przebiegły.",
       "friendly": "Chytry i sprytny jak lis — bystry, trochę krętacki, zawsze o krok do przodu.",
-      "exampleGloss": "Puścił vulpine uśmiech w chwili, gdy zauważył lukę.",
+      "exampleGloss": "Puścił lisi uśmiech w chwili, gdy zauważył lukę.",
       "origin": "łacina",
       "rootMeanings": [
         "lis",
@@ -994,7 +994,7 @@
       "partOfSpeech": "przysłówek",
       "definition": "Jeden po drugim, po kolei.",
       "friendly": "Brane ściśle po jednemu, w porządku — bez przeskakiwania, bez robienia dwóch naraz.",
-      "exampleGloss": "Sędzia rozpatrzył każde z dwunastu roszczeń seriatim.",
+      "exampleGloss": "Sędzia rozpatrzył każde z dwunastu roszczeń po kolei.",
       "origin": "łacina",
       "rootMeanings": [
         "rząd, sekwencja",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Skrajna oszczędność; skąpstwo.",
       "friendly": "Być ciasnym z pieniędzmi (albo słowami, albo zasobami) daleko poza rozsądną oszczędność.",
-      "exampleGloss": "Jego parsimony była legendarna — używał torebek herbaty trzy razy.",
+      "exampleGloss": "Jego skąpstwo było legendarne — używał torebek herbaty trzy razy.",
       "origin": "łacina",
       "rootMeanings": [
         "oszczędzać, być oszczędnym",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Poprawka, zwłaszcza w tekście.",
       "friendly": "Poprawka w piśmie — uczony retusz, który prostuje błąd w starym albo ważnym tekście.",
-      "exampleGloss": "Nowe wydanie zawiera dziesiątki emendations oryginalnego rękopisu.",
+      "exampleGloss": "Nowe wydanie zawiera dziesiątki poprawek oryginalnego rękopisu.",
       "origin": "łacina",
       "rootMeanings": [
         "z, na zewnątrz",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Umiarkowany w jedzeniu i piciu.",
       "friendly": "Świadomie powściągliwy przy stole — nigdy za dużo, zawsze trochę zostawić na talerzu.",
-      "exampleGloss": "Jego abstemious nawyki trzymały go bystrym długo po tym, jak rówieśnicy zwolnili.",
+      "exampleGloss": "Jego wstrzemięźliwe nawyki trzymały go bystrym długo po tym, jak rówieśnicy zwolnili.",
       "origin": "łacina",
       "rootMeanings": [
         "z dala od",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Błąd gramatyczny albo uchybienie etykiecie.",
       "friendly": "Poślizg w gramatyce albo manierach — drobny błąd, od którego pedant się wzdryga.",
-      "exampleGloss": "„Between you and I” to częsty solecism, od którego gramatycy wciąż się wzdrygają.",
+      "exampleGloss": "„Between you and I” to częsty solecyzm, od którego gramatycy wciąż się wzdrygają.",
       "origin": "grecki",
       "rootMeanings": [
         "cylicyjskie miasto znane z „złego” greckiego",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Dotyczący konfliktu wewnątrz grupy; wzajemnie niszczący.",
       "friendly": "Wewnętrzne kłótnie, które rozdzierają grupę od środka — walka, w której wszyscy przegrywają, bo to rodzina przeciw rodzinie.",
-      "exampleGloss": "Internecine swary partii zrobiły więcej szkody niż jakikolwiek zewnętrzny przeciwnik.",
+      "exampleGloss": "Bratobójcze swary partii zrobiły więcej szkody niż jakikolwiek zewnętrzny przeciwnik.",
       "origin": "łacina",
       "rootMeanings": [
         "między, wśród",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "przymiotnik / rzeczownik",
       "definition": "Obojętna, niedbała postawa.",
       "friendly": "Wzruszenie ramionami zamienione w osobowość — tak mało dbać o to, co kiedyś miało znaczenie, że nic już nie wydaje się warte wysiłku.",
-      "exampleGloss": "Jego pococurante stosunek do gali nagród zaskoczył wszystkich, którzy wiedzieli, jak ciężko pracował.",
+      "exampleGloss": "Jego obojętny stosunek do gali nagród zaskoczył wszystkich, którzy wiedzieli, jak ciężko pracował.",
       "origin": "włoski",
       "rootMeanings": [
         "mało",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Splątana, skomplikowana sytuacja albo spór.",
       "friendly": "Splątany, niechlujny bałagan trudny do rozwikłania — część nieporozumienia, część dramatu, cała dezorientacja.",
-      "exampleGloss": "Całe imbroglio planu stołów zaczęło się od jednej źle położonej wizytówki.",
+      "exampleGloss": "Cały zamęt wokół planu stołów zaczął się od jednej źle położonej wizytówki.",
       "origin": "włoski",
       "rootMeanings": [
         "w",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "przymiotnik",
       "definition": "Groźny, złowieszczy.",
-      "friendly": "Z nieomylnym powiewem groźby — minatory spojrzenie albo list jasno mówi, że może nastąpić coś złego.",
-      "exampleGloss": "Minatory ton listu spłoszył lokatorkę, zanim jeszcze otworzyła kopertę.",
+      "friendly": "Z nieomylnym powiewem groźby — groźne spojrzenie albo list jasno mówi, że może nastąpić coś złego.",
+      "exampleGloss": "Groźny ton listu spłoszył lokatorkę, zanim jeszcze otworzyła kopertę.",
       "origin": "łacina",
       "rootMeanings": [
         "grozić",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Silna publiczna krytyka albo obelgi.",
       "friendly": "Głośne, publiczne potępienie — paląca krytyka, która rozgrywa się na oczach wszystkich.",
-      "exampleGloss": "Sygnalistka znosiła lata publicznej obloquy, zanim historia przyznała jej rację.",
+      "exampleGloss": "Sygnalistka znosiła lata publicznej niesławy, zanim historia przyznała jej rację.",
       "origin": "łacina",
       "rootMeanings": [
         "przeciw",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Nagły gwałtowny wybuch emocji albo działania.",
       "friendly": "Nagły, intensywny poryw, który zalewa cię od razu — atak śmiechu, gniewu albo kaszlu jak fala.",
-      "exampleGloss": "Porwał ją paroxysm śmiechu, którego nie potrafiła wyjaśnić nikomu innemu w pokoju.",
+      "exampleGloss": "Porwał ją paroksyzm śmiechu, którego nie potrafiła wyjaśnić nikomu innemu w pokoju.",
       "origin": "grecki",
       "rootMeanings": [
         "poza",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Dodany z zewnątrz, nie właściwy.",
       "friendly": "Przykręcony z zewnątrz zamiast wbudowany od początku — dodatek, nie rdzeń.",
-      "exampleGloss": "Komentarz czuje się adscititious, jakby był przyklejony do już skończonego tekstu.",
+      "exampleGloss": "Komentarz wydaje się naddany, jakby był przyklejony do już skończonego tekstu.",
       "origin": "łacina",
       "rootMeanings": [
         "ku, dodatkowo",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Brak wiedzy, niewiedza.",
       "friendly": "Zwykłe nie-wiedzenie — luka w wiedzy, bez osądu przyklejonego z góry.",
-      "exampleGloss": "Przyznał się do nescience francuskiego wina i pozwolił wybrać sommelierowi.",
+      "exampleGloss": "Przyznał się do niewiedzy o francuskim winie i pozwolił wybrać sommelierowi.",
       "origin": "łacina",
       "rootMeanings": [
         "nie",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Nadmierne zainteresowanie sprawami seksualnymi.",
       "friendly": "Zbyt chciwa, lubieżna ciekawość wszystkiego pikantnego — zainteresowanie, które minęło zdrowe i stało się wścibskie.",
-      "exampleGloss": "Prurience brukowca wobec prywatnego życia pary ocierała się o obsesję.",
+      "exampleGloss": "Lubieżność brukowca wobec prywatnego życia pary ocierała się o obsesję.",
       "origin": "łacina",
       "rootMeanings": [
         "swędzieć, pragnąć",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Sadzowy, ciemny, mętny.",
       "friendly": "Ciemny i dymny, jakby wszystko pokrywała cienka warstwa sadzy.",
-      "exampleGloss": "Fuliginous mgła wisiała o zmierzchu nad miastem fabrycznym.",
+      "exampleGloss": "Sadzowa mgła wisiała o zmierzchu nad miastem fabrycznym.",
       "origin": "łacina",
       "rootMeanings": [
         "sadza",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Zaprzeczyć albo sprzeciwić się.",
       "friendly": "Otwarcie mówić przeciwko temu, co ktoś inny powiedział — powiedzieć, że tak nie jest.",
-      "exampleGloss": "Nikt nie odważył się gainsay relacji starego kapitana o burzy.",
+      "exampleGloss": "Nikt nie odważył się zaprzeczyć relacji starego kapitana o burzy.",
       "origin": "średnioangielski",
       "rootMeanings": [
         "przeciw",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Lenistwo, gnuśność (z łaciny).",
       "friendly": "Stare łacińskie słowo na czyste lenistwo — ciężar niechcenia czegokolwiek.",
-      "exampleGloss": "Mnisi głosili przeciw ignavia jako jednemu z cichych niebezpieczeństw duszy.",
+      "exampleGloss": "Mnisi głosili przeciw gnuśności jako jednemu z cichych niebezpieczeństw duszy.",
       "origin": "łacina",
       "rootMeanings": [
         "nie",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Tarcza ukazująca herb.",
       "friendly": "Tarczowaty emblemat z herbem rodziny — jej heraldyczny znak.",
-      "exampleGloss": "Escutcheon rodziny wciąż wisi nad drzwiami starego dworu.",
+      "exampleGloss": "Herb rodziny wciąż wisi nad drzwiami starego dworu.",
       "origin": "łacina / starofrancuski",
       "rootMeanings": [
         "tarcza",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Przestarzały, nieużywany albo wycofany z racji wieku.",
       "friendly": "Pożyteczny czas minął i odstawiony na boczny tor — zbyt staromodny albo zużyty, by dalej robić robotę.",
-      "exampleGloss": "Superannuated drukarka została wreszcie wymieniona po piętnastu latach zacięć.",
+      "exampleGloss": "Przestarzała drukarka została wreszcie wymieniona po piętnastu latach zacięć.",
       "origin": "łacina",
       "rootMeanings": [
         "poza",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Substytuty, zwłaszcza w medycynie.",
       "friendly": "Zastępcze środki, gdy brakuje prawdziwego leczenia — medyczne dublerzy, w gruncie rzeczy.",
-      "exampleGloss": "Lekarze wojenni często opierali się na succedanea, gdy kończyły się prawdziwe leki.",
+      "exampleGloss": "Lekarze wojenni często opierali się na surogatach, gdy kończyły się prawdziwe leki.",
       "origin": "łacina",
       "rootMeanings": [
         "zamiast",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Chełpliwa, pyszałkowata mowa.",
       "friendly": "Wielkie, hałaśliwe przechwałki — głośne mówienie o własnej wielkości, które jest głównie gorącym powietrzem.",
-      "exampleGloss": "Jego rodomontade o ocaleniu projektu „single-handedly” nie oszukała nikogo, kto tam naprawdę był.",
+      "exampleGloss": "Jego przechwałki o ocaleniu projektu „w pojedynkę” nie oszukały nikogo, kto tam naprawdę był.",
       "origin": "włoski",
       "rootMeanings": [
         "chełpliwy rycerz w Orlando Szalonym",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Użyć podstępu albo oszustwa, by coś osiągnąć.",
       "friendly": "Dojść do celu fortelami zamiast uczciwą grą.",
-      "exampleGloss": "Chicaned sobie wejście w interes umową pełną drobnego druku.",
+      "exampleGloss": "Wykrętami wszedł w interes umową pełną drobnego druku.",
       "origin": "francuski",
       "rootMeanings": [
         "kręcić, oszukiwać",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Nadmiernie zajęty formalnymi regułami albo trywialnymi szczegółami.",
       "friendly": "Zbyt surowy wobec drobiazgów — poprawianie drobnych technicznych punktów, które nic istotnego nie zmieniają.",
-      "exampleGloss": "Trochę pedantic było spierać się o „who” kontra „whom” w wiadomości tekstowej.",
+      "exampleGloss": "Trochę pedantyczne było spierać się o „who” kontra „whom” w wiadomości tekstowej.",
       "origin": "włoski / grecki",
       "rootMeanings": [
         "przewodnik dzieci, nauczyciel",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Błysk iskrzącego światła.",
       "friendly": "Szybki, błyszczący błysk — słońce na wodzie albo diament łapiący światło.",
-      "exampleGloss": "Coruscation żyrandola rozsiewała światło w każdy kąt sali balowej.",
+      "exampleGloss": "Migotanie żyrandola rozsiewało światło w każdy kąt sali balowej.",
       "origin": "łacina",
       "rootMeanings": [
         "iskrzyć, błyskać",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Początkujący, nowicjusz.",
       "friendly": "Ktoś zupełnie nowy w umiejętności albo dziedzinie — wciąż uczy się sztuczek, jeszcze nie znawca.",
-      "exampleGloss": "Nawet tyro szachista zauważy ten błąd.",
+      "exampleGloss": "Nawet początkujący szachista zauważy ten błąd.",
       "origin": "łacina",
       "rootMeanings": [
         "rekrut, nowicjusz",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Niezmiernie zły, wstrętny.",
       "friendly": "Zły w sposób zasługujący na prawdziwy wstręt — nie tylko nijaki, ale naprawdę okropny.",
-      "exampleGloss": "Recenzent nazwał sequel execrable, a kasa kinowa mu przyznała.",
+      "exampleGloss": "Recenzent nazwał sequel obrzydliwym, a kasa kinowa przyznała mu rację.",
       "origin": "łacina",
       "rootMeanings": [
         "przeklinać",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Krwistoczerwony.",
       "friendly": "Głęboka, jaskrawa czerwień — kolor świeżej krwi, wsławiony przez Makbeta Szekspira.",
-      "exampleGloss": "Zachód słońca zabarwił całe niebo na incarnadine poświatę.",
+      "exampleGloss": "Zachód słońca zabarwił całe niebo na krwistoczerwoną poświatę.",
       "origin": "włoski / łacina",
       "rootMeanings": [
         "w, do",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Mała szczelina albo przestrzeń między rzeczami.",
       "friendly": "Drobna przestrzeń między, którą łatwo przeoczyć — szpara między deskami, luka w kalendarzu.",
-      "exampleGloss": "Chwasty pchały się przez każdą interstice starej ceglanej ścieżki.",
+      "exampleGloss": "Chwasty pchały się przez każdą szczelinę starej ceglanej ścieżki.",
       "origin": "łacina",
       "rootMeanings": [
         "między",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Krytyczne albo cenzorskie uwagi.",
       "friendly": "Ostre, dezaprobujące komentarze — krytyka z odrobiną karcenia.",
-      "exampleGloss": "Animadversions profesora na esej wypełniły marginesy czerwonym atramentem.",
+      "exampleGloss": "Uwagi krytyczne profesora do eseju wypełniły marginesy czerwonym atramentem.",
       "origin": "łacina",
       "rootMeanings": [
         "umysł",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Niemożliwy do obalenia, niezaprzeczalny.",
       "friendly": "Tak solidnie udowodniony, że nie ma argumentu przeciw — sprawa jest zamknięta.",
-      "exampleGloss": "Dowód DNA był irrefragable, a proces skończył się w ciągu godziny.",
+      "exampleGloss": "Dowód DNA był niezbity, a proces skończył się w ciągu godziny.",
       "origin": "łacina",
       "rootMeanings": [
         "nie",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Złożoność, zawiłość; także zwijanie do wewnątrz.",
       "friendly": "Splątana, złożona w sobie złożoność — rzeczy tak ciasno owinięte, że trudno je rozdzielić.",
-      "exampleGloss": "Involution fabuły zostawiła połowę publiczności rozplątującą ją po napisach.",
+      "exampleGloss": "Zawiłość fabuły zostawiła połowę publiczności rozplątującą ją po napisach.",
       "origin": "łacina",
       "rootMeanings": [
         "w, do wewnątrz",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Siła albo wysiłek, jak w „by dint of”.",
       "friendly": "Czysta siła albo wysiłek — przetrwa głównie w zwrocie „by dint of”.",
-      "exampleGloss": "Zdał egzamin by dint of czystej, upartej praktyki.",
+      "exampleGloss": "Zdał egzamin dzięki czystej, upartej praktyce.",
       "origin": "staroangielski",
       "rootMeanings": [
         "cios, uderzenie",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Połączony czopem i gniazdem; ciasno spasowany.",
       "friendly": "Zaryglowany na starą stolarską modłę — jeden kawałek wchodzi równo w otwór wycięty właśnie dla niego.",
-      "exampleGloss": "Belki starej stodoły były mortised razem bez jednego gwoździa.",
+      "exampleGloss": "Belki starej stodoły były połączone na czopy bez jednego gwoździa.",
       "origin": "łacina / francuski",
       "rootMeanings": [
         "gniazdo, otwór",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Niezwykle trafny, stosowny.",
       "friendly": "Dokładnie to, czego chwila potrzebowała — uwaga, cytat albo przykład, który trafia w punkt.",
-      "exampleGloss": "Jej apposite uwaga streściła całą debatę w jednym zdaniu.",
+      "exampleGloss": "Jej trafna uwaga streściła całą debatę w jednym zdaniu.",
       "origin": "łacina",
       "rootMeanings": [
         "ku",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Miękko jarzący albo migoczący (światło); także lekki dowcip.",
       "friendly": "Łagodny blask zamiast pożaru — miękki, migoczący płomień albo dowcip igrający raczej niż ostry.",
-      "exampleGloss": "Światło świec rzucało lambent poświatę na stary pokój jadalny.",
+      "exampleGloss": "Światło świec rzucało migotliwą poświatę na stary pokój jadalny.",
       "origin": "łacina",
       "rootMeanings": [
         "lizać",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Religijny pustelnik żyjący w odosobnieniu.",
       "friendly": "Ktoś, kto całkowicie wycofuje się ze świata, by żyć sam w modlitwie i refleksji.",
-      "exampleGloss": "Anchorite mieszkał ponad trzydzieści lat w małej celi przy kościele.",
+      "exampleGloss": "Anachoreta mieszkał ponad trzydzieści lat w małej celi przy kościele.",
       "origin": "grecki",
       "rootMeanings": [
         "wstecz, precz",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Uśmierzyć pragnienie; ugasić.",
       "friendly": "W pełni zaspokoić pragnienie — najczęściej pragnienie, ale w przenośni każdą głęboką potrzebę.",
-      "exampleGloss": "Jedna zimna szklanka wody slaked jego pragnienie po długiej wędrówce.",
+      "exampleGloss": "Jedna zimna szklanka wody ugasiła jego pragnienie po długiej wędrówce.",
       "origin": "staroangielski",
       "rootMeanings": [
         "luźny, obwisły",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Igiełkowaty.",
       "friendly": "Długi, cienki i zaostrzony jak igła — kształt igły sosny albo ostrego kryształka.",
-      "exampleGloss": "Sosny łatwo rozpoznać po acicular liściach.",
+      "exampleGloss": "Sosny łatwo rozpoznać po igiełkowatych liściach.",
       "origin": "łacina",
       "rootMeanings": [
         "igła",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "Wyczerpany z żywotności, słaby, zbyt wyrafinowany.",
       "friendly": "Zużyty i miękki — straciwszy pierwotną siłę przez zbyt wiele wygody albo wyrafinowania.",
-      "exampleGloss": "Krytycy nazwali niegdyś odważne pismo effete, cieniem jego śmiałych wczesnych lat.",
+      "exampleGloss": "Krytycy nazwali niegdyś odważne pismo wyjałowionym, cieniem jego śmiałych wczesnych lat.",
       "origin": "łacina",
       "rootMeanings": [
         "na zewnątrz",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Dodatek albo drobny przyłączony przedmiot albo prawo.",
       "friendly": "Mały extra przy czymś większym — akcesoria i przybudówki, które idą z rzeczą główną.",
-      "exampleGloss": "Najem obejmował garaż i wszystkie jego appurtenances.",
+      "exampleGloss": "Najem obejmował garaż i wszystkie jego przynależności.",
       "origin": "łacina / francuski",
       "rootMeanings": [
         "ku",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "czasownik",
       "definition": "Zatuszować albo pomniejszyć winę.",
       "friendly": "Wygładzić pomyłkę miękkimi słowami, by brzmiała mniejsza, niż jest.",
-      "exampleGloss": "Próbował gloze over przegapiony termin mglistą gadaniną o „unforeseen challenges”.",
+      "exampleGloss": "Próbował zatuszować przegapiony termin mglistą gadaniną o „nieprzewidzianych trudnościach”.",
       "origin": "starofrancuski / łacina",
       "rootMeanings": [
         "glosa, wyjaśnienie",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "przymiotnik",
       "definition": "We wczesnym stadium, dopiero się zaczynający.",
       "friendly": "Dopiero zaczynający się pokazywać — najwcześniejsze, ledwie widoczne stadium czegoś większego.",
-      "exampleGloss": "Lekarze złapali incipient oznaki choroby, zanim zdążyła się rozprzestrzenić.",
+      "exampleGloss": "Lekarze złapali początkowe oznaki choroby, zanim zdążyła się rozprzestrzenić.",
       "origin": "łacina",
       "rootMeanings": [
         "na, do",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "rzeczownik",
       "definition": "Twórcze natchnienie, zwłaszcza boskie.",
       "friendly": "Nagły poryw natchnienia większy od ciebie — jakby pomysł został ci tchnięty skądinąd.",
-      "exampleGloss": "Poeta opisał, jak cały utwór przyszedł w jednym burst of afflatus o trzeciej nad ranem.",
+      "exampleGloss": "Poeta opisał, jak cały utwór przyszedł w jednym przypływie natchnienia o trzeciej nad ranem.",
       "origin": "łacina",
       "rootMeanings": [
         "ku, na",

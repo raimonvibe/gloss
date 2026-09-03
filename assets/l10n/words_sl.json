@@ -4,897 +4,1233 @@
       "partOfSpeech": "glagol",
       "definition": "Posladiti ali očistiti; odstraniti ostrino iz nečesa.",
       "friendly": "Vzeti nečemu želo ali grenkobo — dobesedno to posladiti ali prenesenoma omiliti ostro misel, da gre lažje dol.",
-      "exampleGloss": "Urednik edulcorated ostro recenzijo, preden je šla v tisk.",
+      "exampleGloss": "Urednik je osladil ostro recenzijo, preden je šla v tisk.",
       "origin": "latinščina",
-      "rootMeanings": ["ven, temeljito", "sladek"]
+      "rootMeanings": [
+        "ven, temeljito",
+        "sladek"
+      ]
     },
     "pietistic": {
       "partOfSpeech": "pridevnik",
       "definition": "Pretirano ali hinavsko pobožen.",
       "friendly": "O nekom, čigar pobožnost deluje kot predstava — več igranja kot prave vere.",
-      "exampleGloss": "Njegovo pietistic vzdihovanje med pridigo je motilo vso klop.",
+      "exampleGloss": "Njegovo pietistično vzdihovanje med pridigo je motilo vso klop.",
       "origin": "latinščina",
-      "rootMeanings": ["pobožnost, dolžnost", "z značajem"]
+      "rootMeanings": [
+        "pobožnost, dolžnost",
+        "z značajem"
+      ]
     },
     "amphiboly": {
       "partOfSpeech": "samostalnik",
       "definition": "Dvoumnost, ki izhaja iz slovnične zgradbe — stavek, berljiv na dva načina.",
       "friendly": "Stavek je slovnično v redu, a ga je mogoče brati na dva povsem različna načina, kot „Visiting relatives can be tiring“.",
-      "exampleGloss": "„Visiting relatives can be tiring“ je klasična amphiboly — so naporu sorodniki ali samo obiskovanje?",
+      "exampleGloss": "„Visiting relatives can be tiring“ je klasična amfibolija — so naporni sorodniki ali samo obiskovanje?",
       "origin": "grščina",
-      "rootMeanings": ["oba, z obeh strani", "metati"]
+      "rootMeanings": [
+        "oba, z obeh strani",
+        "metati"
+      ]
     },
     "trenchant": {
       "partOfSpeech": "pridevnik",
       "definition": "Oster, prodoren, ki gre naravnost k stvari.",
-      "friendly": "Prereže vato besed — trenchant pripomba ali um hitro pride do jedra, brez odvečnega.",
-      "exampleGloss": "Njena trenchant kritika ni pustila luknjam zapleta kam se skriti.",
+      "friendly": "Prereže vato besed — britka pripomba ali um hitro pride do jedra, brez odvečnega.",
+      "exampleGloss": "Njena britka kritika ni pustila luknjam zapleta kam bi se skrile.",
       "origin": "stara francoščina",
-      "rootMeanings": ["rezati", "dejanje, lastnost"]
+      "rootMeanings": [
+        "rezati",
+        "dejanje, lastnost"
+      ]
     },
     "inchoative": {
       "partOfSpeech": "pridevnik",
       "definition": "Šele začetni; v zgodnji ali zametni stopnji.",
       "friendly": "Še v prvih trenutkih — načrt, občutek ali proces, ki šele začenja dobivati obliko.",
-      "exampleGloss": "Inchoative stopnje pogodbe so bile obetavne, a veliko podrobnosti je ostalo odprtih.",
+      "exampleGloss": "Začetne stopnje pogodbe so bile obetavne, a veliko podrobnosti je ostalo odprtih.",
       "origin": "latinščina",
-      "rootMeanings": ["začeti", "ki teži k"]
+      "rootMeanings": [
+        "začeti",
+        "ki teži k"
+      ]
     },
     "panegyric": {
       "partOfSpeech": "samostalnik",
       "definition": "Slovesni govor ali besedilo, ki nekoga visoko hvali.",
       "friendly": "Polna slovesna hvala — sijoč panegirik ali govor, ki poje čigave zasluge iz vsega glasu.",
-      "exampleGloss": "Odhodno profesorico je pospremil panegyric njenih najbližjih učencev.",
+      "exampleGloss": "Odhajajočo profesorico je pospremil panegirik njenih najbližjih učencev.",
       "origin": "grščina",
-      "rootMeanings": ["ves", "zbor, zborovanje"]
+      "rootMeanings": [
+        "ves",
+        "zbor, zborovanje"
+      ]
     },
     "ontic": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki se nanaša na resnično obstajanje ali dejansko bit, ne na odmaknjeno teorijo.",
       "friendly": "O stvareh, kakršne res so, ne le o predstavah ali teorijah o njih.",
-      "exampleGloss": "Filozofi se prepirajo, ali imajo števila kakršen koli ontic status ali živijo le v umu.",
+      "exampleGloss": "Filozofi se prepirajo, ali imajo števila kakršen koli ontični status ali živijo le v umu.",
       "origin": "grščina",
-      "rootMeanings": ["bit, to, kar je", "ki se nanaša na"]
+      "rootMeanings": [
+        "bit, to, kar je",
+        "ki se nanaša na"
+      ]
     },
     "fructify": {
       "partOfSpeech": "glagol",
       "definition": "Roditi sadove ali postati ploden.",
       "friendly": "Končno se obrestovati — napor, zamisel ali vložek, ki je obrodil in zrasel iz zrna v nekaj koristnega.",
-      "exampleGloss": "Leta tihega dela so naposled fructified v delujoče cepivo.",
+      "exampleGloss": "Leta tihega dela so naposled obrodila sad — delujoče cepivo.",
       "origin": "latinščina",
-      "rootMeanings": ["sad", "delati, povzročati"]
+      "rootMeanings": [
+        "sad",
+        "delati, povzročati"
+      ]
     },
     "proleptical": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki predvideva ali prikazuje nekaj kot že dokončano, preden se je zgodilo.",
       "friendly": "Predhitevati književno — opisovati prihodnost, kakor da je že končana, da misel močneje udari.",
-      "exampleGloss": "Generalov proleptical zdravica na „zmago“ je zazvenela teden pred bitko.",
+      "exampleGloss": "Generalova proleptična zdravica na „zmago“ je zazvenela teden dni pred bitko.",
       "origin": "grščina",
-      "rootMeanings": ["pred", "vzeti, zgrabiti"]
+      "rootMeanings": [
+        "pred",
+        "vzeti, zgrabiti"
+      ]
     },
     "pneumatic": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki deluje s tlakom zraka; tudi ki se nanaša na duha ali dih.",
       "friendly": "Običajno pomeni „na zrak“ — zavore, črpalke, orodja, ki sičijo; v starejših besedilih tudi o duhu ali dihu.",
-      "exampleGloss": "Pneumatic zavore so zazičale, ko je avtobus ustavil ob robniku.",
+      "exampleGloss": "Pnevmatske zavore so zasikale, ko je avtobus ustavil ob robniku.",
       "origin": "grščina",
-      "rootMeanings": ["veter, dih, duh", "ki zadeva"]
+      "rootMeanings": [
+        "veter, dih, duh",
+        "ki zadeva"
+      ]
     },
     "cataphatic": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki opisuje Boga ali božansko s pritrdilnimi izjavami — nasprotje apofatičnega.",
       "friendly": "Govoriti o Bogu tako, da rečemo, kakšen je: „Bog je ljubezen“, „Bog je pravičen“ — ne le, česa ni.",
-      "exampleGloss": "Cataphatic teologija samozavestno govori o Bogu kot ljubečem, pravičnem in usmiljenem.",
+      "exampleGloss": "Katafatična teologija samozavestno govori o Bogu kot ljubečem, pravičnem in usmiljenem.",
       "origin": "grščina",
-      "rootMeanings": ["dol, po", "govoriti, reči"]
+      "rootMeanings": [
+        "dol, po",
+        "govoriti, reči"
+      ]
     },
     "fiducial": {
       "partOfSpeech": "pridevnik",
       "definition": "Utemeljen na zaupanju ali veri; tudi nepomična referenčna točka.",
-      "friendly": "Nekaj, kar vzamete na vero in potem držite kot sidro — fiducial oznaka je nepomična točka, od katere se meri vse drugo.",
-      "exampleGloss": "Geodeti so postavili fiducial označevalec v skalo, preden so kartirali teren.",
+      "friendly": "Nekaj, kar vzamete na vero in potem držite kot sidro — referenčna oznaka je nepomična točka, od katere se meri vse drugo.",
+      "exampleGloss": "Geodeti so postavili referenčno oznako v skalo, preden so kartirali teren.",
       "origin": "latinščina",
-      "rootMeanings": ["zaupati", "zaupanje, zanesljivost"]
+      "rootMeanings": [
+        "zaupati",
+        "zaupanje, zanesljivost"
+      ]
     },
     "theodicy": {
       "partOfSpeech": "samostalnik",
       "definition": "Obramba Božje dobrohotnosti ob obstoju zla.",
       "friendly": "Starodavni poskus odgovoriti: če je Bog dober, od kod zlo?",
-      "exampleGloss": "Njena teza je raziskovala theodicy skozi Jobovo knjigo.",
+      "exampleGloss": "Njena teza je raziskovala teodicejo skozi Jobovo knjigo.",
       "origin": "grščina",
-      "rootMeanings": ["bog", "pravičnost"]
+      "rootMeanings": [
+        "bog",
+        "pravičnost"
+      ]
     },
     "circumincession": {
       "partOfSpeech": "samostalnik",
       "definition": "Medsebojno bivanje — teološki pojem o tem, kako osebe Trojice bivajo ena v drugi.",
       "friendly": "Teološka beseda za trojično enost tako popolno, da vsak del popolnoma vsebuje druge in je v njih vsebovan.",
-      "exampleGloss": "Nauk o circumincession poskuša pojasniti, kako so Oče, Sin in Duh različni, a vendar neločljivi.",
+      "exampleGloss": "Nauk o perihorezi poskuša pojasniti, kako so Oče, Sin in Duh različni, a vendar neločljivi.",
       "origin": "latinščina",
-      "rootMeanings": ["okoli", "iti, hoditi"]
+      "rootMeanings": [
+        "okoli",
+        "iti, hoditi"
+      ]
     },
     "redound": {
       "partOfSpeech": "glagol",
       "definition": "Imeti posledico, ki se komu vrne v korist ali se na njem odrazi.",
-      "friendly": "Ko se slava (ali krivda) vrne tistemu, ki si jo je zaslužil — dobra dela, ki redound vašemu glasu, se vrnejo kot nagrada.",
-      "exampleGloss": "Uspeh ekipe redound v čast njenega tihega, delavnega trenerja.",
+      "friendly": "Ko se slava (ali krivda) vrne tistemu, ki si jo je zaslužil — dobra dela, ki gredo v prid vašemu glasu, se vrnejo kot nagrada.",
+      "exampleGloss": "Uspeh ekipe se bo obrnil v čast njenega tihega, delavnega trenerja.",
       "origin": "latinščina",
-      "rootMeanings": ["nazaj, spet", "val"]
+      "rootMeanings": [
+        "nazaj, spet",
+        "val"
+      ]
     },
     "ineluctable": {
       "partOfSpeech": "pridevnik",
       "definition": "Neizogiben, iz katerega ni mogoče ubežati.",
-      "friendly": "Zgodilo se bo, karkoli storite — iz ineluctable izida se ne izvijete.",
-      "exampleGloss": "Starost pride vsem; preprosto je ineluctable.",
+      "friendly": "Zgodilo se bo, karkoli storite — iz neizogibnega izida se ne izvijete.",
+      "exampleGloss": "Starost pride vsem; preprosto je neizogibna.",
       "origin": "latinščina",
-      "rootMeanings": ["ne", "izviti se, iztrgati se"]
+      "rootMeanings": [
+        "ne",
+        "izviti se, iztrgati se"
+      ]
     },
     "periphrastic": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki uporablja ovinkaste, zgovorne obrate namesto neposredne oblike.",
       "friendly": "Iti k misli naokoli — reči „je izvršil odhod“ namesto „je odšel“, ali cel stavek, kjer bi zadostovala ena beseda.",
-      "exampleGloss": "Njegova periphrastic sporočila bi lahko v eni vrstici povedala tisto, za kar je potreboval tri odstavke.",
+      "exampleGloss": "Njegova perifrastična sporočila bi lahko v eni vrstici povedala tisto, za kar je potreboval tri odstavke.",
       "origin": "grščina",
-      "rootMeanings": ["okoli", "razglasiti, povedati"]
+      "rootMeanings": [
+        "okoli",
+        "razglasiti, povedati"
+      ]
     },
     "hebetude": {
       "partOfSpeech": "samostalnik",
       "definition": "Umska topost ali otopelost.",
       "friendly": "Meglena, zaspanost uma, ko je mišljenje kakor brdenje skozi sirup.",
-      "exampleGloss": "Val hebetude je zadel razred takoj po kosilu.",
+      "exampleGloss": "Val otopelosti je zadel razred takoj po kosilu.",
       "origin": "latinščina",
-      "rootMeanings": ["top, otopel", "stanje, lastnost"]
+      "rootMeanings": [
+        "top, otopel",
+        "stanje, lastnost"
+      ]
     },
     "unpropitious": {
       "partOfSpeech": "pridevnik",
       "definition": "Neprikladen; ki sluti slabo.",
       "friendly": "Slab znak — okoliščine ali čas, ki kot da delata proti vam še pred začetkom.",
-      "exampleGloss": "Sivo nebo in prazna baterija sta potovanju dala unpropitious začetek.",
+      "exampleGloss": "Sivo nebo in prazna baterija sta potovanju dala neugoden začetek.",
       "origin": "latinščina",
-      "rootMeanings": ["ne", "prikladen, milosten"]
+      "rootMeanings": [
+        "ne",
+        "prikladen, milosten"
+      ]
     },
     "fricaseed": {
       "partOfSpeech": "pridevnik / glagol",
-      "definition": "Meso, dušeno v omaki — pravilno se piše fricasseed.",
+      "definition": "Meso, dušeno v omaki — pravilno se piše „fricasseed“.",
       "friendly": "Prijetna stara kuharska beseda za meso, narezano in počasi dušeno v lastni omaki, dokler ne zmehča.",
-      "exampleGloss": "Babicina fricasseed piščanec je bila okras vsake nedeljske večerje.",
+      "exampleGloss": "Babičin piščanec v frikaseju je bil okras vsake nedeljske večerje.",
       "origin": "francoščina",
-      "rootMeanings": ["cvreti", "lomiti (na kose)"]
+      "rootMeanings": [
+        "cvreti",
+        "lomiti (na kose)"
+      ]
     },
     "ersatz": {
       "partOfSpeech": "pridevnik",
       "definition": "Umetni ali slabši nadomestek.",
       "friendly": "Ponaredek namesto pravega — formalno opravi delo, a vsi vidijo, da ni to.",
-      "exampleGloss": "V vojni so se kupci znajdli z ersatz kavo iz pražene cikorije.",
+      "exampleGloss": "V vojni so se kupci znašli z nadomestno kavo iz pražene cikorije.",
       "origin": "nemščina",
-      "rootMeanings": ["ven, predpona nadomestila", "postaviti, namestiti"]
+      "rootMeanings": [
+        "ven, predpona nadomestila",
+        "postaviti, namestiti"
+      ]
     },
     "reify": {
       "partOfSpeech": "glagol",
       "definition": "Ravnati z abstraktno idejo, kakor da je konkretna stvar.",
       "friendly": "Narediti misel otipno in gosto — spremeniti nekaj meglega, kot „pravičnost“ ali „trg“, v predmet, na katerega lahko pokažete.",
-      "exampleGloss": "Imenovati „duha“ naroda ločenim bitjem pomeni reify tisto, kar je v resnici milijoni posameznih izbir.",
+      "exampleGloss": "Imenovati „duha“ naroda ločenim bitjem pomeni postvariti tisto, kar so v resnici milijoni posameznih izbir.",
       "origin": "latinščina",
-      "rootMeanings": ["stvar", "delati"]
+      "rootMeanings": [
+        "stvar",
+        "delati"
+      ]
     },
     "eluded": {
       "partOfSpeech": "glagol (preteklik)",
       "definition": "Spretno ušel ali se izognil.",
       "friendly": "Ošel čisto — ušel, pogosto spretno ali tesno, naj gre za ulov, vprašanje ali odgovor.",
-      "exampleGloss": "Odgovor jo je eluded ure, dokler ni nenadoma kliknil pod prho.",
+      "exampleGloss": "Odgovor se ji je izmikal ure in ure, dokler se ji ni nenadoma posvetilo pod prho.",
       "origin": "latinščina",
-      "rootMeanings": ["ven, stran", "igrati"]
+      "rootMeanings": [
+        "ven, stran",
+        "igrati"
+      ]
     },
     "aporetic": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki izraža dvom, zmedenost ali nerešeno nasprotje.",
       "friendly": "Ustaviti se ob pravem slepem tiru misli — ne iz lenobe, ampak ker samo vprašanje ne da urejenega odgovora.",
-      "exampleGloss": "Sokrat je pogosto končeval dialoge na aporetic noti: vprašanj več kot odgovorov.",
+      "exampleGloss": "Sokrat je pogosto končaval dialoge na aporetični noti: vprašanj več kot odgovorov.",
       "origin": "grščina",
-      "rootMeanings": ["brez", "prehod, pot"]
+      "rootMeanings": [
+        "brez",
+        "prehod, pot"
+      ]
     },
     "metonymy": {
       "partOfSpeech": "samostalnik",
       "definition": "Trop, ki stvar poimenuje sosednjim izrazom, npr. „krona“ namesto vladarja.",
       "friendly": "Postaviti povezano besedo namesto stvari same — reči „Bela hiša je sporočila“, ko mislite predsednika.",
-      "exampleGloss": "„Wall Street had a rough day“ je metonymy — v resnici gre za borzo.",
+      "exampleGloss": "„Wall Street had a rough day“ je metonimija — v resnici gre za borzo.",
       "origin": "grščina",
-      "rootMeanings": ["sprememba, potem", "ime"]
+      "rootMeanings": [
+        "sprememba, potem",
+        "ime"
+      ]
     },
     "deracinate": {
       "partOfSpeech": "glagol",
       "definition": "Iztrgati s korenino; odtrgati od naravnega okolja.",
       "friendly": "Izvleči nekaj (ali nekoga) s korenino, stran od kraja ali kulture, ki jima pripada.",
-      "exampleGloss": "Vojna je deracinated ves rod, razpršila družine čez meje.",
+      "exampleGloss": "Vojna je izkoreninila ves rod in razpršila družine čez meje.",
       "origin": "francoščina / latinščina",
-      "rootMeanings": ["stran, od", "korenina"]
+      "rootMeanings": [
+        "stran, od",
+        "korenina"
+      ]
     },
     "euphonious": {
       "partOfSpeech": "pridevnik",
       "definition": "Prijeten za sluh.",
-      "friendly": "Preprosto lepo zveni — euphonious beseda, ime ali stavek se po sluhu kotali gladko, skoraj glasbeno.",
-      "exampleGloss": "„Murmuring brook“ je euphonious mala fraza, mehka in lahka za izgovoriti.",
+      "friendly": "Preprosto lepo zveni — evfonična beseda, ime ali stavek se po sluhu kotali gladko, skoraj glasbeno.",
+      "exampleGloss": "„Murmuring brook“ je evfonična mala fraza, mehka in lahka za izgovor.",
       "origin": "grščina",
-      "rootMeanings": ["dober, dobro", "zvok, glas"]
+      "rootMeanings": [
+        "dober, dobro",
+        "zvok, glas"
+      ]
     },
     "putative": {
       "partOfSpeech": "pridevnik",
       "definition": "Splošno predpostavljen ali smatran za takega.",
       "friendly": "Široko sprejet za resnico, tudi če ni dokazano — „domnevni“ oče, „predpostavljeni“ avtor.",
-      "exampleGloss": "Putative avtor pisma se je pozneje izkazal za popolnega tujca.",
+      "exampleGloss": "Domnevni avtor pisma se je pozneje izkazal za popolnega tujca.",
       "origin": "latinščina",
-      "rootMeanings": ["misliti, imeti za", "ki ima naravo"]
+      "rootMeanings": [
+        "misliti, imeti za",
+        "ki ima naravo"
+      ]
     },
     "neologism": {
       "partOfSpeech": "samostalnik",
       "definition": "Novo skovana beseda ali izraz.",
       "friendly": "Povsem nova beseda — pravkar izmišljena, še ne (ali komaj) v slovarju.",
-      "exampleGloss": "„Doomscrolling“ se je začel kot neologism in hitro postal vsakdanji slang.",
+      "exampleGloss": "„Doomscrolling“ se je začel kot neologizem in hitro postal vsakdanji sleng.",
       "origin": "grščina",
-      "rootMeanings": ["nov", "beseda, govor"]
+      "rootMeanings": [
+        "nov",
+        "beseda, govor"
+      ]
     },
     "splenetic": {
       "partOfSpeech": "pridevnik",
       "definition": "Jezen ali slabe volje.",
       "friendly": "V grdi, razdražljivi volji — pripravljen zarežati, kakor so nekoč verjeli, da vranica vlada značaju.",
-      "exampleGloss": "Poslal je splenetic odgovor na sporočilo v sekundah po branju.",
+      "exampleGloss": "Poslal je žolčen odgovor na sporočilo v nekaj sekundah po branju.",
       "origin": "grščina / latinščina",
-      "rootMeanings": ["vranica (sedež jeze)", "prizadet"]
+      "rootMeanings": [
+        "vranica (sedež jeze)",
+        "prizadet"
+      ]
     },
     "sententious": {
       "partOfSpeech": "pridevnik",
       "definition": "Nagnjen k napihnjenemu ali pretvarjanemu moraliziranju.",
       "friendly": "Rad deli življenjske nauke z važnostjo, kakor da je vsak stavek piškotek s prerokbo.",
-      "exampleGloss": "Njegov sententious zdravica o „pravem pomenu prijateljstva“ je vse prisilila, da pogledajo na uro.",
+      "exampleGloss": "Njegova sentenciozna zdravica o „pravem pomenu prijateljstva“ je vse prisilila, da pogledajo na uro.",
       "origin": "latinščina",
-      "rootMeanings": ["mnenje, sentenca", "poln"]
+      "rootMeanings": [
+        "mnenje, sentenca",
+        "poln"
+      ]
     },
     "garrulous": {
       "partOfSpeech": "pridevnik",
       "definition": "Pretirano zgovoren, zlasti o malenkostih.",
       "friendly": "Preprosto ne neha — sipa drobnarije dolgo potem, ko drugim ni več kaj povedati.",
-      "exampleGloss": "Garrulous taksist nam je povedal vse svoje življenje, še preden smo zapeljali z letališča.",
+      "exampleGloss": "Blebetavi taksist nam je povedal vse svoje življenje, še preden smo zapeljali z letališča.",
       "origin": "latinščina",
-      "rootMeanings": ["klepetati, trepetati", "nagnjen k"]
+      "rootMeanings": [
+        "klepetati, trepetati",
+        "nagnjen k"
+      ]
     },
     "fatuity": {
       "partOfSpeech": "samostalnik",
       "definition": "Neumnost, bedastost.",
       "friendly": "Gola neumnost — pripomba ali načrt tako prazna, da nanju komaj velja resno odgovarjati.",
-      "exampleGloss": "Sama fatuity načrta je postala očitna v trenutku, ko so ga poskusili.",
+      "exampleGloss": "Sama nesmiselnost načrta je postala očitna v trenutku, ko so ga poskusili.",
       "origin": "latinščina",
-      "rootMeanings": ["neumen, bedast", "stanje"]
+      "rootMeanings": [
+        "neumen, bedast",
+        "stanje"
+      ]
     },
     "peroration": {
       "partOfSpeech": "samostalnik",
       "definition": "Sklepni del govora, pogosto s povzetkom.",
       "friendly": "Veliki finale nastopa — sklepni odsek, kjer govornik vse zbere in udari v piko.",
-      "exampleGloss": "Do peroration je že stala polovica dvorane.",
+      "exampleGloss": "Do peroracije je že stala polovica dvorane.",
       "origin": "latinščina",
-      "rootMeanings": ["skozi, do konca", "govoriti, zagovarjati"]
+      "rootMeanings": [
+        "skozi, do konca",
+        "govoriti, zagovarjati"
+      ]
     },
     "tautology": {
       "partOfSpeech": "samostalnik",
       "definition": "Odvečno ponavljanje iste misli z drugimi besedami.",
       "friendly": "Reči isto dvakrat, ne da bi karkoli dodali, kot „brezplačno darilo“ ali „končni izid“.",
-      "exampleGloss": "„It is what it is“ je priljubljena tautology tistih, ki se izogibajo pravemu pojasnilu.",
+      "exampleGloss": "„It is what it is“ je priljubljena tavtologija tistih, ki se izogibajo pravemu pojasnilu.",
       "origin": "grščina",
-      "rootMeanings": ["isti", "beseda, govor"]
+      "rootMeanings": [
+        "isti",
+        "beseda, govor"
+      ]
     },
     "laconism": {
       "partOfSpeech": "samostalnik",
       "definition": "Uporaba zelo malo besed; jedrnat govor.",
       "friendly": "Reči veliko z malim — veščina kratkega, ostro rezanega odgovora, imenovana po Špartancih Lakonije.",
-      "exampleGloss": "„Molon labe“ — „pridite in jih vzemite“ — je najslavnejši laconism v zgodovini.",
+      "exampleGloss": "„Molon labe“ — „pridite in jih vzemite“ — je najslavnejši lakonizem v zgodovini.",
       "origin": "grščina",
-      "rootMeanings": ["Špartanec iz Lakonije", "navada, način"]
+      "rootMeanings": [
+        "Špartanec iz Lakonije",
+        "navada, način"
+      ]
     },
     "pabulum": {
       "partOfSpeech": "samostalnik",
       "definition": "Blede, poenostavljene misli; izvorno bledela hrana ali kaša.",
       "friendly": "Razredčeno mišljenje — vsebina tako varna in poenostavljena, da um od nje nima hrane.",
-      "exampleGloss": "Politikova govor je bil skoraj sam pabulum: meglena obljuba, za katero se ni mogoče oprimeti.",
+      "exampleGloss": "Politikov govor je bil skoraj sama vata: meglene obljube, ki se jih ni mogoče oprijeti.",
       "origin": "latinščina",
-      "rootMeanings": ["hraniti", "sredstvo, orodje"]
+      "rootMeanings": [
+        "hraniti",
+        "sredstvo, orodje"
+      ]
     },
     "soporific": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki povzroča spanec ali dremavost.",
       "friendly": "Tako dolgočasen — ali dobesedno uspavalen — da se lepijo veke. Toplo mleko ali triurna proračunska seja.",
-      "exampleGloss": "Soporific šum predavanja je polovico dvorane prisilil, da se bori z vekami.",
+      "exampleGloss": "Uspavljajoč šum predavanja je polovico dvorane prisilil, da se bori z vekami.",
       "origin": "latinščina",
-      "rootMeanings": ["globok spanec", "ki dela, povzroča"]
+      "rootMeanings": [
+        "globok spanec",
+        "ki dela, povzroča"
+      ]
     },
     "unctuous": {
       "partOfSpeech": "pridevnik",
       "definition": "Pretirano laskav ali oljast v vedenju.",
       "friendly": "Tako gladek šarm, da drsi — laskanje namazano tako gosto, da skoraj čutite mast.",
-      "exampleGloss": "Unctuous prodajalec je brez konca hvalil moj „odličen okus“ pred vsako doprodajo.",
+      "exampleGloss": "Prilizljivi prodajalec je brez konca hvalil moj „odličen okus“ pred vsako doprodajo.",
       "origin": "latinščina",
-      "rootMeanings": ["mazati, oljiti", "poln"]
+      "rootMeanings": [
+        "mazati, oljiti",
+        "poln"
+      ]
     },
     "captious": {
       "partOfSpeech": "pridevnik",
       "definition": "Hiter na pripombe, pretirano kritičen do malenkosti.",
       "friendly": "Cepidlaški do napake — človek, ki najde mah v vsem, tudi ko to nič ne spremeni.",
-      "exampleGloss": "Njegove captious opombe k poročilu so se vrtela samo okoli vejic.",
+      "exampleGloss": "Njegove dlakocepske opombe k poročilu so se vrtele samo okoli vejic.",
       "origin": "latinščina",
-      "rootMeanings": ["zgrabiti, vzeti", "past, sofizem"]
+      "rootMeanings": [
+        "zgrabiti, vzeti",
+        "past, sofizem"
+      ]
     },
     "torpid": {
       "partOfSpeech": "pridevnik",
       "definition": "Otopel, umsko ali telesno nedejaven.",
       "friendly": "Počasen in polzaspán, kakor medved v zimskem spanju — komaj se premika, komaj misli.",
-      "exampleGloss": "Pisarna je padla v torpid stanje v težki avgustovski vročini.",
+      "exampleGloss": "Pisarna je otrpnila v težki avgustovski vročini.",
       "origin": "latinščina",
-      "rootMeanings": ["biti otrpel, otopel", "v stanju"]
+      "rootMeanings": [
+        "biti otrpel, otopel",
+        "v stanju"
+      ]
     },
     "seneschal": {
       "partOfSpeech": "samostalnik",
       "definition": "Oskrbnik ali uradnik, ki je vodil srednjeveško gospodinjstvo.",
       "friendly": "Srednjeveški predstojnik osebja — zaupnik, ki je iz dneva v dan vodil gospodov dom in posestvo.",
-      "exampleGloss": "Seneschal gradu je vodil vse: od računov žetve do seznama gostov.",
+      "exampleGloss": "Seneškal gradu je vodil vse: od računov žetve do seznama gostov.",
       "origin": "frankovščina / stara francoščina",
-      "rootMeanings": ["star, starejši", "služabnik"]
+      "rootMeanings": [
+        "star, starejši",
+        "služabnik"
+      ]
     },
     "expatiate": {
       "partOfSpeech": "glagol",
       "definition": "Govoriti ali pisati obširno o temi.",
       "friendly": "Res se razgovoriti — govoriti ali pisati in pisati, obhoditi predmet z vseh strani.",
-      "exampleGloss": "Vprašajte ga o starih avtih — in bo expatiate celo uro.",
+      "exampleGloss": "Vprašajte ga o starih avtih — in razpredal bo celo uro.",
       "origin": "latinščina",
-      "rootMeanings": ["ven", "prostor"]
+      "rootMeanings": [
+        "ven",
+        "prostor"
+      ]
     },
     "nugatory": {
       "partOfSpeech": "pridevnik",
       "definition": "Brezvreden, malenkosten; tudi neveljaven ali neučinkovit.",
-      "friendly": "V bistvu nič — nugatory določilo pogodbe je tisto, ki nič ne stori.",
-      "exampleGloss": "Sodišče je stari predpis razglasilo nugatory, ker se nikoli ni izvajal.",
+      "friendly": "V bistvu nič — nično določilo pogodbe je tisto, ki nič ne stori.",
+      "exampleGloss": "Sodišče je stari predpis razglasilo za ničnega, ker se nikoli ni izvajal.",
       "origin": "latinščina",
-      "rootMeanings": ["malenkosti, nesmisel", "ki pripada"]
+      "rootMeanings": [
+        "malenkosti, nesmisel",
+        "ki pripada"
+      ]
     },
     "sagacity": {
       "partOfSpeech": "samostalnik",
       "definition": "Modrost, oster sod.",
       "friendly": "Ostra, praktična modrost — zdrav sod, ki pride iz izkušnje, ne le iz knjig.",
-      "exampleGloss": "Sagacity starega kapitana je večkrat obdržala posadko izven težav.",
+      "exampleGloss": "Bistroumnost starega kapitana je posadko večkrat obvarovala težav.",
       "origin": "latinščina",
-      "rootMeanings": ["ostrovoh, bister", "lastnost"]
+      "rootMeanings": [
+        "ostrovoh, bister",
+        "lastnost"
+      ]
     },
     "canaille": {
       "partOfSpeech": "samostalnik",
       "definition": "Navadna drhal ali množice, prezirljivo.",
       "friendly": "Snobovska, prezirljiva beseda za „čredo“, za navadne ljudi, rečena od zgoraj.",
-      "exampleGloss": "Grof se je nasmehnil na canaille, zbrano pred palačnimi vrati.",
+      "exampleGloss": "Grof se je posmehnil drhali, zbrani pred palačnimi vrati.",
       "origin": "italijanščina / francoščina",
-      "rootMeanings": ["pes", "zbirno, trop"]
+      "rootMeanings": [
+        "pes",
+        "zbirno, trop"
+      ]
     },
     "contumely": {
       "partOfSpeech": "samostalnik",
       "definition": "Drzno, ponižujoče ravnanje ali govor.",
       "friendly": "Kruto, prezirljivo ravnanje, namenjeno poniziti — žalitev, ki naj peče.",
-      "exampleGloss": "Prenašal je leta contumely od kritikov, dokler delo naposled ni bilo priznano.",
+      "exampleGloss": "Prenašal je leta zaničevanja od kritikov, dokler delo naposled ni bilo priznano.",
       "origin": "latinščina",
-      "rootMeanings": ["s, temeljito", "napihovati se (ponosom)"]
+      "rootMeanings": [
+        "s, temeljito",
+        "napihovati se (ponosom)"
+      ]
     },
     "askance": {
       "partOfSpeech": "prislov",
       "definition": "S sumom ali neodobravanje; poševno.",
       "friendly": "Stranski pogled na nekaj, čemur ne zaupate povsem — pogled, naložen z dvomom.",
-      "exampleGloss": "Učiteljica je pogledala askance na sumljivo urejeno domačo nalogo.",
+      "exampleGloss": "Učiteljica je postrani pogledala sumljivo urejeno domačo nalogo.",
       "origin": "negotovo / italijanščina",
-      "rootMeanings": ["k, na", "nagib, poševnost"]
+      "rootMeanings": [
+        "k, na",
+        "nagib, poševnost"
+      ]
     },
     "clodpate": {
       "partOfSpeech": "samostalnik",
       "definition": "Neumen človek; bedak.",
       "friendly": "Staromodna, skoraj ljubezniva psovka za tistega, ki tupi — panj, hrast.",
-      "exampleGloss": "„You clodpate,“ se je nasmejala, „karto imaš ves čas narobe.“",
+      "exampleGloss": "„Ti tepec,“ se je nasmejala, „karto imaš ves čas narobe obrnjeno.“",
       "origin": "angleščina",
-      "rootMeanings": ["gruda zemlje", "glava"]
+      "rootMeanings": [
+        "gruda zemlje",
+        "glava"
+      ]
     },
     "actuate": {
       "partOfSpeech": "glagol",
       "definition": "Spraviti v gibanje ali dejanje; spodbuditi.",
       "friendly": "Biti iskra, ki premakne — bodisi da se stroj vklopi, bodisi da človek naposled ravna po misli.",
-      "exampleGloss": "Strah pred izgubo pogodbe actuated vso ekipo v vikend nadure.",
+      "exampleGloss": "Strah pred izgubo pogodbe je pognal vso ekipo v vikend nadur.",
       "origin": "latinščina",
-      "rootMeanings": ["dejanje, spodbuda", "gnati, delati"]
+      "rootMeanings": [
+        "dejanje, spodbuda",
+        "gnati, delati"
+      ]
     },
     "peculation": {
       "partOfSpeech": "samostalnik",
       "definition": "Poneverba sredstev, zaupanih v oskrbo.",
       "friendly": "Tiho krasti denar, ki so vam zaupali, da ga čuvate — poneverba v staromodnem plašču.",
-      "exampleGloss": "Blagajnikova peculation je ostala neopažena skoraj deset let.",
+      "exampleGloss": "Blagajnikova poneverba je ostala neopažena skoraj deset let.",
       "origin": "latinščina",
-      "rootMeanings": ["zasebna lastnina", "živina, bogastvo"]
+      "rootMeanings": [
+        "zasebna lastnina",
+        "živina, bogastvo"
+      ]
     },
     "demi-monde": {
       "partOfSpeech": "samostalnik",
       "definition": "Krog, ki velja za rob poštene družbe.",
       "friendly": "Sijajni, a sumljivi svet — ljudje, ki živijo malo zunaj pravil „spodobne“ družbe.",
-      "exampleGloss": "Roman spremlja pevko v demi-monde kabarejev dvajsetih.",
+      "exampleGloss": "Roman spremlja pevko v polsvetu kabarejev dvajsetih let.",
       "origin": "francoščina",
-      "rootMeanings": ["polovica", "svet, družba"]
+      "rootMeanings": [
+        "polovica",
+        "svet, družba"
+      ]
     },
     "extant": {
       "partOfSpeech": "pridevnik",
       "definition": "Še obstoječ; ni izumrl niti uničen.",
       "friendly": "Še tukaj — o starih stvareh (rokopisih, vrstah, stavbah), ki jim je uspelo preživeti.",
-      "exampleGloss": "Znani so le trije extant izvodi prve naklade.",
+      "exampleGloss": "Znani so le trije ohranjeni izvodi prve naklade.",
       "origin": "latinščina",
-      "rootMeanings": ["ven", "stati"]
+      "rootMeanings": [
+        "ven",
+        "stati"
+      ]
     },
     "perfidy": {
       "partOfSpeech": "samostalnik",
       "definition": "Veroizdajstvo; izdaja zaupanja.",
       "friendly": "Globoka, namerna izdaja — pretrg zaupanja, ki ga je človek imel polno pravico pričakovati.",
-      "exampleGloss": "General nikoli ni odpustil perfidy starega prijatelja za pogajalsko mizo.",
+      "exampleGloss": "General nikoli ni odpustil verolomstva starega prijatelja za pogajalsko mizo.",
       "origin": "latinščina",
-      "rootMeanings": ["skozi, proti", "vera, zaupanje"]
+      "rootMeanings": [
+        "skozi, proti",
+        "vera, zaupanje"
+      ]
     },
     "patois": {
       "partOfSpeech": "samostalnik",
       "definition": "Krajevni govor, zlasti nestandardni.",
       "friendly": "Svojevrsten, krajevni način govora v pokrajini — poln besed in ritmov, ki jih tujec morda ne ujame.",
-      "exampleGloss": "Babica je še govorila otoškim patois za družinsko mizo.",
+      "exampleGloss": "Babica je še govorila otoško narečje za družinsko mizo.",
       "origin": "francoščina",
-      "rootMeanings": ["grob govor, narečje", "šapa — nespretni govor"]
+      "rootMeanings": [
+        "grob govor, narečje",
+        "šapa — nespretni govor"
+      ]
     },
     "prerogative": {
       "partOfSpeech": "samostalnik",
       "definition": "Posebna pravica, ki pripada osebi ali skupini.",
       "friendly": "Privilegij, ki je vaš in samo vaš — pravica, ki gre z vlogo, položajem ali statusom.",
-      "exampleGloss": "Izbrati kraj družinskih počitnic je dedov prerogative, in vsi to vedo.",
+      "exampleGloss": "Izbrati kraj družinskih počitnic je dedova posebna pravica, in vsi to vedo.",
       "origin": "latinščina",
-      "rootMeanings": ["pred", "vprašati, glasovati"]
+      "rootMeanings": [
+        "pred",
+        "vprašati, glasovati"
+      ]
     },
     "hardihood": {
       "partOfSpeech": "samostalnik",
       "definition": "Drznost, pogum; tudi žilavost ali vzdržljivost.",
       "friendly": "Trda, trmasta odpornost — živec kreniti in moč vztrajati, ko ste že krenili.",
-      "exampleGloss": "Trebalo je prave hardihood prečkati prelaz v snežnem viharju brez zemljevida.",
+      "exampleGloss": "Bilo je treba prave srčnosti, da je prečkal prelaz v snežnem viharju brez zemljevida.",
       "origin": "stara francoščina / angleščina",
-      "rootMeanings": ["drzen, otrdel", "stanje"]
+      "rootMeanings": [
+        "drzen, otrdel",
+        "stanje"
+      ]
     },
     "effloresce": {
       "partOfSpeech": "glagol",
       "definition": "Zacveteti; tudi se razviti ali postopoma pojaviti.",
       "friendly": "Odpreti se na polno moč — kot cvet, ali kot misel, ki je naposled postala sama seboj.",
-      "exampleGloss": "Njen tihi dar za slikanje je effloresced, brž ko je imela lastni atelje.",
+      "exampleGloss": "Njen tihi dar za slikanje je vzcvetel, brž ko je imela lastni atelje.",
       "origin": "latinščina",
-      "rootMeanings": ["ven", "začeti cveteti"]
+      "rootMeanings": [
+        "ven",
+        "začeti cveteti"
+      ]
     },
     "plumb-line": {
       "partOfSpeech": "samostalnik",
       "definition": "Vesnica — vrvica z utežjo za preverjanje navpičnice; preneseno merilo sodbe.",
       "friendly": "Utež na vrvici, ki visi popolnoma naravnost, da se preveri navpičnica — in širše kateri koli nepomičen standard, s katerim se meri vse drugo.",
-      "exampleGloss": "Dedovo poštenost je držal kot nekakšen plumb line za vsako odločitev.",
+      "exampleGloss": "Dedovo poštenost je držal kot nekakšno grezilo za vsako odločitev.",
       "origin": "latinščina / angleščina",
-      "rootMeanings": ["svinec", "vrvica, mera"]
+      "rootMeanings": [
+        "svinec",
+        "vrvica, mera"
+      ]
     },
     "fain": {
       "partOfSpeech": "prislov",
       "definition": "Rado, voljno (zastarelo).",
       "friendly": "Starinski način reči „rado“ ali „voljno bi“.",
-      "exampleGloss": "„I would fain rest here a while,“ je vzdihnil popotnik.",
+      "exampleGloss": "„Rad bi si tu malce odpočil,“ je vzdihnil popotnik.",
       "origin": "stara angleščina",
-      "rootMeanings": ["rad, radosten", "rado, voljno"]
+      "rootMeanings": [
+        "rad, radosten",
+        "rado, voljno"
+      ]
     },
     "opprobrium": {
       "partOfSpeech": "samostalnik",
       "definition": "Ostra javna sramota ali obsodba.",
       "friendly": "Javni sram, navaljen pred očmi vseh — sramota široke obsodbe.",
-      "exampleGloss": "Škandal je zrušil javni opprobrium na vso firmo.",
+      "exampleGloss": "Škandal je zvalil javno sramoto na vso firmo.",
       "origin": "latinščina",
-      "rootMeanings": ["proti", "sramota, očitavanje"]
+      "rootMeanings": [
+        "proti",
+        "sramota, očitavanje"
+      ]
     },
     "mordant": {
       "partOfSpeech": "pridevnik",
       "definition": "Ostro sarkastičen, ugrizljiv v duhovitosti ali kritiki.",
-      "friendly": "Duhovitost s pravimi zobmi — mordant pripomba malo peče prav zato, ker je tako zadela.",
-      "exampleGloss": "Njene mordant filmske recenzije so se bali režiserji in ljubili bralci.",
+      "friendly": "Duhovitost s pravimi zobmi — zajedljiva pripomba malo peče prav zato, ker je tako dobro namerjena.",
+      "exampleGloss": "Njenih zajedljivih filmskih recenzij so se režiserji bali, bralci pa so jih oboževali.",
       "origin": "latinščina / francoščina",
-      "rootMeanings": ["gristi", "ki grize, dela"]
+      "rootMeanings": [
+        "gristi",
+        "ki grize, dela"
+      ]
     },
     "pronunciamento": {
       "partOfSpeech": "samostalnik",
       "definition": "Slovesna razglasitev, pogosto politična ali vojaška.",
       "friendly": "Velika uradna objava — običajno o novi vladi, vstaji ali pomembnem odloku.",
-      "exampleGloss": "Generalovo pronunciamento ob zori je razglasilo novo vlado.",
+      "exampleGloss": "Generalov razglas ob zori je oznanil novo vlado.",
       "origin": "španščina",
-      "rootMeanings": ["naprej", "razglasiti"]
+      "rootMeanings": [
+        "naprej",
+        "razglasiti"
+      ]
     },
     "sciolist": {
       "partOfSpeech": "samostalnik",
       "definition": "Človek površnega znanja, ki se pretvarja, da je strokovnjak.",
       "friendly": "Tisti, ki je zdrsnil po površini teme in govori, kakor da je sam napisal učbenik.",
-      "exampleGloss": "Namizni sciolist je samozavestno popravil pravega astrofizika pri mizi.",
+      "exampleGloss": "Vsevednež za mizo je samozavestno popravil pravega astrofizika na večerji.",
       "origin": "latinščina",
-      "rootMeanings": ["vedeti", "pomanjševalnica — mali poznavalec"]
+      "rootMeanings": [
+        "vedeti",
+        "pomanjševalnica — mali poznavalec"
+      ]
     },
     "dotage": {
       "partOfSpeech": "samostalnik",
       "definition": "Upad umskih moči v starosti.",
       "friendly": "Meglena, pozabljiva črta globoke starosti, ko ostrina uma začne taiti.",
-      "exampleGloss": "V svojem dotage je pripovedoval iste tri zgodbe vsak obisk, vsakič kot nove.",
+      "exampleGloss": "V pozni starosti je pripovedoval iste tri zgodbe ob vsakem obisku, vsakič kot nove.",
       "origin": "srednja angleščina",
-      "rootMeanings": ["bledeti, biti neumen", "stanje ali posledica"]
+      "rootMeanings": [
+        "bledeti, biti neumen",
+        "stanje ali posledica"
+      ]
     },
     "lee-side": {
       "partOfSpeech": "samostalnik",
       "definition": "Stran, zavarovana pred vetrom.",
       "friendly": "Tiha, zavarovana stran — hriba, ladje, zidu — kamor veter komaj seže.",
-      "exampleGloss": "Popotniki so postavili šotor na lee side grebena, da bi ušli sunkom.",
+      "exampleGloss": "Popotniki so postavili šotor v zavetrju grebena, da bi ušli sunkom.",
       "origin": "stara angleščina",
-      "rootMeanings": ["zavetje, zaščita", "bok, ploskev"]
+      "rootMeanings": [
+        "zavetje, zaščita",
+        "bok, ploskev"
+      ]
     },
     "parry": {
       "partOfSpeech": "glagol",
       "definition": "Odbiti ali odvrniti udarec, vprašanje ali argument.",
       "friendly": "Gladko odbiti — zamah sablje, neprijetno vprašanje ali obtožbo — ne da bi izgubili takt.",
-      "exampleGloss": "Parried je reporterjevo zvijačno vprašanje z lahko šalo.",
+      "exampleGloss": "Reporterjevo zvijačno vprašanje je odbila z lahko šalo.",
       "origin": "francoščina",
-      "rootMeanings": ["odbiti", "pripraviti se, braniti se"]
+      "rootMeanings": [
+        "odbiti",
+        "pripraviti se, braniti se"
+      ]
     },
     "mephitic": {
       "partOfSpeech": "pridevnik",
       "definition": "Smrdeč, škodljiv.",
       "friendly": "Tak smrad, da se zdi skoraj strupen — smrad, s katerim je nevarno dihati.",
-      "exampleGloss": "Mephitic vonj se je dvigal iz močvirja ob sončnem zahodu.",
+      "exampleGloss": "Smrdljiv vonj se je dvigal iz močvirja ob sončnem zahodu.",
       "origin": "latinščina",
-      "rootMeanings": ["škodljiva para", "ki ima naravo"]
+      "rootMeanings": [
+        "škodljiva para",
+        "ki ima naravo"
+      ]
     },
     "sybarite": {
       "partOfSpeech": "samostalnik",
       "definition": "Človek, predan razkošju in nasladi.",
       "friendly": "Tisti, ki živi za udobje in obilje — fina jedila, mehke postelje, lahko življenje — po starogrškem Sibarisu, slavnem po pretiravanju.",
-      "exampleGloss": "Pravi sybarite, zavračal je vsako sobo brez kadi.",
+      "exampleGloss": "Pravi sibarit, zavračal je vsako sobo brez kadi.",
       "origin": "grščina",
-      "rootMeanings": ["starogrško mesto, slavno po razkošju", "prebivalec"]
+      "rootMeanings": [
+        "starogrško mesto, slavno po razkošju",
+        "prebivalec"
+      ]
     },
     "prescind": {
       "partOfSpeech": "glagol",
       "definition": "Namerno odložiti ali ne upoštevati dela nečesa.",
       "friendly": "V mislih odmakniti kos sestavljanke vstran, da čisto vidite preostanek.",
-      "exampleGloss": "Za hip prescind od cene in vprašajmo, ali načrt sploh deluje.",
+      "exampleGloss": "Za hip odmislimo ceno in vprašajmo, ali načrt sploh deluje.",
       "origin": "latinščina",
-      "rootMeanings": ["pred, stran", "rezati"]
+      "rootMeanings": [
+        "pred, stran",
+        "rezati"
+      ]
     },
     "excoriate": {
       "partOfSpeech": "glagol",
       "definition": "Ostro kritizirati; tudi odrti kožo.",
       "friendly": "Raztrgati nekoga s trdo kritiko — z besedami, kakor da derete kožo.",
-      "exampleGloss": "Kritiki so excoriated nadaljevanje zaradi izdaje vsega, kar so gledalci ljubili na izvirniku.",
+      "exampleGloss": "Kritiki so raztrgali nadaljevanje zaradi izdaje vsega, kar so gledalci ljubili na izvirniku.",
       "origin": "latinščina",
-      "rootMeanings": ["stran", "koža, kožuh"]
+      "rootMeanings": [
+        "stran",
+        "koža, kožuh"
+      ]
     },
     "adduce": {
       "partOfSpeech": "glagol",
       "definition": "Navajati kot dokaz ali pričevanje.",
       "friendly": "Prinesti dejstvo ali primer v podporo misli — tisto, na kar pokažete, ko vprašajo: „in kje je dokaz?“",
-      "exampleGloss": "Odvetnica je adduced tri priče v podporo klientovemu alibiju.",
+      "exampleGloss": "Odvetnica je navedla tri priče v podporo klientovemu alibiju.",
       "origin": "latinščina",
-      "rootMeanings": ["k, proti", "voditi"]
+      "rootMeanings": [
+        "k, proti",
+        "voditi"
+      ]
     },
     "peregrinations": {
       "partOfSpeech": "samostalnik",
       "definition": "Potovanja ali tavanje, zlasti dolga in obsežna.",
       "friendly": "Dolga, tavamska potovanja — takšno tavanje, ki vas za dolgo odpelje daleč od doma.",
-      "exampleGloss": "Njegove peregrinations po treh celinah so napolnile celo polico potopisnih dnevnikov.",
+      "exampleGloss": "Njegova popotovanja po treh celinah so napolnila celo polico potopisnih dnevnikov.",
       "origin": "latinščina",
-      "rootMeanings": ["skozi", "polje, zemlja (peregrinus: tujec)"]
+      "rootMeanings": [
+        "skozi",
+        "polje, zemlja (peregrinus: tujec)"
+      ]
     },
     "mendicant": {
       "partOfSpeech": "samostalnik",
       "definition": "Berač ali tisti, ki živi od miloščine.",
       "friendly": "Tisti, ki živi s prošnjo za miloščino — zgodovinsko so tako imenovali tudi menihe, ki so dali zaobljubo revščine in živeli od darov.",
-      "exampleGloss": "Mendicant bratje niso ničesar posedovali in so se zanašali le na dobroto vaščanov.",
+      "exampleGloss": "Beraški bratje niso ničesar posedovali in so se zanašali le na dobroto vaščanov.",
       "origin": "latinščina",
-      "rootMeanings": ["prosjačiti", "berač"]
+      "rootMeanings": [
+        "prosjačiti",
+        "berač"
+      ]
     },
     "munificent": {
       "partOfSpeech": "pridevnik",
       "definition": "Izjemno darežljiv.",
       "friendly": "Darežljiv v velikem, skoraj razkaznem merilu — dar, pred katerim ljudje malo zadihajo.",
-      "exampleGloss": "Munificent dar je plačal celo novo krilo knjižnice.",
+      "exampleGloss": "Radodaren dar je plačal celo novo krilo knjižnice.",
       "origin": "latinščina",
-      "rootMeanings": ["dar, usluga", "ki dela, daje"]
+      "rootMeanings": [
+        "dar, usluga",
+        "ki dela, daje"
+      ]
     },
     "inanition": {
       "partOfSpeech": "samostalnik",
       "definition": "Izčrpanost zaradi pomanjkanja hrane; tudi pomanjkanje življenjske moči.",
       "friendly": "Šibko, iztisnjeno stanje od tega, da vas ne hranijo — dobesedno od lakote ali preneseno od tega, da ni več s čim iti naprej.",
-      "exampleGloss": "Do konca obleganja so bili vojaki skoraj pri inanition.",
+      "exampleGloss": "Do konca obleganja so bili vojaki skoraj na robu izčrpanosti.",
       "origin": "latinščina",
-      "rootMeanings": ["prazen, nič", "dejanje ali izid"]
+      "rootMeanings": [
+        "prazen, nič",
+        "dejanje ali izid"
+      ]
     },
     "vituperation": {
       "partOfSpeech": "samostalnik",
       "definition": "Grenka, zmerjalna kritika.",
       "friendly": "Kritika, ki je davno prestopila pravično mero in postala zla, žolčna tirada.",
-      "exampleGloss": "Spletni komentarji so se v minutah razblinili v čisto vituperation.",
+      "exampleGloss": "Spletni komentarji so se v nekaj minutah razblinili v čisto zmerjanje.",
       "origin": "latinščina",
-      "rootMeanings": ["krivda, napaka", "pripraviti, oskrbeti"]
+      "rootMeanings": [
+        "krivda, napaka",
+        "pripraviti, oskrbeti"
+      ]
     },
     "inimical": {
       "partOfSpeech": "pridevnik",
       "definition": "Sovražen, škodljiv po učinku.",
       "friendly": "Ki deluje proti vam, čeprav tiho — razmere ali običaji, nenaklonjeni vašim interesom.",
-      "exampleGloss": "Nova politika je bila inimical malim podjetjem, tudi če to ni bilo namerno.",
+      "exampleGloss": "Nova politika je bila sovražna malim podjetjem, tudi če to ni bilo namerno.",
       "origin": "latinščina",
-      "rootMeanings": ["ne", "prijatelj"]
+      "rootMeanings": [
+        "ne",
+        "prijatelj"
+      ]
     },
     "invidious": {
       "partOfSpeech": "pridevnik",
       "definition": "Zmožen izzvati žalitev ali nezadovoljstvo, pogosto z nepravično primerjavo.",
       "friendly": "Nekoga nujno užali — običajno zato, ker postavlja ljudi ali stvari drug proti drugemu nepošteno.",
-      "exampleGloss": "Rangirati otroke po tem, „koga mama bolj ljubi“, je invidious igra, ki je nihče ne bi smel igrati.",
+      "exampleGloss": "Razvrščati otroke po tem, „koga mama bolj ljubi“, je zoprna igra, ki je nihče ne bi smel igrati.",
       "origin": "latinščina",
-      "rootMeanings": ["zavist", "gledati (s slabo voljo)"]
+      "rootMeanings": [
+        "zavist",
+        "gledati (s slabo voljo)"
+      ]
     },
     "subaltern": {
       "partOfSpeech": "samostalnik",
       "definition": "Človek nižjega čina ali položaja; podrejeni.",
       "friendly": "Tisti, ki je nižje v verigi poveljevanja ali na družbenih stopnicah — mlajši, ki dela pod nekom močnejšim.",
-      "exampleGloss": "Kot mladi subaltern je dolgo sprejemal ukaze, preden jih je sam začel dajati.",
+      "exampleGloss": "Kot mlad podrejeni častnik je dolgo sprejemal ukaze, preden jih je sam začel dajati.",
       "origin": "latinščina",
-      "rootMeanings": ["pod", "drug"]
+      "rootMeanings": [
+        "pod",
+        "drug"
+      ]
     },
     "execrate": {
       "partOfSpeech": "glagol",
       "definition": "Čutiti ali izražati močno sovraštvo.",
       "friendly": "Sovražiti tako, da preklinjate na glas — čisto, glasno sovraštvo.",
-      "exampleGloss": "Vaščani so execrated davkarja vsakič, ko je njegov voz kotalil skozi vas.",
+      "exampleGloss": "Vaščani so preklinjali davkarja vsakič, ko se je njegov voz pripeljal skozi kraj.",
       "origin": "latinščina",
-      "rootMeanings": ["iz", "sveto (prekleti, izgnati iz svetega)"]
+      "rootMeanings": [
+        "iz",
+        "sveto (prekleti, izgnati iz svetega)"
+      ]
     },
     "integument": {
       "partOfSpeech": "samostalnik",
       "definition": "Naravni zunanji ovoj, kot koža ali oklep.",
       "friendly": "Lastni zaščitni ovoj narave — koža, oklep, lupina ali skorja, ki pokriva in varuje živo.",
-      "exampleGloss": "Želvin oklep je nenavadno trd integument.",
+      "exampleGloss": "Želvin oklep je nenavadno trd pokrov.",
       "origin": "latinščina",
-      "rootMeanings": ["na, čez", "pokrivat"]
+      "rootMeanings": [
+        "na, čez",
+        "pokrivat"
+      ]
     },
     "ingenuous": {
       "partOfSpeech": "pridevnik",
       "definition": "Preprostočuden, naiven, z otroško neposrednostjo; nasprotje disingenuous.",
-      "friendly": "Odprto zaupljiv in malo naiven, brez skrite igre — lahko se zamenja z ingenious, kar pomeni iznajdljiv.",
-      "exampleGloss": "Njeno ingenuous vprašanje — „zakaj bi sploh kdo lagal o tem?“ — je pokazalo, kako malo je v njej zvijače.",
+      "friendly": "Odprto zaupljiv in malo naiven, brez skrite igre — lahko se zamenja z „ingenious“, kar pomeni iznajdljiv.",
+      "exampleGloss": "Njeno prostodušno vprašanje — „zakaj bi sploh kdo lagal o tem?“ — je pokazalo, kako malo je v njej zvijače.",
       "origin": "latinščina",
-      "rootMeanings": ["v, rodni", "roditi (svobodno rojen, neposreden)"]
+      "rootMeanings": [
+        "v, rodni",
+        "roditi (svobodno rojen, neposreden)"
+      ]
     },
     "pedantry": {
       "partOfSpeech": "samostalnik",
       "definition": "Pretirana skrb za malenkosti ali pravila.",
       "friendly": "Zaiti v drobna pravila in izgubiti celoto — brskati po malenkostih, ki nikogar drugega ne zanimajo.",
-      "exampleGloss": "Njegova pedantry okoli oxfordske vejice je podrla vso sejo.",
+      "exampleGloss": "Njegovo pedantstvo okoli oxfordske vejice je podrlo vso sejo.",
       "origin": "italijanščina / latinščina",
-      "rootMeanings": ["učitelj otrok", "navada ali lastnost"]
+      "rootMeanings": [
+        "učitelj otrok",
+        "navada ali lastnost"
+      ]
     },
     "perscrutation": {
       "partOfSpeech": "samostalnik",
       "definition": "Temeljit, pazljiv pregled.",
       "friendly": "Globok pregled brez vrzeli — iti skozi vsako podrobnost s pravo skrbjo.",
-      "exampleGloss": "Šele po pazljivi perscrutation knjig se je našla razlika.",
+      "exampleGloss": "Šele po pazljivem prebiranju knjig se je našla razlika.",
       "origin": "latinščina",
-      "rootMeanings": ["skozi, temeljito", "iskati, preiskovati"]
+      "rootMeanings": [
+        "skozi, temeljito",
+        "iskati, preiskovati"
+      ]
     },
     "demur": {
       "partOfSpeech": "glagol",
       "definition": "Ugovarjati; pokazati omahovanje.",
       "friendly": "Vljudno odstopiti ali zastati, namesto da bi takoj privolili — mehko „raje ne“.",
-      "exampleGloss": "Ko so jo prosili, naj podpiše, ne da bi brala, je ona demurred.",
+      "exampleGloss": "Ko so jo prosili, naj podpiše, ne da bi brala, je ugovarjala.",
       "origin": "latinščina / francoščina",
-      "rootMeanings": ["od, stran", "odlašati"]
+      "rootMeanings": [
+        "od, stran",
+        "odlašati"
+      ]
     },
     "specious": {
       "partOfSpeech": "pridevnik",
       "definition": "Na videz prepričljiv, a v resnici napačen.",
       "friendly": "Najprej zveni prepričljivo, a se razpade, brž ko začnete preverjati.",
-      "exampleGloss": "„Everyone's doing it“ je specious argument, ki pod pogledom nikoli ne stoji.",
+      "exampleGloss": "„Everyone's doing it“ je navidezen argument, ki pod pogledom nikoli ne obstane.",
       "origin": "latinščina",
-      "rootMeanings": ["videz, lik", "poln (na videz lep)"]
+      "rootMeanings": [
+        "videz, lik",
+        "poln (na videz lep)"
+      ]
     },
     "cant": {
       "partOfSpeech": "samostalnik",
       "definition": "Neiskren, hinavski govor, pogosto poučen.",
       "friendly": "Pridiga, ki zveni krepostno, a nič živega ne stoji za njo — moralna poza na avtomatiko.",
-      "exampleGloss": "Utrujal ga je korporativni cant o „družini“ v podjetju, ki nikomur ni dajalo dopusta.",
+      "exampleGloss": "Utrujalo ga je korporativno leporečje o „družini“ v podjetju, ki nikomur ni dajalo dopusta.",
       "origin": "latinščina",
-      "rootMeanings": ["peti (nato: pevni žargon)", "cviljenje beračev, nato hinavščina"]
+      "rootMeanings": [
+        "peti (nato: pevni žargon)",
+        "cviljenje beračev, nato hinavščina"
+      ]
     },
     "pusillanimous": {
       "partOfSpeech": "pridevnik",
       "definition": "Brez poguma, strahopeten.",
       "friendly": "Plašen do brezhbteničnosti — preveč se boji vstati, tudi ko je to očitno pomembno.",
-      "exampleGloss": "Pusillanimous molk odbora je pustil škandalu, da se razleze.",
+      "exampleGloss": "Malodušen molk odbora je pustil, da se je škandal razrasel čez vse meje.",
       "origin": "latinščina",
-      "rootMeanings": ["zelo majhen", "duh, pogum"]
+      "rootMeanings": [
+        "zelo majhen",
+        "duh, pogum"
+      ]
     },
     "vulpine": {
       "partOfSpeech": "pridevnik",
       "definition": "Lisičji; zvijačen, premeten.",
       "friendly": "Pameten in spretен kot lisica — ostroumen, malo prepreden, vedno korak pred.",
-      "exampleGloss": "Nasmehnil se je vulpine nasmehom, brž ko je zagledal vrzel v pravilih.",
+      "exampleGloss": "Nasmehnil se je lisičje, brž ko je zagledal vrzel v pravilih.",
       "origin": "latinščina",
-      "rootMeanings": ["lisica", "lasten, podoben"]
+      "rootMeanings": [
+        "lisica",
+        "lasten, podoben"
+      ]
     },
     "seriatim": {
       "partOfSpeech": "prislov",
       "definition": "Eno za drugim, po vrsti.",
       "friendly": "Vzeti strogo po eno, po vrsti — brez skokov naprej, brez dveh stvari hkrati.",
-      "exampleGloss": "Sodnik je obravnaval vsako od dvanajstih zahtev seriatim.",
+      "exampleGloss": "Sodnik je obravnaval vsako od dvanajstih zahtev eno za drugo.",
       "origin": "latinščina",
-      "rootMeanings": ["vrsta, zaporedje", "po eno"]
+      "rootMeanings": [
+        "vrsta, zaporedje",
+        "po eno"
+      ]
     },
     "parsimony": {
       "partOfSpeech": "samostalnik",
       "definition": "Skrajna varčnost; skopost.",
       "friendly": "Skopariti z denarjem (ali besedami ali sredstvi) daleč onkraj razumne varčnosti.",
-      "exampleGloss": "Njegova parsimony je šla v legendo — eno čajno vrečko je prelil trikrat.",
+      "exampleGloss": "Njegova skopost je šla v legendo — eno čajno vrečko je prelil trikrat.",
       "origin": "latinščina",
-      "rootMeanings": ["varčevati, biti varčen", "stanje ali praksa"]
+      "rootMeanings": [
+        "varčevati, biti varčen",
+        "stanje ali praksa"
+      ]
     },
     "emendation": {
       "partOfSpeech": "samostalnik",
       "definition": "Popravek, zlasti v besedilu.",
       "friendly": "Popravek v pismu — učena poprava, ki popravi napako v starem ali pomembnem besedilu.",
-      "exampleGloss": "Nova izdaja vsebuje desetine emendations k izvirnemu rokopisu.",
+      "exampleGloss": "Nova izdaja vsebuje desetine popravkov k izvirnemu rokopisu.",
       "origin": "latinščina",
-      "rootMeanings": ["iz", "krivda, napaka"]
+      "rootMeanings": [
+        "iz",
+        "krivda, napaka"
+      ]
     },
     "abstemious": {
       "partOfSpeech": "pridevnik",
       "definition": "Zmeren v jedi in pijači.",
       "friendly": "Namerno zadržan za mizo — nikoli se ne prenaje, vedno pusti malo na krožniku.",
-      "exampleGloss": "Njegove abstemious navade so ga držale ostrega dolgo potem, ko so vrstniki popustili.",
+      "exampleGloss": "Njegove zmerne navade so ga držale ostrega dolgo potem, ko so vrstniki popustili.",
       "origin": "latinščina",
-      "rootMeanings": ["proč od", "opojna pijača"]
+      "rootMeanings": [
+        "proč od",
+        "opojna pijača"
+      ]
     },
     "solecism": {
       "partOfSpeech": "samostalnik",
       "definition": "Slovnična napaka ali kršitev bontona.",
       "friendly": "Zdrs v slovnici ali manirah — drobna napaka, od katere pedant trzne.",
-      "exampleGloss": "„Between you and I“ je običajen solecism, od katerega slovničarje še trzne.",
+      "exampleGloss": "„Between you and I“ je običajen solecizem, ob katerem slovničarje še vedno strese.",
       "origin": "grščina",
-      "rootMeanings": ["kilikijsko mesto, znano po „slabem“ grščini", "navada, način"]
+      "rootMeanings": [
+        "kilikijsko mesto, znano po „slabem“ grščini",
+        "navada, način"
+      ]
     },
     "internecine": {
       "partOfSpeech": "pridevnik",
       "definition": "Ki se nanaša na razdor znotraj skupine; medsebojno poguben.",
       "friendly": "Notranji prepir, ki trga skupino znotraj — boj, v katerem vsi izgubijo, ker so to svoji proti svojim.",
-      "exampleGloss": "Internecine prepiri stranke so prizadejali več škode kot kateri koli zunanji nasprotnik.",
+      "exampleGloss": "Bratomorni prepiri stranke so prizadejali več škode kot kateri koli zunanji nasprotnik.",
       "origin": "latinščina",
-      "rootMeanings": ["med, med seboj", "ubijati"]
+      "rootMeanings": [
+        "med, med seboj",
+        "ubijati"
+      ]
     },
     "pococurante": {
       "partOfSpeech": "pridevnik / samostalnik",
       "definition": "Ravnodušen, malomaren odnos.",
       "friendly": "Skomig z rameni, ki je postal značaj — skrb je tako stanjšala, da nič več ne stoji truda.",
-      "exampleGloss": "Njegov pococurante odnos do podelitve nagrad je presenetil vse, ki so vedeli, kako je delal.",
+      "exampleGloss": "Njegov brezbrižen odnos do podelitve nagrad je presenetil vse, ki so vedeli, kako je delal.",
       "origin": "italijanščina",
-      "rootMeanings": ["malo", "skrbeti"]
+      "rootMeanings": [
+        "malo",
+        "skrbeti"
+      ]
     },
     "imbroglio": {
       "partOfSpeech": "samostalnik",
       "definition": "Zmedena, zapletena situacija ali spor.",
       "friendly": "Zamotana, umazana zgodba, v kateri se je težko znajti — del nesporazuma, del drame, sama zmeda.",
-      "exampleGloss": "Cel imbroglio s sedežnim redom se je začel z eno zamenjano vizitko.",
+      "exampleGloss": "Cela zmešnjava s sedežnim redom se je začela z eno zamenjano vizitko.",
       "origin": "italijanščina",
-      "rootMeanings": ["v", "zaplesti, zmediti"]
+      "rootMeanings": [
+        "v",
+        "zaplesti, zmediti"
+      ]
     },
     "minatory": {
       "partOfSpeech": "pridevnik",
       "definition": "Grozeč, zastrašujoč.",
-      "friendly": "Nosi jasno grožnjo — minatory pogled ali pismo jasno pove, da lahko sledi slabo.",
-      "exampleGloss": "Minatory ton pisma je vznemiril najemnico, še preden je odprla kuverto.",
+      "friendly": "Nosi jasno grožnjo — grozeč pogled ali pismo jasno pove, da lahko sledi slabo.",
+      "exampleGloss": "Grozeč ton pisma je vznemiril najemnico, še preden je odprla kuverto.",
       "origin": "latinščina",
-      "rootMeanings": ["groziti", "ki služi k"]
+      "rootMeanings": [
+        "groziti",
+        "ki služi k"
+      ]
     },
     "obloquy": {
       "partOfSpeech": "samostalnik",
       "definition": "Močna javna kritika ali ustno zmerjanje.",
       "friendly": "Glasna javna obsodba — ostra kritika, ki se odvija pred očmi vseh.",
-      "exampleGloss": "Žvižgačica je leta prenašala javni obloquy, dokler ji zgodovina ni dala prav.",
+      "exampleGloss": "Žvižgačica je leta prenašala javno sramotenje, dokler ji zgodovina ni dala prav.",
       "origin": "latinščina",
-      "rootMeanings": ["proti", "govoriti"]
+      "rootMeanings": [
+        "proti",
+        "govoriti"
+      ]
     },
     "paroxysm": {
       "partOfSpeech": "samostalnik",
       "definition": "Nenaden silovit izbruh čustva ali dejanja.",
       "friendly": "Nenaden, močan napad, ki vas prekrije naenkrat — smeh, bes ali kašelj kot val.",
-      "exampleGloss": "Zagrabil jo je paroxysm smeha, ki ga nikomur v sobi ni mogla razložiti.",
+      "exampleGloss": "Popadel jo je napad smeha, ki ga nikomur v sobi ni mogla razložiti.",
       "origin": "grščina",
-      "rootMeanings": ["onstran, nad", "oster"]
+      "rootMeanings": [
+        "onstran, nad",
+        "oster"
+      ]
     },
     "adscititious": {
       "partOfSpeech": "pridevnik",
       "definition": "Dodan od zunaj, ni inherenten.",
       "friendly": "Pripeto od zunaj, ne vgrajeno od začetka — dodatek, ne jedro.",
-      "exampleGloss": "Komentar deluje adscititious, kakor da so ga prilepili na že končano besedilo.",
+      "exampleGloss": "Komentar deluje pridano, kakor da so ga prilepili na že končano besedilo.",
       "origin": "latinščina",
-      "rootMeanings": ["k, poleg", "odobriti, sprejeti"]
+      "rootMeanings": [
+        "k, poleg",
+        "odobriti, sprejeti"
+      ]
     },
     "nescience": {
       "partOfSpeech": "samostalnik",
       "definition": "Pomanjkanje znanja, nevednost.",
       "friendly": "Preprosto nevedenje — vrzel, h kateri se ne lepi očitek.",
-      "exampleGloss": "Priznal je svojo nescience francoskih vin in izbiro prepustil someljeju.",
+      "exampleGloss": "Priznal je svoje nepoznavanje francoskih vin in izbiro prepustil someljeju.",
       "origin": "latinščina",
-      "rootMeanings": ["ne", "vedeti"]
+      "rootMeanings": [
+        "ne",
+        "vedeti"
+      ]
     },
     "prurience": {
       "partOfSpeech": "samostalnik",
       "definition": "Pretiran interes za telesne stvari.",
       "friendly": "Pretirano pohlepna, vohunska radovednost za vse pikantno — interes, ki je šel iz zdravega v vsiljivega.",
-      "exampleGloss": "Prurience rumenega tiska do zasebnega življenja para je mejila na obsedenost.",
+      "exampleGloss": "Pohotnost rumenega tiska do zasebnega življenja para je mejila na obsedenost.",
       "origin": "latinščina",
-      "rootMeanings": ["srbeti, hrepeneti", "stanje"]
+      "rootMeanings": [
+        "srbeti, hrepeneti",
+        "stanje"
+      ]
     },
     "fuliginous": {
       "partOfSpeech": "pridevnik",
       "definition": "Sajast, temen, moten.",
       "friendly": "Temen in dimen na pogled, kakor da je vse prekrito s tanko plastjo saj.",
-      "exampleGloss": "Fuliginous meglica je visela nad tovarniškim mestom ob somraku.",
+      "exampleGloss": "Sajasta meglica je visela nad tovarniškim mestom ob somraku.",
       "origin": "latinščina",
-      "rootMeanings": ["saje", "poln"]
+      "rootMeanings": [
+        "saje",
+        "poln"
+      ]
     },
     "gainsay": {
       "partOfSpeech": "glagol",
       "definition": "Zanikati ali nasprotovati.",
       "friendly": "Naravnost reči proti tujim besedam — reči „to ni tako“.",
-      "exampleGloss": "Nihče se ni drznil gainsay pripovedi starega kapitana o nevihti.",
+      "exampleGloss": "Nihče se ni drznil oporekati pripovedi starega kapitana o nevihti.",
       "origin": "srednja angleščina",
-      "rootMeanings": ["proti", "govoriti"]
+      "rootMeanings": [
+        "proti",
+        "govoriti"
+      ]
     },
     "ignavia": {
       "partOfSpeech": "samostalnik",
       "definition": "Lenoba, brezdelje (iz latinščine).",
       "friendly": "Stara latinska beseda za čisto lenobo — nagon ničesar ne hoteti delati.",
-      "exampleGloss": "Menihi so pridigali proti ignavia kot eni od tihih nevarnosti duše.",
+      "exampleGloss": "Menihi so pridigali proti lenobi kot eni od tihih nevarnosti duše.",
       "origin": "latinščina",
-      "rootMeanings": ["ne", "zaposlen, priden"]
+      "rootMeanings": [
+        "ne",
+        "zaposlen, priden"
+      ]
     },
     "escutcheon": {
       "partOfSpeech": "samostalnik",
       "definition": "Ščit z grbom.",
       "friendly": "Ščitast znak z družinskim grbom — njegova heraldična „vizitka“.",
-      "exampleGloss": "Družinski escutcheon še visi nad vhodnimi vrati starega dvorca.",
+      "exampleGloss": "Družinski grb še visi nad vhodnimi vrati starega dvorca.",
       "origin": "latinščina / stara francoščina",
-      "rootMeanings": ["ščit", "pomanjševalnica / predmet"]
+      "rootMeanings": [
+        "ščit",
+        "pomanjševalnica / predmet"
+      ]
     },
     "superannuated": {
       "partOfSpeech": "pridevnik",
       "definition": "Zastarel, izločen iz rabe ali upokojen zaradi starosti.",
       "friendly": "Minil koristni razcvet in poslan na počitek — preveč staromoden ali izrabljen, da bi še delal delo.",
-      "exampleGloss": "Superannuated tiskalnik so naposled zamenjali po petnajstih letih zatikanja.",
+      "exampleGloss": "Zastareli tiskalnik so naposled zamenjali po petnajstih letih zatikanja.",
       "origin": "latinščina",
-      "rootMeanings": ["onstran, nad", "leto"]
+      "rootMeanings": [
+        "onstran, nad",
+        "leto"
+      ]
     },
     "succedanea": {
       "partOfSpeech": "samostalnik",
       "definition": "Nadomestki, zlasti v medicini.",
       "friendly": "Nadomestna sredstva, ko pravega zdravljenja ni — v bistvu zdravniški dvojniki.",
-      "exampleGloss": "Vojni zdravniki so se pogosto opirali na succedanea, ko so prava zdravila pošla.",
+      "exampleGloss": "Vojni zdravniki so se pogosto opirali na nadomestke, ko so prava zdravila pošla.",
       "origin": "latinščina",
-      "rootMeanings": ["namesto", "iti, umakniti se"]
+      "rootMeanings": [
+        "namesto",
+        "iti, umakniti se"
+      ]
     },
     "rodomontade": {
       "partOfSpeech": "samostalnik",
       "definition": "Bahav, napihnjen govor.",
       "friendly": "Veliko, glasno bahanje — glasni govori o lastni veličini, v katerih je skoraj sam vroč zrak.",
-      "exampleGloss": "Njegova rodomontade o tem, kako je „sam“ rešil projekt, ni prevarala nikogar od tistih, ki so tam bili.",
+      "exampleGloss": "Njegovo bahanje o tem, kako je „sam“ rešil projekt, ni prevaralo nikogar od tistih, ki so bili zraven.",
       "origin": "italijanščina",
-      "rootMeanings": ["bahavi vitez iz Besnega Rolanda", "dejanje, prikaz"]
+      "rootMeanings": [
+        "bahavi vitez iz Besnega Rolanda",
+        "dejanje, prikaz"
+      ]
     },
     "chicane": {
       "partOfSpeech": "glagol",
       "definition": "Doseči nekaj s pretkanostjo ali prevaro.",
       "friendly": "Prodrseti k cilju z drobnimi triki, ne s pošteno igro.",
-      "exampleGloss": "Chicaned si je pot v posel s pogodbo, nabito z drobnim tiskom.",
+      "exampleGloss": "Zvijačno si je utrl pot v posel s pogodbo, nabito z drobnim tiskom.",
       "origin": "francoščina",
-      "rootMeanings": ["cepiti dlako, zvijačiti", "zvijača; pozneje oster ovinek"]
+      "rootMeanings": [
+        "cepiti dlako, zvijačiti",
+        "zvijača; pozneje oster ovinek"
+      ]
     },
     "mathesis": {
       "partOfSpeech": "samostalnik",
@@ -902,175 +1238,241 @@
       "friendly": "Učenje v najčistejši, odmaknjeni obliki — globinska zgradba samega znanja, zlasti matematičnega.",
       "exampleGloss": "Filozof je sanjal o splošni mathesis, ki bi povezala vsa polja znanja.",
       "origin": "grščina",
-      "rootMeanings": ["učiti se", "dejanje učenja"]
+      "rootMeanings": [
+        "učiti se",
+        "dejanje učenja"
+      ]
     },
     "pedantic": {
       "partOfSpeech": "pridevnik",
       "definition": "Pretirano zaposlen s formalnimi pravili ali drobno podrobnostjo.",
       "friendly": "Pretirano strog do malenkosti — popravlja tehnične drobnarije, ki nič bistvenega ne spremenijo.",
-      "exampleGloss": "Bilo je malo pedantic prepirati se o „who“ in „whom“ v sporočilu.",
+      "exampleGloss": "Bilo je malo pedantno prepirati se o „who“ in „whom“ v sporočilu.",
       "origin": "italijanščina / grščina",
-      "rootMeanings": ["vodnik otrok, učitelj", "ki ima način"]
+      "rootMeanings": [
+        "vodnik otrok, učitelj",
+        "ki ima način"
+      ]
     },
     "coruscation": {
       "partOfSpeech": "samostalnik",
       "definition": "Blisk, iskrivo svetloba.",
       "friendly": "Hiter, trepetajoč blisk — sonce na vodi ali diamant, ki je ujel svetlobo.",
-      "exampleGloss": "Coruscation lestenca je raztresel svetlobo v vse kote plesne dvorane.",
+      "exampleGloss": "Lesketanje lestenca je raztreslo svetlobo v vse kote plesne dvorane.",
       "origin": "latinščina",
-      "rootMeanings": ["iskriti, bliskati", "dejanje"]
+      "rootMeanings": [
+        "iskriti, bliskati",
+        "dejanje"
+      ]
     },
     "tyro": {
       "partOfSpeech": "samostalnik",
       "definition": "Začetnik, novinec.",
       "friendly": "Povsem nov v veščini ali polju — še uči osnove, še ni strokovnjak.",
-      "exampleGloss": "Celó tyro v šahu opazi tisto grobo napako.",
+      "exampleGloss": "Celo začetnik v šahu opazi tisto grobo napako.",
       "origin": "latinščina",
-      "rootMeanings": ["rekrut, novinec", "surov mladi vojak"]
+      "rootMeanings": [
+        "rekrut, novinec",
+        "surov mladi vojak"
+      ]
     },
     "execrable": {
       "partOfSpeech": "pridevnik",
       "definition": "Skrajno slab, odvraten.",
       "friendly": "Slab tako, da zbujа pravo gnus — ne le „šibko“, ampak resnično gnusno.",
-      "exampleGloss": "Recenzent je nadaljevanje imenoval execrable in blagajna se je strinjala.",
+      "exampleGloss": "Recenzent je nadaljevanje imenoval ostudno in blagajna se je strinjala.",
       "origin": "latinščina",
-      "rootMeanings": ["prekleti", "vreden, zmožen biti"]
+      "rootMeanings": [
+        "prekleti",
+        "vreden, zmožen biti"
+      ]
     },
     "incarnadine": {
       "partOfSpeech": "pridevnik",
       "definition": "Krvavo rdeč.",
       "friendly": "Globoka, živa rdeča — barva sveže krvi, slavna pri Shakespearovem Macbethu.",
-      "exampleGloss": "Zahod je obarval vse nebo incarnadine sijajem.",
+      "exampleGloss": "Sončni zahod je obarval vse nebo krvavordečim sijajem.",
       "origin": "italijanščina / latinščina",
-      "rootMeanings": ["v", "telo (telesno rdeč)"]
+      "rootMeanings": [
+        "v",
+        "telo (telesno rdeč)"
+      ]
     },
     "interstice": {
       "partOfSpeech": "samostalnik",
       "definition": "Majhna vrzel ali razpoka med stvarmi.",
       "friendly": "Drobno „med“, ki ga je lahko spregledati — razpoka v tleh, luknja v urniku.",
-      "exampleGloss": "Skozi vsak interstice stare opečnate steze je plazil plevel.",
+      "exampleGloss": "Skozi vsako špranjo stare opečnate steze je poganjal plevel.",
       "origin": "latinščina",
-      "rootMeanings": ["med", "stati"]
+      "rootMeanings": [
+        "med",
+        "stati"
+      ]
     },
     "animadversion": {
       "partOfSpeech": "samostalnik",
       "definition": "Kritične ali grajalne pripombe.",
       "friendly": "Ostre, neodobravalne besede — kritika z noto očitka.",
-      "exampleGloss": "Profesorjeve animadversions k spisu so napolnile robove z rdečim črnilom.",
+      "exampleGloss": "Profesorjeve graje k spisu so napolnile robove z rdečim črnilom.",
       "origin": "latinščina",
-      "rootMeanings": ["um", "obrniti k"]
+      "rootMeanings": [
+        "um",
+        "obrniti k"
+      ]
     },
     "irrefragable": {
       "partOfSpeech": "pridevnik",
       "definition": "Neovrgljiv, nesporen.",
       "friendly": "Tako trdno dokazano, da se nima smisla prepirati — stvar je preprosto zaprta.",
-      "exampleGloss": "Dokazi DNK so bili irrefragable in sojenje se je končalo v uri.",
+      "exampleGloss": "Dokazi DNK so bili neizpodbitni in sojenje se je končalo v eni uri.",
       "origin": "latinščina",
-      "rootMeanings": ["ne", "upirati se, odpirati se"]
+      "rootMeanings": [
+        "ne",
+        "upirati se, odpirati se"
+      ]
     },
     "involution": {
       "partOfSpeech": "samostalnik",
       "definition": "Zapletenost, zamotanost; tudi zvijanje navznoter.",
       "friendly": "Zamotana, vase zložena zapletenost — stvari tako tesno zvité, da jih je težko razdvojiti.",
-      "exampleGloss": "Involution zapleta je pustila polovico dvorane, da ga razpleta po odjavni špici.",
+      "exampleGloss": "Zapletenost zgodbe je pustila polovico dvorane, da jo razpleta po odjavni špici.",
       "origin": "latinščina",
-      "rootMeanings": ["noter", "valjati, obračati"]
+      "rootMeanings": [
+        "noter",
+        "valjati, obračati"
+      ]
     },
     "dint": {
       "partOfSpeech": "samostalnik",
       "definition": "Sila ali napor, kot v „by dint of“.",
       "friendly": "Gola sila ali trud — danes skoraj živi le v obratu „by dint of“.",
-      "exampleGloss": "Izpit je opravil by dint of trmastega, vztrajnega vadjenja.",
+      "exampleGloss": "Izpit je opravil z močjo trmaste, vztrajne vaje.",
       "origin": "stara angleščina",
-      "rootMeanings": ["udarec, zamah", "s silo"]
+      "rootMeanings": [
+        "udarec, zamah",
+        "s silo"
+      ]
     },
     "mortised": {
       "partOfSpeech": "pridevnik",
       "definition": "Spojen s čepom in utorom; tesno prilagojen.",
       "friendly": "Spojen po starem, tesarsko — en del vstopi v odprtino, izrezano natančno zanj.",
-      "exampleGloss": "Tramovi starega skednja so bili mortised skupaj brez enega žeblja.",
+      "exampleGloss": "Tramovi starega skednja so bili spojeni na čep brez enega samega žeblja.",
       "origin": "latinščina / francoščina",
-      "rootMeanings": ["utor, odprtina", "ugriz, stisk"]
+      "rootMeanings": [
+        "utor, odprtina",
+        "ugriz, stisk"
+      ]
     },
     "apposite": {
       "partOfSpeech": "pridevnik",
       "definition": "Zelo ustrezen, trefen.",
       "friendly": "Točno k stvari — pripomba, navedek ali primer, ki sede v piko.",
-      "exampleGloss": "Njena apposite replika je zvila vso razpravo v en stavek.",
+      "exampleGloss": "Njena umestna replika je zvila vso razpravo v en stavek.",
       "origin": "latinščina",
-      "rootMeanings": ["k", "položiti"]
+      "rootMeanings": [
+        "k",
+        "položiti"
+      ]
     },
     "lambent": {
       "partOfSpeech": "pridevnik",
       "definition": "Mehko žareč ali trepetajoč (svetloba); tudi lahka duhovitost.",
       "friendly": "Sveti nežno, ne plameni — mehka, trepetajoča svetloba ali duhovitost igriva, ne ostra.",
-      "exampleGloss": "Sveče so metale lambent sij po stari jedilnici.",
+      "exampleGloss": "Sveče so metale trepetajoč sij po stari jedilnici.",
       "origin": "latinščina",
-      "rootMeanings": ["lizati", "dejanje (svetloba, ki „liže“)"]
+      "rootMeanings": [
+        "lizati",
+        "dejanje (svetloba, ki „liže“)"
+      ]
     },
     "anchorite": {
       "partOfSpeech": "samostalnik",
       "definition": "Verski puščavnik, ki živi v samoti.",
       "friendly": "Tisti, ki se povsem umakne od sveta, da živi sam v molitvi in premišljevanju.",
-      "exampleGloss": "Anchorite je preživel več kot trideset let v tesni celici ob cerkvi.",
+      "exampleGloss": "Anahoret je preživel več kot trideset let v tesni celici ob cerkvi.",
       "origin": "grščina",
-      "rootMeanings": ["nazaj, stran", "umakniti se"]
+      "rootMeanings": [
+        "nazaj, stran",
+        "umakniti se"
+      ]
     },
     "slake": {
       "partOfSpeech": "glagol",
       "definition": "Pogasiti žejo; potešiti.",
       "friendly": "Popolnoma potešiti hrepenenje — najpogosteje žejo, a preneseno tudi katero koli globoko potrebo.",
-      "exampleGloss": "En hladen kozarec vode slaked njegovo žejo po dolgem hoji.",
+      "exampleGloss": "En hladen kozarec vode je pogasil njegovo žejo po dolgi hoji.",
       "origin": "stara angleščina",
-      "rootMeanings": ["ohlapen, popuščen", "popustiti, pomiriti"]
+      "rootMeanings": [
+        "ohlapen, popuščen",
+        "popustiti, pomiriti"
+      ]
     },
     "acicular": {
       "partOfSpeech": "pridevnik",
       "definition": "Iglast.",
       "friendly": "Dolg, tanek in oster kot igla — oblika borove iglice ali ostrega kristalčka.",
-      "exampleGloss": "Bore se zlahka prepozna po acicular listih.",
+      "exampleGloss": "Bore zlahka prepoznamo po iglastih listih.",
       "origin": "latinščina",
-      "rootMeanings": ["igla", "majhen"]
+      "rootMeanings": [
+        "igla",
+        "majhen"
+      ]
     },
     "effete": {
       "partOfSpeech": "pridevnik",
       "definition": "Izčrpan življenjske moči, šibek, pretirano izbrušen.",
       "friendly": "Iztrošen in mehak — izgubil prvotno moč od preveč udobja ali izbrušenosti.",
-      "exampleGloss": "Kritiki so nekoč drzno revijo imenovali effete, senco drznih zgodnjih let.",
+      "exampleGloss": "Kritiki so nekoč drzno revijo imenovali izčrpano, senco drznih zgodnjih let.",
       "origin": "latinščina",
-      "rootMeanings": ["ven", "ploden, že rodil"]
+      "rootMeanings": [
+        "ven",
+        "ploden, že rodil"
+      ]
     },
     "appurtenance": {
       "partOfSpeech": "samostalnik",
       "definition": "Pripomoček ali drobna priključena stvar ali pravica.",
       "friendly": "Mali dodatek k večjemu — pripomočki in dodatki, ki gredo z glavno stvarjo.",
-      "exampleGloss": "Najem je vključeval garažo in vse njene appurtenances.",
+      "exampleGloss": "Najem je vključeval garažo in vse, kar sodi k njej.",
       "origin": "latinščina / francoščina",
-      "rootMeanings": ["k", "pripadati"]
+      "rootMeanings": [
+        "k",
+        "pripadati"
+      ]
     },
     "gloze": {
       "partOfSpeech": "glagol",
       "definition": "Zatajiti ali pomanjšati krivdo.",
       "friendly": "Omiliti napako z mehkimi besedami, da izgleda manjša, kot je.",
-      "exampleGloss": "Poskušal je gloze over zamujeni rok z meglenimi govori o „nepredvidenih težavah“.",
+      "exampleGloss": "Zamujeni rok je poskušal zabrisati z meglenimi govori o „nepredvidenih težavah“.",
       "origin": "stara francoščina / latinščina",
-      "rootMeanings": ["glosa, razlaga", "komentirati — nato zatajevati"]
+      "rootMeanings": [
+        "glosa, razlaga",
+        "komentirati — nato zatajevati"
+      ]
     },
     "incipient": {
       "partOfSpeech": "pridevnik",
       "definition": "V zgodnji stopnji, šele začetni.",
       "friendly": "Šele se začenja kazati — najprva, komaj vidna faza nečesa večjega.",
-      "exampleGloss": "Zdravniki so ujeli incipient znake bolezni, preden se je utegnila razširiti.",
+      "exampleGloss": "Zdravniki so ujeli začetne znake bolezni, preden se je utegnila razširiti.",
       "origin": "latinščina",
-      "rootMeanings": ["na, v", "vzeti (lotiti se, začeti)"]
+      "rootMeanings": [
+        "na, v",
+        "vzeti (lotiti se, začeti)"
+      ]
     },
     "afflatus": {
       "partOfSpeech": "samostalnik",
       "definition": "Ustvarjalni navdih, zlasti božanski.",
       "friendly": "Nenaden naval navdiha, ki se zdi večji od vas — kakor da so vam misel vdihnili od drugod.",
-      "exampleGloss": "Pesnik je rekel, da je vsa stvar prišla z enim sunkom afflatus ob treh zjutraj.",
+      "exampleGloss": "Pesnik je rekel, da je vsa stvar prišla z enim sunkom navdiha ob treh zjutraj.",
       "origin": "latinščina",
-      "rootMeanings": ["k, na", "pihati (vdih-na)"]
+      "rootMeanings": [
+        "k, na",
+        "pihati (vdih-na)"
+      ]
     }
   }
 }

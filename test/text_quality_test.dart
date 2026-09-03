@@ -140,11 +140,21 @@ void main() {
       'specious': "Everyone's doing it",
     };
 
-    // Three have already lost one. They are named rather than waved through,
-    // so the count can only go down from here: metonymy stands in 59 of the
-    // 60 and specious in 58, measured 2026-09-03.
+    // Two have lost one, and they are named rather than waved through, so the
+    // count can only go down from here.
+    //
+    // `nb/metonymy` used to be in this set and is not a loss at all: the row
+    // read "Wall Street hat a rough day", one letter off, and Danish has it
+    // right — so it was a typo that had been recorded as a translation
+    // decision. Repaired 2026-09-03 while rewriting nb. **An entry here is
+    // worth reading before it is trusted**: this one had been sitting as
+    // evidence of a rule the locale never actually broke.
+    //
+    // The two that remain are real. Lao and Burmese render the quotation in
+    // their own scripts, which empties it out — but both are `_data_` locales
+    // that `tool/localize_gloss.py` refuses, so repairing them means editing
+    // `tool/_data_lo.py` and `_data_my.py` and re-emitting.
     const alreadyGone = <String>{
-      'nb/metonymy',
       'lo/specious',
       'my/specious',
     };
@@ -199,10 +209,14 @@ void main() {
       'fricaseed.definition': 'fricasseed',
     };
 
-    // Serbian transliterated it into Cyrillic — "ингениоус" — which gives a
-    // reader the sound and takes away the spelling, and the spelling is the
-    // whole point of a word you are being told to tell apart.
-    const alreadyGone = <String>{'sr/ingenuous.friendly'};
+    // Serbian used to transliterate it into Cyrillic — "ингениоус" — which
+    // gives a reader the sound and takes away the spelling, and the spelling
+    // is the whole point of a word you are being told to tell apart. That was
+    // one symptom of a locale that had been transliterated from Croatian
+    // rather than written: 23 example sentences carried the headword the same
+    // way. Serbian was rewritten on 2026-09-03 and this set is empty, which is
+    // the state to hold it in — an exemption here is a reader losing a word.
+    const alreadyGone = <String>{};
 
     test('all sixty keep it, and the exceptions are the known ones', () {
       final lost = <String>[];

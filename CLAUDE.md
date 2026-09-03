@@ -460,11 +460,178 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Six are done — `nl`, `de`, `fr`, `es`, `es_419`, `it` — and 54 are not.** **7116 of the
-8,040 glosses still carry the English headword.** The same six have since had their
-`friendly` and `definition` fields done too, so a diff of one of them is no longer
-`exampleGloss` lines alone — see *`exampleGloss` was never the only field this can happen
-in* below.
+**All 23 locales that `localize_gloss.py` can reach are done — `nl`, `de`, `fr`, `fr_CA`,
+`es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`,
+`mk`, `el`, `ro`, `hu`, `nb`.** **4,913 of the 8,040 glosses still carry the English
+headword**, and **every one of them is in one of the 37 locales that has a
+`tool/_data_<locale>.py`.** All 23 have had their `friendly` and `definition` fields done in
+the same pass, so a diff of one is no longer `exampleGloss` lines alone — see
+*`exampleGloss` was never the only field this can happen in* below.
+
+**So this tool's half of the job is finished, and the remaining 37 are a different job.**
+`localize_gloss.py` refuses them on purpose, because the next `emit_from_data.py` would
+throw the edit away; they need `tool/_data_<locale>.py` edited and re-emitted. Worth
+planning rather than continuing into: the generator is 134 five-field tuples per locale, and
+`emit_from_data.py` is the source of truth for all of them. The three Chinese locales are
+still worth diffing before treating them as three jobs.
+
+**`bg`/`mk` was the last near-twin pair, and it was not cheap.** Measured before starting:
+0.80 mean similarity with 101 of 134 above 0.75, which looked like `es`/`es_419` (129
+identical) from a distance. It is not. **Zero of the 134 example sentences are identical**,
+and zero `friendly` lines are — Bulgarian and Macedonian are close languages whose files
+were genuinely written apart, so the second cost as much as the first. The similarity score
+was measuring the languages, not the files. **A pair is only cheap when the diff says the
+files agree; a number that merely says the languages are close predicts nothing.**
+
+**Ten Slavic locales in a row needed exactly one exemption and the same one**, and it is
+now settled rather than predicted. Polish, Czech, Slovak, Croatian and Slovene decline what
+they borrow (*panegirykiem*, *teodyceę*, *panegyrik*, *teodiceu*, *sybarita*, *solecismus*,
+*panegirik*, *sibarit*, *solecizam*, *solecizem*, *teodiceja*); Russian, Ukrainian, Serbian,
+Bulgarian and Macedonian are in another script, so a borrowing arrives transliterated and
+cannot be identical to the English form even where it is the same word. *mathesis* survives
+both tests because every locale keeps it in Latin letters. **Every Slavic locale in the
+lexicon is now done — all ten of them — and every one needed exactly `mathesis`, by one of
+those two routes.**
+
+**Greek needed no exemption at all, and it is the only locale that has managed that.** The
+prediction here was that Greek would take one for the script reason, like the Cyrillic
+locales. It took none, and the reason is better than the prediction: **the lexicon's hardest
+borrowings are Greek words to begin with.** *amphiboly*, *panegyric*, *theodicy*,
+*tautology*, *metonymy*, *laconism*, *solecism*, *euphonious*, *aporetic*, *cataphatic*,
+*sybarite*, *anchorite*, *paroxysm* and *mathesis* are simply written out in Greek —
+αμφιβολία, πανηγυρικός, θεοδικία, ταυτολογία, μετωνυμία, λακωνισμός, σολοικισμός, εύφωνη,
+απορητικός, καταφατική, συβαρίτης, αναχωρητής, παροξυσμός, μάθηση. A locale needs an
+exemption when it has borrowed a word and left it unchanged; Greek is being asked to hand
+back its own.
+
+**Romanian needed five, which is the French answer for the French reason**, and it is the
+long end of the range: *mathesis*, *neologism*, *solecism*, *laconism*, *ontic*. A Romance
+language in Latin script has taken these and spelled them identically, so the check cannot
+tell the local word from the English one — because they are the same word. Everything that
+had a plainer Romanian form was reworded to it first, as this file has said to do since
+French: *soporific* → *adormitor*, *subaltern* → *ofițer inferior*, *fiducial* → *reper de
+referință*, *integument* → *înveliș*, *paroxysm* → *acces*, *patois* → *grai*, *seriatim* →
+*pe rând*. **So the two extremes of the whole job are Greek at nought and Romanian at five,
+and both numbers follow from how the language got the word rather than from how careful the
+translator was.**
+
+**The checker caught one that reading would not have, and it is the case where an exemption
+costs a reader something audible.** Romanian for a plumb line is *fir cu plumb*, and *plumb*
+is one of the forms in `quotedEnglish` — so `segmentTranslation` would have cut an ordinary
+Romanian word out of a Romanian sentence and handed it to the English voice. Reworded to
+*dreptar*, which Romanian already uses metaphorically for a rule one lives by, so the safe
+sentence is also the better one. **That is the sharp version of *reword before reaching for
+`english_ok`*: an exemption is not merely untidy, it is a word the reader hears in the wrong
+mouth.** Two `plumb`s remain in Romanian and correctly so — the definition of *plumb-line*,
+where *fir cu plumb* is the term, and the root meaning of Latin *plumbum*, which is *plumb*.
+Those are the language's own vocabulary on the same Latin root, and `find_unsaid_english.py`
+has always reported that class.
+
+**All nine other Slavic locales sorted use from mention identically without being asked**,
+and by the third it stopped being a coincidence: `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`,
+`bg` and `mk` each kept exactly two — *fricaseed* defined as the misspelling of
+"fricasseed", *ingenuous* as the word told apart from "ingenious" — and each had written
+both **without quotation marks**, which is why the sweep could not tell them from a use.
+Quoting is the whole fix and it also hands the word back to the English voice. All nine had
+already translated *fain* and *fructify*, which no Romance or Germanic locale had. **A
+Slavic locale's worklist is eight, not ten** — it held for West, East and South Slavic
+alike, without a single exception in nine tries, so it is a Slavic habit rather than a
+regional one.
+
+**A locale can carry its neighbour's grammar, and only rewriting the row finds it.** Every
+check in this project reads the sentence for *English*; nothing in it can tell correct
+Slovak from Czech spelled Slovak-ly, and the suite was green over both of these. Slovak had
+Czech forms standing in it — *aniž by čítala* where Slovak says *bez toho, aby čítala*,
+*lhal* for *klamal* — one row that did not agree with itself (*jeden čajový vrecúško*, a
+masculine adjective on a neuter noun), and *drelina* in the `dint` explanation, which is
+not a Slovak word at all; it is *drina*. Croatian had four rows whose gender did not agree
+(*Generalov … zdravica* and *Njegov … zdravica*, both feminine nouns; *Njegovi … e-poruke*,
+feminine plural), *ima li brojevi* for *imaju li brojevi*, *zazištale* for brakes that
+*zasiktale*, and *gramatike* — grammars — where the sentence means *gramatičare*,
+grammarians. All of it was found by reading the row in order to replace it, which is the
+argument for rewriting the whole sentence rather than swapping the headword into it: **the
+rewrite is also the only proofreading pass these locales have ever had.** Expect a handful
+in each of the 37 that remain. Slovene had six rows that did not agree with themselves, a
+Croatian *Trebalo je* for *Bilo je treba*, and two non-words (*zazičale*, *vadjenja*).
+
+**Norwegian Bokmål was the worst of them, and it was largely Danish.** Not derived from `da`
+— the two share only 4 of 134 rows — but written by something drifting between the
+languages: *bedstemors* for *bestemors*, *kalde* for *kalle*, *afsluttede* for *avsluttet*,
+*have* for *ha*, *end* for *enn*, *hvad der* for *hva som*, *Jobs Bog* for *Jobs bok*, *tal*
+for *tall*, and a dozen more. **Nothing here can see that**: a Danish word is spelled like a
+word, it parses, and the whole suite was green over all of it. It had also left every piece
+of reported speech in English — *the true meaning of friendship*, *excellent taste*, *who
+Mom loves best*, *single-handedly* — where every other Germanic locale had translated them.
+
+**And the `nb` entry in the test's specimen-exemption list was not a loss at all.** The row
+read *"Wall Street **hat** a rough day"*, one letter off, and `text_quality_test.dart`
+carried `nb/metonymy` as a locale that had translated the specimen away. **Danish has it
+right**, so it was never a translation decision — it was a typo, recorded as evidence of a
+rule the locale never broke. The same typo sits in the `clodpate` row. Both repaired, and
+the exemption removed. **An entry in an exemption list is a claim about the data; read it
+before you trust it.** `lo/specious` and `my/specious` stay, and those two are real — Lao
+and Burmese render the quotation in their own scripts — but both are `_data_` locales, so
+repairing them means editing the generator.
+
+**Serbian was not written; it was transliterated from Croatian, and the transliterator ran
+out before it finished.** This is the worst thing found in the shipped data so far, and no
+check in the project could see any of it. Three faults at once, measured across the 134:
+
+- **23 rows carried the English headword transliterated letter by letter into Cyrillic** —
+  *Пнеуматиц*, *Цатапхатиц*, *Гаррулоус*, *Сопорифиц*, *Анцхорите*. That is worse than the
+  English standing there, because the reader gets neither a Serbian word nor a spelling
+  they could look up. And **it is invisible to every tool here**: `gloss_english.py` finds
+  English by matching English letters, so a headword in Cyrillic is not English to it any
+  more. The count of what Serbian owed was 23 too low, in the direction that flatters.
+- **Every one of the 23 is the sentence-initial word**, and mid-sentence English was left
+  in Latin. That is a mechanism rather than 23 accidents: whatever did this worked on the
+  first token of each sentence. Worth knowing, because it says the rest of the file was
+  produced the same mechanical way.
+- **Text inside the quotation marks was skipped along with the English**, so a Serbian
+  reader met Croatian in Latin script — *pobjedu*, *izvrstan ukus*, *dođite i uzmite ih*.
+  And the Croatian underneath was left standing throughout (*tijekom*, *njezina*, *obitelj*,
+  *tjedan*, *momčad*, *povijest*, *burza*, *kava*, *rubnik*, *kamo*), with ijekavian and
+  ekavian mixed inside single rows.
+
+`test/text_quality_test.dart` had recorded one symptom of this as a known exception —
+`sr/ingenuous.friendly`, where *ingenious* had been transliterated to *ингениоус*. **That
+set is empty now, and it is worth keeping empty**: an exemption there is a reader losing a
+word. *disingenuous* in the same entry's definition had gone the same way and is back too.
+
+The three fields this tool carries are rewritten in ekavian Serbian. **`partOfSpeech`,
+`origin` and `rootMeanings` are written elsewhere and are still Croatian-flavoured** — that
+is a separate job, and it is in BACKLOG.md rather than quietly done here.
+
+**The lesson generalises past Serbian: a locale that was derived rather than written will
+not show up in any count.** The sweeps ask "is there English here", and a bad derivation
+answers no. `bg`/`mk` is the remaining pair most likely to have been made this way, so
+measure it before trusting what it owes — the check is four lines, and the one used here is
+in this session's transcript: transliterate the English headword letter by letter into the
+target script and look for it with a fuzzy match.
+
+**A doubled root is not a doubled word, and only a reader catches it.** The Ukrainian
+`mordant` line read *влучно влучило* and the Czech one *tak trefně trefila* — the same
+root twice running, in the same row, in two locales that were translated separately.
+`text_quality_test.dart` catches a word typed twice and cannot catch this; both were
+repaired by eye while rewriting the row. Worth a look in the remaining locales' `mordant`,
+since whatever produced it produced it twice.
+
+**A locale in another script needs no exemption list, and that is a fact about the
+alphabet rather than about the language.** Russian took one — *mathesis*, kept in Latin
+letters the way every locale keeps it — and could not have needed more: a borrowing
+arrives transliterated (*панегирик*, *теодицея*, *сибарит*, *пароксизм*, *сенешаль*,
+*анахорет*), so it cannot be identical to the English form even where it is the same
+word. Expect the same of `bg`, `mk`, `sr`, `el` and `uk`, and expect the reverse of the
+Latin-script Slavic ones — Polish still needed only *mathesis*, but for the other reason,
+that it declines what it borrows (*panegirykiem*, *teodyceę*, *sybaryta*, *solecyzm*).
+
+**Russian also sorted into use and mention more cleanly than any locale before it**, and
+the two it kept are the two the census predicted: *fricaseed* is defined as the
+misspelling of "fricasseed" and *ingenuous* is the word told apart from "ingenious". Both
+had simply been written without their quotation marks, so the sweep could not tell them
+from a use. Quoting them is the whole fix, and it also hands them back to the English
+voice, since `segmentTranslation` cuts on `quotedEnglish`. Russian needed no rewrite for
+*fain* or *fructify*: it had already translated both, which no other locale had.
 
 **How many exemptions a locale needs is not what you would guess.** For the sentences,
 French needed five and Italian two, although Italian is where several of these words came
@@ -481,8 +648,40 @@ has a plainer word.
 glosses identical**, differing only where the region does: *estudiantes* for *alumnos*,
 *acera* for *bordillo*, *auto* for *coche*, and an *ustedeo* imperative where Spain uses
 *vosotros*. So Latin American Spanish was derived from the peninsular file with those
-five carried across, rather than translated again. Look for the same in `pt`/`pt_BR`,
-`fr`/`fr_CA` and the three Chinese locales before treating any of them as a fresh job.
+five carried across, rather than translated again.
+
+**`fr_CA` proved the pattern rather than merely repeating it.** Measured against French as
+it stood *before* localisation, **123 of the 134 glosses were identical** and eleven
+carried a real Québécois difference — *autobus*, *courriels*, *souper*, *fin de semaine*,
+*autos d'époque*, *virée en auto*, *compagnie*, *salle à dîner*, *chicaner sur … versus*,
+*Ça*, and the passé composé with *on* where France writes the passé simple with *nous*.
+Those eleven were written onto the **localised** French sentence rather than onto the old
+one, which is the whole trick: derive from the base as it is now, not as the pair last
+agreed. The `friendly` fields looked like twelve regional differences and were **two** —
+*pneumatic* and *garrulous* — the other ten being France's own rewrites that Canada had
+not had yet. **Take the diff apart before trusting its size.**
+
+**`pt_BR` is the third of these, and it found the flaw in the method.** 119 of the 134
+glosses were identical and fifteen were regional, in three kinds worth keeping apart —
+spelling the orthographic agreement moved (*facto*/*fato*, *prémio*/*prêmio*,
+*génio*/*gênio*), plain vocabulary (*autocarro*/*ônibus*, *travões*/*freios*,
+*equipa*/*time*, *duche*/*chuveiro*, *em linha*/*online*), and word order and register
+(*contou-nos*/*nos contou*, *toda a gente o sabe*/*todo mundo sabe disso*).
+
+**But a pair diff cannot see a word that was not there.** Localising Portugal put
+*eufónica*, *ingénua*, *parcimónia* and *abstémios* into sentences that had carried the
+English headword instead, and all four are spelled differently in Brazil — so the diff
+said "identical" about text that had not been written yet. What found them is the
+Brazilian generator's own replacement table **read as an oracle, both ways round**:
+Portugal text the rules would change but the overlay had not, and European-only spellings
+still standing in the Brazilian file. The second direction also turned up three that
+predate this work — *ingenuous* kept *ingénuo* in its `friendly` and its `definition`, and
+*panegyric* said *se reformava* where Brazil says *se aposentava*.
+
+All seven are rules in `_words_pt_BR.py` now rather than one-off edits, and
+`tool/gloss_local_pt_BR.json` is **generated by running Portugal's text through those same
+rules**, so the overlay and the generator agree by construction rather than by diligence.
+That is the shape to copy for the next pair.
 
 **Comparing the pair also found damage that was already in the store.** The `es_419`
 gloss for *ontic* read "los númerlo" where it should read "los números" — a word broken
@@ -490,7 +689,16 @@ in generation, not a regional form, and invisible to every check the suite has, 
 a mangled word is still a word. `text_quality_test.dart` catches a stray escape or an
 unclosed quotation; it cannot catch this. **Diffing two locales that ought to agree is a
 proofreading tool nobody had used**, and it is worth running over the other near-identical
-pairs.
+pairs. The same trick found "Mençant" for "Menaçant" in the French definition of
+*minatory*, and "à un fin de semaine" for "à une" in Canadian French.
+
+**And then it named the mechanism, which is the part worth keeping.** *los númerlo* is
+`("os tiene", "lo tiene")` — a vosotros-to-ustedes rule in `_words_es_419.py`, applied as a
+bare substring, firing inside "números tienen". **Spanish plurals end in -os constantly**,
+so five of those rules could have bitten the same way at any time, in any row, and the
+result would always be a real-looking word that no check can see. Both derived generators
+anchor their substitutions on a word boundary now (`re.sub(r'…')`), which changes
+exactly one field across the two locales — that one — and forecloses the rest.
 
 **How much a language has already borrowed decides how much work it is**, and that is
 not something to discover halfway through. *mathesis* and *imbroglio* are unchanged in
@@ -512,10 +720,11 @@ locale over one sentence: *clodpate* ends on `“`, because German closes a quot
 the character Dutch opens one with (`„…“` against `„…”`). The list of characters a sentence
 may end on had been written from English and Dutch habits, so it rejected correct German.
 It now also allows `。` and `！？` for Japanese and Chinese, `।॥` for Hindi, `۔؟` for Urdu and
-Arabic, and `։` for Armenian — each of which would have failed the same way. Worth
-expecting one of these per script family, and worth noticing that **the check failing is
-the tool working**: nothing was written, and the fault was in the rule rather than in the
-text.
+Arabic, `։` for Armenian, and — since Greek — the semicolon, because **Greek asks a question
+with `;`**. Each of those would have failed the same way. Worth expecting one of these per
+script family, and worth noticing that **the check failing is the tool working**: nothing
+was written, and the fault was in the rule rather than in the text. Five script families in,
+the rule has never once been right the first time and has never once been wrong twice.
 
 **Three traps for whoever does the next locale, and the second was found the hard way.**
 `emit_from_data.py` is the source of truth for the **37** locales that have a
@@ -532,10 +741,25 @@ was run over the five to bring them back into step; the overlays did not move, o
 generators. It rewrites only a file it can first reproduce byte for byte from its own
 contents, which is what keeps it away from `_words_es_419`, `_words_fr_CA` and
 `_words_pt_BR` — those derive their rows from a base locale by substitution rather than
-listing them. Two of those three are still worth a look before anyone runs the script:
-re-deriving would leave **es_419** differing from its shipped overlay in 11 rows (it was
-133 before the resync) and **fr_CA** in 122, because `fr` has had its glosses localised
-and `fr_CA` has not. `pt_BR` matches exactly.
+listing them.
+
+**All three of those are in step now, and getting there is a job the next pair will need
+too.** Re-deriving left **es_419** differing from its shipped overlay in 11 rows and
+**fr_CA** in 122, because their `_OVERRIDES` tables froze the example sentence as it stood
+before the base locale was localised — every override still carried the English headword,
+and `_words_es_419` still carried *los númerlo* after the overlay had been repaired.
+Rewriting each override from the overlay brings both to **0 rows**, and `pt_BR` cost
+another ten plus nine replacement rules once Portugal was localised. So: **after localising
+a base locale, re-derive its regional variant and diff, or the override table quietly
+holds the old text.** The check is four lines — import `_words_<locale>`, compare each row
+against `assets/l10n/words_<locale>.json` — and all ten generators are at 0 rows today.
+
+**A substitution that changes gender has to carry the article**, which is the same lesson
+`los númerlo` taught in a different costume, and both derived files had a live case of it.
+`("week-end", "fin de semaine")` gave Canadian French *à un fin de semaine*, and
+`("pequenos negócios", "pequenas empresas")` gave Brazilian *hostil aos pequenas empresas*
+— masculine articles left standing in front of feminine nouns, in shipped text. Both rules
+now carry the article in a longer pair placed ahead of the general one.
 
 And a word whose local form equals the English one still reaches `segmentTranslation`, so
 it is handed to the English voice inside a sentence that is otherwise local — true today
@@ -558,9 +782,11 @@ asked about one:
 | `partOfSpeech` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 | `origin` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 
-That is the measurement the work started from. Six locales on, it reads 7103, **590**,
-**128** and **3** — the six that had their sentences done have had their explanations done
-too, and `exampleGloss` has not moved because theirs was already clear.
+That is the measurement the work started from. Twenty-three locales on, the **bare** counts
+— a use, which is the bug — read **4877**, **322**, **19** and **2**; the totals the tool
+prints are higher because they count mentions too, and a mention is the fix rather than the
+fault. Every locale that has had its sentences done has had its explanations done in the
+same pass, which is why all four columns move together.
 
 **The two generated fields are clean and will stay clean**, which is the useful half of
 that table: a label written from a table cannot drift the way a sentence can, so the
@@ -583,13 +809,14 @@ to the heart of the matter" — and sixty translators carried it across faithful
 locale can be blamed for it, and the tool prints the English line beside the local one for
 that reason.
 
-**The same six are done — `nl`, `de`, `fr`, `es`, `es_419`, `it` — and 54 are not.** Ten
-`friendly` fields each, written out in `tool/gloss_local_<locale>.json` and put through the
-same checks as the sentences — `localize_gloss.py` carries three fields now (`glosses` →
-`exampleGloss`, `friendly`, `definitions` → `definition`) rather than one. It is the same
-ten words in all six, because the fault is inherited rather than invented, so a locale's
-worklist is `python tool/english_in_translation.py --locale <id>` and the answer is
-already known before you read it.
+**The same 23 are done, and the 37 generated locales are not.** Ten `friendly` fields each — eight in a
+Slavic locale, which had already translated *fain* and *fructify* — written out in
+`tool/gloss_local_<locale>.json` and put through the same checks as the sentences;
+`localize_gloss.py` carries three fields now (`glosses` → `exampleGloss`, `friendly`,
+`definitions` → `definition`) rather than one. It is the same ten words everywhere, because
+the fault is inherited rather than invented, so a locale's worklist is
+`python tool/english_in_translation.py --locale <id>` and the answer is already known
+before you read it.
 
 **Each of the six kept one word in English on purpose, and it is the same word.** *fain*
 is the archaic term the line exists to name, so it is quoted rather than translated —
@@ -614,12 +841,23 @@ same reason *los númerlo* was: a mangled word is still a word. It is in
 `tool/gloss_local_fr.json` under `definitions` now, so the repair is recorded where the
 next generation will read it.
 
-**`localize_gloss.py` had the English field named wrong for definitions.** `CARRIES` said
-`definition` where `tool/_en_words_src.json` calls it `def`, so the guard that requires a
-specimen quotation to survive translation read an empty string and could never fire on a
-definition. Nothing was wrong today — none of the seven specimens is in an English
-definition, which is why it went unnoticed — but the check was a decoration until the name
-was fixed.
+**Two files hold the English words and they do not use the same key**, which is worth
+knowing before "fixing" one against the other. `tool/_en_words_src.json` calls the field
+`def`; `assets/data/words.json` calls it `definition`. `gloss_english.english_forms()`
+reads the **shipped** file, so `localize_gloss.py`'s `CARRIES` is right to say
+`definition`, and a change to `def` silently empties the specimen guard instead of fixing
+it. It was changed and changed back on 2026-09-03. `_en_words_src.json` is the canonical
+source for repairing damaged English text — see *English word data* below — and is not
+what these tools read.
+
+**The tools could not print forty of the sixty.** A Windows console defaults to cp1252,
+which has no Polish l-stroke and no Cyrillic at all, so `english_in_translation.py --locale
+pl` raised `UnicodeEncodeError` and died **mid-report** — after printing the English line
+and before the local one, which is the half you need. It looked like a crash in the sweep
+and was the terminal. `_speak_utf8()` in that file and in `localize_gloss.py` reconfigures
+`stdout` to UTF-8 with `errors='replace'`, so a console that genuinely cannot draw a glyph
+prints a box instead of taking the tool down. Worth remembering as the first thing to check
+when a tool works for `nl` and dies for `ru`.
 
 **Only `friendly` and `definition` may carry a mention; an example sentence may not.**
 That is a rule in `localize_gloss.py` rather than a matter of taste: an explanation
@@ -1303,6 +1541,11 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-03 | `a71fff9` | Windows | 3.41.7 | clean | **334/334** | empty |
 | 2026-09-03 | `5e27617` | Windows | 3.41.7 | clean | **336/336** | empty |
 | 2026-09-03 | `80d816d` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `ae299ea` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `e0be7ad` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `a16c927` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `5309767` | Windows | 3.41.7 | clean | **347/347** | empty |
+| 2026-09-03 | `8a3be0c` | Windows | 3.41.7 | clean | **347/347** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
 334 to 336 to 347 across those commits; the number is a fact about the commit, not a
@@ -1323,13 +1566,32 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `1.0.0+18`, writing a **47.9 MB**
-bundle — `versionCode 18`, signed `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`,
-`INTERNET` and the `SENDTO` query both in the merged manifest. Six locales now read their
-example sentences wholly in their own language, and every word is handed to the voice as a
-word rather than as its syllables. The same 47.9 MB as `1.0.0+17`: six locales of rewritten
-sentences replace six locales of sentences, so a bundle cannot tell the difference. **Not
-uploaded** — the version code moves when it is.
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+20` (`2ebd435`), writing a
+**47.9 MB** bundle — `versionCode 20`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest, all 60 overlays and the Tangerine face inside it, and all 134 English
+words carrying their `ipa`. **Twenty-three locales** now read their example sentences and
+their explanations wholly in their own language — every locale `localize_gloss.py` can
+reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
+`words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
+
+**Still 47.9 MB, for the fourth version running.** That is worth knowing before going
+looking for what went wrong: rewritten sentences replace sentences of about the same length,
+so ten more locales of prose cannot move a bundle whose weight is fonts and engine.
+
+Before that, `flutter build appbundle --release` exited 0 on Windows at `1.0.0+19`, writing a **47.9 MB**
+bundle — `versionCode 19`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest. **Thirteen locales** now read their example sentences wholly in their
+own language, and their explanations too. Still 47.9 MB, for the third version running:
+rewritten sentences replace sentences of the same length, so a bundle cannot tell the
+difference — which is the useful thing to know about a change of this shape before you go
+looking for what went wrong.
+
+**`+18` was built at `5e27617` and never uploaded, and `+19` moved anyway** — asked for on
+2026-09-03. That is fine and worth writing down so the gap is not read as a lost build: the
+rule in this file is that a version code moves *at least* when a bundle is uploaded, not
+that it may never move otherwise. `18` is simply spent.
 
 Before that, `flutter build appbundle --release` exited 0 on Windows at `54ecdce` (`1.0.0+17`), writing a
 47.9 MB bundle — `versionCode 17`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the

@@ -77,13 +77,34 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import english_in_translation  # noqa: E402
 import gloss_english  # noqa: E402
 
+
+def _speak_utf8():
+    """Let the console print any of the sixty.
+
+    A Windows terminal defaults to cp1252, which has no Polish l-stroke and no
+    Cyrillic at all, so printing a worklist for `pl` or `ru` raised
+    UnicodeEncodeError and took the tool down mid-report - after the English
+    line and before the local one, which is the half that matters. Forty of the
+    sixty locales are outside cp1252, so this is most of them rather than an
+    edge. `errors='replace'` keeps a console that genuinely cannot draw a glyph
+    printing a box instead of dying.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding='utf-8', errors='replace')
+        except (AttributeError, ValueError):  # not a real console
+            pass
+
+
+_speak_utf8()
+
 # The map in `gloss_local_<locale>.json`, the overlay field it writes, and the
 # English field it answers to. `glosses` keeps its name because six locales
 # already carry one.
 CARRIES = (
     ('glosses', 'exampleGloss', 'example'),
     ('friendly', 'friendly', 'friendly'),
-    ('definitions', 'definition', 'def'),
+    ('definitions', 'definition', 'definition'),
 )
 
 # Where the local word does the work whatever the punctuation. See the note on
@@ -160,9 +181,12 @@ def _check(wid, field, text, english, forms, allowed, faults):
     # What counts as the end of a sentence, across sixty languages. German
     # closes a quotation with the character Dutch opens one with („…“ against
     # „…”), Japanese and Chinese end on 。, Hindi on ।, Urdu on ۔, Armenian
-    # on ։. A list built from English habits rejects correct text in half of
-    # them - which is how this first ran.
-    if text[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։':
+    # on ։, and Greek asks a question with a semicolon - ';', or the erotimatiko
+    # ';' that looks identical and is a different codepoint. A list built from
+    # English habits rejects correct text in half of them - which is how this
+    # first ran, and Greek is the fourth script family to need a character
+    # adding rather than a sentence changing.
+    if text[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։;;':
         faults.append('%s.%s: does not end on a full stop, it ends on %r'
                       % (wid, field, text[-1]))
 
