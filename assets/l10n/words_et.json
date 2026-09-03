@@ -4,7 +4,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Magustada või puhastada; eemaldada millegi karedus.",
       "friendly": "Võtta millegi torge või kibedus — sõna-sõnalt magustades või ülekantud tähenduses pehmendades karmi ideed, et see paremini alla läheks.",
-      "exampleGloss": "Toimetaja edulcorated karmi arvustuse enne, kui see trükki läks.",
+      "exampleGloss": "Toimetaja pehmendas karmi arvustuse enne, kui see trükki läks.",
       "origin": "ladina",
       "rootMeanings": [
         "välja, põhjalikult",
@@ -15,7 +15,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Liiga või teeseldult usklik või vaga.",
       "friendly": "Kirjeldab kedagi, kelle usuline pühendumus tundub näitemänguna — rohkem etendus kui ehtne usk.",
-      "exampleGloss": "Tema pietistic ohked jutluse ajal ärritasid ülejäänud pingirida.",
+      "exampleGloss": "Tema pietistlikud ohked jutluse ajal ärritasid ülejäänud pingirida.",
       "origin": "ladina",
       "rootMeanings": [
         "vagadus, kohusetunne",
@@ -26,7 +26,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Grammatilisest struktuurist tekkiv kahemõttelisus — lause, mida saab kahel moel lugeda.",
       "friendly": "Lause, mis on grammatiliselt korras, kuid mida saab lugeda kahel täiesti erineval moel, nagu \"I saw the man with the telescope.\"",
-      "exampleGloss": "\"Visiting relatives can be tiring\" on klassikaline amphiboly — kas sugulased on väsitavad või on väsitav neid külastada?",
+      "exampleGloss": "\"Visiting relatives can be tiring\" on klassikaline amfibolia — kas sugulased on väsitavad või on väsitav neid külastada?",
       "origin": "kreeka",
       "rootMeanings": [
         "mõlemad, mõlemalt poolt",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "omadussõna",
       "definition": "Terav, tabav, lõikab otse asja juurde.",
-      "friendly": "Lõikab otse täidise läbi — trenchant märkus või mõistus jõuab asja tuumani kiiresti, ilma tarbetute sõnadeta.",
-      "exampleGloss": "Tema trenchant kriitika ei jätnud filmi süžeelünkadele peidupaika.",
+      "friendly": "Lõikab otse täidise läbi — terav märkus või mõistus jõuab asja tuumani kiiresti, ilma tarbetute sõnadeta.",
+      "exampleGloss": "Tema terav kriitika ei jätnud filmi süžeelünkadele peidupaika.",
       "origin": "vanaprantsuse",
       "rootMeanings": [
         "lõikama",
@@ -48,7 +48,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Alles alguses; varajases või algelises staadiumis.",
       "friendly": "Ikka veel avamishetkedes — plaan, tunne või protsess, mis on alles hakanud kuju võtma.",
-      "exampleGloss": "Lepingu inchoative staadiumid olid paljulubavad, kuid paljud üksikasjad olid veel lahtised.",
+      "exampleGloss": "Lepingu algusjärgud olid paljulubavad, kuid paljud üksikasjad olid veel lahtised.",
       "origin": "ladina",
       "rootMeanings": [
         "alustama, käivitama",
@@ -59,7 +59,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Formaalne kõne või kirjutis, mis kedagi kõrgelt kiidab.",
       "friendly": "Täiemahuline, formaalne austusavaldus — mõtle säravale mälestuskõnele või kõnele, mis laulab kellegi saavutusi katustelt.",
-      "exampleGloss": "Lahkuv professor saadeti teele panegyric'iga oma lähimatelt üliõpilastelt.",
+      "exampleGloss": "Lahkuv professor saadeti teele kiidukõnega oma lähimatelt üliõpilastelt.",
       "origin": "kreeka",
       "rootMeanings": [
         "kõik",
@@ -70,7 +70,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Puudutab tegelikku olemasolu või faktilist olemist, vastandina abstraktsele teooriale.",
       "friendly": "Asjadest nii, nagu need tegelikult olemas on, mitte ainult ideede või teooriatena nende kohta.",
-      "exampleGloss": "Filosoofid vaidlevad, kas arvudel on mingi ontic staatus või eksisteerivad need ainult meie mõtetes.",
+      "exampleGloss": "Filosoofid vaidlevad, kas arvudel on mingi ontiline staatus või eksisteerivad need ainult meie mõtetes.",
       "origin": "kreeka",
       "rootMeanings": [
         "olemine, see mis on",
@@ -80,8 +80,8 @@
     "fructify": {
       "partOfSpeech": "tegusõna",
       "definition": "Kandma vilja või muutuma produktiivseks.",
-      "friendly": "Lõpuks vilja kandma — pingutus, idee või investeering, mis fructify, on kasvanud seemnest millekski kasulikuks.",
-      "exampleGloss": "Aastate vaikne uurimistöö fructified lõpuks toimivaks vaktsiiniks.",
+      "friendly": "Lõpuks vilja kandma — pingutus, idee või investeering, mis vilja kannab, on kasvanud seemnest millekski kasulikuks.",
+      "exampleGloss": "Aastate vaikne uurimistöö kandis lõpuks vilja: toimiva vaktsiini.",
       "origin": "ladina",
       "rootMeanings": [
         "vili",
@@ -92,7 +92,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Ennustab või kujutab midagi juba tehtuna enne, kui see tegelikult on juhtunud.",
       "friendly": "Jookseb ette kirjanduslikult — kirjeldab tulevast sündmust nii, nagu see oleks juba möödas, et punkt tabaks kõvemini.",
-      "exampleGloss": "Kindrali proleptical toost \"victory\"-le tõsteti terve nädal enne lahingut.",
+      "exampleGloss": "Kindrali ennetav toost \"võidule\" tõsteti terve nädal enne lahingut.",
       "origin": "kreeka",
       "rootMeanings": [
         "enne",
@@ -103,7 +103,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Õhurõhuga töötav; ka vaimu või hingamisega seotud.",
       "friendly": "Tähendab tavaliselt \"suruõhuga töötavat\" — kuigi see võib tähendada ka vaimu või hingamist.",
-      "exampleGloss": "Pneumatic pidurid sisisesid, kui buss äärekivi juurde peatus.",
+      "exampleGloss": "Pneumaatilised pidurid sisisesid, kui buss äärekivi juurde peatus.",
       "origin": "kreeka",
       "rootMeanings": [
         "tuul, hingamine, vaim",
@@ -114,7 +114,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Jumalat või jumalikku positiivsete väidetega kirjeldav — apofaatilise vastand.",
       "friendly": "Viis rääkida Jumalast öeldes, mis Jumal on — \"God is love\" — mitte ainult, mis Jumal ei ole.",
-      "exampleGloss": "Cataphatic teoloogia räägib kindlalt Jumalast kui armastavast, õiglasest ja halastavast.",
+      "exampleGloss": "Katafaatiline teoloogia räägib kindlalt Jumalast kui armastavast, õiglasest ja halastavast.",
       "origin": "kreeka",
       "rootMeanings": [
         "alla, vastavalt",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "omadussõna",
       "definition": "Usaldusel või usul põhinev; ka kindel võrdluspunkt.",
-      "friendly": "Midagi, mida võtad usaldusel ja kasutad siis ankruna — fiducial märk on kindel punkt, mille vastu kõike muud mõõdetakse.",
-      "exampleGloss": "Maamõõtjad panid fiducial markeri kaljupinda enne ala kaardistamist.",
+      "friendly": "Midagi, mida võtad usaldusel ja kasutad siis ankruna — võrdlusmärk on kindel punkt, mille vastu kõike muud mõõdetakse.",
+      "exampleGloss": "Maamõõtjad panid kindla võrdlusmärgi kaljupinda enne ala kaardistamist.",
       "origin": "ladina",
       "rootMeanings": [
         "usaldama",
@@ -136,7 +136,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Jumala headuse kaitse kurja olemasolu valguses.",
       "friendly": "Igivana katse vastata küsimusele \"If God is good, why does evil exist?\"",
-      "exampleGloss": "Tema väitekiri uuris theodicy't Iiobi raamatu kaudu.",
+      "exampleGloss": "Tema väitekiri uuris teodiiket Iiobi raamatu kaudu.",
       "origin": "kreeka",
       "rootMeanings": [
         "jumal",
@@ -147,7 +147,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Vastastikune teineteises elamine — teoloogiline termin selle kohta, kuidas Kolmainsuse isikud teineteises on.",
       "friendly": "Teoloogia sõna kolme-ühes-koosolemisele, mis on nii täielik, et iga osa sisaldab teisi ja sisaldub neis.",
-      "exampleGloss": "Circumincession'i õpetus püüab selgitada, kuidas Isa, Poeg ja Vaim on eraldi, ent lahutamatud.",
+      "exampleGloss": "Perikoreesi õpetus püüab selgitada, kuidas Isa, Poeg ja Vaim on eraldi, ent lahutamatud.",
       "origin": "ladina",
       "rootMeanings": [
         "ümber",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "tegusõna",
       "definition": "Omama tagajärge, mis kedagi kasu toob või temale tagasi peegeldub.",
-      "friendly": "Kui au (või süü) põrkab tagasi vastutajale — head teod, mis redound sinu mainele, tulevad tagasi sind premeerima.",
-      "exampleGloss": "Meeskonna edu hakkab redound tema vaikse, töökas treeneri auks.",
+      "friendly": "Kui au (või süü) põrkab tagasi vastutajale — head teod, mis tulevad sinu mainele kasuks, tulevad tagasi sind premeerima.",
+      "exampleGloss": "Meeskonna edu toob au tema vaiksele, usinale treenerile.",
       "origin": "ladina",
       "rootMeanings": [
         "tagasi, jälle",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "omadussõna",
       "definition": "Vältimatu; millest ei saa pääseda.",
-      "friendly": "Juhtub paratamatult, mida sa ka ei tee — ineluctable tulemusest ei lipsata välja.",
-      "exampleGloss": "Vanadus tuleb kõigile; see on lihtsalt ineluctable.",
+      "friendly": "Juhtub paratamatult, mida sa ka ei tee — vältimatust tulemusest ei lipsata välja.",
+      "exampleGloss": "Vanadus tuleb kõigile; see on lihtsalt vältimatu.",
       "origin": "ladina",
       "rootMeanings": [
         "ei",
@@ -180,7 +180,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Kasutab kaudset, sõnarikast sõnastust otsevormi asemel.",
       "friendly": "Pikk ringtee sõnadega — öelda \"make a decision\" selle asemel et öelda \"decide.\"",
-      "exampleGloss": "Tema periphrastic e-kirjad oleksid võinud ühe reaga öelda selle, milleks tal kulus kolm lõiku.",
+      "exampleGloss": "Tema ümberütlevad e-kirjad oleksid võinud ühe reaga öelda selle, milleks tal kulus kolm lõiku.",
       "origin": "kreeka",
       "rootMeanings": [
         "ümber",
@@ -191,7 +191,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Vaimne tuimus või letargia.",
       "friendly": "See udune, visav meeleseisund, milles mõtlemine tundub siirupis kahlamisena.",
-      "exampleGloss": "Hebetude'i laine tabas klassi kohe pärast lõunat.",
+      "exampleGloss": "Tuimuse laine tabas klassi kohe pärast lõunat.",
       "origin": "ladina",
       "rootMeanings": [
         "nüri, tömp",
@@ -202,7 +202,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Ebasoodne; ennustab halba.",
       "friendly": "Halb märk — olud või ajastus, mis tunduvad sinu vastu töötavat juba enne, kui oled alustanud.",
-      "exampleGloss": "Hall taevas ja surnud autoaku andsid road tripile unpropitious alguse.",
+      "exampleGloss": "Hall taevas ja surnud autoaku andsid teekonnale ebasoodsa alguse.",
       "origin": "ladina",
       "rootMeanings": [
         "ei",
@@ -213,7 +213,7 @@
       "partOfSpeech": "omadussõna / tegusõna",
       "definition": "Kastmes hautatud või braseeritud liha — õigesti kirjutatud \"fricasseed.\"",
       "friendly": "Kodusoojane vana toidutermin lihale, mis on tükkideks lõigatud ja aeglaselt oma kastmes pehmeks hautatud.",
-      "exampleGloss": "Vanaema fricasseed kana oli iga pühapäevase lõunasöögi kõrghetk.",
+      "exampleGloss": "Vanaema frikassee-kana oli iga pühapäevase lõunasöögi kõrghetk.",
       "origin": "prantsuse",
       "rootMeanings": [
         "praadima",
@@ -224,7 +224,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Kunstlik või kehvem asendaja.",
       "friendly": "Jäljend päris asja asemel — teeb töö tehniliselt ära, aga kõik näevad, et see pole ehtne kaup.",
-      "exampleGloss": "Sõjaaegsed ostjad leppisid röstitud sigurist keedetud ersatz-kohviga.",
+      "exampleGloss": "Sõjaaegsed ostjad leppisid röstitud sigurist keedetud aseainekohviga.",
       "origin": "saksa",
       "rootMeanings": [
         "välja, asendusliide",
@@ -235,7 +235,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Kohelda abstraktset ideed nii, nagu see oleks konkreetne asi.",
       "friendly": "Panna idee tunduma tegeliku ja kindlana — muuta udune asi, nagu \"the economy,\" millekski, millele saab osutada.",
-      "exampleGloss": "Rahva \"spirit\" nimetamine omaette olevuseks reifies midagi, mis on tegelikult lihtsalt miljonid üksikud valikud.",
+      "exampleGloss": "Rahva \"vaimu\" nimetamine omaette olevuseks esemestab midagi, mis on tegelikult lihtsalt miljonid üksikud valikud.",
       "origin": "ladina",
       "rootMeanings": [
         "asi",
@@ -246,7 +246,7 @@
       "partOfSpeech": "tegusõna (minevik)",
       "definition": "Põgenes või hoidis osavalt kõrvale.",
       "friendly": "Libises puhtalt minema — hiilis millestki, sageli kavalalt või napilt, olgu see tabamine, küsimus või vastus.",
-      "exampleGloss": "Vastus eluded teda tunde, kuni see äkki duši all klõpsatas.",
+      "exampleGloss": "Vastus libises tal käest tunde, kuni see äkki duši all klõpsatas.",
       "origin": "ladina",
       "rootMeanings": [
         "välja, minema",
@@ -257,7 +257,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Väljendab kahtlust, hämmingut või lahendamata vastuolu.",
       "friendly": "Kinni ehtsas mõtte umbteel — mitte laiskusest segaduses, vaid sest küsimus ise seisab puhta vastuse vastu.",
-      "exampleGloss": "Sokrates lõpetas dialoogid sageli aporetic toonil, rohkem küsimusi kui vastuseid.",
+      "exampleGloss": "Sokrates lõpetas dialoogid sageli aporeetilisel toonil, rohkem küsimusi kui vastuseid.",
       "origin": "kreeka",
       "rootMeanings": [
         "ilma",
@@ -268,7 +268,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kõnekujund, mis nimetab asja seostuva terminiga, nt \"the crown\" valitseja kohta.",
       "friendly": "Kasutada seostuvat sõna asja enda asemel — öelda \"the White House announced,\" kui mõeldakse valitsust.",
-      "exampleGloss": "\"Wall Street had a rough day\" on metonymy — see tähendab tegelikult börsi.",
+      "exampleGloss": "\"Wall Street had a rough day\" on metonüümia — see tähendab tegelikult börsi.",
       "origin": "kreeka",
       "rootMeanings": [
         "muutus, pärast",
@@ -279,7 +279,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Juuri järgi välja kiskuma; looduslikust keskkonnast rebima.",
       "friendly": "Kiskuda miski (või keegi) juuri järgi välja, eemale paigast või kultuurist, kuhu nad kuuluvad.",
-      "exampleGloss": "Sõda deracinated terve põlvkonna ja pillutas pered üle piiride.",
+      "exampleGloss": "Sõda juuris terve põlvkonna välja ja pillutas pered üle piiride.",
       "origin": "prantsuse / ladina",
       "rootMeanings": [
         "eemale, maha",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "omadussõna",
       "definition": "Meelepäraselt kõlav.",
-      "friendly": "Lihtsalt kena kuulata — euphonious sõna, nimi või lause veereb kõrvas pehmelt, peaaegu muusikaliselt.",
-      "exampleGloss": "\"Murmuring brook\" on euphonious väike fraas, pehme ja kerge öelda.",
+      "friendly": "Lihtsalt kena kuulata — kaunikõlaline sõna, nimi või lause veereb kõrvas pehmelt, peaaegu muusikaliselt.",
+      "exampleGloss": "\"Murmuring brook\" on kaunikõlaline väike fraas, pehme ja kerge öelda.",
       "origin": "kreeka",
       "rootMeanings": [
         "hea, hästi",
@@ -301,7 +301,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Üldiselt oletatud või arvatud olevat.",
       "friendly": "Laialt usutud tõeseks, isegi kui seda pole tegelikult tõestatud — millegi \"supposed\" versioon.",
-      "exampleGloss": "Kirja putative autor osutus hiljem täiesti võõraks.",
+      "exampleGloss": "Kirja oletatav autor osutus hiljem täiesti võõraks.",
       "origin": "ladina",
       "rootMeanings": [
         "mõtlema, pidama",
@@ -312,7 +312,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Värskelt loodud sõna või väljend.",
       "friendly": "Upouus sõna — just leiutatud, veel mitte (või vaevu) sõnaraamatus.",
-      "exampleGloss": "\"Doomscrolling\" algas neologism'ina ja sai kiiresti argikeeleks.",
+      "exampleGloss": "\"Doomscrolling\" algas uudissõnana ja sai kiiresti argikeeleks.",
       "origin": "kreeka",
       "rootMeanings": [
         "uus",
@@ -323,7 +323,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Vihane või pahur.",
       "friendly": "Halvas, ärritunud tujus — kiire plahvatama, nagu vanasti usuti, et põrn juhib iseloomu.",
-      "exampleGloss": "Ta tulistas splenetic vastuse e-kirjale sekunditega pärast selle lugemist.",
+      "exampleGloss": "Ta tulistas sapise vastuse e-kirjale sekunditega pärast selle lugemist.",
       "origin": "kreeka / ladina",
       "rootMeanings": [
         "põrn (viha asukoht)",
@@ -334,7 +334,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Kalduvus moraliseerida pompöösselt või teeseldult.",
       "friendly": "Armastab jagada väikeseid elutunde ennasttäis moel, nagu iga lause oleks õnneküpsis.",
-      "exampleGloss": "Tema sententious toost \"the true meaning of friendship\" pani kõik kella vaatama.",
+      "exampleGloss": "Tema moraliseeriv toost \"sõpruse tõelisest tähendusest\" pani kõik kella vaatama.",
       "origin": "ladina",
       "rootMeanings": [
         "arvamus, mõttetera",
@@ -345,7 +345,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Liiga jutukas, eriti tühiste asjade kohta.",
       "friendly": "Ei lakka lihtsalt rääkimast — jahvatab pisiasjadest kaua pärast seda, kui teistel teemad otsas.",
-      "exampleGloss": "Garrulous taksojuht rääkis kogu eluloo enne, kui olime lennujaamast lahkunud.",
+      "exampleGloss": "Jutukas taksojuht rääkis kogu eluloo enne, kui olime lennujaamast lahkunud.",
       "origin": "ladina",
       "rootMeanings": [
         "loba, jahvatus",
@@ -356,7 +356,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Rumalus, narrus.",
       "friendly": "Puhas rumalus — kommentaar või plaan nii tobe, et vaevu väärib tõsist vastust.",
-      "exampleGloss": "Plaani paljas fatuity sai selgeks hetkel, kui nad seda proovisid.",
+      "exampleGloss": "Plaani paljas rumalus sai selgeks hetkel, kui nad seda proovisid.",
       "origin": "ladina",
       "rootMeanings": [
         "rumal, tobe",
@@ -367,7 +367,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kõne lõpuosa, sageli kokkuvõttev.",
       "friendly": "Kõne suur lõpp — lõiguosa, kus kõneleja koondab kõik ja lööb punkti koju.",
-      "exampleGloss": "Peroration'i ajaks oli pool publikust juba jalul.",
+      "exampleGloss": "Lõppsõna ajaks oli pool publikust juba jalul.",
       "origin": "ladina",
       "rootMeanings": [
         "läbi, lõpuni",
@@ -378,7 +378,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Sama idee tarbetu kordamine teiste sõnadega.",
       "friendly": "Öelda sama kaks korda, lisamata midagi uut, nagu \"free gift\" või \"end result.\"",
-      "exampleGloss": "\"It is what it is\" on lemmik-tautology neil, kes väldivad päris seletust.",
+      "exampleGloss": "\"It is what it is\" on lemmiktautoloogia neil, kes väldivad päris seletust.",
       "origin": "kreeka",
       "rootMeanings": [
         "sama",
@@ -389,7 +389,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Väga väheste sõnade kasutamine; napisõnaline kõne.",
       "friendly": "Öelda palju vähesega — lühikese, otsekohese vastuse kunst, nime saanud Lakoonia kuulsalt napisõnalistelt spartalastelt.",
-      "exampleGloss": "\"Molon labe\" — \"come and take them\" — on ajaloo kuulsaim laconism.",
+      "exampleGloss": "\"Molon labe\" — \"tulge ja võtke\" — on ajaloo kuulsaim lakonism.",
       "origin": "kreeka",
       "rootMeanings": [
         "Lakoonia spartalane",
@@ -400,7 +400,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Lahjad, üli lihtsustatud ideed; algselt lahja toit või puder.",
       "friendly": "Õhuke, vesine mõtlemine — sisu nii lihtsustatud ja turvaline, et sellel pole vaimule toiteväärtust.",
-      "exampleGloss": "Poliitiku kõne oli peamiselt pabulum: ähmaste lubadustega, millest ei saanud kinni.",
+      "exampleGloss": "Poliitiku kõne oli peamiselt tühi jutt: ähmased lubadused, millest ei saanud kinni võtta.",
       "origin": "ladina",
       "rootMeanings": [
         "toitma",
@@ -411,7 +411,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Uinutav või uimasust tekitav.",
       "friendly": "Nii igav — või nii sõna-sõnalt uinutav — et teeb uniseks. Mõtle soojale piimale või kolmetunnisele eelarvekoosolekule.",
-      "exampleGloss": "Loengu soporific sumin pani poole toa silmi lahti hoidma võitlema.",
+      "exampleGloss": "Loengu uinutav sumin pani pooled toasolijad silmi lahti hoidmise nimel võitlema.",
       "origin": "ladina",
       "rootMeanings": [
         "sügav uni",
@@ -422,7 +422,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Liiga meelitav või õline kommetelt.",
       "friendly": "Nii siledalt võluv, et tundub libe — meelitus nii paksult peale, et rasva peaaegu tunned.",
-      "exampleGloss": "Unctuous müüja kiitis mu \"excellent taste\" enne iga juurdemüüki.",
+      "exampleGloss": "Lipitsev müüja kiitis mu \"suurepärast maitset\" enne iga juurdemüüki.",
       "origin": "ladina",
       "rootMeanings": [
         "võidma, õlitama",
@@ -433,7 +433,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Kiire vigu leidma, liiga kriitiline tühiste asjade suhtes.",
       "friendly": "Näägutav veani — tüüp, kes leiab probleemi kõiges, isegi kui see ei loe.",
-      "exampleGloss": "Tema captious märkused raportile keskendusid täielikult komadele.",
+      "exampleGloss": "Tema norivad märkused raportile keskendusid täielikult komadele.",
       "origin": "ladina",
       "rootMeanings": [
         "haarama, võtma",
@@ -444,7 +444,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Loiult, vaimselt või kehaliselt tegevusetu.",
       "friendly": "Aeglane ja poolunes, nagu karu talveunes — vaevu liigub, vaevu mõtleb.",
-      "exampleGloss": "Kontor vajus augustikuumuses torpid seisundisse.",
+      "exampleGloss": "Kontor vajus augustikuumuses tuimusse.",
       "origin": "ladina",
       "rootMeanings": [
         "olla tuim, olla loi",
@@ -455,7 +455,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kojamees või ametnik, kes juhtis keskaegset majapidamist.",
       "friendly": "Keskaja versioon personalijuhist — usaldusväärne ametnik, kes ajas isanda maja ja mõisa asju päevast päeva.",
-      "exampleGloss": "Lossi seneschal haldas kõike saagiarvestusest külaliste nimekirjani.",
+      "exampleGloss": "Lossi kojaülem haldas kõike saagiarvestusest külaliste nimekirjani.",
       "origin": "frangi / vanaprantsuse",
       "rootMeanings": [
         "vana, vanem",
@@ -466,7 +466,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Rääkida või kirjutada teemast pikalt.",
       "friendly": "Tõeliselt hoogu sisse saada teemal — rääkida või kirjutada ja katta see igast nurgast.",
-      "exampleGloss": "Küsi temalt vintage-autode kohta ja ta expatiate täistunni.",
+      "exampleGloss": "Küsi temalt vanade autode kohta ja ta laiutab teemal täistunni.",
       "origin": "ladina",
       "rootMeanings": [
         "välja",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "omadussõna",
       "definition": "Väärtusetu, tühine; ka kehtetu või mõjutu.",
-      "friendly": "Praktiliselt mitte midagi väärt — nugatory lepingupunkt on selline, mis tegelikult midagi ei tee.",
-      "exampleGloss": "Kohus kuulutas vana määruse nugatory, kuna seda polnud kunagi jõustatud.",
+      "friendly": "Praktiliselt mitte midagi väärt — tühine lepingupunkt on selline, mis tegelikult midagi ei tee.",
+      "exampleGloss": "Kohus kuulutas vana määruse tühiseks, kuna seda polnud kunagi jõustatud.",
       "origin": "ladina",
       "rootMeanings": [
         "pisiasjad, jama",
@@ -488,7 +488,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Tarkus, terav otsustusvõime.",
       "friendly": "Terav, praktiline tarkus — selline hea otsustus, mis tuleb kogemusest, mitte ainult raamatutest.",
-      "exampleGloss": "Vana kapteni sagacity hoidis meeskonna hädas rohkem kui korra.",
+      "exampleGloss": "Vana kapteni arukus hoidis meeskonna hädast eemal rohkem kui korra.",
       "origin": "ladina",
       "rootMeanings": [
         "teravahaisteline, terav",
@@ -499,7 +499,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Rämps või massid, põlglikult kasutatuna.",
       "friendly": "Upsakas, tõrjuv sõna \"the rabble\" või lihtrahva kohta, kasutatud põlgusega.",
-      "exampleGloss": "Krahv irvitas canaille peale, kes kogunes palee väravate taha.",
+      "exampleGloss": "Krahv irvitas pööbli peale, kes kogunes palee väravate taha.",
       "origin": "itaalia / prantsuse",
       "rootMeanings": [
         "koer",
@@ -510,7 +510,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Üleolev, alandav kohtlemine või keel.",
       "friendly": "Julm, pilkav kohtlemine, mille eesmärk on alandada — selline solvang, mis on tehtud kipitama.",
-      "exampleGloss": "Ta talus aastate contumely kriitikutelt, enne kui tema töö lõpuks tunnustati.",
+      "exampleGloss": "Ta talus aastate teotust kriitikutelt, enne kui tema töö lõpuks tunnustati.",
       "origin": "ladina",
       "rootMeanings": [
         "koos, põhjalikult",
@@ -521,7 +521,7 @@
       "partOfSpeech": "määrsõna",
       "definition": "Kahtlustavalt või taunivalt; kõõrdi pilk.",
       "friendly": "See kõõrdi pilk, mille annad millelegi, mida sa päris ei usalda — pilk täis kahtlust.",
-      "exampleGloss": "Õpetaja vaatas askance kahtlaselt korralikku kodutööd.",
+      "exampleGloss": "Õpetaja vaatas viltu kahtlaselt korralikku kodutööd.",
       "origin": "ebakindel / itaalia",
       "rootMeanings": [
         "poole, juurde",
@@ -532,7 +532,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Rumal inimene; puupea.",
       "friendly": "Vanamoodne, peaaegu hell solvang kellelegi, kes on aeglane või pakspealine — puupea.",
-      "exampleGloss": "\"You clodpate,\" naeris ta, \"you've had the map upside down the whole time.\"",
+      "exampleGloss": "\"Sa tainapea,\" naeris ta, \"sul on kaart kogu aeg tagurpidi olnud.\"",
       "origin": "inglise",
       "rootMeanings": [
         "mullakamakas",
@@ -543,7 +543,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Panema liikvele või teole; motiveerida.",
       "friendly": "Olla säde, mis paneb midagi liikuma — olgu see masin, mis käivitub, või inimene, kes lõpuks idee järgi tegutseb.",
-      "exampleGloss": "Hirm lepingu kaotamise ees actuated kogu meeskonna nädalavahetuse ületunnile.",
+      "exampleGloss": "Hirm lepingu kaotamise ees ajendas kogu meeskonna nädalavahetuse ületunnile.",
       "origin": "ladina",
       "rootMeanings": [
         "tegemine, ajamine",
@@ -554,7 +554,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Hoolde usaldatud vahendite omastamine.",
       "friendly": "Varastada vaikselt raha, mille hooleks sind usaldati — omastamine vanamoodsas mantlis.",
-      "exampleGloss": "Kassiiri peculation jäi peaaegu kümnendiks märkamata.",
+      "exampleGloss": "Kassiiri omastamine jäi peaaegu kümnendiks märkamata.",
       "origin": "ladina",
       "rootMeanings": [
         "eraomand",
@@ -565,7 +565,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Rühm, keda peetakse auväärse seltskonna äärel.",
       "friendly": "Hiilgav, ent hämar sotsiaalne allilm — inimesed, kes elavad napilt \"respectable\" seltskonna reeglite väljaspool.",
-      "exampleGloss": "Romaan jälgib lauljannat, kes navigeerib 1920. aastate kabareede demi-monde'is.",
+      "exampleGloss": "Romaan jälgib lauljannat, kes navigeerib 1920. aastate kabareede poolilmas.",
       "origin": "prantsuse",
       "rootMeanings": [
         "pool",
@@ -576,7 +576,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Veel olemas; mitte välja surnud või hävitatud.",
       "friendly": "Veel täna siin — kasutatakse vanade asjade (käsikirjad, liigid, hooned) kohta, mis on suutnud ellu jääda.",
-      "exampleGloss": "Ainult kolm extant eksemplari esmatrükist on teadaolevalt olemas.",
+      "exampleGloss": "Ainult kolm säilinud eksemplari esmatrükist on teadaolevalt olemas.",
       "origin": "ladina",
       "rootMeanings": [
         "välja",
@@ -587,7 +587,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Petlikkus; usalduse reetmine.",
       "friendly": "Sügav, tahtlik reetmine — usalduse murdmine, mida teine võis oodata, et sa hoiad.",
-      "exampleGloss": "Kindral ei andnud kunagi andeks vana sõbra perfidy't läbirääkimiste laua taga.",
+      "exampleGloss": "Kindral ei andnud kunagi andeks vana sõbra reetlikkust läbirääkimiste laua taga.",
       "origin": "ladina",
       "rootMeanings": [
         "läbi, vastu",
@@ -598,7 +598,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Piirkondlik murre, eriti mittestandardne.",
       "friendly": "Eripärane, kohalik viis, kuidas inimesed teatud kandis räägivad — täis sõnu ja rütme, mida võõras ei pruugi tabada.",
-      "exampleGloss": "Tema vanaema rääkis veel saare patois'i peresöögil.",
+      "exampleGloss": "Tema vanaema rääkis veel saare murrakut peresöögil.",
       "origin": "prantsuse",
       "rootMeanings": [
         "kare kõne, murre",
@@ -609,7 +609,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Eriline õigus, mis kuulub isikule või rühmale.",
       "friendly": "Eesõigus, mis on sinu ja ainult sinu — õigus, mis tuleb sinu rolli, positsiooni või staatusega.",
-      "exampleGloss": "Pere puhkusesihtkoha valimine on vanaisa prerogative ja kõik teavad seda.",
+      "exampleGloss": "Pere puhkusesihtkoha valimine on vanaisa eesõigus ja kõik teavad seda.",
       "origin": "ladina",
       "rootMeanings": [
         "enne",
@@ -620,7 +620,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Julgus, uljus; ka sitkus või vastupidavus.",
       "friendly": "Kare, sisukas vastupidavus — närvi edasi minna ja sitkust jätkata, kui kord alustad.",
-      "exampleGloss": "Päris hardihood'd oli vaja kuru ületamiseks lumetormis ilma kaardita.",
+      "exampleGloss": "Päris vaprust oli vaja kuru ületamiseks lumetormis ilma kaardita.",
       "origin": "vanaprantsuse / inglise",
       "rootMeanings": [
         "julge, karastunud",
@@ -631,7 +631,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Puhkema õide; ka arenema või tasapisi ilmuma.",
       "friendly": "Avada täielikuks väljenduseks — nagu lill, mis avaneb, või idee, mis lõpuks omaks saab.",
-      "exampleGloss": "Tema vaikne maalimisanne effloresced, kui ta sai oma ateljee.",
+      "exampleGloss": "Tema vaikne maalimisanne puhkes õide, kui ta sai oma ateljee.",
       "origin": "ladina",
       "rootMeanings": [
         "välja",
@@ -642,7 +642,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kaaluga nöör püstloodisuse määramiseks; ülekantult, otsustuse mõõdupuu.",
       "friendly": "Kaal nööril, mis ripub täiesti sirgelt alla — sellega kontrollitakse, kas miski on tõeliselt püstloodis — ja laiemalt iga kindel mõõdupuu, millega kõike muud mõõdetakse.",
-      "exampleGloss": "Ta kasutas oma vanaisa ausust omamoodi plumb-line'ina iga otsuse juures.",
+      "exampleGloss": "Ta kasutas oma vanaisa ausust omamoodi loodijoonena iga otsuse juures.",
       "origin": "ladina / inglise",
       "rootMeanings": [
         "tina",
@@ -653,7 +653,7 @@
       "partOfSpeech": "määrsõna",
       "definition": "Meelsasti, vabatahtlikult (vanamoodne).",
       "friendly": "Vanamoodne viis öelda \"gladly\" või \"with pleasure.\"",
-      "exampleGloss": "\"I would fain rest here a while,\" ohkas rändur.",
+      "exampleGloss": "\"Puhkaksin siin meelsasti veidi,\" ohkas rändur.",
       "origin": "vanainglise",
       "rootMeanings": [
         "rõõmus, rõõmus",
@@ -664,7 +664,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Karm avalik kriitika või häbi.",
       "friendly": "Avalik häbi, mida kuhjatakse kellegi peale nähtavalt — häbi, mis tuleb laialdasest taunimisest.",
-      "exampleGloss": "Skandaal tõi avaliku opprobrium'i kogu firma peale.",
+      "exampleGloss": "Skandaal tõi avaliku häbi kogu firma peale.",
       "origin": "ladina",
       "rootMeanings": [
         "vastu",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "omadussõna",
       "definition": "Teravalt sarkastiline, salvav vaimukuses või kriitikas.",
-      "friendly": "Vaimukus, millel on päris hambad — mordant märkus kipitab just seetõttu, et see on nii tabavalt sihitud.",
-      "exampleGloss": "Tema mordant filmiaarvustusi kartsid režissöörid ja armastasid lugejad.",
+      "friendly": "Vaimukus, millel on päris hambad — söövitav märkus kipitab just seetõttu, et see on nii tabavalt sihitud.",
+      "exampleGloss": "Tema söövitavaid filmiarvustusi kartsid režissöörid ja armastasid lugejad.",
       "origin": "ladina / prantsuse",
       "rootMeanings": [
         "hammustama",
@@ -686,7 +686,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Formaalne kuulutus, sageli poliitiline või sõjaline.",
       "friendly": "Suur, ametlik teadaanne — tavaliselt selline, mis kuulutab uue valitsuse, ülestõusu või tähtsa dekreedi.",
-      "exampleGloss": "Kindrali pronunciamento kuulutas uue valitsuse koidikul.",
+      "exampleGloss": "Kindrali manifest kuulutas uue valitsuse koidikul.",
       "origin": "hispaania",
       "rootMeanings": [
         "ette",
@@ -697,7 +697,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Isik pealiskaudsete teadmistega, kes teeskleb asjatundjat.",
       "friendly": "Keegi, kes on teema pinna üle libistanud ja räägib siis, nagu oleks kirjutanud selle õpiku.",
-      "exampleGloss": "Õhtusöögi sciolist parandas enesekindlalt laua päris astrofüüsikut.",
+      "exampleGloss": "Õhtusöögi poolharitlane parandas enesekindlalt laua päris astrofüüsikut.",
       "origin": "ladina",
       "rootMeanings": [
         "teadma",
@@ -708,7 +708,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Vaimsete võimete langus vanaduses.",
       "friendly": "Udune, unustav lõik kõrges eas, kui mee teravus hakkab tuhmuma.",
-      "exampleGloss": "Oma dotage'is rääkis ta samu kolme lugu igal külastusel, iga kord nagu uut.",
+      "exampleGloss": "Oma raugaeas rääkis ta samu kolme lugu igal külastusel, iga kord nagu uut.",
       "origin": "keskinglise",
       "rootMeanings": [
         "johmima, olla rumal",
@@ -719,7 +719,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Tuule eest varjatud külg.",
       "friendly": "Millegi rahulik, varjatud külg — künka, laeva, müüri — kus tuul sind päris kätte ei saa.",
-      "exampleGloss": "Matkajad püstitasid telgi harja lee-side'ile, et pääseda iilidest.",
+      "exampleGloss": "Matkajad püstitasid telgi harja tuulevarju, et pääseda iilidest.",
       "origin": "vanainglise",
       "rootMeanings": [
         "varjupaik, kaitse",
@@ -730,7 +730,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Tõrjuda löök, küsimus või argument.",
       "friendly": "Lüüa midagi sujuvalt kõrvale — mõõgalöök, piinlik küsimus või süüdistus — rütmi kaotamata.",
-      "exampleGloss": "Ta parried ajakirjaniku kiusliku küsimuse kerge naljaga.",
+      "exampleGloss": "Ta tõrjus ajakirjaniku kiusliku küsimuse kerge naljaga.",
       "origin": "prantsuse",
       "rootMeanings": [
         "tõrjuma",
@@ -741,7 +741,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Haistev, kahjulik.",
       "friendly": "Haiseb peaaegu mürgiselt — hais nii halb, et hingamine tundub ohtlik.",
-      "exampleGloss": "Mephitic lõhn tõusis soost, kui päike loojus.",
+      "exampleGloss": "Haisev lõhn tõusis soost, kui päike loojus.",
       "origin": "ladina",
       "rootMeanings": [
         "kahjulik aur",
@@ -752,7 +752,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Isik, kes on pühendunud luksusele ja naudingule.",
       "friendly": "Keegi, kes elab mugavuse ja naudingute pärast — hea toit, pehmed voodid, kerge elu — nime saanud antiikse kreeka linna Sybarise järgi, mis oli kuulus ülekülluse poolest.",
-      "exampleGloss": "Tõeline sybarite, ta keeldus igast hotellitoast ilma vannita.",
+      "exampleGloss": "Tõeline sübariit, ta keeldus igast hotellitoast ilma vannita.",
       "origin": "kreeka",
       "rootMeanings": [
         "antiikne kreeka linn, kuulus luksuse poolest",
@@ -763,7 +763,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Jätta meelega osa millestki kõrvale.",
       "friendly": "Panna pusletükk meelega kõrvale, et saaksid puhtalt ülejäänule keskenduda.",
-      "exampleGloss": "Prescind kulust hetkeks ja küsime vaid, kas plaan tegelikult töötab.",
+      "exampleGloss": "Jätame kulu hetkeks kõrvale ja küsime vaid, kas plaan tegelikult töötab.",
       "origin": "ladina",
       "rootMeanings": [
         "enne, eemale",
@@ -774,7 +774,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Kritiseerida karmilt; ka nahka maha kiskuda.",
       "friendly": "Kiskuda keegi karmis kriitikas tükkideks — sõnadega, nagu nülgiksid naha sõna-sõnalt.",
-      "exampleGloss": "Kriitikud excoriated järje, sest see reetis kõik, mida fännid originaalis armastasid.",
+      "exampleGloss": "Kriitikud tegid järjega maatasa, sest see reetis kõik, mida fännid originaalis armastasid.",
       "origin": "ladina",
       "rootMeanings": [
         "maha",
@@ -785,7 +785,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Tsiteerida tõendina või tõestuseks.",
       "friendly": "Tuua esile fakt või näide oma punkti toetuseks — see, millele osutad, kui keegi küsib \"what's your evidence?\"",
-      "exampleGloss": "Advokaat adduced kolm tunnistajat kliendi alibi toetuseks.",
+      "exampleGloss": "Advokaat esitas kolm tunnistajat kliendi alibi toetuseks.",
       "origin": "ladina",
       "rootMeanings": [
         "juurde, poole",
@@ -796,7 +796,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Rännakud või uitamised, eriti pikad või ulatuslikud.",
       "friendly": "Pikad, uitavad teekonnad — selline ulatuslik rändamine, mis viib sind kauaks kodust kaugele.",
-      "exampleGloss": "Tema peregrinations üle kolme mandri täitsid terve riiuli reisikirju.",
+      "exampleGloss": "Tema rännakud üle kolme mandri täitsid terve riiuli reisikirju.",
       "origin": "ladina",
       "rootMeanings": [
         "läbi",
@@ -807,7 +807,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kerjus või almustel elav.",
       "friendly": "Keegi, kes elab heategevust paludes — ajalooliselt kirjeldas see ka munki, kes andsid vaesustõotuse ja elasid annetustest.",
-      "exampleGloss": "Mendicant vennad ei omanud midagi ja toetusid täielikult külaelanike headusele.",
+      "exampleGloss": "Kerjusvennad ei omanud midagi ja toetusid täielikult külaelanike headusele.",
       "origin": "ladina",
       "rootMeanings": [
         "kerjama",
@@ -818,7 +818,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Äärmiselt helde.",
       "friendly": "Helde suurel, peaaegu uhkeldaval skaalal — selline kingitus, mis paneb inimesi natuke ahmima.",
-      "exampleGloss": "Munificent annetus rahastas kogu raamatukogu uue tiiva.",
+      "exampleGloss": "Helde annetus rahastas kogu raamatukogu uue tiiva.",
       "origin": "ladina",
       "rootMeanings": [
         "kingitus, teenus",
@@ -829,7 +829,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kurnatus toidu puudusest; ka elujõu puudus.",
       "friendly": "Nõrk, tühi seisund sellest, et pole toidetud ega kütust saanud — sõna-sõnalt näljast või ülekantult sellest, et pole enam millegagi sõita.",
-      "exampleGloss": "Piiramise lõpuks olid sõdurid inanition'i lähedal.",
+      "exampleGloss": "Piiramise lõpuks olid sõdurid kurnatuse äärel.",
       "origin": "ladina",
       "rootMeanings": [
         "tühi, tühjus",
@@ -840,7 +840,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kibe, teotav kriitika.",
       "friendly": "Kriitika, mis on ammu õiglasest mööda läinud ja muutunud vihaseks, kibedaks purskeks.",
-      "exampleGloss": "Võrgukommentaarid lagunesid minutitega puhtaks vituperation'iks.",
+      "exampleGloss": "Võrgukommentaarid lagunesid minutitega puhtaks sõimuks.",
       "origin": "ladina",
       "rootMeanings": [
         "viga",
@@ -851,7 +851,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Vaenulik, kahjulik mõjult.",
       "friendly": "Töötab sinu vastu, ehkki vaikselt — olud või hoiakud, mis on ebasõbralikud sinu huvidele.",
-      "exampleGloss": "Uus poliitika oli inimical väikeettevõtetele, ehkki see ei olnud kavatsus.",
+      "exampleGloss": "Uus poliitika oli väikeettevõtetele vaenulik, ehkki see ei olnud kavatsus.",
       "origin": "ladina",
       "rootMeanings": [
         "ei",
@@ -862,7 +862,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Omav tekitama vimma või rahulolematust, sageli ebaõiglaste võrdluste kaudu.",
       "friendly": "Määratud panema kedagi tundma end kõrvalejäetuna — tavaliselt sest see paneb inimesi või asju ebaõiglaselt vastamisi.",
-      "exampleGloss": "Õdede-vendade reastamine \"who Mom loves best\" järgi on invidious mäng, mida keegi ei peaks mängima.",
+      "exampleGloss": "Õdede-vendade reastamine selle järgi, \"keda ema kõige rohkem armastab\", on solvav mäng, mida keegi ei peaks mängima.",
       "origin": "ladina",
       "rootMeanings": [
         "kadedus",
@@ -873,7 +873,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Madalama auastme või staatusega isik; alluv.",
       "friendly": "Keegi allpool käsu- või sotsiaalsel redelil — noorem, kes töötab mõjuvõimsama all.",
-      "exampleGloss": "Noore subaltern'ina võttis ta käske kaua enne, kui ta neid kunagi andis.",
+      "exampleGloss": "Noore nooremohvitserina võttis ta käske kaua vastu, enne kui ta neid ise andis.",
       "origin": "ladina",
       "rootMeanings": [
         "all",
@@ -884,7 +884,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Tunda või väljendada tugevat viha millegi vastu.",
       "friendly": "Jälestada midagi nii, et sa needad selle valjusti — puhas, häälekas jälestus.",
-      "exampleGloss": "Külaelanikud execrated maksukogujat iga kord, kui tema vanker külast läbi veeres.",
+      "exampleGloss": "Külaelanikud needsid maksukogujat iga kord, kui tema vanker külast läbi veeres.",
       "origin": "ladina",
       "rootMeanings": [
         "välja",
@@ -895,7 +895,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Looduslik välimine kate, nagu nahk või koor.",
       "friendly": "Looduse enda kaitsv ümbris — nahk, koor, kaun või koorik, mis iganes katab ja kaitseb elavat.",
-      "exampleGloss": "Kilpkonna koorik on tähelepanuväärselt visa integument.",
+      "exampleGloss": "Kilpkonna koorik on tähelepanuväärselt visa kattekiht.",
       "origin": "ladina",
       "rootMeanings": [
         "peal, üle",
@@ -906,7 +906,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Süütu, naiivne, lapselikku lihtsust näitav; \"disingenuous\" vastand.",
       "friendly": "Avameelselt usaldav ja veidi naiivne, ilma varjatud agendata — kerge segi ajada \"ingenious\"-ga, mis tähendab nutikat.",
-      "exampleGloss": "Tema ingenuous küsimus — \"why would anyone lie about that?\" — näitas, kui vähe kavalust tal oli.",
+      "exampleGloss": "Tema siiras küsimus — \"miks peaks keegi selle kohta valetama?\" — näitas, kui vähe kavalust tal oli.",
       "origin": "ladina",
       "rootMeanings": [
         "sees, pärismaine",
@@ -917,7 +917,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Liigne mure pisidetailide või reeglite pärast.",
       "friendly": "Eksimine väikestesse reeglitesse ja suure pildi kaotamine — klammerdumine peenes kirjas, millest keegi teine ei hooli.",
-      "exampleGloss": "Tema pedantry Oxfordi komade üle rööbastelt kogu koosoleku.",
+      "exampleGloss": "Tema pedantsus Oxfordi komade üle viis kogu koosoleku rööbastelt välja.",
       "origin": "itaalia / ladina",
       "rootMeanings": [
         "laste õpetaja",
@@ -928,7 +928,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Põhjalik, hoolikas uurimine.",
       "friendly": "Sügav, ühtki kivi pööramata vaade millelegi — iga üksikasja läbimine tõelise hoolega.",
-      "exampleGloss": "Alles hoolika perscrutation'i järel kerkis pearaamatutest kõrvalekalle.",
+      "exampleGloss": "Alles hoolika läbivaatuse järel kerkis pearaamatutest kõrvalekalle.",
       "origin": "ladina",
       "rootMeanings": [
         "läbi, põhjalikult",
@@ -939,7 +939,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Esitada vastuväiteid; näidata vastumeelsust.",
       "friendly": "Viisakalt tagasi astuda või kõhkleda, selle asemel et kohe kaasa minna — pehme \"I'd rather not.\"",
-      "exampleGloss": "Kui teda paluti allkirjastada lugemata, demurred ta.",
+      "exampleGloss": "Kui teda paluti allkirjastada lugemata, tõrkus ta.",
       "origin": "ladina / prantsuse",
       "rootMeanings": [
         "eemale, ära",
@@ -950,7 +950,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Pealiskaudselt usutav, kuid tegelikult vale.",
       "friendly": "Kõlab veenvalt esimesel pilgul, kuid laguneb kohe, kui sa selle tegelikult üle vaatad.",
-      "exampleGloss": "\"Everyone's doing it\" on specious argument, mis ei pea kontrollile vastu.",
+      "exampleGloss": "\"Everyone's doing it\" on näiliselt veenev argument, mis ei pea kontrollile vastu.",
       "origin": "ladina",
       "rootMeanings": [
         "välimus, ilme",
@@ -961,7 +961,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Ebasiiras, silmakirjalik jutt, sageli moraliseeriv.",
       "friendly": "Jutlustav jutt, mis kõlab vooruslikult, kuid mida ei toeta ükski ehtne tunne — moraalne poseerimine autopiloodil.",
-      "exampleGloss": "Ta oli väsinud ettevõtte cant'ist \"family\" kohta firmalt, kes ei andnud kunagi vaba aega.",
+      "exampleGloss": "Ta oli väsinud ettevõtte tühjast jutust \"perekonnast\" firmalt, kes ei andnud kunagi vaba aega.",
       "origin": "ladina",
       "rootMeanings": [
         "laulma (hiljem: laulev släng)",
@@ -972,7 +972,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Julguseta, argpüks.",
       "friendly": "Arg selgrootuseni — liiga hirmul, et seista isegi siis, kui see selgelt loeb.",
-      "exampleGloss": "Nõukogu pusillanimous vaikus laskis skandaalil käest minna.",
+      "exampleGloss": "Nõukogu argpükslik vaikus laskis skandaalil käest minna.",
       "origin": "ladina",
       "rootMeanings": [
         "väga väike",
@@ -983,7 +983,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Rebase moodi; kaval, salakaval.",
       "friendly": "Kaval ja nutikas nagu rebane — kiire mõistusega, veidi salalik, alati sammu ees.",
-      "exampleGloss": "Ta naeratas vulpine naeratuse hetkel, kui ta augu märkas.",
+      "exampleGloss": "Ta naeratas rebaseliku naeratuse hetkel, kui ta augu märkas.",
       "origin": "ladina",
       "rootMeanings": [
         "rebane",
@@ -994,7 +994,7 @@
       "partOfSpeech": "määrsõna",
       "definition": "Ükshaaval, järjekorras.",
       "friendly": "Võetud rangelt ükshaaval, järjekorras — ei hüpata ette, ei kaht korraga.",
-      "exampleGloss": "Kohtunik käsitles iga kaheteistkümnest nõudest seriatim.",
+      "exampleGloss": "Kohtunik käsitles iga kahtteistkümnest nõudest ükshaaval.",
       "origin": "ladina",
       "rootMeanings": [
         "rida, jada",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Äärmuslik kokkuhoidlikkus; kitsidus.",
       "friendly": "Kitsas raha (või sõnade või ressursside) suhtes kaua mõistliku kokkuhoiu mööda.",
-      "exampleGloss": "Tema parsimony oli legendaarne — ta kasutas teekotte kolm korda.",
+      "exampleGloss": "Tema ihnus oli legendaarne — ta kasutas teekotte kolm korda.",
       "origin": "ladina",
       "rootMeanings": [
         "säästma, olla kokkuhoidlik",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Parandus, eriti tekstis.",
       "friendly": "Parandus kirjutises — õpetatud kohandus, mis parandab vea vanas või tähtsas tekstis.",
-      "exampleGloss": "Uus väljaanne sisaldab kümneid emendations originaalkäsikirja.",
+      "exampleGloss": "Uus väljaanne sisaldab kümneid parandusi originaalkäsikirjas.",
       "origin": "ladina",
       "rootMeanings": [
         "välja",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Mõõdukas söömises ja joomises.",
       "friendly": "Teadlikult tagasihoidlik toidu ja joogi suhtes — mitte kunagi liiga, alati natuke taldrikule jäetud.",
-      "exampleGloss": "Tema abstemious harjumused hoidsid teda teravana kaua pärast seda, kui eakaaslased olid aeglustunud.",
+      "exampleGloss": "Tema karsked harjumused hoidsid teda teravana kaua pärast seda, kui eakaaslased olid aeglustunud.",
       "origin": "ladina",
       "rootMeanings": [
         "eemale millestki",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Grammatikaviga või etiketi rikkumine.",
       "friendly": "Komistus grammatikas või kommetes — selline väike viga, mis paneb näägutaja irvitama.",
-      "exampleGloss": "\"Between you and I\" on tavaline solecism, mis paneb grammatikuid ikka võpatama.",
+      "exampleGloss": "\"Between you and I\" on tavaline keeleviga, mis paneb grammatikuid ikka võpatama.",
       "origin": "kreeka",
       "rootMeanings": [
         "Kiliikia linn, tuntud 'halva' kreeka poolest",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Puudutab rühmasisest konflikti; vastastikku hävitav.",
       "friendly": "Sisemine rii, mis rebib rühma seestpoolt — võitlus, milles kõik kaotavad, sest see on pere pere vastu.",
-      "exampleGloss": "Partei internecine kisma tegi rohkem kahju, kui ükski väline vastane oleks suutnud.",
+      "exampleGloss": "Partei omavaheline kisma tegi rohkem kahju, kui ükski väline vastane oleks suutnud.",
       "origin": "ladina",
       "rootMeanings": [
         "vahel, seas",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "omadussõna / nimisõna",
       "definition": "Ükskõikne, hooletu suhtumine.",
       "friendly": "Õlga kehitus, millest on tehtud terve isiksus — hoolida nii vähe asjadest, mis enne loeti, et miski ei tundu enam vaeva väärt.",
-      "exampleGloss": "Tema pococurante suhtumine auhinnatseremooniasse üllatas kõiki, kes teadsid, kui kõvasti ta oli tööd teinud.",
+      "exampleGloss": "Tema ükskõikne suhtumine auhinnatseremooniasse üllatas kõiki, kes teadsid, kui kõvasti ta oli tööd teinud.",
       "origin": "itaalia",
       "rootMeanings": [
         "natuke",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Segane, keeruline olukord või vaidlus.",
       "friendly": "Sassis, räpane olukord, millest on raske sotti saada — osalt vääritimõistmine, osalt draama, täiesti segadus.",
-      "exampleGloss": "Kogu istumiskaardi-imbroglio algas ühest valesse kohta sattunud nimekaardist.",
+      "exampleGloss": "Kogu istumiskaardi segadik algas ühest valesse kohta sattunud nimekaardist.",
       "origin": "itaalia",
       "rootMeanings": [
         "sees",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "omadussõna",
       "definition": "Ähvardav, ähvardav.",
-      "friendly": "Kannab eksimatut ähvarduse õhku — minatory pilk või kiri teeb väga selgeks, et midagi halba võib järgneda.",
-      "exampleGloss": "Kirja minatory toon tegi üürniku närviliseks juba enne, kui ta ümbriku avas.",
+      "friendly": "Kannab eksimatut ähvarduse õhku — ähvardav pilk või kiri teeb väga selgeks, et midagi halba võib järgneda.",
+      "exampleGloss": "Kirja ähvardav toon tegi üürniku närviliseks juba enne, kui ta ümbriku avas.",
       "origin": "ladina",
       "rootMeanings": [
         "ähvardama",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Tugev avalik kriitika või sõnaline teotus.",
       "friendly": "Häälekas, avalik hukkamõist — selline kipitav kriitika, mis toimub kõigi silme all.",
-      "exampleGloss": "Vilepuhuja seisis silmitsi aastate avaliku obloquy'ga, enne kui ajalugu talle õiguse andis.",
+      "exampleGloss": "Vilepuhuja seisis silmitsi aastate avaliku laimuga, enne kui ajalugu talle õiguse andis.",
       "origin": "ladina",
       "rootMeanings": [
         "vastu",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Äkiline vägivaldne purske, tunde või teo.",
       "friendly": "Äkiline, intensiivne löök, mis valdab korraga — naeru, raevu või köha hoog, mis lööb nagu laine.",
-      "exampleGloss": "Teda tabas paroxysm naeru, mida ta ei osanud kellelegi teisele toas seletada.",
+      "exampleGloss": "Teda tabas naeruhoog, mida ta ei osanud kellelegi teisele toas seletada.",
       "origin": "kreeka",
       "rootMeanings": [
         "sealpool",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Lisatud välisest allikast, mitte olemuslik.",
       "friendly": "Kruvitud külge väljast, mitte sisse ehitatud algusest peale — lisa, mitte tuumosa.",
-      "exampleGloss": "Kommentaar tundub adscititious, justkui oleks see kleebitud juba valmis tekstile.",
+      "exampleGloss": "Kommentaar tundub külge poogitud, justkui oleks see kleebitud juba valmis tekstile.",
       "origin": "ladina",
       "rootMeanings": [
         "juurde, lisaks",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Teadmiste puudus, teadmatus.",
       "friendly": "Lihtne mitteteadmine — lünk teadmistes, ilma sellele kinnitatud hinnanguta.",
-      "exampleGloss": "Ta tunnistas oma nescience'i Prantsuse veini kohta ja lasi sommeljeel valida.",
+      "exampleGloss": "Ta tunnistas oma teadmatust Prantsuse veini kohta ja lasi sommeljeel valida.",
       "origin": "ladina",
       "rootMeanings": [
         "ei",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Liigne huvi seksuaalsete asjade vastu.",
       "friendly": "Üliagar, jõllitav uudishimu kõige pikantse vastu — huvi, mis on läinud tervest mööda nuhkivaks.",
-      "exampleGloss": "Tabloidide prurience paari eraelu kohta piirnes kinnisideega.",
+      "exampleGloss": "Tabloidide iharus paari eraelu vastu piirnes kinnisideega.",
       "origin": "ladina",
       "rootMeanings": [
         "sügelama, igatsema",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Nokune, tume, hämar.",
       "friendly": "Tume ja suitsune välimuselt, justkui oleks kõik õhukese noenaga kaetud.",
-      "exampleGloss": "Fuliginous udu rippus tehaseasula kohal hämaruses.",
+      "exampleGloss": "Tahmane udu rippus tehaseasula kohal hämaruses.",
       "origin": "ladina",
       "rootMeanings": [
         "nõgi",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Eitada või vastu rääkida.",
       "friendly": "Rääkida otse vastu sellele, mida teine on öelnud — öelda \"that's not so.\"",
-      "exampleGloss": "Keegi ei julgenud gainsay vana kapteni juttu tormist.",
+      "exampleGloss": "Keegi ei julgenud vaidlustada vana kapteni juttu tormist.",
       "origin": "keskinglise",
       "rootMeanings": [
         "vastu",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Laiskus, loius (ladina keelest).",
       "friendly": "Vana ladina sõna puhtale laiskusele — lohisemine selles, et ei taha midagi teha.",
-      "exampleGloss": "Mungad jutlustasid ignavia vastu kui ühe hinge vaikse ohu vastu.",
+      "exampleGloss": "Mungad jutlustasid laiskuse vastu kui ühe hinge vaikse ohu vastu.",
       "origin": "ladina",
       "rootMeanings": [
         "ei",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kilp, millel on vapp.",
       "friendly": "Kilbikujuline tunnus, mis näitab suguvõsa vappi — selle heraldiline \"nameplate.\"",
-      "exampleGloss": "Suguvõsa escutcheon ripub endiselt vana mõisa esiukse kohal.",
+      "exampleGloss": "Suguvõsa vapp ripub endiselt vana mõisa esiukse kohal.",
       "origin": "ladina / vanaprantsuse",
       "rootMeanings": [
         "kilp",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Aegunud, vananenud või vanuse tõttu pensionile saadetud.",
       "friendly": "Kasuliku tipu möödas ja karjamaale saadetud — liiga vanamoodne või kulunud, et tööd jätkata.",
-      "exampleGloss": "Superannuated printer vahetati lõpuks välja pärast viieteistkümne aasta paberiummistusi.",
+      "exampleGloss": "Iganenud printer vahetati lõpuks välja pärast viitteist aastat paberiummistusi.",
       "origin": "ladina",
       "rootMeanings": [
         "sealpool",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Asendajad, eriti meditsiinis.",
       "friendly": "Asendusained, kui päris ravi pole saadaval — meditsiinilised asendajad sisuliselt.",
-      "exampleGloss": "Sõjaaegsed arstid toetusid sageli succedanea'le, kui õiged ravimid otsa said.",
+      "exampleGloss": "Sõjaaegsed arstid toetusid sageli aseainetele, kui õiged ravimid otsa said.",
       "origin": "ladina",
       "rootMeanings": [
         "asemel",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kergelev, uhkeldav jutt.",
       "friendly": "Suur, puhkuv uhkeldamine — vali jutt oma suurusest, mis on enamasti tühi õhk.",
-      "exampleGloss": "Tema rodomontade sellest, kuidas ta \"single-handedly\" projekti päästis, ei petnud kedagi, kes tegelikult kohal oli.",
+      "exampleGloss": "Tema hooplemine sellest, kuidas ta \"üksinda\" projekti päästis, ei petnud kedagi, kes tegelikult kohal oli.",
       "origin": "itaalia",
       "rootMeanings": [
         "uhkeldav rüütel teoses Orlando Furioso",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Kasutada kavalust või pettust millegi saavutamiseks.",
       "friendly": "Vingerdada eesmärgini salakavalate trikkidega ausa mängu asemel.",
-      "exampleGloss": "Ta chicaned end tehingusse peenes kirjas täidetud lepinguga.",
+      "exampleGloss": "Ta keerutas end tehingusse peenes kirjas täidetud lepinguga.",
       "origin": "prantsuse",
       "rootMeanings": [
         "norima, petma",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Liiga hõivatud formaalsete reeglite või tühiste detailidega.",
       "friendly": "Liiga range pisiasjade suhtes — parandab väikesi tehnilisi punkte, mis tegelikult midagi ei muuda.",
-      "exampleGloss": "Tundus veidi pedantic vaielda \"who\" versus \"whom\" üle tekstisõnumis.",
+      "exampleGloss": "Tundus veidi pedantne vaielda \"who\" versus \"whom\" üle tekstisõnumis.",
       "origin": "itaalia / kreeka",
       "rootMeanings": [
         "lapsejuht, juhendaja",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Välklev, sädelev valgus.",
       "friendly": "Kiire, sädelev valgusvälgatus — mõtle päikesevalgusele vee peal või teemandile, mis püüab valguse.",
-      "exampleGloss": "Lühtri coruscation puistas valgust igasse ballisaali nurka.",
+      "exampleGloss": "Lühtri sädelus puistas valgust igasse ballisaali nurka.",
       "origin": "ladina",
       "rootMeanings": [
         "sädelema, välkuma",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Algaja, noviits.",
       "friendly": "Keegi upouus oskuses või alal — alles aluseid õppimas, veel mitte asjatundja.",
-      "exampleGloss": "Isegi tyro-maletaja märkab seda kömmeldust.",
+      "exampleGloss": "Isegi algaja maletaja märkab seda apsakat.",
       "origin": "ladina",
       "rootMeanings": [
         "värbaja, noviits",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Äärmiselt halb, jälk.",
       "friendly": "Halb viisil, mis väärib ehtsat jälestust — mitte ainult \"mediocre,\" vaid tõeliselt jälk.",
-      "exampleGloss": "Arvustaja nimetas järge execrable'iks ja kassanäitajad olid nõus.",
+      "exampleGloss": "Arvustaja nimetas järge jälestusväärseks ja kassanäitajad olid nõus.",
       "origin": "ladina",
       "rootMeanings": [
         "needma",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Veripunane värvilt.",
       "friendly": "Sügav, elav punane — värske vere värv, Shakespeare'i Macbethi kuulsalt kasutatud.",
-      "exampleGloss": "Päikeseloojang keeras kogu taeva incarnadine helendusse.",
+      "exampleGloss": "Päikeseloojang keeras kogu taeva verepunasesse helendusse.",
       "origin": "itaalia / ladina",
       "rootMeanings": [
         "sisse",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Väike vahe või ruum asjade vahel.",
       "friendly": "Väike vahe, mida on kerge kahe silma vahele jätta — põrandalaudade pragu, ajakava auk.",
-      "exampleGloss": "Umbrohi lükkas läbi iga interstice'i vanal tellisteel.",
+      "exampleGloss": "Umbrohi lükkas end läbi vana tellistee iga prao.",
       "origin": "ladina",
       "rootMeanings": [
         "vahel",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Kriitilised või laitvad märkused.",
       "friendly": "Teravad, taunivad kommentaarid — selline kriitika, millel on veidi noomiv toon.",
-      "exampleGloss": "Professori animadversions esseest täitsid veerud punase tindiga.",
+      "exampleGloss": "Professori etteheited esseele täitsid veerised punase tindiga.",
       "origin": "ladina",
       "rootMeanings": [
         "meel",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Võimatu ümber lükata, eitatamatu.",
       "friendly": "Nii kindlalt tõestatud, et selle üle ei saa vaielda — asi on lihtsalt suletud.",
-      "exampleGloss": "DNA-tõend oli irrefragable ja kohtuprotsess oli tunni jooksul läbi.",
+      "exampleGloss": "DNA-tõend oli ümberlükkamatu ja kohtuprotsess oli tunni jooksul läbi.",
       "origin": "ladina",
       "rootMeanings": [
         "ei",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Keerukus, keerulisus; ka sissepoole keerdumine.",
       "friendly": "Sassis, endasse keerdunud keerukus — asjad nii tihedalt mässitud, et neid on raske lahti tõmmata.",
-      "exampleGloss": "Süžee involution jättis poole publiku pärast lõputiitreid seda lahti harutama.",
+      "exampleGloss": "Süžee keerukus jättis poole publiku pärast lõputiitreid seda lahti harutama.",
       "origin": "ladina",
       "rootMeanings": [
         "sisse, sissepoole",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Jõud või pingutus, nagu \"by dint of.\"",
       "friendly": "Paljas pingutus või jõud — elab tänapäeval enamasti fraasis \"by dint of.\"",
-      "exampleGloss": "Ta sai eksami läbi by dint of palja, kangekaelse harjutamisega.",
+      "exampleGloss": "Ta sai eksami läbi puhta, kangekaelse harjutamise jõul.",
       "origin": "vanainglise",
       "rootMeanings": [
         "löök, põrge",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Tapiga ühendatud; kindlalt kokku sobitatud.",
       "friendly": "Lukustatud kokku vanamoodsa puusepa moodi — tükk, mis libiseb tihedalt just selleks lõigatud auku.",
-      "exampleGloss": "Vana aida talad olid mortised kokku ilma ühegi naelata.",
+      "exampleGloss": "Vana aida talad olid tapiga kokku pandud ilma ühegi naelata.",
       "origin": "ladina / prantsuse",
       "rootMeanings": [
         "süvend, auk",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Väga asjakohane, tabav.",
       "friendly": "Täpselt õige hetke jaoks — märkus, tsitaat või näide, mis maandub täiuslikult täppi.",
-      "exampleGloss": "Tema apposite märkus võttis kogu arutelu ühte lausesse kokku.",
+      "exampleGloss": "Tema tabav märkus võttis kogu arutelu ühte lausesse kokku.",
       "origin": "ladina",
       "rootMeanings": [
         "juurde",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Pehmelt helendav või värelev (valgus); ka kerge vaimukus.",
       "friendly": "Helendab leebealt pigem kui lõõmab — pehme, värelev valgus või vaimukus, mis on mänguline pigem kui terav.",
-      "exampleGloss": "Küünlavalgus viskas lambent helenduse vana söögitoa kohale.",
+      "exampleGloss": "Küünlavalgus viskas võbeleva helenduse vana söögitoa kohale.",
       "origin": "ladina",
       "rootMeanings": [
         "lakkuma",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Usuline erak, kes elab üksinduses.",
       "friendly": "Keegi, kes tõmbub maailmast täielikult tagasi, et elada üksi palves ja mõtiskluses.",
-      "exampleGloss": "Anchorite elas väikeses kiriku külge ehitatud kellis üle kolmekümne aasta.",
+      "exampleGloss": "Erak elas väikeses kiriku külge ehitatud kongis üle kolmekümne aasta.",
       "origin": "kreeka",
       "rootMeanings": [
         "tagasi, eemale",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Kustutada janu; kustutama.",
       "friendly": "Rahulda igatsus täielikult — enamasti janu, kuid ülekantult ükskõik milline sügav vajadus.",
-      "exampleGloss": "Üks külm klaas vett slaked tema janu pika matka järel.",
+      "exampleGloss": "Üks külm klaas vett kustutas tema janu pika matka järel.",
       "origin": "vanainglise",
       "rootMeanings": [
         "lõtv, lõtv",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Nõelakujuline.",
       "friendly": "Pikk, peenike ja terav nagu nõel — männiokka või terava väikese kristalli kuju.",
-      "exampleGloss": "Männe on kerge tunda acicular lehtede järgi.",
+      "exampleGloss": "Mände on kerge tunda nõeljate lehtede järgi.",
       "origin": "ladina",
       "rootMeanings": [
         "nõel",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Elujõust kurnatud, nõrk, ülipeenutatud.",
       "friendly": "Kulunud ja pehme — kaotanud algse jõu või sädeme liigse mugavuse või peenutamise kaudu.",
-      "exampleGloss": "Kriitikud nimetasid kunagi julget ajakirja effete, selle varaste julgete aastate varjuks.",
+      "exampleGloss": "Kriitikud nimetasid kunagi julget ajakirja jõuetuks, selle varaste julgete aastate varjuks.",
       "origin": "ladina",
       "rootMeanings": [
         "välja",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Lisand või väiksem lisatud ese või õigus.",
       "friendly": "Väike lisa, mis tuleb millegi suuremaga — lisatarvikud ja lisandid, mis kuuluvad põhiasja juurde.",
-      "exampleGloss": "Üürileping hõlmas garaaži ja kõiki selle appurtenances.",
+      "exampleGloss": "Üürileping hõlmas garaaži ja kõiki selle juurdekuuluvusi.",
       "origin": "ladina / prantsuse",
       "rootMeanings": [
         "juurde",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "tegusõna",
       "definition": "Katmata või vähendada viga.",
       "friendly": "Siluda viga pehmete sõnadega, et see kõlaks väiksemana, kui see on.",
-      "exampleGloss": "Ta üritas gloze mööda lastud tähtaja üle uduse jutuga \"unforeseen challenges\" kohta.",
+      "exampleGloss": "Ta üritas mööda lastud tähtaega ilustada uduse jutuga \"ettenägematutest raskustest\".",
       "origin": "vanaprantsuse / ladina",
       "rootMeanings": [
         "glosa, seletus",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "omadussõna",
       "definition": "Varajases staadiumis, alles algamas.",
       "friendly": "Alles hakkamas paistma — kõige esimene, vaevu nähtav staadium millestki suuremast, mis tuleb.",
-      "exampleGloss": "Arstid püüdsid haiguse incipient märgid enne, kui see jõudis levida.",
+      "exampleGloss": "Arstid püüdsid kinni haiguse algavad märgid enne, kui see jõudis levida.",
       "origin": "ladina",
       "rootMeanings": [
         "peale, sisse",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "nimisõna",
       "definition": "Loov inspiratsioon, eriti jumalik.",
       "friendly": "Äkiline inspiratsioonipuhang, mis tundub sinust suurem — justkui oleks idee puhutud sinusse kuskilt mujalt.",
-      "exampleGloss": "Luuletaja kirjeldas, kuidas kogu teos saabus ühe afflatus'e puhanguga kell kolm öösel.",
+      "exampleGloss": "Luuletaja kirjeldas, kuidas kogu teos saabus ühe inspiratsioonipuhanguga kell kolm öösel.",
       "origin": "ladina",
       "rootMeanings": [
         "juurde, peale",

@@ -4,7 +4,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om te versoet of te suiwer; om stroefheid uit iets te haal.",
       "friendly": "Om die steek of bitterheid uit iets te haal — letterlik deur dit soeter te maak, of figuurlik deur 'n harde idee sagter te maak sodat dit makliker afgaan.",
-      "exampleGloss": "Die redakteur het die harde resensie edulcorated voordat dit gedruk is.",
+      "exampleGloss": "Die redakteur het die harde resensie versag voordat dit gedruk is.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit, deeglik",
@@ -15,7 +15,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Oordrewe of gemaak-godsdienstig of vroom.",
       "friendly": "Beskryf iemand wie se godsdienstige toewyding voorgegee voel vir die vertoon — meer opvoering as egte geloof.",
-      "exampleGloss": "Sy pietistic sug tydens die preek het die res van die bank gepla.",
+      "exampleGloss": "Sy pietistiese gesug tydens die preek het die res van die bank gepla.",
       "origin": "Latyn",
       "rootMeanings": [
         "vroomheid, pligsgetrouheid",
@@ -26,7 +26,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Dubbelsinnigheid wat uit die grammatikale struktuur kom — 'n sin wat op twee maniere gelees kan word.",
       "friendly": "A sin wat grammatikaal reg is maar op twee heeltemal verskillende maniere gelees kan word, soos \"I saw the man with the telescope.\"",
-      "exampleGloss": "\"Visiting relatives can be tiring\" is 'n klassieke amphiboly — is die familie moegmakend, of is dit om hulle te besoek?",
+      "exampleGloss": "\"Visiting relatives can be tiring\" is 'n klassieke amfibolie — is die familie moegmakend, of is dit om hulle te besoek?",
       "origin": "Grieks",
       "rootMeanings": [
         "albei, aan albei kante",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Skerp, trefseker, sny reguit tot by die punt.",
-      "friendly": "Sny dwarsdeur die opvulling — 'n trenchant opmerking of verstand kom vinnig by die hart van die saak, sonder vermorste woorde.",
-      "exampleGloss": "Haar trenchant kritiek het geen plek gelaat vir die rolprent se plotgate om weg te kruip nie.",
+      "friendly": "Sny dwarsdeur die opvulling — 'n snydende opmerking of verstand kom vinnig by die hart van die saak, sonder vermorste woorde.",
+      "exampleGloss": "Haar snydende kritiek het geen plek gelaat vir die rolprent se plotgate om weg te kruip nie.",
       "origin": "Oudfrans",
       "rootMeanings": [
         "om te sny",
@@ -48,7 +48,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Net aan die begin; in 'n vroeë of rudimentêre stadium.",
       "friendly": "Nog in sy openingsoomblikke — 'n plan, gevoel of proses wat skaars begin vorm aanneem het.",
-      "exampleGloss": "Die inchoative stadiums van die verdrag was belowend, maar baie besonderhede was nog onbeslis.",
+      "exampleGloss": "Die beginnende stadiums van die verdrag was belowend, maar baie besonderhede was nog onbeslis.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te begin, om te start",
@@ -59,7 +59,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Formele toespraak of stuk skryfwerk wat iemand hoog prys.",
       "friendly": "'n Volledige, formele huldeblyk — dink aan 'n gloeiende lykrede of 'n toespraak wat iemand se prestasies van die dakke af sing.",
-      "exampleGloss": "Die aftredende professor is weggestuur met 'n panegyric van haar naaste studente.",
+      "exampleGloss": "Die aftredende professor is weggestuur met 'n lofrede van haar naaste studente.",
       "origin": "Grieks",
       "rootMeanings": [
         "almal",
@@ -70,7 +70,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Wat betrekking het op werklike bestaan of feitelike wees, teenoor abstrakte teorie.",
       "friendly": "Oor dinge soos hulle werklik in die werklikheid bestaan, nie net as idees of teorieë daaroor nie.",
-      "exampleGloss": "Filosowe debatteer of getalle enige ontic status het, of net in ons denke bestaan.",
+      "exampleGloss": "Filosowe debatteer of getalle enige ontiese status het, of net in ons denke bestaan.",
       "origin": "Grieks",
       "rootMeanings": [
         "wees, dit wat bestaan",
@@ -80,8 +80,8 @@
     "fructify": {
       "partOfSpeech": "werkwoord",
       "definition": "Om vrugte te dra, of produktief te word.",
-      "friendly": "Om eindelik vrug af te werp — 'n poging, idee of belegging wat fructify, het van saad tot iets nuttigs gegroei.",
-      "exampleGloss": "Jare se stil navorsing het eindelik fructified tot 'n werkende entstof.",
+      "friendly": "Om eindelik vrug af te werp — 'n poging, idee of belegging wat vrug dra, het van saad tot iets nuttigs gegroei.",
+      "exampleGloss": "Jare se stil navorsing het eindelik vrug gedra in 'n werkende entstof.",
       "origin": "Latyn",
       "rootMeanings": [
         "vrug",
@@ -92,7 +92,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Wat iets vooruitloop of as klaar voorstel voordat dit werklik gebeur het.",
       "friendly": "Om letterkundig die geweer voor die skoot af te vuur — 'n toekomstige gebeurtenis beskryf asof dit al klaar is, sodat die punt harder tref.",
-      "exampleGloss": "Die generaal se proleptical heildronk op \"victory\" is 'n volle week voor die geveg uitgereik.",
+      "exampleGloss": "Die generaal se antisiperende heildronk op \"die oorwinning\" is 'n volle week voor die geveg uitgebring.",
       "origin": "Grieks",
       "rootMeanings": [
         "voor",
@@ -103,7 +103,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Aangedryf deur lugdruk; ook verwant aan gees of asem.",
       "friendly": "Beteken gewoonlik \"aangedryf deur saamgeperste lug\" — hoewel dit ook op gees of asem kan slaan.",
-      "exampleGloss": "Die pneumatic remme het gegesis toe die bus by die sypaadjie stilhou.",
+      "exampleGloss": "Die pneumatiese remme het gegesis toe die bus by die sypaadjie stilhou.",
       "origin": "Grieks",
       "rootMeanings": [
         "wind, asem, gees",
@@ -114,7 +114,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Om God of die goddelike deur positiewe stellings te beskryf — die teenoorgestelde van apofaties.",
       "friendly": "'n Manier om oor God te praat deur te sê wat God is — \"God is love\" — eerder as net wat God nie is nie.",
-      "exampleGloss": "Cataphatic teologie praat vol vertroue van God as liefdevol, regverdig en barmhartig.",
+      "exampleGloss": "Katafatiese teologie praat vol vertroue van God as liefdevol, regverdig en barmhartig.",
       "origin": "Grieks",
       "rootMeanings": [
         "af, volgens",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Gebaseer op vertroue of geloof; ook gebruik as 'n vaste verwysingspunt.",
-      "friendly": "Iets wat jy op vertroue aanvaar en dan as anker gebruik — 'n fiducial merk is die vaste punt waarteen alles anders gemeet word.",
-      "exampleGloss": "Landmeters het 'n fiducial merker in die rotspunt geplaas voordat hulle die terrein gekarteer het.",
+      "friendly": "Iets wat jy op vertroue aanvaar en dan as anker gebruik — 'n ykmerk is die vaste punt waarteen alles anders gemeet word.",
+      "exampleGloss": "Landmeters het 'n vaste verwysingsmerk in die rotspunt geplaas voordat hulle die terrein gekarteer het.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te vertrou",
@@ -136,7 +136,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Verdediging van God se goedheid gegewe die bestaan van die kwaad.",
       "friendly": "Die eeue-oue poging om te antwoord \"If God is good, why does evil exist?\"",
-      "exampleGloss": "Haar tesis het theodicy deur die lens van die Boek van Job ondersoek.",
+      "exampleGloss": "Haar tesis het die teodisee deur die lens van die Boek van Job ondersoek.",
       "origin": "Grieks",
       "rootMeanings": [
         "god",
@@ -147,7 +147,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Wederkerige inwoning — 'n teologiese term vir hoe die persone van die Drie-eenheid in mekaar bestaan.",
       "friendly": "'n Teologie-woord vir drie-in-een-saamwees so volledig dat elke deel die ander ten volle bevat en deur hulle bevat word.",
-      "exampleGloss": "Die leerstuk van circumincession probeer verduidelik hoe Vader, Seun en Gees onderskeie dog onafskeidbaar is.",
+      "exampleGloss": "Die leerstuk van die sirkuminsessie probeer verduidelik hoe Vader, Seun en Gees onderskeie dog onafskeidbaar is.",
       "origin": "Latyn",
       "rootMeanings": [
         "rondom",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "werkwoord",
       "definition": "Om 'n gevolg te hê wat iemand tot voordeel strek of op hulle terugslaan.",
-      "friendly": "Wanneer eer (of blaam) terugbons op die verantwoordelike persoon — goeie dade wat redound tot jou reputasie kom weer terug om jou te beloon.",
-      "exampleGloss": "Die span se sukses sal redound tot die eer van sy stil, hardwerkende afrigter.",
+      "friendly": "Wanneer eer (of blaam) terugbons op die verantwoordelike persoon — goeie dade wat tot jou eer strek, kom weer terug om jou te beloon.",
+      "exampleGloss": "Die span se sukses sal strek tot die eer van sy stil, hardwerkende afrigter.",
       "origin": "Latyn",
       "rootMeanings": [
         "terug, weer",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Onvermydelik; nie te ontsnap nie.",
-      "friendly": "Gedoem om te gebeur wat jy ook al doen — daar is geen uitkruip nie by 'n ineluctable uitkoms.",
-      "exampleGloss": "Ouderdom kom vir almal; dit is eenvoudig ineluctable.",
+      "friendly": "Gedoem om te gebeur wat jy ook al doen — daar is geen uitkruip by 'n onontkombare uitkoms nie.",
+      "exampleGloss": "Ouderdom kom vir almal; dit is eenvoudig onontkombaar.",
       "origin": "Latyn",
       "rootMeanings": [
         "nie",
@@ -180,7 +180,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Wat omslagtige, woordryke formulering gebruik in plaas van 'n direkte vorm.",
       "friendly": "Die lang pad met woorde — om \"make a decision\" te sê in plaas van \"decide.\"",
-      "exampleGloss": "Sy periphrastic e-posse kon in een reël gesê het wat hom drie paragrawe gevat het.",
+      "exampleGloss": "Sy omslagtige e-posse kon in een reël gesê het wat hom drie paragrawe gevat het.",
       "origin": "Grieks",
       "rootMeanings": [
         "rondom",
@@ -191,7 +191,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Geestelike stompheid of lusteloosheid.",
       "friendly": "Daardie mistige, trege gemoedstoestand waarin dink soos deur stroop waaier voel.",
-      "exampleGloss": "'n Golf van hebetude het die klas net ná middagete getref.",
+      "exampleGloss": "'n Golf van suffigheid het die klas net ná middagete getref.",
       "origin": "Latyn",
       "rootMeanings": [
         "stomp, dof",
@@ -202,7 +202,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Nie gunstig nie; wat onheil voorspel.",
       "friendly": "'n Slegte teken — omstandighede of tydsberekening wat teen jou lyk te werk nog voor jy begin het.",
-      "exampleGloss": "Grys luchte en 'n dooie motorbattery het 'n unpropitious begin aan die padreis gegee.",
+      "exampleGloss": "Grys lugte en 'n dooie motorbattery het 'n ongunstige begin aan die padreis gegee.",
       "origin": "Latyn",
       "rootMeanings": [
         "nie",
@@ -213,7 +213,7 @@
       "partOfSpeech": "byvoeglike naamwoord / werkwoord",
       "definition": "Vleis in sous gestoof of gebraseer — reg gespel \"fricasseed.\"",
       "friendly": "'n Gesellige ou kookterm vir vleis wat opgesny en stadig in sy eie sous gesimmer is tot sag.",
-      "exampleGloss": "Ouma se fricasseed hoender was die hoogtepunt van elke Sondagmaaltyd.",
+      "exampleGloss": "Ouma se gefrikasseerde hoender was die hoogtepunt van elke Sondagmaaltyd.",
       "origin": "Frans",
       "rootMeanings": [
         "om te braai",
@@ -224,7 +224,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "'n Kunsmatige of minderwaardige plaasvervanger.",
       "friendly": "'n Namaaksel wat vir die egte ding instaan — dit doen tegnies die werk, maar almal sien dis nie die ware artikel nie.",
-      "exampleGloss": "Oorlogstydse kopers het hul gered met ersatz-koffie van geroosterde sigorei.",
+      "exampleGloss": "Oorlogstydse kopers het hulle behelp met surrogaatkoffie van geroosterde sigorei.",
       "origin": "Duits",
       "rootMeanings": [
         "uit, vervangingsvoorvoegsel",
@@ -235,7 +235,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om 'n abstrakte idee te behandel asof dit 'n konkrete ding is.",
       "friendly": "Om 'n idee werklik en solied te laat voel — iets dowes, soos \"the economy,\" in 'n ding te verander waarna jy kan wys.",
-      "exampleGloss": "Om 'n nasie se \"spirit\" sy eie wese te noem, reifies iets wat eintlik net miljoene individuele keuses is.",
+      "exampleGloss": "Om 'n nasie se \"gees\" 'n eie wese te noem, verdinglik iets wat eintlik net miljoene individuele keuses is.",
       "origin": "Latyn",
       "rootMeanings": [
         "ding",
@@ -246,7 +246,7 @@
       "partOfSpeech": "werkwoord (verlede tyd)",
       "definition": "Het vaardig ontsnap of vermy.",
       "friendly": "Skoon weggegly — iets ontwyk, dikwels slim of nou, of dit nou 'n vangs, 'n vraag of 'n antwoord is.",
-      "exampleGloss": "Die antwoord het haar ure lank eluded tot dit skielik in die stort geklik het.",
+      "exampleGloss": "Die antwoord het haar ure lank ontglip tot dit skielik in die stort geklik het.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit, weg",
@@ -257,7 +257,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Wat twyfel, verbystering of 'n onopgeloste teenstrydigheid uitdruk.",
       "friendly": "Vassit by 'n egte denkdoodloopstraat — nie verward uit luiheid nie, maar omdat die vraag self 'n netjiese antwoord weerstaan.",
-      "exampleGloss": "Sokrates het sy dialoë dikwels op 'n aporetic noot geëindig, met meer vrae as antwoorde.",
+      "exampleGloss": "Sokrates het sy dialoë dikwels op 'n aporetiese noot geëindig, met meer vrae as antwoorde.",
       "origin": "Grieks",
       "rootMeanings": [
         "sonder",
@@ -268,7 +268,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Stylfiguur wat iets by 'n verwante term noem, bv. \"the crown\" vir die vorst.",
       "friendly": "Om 'n verwante woord in die plek van die ware ding te gebruik — om te sê \"the White House announced\" as jy die administrasie bedoel.",
-      "exampleGloss": "\"Wall Street had a rough day\" is metonymy — dit beteken eintlik die aandelemark het.",
+      "exampleGloss": "\"Wall Street had a rough day\" is metonimie — dit beteken eintlik dat dit die aandelemark is wat 'n moeilike dag gehad het.",
       "origin": "Grieks",
       "rootMeanings": [
         "verandering, ná",
@@ -279,7 +279,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om met wortels en al uit te trek; om uit 'n natuurlike omgewing te skeur.",
       "friendly": "Om iets (of iemand) met wortels en al uit te trek, weg van die plek of kultuur waar hulle hoort.",
-      "exampleGloss": "Oorlog het 'n hele geslag deracinated en gesinne oor grense versprei.",
+      "exampleGloss": "Oorlog het 'n hele geslag ontwortel en gesinne oor grense versprei.",
       "origin": "Frans / Latyn",
       "rootMeanings": [
         "weg, af",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Aangenaam klinkend.",
-      "friendly": "Net lekker om te hoor — 'n euphonious woord, naam of sin rol sag oor die oor, amper musikaal.",
-      "exampleGloss": "\"Murmuring brook\" is 'n euphonious klein frase, sag en maklik om te sê.",
+      "friendly": "Net lekker om te hoor — 'n welluidende woord, naam of sin rol sag oor die oor, amper musikaal.",
+      "exampleGloss": "\"Murmuring brook\" is 'n welluidende klein frase, sag en maklik om te sê.",
       "origin": "Grieks",
       "rootMeanings": [
         "goed, wel",
@@ -301,7 +301,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Algemeen aanvaar of veronderstel om te wees.",
       "friendly": "Wyd geglo as waar, selfs al is dit nie werklik bewys nie — die \"supposed\" weergawe van iets.",
-      "exampleGloss": "Die putative skrywer van die brief het later 'n volkome vreemdeling geblyk.",
+      "exampleGloss": "Die vermeende skrywer van die brief het later 'n volkome vreemdeling geblyk.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te dink, om te ag",
@@ -312,7 +312,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Nuutgeskepte woord of frase.",
       "friendly": "'n Splinternuwe woord — pas uitgevind, nog nie (of skaars) in die woordeboek nie.",
-      "exampleGloss": "\"Doomscrolling\" het as 'n neologism begin en gou alledaagse slang geword.",
+      "exampleGloss": "\"Doomscrolling\" het as 'n neologisme begin en gou alledaagse slang geword.",
       "origin": "Grieks",
       "rootMeanings": [
         "nuut",
@@ -323,7 +323,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Kwaad of sleggehumeurig.",
       "friendly": "In 'n nare, prikkelbare bui — vinnig om te knap, soos mense eens geglo het die milt jou humeur beheer.",
-      "exampleGloss": "Hy het 'n splenetic antwoord op die e-pos afgevuur binne sekondes nadat hy dit gelees het.",
+      "exampleGloss": "Hy het 'n galbittere antwoord op die e-pos afgevuur binne sekondes nadat hy dit gelees het.",
       "origin": "Grieks / Latyn",
       "rootMeanings": [
         "milt (setel van woede)",
@@ -334,7 +334,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Geneig om op 'n pompeuse of gemaakte wyse te moraliseer.",
       "friendly": "Is mal daaroor om klein lewenslesse op 'n selfbelangrike wyse te lewer, asof elke sin 'n gelukkiewielkoekie is.",
-      "exampleGloss": "Sy sententious heildronk oor \"the true meaning of friendship\" het almal laat horlosies nagaan.",
+      "exampleGloss": "Sy moraliserende heildronk oor \"die ware betekenis van vriendskap\" het almal laat horlosies nagaan.",
       "origin": "Latyn",
       "rootMeanings": [
         "mening, spreuk",
@@ -345,7 +345,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Oordrewe praatsiek, veral oor triviale dinge.",
       "friendly": "Hou net nie op praat nie — babbel oor kleinighede lank nadat almal anders se gesprekstof op is.",
-      "exampleGloss": "Die garrulous taxibestuurder het ons sy hele lewensverhaal vertel voordat ons die lughawe verlaat het.",
+      "exampleGloss": "Die praatsieke taxibestuurder het ons sy hele lewensverhaal vertel voordat ons die lughawe verlaat het.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te babbel, om te klets",
@@ -356,7 +356,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Dwaasheid, onnoselheid.",
       "friendly": "Gewone dwaasheid — 'n opmerking of plan so onnosel dat dit skaars 'n ernstige antwoord verdien.",
-      "exampleGloss": "Die blote fatuity van die plan het duidelik geword die oomblik toe hulle dit probeer het.",
+      "exampleGloss": "Die blote dwaasheid van die plan het duidelik geword die oomblik toe hulle dit probeer het.",
       "origin": "Latyn",
       "rootMeanings": [
         "dwaas, onnosel",
@@ -367,7 +367,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Die afsluitende deel van 'n toespraak, dikwels samevattend.",
       "friendly": "Die groot slot van 'n toespraak — die slotgedeelte waar die spreker alles saamtrek en die punt tuisbring.",
-      "exampleGloss": "By die peroration was die helfte van die gehoor op hul voete.",
+      "exampleGloss": "By die slotrede was die helfte van die gehoor op hul voete.",
       "origin": "Latyn",
       "rootMeanings": [
         "deur, tot die einde",
@@ -378,7 +378,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Onnodige herhaling van dieselfde idee in ander woorde.",
       "friendly": "Om dieselfde ding twee keer te sê sonder om iets nuuts by te voeg, soos \"free gift\" of \"end result.\"",
-      "exampleGloss": "\"It is what it is\" is 'n gunsteling-tautology van mense wat 'n ware verklaring vermy.",
+      "exampleGloss": "\"It is what it is\" is 'n gunsteling-tautologie van mense wat 'n ware verklaring vermy.",
       "origin": "Grieks",
       "rootMeanings": [
         "dieselfde",
@@ -389,7 +389,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Die gebruik van baie min woorde; bondige spraak.",
       "friendly": "Om baie met min te sê — die kuns van die kort, stomp antwoord, genoem na die berugte kortaf Spartane van Lakonië.",
-      "exampleGloss": "\"Molon labe\" — \"come and take them\" — is die geskiedenis se beroemdste stuk laconism.",
+      "exampleGloss": "\"Molon labe\" — \"kom haal hulle\" — is die geskiedenis se beroemdste stuk lakonisme.",
       "origin": "Grieks",
       "rootMeanings": [
         "'n Spartaan van Lakonië",
@@ -400,7 +400,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Flaou, oorvereenvoudigde idees; oorspronklik, flaou kos of pap.",
       "friendly": "Dun, waterige denke — inhoud so vereenvoudig en veilig dat dit geen voedingswaarde vir die gees het nie.",
-      "exampleGloss": "Die politikus se toespraak was meestal pabulum: vae beloftes met niks waaraan jy kan vasklou nie.",
+      "exampleGloss": "Die politikus se toespraak was meestal gebakte lug: vae beloftes met niks waaraan jy kan vasklou nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te voed",
@@ -411,7 +411,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Wat slaap of slaperigheid veroorsaak.",
       "friendly": "So dof — of so letterlik slaapverwekkend — dat dit jou slaperig maak. Dink aan warm melk, of 'n drie-uur-begrotingsvergadering.",
-      "exampleGloss": "Die lesing se soporific gedreun het die helfte van die kamer laat veg om hul oë oop te hou.",
+      "exampleGloss": "Die lesing se slaapwekkende gedreun het die helfte van die kamer laat veg om hul oë oop te hou.",
       "origin": "Latyn",
       "rootMeanings": [
         "diep slaap",
@@ -422,7 +422,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Oordrewe vleiend of olierig van maniere.",
       "friendly": "Só glad charmant dat dit glibberig voel — vleiery so dik aangewend dat jy amper die vet kan voel.",
-      "exampleGloss": "Die unctuous verkoper het my \"excellent taste\" bly prys voor elke opverkoop.",
+      "exampleGloss": "Die salwende verkoper het my \"uitstekende smaak\" bly prys voor elke opverkoop.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te salf, om te olie",
@@ -433,7 +433,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Vinnig om fout te vind, oordrewe krities oor triviale dinge.",
       "friendly": "Vitterig tot 'n fout — die tipe wat 'n probleem met alles vind, selfs as dit nie werklik saak maak nie.",
-      "exampleGloss": "Sy captious notas op die verslag het geheel en al op kommaplek gefokus.",
+      "exampleGloss": "Sy muggiesifterige notas op die verslag het geheel en al op kommaplek gefokus.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te gryp, om te vat",
@@ -444,7 +444,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Traag, geestelik of liggaamlik onaktief.",
       "friendly": "Stadig en half aan die slaap, soos 'n beer in winterslaap — skaars aan die beweeg, skaars aan die dink.",
-      "exampleGloss": "Die kantoor het torpid geraak in die swaar Augustus-hitte.",
+      "exampleGloss": "Die kantoor het loom geraak in die swaar Augustus-hitte.",
       "origin": "Latyn",
       "rootMeanings": [
         "om gevoelloos te wees, om traag te wees",
@@ -455,7 +455,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Rentmeester of beampte wat 'n middeleeuse huishouding bestuur het.",
       "friendly": "Die middeleeuse weergawe van 'n hoof van personeel — die vertroude beampte wat 'n heer se huis en landgoed van dag tot dag bestuur het.",
-      "exampleGloss": "Die kasteel se seneschal het alles van die oesrekeninge tot die gastelys bestuur.",
+      "exampleGloss": "Die kasteel se hofmeester het alles van die oesrekeninge tot die gastelys bestuur.",
       "origin": "Frankies / Oudfrans",
       "rootMeanings": [
         "oud, senior",
@@ -466,7 +466,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om uitvoerig oor 'n onderwerp te praat of te skryf.",
       "friendly": "Om werklik op dreef te kom oor 'n onderwerp — aanhou praat of skryf en dit van elke hoek dek.",
-      "exampleGloss": "Vra hom oor vintage motors en hy sal 'n volle uur expatiate.",
+      "exampleGloss": "Vra hom oor veteraanmotors en hy sal 'n volle uur daaroor uitwei.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Van geen waarde, gering; ook ongeldig of ondoeltreffend.",
-      "friendly": "Wêreldlik niks werd nie — 'n nugatory klousule in 'n kontrak is een wat eintlik niks doen nie.",
-      "exampleGloss": "Die hof het die ou verordening nugatory verklaar, aangesien dit nooit afgedwing is nie.",
+      "friendly": "So goed as niks werd nie — 'n kragtelose klousule in 'n kontrak is een wat eintlik niks doen nie.",
+      "exampleGloss": "Die hof het die ou verordening kragteloos verklaar, aangesien dit nooit afgedwing is nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "kleinighede, onsin",
@@ -488,7 +488,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Wysheid, skerp oordeel.",
       "friendly": "Skerp, praktiese wysheid — die soort goeie oordeel wat uit ervaring kom, nie net boekkennis nie.",
-      "exampleGloss": "Die ou kaptein se sagacity het die bemanning meer as een keer uit die moeilikheid gehou.",
+      "exampleGloss": "Die ou kaptein se skranderheid het die bemanning meer as een keer uit die moeilikheid gehou.",
       "origin": "Latyn",
       "rootMeanings": [
         "skerp-ruikend, skerp",
@@ -499,7 +499,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Die gewone gespuis of massas, minagtend gebruik.",
       "friendly": "'n Snobistiese, afwysende woord vir \"the rabble\" of gewone mense, met minagting gebruik.",
-      "exampleGloss": "Die graaf het gesny vir die canaille wat buite die paleishekke saamgetrek het.",
+      "exampleGloss": "Die graaf het gespot met die gepeupel wat buite die paleishekke saamgetrek het.",
       "origin": "Italiaans / Frans",
       "rootMeanings": [
         "hond",
@@ -510,7 +510,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Brutalige, vernederende behandeling of taal.",
       "friendly": "Wrede, spottende behandeling bedoel om te verneder — die soort belediging wat ontwerp is om te steek.",
-      "exampleGloss": "Hy het jare se contumely van kritici verdra voordat sy werk eindelik erken is.",
+      "exampleGloss": "Hy het jare se hoon van kritici verdra voordat sy werk eindelik erken is.",
       "origin": "Latyn",
       "rootMeanings": [
         "met, deeglik",
@@ -521,7 +521,7 @@
       "partOfSpeech": "bywoord",
       "definition": "Met agterdog of afkeur; 'n sywaartse blik.",
       "friendly": "Die sywaartse blik wat jy iets gee wat jy nie heeltemal vertrou nie — 'n kyk vol twyfel.",
-      "exampleGloss": "Die onderwyser het askance na die verdag netjiese huiswerk gekyk.",
+      "exampleGloss": "Die onderwyser het wantrouig na die verdag netjiese huiswerk gekyk.",
       "origin": "onseker / Italiaans",
       "rootMeanings": [
         "by, na",
@@ -532,7 +532,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Dom persoon; 'n houtkop.",
       "friendly": "'n Ouderwetse, amper liefderike belediging vir iemand wat dof of dig is — 'n houtkop.",
-      "exampleGloss": "\"You clodpate,\" het sy gelag, \"you've had the map upside down the whole time.\"",
+      "exampleGloss": "\"Jou uilskuiken,\" het sy gelag, \"jy hou die kaart al die hele tyd onderstebo.\"",
       "origin": "Engels",
       "rootMeanings": [
         "klont aarde",
@@ -543,7 +543,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om in beweging of aksie te bring; om te motiveer.",
       "friendly": "Om die vonk te wees wat iets laat beweeg — of dit nou 'n masjien is wat aanskakel of 'n persoon wat eindelik op 'n idee optree.",
-      "exampleGloss": "Vrees om die kontrak te verloor het die hele span actuated tot 'n naweek se oortyd.",
+      "exampleGloss": "Vrees om die kontrak te verloor het die hele span aangespoor tot 'n naweek se oortyd.",
       "origin": "Latyn",
       "rootMeanings": [
         "'n doen, 'n dryf",
@@ -554,7 +554,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Verduistering van fondse wat aan jou sorg toevertrou is.",
       "friendly": "Stilweg geld steel wat jy vertrou is om na te sien — verduistering in 'n ouderwetse jas.",
-      "exampleGloss": "Die tesourier se peculation het byna 'n dekade ongemerk verbygegaan.",
+      "exampleGloss": "Die tesourier se verduistering het byna 'n dekade ongemerk verbygegaan.",
       "origin": "Latyn",
       "rootMeanings": [
         "private eiendom",
@@ -565,7 +565,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Groep wat op die rand van fatsoenlike samelewing gereken word.",
       "friendly": "Die glansryke-maar-skaduryke sosiale onderwêreld — mense wat net buite die reëls van \"respectable\" samelewing leef.",
-      "exampleGloss": "Die roman volg 'n sangeres wat die demi-monde van 1920's-kaberette navigeer.",
+      "exampleGloss": "Die roman volg 'n sangeres wat die halfwêreld van 1920's-kabarette navigeer.",
       "origin": "Frans",
       "rootMeanings": [
         "half",
@@ -576,7 +576,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Nog bestaande; nie uitgesterf of vernietig nie.",
       "friendly": "Nog vandag hier — gebruik vir ou dinge (manuskripte, spesies, geboue) wat dit reggekry het om te oorleef.",
-      "exampleGloss": "Slegs drie extant kopieë van die eerste druk is bekend.",
+      "exampleGloss": "Slegs drie bewaarde kopieë van die eerste druk is bekend.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit",
@@ -587,7 +587,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Bedrieglikheid; verraad van vertroue.",
       "friendly": "Diep, opsetlike verraad — 'n vertroue verbreek wat iemand tereg verwag het jy sou hou.",
-      "exampleGloss": "Die generaal het nooit sy ou vriend se perfidy by die onderhandelingstafel vergewe nie.",
+      "exampleGloss": "Die generaal het nooit sy ou vriend se verraad by die onderhandelingstafel vergewe nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "deur, teen",
@@ -598,7 +598,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Streekdialek, veral 'n nie-standaard een.",
       "friendly": "Die kenmerkende, plaaslike manier waarop mense in 'n bepaalde streek praat — vol woorde en ritmes wat 'n buitestander dalk mis.",
-      "exampleGloss": "Haar ouma het nog die eiland se patois by familiediners gepraat.",
+      "exampleGloss": "Haar ouma het nog die eiland se streektaal by familiediners gepraat.",
       "origin": "Frans",
       "rootMeanings": [
         "ruwe spraak, dialek",
@@ -609,7 +609,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Spesiale reg wat aan 'n persoon of groep behoort.",
       "friendly": "'n Voorreg wat joune en net joune is — 'n reg wat saam met jou rol, posisie of status kom.",
-      "exampleGloss": "Om die familie se vakansiebestemming te kies is Oupa se prerogative, en almal weet dit.",
+      "exampleGloss": "Om die familie se vakansiebestemming te kies is Oupa se voorreg, en almal weet dit.",
       "origin": "Latyn",
       "rootMeanings": [
         "voor",
@@ -620,7 +620,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Dapperheid, vermetelheid; ook taaiheid of uithouvermoë.",
       "friendly": "Rukkerige, dapper weerstand — die durf om vorentoe te druk en die taaiheid om aan te hou sodra jy begin.",
-      "exampleGloss": "Dit het ware hardihood gevat om die pas in 'n sneeustorm sonder kaart oor te steek.",
+      "exampleGloss": "Dit het ware onverskrokkenheid gevat om die pas in 'n sneeustorm sonder kaart oor te steek.",
       "origin": "Oudfrans / Engels",
       "rootMeanings": [
         "dapper, taai",
@@ -631,7 +631,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om in blom uit te bars; ook om te ontwikkel of geleidelik te verskyn.",
       "friendly": "Om tot volle uitdrukking oop te gaan — soos 'n blom wat oopgaan, of 'n idee wat eindelik tot sy reg kom.",
-      "exampleGloss": "Haar stil skildertalent het effloresced toe sy eers haar eie ateljee gehad het.",
+      "exampleGloss": "Haar stil skildertalent het tot bloei gekom toe sy eers haar eie ateljee gehad het.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit",
@@ -642,7 +642,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Gewig aan 'n tou om loodregtheid te bepaal; figuurlik, 'n maatstaf van oordeel.",
       "friendly": "'n Gewig aan 'n tou wat perfek reguit afhang, gebruik om te kyk of iets werklik loodreg is — en, by uitbreiding, enige vaste maatstaf waarteen jy alles anders meet.",
-      "exampleGloss": "Hy het sy eie oupa se eerlikheid as 'n soort plumb-line vir elke besluit gebruik.",
+      "exampleGloss": "Hy het sy eie oupa se eerlikheid as 'n soort skietlood vir elke besluit gebruik.",
       "origin": "Latyn / Engels",
       "rootMeanings": [
         "lood",
@@ -653,7 +653,7 @@
       "partOfSpeech": "bywoord",
       "definition": "Gaarne, gewillig (ouderwets).",
       "friendly": "'n Ouderwetse manier om \"gladly\" of \"with pleasure\" te sê.",
-      "exampleGloss": "\"I would fain rest here a while,\" het die reisiger gesug.",
+      "exampleGloss": "\"Ek sou maar te graag 'n rukkie hier wou rus,\" het die reisiger gesug.",
       "origin": "Oudengels",
       "rootMeanings": [
         "bly, vrolik",
@@ -664,7 +664,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Harde openbare kritiek of skande.",
       "friendly": "Openbare skaamte wat op iemand in 'n groot, sigbare manier gestort word — die skande wat van wydverspreide afkeur kom.",
-      "exampleGloss": "Die skandaal het openbare opprobrium oor die hele firma laat neerdaal.",
+      "exampleGloss": "Die skandaal het openbare skande oor die hele firma laat neerdaal.",
       "origin": "Latyn",
       "rootMeanings": [
         "teen",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Skerp sarkasties, bytende in gevatheid of kritiek.",
-      "friendly": "Gevatheid met regte tande — 'n mordant opmerking steek 'n bietjie juis omdat dit so trefseker gemik is.",
-      "exampleGloss": "Haar mordant rolprentresensies is deur regisseurs gevrees en deur lesers gelief.",
+      "friendly": "Gevatheid met regte tande — 'n bytende opmerking steek 'n bietjie juis omdat dit so trefseker gemik is.",
+      "exampleGloss": "Haar bytende rolprentresensies is deur regisseurs gevrees en deur lesers gelief.",
       "origin": "Latyn / Frans",
       "rootMeanings": [
         "om te byt",
@@ -686,7 +686,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Formele proklamasie, dikwels polities of militêr.",
       "friendly": "'n Groot, amptelike aankondiging — gewoonlik een wat 'n nuwe regering, opstand of groot dekreet verklaar.",
-      "exampleGloss": "Die generaal se pronunciamento het die nuwe regering teen dagbreek aangekondig.",
+      "exampleGloss": "Die generaal se magsverklaring het die nuwe regering teen dagbreek aangekondig.",
       "origin": "Spaans",
       "rootMeanings": [
         "vorentoe",
@@ -697,7 +697,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Iemand met oppervlakkige kennis wat voorgee om 'n kenner te wees.",
       "friendly": "Iemand wat die oppervlak van 'n onderwerp afgekyk het en dan praat asof hulle die handboek daaroor geskryf het.",
-      "exampleGloss": "Die dinee se sciolist het selfversekerd die werklike astrofisikus by die tafel reggehelp.",
+      "exampleGloss": "Die dinee se skyngeleerde het selfversekerd die werklike astrofisikus by die tafel reggehelp.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te weet",
@@ -708,7 +708,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Afneming van geestelike vermoëns in die ouderdom.",
       "friendly": "Die mistige, vergeetagtige strek van hoë ouderdom wanneer die skerpte van die gees begin vervaag.",
-      "exampleGloss": "In sy dotage het hy dieselfde drie stories elke besoek vertel, elke keer asof dit nuut was.",
+      "exampleGloss": "Op sy oudag het hy dieselfde drie stories elke besoek vertel, elke keer asof dit nuut was.",
       "origin": "Middelengels",
       "rootMeanings": [
         "om te dote, om dwaas te wees",
@@ -719,7 +719,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Die kant wat teen die wind beskut is.",
       "friendly": "Die kalm, beskutte kant van iets — 'n heuwel, 'n skip, 'n muur — waar die wind jou nie heeltemal bereik nie.",
-      "exampleGloss": "Die stappers het hul tent aan die lee-side van die rif opgeslaan om die winde te ontsnap.",
+      "exampleGloss": "Die stappers het hul tent aan die luwtekant van die rif opgeslaan om die winde te ontsnap.",
       "origin": "Oudengels",
       "rootMeanings": [
         "skuiling, beskerming",
@@ -730,7 +730,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om 'n hou, vraag of argument af te weer of weg te slaan.",
       "friendly": "Om iets gladweg weg te slaan — 'n swaardhou, 'n ongemaklike vraag of 'n beskuldiging — sonder om 'n tree te mis.",
-      "exampleGloss": "Sy het die joernalis se lastige vraag met 'n maklike grap parried.",
+      "exampleGloss": "Sy het die joernalis se lastige vraag met 'n maklike grap gepareer.",
       "origin": "Frans",
       "rootMeanings": [
         "om af te weer",
@@ -741,7 +741,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Slegtruikend, skadelik.",
       "friendly": "Stinkend op 'n manier wat byna giftig voel — 'n stank so sleg dat dit gevaarlik lyk om asem te haal.",
-      "exampleGloss": "'n Mephitic reuk het uit die moeras opgedryf toe die son sak.",
+      "exampleGloss": "'n Verpestende reuk het uit die moeras opgedryf toe die son sak.",
       "origin": "Latyn",
       "rootMeanings": [
         "skadelike damp",
@@ -752,7 +752,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Iemand wat aan weelde en plesier toegewy is.",
       "friendly": "Iemand wat vir gemak en genot leef — fyn kos, sagte beddens, maklike lewe — genoem na die antieke Griekse stad Sybaris, bekend vir sy oormaat.",
-      "exampleGloss": "'n Ware sybarite, hy het enige hotelkamer sonder 'n bad geweier.",
+      "exampleGloss": "'n Ware sibariet, hy het enige hotelkamer sonder 'n bad geweier.",
       "origin": "Grieks",
       "rootMeanings": [
         "antieke Griekse stad bekend vir weelde",
@@ -763,7 +763,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om doelbewus 'n deel van iets opsy te sit of te ignoreer.",
       "friendly": "Om 'n stuk van die legkaart doelbewus ter syde te sit, sodat jy skoon op die res kan fokus.",
-      "exampleGloss": "Kom ons prescind 'n oomblik van die koste en vra net of die plan werklik werk.",
+      "exampleGloss": "Kom ons sien 'n oomblik af van die koste en vra net of die plan werklik werk.",
       "origin": "Latyn",
       "rootMeanings": [
         "voor, weg",
@@ -774,7 +774,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om streng te kritiseer; ook om vel af te stroop.",
       "friendly": "Om iemand met harde kritiek stukkend te skeur — verbaal, asof jy letterlik die vel afstroop.",
-      "exampleGloss": "Die kritici het die opvolger excoriated omdat dit alles verraai het wat aanhangers van die oorspronklike liefgehad het.",
+      "exampleGloss": "Die kritici het die opvolger gefileer omdat dit alles verraai het wat aanhangers van die oorspronklike liefgehad het.",
       "origin": "Latyn",
       "rootMeanings": [
         "af",
@@ -785,7 +785,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om as bewys of staaf aan te voer.",
       "friendly": "Om 'n feit of voorbeeld vorentoe te bring om jou punt te staaf — die ding waarna jy wys as iemand vra \"what's your evidence?\"",
-      "exampleGloss": "Die prokureur het drie getuies adduced om haar kliënt se alibi te staaf.",
+      "exampleGloss": "Die prokureur het drie getuies aangevoer om haar kliënt se alibi te staaf.",
       "origin": "Latyn",
       "rootMeanings": [
         "na, toe",
@@ -796,7 +796,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Reise of swerftogte, veral lang of uitgebreide.",
       "friendly": "Lang, swerwende reise — die soort uitgebreide swerf wat jou lank van die huis af wegneem.",
-      "exampleGloss": "Sy peregrinations oor drie kontinente het 'n hele rak reisjoernale gevul.",
+      "exampleGloss": "Sy omswerwinge oor drie kontinente het 'n hele rak reisjoernale gevul.",
       "origin": "Latyn",
       "rootMeanings": [
         "deur",
@@ -807,7 +807,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Bedelaar, of een wat van aalmoese leef.",
       "friendly": "Iemand wat van liefdadigheid leef — histories het dit ook monnike beskryf wat armoede-geloftes afgelê en van skenkings geleef het.",
-      "exampleGloss": "Die mendicant broeders het niks besit nie en heeltemal op die dorpenaars se goedheid staatgemaak.",
+      "exampleGloss": "Die bedelbroeders het niks besit nie en heeltemal op die dorpenaars se goedheid staatgemaak.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te bedel",
@@ -818,7 +818,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Uiters vrygewig.",
       "friendly": "Vrygewig op 'n groot, amper vertoonagtige skaal — die soort geskenk wat mense 'n bietjie laat gis.",
-      "exampleGloss": "Die munificent skenking het die hele nuwe vleuel van die biblioteek befonds.",
+      "exampleGloss": "Die vrygewige skenking het die hele nuwe vleuel van die biblioteek befonds.",
       "origin": "Latyn",
       "rootMeanings": [
         "geskenk, diens",
@@ -829,7 +829,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Uitputting weens gebrek aan voeding; ook 'n gebrek aan lewenskrag.",
       "friendly": "'n Swak, uitgeputte toestand van nie gevoed of aangevuur te wees nie — letterlik van honger, of figuurlik van niks oor te hê om op te ry nie.",
-      "exampleGloss": "Teen die einde van die beleg was die soldate naby inanition.",
+      "exampleGloss": "Teen die einde van die beleg was die soldate naby uitputting.",
       "origin": "Latyn",
       "rootMeanings": [
         "leeg, leemte",
@@ -840,7 +840,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Bitter, beledigende kritiek.",
       "friendly": "Kritiek wat lank verby billik gegaan het en in 'n kwaai, bitter uitbarsting verander het.",
-      "exampleGloss": "Die aanlynkommentaar het binne minute in suiwer vituperation opgelos.",
+      "exampleGloss": "Die aanlynkommentaar het binne minute in suiwer skeldery opgelos.",
       "origin": "Latyn",
       "rootMeanings": [
         "fout",
@@ -851,7 +851,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Vyandig, skadelik van uitwerking.",
       "friendly": "Werk teen jou, selfs stilweg — omstandighede of houdings wat onvriendelik teenoor jou belange is.",
-      "exampleGloss": "Die nuwe beleid was inimical vir klein besighede, selfs al was dit nie die bedoeling nie.",
+      "exampleGloss": "Die nuwe beleid was skadelik vir klein besighede, selfs al was dit nie die bedoeling nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "nie",
@@ -862,7 +862,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Geneig om wrok of ontevredenheid te wek, dikwels deur onbillike vergelykings.",
       "friendly": "Gedoem om iemand te laat voel misken — gewoonlik omdat dit mense of dinge onbillik teen mekaar opstel.",
-      "exampleGloss": "Om die sibbe te rangskik volgens \"who Mom loves best\" is 'n invidious spel wat niemand moet speel nie.",
+      "exampleGloss": "Om die sibbe te rangskik volgens \"wie Ma die liefste het\" is 'n haatlike spel wat niemand moet speel nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "jaloesie",
@@ -873,7 +873,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Iemand van laer rang of status; 'n ondergeskikte.",
       "friendly": "Iemand laer op die bevelsketting of sosiale leer — 'n junior, wat onder iemand met meer mag werk.",
-      "exampleGloss": "As jong subaltern het hy lank bevele geneem voordat hy ooit welke gegee het.",
+      "exampleGloss": "As jong ondergeskikte offisier het hy lank bevele ontvang voordat hy self enige gegee het.",
       "origin": "Latyn",
       "rootMeanings": [
         "onder",
@@ -884,7 +884,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om sterk haat teenoor iets te voel of uit te druk.",
       "friendly": "Om iets só te verafsku dat jy dit hardop vervloek — suiwer, luidrugtige afsku.",
-      "exampleGloss": "Die dorpenaars het die belastinggaarder execrated elke keer as sy wa deur die dorp gerol het.",
+      "exampleGloss": "Die dorpenaars het die belastinggaarder vervloek elke keer as sy wa deur die dorp gerol het.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit",
@@ -895,7 +895,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Natuurlike buitenste bedekking, soos vel of 'n dop.",
       "friendly": "Die natuur se eie beskermende omhulsel — vel, dop, peul of skil, wat ook al iets lewendigs toemaak en beskerm.",
-      "exampleGloss": "'n Skilpad se dop is 'n merkwaardig taai integument.",
+      "exampleGloss": "'n Skilpad se dop is 'n merkwaardig taai bedekking.",
       "origin": "Latyn",
       "rootMeanings": [
         "op, oor",
@@ -906,7 +906,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Onskuldig, naïef, met kinderlike eenvoud; die teenoorgestelde van \"disingenuous.\"",
       "friendly": "Openlik vertrouend en 'n bietjie naïef, sonder enige verborge agenda — maklik om met \"ingenious\" te verwar, wat slim beteken.",
-      "exampleGloss": "Haar ingenuous vraag — \"why would anyone lie about that?\" — het gewys hoe min slinksheid sy gehad het.",
+      "exampleGloss": "Haar argelose vraag — \"hoekom sou iemand daaroor lieg?\" — het gewys hoe min slinksheid sy gehad het.",
       "origin": "Latyn",
       "rootMeanings": [
         "in, inheems",
@@ -917,7 +917,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Oormatige bekommernis oor klein besonderhede of reëls.",
       "friendly": "Verlore raak in die klein reëltjies en die groter prentjie mis — obsessie met die fynskrif waaroor niemand anders omgee nie.",
-      "exampleGloss": "Sy pedantry oor Oxford-kommas het die hele vergadering ontspoor.",
+      "exampleGloss": "Sy muggiesiftery oor Oxford-kommas het die hele vergadering ontspoor.",
       "origin": "Italiaans / Latyn",
       "rootMeanings": [
         "kinders se onderwyser",
@@ -928,7 +928,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Deeglike, sorgvuldige ondersoek.",
       "friendly": "'n Diep, geen-klip-omgedraaide kyk na iets — elke besonderheid met ware sorg deurgaan.",
-      "exampleGloss": "Eers na 'n noukeurige perscrutation van die grootboeke het die afwyking opgeduik.",
+      "exampleGloss": "Eers na 'n noukeurige deursoeking van die grootboeke het die afwyking opgeduik.",
       "origin": "Latyn",
       "rootMeanings": [
         "deur, deeglik",
@@ -939,7 +939,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om besware te opper; om onwillig te toon.",
       "friendly": "Om beleefd terug te druk of te huiwer eerder as dadelik saam te gaan — 'n sagte \"I'd rather not.\"",
-      "exampleGloss": "Toe sy gevra is om te teken sonder om te lees, het sy demurred.",
+      "exampleGloss": "Toe sy gevra is om te teken sonder om te lees, het sy beswaar gemaak.",
       "origin": "Latyn / Frans",
       "rootMeanings": [
         "van, weg",
@@ -950,7 +950,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Oppervlakkig aannemlik maar eintlik verkeerd.",
       "friendly": "Klink oortuigend by die eerste oogopslag, maar val uitmekaar die oomblik as jy dit werklik nagaan.",
-      "exampleGloss": "\"Everyone's doing it\" is 'n specious argument wat nooit heeltemal onder ondersoek hou nie.",
+      "exampleGloss": "\"Everyone's doing it\" is 'n skynbaar oortuigende argument wat by nadere ondersoek nooit heeltemal standhou nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "voorkoms, aansien",
@@ -961,7 +961,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Oneerlike, skynheilige praat, dikwels moraliserend.",
       "friendly": "Preekagtige praat wat deugsaam klink maar deur geen ware gevoel gesteun word nie — morele posering op outopilot.",
-      "exampleGloss": "Hy was moeg vir die korporatiewe cant oor \"family\" van 'n maatskappy wat nooit iemand afgee nie.",
+      "exampleGloss": "Hy was moeg vir die korporatiewe holle praatjies oor \"familie\" van 'n maatskappy wat nooit iemand afgee nie.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te sing (later: singsang-jargon)",
@@ -972,7 +972,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Sonder moed, lafhartig.",
       "friendly": "Bang tot ruggraatloosheid — té bang om standpunt in te neem selfs wanneer dit duidelik saak maak.",
-      "exampleGloss": "Die raad se pusillanimous stilte het die skandaal uit beheer laat spiral.",
+      "exampleGloss": "Die raad se lafhartige stilte het die skandaal laat handuit ruk.",
       "origin": "Latyn",
       "rootMeanings": [
         "baie klein",
@@ -983,7 +983,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Jakkalsagtig; slinks, listig.",
       "friendly": "Slinks en slim soos 'n jakkals — vinnig van verstand, 'n bietjie gluiperig, altyd 'n tree vooruit.",
-      "exampleGloss": "Hy het 'n vulpine glimlag gegee die oomblik toe hy die slaggat raakgesien het.",
+      "exampleGloss": "Hy het 'n slinkse glimlag gegee die oomblik toe hy die slaggat raakgesien het.",
       "origin": "Latyn",
       "rootMeanings": [
         "jakkals",
@@ -994,7 +994,7 @@
       "partOfSpeech": "bywoord",
       "definition": "Een ná die ander, in volgorde.",
       "friendly": "Streng een op 'n slag, in volgorde — geen voorspring nie, geen twee gelyktydig nie.",
-      "exampleGloss": "Die regter het elk van die twaalf eise seriatim aangespreek.",
+      "exampleGloss": "Die regter het elk van die twaalf eise een vir een aangespreek.",
       "origin": "Latyn",
       "rootMeanings": [
         "ry, volgorde",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Uiterste spaarsaamheid; vrekkerigheid.",
       "friendly": "Suinig wees met geld (of woorde, of hulpbronne) ver verby redelike spaarsaamheid.",
-      "exampleGloss": "Sy parsimony was legendaries — hy het teesakkies drie keer hergebruik.",
+      "exampleGloss": "Sy suinigheid was legendaries — hy het teesakkies drie keer hergebruik.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te spaar, om spaarsaam te wees",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Regstelling, veral in 'n teks.",
       "friendly": "'n Herstel aan 'n stuk skryfwerk — 'n geleerde aanpassing wat 'n fout in 'n ou of belangrike teks regstel.",
-      "exampleGloss": "Die nuwe uitgawe bevat dosyne emendations aan die oorspronklike manuskrip.",
+      "exampleGloss": "Die nuwe uitgawe bevat dosyne tekstverbeteringe aan die oorspronklike manuskrip.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Matig in eet en drink.",
       "friendly": "Doelbewus ingetoë rondom kos en drank — nooit oordadig nie, altyd 'n bietjie op die bord gelos.",
-      "exampleGloss": "Sy abstemious gewoontes het hom skerp gehou lank nadat sy leeftydgenote vertraag het.",
+      "exampleGloss": "Sy matige gewoontes het hom skerp gehou lank nadat sy leeftydgenote vertraag het.",
       "origin": "Latyn",
       "rootMeanings": [
         "weg van",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Grammatikale fout of 'n skending van etiket.",
       "friendly": "'n Misstap in grammatika of maniere — die soort klein fout wat 'n vitter laat wince.",
-      "exampleGloss": "\"Between you and I\" is 'n algemene solecism wat grammatikuste steeds laat ruggraat kry.",
+      "exampleGloss": "\"Between you and I\" is 'n algemene solesisme wat grammatici steeds laat krimp.",
       "origin": "Grieks",
       "rootMeanings": [
         "Silisiese stad bekend vir 'slegte' Grieks",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Wat betrekking het op konflik binne 'n groep; wedersyds vernietigend.",
       "friendly": "Binnegeveg wat 'n groep van binne verskeur — 'n stryd waarin almal verloor, want dit is familie teen familie.",
-      "exampleGloss": "Die party se internecine gekibbel het meer skade gedoen as enige buitestaander ooit kon.",
+      "exampleGloss": "Die party se onderlinge gekibbel het meer skade gedoen as enige buitestaander ooit kon.",
       "origin": "Latyn",
       "rootMeanings": [
         "tussen, onder",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "byvoeglike naamwoord / selfstandige naamwoord",
       "definition": "Onverskillige, nalatige houding.",
       "friendly": "'n Skouerophaling tot 'n hele persoonlikheid gemaak — so min omgee vir dinge wat vroeër saakgemaak het dat niks meer die moeite werd lyk nie.",
-      "exampleGloss": "Sy pococurante houding teenoor die prysseremonie het almal verras wat geweet het hoe hard hy gewerk het.",
+      "exampleGloss": "Sy onverskillige houding teenoor die prysseremonie het almal verras wat geweet het hoe hard hy gewerk het.",
       "origin": "Italiaans",
       "rootMeanings": [
         "bietjie",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Verwarde, ingewikkelde situasie of dispuut.",
       "friendly": "'n Verwronge, gemorsige situasie wat moeilik is om sin van te maak — deels misverstand, deels drama, alles verwarring.",
-      "exampleGloss": "Die hele sitplekkaart-imbroglio het met een verkeerd geplaasde naamkaartjie begin.",
+      "exampleGloss": "Die hele verwikkeling rondom die sitplekkaart het met een verkeerd geplaasde naamkaartjie begin.",
       "origin": "Italiaans",
       "rootMeanings": [
         "in",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Dreigend, dreigend.",
-      "friendly": "Dra 'n onmiskenbare lug van dreigement — 'n minatory blik of brief maak dit baie duidelik dat iets sleg kan volg.",
-      "exampleGloss": "Die minatory toon van die brief het die huurder senuweeagtig gemaak nog voordat sy die koevert oopgemaak het.",
+      "friendly": "Dra 'n onmiskenbare lug van dreigement — 'n dreigende blik of brief maak dit baie duidelik dat iets sleg kan volg.",
+      "exampleGloss": "Die dreigende toon van die brief het die huurder senuweeagtig gemaak nog voordat sy die koevert oopgemaak het.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te dreig",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Sterk openbare kritiek of verbale skeldery.",
       "friendly": "Luidrugtige, openbare veroordeling — die soort blitsende kritiek wat voor almal afspeel.",
-      "exampleGloss": "Die fluitblaser het jare se openbare obloquy in die gesig gestaar voordat die geskiedenis haar gelyk gegee het.",
+      "exampleGloss": "Die fluitblaser het jare se openbare smaad in die gesig gestaar voordat die geskiedenis haar gelyk gegee het.",
       "origin": "Latyn",
       "rootMeanings": [
         "teen",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Skielike geweldadige uitbarsting, van emosie of aksie.",
       "friendly": "'n Skielike, intense stoot wat jou ineens oorweldig — 'n vlaag van lag, woede of hoes wat soos 'n golf tref.",
-      "exampleGloss": "Sy is deur 'n paroxysm van lag aangegryp wat sy vir niemand anders in die kamer kon verduidelik nie.",
+      "exampleGloss": "Sy is deur 'n paroksisme van lag aangegryp wat sy vir niemand anders in die kamer kon verduidelik nie.",
       "origin": "Grieks",
       "rootMeanings": [
         "bo",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Bygevoeg uit 'n eksterne bron, nie inherent nie.",
       "friendly": "Van buite vasgeskroef eerder as van die begin af ingebou — 'n ekstra, nie 'n kerndeel nie.",
-      "exampleGloss": "Die kommentaar voel adscititious, asof dit op 'n reeds voltooide teks geplak is.",
+      "exampleGloss": "Die kommentaar voel bygevoeg van buite, asof dit op 'n reeds voltooide teks geplak is.",
       "origin": "Latyn",
       "rootMeanings": [
         "by, bykomend",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Gebrek aan kennis, onkunde.",
       "friendly": "Eenvoudige nie-weet — 'n gaping in kennis, sonder enige oordeel daaraan geheg.",
-      "exampleGloss": "Hy het sy nescience van Franse wyn erken en die sommelier laat kies.",
+      "exampleGloss": "Hy het sy onkunde oor Franse wyn erken en die sommelier laat kies.",
       "origin": "Latyn",
       "rootMeanings": [
         "nie",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Oormatige belangstelling in seksuele sake.",
       "friendly": "'n Oorywerige, loerende nuuskierigheid oor enigiets pittig — belangstelling wat verby gesond naatjie gegaan het.",
-      "exampleGloss": "Die tabloid se prurience oor die paartjie se privaatlewe het aan obsessief gegrens.",
+      "exampleGloss": "Die tabloid se wellustige nuuskierigheid oor die paartjie se privaatlewe het aan obsessief gegrens.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te jeuk, om te smag na",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Roetig, donker, donkerig.",
       "friendly": "Donker en rokerig van voorkoms, asof alles met 'n dun laag roet bedek is.",
-      "exampleGloss": "'n Fuliginous waas het teen skemer oor die fabrieksdorp gehang.",
+      "exampleGloss": "'n Roetswart waas het teen skemer oor die fabrieksdorp gehang.",
       "origin": "Latyn",
       "rootMeanings": [
         "roet",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om te ontken of te weerspreek.",
       "friendly": "Om platweg teen iets te praat wat iemand anders gesê het — om te sê \"that's not so.\"",
-      "exampleGloss": "Niemand het durf gainsay die ou kaptein se relaas van die storm nie.",
+      "exampleGloss": "Niemand het durf teëspreek wat die ou kaptein oor die storm vertel het nie.",
       "origin": "Middelengels",
       "rootMeanings": [
         "teen",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Luiheid, traagheid (uit Latyn).",
       "friendly": "'n Ou Latynse woord vir suiwer luiheid — die sleep van glad niks te wil doen nie.",
-      "exampleGloss": "Die monnike het teen ignavia gepreek as een van die siel se stille gevare.",
+      "exampleGloss": "Die monnike het teen traagheid gepreek as een van die siel se stille gevare.",
       "origin": "Latyn",
       "rootMeanings": [
         "nie",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Skild wat 'n wapen toon.",
       "friendly": "Die skildvormige embleem wat 'n familie se wapen toon — sy heraldiese \"nameplate.\"",
-      "exampleGloss": "Die familie se escutcheon hang nog bo die ou herehuis se voordeur.",
+      "exampleGloss": "Die familie se wapenskild hang nog bo die ou herehuis se voordeur.",
       "origin": "Latyn / Oudfrans",
       "rootMeanings": [
         "skild",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Verouderd, obsoleet, of weens ouderdom afgetree.",
       "friendly": "Verby sy nuttige toppunt en op die weiveld gesit — té ouderwets of verslete om die werk aan te hou doen.",
-      "exampleGloss": "Die superannuated drukker is eindelik ná vyftien jaar se vasmaak vervang.",
+      "exampleGloss": "Die afgeskrewe drukker is eindelik ná vyftien jaar se papiervasval vervang.",
       "origin": "Latyn",
       "rootMeanings": [
         "bo",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Plaasvervangers, veral in die geneeskunde.",
       "friendly": "Instaanmiddels wat gebruik word wanneer die ware behandeling nie beskikbaar is nie — mediese onderstudies, in wese.",
-      "exampleGloss": "Oorlogstydse dokters het dikwels op succedanea staatgemaak wanneer die regte medisyne opgeraak het.",
+      "exampleGloss": "Oorlogstydse dokters het dikwels op surrogate staatgemaak wanneer die regte medisyne opgeraak het.",
       "origin": "Latyn",
       "rootMeanings": [
         "in die plek van",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Spoggerige, blaserige praat.",
       "friendly": "Groot, blaserige spog — luide praat oor jou eie grootheid wat meestal warm lug is.",
-      "exampleGloss": "Sy rodomontade oor hoe hy die projek \"single-handedly\" gered het, het niemand gefop wat werklik daar was nie.",
+      "exampleGloss": "Sy grootpratery oor hoe hy die projek \"op sy eie\" gered het, het niemand gefop wat werklik daar was nie.",
       "origin": "Italiaans",
       "rootMeanings": [
         "spoggerige ridder in Orlando Furioso",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om slenter of bedrog te gebruik om iets te bereik.",
       "friendly": "Om jou met gluiperige truuks na 'n doel te wurm eerder as deur billike spel.",
-      "exampleGloss": "Hy het hom met 'n kontrak vol fynskrif in die ooreenkoms chicaned.",
+      "exampleGloss": "Hy het hom met 'n kontrak vol fynskrif in die ooreenkoms ingekonkel.",
       "origin": "Frans",
       "rootMeanings": [
         "om te kibbel, om te bedrieg",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Oordrewe begaan oor formele reëls of triviale besonderhede.",
       "friendly": "Oordrewe streng oor die kleinighede — klein tegniese puntjies korrigeer wat eintlik niks verander nie.",
-      "exampleGloss": "Dit het 'n bietjie pedantic gevoel om in 'n teksboodskap oor \"who\" versus \"whom\" te stry.",
+      "exampleGloss": "Dit het 'n bietjie pedanties gevoel om in 'n teksboodskap oor \"who\" versus \"whom\" te stry.",
       "origin": "Italiaans / Grieks",
       "rootMeanings": [
         "kindergids, tutor",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Flitsende, sprankelende lig.",
       "friendly": "'n Vinnige, glinsterende ligflits — dink aan sonlig wat van water afbons, of 'n diamant wat die lig vang.",
-      "exampleGloss": "Die coruscation van die kandelaar het lig oor elke hoek van die balsaal gestrooi.",
+      "exampleGloss": "Die fonkeling van die kandelaar het lig oor elke hoek van die balsaal gestrooi.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te glinster, om te flits",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Beginner, nuweling.",
       "friendly": "Iemand splinternuut in 'n vaardigheid of veld — nog besig om die toue te leer, nog nie 'n kenner nie.",
-      "exampleGloss": "Selfs 'n tyro skaakspeler kan daardie flater raaksien.",
+      "exampleGloss": "Selfs 'n beginner-skaakspeler kan daardie flater raaksien.",
       "origin": "Latyn",
       "rootMeanings": [
         "rekruut, nuweling",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Uiters sleg, veragtelik.",
       "friendly": "Sleg op 'n manier wat ware afsku verdien — nie net \"mediocre\" nie, maar werklik veragtelik.",
-      "exampleGloss": "Die resensent het die opvolger execrable genoem, en die kassytellings het saamgestem.",
+      "exampleGloss": "Die resensent het die opvolger verfoeilik genoem, en die kassytellings het saamgestem.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te vervloek",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Bloedrooi van kleur.",
       "friendly": "'n Diep, lewendige rooi — die kleur van vars bloed, beroemd deur Shakespeare se Macbeth gebruik.",
-      "exampleGloss": "Die sonsondergang het die hele hemel 'n incarnadine gloed gegee.",
+      "exampleGloss": "Die sonsondergang het die hele hemel 'n bloedrooi gloed gegee.",
       "origin": "Italiaans / Latyn",
       "rootMeanings": [
         "in",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Klein gaping of spasie tussen dinge.",
       "friendly": "Die piepklein tussenruimte wat maklik misgekyk word — die skeur tussen die vloerplanke, die gaping in 'n rooster.",
-      "exampleGloss": "Onkruid het deur elke interstice in die ou baksteenpaadjie opgestoot.",
+      "exampleGloss": "Onkruid het deur elke voeg in die ou baksteenpaadjie opgestoot.",
       "origin": "Latyn",
       "rootMeanings": [
         "tussen",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Kritiese of afkeurende opmerkings.",
       "friendly": "Puntige, afkeurende kommentaar — die soort kritiek wat 'n bietjie skeltoon dra.",
-      "exampleGloss": "Die professor se animadversions op die opstel het die kantlyne met rooi ink gevul.",
+      "exampleGloss": "Die professor se berispings op die opstel het die kantlyne met rooi ink gevul.",
       "origin": "Latyn",
       "rootMeanings": [
         "verstand",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Onmoontlik om te weerlê, onontkenbaar.",
       "friendly": "Só solied bewys dat daar nie mee te stry is nie — die saak is eenvoudig toe.",
-      "exampleGloss": "Die DNA-bewys was irrefragable, en die verhoor was binne die uur verby.",
+      "exampleGloss": "Die DNA-bewys was onweerlegbaar, en die verhoor was binne die uur verby.",
       "origin": "Latyn",
       "rootMeanings": [
         "nie",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Kompleksiteit, ingewikkeldheid; ook 'n inwaartse krul.",
       "friendly": "'n Verwronge, in-homself-gevoude soort kompleksiteit — dinge só styf inmekaar gewikkel dat hulle moeilik uitmekaar te trek is.",
-      "exampleGloss": "Die plot se involution het die helfte van die gehoor ná die nateks probeer ontrafel.",
+      "exampleGloss": "Die plot se verwikkeling het die helfte van die gehoor ná die kredietrolle laat probeer ontrafel.",
       "origin": "Latyn",
       "rootMeanings": [
         "in, inwaarts",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Krag of poging, soos in \"by dint of.\"",
       "friendly": "Blote poging of krag — oorleef vandag meestal in die frase \"by dint of.\"",
-      "exampleGloss": "Hy het die eksamen by dint of blote, koppige oefening geslaag.",
+      "exampleGloss": "Hy het die eksamen deur blote, koppige oefening geslaag.",
       "origin": "Oudengels",
       "rootMeanings": [
         "'n hou, 'n slag",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Met 'n tap-en-gat-las verbind; stewig inmekaar gepas.",
       "friendly": "Op die ouderwetse skrynwerker se manier inmekaar gesluit — een stuk wat netjies in 'n gaatjie gly wat net daarvoor gesny is.",
-      "exampleGloss": "Die ou skuur se balke was sonder 'n enkele spyker mortised.",
+      "exampleGloss": "Die ou skuur se balke was sonder 'n enkele spyker met pen-en-gat ineengevoeg.",
       "origin": "Latyn / Frans",
       "rootMeanings": [
         "'n holte, 'n gat",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Hoogs relevant, trefseker.",
       "friendly": "Presies die regte pas vir die oomblik — 'n opmerking, aanhaling of voorbeeld wat perfek op die punt land.",
-      "exampleGloss": "Haar apposite opmerking het die hele debat in een sin opgesom.",
+      "exampleGloss": "Haar treffende opmerking het die hele debat in een sin opgesom.",
       "origin": "Latyn",
       "rootMeanings": [
         "na",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Sag gloeiend of flikkerend (lig); ook ligte gevatheid.",
       "friendly": "Sag gloeiend eerder as blakend — 'n sagte, flikkerende lig, of 'n gevatheid wat speels eerder as skerp is.",
-      "exampleGloss": "Kerlig het 'n lambent gloed oor die ou eetkamer gegooi.",
+      "exampleGloss": "Kerslig het 'n sagte flikkerende gloed oor die ou eetkamer gegooi.",
       "origin": "Latyn",
       "rootMeanings": [
         "om te lek",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Godsdienstige kluisenaar wat in eensaamheid leef.",
       "friendly": "Iemand wat hom heeltemal van die wêreld onttrek om alleen in gebed en nadenke te leef.",
-      "exampleGloss": "Die anchorite het meer as dertig jaar in 'n klein sel teen die kerk gewoon.",
+      "exampleGloss": "Die kluisenaar het meer as dertig jaar in 'n klein sel teen die kerk gewoon.",
       "origin": "Grieks",
       "rootMeanings": [
         "terug, weg",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om dors te les; om te blus.",
       "friendly": "Om 'n hunkering ten volle te bevredig — meestal dors, maar figuurlik enige diep behoefte.",
-      "exampleGloss": "Een koue glas water het sy dors ná die lang staptog slaked.",
+      "exampleGloss": "Een koue glas water het sy dors ná die lang staptog geles.",
       "origin": "Oudengels",
       "rootMeanings": [
         "slap, los",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Naaldvormig.",
       "friendly": "Lank, dun en gepunt soos 'n naald — die vorm van 'n denne-naald of 'n skerp klein kristal.",
-      "exampleGloss": "Dennebome is maklik aan hul acicular blare te herken.",
+      "exampleGloss": "Dennebome is maklik aan hul naaldvormige blare te herken.",
       "origin": "Latyn",
       "rootMeanings": [
         "naald",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "Van lewenskrag uitgeput, swak, oorverfyn.",
       "friendly": "Verslete en sag — sy oorspronklike krag of pit deur te veel gemak of verfyning verloor.",
-      "exampleGloss": "Kritici het die eens-dapper tydskrif effete genoem, 'n skaduwee van sy vroeë dapper jare.",
+      "exampleGloss": "Kritici het die eens-dapper tydskrif uitgeblus genoem, 'n skaduwee van sy vroeë dapper jare.",
       "origin": "Latyn",
       "rootMeanings": [
         "uit",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "'n Bykomstigheid of kleiner aangehegte item of reg.",
       "friendly": "'n Klein ekstra wat aan iets groters kleef — die bykomstighede en aanhangsels wat by die hoofsaak hoort.",
-      "exampleGloss": "Die huurkontrak het die motorhuis en al sy appurtenances ingesluit.",
+      "exampleGloss": "Die huurkontrak het die motorhuis en al sy aanhorighede ingesluit.",
       "origin": "Latyn / Frans",
       "rootMeanings": [
         "na",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "werkwoord",
       "definition": "Om 'n fout te verbloem of te verklein.",
       "friendly": "Om 'n fout met sagte woorde glad te stryk, sodat dit kleiner klink as wat dit werklik is.",
-      "exampleGloss": "Hy het probeer gloze oor die gemiste sperdatum met vage praat van \"unforeseen challenges.\"",
+      "exampleGloss": "Hy het probeer om die gemiste sperdatum te verbloem met vae praat oor \"onvoorsiene uitdagings\".",
       "origin": "Oudfrans / Latyn",
       "rootMeanings": [
         "'n glos, 'n verklaring",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "byvoeglike naamwoord",
       "definition": "In 'n vroeë stadium, net aan die begin.",
       "friendly": "Net begin om homself te toon — die heel eerste, skaars-sigbare stadium van iets groters wat kom.",
-      "exampleGloss": "Dokters het die incipient tekens van die siekte gevang voordat dit kon versprei.",
+      "exampleGloss": "Dokters het die beginnende tekens van die siekte gevang voordat dit kon versprei.",
       "origin": "Latyn",
       "rootMeanings": [
         "op, in",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "selfstandige naamwoord",
       "definition": "Skeppende inspirasie, veral goddelike.",
       "friendly": "'n Skielike golf van inspirasie wat groter as jy voel — asof die idee van iewers anders in jou ingeasem is.",
-      "exampleGloss": "Die digter het beskryf hoe die hele stuk in een stoot van afflatus om 3 vm. gekom het.",
+      "exampleGloss": "Die digter het beskryf hoe die hele stuk in een stoot van ingewing om 3 vm. gekom het.",
       "origin": "Latyn",
       "rootMeanings": [
         "na, op",

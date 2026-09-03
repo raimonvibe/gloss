@@ -4,7 +4,7 @@
       "partOfSpeech": "动词",
       "definition": "使变甜或净化；从某物除去粗砺。",
       "friendly": "把刺或苦味拿掉——字面上变甜，或比喻上把刺耳的想法软化，让人比较吞得下去。",
-      "exampleGloss": "编辑在付印前把苛刻的书评 edulcorated 了。",
+      "exampleGloss": "编辑在付印前把苛刻的书评冲淡了。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向外、彻底地",
@@ -15,7 +15,7 @@
       "partOfSpeech": "形容词",
       "definition": "过度或做作地虔诚。",
       "friendly": "形容信仰看起来像表演、为给人看，多于真心。",
-      "exampleGloss": "讲道时他 pietistic 的叹气惹恼了整排座位。",
+      "exampleGloss": "讲道时他虔敬做作的叹气惹恼了整排座位。",
       "origin": "拉丁语",
       "rootMeanings": [
         "虔诚、尽责",
@@ -26,7 +26,7 @@
       "partOfSpeech": "名词",
       "definition": "由文法结构产生的歧义——一句话可读成两种意思。",
       "friendly": "文法没问题，却能读成完全不同的两种意思，例如「Visiting relatives can be tiring」。",
-      "exampleGloss": "「Visiting relatives can be tiring」是经典 amphiboly——累的是亲戚，还是去探望？",
+      "exampleGloss": "「Visiting relatives can be tiring」是经典的歧义句——累的是亲戚，还是去探望？",
       "origin": "希腊语",
       "rootMeanings": [
         "两者、两边",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "形容词",
       "definition": "锐利、一针见血，直切要点。",
-      "friendly": "直接削掉废话——trenchant 的评语或心思很快抵达内核，没有废字。",
-      "exampleGloss": "她 trenchant 的批评没给电影的漏洞留下藏身处。",
+      "friendly": "直接削掉废话——犀利的评语或心思很快抵达内核，没有废字。",
+      "exampleGloss": "她犀利的批评没给电影的漏洞留下藏身处。",
       "origin": "古法语",
       "rootMeanings": [
         "切开",
@@ -48,7 +48,7 @@
       "partOfSpeech": "形容词",
       "definition": "刚开始；处于早期或萌芽阶段。",
       "friendly": "还在开场——计划、感觉或过程才刚成形。",
-      "exampleGloss": "条约的 inchoative 阶段看来有希望，但许多细节仍未定。",
+      "exampleGloss": "条约的初始阶段看来有希望，但许多细节仍未定。",
       "origin": "拉丁语",
       "rootMeanings": [
         "开始、着手",
@@ -59,7 +59,7 @@
       "partOfSpeech": "名词",
       "definition": "高度赞扬某人的正式演说或文章。",
       "friendly": "盛大而正式的颂词——想像一篇发光的悼词，或从屋顶唱颂功绩的演讲。",
-      "exampleGloss": "即将退休的教授由最亲近的学生以一篇 panegyric 送行。",
+      "exampleGloss": "即将退休的教授由最亲近的学生以一篇颂辞送行。",
       "origin": "希腊语",
       "rootMeanings": [
         "全部",
@@ -70,7 +70,7 @@
       "partOfSpeech": "形容词",
       "definition": "关乎真实存在或事实之在，而非抽象理论。",
       "friendly": "谈事物在现实中如何存在，而不只是关于它们的观念或理论。",
-      "exampleGloss": "哲学家争论数字有没有任何 ontic 地位，还是只存在于心中。",
+      "exampleGloss": "哲学家争论数字有没有任何实存地位，还是只存在于心中。",
       "origin": "希腊语",
       "rootMeanings": [
         "存在、所是之物",
@@ -81,7 +81,7 @@
       "partOfSpeech": "动词",
       "definition": "结果实，或变得有生产力。",
       "friendly": "终于开花结果——努力、想法或投资从种子长成有用之物。",
-      "exampleGloss": "多年安静的研究终于 fructified 成可用的疫苗。",
+      "exampleGloss": "多年安静的研究终于结出可用的疫苗。",
       "origin": "拉丁语",
       "rootMeanings": [
         "果实",
@@ -92,7 +92,7 @@
       "partOfSpeech": "形容词",
       "definition": "在实际发生前，把某事当成已经完成来呈现。",
       "friendly": "文学式的抢跑——把未来写成已经结束，好让论点更用力落地。",
-      "exampleGloss": "将军为「胜利」举的 proleptical 祝酒，在战役整整一周前就说了。",
+      "exampleGloss": "将军为「胜利」举的预言式祝酒，在战役整整一周前就说了。",
       "origin": "希腊语",
       "rootMeanings": [
         "之前",
@@ -103,7 +103,7 @@
       "partOfSpeech": "形容词",
       "definition": "以气压驱动；也关乎灵或气息。",
       "friendly": "通常指「用压缩空气推动」——也可指灵或气息。",
-      "exampleGloss": "公车靠到路边时，pneumatic 煞车嘶地一声。",
+      "exampleGloss": "公车靠到路边时，气压煞车嘶地一声。",
       "origin": "希腊语",
       "rootMeanings": [
         "风、气息、灵",
@@ -114,7 +114,7 @@
       "partOfSpeech": "形容词",
       "definition": "以肯定陈述描述神或神圣——与否定神学相对。",
       "friendly": "用「神是什么」来谈神——例如「God is love」——而不只说神不是什么。",
-      "exampleGloss": "Cataphatic 神学自信地说神是慈爱、公义、怜悯的。",
+      "exampleGloss": "肯定神学自信地说神是慈爱、公义、怜悯的。",
       "origin": "希腊语",
       "rootMeanings": [
         "向下、依照",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "形容词",
       "definition": "基于信任或信心；也用作固定参考点。",
-      "friendly": "先信了再当锚点——fiducial 标记是其余一切用来量测的固定点。",
-      "exampleGloss": "测量员在绘制场址前，把 fiducial 标记放进基岩。",
+      "friendly": "先信了再当锚点——基准标记是其余一切用来量测的固定点。",
+      "exampleGloss": "测量员在绘制场址前，把基准标记放进基岩。",
       "origin": "拉丁语",
       "rootMeanings": [
         "信任",
@@ -136,7 +136,7 @@
       "partOfSpeech": "名词",
       "definition": "在恶存在的前提下为神的良善辩护。",
       "friendly": "古老的尝试：回答「若神是善的，为何有恶？」",
-      "exampleGloss": "她的论文从约伯记的视角探讨 theodicy。",
+      "exampleGloss": "她的论文从约伯记的视角探讨神义论。",
       "origin": "希腊语",
       "rootMeanings": [
         "神",
@@ -147,7 +147,7 @@
       "partOfSpeech": "名词",
       "definition": "互相内住——三位一体各位格彼此内在的神学用语。",
       "friendly": "三而一、彼此完全包含又被包含的神学字眼。",
-      "exampleGloss": "circumincession 的教义试图说明圣父、圣子、圣灵既有分别又不可分割。",
+      "exampleGloss": "位格互渗的教义试图说明圣父、圣子、圣灵既有分别又不可分割。",
       "origin": "拉丁语",
       "rootMeanings": [
         "周围",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "动词",
       "definition": "带来回报或反照到某人身上的后果。",
-      "friendly": "功劳（或责难）弹回负责人——对名声 redound 的善行会绕回来奖赏你。",
-      "exampleGloss": "队伍的成功将 redound 到那位安静勤奋的教练的功劳上。",
+      "friendly": "功劳（或责难）弹回负责人——为名声增光的善行会绕回来奖赏你。",
+      "exampleGloss": "队伍的成功将归到那位安静勤奋的教练的功劳上。",
       "origin": "拉丁语",
       "rootMeanings": [
         "回来、再次",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "形容词",
       "definition": "无法避免或逃脱。",
-      "friendly": "无论怎么做都会发生——ineluctable 的结局挣不脱。",
-      "exampleGloss": "衰老会来到每个人身上；这简直是 ineluctable。",
+      "friendly": "无论怎么做都会发生——无可逃避的结局挣不脱。",
+      "exampleGloss": "衰老会来到每个人身上；这简直无可逃避。",
       "origin": "拉丁语",
       "rootMeanings": [
         "不",
@@ -180,7 +180,7 @@
       "partOfSpeech": "形容词",
       "definition": "用迂回冗长的措辞，而不用直接形式。",
       "friendly": "用话说远路——说「make a decision」而不说「decide」。",
-      "exampleGloss": "他 periphrastic 的电子邮件，三个段落才讲完一行就能说完的话。",
+      "exampleGloss": "他迂回啰嗦的电子邮件，三个段落才讲完一行就能说完的话。",
       "origin": "希腊语",
       "rootMeanings": [
         "周围",
@@ -191,7 +191,7 @@
       "partOfSpeech": "名词",
       "definition": "心智迟钝或昏沉。",
       "friendly": "思考像在糖浆里蹚水的雾茫茫、懒洋洋的心智状态。",
-      "exampleGloss": "午餐过后，一阵 hebetude 袭上全班。",
+      "exampleGloss": "午餐过后，一阵迟钝袭上全班。",
       "origin": "拉丁语",
       "rootMeanings": [
         "钝的、不锋利的",
@@ -202,7 +202,7 @@
       "partOfSpeech": "形容词",
       "definition": "不利的；预兆不佳。",
       "friendly": "坏兆头——还没开始，条件或时机就像在跟你作对。",
-      "exampleGloss": "灰蒙蒙的天空加上没电的汽车电池，让这趟公路旅行有个 unpropitious 的开头。",
+      "exampleGloss": "灰蒙蒙的天空加上没电的汽车电池，让这趟公路旅行有个不吉利的开头。",
       "origin": "拉丁语",
       "rootMeanings": [
         "不",
@@ -211,9 +211,9 @@
     },
     "fricaseed": {
       "partOfSpeech": "形容词／动词",
-      "definition": "以酱汁炖或焖的肉——正确拼法是 fricasseed。",
+      "definition": "以酱汁炖或焖的肉——正确拼法是「fricasseed」。",
       "friendly": "把肉切开、用自己的酱汁慢慢煨到软的温暖旧厨用语。",
-      "exampleGloss": "祖母的 fricasseed 鸡肉是每个周日晚餐的亮点。",
+      "exampleGloss": "祖母的白汁炖鸡是每个周日晚餐的亮点。",
       "origin": "法语",
       "rootMeanings": [
         "油煎",
@@ -224,7 +224,7 @@
       "partOfSpeech": "形容词",
       "definition": "人工或较劣的替代品。",
       "friendly": "顶替真货的仿品——勉强能用，但人人看得出不是真的。",
-      "exampleGloss": "战时购物者只好将就用烘焙菊苣煮的 ersatz 咖啡。",
+      "exampleGloss": "战时购物者只好将就用烘焙菊苣煮的代用咖啡。",
       "origin": "德语",
       "rootMeanings": [
         "向外、替代前缀",
@@ -235,7 +235,7 @@
       "partOfSpeech": "动词",
       "definition": "把抽象观念当成具体事物来对待。",
       "friendly": "让想法感觉实在——把模糊的东西，例如「the economy」，变成可以指着的对象。",
-      "exampleGloss": "把一国的「精神」称为独立存在，是把其实只是数百万个选择的东西 reifies 了。",
+      "exampleGloss": "把一国的「精神」称为独立存在，是把其实只是数百万个选择的东西实体化了。",
       "origin": "拉丁语",
       "rootMeanings": [
         "事物",
@@ -246,7 +246,7 @@
       "partOfSpeech": "动词（过去式）",
       "definition": "灵巧地逃脱或避开了。",
       "friendly": "干净俐落地溜走——巧妙或惊险地躲开捕捉、问题或答案。",
-      "exampleGloss": "答案 eluded 了她好几小时，直到淋浴时忽然接通。",
+      "exampleGloss": "答案躲了她好几小时，直到淋浴时忽然接通。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向外、离开",
@@ -257,7 +257,7 @@
       "partOfSpeech": "形容词",
       "definition": "表达疑惑、困惑或未解的矛盾。",
       "friendly": "卡在真正的思路死胡同——不是懒得想，而是问题本身拒绝整齐的答案。",
-      "exampleGloss": "苏格拉底常以 aporetic 的调子结束对话，留下的问题多过答案。",
+      "exampleGloss": "苏格拉底常以存疑无解的调子结束对话，留下的问题多过答案。",
       "origin": "希腊语",
       "rootMeanings": [
         "没有",
@@ -268,7 +268,7 @@
       "partOfSpeech": "名词",
       "definition": "以相关词称呼某物的修辞，例如以「the crown」称君主。",
       "friendly": "用相关词顶替真东西——说「the White House announced」其实指行政当局。",
-      "exampleGloss": "「Wall Street had a rough day」是 metonymy——其实是股市惨澹。",
+      "exampleGloss": "「Wall Street had a rough day」是换喻——其实是股市惨澹。",
       "origin": "希腊语",
       "rootMeanings": [
         "改变、之后",
@@ -279,7 +279,7 @@
       "partOfSpeech": "动词",
       "definition": "连根拔起；从自然环境撕裂出来。",
       "friendly": "把某物（或某人）连根拔离所属的地方或文化。",
-      "exampleGloss": "战争 deracinated 了整整一代，把家庭驱散到边境之外。",
+      "exampleGloss": "战争连根拔起了整整一代，把家庭驱散到边境之外。",
       "origin": "法语／拉丁语",
       "rootMeanings": [
         "离开、脱离",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "形容词",
       "definition": "声音悦耳的。",
-      "friendly": "就是好听——euphonious 的词、名字或句子几乎像音乐一样滑过耳朵。",
-      "exampleGloss": "「Murmuring brook」是个 euphonious 的短语，柔软好说。",
+      "friendly": "就是好听——悦耳的词、名字或句子几乎像音乐一样滑过耳朵。",
+      "exampleGloss": "「Murmuring brook」是个悦耳的短语，柔软好说。",
       "origin": "希腊语",
       "rootMeanings": [
         "好、善",
@@ -301,7 +301,7 @@
       "partOfSpeech": "形容词",
       "definition": "一般被假定或认为是的。",
       "friendly": "即使尚未证实也被广泛当成真的——所谓「supposed」的版本。",
-      "exampleGloss": "信件的 putative 作者后来证明完全是陌生人。",
+      "exampleGloss": "信件的推定作者后来证明完全是陌生人。",
       "origin": "拉丁语",
       "rootMeanings": [
         "认为、考量",
@@ -312,7 +312,7 @@
       "partOfSpeech": "名词",
       "definition": "新造的词或词组。",
       "friendly": "全新的词——刚发明，字典里还没（几乎没）收录。",
-      "exampleGloss": "「Doomscrolling」起初是 neologism，很快成了日常俚语。",
+      "exampleGloss": "「Doomscrolling」起初是新造词，很快成了日常俚语。",
       "origin": "希腊语",
       "rootMeanings": [
         "新的",
@@ -323,7 +323,7 @@
       "partOfSpeech": "形容词",
       "definition": "易怒或脾气坏的。",
       "friendly": "心情糟透、容易爆发——从前人们相信脾脏掌管脾气。",
-      "exampleGloss": "他读完邮件几秒内就发出 splenetic 的回复。",
+      "exampleGloss": "他读完邮件几秒内就发出愤懑的回复。",
       "origin": "希腊语／拉丁语",
       "rootMeanings": [
         "脾（怒气之所）",
@@ -334,7 +334,7 @@
       "partOfSpeech": "形容词",
       "definition": "喜欢以傲慢或做作的方式说教。",
       "friendly": "爱用自以为是的口气丢人生教训，像每句都是签饼签诗。",
-      "exampleGloss": "他关于「友谊真义」的 sententious 祝酒让大家都去看表。",
+      "exampleGloss": "他关于「友谊真义」的说教式祝酒让大家都去看表。",
       "origin": "拉丁语",
       "rootMeanings": [
         "意见、格言",
@@ -345,7 +345,7 @@
       "partOfSpeech": "形容词",
       "definition": "话特别多，尤其爱讲琐事。",
       "friendly": "就是停不下来——别人已经没话了还在碎念小事。",
-      "exampleGloss": "那位 garrulous 出租车司机在我们离开机场前就把生平讲完了。",
+      "exampleGloss": "那位话多的出租车司机在我们离开机场前就把生平讲完了。",
       "origin": "拉丁语",
       "rootMeanings": [
         "喋喋不休",
@@ -356,7 +356,7 @@
       "partOfSpeech": "名词",
       "definition": "愚蠢、可笑。",
       "friendly": "纯粹的蠢——一句话或计划蠢到几乎不值得认真回应。",
-      "exampleGloss": "计划纯粹的 fatuity 在他们一试就暴露了。",
+      "exampleGloss": "计划纯粹的愚妄在他们一试就暴露了。",
       "origin": "拉丁语",
       "rootMeanings": [
         "愚蠢的、可笑的",
@@ -367,7 +367,7 @@
       "partOfSpeech": "名词",
       "definition": "演说的结尾部分，常作总结。",
       "friendly": "演说的大结局——讲者把一切收拢、把论点钉死的收尾。",
-      "exampleGloss": "到了 peroration，一半听众已经站起来了。",
+      "exampleGloss": "到了结语，一半听众已经站起来了。",
       "origin": "拉丁语",
       "rootMeanings": [
         "穿过、直到终点",
@@ -378,7 +378,7 @@
       "partOfSpeech": "名词",
       "definition": "用不同的话不必要地重复同一意思。",
       "friendly": "没有新意却说两遍，例如「free gift」或「end result」。",
-      "exampleGloss": "「It is what it is」是逃避真正解释的人最爱用的 tautology。",
+      "exampleGloss": "「It is what it is」是逃避真正解释的人最爱用的同义反复。",
       "origin": "希腊语",
       "rootMeanings": [
         "相同",
@@ -389,7 +389,7 @@
       "partOfSpeech": "名词",
       "definition": "用极少的字；简短的说话。",
       "friendly": "以少胜多——简短直率的回答艺术，得名于拉科尼亚斯巴达人出名的简短。",
-      "exampleGloss": "「Molon labe」——「来拿吧」——是史上最著名的一段 laconism。",
+      "exampleGloss": "「Molon labe」——「来拿吧」——是史上最著名的一段简洁警语。",
       "origin": "希腊语",
       "rootMeanings": [
         "拉科尼亚的斯巴达人",
@@ -400,7 +400,7 @@
       "partOfSpeech": "名词",
       "definition": "平淡、过度简化的想法；原指淡而无味的食物或糊。",
       "friendly": "稀薄、兑了水的思想——简化到对心智没营养的内容。",
-      "exampleGloss": "政客的演说多半是 pabulum：含糊的承诺，什么也钉不住。",
+      "exampleGloss": "政客的演说多半是空话：含糊的承诺，什么也钉不住。",
       "origin": "拉丁语",
       "rootMeanings": [
         "喂养",
@@ -411,7 +411,7 @@
       "partOfSpeech": "形容词",
       "definition": "引起睡眠或困倦。",
       "friendly": "无聊到——或字面上镇静到——让人想睡。想想温牛奶，或三小时的预算会议。",
-      "exampleGloss": "讲座 soporific 的嗡嗡声让半个房间在撑眼皮。",
+      "exampleGloss": "讲座催眠的嗡嗡声让半个房间在撑眼皮。",
       "origin": "拉丁语",
       "rootMeanings": [
         "深睡",
@@ -422,7 +422,7 @@
       "partOfSpeech": "形容词",
       "definition": "态度过分奉承或油滑。",
       "friendly": "圆滑到发腻——奉承厚得几乎摸得到油脂。",
-      "exampleGloss": "那位 unctuous 业务在每次追加销售前都称赞我的「绝佳品味」。",
+      "exampleGloss": "那位油腔滑调的业务在每次追加销售前都称赞我的「绝佳品味」。",
       "origin": "拉丁语",
       "rootMeanings": [
         "涂油、膏抹",
@@ -433,7 +433,7 @@
       "partOfSpeech": "形容词",
       "definition": "很快挑错，对琐事过度批评。",
       "friendly": "挑剔到病态——什么都要找问题，哪怕其实无关紧要。",
-      "exampleGloss": "他对报告 captious 的批注完全盯着逗号位置。",
+      "exampleGloss": "他对报告吹毛求疵的批注完全盯着逗号位置。",
       "origin": "拉丁语",
       "rootMeanings": [
         "抓住、拿取",
@@ -444,7 +444,7 @@
       "partOfSpeech": "形容词",
       "definition": "迟缓，心智或身体不活跃。",
       "friendly": "像冬眠的熊又慢又半醒——几乎不动，几乎不想。",
-      "exampleGloss": "八月闷热里，办公室变得 torpid。",
+      "exampleGloss": "八月闷热里，办公室变得迟滞。",
       "origin": "拉丁语",
       "rootMeanings": [
         "麻木、迟缓",
@@ -455,7 +455,7 @@
       "partOfSpeech": "名词",
       "definition": "管理中世纪家业的管家或官员。",
       "friendly": "中世纪版的总管——替领主打理日常家宅与领地的可信官员。",
-      "exampleGloss": "城堡的 seneschal 从收获帐到宾客名单什么都管。",
+      "exampleGloss": "城堡的总管从收获帐到宾客名单什么都管。",
       "origin": "法兰克语／古法语",
       "rootMeanings": [
         "年长、资深",
@@ -466,7 +466,7 @@
       "partOfSpeech": "动词",
       "definition": "就某一主题长篇大论地说或写。",
       "friendly": "真正进入状态——从每个角度没完没了地讲、写。",
-      "exampleGloss": "问他古董车，他就会 expatiate 整整一小时。",
+      "exampleGloss": "问他古董车，他就会滔滔不绝整整一小时。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向外",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "形容词",
       "definition": "毫无价值、琐碎；也指无效或不起作用。",
-      "friendly": "基本上一文不值——合约里 nugatory 的条款其实什么也不做。",
-      "exampleGloss": "法院裁定旧法规 nugatory，因为从来没真正运行过。",
+      "friendly": "基本上一文不值——合约里无效的条款其实什么也不做。",
+      "exampleGloss": "法院裁定旧法规无效，因为从来没真正运行过。",
       "origin": "拉丁语",
       "rootMeanings": [
         "琐事、废话",
@@ -488,7 +488,7 @@
       "partOfSpeech": "名词",
       "definition": "智能、精明的判断。",
       "friendly": "锐利务实的智能——来自经验而不只是书本的好判断。",
-      "exampleGloss": "老船长的 sagacity 不只一次让船员免于麻烦。",
+      "exampleGloss": "老船长的睿智不只一次让船员免于麻烦。",
       "origin": "拉丁语",
       "rootMeanings": [
         "嗅觉敏锐、精明",
@@ -499,7 +499,7 @@
       "partOfSpeech": "名词",
       "definition": "下层乌合之众，轻蔑用语。",
       "friendly": "势利地贬称「贱民」或普通人的词。",
-      "exampleGloss": "伯爵对着聚集在宫门外的 canaille 冷笑。",
+      "exampleGloss": "伯爵对着聚集在宫门外的乌合之众冷笑。",
       "origin": "意大利语／法语",
       "rootMeanings": [
         "狗",
@@ -510,7 +510,7 @@
       "partOfSpeech": "名词",
       "definition": "无礼、羞辱的对待或言语。",
       "friendly": "故意羞辱的残酷轻蔑——设计来刺痛的侮辱。",
-      "exampleGloss": "他在作品被认可前忍受了批评家多年的 contumely。",
+      "exampleGloss": "他在作品被认可前忍受了批评家多年的辱骂。",
       "origin": "拉丁语",
       "rootMeanings": [
         "一起、彻底地",
@@ -521,7 +521,7 @@
       "partOfSpeech": "副词",
       "definition": "带着怀疑或不以为然；斜眼。",
       "friendly": "对不太信任的东西投去的斜视——装满怀疑的一眼。",
-      "exampleGloss": "老师对整齐得可疑的作业看了一眼 askance。",
+      "exampleGloss": "老师对整齐得可疑的作业斜睨了一眼。",
       "origin": "不确定／意大利语",
       "rootMeanings": [
         "朝向、到",
@@ -532,7 +532,7 @@
       "partOfSpeech": "名词",
       "definition": "笨蛋；木头人。",
       "friendly": "对有点笨的人几乎带点亲暱的古骂——木头人。",
-      "exampleGloss": "「你这 clodpate，」她笑，「地图整段时间都拿反了。」",
+      "exampleGloss": "「你这蠢材，」她笑，「地图整段时间都拿反了。」",
       "origin": "英语",
       "rootMeanings": [
         "土块",
@@ -543,7 +543,7 @@
       "partOfSpeech": "动词",
       "definition": "使进入运动或行动；激励。",
       "friendly": "成为让事情动起来的火花——无论是机器开机，还是人终于把想法付诸行动。",
-      "exampleGloss": "怕失去合约的恐惧把全队 actuated 进了周末加班。",
+      "exampleGloss": "怕失去合约的恐惧把全队驱使进了周末加班。",
       "origin": "拉丁语",
       "rootMeanings": [
         "作为、驱动",
@@ -554,7 +554,7 @@
       "partOfSpeech": "名词",
       "definition": "侵占受托保管的资金。",
       "friendly": "悄悄偷走托你看管的钱——穿着古外套的侵占。",
-      "exampleGloss": "出纳的 peculation 将近十年没被发现。",
+      "exampleGloss": "出纳的侵占将近十年没被发现。",
       "origin": "拉丁语",
       "rootMeanings": [
         "私有财产",
@@ -565,7 +565,7 @@
       "partOfSpeech": "名词",
       "definition": "被视为位于体面社会边缘的群体。",
       "friendly": "华丽却见不得光的社交地下世界——活在「体面」规则外侧的人。",
-      "exampleGloss": "小说追随一位在一九二〇年代卡巴莱 demi-monde 里周旋的歌手。",
+      "exampleGloss": "小说追随一位在一九二〇年代卡巴莱半上流社会里周旋的歌手。",
       "origin": "法语",
       "rootMeanings": [
         "一半",
@@ -576,7 +576,7 @@
       "partOfSpeech": "形容词",
       "definition": "仍然存在；未灭绝或未毁灭。",
       "friendly": "今天还在——用于设法存活下来的古物（手稿、物种、建筑）。",
-      "exampleGloss": "初版已知仅存三份 extant 复本。",
+      "exampleGloss": "初版已知仅存三份传世复本。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向外",
@@ -587,7 +587,7 @@
       "partOfSpeech": "名词",
       "definition": "欺诈；背叛信任。",
       "friendly": "深刻、蓄意的背叛——打破对方有理由期望你守住的信任。",
-      "exampleGloss": "将军从不原谅老友在谈判桌上的 perfidy。",
+      "exampleGloss": "将军从不原谅老友在谈判桌上的背信。",
       "origin": "拉丁语",
       "rootMeanings": [
         "穿过、反对",
@@ -598,7 +598,7 @@
       "partOfSpeech": "名词",
       "definition": "地方方言，尤其非标准的。",
       "friendly": "某地人们独特的说话方式——充满外人未必听得懂的词与节奏。",
-      "exampleGloss": "她祖母在家庭晚餐仍说岛上的 patois。",
+      "exampleGloss": "她祖母在家庭晚餐仍说岛上的土话。",
       "origin": "法语",
       "rootMeanings": [
         "粗糙的话、方言",
@@ -609,7 +609,7 @@
       "partOfSpeech": "名词",
       "definition": "属于某人或某群体的特殊权利。",
       "friendly": "只属于你的特权——随角色、职位或身分而来的权利。",
-      "exampleGloss": "选定全家度假地是爷爷的 prerogative，人人都知道。",
+      "exampleGloss": "选定全家度假地是爷爷的特权，人人都知道。",
       "origin": "拉丁语",
       "rootMeanings": [
         "之前",
@@ -620,7 +620,7 @@
       "partOfSpeech": "名词",
       "definition": "大胆、无畏；也指坚韧或耐力。",
       "friendly": "粗砺有胆的韧性——往前冲的胆子，以及一旦上路就撑下去的硬。",
-      "exampleGloss": "没有地图在暴风雪中翻过山口，需要真正的 hardihood。",
+      "exampleGloss": "没有地图在暴风雪中翻过山口，需要真正的胆识。",
       "origin": "古法语／英语",
       "rootMeanings": [
         "大胆、强健",
@@ -631,7 +631,7 @@
       "partOfSpeech": "动词",
       "definition": "绽放；也指发展或逐渐显现。",
       "friendly": "开成充分的表达——像花开，或想法终于长成自己。",
-      "exampleGloss": "她安静的绘画才华在有了自己的画室后 effloresced。",
+      "exampleGloss": "她安静的绘画才华在有了自己的画室后绽放了。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向外",
@@ -642,7 +642,7 @@
       "partOfSpeech": "名词",
       "definition": "测铅直的加重线；比喻判断的标准。",
       "friendly": "垂得笔直的加重线，用来检查是否真正垂直——引申为衡量其余一切的固定标准。",
-      "exampleGloss": "他把祖父的诚实当成每项决定的一种 plumb line。",
+      "exampleGloss": "他把祖父的诚实当成每项决定的一种铅垂线。",
       "origin": "拉丁语／英语",
       "rootMeanings": [
         "铅",
@@ -653,7 +653,7 @@
       "partOfSpeech": "副词",
       "definition": "欣然、愿意地（古语）。",
       "friendly": "「欣然」或「乐意」的古说法。",
-      "exampleGloss": "「I would fain rest here a while，」旅人叹道。",
+      "exampleGloss": "「我倒真想在这里歇一会儿，」旅人叹道。",
       "origin": "古英语",
       "rootMeanings": [
         "高兴的、快乐的",
@@ -664,7 +664,7 @@
       "partOfSpeech": "名词",
       "definition": "严厉的公开批评或耻辱。",
       "friendly": "公开、显眼地堆在某人身上的羞耻——广泛不以为然带来的耻辱。",
-      "exampleGloss": "丑闻把公开的 opprobrium 压到整间公司头上。",
+      "exampleGloss": "丑闻把公开的骂名压到整间公司头上。",
       "origin": "拉丁语",
       "rootMeanings": [
         "反对",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "形容词",
       "definition": "尖锐讽刺，机智或批评带咬劲。",
-      "friendly": "带牙的机智——mordant 的评语正因瞄得准而有点刺。",
-      "exampleGloss": "她 mordant 的影评让导演害怕、读者喜爱。",
+      "friendly": "带牙的机智——辛辣的评语正因瞄得准而有点刺。",
+      "exampleGloss": "她辛辣的影评让导演害怕、读者喜爱。",
       "origin": "拉丁语／法语",
       "rootMeanings": [
         "咬",
@@ -686,7 +686,7 @@
       "partOfSpeech": "名词",
       "definition": "正式声明，常为政治或军事的。",
       "friendly": "盛大官方宣布——通常声明新政权、起事或重大法令。",
-      "exampleGloss": "将军的 pronunciamento 在黎明宣布了新政府。",
+      "exampleGloss": "将军的政变宣言在黎明宣布了新政府。",
       "origin": "西班牙语",
       "rootMeanings": [
         "向前",
@@ -697,7 +697,7 @@
       "partOfSpeech": "名词",
       "definition": "知识肤浅却假装专家的人。",
       "friendly": "只刮过话题表面，却讲得像自己写了教科书。",
-      "exampleGloss": "晚宴上的 sciolist 自信满满地纠正了桌上真正的天文物理学家。",
+      "exampleGloss": "晚宴上的半瓶醋自信满满地纠正了桌上真正的天文物理学家。",
       "origin": "拉丁语",
       "rootMeanings": [
         "知道",
@@ -708,7 +708,7 @@
       "partOfSpeech": "名词",
       "definition": "老年心智能力衰退。",
       "friendly": "极老年、心智锋芒开始消退的雾茫茫健忘时段。",
-      "exampleGloss": "在他的 dotage 里，每次来访都讲同样三个故事，每次都像新的。",
+      "exampleGloss": "在他昏聩的晚年里，每次来访都讲同样三个故事，每次都像新的。",
       "origin": "中古英语",
       "rootMeanings": [
         "昏愦、变傻",
@@ -719,7 +719,7 @@
       "partOfSpeech": "名词",
       "definition": "背风的一侧。",
       "friendly": "山、船、墙那风吹不太到的平静一侧。",
-      "exampleGloss": "登山者把帐篷扎在山脊的 lee side 以避开阵风。",
+      "exampleGloss": "登山者把帐篷扎在山脊的背风面以避开阵风。",
       "origin": "古英语",
       "rootMeanings": [
         "屏蔽、保护",
@@ -730,7 +730,7 @@
       "partOfSpeech": "动词",
       "definition": "挡开或化解一击、问题或论点。",
       "friendly": "不漏拍地轻轻挡开——剑击、尴尬问题或指控。",
-      "exampleGloss": "她用轻松的玩笑 parried 了记者刁钻的问题。",
+      "exampleGloss": "她用轻松的玩笑挡开了记者刁钻的问题。",
       "origin": "法语",
       "rootMeanings": [
         "挡开",
@@ -741,7 +741,7 @@
       "partOfSpeech": "形容词",
       "definition": "恶臭的、有害的。",
       "friendly": "几乎有毒的臭——臭到吸了都觉得危险。",
-      "exampleGloss": "日落时一阵 mephitic 气味从沼泽升起。",
+      "exampleGloss": "日落时一阵恶臭从沼泽升起。",
       "origin": "拉丁语",
       "rootMeanings": [
         "有害蒸气",
@@ -752,7 +752,7 @@
       "partOfSpeech": "名词",
       "definition": "献身于奢华与享乐的人。",
       "friendly": "为舒适与放纵而活的人——美食、软床、轻松日子，得名于以奢华闻名的古希腊城叙巴里斯。",
-      "exampleGloss": "真正的 sybarite，他拒绝没有浴缸的饭店房间。",
+      "exampleGloss": "真正的享乐者，他拒绝没有浴缸的饭店房间。",
       "origin": "希腊语",
       "rootMeanings": [
         "以奢华闻名的古希腊城",
@@ -763,7 +763,7 @@
       "partOfSpeech": "动词",
       "definition": "刻意把某部分搁置或忽略。",
       "friendly": "故意把拼图的一块放到一边，好干净地专注其余。",
-      "exampleGloss": "让我们暂时 prescind 成本，只问计划到底行不行。",
+      "exampleGloss": "让我们暂时撇开成本，只问计划到底行不行。",
       "origin": "拉丁语",
       "rootMeanings": [
         "之前、离开",
@@ -774,7 +774,7 @@
       "partOfSpeech": "动词",
       "definition": "严厉批评；也指剥皮。",
       "friendly": "用苛刻批评把人撕开——言语上像真的把皮剥下来。",
-      "exampleGloss": "影评人因续集背叛原作粉丝所爱的一切而 excoriated 它。",
+      "exampleGloss": "影评人因续集背叛原作粉丝所爱的一切而痛批它。",
       "origin": "拉丁语",
       "rootMeanings": [
         "脱离",
@@ -785,7 +785,7 @@
       "partOfSpeech": "动词",
       "definition": "引为证据或证明。",
       "friendly": "端出事实或例子撑住论点——有人问「what's your evidence?」时你指的东西。",
-      "exampleGloss": "律师 adduced 三位证人支持当事人的不在场证明。",
+      "exampleGloss": "律师举出三位证人支持当事人的不在场证明。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向、朝向",
@@ -796,7 +796,7 @@
       "partOfSpeech": "名词",
       "definition": "旅行或游荡，尤其漫长广泛的。",
       "friendly": "漫长游走的旅程——让你离家很久很远的那种广泛徘徊。",
-      "exampleGloss": "他横跨三大洲的 peregrinations 填满一整层旅行日记。",
+      "exampleGloss": "他横跨三大洲的漫游填满一整层旅行日记。",
       "origin": "拉丁语",
       "rootMeanings": [
         "穿过",
@@ -807,7 +807,7 @@
       "partOfSpeech": "名词",
       "definition": "乞丐，或以施舍为生的人。",
       "friendly": "靠求人施舍过活——历史上也指发清贫誓、靠捐赠维生的修士。",
-      "exampleGloss": "那些 mendicant 修士一无所有，完全靠村民的善意。",
+      "exampleGloss": "那些托钵修士一无所有，完全靠村民的善意。",
       "origin": "拉丁语",
       "rootMeanings": [
         "乞求",
@@ -818,7 +818,7 @@
       "partOfSpeech": "形容词",
       "definition": "极其慷慨。",
       "friendly": "大方到近乎炫耀——让人倒抽一口气的礼物。",
-      "exampleGloss": "那笔 munificent 捐款资助了图书馆整座新翼。",
+      "exampleGloss": "那笔慷慨的捐款资助了图书馆整座新翼。",
       "origin": "拉丁语",
       "rootMeanings": [
         "礼物、服务",
@@ -829,7 +829,7 @@
       "partOfSpeech": "名词",
       "definition": "因缺乏滋养而衰竭；也指缺乏活力。",
       "friendly": "没被喂饱或补给而掏空的虚弱——字面是饥饿，比喻是没剩燃料可跑。",
-      "exampleGloss": "围城结束时，士兵已接近 inanition。",
+      "exampleGloss": "围城结束时，士兵已接近力竭。",
       "origin": "拉丁语",
       "rootMeanings": [
         "空、虚",
@@ -840,7 +840,7 @@
       "partOfSpeech": "名词",
       "definition": "尖刻、辱骂性的批评。",
       "friendly": "早已超过公允、变成愤怒苦涩长篇大论的批评。",
-      "exampleGloss": "在线留言几分钟内就溶成纯粹的 vituperation。",
+      "exampleGloss": "在线留言几分钟内就溶成纯粹的谩骂。",
       "origin": "拉丁语",
       "rootMeanings": [
         "过错",
@@ -851,7 +851,7 @@
       "partOfSpeech": "形容词",
       "definition": "敌对的，效果有害的。",
       "friendly": "即使悄悄也在跟你作对——对你的利益不友善的条件或态度。",
-      "exampleGloss": "新政策即使不是本意，也对小企业 inimical。",
+      "exampleGloss": "新政策即使不是本意，也对小企业不利。",
       "origin": "拉丁语",
       "rootMeanings": [
         "不",
@@ -862,7 +862,7 @@
       "partOfSpeech": "形容词",
       "definition": "容易引起怨恨或不满，常因不公平比较。",
       "friendly": "注定让人觉得被轻慢——通常因为把人或事物不公平地排在一起。",
-      "exampleGloss": "用「妈妈最爱谁」给手足排名，是谁都不该玩的 invidious 游戏。",
+      "exampleGloss": "用「妈妈最爱谁」给手足排名，是谁都不该玩的招怨游戏。",
       "origin": "拉丁语",
       "rootMeanings": [
         "嫉妒",
@@ -873,7 +873,7 @@
       "partOfSpeech": "名词",
       "definition": "地位较低的人；下属。",
       "friendly": "指挥链或社会阶梯较低处的人——在更有权的人底下做事的资浅者。",
-      "exampleGloss": "作为年轻的 subaltern，他在发号施令很久以前就先听命。",
+      "exampleGloss": "作为年轻的下级军官，他在发号施令很久以前就先听命。",
       "origin": "拉丁语",
       "rootMeanings": [
         "在下",
@@ -884,7 +884,7 @@
       "partOfSpeech": "动词",
       "definition": "感到或表达强烈憎恨。",
       "friendly": "厌恶到出声咒骂——纯粹、有声的憎恶。",
-      "exampleGloss": "村民每次税吏的车经过镇上就 execrated 他。",
+      "exampleGloss": "村民每次税吏的车经过镇上就咒骂他。",
       "origin": "拉丁语",
       "rootMeanings": [
         "出于",
@@ -895,7 +895,7 @@
       "partOfSpeech": "名词",
       "definition": "自然的外覆，如皮肤或壳。",
       "friendly": "大自然自己的保护包装——皮、壳、荚、皮层，凡是覆盖并保护生物的。",
-      "exampleGloss": "乌龟的壳是极为坚韧的 integument。",
+      "exampleGloss": "乌龟的壳是极为坚韧的外被。",
       "origin": "拉丁语",
       "rootMeanings": [
         "在上、覆盖",
@@ -906,7 +906,7 @@
       "partOfSpeech": "形容词",
       "definition": "天真、少不更事，带孩子般的单纯；「disingenuous」的反面。",
       "friendly": "坦率信任、有点天真，没有隐藏目的——容易和意为聪明的「ingenious」搞混。",
-      "exampleGloss": "她 ingenuous 的问题——「为什么有人会为那件事说谎？」——显出她多么没心机。",
+      "exampleGloss": "她天真直率的问题——「为什么有人会为那件事说谎？」——显出她多么没心机。",
       "origin": "拉丁语",
       "rootMeanings": [
         "内、天生的",
@@ -917,7 +917,7 @@
       "partOfSpeech": "名词",
       "definition": "对细枝末节或规则过度执着。",
       "friendly": "迷失在小规则里而错过大局——执著于没人在乎的细则。",
-      "exampleGloss": "他对牛津逗号的 pedantry 让整场会议脱轨。",
+      "exampleGloss": "他对牛津逗号的迂腐考究让整场会议脱轨。",
       "origin": "意大利语／拉丁语",
       "rootMeanings": [
         "儿童导师",
@@ -928,7 +928,7 @@
       "partOfSpeech": "名词",
       "definition": "彻底、仔细的检查。",
       "friendly": "翻遍每块石头的深查——真正仔细过每一个细节。",
-      "exampleGloss": "直到仔细 perscrutation 帐册之后，差异才出现。",
+      "exampleGloss": "直到仔细彻查帐册之后，差异才出现。",
       "origin": "拉丁语",
       "rootMeanings": [
         "穿过、彻底地",
@@ -939,7 +939,7 @@
       "partOfSpeech": "动词",
       "definition": "提出异议；表示不情愿。",
       "friendly": "礼貌地推回去或犹豫，而不是立刻附和——柔软的「I'd rather not」。",
-      "exampleGloss": "被要求不读就签名时，她 demurred。",
+      "exampleGloss": "被要求不读就签名时，她表示异议。",
       "origin": "拉丁语／法语",
       "rootMeanings": [
         "从、离开",
@@ -950,7 +950,7 @@
       "partOfSpeech": "形容词",
       "definition": "表面看似合理，其实是错的。",
       "friendly": "乍看有说服力，一查就垮。",
-      "exampleGloss": "「Everyone's doing it」是经不起查看的 specious 论点。",
+      "exampleGloss": "「Everyone's doing it」是经不起查看的似是而非的论点。",
       "origin": "拉丁语",
       "rootMeanings": [
         "外表、样子",
@@ -961,7 +961,7 @@
       "partOfSpeech": "名词",
       "definition": "不诚恳、伪善的话，常带说教。",
       "friendly": "听来有德却没真感情撑腰的说教——自动驾驶的道德姿态。",
-      "exampleGloss": "他厌倦了一家从不给人放假的公司关于「家庭」的企业 cant。",
+      "exampleGloss": "他厌倦了一家从不给人放假的公司关于「家庭」的企业套话。",
       "origin": "拉丁语",
       "rootMeanings": [
         "歌唱（后来指单调行话）",
@@ -972,7 +972,7 @@
       "partOfSpeech": "形容词",
       "definition": "缺乏勇气，怯懦。",
       "friendly": "胆怯到没脊骨——明明事关重大也不敢站出来。",
-      "exampleGloss": "董事会 pusillanimous 的沉默让丑闻失控蔓延。",
+      "exampleGloss": "董事会怯懦的沉默让丑闻失控蔓延。",
       "origin": "拉丁语",
       "rootMeanings": [
         "极小",
@@ -983,7 +983,7 @@
       "partOfSpeech": "形容词",
       "definition": "像狐狸；狡猾、有手段。",
       "friendly": "像狐狸一样狡滑机灵——反应快、有点鬼、总领先一步。",
-      "exampleGloss": "一看到漏洞，他就露出 vulpine 的笑。",
+      "exampleGloss": "一看到漏洞，他就露出狐狸般的笑。",
       "origin": "拉丁语",
       "rootMeanings": [
         "狐狸",
@@ -994,7 +994,7 @@
       "partOfSpeech": "副词",
       "definition": "一个接一个，依序。",
       "friendly": "严格一次一件、按顺序——不准跳、不准两件并行。",
-      "exampleGloss": "法官把十二项主张逐一 seriatim 处理。",
+      "exampleGloss": "法官把十二项主张逐一处理。",
       "origin": "拉丁语",
       "rootMeanings": [
         "行列、顺序",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "名词",
       "definition": "极度节俭；吝啬。",
       "friendly": "把钱（或话、资源）拧得超过合理节俭。",
-      "exampleGloss": "他的 parsimony 是传奇——茶包重复用三次。",
+      "exampleGloss": "他的吝啬是传奇——茶包重复用三次。",
       "origin": "拉丁语",
       "rootMeanings": [
         "吝惜、节俭",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "名词",
       "definition": "更正，尤其文本的。",
       "friendly": "对文章的修补——改正古老或重要文本错误的学术调整。",
-      "exampleGloss": "新版包含对原手稿的数十处 emendations。",
+      "exampleGloss": "新版包含对原手稿的数十处校订。",
       "origin": "拉丁语",
       "rootMeanings": [
         "出于",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "形容词",
       "definition": "饮食有节制。",
       "friendly": "在吃喝上刻意克制——从不过量，盘子里总留一点。",
-      "exampleGloss": "他 abstemious 的习惯让他在同辈慢下来之后仍长久敏锐。",
+      "exampleGloss": "他节制的习惯让他在同辈慢下来之后仍长久敏锐。",
       "origin": "拉丁语",
       "rootMeanings": [
         "远离",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "名词",
       "definition": "文法错误或礼仪过失。",
       "friendly": "文法或礼貌上的小闪失——会让挑剔的人皱眉的那种错。",
-      "exampleGloss": "「Between you and I」是仍让语法家一缩的常见 solecism。",
+      "exampleGloss": "「Between you and I」是仍让语法家一缩的常见语病。",
       "origin": "希腊语",
       "rootMeanings": [
         "以「坏」希腊语闻名的奇里乞亚城",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "形容词",
       "definition": "与群体内部冲突有关；互相毁灭的。",
       "friendly": "从内部撕裂群体的内斗——因为是自己人打自己人，人人都输。",
-      "exampleGloss": "党内 internecine 的争吵比任何外部对手都伤得更重。",
+      "exampleGloss": "党内自相残杀的争吵比任何外部对手都伤得更重。",
       "origin": "拉丁语",
       "rootMeanings": [
         "之间、之中",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "形容词／名词",
       "definition": "冷漠、漫不经心的态度。",
       "friendly": "耸肩变成整个人格——对曾经重要的事关心少到什么都不值得费力。",
-      "exampleGloss": "他对颁奖典礼 pococurante 的态度，让知道他多努力的人都吃惊。",
+      "exampleGloss": "他对颁奖典礼漫不经心的态度，让知道他多努力的人都吃惊。",
       "origin": "意大利语",
       "rootMeanings": [
         "少",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "名词",
       "definition": "混乱复杂的局面或争执。",
       "friendly": "纠缠难解的乱局——一部分误会、一部分戏剧、全是混乱。",
-      "exampleGloss": "整场座位表 imbroglio 始于一张放错的名牌。",
+      "exampleGloss": "整场座位表的纠葛始于一张放错的名牌。",
       "origin": "意大利语",
       "rootMeanings": [
         "在内",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "形容词",
       "definition": "威胁的、威吓的。",
-      "friendly": "带着明白无误的威胁气息——minatory 的眼神或信件让人很清楚坏事可能接着来。",
-      "exampleGloss": "信件 minatory 的语气让房客还没拆封就紧张。",
+      "friendly": "带着明白无误的威胁气息——威吓的眼神或信件让人很清楚坏事可能接着来。",
+      "exampleGloss": "信件威吓的语气让房客还没拆封就紧张。",
       "origin": "拉丁语",
       "rootMeanings": [
         "威胁",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "名词",
       "definition": "强烈的公开批评或辱骂。",
       "friendly": "大声的公开谴责——在所有人面前展开的灼热批评。",
-      "exampleGloss": "揭弊者在历史证明她正确之前，面对了多年公开的 obloquy。",
+      "exampleGloss": "揭弊者在历史证明她正确之前，面对了多年公开的诋毁。",
       "origin": "拉丁语",
       "rootMeanings": [
         "反对",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "名词",
       "definition": "情感或行动突然猛烈的爆发。",
       "friendly": "一下子吞没你的强烈爆发——笑声、怒火或咳嗽像浪打来。",
-      "exampleGloss": "她被一阵无法向房里任何人解释的笑声 paroxysm 攫住。",
+      "exampleGloss": "她突然一阵狂笑发作，无法向房里任何人解释。",
       "origin": "希腊语",
       "rootMeanings": [
         "超越",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "形容词",
       "definition": "从外部加上的，非固有的。",
       "friendly": "从外面栓上去，而不是一开始就建在里头——额外的，不是内核。",
-      "exampleGloss": "那段评注感觉 adscititious，像贴在已经完成的文本上。",
+      "exampleGloss": "那段评注感觉是外加的，像贴在已经完成的文本上。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向、另外",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "名词",
       "definition": "缺乏知识，无知。",
       "friendly": "单纯的不知——知识的缺口，不带评判。",
-      "exampleGloss": "他承认对法国葡萄酒的 nescience，让侍酒师来选。",
+      "exampleGloss": "他承认对法国葡萄酒的无知，让侍酒师来选。",
       "origin": "拉丁语",
       "rootMeanings": [
         "不",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "名词",
       "definition": "对性事过度的兴趣。",
       "friendly": "对任何露骨之事过于热切、带色的好奇心——过了健康线变成窥探。",
-      "exampleGloss": "小报对那对情侣私生活的 prurience 近乎执迷。",
+      "exampleGloss": "小报对那对情侣私生活的猎奇淫窥近乎执迷。",
       "origin": "拉丁语",
       "rootMeanings": [
         "发痒、渴望",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "形容词",
       "definition": "煤烟般的、暗的、混浊的。",
       "friendly": "又暗又烟，像薄薄一层煤灰覆着一切。",
-      "exampleGloss": "黄昏时 fuliginous 的霾悬在工业小镇上空。",
+      "exampleGloss": "黄昏时煤烟般的霾悬在工业小镇上空。",
       "origin": "拉丁语",
       "rootMeanings": [
         "煤烟",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "动词",
       "definition": "否认或反驳。",
       "friendly": "对别人说的话直截了当地反对——说「that's not so」。",
-      "exampleGloss": "没人敢 gainsay 老船长对那场风暴的叙述。",
+      "exampleGloss": "没人敢反驳老船长对那场风暴的叙述。",
       "origin": "中古英语",
       "rootMeanings": [
         "反对",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "名词",
       "definition": "懒惰、怠惰（源自拉丁语）。",
       "friendly": "指纯粹懒惰的古拉丁词——什么都不想做的拖拉。",
-      "exampleGloss": "修士把 ignavia 讲成灵魂安静的危险之一。",
+      "exampleGloss": "修士把怠惰讲成灵魂安静的危险之一。",
       "origin": "拉丁语",
       "rootMeanings": [
         "不",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "名词",
       "definition": "展示纹章的盾。",
       "friendly": "展示家族纹章的盾形标志——纹章的「名牌」。",
-      "exampleGloss": "家族的 escutcheon 仍挂在老庄园正门上方。",
+      "exampleGloss": "家族的纹章盾仍挂在老庄园正门上方。",
       "origin": "拉丁语／古法语",
       "rootMeanings": [
         "盾",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "形容词",
       "definition": "过时、废弃，或因年迈而退休。",
       "friendly": "过了有用盛年、被放去放牧——太老式或太磨损，无法继续做这份工作。",
-      "exampleGloss": "那台 superannuated 打印机卡纸十五年后终于被换掉。",
+      "exampleGloss": "那台老旧过时的打印机卡纸十五年后终于被换掉。",
       "origin": "拉丁语",
       "rootMeanings": [
         "超越",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "名词",
       "definition": "替代品，尤其医药上的。",
       "friendly": "真正疗法没有时用的顶替药——基本上是医疗的替角。",
-      "exampleGloss": "战时医生在正规药品用尽时常常依赖 succedanea。",
+      "exampleGloss": "战时医生在正规药品用尽时常常依赖代用品。",
       "origin": "拉丁语",
       "rootMeanings": [
         "代替",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "名词",
       "definition": "自夸、虚张声势的话。",
       "friendly": "大声吹嘘自己有多伟大——多半是热空气。",
-      "exampleGloss": "他关于「单枪匹马」拯救项目的 rodomontade 骗不了真正在场的人。",
+      "exampleGloss": "他关于「单枪匹马」拯救项目的吹嘘骗不了真正在场的人。",
       "origin": "意大利语",
       "rootMeanings": [
         "《疯狂的奥兰多》里爱吹嘘的骑士",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "动词",
       "definition": "用诡计或欺骗达成某事。",
       "friendly": "靠偷偷摸摸的把戏而不是公平竞争钻向目标。",
-      "exampleGloss": "他用满是细则的合约 chicaned 进了这笔交易。",
+      "exampleGloss": "他用满是细则的合约耍诈进了这笔交易。",
       "origin": "法语",
       "rootMeanings": [
         "找碴、欺骗",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "形容词",
       "definition": "过度执著于形式规则或琐碎细节。",
       "friendly": "对小事过于严格——纠正其实什么也不改的技术细节。",
-      "exampleGloss": "在短信里争「who」和「whom」感觉有点 pedantic。",
+      "exampleGloss": "在短信里争「who」和「whom」感觉有点迂腐。",
       "origin": "意大利语／希腊语",
       "rootMeanings": [
         "儿童引导者、导师",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "名词",
       "definition": "闪烁、闪耀的光。",
       "friendly": "迅速闪亮的一闪——想想水面反光，或钻石接住光。",
-      "exampleGloss": "枝形吊灯的 coruscation 把光洒满舞厅每个角落。",
+      "exampleGloss": "枝形吊灯的闪烁把光洒满舞厅每个角落。",
       "origin": "拉丁语",
       "rootMeanings": [
         "闪耀、闪光",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "名词",
       "definition": "初学者、新手。",
       "friendly": "对一项技能或领域全新的人——还在学门路，还不是专家。",
-      "exampleGloss": "连 tyro 棋手都能看出那步臭棋。",
+      "exampleGloss": "连新手棋手都能看出那步臭棋。",
       "origin": "拉丁语",
       "rootMeanings": [
         "新兵、新手",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "形容词",
       "definition": "极坏的、可憎的。",
       "friendly": "坏到该被真心厌恶——不是「普通」，而是真正可憎。",
-      "exampleGloss": "评者称续集 execrable，票房数字也同意。",
+      "exampleGloss": "评者称续集糟透了，票房数字也同意。",
       "origin": "拉丁语",
       "rootMeanings": [
         "诅咒",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "形容词",
       "definition": "血红色的。",
       "friendly": "深而鲜艳的红——新鲜血液的颜色，因莎士比亚《马克白》而著名。",
-      "exampleGloss": "日落把整片天空变成 incarnadine 的光辉。",
+      "exampleGloss": "日落把整片天空变成血红的光辉。",
       "origin": "意大利语／拉丁语",
       "rootMeanings": [
         "进入",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "名词",
       "definition": "事物之间的小空隙。",
       "friendly": "容易忽略的中间小空间——地板缝、行程空档。",
-      "exampleGloss": "杂草从旧砖径每一个 interstice 拱上来。",
+      "exampleGloss": "杂草从旧砖径每一道缝隙拱上来。",
       "origin": "拉丁语",
       "rootMeanings": [
         "之间",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "名词",
       "definition": "批评或非难的话。",
       "friendly": "尖锐、不以为然的评语——带点训斥口气的批评。",
-      "exampleGloss": "教授对论文的 animadversions 用红墨水填满了页边。",
+      "exampleGloss": "教授对论文的责难用红墨水填满了页边。",
       "origin": "拉丁语",
       "rootMeanings": [
         "心智",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "形容词",
       "definition": "无法反驳，不容否认。",
       "friendly": "证明得太坚实，没得争——案子就此结了。",
-      "exampleGloss": "DNA 证据 irrefragable，审讯一小时内结束。",
+      "exampleGloss": "DNA 证据无可反驳，审讯一小时内结束。",
       "origin": "拉丁语",
       "rootMeanings": [
         "不",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "名词",
       "definition": "复杂、错综；也指向内卷曲。",
       "friendly": "缠在自己里头、难以拆开的复杂——包得太紧，很难拉开。",
-      "exampleGloss": "情节的 involution 让一半观众在字幕后还在解。",
+      "exampleGloss": "情节的盘根错节让一半观众在字幕后还在解。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向内",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "名词",
       "definition": "力量或努力，如「by dint of」。",
       "friendly": "纯粹的努力或力量——如今多半活在词组「by dint of」里。",
-      "exampleGloss": "他凭纯粹、固执练习的 dint 通过了考试。",
+      "exampleGloss": "他凭纯粹、固执练习之力通过了考试。",
       "origin": "古英语",
       "rootMeanings": [
         "一击、一打",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "形容词",
       "definition": "以榫眼榫头接合的；牢牢契合的。",
       "friendly": "用老派木匠的方式锁在一起——一块刚好嵌入为它切出的孔。",
-      "exampleGloss": "旧谷仓的梁没有一根钉子就 mortised 在一起。",
+      "exampleGloss": "旧谷仓的梁没有一根钉子就以榫卯接在一起。",
       "origin": "拉丁语／法语",
       "rootMeanings": [
         "榫眼、孔",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "形容词",
       "definition": "高度相关、贴切。",
       "friendly": "正是那一刻该有的——评论、引文或例子完美落点。",
-      "exampleGloss": "她 apposite 的一句话用一句总结了整场辩论。",
+      "exampleGloss": "她贴切的一句话总结了整场辩论。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "形容词",
       "definition": "柔和发光或闪烁的（光）；也指轻巧机智。",
       "friendly": "温柔发光而非燃烧——柔和闪烁的光，或好玩而不锋利的机智。",
-      "exampleGloss": "烛光在旧餐厅投下 lambent 的光。",
+      "exampleGloss": "烛光在旧餐厅投下摇曳的光。",
       "origin": "拉丁语",
       "rootMeanings": [
         "舔",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "名词",
       "definition": "独居的宗教隐修者。",
       "friendly": "完全退出尘世、独自过祈祷与沉思生活的人。",
-      "exampleGloss": "那位 anchorite 在附属于教堂的小室住了三十多年。",
+      "exampleGloss": "那位隐修士在附属于教堂的小室住了三十多年。",
       "origin": "希腊语",
       "rootMeanings": [
         "向后、离开",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "动词",
       "definition": "解渴；平息。",
       "friendly": "充分满足渴望——多半是渴，比喻上则是任何深层需要。",
-      "exampleGloss": "一杯冷水 slaked 了他长途健行后的渴。",
+      "exampleGloss": "一杯冷水解了他长途健行后的渴。",
       "origin": "古英语",
       "rootMeanings": [
         "松的、弛的",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "形容词",
       "definition": "针状的。",
       "friendly": "又长又细、像针一样尖——松针或锐利小晶体的形状。",
-      "exampleGloss": "松树很容易凭 acicular 的叶子辨认。",
+      "exampleGloss": "松树很容易凭针状的叶子辨认。",
       "origin": "拉丁语",
       "rootMeanings": [
         "针",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "形容词",
       "definition": "耗尽活力、软弱、过度精致。",
       "friendly": "磨旧而软——因过度舒适或精致而失去原先的力与气。",
-      "exampleGloss": "批评家称这本曾经大胆的杂志 effete，只是早期锋芒的影子。",
+      "exampleGloss": "批评家称这本曾经大胆的杂志暮气沉沉，只是早期锋芒的影子。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向外",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "名词",
       "definition": "附属物或次要附带权利。",
       "friendly": "跟着大物而来的小额外——属于主体的配件与附加。",
-      "exampleGloss": "租约包括车库及其所有 appurtenances。",
+      "exampleGloss": "租约包括车库及其所有附属设施。",
       "origin": "拉丁语／法语",
       "rootMeanings": [
         "向",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "动词",
       "definition": "粉饰或淡化过错。",
       "friendly": "用软话把错抹平，听起来比实际小。",
-      "exampleGloss": "他试图用「未能预见的挑战」这种含糊说法 gloze 错过的期限。",
+      "exampleGloss": "他试图用「未能预见的挑战」这种含糊说法搪塞错过的期限。",
       "origin": "古法语／拉丁语",
       "rootMeanings": [
         "注释、解释",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "形容词",
       "definition": "处于早期阶段，刚开始。",
       "friendly": "才刚显露出来——更大之事最初、几乎看不见的阶段。",
-      "exampleGloss": "医师在病情扩散前捕捉到 incipient 征象。",
+      "exampleGloss": "医师在病情扩散前捕捉到初发的征象。",
       "origin": "拉丁语",
       "rootMeanings": [
         "在上、进入",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "名词",
       "definition": "创造性灵感，尤其神圣的。",
       "friendly": "感觉比自己更大的突然灵感——像念头从别处被吹进你里头。",
-      "exampleGloss": "诗人说整篇作品在凌晨三点一阵 afflatus 里来到。",
+      "exampleGloss": "诗人说整篇作品在凌晨三点一阵神来之思里涌现。",
       "origin": "拉丁语",
       "rootMeanings": [
         "向、之上",

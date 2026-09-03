@@ -46,9 +46,15 @@ def emit(locale: str) -> None:
             "rootMeanings": [r1, r2],
         }
     path = OUT / f"words_{locale}.json"
+    # newline="\n" or Windows writes CRLF and every one of the 1,478 lines
+    # counts as changed, whatever was actually edited: a 142-cell edit to `be`
+    # came out as a 2,956-line diff. The repo sets core.autocrlf false on
+    # purpose (see CLAUDE.md, Environments), so nothing downstream would have
+    # put it back.
     path.write_text(
         json.dumps({"words": words}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
+        newline="\n",
     )
     print(f"wrote {path.name} ({len(words)} words)")
 

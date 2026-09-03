@@ -4,7 +4,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að sæta eða hreinsa; að fjarlægja stríðleika úr einhverju.",
       "friendly": "Að taka broddinn eða beiskjuna úr einhverju — bókstaflega með því að sæta það, eða myndrænt með því að mýkja harða hugmynd svo hún fari auðveldar niður.",
-      "exampleGloss": "Ritstjórinn edulcorated hörðu umsögnina áður en hún fór í prentun.",
+      "exampleGloss": "Ritstjórinn mildaði hörðu umsögnina áður en hún fór í prentun.",
       "origin": "latína",
       "rootMeanings": [
         "út, rækilega",
@@ -15,7 +15,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Of eða tilgerðarlega trúarlegur eða guðhræddur.",
       "friendly": "Lýsir einhverjum sem trúarleg hollusta virðist sviðsett til sýnis — meira sýning en raunveruleg trú.",
-      "exampleGloss": "Pietistic andvörp hans í predikuninni pirruðu restina af bekknum.",
+      "exampleGloss": "Píetísk andvörp hans í predikuninni pirruðu restina af bekknum.",
       "origin": "latína",
       "rootMeanings": [
         "guðhræðsla, skyldurækni",
@@ -26,7 +26,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Tvíræðni sem sprettur af málfræðilegri byggingu — setning sem má lesa á tvo vegu.",
       "friendly": "Setning sem er málfræðilega í lagi en má lesa á tvo algjörlega ólíka vegu, eins og \"I saw the man with the telescope.\"",
-      "exampleGloss": "\"Visiting relatives can be tiring\" er klassísk amphiboly — eru ættingjarnir þreytandi, eða er það að heimsækja þá?",
+      "exampleGloss": "\"Visiting relatives can be tiring\" er klassísk tvíræðni — eru ættingjarnir þreytandi, eða er það að heimsækja þá?",
       "origin": "gríska",
       "rootMeanings": [
         "báðir, á báðar hliðar",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Beitt, nákvæmt, skera beint að kjarna málsins.",
-      "friendly": "Sker beint í gegnum fyllinguna — trenchant athugasemd eða hugur kemst fljótt að hjarta málsins, án ónýtra orða.",
-      "exampleGloss": "Trenchant gagnrýni hennar skildi engum stað eftir fyrir söguholur kvikmyndarinnar að fela sig.",
+      "friendly": "Sker beint í gegnum fyllinguna — beitt athugasemd eða beittur hugur kemst fljótt að hjarta málsins, án ónýtra orða.",
+      "exampleGloss": "Beitt gagnrýni hennar skildi engan stað eftir fyrir söguholur kvikmyndarinnar að fela sig í.",
       "origin": "fornfranska",
       "rootMeanings": [
         "að skera",
@@ -48,7 +48,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Nýbyrjað; á snemmbúnu eða frumstigi.",
       "friendly": "Enn í opnunarandartaki — áætlun, tilfinning eða ferli sem er nýbyrjað að taka á sig mynd.",
-      "exampleGloss": "Inchoative stig samningsins voru efnileg, en mörg smáatriði voru enn óleyst.",
+      "exampleGloss": "Fyrstu stig samningsins voru efnileg, en mörg smáatriði voru enn óleyst.",
       "origin": "latína",
       "rootMeanings": [
         "að byrja, að hefja",
@@ -59,7 +59,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Formleg ræða eða rit sem lofar einhvern hátt.",
       "friendly": "Fullgert, formlegt lof — hugsaðu glóandi minningarræðu eða ræðu sem syngur afrek einhvers af þökunum.",
-      "exampleGloss": "Prófessorinn sem lét af störfum var kvaddur með panegyric frá nánustu nemendum sínum.",
+      "exampleGloss": "Prófessorinn sem lét af störfum var kvaddur með lofræðu frá nánustu nemendum sínum.",
       "origin": "gríska",
       "rootMeanings": [
         "allt",
@@ -70,7 +70,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Varðar raunverulega tilvist eða staðreynda veru, andstætt abstrakt kenningu.",
       "friendly": "Um hluti eins og þeir raunverulega eru til, ekki bara sem hugmyndir eða kenningar um þá.",
-      "exampleGloss": "Heimspekingar deila um hvort tölur hafi einhverja ontic stöðu eða séu bara til í hugum okkar.",
+      "exampleGloss": "Heimspekingar deila um hvort tölur hafi einhverja verundarstöðu eða séu bara til í hugum okkar.",
       "origin": "gríska",
       "rootMeanings": [
         "vera, það sem er",
@@ -80,8 +80,8 @@
     "fructify": {
       "partOfSpeech": "sagnorð",
       "definition": "Að bera ávöxt, eða verða afkastamikið.",
-      "friendly": "Að greiða sig loksins — átak, hugmynd eða fjárfesting sem fructify, hefur vaxið úr fræi í eitthvað gagnlegt.",
-      "exampleGloss": "Ára kyrr rannsókn fructified loksins í virkt bóluefni.",
+      "friendly": "Að bera loksins ávöxt — átak, hugmynd eða fjárfesting sem ber ávöxt hefur vaxið úr fræi í eitthvað gagnlegt.",
+      "exampleGloss": "Margra ára hljóðlátar rannsóknir báru loks ávöxt: virkt bóluefni.",
       "origin": "latína",
       "rootMeanings": [
         "ávöxtur",
@@ -92,7 +92,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Sem á undan eða sýnir eitthvað sem þegar gert áður en það hefur raunverulega gerst.",
       "friendly": "Að hlaupa á undan á bókmenntalegan hátt — lýsa framtíðaratburði sem hann væri þegar búinn, svo punkturinn lendi harðar.",
-      "exampleGloss": "Proleptical skál hershöfðingjans fyrir \"victory\" var borin fram heilli viku fyrir orrustuna.",
+      "exampleGloss": "Forgripin skál hershöfðingjans fyrir \"sigrinum\" var borin fram heilli viku fyrir orrustuna.",
       "origin": "gríska",
       "rootMeanings": [
         "á undan",
@@ -103,7 +103,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Knúið loftþrýstingi; einnig tengt anda eða andardrætti.",
       "friendly": "Merkir yfirleitt \"knúið þrýstilofti\" — þó það geti líka átt við anda eða andardrátt.",
-      "exampleGloss": "Pneumatic bremsurnar hvæstu þegar strætóinn stöðvaðist við kantsteininn.",
+      "exampleGloss": "Loftknúnu bremsurnar hvæstu þegar strætóinn stöðvaðist við kantsteininn.",
       "origin": "gríska",
       "rootMeanings": [
         "vindur, andardráttur, andi",
@@ -114,7 +114,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Að lýsa Guði eða hinu guðlega með jákvæðum fullyrðingum — andstæða apófatísks.",
       "friendly": "Leið til að tala um Guð með því að segja hvað Guð er — \"God is love\" — fremur en bara hvað Guð er ekki.",
-      "exampleGloss": "Cataphatic guðfræði talar örugg um Guð sem elskandi, réttlátan og miskunnsaman.",
+      "exampleGloss": "Katafatísk guðfræði talar örugg um Guð sem elskandi, réttlátan og miskunnsaman.",
       "origin": "gríska",
       "rootMeanings": [
         "niður, samkvæmt",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Byggt á trausti eða trú; einnig notað sem fast viðmiðunarpunkt.",
-      "friendly": "Eitthvað sem þú tekur á trausti og notar svo sem akkeri — fiducial merki er fasta punkturinn sem allt annað er mælt við.",
-      "exampleGloss": "Landmælingamenn settu fiducial merki í berggrunninn áður en þeir kortlögðu svæðið.",
+      "friendly": "Eitthvað sem þú tekur á trausti og notar svo sem akkeri — viðmiðunarmerki er fasti punkturinn sem allt annað er mælt við.",
+      "exampleGloss": "Landmælingamenn settu fast viðmiðunarmerki í berggrunninn áður en þeir kortlögðu svæðið.",
       "origin": "latína",
       "rootMeanings": [
         "að treysta",
@@ -136,7 +136,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Vörn fyrir gæsku Guðs í ljósi tilvistar hins illa.",
       "friendly": "Hina aldagömlu tilraun til að svara \"If God is good, why does evil exist?\"",
-      "exampleGloss": "Ritgerð hennar skoðaði theodicy í gegnum Jobsbók.",
+      "exampleGloss": "Ritgerð hennar skoðaði teódíseu í gegnum Jobsbók.",
       "origin": "gríska",
       "rootMeanings": [
         "guð",
@@ -147,7 +147,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Gagnkvæm innistun — guðfræðilegt hugtak um hvernig persónur þrenningarinnar eru hver í annarri.",
       "friendly": "Guðfræðiorð fyrir þrjá-í-einum samveru svo fullkomna að hver hluti inniheldur hina og er innihaldinn af þeim.",
-      "exampleGloss": "Kenningin um circumincession reynir að útskýra hvernig Faðir, Sonur og Andi eru aðskildir en óaðskiljanlegir.",
+      "exampleGloss": "Kenningin um perikóresu reynir að útskýra hvernig Faðir, Sonur og Andi eru aðskildir en óaðskiljanlegir.",
       "origin": "latína",
       "rootMeanings": [
         "umhverfis",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "sagnorð",
       "definition": "Að hafa afleiðingu sem gagnast einhverjum eða speglast til baka á hann.",
-      "friendly": "Þegar heiður (eða sök) skoppar til baka á ábyrgðaraðilann — góð verk sem redound til orðstírs þíns koma til baka og verðlauna þig.",
-      "exampleGloss": "Árangur liðsins mun redound til heiðurs hins hljóða, vinnusama þjálfara.",
+      "friendly": "Þegar heiður (eða sök) skoppar til baka á ábyrgðaraðilann — góð verk sem verða orðstír þínum til framdráttar koma til baka og verðlauna þig.",
+      "exampleGloss": "Árangur liðsins mun falla til heiðurs hins hljóða, vinnusama þjálfara.",
       "origin": "latína",
       "rootMeanings": [
         "til baka, aftur",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Óhjákvæmilegt; ekki hægt að forðast eða slíta sig lausan.",
-      "friendly": "Dæmt til að gerast sama hvað þú gerir — engin leið að slíta sig lausan úr ineluctable niðurstöðu.",
-      "exampleGloss": "Ellin kemur til allra; hún er einfaldlega ineluctable.",
+      "friendly": "Dæmt til að gerast sama hvað þú gerir — engin leið að slíta sig lausan úr óumflýjanlegri niðurstöðu.",
+      "exampleGloss": "Ellin kemur til allra; hún er einfaldlega óumflýjanleg.",
       "origin": "latína",
       "rootMeanings": [
         "ekki",
@@ -180,7 +180,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Sem notar umsvifamiklar, orðmargar setningar í stað beinnar myndar.",
       "friendly": "Að taka langa leiðina með orðunum — að segja \"make a decision\" í stað \"decide.\"",
-      "exampleGloss": "Periphrastic tölvupóstar hans hefðu getað sagt í einni línu það sem tók hann þrjár málsgreinar.",
+      "exampleGloss": "Margorðir tölvupóstar hans hefðu getað sagt í einni línu það sem tók hann þrjár málsgreinar.",
       "origin": "gríska",
       "rootMeanings": [
         "umhverfis",
@@ -191,7 +191,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Andleg sljóleiki eða sljóleiki.",
       "friendly": "Sú þokukennda, seinfæra hugarástand þar sem hugsun finnst eins og að vaða í sýrópi.",
-      "exampleGloss": "Bylgja hebetude skall á bekkinn strax eftir hádegismat.",
+      "exampleGloss": "Bylgja sljóleika skall á bekkinn strax eftir hádegismat.",
       "origin": "latína",
       "rootMeanings": [
         "sljór, bitlaus",
@@ -202,7 +202,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Óhagstætt; sem boðar illt.",
       "friendly": "Slæmt merki — aðstæður eða tímasetning sem virðast vinna gegn þér áður en þú ert einu sinni byrjaður.",
-      "exampleGloss": "Grár himinn og dauð bílastaðla gerðu unpropitious byrjun á bíltúrnum.",
+      "exampleGloss": "Grár himinn og dauður bílrafgeymir gerðu óheillavænlega byrjun á bíltúrnum.",
       "origin": "latína",
       "rootMeanings": [
         "ekki",
@@ -213,7 +213,7 @@
       "partOfSpeech": "lýsingarorð / sagnorð",
       "definition": "Kjöt soðið eða brasað í sósu — rétt stafsett \"fricasseed.\"",
       "friendly": "Huggulegt gamalt eldunarorð yfir kjöt sem hefur verið skorið upp og soðið hægt í eigin sósu þar til það er meyrt.",
-      "exampleGloss": "Fricasseed kjúklingur ömmu var hápunktur hvers sunnudagsmatars.",
+      "exampleGloss": "Frikassé-kjúklingur ömmu var hápunktur hvers sunnudagsmatar.",
       "origin": "franska",
       "rootMeanings": [
         "að steikja",
@@ -224,7 +224,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Gervi eða lakari staðgengill.",
       "friendly": "Eftirlíking sem stendur í stað hins sanna — hún vinnur verkið tæknilega, en allir sjá að þetta er ekki alvöru vara.",
-      "exampleGloss": "Stríðstíðar viðskiptavinir björguðu sér með ersatz-kaffi soðnu úr ristuðu sikóríu.",
+      "exampleGloss": "Viðskiptavinir á stríðstímum björguðu sér með staðgengilskaffi soðnu úr ristaðri sikóríu.",
       "origin": "þýska",
       "rootMeanings": [
         "út, staðgengilsforskeyti",
@@ -235,7 +235,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að meðhöndla abstrakta hugmynd eins og hún væri áþreifanlegur hlutur.",
       "friendly": "Að láta hugmynd finnast raunveruleg og föst — að snúa einhverju óljósu, eins og \"the economy,\" í hlut sem hægt er að benda á.",
-      "exampleGloss": "Að kalla \"spirit\" þjóðar sinn eigin veru reifies eitthvað sem er í raun bara milljónir einstakra vala.",
+      "exampleGloss": "Að kalla \"anda\" þjóðar sjálfstæða veru er að hlutgera eitthvað sem er í raun bara milljónir einstakra vala.",
       "origin": "latína",
       "rootMeanings": [
         "hlutur",
@@ -246,7 +246,7 @@
       "partOfSpeech": "sagnorð (þátíð)",
       "definition": "Slapp undan eða forðaðist af list.",
       "friendly": "Renndi hreint í burtu — sneiddi hjá einhverju, oft kænlega eða naumlega, hvort sem það var grip, spurning eða svar.",
-      "exampleGloss": "Svarið eluded hana í klukkustundir þar til það smellti skyndilega í sturtunni.",
+      "exampleGloss": "Svarið vék sér undan henni í klukkustundir þar til það smellti skyndilega í sturtunni.",
       "origin": "latína",
       "rootMeanings": [
         "út, í burtu",
@@ -257,7 +257,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Sem tjáir efa, rugl eða óleysta mótsögn.",
       "friendly": "Föst í raunverulegum hugsunarendapunkti — ekki rugluð af leti, heldur vegna þess að spurningin sjálf stendur gegn snyrtilegu svari.",
-      "exampleGloss": "Sókrates lauk oft samræðum sínum á aporetic nótu, með fleiri spurningum en svörum.",
+      "exampleGloss": "Sókrates lauk oft samræðum sínum á aporetískum nótum, með fleiri spurningum en svörum.",
       "origin": "gríska",
       "rootMeanings": [
         "án",
@@ -268,7 +268,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Stílbragð sem nefnir eitthvað með tengdu hugtaki, t.d. \"the crown\" fyrir konunginn.",
       "friendly": "Að nota tengt orð í stað hlutarins sjálfs — að segja \"the White House announced\" þegar þú átt við stjórnina.",
-      "exampleGloss": "\"Wall Street had a rough day\" er metonymy — það þýðir í raun hlutabréfamarkaðinn.",
+      "exampleGloss": "\"Wall Street had a rough day\" er nafnskipti — það á í raun við hlutabréfamarkaðinn.",
       "origin": "gríska",
       "rootMeanings": [
         "breyting, eftir",
@@ -279,7 +279,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að rífa upp með rótum; að rífa úr náttúrulegu umhverfi.",
       "friendly": "Að draga eitthvað (eða einhvern) upp með rótum, í burtu frá staðnum eða menningunni sem þau tilheyra.",
-      "exampleGloss": "Stríð deracinated heila kynslóð og dreifði fjölskyldum yfir landamæri.",
+      "exampleGloss": "Stríð reif heila kynslóð upp með rótum og dreifði fjölskyldum yfir landamæri.",
       "origin": "franska / latína",
       "rootMeanings": [
         "í burtu, af",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Ánægjulegt á heyrn.",
-      "friendly": "Einfaldlega gott að heyra — euphonious orð, nafn eða setning rúllar mjúkt um eyrað, nánast tónlistarlega.",
-      "exampleGloss": "\"Murmuring brook\" er euphonious lítil setning, mjúk og auðvelt að segja.",
+      "friendly": "Einfaldlega gott að heyra — hljómfagurt orð, nafn eða setning rúllar mjúkt um eyrað, nánast tónlistarlega.",
+      "exampleGloss": "\"Murmuring brook\" er hljómfögur lítil setning, mjúk og auðvelt að segja.",
       "origin": "gríska",
       "rootMeanings": [
         "gott, vel",
@@ -301,7 +301,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Almennt talið eða ætlað að vera.",
       "friendly": "Víða trúað sönnu, jafnvel þótt það hafi ekki raunverulega verið sannað — \"supposed\" útgáfan af einhverju.",
-      "exampleGloss": "Putative höfundur bréfsins reyndist síðar algjör ókunnugur.",
+      "exampleGloss": "Meintur höfundur bréfsins reyndist síðar algjör ókunnugur.",
       "origin": "latína",
       "rootMeanings": [
         "að hugsa, að telja",
@@ -312,7 +312,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Nýmyndað orð eða orðasamband.",
       "friendly": "Alveg nýtt orð — nýuppfunnið, enn ekki (eða varla) í orðabókinni.",
-      "exampleGloss": "\"Doomscrolling\" byrjaði sem neologism og varð fljótt hversdagslegt slangur.",
+      "exampleGloss": "\"Doomscrolling\" byrjaði sem nýyrði og varð fljótt hversdagslegt slangur.",
       "origin": "gríska",
       "rootMeanings": [
         "nýtt",
@@ -323,7 +323,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Reiður eða illa skapi.",
       "friendly": "Í vondu, pirruðu skapi — fljótur að smella, eins og fólk trúði einu sinni að miltað stýrði skapinu.",
-      "exampleGloss": "Hann sendi splenetic svar við tölvupóstinum á sekúndum eftir að hafa lesið hann.",
+      "exampleGloss": "Hann sendi gallsúrt svar við tölvupóstinum á sekúndum eftir að hafa lesið hann.",
       "origin": "gríska / latína",
       "rootMeanings": [
         "milta (sæti reiði)",
@@ -334,7 +334,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Hneigður til að siðpræða á pompósa eða tilgerðarlegan hátt.",
       "friendly": "Elskar að deila litlum lífslexíum á sjálfumfullan hátt, eins og hver setning sé heppnikaka.",
-      "exampleGloss": "Sententious skál hans um \"the true meaning of friendship\" fékk alla til að horfa á klukkuna.",
+      "exampleGloss": "Uppbyggileg skál hans um \"hina sönnu merkingu vináttunnar\" fékk alla til að horfa á klukkuna.",
       "origin": "latína",
       "rootMeanings": [
         "skoðun, málsháttur",
@@ -345,7 +345,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Of málgefinn, sérstaklega um smávægilega hluti.",
       "friendly": "Hættir bara ekki að spjalla — þvælist um smámuni löngu eftir að allir aðrir eru búnir að umræðuefni.",
-      "exampleGloss": "Garrulous leigubílstjórinn sagði okkur alla ævisögu sína áður en við vorum farnir frá flugvellinum.",
+      "exampleGloss": "Málgefni leigubílstjórinn sagði okkur alla ævisögu sína áður en við vorum farnir frá flugvellinum.",
       "origin": "latína",
       "rootMeanings": [
         "að þvælast, að babbla",
@@ -356,7 +356,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Heimska, fíflska.",
       "friendly": "Hrein heimska — athugasemd eða áætlun svo fíflaleg að hún á varla skilið alvarlegt svar.",
-      "exampleGloss": "Hrein fatuity áætlunarinnar varð ljós um leið og þeir reyndu hana.",
+      "exampleGloss": "Hrein flónska áætlunarinnar varð ljós um leið og þeir reyndu hana.",
       "origin": "latína",
       "rootMeanings": [
         "heimskur, fíflalegur",
@@ -367,7 +367,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Lokahluti ræðu, oft samantekt.",
       "friendly": "Stóra endirinn á ræðu — lokakaflinn þar sem ræðumaðurinn dregur allt saman og rekur punktinn heim.",
-      "exampleGloss": "Við peroration stóð helmingur áhorfenda á fótunum.",
+      "exampleGloss": "Við lokaorðin stóð helmingur áhorfenda á fótunum.",
       "origin": "latína",
       "rootMeanings": [
         "í gegnum, til enda",
@@ -378,7 +378,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Óþörf endurtekning sömu hugmyndar með öðrum orðum.",
       "friendly": "Að segja það sama tvisvar án þess að bæta neinu nýju við, eins og \"free gift\" eða \"end result.\"",
-      "exampleGloss": "\"It is what it is\" er uppáhalds-tautology fólks sem forðast raunverulega skýringu.",
+      "exampleGloss": "\"It is what it is\" er uppáhaldsklifun fólks sem forðast raunverulega skýringu.",
       "origin": "gríska",
       "rootMeanings": [
         "hið sama",
@@ -389,7 +389,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Notkun mjög fárra orða; stuttmælt tal.",
       "friendly": "Að segja mikið með litlu — listin að stuttu, beinu svari, nefnd eftir hinum alræmdu fáorðu Spartverjum Lakóníu.",
-      "exampleGloss": "\"Molon labe\" — \"come and take them\" — er frægasta laconism sögunnar.",
+      "exampleGloss": "\"Molon labe\" — \"komið og takið þau\" — er frægasti lakónismi sögunnar.",
       "origin": "gríska",
       "rootMeanings": [
         "Spartverji frá Lakóníu",
@@ -400,7 +400,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Daufar, ofureinfaldar hugmyndir; upphaflega, dauf matur eða grautur.",
       "friendly": "Þunn, vatnsblandað hugsun — efni svo einfaldað og öruggt að það hefur ekkert næringargildi fyrir hugann.",
-      "exampleGloss": "Ræða stjórnmálamannsins var að mestu pabulum: óljósar loforð án neins sem hægt var að festa á.",
+      "exampleGloss": "Ræða stjórnmálamannsins var að mestu innantómt hjal: óljós loforð án neins sem hægt var að festa á.",
       "origin": "latína",
       "rootMeanings": [
         "að fæða",
@@ -411,7 +411,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Sem veldur svefni eða sljóleika.",
       "friendly": "Svo leiðinlegt — eða svo bókstaflega svæfandi — að það gerir mann syfjaðan. Hugsaðu um heitt mjólk, eða þriggja klukkustunda fjárhagsfundn.",
-      "exampleGloss": "Soporific suð fyrirlestursins fékk helming herbergisins til að berjast við að halda augunum opnum.",
+      "exampleGloss": "Svæfandi suð fyrirlestursins fékk helming herbergisins til að berjast við að halda augunum opnum.",
       "origin": "latína",
       "rootMeanings": [
         "djúpur svefn",
@@ -422,7 +422,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Of smjaðrandi eða olíukenndur í háttum.",
       "friendly": "Svo slétt heillandi að það finnst hált — smjör klárt svo þykkt að þú finnur nánast fitu.",
-      "exampleGloss": "Unctuous sölumaðurinn hélt áfram að hrósa \"excellent taste\" mínu fyrir hverja uppsala.",
+      "exampleGloss": "Smjaðrandi sölumaðurinn hélt áfram að hrósa \"frábæra smekk\" mínum fyrir hverja uppsölu.",
       "origin": "latína",
       "rootMeanings": [
         "að smyrja, að olía",
@@ -433,7 +433,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Fljótur að finna sök, of gagnrýninn á smávægilega hluti.",
       "friendly": "Nákvæmur að sök — gerðin sem finnur vandamál við allt, jafnvel þegar það skiptir ekki máli.",
-      "exampleGloss": "Captious athugasemdir hans við skýrsluna snérust eingöngu um kommastöður.",
+      "exampleGloss": "Smásmugulegar athugasemdir hans við skýrsluna snerust eingöngu um kommastöður.",
       "origin": "latína",
       "rootMeanings": [
         "að grípa, að taka",
@@ -444,7 +444,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Seinn, andlega eða líkamlega óvirkur.",
       "friendly": "Hægur og hálfsófandi, eins og björn í vetrardvala — varla á hreyfingu, varla í hugsun.",
-      "exampleGloss": "Skrifstofan féll torpid í þunga ágústhitann.",
+      "exampleGloss": "Skrifstofan varð dofin í þunga ágústhitanum.",
       "origin": "latína",
       "rootMeanings": [
         "að vera dofinn, að vera seinn",
@@ -455,7 +455,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Ráðsmaður eða embættismaður sem stjórnaði miðaldahúsi.",
       "friendly": "Miðaldaútgáfa af starfsfólksstjóra — trausti embættismaðurinn sem rak hús og eignir drottins frá degi til dags.",
-      "exampleGloss": "Seneschal kastalans sá um allt frá uppskerureikningum til gestalista.",
+      "exampleGloss": "Ráðsmaður kastalans sá um allt frá uppskerureikningum til gestalista.",
       "origin": "frankneska / fornfranska",
       "rootMeanings": [
         "gamall, eldri",
@@ -466,7 +466,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að tala eða skrifa ítarlega um efni.",
       "friendly": "Að komast virkilega á flug um efni — tala eða skrifa og þekja það frá hverju horni.",
-      "exampleGloss": "Spurðu hann um vintagebíla og hann mun expatiate í heila klukkustund.",
+      "exampleGloss": "Spurðu hann um fornbíla og hann mun teygja lopann í heila klukkustund.",
       "origin": "latína",
       "rootMeanings": [
         "út",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Án gildis, léttvægt; einnig ógilt eða árangurslaust.",
-      "friendly": "Í raun einskis virði — nugatory ákvæði í samningi er eitt sem gerir í raun ekkert.",
-      "exampleGloss": "Dómstóllinn dæmdi gamla samþykktina nugatory, þar sem hún hafði aldrei verið framfylgt.",
+      "friendly": "Í raun einskis virði — marklaust ákvæði í samningi er ákvæði sem gerir í raun ekkert.",
+      "exampleGloss": "Dómstóllinn dæmdi gamla samþykktina ómerka, þar sem henni hafði aldrei verið framfylgt.",
       "origin": "latína",
       "rootMeanings": [
         "smámuni, bull",
@@ -488,7 +488,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Viska, skarpskyggn dómgreind.",
       "friendly": "Skörp, hagnýt viska — sú góða dómgreind sem kemur af reynslu, ekki bara bókavit.",
-      "exampleGloss": "Sagacity gamla skipstjórans hélt áhöfninni frá vandræðum oftar en einu sinni.",
+      "exampleGloss": "Skarpskyggni gamla skipstjórans hélt áhöfninni frá vandræðum oftar en einu sinni.",
       "origin": "latína",
       "rootMeanings": [
         "skarpur á lykt, skarpskyggn",
@@ -499,7 +499,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Pöbbel eða massar, notað fyrirlitlega.",
       "friendly": "Snobbótt, afneitandi orð yfir \"the rabble\" eða alþýðu, notað með fyrirlitningu.",
-      "exampleGloss": "Greifinn hæðst að canaille sem safnast fyrir utan hallarhliðin.",
+      "exampleGloss": "Greifinn hæddist að skrílnum sem safnaðist fyrir utan hallarhliðin.",
       "origin": "ítalska / franska",
       "rootMeanings": [
         "hundur",
@@ -510,7 +510,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Ósvífin, niðurlægjandi meðferð eða mál.",
       "friendly": "Grimm, háðsleg meðferð ætluð til að niðurlægja — sú tegund móðgunar sem er hönnuð til að sviða.",
-      "exampleGloss": "Hann þoldi ár af contumely frá gagnrýnendum áður en verk hans voru loks viðurkennd.",
+      "exampleGloss": "Hann þoldi ár af smán frá gagnrýnendum áður en verk hans voru loks viðurkennd.",
       "origin": "latína",
       "rootMeanings": [
         "með, rækilega",
@@ -521,7 +521,7 @@
       "partOfSpeech": "atviksorð",
       "definition": "Með tortryggni eða vanþóknun; hliðarsýn.",
       "friendly": "Sú hliðarsýn sem þú gefur einhverju sem þú treystir ekki alveg — svipur hlaðinn efa.",
-      "exampleGloss": "Kennarinn horfði askance á grunsamlega snyrtilega heimalærdóminn.",
+      "exampleGloss": "Kennarinn horfði tortryggnum augum á grunsamlega snyrtilega heimalærdóminn.",
       "origin": "óvíst / ítalska",
       "rootMeanings": [
         "að, til",
@@ -532,7 +532,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Heimskur maður; trékollur.",
       "friendly": "Gamaldags, nánast kærleg móðgun við einhvern sem er seinn eða þykkhyrndur — trékollur.",
-      "exampleGloss": "\"You clodpate,\" hló hún, \"you've had the map upside down the whole time.\"",
+      "exampleGloss": "\"Þú bjálfi,\" hló hún, \"þú hefur haft kortið á hvolfi allan tímann.\"",
       "origin": "enska",
       "rootMeanings": [
         "jarðklumpur",
@@ -543,7 +543,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að setja á hreyfingu eða í verk; að hvetja.",
       "friendly": "Að vera neistinn sem setur eitthvað á hreyfingu — hvort sem það er vél sem kviknar eða maður sem loksins bregst við hugmynd.",
-      "exampleGloss": "Ótti við að missa samninginn actuated allt liðið í helgar yfirvinnu.",
+      "exampleGloss": "Ótti við að missa samninginn dreif allt liðið í helgar yfirvinnu.",
       "origin": "latína",
       "rootMeanings": [
         "gerð, akstur",
@@ -554,7 +554,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Fjárdráttur fjármuna sem þér er treyst fyrir.",
       "friendly": "Að stela hljóðlega peningum sem þér var treyst til að gæta — fjárdráttur í gamaldags kápu.",
-      "exampleGloss": "Peculation gjaldkerans fór óséð í næstum áratug.",
+      "exampleGloss": "Fjárdráttur gjaldkerans fór óséður í næstum áratug.",
       "origin": "latína",
       "rootMeanings": [
         "einkaeign",
@@ -565,7 +565,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Hópur sem talinn er á jaðri virðulegs samfélags.",
       "friendly": "Glæsilegur en skuggalegur félagslegur undirheimur — fólk sem lifir rétt utan reglna \"respectable\" samfélags.",
-      "exampleGloss": "Skáldsagan fylgir söngkonu sem rataði um demi-monde kabarettanna á 2. áratugnum.",
+      "exampleGloss": "Skáldsagan fylgir söngkonu sem ratar um hálfheim kabarettanna á 3. áratugnum.",
       "origin": "franska",
       "rootMeanings": [
         "hálfur",
@@ -576,7 +576,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Enn til; ekki útdauð eða eyðilagt.",
       "friendly": "Enn hér í dag — notað um gamla hluti (handrit, tegundir, byggingar) sem hafa tekist að lifa af.",
-      "exampleGloss": "Aðeins þrjú extant eintök af fyrstu prentuninni eru þekkt.",
+      "exampleGloss": "Aðeins þrjú varðveitt eintök af fyrstu prentuninni eru þekkt.",
       "origin": "latína",
       "rootMeanings": [
         "út",
@@ -587,7 +587,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Sviksemi; svik á trausti.",
       "friendly": "Djúp, vísvitandi svik — að brjóta traust sem einhver átti rétt á að búast við að þú héldir.",
-      "exampleGloss": "Hershöfðinginn fyrirgaf aldrei perfidy gamla vinar síns við samningaborðið.",
+      "exampleGloss": "Hershöfðinginn fyrirgaf aldrei svikin hjá gamla vini sínum við samningaborðið.",
       "origin": "latína",
       "rootMeanings": [
         "í gegnum, gegn",
@@ -598,7 +598,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Svæðisbundið mállýska, sérstaklega ósamræmd.",
       "friendly": "Sérstæða, staðbundna leiðin sem fólk talar á tilteknu svæði — full af orðum og takti sem utanaðkomandi gæti misst.",
-      "exampleGloss": "Amma hennar talaði enn patois eyjarinnar við fjölskyldukvöldverði.",
+      "exampleGloss": "Amma hennar talaði enn mállýsku eyjarinnar við fjölskyldukvöldverði.",
       "origin": "franska",
       "rootMeanings": [
         "gróft tal, mállýska",
@@ -609,7 +609,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Sérstakur réttur sem tilheyrir einstaklingi eða hópi.",
       "friendly": "Forréttindi sem eru þín og aðeins þín — réttur sem fylgir hlutverki þínu, stöðu eða stöðu.",
-      "exampleGloss": "Að velja fjölskyldufríið er prerogative afa, og allir vita það.",
+      "exampleGloss": "Að velja fjölskyldufríið er forréttindi afa, og allir vita það.",
       "origin": "latína",
       "rootMeanings": [
         "á undan",
@@ -620,7 +620,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Djarfleiki, áræðni; einnig harðfylgi eða þol.",
       "friendly": "Hrjúf, hugdjörf mótstaða — taugarnar til að ýta áfram og harðfylgið til að halda áfram þegar þú byrjar.",
-      "exampleGloss": "Það tók raunverulega hardihood að fara yfir skarðið í snjóstormi án korts.",
+      "exampleGloss": "Það tók raunverulegt áræði að fara yfir skarðið í snjóstormi án korts.",
       "origin": "fornfranska / enska",
       "rootMeanings": [
         "djarfur, harðnaður",
@@ -631,7 +631,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að springa út í blóma; einnig að þróast eða birtast smám saman.",
       "friendly": "Að opnast í fulla tjáningu — eins og blóm sem opnast, eða hugmynd sem loksins kemur til sín.",
-      "exampleGloss": "Hljóðlát málunargáfa hennar effloresced þegar hún fékk eigið vinnustofu.",
+      "exampleGloss": "Hljóðlát málunargáfa hennar blómstraði þegar hún fékk eigin vinnustofu.",
       "origin": "latína",
       "rootMeanings": [
         "út",
@@ -642,7 +642,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Lóðstrengur til að ákvarða lóðrétt; myndrænt, mælikvarði á dómgreind.",
       "friendly": "Þyngd á streng sem hangir alveg beint niður, notuð til að athuga hvort eitthvað sé sannarlega lóðrétt — og í víðari merkingu hvaða fasti mælikvarði sem þú mælir allt annað við.",
-      "exampleGloss": "Hann notaði heiðarleika eigin afa sem eins konar plumb-line fyrir hverja ákvörðun.",
+      "exampleGloss": "Hann notaði heiðarleika eigin afa sem eins konar lóðlínu fyrir hverja ákvörðun.",
       "origin": "latína / enska",
       "rootMeanings": [
         "blý",
@@ -653,7 +653,7 @@
       "partOfSpeech": "atviksorð",
       "definition": "Gjarnan, viljugur (fornlegt).",
       "friendly": "Gamaldags leið til að segja \"gladly\" eða \"with pleasure.\"",
-      "exampleGloss": "\"I would fain rest here a while,\" andvarpaði ferðalangurinn.",
+      "exampleGloss": "\"Ég vildi gjarnan hvílast hér um stund,\" andvarpaði ferðalangurinn.",
       "origin": "fornenska",
       "rootMeanings": [
         "glaður, feginn",
@@ -664,7 +664,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Hörð opinber gagnrýni eða smán.",
       "friendly": "Opinber skömm sem er hellt yfir einhvern á stóran, sýnilegan hátt — smánin sem kemur af víðtækri vanþóknun.",
-      "exampleGloss": "Hneykslið bar opinbert opprobrium niður á allt fyrirtækið.",
+      "exampleGloss": "Hneykslið bar opinbera vanvirðu niður á allt fyrirtækið.",
       "origin": "latína",
       "rootMeanings": [
         "gegn",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Beitt sarkastískt, bitandi í viti eða gagnrýni.",
-      "friendly": "Vit með alvöru tennur — mordant athugasemd sviður aðeins einmitt vegna þess að hún er svo vel beint.",
-      "exampleGloss": "Mordant kvikmyndagagnrýni hennar var óttast af leikstjórum og elskuð af lesendum.",
+      "friendly": "Vit með alvöru tennur — nöpur athugasemd sviður aðeins einmitt vegna þess að henni er svo vel beint.",
+      "exampleGloss": "Nöpur kvikmyndagagnrýni hennar var óttast af leikstjórum og elskuð af lesendum.",
       "origin": "latína / franska",
       "rootMeanings": [
         "að bíta",
@@ -686,7 +686,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Formleg yfirlýsing, oft pólitísk eða hernaðarleg.",
       "friendly": "Stór, opinber tilkynning — venjulega ein sem lýsir yfir nýrri ríkisstjórn, uppreisn eða stóru tilskipun.",
-      "exampleGloss": "Pronunciamento hershöfðingjans tilkynnti nýju ríkisstjórnina í dögun.",
+      "exampleGloss": "Ávarp hershöfðingjans tilkynnti nýju ríkisstjórnina í dögun.",
       "origin": "spænska",
       "rootMeanings": [
         "fram",
@@ -697,7 +697,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Maður með yfirborðslega þekkingu sem þykist vera sérfræðingur.",
       "friendly": "Einhver sem hefur skimað yfirborð efnis og talar svo eins og hann hafi skrifað kennslubókina um það.",
-      "exampleGloss": "Sciolist kvöldverðarins leiðrétti sjálfsöruggt raunverulega stjarneðlisfræðinginn við borðið.",
+      "exampleGloss": "Sá hálflærði í kvöldverðarboðinu leiðrétti sjálfsöruggur raunverulega stjarneðlisfræðinginn við borðið.",
       "origin": "latína",
       "rootMeanings": [
         "að vita",
@@ -708,7 +708,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Hnignun andlegra hæfileika á elliárum.",
       "friendly": "Þokaða, gleymska kafli hárra ævi þegar skerpa hugarins byrjar að dofna.",
-      "exampleGloss": "Í dotage sagði hann sömu þrjár sögurnar í hverri heimsókn, í hvert sinn eins og þær væru nýjar.",
+      "exampleGloss": "Í elliærslum sagði hann sömu þrjár sögurnar í hverri heimsókn, í hvert sinn eins og þær væru nýjar.",
       "origin": "miðenska",
       "rootMeanings": [
         "að dotta, að vera heimskur",
@@ -719,7 +719,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Hliðin sem er varin fyrir vindi.",
       "friendly": "Kyrrlát, varin hlið einhvers — hæðar, skips, veggjar — þar sem vindurinn nær þér ekki alveg.",
-      "exampleGloss": "Göngumennirnir reistu tjaldið á lee-side hryggsins til að sleppa undan hviðunum.",
+      "exampleGloss": "Göngumennirnir reistu tjaldið hlémegin við hrygginn til að sleppa undan hviðunum.",
       "origin": "fornenska",
       "rootMeanings": [
         "skjól, vernd",
@@ -730,7 +730,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að verjast eða slá frá höggi, spurningu eða rökum.",
       "friendly": "Að slá einhverju mjúklega frá — sverðshögg, vandræðalegri spurningu eða ásökun — án þess að missa taktinn.",
-      "exampleGloss": "Hún parried snjöllu spurningu blaðamannsins með léttum brandara.",
+      "exampleGloss": "Hún bægði frá snjöllu spurningu blaðamannsins með léttum brandara.",
       "origin": "franska",
       "rootMeanings": [
         "að verjast",
@@ -741,7 +741,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Illa lyktandi, skaðlegt.",
       "friendly": "Fýlur á hátt sem finnst nánast eitrað — fýla svo slæm að það virðist hættulegt að anda.",
-      "exampleGloss": "Mephitic lykt rak upp úr mýrinni þegar sólin settist.",
+      "exampleGloss": "Ódaunn rak upp úr mýrinni þegar sólin settist.",
       "origin": "latína",
       "rootMeanings": [
         "skaðleg gufa",
@@ -752,7 +752,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Maður sem er helgaður lúxus og nautn.",
       "friendly": "Einhver sem lifir fyrir þægindi og nautn — fínan mat, mjúk rúm, auðvelt líf — nefndur eftir forngrísku borginni Sybaris, frægri fyrir ofgnótt.",
-      "exampleGloss": "Sannur sybarite, hann neitaði öllum hótelherbergjum án baðkars.",
+      "exampleGloss": "Sannur nautnaseggur, hann neitaði öllum hótelherbergjum án baðkars.",
       "origin": "gríska",
       "rootMeanings": [
         "forngríska borgin fræg fyrir lúxus",
@@ -763,7 +763,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að leggja vísvitandi hluta af einhverju til hliðar.",
       "friendly": "Að setja púslhluta vísvitandi til hliðar svo þú getir einbeitt þér hreint að restinni.",
-      "exampleGloss": "Prescind frá kostnaðinum augnablik og spyrjum bara hvort áætlunin virki raunverulega.",
+      "exampleGloss": "Lítum fram hjá kostnaðinum augnablik og spyrjum bara hvort áætlunin virki raunverulega.",
       "origin": "latína",
       "rootMeanings": [
         "á undan, í burtu",
@@ -774,7 +774,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að gagnrýna harðlega; einnig að rífa húð af.",
       "friendly": "Að rífa einhvern í tætlur með harðri gagnrýni — í orðum, eins og þú værir bókstaflega að rífa húðina af.",
-      "exampleGloss": "Gagnrýnendur excoriated framhaldið fyrir að svíkja allt sem aðdáendur elskuðu við frumverkið.",
+      "exampleGloss": "Gagnrýnendur rifu framhaldið í sig fyrir að svíkja allt sem aðdáendur elskuðu við frumverkið.",
       "origin": "latína",
       "rootMeanings": [
         "af",
@@ -785,7 +785,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að vitna sem sönnun eða rök.",
       "friendly": "Að koma fram með staðreynd eða dæmi til að styðja punktinn þinn — það sem þú bendir á þegar einhver spyr \"what's your evidence?\"",
-      "exampleGloss": "Lögmaðurinn adduced þrjá vitni til að styðja alibi skjólstæðingsins.",
+      "exampleGloss": "Lögmaðurinn leiddi fram þrjú vitni til að styðja fjarvistarsönnun skjólstæðingsins.",
       "origin": "latína",
       "rootMeanings": [
         "að, til",
@@ -796,7 +796,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Ferðir eða flakkar, sérstaklega langar eða víðtækar.",
       "friendly": "Langar, flakkandi ferðir — sú tegund víðtækrar flakks sem tekur þig langt að heiman um langan tíma.",
-      "exampleGloss": "Peregrinations hans yfir þrjár heimsálfur fylltu heila hillu ferðadagbóka.",
+      "exampleGloss": "Flakk hans yfir þrjár heimsálfur fyllti heila hillu ferðadagbóka.",
       "origin": "latína",
       "rootMeanings": [
         "í gegnum",
@@ -807,7 +807,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Betlari, eða sá sem lifir á ölmusu.",
       "friendly": "Einhver sem lifir á því að biðja um góðverk — sögulega lýsti þetta einnig munkum sem tóku fátæktarheit og lifðu á gjöfum.",
-      "exampleGloss": "Mendicant bræðurnir áttu ekkert og treystu alveg á góðvild þorpsbúa.",
+      "exampleGloss": "Betlibræðurnir áttu ekkert og treystu alveg á góðvild þorpsbúa.",
       "origin": "latína",
       "rootMeanings": [
         "að betla",
@@ -818,7 +818,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Afar örlátur.",
       "friendly": "Örlátur á stórum, nánast sýnilegum skala — sú tegund gjafar sem lætur fólk anda aðeins að sér.",
-      "exampleGloss": "Munificent gjöfin fjármagnaði alla nýju álmuna á bókasafninu.",
+      "exampleGloss": "Hin höfðinglega gjöf fjármagnaði alla nýju álmuna á bókasafninu.",
       "origin": "latína",
       "rootMeanings": [
         "gjöf, þjónusta",
@@ -829,7 +829,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Örmögnun vegna skorts á næringu; einnig skortur á lífsþrótti.",
       "friendly": "Veikt, tómt ástand af því að hafa ekki verið fóðrað eða eldsneyti — bókstaflega af hungri, eða myndrænt af því að eiga ekkert eftir að keyra á.",
-      "exampleGloss": "Í lok umsátrinu voru hermennirnir nálægt inanition.",
+      "exampleGloss": "Í lok umsátursins voru hermennirnir nálægt örmögnun.",
       "origin": "latína",
       "rootMeanings": [
         "tómt, tómarúm",
@@ -840,7 +840,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Beisk, móðgandi gagnrýni.",
       "friendly": "Gagnrýni sem er löngu komin framhjá sanngjörnu og orðin reið, beisk úthelling.",
-      "exampleGloss": "Netathugasemdirnar leystust upp í hreina vituperation á mínútum.",
+      "exampleGloss": "Netathugasemdirnar leystust upp í hreint skítkast á mínútum.",
       "origin": "latína",
       "rootMeanings": [
         "sök",
@@ -851,7 +851,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Fjandsamlegt, skaðlegt í áhrifum.",
       "friendly": "Vinnur gegn þér, jafnvel hljóðlega — aðstæður eða viðhorf sem eru óvingjarnleg hagsmunum þínum.",
-      "exampleGloss": "Nýja stefnan var inimical fyrir lítil fyrirtæki, jafnvel þótt það hafi ekki verið ætlunin.",
+      "exampleGloss": "Nýja stefnan var fjandsamleg litlum fyrirtækjum, jafnvel þótt það hafi ekki verið ætlunin.",
       "origin": "latína",
       "rootMeanings": [
         "ekki",
@@ -862,7 +862,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Líklegt til að vekja gremju eða óánægju, oft með ósanngjörnum samanburði.",
       "friendly": "Dæmt til að láta einhvern finnast hunsaður — venjulega vegna þess að það setur fólk eða hluti ósanngjarnt gegn hvert öðru.",
-      "exampleGloss": "Að raða systkinum eftir \"who Mom loves best\" er invidious leikur sem enginn ætti að spila.",
+      "exampleGloss": "Að raða systkinum eftir \"hvern mamma elskar mest\" er meiðandi leikur sem enginn ætti að spila.",
       "origin": "latína",
       "rootMeanings": [
         "öfund",
@@ -873,7 +873,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Maður af lægri stöðu; undirmaður.",
       "friendly": "Einhver neðar í skipanakæðju eða félagsstiga — yngri, sem vinnur undir einhverjum með meira vald.",
-      "exampleGloss": "Sem ungur subaltern tók hann skipanir lengi áður en hann gaf þær nokkurn tímann.",
+      "exampleGloss": "Sem ungur undirforingi tók hann við skipunum lengi áður en hann gaf þær nokkurn tímann.",
       "origin": "latína",
       "rootMeanings": [
         "undir",
@@ -884,7 +884,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að finna eða tjá sterkt hatur á.",
       "friendly": "Að fyrirlíta eitthvað svo mikið að þú bölvar því upphátt — hreint, hávært hatur.",
-      "exampleGloss": "Þorpsbúarnir execrated skattheimtumanninn í hvert sinn sem vagn hans rúllaði í gegnum bæinn.",
+      "exampleGloss": "Þorpsbúarnir bölvuðu skattheimtumanninum í hvert sinn sem vagn hans rúllaði í gegnum bæinn.",
       "origin": "latína",
       "rootMeanings": [
         "út úr",
@@ -895,7 +895,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Náttúrulegt ytra hulstur, eins og húð eða skel.",
       "friendly": "Eigið verndarhylki náttúrunnar — húð, skel, belgur eða hýði, hvað sem þekur og verndar lifandi.",
-      "exampleGloss": "Skel skjaldböku er merkilega hörð integument.",
+      "exampleGloss": "Skel skjaldböku er merkilega seigt hlífðarlag.",
       "origin": "latína",
       "rootMeanings": [
         "á, yfir",
@@ -906,7 +906,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Saklaus, naív, sem sýnir barnlega einfaldleika; andstæða \"disingenuous.\"",
       "friendly": "Opið traustur og svolítið naívur, án falinnar dagskrár — auðvelt að rugla saman við \"ingenious,\" sem þýðir snjall.",
-      "exampleGloss": "Ingenuous spurning hennar — \"why would anyone lie about that?\" — sýndi hversu litla slægð hún hafði.",
+      "exampleGloss": "Einlæg spurning hennar — \"af hverju ætti nokkur að ljúga um það?\" — sýndi hversu litla slægð hún hafði.",
       "origin": "latína",
       "rootMeanings": [
         "í, innfæddur",
@@ -917,7 +917,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Ofuráhyggja um smáatriði eða reglur.",
       "friendly": "Að villast í smáreglunum og missa stærri myndina — að festast í smáprentinu sem enginn annar nennir.",
-      "exampleGloss": "Pedantry hans um Oxford-kommur fór með allan fundinn af sporinu.",
+      "exampleGloss": "Smámunasemi hans um Oxford-kommur fór með allan fundinn af sporinu.",
       "origin": "ítalska / latína",
       "rootMeanings": [
         "kennari barna",
@@ -928,7 +928,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Ítarleg, vandleik rannsókn.",
       "friendly": "Djúp, enginn-steinn-ósnertur skoðun á einhverju — að fara yfir hvert smáatriði með raunverulegri umhyggju.",
-      "exampleGloss": "Aðeins eftir vandlega perscrutation bókhaldsins kom misræmið í ljós.",
+      "exampleGloss": "Aðeins eftir vandlega rannsókn bókhaldsins kom misræmið í ljós.",
       "origin": "latína",
       "rootMeanings": [
         "í gegnum, rækilega",
@@ -939,7 +939,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að bera fram andmæli; að sýna tregðu.",
       "friendly": "Að bakka kurteislega eða hika frekar en að hoppa strax með — mjúkt \"I'd rather not.\"",
-      "exampleGloss": "Þegar hún var beðin um að skrifa undir án þess að lesa, demurred hún.",
+      "exampleGloss": "Þegar hún var beðin um að skrifa undir án þess að lesa, færðist hún undan.",
       "origin": "latína / franska",
       "rootMeanings": [
         "frá, í burtu",
@@ -950,7 +950,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Yfirborðslega trúverðugt en í raun rangt.",
       "friendly": "Hljómar sannfærandi í fyrstu en fellur í sundur um leið og þú athugar það raunverulega.",
-      "exampleGloss": "\"Everyone's doing it\" er specious rök sem standast aldrei skoðun.",
+      "exampleGloss": "\"Everyone's doing it\" eru sýndarrök sem standast aldrei skoðun.",
       "origin": "latína",
       "rootMeanings": [
         "útlit, svipur",
@@ -961,7 +961,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Óeinlægt, hræsnið tal, oft siðpræðandi.",
       "friendly": "Predikandi tal sem hljómar dyggðugt en er ekki stutt af neinni raunverulegri tilfinningu — siðferðileg uppstilling á sjálfstýringu.",
-      "exampleGloss": "Hann var þreyttur á fyrirtækis-cant um \"family\" frá fyrirtæki sem gaf aldrei frí.",
+      "exampleGloss": "Hann var þreyttur á innantómu fyrirtækjatali um \"fjölskylduna\" frá fyrirtæki sem gaf aldrei frí.",
       "origin": "latína",
       "rootMeanings": [
         "að syngja (síðar: söngkennd slangur)",
@@ -972,7 +972,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Án hugrekkis, huglaus.",
       "friendly": "Hræddur til hrygglleysis — of hræddur til að standa jafnvel þegar það skiptir augljóslega máli.",
-      "exampleGloss": "Pusillanimous þögn stjórnarinnar lét hneykslið snúast úr böndunum.",
+      "exampleGloss": "Huglaus þögn stjórnarinnar lét hneykslið snúast úr böndunum.",
       "origin": "latína",
       "rootMeanings": [
         "mjög lítill",
@@ -983,7 +983,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Reflegt; slóttugt, kænt.",
       "friendly": "Slóttugt og snjallt eins og refur — skjóthugsað, svolítið laumulegt, alltaf skrefi á undan.",
-      "exampleGloss": "Hann gaf vulpine bros um leið og hann sá gatið.",
+      "exampleGloss": "Hann brosti refslegu brosi um leið og hann sá gatið.",
       "origin": "latína",
       "rootMeanings": [
         "refur",
@@ -994,7 +994,7 @@
       "partOfSpeech": "atviksorð",
       "definition": "Einn á fætur öðrum, í röð.",
       "friendly": "Tekin strangt einn í einu, í röð — ekkert hopp áfram, ekkert tvennt í einu.",
-      "exampleGloss": "Dómarinn fjallaði um hvert af tólf kröfunum seriatim.",
+      "exampleGloss": "Dómarinn fjallaði um hverja hinna tólf krafna í röð.",
       "origin": "latína",
       "rootMeanings": [
         "röð, röð",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Öfgafull sparsemi; nískur.",
       "friendly": "Að vera nískur með peninga (eða orð, eða auðlindir) langt framhjá sanngjarnri sparsemi.",
-      "exampleGloss": "Parsimony hans var goðsagnakennd — hann endurnýtti tepoka þrisvar.",
+      "exampleGloss": "Níska hans var goðsagnakennd — hann endurnýtti tepoka þrisvar.",
       "origin": "latína",
       "rootMeanings": [
         "að spara, að vera sparsamur",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Leiðrétting, sérstaklega í texta.",
       "friendly": "Viðgerð á ritverki — fræðileg aðlögun sem leiðréttir villu í gömlum eða mikilvægum texta.",
-      "exampleGloss": "Nýja útgáfan inniheldur tugi emendations á upprunalega handritinu.",
+      "exampleGloss": "Nýja útgáfan inniheldur tugi lagfæringa á upprunalega handritinu.",
       "origin": "latína",
       "rootMeanings": [
         "út úr",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Hófsamur í mat og drykk.",
       "friendly": "Vísvitandi hófsamur um mat og drykk — aldrei of mikið, alltaf skilið eftir smá á disknum.",
-      "exampleGloss": "Abstemious venjur hans héldu honum skörpum löngu eftir að jafnaldrar hans höfðu hægðist.",
+      "exampleGloss": "Bindindissamar venjur hans héldu honum skörpum löngu eftir að jafnaldrar hans höfðu hægt á sér.",
       "origin": "latína",
       "rootMeanings": [
         "í burtu frá",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Málfræðileg villa eða brot á siðareglum.",
       "friendly": "Hras í málfræði eða siðum — sú tegund lítillar villu sem lætur nákvæman hrökkva.",
-      "exampleGloss": "\"Between you and I\" er algeng solecism sem lætur málfræðinga enn hrökkva.",
+      "exampleGloss": "\"Between you and I\" er algeng málvilla sem lætur málfræðinga enn hrökkva við.",
       "origin": "gríska",
       "rootMeanings": [
         "Kilíkísk borg þekkt fyrir 'slæma' grísku",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Varðar átök innan hóps; gagnkvæmt eyðileggjandi.",
       "friendly": "Innri deilur sem rífa hóp í sundur innan frá — barátta þar sem allir tapa, því það er fjölskylda gegn fjölskyldu.",
-      "exampleGloss": "Internecine þras flokksins olli meiri skaða en nokkur ytri andstæðingur hefði getað.",
+      "exampleGloss": "Innbyrðis þras flokksins olli meiri skaða en nokkur ytri andstæðingur hefði getað.",
       "origin": "latína",
       "rootMeanings": [
         "milli, meðal",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "lýsingarorð / nafnorð",
       "definition": "Áhugalaus, kærulaus afstaða.",
       "friendly": "Öxlalyfting gerð að heilli persónu — að vera svo sama um hluti sem áður skiptu máli að ekkert virðist þess virði lengur.",
-      "exampleGloss": "Pococurante afstaða hans til verðlaunahátíðarinnar kom öllum á óvart sem vissu hversu hart hann hafði unnið.",
+      "exampleGloss": "Skeytingarlaus afstaða hans til verðlaunahátíðarinnar kom öllum á óvart sem vissu hversu hart hann hafði unnið.",
       "origin": "ítalska",
       "rootMeanings": [
         "lítið",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Ruglingsleg, flókin staða eða deila.",
       "friendly": "Flækt, sóðaleg staða sem er erfið að ná utan um — að hluta misskilningur, að hluta drama, allt rugl.",
-      "exampleGloss": "Allt sætaskipulags-imbroglio byrjaði á einu rangt staðsettu nafnspjaldi.",
+      "exampleGloss": "Öll sætaskipulagsflækjan byrjaði á einu rangt staðsettu nafnspjaldi.",
       "origin": "ítalska",
       "rootMeanings": [
         "í",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "lýsingarorð",
       "definition": "Ógnandi, hótandi.",
-      "friendly": "Ber ótvíræðan ógnaranda — minatory svipur eða bréf gerir það mjög ljóst að eitthvað slæmt getur fylgt.",
-      "exampleGloss": "Minatory tónn bréfsins gerði leigjandann taugaveiklaðan áður en hún opnaði umslagið.",
+      "friendly": "Ber ótvíræðan ógnaranda — ógnandi svipur eða bréf gerir það mjög ljóst að eitthvað slæmt getur fylgt.",
+      "exampleGloss": "Ógnandi tónn bréfsins gerði leigjandann taugaveiklaðan áður en hún opnaði umslagið.",
       "origin": "latína",
       "rootMeanings": [
         "að hóta",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Sterk opinber gagnrýni eða munnleg misnotkun.",
       "friendly": "Hávær, opinber fordæming — sú tegund sviðandi gagnrýni sem fer fram fyrir framan alla.",
-      "exampleGloss": "Uppljóstrarinn stóð frammi fyrir árum opinbers obloquy áður en sagan gaf henni rétt.",
+      "exampleGloss": "Uppljóstrarinn stóð frammi fyrir árum opinberrar smánar áður en sagan gaf henni rétt.",
       "origin": "latína",
       "rootMeanings": [
         "gegn",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Skyndileg ofbeldisfull úthelling, tilfinningar eða athafnar.",
       "friendly": "Skyndilegt, ákaflegt högg sem yfirgnæfir þig í einu — hláturskast, reiði eða hósti sem slær eins og bylgja.",
-      "exampleGloss": "Hana greip paroxysm hlátrs sem hún gat ekki útskýrt fyrir neinum öðrum í herberginu.",
+      "exampleGloss": "Hana greip hláturskast sem hún gat ekki útskýrt fyrir neinum öðrum í herberginu.",
       "origin": "gríska",
       "rootMeanings": [
         "handan",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Bætt við frá ytri uppsprettu, ekki innbyggt.",
       "friendly": "Skrúfað á utan frá í stað þess að vera innbyggt frá upphafi — auka, ekki kjarnahluti.",
-      "exampleGloss": "Athugasemdin finnst adscititious, eins og hún hafi verið límd á þegar fulluninn texta.",
+      "exampleGloss": "Athugasemdin virkar aðkomin, eins og hún hafi verið límd á þegar fullunninn texta.",
       "origin": "latína",
       "rootMeanings": [
         "að, auk þess",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Skortur á þekkingu, vanþekking.",
       "friendly": "Einfalt ekki-vita — gat í þekkingu, án nokkurs dóms fest við það.",
-      "exampleGloss": "Hann játaði nescience sína um franskt vín og lét sommelierinn velja.",
+      "exampleGloss": "Hann játaði vanþekkingu sína á frönsku víni og lét sommelierinn velja.",
       "origin": "latína",
       "rootMeanings": [
         "ekki",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Of mikill áhugi á kynferðislegum málum.",
       "friendly": "Ofágjarn, starandi forvitni um allt kryddað — áhugi sem er kominn framhjá heilbrigðu í nálægt.",
-      "exampleGloss": "Prurience tabloidsins um einkalíf parsins nálgaðist þráhyggju.",
+      "exampleGloss": "Lostafull forvitni tabloidsins um einkalíf parsins nálgaðist þráhyggju.",
       "origin": "latína",
       "rootMeanings": [
         "að klæja, að þrá",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Sótað, dimmt, myrkt.",
       "friendly": "Dökkt og reykennd útlit, eins og allt sé þakið þunnu lagi af sóti.",
-      "exampleGloss": "Fuliginous þoka hékk yfir verksmiðjubænum í rökkri.",
+      "exampleGloss": "Sótsvört þoka hékk yfir verksmiðjubænum í rökkri.",
       "origin": "latína",
       "rootMeanings": [
         "sót",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að neita eða mótmæla.",
       "friendly": "Að tala beint gegn því sem annar sagði — að segja \"that's not so.\"",
-      "exampleGloss": "Enginn þorði að gainsay frásögn gamla skipstjórans af storminum.",
+      "exampleGloss": "Enginn þorði að mæla gegn frásögn gamla skipstjórans af storminum.",
       "origin": "miðenska",
       "rootMeanings": [
         "gegn",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Leti, sljóleiki (úr latínu).",
       "friendly": "Gamalt latneskt orð yfir hreina leti — slóðin við að vilja ekkert gera.",
-      "exampleGloss": "Munkarnir prédikuðu gegn ignavia sem einni af hljóðlátu hættum sálarinnar.",
+      "exampleGloss": "Munkarnir prédikuðu gegn leti sem einni af hljóðlátu hættum sálarinnar.",
       "origin": "latína",
       "rootMeanings": [
         "ekki",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Skjöldur sem sýnir skjaldarmerki.",
       "friendly": "Skjaldarlaga merki sem sýnir skjaldarmerki fjölskyldu — heraldiska \"nameplate\" hennar.",
-      "exampleGloss": "Escutcheon fjölskyldunnar hangir enn yfir fordyri gamla höfuðbólsins.",
+      "exampleGloss": "Skjaldarmerki fjölskyldunnar hangir enn yfir fordyri gamla höfuðbólsins.",
       "origin": "latína / fornfranska",
       "rootMeanings": [
         "skjöldur",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Úrelt, úrelt, eða hætt vegna aldurs.",
       "friendly": "Framhjá nytsamlegu hámarki og sett á beit — of gamaldags eða slitið til að halda starfinu áfram.",
-      "exampleGloss": "Superannuated prentarinn var loks skipt út eftir fimmtán ár af pappírsstoppum.",
+      "exampleGloss": "Úrelta prentaranum var loks skipt út eftir fimmtán ár af pappírsstoppum.",
       "origin": "latína",
       "rootMeanings": [
         "handan",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Staðgenglar, sérstaklega í læknisfræði.",
       "friendly": "Staðgengilslyf notuð þegar raunveruleg meðferð er ekki tiltæk — læknisfræðilegir staðgenglar í raun.",
-      "exampleGloss": "Stríðstíðar læknar treystu oft á succedanea þegar réttu lyfin kláruðust.",
+      "exampleGloss": "Læknar á stríðstímum treystu oft á staðgengla þegar réttu lyfin kláruðust.",
       "origin": "latína",
       "rootMeanings": [
         "í staðinn fyrir",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Hróðuglegt, blásandi tal.",
       "friendly": "Stórt, blásandi hróðugleiki — hátt tal um eigin stærð sem er að mestu heitt loft.",
-      "exampleGloss": "Rodomontade hans um að hafa \"single-handedly\" bjargað verkefninu plataði engan sem raunverulega var þar.",
+      "exampleGloss": "Gortið í honum um að hafa \"einn síns liðs\" bjargað verkefninu plataði engan sem raunverulega var þar.",
       "origin": "ítalska",
       "rootMeanings": [
         "hróðuglegur riddari í Orlando Furioso",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að nota kænsku eða svik til að ná einhverju.",
       "friendly": "Að slíta sig að marki með laumulegum brögðum fremur en sanngjörnum leik.",
-      "exampleGloss": "Hann chicaned sig inn í samninginn með samningi fullum af smáprentun.",
+      "exampleGloss": "Hann klækjaðist inn í viðskiptin með samningi fullum af smáaletri.",
       "origin": "franska",
       "rootMeanings": [
         "að þrasa, að plata",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Of upptekinn af formlegum reglum eða smávægilegum smáatriðum.",
       "friendly": "Of strangur um smámuni — leiðréttir smá tæknileg atriði sem breyta í raun engu.",
-      "exampleGloss": "Það fannst svolítið pedantic að deila um \"who\" versus \"whom\" í textaskilaboðum.",
+      "exampleGloss": "Það fannst svolítið smámunasamt að deila um \"who\" versus \"whom\" í textaskilaboðum.",
       "origin": "ítalska / gríska",
       "rootMeanings": [
         "barnalleiðbeinandi, leiðbeinandi",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Blikkandi, glitrandi ljós.",
       "friendly": "Fljótt, glitrandi ljósglampi — hugsaðu sólarljós sem skoppar af vatni, eða demant sem grípur ljósið.",
-      "exampleGloss": "Coruscation ljósakrónunnar dreifði ljósi um hvert horn danssalarins.",
+      "exampleGloss": "Glitur ljósakrónunnar dreifði ljósi um hvert horn danssalarins.",
       "origin": "latína",
       "rootMeanings": [
         "að glitra, að blikka",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Byrjandi, nýliði.",
       "friendly": "Einhver alveg nýr í færni eða sviði — enn að læra grunninn, ekki enn sérfræðingur.",
-      "exampleGloss": "Jafnvel tyro skákmaður getur séð þessa klaufaskap.",
+      "exampleGloss": "Jafnvel byrjandi í skák getur séð þennan klaufaskap.",
       "origin": "latína",
       "rootMeanings": [
         "nýliði, nýliði",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Afar slæmt, viðbjóðslegt.",
       "friendly": "Slæmt á hátt sem á skilið raunverulegan viðbjóð — ekki bara \"mediocre,\" heldur virkilega viðbjóðslegt.",
-      "exampleGloss": "Gagnrýnandinn kallaði framhaldið execrable, og miðasölutölurnar voru sammála.",
+      "exampleGloss": "Gagnrýnandinn kallaði framhaldið viðbjóðslegt, og miðasölutölurnar voru sammála.",
       "origin": "latína",
       "rootMeanings": [
         "að bölva",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Blóðrautt að lit.",
       "friendly": "Djúpt, lifandi rautt — litur fersks blóðs, frægt notað af Macbeth Shakespeare.",
-      "exampleGloss": "Sólsetrið sneri öllum himninum í incarnadine ljóma.",
+      "exampleGloss": "Sólsetrið sneri öllum himninum í blóðrauðan ljóma.",
       "origin": "ítalska / latína",
       "rootMeanings": [
         "inn í",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Lítið bil eða rými milli hluta.",
       "friendly": "Litla bilið sem er auðvelt að líta framhjá — sprungan milli gólfborða, gatið í stundatöflu.",
-      "exampleGloss": "Illgresi ýtti sér upp um hvert interstice í gamla múrsteinsstígnum.",
+      "exampleGloss": "Illgresi ýtti sér upp um hverja rifu í gamla múrsteinsstígnum.",
       "origin": "latína",
       "rootMeanings": [
         "milli",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Gagnrýnar eða ámælandi athugasemdir.",
       "friendly": "Beittar, vanþóknandi athugasemdir — sú tegund gagnrýni sem ber svolítið skammartón.",
-      "exampleGloss": "Animadversions prófessorsins á ritgerðinni fylltu spássíurnar með rauðu bleki.",
+      "exampleGloss": "Aðfinnslur prófessorsins á ritgerðinni fylltu spássíurnar með rauðu bleki.",
       "origin": "latína",
       "rootMeanings": [
         "hugur",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Ómögulegt að hrekja, óumdeilanlegt.",
       "friendly": "Svo traustlega sannað að það er ekki hægt að deila um það — málið er einfaldlega lokað.",
-      "exampleGloss": "DNA-sönnunin var irrefragable og réttarhöldin voru búin innan klukkustundar.",
+      "exampleGloss": "DNA-sönnunin var óhrekjanleg og réttarhöldin voru búin innan klukkustundar.",
       "origin": "latína",
       "rootMeanings": [
         "ekki",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Flækja, flækjustig; einnig innvafning.",
       "friendly": "Flækt, innvafin flækja — hlutir vafðir svo þétt að erfitt er að draga þá í sundur.",
-      "exampleGloss": "Involution söguþráðarins skildi helming áhorfenda eftir að reyna að ráða hann eftir lokaúttekt.",
+      "exampleGloss": "Flækjustig söguþráðarins skildi helming áhorfenda eftir að reyna að ráða hann eftir að kreditlistanum lauk.",
       "origin": "latína",
       "rootMeanings": [
         "inn, innávið",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Kraftur eða átak, eins og \"by dint of.\"",
       "friendly": "Hreint átak eða kraftur — lifir í dag að mestu í orðasambandinu \"by dint of.\"",
-      "exampleGloss": "Hann stóðst prófið by dint of hreinu, þrjósku æfingunni.",
+      "exampleGloss": "Hann stóðst prófið fyrir tilstilli hreinnar, þrjóskrar æfingar.",
       "origin": "fornenska",
       "rootMeanings": [
         "högg, sláttur",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Tengt með tappi; þétt saman sett.",
       "friendly": "Læst saman á gamaldags smíðahátt — stykki sem rennur þétt inn í gat skorið einmitt fyrir það.",
-      "exampleGloss": "Bitarnir í gamla hlöðunni voru mortised saman án einnar nagla.",
+      "exampleGloss": "Bitarnir í gamla hlöðunni voru tappaðir saman án einasta nagla.",
       "origin": "latína / franska",
       "rootMeanings": [
         "hol, gat",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Mjög viðeigandi, hæfilegt.",
       "friendly": "Nákvæmlega rétt fyrir augnablikið — athugasemd, tilvitnun eða dæmi sem lendir fullkomlega á punktinum.",
-      "exampleGloss": "Apposite athugasemd hennar tók alla umræðuna saman í einni setningu.",
+      "exampleGloss": "Hnitmiðuð athugasemd hennar tók alla umræðuna saman í einni setningu.",
       "origin": "latína",
       "rootMeanings": [
         "að",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Mjúkt glóandi eða flöktandi (ljós); einnig létt vit.",
       "friendly": "Glóandi mjúkt fremur en logandi — mjúkt, flöktandi ljós, eða vit sem er leikandi fremur en beitt.",
-      "exampleGloss": "Kertaljós kastaði lambent ljóma yfir gamla matsalinn.",
+      "exampleGloss": "Kertaljós kastaði blaktandi ljóma yfir gamla matsalinn.",
       "origin": "latína",
       "rootMeanings": [
         "að sleikja",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Trúarlegur einsetumaður sem lifir í einveru.",
       "friendly": "Einhver sem dregur sig algjörlega frá heiminum til að lifa einn í bæn og íhugun.",
-      "exampleGloss": "Anchorite bjó í lítilli klefu við kirkjuna í yfir þrjátíu ár.",
+      "exampleGloss": "Einsetumaðurinn bjó í litlum klefa við kirkjuna í yfir þrjátíu ár.",
       "origin": "gríska",
       "rootMeanings": [
         "til baka, í burtu",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að slökkva þorsta; að slökkva.",
       "friendly": "Að fullnægja löngun algjörlega — oftast þorsta, en myndrænt hvaða djúpa þörf sem er.",
-      "exampleGloss": "Eitt kalt glas af vatni slaked þorsta hans eftir löngu göngunni.",
+      "exampleGloss": "Eitt kalt glas af vatni slökkti þorsta hans eftir löngu gönguna.",
       "origin": "fornenska",
       "rootMeanings": [
         "slakur, laus",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Nálalaga.",
       "friendly": "Langt, mjótt og oddhvasst eins og nál — lögun furunálar eða hvassrar lítillar kristals.",
-      "exampleGloss": "Furutré er auðvelt að þekkja á acicular laufum sínum.",
+      "exampleGloss": "Furutré er auðvelt að þekkja á nállaga blöðum sínum.",
       "origin": "latína",
       "rootMeanings": [
         "nál",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Útþrota af lífsþrótti, veikt, ofurhreinsað.",
       "friendly": "Slitið og mjúkt — hefur tapað upprunalegum styrk eða þrótti vegna of mikilla þæginda eða hreinsunar.",
-      "exampleGloss": "Gagnrýnendur kölluðu hið eina djarfa tímarit effete, skugga af djarfa fyrstu árum sínum.",
+      "exampleGloss": "Gagnrýnendur kölluðu hið eitt sinn djarfa tímarit örmagna, skugga af djörfum fyrstu árum sínum.",
       "origin": "latína",
       "rootMeanings": [
         "út",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Aukahlutur eða minni tengdur hlutur eða réttur.",
       "friendly": "Lítið auka sem fylgir einhverju stærra — aukahlutir og viðhengi sem tilheyra aðalatriðinu.",
-      "exampleGloss": "Leigusamningurinn náði yfir bílskúrinn og öll appurtenances hans.",
+      "exampleGloss": "Leigusamningurinn náði yfir bílskúrinn og allt sem honum tilheyrði.",
       "origin": "latína / franska",
       "rootMeanings": [
         "að",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "sagnorð",
       "definition": "Að slétta yfir eða minnka sök.",
       "friendly": "Að slétta yfir mistök með mjúkum orðum, svo þau hljómi minni en þau raunverulega eru.",
-      "exampleGloss": "Hann reyndi að gloze yfir misstu frestinn með óljósu tali um \"unforeseen challenges.\"",
+      "exampleGloss": "Hann reyndi að breiða yfir frestinn sem hann missti af með óljósu tali um \"ófyrirséðar áskoranir\".",
       "origin": "fornfranska / latína",
       "rootMeanings": [
         "glosa, skýring",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "lýsingarorð",
       "definition": "Á snemmbúnu stigi, nýbyrjað.",
       "friendly": "Nýbyrjað að sýna sig — allra fyrsta, varla sýnilega stig einhvers stærra sem kemur.",
-      "exampleGloss": "Læknar náðu incipient einkennum sjúkdómsins áður en hann gat dreifst.",
+      "exampleGloss": "Læknar náðu byrjunareinkennum sjúkdómsins áður en hann gat dreifst.",
       "origin": "latína",
       "rootMeanings": [
         "á, inn í",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "nafnorð",
       "definition": "Skapandi innblástur, sérstaklega guðlegur.",
       "friendly": "Skyndileg innblástursbylgja sem finnst stærri en þú — eins og hugmyndin hafi verið andað inn í þig annars staðar frá.",
-      "exampleGloss": "Skáldið lýsti því hvernig allt verkið kom í einu afflatus höggi klukkan þrjú að nóttu.",
+      "exampleGloss": "Skáldið lýsti því hvernig allt verkið kom í einu innblásturshöggi klukkan þrjú að nóttu.",
       "origin": "latína",
       "rootMeanings": [
         "að, á",
