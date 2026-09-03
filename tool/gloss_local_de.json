@@ -8,11 +8,20 @@
     "Two headwords are unchanged because the German word IS the English one: Mathesis",
     "and Imbroglio are both in Duden. Ersatz, Seneschall, Sybarit, Paroxysmus and",
     "Soloezismus are German too but spelled differently, so they need no exemption.",
-    "Run: python tool/localize_gloss.py --locale de"
+    "Run: python tool/localize_gloss.py --locale de",
+    "",
+    "`friendly` is the plain-words explanation, and it had the same fault: ten of the",
+    "134 used the English headword as though it were German - 'aus einem ineluctable",
+    "Ausgang windest du dich nicht heraus'. Those ten are rewritten with the German",
+    "word. One keeps its English on purpose and is quoted rather than translated:",
+    "'fain' is the archaic word the line exists to name. Ersatz joins english_ok,",
+    "because the definition of ersatz IS the German noun Ersatz - Duden's own word,",
+    "and the one English borrowed. See tool/english_in_translation.py."
   ],
   "english_ok": [
     "mathesis",
-    "imbroglio"
+    "imbroglio",
+    "ersatz"
   ],
   "glosses": {
     "edulcorate": "Der Redakteur milderte die harte Rezension, bevor sie in den Druck ging.",
@@ -149,5 +158,17 @@
     "gloze": "Er versuchte, die verpasste Frist mit vagem Gerede von „unvorhergesehenen Schwierigkeiten“ zu beschönigen.",
     "incipient": "Ärzte erkannten die beginnenden Zeichen der Krankheit, bevor sie sich ausbreiten konnte.",
     "afflatus": "Der Dichter beschrieb, wie das ganze Stück in einem Anfall von Eingebung um drei Uhr morgens ankam."
+  },
+  "friendly": {
+    "euphonious": "Einfach schön zu hören — ein wohlklingendes Wort oder ein wohlklingender Satz gleitet weich, fast musikalisch, ins Ohr.",
+    "fain": "Eine altmodische Art, „gerne“ oder „mit Vergnügen“ zu sagen — wer etwas „fain“ tut, tut es herzlich gern.",
+    "fiducial": "Etwas, das man auf Treu und Glauben nimmt und dann als Anker nutzt — eine Bezugsmarke ist der feste Punkt, an dem alles andere gemessen wird.",
+    "fructify": "Endlich aufgehen — eine Mühe, Idee oder Anlage, die Frucht trägt, ist vom Samen zu etwas Nützlichem geworden.",
+    "ineluctable": "Es kommt, was du auch tust — aus einem unausweichlichen Ausgang windest du dich nicht heraus.",
+    "minatory": "Mit unverkennbarem Hauch von Drohung — ein drohender Blick oder Brief macht sehr klar, dass etwas Unangenehmes folgen könnte.",
+    "mordant": "Witz mit echten Zähnen — ein beißender Kommentar sticht gerade, weil er so treffsicher zielt.",
+    "nugatory": "So gut wie nichts wert — eine nichtige Klausel im Vertrag tut in der Praxis nichts.",
+    "redound": "Wenn Ruhm (oder Tadel) zum Verantwortlichen zurückprallt — gute Taten, die deinem Ruf zugutekommen, kehren als Lohn wieder.",
+    "trenchant": "Schneidet durch den Ballast — ein scharfer Kommentar oder Geist trifft rasch den Kern, ohne überflüssige Worte."
   }
 }

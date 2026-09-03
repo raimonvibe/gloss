@@ -10,7 +10,17 @@
     "inanicion, paroxismo, intersticio. Where the borrowing is identical the plainer",
     "Spanish word was used instead - ineluctable to ineludible, execrable to detestable,",
     "irrefragable to irrefutable, imbroglio to embrollo, canaille to chusma.",
-    "Run: python tool/localize_gloss.py --locale es"
+    "Run: python tool/localize_gloss.py --locale es",
+    "",
+    "`friendly` is the plain-words explanation, and it had the same fault: ten of the",
+    "134 used the English headword as though it were Spanish - 'de un desenlace",
+    "ineluctable no te escabulles'. Those ten are rewritten with the Spanish word,",
+    "which differs by an ending nearly every time: eufonica, fructifica, mordaz,",
+    "nugatoria, redundan. Where the borrowing is identical the plainer Spanish word",
+    "is used again here - ineluctable to ineludible, fiducial to fiduciaria,",
+    "trenchant to incisiva. One keeps its English on purpose and is quoted rather",
+    "than translated: 'fain' is the archaic word the line names.",
+    "See tool/english_in_translation.py."
   ],
   "english_ok": [
     "mathesis"
@@ -150,5 +160,17 @@
     "gloze": "Intentó encubrir el plazo perdido con un vago discurso de «dificultades imprevistas».",
     "incipient": "Los médicos captaron los signos incipientes de la enfermedad antes de que se extendiera.",
     "afflatus": "El poeta contó que toda la pieza llegó en un arrebato de inspiración a las tres de la madrugada."
+  },
+  "friendly": {
+    "euphonious": "Simplemente agradable de oír: una palabra o una frase eufónica resbala, casi con música, en el oído.",
+    "fain": "Un modo antiguo de decir «con gusto» o «de buena gana»: quien hace algo «fain» lo hace de muy buen grado.",
+    "fiducial": "Algo que se toma a crédito y luego sirve de ancla: una marca fiduciaria es el punto fijo contra el que se mide todo lo demás.",
+    "fructify": "Por fin dar fruto: un esfuerzo, una idea o una inversión que fructifica ha pasado de semilla a algo útil.",
+    "ineluctable": "Va a ocurrir hagas lo que hagas: de un desenlace ineludible no te escabulles.",
+    "minatory": "Con un aire inconfundible de amenaza: una mirada o una carta conminatoria deja muy claro que puede venir algo feo.",
+    "mordant": "Ingenio con dientes de verdad: un comentario mordaz pica precisamente porque apunta tan bien.",
+    "nugatory": "Que no vale casi nada: una cláusula nugatoria en un contrato, en la práctica, no hace nada.",
+    "redound": "Cuando el crédito (o la culpa) rebota hacia quien es responsable: las buenas obras que redundan en tu nombre vuelven luego como premio.",
+    "trenchant": "Corta de lleno el relleno: una observación o una mente incisiva llega al meollo enseguida, sin palabras de más."
   }
 }

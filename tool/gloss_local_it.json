@@ -12,11 +12,22 @@
     "to noncurante, ignavia to accidia, pronunciamento to proclama, ersatz to surrogato.",
     "Accidia is the better word anyway: it is what the monks in that sentence would",
     "have preached against by name.",
-    "Run: python tool/localize_gloss.py --locale it"
+    "Run: python tool/localize_gloss.py --locale it",
+    "",
+    "`friendly` is the plain-words explanation, and it had the same fault: ten of the",
+    "134 used the English headword as though it were Italian - 'da un esito",
+    "ineluctable non ti sfili'. Those ten are rewritten with the Italian word, which",
+    "again nearly always differs by an ending: eufonica, fiduciale, fruttifica,",
+    "ineluttabile, minatoria, mordace, nugatoria, ridondano, tagliente. One keeps its",
+    "English on purpose and is quoted rather than translated: 'fain' is the archaic",
+    "word the line names. Demi-monde joins english_ok because Italian borrowed the",
+    "same French phrase English did and has no plainer term for it.",
+    "See tool/english_in_translation.py."
   ],
   "english_ok": [
     "mathesis",
-    "imbroglio"
+    "imbroglio",
+    "demi-monde"
   ],
   "glosses": {
     "edulcorate": "Il redattore edulcorò la recensione tagliente prima che andasse in stampa.",
@@ -153,5 +164,17 @@
     "gloze": "Tentò di minimizzare la scadenza saltata con un vago discorso di «difficoltà impreviste».",
     "incipient": "I medici colsero i segni incipienti della malattia prima che potesse diffondersi.",
     "afflatus": "Il poeta raccontò che l’intero pezzo arrivò in un impeto d’ispirazione alle tre del mattino."
+  },
+  "friendly": {
+    "euphonious": "Semplicemente bello da sentire — una parola o una frase eufonica scivola, quasi in musica, nell’orecchio.",
+    "fain": "Un modo un po’ antico di dire «volentieri» o «di buon grado» — chi fa una cosa «fain» la fa proprio di cuore.",
+    "fiducial": "Qualcosa che si prende in fiducia e poi si usa come ancora — un segno fiduciale è il punto fisso rispetto al quale si misura tutto il resto.",
+    "fructify": "Finalmente dare frutto — uno sforzo, un’idea o un investimento che fruttifica è passato dal seme a qualcosa di utile.",
+    "ineluctable": "Succederà comunque — da un esito ineluttabile non ti sfili.",
+    "minatory": "Con un’aria inconfondibile di minaccia — uno sguardo o una lettera minatoria rende chiarissimo che può seguire qualcosa di brutto.",
+    "mordant": "Ingegno con denti veri — un commento mordace punge proprio perché mira così bene.",
+    "nugatory": "Che non vale quasi niente — una clausola nugatoria in un contratto, in pratica, non fa nulla.",
+    "redound": "Quando il merito (o la colpa) rimbalza su chi è responsabile — le buone azioni che ridondano a tuo nome tornano poi come premio.",
+    "trenchant": "Taglia di netto il superfluo — un commento o una mente tagliente arriva al nocciolo in fretta, senza una parola di troppo."
   }
 }

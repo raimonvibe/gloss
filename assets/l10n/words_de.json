@@ -36,7 +36,7 @@
     "trenchant": {
       "partOfSpeech": "Adjektiv",
       "definition": "Scharf, treffend, geradewegs zum Punkt.",
-      "friendly": "Schneidet durch den Ballast — ein trenchant Kommentar oder Geist trifft rasch den Kern, ohne überflüssige Worte.",
+      "friendly": "Schneidet durch den Ballast — ein scharfer Kommentar oder Geist trifft rasch den Kern, ohne überflüssige Worte.",
       "exampleGloss": "Ihre schneidende Kritik ließ den Plotlöchern des Films keinen Unterschlupf.",
       "origin": "Altfranzösisch",
       "rootMeanings": [
@@ -80,7 +80,7 @@
     "fructify": {
       "partOfSpeech": "Verb",
       "definition": "Frucht tragen oder ertragreich werden.",
-      "friendly": "Endlich aufgehen — eine Mühe, Idee oder Anlage, die fructifies, ist vom Samen zu etwas Nützlichem geworden.",
+      "friendly": "Endlich aufgehen — eine Mühe, Idee oder Anlage, die Frucht trägt, ist vom Samen zu etwas Nützlichem geworden.",
       "exampleGloss": "Jahre stiller Forschung trugen endlich Frucht in einem funktionierenden Impfstoff.",
       "origin": "Latein",
       "rootMeanings": [
@@ -124,7 +124,7 @@
     "fiducial": {
       "partOfSpeech": "Adjektiv",
       "definition": "Auf Vertrauen oder Glauben gegründet; auch: ein fester Bezugspunkt.",
-      "friendly": "Etwas, das man auf Treu und Glauben nimmt und dann als Anker nutzt — eine fiducial Marke ist der feste Punkt, an dem alles andere gemessen wird.",
+      "friendly": "Etwas, das man auf Treu und Glauben nimmt und dann als Anker nutzt — eine Bezugsmarke ist der feste Punkt, an dem alles andere gemessen wird.",
       "exampleGloss": "Vermesser setzten eine feste Bezugsmarke ins Gestein, bevor sie den Ort kartierten.",
       "origin": "Latein",
       "rootMeanings": [
@@ -157,7 +157,7 @@
     "redound": {
       "partOfSpeech": "Verb",
       "definition": "Eine Folge haben, die jemandem zugutekommt oder auf ihn zurückfällt.",
-      "friendly": "Wenn Ruhm (oder Tadel) zum Verantwortlichen zurückprallt — gute Taten, die redound zu deinem Namen, kehren als Lohn wieder.",
+      "friendly": "Wenn Ruhm (oder Tadel) zum Verantwortlichen zurückprallt — gute Taten, die deinem Ruf zugutekommen, kehren als Lohn wieder.",
       "exampleGloss": "Der Erfolg der Mannschaft wird dem stillen, fleißigen Trainer zur Ehre gereichen.",
       "origin": "Latein",
       "rootMeanings": [
@@ -168,7 +168,7 @@
     "ineluctable": {
       "partOfSpeech": "Adjektiv",
       "definition": "Nicht zu vermeiden oder zu entkommen.",
-      "friendly": "Es kommt, was du auch tust — aus einem ineluctable Ausgang windest du dich nicht heraus.",
+      "friendly": "Es kommt, was du auch tust — aus einem unausweichlichen Ausgang windest du dich nicht heraus.",
       "exampleGloss": "Das Alter kommt für alle; es ist schlicht unausweichlich.",
       "origin": "Latein",
       "rootMeanings": [
@@ -289,7 +289,7 @@
     "euphonious": {
       "partOfSpeech": "Adjektiv",
       "definition": "Wohlklingend.",
-      "friendly": "Einfach schön zu hören — ein euphonious Wort oder Satz gleitet weich, fast musikalisch, ins Ohr.",
+      "friendly": "Einfach schön zu hören — ein wohlklingendes Wort oder ein wohlklingender Satz gleitet weich, fast musikalisch, ins Ohr.",
       "exampleGloss": "„Murmuring brook“ ist eine wohlklingende kleine Wendung, weich und leicht zu sagen.",
       "origin": "Griechisch",
       "rootMeanings": [
@@ -476,7 +476,7 @@
     "nugatory": {
       "partOfSpeech": "Adjektiv",
       "definition": "Ohne Wert, geringfügig; auch ungültig oder wirkungslos.",
-      "friendly": "So gut wie nichts wert — eine nugatory Klausel im Vertrag tut in der Praxis nichts.",
+      "friendly": "So gut wie nichts wert — eine nichtige Klausel im Vertrag tut in der Praxis nichts.",
       "exampleGloss": "Das Gericht erklärte die alte Satzung für nichtig, weil sie nie durchgesetzt worden war.",
       "origin": "Latein",
       "rootMeanings": [
@@ -652,7 +652,7 @@
     "fain": {
       "partOfSpeech": "Adverb",
       "definition": "Gerne, willig (archaisch).",
-      "friendly": "Eine altmodische Art, „gerne“ oder „willig“ zu sagen — du would fain etwas tun, wenn du es gern möchtest.",
+      "friendly": "Eine altmodische Art, „gerne“ oder „mit Vergnügen“ zu sagen — wer etwas „fain“ tut, tut es herzlich gern.",
       "exampleGloss": "„Ich würde nur zu gern eine Weile hier rasten,“ seufzte der Reisende.",
       "origin": "Altenglisch",
       "rootMeanings": [
@@ -674,7 +674,7 @@
     "mordant": {
       "partOfSpeech": "Adjektiv",
       "definition": "Scharf sarkastisch, beißend in Witz oder Kritik.",
-      "friendly": "Witz mit echten Zähnen — ein mordant Kommentar sticht gerade, weil er so treffsicher zielt.",
+      "friendly": "Witz mit echten Zähnen — ein beißender Kommentar sticht gerade, weil er so treffsicher zielt.",
       "exampleGloss": "Ihre bissigen Filmkritiken fürchteten Regisseure und liebten Leser.",
       "origin": "Latein / Französisch",
       "rootMeanings": [
@@ -1081,7 +1081,7 @@
     "minatory": {
       "partOfSpeech": "Adjektiv",
       "definition": "Drohend, bedrohlich.",
-      "friendly": "Mit unverkennbarem Hauch von Drohung — ein minatory Blick oder Brief macht sehr klar, dass etwas Unangenehmes folgen könnte.",
+      "friendly": "Mit unverkennbarem Hauch von Drohung — ein drohender Blick oder Brief macht sehr klar, dass etwas Unangenehmes folgen könnte.",
       "exampleGloss": "Der drohende Ton des Briefes machte die Mieterin nervös, noch bevor sie den Umschlag geöffnet hatte.",
       "origin": "Latein",
       "rootMeanings": [

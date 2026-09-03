@@ -7,7 +7,14 @@
     "translation of them shows the reader nothing. Reported speech is translated.",
     "Two headwords are unchanged because the Dutch word IS the English one: mathesis",
     "and imbroglio are both in Van Dale.",
-    "Run: python tool/localize_gloss.py --locale nl"
+    "Run: python tool/localize_gloss.py --locale nl",
+    "",
+    "`friendly` is the plain-words explanation, and it had the same fault: ten of the",
+    "134 used the English headword as though it were Dutch - 'aan een ineluctable",
+    "uitkomst wring je je niet los'. Those ten are rewritten with the Dutch word.",
+    "Two keep English on purpose and are quoted rather than translated: 'by dint of'",
+    "is the phrase dint survives in, and 'ingenious' is the word ingenuous is told",
+    "apart from. See tool/english_in_translation.py."
   ],
   "english_ok": [
     "mathesis",
@@ -148,5 +155,17 @@
     "incipient": "Artsen vingen de beginnende tekenen van de ziekte voordat die zich kon verspreiden.",
     "afflatus": "De dichter beschreef hoe het hele stuk in één vlaag van ingeving om drie uur ’s nachts arriveerde.",
     "mathesis": "De filosoof droomde van een universele mathesis die elk kennisgebied zou verenigen."
+  },
+  "friendly": {
+    "euphonious": "Gewoon fijn om te horen — een welluidend woord of zin rolt soepel, bijna muzikaal, het oor in.",
+    "fain": "Een ouderwetse manier om „graag” of „met plezier” te zeggen — wie iets „fain” doet, doet het dolgraag.",
+    "fiducial": "Iets dat je op vertrouwen neemt en daarna als anker gebruikt — een ijkmerk is de vaste plek waartegen al het andere wordt afgemeten.",
+    "fructify": "Eindelijk vrucht afwerpen — een inspanning, idee of investering die vrucht draagt is van zaad tot iets nuttigs uitgegroeid.",
+    "ineluctable": "Het gebeurt hoe dan ook — aan een onontkoombare uitkomst wring je je niet los.",
+    "minatory": "Met een onmiskenbare zweem van dreiging — een dreigende blik of brief maakt heel duidelijk dat er iets naars kan volgen.",
+    "mordant": "Humor met echte tanden — een bijtende opmerking steekt juist omdat ze zo raak is gericht.",
+    "nugatory": "Zo goed als niks waard — een nietige clausule in een contract doet in de praktijk niets.",
+    "redound": "Wanneer eer (of blaam) terugkaatst naar wie er verantwoordelijk voor is — goede daden die je tot eer strekken komen later weer bij je terug.",
+    "trenchant": "Snijdt dwars door het rumoer heen — een snijdende opmerking of geest raakt meteen de kern, zonder overbodige woorden."
   }
 }

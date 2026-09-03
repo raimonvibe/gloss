@@ -8,7 +8,12 @@
     "It also repairs one piece of shipped damage the comparison turned up: the",
     "ontic row read 'los numerlo' where it should read 'los numeros'. That is a",
     "word broken in generation, not a regional form, and it had been in the store.",
-    "Run: python tool/localize_gloss.py --locale es_419"
+    "Run: python tool/localize_gloss.py --locale es_419",
+    "",
+    "The ten rewritten `friendly` lines are the peninsular ones unchanged. Only one",
+    "of the ten had ever carried a regional difference - fain addressed the reader,",
+    "'si os apetece' against 'si le apetece' - and the rewrite drops the address",
+    "altogether, so the pair agrees again without an ustedeo of its own."
   ],
   "english_ok": [
     "mathesis"
@@ -148,5 +153,17 @@
     "gloze": "Intentó encubrir el plazo perdido con un vago discurso de «dificultades imprevistas».",
     "incipient": "Los médicos captaron los signos incipientes de la enfermedad antes de que se extendiera.",
     "afflatus": "El poeta contó que toda la pieza llegó en un arrebato de inspiración a las tres de la madrugada."
+  },
+  "friendly": {
+    "euphonious": "Simplemente agradable de oír: una palabra o una frase eufónica resbala, casi con música, en el oído.",
+    "fain": "Un modo antiguo de decir «con gusto» o «de buena gana»: quien hace algo «fain» lo hace de muy buen grado.",
+    "fiducial": "Algo que se toma a crédito y luego sirve de ancla: una marca fiduciaria es el punto fijo contra el que se mide todo lo demás.",
+    "fructify": "Por fin dar fruto: un esfuerzo, una idea o una inversión que fructifica ha pasado de semilla a algo útil.",
+    "ineluctable": "Va a ocurrir hagas lo que hagas: de un desenlace ineludible no te escabulles.",
+    "minatory": "Con un aire inconfundible de amenaza: una mirada o una carta conminatoria deja muy claro que puede venir algo feo.",
+    "mordant": "Ingenio con dientes de verdad: un comentario mordaz pica precisamente porque apunta tan bien.",
+    "nugatory": "Que no vale casi nada: una cláusula nugatoria en un contrato, en la práctica, no hace nada.",
+    "redound": "Cuando el crédito (o la culpa) rebota hacia quien es responsable: las buenas obras que redundan en tu nombre vuelven luego como premio.",
+    "trenchant": "Corta de lleno el relleno: una observación o una mente incisiva llega al meollo enseguida, sin palabras de más."
   }
 }
