@@ -56,7 +56,7 @@ void main() {
     final entry = entries.firstWhere((e) => e.word == 'Edulcorate');
     final voiced = entry.voiced('The editor edulcorated the review.');
     expect(voiced, contains('iːˈdʌlkəreɪtɪd'));
-    expect(voiced, contains('ee dul kuh ray tidd'));
+    expect(voiced, contains('e dul kuh ray tidd'));
   });
 
   test('a word inside another word is left alone', () {

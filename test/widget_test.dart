@@ -218,11 +218,12 @@ void main() {
     });
   }
 
-  // Every heading on a word's page is set in the script face. "in other
-  // words" was the one left in the body font — it is a sub-label under the
-  // sentence rather than a section of its own, and it had been written as a
-  // plain 12pt line since before any of this. A reader noticed it as soon as
-  // the three above it started being read aloud by their own names.
+  // Every heading on a word's page is set in the script face, at the same
+  // size, on the same margin. "in other words" was the one left out of that
+  // twice over: first a plain 12pt line in the body font, then a 22pt script
+  // one indented inside the quotation's rule while the three above it were
+  // 26pt on the page's own left edge. Two heading sizes on two margins
+  // within a few lines is what a reader sees as a page that is not level.
   testWidgets('every heading on a word page is in the script face', (
     tester,
   ) async {
@@ -276,18 +277,40 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    for (final heading in [
+    const headings = [
       'in plain words',
       'the definition',
       'in a sentence',
       'in other words',
-    ]) {
+    ];
+    final sizes = <String, double?>{};
+    final lefts = <String, double>{};
+    for (final heading in headings) {
       final drawn = find.text(heading);
       expect(drawn, findsOneWidget, reason: '"$heading" is not on the page');
       expect(
         tester.widget<Text>(drawn).style?.fontFamily,
         AppFonts.tangerineFamily,
         reason: '"$heading" is drawn in the body font, not the script one',
+      );
+      sizes[heading] = tester.widget<Text>(drawn).style?.fontSize;
+      lefts[heading] = tester.getTopLeft(drawn).dx;
+    }
+
+    // One size and one margin across the four, whatever that size is.
+    final first = headings.first;
+    for (final heading in headings.skip(1)) {
+      expect(
+        sizes[heading],
+        sizes[first],
+        reason: '"$heading" is ${sizes[heading]}pt where "$first" is '
+            '${sizes[first]}pt',
+      );
+      expect(
+        lefts[heading],
+        moreOrLessEquals(lefts[first]!, epsilon: 0.5),
+        reason: '"$heading" starts at ${lefts[heading]} where "$first" '
+            'starts at ${lefts[first]}',
       );
     }
   });

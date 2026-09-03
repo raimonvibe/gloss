@@ -140,50 +140,43 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                                   : BorderSide.none,
                             ),
                           ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              EnglishLemma(
-                                child: Text(
-                                  '“${live.example}”',
-                                  style: TextStyle(
-                                    fontSize: 17,
-                                    fontStyle: FontStyle.italic,
-                                    height: 1.45,
-                                    color: brand.foregroundMuted,
-                                  ),
-                                ),
+                          child: EnglishLemma(
+                            child: Text(
+                              '“${live.example}”',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontStyle: FontStyle.italic,
+                                height: 1.45,
+                                color: brand.foregroundMuted,
                               ),
-                              if (live.exampleGloss != null) ...[
-                                const SizedBox(height: 8),
-                                // The script face, like every other heading
-                                // on this page. It was the one left in the
-                                // body font, which showed once the three
-                                // above it were all being read aloud by
-                                // their own names — and 22 rather than the
-                                // sections' 26, because it belongs under the
-                                // sentence rather than beside it.
-                                ScriptCaption(
-                                  l10n.exampleGlossLabel,
-                                  textAlign: TextAlign.start,
-                                  fontSize: 22,
-                                ),
-                                const SizedBox(height: 4),
-                                Text(
-                                  live.exampleGloss!,
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    height: 1.45,
-                                    color: brand.foregroundMuted,
-                                  ),
-                                ),
-                              ],
-                            ],
+                            ),
                           ),
                         );
                       },
                     ),
                   ),
+                  // The gloss is a section like the three above it, and it
+                  // is drawn like one: the same script face at the same 26,
+                  // on the page's own left edge, with the same air over it.
+                  // It used to sit inside the quotation's rule at 22, which
+                  // put two headings of two sizes on two different margins
+                  // within a few lines of each other — the page stopped
+                  // looking level, which is what a reader saw. The rule now
+                  // marks the quotation and nothing else.
+                  if (live.exampleGloss != null) ...[
+                    const SizedBox(height: 18),
+                    _Section(
+                      title: l10n.exampleGlossLabel,
+                      child: Text(
+                        live.exampleGloss!,
+                        style: TextStyle(
+                          fontSize: 17,
+                          height: 1.45,
+                          color: brand.foregroundMuted,
+                        ),
+                      ),
+                    ),
+                  ],
                   const SizedBox(height: 16),
                   Wrap(
                     spacing: 8,

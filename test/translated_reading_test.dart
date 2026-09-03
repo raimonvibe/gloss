@@ -168,13 +168,21 @@ void main() {
     expect(dutch, contains('in een staat van'));
 
     // Every heading the page sets over a paragraph is read where the page
-    // sets it. Two were missing: the definition had nothing introducing it
-    // and the sentence was announced as "Zoals in", which is a phrase the
-    // page never uses.
+    // sets it. Three were missing: the definition had nothing introducing
+    // it, the sentence was announced as "Zoals in", which is a phrase the
+    // page never uses, and the gloss under the sentence arrived with no
+    // heading at all — a reader heard the English sentence, then a Dutch
+    // one, and was never told the second was the first said again.
     expect(dutch, contains('in gewone woorden'));
     expect(dutch, contains('de definitie'));
     expect(dutch, contains('in een zin'));
+    expect(dutch, contains('anders gezegd'));
     expect(dutch, isNot(contains('Zoals in')));
+    expect(
+      dutch.indexOf('anders gezegd'),
+      lessThan(dutch.indexOf('Het kantoor viel')),
+      reason: 'the heading arrives after the gloss it introduces',
+    );
 
     // Then the meaning, the sentence, and the sentence in Dutch - the last
     // of which was left off the reading entirely.

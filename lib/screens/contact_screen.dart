@@ -795,8 +795,26 @@ class _Suggestion extends StatelessWidget {
   }
 }
 
-/// Why someone is writing, as chips rather than a dropdown: five short
+/// Why someone is writing, as pills rather than a dropdown: five short
 /// answers are quicker to read at a glance than to open a menu for.
+///
+/// They are laid out as **a column of full-width rows, not a `Wrap`**, and
+/// that is a decision about sixty languages rather than about this page.
+/// A wrapping row of hugging pills gives every language a different set of
+/// line breaks and a different set of widths, and in any language where one
+/// label is long enough to wrap — Dutch's "Een woord om toe te voegen",
+/// Hungarian's "Egy szó, amit érdemes hozzátenni" — that one pill stretches
+/// to the full width while the four under it stay short, so the icons stand
+/// in a ragged column and no two labels begin at the same x. Uniform rows
+/// have one answer for all sixty and need no per-language tuning: one width,
+/// one column of icons, one left edge for the labels, and a second line that
+/// starts under the first.
+///
+/// It is also what the rest of the letter does. The name, the address, the
+/// message and the priority control are all `double.infinity` wide inside a
+/// form whose width is already capped by [Layout.pagePadding], so a
+/// full-width row lines the reasons up with the fields above and below them
+/// rather than only with each other.
 class _ReasonChips extends StatelessWidget {
   const _ReasonChips({
     required this.label,
@@ -821,19 +839,19 @@ class _ReasonChips extends StatelessWidget {
         children: [
           Text(label, style: Theme.of(context).textTheme.bodyLarge),
           const SizedBox(height: 8),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              for (final reason in ContactReason.values)
-                _ReasonPill(
-                  label: labelOf(reason),
-                  icon: iconOf(reason),
-                  selected: reason == selected,
-                  onTap: () => onSelect(reason),
-                ),
-            ],
-          ),
+          for (final reason in ContactReason.values) ...[
+            if (reason != ContactReason.values.first)
+              const SizedBox(height: 8),
+            SizedBox(
+              width: double.infinity,
+              child: _ReasonPill(
+                label: labelOf(reason),
+                icon: iconOf(reason),
+                selected: reason == selected,
+                onTap: () => onSelect(reason),
+              ),
+            ),
+          ],
         ],
       ),
     );
@@ -857,6 +875,14 @@ class _ReasonChips extends StatelessWidget {
 /// out, and [pillRadius] stops the rounded ends curving in over that second
 /// line. A category pill on a word's page has carried a long translated label
 /// this way all along.
+///
+/// That fixed the cut tail and left the label centred, which was right for
+/// the button [ButtonLabel] was written for and wrong here: "voegen" sat
+/// centred under "Een woord om toe te", with the icon stranded in the gap it
+/// left. The label is set from the start now and the row is stretched by its
+/// parent, so the icon, the first letter and the second line all stand on
+/// lines of their own — see [_ReasonChips] for why every one of the five is
+/// the same width.
 class _ReasonPill extends StatelessWidget {
   const _ReasonPill({
     required this.label,
@@ -904,7 +930,6 @@ class _ReasonPill extends StatelessWidget {
             ),
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             child: Row(
-              mainAxisSize: MainAxisSize.min,
               children: [
                 Icon(
                   icon,
@@ -912,18 +937,32 @@ class _ReasonPill extends StatelessWidget {
                   color: selected ? brand.accentGold : brand.foregroundMuted,
                 ),
                 const SizedBox(width: 8),
-                Flexible(
+                Expanded(
+                  // Expanded rather than Flexible: the label's box is the
+                  // rest of the row whether the words fill it or not, so
+                  // every one of the five begins at the same x instead of
+                  // each one hugging its own text.
+                  //
+                  // minScale 1.0 — never shrink, wrap instead. Shrinking a
+                  // step at a time to hold one line is right for a button
+                  // that hugs its own label; here it set five rows of one
+                  // list in three different sizes (15, 14.5 and 13 in the
+                  // same column, measured), which is its own kind of not
+                  // level. A row has the width already, so a second line
+                  // costs nothing and one type size is worth more.
+                  //
                   // An allowance rather than a shape, and a generous one:
                   // this is a phrase to choose between, not a word on a
                   // button. The longest of the sixty — Hungarian's "Egy szó,
                   // amit érdemes hozzátenni" — takes two lines on a narrow
-                  // phone at the largest size, and four in the full-em face a
-                  // test runs in. Short labels still take one.
+                  // phone at the largest size, and three in the full-em face
+                  // a test runs in. Short labels still take one.
                   child: ButtonLabel(
                     label,
                     maxLines: 6,
-                    minScale: 0.8,
+                    minScale: 1.0,
                     style: labelStyle,
+                    textAlign: TextAlign.start,
                   ),
                 ),
               ],

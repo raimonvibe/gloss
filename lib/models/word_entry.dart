@@ -334,28 +334,51 @@ class WordEntry {
   /// etymological forms and the origin names a single language.
   ///
   /// Null for everything else, which leaves the term with the English voice
-  /// it has always had. See [kOriginVoices] for what is in the table and
-  /// what is deliberately not.
-  String? etymonVoiceFor(String term) {
+  /// it has always had. See [spokenEtymonFor], which this reads off.
+  String? etymonVoiceFor(String term) => spokenEtymonFor(term)?.languageTag;
+
+  /// How [term] should be said, when it is one of this entry's own
+  /// etymological forms and there is a voice for the language it is in.
+  ///
+  /// Null for everything else, which leaves the term with the English voice
+  /// it has always had. See [kOriginVoices] and [kGreekScript] for what is
+  /// in the tables and what is deliberately not.
+  SpokenEtymon? spokenEtymonFor(String term) {
+    final needle = term.trim().toLowerCase();
+    if (needle.isEmpty) return null;
+    final source = english;
+    final forms = [
+      source.originWord,
+      for (final root in source.roots) root.form,
+    ];
+    if (!forms.any((form) => form.trim().toLowerCase() == needle)) return null;
+
+    // Greek before anything else: the page writes it in Latin letters, and
+    // the voice is handed the Greek ones.
+    //
+    // The table is keyed on the form alone, and Greek is not the only
+    // language with a *pro-*: *pronunciamento* is Spanish and its prefix
+    // went to a Greek mouth on a bare lookup. So the word has to have Greek
+    // in it — which its origin label does not always say, *splenetic* being
+    // "Greek / Latin" and *pedantic* "Italian / Greek", and which a macron
+    // says for the form itself where the label is silent.
+    if (source.origin.contains(kGreekOrigin) ||
+        kTransliteratedGreek.hasMatch(needle)) {
+      final greek = kGreekScript[needle];
+      if (greek != null) return SpokenEtymon(greek, kGreekVoice);
+    }
+
     // A compound origin names two languages and the etymon is in one of
     // them; which one is written down per word rather than guessed.
-    final tag = kOriginVoices[english.origin] ?? kEtymonVoiceByWord[id];
+    final tag = kOriginVoices[source.origin] ?? kEtymonVoiceByWord[id];
     if (tag == null) return null;
-    final needle = term.trim().toLowerCase();
-    if (needle.isEmpty ||
-        kMixedForm.hasMatch(needle) ||
+    // A form carrying a gloss or a second language, and Greek that has no
+    // Greek spelling here, keep the English voice.
+    if (kMixedForm.hasMatch(needle) ||
         kTransliteratedGreek.hasMatch(needle)) {
       return null;
     }
-    final source = english;
-    for (final form in [
-      source.originWord,
-      for (final root in source.roots) root.form,
-    ]) {
-      if (kMixedForm.hasMatch(form)) continue;
-      if (form.trim().toLowerCase() == needle) return tag;
-    }
-    return null;
+    return SpokenEtymon(term, tag);
   }
 
   /// The same entry in the reader's language, laid out in the same order.
@@ -373,7 +396,10 @@ class WordEntry {
       templates.inPlainWords(friendly),
       templates.theDefinition(definition),
       templates.inASentence(english.example),
-      if (exampleGloss != null) exampleGloss!,
+      // With its heading, like the three above it. Without one, a reader
+      // heard the English sentence and then a second sentence in their own
+      // language and was never told the second was the first said again.
+      if (exampleGloss != null) templates.inOtherWords(exampleGloss!),
     ].where((part) => part.isNotEmpty).join(' ');
   }
 

@@ -42,7 +42,7 @@ void main() {
     // `parr` is the /a/ of bat with an r; `par` would be the /ar/ of bar.
     expect(spokenRespelling('PARR-uk-siz-um'), 'parre uck siz um');
     expect(spokenRespelling('PAR-sih-moh-nee'), 'parr sih moh nee');
-    expect(spokenRespelling('ee-DUL-kuh-rate'), 'ee dul kuh rate');
+    expect(spokenRespelling('ee-DUL-kuh-rate'), 'e dul kuh rate');
     expect(spokenRespelling('thee-OD-ih-see'), 'thee odd ihh see');
     expect(spokenRespelling('SY-uh-list'), 'sigh uh list');
     expect(spokenRespelling('vy-too-per-AY-shun'), 'vye too per ay shun');
@@ -93,13 +93,29 @@ void main() {
     );
   });
 
-  /// Syllables the reader's phone overruled the desktop probe on.
+  /// The one kind of spelled syllable that may reach the voice: one whose
+  /// letters, read out as letters, **are** the sound it was written for.
   ///
-  /// `tool/probe_respellings.ps1` asks Windows SAPI, and SAPI is not the
-  /// engine on the phone. Where a syllable has actually been heard on a
-  /// device, that verdict wins and the probe's is a hint — see the note on
-  /// `ee` in respelling.dart.
-  const heardOnDevice = <String>{'ee'};
+  /// The name of the letter E is /iː/, so an engine that spells a lone `e`
+  /// and an engine that says it arrive at the same sound. Every other entry
+  /// in `_spokenSyllables` is a spelling some measured engine happens to say,
+  /// and carries the risk that the next engine does not; this one cannot go
+  /// wrong, because naming a letter is the one thing every engine agrees on.
+  ///
+  /// The probe has no useful verdict to give about it either way, and the
+  /// exemption is here for that rather than for a verdict it gave. Its test
+  /// is whether a token reads the same as its own letters spaced apart, and
+  /// for a one-letter token those are the same string — so the answer is
+  /// whichever way the phoneme events happen to land. It came back `said` on
+  /// the run that added it and `SPELLED` on the run before. What is stable,
+  /// and what settled the choice, is the phoneme count in the carrier:
+  /// `e` is one beat of /iː/ where `ee` is two.
+  ///
+  /// This used to be `heardOnDevice = {'ee'}`, an exemption for a syllable
+  /// the probe called spelled and the app sent anyway on the theory that the
+  /// letter E was near enough. It was not: `ee` is two letters, so it is two
+  /// names, and *Edulcorate* opened "E-E-dul-kuh-rate" on a reader's phone.
+  const spelledIsTheSound = <String>{'e'};
 
   test('nothing the engine spells reaches the voice', () {
     final left = <String>[];
@@ -107,7 +123,8 @@ void main() {
       for (final syllable in spokenRespelling(
         word['pronunciation'] as String,
       ).split(' ')) {
-        if (spelled.contains(syllable) && !heardOnDevice.contains(syllable)) {
+        if (spelled.contains(syllable) &&
+            !spelledIsTheSound.contains(syllable)) {
           left.add('${word['word']}: $syllable');
         }
       }
@@ -117,6 +134,44 @@ void main() {
       isEmpty,
       reason: 'give it a spelling in _spokenSyllables in respelling.dart',
     );
+  });
+
+  // The gap that let `ee` sit unnoticed: the sweep above asks whether a
+  // spoken syllable is in the probe's *spelled* list, so a replacement the
+  // probe has never been shown at all answers "no" and passes. A replacement
+  // is exactly the string that reaches a reader's ear, so it is the one that
+  // most needs to have been asked about.
+  test('every syllable the voice is handed has been put to an engine', () {
+    final unprobed = <String>{};
+    for (final word in words) {
+      for (final syllable in spokenRespelling(
+        word['pronunciation'] as String,
+      ).split(' ')) {
+        if (!said.contains(syllable) && !spelled.contains(syllable)) {
+          unprobed.add('${word['word']}: $syllable');
+        }
+      }
+    }
+    expect(
+      unprobed,
+      isEmpty,
+      reason: 'add it to tool/respelling_tokens.txt and re-run '
+          'tool/probe_respellings.ps1 — a replacement nobody has measured is '
+          'a guess about an engine',
+    );
+  });
+
+  // The bug itself, in one line: a doubled vowel is one sound to the eye and
+  // two letter names to an engine.
+  test('a bare ee is handed over as one letter, not two', () {
+    expect(spokenSyllable('ee'), 'e');
+    expect(spokenRespelling('ee-DUL-kuh-rate'), 'e dul kuh rate');
+    expect(spokenRespelling('ee-men-DAY-shun'), 'e men day shun');
+    expect(spokenRespelling('PARR-ee'), 'parre e');
+    // And a syllable that merely contains the pair is left alone: `thee`,
+    // `see`, `lee` are words, and the table is for fragments that are not.
+    expect(spokenSyllable('thee'), 'thee');
+    expect(spokenSyllable('see'), 'see');
   });
 
   test('every syllable survives — one syllable in, one syllable out', () {

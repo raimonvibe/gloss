@@ -107,6 +107,67 @@ void main() {
           '_knownReduplication with a note on what it means',
     );
   });
+
+  // ---- the seven quotations that cannot be translated -------------------
+  //
+  // Fourteen of the 134 put a phrase in quotation marks, and they are not all
+  // the same kind of thing. Seven of them *are* the specimen: the ambiguity
+  // of "Visiting relatives can be tiring", the redundancy of "It is what it
+  // is", the bad grammar of "Between you and I" exist in English and nowhere
+  // else, so a translation of the quotation shows the reader nothing at all.
+  // The other seven quote reported speech — "excellent taste", "unforeseen
+  // challenges" — which carries no such weight and which about half the
+  // locales have already translated.
+  //
+  // Nobody wrote that rule down and all sixty translations found it anyway:
+  // the seven below stand in 58, 59 or 60 locales out of 60, where the
+  // reported speech runs 16 to 44. `python tool/gloss_english.py` prints the
+  // whole table.
+  //
+  // This is here because the obvious next piece of work is a pass that
+  // renders the English headword in each gloss into the reader's language,
+  // and a pass like that would take these seven with it by accident. They are
+  // the one place in the app where English text inside a translated sentence
+  // is the content rather than a gap in it.
+  group('a quotation that is the specimen stays in English', () {
+    const specimens = <String, String>{
+      'amphiboly': 'Visiting relatives can be tiring',
+      'euphonious': 'Murmuring brook',
+      'tautology': 'It is what it is',
+      'solecism': 'Between you and I',
+      'laconism': 'Molon labe',
+      'metonymy': 'Wall Street had a rough day',
+      'specious': "Everyone's doing it",
+    };
+
+    // Three have already lost one. They are named rather than waved through,
+    // so the count can only go down from here: metonymy stands in 59 of the
+    // 60 and specious in 58, measured 2026-09-03.
+    const alreadyGone = <String>{
+      'nb/metonymy',
+      'lo/specious',
+      'my/specious',
+    };
+
+    test('all sixty keep it, and the exceptions are the known ones', () {
+      final lost = <String>[];
+      overlays.forEach((locale, words) {
+        specimens.forEach((id, phrase) {
+          final gloss = words[id]?['exampleGloss'] as String?;
+          if (gloss == null) return;
+          if (!gloss.toLowerCase().contains(phrase.toLowerCase())) {
+            lost.add('$locale/$id');
+          }
+        });
+      });
+      expect(
+        lost.toSet(),
+        alreadyGone,
+        reason: 'a quotation that is the thing being examined was translated '
+            'away, or one came back — see tool/gloss_english.py',
+      );
+    });
+  });
 }
 
 /// Reduplication that is correct in the language, gone through one by one.

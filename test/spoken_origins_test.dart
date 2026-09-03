@@ -124,7 +124,10 @@ void main() {
       expect(latin.etymonVoiceFor('dulcis'), kOriginVoices['Latin']);
     });
 
-    test('a transliterated Greek root keeps the English voice', () {
+    // The page writes Greek in Latin letters, which a Greek voice would
+    // spell; the voice is handed the Greek letters instead. Heard on a
+    // device: "van Grieks, mathesis" said the etymon as an English word.
+    test('a Greek etymon is handed to a Greek voice, in Greek letters', () {
       const greek = WordEntry(
         id: 'paroxysm',
         word: 'Paroxysm',
@@ -138,10 +141,157 @@ void main() {
         originWord: 'paroxysmos',
         roots: [WordRoot(form: 'oxys', meaning: 'sharp')],
       );
-      // Our Greek is written in Latin letters, and a Greek voice would
-      // spell them.
-      expect(greek.etymonVoiceFor('paroxysmos'), isNull);
-      expect(greek.etymonVoiceFor('oxys'), isNull);
+      expect(greek.etymonVoiceFor('paroxysmos'), kGreekVoice);
+      expect(greek.spokenEtymonFor('paroxysmos')!.text, 'παροξυσμός');
+      expect(greek.spokenEtymonFor('oxys')!.text, 'οξύς');
+      // The page is untouched: the transliteration is what it shows.
+      expect(greek.originWord, 'paroxysmos');
+      // A form this entry does not own is nobody's, Greek table or not.
+      expect(greek.spokenEtymonFor('logos'), isNull);
+    });
+
+    // Greek with no Greek spelling here keeps the English voice rather than
+    // being sent to a Greek mouth as Latin letters, which is the whole
+    // reason the table is per form instead of per origin label.
+    test('an unlisted Greek form keeps the English voice', () {
+      const unlisted = WordEntry(
+        id: 'notaword',
+        word: 'Notaword',
+        partOfSpeech: 'noun',
+        pronunciation: 'NOT-uh-word',
+        definition: 'A word that is not.',
+        friendly: 'Not a word.',
+        example: 'Notaword is not a word.',
+        tags: ['speech'],
+        origin: 'Greek',
+        originWord: 'notēgrapton',
+        roots: [WordRoot(form: 'notē', meaning: 'not')],
+      );
+      expect(unlisted.spokenEtymonFor('notēgrapton'), isNull);
+      expect(unlisted.spokenEtymonFor('notē'), isNull);
+    });
+
+    // The table is keyed on the form alone, and a prefix is not the property
+    // of one language: *pro-* is Greek in *proleptical* and Spanish in
+    // *pronunciamento*, which was being sent to a Greek voice.
+    testWidgets('a Greek form is only Greek in a word that has Greek in it', (
+      tester,
+    ) async {
+      final repo = await _shipped(tester, 'en');
+      final byId = {for (final word in repo.words) word.id: word};
+
+      expect(byId['proleptical']!.spokenEtymonFor('pro-')!.text, 'προ');
+      final spanish = byId['pronunciamento']!;
+      expect(spanish.origin, 'Spanish');
+      expect(spanish.etymonVoiceFor('pro-'), kOriginVoices['Spanish']);
+      expect(spanish.spokenEtymonFor('pro-')!.text, 'pro-');
+
+      // No word outside the twenty-two ever reaches the Greek table.
+      final greekVoiced = repo.words.where(
+        (word) => [
+          word.originWord,
+          for (final root in word.roots) root.form,
+        ].any((form) => word.etymonVoiceFor(form) == kGreekVoice),
+      );
+      expect(greekVoiced, hasLength(21));
+      for (final word in greekVoiced) {
+        expect(
+          word.origin.contains('Greek'),
+          isTrue,
+          reason: '${word.id} is ${word.origin} and got a Greek voice',
+        );
+      }
+    });
+
+    // Every Greek form in the table is Greek: a Latin letter left in one
+    // would be spelled out by the voice it was written for, which is the
+    // bug this table exists to fix, inverted.
+    test('the Greek table is written in Greek letters', () {
+      final latin = RegExp(r'[A-Za-zāēīōū]');
+      for (final entry in kGreekScript.entries) {
+        expect(
+          latin.hasMatch(entry.value),
+          isFalse,
+          reason: '${entry.key} is spoken as "${entry.value}", which still '
+              'carries Latin letters',
+        );
+        expect(entry.key, entry.key.toLowerCase(), reason: 'lookup lowercases');
+        expect(entry.value.contains('-'), isFalse, reason: 'a hyphen is said');
+      }
+    });
+
+    // Word 135 is safe rather than lucky: a new Greek word whose forms are
+    // not in the table fails here rather than being read in English on a
+    // device.
+    testWidgets('every Greek form in the lexicon is in the table', (
+      tester,
+    ) async {
+      final repo = await _shipped(tester, 'en');
+      // Not Greek, though they sit on Greek stems or beside Greek words.
+      const notGreek = {
+        '-ic', '-etic', // English suffixes on Greek stems
+        'spleneticus', 'pedante', // Latin and Italian, with their own voices
+        'theodicy (leibniz)', // a coinage naming its coiner
+        // Two languages in one string, the same as `racine (radix)`. It
+        // keeps the English voice by kMixedForm, and a Greek spelling here
+        // would drop the "(Greek)" that the page shows beside it.
+        'paidagōgos (greek)',
+        // A macron is not proof of Greek — Old English writes one too, and
+        // hlēo has no voice of any kind. Named here so the sweep can go on
+        // using the macron as its signal for the words that are Greek.
+        'hlēo', 'hlēo + side',
+        // Two letters. segmentTranslation never cuts a term this short out
+        // of a passage, so it never reaches a voice on its own, and a lone
+        // Greek letter handed to a Greek voice would be read as its name.
+        'a-',
+      };
+      final missing = <String>[];
+      for (final word in repo.words) {
+        final greekWord = word.origin.contains('Greek');
+        for (final form in [
+          word.originWord,
+          for (final root in word.roots) root.form,
+        ]) {
+          final key = form.trim().toLowerCase();
+          if (kGreekScript.containsKey(key) || notGreek.contains(key)) continue;
+          // Either the origin says Greek, or a macron says so for it.
+          if (greekWord || kTransliteratedGreek.hasMatch(key)) {
+            missing.add('${word.id}: $form');
+          }
+        }
+      }
+      expect(missing, isEmpty, reason: 'a Greek form has no Greek spelling');
+    });
+
+    testWidgets('the shipped Greek etymon reaches a Greek voice', (
+      tester,
+    ) async {
+      final repo = await _shipped(tester, 'nl');
+      final entry = repo.words.firstWhere((word) => word.id == 'mathesis');
+      final reading = await _readingIn(
+        tester,
+        localeId: 'nl-NL',
+        repo: repo,
+        entry: entry,
+      );
+
+      final greek = reading.where((piece) => piece.languageTag == kGreekVoice);
+      expect(greek, isNotEmpty, reason: 'the etymon stayed with English');
+      final said = greek.map((piece) => piece.text).join(' ');
+      expect(said, contains('μάθησις'));
+      expect(said, isNot(contains('mathesis')));
+
+      // Alone, like the French one: a device with no Greek voice loses this
+      // word and keeps its Dutch reading.
+      for (final piece in greek) {
+        expect(piece.group, isNull, reason: 'the etymon joined the passage');
+        expect(piece.fallback, isNotNull, reason: 'no English to fall back on');
+      }
+      expect(
+        reading.where((piece) => piece.languageTag == 'nl-NL'),
+        isNotEmpty,
+        reason: 'the Dutch explanation went missing',
+      );
     });
 
     test('a compound origin and a mixed form keep the English voice', () {
@@ -196,12 +346,9 @@ void main() {
       expect(
         silent.toSet(),
         {
-          // Nineteen Greek words, transliterated into Latin letters. A Greek
-          // voice would spell them; the English voice approximates them.
-          'amphiboly', 'anchorite', 'aporetic', 'cataphatic', 'euphonious',
-          'laconism', 'mathesis', 'metonymy', 'neologism', 'ontic',
-          'panegyric', 'paroxysm', 'periphrastic', 'pneumatic', 'proleptical',
-          'solecism', 'sybarite', 'tautology', 'theodicy',
+          // The nineteen Greek words stood here until 2026-09-03. They are
+          // read in Greek letters now, out of kGreekScript, so what is left
+          // is the words for which there is no voice at all.
           // English, Old English and Middle English. The English voice is
           // the right one, and the only one any engine has.
           'clodpate', 'dint', 'fain', 'lee-side', 'slake', 'dotage', 'gainsay',
@@ -227,9 +374,11 @@ void main() {
       expect(byId['mortised']!.etymonVoiceFor('mortaise'), 'fr-FR');
       expect(byId['appurtenance']!.etymonVoiceFor('apartenance'), 'fr-FR');
 
-      // Greek hiding under an origin that does not say Greek.
-      expect(byId['splenetic']!.etymonVoiceFor('splēn'), isNull);
-      expect(byId['pedantic']!.etymonVoiceFor('paidagōgos'), isNull);
+      // Greek hiding under an origin that does not say Greek: "Greek /
+      // Latin" and "Italian / Greek" are compounds, so no origin label
+      // could have routed these. The form is what decides.
+      expect(byId['splenetic']!.etymonVoiceFor('splēn'), kGreekVoice);
+      expect(byId['pedantic']!.etymonVoiceFor('paidagōgos'), kGreekVoice);
       expect(byId['pedantic']!.etymonVoiceFor('pedante'), 'it-IT');
     });
 

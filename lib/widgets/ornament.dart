@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 import '../state/settings_controller.dart';
 import '../theme/app_fonts.dart';
 import '../theme/brand_colors.dart';
+import 'gradient_mask.dart';
 
 class PaperBackdrop extends StatelessWidget {
   const PaperBackdrop({super.key, required this.child});
@@ -316,6 +317,16 @@ class DividerFlourish extends StatelessWidget {
   }
 }
 
+/// A word in the hero gradient — the headword on a word's page, the app's own
+/// name, a quiz score.
+///
+/// The child is painted flat white so that `BlendMode.modulate` can tint it,
+/// which means any ink the mask does not reach is white on a dark page rather
+/// than merely the wrong colour. A plain [ShaderMask] masks the child's layout
+/// box and no more, and a descender is drawn below that box: *Splenetic* wore
+/// a white sliver under the tail of its **p**. [GradientMask] is the same mask
+/// with room around it — see there for why this cannot be fixed by measuring
+/// the text.
 class GradientText extends StatelessWidget {
   const GradientText(
     this.text, {
@@ -330,7 +341,7 @@ class GradientText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ShaderMask(
+    return GradientMask(
       shaderCallback: (bounds) => LinearGradient(
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,

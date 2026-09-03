@@ -209,10 +209,13 @@ void main() {
       final chips = find.byType(ButtonLabel);
       expect(chips, findsAtLeastNWidgets(5), reason: 'the reasons went missing');
 
+      final boxes = <Rect>[];
+      final sizes = <double?>[];
       for (var i = 0; i < 5; i++) {
         final chip = tester.getRect(chips.at(i));
         expect(chip.left, greaterThanOrEqualTo(-0.5));
         expect(chip.right, lessThanOrEqualTo(320.5));
+        boxes.add(chip);
 
         final label =
             find.descendant(of: chips.at(i), matching: find.byType(Text)).first;
@@ -232,6 +235,45 @@ void main() {
               '${drawn.width.toStringAsFixed(0)}pt of width',
         );
         expect(drawn.bottom, lessThanOrEqualTo(chip.bottom + 0.5));
+        sizes.add(text.style?.fontSize);
+
+        // A second line starts under the first rather than centred beneath
+        // it. This is the half that a rect cannot show: the box is the same
+        // either way, and only the paragraph knows which way its lines were
+        // set.
+        expect(
+          text.textAlign,
+          TextAlign.start,
+          reason: '"${text.data}" is centred, so a wrapped line is ragged',
+        );
+      }
+
+      // One width and one left edge across the five, in every language.
+      // A Wrap gave each pill the width of its own label, so the language
+      // decided the shape: four short reasons hugging their words beside one
+      // that had stretched the full width to hold "$locale"'s long one.
+      for (var i = 1; i < 5; i++) {
+        expect(
+          boxes[i].left,
+          moreOrLessEquals(boxes.first.left, epsilon: 0.5),
+          reason: 'reason $i starts at ${boxes[i].left}, not '
+              '${boxes.first.left}',
+        );
+        expect(
+          boxes[i].width,
+          moreOrLessEquals(boxes.first.width, epsilon: 0.5),
+          reason: 'reason $i is ${boxes[i].width}pt wide, not '
+              '${boxes.first.width}pt',
+        );
+        // And one type size. ButtonLabel shrinks a step at a time to hold a
+        // label on one line, which set three sizes in one column of five —
+        // 15, 14.5 and 13, measured — and is its own kind of not level. A
+        // full-width row has the width already, so it wraps instead.
+        expect(
+          sizes[i],
+          sizes.first,
+          reason: 'reason $i is set at ${sizes[i]}pt, not ${sizes.first}pt',
+        );
       }
     });
   }

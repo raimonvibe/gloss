@@ -111,11 +111,13 @@ List<SpeechSegment> _lemmaThen(
       // written in, not to English. A French etymon read with an English
       // mouth is the same bug as a Dutch sentence in an English accent,
       // one word wide.
-      final etymon = live.etymonVoiceFor(segment.text);
+      final etymon = live.spokenEtymonFor(segment.text);
       if (etymon != null) {
         return SpeechSegment(
-          segment.text,
-          languageTag: etymon,
+          // Not always the text as cut: Greek is written on the page in
+          // Latin letters and handed to the voice in Greek ones.
+          etymon.text,
+          languageTag: etymon.languageTag,
           // Its own fallback, and no group. A device with no French voice
           // says this one piece the way it always did; sharing the group
           // would take the whole Dutch reading down to English for want of

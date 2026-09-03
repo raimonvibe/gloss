@@ -481,7 +481,7 @@ void _splitNarration() {
       expect(english, contains('To take the bitterness out.'));
       expect(english, contains('To sweeten or purify.'));
       // The word inside the sentence is handed over as its sound.
-      expect(english, contains('The editor ee dul kuh ray tidd the review.'));
+      expect(english, contains('The editor e dul kuh ray tidd the review.'));
       // Still not a word of Dutch in it.
       expect(english, isNot(contains('bitterheid')));
       expect(english, isNot(contains('Latijn')));
