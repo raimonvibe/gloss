@@ -1440,13 +1440,19 @@ Raising the timeout on that file would settle it properly.
 
 `flutter build apk --debug` exits 0 on Windows at `2dc63a1`.
 
-`flutter build appbundle --release` exits 0 on Windows at `1.0.0+18`, writing a **47.9 MB**
-bundle — `versionCode 18`, signed `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`,
-`INTERNET` and the `SENDTO` query both in the merged manifest. Six locales now read their
-example sentences wholly in their own language, and every word is handed to the voice as a
-word rather than as its syllables. The same 47.9 MB as `1.0.0+17`: six locales of rewritten
-sentences replace six locales of sentences, so a bundle cannot tell the difference. **Not
-uploaded** — the version code moves when it is.
+`flutter build appbundle --release` exits 0 on Windows at `1.0.0+19`, writing a **47.9 MB**
+bundle — `versionCode 19`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest. **Thirteen locales** now read their example sentences wholly in their
+own language, and their explanations too. Still 47.9 MB, for the third version running:
+rewritten sentences replace sentences of the same length, so a bundle cannot tell the
+difference — which is the useful thing to know about a change of this shape before you go
+looking for what went wrong.
+
+**`+18` was built at `5e27617` and never uploaded, and `+19` moved anyway** — asked for on
+2026-09-03. That is fine and worth writing down so the gap is not read as a lost build: the
+rule in this file is that a version code moves *at least* when a bundle is uploaded, not
+that it may never move otherwise. `18` is simply spent.
 
 Before that, `flutter build appbundle --release` exited 0 on Windows at `54ecdce` (`1.0.0+17`), writing a
 47.9 MB bundle — `versionCode 17`, signed `CN=Gloss, O=Raimonvibe`, `INTERNET` and the
