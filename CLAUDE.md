@@ -460,18 +460,35 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Nine are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR` — and 51
-are not.** **6,701 of the 8,040 glosses still carry the English headword.** All nine have
-had their `friendly` and `definition` fields done too, so a diff of one of them is no
-longer `exampleGloss` lines alone — see *`exampleGloss` was never the only field this can
-happen in* below.
+**Eleven are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`,
+`ru` — and 49 are not.** **6,434 of the 8,040 glosses still carry the English headword.**
+All eleven have had their `friendly` and `definition` fields done too, so a diff of one of
+them is no longer `exampleGloss` lines alone — see *`exampleGloss` was never the only field
+this can happen in* below.
 
-**Of the 51 left, only 14 can be written by this tool.** 37 have a `tool/_data_<locale>.py`
+**Of the 49 left, only 12 can be written by this tool.** 37 have a `tool/_data_<locale>.py`
 and `localize_gloss.py` refuses them, because the next `emit_from_data.py` would throw the
-edit away; those need the generator edited instead. The 14 are `bg`, `cs`, `el`, `hr`,
-`hu`, `mk`, `nb`, `pl`, `ro`, `ru`, `sk`, `sl`, `sr`, `uk` — and none of them is a pair, so
-the cheap ones are now spent. The three Chinese locales are still worth diffing before
-treating them as three jobs.
+edit away; those need the generator edited instead. The 12 are `bg`, `cs`, `el`, `hr`,
+`hu`, `mk`, `nb`, `ro`, `sk`, `sl`, `sr`, `uk` — none of them a pair, so the cheap ones are
+spent. The three Chinese locales are still worth diffing before treating them as three
+jobs.
+
+**A locale in another script needs no exemption list, and that is a fact about the
+alphabet rather than about the language.** Russian took one — *mathesis*, kept in Latin
+letters the way every locale keeps it — and could not have needed more: a borrowing
+arrives transliterated (*панегирик*, *теодицея*, *сибарит*, *пароксизм*, *сенешаль*,
+*анахорет*), so it cannot be identical to the English form even where it is the same
+word. Expect the same of `bg`, `mk`, `sr`, `el` and `uk`, and expect the reverse of the
+Latin-script Slavic ones — Polish still needed only *mathesis*, but for the other reason,
+that it declines what it borrows (*panegirykiem*, *teodyceę*, *sybaryta*, *solecyzm*).
+
+**Russian also sorted into use and mention more cleanly than any locale before it**, and
+the two it kept are the two the census predicted: *fricaseed* is defined as the
+misspelling of "fricasseed" and *ingenuous* is the word told apart from "ingenious". Both
+had simply been written without their quotation marks, so the sweep could not tell them
+from a use. Quoting them is the whole fix, and it also hands them back to the English
+voice, since `segmentTranslation` cuts on `quotedEnglish`. Russian needed no rewrite for
+*fain* or *fructify*: it had already translated both, which no other locale had.
 
 **How many exemptions a locale needs is not what you would guess.** For the sentences,
 French needed five and Italian two, although Italian is where several of these words came
@@ -677,12 +694,23 @@ same reason *los númerlo* was: a mangled word is still a word. It is in
 `tool/gloss_local_fr.json` under `definitions` now, so the repair is recorded where the
 next generation will read it.
 
-**`localize_gloss.py` had the English field named wrong for definitions.** `CARRIES` said
-`definition` where `tool/_en_words_src.json` calls it `def`, so the guard that requires a
-specimen quotation to survive translation read an empty string and could never fire on a
-definition. Nothing was wrong today — none of the seven specimens is in an English
-definition, which is why it went unnoticed — but the check was a decoration until the name
-was fixed.
+**Two files hold the English words and they do not use the same key**, which is worth
+knowing before "fixing" one against the other. `tool/_en_words_src.json` calls the field
+`def`; `assets/data/words.json` calls it `definition`. `gloss_english.english_forms()`
+reads the **shipped** file, so `localize_gloss.py`'s `CARRIES` is right to say
+`definition`, and a change to `def` silently empties the specimen guard instead of fixing
+it. It was changed and changed back on 2026-09-03. `_en_words_src.json` is the canonical
+source for repairing damaged English text — see *English word data* below — and is not
+what these tools read.
+
+**The tools could not print forty of the sixty.** A Windows console defaults to cp1252,
+which has no Polish l-stroke and no Cyrillic at all, so `english_in_translation.py --locale
+pl` raised `UnicodeEncodeError` and died **mid-report** — after printing the English line
+and before the local one, which is the half you need. It looked like a crash in the sweep
+and was the terminal. `_speak_utf8()` in that file and in `localize_gloss.py` reconfigures
+`stdout` to UTF-8 with `errors='replace'`, so a console that genuinely cannot draw a glyph
+prints a box instead of taking the tool down. Worth remembering as the first thing to check
+when a tool works for `nl` and dies for `ru`.
 
 **Only `friendly` and `definition` may carry a mention; an example sentence may not.**
 That is a rule in `localize_gloss.py` rather than a matter of taste: an explanation

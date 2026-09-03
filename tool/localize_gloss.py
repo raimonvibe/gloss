@@ -77,13 +77,34 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import english_in_translation  # noqa: E402
 import gloss_english  # noqa: E402
 
+
+def _speak_utf8():
+    """Let the console print any of the sixty.
+
+    A Windows terminal defaults to cp1252, which has no Polish l-stroke and no
+    Cyrillic at all, so printing a worklist for `pl` or `ru` raised
+    UnicodeEncodeError and took the tool down mid-report - after the English
+    line and before the local one, which is the half that matters. Forty of the
+    sixty locales are outside cp1252, so this is most of them rather than an
+    edge. `errors='replace'` keeps a console that genuinely cannot draw a glyph
+    printing a box instead of dying.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding='utf-8', errors='replace')
+        except (AttributeError, ValueError):  # not a real console
+            pass
+
+
+_speak_utf8()
+
 # The map in `gloss_local_<locale>.json`, the overlay field it writes, and the
 # English field it answers to. `glosses` keeps its name because six locales
 # already carry one.
 CARRIES = (
     ('glosses', 'exampleGloss', 'example'),
     ('friendly', 'friendly', 'friendly'),
-    ('definitions', 'definition', 'def'),
+    ('definitions', 'definition', 'definition'),
 )
 
 # Where the local word does the work whatever the punctuation. See the note on
