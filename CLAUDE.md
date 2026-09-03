@@ -403,9 +403,19 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Five are done — `nl`, `de`, `fr`, `es`, `es_419` — and 55 are not.** Each diff is
-`exampleGloss` lines and nothing else. **7248 of the 8,040 glosses still carry the English
+**Six are done — `nl`, `de`, `fr`, `es`, `es_419`, `it` — and 54 are not.** Each diff is
+`exampleGloss` lines and nothing else. **7116 of the 8,040 glosses still carry the English
 headword.**
+
+**How many exemptions a locale needs is not what you would guess.** French needed five
+and Italian two, although Italian is where several of these words came *from*. The reason
+is morphology rather than borrowing: Italian inflects almost every loan into a shape of
+its own — *sibarita*, *siniscalco*, *canaglia*, *peculato*, *contumelie*, *sagacia*,
+*rodomontata*, *parossismo*, *interstizio* — so the check sees a translated word, which it
+is. Only a loan that is identical letter for letter needs a decision, and there are few of
+those in any language. **`english_ok` should stay a short list in every locale**; if it is
+growing past a handful, the sentences are reaching for the borrowing where the language
+has a plainer word.
 
 **A locale pair can be nearly free.** `es` and `es_419` shipped with **129 of their 134
 glosses identical**, differing only where the region does: *estudiantes* for *alumnos*,

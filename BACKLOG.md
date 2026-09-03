@@ -52,7 +52,7 @@ the project.
 
 `exampleGloss` is the example sentence in the reader's language, and it kept the English
 headword standing inside it — "De **soporific** dreun van de lezing". **Dutch, German,
-French and both Spanish locales are done**; the other 55 still carry it. Check whether a
+French, both Spanish locales and Italian are done**; the other 54 still carry it. Check whether a
 locale has a near-twin before starting it — `es`/`es_419` shipped 129 of 134 glosses
 identical, so the second cost almost nothing. See *The English inside the example sentence* in
 [CLAUDE.md](CLAUDE.md) for the whole reasoning and for what must not be translated.
@@ -61,8 +61,8 @@ Where it stands:
 
 | | |
 |---|---|
-| done | `nl` (133 of 134 sentences), `de` (134), `fr` (130), `es` (133), `es_419` (133) |
-| left | the other 55 locales — 7248 of the 8,040 glosses |
+| done | `nl` (133 of 134), `de` (134), `fr` (130), `es` (133), `es_419` (133), `it` (132) |
+| left | the other 54 locales — 7116 of the 8,040 glosses |
 | never | the 7 quotations that **are** the specimen, in all 60 |
 
 The machinery is built and the guardrails run without a model in them:
