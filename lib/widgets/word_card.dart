@@ -6,6 +6,7 @@ import '../state/reading.dart';
 import '../theme/brand_colors.dart';
 import 'card_surface.dart';
 import 'english_lemma.dart';
+import 'favorite_button.dart';
 import 'fit_to_width.dart';
 import 'speak_button.dart';
 
@@ -13,15 +14,11 @@ class WordCard extends StatelessWidget {
   const WordCard({
     super.key,
     required this.entry,
-    required this.isFavorite,
     required this.onOpen,
-    required this.onToggleFavorite,
   });
 
   final WordEntry entry;
-  final bool isFavorite;
   final VoidCallback onOpen;
-  final VoidCallback onToggleFavorite;
 
   @override
   Widget build(BuildContext context) {
@@ -86,15 +83,7 @@ class WordCard extends StatelessWidget {
                   ],
                 ),
               ),
-              IconButton(
-                onPressed: onToggleFavorite,
-                tooltip:
-                    isFavorite ? l10n.removeFromFavorites : l10n.saveWord,
-                icon: Icon(
-                  isFavorite ? Icons.favorite : Icons.favorite_border,
-                  color: isFavorite ? brand.accentWine : brand.foregroundMuted,
-                ),
-              ),
+              FavoriteButton(wordId: entry.id, compact: true),
               SpeakButton(
                 compact: true,
                 speechKey: 'card:${entry.id}',
@@ -113,8 +102,8 @@ class WordCard extends StatelessWidget {
             maxLines: 3,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-              fontSize: 16,
-              height: 1.35,
+              fontSize: 17,
+              height: 1.45,
               color: brand.foregroundMuted,
             ),
           ),

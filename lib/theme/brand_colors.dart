@@ -28,6 +28,14 @@ class BrandColors extends ThemeExtension<BrandColors> {
   final Color foregroundMuted;
   final Color card;
   final Color cardBorder;
+  /// The gold is text as often as it is ornament — *tap to read more*, the
+  /// progress percentage, the origin chip, every `ScriptCaption` heading —
+  /// so it is held to the contrast a small word needs rather than the lower
+  /// bar an icon does. The light one was `#A9762F`, which measured 3.8:1 on
+  /// a card, 3.6:1 on the page and 3.2:1 on a tag, all under AA's 4.5. It is
+  /// a deeper bronze now and clears 4.5 on every ground it is drawn against,
+  /// the gold-tinted chip fill included. `test/contrast_test.dart` holds the
+  /// whole palette to that.
   final Color accentGold;
   final Color accentWine;
   final Color accentInk;
@@ -53,7 +61,7 @@ class BrandColors extends ThemeExtension<BrandColors> {
     foregroundMuted: Color(0xFF6B5940),
     card: Color(0xFFFFFBF2),
     cardBorder: Color(0xFFD8BF8A),
-    accentGold: Color(0xFFA9762F),
+    accentGold: Color(0xFF896026),
     accentWine: Color(0xFF7A2E3A),
     accentInk: Color(0xFF2F4858),
     pageGradient: [Color(0xFFFBF4E4), Color(0xFFF4E7C9), Color(0xFFF0DDB8)],

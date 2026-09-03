@@ -125,13 +125,21 @@ class ScriptCaption extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      textAlign: textAlign,
-      style: AppFonts.tangerine(
-        fontSize: fontSize,
-        height: 1,
-        color: context.brand.accentGold,
+    // Ornament, set in a calligraphic face, and it follows the reader's text
+    // size only so far. Doubled, "the gathering" stood 192pt tall on a 640pt
+    // phone — with the page title above it that was the whole screen, and
+    // the lexicon underneath had no room left to show a single word. The
+    // setting is for the words; this is the flourish over them.
+    return MediaQuery.withClampedTextScaling(
+      maxScaleFactor: 1.3,
+      child: Text(
+        text,
+        textAlign: textAlign,
+        style: AppFonts.tangerine(
+          fontSize: fontSize,
+          height: 1,
+          color: context.brand.accentGold,
+        ),
       ),
     );
   }

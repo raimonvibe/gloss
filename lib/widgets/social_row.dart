@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../l10n/app_localizations.dart';
 import '../theme/brand_colors.dart';
+import 'gradient_mask.dart';
 import 'social_links.dart';
 
 const _glyph = 20.0;
@@ -83,7 +84,12 @@ class _SocialIcon extends StatelessWidget {
       case BrandFill.solid:
         return FaIcon(link.icon, size: _glyph, color: link.resolve(ink));
       case BrandFill.gradient:
-        return ShaderMask(
+        // GradientMask rather than ShaderMask for the same reason the
+        // headword uses it: a mask that stops at the child's box leaves
+        // whatever the glyph drew outside it untinted, and this child is
+        // white. An icon font is drawn to its own metrics rather than to the
+        // em it was asked for, so the box is not a promise.
+        return GradientMask(
           blendMode: BlendMode.srcIn,
           shaderCallback: instagramGradient.createShader,
           child: FaIcon(link.icon, size: _glyph, color: Colors.white),

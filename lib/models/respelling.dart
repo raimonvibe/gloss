@@ -50,13 +50,30 @@ const Map<String, String> _spokenSyllables = {
   // Two-letter fragments read as letter names.
   'ak': 'ack', //   /ak/ as in back      Actuate
   'ap': 'app', //   /ap/ as in cap       Aporetic, Apposite
-  // 'ee' is deliberately NOT substituted. SAPI reads it as two beats and
-  // `eeh` as one, so the table sent `eeh` — and Google's Android engine
-  // spells that, "ee ee aitch", heard in *Emendation* on a phone. `ee` is
-  // the safer bet even when an engine spells it, because the letter E is
-  // already the sound the syllable wants; `eeh` adds an H that is audibly
-  // wrong. Where the desktop probe and the reader's phone disagree, the
-  // phone wins.
+  // `ee` is one sound to a reader and two letters to an engine, which names
+  // them both: *Edulcorate* opened "E-E-dul-kuh-rate", reported from a phone
+  // on 2026-09-03. SAPI agrees, and says so in phonemes rather than in a
+  // verdict — inside the probe's carrier, `ee` is two beats of /iː/ where a
+  // lone `e` is exactly one. This is the doubling the eye reads as length:
+  // the same trick as the capitals at the top of this file, failing the same
+  // way.
+  //
+  // The single letter is the one replacement in this table that does not
+  // depend on which engine is listening. Everything else here is a spelling
+  // some engine happens to say; a lone letter has only one reading anywhere,
+  // its name, and the name of E **is** /iː/. So it is right whether the
+  // engine spells it or says it, which is why it settles the case that two
+  // measured spellings could not: `eeh` reads as one beat on SAPI and Google
+  // spells it "ee ee aitch" (heard in *Emendation*), and `iy` is a fragment
+  // no engine has an entry for. See `spelledIsTheSound` in
+  // test/spoken_respelling_test.dart, which is where the rule is written
+  // down: a syllable the probe calls spelled may reach the voice only when
+  // being spelled out loud is the sound it was written for.
+  //
+  // Thirteen of the 134 open or turn on a bare `ee` — Edulcorate, Eluded,
+  // Emendation, Ineluctable, Excoriate, Incipient, Invidious, Seriatim,
+  // Prurience, Nugatory, Minatory, Parry and Demi-monde.
+  'ee': 'e', //     /iː/ as in see       13 words — was read "E, E"
   'ek': 'eck', //   /ek/ as in deck      Expatiate, Extant, Excoriate, Execrate
   'ig': 'ihg', //   /ig/ as in big       Ignavia
   'ih': 'ihh', //   /i/  as in bit       13 words, Hebetude among them

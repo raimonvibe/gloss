@@ -1,4 +1,5 @@
 import '../l10n/speech_templates.dart';
+import 'origin_voice.dart';
 import 'respelling.dart';
 import 'spoken_forms.dart';
 import 'ssml.dart';
@@ -66,6 +67,7 @@ class WordEntry {
     required this.roots,
     this.variants = const [],
     this.exampleGloss,
+    this.spokenOrigin,
     this.translationSource,
   });
 
@@ -87,6 +89,13 @@ class WordEntry {
   final String? exampleGloss;
   final List<String> tags;
   final String origin;
+
+  /// [origin] as a voice should be handed it, when a locale writes it as one
+  /// closed compound — Dutch *Oudengels* for *Oud engels*. Null when the two
+  /// are the same, which they are for most of the sixty and for English.
+  /// The page always shows [origin]; only speech reads this.
+  final String? spokenOrigin;
+
   final String originWord;
   final List<WordRoot> roots;
 
@@ -123,7 +132,9 @@ class WordEntry {
     );
   }
 
-  WordEntry withOverlay(WordOverlay? overlay) {
+  /// [spokenOrigin] is the origin as a voice should be handed it, when that
+  /// differs from the way the page writes it — see `spoken_origin.dart`.
+  WordEntry withOverlay(WordOverlay? overlay, {String? spokenOrigin}) {
     if (overlay == null) return this;
     final meanings = overlay.rootMeanings;
     return WordEntry(
@@ -139,6 +150,7 @@ class WordEntry {
       exampleGloss: overlay.exampleGloss ?? exampleGloss,
       tags: tags,
       origin: overlay.origin ?? origin,
+      spokenOrigin: spokenOrigin,
       originWord: originWord,
       roots: [
         for (var i = 0; i < roots.length; i++)
@@ -281,8 +293,8 @@ class WordEntry {
       templates.fromOrigin(source.origin, source.originWord),
       source._spokenRootsWith(templates),
       source.voiced(templates.inPlainWords(source.friendly)),
-      source.voiced(source.definition),
-      source.voiced(templates.asIn(source.example)),
+      source.voiced(templates.theDefinition(source.definition)),
+      source.voiced(templates.inASentence(source.example)),
     ].where((part) => part.isNotEmpty).join(' ');
   }
 
@@ -318,6 +330,57 @@ class WordEntry {
     ];
   }
 
+  /// The voice [term] belongs to, when it is one of this entry's own
+  /// etymological forms and the origin names a single language.
+  ///
+  /// Null for everything else, which leaves the term with the English voice
+  /// it has always had. See [spokenEtymonFor], which this reads off.
+  String? etymonVoiceFor(String term) => spokenEtymonFor(term)?.languageTag;
+
+  /// How [term] should be said, when it is one of this entry's own
+  /// etymological forms and there is a voice for the language it is in.
+  ///
+  /// Null for everything else, which leaves the term with the English voice
+  /// it has always had. See [kOriginVoices] and [kGreekScript] for what is
+  /// in the tables and what is deliberately not.
+  SpokenEtymon? spokenEtymonFor(String term) {
+    final needle = term.trim().toLowerCase();
+    if (needle.isEmpty) return null;
+    final source = english;
+    final forms = [
+      source.originWord,
+      for (final root in source.roots) root.form,
+    ];
+    if (!forms.any((form) => form.trim().toLowerCase() == needle)) return null;
+
+    // Greek before anything else: the page writes it in Latin letters, and
+    // the voice is handed the Greek ones.
+    //
+    // The table is keyed on the form alone, and Greek is not the only
+    // language with a *pro-*: *pronunciamento* is Spanish and its prefix
+    // went to a Greek mouth on a bare lookup. So the word has to have Greek
+    // in it — which its origin label does not always say, *splenetic* being
+    // "Greek / Latin" and *pedantic* "Italian / Greek", and which a macron
+    // says for the form itself where the label is silent.
+    if (source.origin.contains(kGreekOrigin) ||
+        kTransliteratedGreek.hasMatch(needle)) {
+      final greek = kGreekScript[needle];
+      if (greek != null) return SpokenEtymon(greek, kGreekVoice);
+    }
+
+    // A compound origin names two languages and the etymon is in one of
+    // them; which one is written down per word rather than guessed.
+    final tag = kOriginVoices[source.origin] ?? kEtymonVoiceByWord[id];
+    if (tag == null) return null;
+    // A form carrying a gloss or a second language, and Greek that has no
+    // Greek spelling here, keep the English voice.
+    if (kMixedForm.hasMatch(needle) ||
+        kTransliteratedGreek.hasMatch(needle)) {
+      return null;
+    }
+    return SpokenEtymon(term, tag);
+  }
+
   /// The same entry in the reader's language, laid out in the same order.
   ///
   /// Empty when nothing was translated, so callers can drop it. What stays
@@ -328,12 +391,15 @@ class WordEntry {
     if (translationSource == null) return '';
     return [
       '$partOfSpeech.',
-      templates.fromOrigin(origin, originWord),
+      templates.fromOrigin(spokenOrigin ?? origin, originWord),
       _spokenRootsWith(templates),
       templates.inPlainWords(friendly),
-      definition,
-      templates.asIn(english.example),
-      if (exampleGloss != null) exampleGloss!,
+      templates.theDefinition(definition),
+      templates.inASentence(english.example),
+      // With its heading, like the three above it. Without one, a reader
+      // heard the English sentence and then a second sentence in their own
+      // language and was never told the second was the first said again.
+      if (exampleGloss != null) templates.inOtherWords(exampleGloss!),
     ].where((part) => part.isNotEmpty).join(' ');
   }
 
@@ -344,17 +410,24 @@ class WordEntry {
   String get spokenGlanceExplanation =>
       translationSource == null ? '' : friendly;
 
-  /// What the quiz card shows before an answer — where the word came from
-  /// and what it is built of — in the reader's language.
+  /// What the quiz card shows before an answer — where the word came from,
+  /// and once [withRoots] what it is built of — in the reader's language.
   ///
   /// The lemma and its respelling are not here: they are English, and the
   /// caller sends them to the English voice. Nor is the meaning, which is
   /// the question. Empty when nothing was translated, so callers can drop it.
-  String spokenQuizPromptWith(SpeechTemplates templates) {
+  ///
+  /// The roots wait for the answer the same way the card's do. Hiding them
+  /// on the page and reading them out a second later would only move the
+  /// giveaway to the listen button.
+  String spokenQuizPromptWith(
+    SpeechTemplates templates, {
+    bool withRoots = true,
+  }) {
     if (translationSource == null) return '';
     return [
-      templates.fromOrigin(origin, originWord),
-      _spokenRootsWith(templates),
+      templates.fromOrigin(spokenOrigin ?? origin, originWord),
+      if (withRoots) _spokenRootsWith(templates),
     ].where((part) => part.isNotEmpty).join(' ');
   }
 
@@ -367,11 +440,13 @@ class WordEntry {
 
   String get spokenPrompt => spokenPromptWith(SpeechTemplates.english);
 
-  String spokenPromptWith(SpeechTemplates templates) {
+  String spokenPromptWith(SpeechTemplates templates, {bool withRoots = true}) {
     final source = english;
-    final rootLine = source.roots
-        .map((r) => templates.rootMeaning(r.form, r.meaning))
-        .join('. ');
+    final rootLine = !withRoots
+        ? ''
+        : source.roots
+            .map((r) => templates.rootMeaning(r.form, r.meaning))
+            .join('. ');
     final rootsPart = rootLine.isEmpty ? '' : ' $rootLine.';
     return '$spokenWord '
         '${templates.fromOrigin(source.origin, source.originWord)}$rootsPart';
@@ -379,7 +454,9 @@ class WordEntry {
 
   String spokenQuiz({required bool revealed, SpeechTemplates? templates}) {
     final copy = templates ?? SpeechTemplates.english;
-    if (!revealed) return spokenPromptWith(copy);
+    // Unanswered, this is the question: the word and where it came from, and
+    // not the roots that would answer it.
+    if (!revealed) return spokenPromptWith(copy, withRoots: false);
     return '${spokenPromptWith(copy)} '
         '${english.voiced(copy.inPlainWords(english.friendly))}';
   }

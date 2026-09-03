@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+import '../models/spoken_origin.dart';
 import '../models/word_entry.dart';
 
 const _stopwords = {
@@ -34,12 +35,23 @@ class WordRepository extends ChangeNotifier {
   final List<WordCategory> _categories;
   final List<WordEntry> _baseWords;
   Map<String, WordOverlay> _overlays = {};
+
+  /// Origins this locale writes as one closed compound, and the form a voice
+  /// should be handed instead. Worked out once when the locale is applied,
+  /// because the seam is found from the whole lexicon's labels rather than
+  /// from any one word's — see `spoken_origin.dart`.
+  Map<String, String> _spokenOrigins = const {};
+
   String _translationKey = 'en';
 
   List<WordCategory> get categories => _categories;
 
   List<WordEntry> get words => [
-        for (final word in _baseWords) word.withOverlay(_overlays[word.id]),
+        for (final word in _baseWords)
+          word.withOverlay(
+            _overlays[word.id],
+            spokenOrigin: _spokenOrigins[_overlays[word.id]?.origin],
+          ),
       ];
 
   String get translationKey => _translationKey;
@@ -74,6 +86,7 @@ class WordRepository extends ChangeNotifier {
     _translationKey = translationKey;
     if (translationKey == 'en') {
       _overlays = {};
+      _spokenOrigins = const {};
       notifyListeners();
       return;
     }
@@ -86,8 +99,13 @@ class WordRepository extends ChangeNotifier {
         for (final entry in words.entries)
           entry.key: WordOverlay.fromJson(entry.value as Map<String, dynamic>),
       };
+      _spokenOrigins = spokenOriginTable([
+        for (final overlay in _overlays.values)
+          if (overlay.origin != null) overlay.origin!,
+      ]);
     } catch (_) {
       _overlays = {};
+      _spokenOrigins = const {};
     }
     notifyListeners();
   }

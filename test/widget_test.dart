@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math' as math;
 
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -13,10 +14,12 @@ import 'package:beautiful_words/branding.dart';
 import 'package:beautiful_words/data/word_repository.dart';
 import 'package:beautiful_words/l10n/locale_catalog.dart';
 import 'package:beautiful_words/models/word_entry.dart';
+import 'package:beautiful_words/screens/word_detail_screen.dart';
 import 'package:beautiful_words/screens/study_screen.dart';
 import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
+import 'package:beautiful_words/theme/app_fonts.dart';
 import 'package:beautiful_words/theme/brand_colors.dart';
 import 'package:beautiful_words/widgets/card_surface.dart';
 import 'package:beautiful_words/widgets/etymology_card.dart';
@@ -117,6 +120,8 @@ Widget _brandWrap(Widget child) {
   );
 }
 
+void _ignore(int _) {}
+
 void main() {
   setUpAll(() {
     GoogleFonts.config.allowRuntimeFetching = false;
@@ -151,6 +156,163 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byIcon(Icons.check_rounded), findsOneWidget);
     expect(find.byIcon(Icons.close_rounded), findsOneWidget);
+  });
+
+  // A, B, C and D stood outside their own circles once the text cap moved to
+  // 2.0: the badge was a fixed 32pt and the letter inside it was not. Nothing
+  // reported it, because a Container is not a Flex and paints a child too big
+  // for it over the edge in silence — so this measures the letter against the
+  // circle rather than waiting for an overflow that never comes.
+  for (final scale in const [1.0, 1.6, 2.0]) {
+    testWidgets('a choice letter stays inside its circle at ${scale}x', (
+      tester,
+    ) async {
+      await tester.pumpWidget(
+        _brandWrap(
+          MediaQuery(
+            data: MediaQueryData(textScaler: TextScaler.linear(scale)),
+            child: const MultipleChoice(
+              options: ['Right meaning', 'Wrong one', 'Also wrong', 'No'],
+              correctIndex: 0,
+              selectedIndex: null,
+              onSelect: _ignore,
+            ),
+          ),
+        ),
+      );
+
+      for (final label in ['A', 'B', 'C', 'D']) {
+        final letter = find.text(label);
+        expect(letter, findsOneWidget, reason: '$label went missing');
+        final circle = find
+            .ancestor(of: letter, matching: find.byType(Container))
+            .first;
+
+        // The type the letter asks for, not the box it was handed: a
+        // Container with an alignment gives its child loose constraints, so
+        // the Text's own rect is clamped to the circle while the glyph is
+        // painted straight past it. Measuring rects would pass either way.
+        final text = tester.widget<Text>(letter);
+        final wanted = TextPainter(
+          text: TextSpan(text: text.data, style: text.style),
+          textDirection: TextDirection.ltr,
+          textScaler: MediaQuery.textScalerOf(tester.element(letter)),
+        )..layout();
+
+        // And the diagonal, because the box has to fit a circle rather than
+        // a square: a 32pt letter does not fit a 32pt circle, it fits a 45pt
+        // one. The test font makes every glyph a full em square, so comparing
+        // heights alone is a tie the bug wins.
+        final badge = tester.getRect(circle);
+        final needed = math.sqrt(
+          wanted.width * wanted.width + wanted.height * wanted.height,
+        );
+        expect(
+          badge.shortestSide,
+          greaterThanOrEqualTo(needed),
+          reason: '$label wants ${wanted.size} — a circle of '
+              '${needed.toStringAsFixed(1)}pt — and was given '
+              '${badge.shortestSide.toStringAsFixed(1)}pt at ${scale}x',
+        );
+      }
+    });
+  }
+
+  // Every heading on a word's page is set in the script face, at the same
+  // size, on the same margin. "in other words" was the one left out of that
+  // twice over: first a plain 12pt line in the body font, then a 22pt script
+  // one indented inside the quotation's rule while the three above it were
+  // 26pt on the page's own left edge. Two heading sizes on two margins
+  // within a few lines is what a reader sees as a page that is not level.
+  testWidgets('every heading on a word page is in the script face', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    // The gloss label only appears where there is a gloss, which is a
+    // translated field: an English entry never has one.
+    // An id the fixture does not carry: the page prefers the repository's
+    // copy of a word over the one it was handed, and that copy has no gloss.
+    const glossed = WordEntry(
+      id: 'glossed-sample',
+      word: 'Edulcorate',
+      partOfSpeech: 'verb',
+      pronunciation: 'ee-DUL-kuh-rate',
+      definition: 'To sweeten or purify.',
+      friendly: 'To take the bitterness out.',
+      example: 'The editor edulcorated the review.',
+      exampleGloss: 'De redacteur verzachtte de recensie.',
+      tags: ['speech'],
+      origin: 'Latin',
+      originWord: 'edulcorare',
+      roots: [WordRoot(form: 'dulcis', meaning: 'sweet')],
+    );
+
+    await tester.binding.setSurfaceSize(const Size(390, 1600));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+
+    await tester.pumpWidget(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider.value(value: SettingsController(prefs)),
+          ChangeNotifierProvider.value(value: ProgressController(prefs)),
+          ChangeNotifierProvider.value(
+            value: WordRepository.fromJsonString(_fixture),
+          ),
+          ChangeNotifierProvider.value(
+            value: SpeechController(engine: SilentSpeechEngine()),
+          ),
+        ],
+        child: MaterialApp(
+          locale: const Locale('en'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          theme: ThemeData(
+            useMaterial3: true,
+            extensions: const [BrandColors.light],
+          ),
+          home: const WordDetailScreen(entry: glossed),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    const headings = [
+      'in plain words',
+      'the definition',
+      'in a sentence',
+      'in other words',
+    ];
+    final sizes = <String, double?>{};
+    final lefts = <String, double>{};
+    for (final heading in headings) {
+      final drawn = find.text(heading);
+      expect(drawn, findsOneWidget, reason: '"$heading" is not on the page');
+      expect(
+        tester.widget<Text>(drawn).style?.fontFamily,
+        AppFonts.tangerineFamily,
+        reason: '"$heading" is drawn in the body font, not the script one',
+      );
+      sizes[heading] = tester.widget<Text>(drawn).style?.fontSize;
+      lefts[heading] = tester.getTopLeft(drawn).dx;
+    }
+
+    // One size and one margin across the four, whatever that size is.
+    final first = headings.first;
+    for (final heading in headings.skip(1)) {
+      expect(
+        sizes[heading],
+        sizes[first],
+        reason: '"$heading" is ${sizes[heading]}pt where "$first" is '
+            '${sizes[first]}pt',
+      );
+      expect(
+        lefts[heading],
+        moreOrLessEquals(lefts[first]!, epsilon: 0.5),
+        reason: '"$heading" starts at ${lefts[heading]} where "$first" '
+            'starts at ${lefts[first]}',
+      );
+    }
   });
 
   testWidgets('progress tracker reports current of total', (tester) async {

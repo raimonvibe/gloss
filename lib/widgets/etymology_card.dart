@@ -19,10 +19,20 @@ class EtymologyCard extends StatelessWidget {
     super.key,
     required this.entry,
     this.compact = false,
+    this.revealRoots = true,
   });
 
   final WordEntry entry;
   final bool compact;
+
+  /// Whether the roots are shown at all.
+  ///
+  /// The quiz holds them back until the answer is in: *hebes* "dull, blunt"
+  /// above four definitions of which one is "Mental dullness or lethargy"
+  /// is not a clue, it is the answer. They arrive with the rest of the
+  /// explanation once the reader has committed, which is where they teach
+  /// something rather than give something away.
+  final bool revealRoots;
 
   @override
   Widget build(BuildContext context) {
@@ -73,14 +83,16 @@ class EtymologyCard extends StatelessWidget {
                 ),
               ],
             ),
-            const DividerFlourish(symbol: '❧'),
-            ScriptCaption(
-              l10n.roots,
-              textAlign: TextAlign.start,
-              fontSize: 26,
-            ),
-            const SizedBox(height: 10),
-            _Roots(roots: entry.roots, compact: compact),
+            if (revealRoots) ...[
+              const DividerFlourish(symbol: '❧'),
+              ScriptCaption(
+                l10n.roots,
+                textAlign: TextAlign.start,
+                fontSize: 26,
+              ),
+              const SizedBox(height: 10),
+              _Roots(roots: entry.roots, compact: compact),
+            ],
           ],
         ),
       ),

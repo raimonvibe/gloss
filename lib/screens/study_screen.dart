@@ -365,25 +365,35 @@ class _TextSizeControl extends StatelessWidget {
                   ),
             ),
           ),
+          Slider(
+            value: settings.textScale,
+            min: kMinTextScale,
+            max: kMaxTextScale,
+            // Tenths, so the steps stay the size they always were.
+            divisions: 10,
+            label: '${(settings.textScale * 100).round()}%',
+            onChanged: settings.setTextScale,
+          ),
+          // The two ends are a legend — "Smaller" set small and "Larger" set
+          // large is the whole of what they say — and they grow with the
+          // reader like everything else. Flanking the slider they pushed it
+          // off its own row at the largest size, and "Μεγαλύτερο" would have
+          // done it sooner. Underneath, each has half the width and wraps
+          // into it.
           Row(
             children: [
-              Text(
-                l10n.smaller,
-                style: TextStyle(fontSize: 11, color: brand.foregroundMuted),
-              ),
               Expanded(
-                child: Slider(
-                  value: settings.textScale,
-                  min: kMinTextScale,
-                  max: kMaxTextScale,
-                  divisions: 6,
-                  label: '${(settings.textScale * 100).round()}%',
-                  onChanged: settings.setTextScale,
+                child: Text(
+                  l10n.smaller,
+                  style: TextStyle(fontSize: 11, color: brand.foregroundMuted),
                 ),
               ),
-              Text(
-                l10n.larger,
-                style: TextStyle(fontSize: 15, color: brand.foregroundMuted),
+              Expanded(
+                child: Text(
+                  l10n.larger,
+                  textAlign: TextAlign.end,
+                  style: TextStyle(fontSize: 15, color: brand.foregroundMuted),
+                ),
               ),
             ],
           ),
@@ -461,30 +471,36 @@ class _VoiceControl extends StatelessWidget {
             ),
           const SizedBox(height: 8),
           Text(l10n.speechPace, style: Theme.of(context).textTheme.bodyLarge),
+          Slider(
+            value: settings.speechRate,
+            min: kMinSpeechRate,
+            max: kMaxSpeechRate,
+            divisions: 10,
+            onChanged: (rate) async {
+              await settings.setSpeechRate(rate);
+              await speech.applyPreferences(
+                voiceName: settings.voiceName,
+                rate: rate,
+              );
+            },
+          ),
+          // Under the slider rather than flanking it, for the reason the
+          // text-size legend above is: two labels and a control on one row
+          // is one thing too many once the type is large.
           Row(
             children: [
-              Text(
-                l10n.slower,
-                style: TextStyle(fontSize: 12, color: brand.foregroundMuted),
-              ),
               Expanded(
-                child: Slider(
-                  value: settings.speechRate,
-                  min: kMinSpeechRate,
-                  max: kMaxSpeechRate,
-                  divisions: 10,
-                  onChanged: (rate) async {
-                    await settings.setSpeechRate(rate);
-                    await speech.applyPreferences(
-                      voiceName: settings.voiceName,
-                      rate: rate,
-                    );
-                  },
+                child: Text(
+                  l10n.slower,
+                  style: TextStyle(fontSize: 12, color: brand.foregroundMuted),
                 ),
               ),
-              Text(
-                l10n.faster,
-                style: TextStyle(fontSize: 12, color: brand.foregroundMuted),
+              Expanded(
+                child: Text(
+                  l10n.faster,
+                  textAlign: TextAlign.end,
+                  style: TextStyle(fontSize: 12, color: brand.foregroundMuted),
+                ),
               ),
             ],
           ),

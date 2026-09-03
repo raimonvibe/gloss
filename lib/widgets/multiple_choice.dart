@@ -45,6 +45,9 @@ class MultipleChoice extends StatelessWidget {
 
 enum _ChoiceState { idle, correct, incorrect, dimmed }
 
+/// The letter in the badge, and half the badge's diameter.
+const double _kLetter = 16;
+
 class _ChoiceTile extends StatelessWidget {
   const _ChoiceTile({
     required this.label,
@@ -61,6 +64,17 @@ class _ChoiceTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final brand = context.brand;
+    // The letter follows the reader's text size; the circle around it has to
+    // follow as well. Drawn at a fixed 32 it held a 16pt letter comfortably
+    // and a 32pt one not at all — A, B, C and D stood outside their own
+    // circles, which is what a reader saw once the cap moved to 2.0.
+    //
+    // Nothing failed over it, and a rect will not show it either: a Container
+    // with an alignment hands its child loose constraints, so the letter's own
+    // box is clamped to the circle while the glyph is painted past it. The
+    // test measures the type the letter asks for, not the box it was given.
+    final scaler = MediaQuery.textScalerOf(context);
+    final diameter = scaler.scale(_kLetter) * 2;
     final Color border;
     final Color badge;
     final IconData? icon;
@@ -97,8 +111,8 @@ class _ChoiceTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              width: 32,
-              height: 32,
+              width: diameter,
+              height: diameter,
               alignment: Alignment.center,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
@@ -109,20 +123,20 @@ class _ChoiceTile extends StatelessWidget {
                   ? Text(
                       label,
                       style: AppFonts.playfair(
-                        fontSize: 16,
+                        fontSize: _kLetter,
                         fontWeight: FontWeight.w700,
                         color: badge,
                       ),
                     )
-                  : Icon(icon, size: 18, color: badge),
+                  : Icon(icon, size: scaler.scale(18), color: badge),
             ),
             const SizedBox(width: 12),
             Expanded(
               child: Text(
                 text,
                 style: TextStyle(
-                  fontSize: 16,
-                  height: 1.35,
+                  fontSize: 17,
+                  height: 1.45,
                   color: brand.foreground,
                 ),
               ),

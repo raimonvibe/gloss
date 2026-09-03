@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../data/quiz_engine.dart';
 import '../data/word_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../state/progress_controller.dart';
@@ -14,6 +15,7 @@ import '../theme/layout.dart';
 import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/etymology_card.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/multiple_choice.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
@@ -70,7 +72,11 @@ class _QuizSetupState extends State<_QuizSetup> {
         const SizedBox(height: 16),
         Text(
           l10n.quizIntro,
-          style: TextStyle(fontSize: 16, height: 1.4, color: brand.foregroundMuted),
+          style: TextStyle(
+            fontSize: 17,
+            height: 1.45,
+            color: brand.foregroundMuted,
+          ),
         ),
         const DividerFlourish(),
         ScriptCaption(
@@ -225,46 +231,17 @@ class _QuizPlayState extends State<_QuizPlay> {
       children: [
         Padding(
           padding: EdgeInsets.fromLTRB(side, 12, side, 0),
-          child: Row(
-            children: [
-              IconButton(
-                tooltip: l10n.endQuiz,
-                onPressed: () {
-                  context.read<SpeechController>().stop();
-                  context.read<QuizController>().reset();
-                },
-                icon: Icon(Icons.close, color: brand.foregroundMuted),
-              ),
-              Expanded(
-                child: ProgressTracker(
-                  current: quiz.index + (quiz.hasAnsweredCurrent ? 1 : 0),
-                  total: quiz.length,
-                  label: l10n.questionOf(quiz.index + 1, quiz.length),
-                ),
-              ),
-              const SizedBox(width: 8),
-              SpeakButton(
-                speechKey: 'quiz:${question.word.id}:${quiz.index}',
-                text: question.word.english.spokenQuiz(
-                  revealed: quiz.hasAnsweredCurrent,
-                ),
-                segments: quizReadingOf(
-                  context,
-                  question,
-                  revealed: quiz.hasAnsweredCurrent,
-                  group: 'quiz:${question.word.id}:${quiz.index}',
-                ),
-              ),
-              const SizedBox(width: 8),
-              const ThemeToggle(),
-            ],
-          ),
+          child: _QuizHeader(quiz: quiz, question: question),
         ),
         Expanded(
           child: ListView(
             padding: EdgeInsets.fromLTRB(side, 16, side, 20),
             children: [
-              EtymologyCard(entry: question.word, compact: true),
+              EtymologyCard(
+                entry: question.word,
+                compact: true,
+                revealRoots: quiz.hasAnsweredCurrent,
+              ),
               const SizedBox(height: 18),
               ScriptCaption(
                 l10n.whichDefinitionFits,
@@ -299,8 +276,8 @@ class _QuizPlayState extends State<_QuizPlay> {
                       Text(
                         question.word.friendly,
                         style: TextStyle(
-                          fontSize: 16,
-                          height: 1.4,
+                          fontSize: 17,
+                          height: 1.45,
                           color: brand.foreground,
                         ),
                       ),
@@ -361,5 +338,94 @@ class _QuizPlayState extends State<_QuizPlay> {
     } else {
       quiz.next();
     }
+  }
+}
+
+/// The room the controls take: the close button's 48, and three 42pt circles
+/// with 8pt between them and 8pt before the first.
+const double _quizControlsWidth = 48 + 8 + 42 + 8 + 42 + 8 + 42;
+
+/// What is left has to be enough for the progress line to read on one line —
+/// "Question 3 of 5" is "Ερώτηση 3 από 5" in Greek, and the percentage
+/// beside it is a fixed width that never shrinks. Measured in type rather
+/// than in pixels, so it grows with the reader's text size.
+double _progressFloor(BuildContext context) =>
+    MediaQuery.textScalerOf(context).scale(190);
+
+/// The strip above the question: leave, how far along, save, listen, light.
+///
+/// Five things across a phone is one thing too many. The progress line was
+/// handed whatever the four controls left it — `width - 238`, which is 152pt
+/// on a 390pt phone — and "Vraag 3 van 5" wrapped into three lines inside a
+/// bar drawn for one, with the percentage squeezed against the edge. So the
+/// controls keep their row and the progress line drops underneath whenever
+/// sharing would crush it, which on a phone is always and on a tablet never.
+class _QuizHeader extends StatelessWidget {
+  const _QuizHeader({required this.quiz, required this.question});
+
+  final QuizController quiz;
+  final QuizQuestion question;
+
+  @override
+  Widget build(BuildContext context) {
+    final brand = context.brand;
+    final l10n = AppLocalizations.of(context);
+    final key = 'quiz:${question.word.id}:${quiz.index}';
+
+    final leave = IconButton(
+      tooltip: l10n.endQuiz,
+      onPressed: () {
+        context.read<SpeechController>().stop();
+        context.read<QuizController>().reset();
+      },
+      icon: Icon(Icons.close, color: brand.foregroundMuted),
+    );
+    final progress = ProgressTracker(
+      current: quiz.index + (quiz.hasAnsweredCurrent ? 1 : 0),
+      total: quiz.length,
+      label: l10n.questionOf(quiz.index + 1, quiz.length),
+    );
+    final controls = <Widget>[
+      FavoriteButton(wordId: question.word.id),
+      const SizedBox(width: 8),
+      SpeakButton(
+        speechKey: key,
+        text: question.word.english.spokenQuiz(
+          revealed: quiz.hasAnsweredCurrent,
+        ),
+        segments: quizReadingOf(
+          context,
+          question,
+          revealed: quiz.hasAnsweredCurrent,
+          group: key,
+        ),
+      ),
+      const SizedBox(width: 8),
+      const ThemeToggle(),
+    ];
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final room = constraints.maxWidth - _quizControlsWidth;
+        if (room >= _progressFloor(context)) {
+          return Row(
+            children: [
+              leave,
+              Expanded(child: progress),
+              const SizedBox(width: 8),
+              ...controls,
+            ],
+          );
+        }
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(children: [leave, const Spacer(), ...controls]),
+            const SizedBox(height: 6),
+            progress,
+          ],
+        );
+      },
+    );
   }
 }

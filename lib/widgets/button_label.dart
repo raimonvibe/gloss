@@ -26,6 +26,7 @@ class ButtonLabel extends StatelessWidget {
     this.style,
     this.maxLines = 2,
     this.minScale = 0.75,
+    this.textAlign = TextAlign.center,
   });
 
   final String text;
@@ -39,6 +40,15 @@ class ButtonLabel extends StatelessWidget {
 
   /// How far the font size may fall, as a fraction of what it started at.
   final double minScale;
+
+  /// Which way the lines are set once there is more than one of them.
+  ///
+  /// Centred is right for a button, whose label is the whole of it. It is
+  /// wrong for a row in a list: a second line centred under the first leaves
+  /// a ragged left edge beside icons that are in a straight column, which is
+  /// what "Een woord om toe te voegen" looked like among the four short
+  /// reasons under it. A list passes [TextAlign.start].
+  final TextAlign textAlign;
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +67,7 @@ class ButtonLabel extends StatelessWidget {
           final painter = TextPainter(
             textDirection: direction,
             textScaler: scaler,
-            textAlign: TextAlign.center,
+            textAlign: textAlign,
           );
           bool fits(double size, int lineCount) {
             painter
@@ -96,7 +106,7 @@ class ButtonLabel extends StatelessWidget {
 
         return Text(
           text,
-          textAlign: TextAlign.center,
+          textAlign: textAlign,
           maxLines: lines,
           overflow: TextOverflow.ellipsis,
           style: resolved.copyWith(fontSize: fontSize),

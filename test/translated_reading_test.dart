@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'package:beautiful_words/models/origin_voice.dart';
 import 'package:beautiful_words/models/ssml.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -144,17 +145,44 @@ void main() {
 
     final english =
         reading.where((p) => p.isEnglish).map((p) => p.text).join(' ');
-    final dutch =
-        reading.where((p) => !p.isEnglish).map((p) => p.text).join(' ');
+    final dutch = reading
+        .where((p) => p.languageTag == 'nl-NL')
+        .map((p) => p.text)
+        .join(' ');
+    // *Torpid* is Latin, and the words it came from go to the voice that can
+    // say them rather than to the English one — three languages in a
+    // reading, not two.
+    final latin = reading
+        .where((p) => p.languageTag == kOriginVoices['Latin'])
+        .map((p) => p.text)
+        .join(' ');
 
     // The card at the top of the page - what kind of word, where it came
     // from, what it is built of - went unread before this.
     expect(dutch, contains('bijvoeglijk naamwoord'));
     expect(dutch, contains('Latijn'));
-    expect(english, contains('torpidus'), reason: 'the etymon is not Dutch');
-    expect(english, contains('torpere'), reason: 'a root form is not Dutch');
+    expect(latin, contains('torpidus'), reason: 'the etymon is not Dutch');
+    expect(latin, contains('torpere'), reason: 'a root form is not Dutch');
+    expect(english, isNot(contains('torpidus')), reason: 'nor is it English');
     expect(dutch, contains('verdoofd zijn'));
     expect(dutch, contains('in een staat van'));
+
+    // Every heading the page sets over a paragraph is read where the page
+    // sets it. Three were missing: the definition had nothing introducing
+    // it, the sentence was announced as "Zoals in", which is a phrase the
+    // page never uses, and the gloss under the sentence arrived with no
+    // heading at all — a reader heard the English sentence, then a Dutch
+    // one, and was never told the second was the first said again.
+    expect(dutch, contains('in gewone woorden'));
+    expect(dutch, contains('de definitie'));
+    expect(dutch, contains('in een zin'));
+    expect(dutch, contains('anders gezegd'));
+    expect(dutch, isNot(contains('Zoals in')));
+    expect(
+      dutch.indexOf('anders gezegd'),
+      lessThan(dutch.indexOf('Het kantoor viel')),
+      reason: 'the heading arrives after the gloss it introduces',
+    );
 
     // Then the meaning, the sentence, and the sentence in Dutch - the last
     // of which was left off the reading entirely.
@@ -173,8 +201,8 @@ void main() {
     expect(reading.first.isEnglish, isTrue);
     expect(reading.first.text, contains('tor pidd'));
 
-    // And no Dutch voice is ever handed the English.
-    for (final piece in reading.where((p) => !p.isEnglish)) {
+    // And no Dutch voice is ever handed the English, or the Latin.
+    for (final piece in reading.where((p) => p.languageTag == 'nl-NL')) {
       expect(piece.text, isNot(contains('The office fell')));
       expect(piece.text, isNot(contains('torpere')));
     }
@@ -356,12 +384,14 @@ void main() {
       final dutchAsked =
           asked.where((p) => !p.isEnglish).map((p) => p.text).join(' ');
 
-      // The prompt: the word, where it came from, what it is built of.
+      // The prompt: the word, and where it came from. Not what it is built
+      // of — the roots would answer the question, so they wait for the
+      // answer here exactly as they do on the card.
       expect(asked.first.isEnglish, isTrue);
       expect(asked.first.text, contains('tor pidd'));
       expect(dutchAsked, contains('Latijn'));
-      expect(dutchAsked, contains('verdoofd zijn'));
-      // Not what it means - that is the question.
+      expect(dutchAsked, isNot(contains('verdoofd zijn')));
+      // Nor what it means - that is the question.
       expect(dutchAsked, isNot(contains('Langzaam en half in slaap')));
 
       // The four answers, lettered as the page letters them, in the language
@@ -384,22 +414,35 @@ void main() {
           group: 'quiz:torpid:0',
         ),
       );
+      final dutchAnswered =
+          answered.where((p) => !p.isEnglish).map((p) => p.text).join(' ');
+      expect(dutchAnswered, contains('Langzaam en half in slaap'));
       expect(
-        answered.where((p) => !p.isEnglish).map((p) => p.text).join(' '),
-        contains('Langzaam en half in slaap'),
+        dutchAnswered,
+        contains('verdoofd zijn'),
+        reason: 'the roots were held back and then never handed over',
       );
 
-      // The etymon and the root forms are Latin, and stay with the English
-      // voice in both halves.
+      // The etymon goes to the Latin voice in both halves, and the root
+      // forms follow it into the half that has them. Neither ever reaches
+      // the Dutch voice.
       for (final reading in [asked, answered]) {
-        final english =
-            reading.where((p) => p.isEnglish).map((p) => p.text).join(' ');
-        expect(english, contains('torpidus'));
-        expect(english, contains('torpere'));
-        for (final piece in reading.where((p) => !p.isEnglish)) {
+        final latin = reading
+            .where((p) => p.languageTag == kOriginVoices['Latin'])
+            .map((p) => p.text)
+            .join(' ');
+        expect(latin, contains('torpidus'));
+        for (final piece in reading.where((p) => p.languageTag == 'nl-NL')) {
           expect(piece.text, isNot(contains('torpere')));
         }
       }
+      expect(
+        answered
+            .where((p) => p.languageTag == kOriginVoices['Latin'])
+            .map((p) => p.text)
+            .join(' '),
+        contains('torpere'),
+      );
     });
 
     testWidgets('with the switch off the quiz asks in English',

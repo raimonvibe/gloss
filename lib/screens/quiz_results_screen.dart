@@ -11,6 +11,7 @@ import '../theme/layout.dart';
 import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/fit_to_width.dart';
 import '../widgets/ornament.dart';
 import '../widgets/progress_tracker.dart';
@@ -152,6 +153,7 @@ class _ResultRow extends StatelessWidget {
               ],
             ),
           ),
+          FavoriteButton(wordId: entry.id, compact: true),
           SpeakButton(
             compact: true,
             speechKey: 'result:${entry.id}',

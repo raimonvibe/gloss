@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:beautiful_words/l10n/app_localizations.dart';
 import 'package:beautiful_words/models/word_entry.dart';
 import 'package:beautiful_words/screens/quiz_results_screen.dart';
+import 'package:beautiful_words/state/progress_controller.dart';
 import 'package:beautiful_words/state/quiz_controller.dart';
 import 'package:beautiful_words/state/settings_controller.dart';
 import 'package:beautiful_words/state/speech_controller.dart';
@@ -102,6 +103,9 @@ void main() {
           ChangeNotifierProvider.value(value: SettingsController(prefs)),
           ChangeNotifierProvider.value(value: quiz),
           ChangeNotifierProvider.value(value: SpeechController(engine: engine)),
+          // Each row offers to save its word, and asks here whether it is
+          // saved already.
+          ChangeNotifierProvider.value(value: ProgressController(prefs)),
         ],
         child: MaterialApp(
           locale: const Locale('en'),

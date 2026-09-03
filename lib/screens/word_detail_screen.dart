@@ -16,6 +16,7 @@ import '../widgets/button_label.dart';
 import '../widgets/card_surface.dart';
 import '../widgets/english_lemma.dart';
 import '../widgets/etymology_card.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/ornament.dart';
 import '../widgets/pill.dart';
 import '../widgets/speak_button.dart';
@@ -66,6 +67,11 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
           appBar: AppBar(
             title: EnglishLemma(child: Text(live.word)),
             actions: [
+              // The Save pill is at the foot of the page, behind the roots,
+              // the sentence and the gloss. A reader who knows already that
+              // they want the word should not have to read to the end to
+              // keep it.
+              FavoriteButton(wordId: live.id, compact: true),
               SpeakButton(
                 speechKey: 'entry:${live.id}',
                 text: live.spokenEntry,
@@ -105,7 +111,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                     child: Text(
                       live.definition,
                       style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 17,
                         height: 1.45,
                         color: brand.foregroundMuted,
                       ),
@@ -134,46 +140,43 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                                   : BorderSide.none,
                             ),
                           ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              EnglishLemma(
-                                child: Text(
-                                  '“${live.example}”',
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontStyle: FontStyle.italic,
-                                    height: 1.45,
-                                    color: brand.foregroundMuted,
-                                  ),
-                                ),
+                          child: EnglishLemma(
+                            child: Text(
+                              '“${live.example}”',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontStyle: FontStyle.italic,
+                                height: 1.45,
+                                color: brand.foregroundMuted,
                               ),
-                              if (live.exampleGloss != null) ...[
-                                const SizedBox(height: 8),
-                                Text(
-                                  l10n.exampleGlossLabel,
-                                  style: TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.w600,
-                                    color: brand.accentGold,
-                                  ),
-                                ),
-                                const SizedBox(height: 4),
-                                Text(
-                                  live.exampleGloss!,
-                                  style: TextStyle(
-                                    fontSize: 15,
-                                    height: 1.4,
-                                    color: brand.foregroundMuted,
-                                  ),
-                                ),
-                              ],
-                            ],
+                            ),
                           ),
                         );
                       },
                     ),
                   ),
+                  // The gloss is a section like the three above it, and it
+                  // is drawn like one: the same script face at the same 26,
+                  // on the page's own left edge, with the same air over it.
+                  // It used to sit inside the quotation's rule at 22, which
+                  // put two headings of two sizes on two different margins
+                  // within a few lines of each other — the page stopped
+                  // looking level, which is what a reader saw. The rule now
+                  // marks the quotation and nothing else.
+                  if (live.exampleGloss != null) ...[
+                    const SizedBox(height: 18),
+                    _Section(
+                      title: l10n.exampleGlossLabel,
+                      child: Text(
+                        live.exampleGloss!,
+                        style: TextStyle(
+                          fontSize: 17,
+                          height: 1.45,
+                          color: brand.foregroundMuted,
+                        ),
+                      ),
+                    ),
+                  ],
                   const SizedBox(height: 16),
                   Wrap(
                     spacing: 8,

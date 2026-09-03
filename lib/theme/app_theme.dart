@@ -3,6 +3,25 @@ import 'package:flutter/material.dart';
 import 'app_fonts.dart';
 import 'brand_colors.dart';
 
+/// How many lines a placeholder may take.
+///
+/// `InputDecoration.hintMaxLines` defaults to the field's own `maxLines`,
+/// which is one for a search box or a name — so "Zoek een woord, of beschrijf
+/// de betekenis…" was cut off mid-phrase, and the reader who most needs the
+/// hint is the one who can least see the end of it.
+///
+/// One line while the reader has not touched the type, which is the shape the
+/// search pill was drawn for and where a hint fits anyway; up to four once
+/// they have, where nothing on the page is slim any more and reading the
+/// instruction is worth the height. The field grows to hold them.
+///
+/// Four covers every hint in the sixty at the largest size — the contact
+/// form's in three, the two search sentences in four on a narrow phone. It is
+/// an allowance rather than a shape: a hint takes the lines it needs and no
+/// more, so the short ones stay short.
+int hintLines(BuildContext context) =>
+    MediaQuery.textScalerOf(context).scale(1) > 1.0 ? 4 : 1;
+
 /// A wide button is a stadium, and a stadium's ends curve in by half its
 /// height. Room at the sides keeps the label clear of that curve, however
 /// tall the button grows — which is what stopped "Ergebnisse ansehen" from
@@ -91,8 +110,8 @@ class AppTheme {
         ),
         bodyMedium: AppFonts.cormorant(
           textStyle: baseText.bodyMedium,
-          fontSize: 16,
-          height: 1.4,
+          fontSize: 17,
+          height: 1.45,
           color: brand.foreground,
         ),
       ),
