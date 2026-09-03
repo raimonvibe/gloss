@@ -181,9 +181,12 @@ def _check(wid, field, text, english, forms, allowed, faults):
     # What counts as the end of a sentence, across sixty languages. German
     # closes a quotation with the character Dutch opens one with („…“ against
     # „…”), Japanese and Chinese end on 。, Hindi on ।, Urdu on ۔, Armenian
-    # on ։. A list built from English habits rejects correct text in half of
-    # them - which is how this first ran.
-    if text[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։':
+    # on ։, and Greek asks a question with a semicolon - ';', or the erotimatiko
+    # ';' that looks identical and is a different codepoint. A list built from
+    # English habits rejects correct text in half of them - which is how this
+    # first ran, and Greek is the fourth script family to need a character
+    # adding rather than a sentence changing.
+    if text[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։;;':
         faults.append('%s.%s: does not end on a full stop, it ends on %r'
                       % (wid, field, text[-1]))
 
