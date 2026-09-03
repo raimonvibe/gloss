@@ -460,11 +460,11 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Six are done — `nl`, `de`, `fr`, `es`, `es_419`, `it` — and 54 are not.** **7116 of the
-8,040 glosses still carry the English headword.** The same six have since had their
-`friendly` and `definition` fields done too, so a diff of one of them is no longer
-`exampleGloss` lines alone — see *`exampleGloss` was never the only field this can happen
-in* below.
+**Seven are done — `nl`, `de`, `fr`, `es`, `es_419`, `it`, `fr_CA` — and 53 are not.**
+**6,969 of the 8,040 glosses still carry the English headword.** The same seven have since
+had their `friendly` and `definition` fields done too, so a diff of one of them is no
+longer `exampleGloss` lines alone — see *`exampleGloss` was never the only field this can
+happen in* below.
 
 **How many exemptions a locale needs is not what you would guess.** For the sentences,
 French needed five and Italian two, although Italian is where several of these words came
@@ -481,8 +481,20 @@ has a plainer word.
 glosses identical**, differing only where the region does: *estudiantes* for *alumnos*,
 *acera* for *bordillo*, *auto* for *coche*, and an *ustedeo* imperative where Spain uses
 *vosotros*. So Latin American Spanish was derived from the peninsular file with those
-five carried across, rather than translated again. Look for the same in `pt`/`pt_BR`,
-`fr`/`fr_CA` and the three Chinese locales before treating any of them as a fresh job.
+five carried across, rather than translated again.
+
+**`fr_CA` proved the pattern rather than merely repeating it.** Measured against French as
+it stood *before* localisation, **123 of the 134 glosses were identical** and eleven
+carried a real Québécois difference — *autobus*, *courriels*, *souper*, *fin de semaine*,
+*autos d'époque*, *virée en auto*, *compagnie*, *salle à dîner*, *chicaner sur … versus*,
+*Ça*, and the passé composé with *on* where France writes the passé simple with *nous*.
+Those eleven were written onto the **localised** French sentence rather than onto the old
+one, which is the whole trick: derive from the base as it is now, not as the pair last
+agreed. The `friendly` fields looked like twelve regional differences and were **two** —
+*pneumatic* and *garrulous* — the other ten being France's own rewrites that Canada had
+not had yet. **Take the diff apart before trusting its size.** Still worth looking at
+`pt`/`pt_BR` and the three Chinese locales the same way before treating any of them as a
+fresh job.
 
 **Comparing the pair also found damage that was already in the store.** The `es_419`
 gloss for *ontic* read "los númerlo" where it should read "los números" — a word broken
@@ -490,7 +502,16 @@ in generation, not a regional form, and invisible to every check the suite has, 
 a mangled word is still a word. `text_quality_test.dart` catches a stray escape or an
 unclosed quotation; it cannot catch this. **Diffing two locales that ought to agree is a
 proofreading tool nobody had used**, and it is worth running over the other near-identical
-pairs.
+pairs. The same trick found "Mençant" for "Menaçant" in the French definition of
+*minatory*, and "à un fin de semaine" for "à une" in Canadian French.
+
+**And then it named the mechanism, which is the part worth keeping.** *los númerlo* is
+`("os tiene", "lo tiene")` — a vosotros-to-ustedes rule in `_words_es_419.py`, applied as a
+bare substring, firing inside "números tienen". **Spanish plurals end in -os constantly**,
+so five of those rules could have bitten the same way at any time, in any row, and the
+result would always be a real-looking word that no check can see. Both derived generators
+anchor their substitutions on a word boundary now (`re.sub(r'…')`), which changes
+exactly one field across the two locales — that one — and forecloses the rest.
 
 **How much a language has already borrowed decides how much work it is**, and that is
 not something to discover halfway through. *mathesis* and *imbroglio* are unchanged in
@@ -532,10 +553,17 @@ was run over the five to bring them back into step; the overlays did not move, o
 generators. It rewrites only a file it can first reproduce byte for byte from its own
 contents, which is what keeps it away from `_words_es_419`, `_words_fr_CA` and
 `_words_pt_BR` — those derive their rows from a base locale by substitution rather than
-listing them. Two of those three are still worth a look before anyone runs the script:
-re-deriving would leave **es_419** differing from its shipped overlay in 11 rows (it was
-133 before the resync) and **fr_CA** in 122, because `fr` has had its glosses localised
-and `fr_CA` has not. `pt_BR` matches exactly.
+listing them.
+
+**All three of those are in step now, and getting there is a job the next pair will need
+too.** Re-deriving left **es_419** differing from its shipped overlay in 11 rows and
+**fr_CA** in 122, because their `_OVERRIDES` tables froze the example sentence as it stood
+before the base locale was localised — every override still carried the English headword,
+and `_words_es_419` still carried *los númerlo* after the overlay had been repaired.
+Rewriting each override from the overlay brings both to **0 rows**, and `pt_BR` was
+already there. So: **after localising a base locale, re-derive its regional variant and
+diff, or the override table quietly holds the old text.** The check is four lines — import
+`_words_<locale>`, compare each row against `assets/l10n/words_<locale>.json`.
 
 And a word whose local form equals the English one still reaches `segmentTranslation`, so
 it is handed to the English voice inside a sentence that is otherwise local — true today
