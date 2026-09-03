@@ -403,15 +403,25 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Dutch and German are done; the other 58 are not.** 133 of the 134 Dutch sentences
-changed and 134 of the German, and each diff is `exampleGloss` lines and nothing else.
-Two words are deliberately unchanged in both, because the local word *is* the English one
-— *mathesis* and *imbroglio* are in Van Dale and in Duden alike — and they are named in
-`english_ok` in each locale file so that "English left standing" stays an error
-everywhere else. German needed no other exemption: *Ersatz*, *Seneschall*, *Sybarit*,
-*Paroxysmus* and *Solözismus* are German too but spelled differently, so the check sees
-them as translated, which they are. **7643 of the 8,040 glosses still carry the English
+**Dutch, German and French are done; the other 57 are not.** 133 of the 134 Dutch
+sentences changed, 134 of the German and 130 of the French, and each diff is
+`exampleGloss` lines and nothing else. **7514 of the 8,040 glosses still carry the English
 headword.**
+
+**How much a language has already borrowed decides how much work it is**, and that is
+not something to discover halfway through. *mathesis* and *imbroglio* are unchanged in
+all three, because the local word *is* the English one — Van Dale, Duden and the Petit
+Robert all carry them. German needed no other exemption: *Ersatz*, *Seneschall*,
+*Sybarit*, *Paroxysmus* and *Solözismus* are German too but spelled differently, so the
+check sees them as translated, which they are. **French needed five**, and could have
+needed a dozen: *demi-monde*, *patois* and *sybarite* joined the two, and *canaille*,
+*ersatz*, *mordant*, *chicane*, *interstice*, *involution*, *inanition*, *rodomontade*
+and *animadversion* were all reworded to the plainer French word instead — *racaille*,
+*succédané*, *mordantes*, *s'insinua*, *joint*, *complication*, *épuisement*,
+*fanfaronnade*, *remontrances*. **Reword before reaching for `english_ok`**: an
+exemption leaves the word with the English voice inside a French sentence, where a
+reworded one does not, and half of these borrowings are the rarer word in the local
+language anyway.
 
 **German taught the checker something the other 58 will need.** It refused the whole
 locale over one sentence: *clodpate* ends on `“`, because German closes a quotation with
