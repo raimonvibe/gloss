@@ -336,9 +336,29 @@ because it really is /ˈpɑːrsɪmoʊni/. The IPA follows the respelling automat
 `emit_ipa.py` reads the doubled r — and the fallback table maps `par`→`parr` and
 `parr`→`parre`, which are the spellings a speech engine reads as those two sounds.
 
-**The respelling rides inside the tag as its text**, so an engine that ignores `<phoneme>`
-says exactly what the app said before, and `ssmlToPlainText` gives it the same thing when
-it is not handed SSML at all. That is what the 27 substitutions in `respelling.dart` are
+**The word rides inside the tag, not the respelling — and it took a device to see why.**
+The reasoning used to be that an engine ignoring `<phoneme>` should hear the respelling,
+since that is the pronunciation the tag existed to deliver. It is the opposite. A
+respelling is spaced syllables, so those engines said `gair uh lus` — three tokens with a
+pause between each — and *Garrulous* was read out a syllable at a time. Reported from a
+device on 2026-09-03, and it was every one of the 134 on every engine that is not
+Google's, which is most of them: `_useEnglishSsml` is set from the engine name, so iOS,
+desktop and Samsung's TTS all get `ssmlToPlainText`.
+
+So `said()` now writes `<phoneme ph="ˈɡɛərələs">Garrulous</phoneme>`. An engine that
+honours the tag never reads the inner text at all — it says the IPA, unchanged and exact —
+so what is written there is only ever heard by an engine that does not, and for that
+engine **one guessed word beats a correctly-spelled-out guide**. The respelling keeps its
+two proper readers: the page draws it, and a screen reader is handed `spokenRespelling`
+through `semanticsLabel`. What no voice should be handed is a guide written for the eye.
+`test/spoken_respelling_test.dart` now sweeps all 134 and requires
+`ssmlToPlainText(spokenWord)` to be the word and nothing else.
+
+**`kRespellingVoicing` was a red herring and is no longer one.** It read `probe` — the one
+value its own documentation calls "not for shipping" — while nothing had read the constant
+since `said()` stopped branching on it. It looks exactly like the cause of any
+pronunciation bug and is not. It is set to `sub`, which is what actually ships, and the
+enum is kept only for the record of what each shape sounded like. That is what the 27 substitutions in `respelling.dart` are
 for now — a fallback, not the main road. Nineteen of them are invented spellings measured
 against Windows SAPI, and the phone disagreed with SAPI on `eeh`, which is why `ee` is no
 longer substituted and why the device's verdict overrules the desktop probe's wherever the

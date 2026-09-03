@@ -208,7 +208,15 @@ class WordEntry {
   String said(String text) {
     final source = english;
     if (source.ipa.isEmpty) return '$text.';
-    return '${ssmlPhoneme(source.ipa, source.spokenPronunciation)}.';
+    // The word goes inside the tag, not the respelling. An engine that honours
+    // <phoneme> never says the inner text at all — it says the IPA — so what
+    // is written there is only ever heard by an engine that does not, and for
+    // that engine the respelling was a disaster: `gair uh lus` is three tokens
+    // with pauses between them, so *Garrulous* was read out a syllable at a
+    // time. Reported from a device on 2026-09-03. The word is one token, and
+    // an engine guessing at a rare word is far closer to right than an engine
+    // correctly reading a guide that was written for the eye.
+    return '${ssmlPhoneme(source.ipa, text)}.';
   }
 
   /// Every English form of this word the app may say, and its respelling.
@@ -262,9 +270,12 @@ class WordEntry {
     return passage.replaceAllMapped(pattern, (match) {
       final found = match.group(0)!;
       final sound = forms[found.toLowerCase()]!;
+      // Likewise the inflected forms: the tag carries the word as the passage
+      // wrote it, so an engine without <phoneme> says "edulcorated" rather
+      // than "e dul kuh ray tidd".
       return sound.ipa.isEmpty
           ? ssmlSub(sound.respelling, found)
-          : ssmlPhoneme(sound.ipa, sound.respelling);
+          : ssmlPhoneme(sound.ipa, found);
     });
   }
 
@@ -559,10 +570,15 @@ const kProbeIpa = <String, String>{
 /// out "ee ee aitch" in *Emendation*. `ihh` stands to fail the same way, in
 /// thirteen more.
 ///
-/// [probe] asks the only question that would end that for good: whether the
-/// engine honours `<phoneme>`. If it does, IPA replaces every invented spelling
-/// and nothing has to guess again.
-const kRespellingVoicing = RespellingVoicing.probe;
+/// It answered yes, so `<phoneme>` ships and every word carries an `ipa`.
+///
+/// **Nothing reads this constant any more** — [said] always emits the phoneme
+/// tag — and it was left saying `probe`, the one value its own documentation
+/// calls "not for shipping". That is a trap for the next reader: it looks like
+/// the cause of any pronunciation bug and is not. The enum is kept because it
+/// records the shapes that were tried and what each one sounded like; the
+/// value is set to what actually ships.
+const kRespellingVoicing = RespellingVoicing.sub;
 
 class WordCategory {
   const WordCategory({required this.id, required this.label});

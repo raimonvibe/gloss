@@ -196,6 +196,45 @@ void main() {
     }
   });
 
+  // What an engine without <phoneme> actually hears.
+  //
+  // Only Google's Android engine is handed SSML at all; iOS, desktop and every
+  // other Android engine get ssmlToPlainText, which keeps a phoneme tag's
+  // inner text. That inner text used to be the respelling, so those engines
+  // said `gair uh lus` - three tokens with pauses between them - and
+  // *Garrulous* was read out a syllable at a time. Reported from a device on
+  // 2026-09-03.
+  //
+  // The respelling has two other readers and both still get it: the page draws
+  // it, and a screen reader is handed spokenRespelling through semanticsLabel.
+  // What no voice should be handed is a guide written for the eye.
+  test('an engine without phoneme support hears the word, not the syllables',
+      () {
+    final offenders = <String>[];
+    for (final word in words) {
+      final entry = WordEntry.fromJson(word);
+      final heard = ssmlToPlainText(entry.spokenWord).trim();
+      if (heard != '${entry.word}.') {
+        offenders.add('${entry.word}: "$heard"');
+      }
+    }
+    expect(
+      offenders,
+      isEmpty,
+      reason: 'the plain-text fallback says something other than the word',
+    );
+
+    // The one that was reported, spelled out.
+    final garrulous =
+        WordEntry.fromJson(words.firstWhere((w) => w['id'] == 'garrulous'));
+    expect(garrulous.pronunciation, 'GAIR-uh-lus', reason: 'the page');
+    expect(garrulous.spokenPronunciation, 'gair uh lus', reason: 'the reader');
+    expect(ssmlToPlainText(garrulous.spokenWord).trim(), 'Garrulous.');
+    // ...and the IPA is still what a phoneme-honouring engine is given, so
+    // nothing was traded away to get there.
+    expect(garrulous.spokenWord, contains(garrulous.ipa));
+  });
+
   test('the page keeps the capitals; only the voice loses them', () {
     final entry = WordEntry.fromJson(
       words.firstWhere((word) => word['word'] == 'Hebetude'),
@@ -218,7 +257,7 @@ void main() {
       case RespellingVoicing.probe:
         // The word is shown and the respelling is spoken, so both are in the
         // utterance and the respelling is inside the alias.
-        expect(entry.spokenWord, contains(ssmlPhoneme('ˈhɛbɪtuːd', 'heb ihh tood')));
+        expect(entry.spokenWord, contains(ssmlPhoneme('ˈhɛbɪtuːd', 'Hebetude')));
       case RespellingVoicing.spaced:
       case RespellingVoicing.commas:
       case RespellingVoicing.sentences:
