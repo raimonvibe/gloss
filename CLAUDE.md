@@ -1243,13 +1243,36 @@ Three faults underneath it, and the first is the one that ships the bug:
   result the way `_lockToEnglish` always has, and returns false so the caller reads the
   English instead. A `setVoice` that fails after a `setLanguage` that took is not fatal
   and says so in the trace: the language is right, the particular voice is not.
-- **`getVoices` lists voices the phone cannot speak.** Google answers with every language
-  it supports, downloaded or not, marking the rest `notInstalled` in `features` — so a
-  Dutch phone lists forty Italian voices and "has this device Italian?" answers yes.
-  `voiceIsInstalled` reads that field, and the same filter now guards the reader's own
-  English voice list, which could offer a voice that would never speak. It is deliberately
-  narrow: **iOS reports no `features` at all** — `speechVoices()` lists only what is
-  installed — so an absent field means installed.
+- **`getVoices` lists voices the phone may not be able to speak.** Google answers with
+  every language it supports, downloaded or not, marking the rest `notInstalled` in
+  `features`. `voiceIsInstalled` reads that field. It is deliberately narrow: **iOS reports
+  no `features` at all** — `speechVoices()` lists only what is installed — so an absent
+  field means installed.
+
+**And then the third one was reversed within the hour, which is the part worth keeping.**
+For a few hours on 2026-09-03 that flag *excluded* a voice, and an unavailable answer from
+`setLanguage` was enough to give up and read the English. Then the reader said the version
+live on Play speaks every language they had chosen — on a device whose engine flags some of
+those voices. **So the flag is not the last word**: Android can reach a network voice, fetch
+the data, or simply be wrong, and the shipped app was speaking languages this new check
+called unavailable.
+
+`voiceIsInstalled` and the `setLanguage` result are **orderings now, never vetoes**. An
+installed offline voice is preferred by +100 in the score, `setLanguage` answering *no* is
+traced and ignored, and `_useLanguage` returns false only when the engine lists no voice for
+the language at all — the same bar the shipped app used. The reader's English voice list
+lost its filter for the same reason: a reader whose every English voice is flagged must not
+be handed an empty picker.
+
+**The rule this leaves behind: a check added to fix a word in the wrong accent must not be
+able to cost a reader a whole language.** The fault being fixed was one word of Latin; the
+fault being risked was sixty languages going silent, on a device nobody here can inspect.
+Two tests pin it — `a language is never lost to a notInstalled flag`, and `the reader is
+still offered an English voice the engine flags`.
+
+**What survives from that pass is the half that could not cost anything**, and it is the
+half that actually fixed the bug: the locale reaches `setVoice` in the engine's own
+spelling, and an installed offline voice sorts ahead of a listed one. Both are orderings.
 
 **A root is written for the eye there too.** The sweep that found the first fault found a
 second: `spokenEtymonFor` handed the form as written, so `ex-`, `-osus` and `inter-` went

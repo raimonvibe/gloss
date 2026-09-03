@@ -396,9 +396,27 @@ void _splitNarration() {
       expect(voice.engineLocale, 'it-IT');
     });
 
-    test('a voice the engine lists but has not downloaded is not a voice', () {
-      // Google's getVoices answers with every language it supports, and
-      // marks the ones whose data is not on the phone.
+    // Google's getVoices answers with every language it supports and marks
+    // the ones whose data is not on the phone. That marking orders the
+    // candidates and must never remove them: the version live on Play speaks
+    // every language its reader has chosen on a device that flags some of
+    // those voices, so the flag is not the last word.
+    test('a downloaded voice is preferred over one that is not', () {
+      final voice = pickVoiceForLanguage(const [
+        {
+          'name': 'it-it-x-kda-local',
+          'locale': 'it-IT',
+          'features': 'notInstalled	networkTimeoutMs',
+        },
+        {'name': 'it-it-x-itd-local', 'locale': 'it-IT', 'features': ''},
+      ], 'it-IT');
+      expect(voice!.name, 'it-it-x-itd-local');
+    });
+
+    test('a language is never lost to a notInstalled flag', () {
+      // Every Italian voice the engine knows is flagged, and it is still
+      // Italian that gets asked for. Losing a language a reader already had
+      // is a worse fault than the one the flag was read for.
       final voice = pickVoiceForLanguage(const [
         {
           'name': 'it-it-x-kda-local',
@@ -406,17 +424,8 @@ void _splitNarration() {
           'features': 'notInstalled	networkTimeoutMs',
         },
       ], 'it-IT');
-      expect(voice, isNull, reason: 'an Italian voice that cannot speak');
-
-      final installed = pickVoiceForLanguage(const [
-        {
-          'name': 'it-it-x-kda-network',
-          'locale': 'it-IT',
-          'features': 'notInstalled',
-        },
-        {'name': 'it-it-x-itd-local', 'locale': 'it-IT', 'features': ''},
-      ], 'it-IT');
-      expect(installed!.name, 'it-it-x-itd-local');
+      expect(voice, isNotNull, reason: 'Italian was refused before it spoke');
+      expect(voice!.engineLocale, 'it-IT');
     });
 
     test('iOS reports no features, and that means installed', () {
@@ -439,7 +448,9 @@ void _splitNarration() {
       expect(voice!.name, 'Federica');
     });
 
-    test('an English voice that is not installed is not offered', () {
+    test('the reader is still offered an English voice the engine flags', () {
+      // Still on the list: a reader whose every English voice is flagged must
+      // not be handed an empty picker.
       final voices = englishVoiceOptions(const [
         {
           'name': 'en-gb-x-gba-local',
@@ -448,7 +459,10 @@ void _splitNarration() {
         },
         {'name': 'en-us-x-sfg-local', 'locale': 'en-US'},
       ]);
-      expect(voices.map((voice) => voice.name), ['en-us-x-sfg-local']);
+      // The picker keeps its own order, by region — what matters here is
+      // that neither voice was dropped out of it.
+      expect(voices.map((voice) => voice.name),
+          containsAll(['en-us-x-sfg-local', 'en-gb-x-gba-local']));
       expect(
         pickEnglishVoice(const [
           {
@@ -457,7 +471,8 @@ void _splitNarration() {
             'features': 'notInstalled',
           },
         ]),
-        isNull,
+        isNotNull,
+        reason: 'the lexicon would have gone silent',
       );
     });
 

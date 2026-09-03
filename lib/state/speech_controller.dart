@@ -67,18 +67,17 @@ String? pickEnglishLanguage(Iterable<String> available) {
 
 /// Best installed English voice. Prefers US, then local/offline voices.
 Map<String, String>? pickEnglishVoice(Iterable<Map<dynamic, dynamic>> voices) {
-  final english = <({String name, String locale})>[];
+  final english = <({String name, String locale, bool installed})>[];
   for (final voice in voices) {
     final name = voice['name']?.toString();
     final locale = voice['locale']?.toString();
     if (name == null || locale == null || name.isEmpty) continue;
     if (!isEnglishTtsLocale(locale)) continue;
-    if (!voiceIsInstalled(voice)) continue;
-    english.add((name: name, locale: locale));
+    english.add((name: name, locale: locale, installed: voiceIsInstalled(voice)));
   }
   if (english.isEmpty) return null;
 
-  int score(({String name, String locale}) voice) {
+  int score(({String name, String locale, bool installed}) voice) {
     final locale = normalizeTtsLocale(voice.locale);
     final name = voice.name.toLowerCase();
     var value = 0;
@@ -93,6 +92,8 @@ Map<String, String>? pickEnglishVoice(Iterable<Map<dynamic, dynamic>> voices) {
     }
     if (name.contains('local')) value += 15;
     if (name.contains('network') || name.contains('online')) value -= 10;
+    // Prefer a voice the engine says is on the device, never exclude one.
+    if (voice.installed) value += 100;
     return value;
   }
 
@@ -339,8 +340,6 @@ List<VoiceOption> englishVoiceOptions(Iterable<Map<dynamic, dynamic>> voices) {
     final locale = voice['locale']?.toString();
     if (name == null || locale == null || name.isEmpty) continue;
     if (!isEnglishTtsLocale(locale)) continue;
-    // A voice the reader could pick and never hear.
-    if (!voiceIsInstalled(voice)) continue;
     if (!seen.add(name)) continue;
     found.add(
       VoiceOption(
@@ -528,13 +527,21 @@ List<SpeechSegment> segmentTranslation(
   return segments;
 }
 
-/// A voice the engine has listed but cannot actually speak.
+/// Whether the engine says this voice's data is on the device.
 ///
 /// Android's `getVoices` answers with every voice the engine knows about,
 /// including the languages whose data has never been downloaded — those
-/// carry `notInstalled` in their features. A phone with Dutch and English on
-/// it still lists forty Italian voices, so "is there a voice for Italian"
-/// asked of that list answers yes and the reader hears otherwise.
+/// carry `notInstalled` in their features.
+///
+/// **This orders the candidates; it never removes them.** It excluded them
+/// for a few hours on 2026-09-03 and that was wrong: the version live on Play
+/// speaks every language its reader has chosen, on a device whose engine
+/// flags some of those voices `notInstalled`, so the flag is not the last
+/// word on whether a language will speak — Android can fall back to a network
+/// voice, fetch the data, or simply be wrong about it. **A flag that is
+/// usually right is a reason to prefer another voice, not a reason to refuse
+/// to try.** Losing a language a reader already had is a worse fault than the
+/// one this was added to fix.
 ///
 /// The test is deliberately narrow. iOS reports no features at all — its
 /// `speechVoices()` lists only what is installed — so an absent field means
@@ -550,19 +557,19 @@ bool voiceIsInstalled(Map<dynamic, dynamic> voice) {
 /// Android's `TextToSpeech.Engine.KEY_FEATURE_NOT_INSTALLED`.
 const _kNotInstalledFeature = 'notInstalled';
 
-/// Best installed voice for a BCP-47 tag: an exact locale match first, then
-/// any voice for the same language. Offline voices beat network ones.
+/// Best voice for a BCP-47 tag: an exact locale match first, then any voice
+/// for the same language. Installed beats not-installed and offline beats
+/// network, but neither is a veto — see [voiceIsInstalled].
 ///
-/// Null when nothing installed can speak the language, which is the answer
-/// that matters: the caller then reads the English instead of handing the
-/// text to whichever voice happens to be loaded.
+/// Null only when the engine lists **no** voice for the language at all,
+/// which is when the caller reads the English instead.
 VoiceOption? pickVoiceForLanguage(
   Iterable<Map<dynamic, dynamic>> voices,
   String languageTag,
 ) {
   final wanted = normalizeTtsLocale(languageTag);
   final language = wanted.split('-').first;
-  final candidates = <(VoiceOption, bool)>[];
+  final candidates = <(VoiceOption, bool, bool)>[];
   for (final voice in voices) {
     final name = voice['name']?.toString();
     final locale = voice['locale']?.toString();
@@ -571,24 +578,27 @@ VoiceOption? pickVoiceForLanguage(
     if (normalized != wanted && normalized.split('-').first != language) {
       continue;
     }
-    if (!voiceIsInstalled(voice)) continue;
     candidates.add((
       // The engine's own spelling of the locale travels with the voice: it
       // is what has to go back to setVoice. See [VoiceOption.engineLocale].
       VoiceOption(name: name, locale: normalized, engineLocale: locale),
       voice['network_required']?.toString().trim() == '1',
+      voiceIsInstalled(voice),
     ));
   }
   if (candidates.isEmpty) return null;
 
-  int score((VoiceOption, bool) candidate) {
-    final (voice, networkRequired) = candidate;
+  int score((VoiceOption, bool, bool) candidate) {
+    final (voice, networkRequired, installed) = candidate;
     var value = voice.locale == wanted ? 40 : 20;
     final name = voice.name.toLowerCase();
     if (name.contains('local')) value += 15;
     if (name.contains('network') || name.contains('online')) value -= 10;
     // What the engine said outright, rather than what its naming implies.
     if (networkRequired) value -= 10;
+    // Enough to put every installed voice ahead of every uninstalled one,
+    // and not enough to remove either.
+    if (installed) value += 100;
     return value;
   }
 
@@ -899,34 +909,36 @@ class TtsSpeechEngine implements SpeechEngine {
   }
 
   /// Points the engine at [languageTag]. False when the device has no voice
-  /// for it, which is common for the smaller languages in the catalog.
+  /// for it at all, which is common for the smaller languages in the catalog.
   ///
-  /// False means the caller says the English instead. It has to mean that
-  /// rather than "asked for", because an engine that refuses a language
-  /// simply keeps the voice it had — so a request that went unanswered and
-  /// one that was granted sound different and report the same. That is what
-  /// it did until 2026-09-03: it set the language, set the voice, looked at
-  /// neither answer and returned true, and a Latin etymon on a phone with no
-  /// Italian was read out by whichever voice spoke last.
+  /// False only when the engine lists no voice for the language at all. That
+  /// is deliberately the same bar the shipped app used, and it is a lower bar
+  /// than this briefly had: for a few hours on 2026-09-03 a `notInstalled`
+  /// flag or an unavailable answer from `setLanguage` was enough to give up
+  /// and read the English, which would have taken languages away from a
+  /// reader who already had them. **The one thing worse than a word in the
+  /// wrong accent is a language that stops speaking.**
+  ///
+  /// What stays from that pass is the part that cost nothing: the locale is
+  /// handed to `setVoice` in the engine's own spelling, and an installed
+  /// offline voice is preferred over a listed one. Both are orderings, not
+  /// refusals.
   Future<bool> _useLanguage(String languageTag) async {
     final voices = await _voiceList();
     if (voices == null) return false;
     final voice = pickVoiceForLanguage(voices, languageTag);
     if (voice == null) {
-      ttsTrace('no installed voice for $languageTag — reading the English');
+      ttsTrace('no voice listed for $languageTag — reading the English');
       return false;
     }
-    // The engine's own word on whether it can speak this at all. Google
-    // lists the voices of every language it supports, downloaded or not.
-    final available = await _guard(_tts.isLanguageAvailable(voice.engineLocale));
-    if (available != null && !ttsLanguageLooksAvailable(available)) {
-      ttsTrace('${voice.engineLocale} is not installed — reading the English');
-      return false;
-    }
+    // The engine's own word on whether it can speak this, which is worth
+    // tracing and is **not** worth obeying. It said no for languages the
+    // shipped app speaks perfectly well, so a no here is a warning rather
+    // than a verdict: Android can reach a network voice, fetch the data, or
+    // be wrong. Only a language with no voice listed at all is refused.
     final applied = await _guard(_tts.setLanguage(voice.engineLocale));
     if (applied == null || applied == 0 || applied == false) {
-      ttsTrace('${voice.engineLocale} would not take — reading the English');
-      return false;
+      ttsTrace('${voice.engineLocale} reported unavailable; trying it anyway');
     }
     _englishLocked = false;
     // The locale as the engine spelled it: setVoice compares it exactly.
