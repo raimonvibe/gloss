@@ -156,13 +156,13 @@ void main() {
     // English reasoning, and a translation of it shows the reader nothing.
     // They stood only because `tool/localize_gloss.py` refused all 37 `_data_`
     // locales until 2026-09-03, so nothing could reach them; that refusal, not
-    // the languages, is what kept them here. Lao repaired 2026-09-04.
+    // the languages, is what kept them here. Both repaired 2026-09-04.
     //
     // **The set is empty, and it is worth keeping empty.** An entry here is a
-    // reader losing the one piece of English the entry exists to show them.
-    const alreadyGone = <String>{
-      'my/specious',
-    };
+    // reader losing the one piece of English the entry exists to show them —
+    // the ambiguity of "Visiting relatives can be tiring" and the circularity
+    // of "It is what it is" are facts about English and about nothing else.
+    const alreadyGone = <String>{};
 
     test('all sixty keep it, and the exceptions are the known ones', () {
       final lost = <String>[];
