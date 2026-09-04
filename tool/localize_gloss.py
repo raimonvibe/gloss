@@ -157,7 +157,22 @@ def _blank(text, phrase):
     return text[:at] + ' ' * len(phrase) + text[at + len(phrase):]
 
 
-def _check(wid, field, text, english, forms, allowed, faults):
+# Scripts that do not mark the end of a sentence at all. Thai runs its words
+# together and separates clauses with a space; a Thai sentence ends on an
+# ordinary letter, so "does it end on a full stop" has no answer here rather
+# than a negative one. This is a *narrower* hole than it looks - the check
+# exists to catch a sentence truncated in generation, and in Thai a truncation
+# and a correct ending are the same shape, so nothing is being waved through
+# that the rule could otherwise have caught.
+#
+# Naming the locale is deliberate. Every earlier script family needed a
+# character adding (。 for Japanese, । for Hindi, ։ for Armenian, ; for Greek);
+# Thai is the first that needs the question not asking, and loosening the rule
+# for all sixty to accommodate it would cost the other fifty-nine a real check.
+NO_SENTENCE_FINAL = {'th'}
+
+
+def _check(wid, field, text, english, forms, allowed, faults, locale=None):
     """Everything that can be decided about one new piece of text."""
     if not text.strip():
         faults.append('%s.%s: empty' % (wid, field))
@@ -198,12 +213,14 @@ def _check(wid, field, text, english, forms, allowed, faults):
     # What counts as the end of a sentence, across sixty languages. German
     # closes a quotation with the character Dutch opens one with („…“ against
     # „…”), Japanese and Chinese end on 。, Hindi on ।, Urdu on ۔, Armenian
-    # on ։, and Greek asks a question with a semicolon - ';', or the erotimatiko
-    # ';' that looks identical and is a different codepoint. A list built from
-    # English habits rejects correct text in half of them - which is how this
-    # first ran, and Greek is the fourth script family to need a character
-    # adding rather than a sentence changing.
-    if text[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։;;':
+    # on ։, Khmer on ។, Burmese on ။, and Greek asks a question with a semicolon
+    # - ';', or the erotimatiko ';' that looks identical and is a different
+    # codepoint. A list built from English habits rejects correct text in half
+    # of them - which is how this first ran, and six script families in it has
+    # never once been right the first time and never once been wrong twice.
+    if locale in NO_SENTENCE_FINAL:
+        return
+    if text[-1] not in '.!?…”“"’»«›」』。！？।॥۔؟։។။;;':
         faults.append('%s.%s: does not end on a full stop, it ends on %r'
                       % (wid, field, text[-1]))
 
@@ -368,7 +385,7 @@ def main():
                 faults.append('%s.%s is not in the overlay' % (wid, field))
                 continue
             _check(wid, field, text, by_id[wid].get(english_field, ''),
-                   forms, allowed, faults)
+                   forms, allowed, faults, locale)
             if row.get(field) != text:
                 changed += 1
         written[field] = new

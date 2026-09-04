@@ -93,6 +93,45 @@ void main() {
     expect(faults, isEmpty);
   });
 
+  // ---- one word, one alphabet ----------------------------------------
+  //
+  // A letter from the wrong script inside a word is invisible to everything
+  // else here. It is not English, so the English sweeps skip it; it is a real
+  // letter, so the punctuation and reduplication checks skip it; and on screen
+  // a Cyrillic а and a Latin a are the same glyph. On a device it renders as
+  // tofu or as a font switch in the middle of a word.
+  //
+  // Found three times before this test existed, each time only by looking:
+  // Belarusian праклінáлі, with a Latin á inside a Cyrillic word; Urdu
+  // apposite, which read ٹिप्पणी — an Urdu ٹ then four Devanagari letters;
+  // and then a sweep on 2026-09-04 turned up two more locales that were
+  // already finished. Macedonian сè was a Cyrillic с with a **Latin** è in
+  // nine rows, where Macedonian writes сѐ with U+0450. Slovene had spretен
+  // and zbujа, Latin words ending in Cyrillic.
+  //
+  // The exception is the Japanese and Korean writing systems, which mix Han
+  // with kana and hangul inside a single word as a matter of course.
+  test('no word mixes two alphabets', () {
+    const mixedScriptOk = <String>{'ja', 'ko', 'zh', 'zh_TW', 'zh_HK'};
+    final faults = <String>[];
+    _eachField(english, overlays, (where, text) {
+      if (mixedScriptOk.contains(where.split('/').first)) return;
+      for (final word in text.split(RegExp(r'[^\p{L}]+', unicode: true))) {
+        if (word.isEmpty) continue;
+        final scripts = word.split('').map(_scriptOf).whereType<String>().toSet();
+        if (scripts.length > 1) {
+          faults.add('$where: "$word" mixes ${scripts.toList()..sort()}');
+        }
+      }
+    });
+    expect(
+      faults,
+      isEmpty,
+      reason: 'a letter from another alphabet inside a word renders as tofu '
+          'and no other check here can see it',
+    );
+  });
+
   test('no word is typed twice by accident', () {
     final faults = <String>[];
     _eachField(english, overlays, (where, text) {
@@ -150,14 +189,19 @@ void main() {
     // worth reading before it is trusted**: this one had been sitting as
     // evidence of a rule the locale never actually broke.
     //
-    // The two that remain are real. Lao and Burmese render the quotation in
-    // their own scripts, which empties it out — but both are `_data_` locales
-    // that `tool/localize_gloss.py` refuses, so repairing them means editing
-    // `tool/_data_lo.py` and `_data_my.py` and re-emitting.
-    const alreadyGone = <String>{
-      'lo/specious',
-      'my/specious',
-    };
+    // The two that remained were real, and both are repaired now. Lao and
+    // Burmese had rendered the specious quotation in their own scripts, which
+    // empties it out — "Everyone's doing it" is being examined as a piece of
+    // English reasoning, and a translation of it shows the reader nothing.
+    // They stood only because `tool/localize_gloss.py` refused all 37 `_data_`
+    // locales until 2026-09-03, so nothing could reach them; that refusal, not
+    // the languages, is what kept them here. Both repaired 2026-09-04.
+    //
+    // **The set is empty, and it is worth keeping empty.** An entry here is a
+    // reader losing the one piece of English the entry exists to show them —
+    // the ambiguity of "Visiting relatives can be tiring" and the circularity
+    // of "It is what it is" are facts about English and about nothing else.
+    const alreadyGone = <String>{};
 
     test('all sixty keep it, and the exceptions are the known ones', () {
       final lost = <String>[];
@@ -248,6 +292,12 @@ void main() {
 /// distribution ('ایک ایک', one by one) and for smallness ('چھوٹی چھوٹی').
 /// Lithuanian 'vos vos' and Vietnamese 'phăng phăng' are intensifiers.
 ///
+/// Vietnamese reduplicates far more freely than any of those, and the 2026-09-04
+/// rewrite of its 134 sentences duly added three at once: 'đều đều' is a drone
+/// (đều, even, doubled into monotony), 'chăm chăm' is fixedly (chăm, to attend),
+/// 'thao thao' is on and on. All three are the ordinary form of the word rather
+/// than an emphatic option, so expect one per handful of Vietnamese rows.
+///
 /// Three are two different phrases meeting at a seam, which reads oddly but
 /// parses correctly: German 'Interesse, das das Gesunde…' is a relative
 /// pronoun before an article; Dutch 'in plaats van van meet af aan' is the
@@ -279,9 +329,40 @@ const _knownReduplication = <String>{
   'ur/garrulous.friendly',
   'ur/internecine.friendly',
   'ur/seriatim.friendly',
+  'vi/captious.exampleGloss',
+  'vi/expatiate.exampleGloss',
   'vi/gainsay.friendly',
   'vi/solecism.root0',
+  'vi/soporific.exampleGloss',
 };
+
+/// Which alphabet a character belongs to, or null for anything that is not a
+/// letter. Coarse on purpose: the question is only whether one word draws on
+/// two writing systems, so the ranges are the blocks rather than the scripts.
+String? _scriptOf(String ch) {
+  final c = ch.codeUnitAt(0);
+  if (ch.length > 1) return null; // a surrogate pair; no locale here uses one
+  if ((c >= 0x41 && c <= 0x5A) ||
+      (c >= 0x61 && c <= 0x7A) ||
+      (c >= 0xC0 && c <= 0x24F) ||
+      (c >= 0x1E00 && c <= 0x1EFF)) {
+    return 'Latin';
+  }
+  if (c >= 0x370 && c <= 0x3FF) return 'Greek';
+  if (c >= 0x400 && c <= 0x52F) return 'Cyrillic';
+  if (c >= 0x530 && c <= 0x58F) return 'Armenian';
+  if (c >= 0x590 && c <= 0x5FF) return 'Hebrew';
+  if (c >= 0x600 && c <= 0x6FF) return 'Arabic';
+  if (c >= 0x900 && c <= 0x97F) return 'Devanagari';
+  if (c >= 0x980 && c <= 0x9FF) return 'Bengali';
+  if (c >= 0xD80 && c <= 0xDFF) return 'Sinhala';
+  if (c >= 0xE00 && c <= 0xE7F) return 'Thai';
+  if (c >= 0xE80 && c <= 0xEFF) return 'Lao';
+  if (c >= 0x10A0 && c <= 0x10FF) return 'Georgian';
+  if (c >= 0x1000 && c <= 0x109F) return 'Myanmar';
+  if (c >= 0x1780 && c <= 0x17FF) return 'Khmer';
+  return null;
+}
 
 final _quotationMarks = RegExp(r'["“”„«»]');
 

@@ -23,9 +23,15 @@
     "bila' (three ways at once), 'opombe ... so se vrtela', 'po dolgem hoji', 'so naporu",
     "sorodniki' for 'naporni'. 'Trebalo je' is Croatian, not Slovene - 'Bilo je treba'.",
     "'zazicale' and 'vadjenja' are not words; the brakes 'zasikale' and the practice is",
-    "'vaje'."
+    "'vaje'.",
+    "",
+    "2026-09-04: a mixed-script sweep found Cyrillic and Latin letters inside",
+    "single words here, the fault Belarusian had with a Latin a inside a",
+    "Cyrillic word. They are repaired above and the sweep is a test now."
   ],
-  "english_ok": ["mathesis"],
+  "english_ok": [
+    "mathesis"
+  ],
   "glosses": {
     "edulcorate": "Urednik je osladil ostro recenzijo, preden je šla v tisk.",
     "pietistic": "Njegovo pietistično vzdihovanje med pridigo je motilo vso klop.",
@@ -171,7 +177,9 @@
     "nugatory": "V bistvu nič — nično določilo pogodbe je tisto, ki nič ne stori.",
     "mordant": "Duhovitost s pravimi zobmi — zajedljiva pripomba malo peče prav zato, ker je tako dobro namerjena.",
     "ingenuous": "Odprto zaupljiv in malo naiven, brez skrite igre — lahko se zamenja z „ingenious“, kar pomeni iznajdljiv.",
-    "minatory": "Nosi jasno grožnjo — grozeč pogled ali pismo jasno pove, da lahko sledi slabo."
+    "minatory": "Nosi jasno grožnjo — grozeč pogled ali pismo jasno pove, da lahko sledi slabo.",
+    "vulpine": "Pameten in spreten kot lisica — ostroumen, malo prepreden, vedno korak pred.",
+    "execrable": "Slab tako, da zbuja pravo gnus — ne le „šibko“, ampak resnično gnusno."
   },
   "definitions": {
     "fricaseed": "Meso, dušeno v omaki — pravilno se piše „fricasseed“."
