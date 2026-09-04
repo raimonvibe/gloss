@@ -2019,6 +2019,29 @@ their explanations wholly in their own language — every locale `localize_gloss
 reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
 `words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
 
+`flutter build appbundle --release` exits 0 on Windows at **`1.0.0+23`** (`0d8862a`),
+writing a **47.9 MB** bundle — `versionCode 23`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest, all 60 overlays and both Tangerine faces inside it, and all 134 English
+words carrying their `ipa`. **This is the first bundle in which all sixty locales read
+their example sentences wholly in their own language.**
+
+Checked by unzipping the bundle rather than by trusting the build, and checked by
+*measurement* rather than by spot-check, which is the part worth copying: the sweep was run
+over the sixty overlays **inside the bundle**, and `exampleGloss` carrying a bare English
+headword came back **0**. The 54 that a naive sweep still reports there are the declared
+`english_ok` exemptions — 39 `mathesis`, 5 `imbroglio`, 2 each of `demi-monde`, `patois`
+and `sybarite`, one each of `ontic`, `neologism`, `laconism`, `solecism` — and they match
+`gloss_english.py` on the source exactly, so the bundle and the tree agree. Spot-checks on
+top of that: `words_ja.json` has 眠気を誘う for *soporific*, `words_ko.json` 다림줄 for the
+plumb line, `words_th.json` นามนัย for *metonymy*, `words_he.json` כוסית הברכה where the
+Hebrew used to say *the fork*, `words_hy.json` տիտրերից where the Armenian used to say *the
+ratings*, `words_ka.json` ბერები where the Georgian had transliterated *friars*, and
+`words_lo.json` and `words_my.json` both carrying "Everyone's doing it" in English again.
+
+**Still 47.9 MB, for the seventh version running** — eighteen locales of rewritten prose
+weigh nothing against a bundle made of fonts and engine. Before that:
+
 `flutter build appbundle --release` exits 0 on Windows at **`1.0.0+22`** (`b3abbbe`),
 writing a **47.9 MB** bundle — `versionCode 22`, `versionName 1.0.0`, signed
 `CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
