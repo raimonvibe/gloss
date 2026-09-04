@@ -145,31 +145,71 @@ Four things to hold on to before doing another:
   locale, so roughly 600k for all 59. That is a modest job — reach for a strong model
   rather than a cheap router.
 
-## 4. Serbian's other three fields are still Croatian
+## 4. Serbian is still half ijekavian, and it is not where this entry said
 
-Found on 2026-09-03 while localising `sr`, and scoped out of that pass on purpose so that
-one job stayed one job.
+**Re-measured 2026-09-04, and this entry was wrong in both directions** — it named the
+wrong file for two fields that turn out to be finished, and called three fields done that
+are not. Both halves are recorded here rather than quietly corrected, because the entry was
+written from reading the code and the correction came from measuring the data, which is the
+difference that matters.
 
 **Serbian was never written — it was transliterated from Croatian**, mechanically and
-unfinished. `exampleGloss`, `friendly` and `definition` are rewritten in ekavian Serbian
-now, because those are the three fields `tool/localize_gloss.py` carries. The other three
-are written elsewhere and were not touched:
+unfinished. That much holds. What the fields actually contain:
 
 | field | written by | state |
 |---|---|---|
-| `partOfSpeech` | `tool/_pos_origin.py` | Croatian labels |
-| `origin` | `tool/_pos_origin.py` | Croatian labels |
-| `rootMeanings` | the overlay | Croatian wording, ijekavian in places |
+| `partOfSpeech` | the overlay | **done** — 7 labels, ekavian Cyrillic |
+| `origin` | the overlay | **done** — 22 labels, ekavian Cyrillic |
+| `rootMeanings` | the overlay | 268 cells, **24 ijekavian**, 2 in Croatian Latin |
+| `exampleGloss` | `localize_gloss.py` | rewritten 2026-09-03, **ijekavian still in it** |
+| `friendly` | `localize_gloss.py` | rewritten 2026-09-03, **ijekavian still in it** |
+| `definition` | `localize_gloss.py` | rewritten 2026-09-03, **ijekavian still in it** |
+
+**`sr` has no entry in `tool/_pos_origin.py` at all.** That table covers only the 37
+locales with a `tool/_data_<locale>.py`, and Serbian is not one of them — it has neither a
+`_data_sr.py` nor a `_words_sr.py`. Its labels live in the overlay, and they are already
+Serbian rather than Croatian: *придев* not *pridjev*, *прошло време* not *prošlo vrijeme*,
+*италијански* not *talijanski*, *немачки* not *njemački*, *шпански* not *španjolski*,
+*несигурно* not *neizvjesno*. A mechanical transliteration would have given *придјев* and
+*талијански*; it did not, so these two were written rather than converted. **Nothing needs
+doing to them.**
+
+**The three that were rewritten still carry the ijekavian.** The rewrite fixed the English
+and the Croatian vocabulary, which is what it was for, and the reflexes came through it: a
+sweep for the consonant-plus-`је` reflex finds **99 distinct tokens across all four data
+fields**, of which about three quarters are genuinely ijekavian — *ријеч* (19 uses),
+*претјерано* (11), *човјек* (7), *свјетло* (5), *прије*, *вјетар*, *замјена*, *обје*,
+*неизбјежан*, *умјетна*, *сусједним*, *двије*, *смијех*, *бијес*, *проповијед*. Ekavian
+Serbian writes *реч*, *претерано*, *човек*, *светло*, *пре*, *ветар*.
+
+**About a quarter of that sweep is noise, and the noise is the lesson.** `ије` is also an
+ordinary inflectional ending, so *није*, *касније*, *цикорије*, *нације*, *перорације*,
+*божје*, *одјекнула* and *сједне*-like forms match a naive reflex search and are perfectly
+correct. **Search on consonant + `је` and read the token list before counting it** — a bare
+`ије` grep says 130-odd and means nothing.
+
+**Roughly ten Croatian fragments are still in Latin script**, inside quotation marks where
+the rewrite did not look: *„Bog je ljubav“*, *„Bog je pravedan“* (`cataphatic`),
+*„izvršio odlazak“* (`periphrastic`), *„Bijela kuća objavila“* and *„kruna“* (`metonymy`),
+*„lošem“* (`solecism`), *„liže“* (`lambent`). These are not English mentions and must not
+be treated as ones — they are Croatian example phrases that should be Serbian Cyrillic.
 
 The tell to look for, and it is the same one that found the 23 transliterated headwords:
 Croatian words that are not Serbian — *tijekom*, *njezina*, *obitelj*, *tjedan*, *momčad*,
 *povijest*, *burza*, *kava*, *izvješće*, *rubnik*, *kamo*, *opće* — and ijekavian reflexes
 (*vjeđama*, *pjesnik*, *propovijedi*) where the rest of the row is ekavian.
 
-`origin` and `partOfSpeech` are the cheap half: they are a small closed table per locale in
-`_pos_origin.py`, not 134 sentences. Note that `lib/models/spoken_origin.dart` derives the
-compound-origin seam **from the locale's own origin labels**, so correcting them there is
-also correcting what the voice says.
+`origin` and `partOfSpeech` were called the cheap half here, on the reasoning that they are
+a small closed table rather than 134 sentences. The reasoning was right and the conclusion
+is now moot: they are already correct. The point still worth keeping is why it would have
+mattered — `lib/models/spoken_origin.dart` derives the compound-origin seam **from the
+locale's own origin labels**, so those labels are read by the voice as well as drawn on the
+page, and a wrong one would have been heard as well as seen.
+
+What is left in Serbian is the ijekavian, in all four data fields, and it is a reading job:
+no sweep in this project can see it, because an ijekavian word is a real word and the suite
+was green over every one of them. The check is the one above — consonant + `је`, then read
+the tokens.
 
 **Worth checking the other derived-looking locales the same way before trusting their
 counts.** A locale that was derived rather than written does not show up in any sweep here,
@@ -263,3 +303,35 @@ commands; this file defers to it.
 
 Worth keeping that way: when a baseline moves, update CLAUDE.md's *Verification* section
 and say which machine produced it.
+
+---
+
+## 9. The store listing, and the privacy page it is checked against
+
+Found on 2026-09-04 by auditing for work this file does not carry. Both items are on the
+release path and **both live outside this repo**, which is why nothing here sees them and
+why they fell out of the backlog in the first place.
+
+**The privacy policy contradicts the Data safety declaration.**
+`store/play/GOOGLE-PLAY-CONSOLE.md` records the answers already prepared for Play: Name,
+Email address and *Messages -> Other in-app messages*, **Collected**, optional, with
+Formspree as a processor and deletion by mail to info@raimonvibe.com. The page at
+`/apps/gloss/privacy` **predates the contact form and says none of it.** Play checks the
+declaration against the live page, and that same document lists the mismatch as a known
+rejection cause — *"Data safety says you collect data when you do not (or the reverse)"*.
+
+It needs one paragraph: what the form sends, that Formspree processes it, and how to ask
+for it to be deleted. The source is in **another repository** —
+[raimonvibe/website-editorial-eu](https://github.com/raimonvibe/website-editorial-eu) —
+live at `/apps/gloss/privacy`. This is the one item that blocks the upload §7 is waiting
+on.
+
+**The screenshots may still have transparent backgrounds.** The same document names
+`removebg` files as a known Gloss rejection cause. They live under
+`Pictures\Gloss-images\play-phone-screenshots\`, outside the repo, so whether it was ever
+fixed **cannot be determined from here** — this is a note to look, not a confirmed fault.
+The feature graphic is in the repo (`store/play/graphics/`) and is the right size.
+
+**Where this leaves the release.** The bundle is built and verified (§7), the privacy page
+is not written, and the screenshots are unchecked. Nothing in the app has to change for
+either.
