@@ -424,7 +424,7 @@ ROWS = [
      "Nói ngược phăng phăng điều người khác nói — nói \"that's not so\".",
      "Không ai dám bác lời kể của ông thuyền trưởng già về cơn bão.",
      "chống", "nói"),
-    ("Sự lười, lười biếng (từ Latinh).",
+    ("Sự lười nhác, biếng nhác (từ Latinh).",
      "Từ Latinh cổ cho sự lười thuần — cái kéo của không muốn làm gì.",
      "Các tu sĩ giảng chống lại sự biếng nhác như một trong những mối nguy lặng lẽ của linh hồn.",
      "không", "bận, siêng"),
