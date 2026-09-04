@@ -4,7 +4,7 @@
       "partOfSpeech": "fiil",
       "definition": "Tatlandırmak veya arındırmak; bir şeyden sertliği gidermek.",
       "friendly": "İğneyi veya acılığı çıkarmak — sözcük anlamıyla tatlandırmak, ya da mecazen sert bir fikri yumuşatıp yutulur kılmak.",
-      "exampleGloss": "Editör, sert eleştiriyi basıma gitmeden önce edulcorated etti.",
+      "exampleGloss": "Editör, sert eleştiriyi basıma gitmeden önce yumuşattı.",
       "origin": "Latince",
       "rootMeanings": [
         "dışarı, kökten",
@@ -15,7 +15,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Aşırı veya yapmacık dindar.",
       "friendly": "Dini bağlılığı gösteriş gibi duran, samimi inançtan çok performans olan kişiyi anlatır.",
-      "exampleGloss": "Vaaz sırasındaki pietistic iç çekişleri sıranın geri kalanını rahatsız etti.",
+      "exampleGloss": "Vaaz sırasındaki sofuca iç çekişleri sıranın geri kalanını rahatsız etti.",
       "origin": "Latince",
       "rootMeanings": [
         "dindarlık, vazife",
@@ -26,7 +26,7 @@
       "partOfSpeech": "isim",
       "definition": "Dilbilgisel yapıdan doğan belirsizlik — iki türlü okunan cümle.",
       "friendly": "Dilbilgisi doğru ama tamamen farklı iki yoldan okunabilen cümle, örneğin \"Visiting relatives can be tiring\".",
-      "exampleGloss": "\"Visiting relatives can be tiring\" klasik bir amphiboly — yorucu olan akrabalar mı, yoksa onları ziyaret etmek mi?",
+      "exampleGloss": "\"Visiting relatives can be tiring\" klasik bir anlam ikiliğidir — yorucu olan akrabalar mı, yoksa onları ziyaret etmek mi?",
       "origin": "Yunanca",
       "rootMeanings": [
         "her ikisi, iki yanda",
@@ -36,8 +36,8 @@
     "trenchant": {
       "partOfSpeech": "sıfat",
       "definition": "Keskin, delici, doğruca noktaya kesen.",
-      "friendly": "Laf kalabalığını keser — trenchant bir yorum veya zihin, boşa söz olmadan işin özüne hızla varır.",
-      "exampleGloss": "Onun trenchant eleştirisi filmin kurgu boşluklarına saklanacak yer bırakmadı.",
+      "friendly": "Laf kalabalığını keser — keskin bir yorum veya zihin, boşa söz olmadan işin özüne hızla varır.",
+      "exampleGloss": "Onun keskin eleştirisi filmin kurgu boşluklarına saklanacak yer bırakmadı.",
       "origin": "Eski Fransızca",
       "rootMeanings": [
         "kesmek",
@@ -48,7 +48,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Yeni başlayan; erken veya ilkel evrede.",
       "friendly": "Hâlâ açılış anlarında — henüz biçim almaya başlamış plan, duygu veya süreç.",
-      "exampleGloss": "Antlaşmanın inchoative evreleri umut vericiydi ama birçok ayrıntı açık kalmıştı.",
+      "exampleGloss": "Antlaşmanın başlangıç evreleri umut vericiydi ama birçok ayrıntı açık kalmıştı.",
       "origin": "Latince",
       "rootMeanings": [
         "başlamak, girişmek",
@@ -59,7 +59,7 @@
       "partOfSpeech": "isim",
       "definition": "Birini yüksekçe öven resmi konuşma veya yazı.",
       "friendly": "Tam teşekküllü, resmi bir övgü — parlak bir methiye veya başarıları çatıdan söyleyen bir nutuk düşünün.",
-      "exampleGloss": "Emekli olan profesör, en yakın öğrencilerinden bir panegyric ile uğurlandı.",
+      "exampleGloss": "Emekli olan profesör, en yakın öğrencilerinden bir övgü söyleviyle uğurlandı.",
       "origin": "Yunanca",
       "rootMeanings": [
         "tümü",
@@ -70,7 +70,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Soyut kuramın karşıtı olarak gerçek varlık veya olgusal oluşla ilgili.",
       "friendly": "Şeylerin gerçekte nasıl var olduğu hakkında, yalnızca onlar hakkındaki fikir veya kuramlar değil.",
-      "exampleGloss": "Filozoflar sayıların ontic bir statüsü olup olmadığını, yoksa yalnızca zihnimizde mi durduğunu tartışır.",
+      "exampleGloss": "Filozoflar sayıların varlıksal bir statüsü olup olmadığını, yoksa yalnızca zihnimizde mi durduğunu tartışır.",
       "origin": "Yunanca",
       "rootMeanings": [
         "varlık, var olan",
@@ -81,7 +81,7 @@
       "partOfSpeech": "fiil",
       "definition": "Meyve vermek veya verimli olmak.",
       "friendly": "Sonunda karşılığını almak — çaba, fikir veya yatırımın tohumdan yararlı bir şeye büyümesi.",
-      "exampleGloss": "Yıllarca süren sessiz araştırma sonunda çalışan bir aşıya fructified oldu.",
+      "exampleGloss": "Yıllarca süren sessiz araştırma sonunda meyve verip çalışan bir aşıya dönüştü.",
       "origin": "Latince",
       "rootMeanings": [
         "meyve",
@@ -92,7 +92,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Bir şeyi gerçekten olmadan önce bitmiş gibi öngörmek veya göstermek.",
       "friendly": "Edebi şekilde acele etmek — gelecek bir olayı sanki bitmiş gibi betimleyerek noktayı daha sert vurmak.",
-      "exampleGloss": "Generalin \"victory\" için proleptical kadehi, savaştan tam bir hafta önce kaldırıldı.",
+      "exampleGloss": "Generalin \"zafer\" için peşinen kaldırdığı kadeh, savaştan tam bir hafta öncesineydi.",
       "origin": "Yunanca",
       "rootMeanings": [
         "önce",
@@ -103,7 +103,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Hava basıncıyla çalışan; ayrıca ruh veya solukla ilgili.",
       "friendly": "Genellikle \"sıkıştırılmış havayla çalışan\" demektir — ruh veya solukla da ilgili olabilir.",
-      "exampleGloss": "Otobüs kaldırıma yanaşınca pneumatic frenler tısladı.",
+      "exampleGloss": "Otobüs kaldırıma yanaşınca havalı frenler tısladı.",
       "origin": "Yunanca",
       "rootMeanings": [
         "rüzgâr, soluk, ruh",
@@ -114,7 +114,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Tanrı'yı veya ilahî olanı olumlu önermelerle betimlemek — apofatikin karşıtı.",
       "friendly": "Tanrı'nın ne olmadığını değil, ne olduğunu söyleyerek konuşmak — \"God is love\" gibi.",
-      "exampleGloss": "Cataphatic teoloji Tanrı'dan seven, adil ve merhametli diye güvenle söz eder.",
+      "exampleGloss": "Olumlayıcı teoloji Tanrı'dan seven, adil ve merhametli diye güvenle söz eder.",
       "origin": "Yunanca",
       "rootMeanings": [
         "aşağı, göre",
@@ -124,8 +124,8 @@
     "fiducial": {
       "partOfSpeech": "sıfat",
       "definition": "Güven veya imana dayalı; ayrıca sabit referans noktası olarak kullanılır.",
-      "friendly": "Güvenip sonra çapa yaptığınız şey — fiducial işaret, her şeyin ölçüldüğü sabit noktadır.",
-      "exampleGloss": "Haritacılar sahayı çizmeden önce anakayaya fiducial işaret koydu.",
+      "friendly": "Güvenip sonra çapa yaptığınız şey — dayanak işareti, her şeyin ölçüldüğü sabit noktadır.",
+      "exampleGloss": "Haritacılar sahayı çizmeden önce anakayaya bir dayanak işareti koydu.",
       "origin": "Latince",
       "rootMeanings": [
         "güvenmek",
@@ -136,7 +136,7 @@
       "partOfSpeech": "isim",
       "definition": "Kötülüğün varlığı karşısında Tanrı'nın iyiliğinin savunusu.",
       "friendly": "Eski soruyu yanıtlama denemesi: \"Tanrı iyiyse neden kötülük var?\"",
-      "exampleGloss": "Tezi theodicy konusunu Eyüp Kitabı merceğinden araştırdı.",
+      "exampleGloss": "Tezi teodise konusunu Eyüp Kitabı merceğinden araştırdı.",
       "origin": "Yunanca",
       "rootMeanings": [
         "tanrı",
@@ -147,7 +147,7 @@
       "partOfSpeech": "isim",
       "definition": "Karşılıklı içte durma — Teslis kişilerinin birbirinin içinde var oluşuna dair teoloji terimi.",
       "friendly": "Her parçanın diğerlerini tam içerdiği ve içerildiği üç-birlikte duruş için teoloji sözcüğü.",
-      "exampleGloss": "Circumincession öğretisi Baba, Oğul ve Ruh'un nasıl ayrı ama ayrılmaz olduğunu açıklamaya çalışır.",
+      "exampleGloss": "Karşılıklı içkinlik öğretisi Baba, Oğul ve Ruh'un nasıl ayrı ama ayrılmaz olduğunu açıklamaya çalışır.",
       "origin": "Latince",
       "rootMeanings": [
         "çevresinde",
@@ -157,8 +157,8 @@
     "redound": {
       "partOfSpeech": "fiil",
       "definition": "Birine yarar sağlayan veya yansıyan sonuç doğurmak.",
-      "friendly": "Övgü (veya yergi) sorumluya geri sektiğinde — itibarınıza redound eden iyilikler dönüp sizi ödüllendirir.",
-      "exampleGloss": "Takımın başarısı, sessiz ve çalışkan antrenörünün hesabına redound edecek.",
+      "friendly": "Övgü (veya yergi) sorumluya geri sektiğinde — itibarınıza yazılan iyilikler dönüp sizi ödüllendirir.",
+      "exampleGloss": "Takımın başarısı, sessiz ve çalışkan antrenörünün hanesine yazılacak.",
       "origin": "Latince",
       "rootMeanings": [
         "geri, yine",
@@ -168,8 +168,8 @@
     "ineluctable": {
       "partOfSpeech": "sıfat",
       "definition": "Kaçınılmaz veya kaçınılamaz.",
-      "friendly": "Ne yaparsanız yapın olacak — ineluctable bir sonuçtan kıvırtarak çıkılmaz.",
-      "exampleGloss": "Yaşlılık herkese gelir; bu yalnızca ineluctable.",
+      "friendly": "Ne yaparsanız yapın olacak — kaçınılmaz bir sonuçtan kıvırtarak çıkılmaz.",
+      "exampleGloss": "Yaşlılık herkese gelir; bu yalnızca kaçınılmazdır.",
       "origin": "Latince",
       "rootMeanings": [
         "değil",
@@ -180,7 +180,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Dolambaçlı, sözü uzatan anlatım kullanmak, dolaysız biçim yerine.",
       "friendly": "Sözle uzun yol — \"decide\" demek yerine \"make a decision\" demek gibi.",
-      "exampleGloss": "Onun periphrastic e-postaları üç paragrafta söylediğini bir satırda söyleyebilirdi.",
+      "exampleGloss": "Onun dolambaçlı e-postaları üç paragrafta söylediğini bir satırda söyleyebilirdi.",
       "origin": "Yunanca",
       "rootMeanings": [
         "çevresinde",
@@ -191,7 +191,7 @@
       "partOfSpeech": "isim",
       "definition": "Zihinsel donukluk veya uyuşukluk.",
       "friendly": "Düşünmenin şurupta yürümek gibi geldiği sisli, ağır zihin hali.",
-      "exampleGloss": "Öğle yemeğinden hemen sonra sınıfa bir hebetude dalgası çarptı.",
+      "exampleGloss": "Öğle yemeğinden hemen sonra sınıfa bir zihin uyuşukluğu dalgası çarptı.",
       "origin": "Latince",
       "rootMeanings": [
         "kör, küt",
@@ -202,7 +202,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Elverişsiz; uğursuz belirti.",
       "friendly": "Kötü işaret — henüz başlamadan koşulların veya zamanlamanın aleyhinize çalışması.",
-      "exampleGloss": "Gri gökyüzü ve ölü akü, yolculuğa unpropitious bir başlangıç yaptı.",
+      "exampleGloss": "Gri gökyüzü ve ölü akü, yolculuğa uğursuz bir başlangıç yaptı.",
       "origin": "Latince",
       "rootMeanings": [
         "değil",
@@ -211,9 +211,9 @@
     },
     "fricaseed": {
       "partOfSpeech": "sıfat / fiil",
-      "definition": "Sossta haşlanmış veya kavrulmuş et — doğru yazım fricasseed.",
+      "definition": "Sosta haşlanmış veya kavrulmuş et — doğru yazımı \"fricasseed\".",
       "friendly": "Kendi sosunda yavaşça pişirilip yumuşayana dek kesilmiş et için sıcak, eski bir mutfak sözü.",
-      "exampleGloss": "Büyükannenin fricasseed tavuğu her Pazar akşam yemeğinin yıldızıydı.",
+      "exampleGloss": "Büyükannenin soslu haşlama tavuğu her Pazar akşam yemeğinin yıldızıydı.",
       "origin": "Fransızca",
       "rootMeanings": [
         "kızartmak",
@@ -224,7 +224,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Yapay veya daha düşük nitelikli yedek.",
       "friendly": "Gerçeğin yerini tutan taklit — işi görür ama herkes asıl olmadığını bilir.",
-      "exampleGloss": "Savaş zamanı alışverişçiler kavrulmuş hindibadan ersatz kahveyle idare etti.",
+      "exampleGloss": "Savaş zamanı alışverişçiler kavrulmuş hindibadan yapılan sahte kahveyle idare etti.",
       "origin": "Almanca",
       "rootMeanings": [
         "dışarı, yerine koyma öneki",
@@ -235,7 +235,7 @@
       "partOfSpeech": "fiil",
       "definition": "Soyut bir fikri somut bir şeymiş gibi ele almak.",
       "friendly": "Fikri gerçek ve katı hissettirmek — \"the economy\" gibi bulanık bir şeyi işaret edilebilir nesneye çevirmek.",
-      "exampleGloss": "Bir ulusun \"ruhunu\" kendi varlığı diye adlandırmak, aslında milyonlarca bireysel seçim olan şeyi reifies eder.",
+      "exampleGloss": "Bir ulusun \"ruhunu\" kendi varlığı diye adlandırmak, aslında milyonlarca bireysel seçim olan şeyi şeyleştirir.",
       "origin": "Latince",
       "rootMeanings": [
         "şey",
@@ -246,7 +246,7 @@
       "partOfSpeech": "fiil (geçmiş zaman)",
       "definition": "Ustaca kaçtı veya savuşturdu.",
       "friendly": "Temizce sıyrılmak — yakalanmayı, bir soruyu veya yanıtı kurnazca veya kıl payı savuşturmak.",
-      "exampleGloss": "Yanıt saatlerce onu eluded etti, ta ki duşta birden yerine oturana dek.",
+      "exampleGloss": "Yanıt saatlerce onu atlattı, ta ki duşta birden yerine oturana dek.",
       "origin": "Latince",
       "rootMeanings": [
         "dışarı, uzağa",
@@ -257,7 +257,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Kuşku, şaşkınlık veya çözülmemiş çelişki ifade eden.",
       "friendly": "Düşüncenin gerçek bir çıkmazında — tembellikten değil, sorunun kendisi düzgün yanıtı reddettiği için.",
-      "exampleGloss": "Sokrates diyaloglarını sıkça aporetic bir tonda bitirir, yanıttan çok soru bırakırdı.",
+      "exampleGloss": "Sokrates diyaloglarını sıkça çıkmaza varan bir tonda bitirir, yanıttan çok soru bırakırdı.",
       "origin": "Yunanca",
       "rootMeanings": [
         "olmadan",
@@ -268,7 +268,7 @@
       "partOfSpeech": "isim",
       "definition": "Bir şeyi ilişkili terimle adlandıran söz sanatı, örn. hükümdar için \"the crown\".",
       "friendly": "Gerçek şeyin yerine ilişkili söz kullanmak — yönetimi kastederek \"the White House announced\" demek.",
-      "exampleGloss": "\"Wall Street had a rough day\" bir metonymy — aslında borsa kötü gün geçirdi demektir.",
+      "exampleGloss": "\"Wall Street had a rough day\" bir ad aktarmasıdır — aslında borsa kötü gün geçirdi demektir.",
       "origin": "Yunanca",
       "rootMeanings": [
         "değişim, sonra",
@@ -279,7 +279,7 @@
       "partOfSpeech": "fiil",
       "definition": "Kökünden sökmek; doğal ortamından koparmak.",
       "friendly": "Bir şeyi (veya birini) kökünden çekip ait olduğu yerden veya kültürden ayırmak.",
-      "exampleGloss": "Savaş bütün bir kuşağı deracinated etti, aileleri sınırların ötesine savurdu.",
+      "exampleGloss": "Savaş bütün bir kuşağı kökünden söktü, aileleri sınırların ötesine savurdu.",
       "origin": "Fransızca / Latince",
       "rootMeanings": [
         "uzağa, kopuk",
@@ -289,8 +289,8 @@
     "euphonious": {
       "partOfSpeech": "sıfat",
       "definition": "Kulağa hoş gelen.",
-      "friendly": "Sadece dinlemesi güzel — euphonious bir söz, ad veya cümle kulağa neredeyse müzikal kayar.",
-      "exampleGloss": "\"Murmuring brook\" euphonious küçük bir öbek, yumuşak ve söylenmesi kolay.",
+      "friendly": "Sadece dinlemesi güzel — kulağa hoş gelen bir söz, ad ya da cümle neredeyse müzikal biçimde akar.",
+      "exampleGloss": "\"Murmuring brook\" kulağa hoş gelen küçük bir öbek, yumuşak ve söylenmesi kolay.",
       "origin": "Yunanca",
       "rootMeanings": [
         "iyi, güzel",
@@ -301,7 +301,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Genelde varsayılan veya öyle sanılan.",
       "friendly": "Kanıtlanmasa da yaygınca doğru kabul edilen — \"supposed\" sürümü.",
-      "exampleGloss": "Mektubun putative yazarı sonradan tamamen yabancı çıktı.",
+      "exampleGloss": "Mektubun sözde yazarı sonradan tamamen yabancı çıktı.",
       "origin": "Latince",
       "rootMeanings": [
         "düşünmek, saymak",
@@ -312,7 +312,7 @@
       "partOfSpeech": "isim",
       "definition": "Yeni uydurulmuş sözcük veya öbek.",
       "friendly": "Yepyeni bir söz — taze icat, henüz (veya neredeyse) sözlükte yok.",
-      "exampleGloss": "\"Doomscrolling\" bir neologism olarak başladı ve hızla gündelik argo oldu.",
+      "exampleGloss": "\"Doomscrolling\" yeni bir sözcük olarak başladı ve hızla gündelik argo oldu.",
       "origin": "Yunanca",
       "rootMeanings": [
         "yeni",
@@ -323,7 +323,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Öfkeli veya huysuz.",
       "friendly": "Kötü, sinirli bir ruh hali — bir zamanlar öfkeyi dalağın yönettiğine inanıldığı gibi çabuk patlar.",
-      "exampleGloss": "E-postayı okuduktan saniyeler içinde splenetic bir yanıt yolladı.",
+      "exampleGloss": "E-postayı okuduktan saniyeler içinde öfkeli bir yanıt yolladı.",
       "origin": "Yunanca / Latince",
       "rootMeanings": [
         "dalak (öfke yeri)",
@@ -334,7 +334,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Kibirli veya yapmacık biçimde ahlak dersi vermeye yatkın.",
       "friendly": "Her cümle fal kurabiyesiymiş gibi kendini beğenmiş hayat dersleri dağıtmayı sever.",
-      "exampleGloss": "\"Dostluğun gerçek anlamı\" üzerine sententious kadehi herkesin saatine bakmasına yol açtı.",
+      "exampleGloss": "\"Dostluğun gerçek anlamı\" üzerine ahkâm kesen kadeh konuşması herkesin saatine bakmasına yol açtı.",
       "origin": "Latince",
       "rootMeanings": [
         "görüş, vecize",
@@ -345,7 +345,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Özellikle önemsiz şeyler hakkında aşırı konuşkan.",
       "friendly": "Sohbeti kesmez — başkaları sözü tükettikten çok sonra da küçük şeyleri gevezelik eder.",
-      "exampleGloss": "Garrulous taksi şoförü havaalanından çıkmadan önce bütün hayatını anlattı.",
+      "exampleGloss": "Geveze taksi şoförü havaalanından çıkmadan önce bütün hayatını anlattı.",
       "origin": "Latince",
       "rootMeanings": [
         "gevezelik etmek",
@@ -356,7 +356,7 @@
       "partOfSpeech": "isim",
       "definition": "Aptallık, saçmalık.",
       "friendly": "Düz aptallık — ciddi yanıtı hak etmeyecek kadar saçma bir yorum veya plan.",
-      "exampleGloss": "Planın düpedüz fatuity hali denedikleri anda ortaya çıktı.",
+      "exampleGloss": "Planın düpedüz ahmaklığı denedikleri anda ortaya çıktı.",
       "origin": "Latince",
       "rootMeanings": [
         "aptal, saçma",
@@ -367,7 +367,7 @@
       "partOfSpeech": "isim",
       "definition": "Konuşmanın kapanış bölümü, çoğu kez özetler.",
       "friendly": "Nutkun büyük finali — konuşmacının her şeyi toplayıp noktayı çaktığı kapanış.",
-      "exampleGloss": "Peroration geldiğinde dinleyicinin yarısı ayağa kalkmıştı.",
+      "exampleGloss": "Bitiriş bölümüne gelindiğinde dinleyicinin yarısı ayağa kalkmıştı.",
       "origin": "Latince",
       "rootMeanings": [
         "boyunca, sonuna dek",
@@ -378,7 +378,7 @@
       "partOfSpeech": "isim",
       "definition": "Aynı fikrin farklı sözcüklerle gereksiz tekrarı.",
       "friendly": "Yeni bir şey katmadan aynı şeyi iki kez söylemek — \"free gift\" veya \"end result\" gibi.",
-      "exampleGloss": "\"It is what it is\" gerçek açıklamadan kaçınanların sevdiği tautology örneğidir.",
+      "exampleGloss": "\"It is what it is\" gerçek açıklamadan kaçınanların sevdiği bir totolojidir.",
       "origin": "Yunanca",
       "rootMeanings": [
         "aynı",
@@ -389,7 +389,7 @@
       "partOfSpeech": "isim",
       "definition": "Çok az sözcük kullanma; kısa konuşma.",
       "friendly": "Çok azla çok söylemek — Laconia Spartalılarının ünlü kısalığından adını alan kısa, sert yanıt sanatı.",
-      "exampleGloss": "\"Molon labe\" — \"gelin ve alın\" — tarihin en ünlü laconism parçasıdır.",
+      "exampleGloss": "\"Molon labe\" — \"gelin ve alın\" — tarihin en ünlü lakonik sözüdür.",
       "origin": "Yunanca",
       "rootMeanings": [
         "Laconia'lı bir Spartalı",
@@ -400,7 +400,7 @@
       "partOfSpeech": "isim",
       "definition": "Yavan, aşırı basitleştirilmiş fikirler; aslen yavan yiyecek veya lapa.",
       "friendly": "Sulandırılmış düşünce — zihin için besin değeri kalmayacak kadar basitleştirilmiş, güvenli içerik.",
-      "exampleGloss": "Politikacının konuşması çoğunlukla pabulum idi: tutturacak bir şey olmayan belirsiz vaatler.",
+      "exampleGloss": "Politikacının konuşması çoğunlukla yavan sözlerdi: tutturacak bir şey olmayan belirsiz vaatler.",
       "origin": "Latince",
       "rootMeanings": [
         "beslemek",
@@ -411,7 +411,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Uyku veya uyuşukluk veren.",
       "friendly": "Sıkıcı — veya sözcük anlamıyla sakinleştirici — olacak kadar uykuya çeker. Ilık süt veya üç saatlik bütçe toplantısı düşünün.",
-      "exampleGloss": "Dersin soporific uğultusu odanın yarısını gözünü açık tutmaya zorladı.",
+      "exampleGloss": "Dersin uyutucu uğultusu odanın yarısını gözünü açık tutmaya zorladı.",
       "origin": "Latince",
       "rootMeanings": [
         "derin uyku",
@@ -422,7 +422,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Aşırı pohpohlayıcı veya yağlı tavırlı.",
       "friendly": "Kaygan gelecek kadar pürüzsüz çekici — yağlılığı neredeyse hissedilecek kadar kalın pohpohlama.",
-      "exampleGloss": "Unctuous satıcı her ek satıştan önce \"mükemmel zevkimi\" övmeye devam etti.",
+      "exampleGloss": "Yağcı satıcı her ek satıştan önce \"mükemmel zevkimi\" övmeye devam etti.",
       "origin": "Latince",
       "rootMeanings": [
         "yağ sürmek, mesh etmek",
@@ -433,7 +433,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Kusur aramaya hızlı, önemsiz şeylere aşırı eleştirel.",
       "friendly": "Kılı kırk yarmaya varan — gerçekten önemi yokken her şeyde sorun bulan kişi.",
-      "exampleGloss": "Rapordaki captious notları tamamen virgül yerine odaklanmıştı.",
+      "exampleGloss": "Rapordaki kusur arayan notları tamamen virgül yerine odaklanmıştı.",
       "origin": "Latince",
       "rootMeanings": [
         "yakalamak, almak",
@@ -444,7 +444,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Ağır, zihinsel veya bedensel olarak eylemsiz.",
       "friendly": "Kış uykusundaki ayı gibi yavaş ve yarı uykulu — neredeyse kıpırdamaz, neredeyse düşünmez.",
-      "exampleGloss": "Ağustos'un ağır sıcağında ofis torpid düştü.",
+      "exampleGloss": "Ağustos'un ağır sıcağında ofis uyuşukluğa düştü.",
       "origin": "Latince",
       "rootMeanings": [
         "uyuşmak, ağırlaşmak",
@@ -455,7 +455,7 @@
       "partOfSpeech": "isim",
       "definition": "Ortaçağ hanesini yöneten kâhya veya görevli.",
       "friendly": "Ortaçağ versiyonu bir personel şefi — lordun evini ve malikânesini günlük yürüten güvenilir görevli.",
-      "exampleGloss": "Şatonun seneschal kişisi hasat defterinden konuk listesine her şeyi yönetirdi.",
+      "exampleGloss": "Şatonun kâhyası hasat defterinden konuk listesine her şeyi yönetirdi.",
       "origin": "Frankça / Eski Fransızca",
       "rootMeanings": [
         "yaşlı, kıdemli",
@@ -466,7 +466,7 @@
       "partOfSpeech": "fiil",
       "definition": "Bir konuda uzun uzun konuşmak veya yazmak.",
       "friendly": "Konuya gerçekten dalmak — her açıdan durmaksızın konuşmak veya yazmak.",
-      "exampleGloss": "Ona klasik arabaları sorun, dosdoğru bir saat expatiate eder.",
+      "exampleGloss": "Ona klasik arabaları sorun, dosdoğru bir saat uzun uzadıya anlatır.",
       "origin": "Latince",
       "rootMeanings": [
         "dışarı",
@@ -476,8 +476,8 @@
     "nugatory": {
       "partOfSpeech": "sıfat",
       "definition": "Değersiz, önemsiz; ayrıca geçersiz veya etkisiz.",
-      "friendly": "Temelde hiçbir değeri yok — sözleşmedeki nugatory madde aslında hiçbir şey yapmaz.",
-      "exampleGloss": "Mahkeme eski tüzüğü nugatory saydı, çünkü hiç uygulanmamıştı.",
+      "friendly": "Temelde hiçbir değeri yok — sözleşmedeki hükümsüz madde aslında hiçbir şey yapmaz.",
+      "exampleGloss": "Mahkeme eski tüzüğü hükümsüz saydı, çünkü hiç uygulanmamıştı.",
       "origin": "Latince",
       "rootMeanings": [
         "ıvır zıvır, saçma",
@@ -488,7 +488,7 @@
       "partOfSpeech": "isim",
       "definition": "Bilgelik, keskin yargı.",
       "friendly": "Keskin, pratik bilgelik — yalnızca kitaptan değil deneyimden gelen iyi yargı.",
-      "exampleGloss": "Yaşlı kaptanın sagacity hali mürettebatı birden fazla kez beladan korudu.",
+      "exampleGloss": "Yaşlı kaptanın sağgörüsü mürettebatı birden fazla kez beladan korudu.",
       "origin": "Latince",
       "rootMeanings": [
         "keskin kokulu, zeki",
@@ -499,7 +499,7 @@
       "partOfSpeech": "isim",
       "definition": "Aşağılayarak kullanılan avam veya kitle.",
       "friendly": "\"Ayak takımı\" veya sıradan insanlar için kibirli, küçümseyici söz.",
-      "exampleGloss": "Kont, saray kapısının dışında toplanan canaille kalabalığına hor baktı.",
+      "exampleGloss": "Kont, saray kapısının dışında toplanan ayaktakımına hor baktı.",
       "origin": "İtalyanca / Fransızca",
       "rootMeanings": [
         "köpek",
@@ -510,7 +510,7 @@
       "partOfSpeech": "isim",
       "definition": "Küstah, aşağılayıcı muamele veya dil.",
       "friendly": "Utandırmak için tasarlanmış zalim, hor muamele — acıtsın diye kurulmuş hakaret.",
-      "exampleGloss": "Eseri tanınmadan önce eleştirmenlerden yıllarca contumely çekti.",
+      "exampleGloss": "Eseri tanınmadan önce eleştirmenlerden yıllarca aşağılama çekti.",
       "origin": "Latince",
       "rootMeanings": [
         "ile, kökten",
@@ -521,7 +521,7 @@
       "partOfSpeech": "zarf",
       "definition": "Şüphe veya onaylamama ile; yan bakış.",
       "friendly": "Pek güvenmediğiniz şeye attığınız yan bakış — kuşku dolu bir bakış.",
-      "exampleGloss": "Öğretmen şüpheli derecede temiz ödeve askance baktı.",
+      "exampleGloss": "Öğretmen şüpheli derecede temiz ödeve yan gözle baktı.",
       "origin": "belirsiz / İtalyanca",
       "rootMeanings": [
         "e, doğru",
@@ -532,7 +532,7 @@
       "partOfSpeech": "isim",
       "definition": "Aptal kişi; küt kafa.",
       "friendly": "Biraz kalın kafalı biri için eski usul, neredeyse sevecen hakaret — küt kafa.",
-      "exampleGloss": "\"Seni clodpate,\" güldü, \"harita bütün zaman ters duruyordu.\"",
+      "exampleGloss": "\"Seni mankafa,\" güldü, \"harita bunca zamandır ters duruyordu.\"",
       "origin": "İngilizce",
       "rootMeanings": [
         "toprak parçası",
@@ -543,7 +543,7 @@
       "partOfSpeech": "fiil",
       "definition": "Harekete veya eyleme geçirmek; güdülemek.",
       "friendly": "Bir şeyi harekete geçiren kıvılcım olmak — makinenin açılması veya kişinin nihayet fikir üzerine eyleme geçmesi.",
-      "exampleGloss": "Sözleşmeyi kaybetme korkusu bütün ekibi hafta sonu mesaisine actuated etti.",
+      "exampleGloss": "Sözleşmeyi kaybetme korkusu bütün ekibi harekete geçirip hafta sonu mesaisine soktu.",
       "origin": "Latince",
       "rootMeanings": [
         "yapma, sürme",
@@ -554,7 +554,7 @@
       "partOfSpeech": "isim",
       "definition": "Emanet edilen fonların zimmete geçirilmesi.",
       "friendly": "Size emanet edilen parayı sessizce çalmak — eski bir palto giymiş zimmet.",
-      "exampleGloss": "Veznedarın peculation işi neredeyse on yıl fark edilmedi.",
+      "exampleGloss": "Veznedarın zimmeti neredeyse on yıl fark edilmedi.",
       "origin": "Latince",
       "rootMeanings": [
         "özel mülk",
@@ -565,7 +565,7 @@
       "partOfSpeech": "isim",
       "definition": "Saygın toplumun kenarında görülen grup.",
       "friendly": "Gösterişli ama karanlık sosyal yeraltı — \"saygın\" toplum kurallarının hemen dışında yaşayanlar.",
-      "exampleGloss": "Roman, 1920'ler kabarelerinin demi-monde dünyasında yolunu bulan bir şarkıcıyı izler.",
+      "exampleGloss": "Roman, 1920'ler kabarelerinin yarı âleminde yolunu bulan bir şarkıcıyı izler.",
       "origin": "Fransızca",
       "rootMeanings": [
         "yarı",
@@ -576,7 +576,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Hâlâ var olan; soyu tükenmemiş veya yok edilmemiş.",
       "friendly": "Bugün hâlâ duran — hayatta kalmayı başarmış eski şeyler (elyazması, tür, yapı) için.",
-      "exampleGloss": "İlk baskının bilinen yalnızca üç extant kopyası var.",
+      "exampleGloss": "İlk baskının günümüze ulaşan yalnızca üç kopyası biliniyor.",
       "origin": "Latince",
       "rootMeanings": [
         "dışarı",
@@ -587,7 +587,7 @@
       "partOfSpeech": "isim",
       "definition": "Aldatma; güven ihaneti.",
       "friendly": "Derin, kasıtlı ihanet — birinin haklı olarak beklediği güveni kırmak.",
-      "exampleGloss": "General, müzakere masasındaki eski dostunun perfidy halini asla bağışlamadı.",
+      "exampleGloss": "General, müzakere masasındaki eski dostunun ihanetini asla bağışlamadı.",
       "origin": "Latince",
       "rootMeanings": [
         "içinden, karşı",
@@ -598,7 +598,7 @@
       "partOfSpeech": "isim",
       "definition": "Bölgesel ağız, özellikle standart olmayan.",
       "friendly": "Belirli bir yörede insanların kendine özgü konuşma biçimi — yabancının yakalayamayacağı söz ve ritimlerle dolu.",
-      "exampleGloss": "Büyükannesi aile yemeklerinde hâlâ adanın patois dilini konuşurdu.",
+      "exampleGloss": "Büyükannesi aile yemeklerinde hâlâ adanın yerel ağzını konuşurdu.",
       "origin": "Fransızca",
       "rootMeanings": [
         "kaba konuşma, ağız",
@@ -609,7 +609,7 @@
       "partOfSpeech": "isim",
       "definition": "Bir kişiye veya gruba ait özel hak.",
       "friendly": "Yalnızca sizin olan ayrıcalık — rol, konum veya statüyle gelen hak.",
-      "exampleGloss": "Ailenin tatil yerini seçmek dede için prerogative, herkes bunu bilir.",
+      "exampleGloss": "Ailenin tatil yerini seçmek dedenin ayrıcalığıdır, herkes bunu bilir.",
       "origin": "Latince",
       "rootMeanings": [
         "önce",
@@ -620,7 +620,7 @@
       "partOfSpeech": "isim",
       "definition": "Cesaret, cüret; ayrıca dayanıklılık veya tahammül.",
       "friendly": "Kaba, yürekli direnç — ileri gitme cesareti ve gittikten sonra sürme sertliği.",
-      "exampleGloss": "Haritasız kar fırtınasında geçidi aşmak gerçek hardihood isterdi.",
+      "exampleGloss": "Haritasız kar fırtınasında geçidi aşmak gerçek yüreklilik isterdi.",
       "origin": "Eski Fransızca / İngilizce",
       "rootMeanings": [
         "cesur, dayanıklı",
@@ -631,7 +631,7 @@
       "partOfSpeech": "fiil",
       "definition": "Çiçek açmak; ayrıca gelişmek veya giderek belirmek.",
       "friendly": "Tam ifadeye açılmak — çiçek gibi, veya bir fikrin sonunda kendisi olması gibi.",
-      "exampleGloss": "Resimdeki sessiz yeteneği kendi atölyesi olunca effloresced oldu.",
+      "exampleGloss": "Resimdeki sessiz yeteneği kendi atölyesi olunca serpildi.",
       "origin": "Latince",
       "rootMeanings": [
         "dışarı",
@@ -642,7 +642,7 @@
       "partOfSpeech": "isim",
       "definition": "Düşeyliği belirlemek için ağırlıklı ip; mecazen yargı ölçütü.",
       "friendly": "Dosdoğru aşağı sarkan ağırlıklı ip, gerçekten dikey mi diye bakmak için — ve uzantısıyla her şeyi ölçtüğünüz sabit ölçüt.",
-      "exampleGloss": "Kendi dedesinin dürüstlüğünü her karar için bir tür plumb line yaptı.",
+      "exampleGloss": "Kendi dedesinin dürüstlüğünü her karar için bir tür çekül yaptı.",
       "origin": "Latince / İngilizce",
       "rootMeanings": [
         "kurşun",
@@ -653,7 +653,7 @@
       "partOfSpeech": "zarf",
       "definition": "Seve seve, isteyerek (eski).",
       "friendly": "\"Seve seve\" veya \"memnuniyetle\" demenin eski yolu.",
-      "exampleGloss": "\"I would fain rest here a while,\" diye iç çekti yolcu.",
+      "exampleGloss": "\"Burada bir süre dinlenmeyi pek isterdim,\" diye iç çekti yolcu.",
       "origin": "Eski İngilizce",
       "rootMeanings": [
         "sevinçli, neşeli",
@@ -664,7 +664,7 @@
       "partOfSpeech": "isim",
       "definition": "Sert kamusal eleştiri veya rezalet.",
       "friendly": "Birinin üzerine büyük, görünür biçimde yığılan kamusal utanç — yaygın onaylamamadan gelen rezalet.",
-      "exampleGloss": "Skandal bütün firmaya kamusal opprobrium indirdi.",
+      "exampleGloss": "Skandal bütün firmanın üzerine kamusal bir ayıplama yağdırdı.",
       "origin": "Latince",
       "rootMeanings": [
         "karşı",
@@ -674,8 +674,8 @@
     "mordant": {
       "partOfSpeech": "sıfat",
       "definition": "Keskin alaycı, zekâ veya eleştiride ısırıcı.",
-      "friendly": "Dişi olan zekâ — mordant bir yorum tam da nişanı iyi olduğu için biraz acıtır.",
-      "exampleGloss": "Onun mordant film eleştirileri yönetmenlerce korkulur, okurlarca sevilirdi.",
+      "friendly": "Dişi olan zekâ — iğneleyici bir yorum tam da nişanı iyi olduğu için biraz acıtır.",
+      "exampleGloss": "Onun iğneleyici film eleştirileri yönetmenlerce korkulur, okurlarca sevilirdi.",
       "origin": "Latince / Fransızca",
       "rootMeanings": [
         "ısırmak",
@@ -686,7 +686,7 @@
       "partOfSpeech": "isim",
       "definition": "Resmi bildiri, çoğu kez siyasal veya askerî.",
       "friendly": "Büyük, resmi duyuru — genellikle yeni hükümet, ayaklanma veya büyük kararname ilan eder.",
-      "exampleGloss": "Generalin pronunciamento bildirisi şafakta yeni hükümeti duyurdu.",
+      "exampleGloss": "Generalin askerî bildirisi şafakta yeni hükümeti duyurdu.",
       "origin": "İspanyolca",
       "rootMeanings": [
         "ileri",
@@ -697,7 +697,7 @@
       "partOfSpeech": "isim",
       "definition": "Yüzeysel bilgisi olup uzmanmış gibi yapan kişi.",
       "friendly": "Konunun yüzeyini sıyırıp sonra ders kitabını yazmış gibi konuşan kişi.",
-      "exampleGloss": "Akşam yemeğindeki sciolist, masadaki gerçek astrofizikçiyi kendinden emin düzeltti.",
+      "exampleGloss": "Akşam yemeğindeki çokbilmiş, masadaki gerçek astrofizikçiyi kendinden emin düzeltti.",
       "origin": "Latince",
       "rootMeanings": [
         "bilmek",
@@ -708,7 +708,7 @@
       "partOfSpeech": "isim",
       "definition": "Yaşlılıkta zihinsel yetilerin gerilemesi.",
       "friendly": "Zihin keskinliğinin solmaya başladığı çok yaşlılığın sisli, unutkan dönemi.",
-      "exampleGloss": "Dotage döneminde her ziyarette aynı üç öyküyü anlatırdı, her seferinde yeniymiş gibi.",
+      "exampleGloss": "Bunaklık döneminde her ziyarette aynı üç öyküyü anlatırdı, her seferinde yeniymiş gibi.",
       "origin": "Orta İngilizce",
       "rootMeanings": [
         "bunamak, aptallaşmak",
@@ -719,7 +719,7 @@
       "partOfSpeech": "isim",
       "definition": "Rüzgârdan korunmuş yan.",
       "friendly": "Tepenin, geminin, duvarın rüzgârın pek ulaşamadığı sakin, korunaklı yanı.",
-      "exampleGloss": "Yürüyüşçüler rüzgârı kaçırmak için sırtın lee side yanına çadır kurdu.",
+      "exampleGloss": "Yürüyüşçüler rüzgârı kaçırmak için sırtın rüzgâraltı yanına çadır kurdu.",
       "origin": "Eski İngilizce",
       "rootMeanings": [
         "sığınak, koruma",
@@ -730,7 +730,7 @@
       "partOfSpeech": "fiil",
       "definition": "Bir darbeyi, soruyu veya savı savuşturmak.",
       "friendly": "Ritmi kaçırmadan pürüzsüz savuşturmak — kılıç darbesi, sıkıntılı soru veya suçlama.",
-      "exampleGloss": "Muhabirin çetrefil sorusunu kolay bir şakayla parried etti.",
+      "exampleGloss": "Muhabirin çetrefil sorusunu kolay bir şakayla savuşturdu.",
       "origin": "Fransızca",
       "rootMeanings": [
         "savuşturmak",
@@ -741,7 +741,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Kötü kokulu, zararlı.",
       "friendly": "Neredeyse zehirli gelen koku — solumak tehlikeli gelecek kadar kötü koku.",
-      "exampleGloss": "Güneş batınca bataklıktan mephitic bir koku yükseldi.",
+      "exampleGloss": "Güneş batınca bataklıktan pis kokulu bir buğu yükseldi.",
       "origin": "Latince",
       "rootMeanings": [
         "zararlı buhar",
@@ -752,7 +752,7 @@
       "partOfSpeech": "isim",
       "definition": "Lüks ve zevke adanmış kişi.",
       "friendly": "Konfor ve şımartma için yaşayan — güzel yemek, yumuşak yatak, kolay hayat — aşırılığıyla ünlü antik Yunan kenti Sybaris'ten.",
-      "exampleGloss": "Gerçek bir sybarite, küvetsiz otel odasını reddetti.",
+      "exampleGloss": "Gerçek bir sefa düşkünü olarak küvetsiz otel odasını reddetti.",
       "origin": "Yunanca",
       "rootMeanings": [
         "lüksüyle ünlü antik Yunan kenti",
@@ -763,7 +763,7 @@
       "partOfSpeech": "fiil",
       "definition": "Bir parçayı kasıtlı olarak bir yana koymak veya yok saymak.",
       "friendly": "Bulmacanın bir parçasını kasten zihinde kenara koyup gerisine temiz odaklanmak.",
-      "exampleGloss": "Maliyeti bir an prescind edelim ve planın gerçekten işleyip işlemediğini soralım.",
+      "exampleGloss": "Maliyeti bir an bir yana bırakalım ve planın gerçekten işleyip işlemediğini soralım.",
       "origin": "Latince",
       "rootMeanings": [
         "önce, uzağa",
@@ -774,7 +774,7 @@
       "partOfSpeech": "fiil",
       "definition": "Şiddetle eleştirmek; ayrıca derisini soymak.",
       "friendly": "Sert eleştiriyle birini parçalamak — sözle, sanki gerçekten derisini soyuyormuş gibi.",
-      "exampleGloss": "Eleştirmenler devam filmini, aslın hayranlarının sevdiği her şeye ihanet ettiği için excoriated etti.",
+      "exampleGloss": "Eleştirmenler devam filmini, aslın hayranlarının sevdiği her şeye ihanet ettiği için yerden yere vurdu.",
       "origin": "Latince",
       "rootMeanings": [
         "kopuk",
@@ -785,7 +785,7 @@
       "partOfSpeech": "fiil",
       "definition": "Kanıt veya delil olarak göstermek.",
       "friendly": "Noktanızı destekleyecek olgu veya örnek öne sürmek — biri \"what's your evidence?\" diye sorunca işaret ettiğiniz şey.",
-      "exampleGloss": "Avukat müvekkilinin mazeretini desteklemek için üç tanık adduced etti.",
+      "exampleGloss": "Avukat müvekkilinin mazeretini desteklemek için üç tanık gösterdi.",
       "origin": "Latince",
       "rootMeanings": [
         "e, doğru",
@@ -796,7 +796,7 @@
       "partOfSpeech": "isim",
       "definition": "Yolculuklar veya dolaşmalar, özellikle uzun ve geniş olanlar.",
       "friendly": "Uzun, dolaşan yolculuklar — sizi evden uzun süre uzağa götüren geniş gezinti.",
-      "exampleGloss": "Üç kıtadaki peregrinations bir raf dolusu seyahat günlüğünü doldurdu.",
+      "exampleGloss": "Üç kıtadaki gezip dolaşmaları bir raf dolusu seyahat günlüğünü doldurdu.",
       "origin": "Latince",
       "rootMeanings": [
         "içinden",
@@ -807,7 +807,7 @@
       "partOfSpeech": "isim",
       "definition": "Dilenci, veya sadakayla yaşayan.",
       "friendly": "Hayır dilenerek yaşayan — tarihte yoksulluk yemini edip bağışla yaşayan keşişleri de anlatırdı.",
-      "exampleGloss": "Mendicant keşişler hiçbir şeye sahip değildi ve tamamen köylülerin iyiliğine bel bağlardı.",
+      "exampleGloss": "Dilenci keşişler hiçbir şeye sahip değildi ve tamamen köylülerin iyiliğine bel bağlardı.",
       "origin": "Latince",
       "rootMeanings": [
         "dilenmek",
@@ -818,7 +818,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Son derece cömert.",
       "friendly": "Neredeyse gösterişli ölçekte cömert — insanları biraz nefesini tutturan armağan.",
-      "exampleGloss": "Munificent bağış kütüphanenin bütün yeni kanadını finanse etti.",
+      "exampleGloss": "Cömert bağış kütüphanenin bütün yeni kanadını finanse etti.",
       "origin": "Latince",
       "rootMeanings": [
         "armağan, hizmet",
@@ -829,7 +829,7 @@
       "partOfSpeech": "isim",
       "definition": "Besin yokluğundan tükenme; ayrıca canlılık yokluğu.",
       "friendly": "Beslenmemiş veya yakıtsız kalmaktan zayıf, tükenmiş hal — sözcük anlamıyla açlıktan, mecazen koşacak bir şey kalmamasından.",
-      "exampleGloss": "Kuşatma sonunda askerler inanition eşiğindeydi.",
+      "exampleGloss": "Kuşatma sonunda askerler bitkinlik eşiğindeydi.",
       "origin": "Latince",
       "rootMeanings": [
         "boş, yok",
@@ -840,7 +840,7 @@
       "partOfSpeech": "isim",
       "definition": "Acı, küfürlü eleştiri.",
       "friendly": "Adilin çok ötesine geçip öfkeli, acı bir nutka dönmüş eleştiri.",
-      "exampleGloss": "Çevrimiçi yorumlar dakikalar içinde saf vituperation haline eridi.",
+      "exampleGloss": "Çevrimiçi yorumlar dakikalar içinde saf sövgüye dönüştü.",
       "origin": "Latince",
       "rootMeanings": [
         "kusur",
@@ -851,7 +851,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Düşmanca, etkisi zararlı.",
       "friendly": "Sessizce bile size karşı çalışan — çıkarlarınıza dost olmayan koşullar veya tutumlar.",
-      "exampleGloss": "Yeni politika, niyet o olmasa da küçük işletmelere inimical idi.",
+      "exampleGloss": "Yeni politika, niyet o olmasa da küçük işletmelere zararlıydı.",
       "origin": "Latince",
       "rootMeanings": [
         "değil",
@@ -862,7 +862,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Çoğu kez haksız karşılaştırmalarla kin veya hoşnutsuzluk uyandırmaya yatkın.",
       "friendly": "Birini küçümsenmiş hissettirmeye mahkûm — genellikle insanları veya şeyleri haksız yığdığı için.",
-      "exampleGloss": "Kardeşleri \"Anne kimi en çok seviyor\" diye sıralamak kimsenin oynamaması gereken invidious bir oyundur.",
+      "exampleGloss": "Kardeşleri \"Anne kimi en çok seviyor\" diye sıralamak kimsenin oynamaması gereken gücendirici bir oyundur.",
       "origin": "Latince",
       "rootMeanings": [
         "kıskançlık",
@@ -873,7 +873,7 @@
       "partOfSpeech": "isim",
       "definition": "Daha düşük rütbe veya statüdeki kişi; ast.",
       "friendly": "Komuta zincirinde veya toplumsal merdivende daha aşağıda olan — daha güçlü birinin altında çalışan genç.",
-      "exampleGloss": "Genç bir subaltern olarak emir vermeden çok önce emir aldı.",
+      "exampleGloss": "Genç bir ast subay olarak emir vermeden çok önce emir aldı.",
       "origin": "Latince",
       "rootMeanings": [
         "altında",
@@ -884,7 +884,7 @@
       "partOfSpeech": "fiil",
       "definition": "Güçlü nefret duymak veya dile getirmek.",
       "friendly": "Yüksek sesle lanetleyecek kadar tiksinmek — saf, sesli nefret.",
-      "exampleGloss": "Köylüler vergi tahsildarının arabası her geçtiğinde onu execrated etti.",
+      "exampleGloss": "Köylüler vergi tahsildarının arabası her geçtiğinde onu lanetledi.",
       "origin": "Latince",
       "rootMeanings": [
         "dışına",
@@ -895,7 +895,7 @@
       "partOfSpeech": "isim",
       "definition": "Deri veya kabuk gibi doğal dış örtü.",
       "friendly": "Doğanın kendi koruyucu paketi — deri, kabuk, kavuz veya kabuk, canlıyı örten ve koruyan ne varsa.",
-      "exampleGloss": "Kaplumbağa kabuğu son derece sağlam bir integument örneğidir.",
+      "exampleGloss": "Kaplumbağa kabuğu son derece sağlam bir dış örtüdür.",
       "origin": "Latince",
       "rootMeanings": [
         "üzerinde, örten",
@@ -906,7 +906,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Masum, naif, çocuksu yalınlık gösteren; \"disingenuous\"in karşıtı.",
       "friendly": "Açıkça güvenen ve biraz naif, gizli gündemsiz — \"clever\" anlamına gelen \"ingenious\" ile karıştırılması kolay.",
-      "exampleGloss": "Onun ingenuous sorusu — \"neden biri bunun hakkında yalan söylesin?\" — ne kadar az hileli olduğunu gösterdi.",
+      "exampleGloss": "Onun saf sorusu — \"neden biri bunun hakkında yalan söylesin?\" — ne kadar az hileli olduğunu gösterdi.",
       "origin": "Latince",
       "rootMeanings": [
         "içinde, yerli",
@@ -917,7 +917,7 @@
       "partOfSpeech": "isim",
       "definition": "Küçük ayrıntılara veya kurallara aşırı düşkünlük.",
       "friendly": "Büyük resmi kaçırıp küçük kurallarda kaybolmak — kimsenin umursamadığı ince yazıya saplanmak.",
-      "exampleGloss": "Oxford virgülü üzerine pedantry bütün toplantıyı rayından çıkardı.",
+      "exampleGloss": "Oxford virgülü üzerine bilgiçliği bütün toplantıyı rayından çıkardı.",
       "origin": "İtalyanca / Latince",
       "rootMeanings": [
         "çocukların öğretmeni",
@@ -928,7 +928,7 @@
       "partOfSpeech": "isim",
       "definition": "İnce, dikkatli inceleme.",
       "friendly": "Taş bırakmayan derin bakış — her ayrıntıyı gerçek özenle tarama.",
-      "exampleGloss": "Defterlerin dikkatli perscrutation işleminden sonra tutarsızlık ortaya çıktı.",
+      "exampleGloss": "Defterlerin dikkatli ve ayrıntılı incelenmesinden sonra tutarsızlık ortaya çıktı.",
       "origin": "Latince",
       "rootMeanings": [
         "içinden, kökten",
@@ -939,7 +939,7 @@
       "partOfSpeech": "fiil",
       "definition": "İtiraz yükseltmek; isteksizlik göstermek.",
       "friendly": "Hemen uymak yerine nazikçe geri itmek veya tereddüt — yumuşak \"I'd rather not\".",
-      "exampleGloss": "Okumadan imzalaması istenince demurred etti.",
+      "exampleGloss": "Okumadan imzalaması istenince çekindi.",
       "origin": "Latince / Fransızca",
       "rootMeanings": [
         "den, uzağa",
@@ -950,7 +950,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Yüzeyde inandırıcı görünen ama aslında yanlış.",
       "friendly": "İlk bakışta ikna edici durur, gerçekten kontrol edince çöker.",
-      "exampleGloss": "\"Everyone's doing it\" inceleme altında asla durmayan specious bir savdır.",
+      "exampleGloss": "\"Everyone's doing it\" inceleme altında asla durmayan aldatıcı bir savdır.",
       "origin": "Latince",
       "rootMeanings": [
         "görünüş, bakış",
@@ -961,7 +961,7 @@
       "partOfSpeech": "isim",
       "definition": "Samimiyetsiz, ikiyüzlü konuşma, çoğu kez ahlakçı.",
       "friendly": "Erdemli duran ama gerçek duyguyla desteklenmeyen vaaz — otomatik ahlak pozu.",
-      "exampleGloss": "Kimseye izin vermeyen bir şirketin \"aile\" üzerine kurumsal cant dilinden bıkmıştı.",
+      "exampleGloss": "Kimseye izin vermeyen bir şirketin \"aile\" üzerine kurumsal riyakâr söyleminden bıkmıştı.",
       "origin": "Latince",
       "rootMeanings": [
         "şarkı söylemek (sonra: tekdüze jargon)",
@@ -972,7 +972,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Cesaretten yoksun, korkak.",
       "friendly": "Omurgasızlığa varan ürkek — açıkça önemliyken bile ayağa kalkamayacak kadar korkak.",
-      "exampleGloss": "Kurulun pusillanimous sessizliği skandalın kontrolden çıkmasına yol açtı.",
+      "exampleGloss": "Kurulun korkak sessizliği skandalın kontrolden çıkmasına yol açtı.",
       "origin": "Latince",
       "rootMeanings": [
         "çok küçük",
@@ -983,7 +983,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Tilki gibi; kurnaz, açıkgöz.",
       "friendly": "Tilki gibi kurnaz ve zeki — çabuk zekâlı, biraz sinsi, hep bir adım önde.",
-      "exampleGloss": "Boşluğu görür görmez vulpine bir sırıtış verdi.",
+      "exampleGloss": "Boşluğu görür görmez tilki gibi bir sırıtış verdi.",
       "origin": "Latince",
       "rootMeanings": [
         "tilki",
@@ -994,7 +994,7 @@
       "partOfSpeech": "zarf",
       "definition": "Birbiri ardına, sırayla.",
       "friendly": "Sıkı sıkıya birer birer, sırayla ele almak — atlama yok, iki birden yok.",
-      "exampleGloss": "Yargıç on iki talebin her birini seriatim ele aldı.",
+      "exampleGloss": "Yargıç on iki talebin her birini sırayla ele aldı.",
       "origin": "Latince",
       "rootMeanings": [
         "sıra, dizi",
@@ -1005,7 +1005,7 @@
       "partOfSpeech": "isim",
       "definition": "Aşırı tutumluluk; cimrilik.",
       "friendly": "Parayı (veya sözü, kaynağı) makul tutumluluğun ötesinde sıkmak.",
-      "exampleGloss": "Onun parsimony hali efsaneydi — çay poşetini üç kez kullandı.",
+      "exampleGloss": "Onun cimriliği efsaneydi — çay poşetini üç kez kullandı.",
       "origin": "Latince",
       "rootMeanings": [
         "esirgemek, tutumlu olmak",
@@ -1016,7 +1016,7 @@
       "partOfSpeech": "isim",
       "definition": "Düzeltme, özellikle metinde.",
       "friendly": "Bir yazıya yapılan onarım — eski veya önemli bir metindeki hatayı düzelten akademik dokunuş.",
-      "exampleGloss": "Yeni baskı özgün elyazmasına onlarca emendations içerir.",
+      "exampleGloss": "Yeni baskı özgün elyazmasına onlarca düzelti içerir.",
       "origin": "Latince",
       "rootMeanings": [
         "dışına",
@@ -1027,7 +1027,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Yeme içmede ölçülü.",
       "friendly": "Yiyecek ve içecek çevresinde kasıtlı çekingen — asla aşırıya kaçmaz, tabakta biraz bırakır.",
-      "exampleGloss": "Abstemious alışkanlıkları, yaşıtları yavaşladıktan sonra da onu uzun süre keskin tuttu.",
+      "exampleGloss": "Ölçülü alışkanlıkları, yaşıtları yavaşladıktan sonra da onu uzun süre keskin tuttu.",
       "origin": "Latince",
       "rootMeanings": [
         "uzağında",
@@ -1038,7 +1038,7 @@
       "partOfSpeech": "isim",
       "definition": "Dilbilgisi hatası veya görgü kuralı ihlali.",
       "friendly": "Dilbilgisi veya görgüde küçük sürçme — kılı kırk yaranı ürperten türden hata.",
-      "exampleGloss": "\"Between you and I\" dilbilgicileri hâlâ irkilten yaygın bir solecism örneğidir.",
+      "exampleGloss": "\"Between you and I\" dilbilgicileri hâlâ irkilten yaygın bir dil yanlışıdır.",
       "origin": "Yunanca",
       "rootMeanings": [
         "kötü Yunancasıyla bilinen Kilikya kenti",
@@ -1049,7 +1049,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Grup içi çatışmayla ilgili; karşılıklı yıkıcı.",
       "friendly": "Grubu içeriden parçalayan iç kavga — herkesin kaybettiği, çünkü aile aileye karşı.",
-      "exampleGloss": "Partinin internecine çekişmesi dışarıdaki herhangi bir rakibin vereceğinden çok zarar verdi.",
+      "exampleGloss": "Partinin kendi içindeki çekişmesi dışarıdaki herhangi bir rakibin vereceğinden çok zarar verdi.",
       "origin": "Latince",
       "rootMeanings": [
         "arasında, içinde",
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "sıfat / isim",
       "definition": "Kayıtsız, umursamaz tutum.",
       "friendly": "Omuz silkmenin bütün bir kişiliğe dönüşmesi — eskiden önemli olanlara o kadar az aldırır ki hiçbir şey çabaya değmez.",
-      "exampleGloss": "Ödül törenine pococurante tutumu, ne kadar çok çalıştığını bilen herkesi şaşırttı.",
+      "exampleGloss": "Ödül törenine kayıtsız tutumu, ne kadar çok çalıştığını bilen herkesi şaşırttı.",
       "origin": "İtalyanca",
       "rootMeanings": [
         "az",
@@ -1071,7 +1071,7 @@
       "partOfSpeech": "isim",
       "definition": "Karışık, karmaşık durum veya uyuşmazlık.",
       "friendly": "Anlaması zor dolaşık, dağınık durum — bir kısmı yanlış anlama, bir kısmı drama, hepsi kargaşa.",
-      "exampleGloss": "Bütün oturma planı imbroglio hali yanlış konmuş bir isim kartıyla başladı.",
+      "exampleGloss": "Bütün oturma planı karmaşası yanlış konmuş bir isim kartıyla başladı.",
       "origin": "İtalyanca",
       "rootMeanings": [
         "içinde",
@@ -1081,8 +1081,8 @@
     "minatory": {
       "partOfSpeech": "sıfat",
       "definition": "Tehditkâr, korkutucu.",
-      "friendly": "Yanıltmaz bir tehdit havası taşıyan — minatory bakış veya mektup ardından kötü bir şey gelebileceğini çok açık eder.",
-      "exampleGloss": "Mektubun minatory tonu kiracıyı zarfı açmadan tedirgin etti.",
+      "friendly": "Yanıltmaz bir tehdit havası taşıyan — tehditkâr bakış veya mektup ardından kötü bir şey gelebileceğini çok açık eder.",
+      "exampleGloss": "Mektubun tehditkâr tonu kiracıyı zarfı açmadan tedirgin etti.",
       "origin": "Latince",
       "rootMeanings": [
         "tehdit etmek",
@@ -1093,7 +1093,7 @@
       "partOfSpeech": "isim",
       "definition": "Güçlü kamusal eleştiri veya sözlü sövme.",
       "friendly": "Yüksek sesli kamusal kınama — herkesin önünde oynanan yakıcı eleştiri.",
-      "exampleGloss": "İhbarcı, tarih onu haklı çıkarmadan önce yıllarca kamusal obloquy ile yüzleşti.",
+      "exampleGloss": "İhbarcı, tarih onu haklı çıkarmadan önce yıllarca kamusal karalamayla yüzleşti.",
       "origin": "Latince",
       "rootMeanings": [
         "karşı",
@@ -1104,7 +1104,7 @@
       "partOfSpeech": "isim",
       "definition": "Duygu veya eylemde ani şiddetli patlama.",
       "friendly": "Bir anda sizi yutan ani, yoğun patlama — gülme, öfke veya öksürük nöbeti dalga gibi gelir.",
-      "exampleGloss": "Odadaki kimseye açıklayamayacağı bir gülme paroxysm nöbetine yakalandı.",
+      "exampleGloss": "Odadaki kimseye açıklayamayacağı bir gülme nöbetine yakalandı.",
       "origin": "Yunanca",
       "rootMeanings": [
         "öte",
@@ -1115,7 +1115,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Dış kaynaktan eklenen, içkin olmayan.",
       "friendly": "Baştan inşa edilmek yerine dışarıdan vidalanmış — ekstra, çekirdek değil.",
-      "exampleGloss": "Yorum adscititious geliyor, sanki bitmiş bir metne yapıştırılmış.",
+      "exampleGloss": "Yorum sonradan eklenmiş geliyor, sanki bitmiş bir metne yapıştırılmış.",
       "origin": "Latince",
       "rootMeanings": [
         "e, ayrıca",
@@ -1126,7 +1126,7 @@
       "partOfSpeech": "isim",
       "definition": "Bilgi yokluğu, cehalet.",
       "friendly": "Yalın bilmeme — yargı eklenmemiş bilgi boşluğu.",
-      "exampleGloss": "Fransız şarabı konusunda nescience halini kabul etti ve sommeliere bıraktı.",
+      "exampleGloss": "Fransız şarabı konusundaki bilgisizliğini kabul etti ve seçimi sommeliere bıraktı.",
       "origin": "Latince",
       "rootMeanings": [
         "değil",
@@ -1137,7 +1137,7 @@
       "partOfSpeech": "isim",
       "definition": "Cinsel konulara aşırı ilgi.",
       "friendly": "Müstehcen her şeye fazla hevesli, süzülen bir merak — sağlıklıyı geçip burnunu sokmaya dönmüş ilgi.",
-      "exampleGloss": "Magazin'in çiftin özel hayatına prurience hali saplantıya yakındı.",
+      "exampleGloss": "Magazinin çiftin özel hayatına duyduğu şehvetli merak saplantıya yakındı.",
       "origin": "Latince",
       "rootMeanings": [
         "kaşınmak, özlemek",
@@ -1148,7 +1148,7 @@
       "partOfSpeech": "sıfat",
       "definition": "İsli, karanlık, bulanık.",
       "friendly": "Karanlık ve dumanlı görünümlü, her şeyin ince is tabakasıyla kaplı gibi.",
-      "exampleGloss": "Alacakaranlıkta fabrika kasabasının üstünde fuliginous bir pus asılıydı.",
+      "exampleGloss": "Alacakaranlıkta fabrika kasabasının üstünde isli bir pus asılıydı.",
       "origin": "Latince",
       "rootMeanings": [
         "is",
@@ -1159,7 +1159,7 @@
       "partOfSpeech": "fiil",
       "definition": "Yadsımak veya çelişmek.",
       "friendly": "Başkasının söylediğine kesin karşı konuşmak — \"that's not so\" demek.",
-      "exampleGloss": "Kimse yaşlı kaptanın fırtına anlatısını gainsay etmeye cesaret edemedi.",
+      "exampleGloss": "Kimse yaşlı kaptanın fırtına anlatısını yalanlamaya cesaret edemedi.",
       "origin": "Orta İngilizce",
       "rootMeanings": [
         "karşı",
@@ -1170,7 +1170,7 @@
       "partOfSpeech": "isim",
       "definition": "Tembellik, üşengeçlik (Latinceden).",
       "friendly": "Saf tembellik için eski bir Latince söz — hiçbir şey yapmak istememenin çekişi.",
-      "exampleGloss": "Keşişler ignavia halini ruhun sessiz tehlikelerinden biri diye vaaz etti.",
+      "exampleGloss": "Keşişler tembelliği ruhun sessiz tehlikelerinden biri diye vaaz etti.",
       "origin": "Latince",
       "rootMeanings": [
         "değil",
@@ -1181,7 +1181,7 @@
       "partOfSpeech": "isim",
       "definition": "Armayı gösteren kalkan.",
       "friendly": "Ailenin armasını gösteren kalkan biçimli amblem — heraldik \"isim levhası\".",
-      "exampleGloss": "Ailenin escutcheon kalkanı hâlâ eski malikânenin ön kapısının üstünde asılı.",
+      "exampleGloss": "Ailenin arma kalkanı hâlâ eski malikânenin ön kapısının üstünde asılı.",
       "origin": "Latince / Eski Fransızca",
       "rootMeanings": [
         "kalkan",
@@ -1192,7 +1192,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Eskimiş, geçersiz veya yaştan emekli.",
       "friendly": "Yararlı zirvesini geçmiş ve meraya çıkarılmış — işi sürdürmek için fazla eski moda veya yıpranmış.",
-      "exampleGloss": "Superannuated yazıcı on beş yıllık kâğıt sıkışmasından sonra nihayet değiştirildi.",
+      "exampleGloss": "Eskimiş yazıcı on beş yıllık kâğıt sıkışmasından sonra nihayet değiştirildi.",
       "origin": "Latince",
       "rootMeanings": [
         "öte",
@@ -1203,7 +1203,7 @@
       "partOfSpeech": "isim",
       "definition": "Yedekler, özellikle tıpta.",
       "friendly": "Asıl tedavi yokken kullanılan yedek ilaçlar — esasen tıbbi yedek oyuncu.",
-      "exampleGloss": "Savaş doktorları uygun ilaçlar bitince sıkça succedanea ilaçlara bel bağlardı.",
+      "exampleGloss": "Savaş doktorları uygun ilaçlar bitince sıkça ikame ilaçlara bel bağlardı.",
       "origin": "Latince",
       "rootMeanings": [
         "yerine",
@@ -1214,7 +1214,7 @@
       "partOfSpeech": "isim",
       "definition": "Övüngen, palavracı konuşma.",
       "friendly": "Büyük, palavracı övünme — kendi büyüklüğü hakkında çoğu hava olan yüksek ses.",
-      "exampleGloss": "Projeyi \"tek başına\" kurtardığına dair rodomontade hali orada gerçekten bulunan kimseyi kandırmadı.",
+      "exampleGloss": "Projeyi \"tek başına\" kurtardığına dair palavrası orada gerçekten bulunan kimseyi kandırmadı.",
       "origin": "İtalyanca",
       "rootMeanings": [
         "Orlando Furioso'daki övüngen şövalye",
@@ -1225,7 +1225,7 @@
       "partOfSpeech": "fiil",
       "definition": "Bir şeye hile veya aldatmayla ulaşmak.",
       "friendly": "Adil oyun yerine sinsi triklerle hedefe kıvırarak varmak.",
-      "exampleGloss": "İnce yazıyla dolu bir sözleşmeyle anlaşmaya chicaned etti.",
+      "exampleGloss": "İnce yazıyla dolu bir sözleşmeyle anlaşmaya hileyle sızdı.",
       "origin": "Fransızca",
       "rootMeanings": [
         "kılı kırk yarmak, aldatmak",
@@ -1247,7 +1247,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Biçimsel kurallara veya önemsiz ayrıntıya aşırı düşkün.",
       "friendly": "Küçük şeylerde fazla katı — aslında hiçbir şeyi değiştirmeyen teknik ayrıntıları düzeltmek.",
-      "exampleGloss": "Bir metin iletisinde \"who\" ile \"whom\" tartışmak biraz pedantic geldi.",
+      "exampleGloss": "Bir metin iletisinde \"who\" ile \"whom\" tartışmak biraz bilgiçlik geldi.",
       "origin": "İtalyanca / Yunanca",
       "rootMeanings": [
         "çocuk kılavuzu, öğretmen",
@@ -1258,7 +1258,7 @@
       "partOfSpeech": "isim",
       "definition": "Parıldayan, kıvılcımlanan ışık.",
       "friendly": "Hızlı, parıldayan bir ışık çakması — suda sıçrayan güneş veya ışığı yakalayan elmas düşünün.",
-      "exampleGloss": "Avizenin coruscation ışıltısı balo salonunun her köşesine ışık saçtı.",
+      "exampleGloss": "Avizenin parıltısı balo salonunun her köşesine ışık saçtı.",
       "origin": "Latince",
       "rootMeanings": [
         "parıldamak, çakmak",
@@ -1269,7 +1269,7 @@
       "partOfSpeech": "isim",
       "definition": "Acemi, çömez.",
       "friendly": "Bir beceri veya alana yepyeni biri — hâlâ ipin ucunu öğreniyor, henüz uzman değil.",
-      "exampleGloss": "Tyro bir satranç oyuncusu bile o gafı görür.",
+      "exampleGloss": "Acemi bir satranç oyuncusu bile o gafı görür.",
       "origin": "Latince",
       "rootMeanings": [
         "acemi er, çömez",
@@ -1280,7 +1280,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Son derece kötü, iğrenç.",
       "friendly": "Gerçek tiksinti hak edecek kadar kötü — yalnızca \"orta\" değil, gerçekten iğrenç.",
-      "exampleGloss": "Eleştirmen devamı execrable diye niteledi, gişe rakamları da katıldı.",
+      "exampleGloss": "Eleştirmen devamı berbat diye niteledi, gişe rakamları da katıldı.",
       "origin": "Latince",
       "rootMeanings": [
         "lanetlemek",
@@ -1291,7 +1291,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Kan kırmızısı renkte.",
       "friendly": "Derin, canlı kırmızı — taze kan rengi, Shakespeare'in Macbeth'iyle ünlü.",
-      "exampleGloss": "Günbatımı bütün gökyüzünü incarnadine bir ışıltıya çevirdi.",
+      "exampleGloss": "Günbatımı bütün gökyüzünü kan kırmızısı bir ışıltıya çevirdi.",
       "origin": "İtalyanca / Latince",
       "rootMeanings": [
         "içine",
@@ -1302,7 +1302,7 @@
       "partOfSpeech": "isim",
       "definition": "Şeyler arasındaki küçük boşluk.",
       "friendly": "Gözden kaçması kolay ara boşluk — döşeme tahtası çatlağı, programdaki ara.",
-      "exampleGloss": "Eski tuğla yoldaki her interstice arasından otlar fışkırdı.",
+      "exampleGloss": "Eski tuğla yoldaki her aralıktan otlar fışkırdı.",
       "origin": "Latince",
       "rootMeanings": [
         "arasında",
@@ -1313,7 +1313,7 @@
       "partOfSpeech": "isim",
       "definition": "Eleştirel veya kınayıcı sözler.",
       "friendly": "Keskin, onaylamayan yorumlar — azar tonu taşıyan türden eleştiri.",
-      "exampleGloss": "Profesörün deneme üzerine animadversions notları kenarları kırmızı mürekkeple doldurdu.",
+      "exampleGloss": "Profesörün deneme üzerine sitemleri kenarları kırmızı mürekkeple doldurdu.",
       "origin": "Latince",
       "rootMeanings": [
         "zihin",
@@ -1324,7 +1324,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Çürütülemez, yadsınamaz.",
       "friendly": "Öyle sağlam kanıtlanmış ki tartışılacak bir şey yok — dava kapanmıştır.",
-      "exampleGloss": "DNA kanıtı irrefragable idi ve duruşma bir saat içinde bitti.",
+      "exampleGloss": "DNA kanıtı çürütülemezdi ve duruşma bir saat içinde bitti.",
       "origin": "Latince",
       "rootMeanings": [
         "değil",
@@ -1335,7 +1335,7 @@
       "partOfSpeech": "isim",
       "definition": "Karmaşıklık, dolambaç; ayrıca içe kıvrılma.",
       "friendly": "Kendi içine katlanmış, çözülmesi zor karmaşıklık — o kadar sıkı sarılmış ki ayırmak zor.",
-      "exampleGloss": "Konunun involution hali seyircinin yarısını jenerikten sonra çözmeye bırakmıştı.",
+      "exampleGloss": "Konunun giriftliği seyircinin yarısını jenerikten sonra çözmeye bırakmıştı.",
       "origin": "Latince",
       "rootMeanings": [
         "içe, içeri",
@@ -1346,7 +1346,7 @@
       "partOfSpeech": "isim",
       "definition": "Güç veya çaba, \"by dint of\" deyiminde olduğu gibi.",
       "friendly": "Salt çaba veya güç — bugün çoğunlukla \"by dint of\" deyiminde yaşar.",
-      "exampleGloss": "Sınavı salt inatçı çalışmanın dint gücüyle geçti.",
+      "exampleGloss": "Sınavı salt inatçı çalışmanın gücüyle geçti.",
       "origin": "Eski İngilizce",
       "rootMeanings": [
         "darbe, vuruş",
@@ -1357,7 +1357,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Zıvana-geçme eklemiyle birleştirilmiş; sıkı oturtulmuş.",
       "friendly": "Eski usul marangoz yolunda kilitlenmiş — bir parça tam kendisi için kesilmiş deliğe sıkı oturur.",
-      "exampleGloss": "Eski ahırın kirişleri tek çivi olmadan mortised biçimde birleşmişti.",
+      "exampleGloss": "Eski ahırın kirişleri tek çivi olmadan zıvanayla birleşmişti.",
       "origin": "Latince / Fransızca",
       "rootMeanings": [
         "yuvası, delik",
@@ -1368,7 +1368,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Son derece ilgili, yerinde.",
       "friendly": "O ana tam oturan — noktaya kusursuz düşen yorum, alıntı veya örnek.",
-      "exampleGloss": "Onun apposite sözü bütün tartışmayı bir cümlede toparladı.",
+      "exampleGloss": "Onun yerinde sözü bütün tartışmayı bir cümlede toparladı.",
       "origin": "Latince",
       "rootMeanings": [
         "e",
@@ -1379,7 +1379,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Yumuşakça parlayan veya titreyen (ışık); ayrıca hafif zekâ.",
       "friendly": "Yanmak yerine nazikçe parlamak — yumuşak titreşen ışık, veya keskin değil oyuncu zekâ.",
-      "exampleGloss": "Mum ışığı eski yemek odasına lambent bir ışıltı düşürdü.",
+      "exampleGloss": "Mum ışığı eski yemek odasına titrek bir ışıltı düşürdü.",
       "origin": "Latince",
       "rootMeanings": [
         "yalama",
@@ -1390,7 +1390,7 @@
       "partOfSpeech": "isim",
       "definition": "Yalnızlıkta yaşayan dinsel münzevi.",
       "friendly": "Dua ve tefekkürle yalnız yaşamak için dünyadan tamamen çekilen kişi.",
-      "exampleGloss": "Anchorite otuz yılı aşkın kiliseye bitişik küçük bir hücrede yaşadı.",
+      "exampleGloss": "Münzevi otuz yılı aşkın kiliseye bitişik küçük bir hücrede yaşadı.",
       "origin": "Yunanca",
       "rootMeanings": [
         "geri, uzağa",
@@ -1401,7 +1401,7 @@
       "partOfSpeech": "fiil",
       "definition": "Susuzluğu gidermek; yatıştırmak.",
       "friendly": "Bir özlemi tamamen doyurmak — çoğu kez susuzluk, mecazen her derin istek veya ihtiyaç.",
-      "exampleGloss": "Uzun yürüyüşten sonra bir bardak soğuk su susuzluğunu slaked etti.",
+      "exampleGloss": "Uzun yürüyüşten sonra bir bardak soğuk su susuzluğunu giderdi.",
       "origin": "Eski İngilizce",
       "rootMeanings": [
         "gevşek, boş",
@@ -1412,7 +1412,7 @@
       "partOfSpeech": "sıfat",
       "definition": "İğne biçiminde.",
       "friendly": "Uzun, ince ve iğne gibi sivri — çam iğnesi veya keskin küçük kristal biçimi.",
-      "exampleGloss": "Çamlar acicular yapraklarıyla kolay tanınır.",
+      "exampleGloss": "Çamlar iğne yapraklarıyla kolay tanınır.",
       "origin": "Latince",
       "rootMeanings": [
         "iğne",
@@ -1423,7 +1423,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Canlılığı tükenmiş, zayıf, aşırı incelmiş.",
       "friendly": "Eskimiş ve yumuşak — fazla konfor veya incelikten öz gücünü ve coşkusunu yitirmiş.",
-      "exampleGloss": "Eleştirmenler bir zamanlar cesur dergiyi effete, erken yıllarının gölgesi diye niteledi.",
+      "exampleGloss": "Eleştirmenler bir zamanlar cesur dergiyi gücünü yitirmiş, erken yıllarının gölgesi diye niteledi.",
       "origin": "Latince",
       "rootMeanings": [
         "dışarı",
@@ -1434,7 +1434,7 @@
       "partOfSpeech": "isim",
       "definition": "Eklenti veya küçük bağlı hak.",
       "friendly": "Daha büyüğüne yapışık gelen küçük ekstra — asıl şeye ait aksesuar ve ekler.",
-      "exampleGloss": "Kira, garajı ve bütün appurtenances eklerini kapsıyordu.",
+      "exampleGloss": "Kira, garajı ve bütün eklentilerini kapsıyordu.",
       "origin": "Latince / Fransızca",
       "rootMeanings": [
         "e",
@@ -1445,7 +1445,7 @@
       "partOfSpeech": "fiil",
       "definition": "Bir kusuru örtmek veya küçültmek.",
       "friendly": "Yumuşak sözlerle hatayı düzleştirmek, gerçekten küçükmüş gibi göstermek.",
-      "exampleGloss": "Kaçırılan teslim tarihini \"unforeseen challenges\" üzerine belirsiz sözlerle gloze etmeye çalıştı.",
+      "exampleGloss": "Kaçırılan teslim tarihini \"öngörülemeyen zorluklar\" üzerine belirsiz sözlerle geçiştirmeye çalıştı.",
       "origin": "Eski Fransızca / Latince",
       "rootMeanings": [
         "dipnot, açıklama",
@@ -1456,7 +1456,7 @@
       "partOfSpeech": "sıfat",
       "definition": "Erken evrede, yeni başlayan.",
       "friendly": "Yeni yeni belirmeye başlayan — daha büyük bir şeyin ilk, neredeyse görünmez evresi.",
-      "exampleGloss": "Doktorlar hastalık yayılmadan incipient belirtilerini yakaladı.",
+      "exampleGloss": "Doktorlar hastalık yayılmadan başlangıç belirtilerini yakaladı.",
       "origin": "Latince",
       "rootMeanings": [
         "üzerinde, içine",
@@ -1467,7 +1467,7 @@
       "partOfSpeech": "isim",
       "definition": "Yaratıcı esin, özellikle ilahî.",
       "friendly": "Sizden büyük gelen ani esin — fikir başka bir yerden size üflenmiş gibi.",
-      "exampleGloss": "Şair bütün parçanın gece 3'te bir afflatus patlamasıyla geldiğini anlattı.",
+      "exampleGloss": "Şair bütün parçanın gece 3'te bir esin patlamasıyla geldiğini anlattı.",
       "origin": "Latince",
       "rootMeanings": [
         "e, üzerine",

@@ -59,15 +59,15 @@ Where it stands (**re-measured 2026-09-04**, and the tools agree with the list):
 
 | | |
 |---|---|
-| done | **36** locales: `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`, `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK` |
-| left | **24** locales — 3,183 of the 8,040 glosses, 40% |
+| done | **40** locales: `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`, `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`, **`tr`, `az`, `kk`, `ky`** |
+| left | **20** locales — 2,653 of the 8,040 glosses, 33% |
 | never | the 7 quotations that **are** the specimen, in all 60 |
 
-**Every word left reads exactly `bare 24`**, which is worth more than the total: the
-remaining English is spread evenly over 24 whole locales rather than pooled in a few, so no
-locale is half-done and none of the 36 has quietly regressed. The other three fields are
-the same 24 and move with them — **205** bare uses in `friendly` (8 words in all 24, plus
-`fructify` in 13), **15** in `definition`, **2** in `rootMeanings`.
+**Every word left reads exactly `bare 20`**, which is worth more than the total: the
+remaining English is spread evenly over 20 whole locales rather than pooled in a few, so no
+locale is half-done and none of the 40 has quietly regressed. The other three fields are
+the same 20 and move with them — **173** bare uses in `friendly`, **14** in `definition`,
+**2** in `rootMeanings`.
 
 The two tools disagree by 48 and that is not a fault: `gloss_english.py` counts **3,231**
 because it counts mentions along with uses, and `english_in_translation.py` counts **3,183**
@@ -82,10 +82,35 @@ time.
 
 The 24 that remain, and the pairs worth measuring before assuming they are separate jobs:
 
+**The Turkic four are done, 2026-09-04, and the diff said what it was going to cost
+before a word was written.** Over all 134 words x 3 prose fields, **every one of the six
+pairs shares ZERO identical cells.** `tr`/`az` scores 0.63 mean similarity and `kk`/`ky`
+0.54 — and those numbers are the *languages* being close, not the files agreeing. It is the
+`bg`/`mk` case, not the Chinese one: four separate jobs, no derivation available. **Run the
+diff anyway — it costs four minutes and it is the only thing that can tell the two cases
+apart.**
+
+Three things came out of doing them that the count did not predict:
+
+- **Kazakh and Kyrgyz had never had their reported speech translated at all.** `clodpate`
+  kept both halves of its English joke, and `sententious`, `unctuous`, `reify`, `laconism`,
+  `proleptical`, `invidious`, `ingenuous`, `cant`, `rodomontade` and `gloze` each kept
+  their quotation. Turkish and Azerbaijani had already done these. **The English sweep
+  counts the headword, so a locale can owe a third more than its number says.**
+- **Azerbaijani had drifted into Turkish**, exactly as `nb` drifted into Danish and `af`
+  into Dutch: its `trenchant` line read *Laf kalabalığını kesir*, which is Turkish. Third
+  time this project has met it, and no check here can see it — the drifted phrase is real
+  words in the other language. **A locale written beside its big sibling drifts into the
+  sibling.**
+- **Both Cyrillic locales carried broken rows** that no sweep can see, because a broken
+  Kazakh sentence is still Kazakh words: `kk/mordant` said the critics loved the readers,
+  `kk/sagacity` lost its possessive, `ky/anchorite` put the hermit in a biological cell,
+  and both kept the English preposition *by dint of* bodily inside `dint`. All found by
+  rewriting the row, which is the only way any of them is ever found.
+
 | group | locales |
 |---|---|
-| Turkic | `tr`, `az`, `kk`, `ky` — **diff these four first** |
-| Malay | `id`, `ms` — the other obvious pair |
+| Malay | `id`, `ms` — the next obvious pair, and diff it first |
 | Indic | `hi`, `bn`, `ne`, `si`, `ur` |
 | SE Asia | `th`, `lo`, `km`, `my`, `vi`, `fil` |
 | CJK | `ja`, `ko` |

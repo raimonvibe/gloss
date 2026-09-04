@@ -460,13 +460,32 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Thirty-six locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
+**Forty locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
 `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`,
-`nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`,
-`zh_HK`.** **3,183 of the 8,040 glosses still carry the English headword**, and **every
-one of them is in one of the 24 locales left that have a `tool/_data_<locale>.py`** —
-and every word that remains reads exactly `bare 24`, so the 24 are whole locales rather
-than a ragged edge. Every one of the **36 done** has had its `friendly` and `definition`
+`nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`,
+`tr`, `az`, `kk`, `ky`.** **2,653 of the 8,040 glosses still carry the English headword**,
+and **every one of them is in one of the 20 locales left that have a
+`tool/_data_<locale>.py`** — and every word that remains reads exactly `bare 20`, so the 20
+are whole locales rather than a ragged edge.
+
+**The Turkic four were the first group where the diff said "no shortcut" and meant it.**
+Measured before a word was written, as the Chinese three taught: over all 134 words x 3
+prose fields, **every one of the six pairs shares zero identical cells**. `tr`/`az` scores
+0.63 mean similarity and `kk`/`ky` 0.54 — the *languages* being close, not the files
+agreeing. **A similarity score predicts nothing; only a count of identical cells does.**
+Four separate jobs, and they cost four.
+
+**Two of them owed a third more than the count said.** Kazakh and Kyrgyz had never had
+their reported speech translated — `clodpate` kept both halves of its English joke, and ten
+more rows kept their quotations, where Turkish and Azerbaijani had already done them. The
+English sweep counts the **headword**, so untranslated quoted speech inside an otherwise
+finished sentence is invisible to it.
+
+**Azerbaijani had drifted into Turkish**, which is the `nb`-was-Danish and `af`-was-Dutch
+fault a third time: its `trenchant` line read *Laf kalabalığını kesir*. Nothing here can see
+it, because the drifted phrase is real words in the other language. **A locale written
+beside its big sibling drifts into the sibling — and the sibling being finished first is
+what makes it likely, not unlikely.** Every one of the **36 done** has had its `friendly` and `definition`
 fields done in the same pass, so a diff of one is no longer `exampleGloss` lines alone —
 see *`exampleGloss` was never the only field this can happen in* below.
 
