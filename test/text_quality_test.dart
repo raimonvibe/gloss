@@ -150,12 +150,17 @@ void main() {
     // worth reading before it is trusted**: this one had been sitting as
     // evidence of a rule the locale never actually broke.
     //
-    // The two that remain are real. Lao and Burmese render the quotation in
-    // their own scripts, which empties it out — but both are `_data_` locales
-    // that `tool/localize_gloss.py` refuses, so repairing them means editing
-    // `tool/_data_lo.py` and `_data_my.py` and re-emitting.
+    // The two that remained were real, and both are repaired now. Lao and
+    // Burmese had rendered the specious quotation in their own scripts, which
+    // empties it out — "Everyone's doing it" is being examined as a piece of
+    // English reasoning, and a translation of it shows the reader nothing.
+    // They stood only because `tool/localize_gloss.py` refused all 37 `_data_`
+    // locales until 2026-09-03, so nothing could reach them; that refusal, not
+    // the languages, is what kept them here. Lao repaired 2026-09-04.
+    //
+    // **The set is empty, and it is worth keeping empty.** An entry here is a
+    // reader losing the one piece of English the entry exists to show them.
     const alreadyGone = <String>{
-      'lo/specious',
       'my/specious',
     };
 
