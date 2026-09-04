@@ -375,10 +375,11 @@ twice about what engines support.
 
 Written 2026-09-03, at the end of a long session.
 
-**The bundle.** `1.0.0+21` is built and verified twice — the second time at `0ce8105`, — see *Known-good baseline* in
-[CLAUDE.md](CLAUDE.md) for the size, the signature and what was checked inside it. It is
-**not uploaded**; bump the version code when it is. (`+18`, `+19` and `+20` were all built
-and never uploaded — those codes are spent, not lost.)
+**The bundle.** `1.0.0+22` is built and verified at `b3abbbe` — see *Known-good baseline*
+in [CLAUDE.md](CLAUDE.md) for the size, the signature and what was checked inside it. It is
+**not uploaded**. (`+18` through `+21` were all built and never uploaded — those codes are
+spent, not lost.) **Section 9 is what blocks the upload, not the bundle**: the privacy page
+still contradicts the Data safety declaration.
 
 **The branch.** Everything is on `the-respelling-is-for-the-ear`, and **it is merged.**
 `origin/main` is at `67d06a1`, the merge of PR #19 from this branch, and
