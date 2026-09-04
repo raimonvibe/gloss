@@ -460,13 +460,24 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Forty-two locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
-`pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`,
-`nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`,
-`tr`, `az`, `kk`, `ky`, `id`, `ms`.** **2,387 of the 8,040 glosses still carry the English
-headword**, and **every one of them is in one of the 18 locales left that have a
-`tool/_data_<locale>.py`** — and every word that remains reads exactly `bare 18`, so the 18
-are whole locales rather than a ragged edge.
+**All sixty locales are done, as of 2026-09-04.** `exampleGloss` carrying a bare English
+headword is **0 of 8,040**. It was 7,903 when this was first measured and 2,387 at the
+start of the session that closed it; the last eighteen were `vi`, `ja`, `ko`, `fil`, `sw`,
+`th`, `lo`, `my`, `km`, `hi`, `ne`, `bn`, `si`, `ur`, `ar`, `he`, `hy`, `ka`.
+
+What the two tools still report is not a gap, and knowing which is which saves re-opening
+finished work:
+
+- `english_in_translation.py` reports **121 `definition`** and **130 `friendly`**, and
+  every one is a **mention** — *"by dint of"*, *"ingenious"*, *"fricasseed"* — quoted,
+  and required. Translating a word the sentence exists to name empties the sentence out.
+- `gloss_english.py` reports **54**, which are the declared `english_ok` exemptions
+  across all sixty. **39 of the 54 are `mathesis`**, then `imbroglio` in 5, `demi-monde`,
+  `patois` and `sybarite` in 2 each, and one apiece for `ontic`, `neologism`, `laconism`
+  and `solecism`. Those are locales where the local word simply *is* the English one.
+
+**So the number to watch from here is `english_in_translation.py`'s bare column, not
+either tool's total.** A total that never reaches zero is not a job half done.
 
 **`id`/`ms` is the case between the Chinese three and the Turkic four, and it taught the
 measurement the other two did not.** 34 of 402 prose cells identical at **0.86** mean
@@ -488,6 +499,29 @@ makes that likely.
 the two stayed as distinct as they started rather than collapsing together. That check is
 four lines and is the only thing that would catch a locale quietly rewritten into its
 neighbour — **worth running on both sides of every pair from here.**
+
+**It was run on `hi`/`ne` and it worked; it was useless on `hi`/`ur` and the reason is
+worth having.** Nepali was written the day after Hindi in the same script off the same 134
+English sentences, which is as exposed as drift gets. Measured before: 0.69 mean similarity
+but only 3 of 402 identical cells and zero identical example sentences — the `bg`/`mk`
+shape, a number measuring the *languages* rather than the files. Measured after: still 3,
+still the same three shipped **definitions** that were identical before any of it started,
+zero identical sentences, and mean similarity 0.67, **down** from 0.69. The direction is
+the whole of the result.
+
+Urdu was written the day after that, shares a grammar and most of its everyday words with
+Hindi, and **a cell diff scores zero identical whatever happens, because the scripts
+differ.** The guard cannot see the drift it exists to catch. What can is the **register**:
+Urdu takes the Perso-Arabic word where Hindi takes the Sanskrit one, and it did — *عدلِ
+الٰہی* against *ईश्वर-न्यायशास्त्र*, *کنایہ* against *लक्षणा*, *تکرار* against
+*पुनरुक्ति*, *ایجاز*, *قصیدہ*, *شاقول*, *موشگافی*. **Where two locales share vocabulary
+but not script, diff the register, not the cells.**
+
+And where two locales share the *source* of a loan, agreement is not drift at all: Arabic's
+*العدل الإلهي* and *شاقول* stand in Urdu because Urdu took them from Arabic, which is the
+same fact as Greek keeping *αμφιβολία*. Nepali and Hindi converging on *प्रशस्ति*,
+*लक्षणा* and *पुनरुक्ति* is Sanskrit, not carelessness. **Check whether the shared word has
+a shared ancestor before calling it a fault.**
 
 **The Turkic four were the first group where the diff said "no shortcut" and meant it.**
 Measured before a word was written, as the Chinese three taught: over all 134 words x 3
@@ -762,9 +796,13 @@ carried `nb/metonymy` as a locale that had translated the specimen away. **Danis
 right**, so it was never a translation decision — it was a typo, recorded as evidence of a
 rule the locale never broke. The same typo sits in the `clodpate` row. Both repaired, and
 the exemption removed. **An entry in an exemption list is a claim about the data; read it
-before you trust it.** `lo/specious` and `my/specious` stay, and those two are real — Lao
-and Burmese render the quotation in their own scripts — but both are `_data_` locales, so
-repairing them means editing the generator.
+before you trust it.** `lo/specious` and `my/specious` were real — Lao and Burmese
+rendered the quotation in their own scripts — and both were repaired on 2026-09-04, so
+**`alreadyGone` is `<String>{}` and worth keeping that way.** Neither was ever a
+translation decision either: both stood only because `localize_gloss.py` refused all 37
+`_data_` locales until 2026-09-03, so nothing could reach the file. That refusal, not the
+languages, is what kept them. An entry in that set is a reader losing the one piece of
+English the entry exists to show them.
 
 **Serbian was not written; it was transliterated from Croatian, and the transliterator ran
 out before it finished.** This is the worst thing found in the shipped data so far, and no
@@ -984,8 +1022,23 @@ It now also allows `。` and `！？` for Japanese and Chinese, `।॥` for Hin
 Arabic, `։` for Armenian, and — since Greek — the semicolon, because **Greek asks a question
 with `;`**. Each of those would have failed the same way. Worth expecting one of these per
 script family, and worth noticing that **the check failing is the tool working**: nothing
-was written, and the fault was in the rule rather than in the text. Five script families in,
+was written, and the fault was in the rule rather than in the text. Six script families in,
 the rule has never once been right the first time and has never once been wrong twice.
+
+**Thai closed that list a different way, and it is the more interesting one.** Khmer's `។`
+and Burmese's `။` were the usual answer — a character to add, measured off the shipped data
+rather than guessed (`km` ends 132 of its 134 on `។`, `my` 133 on `။`), and without them
+both locales would have been refused whole the way German was. **Thai marks the end of a
+sentence with nothing at all.** It runs its words together, separates clauses with a space,
+and ends on an ordinary letter, so there is no character to add and the question has no
+answer rather than a negative one. `NO_SENTENCE_FINAL` in `localize_gloss.py` names the
+locale instead.
+
+The hole that opens is narrower than it looks and worth stating rather than apologising
+for: the check exists to catch a sentence truncated in generation, and **in Thai a
+truncation and a correct ending are the same shape**, so nothing is waved through that the
+rule could otherwise have caught. Loosening the rule for all sixty to accommodate one would
+have cost the other fifty-nine a real check. **Name the locale, do not weaken the rule.**
 
 **Three traps for whoever does the next locale, and the second was found the hard way.**
 `emit_from_data.py` is the source of truth for the **37** locales that have a
@@ -1043,14 +1096,11 @@ asked about one:
 | `partOfSpeech` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 | `origin` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 
-That is the measurement the work started from. **Thirty-six locales on** — re-measured
-2026-09-04 — the **bare** counts, a use, which is the bug, read **3183**, **205**, **15**
-and **2**; the totals the tool prints are higher because they count mentions too, and a
-mention is the fix rather than the fault. `gloss_english.py` says **3231** where
-`english_in_translation.py` says 3183, and the 48 between them are exactly the mentions the
-second tool sorts out and the first does not. Every locale that has had its sentences done
-has had its explanations done in the same pass, which is why all four columns move
-together.
+That is the measurement the work started from. **All sixty are done now** — re-measured
+2026-09-04 — and the **bare** counts, a use, which is the bug, read **0**, **0**, **0**
+and **2**. The totals the tool still prints are higher because they count mentions too,
+and a mention is the fix rather than the fault. Every locale that had its sentences done
+had its explanations done in the same pass, which is why all four columns moved together.
 
 **The two generated fields are clean and will stay clean**, which is the useful half of
 that table: a label written from a table cannot drift the way a sentence can, so the
@@ -1073,7 +1123,7 @@ to the heart of the matter" — and sixty translators carried it across faithful
 locale can be blamed for it, and the tool prints the English line beside the local one for
 that reason.
 
-**The same 36 are done, and the 24 generated locales left are not.** Ten `friendly` fields each — eight in a
+**All sixty are done.** Ten `friendly` fields each — eight in a
 Slavic locale, which had already translated *fain* and *fructify* — written out in
 `tool/gloss_local_<locale>.json` and put through the same checks as the sentences;
 `localize_gloss.py` carries three fields now (`glosses` → `exampleGloss`, `friendly`,
@@ -1219,6 +1269,49 @@ marks close with different characters per language, and Turkish `uzun uzun`, Swa
 `_knownReduplication`, each checked by hand. The checks say nothing about grammar, which
 no tool can settle for sixty languages; they catch the generation damage that has twice
 reached the store.
+
+**One word, one alphabet — added 2026-09-04, and it found faults in three languages the
+day it was written.** A letter from the wrong script inside a word is invisible to
+everything else here: it is not English, so the English sweeps skip it; it is a real
+letter, so the punctuation and reduplication checks skip it; and on screen a Cyrillic `а`
+and a Latin `a` are the same glyph. On a device it renders as tofu or as a font switch
+mid-word. It had been found three times by eye — Belarusian *праклінáлі* with a Latin á
+inside a Cyrillic word, and Urdu *apposite* reading `ٹिप्पणी`, an Urdu `ٹ` then four
+**Devanagari** letters. Sweeping all sixty rather than reading them turned up two more
+locales that were already finished: Macedonian `сè` in **nine rows**, a Cyrillic `с` with
+a **Latin** `è` where Macedonian writes `сѐ` with U+0450; and Slovene `spretен` and
+`zbujа`, Latin words ending in Cyrillic. Japanese, Korean and the three Chinese locales
+are exempt, because those writing systems mix Han with kana and hangul inside one word as
+a matter of course.
+
+**The reduplication test has a gap, and it is the comma.** Its pattern is
+`(\p{L}{3,})\s+` — a word, whitespace, the same word — so `ماييم، ماييم` and
+`מיושן, מיושן` and `خامل، خامل` all pass. Sweeping the comma form over all sixty finds
+**69**, but most are `rootMeanings` where two English gloss words collapse onto one local
+word (*"skin, hide"* becoming *"skin, skin"*), which is the translation being honest
+rather than a fault, and several prose ones are two clauses meeting at a seam — the German
+*"tut, tut"* case already noted above. **Judging those needs the languages, not a regex**,
+which is why the sweep is written down here rather than turned into a test.
+
+**The damage that survives every check is always a real word — three for three, and now
+six.** A regex can find a broken word (*los númerlo*, *Mençant*, *Исрпљеност*), a stray
+escape, a letter from the wrong alphabet. It cannot find the right part of speech with the
+wrong sense. Serbian *зрак* was a ray of light where Croatian meant air; Hebrew
+*proleptical* said `המזלג`, the **fork**, where the English is a drinking toast; Armenian
+*involution* said `վարկանիշներ`, the **ratings**, where the English has the credits;
+Sinhala *nescience* said `මිදි රසකැවිලි`, grape **confectionery**, where the English is
+wine. Every one parses, every one is ordinary vocabulary, and the suite was green over all
+of them. **Only reading the row finds these**, which is the argument for rewriting a
+sentence rather than swapping a word into it.
+
+**A locale that was generated rather than written hides English by transliterating it**,
+and that is now four scripts rather than one. Serbian had 23 headwords spelled letter by
+letter into Cyrillic; Khmer's *mortised* definition read `ម៉ូទីស`; Georgian had
+`ფრატრები` for friars, `სიკველი` for sequel twice, and `მორტისისា და ტენონის` for the
+mortise; Urdu had Devanagari inside an Urdu word. **None of it is visible to any count
+here** — the sweeps match English letters and a transliteration has none — so a locale's
+reported debt is always low in the direction that flatters. Expect it, and expect to find
+it only by reading.
 
 **The quiz gave its answer away twice over, and the roots were only half of
 it.** *Hebetude* was asked with `hebes` "dull, blunt" printed above four definitions of
@@ -1895,10 +1988,12 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-03 | `e69ca5b` | Windows | 3.41.7 | clean | **355/355** | empty |
 | 2026-09-03 | `0ce8105` | Windows | 3.41.7 | clean | **356/356** | empty |
 | 2026-09-04 | `b3abbbe` | Windows | 3.41.7 | clean | **356/356** | empty |
+| 2026-09-04 | `05a65b1` | Windows | 3.41.7 | clean | **357/357** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
-334 to 336 to 347 across those commits; the number is a fact about the commit, not a
-constant to hold. The 347 is the two halves added together — 320 and 27.
+334 to 336 to 347 to 357 across those commits; the number is a fact about the commit, not a
+constant to hold. The 357 is the two halves added together — **324 and 33** — and the one
+test added since 347 is `no word mixes two alphabets`.
 
 **`english_narration_test.dart` is flaky under full-suite concurrency**, and has been since
 before `1333cf1` — the file sweeps sixty locales and one of its cases trips the 30s per-test
