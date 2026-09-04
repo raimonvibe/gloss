@@ -248,6 +248,12 @@ void main() {
 /// distribution ('ایک ایک', one by one) and for smallness ('چھوٹی چھوٹی').
 /// Lithuanian 'vos vos' and Vietnamese 'phăng phăng' are intensifiers.
 ///
+/// Vietnamese reduplicates far more freely than any of those, and the 2026-09-04
+/// rewrite of its 134 sentences duly added three at once: 'đều đều' is a drone
+/// (đều, even, doubled into monotony), 'chăm chăm' is fixedly (chăm, to attend),
+/// 'thao thao' is on and on. All three are the ordinary form of the word rather
+/// than an emphatic option, so expect one per handful of Vietnamese rows.
+///
 /// Three are two different phrases meeting at a seam, which reads oddly but
 /// parses correctly: German 'Interesse, das das Gesunde…' is a relative
 /// pronoun before an article; Dutch 'in plaats van van meet af aan' is the
@@ -279,8 +285,11 @@ const _knownReduplication = <String>{
   'ur/garrulous.friendly',
   'ur/internecine.friendly',
   'ur/seriatim.friendly',
+  'vi/captious.exampleGloss',
+  'vi/expatiate.exampleGloss',
   'vi/gainsay.friendly',
   'vi/solecism.root0',
+  'vi/soporific.exampleGloss',
 };
 
 final _quotationMarks = RegExp(r'["“”„«»]');
