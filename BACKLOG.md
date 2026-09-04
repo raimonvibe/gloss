@@ -59,14 +59,14 @@ Where it stands (**re-measured 2026-09-04**, and the tools agree with the list):
 
 | | |
 |---|---|
-| done | **40** locales: `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`, `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`, **`tr`, `az`, `kk`, `ky`** |
-| left | **20** locales — 2,653 of the 8,040 glosses, 33% |
+| done | **42** locales: `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`, `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`, `tr`, `az`, `kk`, `ky`, **`id`, `ms`** |
+| left | **18** locales — 2,387 of the 8,040 glosses, 30% |
 | never | the 7 quotations that **are** the specimen, in all 60 |
 
-**Every word left reads exactly `bare 20`**, which is worth more than the total: the
-remaining English is spread evenly over 20 whole locales rather than pooled in a few, so no
-locale is half-done and none of the 40 has quietly regressed. The other three fields are
-the same 20 and move with them — **173** bare uses in `friendly`, **14** in `definition`,
+**Every word left reads exactly `bare 18`**, which is worth more than the total: the
+remaining English is spread evenly over 18 whole locales rather than pooled in a few, so no
+locale is half-done and none of the 42 has quietly regressed. The other three fields are
+the same 18 and move with them — **157** bare uses in `friendly`, **12** in `definition`,
 **2** in `rootMeanings`.
 
 The two tools disagree by 48 and that is not a fault: `gloss_english.py` counts **3,231**
@@ -108,9 +108,25 @@ Three things came out of doing them that the count did not predict:
   and both kept the English preposition *by dint of* bodily inside `dint`. All found by
   rewriting the row, which is the only way any of them is ever found.
 
+**`id`/`ms` was the case in between, and it is the one worth learning from.** 34 of 402
+prose cells identical at **0.86** mean similarity — far closer than the Turkic four, far
+short of the Chinese three. **The ratio is not what decides it; the shape of the difference
+is.** Taking every word-level substitution between the two files gives **338 substitutions
+in 277 distinct types** — a long tail. `pt_BR` was derivable because its difference was
+nine rules applied over and over; this is a different word in nearly every row, and the ten
+recurring pairs (*adalah*/*ialah*, *tak*/*tidak*, *dari*/*daripada*, *setelah*/*selepas*,
+*film*/*filem*) cover well under a fifth of it.
+
+**So count substitution *types*, not identical cells, when the ratio comes out high.** Two
+files can be 0.86 alike and still need writing twice.
+
+The pair was also **measured again afterwards as a drift guard** — the `az`-into-Turkish
+fault from the same session — and came back 32/402 at 0.85, so the two stayed as distinct
+as they started rather than collapsing into each other. **Worth doing on every pair from
+here: it is four lines, and it is the only check that would catch the drift.**
+
 | group | locales |
 |---|---|
-| Malay | `id`, `ms` — the next obvious pair, and diff it first |
 | Indic | `hi`, `bn`, `ne`, `si`, `ur` |
 | SE Asia | `th`, `lo`, `km`, `my`, `vi`, `fil` |
 | CJK | `ja`, `ko` |

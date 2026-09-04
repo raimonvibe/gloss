@@ -460,13 +460,34 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Forty locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
+**Forty-two locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
 `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`,
 `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`,
-`tr`, `az`, `kk`, `ky`.** **2,653 of the 8,040 glosses still carry the English headword**,
-and **every one of them is in one of the 20 locales left that have a
-`tool/_data_<locale>.py`** — and every word that remains reads exactly `bare 20`, so the 20
+`tr`, `az`, `kk`, `ky`, `id`, `ms`.** **2,387 of the 8,040 glosses still carry the English
+headword**, and **every one of them is in one of the 18 locales left that have a
+`tool/_data_<locale>.py`** — and every word that remains reads exactly `bare 18`, so the 18
 are whole locales rather than a ragged edge.
+
+**`id`/`ms` is the case between the Chinese three and the Turkic four, and it taught the
+measurement the other two did not.** 34 of 402 prose cells identical at **0.86** mean
+similarity — far closer than `tr`/`az`, far short of derivable. **A similarity ratio cannot
+tell those apart; the shape of the difference can.** Every word-level substitution between
+the two files comes to **338 substitutions in 277 distinct types**, which is a long tail
+rather than a rule set — where `pt_BR` was nine rules applied over and over. The ten
+recurring pairs (*adalah*/*ialah*, *tak*/*tidak*, *dari*/*daripada*, *setelah*/*selepas*,
+*film*/*filem*) cover under a fifth of it. **So when a ratio comes out high, count
+substitution *types* before believing it.**
+
+The useful half of a high ratio is that the sentence **frames** are shared, so the second
+file is quicker to write without being derivable. Each row was still decided from the
+English, with the sibling only as a check that the sense had not moved — because `az` had
+drifted into Turkish earlier in the same session, and a finished sibling is exactly what
+makes that likely.
+
+**The pair was measured again afterwards, as a drift guard**, and came back 32/402 at 0.85:
+the two stayed as distinct as they started rather than collapsing together. That check is
+four lines and is the only thing that would catch a locale quietly rewritten into its
+neighbour — **worth running on both sides of every pair from here.**
 
 **The Turkic four were the first group where the diff said "no shortcut" and meant it.**
 Measured before a word was written, as the Chinese three taught: over all 134 words x 3
