@@ -55,13 +55,24 @@ headword standing inside it — "De **soporific** dreun van de lezing". See *The
 inside the example sentence* in [CLAUDE.md](CLAUDE.md) for the whole reasoning and for what
 must not be translated.
 
-Where it stands (2026-09-03, end of the long session):
+Where it stands (**re-measured 2026-09-04**, and the tools agree with the list):
 
 | | |
 |---|---|
 | done | **36** locales: `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`, `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`, `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK` |
 | left | **24** locales — 3,183 of the 8,040 glosses, 40% |
 | never | the 7 quotations that **are** the specimen, in all 60 |
+
+**Every word left reads exactly `bare 24`**, which is worth more than the total: the
+remaining English is spread evenly over 24 whole locales rather than pooled in a few, so no
+locale is half-done and none of the 36 has quietly regressed. The other three fields are
+the same 24 and move with them — **205** bare uses in `friendly` (8 words in all 24, plus
+`fructify` in 13), **15** in `definition`, **2** in `rootMeanings`.
+
+The two tools disagree by 48 and that is not a fault: `gloss_english.py` counts **3,231**
+because it counts mentions along with uses, and `english_in_translation.py` counts **3,183**
+because it sorts them apart. A mention is the fix rather than the bug — see *A mention is
+not a use* in [CLAUDE.md](CLAUDE.md). Take the bare number.
 
 **The tool reaches every locale now.** `localize_gloss.py` used to refuse the 37 with a
 `tool/_data_<locale>.py`; it writes the generator and re-emits, so the remaining 24 are the
@@ -230,8 +241,16 @@ Written 2026-09-03, at the end of a long session.
 **not uploaded**; bump the version code when it is. (`+18`, `+19` and `+20` were all built
 and never uploaded — those codes are spent, not lost.)
 
-**The branch.** Everything is on `the-respelling-is-for-the-ear`. Nothing is merged to
-`main`.
+**The branch.** Everything is on `the-respelling-is-for-the-ear`, and **it is merged.**
+`origin/main` is at `67d06a1`, the merge of PR #19 from this branch, and
+`git rev-list --count origin/main..HEAD` is **0** — every commit here is already upstream.
+Local `main` is 60 behind and has simply not been pulled; it is a stale pointer rather than
+a second line of work, and `git checkout main && git pull` settles it.
+
+This file said *"nothing is merged to `main`"* until 2026-09-04, and it was true the day it
+was written. **A sentence about where the work sits goes stale the moment someone merges**,
+and nothing in the repo updates it — so check it against `git` before trusting it, the way
+the counts above are checked against the tool that measures them.
 
 **The obvious next move** is the four Turkic locales, measured against each other first.
 

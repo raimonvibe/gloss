@@ -464,11 +464,11 @@ python tool/localize_gloss.py --locale nl
 `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`,
 `nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`,
 `zh_HK`.** **3,183 of the 8,040 glosses still carry the English headword**, and **every
-one of them is in one of the 24 locales left that have a `tool/_data_<locale>.py`.**
-Every
-one of the 24 has had its `friendly` and `definition` fields done in the same pass, so a
-diff of one is no longer `exampleGloss` lines alone — see *`exampleGloss` was never the
-only field this can happen in* below.
+one of them is in one of the 24 locales left that have a `tool/_data_<locale>.py`** —
+and every word that remains reads exactly `bare 24`, so the 24 are whole locales rather
+than a ragged edge. Every one of the **36 done** has had its `friendly` and `definition`
+fields done in the same pass, so a diff of one is no longer `exampleGloss` lines alone —
+see *`exampleGloss` was never the only field this can happen in* below.
 
 **`localize_gloss.py` reaches the generated locales too, as of 2026-09-03.** It used to
 refuse all 37 of them — the next `emit_from_data.py` would have thrown the edit away — and
@@ -935,11 +935,14 @@ asked about one:
 | `partOfSpeech` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 | `origin` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 
-That is the measurement the work started from. Twenty-three locales on, the **bare** counts
-— a use, which is the bug — read **4877**, **322**, **19** and **2**; the totals the tool
-prints are higher because they count mentions too, and a mention is the fix rather than the
-fault. Every locale that has had its sentences done has had its explanations done in the
-same pass, which is why all four columns move together.
+That is the measurement the work started from. **Thirty-six locales on** — re-measured
+2026-09-04 — the **bare** counts, a use, which is the bug, read **3183**, **205**, **15**
+and **2**; the totals the tool prints are higher because they count mentions too, and a
+mention is the fix rather than the fault. `gloss_english.py` says **3231** where
+`english_in_translation.py` says 3183, and the 48 between them are exactly the mentions the
+second tool sorts out and the first does not. Every locale that has had its sentences done
+has had its explanations done in the same pass, which is why all four columns move
+together.
 
 **The two generated fields are clean and will stay clean**, which is the useful half of
 that table: a label written from a table cannot drift the way a sentence can, so the
