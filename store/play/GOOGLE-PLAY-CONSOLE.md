@@ -218,7 +218,7 @@ Preview the store listing card. It should now name Name, Email address and in-ap
 
 **`INTERNET`:** the main release manifest now asks for it, because the contact form posts. It used to be a debug-only permission, so a release APK that lacked it is not the app any more — see `android/app/src/main/AndroidManifest.xml`.
 
-**Privacy policy:** the page at `/apps/gloss/privacy` predates the contact form. It needs a paragraph saying what the form sends, that Formspree processes it, and how to ask for it to be deleted — the Data safety answers above are checked against it.
+**Privacy policy:** **done — verified against the live page on 2026-09-04** at <https://www.raimonvibe.eu/apps/gloss/privacy/>. It names what the form sends (name, email address, message, reason, priority, app language, and the optional device details), names Formspree, Inc. as the form-handling service that forwards to info@raimonvibe.com, and gives the deletion route in §11. It covers Google Fonts as well. The Data safety answers above are checked against this page and now agree with it. This line said the page "predates the contact form" until 2026-09-04, which was true when written and had quietly stopped being true — **the page lives in another repository, so nothing here can tell you it moved. Open it before trusting this line.**
 
 ---
 

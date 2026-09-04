@@ -460,15 +460,55 @@ python tool/localize_gloss.py --locale nl --check
 python tool/localize_gloss.py --locale nl
 ```
 
-**Thirty-six locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
+**Forty-two locales are done — `nl`, `de`, `fr`, `fr_CA`, `es`, `es_419`, `it`, `pt`,
 `pt_BR`, `pl`, `ru`, `uk`, `cs`, `sk`, `hr`, `sr`, `sl`, `bg`, `mk`, `el`, `ro`, `hu`,
-`nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`,
-`zh_HK`.** **3,183 of the 8,040 glosses still carry the English headword**, and **every
-one of them is in one of the 24 locales left that have a `tool/_data_<locale>.py`.**
-Every
-one of the 24 has had its `friendly` and `definition` fields done in the same pass, so a
-diff of one is no longer `exampleGloss` lines alone — see *`exampleGloss` was never the
-only field this can happen in* below.
+`nb`, `be`, `da`, `sv`, `af`, `is`, `et`, `fi`, `lt`, `lv`, `sq`, `zh_TW`, `zh`, `zh_HK`,
+`tr`, `az`, `kk`, `ky`, `id`, `ms`.** **2,387 of the 8,040 glosses still carry the English
+headword**, and **every one of them is in one of the 18 locales left that have a
+`tool/_data_<locale>.py`** — and every word that remains reads exactly `bare 18`, so the 18
+are whole locales rather than a ragged edge.
+
+**`id`/`ms` is the case between the Chinese three and the Turkic four, and it taught the
+measurement the other two did not.** 34 of 402 prose cells identical at **0.86** mean
+similarity — far closer than `tr`/`az`, far short of derivable. **A similarity ratio cannot
+tell those apart; the shape of the difference can.** Every word-level substitution between
+the two files comes to **338 substitutions in 277 distinct types**, which is a long tail
+rather than a rule set — where `pt_BR` was nine rules applied over and over. The ten
+recurring pairs (*adalah*/*ialah*, *tak*/*tidak*, *dari*/*daripada*, *setelah*/*selepas*,
+*film*/*filem*) cover under a fifth of it. **So when a ratio comes out high, count
+substitution *types* before believing it.**
+
+The useful half of a high ratio is that the sentence **frames** are shared, so the second
+file is quicker to write without being derivable. Each row was still decided from the
+English, with the sibling only as a check that the sense had not moved — because `az` had
+drifted into Turkish earlier in the same session, and a finished sibling is exactly what
+makes that likely.
+
+**The pair was measured again afterwards, as a drift guard**, and came back 32/402 at 0.85:
+the two stayed as distinct as they started rather than collapsing together. That check is
+four lines and is the only thing that would catch a locale quietly rewritten into its
+neighbour — **worth running on both sides of every pair from here.**
+
+**The Turkic four were the first group where the diff said "no shortcut" and meant it.**
+Measured before a word was written, as the Chinese three taught: over all 134 words x 3
+prose fields, **every one of the six pairs shares zero identical cells**. `tr`/`az` scores
+0.63 mean similarity and `kk`/`ky` 0.54 — the *languages* being close, not the files
+agreeing. **A similarity score predicts nothing; only a count of identical cells does.**
+Four separate jobs, and they cost four.
+
+**Two of them owed a third more than the count said.** Kazakh and Kyrgyz had never had
+their reported speech translated — `clodpate` kept both halves of its English joke, and ten
+more rows kept their quotations, where Turkish and Azerbaijani had already done them. The
+English sweep counts the **headword**, so untranslated quoted speech inside an otherwise
+finished sentence is invisible to it.
+
+**Azerbaijani had drifted into Turkish**, which is the `nb`-was-Danish and `af`-was-Dutch
+fault a third time: its `trenchant` line read *Laf kalabalığını kesir*. Nothing here can see
+it, because the drifted phrase is real words in the other language. **A locale written
+beside its big sibling drifts into the sibling — and the sibling being finished first is
+what makes it likely, not unlikely.** Every one of the **36 done** has had its `friendly` and `definition`
+fields done in the same pass, so a diff of one is no longer `exampleGloss` lines alone —
+see *`exampleGloss` was never the only field this can happen in* below.
 
 **`localize_gloss.py` reaches the generated locales too, as of 2026-09-03.** It used to
 refuse all 37 of them — the next `emit_from_data.py` would have thrown the edit away — and
@@ -751,9 +791,77 @@ check in the project could see any of it. Three faults at once, measured across 
 set is empty now, and it is worth keeping empty**: an exemption there is a reader losing a
 word. *disingenuous* in the same entry's definition had gone the same way and is back too.
 
-The three fields this tool carries are rewritten in ekavian Serbian. **`partOfSpeech`,
-`origin` and `rootMeanings` are written elsewhere and are still Croatian-flavoured** — that
-is a separate job, and it is in BACKLOG.md rather than quietly done here.
+The three fields this tool carries are rewritten in ekavian Serbian.
+
+**And a rewrite fixes only what it rewrites, which sounds obvious and was not.** The
+2026-09-03 pass fixed the English and the Croatian vocabulary in the cells it wrote, and
+left the **jat reflexes** standing everywhere else: *ријеч* for *реч*, *човјек* for *човек*,
+*свјетло* for *светло*, *дио* for *део*. `tool/ekavize_sr.py` closed it on 2026-09-04 —
+**112 cells, 52 `friendly`, 37 `definition`, 23 `rootMeanings`, and zero `exampleGloss`.**
+
+That zero is the whole shape of the thing. Not one of the 134 sentences was ijekavian,
+because the sentences are what `localize_gloss.py` rewrote. **The ijekavian survived exactly
+where the rewrite could not reach** — the 125 `friendly` and 132 `definition` rows that
+`tool/gloss_local_sr.json` does not hold, and `rootMeanings`, which the tool does not carry
+at all. So the coverage of a rewrite is predictable in advance: **diff what the record holds
+against what the overlay has, and that difference is where the old text still is.**
+
+**`partOfSpeech` and `origin` were said here to be Croatian and are not.** Measured: 7 and
+22 labels, already ekavian Cyrillic — *придев* not *pridjev*, *италијански* not *talijanski*.
+`sr` has no entry in `tool/_pos_origin.py` at all, which covers only the 37 `_data_` locales.
+`rootMeanings` was the only one of the three that needed anything.
+
+**Three things about the converter are worth copying.** *A quarter of any reflex sweep is
+noise* — `ије` is an ordinary inflectional ending, so *није*, *нације* and *цикорије* match
+and are correct, and the tool names each in `KEEP` so a decision is distinguishable from an
+oversight. *The pattern was too narrow twice*: jat before *o* gives *дио*, and jotation gives
+*ођедном* — neither contains `је`, and widening the detector forced 47 more tokens to be
+ruled on, 5 of them real. *Four tokens cross from spelling into vocabulary*, where a blind
+conversion is worse than none: *умјетна* ekavizes to *уметна*, which means **inserted**, so
+the definition of *ersatz* would have read "an inserted or worse replacement" — the
+`los númerlo` fault in another language, and invisible to every check here.
+
+**The readback guard rejected the tool's own output twice, and it was right both times.**
+*лицемерје* and *одједном* are correct ekavian and both contain a consonant + `је`, so the
+detector flags what the converter just wrote. Naming them was the fix; loosening the
+detector would have been the bug. **Check a new replacement against the pattern before
+adding it.**
+
+**The Croatian vocabulary went the same day, and it is a different kind of job.** The tool
+is `tool/serbianize_sr.py` now — renamed, because it no longer only ekavizes — and the
+vocabulary half cost **41 more cells**, 21 `friendly` and 20 `definition`.
+
+**A reflex can be swept for; a doublet cannot.** There is no letter that makes *знаност*
+Croatian, so the second table was built by reading all 134 rows rather than by matching.
+Two passes with a candidate stem list called the file clean, and *строј*, *умак*, *точно*
+and *скупина* were all found afterwards — by reading the rows the tool had **already
+changed**. **A doublet list is a reading, not a measurement, and it is never provably
+finished.**
+
+**Three of the doublets changed the meaning, not the register**, which is the argument for
+doing this at all: *зрак* is Croatian for air and Serbian for **a ray of light**; *строј* is
+Croatian for a machine and Serbian for **a military formation**; *умак* is Croatian for
+sauce where the Serbian stem is *умакнути*, to escape. The shipped Serbian called a braggart
+"готово сам врућ **зрак**" and had *actuate* switch on a **formation**. Both parse, and the
+suite was green over both — the same failure mode as *los númerlo* and *Mençant*, which is
+now three for three in this project: **the damage that survives is always a real word.**
+
+**Reading the changed rows is what found the rest**, and it is the only thing that ever
+does. `inanition` read *Слаб, исцеђен стан* — a weak drained *apartment* — where the English
+is "state"; it is *Слабо, исцеђено стање*, and the fix had to move **both adjectives**,
+because *стање* is neuter where *стан* is masculine. That is the `fin de semaine` lesson:
+**a substitution that changes gender has to carry what agrees with it.** The same row's
+definition read *Исрпљеност*, missing a letter, for *исцрпљеност*.
+
+**The tool's detector flagged four of its own replacements** — *лицемерје*, *одједном*,
+*такође*, *исцеђено*, each correct Serbian containing a consonant + `је` — and they were
+found one at a time over three runs before anyone wrote down the two-line check that finds
+them all at once. **When a converter's output trips its own detector, list the output; do
+not loosen the detector.**
+
+What is left in Serbian is in BACKLOG.md: the Croatian phrases still in Latin script inside
+quotation marks, *Схакеспеарова Мацбетха* for *Шекспиров Магбет* in `incarnadine`, and a
+full proofread — which is the only thing that will find the next *Исрпљеност*.
 
 **The lesson generalises past Serbian: a locale that was derived rather than written will
 not show up in any count.** The sweeps ask "is there English here", and a bad derivation
@@ -935,11 +1043,14 @@ asked about one:
 | `partOfSpeech` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 | `origin` | 0 / 8040 | 0% — written by `tool/_pos_origin.py` |
 
-That is the measurement the work started from. Twenty-three locales on, the **bare** counts
-— a use, which is the bug — read **4877**, **322**, **19** and **2**; the totals the tool
-prints are higher because they count mentions too, and a mention is the fix rather than the
-fault. Every locale that has had its sentences done has had its explanations done in the
-same pass, which is why all four columns move together.
+That is the measurement the work started from. **Thirty-six locales on** — re-measured
+2026-09-04 — the **bare** counts, a use, which is the bug, read **3183**, **205**, **15**
+and **2**; the totals the tool prints are higher because they count mentions too, and a
+mention is the fix rather than the fault. `gloss_english.py` says **3231** where
+`english_in_translation.py` says 3183, and the 48 between them are exactly the mentions the
+second tool sorts out and the first does not. Every locale that has had its sentences done
+has had its explanations done in the same pass, which is why all four columns move
+together.
 
 **The two generated fields are clean and will stay clean**, which is the useful half of
 that table: a label written from a table cannot drift the way a sentence can, so the
@@ -1631,8 +1742,9 @@ Three things about it are load-bearing:
 - **A release build now needs `INTERNET`**, which used to be debug-only, and a
   `SENDTO`/`mailto` entry in `<queries>` or Android 11+ hides the composer. Play's
   data safety answers turned over with it — see `store/play/GOOGLE-PLAY-CONSOLE.md`,
-  which is now the record of that, and the privacy page still needs a paragraph
-  about the form.
+  which is now the record of that. **The privacy page carries the paragraph** — verified
+  against the live page on 2026-09-04; it names the fields, names Formspree as the
+  processor and gives the deletion route, and agrees with the Data safety answers.
 
 The study's card, hairline, switch row, link row and light switch live in
 `lib/widgets/settings_section.dart` so both pages wear the same furniture. A
@@ -1782,6 +1894,7 @@ A baseline means nothing without the commit it was taken at:
 | 2026-09-03 | `8a3be0c` | Windows | 3.41.7 | clean | **347/347** | empty |
 | 2026-09-03 | `e69ca5b` | Windows | 3.41.7 | clean | **355/355** | empty |
 | 2026-09-03 | `0ce8105` | Windows | 3.41.7 | clean | **356/356** | empty |
+| 2026-09-04 | `b3abbbe` | Windows | 3.41.7 | clean | **356/356** | empty |
 
 The suite grew from 133 to 146 to 153 to 166 to 177 to 199 to 206 to 218 to 224 to 321 to
 334 to 336 to 347 across those commits; the number is a fact about the commit, not a
@@ -1810,6 +1923,21 @@ words carrying their `ipa`. **Twenty-three locales** now read their example sent
 their explanations wholly in their own language — every locale `localize_gloss.py` can
 reach. Checked by unzipping the bundle rather than by trusting the build: `words_sr.json`,
 `words_hu.json` and `words_el.json` inside it carry the rewritten sentences.
+
+`flutter build appbundle --release` exits 0 on Windows at **`1.0.0+22`** (`b3abbbe`),
+writing a **47.9 MB** bundle — `versionCode 22`, `versionName 1.0.0`, signed
+`CN=Gloss, OU=Mobile, O=Raimonvibe, L=Amsterdam`, `INTERNET` and the `SENDTO` query both in
+the merged manifest, all 60 overlays and both Tangerine faces inside it, and all 134 English
+words carrying their `ipa`. **Forty-two locales** now read their example sentences and their
+explanations wholly in their own language. Checked by unzipping the bundle rather than by
+trusting the build: `words_tr.json` carries *uyutucu* for *soporific*, `words_ms.json`
+*tali sipat* for *plumb-line*, `words_kk.json` a Kazakh `clodpate` where both halves of the
+joke used to be English, `words_id.json` *berkat latihan keras* where *by dint of* used to
+stand, and `words_sr.json` its ekavian.
+
+**Still 47.9 MB, for the sixth version running.** Six locales of rewritten prose and a
+Serbian orthography pass weigh nothing against a bundle made of fonts and engine — worth
+knowing before going looking for what went wrong.
 
 **`1.0.0+21` was built twice** — at `e69ca5b`, and again at `0ce8105` once the voice checks
 had been turned back from vetoes into orderings. The version code stays at 21 because
