@@ -1,8 +1,24 @@
 # -*- coding: utf-8 -*-
-"""Turn what is left of the ijekavian in Serbian into ekavian.
+"""Make Serbian actually Serbian: ekavian, and its own vocabulary.
 
-    python tool/ekavize_sr.py --check    # say what would change
-    python tool/ekavize_sr.py            # write it
+    python tool/serbianize_sr.py --check    # say what would change
+    python tool/serbianize_sr.py            # write it
+
+**Two faults, two tables, and they are not the same kind of thing.** `EKAVIAN`
+fixes the jat reflexes, which are orthography and can be swept for. `CROATIAN`
+fixes lexical doublets, which cannot: there is no letter that makes *знаност*
+Croatian. The first table was found by pattern; the second was found by reading
+all 134 rows, twice, and the words that matter most - *строј*, *умак*, *точно*,
+*скупина* - turned up only on the second reading, after two sweeps with a
+candidate list had called the file clean. **A doublet list is a reading, not a
+measurement**, and it is never provably finished.
+
+**Three of the doublets change the meaning, not the register.** *зрак* is
+Croatian for air and Serbian for a ray of light; *строј* is Croatian for a
+machine and Serbian for a military formation; *умак* is Croatian for sauce
+where the Serbian stem is *умакнути*, to escape. So the shipped Serbian said
+"hot **ray**" of a braggart and "so that the **formation** switches on" of a
+machine. Both parse. No check in this project can see either.
 
 **Serbian was transliterated from Croatian rather than written**, and the
 2026-09-03 rewrite that fixed its English and most of its Croatian vocabulary
@@ -44,13 +60,11 @@ The record and the overlay are written from the same map in one pass, so
 `tool/gloss_local_sr.json` and `assets/l10n/words_sr.json` agree by
 construction rather than by diligence - the `pt_BR` lesson, applied up front.
 
-What this tool deliberately does **not** touch, because one job stays one job:
-the Croatian vocabulary still in the locale (*обрана*, *успркос*, *такођер*,
-*упораба*, *раби*, *којему*, *точку*), and the letter-by-letter
-transliterations of English (*Схакеспеарова Мацбетха* for Шекспиров Магбет).
-Those are in BACKLOG.md. `такођер` is the one of them the sweep happens to
-match, so it is named in `OUT_OF_SCOPE` and reported on every run rather than
-being quietly skipped.
+What this tool still does **not** touch: the letter-by-letter transliterations
+of English (*Схакеспеарова Мацбетха* for *Шекспиров Магбет*, in `incarnadine`)
+and the Croatian phrases left in Latin script inside quotation marks
+(*„Bog je ljubav“*, *„izvršio odlazak“*). Both are in BACKLOG.md. They are a
+third kind of fault and want a third pass, not a row in either table here.
 """
 
 import argparse
@@ -176,6 +190,14 @@ KEEP = {
     'дође', 'нађе', 'пређе', 'прође', 'уђе', 'чађе', 'грађе', 'оруђе',
     'наређења', 'непредвиђеним', 'подређени', 'рођен', 'суђење', 'погођен',
     'разређено', 'уграђено', 'утврђен', 'исцеђен', 'насмешио',
+
+    # `такође` and `исцеђено` are this tool's own output from the CROATIAN and
+    # PHRASES tables, and `ђе` in each is ordinary. That makes four replacements
+    # its own detector flags, found one at a time over three runs. The check is
+    # two lines and belongs before the next table entry, not after it:
+    #     [v for v in WORDS.values() if REFLEX.search(v)]
+    # every one of those must be in this set.
+    'такође', 'исцеђено',
 }
 
 # Caught by the sweep, genuinely wrong, and deliberately not this tool's job.
@@ -183,9 +205,79 @@ KEEP = {
 # the same class as `обрана`, `успркос`, `упораба` and `раби`, which the sweep
 # does not happen to match. Filing it under KEEP would be a lie, since KEEP
 # means correct; it gets its own name so the count stays honest and so the run
-# says out loud what it is walking past.
-OUT_OF_SCOPE = {
-    'такођер',
+# says out loud what it is walking past. `такођер` is in CROATIAN below now, so
+# this set is empty - kept because the next reflex sweep of another locale will
+# want it, and because an empty set is a statement.
+OUT_OF_SCOPE = set()
+
+# Croatian -> Serbian, the second and quite separate half of the job. A jat
+# reflex is orthography and can be swept for; **a lexical doublet cannot**.
+# There is no letter that makes `знаност` Croatian, so this table was built by
+# reading all 134 rows against a candidate list and then reading the rows again
+# for what the list missed - `строј`, `умак`, `точно` and `скупина` were all
+# found the second way, after two sweeps had called the file clean.
+#
+# Three of these change the meaning rather than the register, which is why a
+# doublet list is worth more care than a reflex list:
+#
+#   зрак     Croatian "air"; in Serbian it means **a ray of light**
+#   строј    Croatian "machine"; in Serbian it means **a military formation**
+#   умак     Croatian "sauce"; in Serbian the stem is "умакнути", to escape
+#
+# So `врућ зрак` read "hot ray" and `да се строј укључи` read "that the
+# formation switches on". Both parse, and no check in this project can see it.
+CROATIAN = {
+    'такођер': 'такође',
+    'посве': 'сасвим',
+    'напокон': 'коначно',
+    'точка': 'тачка', 'точку': 'тачку', 'точно': 'тачно',
+    'вањски': 'спољашњи',
+    'властити': 'сопствени', 'властитом': 'сопственом',
+    'властитој': 'сопственој',
+    'доби': 'година',
+    'знаност': 'наука',
+    'зрак': 'ваздух', 'зрака': 'ваздуха',
+    'изравно': 'директно', 'изравног': 'директног',
+    'којему': 'коме',
+    'кухарска': 'куварска',
+    'кућанство': 'домаћинство',
+    'обитељским': 'породичним',
+    'обрана': 'одбрана',
+    'опћенито': 'уопштено',
+    'прорачунски': 'буџетски',
+    'раби': 'користи',
+    'редовнике': 'монахе',
+    'тлаком': 'притиском',
+    'умировљен': 'пензионисан',
+    'унутарња': 'унутрашња',
+    'упораба': 'употреба', 'упорабе': 'употребе',
+    'успркос': 'упркос',
+    'добивати': 'добијати',
+    'скупине': 'групе', 'скупини': 'групи', 'скупину': 'групу',
+    'строј': 'машина',
+    'умаку': 'сосу',
+}
+
+# Where the Serbian word has a different gender from the Croatian one, a
+# word-for-word swap leaves the adjectives disagreeing - the lesson
+# `("week-end", "fin de semaine")` taught Canadian French, which produced
+# *a un fin de semaine*. Only one row here needs it, and it needs it for a
+# different reason: `стан` is not a doublet at all but generation damage for
+# `стање` (a state), and `стање` is neuter where `стан` is masculine, so the
+# two adjectives in front of it have to move too.
+PHRASES = {
+    'Слаб, исцеђен стан': 'Слабо, исцеђено стање',
+}
+
+# Neither a reflex nor a doublet: a word broken in generation, the same class
+# as `los númerlo` in es_419 and `Mençant` in French. Found by reading the rows
+# this pass had already changed, which is the only way any of these three has
+# ever been found. `исрпљеност` is not a word; Serbian is `исцрпљеност`.
+# **Expect more of these.** Nothing here can detect them - a missing letter
+# usually leaves something that still looks like a word - so a full proofread
+# of Serbian is a separate reading job and is in BACKLOG.md.
+DAMAGE = {
+    'исрпљеност': 'исцрпљеност',
 }
 
 # `је` after a consonant is the common reflex; `ио`-final and `ђе` are the two
@@ -194,11 +286,17 @@ OUT_OF_SCOPE = {
 REFLEX = re.compile(r'[бвгдзклмнпрстцчшђћжс]је|ије|љје|њје|ио$|ђе')
 TOKEN = re.compile(r'[Ѐ-ӿ]+')
 
-# one alternation, longest first, so `ријечима` is not eaten by `ријеч`, and
-# anchored either side so it can only ever match a whole word
+# Both tables go through one alternation, longest first so that `ријечима` is
+# not eaten by `ријеч`, and anchored either side so a rule can only ever match a
+# whole word. `умаку` (sauce) must not reach `умакао` (escaped), and `стан` must
+# not reach `станарку`; without the anchors both would, which is the
+# `los númerlo` fault.
+WORDS = dict(EKAVIAN)
+WORDS.update(CROATIAN)
+WORDS.update(DAMAGE)
 _SUB = re.compile(
     r'(?<![Ѐ-ӿ])(%s)(?![Ѐ-ӿ])'
-    % '|'.join(sorted(EKAVIAN, key=len, reverse=True)),
+    % '|'.join(sorted(WORDS, key=len, reverse=True)),
     re.IGNORECASE)
 
 
@@ -210,14 +308,21 @@ def _match_case(source, replacement):
 
 
 def convert(text):
-    """Apply the map to one string, whole words only."""
+    """Apply both maps to one string, whole words only."""
     if not isinstance(text, str):
         return text, 0
     tally = [0]
 
+    # Phrases first: one of them rewrites the adjectives in front of the word
+    # it changes, so a word rule must not get there before it.
+    for before, after in PHRASES.items():
+        if before in text:
+            text = text.replace(before, after)
+            tally[0] += 1
+
     def swap(match):
         word = match.group(0)
-        target = EKAVIAN.get(word.lower())
+        target = WORDS.get(word.lower())
         if target is None:
             return word
         tally[0] += 1
@@ -243,7 +348,7 @@ def unresolved(blob):
     left = set()
     for token in TOKEN.findall(blob):
         low = token.lower()
-        if (REFLEX.search(low) and low not in KEEP and low not in EKAVIAN
+        if (REFLEX.search(low) and low not in KEEP and low not in WORDS
                 and low not in OUT_OF_SCOPE):
             left.add(low)
     return left
@@ -332,7 +437,7 @@ def main():
             again += handle.read()
     still = unresolved(again)
     unconverted = {t.lower() for t in TOKEN.findall(again)
-                   if t.lower() in EKAVIAN}
+                   if t.lower() in WORDS}
     if still or unconverted:
         sys.exit('read back with reflexes still in it: %s'
                  % sorted(still | unconverted))

@@ -787,10 +787,41 @@ detector flags what the converter just wrote. Naming them was the fix; loosening
 detector would have been the bug. **Check a new replacement against the pattern before
 adding it.**
 
-What is left in Serbian is a **different** fault and is in BACKLOG.md: Croatian vocabulary
-(*такођер* 9 times, *обрана*, *успркос*, *упораба*, *раби*, *којему*, *точку*), the Croatian
-phrases still in Latin script inside quotation marks, and *Схакеспеарова Мацбетха* for
-*Шекспиров Магбет* — the letter-by-letter transliteration again, in `incarnadine`.
+**The Croatian vocabulary went the same day, and it is a different kind of job.** The tool
+is `tool/serbianize_sr.py` now — renamed, because it no longer only ekavizes — and the
+vocabulary half cost **41 more cells**, 21 `friendly` and 20 `definition`.
+
+**A reflex can be swept for; a doublet cannot.** There is no letter that makes *знаност*
+Croatian, so the second table was built by reading all 134 rows rather than by matching.
+Two passes with a candidate stem list called the file clean, and *строј*, *умак*, *точно*
+and *скупина* were all found afterwards — by reading the rows the tool had **already
+changed**. **A doublet list is a reading, not a measurement, and it is never provably
+finished.**
+
+**Three of the doublets changed the meaning, not the register**, which is the argument for
+doing this at all: *зрак* is Croatian for air and Serbian for **a ray of light**; *строј* is
+Croatian for a machine and Serbian for **a military formation**; *умак* is Croatian for
+sauce where the Serbian stem is *умакнути*, to escape. The shipped Serbian called a braggart
+"готово сам врућ **зрак**" and had *actuate* switch on a **formation**. Both parse, and the
+suite was green over both — the same failure mode as *los númerlo* and *Mençant*, which is
+now three for three in this project: **the damage that survives is always a real word.**
+
+**Reading the changed rows is what found the rest**, and it is the only thing that ever
+does. `inanition` read *Слаб, исцеђен стан* — a weak drained *apartment* — where the English
+is "state"; it is *Слабо, исцеђено стање*, and the fix had to move **both adjectives**,
+because *стање* is neuter where *стан* is masculine. That is the `fin de semaine` lesson:
+**a substitution that changes gender has to carry what agrees with it.** The same row's
+definition read *Исрпљеност*, missing a letter, for *исцрпљеност*.
+
+**The tool's detector flagged four of its own replacements** — *лицемерје*, *одједном*,
+*такође*, *исцеђено*, each correct Serbian containing a consonant + `је` — and they were
+found one at a time over three runs before anyone wrote down the two-line check that finds
+them all at once. **When a converter's output trips its own detector, list the output; do
+not loosen the detector.**
+
+What is left in Serbian is in BACKLOG.md: the Croatian phrases still in Latin script inside
+quotation marks, *Схакеспеарова Мацбетха* for *Шекспиров Магбет* in `incarnadine`, and a
+full proofread — which is the only thing that will find the next *Исрпљеност*.
 
 **The lesson generalises past Serbian: a locale that was derived rather than written will
 not show up in any count.** The sweeps ask "is there English here", and a bad derivation

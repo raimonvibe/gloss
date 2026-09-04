@@ -199,26 +199,62 @@ loosen the detector. **Check every new replacement against the pattern before ad
 
 ### What is still wrong in Serbian
 
-**Croatian vocabulary**, which is a different fault from the reflexes and was left alone so
-that one job stayed one job: *такођер* for *такође* (**9 uses**), and *обрана* for
-*одбрана*, *успркос* for *упркос*, *упораба* for *употреба*, *раби* for *користи*, *којему*
-for *коме*, *точку* for *тачку*. Only *такођер* is matched by the reflex sweep; it is named
-in the tool's `OUT_OF_SCOPE` and reported on every run rather than silently skipped. The
-others need their own list.
+**The Croatian vocabulary is done too**, 2026-09-04, in the same tool — now
+`tool/serbianize_sr.py`, renamed because it no longer only ekavizes. **41 cells**, 21
+`friendly` and 20 `definition`, on top of the 112 the reflex pass changed.
+
+**A doublet cannot be swept for, and that is the difference from the reflexes.** There is
+no letter that makes *знаност* Croatian. Two passes with a candidate stem list called the
+file clean; *строј*, *умак*, *точно* and *скупина* were all found afterwards, by reading
+the rows the tool had already changed. **A doublet list is a reading, not a measurement,
+and it is never provably finished** — so treat the table as what has been found, not as
+what is there.
+
+**Three of them changed the meaning rather than the register**, which is why this half
+mattered more than its cell count suggests:
+
+| word | Croatian | but in Serbian it means |
+|---|---|---|
+| зрак | air | **a ray of light** |
+| строј | machine | **a military formation** |
+| умак | sauce | (the stem *умакнути*, to escape) |
+
+So the shipped Serbian described a braggart as "готово сам врућ **зрак**" — almost pure hot
+*ray* — and *actuate* as "да се **строј** укључи", that the *formation* switches on. Both
+parse. Both were green in the suite. **A wrong word that is still a word is the failure
+mode this locale keeps producing**, and it is the same one as *los númerlo* and *Mençant*.
+
+**Two repairs in the pass were neither reflex nor doublet.** `inanition` read *Слаб,
+исцеђен стан* — a weak drained *apartment*, where the English is "state"; it is *Слабо,
+исцеђено стање* now, and note that the fix had to move both adjectives, because *стање* is
+neuter where *стан* is masculine. The same row's definition read *Исрпљеност*, which is not
+a word — Serbian is *исцрпљеност*. Both were found by reading rows the tool had already
+touched.
+
+**Expect more of that last kind, and expect nothing here to find them.** A word broken in
+generation usually still looks like a word. **A full proofread of Serbian by someone
+reading it as Serbian is a separate job and is not done.**
+
+**The tool's own detector flagged four of its own replacements** — *лицемерје*, *одједном*,
+*такође*, *исцеђено* — each a correct Serbian word containing a consonant + `је`. They were
+found one at a time across three runs before the obvious check was written down:
+
+```python
+[v for v in WORDS.values() if REFLEX.search(v)]   # every one must be in KEEP
+```
+
+### Still outstanding
 
 **English transliterated letter by letter**, the same fault as the 23 headwords found on
 2026-09-03: *Схакеспеарова Мацбетха* in `incarnadine`, which should be *Шекспиров Магбет*.
-Worth sweeping for the rest of this class rather than fixing the one.
+Sweep for the class rather than fixing the one.
 
-**Roughly ten Croatian fragments in Latin script**, inside quotation marks the rewrite did
+**Roughly ten Croatian fragments in Latin script**, inside quotation marks the rewrites did
 not look at: *„Bog je ljubav“*, *„Bog je pravedan“* (`cataphatic`), *„izvršio odlazak“*
-(`periphrastic`), *„Bijela kuća objavila“* and *„kruna“* (`metonymy`), *„lošem“*
-(`solecism`), *„liže“* (`lambent`). These are **not** English mentions and must not be
-treated as ones — they are Croatian example phrases that should be Serbian Cyrillic.
-
-The tell for all three, and it is the one that found the 23 transliterated headwords:
-Croatian words that are not Serbian — *tijekom*, *njezina*, *obitelj*, *tjedan*, *momčad*,
-*povijest*, *burza*, *kava*, *izvješće*, *rubnik*, *kamo*, *opće*.
+(`periphrastic`), *„Bijela kuća objavila“* and *„kruna“* (`metonymy`), *„na zrak“*
+(`pneumatic`), *„lošem“* (`solecism`), *„liže“* (`lambent`). These are **not** English
+mentions and must not be treated as ones — they are Croatian example phrases that should be
+Serbian Cyrillic.
 
 `lib/models/spoken_origin.dart` derives the compound-origin seam **from the locale's own
 origin labels**, so those labels are read by the voice as well as drawn on the page. They
