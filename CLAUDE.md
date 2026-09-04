@@ -1742,8 +1742,9 @@ Three things about it are load-bearing:
 - **A release build now needs `INTERNET`**, which used to be debug-only, and a
   `SENDTO`/`mailto` entry in `<queries>` or Android 11+ hides the composer. Play's
   data safety answers turned over with it — see `store/play/GOOGLE-PLAY-CONSOLE.md`,
-  which is now the record of that, and the privacy page still needs a paragraph
-  about the form.
+  which is now the record of that. **The privacy page carries the paragraph** — verified
+  against the live page on 2026-09-04; it names the fields, names Formspree as the
+  processor and gives the deletion route, and agrees with the Data safety answers.
 
 The study's card, hairline, switch row, link row and light switch live in
 `lib/widgets/settings_section.dart` so both pages wear the same furniture. A

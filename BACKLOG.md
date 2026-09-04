@@ -412,19 +412,25 @@ Found on 2026-09-04 by auditing for work this file does not carry. Both items ar
 release path and **both live outside this repo**, which is why nothing here sees them and
 why they fell out of the backlog in the first place.
 
-**The privacy policy contradicts the Data safety declaration.**
-`store/play/GOOGLE-PLAY-CONSOLE.md` records the answers already prepared for Play: Name,
-Email address and *Messages -> Other in-app messages*, **Collected**, optional, with
-Formspree as a processor and deletion by mail to info@raimonvibe.com. The page at
-`/apps/gloss/privacy` **predates the contact form and says none of it.** Play checks the
-declaration against the live page, and that same document lists the mismatch as a known
-rejection cause — *"Data safety says you collect data when you do not (or the reverse)"*.
+**The privacy policy is done** — checked against the live page on 2026-09-04, at
+<https://www.raimonvibe.eu/apps/gloss/privacy/>. It names what the form sends ("the name
+and email address you typed; your message; the reason and priority you chose from the
+lists; the language the App is set to", plus the optional device details), names the
+processor ("submitted to Formspree (Formspree, Inc.), a form-handling service, which
+forwards it to info@raimonvibe.com"), and gives the deletion route ("You can ask us to
+delete it at any time", §11, info@raimonvibe.com). It covers Google Fonts too, which the
+store document flagged as a likely follow-up question. **That agrees with the Data safety
+answers in `store/play/GOOGLE-PLAY-CONSOLE.md`**, so the mismatch this entry was written
+about no longer exists.
 
-It needs one paragraph: what the form sends, that Formspree processes it, and how to ask
-for it to be deleted. The source is in **another repository** —
-[raimonvibe/website-editorial-eu](https://github.com/raimonvibe/website-editorial-eu) —
-live at `/apps/gloss/privacy`. This is the one item that blocks the upload §7 is waiting
-on.
+**This entry was stale from the day it was written, and that is the point worth keeping.**
+It was created on 2026-09-04 from `store/play/GOOGLE-PLAY-CONSOLE.md:221`, which says the
+page "predates the contact form" — a note about a **file in another repository** that
+nothing here updates and no sweep here can see. The page had been fixed; the repo never
+learned. This is the same shape as *"nothing is merged to `main`"* in §7: **a claim about
+something outside the repo goes stale silently, and the only fix is to go and look.** Two
+of those in one day, so treat every cross-repo claim in this file as unverified until
+checked.
 
 **The screenshots may still have transparent backgrounds.** The same document names
 `removebg` files as a known Gloss rejection cause. They live under
@@ -433,5 +439,5 @@ fixed **cannot be determined from here** — this is a note to look, not a confi
 The feature graphic is in the repo (`store/play/graphics/`) and is the right size.
 
 **Where this leaves the release.** The bundle is built and verified (§7), the privacy page
-is not written, and the screenshots are unchecked. Nothing in the app has to change for
-either.
+is done, and the screenshots are the only thing left unchecked — and that cannot be settled
+from this machine. **Nothing in the app or the repo blocks the upload.**
