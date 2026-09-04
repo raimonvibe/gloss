@@ -145,71 +145,84 @@ Four things to hold on to before doing another:
   locale, so roughly 600k for all 59. That is a modest job — reach for a strong model
   rather than a cheap router.
 
-## 4. Serbian is still half ijekavian, and it is not where this entry said
+## 4. Serbian: the ijekavian is done, the Croatian vocabulary is not
 
-**Re-measured 2026-09-04, and this entry was wrong in both directions** — it named the
-wrong file for two fields that turn out to be finished, and called three fields done that
-are not. Both halves are recorded here rather than quietly corrected, because the entry was
-written from reading the code and the correction came from measuring the data, which is the
-difference that matters.
+**Done 2026-09-04** by `python tool/ekavize_sr.py` — **112 cells**, 52 `friendly`,
+37 `definition`, 23 `rootMeanings`, and **zero** `exampleGloss`. What is left in the locale
+is below.
 
-**Serbian was never written — it was transliterated from Croatian**, mechanically and
-unfinished. That much holds. What the fields actually contain:
+This entry was wrong twice before it was right, and both are worth keeping, because each
+was written from reading the code and corrected by measuring the data.
 
-| field | written by | state |
-|---|---|---|
-| `partOfSpeech` | the overlay | **done** — 7 labels, ekavian Cyrillic |
-| `origin` | the overlay | **done** — 22 labels, ekavian Cyrillic |
-| `rootMeanings` | the overlay | 268 cells, **24 ijekavian**, 2 in Croatian Latin |
-| `exampleGloss` | `localize_gloss.py` | rewritten 2026-09-03, **ijekavian still in it** |
-| `friendly` | `localize_gloss.py` | rewritten 2026-09-03, **ijekavian still in it** |
-| `definition` | `localize_gloss.py` | rewritten 2026-09-03, **ijekavian still in it** |
+**It named the wrong file.** `partOfSpeech` and `origin` were said to be Croatian labels in
+`tool/_pos_origin.py`. **`sr` has no entry in that table at all** — it covers only the 37
+locales with a `tool/_data_<locale>.py`, and Serbian has neither a `_data_sr.py` nor a
+`_words_sr.py`. The labels live in the overlay and were **already ekavian**: *придев* not
+*pridjev*, *прошло време* not *prošlo vrijeme*, *италијански* not *talijanski*, *немачки*
+not *njemački*. A mechanical transliteration would have given *придјев* and *талијански*.
+Two fields listed as outstanding needed nothing.
 
-**`sr` has no entry in `tool/_pos_origin.py` at all.** That table covers only the 37
-locales with a `tool/_data_<locale>.py`, and Serbian is not one of them — it has neither a
-`_data_sr.py` nor a `_words_sr.py`. Its labels live in the overlay, and they are already
-Serbian rather than Croatian: *придев* not *pridjev*, *прошло време* not *prošlo vrijeme*,
-*италијански* not *talijanski*, *немачки* not *njemački*, *шпански* not *španjolski*,
-*несигурно* not *neizvjesno*. A mechanical transliteration would have given *придјев* and
-*талијански*; it did not, so these two were written rather than converted. **Nothing needs
-doing to them.**
+**And it convicted the wrong field.** The correction said the ijekavian was in
+`exampleGloss`, `friendly` and `definition` alike. It was not in `exampleGloss` — **not one
+of the 134 sentences** — and the 22 reflex tokens found there were all inflectional noise.
+The 2026-09-03 rewrite did produce correct ekavian in everything it wrote. **The ijekavian
+survived exactly where that rewrite never reached**: the 125 `friendly` and 132 `definition`
+rows the record does not hold, and `rootMeanings`, which `localize_gloss.py` does not carry
+at all. That is a fact about coverage, not about care — and it is checkable in advance, by
+comparing what `tool/gloss_local_<locale>.json` holds against what the overlay has.
 
-**The three that were rewritten still carry the ijekavian.** The rewrite fixed the English
-and the Croatian vocabulary, which is what it was for, and the reflexes came through it: a
-sweep for the consonant-plus-`је` reflex finds **99 distinct tokens across all four data
-fields**, of which about three quarters are genuinely ijekavian — *ријеч* (19 uses),
-*претјерано* (11), *човјек* (7), *свјетло* (5), *прије*, *вјетар*, *замјена*, *обје*,
-*неизбјежан*, *умјетна*, *сусједним*, *двије*, *смијех*, *бијес*, *проповијед*. Ekavian
-Serbian writes *реч*, *претерано*, *човек*, *светло*, *пре*, *ветар*.
+**The map is decided, not derived, and about a third of the sweep is noise.** `ије` is an
+ordinary inflectional ending, so *није*, *касније*, *нације*, *перорације* and *цикорије*
+match a naive search and are already correct; so do *набијеним* (набити) and *увијене*
+(увити), where the `ије` is not a reflex at all. `KEEP` in the tool names all of them, so a
+later reader can tell a decision from an oversight.
 
-**About a quarter of that sweep is noise, and the noise is the lesson.** `ије` is also an
-ordinary inflectional ending, so *није*, *касније*, *цикорије*, *нације*, *перорације*,
-*божје*, *одјекнула* and *сједне*-like forms match a naive reflex search and are perfectly
-correct. **Search on consonant + `је` and read the token list before counting it** — a bare
-`ије` grep says 130-odd and means nothing.
+**Two shapes of the reflex have no `је` in them, and the first sweep saw neither.** Jat
+before *o* gives *дио* where ekavian has *део* — *сваки дио* was sitting in the middle of an
+otherwise converted sentence — and jekavian jotation gives *ођедном* and *ђеце* for
+*одједном* and *деце*. Widening the detector then forced 47 more tokens to be ruled on, of
+which 5 were real. **A reflex sweep is only as wide as its pattern, and the pattern was
+wrong twice.**
 
-**Roughly ten Croatian fragments are still in Latin script**, inside quotation marks where
-the rewrite did not look: *„Bog je ljubav“*, *„Bog je pravedan“* (`cataphatic`),
-*„izvršio odlazak“* (`periphrastic`), *„Bijela kuća objavila“* and *„kruna“* (`metonymy`),
-*„lošem“* (`solecism`), *„liže“* (`lambent`). These are not English mentions and must not
-be treated as ones — they are Croatian example phrases that should be Serbian Cyrillic.
+**Four tokens cross from spelling into vocabulary, where a blind conversion is worse than
+none.** *умјетна* ekavizes to *уметна*, which means **inserted** — the definition of
+*ersatz* would have read "an inserted or worse replacement". *лијечнички* gives *лечнички*,
+which is not a word. Serbian says *вештачка* and *лекарски*; *повијесно* wants *историјски*
+and *протурјечност* wants *противречност*. This is the `los númerlo` fault in another
+language: a real-looking word that no check in this project can see.
 
-The tell to look for, and it is the same one that found the 23 transliterated headwords:
+**The tool's readback guard caught its own output twice**, and that is the part worth
+copying. *лицемерје* and *одједном* are the correct ekavian forms and both contain a
+consonant + `је`, so the sweep flags what the tool just wrote. A converter whose output its
+own detector rejects is telling you something true; the answer was to name them, not to
+loosen the detector. **Check every new replacement against the pattern before adding it.**
+
+### What is still wrong in Serbian
+
+**Croatian vocabulary**, which is a different fault from the reflexes and was left alone so
+that one job stayed one job: *такођер* for *такође* (**9 uses**), and *обрана* for
+*одбрана*, *успркос* for *упркос*, *упораба* for *употреба*, *раби* for *користи*, *којему*
+for *коме*, *точку* for *тачку*. Only *такођер* is matched by the reflex sweep; it is named
+in the tool's `OUT_OF_SCOPE` and reported on every run rather than silently skipped. The
+others need their own list.
+
+**English transliterated letter by letter**, the same fault as the 23 headwords found on
+2026-09-03: *Схакеспеарова Мацбетха* in `incarnadine`, which should be *Шекспиров Магбет*.
+Worth sweeping for the rest of this class rather than fixing the one.
+
+**Roughly ten Croatian fragments in Latin script**, inside quotation marks the rewrite did
+not look at: *„Bog je ljubav“*, *„Bog je pravedan“* (`cataphatic`), *„izvršio odlazak“*
+(`periphrastic`), *„Bijela kuća objavila“* and *„kruna“* (`metonymy`), *„lošem“*
+(`solecism`), *„liže“* (`lambent`). These are **not** English mentions and must not be
+treated as ones — they are Croatian example phrases that should be Serbian Cyrillic.
+
+The tell for all three, and it is the one that found the 23 transliterated headwords:
 Croatian words that are not Serbian — *tijekom*, *njezina*, *obitelj*, *tjedan*, *momčad*,
-*povijest*, *burza*, *kava*, *izvješće*, *rubnik*, *kamo*, *opće* — and ijekavian reflexes
-(*vjeđama*, *pjesnik*, *propovijedi*) where the rest of the row is ekavian.
+*povijest*, *burza*, *kava*, *izvješće*, *rubnik*, *kamo*, *opće*.
 
-`origin` and `partOfSpeech` were called the cheap half here, on the reasoning that they are
-a small closed table rather than 134 sentences. The reasoning was right and the conclusion
-is now moot: they are already correct. The point still worth keeping is why it would have
-mattered — `lib/models/spoken_origin.dart` derives the compound-origin seam **from the
-locale's own origin labels**, so those labels are read by the voice as well as drawn on the
-page, and a wrong one would have been heard as well as seen.
-
-What is left in Serbian is the ijekavian, in all four data fields, and it is a reading job:
-no sweep in this project can see it, because an ijekavian word is a real word and the suite
-was green over every one of them. The check is the one above — consonant + `је`, then read
-the tokens.
+`lib/models/spoken_origin.dart` derives the compound-origin seam **from the locale's own
+origin labels**, so those labels are read by the voice as well as drawn on the page. They
+turned out to be correct, but that is why they would have mattered.
 
 **Worth checking the other derived-looking locales the same way before trusting their
 counts.** A locale that was derived rather than written does not show up in any sweep here,
@@ -269,6 +282,15 @@ twice about what engines support.
 "`; a test that reads the shipped assets as bytes and fails on `
 ` would
   stop the next one.
+- **This file carries one deliberate CR, and text-mode Python eats it.** The `newline`
+  bullet above demonstrates a CRLF by containing one, and `pathlib.read_text()` applies
+  universal-newline translation, so any edit made by reading this file as text and writing
+  it back silently converts it to a plain newline — destroying the only example of the
+  thing the bullet is about. It happened twice on 2026-09-04, the second time an hour
+  after being written down. **Edit this file with `read_bytes`/`write_bytes`**, and count the
+  CRLFs afterwards — there should still be exactly one. Writing that check down
+  here put a third one in, because the escape in it was interpreted rather than
+  shown, which is the same trap wearing a hat.
 - **`kRespellingVoicing` is kept for the record and read by nothing.** It looks exactly like
   the cause of any pronunciation bug and is not. See CLAUDE.md.
 

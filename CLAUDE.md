@@ -751,9 +751,46 @@ check in the project could see any of it. Three faults at once, measured across 
 set is empty now, and it is worth keeping empty**: an exemption there is a reader losing a
 word. *disingenuous* in the same entry's definition had gone the same way and is back too.
 
-The three fields this tool carries are rewritten in ekavian Serbian. **`partOfSpeech`,
-`origin` and `rootMeanings` are written elsewhere and are still Croatian-flavoured** — that
-is a separate job, and it is in BACKLOG.md rather than quietly done here.
+The three fields this tool carries are rewritten in ekavian Serbian.
+
+**And a rewrite fixes only what it rewrites, which sounds obvious and was not.** The
+2026-09-03 pass fixed the English and the Croatian vocabulary in the cells it wrote, and
+left the **jat reflexes** standing everywhere else: *ријеч* for *реч*, *човјек* for *човек*,
+*свјетло* for *светло*, *дио* for *део*. `tool/ekavize_sr.py` closed it on 2026-09-04 —
+**112 cells, 52 `friendly`, 37 `definition`, 23 `rootMeanings`, and zero `exampleGloss`.**
+
+That zero is the whole shape of the thing. Not one of the 134 sentences was ijekavian,
+because the sentences are what `localize_gloss.py` rewrote. **The ijekavian survived exactly
+where the rewrite could not reach** — the 125 `friendly` and 132 `definition` rows that
+`tool/gloss_local_sr.json` does not hold, and `rootMeanings`, which the tool does not carry
+at all. So the coverage of a rewrite is predictable in advance: **diff what the record holds
+against what the overlay has, and that difference is where the old text still is.**
+
+**`partOfSpeech` and `origin` were said here to be Croatian and are not.** Measured: 7 and
+22 labels, already ekavian Cyrillic — *придев* not *pridjev*, *италијански* not *talijanski*.
+`sr` has no entry in `tool/_pos_origin.py` at all, which covers only the 37 `_data_` locales.
+`rootMeanings` was the only one of the three that needed anything.
+
+**Three things about the converter are worth copying.** *A quarter of any reflex sweep is
+noise* — `ије` is an ordinary inflectional ending, so *није*, *нације* and *цикорије* match
+and are correct, and the tool names each in `KEEP` so a decision is distinguishable from an
+oversight. *The pattern was too narrow twice*: jat before *o* gives *дио*, and jotation gives
+*ођедном* — neither contains `је`, and widening the detector forced 47 more tokens to be
+ruled on, 5 of them real. *Four tokens cross from spelling into vocabulary*, where a blind
+conversion is worse than none: *умјетна* ekavizes to *уметна*, which means **inserted**, so
+the definition of *ersatz* would have read "an inserted or worse replacement" — the
+`los númerlo` fault in another language, and invisible to every check here.
+
+**The readback guard rejected the tool's own output twice, and it was right both times.**
+*лицемерје* and *одједном* are correct ekavian and both contain a consonant + `је`, so the
+detector flags what the converter just wrote. Naming them was the fix; loosening the
+detector would have been the bug. **Check a new replacement against the pattern before
+adding it.**
+
+What is left in Serbian is a **different** fault and is in BACKLOG.md: Croatian vocabulary
+(*такођер* 9 times, *обрана*, *успркос*, *упораба*, *раби*, *којему*, *точку*), the Croatian
+phrases still in Latin script inside quotation marks, and *Схакеспеарова Мацбетха* for
+*Шекспиров Магбет* — the letter-by-letter transliteration again, in `incarnadine`.
 
 **The lesson generalises past Serbian: a locale that was derived rather than written will
 not show up in any count.** The sweeps ask "is there English here", and a bad derivation
